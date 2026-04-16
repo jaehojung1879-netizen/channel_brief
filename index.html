@@ -252,10 +252,10 @@
   </div>
   <div class="divider"></div>
   <div class="hero-stat">
-    <div class="label">시중은행 점포 현황</div>
-    <div class="big">DETAIL</div>
+    <div class="label">점포 통계 기준시점</div>
+    <div class="big" id="stat-asof-short">—</div>
     <div class="delta" id="stat-source-short">—</div>
-    <div class="sub">합계 비노출 · 하단 팝업에서 은행별 그래프/숫자 제공</div>
+    <div class="sub">합계 수치 비노출 · 하단 팝업에서 은행별 상세 제공</div>
   </div>
   <div class="divider"></div>
   <div class="hero-stat">
@@ -568,6 +568,7 @@ function renderStats(data) {
     `;
   }).join('');
 
+  document.getElementById('stat-asof-short').textContent = esc(data.as_of || '—');
   document.getElementById('stat-source-short').textContent = esc(data.source || '은행연합회');
   document.getElementById('branch-modal-meta').textContent = `${esc(data.as_of || '')} · ${esc(data.source || '')}`;
   document.getElementById('branch-popup-period').textContent = esc(data.as_of || '');

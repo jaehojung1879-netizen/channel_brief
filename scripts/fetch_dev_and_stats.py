@@ -171,10 +171,6 @@ def fetch_branch_stats_from_kfb():
                 cells = [c.get_text(" ", strip=True) for c in tr.select("th,td")]
                 if len(cells) < 2:
                     continue
-                row_text = " ".join(cells)
-                # 점포수 통계 테이블이 아닌 행은 배제
-                if not any(k in row_text for k in ["점포", "영업점", "지점", "은행"]):
-                    continue
                 bank = _map_bank_name(cells[0])
                 if not bank:
                     # 첫 열이 은행명이 아닐 수도 있어 전체 셀 순회
@@ -196,12 +192,6 @@ def fetch_branch_stats_from_kfb():
 
             if len(parsed) >= 5:
                 banks = [{"name": b["name"], "count": parsed[b["name"]]} for b in TARGET_BANKS]
-                # 비정상 파싱 방지: 은행별/합계 범위 검증
-                if not all(100 <= x["count"] <= 3000 for x in banks):
-                    continue
-                total = sum(x["count"] for x in banks)
-                if not (1000 <= total <= 10000):
-                    continue
                 return {
                     "as_of": as_of or datetime.now(KST).strftime("%Y-%m-%d"),
                     "source": "은행연합회 소비자포털 점포 통계",
@@ -224,7 +214,6 @@ def load_branch_stats():
     if stat_file.exists():
         fallback = json.loads(stat_file.read_text(encoding="utf-8"))
         fallback["source"] = f"{fallback.get('source', '수동 입력')} (스크래핑 실패로 fallback)"
-        fallback["is_fallback"] = True
         return fallback
 
     return {
@@ -233,7 +222,6 @@ def load_branch_stats():
         "banks": [{"name": b["name"], "count": 0, "delta_qoq": 0} for b in TARGET_BANKS],
         "total": 0,
         "total_delta_qoq": 0,
-        "is_fallback": True,
     }
 
 
@@ -273,7 +261,6 @@ def main():
         "as_of": stats.get("as_of"),
         "source": stats.get("source"),
         "source_url": stats.get("source_url", ""),
-        "is_fallback": bool(stats.get("is_fallback", False)),
         "banks": banks_out,
         "total": total,
         "total_delta_qoq": total - total_prev,
