@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>채널전략부 Daily Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,900&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+KR:wght@300;400;600;900&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f1419;
+    --bg-elev: #161c24;
+    --bg-card: #1a2129;
+    --line: #2a3441;
+    --line-soft: #1f2832;
+    --ink: #e8e3d8;
+    --ink-dim: #9ca3a9;
+    --ink-mute: #6b7380;
+    --accent: #d4a24c;
+    --accent-dim: #8a6a30;
+    --danger: #c97b63;
+    --ok: #7fa88a;
+    --serif: 'Fraunces', 'Noto Serif KR', serif;
+    --sans: 'IBM Plex Sans KR', system-ui, sans-serif;
+    --mono: 'JetBrains Mono', monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 14px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  body {
+    background-image:
+      radial-gradient(ellipse at top, rgba(212,162,76,0.04) 0%, transparent 50%),
+      repeating-linear-gradient(0deg, transparent 0px, transparent 2px, rgba(255,255,255,0.008) 2px, rgba(255,255,255,0.008) 3px);
+    min-height: 100vh;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  .masthead {
+    border-bottom: 3px double var(--line);
+    padding: 28px 48px 20px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: end;
+    gap: 24px;
+  }
+  .mast-left { font-family: var(--mono); font-size: 11px; color: var(--ink-dim); letter-spacing: 0.08em; }
+  .mast-left .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--ok); margin-right: 6px; animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+  .mast-center { text-align: center; }
+  .mast-center h1 { font-family: var(--serif); font-weight: 900; font-size: 42px; letter-spacing: -0.02em; line-height: 1; font-variation-settings: 'opsz' 144; }
+  .mast-center .tagline { font-family: var(--serif); font-style: italic; font-size: 13px; color: var(--ink-dim); margin-top: 6px; letter-spacing: 0.02em; }
+  .mast-right { font-family: var(--mono); font-size: 11px; color: var(--ink-dim); letter-spacing: 0.08em; text-align: right; }
+  .mast-right .vol { color: var(--accent); }
+
+  .nav { border-bottom: 1px solid var(--line); padding: 10px 48px; display: flex; gap: 28px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; overflow-x: auto; }
+  .nav a { color: var(--ink-dim); transition: color 0.15s; white-space: nowrap; }
+  .nav a:hover { color: var(--accent); }
+  .nav a.active { color: var(--ink); border-bottom: 1px solid var(--accent); padding-bottom: 2px; }
+
+  .hero { padding: 32px 48px; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 2fr 1px 1fr 1px 1fr; gap: 28px; }
+  .hero .divider { background: var(--line); }
+  .hero-lead .kicker { font-family: var(--mono); font-size: 10px; color: var(--accent); letter-spacing: 0.15em; margin-bottom: 10px; }
+  .hero-lead h2 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.15; letter-spacing: -0.015em; margin-bottom: 14px; }
+  .hero-lead p { color: var(--ink-dim); font-size: 14px; line-height: 1.65; max-width: 580px; }
+  .hero-lead .meta { margin-top: 14px; font-family: var(--mono); font-size: 10px; color: var(--ink-mute); letter-spacing: 0.08em; }
+
+  .hero-stat .label { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 12px; }
+  .hero-stat .big { font-family: var(--serif); font-weight: 300; font-size: 52px; line-height: 1; letter-spacing: -0.03em; }
+  .hero-stat .delta { font-family: var(--mono); font-size: 12px; margin-top: 8px; color: var(--danger); }
+  .hero-stat .delta.up { color: var(--ok); }
+  .hero-stat .sub { font-size: 12px; color: var(--ink-dim); margin-top: 12px; }
+
+  .container { padding: 32px 48px 64px; }
+  .section { margin-bottom: 48px; }
+  .section-head { display: flex; align-items: baseline; justify-content: space-between; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 18px; }
+  .section-head h3 { font-family: var(--serif); font-weight: 600; font-size: 22px; letter-spacing: -0.01em; }
+  .section-head h3 .num { font-family: var(--mono); font-size: 11px; color: var(--accent); margin-right: 10px; vertical-align: middle; letter-spacing: 0.1em; }
+  .section-head .updated { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); letter-spacing: 0.08em; }
+
+  .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--line-soft); }
+  .news-item { padding: 20px 22px; border-bottom: 1px solid var(--line-soft); border-right: 1px solid var(--line-soft); transition: background 0.15s; cursor: pointer; }
+  .news-item:nth-child(3n) { border-right: none; padding-right: 0; }
+  .news-item:nth-child(3n+1) { padding-left: 0; }
+  .news-item:hover { background: var(--bg-elev); }
+  .news-item .src { font-family: var(--mono); font-size: 10px; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 8px; }
+  .news-item h4 { font-family: var(--serif); font-weight: 600; font-size: 16px; line-height: 1.3; margin-bottom: 10px; letter-spacing: -0.005em; }
+  .news-item p { font-size: 12.5px; color: var(--ink-dim); line-height: 1.55; margin-bottom: 10px; }
+  .news-item .time { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); letter-spacing: 0.06em; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+
+  .disclosure-list { border-top: 1px solid var(--line-soft); }
+  .disc-item { display: grid; grid-template-columns: 90px 1fr auto; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line-soft); align-items: baseline; }
+  .disc-item .date { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); letter-spacing: 0.05em; }
+  .disc-item .title { font-family: var(--serif); font-size: 14px; color: var(--ink); font-weight: 400; line-height: 1.4; }
+  .disc-item .title em { font-style: normal; color: var(--accent); font-weight: 600; }
+  .disc-item .tag { font-family: var(--mono); font-size: 9px; color: var(--ink-dim); border: 1px solid var(--line); padding: 2px 7px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+  .stat-block { background: var(--bg-elev); border: 1px solid var(--line); padding: 28px; }
+  .stat-block .title-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 20px; }
+  .stat-block h4 { font-family: var(--serif); font-weight: 600; font-size: 16px; }
+  .stat-block .period { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); letter-spacing: 0.08em; }
+  .stat-row { display: grid; grid-template-columns: 100px 1fr 70px 60px; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line-soft); align-items: center; font-size: 13px; }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-row .bank { font-family: var(--serif); font-weight: 600; }
+  .bar-track { background: var(--line-soft); height: 3px; position: relative; }
+  .bar-fill { background: var(--accent); height: 100%; }
+  .stat-row .count { font-family: var(--mono); text-align: right; color: var(--ink-dim); font-size: 12px; }
+  .stat-row .chg { font-family: var(--mono); text-align: right; font-size: 11px; }
+  .chg.neg { color: var(--danger); }
+  .chg.pos { color: var(--ok); }
+
+  .issue-card { border: 1px solid var(--line); padding: 22px; margin-bottom: 14px; position: relative; overflow: hidden; }
+  .issue-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--accent); }
+  .issue-card.hot::before { background: var(--danger); }
+  .issue-card .head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+  .issue-card .cat { font-family: var(--mono); font-size: 9px; color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; }
+  .issue-card.hot .cat { color: var(--danger); }
+  .issue-card .status { font-family: var(--mono); font-size: 9px; color: var(--ink-mute); }
+  .issue-card h5 { font-family: var(--serif); font-weight: 600; font-size: 15px; margin-bottom: 8px; letter-spacing: -0.005em; line-height: 1.35; }
+  .issue-card p { font-size: 12px; color: var(--ink-dim); line-height: 1.55; }
+
+  .bench-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0; border-top: 1px solid var(--line-soft); }
+  .bench-item { padding: 18px 20px; border-bottom: 1px solid var(--line-soft); border-right: 1px solid var(--line-soft); }
+  .bench-item:nth-child(2n) { border-right: none; padding-right: 0; }
+  .bench-item:nth-child(2n+1) { padding-left: 0; }
+  .bench-item .badge { display: inline-block; font-family: var(--mono); font-size: 9px; color: var(--ink-mute); border: 1px solid var(--line); padding: 2px 8px; letter-spacing: 0.1em; margin-bottom: 10px; }
+  .bench-item h5 { font-family: var(--serif); font-weight: 600; font-size: 15px; margin-bottom: 6px; line-height: 1.35; }
+  .bench-item .firm { font-family: var(--mono); font-size: 10px; color: var(--accent); letter-spacing: 0.08em; margin-bottom: 10px; }
+  .bench-item p { font-size: 12px; color: var(--ink-dim); line-height: 1.55; }
+
+  .loading { color: var(--ink-mute); font-family: var(--mono); font-size: 11px; padding: 20px 0; letter-spacing: 0.08em; }
+  .empty { color: var(--ink-mute); font-family: var(--mono); font-size: 11px; padding: 14px 0; letter-spacing: 0.05em; }
+
+  footer { border-top: 3px double var(--line); padding: 24px 48px; font-family: var(--mono); font-size: 10px; color: var(--ink-mute); letter-spacing: 0.08em; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+
+  @media (max-width: 1100px) {
+    .hero { grid-template-columns: 1fr; }
+    .hero .divider { display: none; }
+    .news-grid { grid-template-columns: repeat(2, 1fr); }
+    .two-col { grid-template-columns: 1fr; }
+    .bench-grid { grid-template-columns: 1fr; }
+    .bench-item { padding-left: 0 !important; padding-right: 0 !important; border-right: none !important; }
+  }
+  @media (max-width: 700px) {
+    .masthead { grid-template-columns: 1fr; text-align: center; padding: 20px; }
+    .mast-left, .mast-right { text-align: center; }
+    .mast-center h1 { font-size: 32px; }
+    .nav { padding: 10px 20px; }
+    .hero, .container, footer { padding-left: 20px; padding-right: 20px; }
+    .news-grid { grid-template-columns: 1fr; }
+    .news-item { padding: 16px 0 !important; border-right: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="mast-left">
+    <span class="dot"></span>LIVE · AUTO-UPDATE 07:00 KST
+  </div>
+  <div class="mast-center">
+    <h1>채널전략부 <em style="font-style:italic; font-weight:400;">Daily Brief</em></h1>
+    <div class="tagline">Channel Intelligence for Retail Banking Strategy</div>
+  </div>
+  <div class="mast-right">
+    <span id="vol">VOL. I · NO. —</span><br>
+    <span id="today-date">—</span>
+  </div>
+</header>
+
+<nav class="nav">
+  <a href="#headline" class="active">Headline</a>
+  <a href="#news">영업점 언론</a>
+  <a href="#disclosure">연합회 · 당국</a>
+  <a href="#development">개발 공시</a>
+  <a href="#trend">점포 추이</a>
+  <a href="#issue">채널 이슈</a>
+  <a href="#global">해외 벤치마크</a>
+</nav>
+
+<section class="hero" id="headline">
+  <div class="hero-lead">
+    <div class="kicker">TODAY'S LEAD · 헤드라인</div>
+    <h2 id="lead-title">데이터를 불러오는 중…</h2>
+    <p id="lead-summary">최신 기사를 취합하고 있습니다.</p>
+    <div class="meta" id="lead-meta">—</div>
+  </div>
+  <div class="divider"></div>
+  <div class="hero-stat">
+    <div class="label">시중은행 총 점포 수</div>
+    <div class="big" id="stat-total">—</div>
+    <div class="delta" id="stat-total-delta">—</div>
+    <div class="sub" id="stat-total-asof">—</div>
+  </div>
+  <div class="divider"></div>
+  <div class="hero-stat">
+    <div class="label">오늘의 이슈 카운트</div>
+    <div class="big" id="count-today">—</div>
+    <div class="delta" id="count-delta">—</div>
+    <div class="sub" id="count-sub">—</div>
+  </div>
+</section>
+
+<main class="container">
+
+  <section class="section" id="news">
+    <div class="section-head">
+      <h3><span class="num">§ 01</span>영업점 관련 언론</h3>
+      <div class="updated" id="news-updated">LOADING…</div>
+    </div>
+    <div class="news-grid" id="news-grid">
+      <div class="loading">[LOADING]</div>
+    </div>
+  </section>
+
+  <div class="two-col">
+    <section class="section" id="disclosure">
+      <div class="section-head">
+        <h3><span class="num">§ 02</span>은행연합회 공시</h3>
+        <div class="updated" id="kfb-count">—</div>
+      </div>
+      <div class="disclosure-list" id="kfb-list"><div class="loading">[LOADING]</div></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h3><span class="num">§ 03</span>금융위 · 금감원</h3>
+        <div class="updated" id="fsc-count">—</div>
+      </div>
+      <div class="disclosure-list" id="fsc-list"><div class="loading">[LOADING]</div></div>
+    </section>
+  </div>
+
+  <section class="section" id="development">
+    <div class="section-head">
+      <h3><span class="num">§ 04</span>산업단지 · 복합개발 · 도시재생</h3>
+      <div class="updated" id="dev-updated">—</div>
+    </div>
+    <div class="disclosure-list" id="dev-list"><div class="loading">[LOADING]</div></div>
+  </section>
+
+  <div class="two-col">
+    <section class="section" id="trend">
+      <div class="section-head">
+        <h3><span class="num">§ 05</span>시중은행 점포 수</h3>
+        <div class="updated" id="stat-period">—</div>
+      </div>
+      <div class="stat-block">
+        <div class="title-row">
+          <h4>5대 시중은행 점포 추이</h4>
+          <div class="period">전분기 대비 Δ</div>
+        </div>
+        <div id="stat-rows"><div class="loading">[LOADING]</div></div>
+      </div>
+    </section>
+
+    <section class="section" id="issue">
+      <div class="section-head">
+        <h3><span class="num">§ 06</span>채널 이슈 트래커</h3>
+        <div class="updated" id="issue-count">—</div>
+      </div>
+      <div id="issue-list"><div class="loading">[LOADING]</div></div>
+    </section>
+  </div>
+
+  <section class="section" id="global">
+    <div class="section-head">
+      <h3><span class="num">§ 07</span>해외 리테일 뱅킹 혁신</h3>
+      <div class="updated">CURATED</div>
+    </div>
+    <div class="bench-grid" id="global-grid"><div class="loading">[LOADING]</div></div>
+  </section>
+
+</main>
+
+<footer>
+  <div>자동 수집 · 편집: GitHub Actions · 데이터 소스: 구글뉴스 RSS, 은행연합회, 금융위, 국토부 · <span id="last-build">—</span></div>
+  <div>내부 참고자료 · 채널전략부 · Not for external distribution</div>
+</footer>
+
+<script>
+// ============== 데이터 로더 ==============
+const DATA_BASE = './data';
+
+async function loadJSON(path) {
+  try {
+    const r = await fetch(`${DATA_BASE}/${path}?t=${Date.now()}`);
+    if (!r.ok) throw new Error(`${r.status}`);
+    return await r.json();
+  } catch (e) {
+    console.warn(`load fail: ${path}`, e);
+    return null;
+  }
+}
+
+function fmtRelative(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  const now = new Date();
+  const diffH = (now - d) / 3600000;
+  if (diffH < 1) return `${Math.max(1, Math.round(diffH * 60))}분 전`;
+  if (diffH < 24) return `${Math.round(diffH)}시간 전`;
+  return `${Math.round(diffH / 24)}일 전`;
+}
+
+function fmtDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function esc(s) {
+  if (!s) return '';
+  return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+}
+
+// ============== 렌더링 ==============
+
+function renderMasthead() {
+  const today = new Date();
+  const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  const days = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+  document.getElementById('today-date').textContent =
+    `${days[today.getDay()]}, ${months[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}`;
+
+  // VOL 넘버 = 2026-01-01부터의 평일 수 (대략)
+  const start = new Date('2026-01-01');
+  const diffDays = Math.floor((today - start) / 86400000);
+  document.getElementById('vol').innerHTML = `VOL. I · NO. <span style="color:var(--accent)">${String(diffDays).padStart(3,'0')}</span>`;
+}
+
+function renderNews(data) {
+  const grid = document.getElementById('news-grid');
+  const updated = document.getElementById('news-updated');
+  if (!data || !data.categories) {
+    grid.innerHTML = '<div class="empty">데이터 없음. 다음 자동 갱신 시 복구됩니다.</div>';
+    updated.textContent = 'NO DATA';
+    return;
+  }
+
+  // branch_news + policy_news 병합, 시간순
+  const combined = [
+    ...(data.categories.branch_news || []),
+    ...(data.categories.policy_news || []),
+  ].sort((a,b) => new Date(b.published) - new Date(a.published));
+
+  // 중복 제거
+  const seen = new Set();
+  const items = [];
+  for (const it of combined) {
+    const key = (it.title || '').slice(0, 30);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    items.push(it);
+    if (items.length >= 9) break;
+  }
+
+  if (items.length === 0) {
+    grid.innerHTML = '<div class="empty">최근 기사가 없습니다.</div>';
+    updated.textContent = '0 ARTICLES';
+    return;
+  }
+
+  // 헤드라인(가장 최신)
+  const lead = items[0];
+  document.getElementById('lead-title').textContent = lead.title;
+  document.getElementById('lead-summary').textContent = lead.summary || `${lead.source} 보도.`;
+  document.getElementById('lead-meta').textContent = `${lead.source.toUpperCase()} · ${fmtRelative(lead.published)} · 자동 큐레이션`;
+
+  grid.innerHTML = items.map(it => `
+    <a href="${esc(it.link)}" target="_blank" rel="noopener" class="news-item">
+      <div class="src">${esc(it.source)}</div>
+      <h4>${esc(it.title)}</h4>
+      <p>${esc(it.summary || '')}</p>
+      <div class="time">${fmtRelative(it.published)}</div>
+    </a>
+  `).join('');
+
+  const syncTime = new Date(data.updated_at);
+  updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
+
+  // 카운트 갱신
+  document.getElementById('count-today').textContent = items.length;
+  document.getElementById('count-sub').textContent = `기사 ${items.length} · 당일 수집`;
+}
+
+function renderDisclosure(data) {
+  const kfbList = document.getElementById('kfb-list');
+  const fscList = document.getElementById('fsc-list');
+
+  if (!data) {
+    kfbList.innerHTML = '<div class="empty">데이터 없음</div>';
+    fscList.innerHTML = '<div class="empty">데이터 없음</div>';
+    return;
+  }
+
+  const renderList = (items) => {
+    if (!items || items.length === 0) return '<div class="empty">수집된 항목 없음</div>';
+    return items.slice(0, 7).map(it => {
+      const tag = it.priority ? '중점' : '일반';
+      const title = it.priority
+        ? `<em>${esc(it.title)}</em>`
+        : esc(it.title);
+      return `
+        <a href="${esc(it.link || '#')}" target="_blank" rel="noopener" class="disc-item">
+          <div class="date">${esc(it.date || '—')}</div>
+          <div class="title">${title}</div>
+          <div class="tag">${tag}</div>
+        </a>
+      `;
+    }).join('');
+  };
+
+  kfbList.innerHTML = renderList(data.kfb);
+  fscList.innerHTML = renderList(data.fsc);
+
+  document.getElementById('kfb-count').textContent = `${(data.kfb || []).length} ITEMS`;
+  document.getElementById('fsc-count').textContent = `${(data.fsc || []).length} ITEMS`;
+}
+
+function renderDevelopment(data) {
+  const list = document.getElementById('dev-list');
+  if (!data || !data.items || data.items.length === 0) {
+    list.innerHTML = '<div class="empty">수집된 공시 없음</div>';
+    return;
+  }
+  list.innerHTML = data.items.slice(0, 8).map(it => `
+    <a href="${esc(it.link)}" target="_blank" rel="noopener" class="disc-item">
+      <div class="date">${esc(it.date || fmtDate(it.published))}</div>
+      <div class="title">${esc(it.title)}</div>
+      <div class="tag">${esc(it.source || '뉴스')}</div>
+    </a>
+  `).join('');
+  document.getElementById('dev-updated').textContent = `${data.items.length} NEW`;
+}
+
+function renderStats(data) {
+  const rows = document.getElementById('stat-rows');
+  if (!data || !data.banks) {
+    rows.innerHTML = '<div class="empty">통계 데이터 없음</div>';
+    return;
+  }
+
+  const max = Math.max(...data.banks.map(b => b.count));
+  rows.innerHTML = data.banks.map(b => {
+    const pct = (b.count / max * 100).toFixed(0);
+    const chgClass = b.delta_qoq < 0 ? 'neg' : (b.delta_qoq > 0 ? 'pos' : '');
+    const chgText = b.delta_qoq === 0 ? '0' : (b.delta_qoq > 0 ? `+${b.delta_qoq}` : `${b.delta_qoq}`);
+    return `
+      <div class="stat-row">
+        <div class="bank">${esc(b.name)}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%;"></div></div>
+        <div class="count">${b.count.toLocaleString()}</div>
+        <div class="chg ${chgClass}">${chgText}</div>
+      </div>
+    `;
+  }).join('');
+
+  document.getElementById('stat-total').textContent = data.total ? data.total.toLocaleString() : '—';
+  const d = data.total_delta_qoq;
+  const dEl = document.getElementById('stat-total-delta');
+  dEl.textContent = d < 0 ? `▼ ${Math.abs(d)} (전분기 대비)` : (d > 0 ? `▲ ${d} (전분기 대비)` : '± 0');
+  dEl.className = 'delta' + (d > 0 ? ' up' : '');
+  document.getElementById('stat-total-asof').textContent = `${esc(data.as_of || '')} · ${esc(data.source || '은행연합회')}`;
+  document.getElementById('stat-period').textContent = esc(data.as_of || '');
+}
+
+function renderIssues(data) {
+  const list = document.getElementById('issue-list');
+  if (!data || !data.items || data.items.length === 0) {
+    list.innerHTML = '<div class="empty">수집된 이슈 없음</div>';
+    return;
+  }
+
+  const items = data.items.slice(0, 3);
+  list.innerHTML = items.map((it, i) => {
+    const hot = it.category === '장애인차별금지법' || i === 0;
+    const status = fmtRelative(it.published);
+    return `
+      <a href="${esc(it.link)}" target="_blank" rel="noopener" class="issue-card ${hot ? 'hot' : ''}" style="display:block;">
+        <div class="head">
+          <div class="cat">${esc(it.category || '기타')}</div>
+          <div class="status">${status}</div>
+        </div>
+        <h5>${esc(it.title)}</h5>
+        <p>${esc(it.summary || it.source)}</p>
+      </a>
+    `;
+  }).join('');
+
+  document.getElementById('issue-count').textContent = `${data.items.length} ACTIVE`;
+}
+
+function renderGlobal(data) {
+  const grid = document.getElementById('global-grid');
+  if (!data || !data.items || data.items.length === 0) {
+    grid.innerHTML = '<div class="empty">수집된 해외 사례 없음</div>';
+    return;
+  }
+
+  grid.innerHTML = data.items.slice(0, 4).map(it => `
+    <a href="${esc(it.link)}" target="_blank" rel="noopener" class="bench-item">
+      <div class="badge">${esc(it.region || 'GLOBAL')}</div>
+      <h5>${esc(it.title)}</h5>
+      <div class="firm">${esc((it.source || '').toUpperCase())}</div>
+      <p>${esc(it.summary || '')}</p>
+    </a>
+  `).join('');
+}
+
+async function renderLastBuild() {
+  try {
+    const r = await fetch(`${DATA_BASE}/last_build.txt?t=${Date.now()}`);
+    if (r.ok) {
+      const t = (await r.text()).trim();
+      document.getElementById('last-build').textContent = `Last build: ${t}`;
+    }
+  } catch {}
+}
+
+// ============== 시작 ==============
+(async function init() {
+  renderMasthead();
+
+  const [news, disclosure, development, stats, issues, global] = await Promise.all([
+    loadJSON('news.json'),
+    loadJSON('disclosure.json'),
+    loadJSON('development.json'),
+    loadJSON('branch_stats.json'),
+    loadJSON('issues.json'),
+    loadJSON('global.json'),
+  ]);
+
+  renderNews(news);
+  renderDisclosure(disclosure);
+  renderDevelopment(development);
+  renderStats(stats);
+  renderIssues(issues);
+  renderGlobal(global);
+  renderLastBuild();
+})();
+
+// 부드러운 스크롤 + 네비 active 토글
+document.querySelectorAll('.nav a').forEach(a => {
+  a.addEventListener('click', e => {
+    const href = a.getAttribute('href');
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      document.querySelector(href)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      document.querySelectorAll('.nav a').forEach(x => x.classList.remove('active'));
+      a.classList.add('active');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
