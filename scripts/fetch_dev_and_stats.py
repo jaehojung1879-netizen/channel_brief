@@ -5,6 +5,7 @@ LH / 국토교통부 개발 공시 + 시중은행 점포 수 추이
 """
 import feedparser
 import json
+import os
 import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -29,6 +30,11 @@ KFB_BRANCH_URL_CANDIDATES = [
     "https://www.kfb.or.kr/consumer/stat/branch.php",
     "https://exchange.kfb.or.kr/page/branch.php",
 ]
+
+# 금융통계정보시스템(FISIS) OpenAPI
+# - 권장: GitHub Secrets에 FISIS_API_KEY 저장
+# - 선택: FISIS_BRANCH_API_URL 전체 URL(키 제외) 지정 시 해당 URL 우선 사용
+FISIS_DEFAULT_ENDPOINT = "http://fisis.fss.or.kr/openapi/statisticsListSearch.json"
 
 TARGET_BANKS = [
     {"name": "KB국민", "aliases": ["kb국민", "국민은행", "kb"]},
@@ -155,6 +161,128 @@ def load_previous_stats():
     return {"banks": []}
 
 
+def fetch_branch_stats_from_fisis():
+    """금융통계정보시스템(FISIS) API에서 점포 수 조회."""
+    api_key = os.environ.get("FISIS_API_KEY", "").strip()
+    if not api_key:
+        return None
+
+    explicit_url = os.environ.get("FISIS_BRANCH_API_URL", "").strip()
+    finance_cd = os.environ.get("FISIS_FINANCE_CD", "BK").strip()  # 예: 은행권
+    list_no = os.environ.get("FISIS_LIST_NO", "").strip()
+    account_cd = os.environ.get("FISIS_ACCOUNT_CD", "").strip()
+    term = os.environ.get("FISIS_TERM", "Q").strip()  # Q / M / Y
+    lang = os.environ.get("FISIS_LANG", "kr").strip()
+    start_ym = os.environ.get("FISIS_START_BASE_MM", "202001").strip()
+    end_ym = os.environ.get("FISIS_END_BASE_MM", datetime.now(KST).strftime("%Y%m")).strip()
+
+    if explicit_url:
+        # 예: http://fisis.fss.or.kr/openapi/statisticsListSearch.json?financeCd=BK&listNo=...&accountCd=...
+        url = explicit_url
+        sep = "&" if "?" in url else "?"
+        req_url = f"{url}{sep}auth={api_key}&lang={lang}"
+    else:
+        # 통계코드(listNo/accountCd)는 발급 환경마다 다를 수 있어 환경변수로 주입
+        if not list_no or not account_cd:
+            return None
+        req_url = (
+            f"{FISIS_DEFAULT_ENDPOINT}"
+            f"?auth={api_key}&lang={lang}&financeCd={finance_cd}"
+            f"&listNo={list_no}&accountCd={account_cd}&term={term}"
+            f"&startBaseMm={start_ym}&endBaseMm={end_ym}"
+        )
+
+    try:
+        resp = requests.get(req_url, headers=HEADERS, timeout=20)
+        if resp.status_code != 200:
+            print(f"[stats] fisis status={resp.status_code}")
+            return None
+        data = resp.json()
+    except Exception as e:
+        print(f"[stats] fisis request fail: {e}")
+        return None
+
+    # 응답 형식 호환 처리
+    rows = []
+    for key in ["result", "list", "data", "items"]:
+        if isinstance(data.get(key), list):
+            rows = data[key]
+            break
+    if not rows and isinstance(data.get("response"), dict):
+        r = data["response"]
+        if isinstance(r.get("result"), list):
+            rows = r["result"]
+        elif isinstance(r.get("data"), list):
+            rows = r["data"]
+    if not rows:
+        return None
+
+    # 가장 최신 기준월 탐색
+    def ym_of(row):
+        for k in ["baseYm", "base_mm", "baseMm", "basYm", "baseYymm"]:
+            v = str(row.get(k, "")).strip()
+            if re.fullmatch(r"\d{6}", v):
+                return v
+        txt = " ".join(str(v) for v in row.values())
+        m = re.search(r"(20\d{2})(0[1-9]|1[0-2])", txt)
+        return "".join(m.groups()) if m else "000000"
+
+    latest_ym = max((ym_of(r) for r in rows), default="000000")
+    latest_rows = [r for r in rows if ym_of(r) == latest_ym] or rows
+
+    parsed = {}
+    for row in latest_rows:
+        # 은행명 후보
+        name_candidates = []
+        for nk in ["financeNm", "companyNm", "finCompNm", "bankNm", "finance_name", "kor_co_nm", "name"]:
+            if row.get(nk):
+                name_candidates.append(str(row.get(nk)))
+        if not name_candidates:
+            name_candidates = [str(v) for v in row.values() if isinstance(v, str)]
+
+        bank = None
+        for n in name_candidates:
+            bank = _map_bank_name(n)
+            if bank:
+                break
+        if not bank:
+            continue
+
+        # 숫자 후보
+        value = None
+        for vk in ["dataValue", "value", "val", "resultVal", "amt", "cnt", "count"]:
+            if row.get(vk) is not None:
+                value = _extract_int(str(row.get(vk)))
+                if value is not None:
+                    break
+        if value is None:
+            for v in row.values():
+                value = _extract_int(str(v))
+                if value is not None:
+                    break
+        if value is None:
+            continue
+        parsed[bank] = value
+
+    if len(parsed) < 5:
+        return None
+
+    banks = [{"name": b["name"], "count": parsed[b["name"]]} for b in TARGET_BANKS]
+    if not all(100 <= x["count"] <= 3000 for x in banks):
+        return None
+    total = sum(x["count"] for x in banks)
+    if not (1000 <= total <= 10000):
+        return None
+
+    as_of = f"{latest_ym[:4]}-{latest_ym[4:6]}-31" if re.fullmatch(r"\d{6}", latest_ym) else datetime.now(KST).strftime("%Y-%m-%d")
+    return {
+        "as_of": as_of,
+        "source": "금융통계정보시스템(FISIS) OpenAPI",
+        "source_url": explicit_url or FISIS_DEFAULT_ENDPOINT,
+        "banks": banks,
+    }
+
+
 def fetch_branch_stats_from_kfb():
     """은행연합회 소비자포털/통계 페이지에서 5대 은행 점포 수 스크래핑."""
     for url in KFB_BRANCH_URL_CANDIDATES:
@@ -170,6 +298,10 @@ def fetch_branch_stats_from_kfb():
             for tr in soup.select("table tr"):
                 cells = [c.get_text(" ", strip=True) for c in tr.select("th,td")]
                 if len(cells) < 2:
+                    continue
+                row_text = " ".join(cells)
+                # 점포수 통계 테이블이 아닌 행은 배제
+                if not any(k in row_text for k in ["점포", "영업점", "지점", "은행"]):
                     continue
                 bank = _map_bank_name(cells[0])
                 if not bank:
@@ -192,6 +324,12 @@ def fetch_branch_stats_from_kfb():
 
             if len(parsed) >= 5:
                 banks = [{"name": b["name"], "count": parsed[b["name"]]} for b in TARGET_BANKS]
+                # 비정상 파싱 방지: 은행별/합계 범위 검증
+                if not all(100 <= x["count"] <= 3000 for x in banks):
+                    continue
+                total = sum(x["count"] for x in banks)
+                if not (1000 <= total <= 10000):
+                    continue
                 return {
                     "as_of": as_of or datetime.now(KST).strftime("%Y-%m-%d"),
                     "source": "은행연합회 소비자포털 점포 통계",
@@ -205,7 +343,11 @@ def fetch_branch_stats_from_kfb():
 
 
 def load_branch_stats():
-    """점포 수 스크래핑 우선, 실패 시 수동 파일 fallback."""
+    """점포 수 API 우선, 실패 시 스크래핑/수동 파일 fallback."""
+    fisis = fetch_branch_stats_from_fisis()
+    if fisis:
+        return fisis
+
     scraped = fetch_branch_stats_from_kfb()
     if scraped:
         return scraped
@@ -214,6 +356,7 @@ def load_branch_stats():
     if stat_file.exists():
         fallback = json.loads(stat_file.read_text(encoding="utf-8"))
         fallback["source"] = f"{fallback.get('source', '수동 입력')} (스크래핑 실패로 fallback)"
+        fallback["is_fallback"] = True
         return fallback
 
     return {
@@ -222,6 +365,7 @@ def load_branch_stats():
         "banks": [{"name": b["name"], "count": 0, "delta_qoq": 0} for b in TARGET_BANKS],
         "total": 0,
         "total_delta_qoq": 0,
+        "is_fallback": True,
     }
 
 
@@ -261,6 +405,7 @@ def main():
         "as_of": stats.get("as_of"),
         "source": stats.get("source"),
         "source_url": stats.get("source_url", ""),
+        "is_fallback": bool(stats.get("is_fallback", False)),
         "banks": banks_out,
         "total": total,
         "total_delta_qoq": total - total_prev,
