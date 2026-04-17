@@ -36,6 +36,15 @@ jobs:
 
       - name: Fetch development + stats
         run: python scripts/fetch_dev_and_stats.py
+        env:
+          FISIS_API_KEY: ${{ secrets.FISIS_API_KEY }}
+          FISIS_BRANCH_API_URL: ${{ secrets.FISIS_BRANCH_API_URL }}
+          FISIS_FINANCE_CD: ${{ secrets.FISIS_FINANCE_CD }}
+          FISIS_LIST_NO: ${{ secrets.FISIS_LIST_NO }}
+          FISIS_ACCOUNT_CD: ${{ secrets.FISIS_ACCOUNT_CD }}
+          FISIS_TERM: ${{ secrets.FISIS_TERM }}
+          FISIS_START_BASE_MM: ${{ secrets.FISIS_START_BASE_MM }}
+          FISIS_END_BASE_MM: ${{ secrets.FISIS_END_BASE_MM }}
         continue-on-error: true
 
       - name: Fetch issues + global
