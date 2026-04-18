@@ -1,7 +1,10 @@
 """
-LH / 국토교통부 개발 공시 + 시중은행 점포 수 추이
-개발 공시는 구글뉴스 RSS로 우회 (공식 API 없음)
-점포 수는 은행연합회 소비자포털 통계를 우선 스크래핑
+LH / 국토교통부 개발 공시 + 시중은행 점포 수 / 지역별 점포 현황
+- 개발 공시: 구글뉴스 RSS 우회 (공식 API 없음)
+- 점포 수: FISIS OpenAPI 4-step 체인 (companySearch → statisticsListSearch → accountListSearch → statisticsInfoSearch)
+  · 국내은행(partDiv=A) / 일반현황(smlDiv=A) / 통계표 "영업점포현황" + "지역별 점포 현황"
+  · 발견된 코드는 data/fisis_codes.json 에 캐싱
+  · 실패 시 은행연합회 스크래핑 → branch_stats_manual.json 순서로 fallback
 """
 import feedparser
 import json
@@ -22,8 +25,16 @@ HEADERS = {
                   "(KHTML, like Gecko) Chrome/123.0 Safari/537.36"
 }
 
+# ====== FISIS OpenAPI ======
+FISIS_BASE = "http://fisis.fss.or.kr/openapi"
+FISIS_PART_DIV_DOMESTIC_BANK = "A"   # 국내은행
+FISIS_LRG_DIV_BANK = "A"
+FISIS_SML_DIV_GENERAL = "A"           # 일반현황
+FISIS_CACHE_FILE = DATA_DIR / "fisis_codes.json"
+FISIS_LIST_KEYWORD_BRANCH = "영업점포현황"
+FISIS_LIST_KEYWORD_REGIONAL = "지역별 점포"
+
 KFB_BRANCH_URL_CANDIDATES = [
-    # 실제 운영 중 URL은 사이트 개편에 따라 변경될 수 있어 후보군으로 순차 시도
     "https://portal.kfb.or.kr/fingoods/saving/listBranchStatistics.do",
     "https://portal.kfb.or.kr/fingoods/saving/branchStatistics.do",
     "https://portal.kfb.or.kr/fingoods/branch/branchStatistics.do",
@@ -31,17 +42,17 @@ KFB_BRANCH_URL_CANDIDATES = [
     "https://exchange.kfb.or.kr/page/branch.php",
 ]
 
-# 금융통계정보시스템(FISIS) OpenAPI
-# - 권장: GitHub Secrets에 FISIS_API_KEY 저장
-# - 선택: FISIS_BRANCH_API_URL 전체 URL(키 제외) 지정 시 해당 URL 우선 사용
-FISIS_DEFAULT_ENDPOINT = "http://fisis.fss.or.kr/openapi/statisticsListSearch.json"
-
 TARGET_BANKS = [
-    {"name": "KB국민", "aliases": ["kb국민", "국민은행", "kb"]},
-    {"name": "신한", "aliases": ["신한은행", "신한"]},
-    {"name": "하나", "aliases": ["하나은행", "keb하나", "하나"]},
-    {"name": "우리", "aliases": ["우리은행", "우리"]},
-    {"name": "NH농협", "aliases": ["nh농협은행", "농협은행", "nh농협", "농협"]},
+    {"name": "KB국민", "aliases": ["kb국민은행", "kb국민", "국민은행", "kookmin"]},
+    {"name": "신한", "aliases": ["신한은행", "신한", "shinhan"]},
+    {"name": "하나", "aliases": ["하나은행", "keb하나", "하나", "hana"]},
+    {"name": "우리", "aliases": ["우리은행", "우리", "woori"]},
+    {"name": "NH농협", "aliases": ["nh농협은행", "농협은행", "nh농협", "농협", "nonghyup"]},
+]
+
+REGION_ORDER = [
+    "서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종",
+    "경기", "강원", "충북", "충남", "전북", "전남", "경북", "경남", "제주",
 ]
 
 DEV_KEYWORDS = [
@@ -55,6 +66,7 @@ DEV_KEYWORDS = [
 ]
 
 
+# ---------- utils ----------
 def make_id(s: str) -> str:
     return hashlib.md5(s.encode("utf-8")).hexdigest()[:12]
 
@@ -67,6 +79,54 @@ def clean_html(raw: str) -> str:
     return text.strip()
 
 
+def _norm(s: str) -> str:
+    return re.sub(r"\s+", "", (s or "").strip()).lower()
+
+
+def _extract_int(s):
+    if s is None:
+        return None
+    nums = re.findall(r"\d[\d,]*", str(s))
+    if not nums:
+        return None
+    try:
+        return int(nums[-1].replace(",", ""))
+    except ValueError:
+        return None
+
+
+def _map_bank_name(raw_name: str):
+    if not raw_name:
+        return None
+    n = _norm(raw_name)
+    for b in TARGET_BANKS:
+        for alias in b["aliases"]:
+            if _norm(alias) in n:
+                return b["name"]
+    return None
+
+
+def _parse_as_of(text: str):
+    m = re.search(r"(20\d{2})[.\-/년 ]\s*(\d{1,2})[.\-/월 ]\s*(\d{1,2})\s*일?", text or "")
+    if m:
+        y, mo, d = m.groups()
+        return f"{int(y):04d}-{int(mo):02d}-{int(d):02d}"
+    m2 = re.search(r"(20\d{2})[.\-/년 ]\s*(\d{1,2})\s*월?\s*말", text or "")
+    if m2:
+        y, mo = m2.groups()
+        return f"{int(y):04d}-{int(mo):02d}-31"
+    return ""
+
+
+def _ym_to_asof(ym: str):
+    if not re.fullmatch(r"\d{6}", ym or ""):
+        return datetime.now(KST).strftime("%Y-%m-%d")
+    mo = ym[4:6]
+    day = "31" if mo in ("03", "05", "07", "08", "10", "12") else ("30" if mo in ("04", "06", "09", "11") else "28")
+    return f"{ym[:4]}-{mo}-{day}"
+
+
+# ---------- development news ----------
 def fetch_development_news():
     """구글뉴스로 개발 공시 관련 기사 수집"""
     all_items = []
@@ -101,7 +161,6 @@ def fetch_development_news():
         except Exception as e:
             print(f"[dev] error '{q}': {e}")
 
-    # 중복 제거
     seen = set()
     result = []
     for item in all_items:
@@ -111,180 +170,354 @@ def fetch_development_news():
         seen.add(key)
         result.append(item)
 
-    # 최근 7일만
     cutoff = datetime.now(KST) - timedelta(days=7)
     result = [x for x in result if datetime.fromisoformat(x["published"]) >= cutoff]
     result.sort(key=lambda x: x["published"], reverse=True)
     return result[:15]
 
 
-def _norm(s: str) -> str:
-    return re.sub(r"\s+", "", (s or "").strip()).lower()
-
-
-def _extract_int(s: str):
-    nums = re.findall(r"\d[\d,]*", s or "")
-    if not nums:
-        return None
-    return int(nums[-1].replace(",", ""))
-
-
-def _map_bank_name(raw_name: str):
-    n = _norm(raw_name)
-    for b in TARGET_BANKS:
-        for alias in b["aliases"]:
-            if _norm(alias) in n:
-                return b["name"]
-    return None
-
-
-def _parse_as_of(text: str):
-    m = re.search(r"(20\d{2})[.\-/년 ]\s*(\d{1,2})[.\-/월 ]\s*(\d{1,2})\s*일?", text or "")
-    if m:
-        y, mo, d = m.groups()
-        return f"{int(y):04d}-{int(mo):02d}-{int(d):02d}"
-    m2 = re.search(r"(20\d{2})[.\-/년 ]\s*(\d{1,2})\s*월?\s*말", text or "")
-    if m2:
-        y, mo = m2.groups()
-        return f"{int(y):04d}-{int(mo):02d}-31"
-    return ""
-
-
-def load_previous_stats():
-    """이전 분기 대비 증감 계산을 위한 이전 값 로딩"""
-    for p in [DATA_DIR / "branch_stats.json", DATA_DIR / "branch_stats_manual.json"]:
-        if p.exists():
-            try:
-                return json.loads(p.read_text(encoding="utf-8"))
-            except Exception:
-                continue
-    return {"banks": []}
-
-
-def fetch_branch_stats_from_fisis():
-    """금융통계정보시스템(FISIS) API에서 점포 수 조회."""
+# ---------- FISIS OpenAPI ----------
+def _fisis_get(endpoint: str, **params):
+    """FISIS API GET (.json) → dict. 실패 시 None."""
     api_key = os.environ.get("FISIS_API_KEY", "").strip()
     if not api_key:
         return None
-
-    explicit_url = os.environ.get("FISIS_BRANCH_API_URL", "").strip()
-    finance_cd = os.environ.get("FISIS_FINANCE_CD", "BK").strip()  # 예: 은행권
-    list_no = os.environ.get("FISIS_LIST_NO", "").strip()
-    account_cd = os.environ.get("FISIS_ACCOUNT_CD", "").strip()
-    term = os.environ.get("FISIS_TERM", "Q").strip()  # Q / M / Y
-    lang = os.environ.get("FISIS_LANG", "kr").strip()
-    start_ym = os.environ.get("FISIS_START_BASE_MM", "202001").strip()
-    end_ym = os.environ.get("FISIS_END_BASE_MM", datetime.now(KST).strftime("%Y%m")).strip()
-
-    if explicit_url:
-        # 예: http://fisis.fss.or.kr/openapi/statisticsListSearch.json?financeCd=BK&listNo=...&accountCd=...
-        url = explicit_url
-        sep = "&" if "?" in url else "?"
-        req_url = f"{url}{sep}auth={api_key}&lang={lang}"
-    else:
-        # 통계코드(listNo/accountCd)는 발급 환경마다 다를 수 있어 환경변수로 주입
-        if not list_no or not account_cd:
-            return None
-        req_url = (
-            f"{FISIS_DEFAULT_ENDPOINT}"
-            f"?auth={api_key}&lang={lang}&financeCd={finance_cd}"
-            f"&listNo={list_no}&accountCd={account_cd}&term={term}"
-            f"&startBaseMm={start_ym}&endBaseMm={end_ym}"
-        )
-
+    params.setdefault("auth", api_key)
+    params.setdefault("lang", "kr")
+    url = f"{FISIS_BASE}/{endpoint}.json"
     try:
-        resp = requests.get(req_url, headers=HEADERS, timeout=20)
+        resp = requests.get(url, params=params, headers=HEADERS, timeout=25)
         if resp.status_code != 200:
-            print(f"[stats] fisis status={resp.status_code}")
+            print(f"[fisis] {endpoint} status={resp.status_code}")
             return None
-        data = resp.json()
+        try:
+            return resp.json()
+        except Exception:
+            print(f"[fisis] {endpoint} non-json body (first 200): {resp.text[:200]}")
+            return None
     except Exception as e:
-        print(f"[stats] fisis request fail: {e}")
+        print(f"[fisis] {endpoint} request error: {e}")
         return None
 
-    # 응답 형식 호환 처리
-    rows = []
-    for key in ["result", "list", "data", "items"]:
-        if isinstance(data.get(key), list):
-            rows = data[key]
-            break
-    if not rows and isinstance(data.get("response"), dict):
-        r = data["response"]
-        if isinstance(r.get("result"), list):
-            rows = r["result"]
-        elif isinstance(r.get("data"), list):
-            rows = r["data"]
-    if not rows:
+
+def _fisis_extract_rows(data):
+    """응답에서 row 리스트 추출 (FISIS 응답 구조가 문서화되지 않아 후보 순회)."""
+    if not isinstance(data, dict):
+        return []
+    for key in ["result", "list", "data", "items", "row"]:
+        v = data.get(key)
+        if isinstance(v, list):
+            return v
+        if isinstance(v, dict):
+            for inner in ["list", "row", "data", "items"]:
+                vv = v.get(inner)
+                if isinstance(vv, list):
+                    return vv
+    for nk in ["response", "body"]:
+        nested = data.get(nk)
+        if isinstance(nested, dict):
+            for key in ["result", "list", "data", "items", "row"]:
+                v = nested.get(key)
+                if isinstance(v, list):
+                    return v
+    return []
+
+
+def _fisis_first(row: dict, keys):
+    for k in keys:
+        v = row.get(k)
+        if v is not None and str(v).strip():
+            return str(v).strip()
+    return ""
+
+
+def _fisis_row_ym(row: dict):
+    v = _fisis_first(row, ["baseYm", "basYm", "baseMm", "base_mm", "baseYymm", "period"])
+    if re.fullmatch(r"\d{6}", v):
+        return v
+    txt = " ".join(str(x) for x in row.values())
+    m = re.search(r"(20\d{2})(0[1-9]|1[0-2])", txt)
+    return "".join(m.groups()) if m else ""
+
+
+def _fisis_row_value(row: dict):
+    val = _fisis_first(row, ["dataValue", "value", "val", "resultVal", "amt", "cnt", "count"])
+    n = _extract_int(val)
+    if n is not None:
+        return n
+    for v in row.values():
+        n = _extract_int(v)
+        if n is not None:
+            return n
+    return None
+
+
+def fisis_find_bank_finance_codes():
+    """companySearch(partDiv=A) → 5대 은행 financeCd 매핑."""
+    data = _fisis_get("companySearch", partDiv=FISIS_PART_DIV_DOMESTIC_BANK)
+    rows = _fisis_extract_rows(data)
+    result = {}
+    for row in rows:
+        name = _fisis_first(row, ["financeNm", "companyNm", "finCompNm", "kor_co_nm", "finName", "name"])
+        code = _fisis_first(row, ["financeCd", "finCompCd", "finCd", "code"])
+        if not name or not code:
+            continue
+        mapped = _map_bank_name(name)
+        if mapped and mapped not in result:
+            result[mapped] = code
+            print(f"[fisis] financeCd discovered: {mapped} = {code} ({name})")
+    return result
+
+
+def fisis_find_list_no(keyword: str):
+    """statisticsListSearch(lrgDiv=A, smlDiv=A) → listNm에 keyword 포함된 listNo."""
+    data = _fisis_get("statisticsListSearch",
+                      lrgDiv=FISIS_LRG_DIV_BANK,
+                      smlDiv=FISIS_SML_DIV_GENERAL)
+    rows = _fisis_extract_rows(data)
+    norm_kw = _norm(keyword)
+    for row in rows:
+        name = _fisis_first(row, ["listNm", "listName", "stsListNm", "name"])
+        code = _fisis_first(row, ["listNo", "stsListNo", "code"])
+        if not name or not code:
+            continue
+        if norm_kw in _norm(name):
+            print(f"[fisis] listNo discovered: '{keyword}' → {code} ({name})")
+            return code
+    print(f"[fisis] listNo not found for keyword '{keyword}'")
+    return None
+
+
+def fisis_load_cache():
+    if not FISIS_CACHE_FILE.exists():
+        return {}
+    try:
+        return json.loads(FISIS_CACHE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def fisis_save_cache(codes: dict):
+    try:
+        FISIS_CACHE_FILE.write_text(
+            json.dumps(codes, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    except Exception as e:
+        print(f"[fisis] cache save fail: {e}")
+
+
+def fisis_discover_codes():
+    """발견 + 캐시. 환경변수로 수동 override 가능."""
+    cached = fisis_load_cache()
+    bank_cds = dict(cached.get("bank_finance_codes") or {})
+    list_no_branch = cached.get("list_no_branch") or os.environ.get("FISIS_LIST_NO_BRANCH", "").strip()
+    list_no_regional = cached.get("list_no_regional") or os.environ.get("FISIS_LIST_NO_REGIONAL", "").strip()
+
+    if len(bank_cds) < 5:
+        discovered = fisis_find_bank_finance_codes()
+        bank_cds.update(discovered)
+    if not list_no_branch:
+        list_no_branch = fisis_find_list_no(FISIS_LIST_KEYWORD_BRANCH)
+    if not list_no_regional:
+        list_no_regional = fisis_find_list_no(FISIS_LIST_KEYWORD_REGIONAL)
+
+    codes = {
+        "bank_finance_codes": bank_cds,
+        "list_no_branch": list_no_branch or "",
+        "list_no_regional": list_no_regional or "",
+        "discovered_at": datetime.now(KST).isoformat(),
+    }
+    fisis_save_cache(codes)
+    return codes
+
+
+def _fisis_fetch_info(list_no: str, finance_cd: str, months_back: int = 18):
+    """statisticsInfoSearch 호출. 최근 months_back 개월 범위의 분기 데이터."""
+    now = datetime.now(KST)
+    end_ym = now.strftime("%Y%m")
+    start_dt = (now.replace(day=1) - timedelta(days=months_back * 31))
+    start_ym = start_dt.strftime("%Y%m")
+    data = _fisis_get("statisticsInfoSearch",
+                      financeCd=finance_cd,
+                      listNo=list_no,
+                      term="Q",
+                      startBaseMm=start_ym,
+                      endBaseMm=end_ym)
+    return _fisis_extract_rows(data)
+
+
+def fisis_build_branch_stats(codes: dict):
+    """영업점포현황 → 은행별 {branches, sub_offices, count}."""
+    list_no = codes.get("list_no_branch")
+    bank_cds = codes.get("bank_finance_codes") or {}
+    if not list_no or len(bank_cds) < 5:
         return None
 
-    # 가장 최신 기준월 탐색
-    def ym_of(row):
-        for k in ["baseYm", "base_mm", "baseMm", "basYm", "baseYymm"]:
-            v = str(row.get(k, "")).strip()
-            if re.fullmatch(r"\d{6}", v):
-                return v
-        txt = " ".join(str(v) for v in row.values())
-        m = re.search(r"(20\d{2})(0[1-9]|1[0-2])", txt)
-        return "".join(m.groups()) if m else "000000"
+    latest_ym_overall = ""
+    per_bank = {}
 
-    latest_ym = max((ym_of(r) for r in rows), default="000000")
-    latest_rows = [r for r in rows if ym_of(r) == latest_ym] or rows
-
-    parsed = {}
-    for row in latest_rows:
-        # 은행명 후보
-        name_candidates = []
-        for nk in ["financeNm", "companyNm", "finCompNm", "bankNm", "finance_name", "kor_co_nm", "name"]:
-            if row.get(nk):
-                name_candidates.append(str(row.get(nk)))
-        if not name_candidates:
-            name_candidates = [str(v) for v in row.values() if isinstance(v, str)]
-
-        bank = None
-        for n in name_candidates:
-            bank = _map_bank_name(n)
-            if bank:
-                break
-        if not bank:
+    for meta in TARGET_BANKS:
+        bank = meta["name"]
+        finance_cd = bank_cds.get(bank)
+        if not finance_cd:
+            print(f"[fisis] missing financeCd: {bank}")
+            continue
+        rows = _fisis_fetch_info(list_no, finance_cd)
+        if not rows:
+            print(f"[fisis] no rows for {bank} (listNo={list_no})")
             continue
 
-        # 숫자 후보
-        value = None
-        for vk in ["dataValue", "value", "val", "resultVal", "amt", "cnt", "count"]:
-            if row.get(vk) is not None:
-                value = _extract_int(str(row.get(vk)))
-                if value is not None:
-                    break
-        if value is None:
-            for v in row.values():
-                value = _extract_int(str(v))
-                if value is not None:
-                    break
-        if value is None:
+        yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
+        if not yms:
             continue
-        parsed[bank] = value
+        latest_ym = yms[0]
+        if latest_ym > latest_ym_overall:
+            latest_ym_overall = latest_ym
+        latest_rows = [r for r in rows if _fisis_row_ym(r) == latest_ym]
 
-    if len(parsed) < 5:
+        branches = None
+        sub_offices = None
+        sum_total = None
+        for row in latest_rows:
+            name = _fisis_first(row, ["accountNm", "acntNm", "acntName", "itemNm", "itemName", "name"])
+            val = _fisis_row_value(row)
+            if val is None:
+                continue
+            n = _norm(name)
+            if "출장소" in n:
+                sub_offices = (sub_offices or 0) + val if n != "출장소" else val
+                if n == "출장소":
+                    sub_offices = val
+            elif any(k in n for k in ["지점", "영업점", "본점", "branch"]):
+                if n in ("계", "소계", "합계"):
+                    continue
+                # 세부 구분(시/도점, 일반점 등)을 더하는 것보다 "지점계"/"합계" 우선
+                if branches is None:
+                    branches = val
+                else:
+                    branches += val
+            elif n in ("점포수", "점포", "총계", "계", "합계"):
+                sum_total = val
+
+        # 보정: 지점·출장소가 없고 총계만 있으면 그걸 전체로
+        if branches is None and sub_offices is None and sum_total is not None:
+            branches = sum_total
+            sub_offices = 0
+        if branches is None:
+            continue
+        if sub_offices is None:
+            sub_offices = 0
+
+        per_bank[bank] = {
+            "branches": int(branches),
+            "sub_offices": int(sub_offices),
+            "count": int(branches) + int(sub_offices),
+        }
+        time.sleep(0.3)
+
+    if len(per_bank) < 5:
         return None
 
-    banks = [{"name": b["name"], "count": parsed[b["name"]]} for b in TARGET_BANKS]
-    if not all(100 <= x["count"] <= 3000 for x in banks):
-        return None
-    total = sum(x["count"] for x in banks)
-    if not (1000 <= total <= 10000):
+    banks = []
+    for meta in TARGET_BANKS:
+        rec = per_bank.get(meta["name"])
+        if not rec:
+            return None
+        banks.append({"name": meta["name"], **rec})
+
+    if not all(100 <= b["count"] <= 3000 for b in banks):
+        print(f"[fisis] branch count out of range: {[b['count'] for b in banks]}")
         return None
 
-    as_of = f"{latest_ym[:4]}-{latest_ym[4:6]}-31" if re.fullmatch(r"\d{6}", latest_ym) else datetime.now(KST).strftime("%Y-%m-%d")
     return {
-        "as_of": as_of,
-        "source": "금융통계정보시스템(FISIS) OpenAPI",
-        "source_url": explicit_url or FISIS_DEFAULT_ENDPOINT,
+        "as_of": _ym_to_asof(latest_ym_overall),
+        "latest_ym": latest_ym_overall,
         "banks": banks,
     }
 
 
+def fisis_build_regional_stats(codes: dict):
+    """지역별 점포 현황 → [{region, banks:[{name,count}]}]."""
+    list_no = codes.get("list_no_regional")
+    bank_cds = codes.get("bank_finance_codes") or {}
+    if not list_no or len(bank_cds) < 5:
+        return None
+
+    region_map = {}
+    latest_ym_overall = ""
+
+    for meta in TARGET_BANKS:
+        bank = meta["name"]
+        finance_cd = bank_cds.get(bank)
+        if not finance_cd:
+            continue
+        rows = _fisis_fetch_info(list_no, finance_cd, months_back=9)
+        if not rows:
+            continue
+        yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
+        if not yms:
+            continue
+        latest_ym = yms[0]
+        if latest_ym > latest_ym_overall:
+            latest_ym_overall = latest_ym
+        latest_rows = [r for r in rows if _fisis_row_ym(r) == latest_ym]
+
+        for row in latest_rows:
+            region = _fisis_first(row, [
+                "region", "regionNm", "area", "areaNm",
+                "siNm", "sidoNm", "zoneNm", "zoneName",
+                "accountNm", "acntNm", "itemNm", "name",
+            ])
+            if not region:
+                continue
+            if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total"):
+                continue
+            val = _fisis_row_value(row)
+            if val is None:
+                continue
+            region_map.setdefault(region, {})[bank] = int(val)
+        time.sleep(0.3)
+
+    if not region_map:
+        return None
+
+    def sort_key(nm):
+        for i, o in enumerate(REGION_ORDER):
+            if o in nm:
+                return i
+        return 999
+
+    regional = []
+    for region, bank_dict in sorted(region_map.items(), key=lambda x: sort_key(x[0])):
+        banks = [{"name": m["name"], "count": int(bank_dict.get(m["name"], 0))} for m in TARGET_BANKS]
+        if sum(b["count"] for b in banks) == 0:
+            continue
+        regional.append({"region": region, "banks": banks})
+
+    if not regional:
+        return None
+
+    return {"latest_ym": latest_ym_overall, "regional": regional}
+
+
+def fetch_branch_stats_from_fisis():
+    codes = fisis_discover_codes()
+    branch = fisis_build_branch_stats(codes)
+    if not branch:
+        return None
+    regional_data = fisis_build_regional_stats(codes)
+    return {
+        "as_of": branch["as_of"],
+        "source": "금융통계정보시스템(FISIS) · 국내은행 영업점포현황",
+        "source_url": f"{FISIS_BASE}/statisticsInfoSearch.json",
+        "banks": branch["banks"],
+        "regional": (regional_data or {}).get("regional", []),
+        "is_fallback": False,
+    }
+
+
+# ---------- KFB scrape fallback ----------
 def fetch_branch_stats_from_kfb():
-    """은행연합회 소비자포털/통계 페이지에서 5대 은행 점포 수 스크래핑."""
     for url in KFB_BRANCH_URL_CANDIDATES:
         try:
             resp = requests.get(url, headers=HEADERS, timeout=20)
@@ -300,12 +533,10 @@ def fetch_branch_stats_from_kfb():
                 if len(cells) < 2:
                     continue
                 row_text = " ".join(cells)
-                # 점포수 통계 테이블이 아닌 행은 배제
                 if not any(k in row_text for k in ["점포", "영업점", "지점", "은행"]):
                     continue
                 bank = _map_bank_name(cells[0])
                 if not bank:
-                    # 첫 열이 은행명이 아닐 수도 있어 전체 셀 순회
                     for c in cells:
                         bank = _map_bank_name(c)
                         if bank:
@@ -313,7 +544,6 @@ def fetch_branch_stats_from_kfb():
                 if not bank:
                     continue
                 count = None
-                # 숫자 후보 셀 탐색
                 for c in reversed(cells):
                     count = _extract_int(c)
                     if count is not None:
@@ -323,27 +553,45 @@ def fetch_branch_stats_from_kfb():
                 parsed[bank] = count
 
             if len(parsed) >= 5:
-                banks = [{"name": b["name"], "count": parsed[b["name"]]} for b in TARGET_BANKS]
-                # 비정상 파싱 방지: 은행별/합계 범위 검증
+                banks = []
+                for b in TARGET_BANKS:
+                    total = parsed[b["name"]]
+                    banks.append({
+                        "name": b["name"],
+                        "branches": total,
+                        "sub_offices": 0,
+                        "count": total,
+                    })
                 if not all(100 <= x["count"] <= 3000 for x in banks):
                     continue
-                total = sum(x["count"] for x in banks)
-                if not (1000 <= total <= 10000):
+                if not (1000 <= sum(x["count"] for x in banks) <= 10000):
                     continue
                 return {
                     "as_of": as_of or datetime.now(KST).strftime("%Y-%m-%d"),
                     "source": "은행연합회 소비자포털 점포 통계",
                     "source_url": url,
                     "banks": banks,
+                    "regional": [],
+                    "is_fallback": False,
                 }
         except Exception as e:
             print(f"[stats] kfb scrape fail ({url}): {e}")
-
     return None
 
 
+# ---------- orchestration ----------
+def load_previous_stats():
+    for p in [DATA_DIR / "branch_stats.json", DATA_DIR / "branch_stats_manual.json"]:
+        if p.exists():
+            try:
+                return json.loads(p.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+    return {"banks": []}
+
+
 def load_branch_stats():
-    """점포 수 API 우선, 실패 시 스크래핑/수동 파일 fallback."""
+    """FISIS → KFB 스크래핑 → 수동 파일 순."""
     fisis = fetch_branch_stats_from_fisis()
     if fisis:
         return fisis
@@ -355,16 +603,25 @@ def load_branch_stats():
     stat_file = DATA_DIR / "branch_stats_manual.json"
     if stat_file.exists():
         fallback = json.loads(stat_file.read_text(encoding="utf-8"))
-        fallback["source"] = f"{fallback.get('source', '수동 입력')} (스크래핑 실패로 fallback)"
+        fallback["source"] = f"{fallback.get('source', '수동 입력')} (FISIS·스크래핑 실패로 fallback)"
         fallback["is_fallback"] = True
+        for b in fallback.get("banks", []):
+            if "branches" not in b:
+                b["branches"] = b.get("count", 0)
+                b["sub_offices"] = 0
+            else:
+                b.setdefault("sub_offices", 0)
+                b["count"] = int(b.get("branches", 0)) + int(b.get("sub_offices", 0))
+        fallback.setdefault("regional", [])
         return fallback
 
     return {
         "as_of": datetime.now(KST).strftime("%Y-%m-%d"),
-        "source": "데이터 없음 (스크래핑 실패)",
-        "banks": [{"name": b["name"], "count": 0, "delta_qoq": 0} for b in TARGET_BANKS],
-        "total": 0,
-        "total_delta_qoq": 0,
+        "source": "데이터 없음 (FISIS·스크래핑 모두 실패)",
+        "banks": [
+            {"name": b["name"], "branches": 0, "sub_offices": 0, "count": 0} for b in TARGET_BANKS
+        ],
+        "regional": [],
         "is_fallback": True,
     }
 
@@ -394,6 +651,8 @@ def main():
         banks_out.append({
             "name": b["name"],
             "count": b["count"],
+            "branches": int(b.get("branches", b["count"])),
+            "sub_offices": int(b.get("sub_offices", 0)),
             "delta_qoq": delta_qoq,
         })
 
@@ -409,11 +668,12 @@ def main():
         "banks": banks_out,
         "total": total,
         "total_delta_qoq": total - total_prev,
+        "regional": stats.get("regional", []),
     }
     (DATA_DIR / "branch_stats.json").write_text(
         json.dumps(stats_output, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"[stats] saved: {stats['as_of']}")
+    print(f"[stats] saved: as_of={stats.get('as_of')} fallback={stats_output['is_fallback']} regional_n={len(stats_output['regional'])}")
 
 
 if __name__ == "__main__":

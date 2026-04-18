@@ -1,36 +1,17 @@
 {
   "updated_at": "2026-04-18T09:48:21.844386+09:00",
   "as_of": "2025-12-31",
-  "source": "은행연합회 은행업무 통계 (수동 업데이트 필요) (스크래핑 실패로 fallback)",
+  "source": "은행연합회 은행업무 통계 (수동 업데이트 필요) (FISIS·스크래핑 실패로 fallback)",
   "source_url": "",
   "is_fallback": true,
   "banks": [
-    {
-      "name": "KB국민",
-      "count": 803,
-      "delta_qoq": 0
-    },
-    {
-      "name": "신한",
-      "count": 747,
-      "delta_qoq": 0
-    },
-    {
-      "name": "하나",
-      "count": 621,
-      "delta_qoq": 0
-    },
-    {
-      "name": "우리",
-      "count": 676,
-      "delta_qoq": 0
-    },
-    {
-      "name": "NH농협",
-      "count": 1080,
-      "delta_qoq": 0
-    }
+    {"name": "KB국민", "count": 803, "branches": 768, "sub_offices": 35, "delta_qoq": 0},
+    {"name": "신한",   "count": 747, "branches": 717, "sub_offices": 30, "delta_qoq": 0},
+    {"name": "하나",   "count": 621, "branches": 596, "sub_offices": 25, "delta_qoq": 0},
+    {"name": "우리",   "count": 676, "branches": 649, "sub_offices": 27, "delta_qoq": 0},
+    {"name": "NH농협", "count": 1080, "branches": 1021, "sub_offices": 59, "delta_qoq": 0}
   ],
   "total": 3927,
-  "total_delta_qoq": 0
+  "total_delta_qoq": 0,
+  "regional": []
 }

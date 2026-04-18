@@ -356,7 +356,7 @@
   }
   .branch-row {
     display: grid;
-    grid-template-columns: 130px 1fr 90px 70px;
+    grid-template-columns: 120px 1fr 150px 56px;
     gap: 16px;
     padding: 14px 0;
     border-bottom: 1px solid var(--line-soft);
@@ -371,16 +371,45 @@
   }
   .bar-track {
     background: var(--line-soft);
-    height: 4px;
+    height: 12px;
     position: relative;
     border-radius: 2px;
     overflow: hidden;
+    display: flex;
   }
+  /* 하위 호환: 단일 bar-fill */
   .bar-fill {
     background: var(--accent);
     height: 100%;
     transition: width 0.4s ease;
   }
+  .bar-seg-branches {
+    background: var(--accent);
+    height: 100%;
+    transition: width 0.4s ease;
+  }
+  .bar-seg-sub {
+    background: var(--accent-dim);
+    height: 100%;
+    transition: width 0.4s ease;
+    border-left: 1px solid rgba(0,0,0,0.25);
+  }
+  .branch-row .count-cell {
+    font-family: var(--mono);
+    text-align: right;
+    color: var(--ink);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.35;
+  }
+  .branch-row .count-cell .sub {
+    display: block;
+    font-size: 10px;
+    color: var(--ink-mute);
+    letter-spacing: 0.04em;
+    font-weight: 400;
+  }
+  /* 기존 count 클래스도 호환 유지 */
   .branch-row .count {
     font-family: var(--mono);
     text-align: right;
@@ -396,6 +425,89 @@
   .chg.neg { color: var(--danger); }
   .chg.pos { color: var(--ok); }
   .chg.zero { color: var(--ink-mute); }
+
+  /* ===== 탭 / 범례 / 지역칩 ===== */
+  .branch-tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .branch-tab-btn {
+    background: transparent;
+    border: none;
+    color: var(--ink-mute);
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 8px 14px 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .branch-tab-btn:hover { color: var(--ink-dim); }
+  .branch-tab-btn.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .branch-legend {
+    display: flex;
+    gap: 18px;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-mute);
+    letter-spacing: 0.08em;
+    margin-bottom: 10px;
+  }
+  .branch-legend .swatch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 1px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .branch-legend .swatch.branches { background: var(--accent); }
+  .branch-legend .swatch.sub { background: var(--accent-dim); }
+  .view-hidden { display: none !important; }
+
+  .region-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 18px;
+  }
+  .region-chip {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--ink-dim);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+    border-radius: 2px;
+  }
+  .region-chip:hover {
+    border-color: var(--accent-dim);
+    color: var(--ink);
+  }
+  .region-chip.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg);
+  }
+  .region-empty {
+    color: var(--ink-mute);
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 24px 0;
+    letter-spacing: 0.06em;
+    text-align: center;
+    border: 1px dashed var(--line);
+  }
 
   .branch-total-row {
     display: flex;
@@ -747,28 +859,54 @@
     <div class="branch-section">
       <div class="branch-head">
         <h4>
-          5대 시중은행 점포 수
+          5대 시중은행 점포 현황
           <span id="branch-source-badge" class="source-badge fallback">SOURCE: —</span>
         </h4>
         <div class="meta" id="branch-asof">—</div>
       </div>
-      <div class="branch-table" id="branch-rows">
-        <div class="loading">[LOADING]</div>
+
+      <div class="branch-tabs" role="tablist">
+        <button class="branch-tab-btn active" data-view="banks" role="tab" aria-selected="true">은행별</button>
+        <button class="branch-tab-btn" data-view="regional" role="tab" aria-selected="false">지역별</button>
       </div>
-      <div class="branch-total-row">
-        <div class="label">합계 (5대 은행)</div>
-        <div class="val">
-          <span id="branch-total">—</span>
-          <span class="delta" id="branch-total-delta"></span>
+
+      <!-- View: 은행별 -->
+      <div id="view-banks">
+        <div class="branch-legend">
+          <span><span class="swatch branches"></span>지점(본점·출장소 外)</span>
+          <span><span class="swatch sub"></span>출장소</span>
+        </div>
+        <div class="branch-table" id="branch-rows">
+          <div class="loading">[LOADING]</div>
+        </div>
+        <div class="branch-total-row">
+          <div class="label">합계 (5대 은행)</div>
+          <div class="val">
+            <span id="branch-total">—</span>
+            <span class="delta" id="branch-total-delta"></span>
+          </div>
         </div>
       </div>
+
+      <!-- View: 지역별 -->
+      <div id="view-regional" class="view-hidden">
+        <div class="region-chips" id="region-chips"></div>
+        <div class="branch-legend">
+          <span><span class="swatch branches"></span>해당 지역 내 점포 수 (은행별)</span>
+        </div>
+        <div class="branch-table" id="regional-rows">
+          <div class="region-empty">지역 정보를 불러오는 중...</div>
+        </div>
+      </div>
+
       <div id="fisis-guide" class="fisis-guide" style="display:none;">
-        <strong>⚠ FISIS API 추가 설정 필요</strong><br>
-        현재 <code>FISIS_API_KEY</code>만 Secrets에 등록된 상태로, 스크래핑 fallback 데이터가 표시되고 있습니다.
-        실시간 FISIS 데이터를 쓰려면 다음 중 하나를 추가하세요.<br><br>
-        <strong>방법 A</strong>: <code>FISIS_LIST_NO</code> + <code>FISIS_ACCOUNT_CD</code> 개별 등록<br>
-        <strong>방법 B</strong>: <code>FISIS_BRANCH_API_URL</code>에 완성된 조회 URL(인증키 제외) 등록<br><br>
-        통계 코드는 FISIS 사이트(<code>http://fisis.fss.or.kr</code>)에서 원하는 통계를 조회한 뒤 브라우저 개발자도구 Network 탭에서 확인 가능합니다.
+        <strong>⚠ FISIS API 추가 설정 필요 (현재 fallback 사용 중)</strong><br>
+        현재 <code>FISIS_API_KEY</code>만 Secrets에 등록된 상태입니다. 다음 Actions 실행 시 발견(discovery) 로직이
+        <code>companySearch</code> → <code>statisticsListSearch</code> 체인으로 5대 은행 <code>financeCd</code>와
+        통계표 "영업점포현황"·"지역별 점포 현황"의 <code>listNo</code>를 자동 탐색하여 <code>data/fisis_codes.json</code>에 캐싱합니다.<br><br>
+        발견이 실패하는 경우 FISIS 사이트(<code>http://fisis.fss.or.kr</code>)의 "단수 통계표 조회 &gt; 일반현황"에서
+        통계표명을 확인한 뒤, Secrets에 <code>FISIS_LIST_NO_BRANCH</code>·<code>FISIS_LIST_NO_REGIONAL</code>을
+        수동 등록하면 됩니다.
       </div>
     </div>
   </section>
@@ -994,7 +1132,12 @@ function renderDevelopment(data) {
   document.getElementById('dev-updated').textContent = `${data.items.length} NEW`;
 }
 
+let _branchData = null;
+let _activeRegion = null;
+
 function renderBranchStats(data) {
+  _branchData = data;
+
   const rows = document.getElementById('branch-rows');
   const badge = document.getElementById('branch-source-badge');
   const guide = document.getElementById('fisis-guide');
@@ -1010,7 +1153,7 @@ function renderBranchStats(data) {
 
   // 소스 뱃지
   const isFallback = data.is_fallback === true;
-  const srcText = (data.source || '').slice(0, 40);
+  const srcText = (data.source || '').slice(0, 48);
   if (isFallback) {
     badge.textContent = `SOURCE: FALLBACK · ${srcText}`;
     badge.className = 'source-badge fallback';
@@ -1024,23 +1167,8 @@ function renderBranchStats(data) {
   document.getElementById('branch-asof').textContent = `AS OF ${data.as_of || '—'}`;
   document.getElementById('branch-meta').textContent = data.as_of || '—';
 
-  // 행 렌더
-  const max = Math.max(...data.banks.map(b => b.count || 0), 1);
-  rows.innerHTML = data.banks.map(b => {
-    const count = b.count || 0;
-    const pct = (count / max * 100).toFixed(0);
-    const d = b.delta_qoq || 0;
-    const chgClass = d < 0 ? 'neg' : (d > 0 ? 'pos' : 'zero');
-    const chgText = d === 0 ? '0' : (d > 0 ? `+${d}` : `${d}`);
-    return `
-      <div class="branch-row">
-        <div class="bank">${esc(b.name)}</div>
-        <div class="bar-track"><div class="bar-fill" style="width:${pct}%;"></div></div>
-        <div class="count">${count.toLocaleString()}</div>
-        <div class="chg ${chgClass}">${chgText}</div>
-      </div>
-    `;
-  }).join('');
+  renderBranchBanksView(data);
+  renderBranchRegionalTabs(data);
 
   // 합계
   const total = data.total || data.banks.reduce((s, b) => s + (b.count || 0), 0);
@@ -1049,6 +1177,116 @@ function renderBranchStats(data) {
   const deltaClass = totalDelta < 0 ? 'neg' : (totalDelta > 0 ? 'pos' : 'zero');
   totalDeltaEl.className = `delta chg ${deltaClass}`;
   totalDeltaEl.textContent = totalDelta === 0 ? '±0' : (totalDelta > 0 ? `+${totalDelta} QoQ` : `${totalDelta} QoQ`);
+}
+
+function renderBranchBanksView(data) {
+  const rows = document.getElementById('branch-rows');
+  const max = Math.max(...data.banks.map(b => b.count || 0), 1);
+
+  rows.innerHTML = data.banks.map(b => {
+    const count = b.count || 0;
+    const branches = (b.branches !== undefined) ? b.branches : count;
+    const subOff = b.sub_offices || 0;
+    const pctBr = (branches / max * 100);
+    const pctSub = (subOff / max * 100);
+    const d = b.delta_qoq || 0;
+    const chgClass = d < 0 ? 'neg' : (d > 0 ? 'pos' : 'zero');
+    const chgText = d === 0 ? '0' : (d > 0 ? `+${d}` : `${d}`);
+    return `
+      <div class="branch-row">
+        <div class="bank">${esc(b.name)}</div>
+        <div class="bar-track" title="지점 ${branches} · 출장소 ${subOff}">
+          <div class="bar-seg-branches" style="width:${pctBr.toFixed(1)}%;"></div>
+          <div class="bar-seg-sub" style="width:${pctSub.toFixed(1)}%;"></div>
+        </div>
+        <div class="count-cell">
+          ${count.toLocaleString()}
+          <span class="sub">지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}</span>
+        </div>
+        <div class="chg ${chgClass}">${chgText}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderBranchRegionalTabs(data) {
+  const chipsEl = document.getElementById('region-chips');
+  const rowsEl = document.getElementById('regional-rows');
+  const regional = Array.isArray(data.regional) ? data.regional : [];
+
+  if (regional.length === 0) {
+    chipsEl.innerHTML = '';
+    rowsEl.innerHTML = `
+      <div class="region-empty">
+        지역별 데이터가 아직 수집되지 않았습니다.<br>
+        FISIS OpenAPI의 "지역별 점포 현황" 통계표 연동 완료 시 자동 표시됩니다.
+      </div>`;
+    return;
+  }
+
+  if (!_activeRegion || !regional.find(r => r.region === _activeRegion)) {
+    _activeRegion = regional[0].region;
+  }
+
+  chipsEl.innerHTML = regional.map(r => `
+    <button class="region-chip ${r.region === _activeRegion ? 'active' : ''}" data-region="${esc(r.region)}">${esc(r.region)}</button>
+  `).join('');
+
+  chipsEl.querySelectorAll('.region-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      _activeRegion = btn.dataset.region;
+      chipsEl.querySelectorAll('.region-chip').forEach(b => b.classList.toggle('active', b.dataset.region === _activeRegion));
+      renderBranchRegionalRows();
+    });
+  });
+
+  renderBranchRegionalRows();
+}
+
+function renderBranchRegionalRows() {
+  const rowsEl = document.getElementById('regional-rows');
+  if (!_branchData || !_activeRegion) return;
+  const region = (_branchData.regional || []).find(r => r.region === _activeRegion);
+  if (!region) {
+    rowsEl.innerHTML = `<div class="region-empty">선택한 지역 데이터가 없습니다.</div>`;
+    return;
+  }
+  const banks = region.banks || [];
+  const max = Math.max(...banks.map(b => b.count || 0), 1);
+  const total = banks.reduce((s, b) => s + (b.count || 0), 0);
+
+  rowsEl.innerHTML = banks.map(b => {
+    const count = b.count || 0;
+    const pct = (count / max * 100).toFixed(1);
+    return `
+      <div class="branch-row">
+        <div class="bank">${esc(b.name)}</div>
+        <div class="bar-track"><div class="bar-seg-branches" style="width:${pct}%;"></div></div>
+        <div class="count-cell">${count.toLocaleString()}</div>
+        <div class="chg zero">—</div>
+      </div>
+    `;
+  }).join('') + `
+    <div class="branch-total-row">
+      <div class="label">${esc(_activeRegion)} 5대 은행 합계</div>
+      <div class="val">${total.toLocaleString()}</div>
+    </div>
+  `;
+}
+
+function initBranchTabs() {
+  document.querySelectorAll('.branch-tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const view = btn.dataset.view;
+      document.querySelectorAll('.branch-tab-btn').forEach(b => {
+        const active = b.dataset.view === view;
+        b.classList.toggle('active', active);
+        b.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      document.getElementById('view-banks').classList.toggle('view-hidden', view !== 'banks');
+      document.getElementById('view-regional').classList.toggle('view-hidden', view !== 'regional');
+    });
+  });
 }
 
 function renderIssues(data) {
@@ -1118,6 +1356,7 @@ async function renderLastBuild() {
 
 (async function init() {
   renderMasthead();
+  initBranchTabs();
 
   const [news, disclosure, development, stats, issues, global] = await Promise.all([
     loadJSON('news.json'),
