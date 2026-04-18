@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-04-17T07:49:48.527662+09:00",
+  "updated_at": "2026-04-18T09:48:21.843809+09:00",
   "items": [
+    {
+      "id": "789d8a3196d2",
+      "title": "[다시, 울산을 짓다] 울산동구 도시재생사업 살펴보기(5): 서부동 도시재생사업(1)",
+      "source": "울산저널i",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CU1RfZ0pja1ZZRkg1eWlzMjRrQ1Q4bEJBUHltbmhYZU4wU0FfazZ4dG1GbWZib09MOFVjTG01Z2VMUmwza1poRXdNeFRQQXhyZFR0U3RjOGtVN2FuWlFIWWF5dy1xZnlFYUI5ZFdKUFpIQ28?oc=5",
+      "published": "2026-04-18T00:00:03+09:00",
+      "date": "2026-04-18",
+      "query": "도시재생 활성화계획"
+    },
     {
       "id": "f88b59368b54",
       "title": "중랑구 중화2동 도시재생 ‘구조조정’ - 모아타운 전환 속 재생사업 재편",
@@ -20,20 +29,11 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "2062c40f53cd",
-      "title": "\"반도체 산단 이전 논쟁, 기업 불확실성 키워\"[코어파워 KOREA]",
-      "source": "네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HUTBCN1cxcFJCTFN0bC1DdjJsTU1zMUxjOVhYbGVKSWlvbk9nMTBfREtFWHlJSmVaTUdRRks1T2Z4RS1WMmJiMGZFVXVZRWhxcDVN?oc=5",
-      "published": "2026-04-16T17:48:00+09:00",
-      "date": "2026-04-16",
-      "query": "반도체 국가산단"
-    },
-    {
       "id": "13bbc2ecfe2e",
       "title": "민주 박태완 울산 중구청장 후보 \"지구단위계획 철폐로 노후주택 재개발 지원\"",
       "source": "울산신문",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qRnlHQ2VxV3VMQWtaQ0ZrYVZZczdJSGdVMlRCLWdQWVhYbWk4aDc5dmZJUTgxcVl4YlF0VTUxT2FwN0NxLTRKM203S2FPYlJiODNqYjFud05BUVdJTlI0R0lvakhteDVENlN0Y2ln0gFyQVVfeXFMUHR6bHhxOWw4Q3plOG5YY0VlLTlGNF9ORDNjd0dGa3VjZVJQYUhhVW1yV0RrdUFYdm1ZWC0wUGpFVE1zaUNkRHltZGF1OFBWNzlTdXNmUWFsdUNqLXR5UksycngxNE04Rm8xS1VBN243bW5R?oc=5",
-      "published": "2026-04-16T17:32:29+09:00",
+      "published": "2026-04-16T20:10:00+09:00",
       "date": "2026-04-16",
       "query": "복합개발 지구단위계획"
     },
@@ -47,74 +47,29 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "1e63fcbbf851",
-      "title": "중화2동 도시재생사업 마무리…4개 사업 마치고 9개 사업은 폐지 - 조선비즈",
-      "source": "Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTHhUMW9Kcmk2UnVIVk9CN3VNdGxCQUlkTzhQaS0tb29fSWt3ZjlWNHhRQ0tfN1lZMWlpRk9WZWcxbExTYk9Ua0FZTlA3Y3ZzSEtoUUllRUJpZ0k3WDUyU3ZUU2Jfa09XSFluYXNFaFdZODVWUXJGb0Qxc0RhVUwtRUR5ejNNWW8wcGZvVVFjTG94azJnWnlTc9IBrAFBVV95cUxNV0J1VjQ4a3h4dFZJY2pUNGZHWVZzYk5PZk9fVXRiajloOFNZUDdhdGpPYnFxSWo2TE1SZ3RSOGhWWGxuRGJBakVDZHFveXRnc2U4TmtZMTcxd2UwUUVzcmNTSTBDcG5KaWNWb1l2eThkVkE3ZWJwd2NTd3gzUUVITTNybDdGMzVVMDFEZnJwUDZveTh3ZFRLRHJTYjF4ZWJhbnFTeFZjQWFaZ1l2?oc=5",
-      "published": "2026-04-16T13:37:03+09:00",
-      "date": "2026-04-16",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "0d31a0b76c9c",
-      "title": "올해 수도권 공공주택 6만호 이상 착공",
-      "source": "한국주택경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqWmdTdHdzSmM1Qy1rSXJER3U3NEtsQTVpZGRHanBScGdjYTFVYkF0SXo2QndKekJDSzRDWFBLLWs1ODhEOXhJZVBqdjQ5MlFpZmE3ZGZUWXNSZWlVTlFnQ2ltYkFQdFJ4?oc=5",
-      "published": "2026-04-16T13:33:31+09:00",
-      "date": "2026-04-16",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "1de3b829c4f6",
+      "id": "2b55a25f9f1c",
       "title": "서울시, 중랑구 중화2동 도시재생활성화계획 변경안 도시계획위원회 재생분과위원회 심의 '수정가결'",
-      "source": "경기뉴스원",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBNbGl2U0ZZSExuZkZmT2hzUFYwZHZTaEcza2xLNGNjakJQcHhSNEpNa2IzNEhzSHFhZFpwLTJuMzIzeGZpX2RlOG0tSUQzRDNldVFFUm13UDZhRjFzaF9TdkQwVQ?oc=5",
-      "published": "2026-04-16T13:10:06+09:00",
+      "source": "경남도민뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90WExQMWRlLVU3VUMtOVphS08wVU82azc4YUpXcmJLR1JDUmpUZFVjN294Nzg2c0NlSmpaVlVJWW8xeS1XbndfbGlyQ3RRbDRoemRFby1PXy1iS28xUHJtMzZqbw?oc=5",
+      "published": "2026-04-16T13:10:02+09:00",
       "date": "2026-04-16",
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "68e264b8380d",
-      "title": "이상일 시장 \"반도체 산단을 동력으로 용인 르네상스 2.0 열겠다\" - 머니투데이",
-      "source": "mt.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vT040TFcwV0hWZzg0ZnJtcDgxSnVsM3RpT0NzNjA4dFJmc2ZEdlM4WnlLVC1WQjVpTzg5bVBsTU9WdHBMME5YbGF0bk1oaUliMTlzMm9SSHkwTWlKN2RhZ3FvVWRsMmFPMUHSAW9BVV95cUxQZ3B0TXF6ZFI2aVN0MHlRblp2czRmeHhfZEEtZjRRUmdSbGtrblRRVmVxc1Q3V3dMdE8tM2ZZYzJUNE94M19uRnE0SF9BSVE4OXFfVHVXcy1NQ0hYMkxxUndXUHQ0NDF5MlprOWc3T1U?oc=5",
-      "published": "2026-04-16T11:41:51+09:00",
-      "date": "2026-04-16",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "21e0936d1aab",
+      "id": "08e2ccd351b2",
       "title": "중화2동 모아타운 본격화…도시재생 뉴딜사업 마무리 수순",
-      "source": "이데일리",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWXdxazFTUFZ5WEVnUkZGQ0FCQ0M2TTlYNUR2TzY1T01CNmtvZUlNYWdwZGttUUpWSi13dVlDdnhGM0cyYUVpdkwtaEo1VzhRdHFmOTFfOFNmNkJ5WUl3OHhTM2tyNFdZcWkwRzRhNWRjUXFwOUFiZnd2RDFnUmtWZA?oc=5",
+      "source": "마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mS1diN3Q5RmxvaWJyaXFDa3RSUERhT1JSWlRJX1RfS21mZGF2cndGYzM0S2tLMzNxbnIzOXJhZmN2R194bXFnSlYxOHNRMUY3bk1qcXNIUHpuRFkzUXVHcjJPUC1MeDJTbEJGM3ltWEdLcms?oc=5",
       "published": "2026-04-16T10:00:04+09:00",
       "date": "2026-04-16",
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "af862ab07ebe",
-      "title": "이상일 용인특례시장 \"반도체 산단 지연은 국기문란\"",
-      "source": "한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1VlJudDBqX3NpS1ZNSU10dGhYUTlmd05mYzZvQXpVekpnaThhUDdJd1NqYkR0Q1EybEhQMDdpcGFtdGZjcF93enljM1JFRDBROWtTQTRqeW5xUdIBVEFVX3lxTE5BckFOQ3NDZUFXcXF4NTBBS3RqbEtoeng4YmpxSnJpLW4tVHZUTUxYRDRWUDEzS0x1bFZYNEViWENkUGVtQ1dBcE84YkljNU1RN2JmZg?oc=5",
-      "published": "2026-04-16T06:15:12+09:00",
-      "date": "2026-04-16",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "3d29db10fc45",
-      "title": "대전 혁신 성장동력 확보 언제쯤… 나노반도체·안산산단 조성사업 기로",
-      "source": "대전일보",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WZFdKeDcwYURkRDJJdjhiWkZ5UlFVNFBuVjJ4VTUtelAtWDFLWXFrZmNubjlQb09IbDhKRlYwbi1VbVNGTUc0OW0wejBCb2hhNG9xT2JTQndqWDRpUEYxd25wcENrdkNtM296S0hsUdIBc0FVX3lxTE9jUHFhTVB5YVZ6Q3NiV0prNG8zcThRV0xVWGpiWFBSVDFOeUM5V0dVQlFiZXh6Nml4b0ZwYkVhVUNxUkFYdTU3bWI5NllqZ2hjUXpxVTBjNndIcV9Pb2NLakt4ckxfcWZVUzZocWRlOUFNZVk?oc=5",
-      "published": "2026-04-15T18:06:00+09:00",
-      "date": "2026-04-15",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "717f3aa9b595",
-      "title": "올해 수도권 공공주택 6.2만호 착공 추진…3기 신도시 포함",
-      "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tM05XQ0VuZWs5S3hjZ1hFdEdfYWRqNjBpX1FwZmRCdXNtTURsb182Z0I1RDlaNXBTcGtPTW1kM3RxR083QlJzMWV6MERjUnU2dHNCSg?oc=5",
-      "published": "2026-04-15T17:43:08+09:00",
+      "id": "072868fceeef",
+      "title": "‘3기 신도시’ 포함, 올해 수도권 공공주택 6만2천가구 착공 추진",
+      "source": "경기일보",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxbEluZ0U1V2V2MmxYY1VOODVXejF4d0Vicng1T1Y4YVQ2T0JTOVdMVmd1Wm5hVzR5dnRZMUtMcmhoTUVERXVLcUNCLUpaRkpXdzAxaXA0YWdTNUk?oc=5",
+      "published": "2026-04-15T17:29:00+09:00",
       "date": "2026-04-15",
       "query": "신도시 착공"
     },
@@ -135,6 +90,51 @@
       "published": "2026-04-15T16:00:54+09:00",
       "date": "2026-04-15",
       "query": "신도시 착공"
+    },
+    {
+      "id": "c524021bcaae",
+      "title": "올해 수도권 공공주택 6만2000가구 착공…3기 신도시 집중 공급",
+      "source": "Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWmcyQzU3d0dtZXRUNHAzMzBiNGdHUGptNlZRdUJRZ2hEblZlclFoUXJoQmlCRFBNMnFyY0JhLXM0M0kyOXZRQnB5dkNNUms0WU9ZZVoxWDNWSHQwbHNkeExJRUFubTNpRVpsekEtNTF1ZHVNRl9nSFhMUGRuLVYtQmo5RHpDSWV5dHI0YXJrbGZZOWNzVmlVYg?oc=5",
+      "published": "2026-04-15T15:00:41+09:00",
+      "date": "2026-04-15",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "c766cd9836c1",
+      "title": "올해 수도권 공공주택 6.2만호 착공 추진…3기 신도시 포함",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsVmNJa0RzYWVRMmVfZTVHcnhwdHJUazFRV2R3VGJzZ2puVDAwNHl0STZDSGFkd2MtdXdzRVA3MVBSZ2ctZEF0b0p0N3pna2NROHlCZVhUVlRua2PSAWBBVV95cUxObzBOTHhBaGxXWFduRGRPWTY1YjFEaHc3TW1rRDdsQjUxMTRodVFGWW9Od0ZZSHlKNmNnWFZRbjVOcEpLRUVBQVl0VjN4eTRMVGlHUUYzUWlyUHluRGRrQm4?oc=5",
+      "published": "2026-04-15T15:00:01+09:00",
+      "date": "2026-04-15",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "35bf1b967dc8",
+      "title": "이상일 용인시장, “반도체 국가산단 지연 안 된다”…정부에 입장 촉구",
+      "source": "비즈월드",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xalVFZkx3a1RBRWtiVkVUWmYwLUtRbDNqUXUxV00wOUF5ZVNxWkNVa3JyaVlWVXBfVEZLZGw4SkRxLTRrS3NESG1lQXpDWU0wZEdMWFA2U0pwYld6aDc4TVY2aEVvQS1hUU0w?oc=5",
+      "published": "2026-04-14T22:32:35+09:00",
+      "date": "2026-04-14",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "26c647cd0023",
+      "title": "용인 반도체 산단 접근성 높인다… 도로 확충 '속도'",
+      "source": "B world",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RYTFRV1pJbzlkYkxrQ3hvU0NHdEJjNGZTQ2UwNGlqYW1xclhpbW5RMEh5ZTNHdzVHXzFUeGtkRjhOOVQwd29lTUtobUs1b2FFSVhtbFA4ODJJakxKMXJIMm80ajlrcEtOeTdPZFpYZ0Q?oc=5",
+      "published": "2026-04-14T18:06:18+09:00",
+      "date": "2026-04-14",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "7a9b87d7ab36",
+      "title": "이상일 “용인 반도체 산단, 정부 왜 늦추나…분산 아닌 집적으로 승부해야”",
+      "source": "에너지경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5keWhxcmRYSHlNckZObmYtUWVzQ1dPNEtRN0RLZTVqZHp4RXpNQzVRaFdkZXhpdmlzRU9od243bk54ZGZqTHZCOU91MVdKNko1VEFCSGdqS0JPSFE?oc=5",
+      "published": "2026-04-14T15:20:13+09:00",
+      "date": "2026-04-14",
+      "query": "반도체 국가산단"
     }
   ]
 }

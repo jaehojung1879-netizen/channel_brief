@@ -1,65 +1,151 @@
 {
-  "updated_at": "2026-04-17T07:50:09.021675+09:00",
-  "items": [
+  "updated_at": "2026-04-18T09:49:07.514329+09:00",
+  "social_finance": [
     {
-      "id": "8dcaf716e6ae",
-      "title": "하나은행, 시니어 금융·보험·쇼핑 결합 서비스 확대",
-      "source": "현대경제신문",
-      "summary": "하나은행, 시니어 금융·보험·쇼핑 결합 서비스 확대&nbsp;&nbsp;현대경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80QkpzZDFhLUVXNDAzbF85WTBzemtKakxwb3lyODdfQ1BqSE5BRl9pTUNxWUlzOXM2R09NeTd6ODVuOFkwSzhlZ292VWdSX05YWlRCWUFNN3JLTnpfRlQ3X2MwVHpLT1HSAWtBVV95cUxOamd3RGZRMVZFcmJ3TnFTUTZEcjRfZmtYZGw1Zk8wOVNMbmFLRkZnQmxoeTlLSWxZY0NocGRaTkM4a2tfNkNfOUtVRGdaaGluT2h3V2pMLTJvcFZxTE55YzRpNlg2ZWpidnh0bw?oc=5",
-      "published": "2026-04-16T16:54:11+09:00",
-      "query": "고령자 금융",
-      "category": "고령자 금융"
+      "id": "033bc4a4d1f6",
+      "title": "다음주 금융당국 일정",
+      "source": "마켓인",
+      "summary": "다음주 금융당국 일정&nbsp;&nbsp;마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FcnNaN3FGNVczc1dac0p0MjFwejlDdUVBUW40bnNfQVRDNFhlOHNESE8zZU5wWXdYS1F2azRxZVgxVm80MFR1cGJZbFJ0RkEtNjdETHhGUnNtY0ZDWm14aEp0MEpGREVCUVJEQW04aDdYT3c?oc=5",
+      "published": "2026-04-18T06:30:52+09:00",
+      "query": "서민금융"
     },
     {
-      "id": "b10501a3f210",
-      "title": "은행권 포용금융 강화 '총력'...시니어·사회적 배려계층 이어 청년까지 확대",
-      "source": "파이낸셜포스트",
-      "summary": "은행권 포용금융 강화 '총력'...시니어·사회적 배려계층 이어 청년까지 확대&nbsp;&nbsp;파이낸셜포스트",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BQmhYbVBubUxpdm1PNkcyOEtid0tHVWFEeGhIRUxkVWxPYm1wOWgtR3U4WFhEUGhZMjhDMlM2eG1jdWV0Rk1FbXlVaGRQV3ZPQ2U5MVJpYnhuaTFJY0FyN0xhMWRFOXNyR1Z2ZWlBSEluaWxW?oc=5",
-      "published": "2026-04-16T14:24:43+09:00",
-      "query": "고령자 금융",
-      "category": "고령자 금융"
+      "id": "fbb6838757e9",
+      "title": "포용금융의 청구서…인뱅, 지난해 부실채권 1조원 털었다",
+      "source": "v.daum.net",
+      "summary": "포용금융의 청구서…인뱅, 지난해 부실채권 1조원 털었다&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBaaU5nNHZodGNSc1A0VjQ3bnZMeHNRNTVRZWE3d0lEeHVRTnJUTTR1cjhuQlBtMkhKRmxZbXV3SkpKdlFQbGFyT21fQ0VZWjQ?oc=5",
+      "published": "2026-04-17T17:02:45+09:00",
+      "query": "포용금융"
     },
     {
-      "id": "1321ea95d2d3",
-      "title": "NS홈쇼핑, 시니어 고객 맞춤 금융 생활 세미나 강연 성료",
-      "source": "핸드메이커",
-      "summary": "NS홈쇼핑, 시니어 고객 맞춤 금융 생활 세미나 강연 성료&nbsp;&nbsp;핸드메이커",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSZm9Nc1M0MS1WSDN1eTJRaHUwZkdTVmZPbnFSeDBVSmZ2QWFQX0YzaWFMaU55VnpBWU9qNXgycHhCTGtTRHNFTHV5Vk95bHN5OVRZMTlMdS00TUZNZHpzNG92ZlFoLTA?oc=5",
-      "published": "2026-04-16T10:27:59+09:00",
-      "query": "고령자 금융",
-      "category": "고령자 금융"
+      "id": "4523ebb64c97",
+      "title": "양산시 소상공인 육성자금 지원 2분기 신청 접수",
+      "source": "뉴스타운",
+      "summary": "양산시 소상공인 육성자금 지원 2분기 신청 접수&nbsp;&nbsp;뉴스타운",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wZXd5Um82NTBZTjBiR2xCRlh3eE5PaDlPVG9Db0FzSzRHWkdBZDFWajFSeUdFT2JJSk5mbUZ3dGRmd2lZZ0tmblBVWkotZGp2bEx4dG9KZjZ2VlpobHdvRmtvaUZzMlBPZk0tVXNR?oc=5",
+      "published": "2026-04-17T16:38:23+09:00",
+      "query": "소상공인 금융지원"
     },
     {
-      "id": "4554d5b33b66",
-      "title": "[현장에서] “돈은 있는데 쓸 수 없다” 고령자 자산 활용 막히는 이유",
-      "source": "이투데이",
-      "summary": "[현장에서] “돈은 있는데 쓸 수 없다” 고령자 자산 활용 막히는 이유&nbsp;&nbsp;이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwdzJCN2hnMl9rNjljRE9WQndkekVNSWpQdlZqUkU2dVdiM0dPOTBjRVZjSDdhRUVSQUtFR3h5a1lOZkNuY1poU05qUklfbExQQ2diLUhURWxTdw?oc=5",
-      "published": "2026-04-14T17:12:00+09:00",
-      "query": "고령자 금융",
-      "category": "고령자 금융"
+      "id": "3e509ab5bc00",
+      "title": "LIG D&A, 중소기업 상생 협력 통해 'K-방산' 생태계 강화나선다",
+      "source": "v.daum.net",
+      "summary": "LIG D&amp;A, 중소기업 상생 협력 통해 'K-방산' 생태계 강화나선다&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9meTYwSVc3ektrSmZnTE80REl6eVdPUXZmMDdrbUlZZkRXZDhXelRKenNwcFl3QkRuZDVIMHpoUWZ6QnppQzBBN0hqRktNTUE?oc=5",
+      "published": "2026-04-17T16:32:35+09:00",
+      "query": "중소기업 상생"
     },
     {
-      "id": "eab28002886b",
-      "title": "장애인차별금지법 18년… “키오스크 앞에서 멈춘 권리”",
-      "source": "더인디고",
-      "summary": "장애인차별금지법 18년… “키오스크 앞에서 멈춘 권리”&nbsp;&nbsp;더인디고",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnelV6MW1LRkhPZENTenVjeHVrNDJ5cWdTMDczazNONE50eEQ1VEVlUm4wejR6NVlOUmFmNXRyV2ZkdjhGbnpydGhmcmJpTEU?oc=5",
-      "published": "2026-04-10T19:06:29+09:00",
-      "query": "장애인차별금지법 키오스크",
-      "category": "장애인차별금지법"
+      "id": "b9fe92bfa141",
+      "title": "“포용금융 확대”…금융위기 청년 돕는다",
+      "source": "매일경제",
+      "summary": "“포용금융 확대”…금융위기 청년 돕는다&nbsp;&nbsp;매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xdVowa0JYRXl1dUdvNFNtZWVWOFotZ0oxTmladTJuRFR2MGdZMzB2VWd0RlViTVJSQXNpb25WYmtNeDZVZ2ktaFR1eGF6aUszMVFLUg?oc=5",
+      "published": "2026-04-17T16:18:20+09:00",
+      "query": "포용금융"
     },
     {
-      "id": "04515639c751",
-      "title": "대구 장애인들 \"대형프랜차이즈업체 키오스크 장애인 차별\" 41건 집단진정",
-      "source": "에이블뉴스",
-      "summary": "대구 장애인들 \"대형프랜차이즈업체 키오스크 장애인 차별\" 41건 집단진정&nbsp;&nbsp;에이블뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fRUxzRkJ2X3FIdTJPcXN5Z2o2N3R3dGRUSGRTT29HLV9EcEN4eTV5X0hYUk1HcFIydVdFT2JSalZkOUxKT25XaUotNV9BU1JBbDZsZXAyV3hSVEJ4MGlDUkZYdGFMVUZ3RnlXZHlB?oc=5",
-      "published": "2026-04-10T11:48:00+09:00",
-      "query": "장애인차별금지법 키오스크",
-      "category": "장애인차별금지법"
+      "id": "44aa15a70ebe",
+      "title": "하나금융그룹, ‘100호 어린이집’ 대상 유아 ESG 금융교육 실시",
+      "source": "BBS불교방송",
+      "summary": "하나금융그룹, ‘100호 어린이집’ 대상 유아 ESG 금융교육 실시&nbsp;&nbsp;BBS불교방송",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE04ckpMMDhHWWtXYjV6c0VwWkVxenFpYzFIaFlUWlM2dzR2OUJxZk1YU0pHSzBjRjVZMG5hbTdtb0o0MzZDUU5lN2ttMUhEQS1TVUwyRmJJRXRfbDU0eXBvTUdNMEM4ZE5tMFRB?oc=5",
+      "published": "2026-04-17T14:43:46+09:00",
+      "query": "금융접근성"
+    },
+    {
+      "id": "335abe0d888f",
+      "title": "KB금융그룹, 경찰청과 보이스피싱·고령운전자 교통사고 예방 협력",
+      "source": "베이비타임즈",
+      "summary": "KB금융그룹, 경찰청과 보이스피싱·고령운전자 교통사고 예방 협력&nbsp;&nbsp;베이비타임즈",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CRTRWMURUYlIzR19yWFNNbWNTVnR6cXlWblBNNjQ3WF8zZEhQV29VbGVrMGxMdDN3T2JXUHA3ME80U0RadXVFR0F6NGtkTW9UUVlobkpXZlhfTGlfVGpuNVhIMWN0ZmJqODZfNQ?oc=5",
+      "published": "2026-04-17T10:34:04+09:00",
+      "query": "고령자 금융"
+    },
+    {
+      "id": "aae7f4f9971a",
+      "title": "미래에셋생명, 출산·육아 보험료 '12개월' 유예…상생금융 가속",
+      "source": "뉴스저널리즘",
+      "summary": "미래에셋생명, 출산·육아 보험료 '12개월' 유예…상생금융 가속&nbsp;&nbsp;뉴스저널리즘",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IR1ZZTF9IVHFUSGlianJ3TUg0UHI4NThIbnhkTlRsb0lQQXlxc1hmWUNTTnZKUk5VVGhUM3NPZEtOYVVvaGFkRmEyUF9BX0ZrV1NaSUJFTDBNU3VFekotaEh0VGVLTlZHNmY4?oc=5",
+      "published": "2026-04-17T08:00:00+09:00",
+      "query": "상생금융"
+    }
+  ],
+  "tech": [
+    {
+      "id": "5ac6fddb5883",
+      "title": "코스콤 '온체인 은행' 주목…금융 인프라 판 바뀐다",
+      "source": "데일리안",
+      "summary": "코스콤 '온체인 은행' 주목…금융 인프라 판 바뀐다&nbsp;&nbsp;데일리안",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZNU9IdHdjRjhYOS0xMHJsNnJPRllEWmQ2TWhIVGY4NlVXSnNMSDQ5dHFxem5SS3NOQlI3QnducU9TQWl0TzZNd2IxQlBIRU1YbDdMb3ln0gGaAkFVX3lxTE5UWnpiRzVKenFUVllwUkc4Q3Bvc29Zd2pUd2J6d1FkbkVpTFZCRFNnNzk0ak9aNlhhX3BmQUxQTVRmc0JyTUNUVUhncHRyUWY2RThTYUxuZW5JZlVNNWdYZVpkdG1xUHRqVzNqdFRHTTZaSEI2Z3FVT3V6Wlp2ZTd2Nkp0dmxGUXBzaVpuemxQTzQ0OU1BVmFzT0xfckFIZjBmeXhsRGNWWlkxWTVyZFFSbmtNMjRjNXd6bHg4YXlNVWJkYjFlcFJUSEVnNWpsOGEyRmxLWVBOcU1odFlmSmxwUjNjMHpmY1JXeUQ5VXl3cjB4LXZMSlFrVWx5cjJ6d1N0TkNjSmpqWEFGNFIzU2NfT0xMcjVHNGF1Zw?oc=5",
+      "published": "2026-04-18T07:06:00+09:00",
+      "query": "블록체인 은행"
+    },
+    {
+      "id": "734a12922b4a",
+      "title": "‘초강력 AI 해커’ 충격파 확산… 각국 경제수장들 “은행 시스템 위협” 경고",
+      "source": "v.daum.net",
+      "summary": "‘초강력 AI 해커’ 충격파 확산… 각국 경제수장들 “은행 시스템 위협” 경고&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LRUtOWWl6QUl3X1RCZVRVV0x3Yzc3MVhHT1B1OS1JZFRvbVQ4N19ZMjhGSEtKUU5PdzZQZW9KeVNzZ29xX1ZPeDduT1pHazA?oc=5",
+      "published": "2026-04-18T01:43:37+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "9ef372fd122c",
+      "title": "KB국민은행, AI 기반 화상상담…실시간 얼굴확인 도입",
+      "source": "뉴시스",
+      "summary": "KB국민은행, AI 기반 화상상담…실시간 얼굴확인 도입&nbsp;&nbsp;뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1EZ3ZlektjUVlFM2Ffa1Jtb3h6YlM5VFNqQ3hEMkE4cXJJaUVIS1pEcUZzWnFzNDNtaU5hdGRHUzVXMzdwd3JDb05KTWY5QUJyNm5lakh5WkVNTm5raHZQR9IBeEFVX3lxTE16djRHQlZ1T1M1U09TbkFURjBMeFpDUDBISjdDeUpSWmhtS3AtUEZBVmhTVW5mOUNvMVgyd25iQ3djd0JmSld0SzZldkZhYkRtYVdJUjJ4MkNaVGt4VnE2TnY1VGMxa3lkWXQ4UDhSMHFOZHVFRlVCZw?oc=5",
+      "published": "2026-04-17T16:05:45+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "a347f6224bfa",
+      "title": "한은, 스테이블코인과 공존 선택···생태계는 예금토큰이 선점",
+      "source": "뉴스프리존",
+      "summary": "한은, 스테이블코인과 공존 선택···생태계는 예금토큰이 선점&nbsp;&nbsp;뉴스프리존",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54b0VFSnBUNG9SNzJucVBnNGpQbm4teFFBMTE3Y3JnOHpsb3ZzenVXYjA1YzlkTXcwNG9uSko1SUdOUDZxdnFObXIyNlUtRkNlb2dUNjhCd3NBY18ydy15VGZGd1dzb0FHdEhMSmtSSEllREXSAXdBVV95cUxOeDZBWmVsVVdyamxya3pKcTRkTi1KX0xFMFdWMUdTbnIxTFpCLXRqNnVxd0kyZlpfbGFNc1VEdHdYZ09CRVZCTkFVVnMtTEp3X19mMmY4MV8wU1k0ZzVoSkJWRXY4aElzeEdHZlQ4blItSWZCS1JLZw?oc=5",
+      "published": "2026-04-17T15:51:20+09:00",
+      "query": "예금토큰"
+    },
+    {
+      "id": "e80b41bb4b7b",
+      "title": "[금융은 AX 중] 상위권은 분주, 나머진 조용…저축은행은 '양극화'",
+      "source": "비즈한국",
+      "summary": "[금융은 AX 중] 상위권은 분주, 나머진 조용…저축은행은 '양극화'&nbsp;&nbsp;비즈한국",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HS2g2OUlYdWxLTlVQSHdyeHBsTU9YcWNmU0F1RUUzazN0UHJYNTRPeGFjSjEteWlILW5kRlBNTUhqZEo4WjQzRU1kUnEtLXpsYVpRdTdR?oc=5",
+      "published": "2026-04-17T14:56:24+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "2c6a963143b6",
+      "title": "홍콩, 스테이블코인 시대 개막…HSBC 앞세운 ‘은행 중심 디지털 화폐’ 전략 본격화",
+      "source": "블록체인투데이",
+      "summary": "홍콩, 스테이블코인 시대 개막…HSBC 앞세운 ‘은행 중심 디지털 화폐’ 전략 본격화&nbsp;&nbsp;블록체인투데이",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qeW1CRXZMTDNmUS11T0I2SzlzSnhkQWtxTVRnNlFnajJDMEt3WWgwUjktNlZWbWNqdDlmVFZ0cmxFeE9SLTdLMXY0QzV5LVZMYXMyU2dxTmpWLTRtR0xZUDlwVWk3czlLSXJibUhGdVpPdkxwLWc?oc=5",
+      "published": "2026-04-17T10:44:57+09:00",
+      "query": "블록체인 은행"
+    },
+    {
+      "id": "cf2d40194d2a",
+      "title": "NC AI, 아시아개발은행 등 亞 국가에 AI기술·비전 발표",
+      "source": "전자신문",
+      "summary": "NC AI, 아시아개발은행 등 亞 국가에 AI기술·비전 발표&nbsp;&nbsp;전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBYVnRsZ2tGYnpvbWd3LWxYVklPdG8yUVFzMW4yMWhQVng5a3dmOWpFN0RfdHBQeDBGNVR3TURBMHd2bE9uTU1hcWlnbTZXUQ?oc=5",
+      "published": "2026-04-17T10:14:58+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "c9dff1a0799b",
+      "title": "美 스테이블코인 수익 규정 발표 연기…은행·크립토 갈등 여파",
+      "source": "블루밍비트",
+      "summary": "美 스테이블코인 수익 규정 발표 연기…은행·크립토 갈등 여파&nbsp;&nbsp;블루밍비트",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ZTXVob1VHQVlQOWR2N0E4NHp1NW1WYnpPeWdtazNuS1FyUEVtem5aRFUxbkF4NnpTY3Q4YWxJY21QQmJLaG9tY2s2TTNQQk5H?oc=5",
+      "published": "2026-04-17T08:34:29+09:00",
+      "query": "스테이블코인 은행"
     }
   ]
 }
