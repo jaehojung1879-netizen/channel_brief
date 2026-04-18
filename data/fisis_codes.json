@@ -1,6 +1,12 @@
 {
-  "bank_finance_codes": {},
-  "list_no_branch": "",
-  "list_no_regional": "",
-  "discovered_at": "2026-04-19T07:35:16.379727+09:00"
+  "bank_finance_codes": {
+    "KB국민": "0010927",
+    "신한": "0011625",
+    "우리": "0010001",
+    "하나": "0013909",
+    "NH농협": "0013175"
+  },
+  "list_no_branch": "SA002",
+  "list_no_regional": "SA060",
+  "discovered_at": "2026-04-19T07:56:53.814495+09:00"
 }
