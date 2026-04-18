@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T17:38:43.306437+09:00",
+  "updated_at": "2026-04-18T21:39:25.326859+09:00",
   "social_finance": [
     {
       "id": "db4050755e58",
@@ -20,24 +20,6 @@
       "query": "중소기업 상생"
     },
     {
-      "id": "49c460062503",
-      "title": "앤트 인터내셔널, IFC, 지캐시, MSME의 지속 가능한 자금 조달 접근성 확대 위해 최초의 지속 가능성 영향 스코어카드 개발",
-      "source": "美通社",
-      "summary": "앤트 인터내셔널, IFC, 지캐시, MSME의 지속 가능한 자금 조달 접근성 확대 위해 최초의 지속 가능성 영향 스코어카드 개발&nbsp;&nbsp;美通社",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zaGdDUGN5c04ycjA0eGt2eWNyMWF6ek9ZcXRIQjFwR3B2TXZHRGpOVTItUEVSYWppWnZKc0EyZmYyMG9mYURXWFlxUlJzTEpTSkVMU0hDc2p4UQ?oc=5",
-      "published": "2026-04-18T07:58:00+09:00",
-      "query": "금융접근성"
-    },
-    {
-      "id": "033bc4a4d1f6",
-      "title": "다음주 금융당국 일정",
-      "source": "마켓인",
-      "summary": "다음주 금융당국 일정&nbsp;&nbsp;마켓인",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FcnNaN3FGNVczc1dac0p0MjFwejlDdUVBUW40bnNfQVRDNFhlOHNESE8zZU5wWXdYS1F2azRxZVgxVm80MFR1cGJZbFJ0RkEtNjdETHhGUnNtY0ZDWm14aEp0MEpGREVCUVJEQW04aDdYT3c?oc=5",
-      "published": "2026-04-18T06:30:52+09:00",
-      "query": "서민금융"
-    },
-    {
       "id": "728088e366c4",
       "title": "포용금융의 청구서…인뱅, 지난해 부실채권 1조원 털었다",
       "source": "MTN 머니투데이방송",
@@ -45,6 +27,15 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuRXZYQWxvTWQ4RkI0U05kR0N5NlJkdm9JMEVtdV9tSDJFdWhSUURzVVRzd056VElSa3RibkVyNk1idDNNUkxwWUw4RVU4TllpaE9WMGR2bXVqaDk2VDZrODRJbWM?oc=5",
       "published": "2026-04-17T17:02:22+09:00",
       "query": "포용금융"
+    },
+    {
+      "id": "3e509ab5bc00",
+      "title": "LIG D&A, 중소기업 상생 협력 통해 'K-방산' 생태계 강화나선다",
+      "source": "v.daum.net",
+      "summary": "LIG D&amp;A, 중소기업 상생 협력 통해 'K-방산' 생태계 강화나선다&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9meTYwSVc3ektrSmZnTE80REl6eVdPUXZmMDdrbUlZZkRXZDhXelRKenNwcFl3QkRuZDVIMHpoUWZ6QnppQzBBN0hqRktNTUE?oc=5",
+      "published": "2026-04-17T16:32:35+09:00",
+      "query": "중소기업 상생"
     },
     {
       "id": "335abe0d888f",
@@ -65,13 +56,22 @@
       "query": "소상공인 금융지원"
     },
     {
-      "id": "d3ab29aa21b7",
-      "title": "4대 금융지주, 취약계층 '상생 행보' 박차",
-      "source": "서울파이낸스",
-      "summary": "4대 금융지주, 취약계층 '상생 행보' 박차&nbsp;&nbsp;서울파이낸스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CeC1rRGstNzEtWEZ2NUJYUS1jZkR2UUJKZ3EyMGJTdVhHY2pVb0xEUy13Y0dIRXVtaTgyUzZMbUMzc3Izdl9nUU1PVmUxc29iWnhYYWZ5WTFKb0lUYXlrUTZNSjJmbzRPeWc?oc=5",
-      "published": "2026-04-16T17:31:41+09:00",
-      "query": "취약계층 금융"
+      "id": "aa6e8af023c1",
+      "title": "“서민금융은행 설립, 투자성예금 제도 도입해 금융의 공적 기능 키워야”",
+      "source": "마켓인",
+      "summary": "“서민금융은행 설립, 투자성예금 제도 도입해 금융의 공적 기능 키워야”&nbsp;&nbsp;마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VWHVYTVJiZlVwMDVaZTZBSzhENEpyTl9qM1BSek5za3cwMGwxUHJOXzBrR0VmV1U3UGhhVFliMTFrakgyX1B0Y3drZmdkOVdmNFpmZ0lQbzBuOVJxSGQ5b1VnaF93eTNvbER1b010UUhVUnc?oc=5",
+      "published": "2026-04-16T17:09:48+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "8dcaf716e6ae",
+      "title": "하나은행, 시니어 금융·보험·쇼핑 결합 서비스 확대",
+      "source": "현대경제신문",
+      "summary": "하나은행, 시니어 금융·보험·쇼핑 결합 서비스 확대&nbsp;&nbsp;현대경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80QkpzZDFhLUVXNDAzbF85WTBzemtKakxwb3lyODdfQ1BqSE5BRl9pTUNxWUlzOXM2R09NeTd6ODVuOFkwSzhlZ292VWdSX05YWlRCWUFNN3JLTnpfRlQ3X2MwVHpLT1HSAWtBVV95cUxOamd3RGZRMVZFcmJ3TnFTUTZEcjRfZmtYZGw1Zk8wOVNMbmFLRkZnQmxoeTlLSWxZY0NocGRaTkM4a2tfNkNfOUtVRGdaaGluT2h3V2pMLTJvcFZxTE55YzRpNlg2ZWpidnh0bw?oc=5",
+      "published": "2026-04-16T16:54:11+09:00",
+      "query": "고령자 금융"
     }
   ],
   "tech": [
@@ -121,15 +121,6 @@
       "query": "예금토큰"
     },
     {
-      "id": "1f0f7084d16a",
-      "title": "오픈뱅킹 10월 시범시행 앞두고... 은행들 앱 출시 경쟁",
-      "source": "한국일보",
-      "summary": "오픈뱅킹 10월 시범시행 앞두고... 은행들 앱 출시 경쟁&nbsp;&nbsp;한국일보",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pMTNTZlZ3MUpyaV9jd2NMY3plQzhZRG51Z0FHdTZJQVRoeEc0dG10QmVidVBYeUtwbFl6aVQ4dm01R2FXSzNTMDBtRW5WMWlCck9wRkxxQzNqOUl0LWFLaXB2V19ZS3VrN2ZOQ9IBcEFVX3lxTE9tOTctZGFrZ2kxTGJZUENDeE1QM0lXcGhUdGtWTmNxckU1YTZ4LVRMOEtuUlkyY2ZJcTVkdFB1SC0yX29nS1Q3TXJMVm0tY0JLTHlsY2pEc0Z0SkZ1MmJmLXdTQjJTMmdZM055YzNocTA?oc=5",
-      "published": "2026-04-17T15:41:21+09:00",
-      "query": "오픈뱅킹"
-    },
-    {
       "id": "e80b41bb4b7b",
       "title": "[금융은 AX 중] 상위권은 분주, 나머진 조용…저축은행은 '양극화'",
       "source": "비즈한국",
@@ -146,6 +137,15 @@
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jTmFxMk1SaUI0a0xQQ24wdXVPZnBSTU9Rd0llNHhRQjRzb0wzUWlWeWo4dW55M2UyUjNWN3VuNC1LWnh1UHpVWnoxQkJUUmYySXp0emVINnpQRjktQnJtdHRNdzhqbWhPcGJ1bDNyMF9Wem8?oc=5",
       "published": "2026-04-17T13:19:00+09:00",
       "query": "스테이블코인 은행"
+    },
+    {
+      "id": "2c6a963143b6",
+      "title": "홍콩, 스테이블코인 시대 개막…HSBC 앞세운 ‘은행 중심 디지털 화폐’ 전략 본격화",
+      "source": "블록체인투데이",
+      "summary": "홍콩, 스테이블코인 시대 개막…HSBC 앞세운 ‘은행 중심 디지털 화폐’ 전략 본격화&nbsp;&nbsp;블록체인투데이",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qeW1CRXZMTDNmUS11T0I2SzlzSnhkQWtxTVRnNlFnajJDMEt3WWgwUjktNlZWbWNqdDlmVFZ0cmxFeE9SLTdLMXY0QzV5LVZMYXMyU2dxTmpWLTRtR0xZUDlwVWk3czlLSXJibUhGdVpPdkxwLWc?oc=5",
+      "published": "2026-04-17T10:44:57+09:00",
+      "query": "블록체인 은행"
     }
   ]
 }
