@@ -270,12 +270,26 @@ def _fisis_get_json(endpoint: str, **params):
     return None
 
 
-# XML row 태그 후보. FISIS 응답에서 반복 row는 아래 이름들 중 하나로 추정.
-_FISIS_ROW_TAG_CANDIDATES = ("list", "row", "item", "record", "dataSet")
+def _xml_children_tag_counts(node):
+    """direct children 태그별 빈도수."""
+    counts = {}
+    for c in node.find_all(recursive=False):
+        name = getattr(c, "name", None)
+        if name:
+            counts[name] = counts.get(name, 0) + 1
+    return counts
+
+
+def _is_wrapper(node):
+    """같은 태그 자식이 2개 이상이면 wrapper (<list><row>…</row><row>…</row></list>)."""
+    counts = _xml_children_tag_counts(node)
+    return any(v >= 2 for v in counts.values())
 
 
 def _xml_row_dict(node) -> dict:
-    """XML element를 {자식태그: 텍스트} dict로 변환."""
+    """XML leaf element → {자식태그: 텍스트}. wrapper 노드는 {} 반환."""
+    if _is_wrapper(node):
+        return {}
     d = {}
     for child in node.children:
         name = getattr(child, "name", None)
@@ -287,34 +301,43 @@ def _xml_row_dict(node) -> dict:
     return d
 
 
+def _drill_rows_from_wrapper(wrapper):
+    """wrapper에서 반복되는 자식 태그를 찾아 row dict 리스트로 변환."""
+    counts = _xml_children_tag_counts(wrapper)
+    for bad in ("err_cd", "err_msg", "header"):
+        counts.pop(bad, None)
+    if not counts:
+        return []
+    top_tag = max(counts, key=counts.get)
+    children = wrapper.find_all(top_tag, recursive=False)
+    rows = [_xml_row_dict(c) for c in children]
+    return [r for r in rows if r]
+
+
 def _fisis_extract_rows_any(resp):
     """XML(soup) / JSON(dict) 응답에서 row dict 리스트 추출."""
     if resp is None:
         return []
     # XML path
     if hasattr(resp, "find_all"):
-        # err_cd만 있는 래퍼 제외
-        for tag in _FISIS_ROW_TAG_CANDIDATES:
-            nodes = [n for n in resp.find_all(tag) if n.find(re.compile(r"err_cd|err_msg", re.I)) is None]
-            if not nodes:
-                # err_cd 체크 없이 모든 태그 수집도 시도
-                nodes = resp.find_all(tag)
-            # 실질적으로 자식이 있는 것만
-            nodes = [n for n in nodes if _xml_row_dict(n)]
-            if nodes:
-                return [_xml_row_dict(n) for n in nodes]
-        # 최후의 수단: <result> 바로 밑에 있는 모든 element를 각각 row로 간주
+        # 1) row/item/record/dataSet 리프 태그 우선 탐색
+        for tag in ("row", "item", "record", "dataSet"):
+            nodes = resp.find_all(tag)
+            dicts = [_xml_row_dict(n) for n in nodes]
+            dicts = [d for d in dicts if d]
+            if dicts:
+                return dicts
+        # 2) <list> 래퍼 안에서 반복 자식을 row로 추출
+        for lst in resp.find_all("list"):
+            rows = _drill_rows_from_wrapper(lst)
+            if rows:
+                return rows
+        # 3) <result> 바로 밑 반복 자식
         top = resp.find("result")
         if top:
-            candidate_rows = []
-            for child in top.find_all(recursive=False):
-                if child.name in ("err_cd", "err_msg"):
-                    continue
-                d = _xml_row_dict(child)
-                if d:
-                    candidate_rows.append(d)
-            if candidate_rows:
-                return candidate_rows
+            rows = _drill_rows_from_wrapper(top)
+            if rows:
+                return rows
         return []
     # JSON path (dict)
     if isinstance(resp, dict):
