@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T21:38:41.300599+09:00",
+  "updated_at": "2026-04-19T07:14:17.572729+09:00",
   "items": [
     {
       "id": "789d8a3196d2",
@@ -18,6 +18,15 @@
       "published": "2026-04-17T01:40:36+09:00",
       "date": "2026-04-17",
       "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "1944eb5cf176",
+      "title": "김병민 용인특례시의원, \"반도체 국가산단 이전 주장, 정치적 접근 경계해야\"",
+      "source": "글로벌에픽",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xTXZCakNsQjhCLXVmVF9oTjN5TlJwR0lHNXV6d2hsWVdDb0pBX2NacGlCajl5TUc2WVFobnRtTFJKMVpUcmM1NTlfMnRsN1FGd1NDRGNLM1VzU2ZjbFUtbFhMQUJ4MkJDTGhvdGt6NjdNakJ4UmdMN2xGODg?oc=5",
+      "published": "2026-04-16T23:27:10+09:00",
+      "date": "2026-04-16",
+      "query": "반도체 국가산단"
     },
     {
       "id": "13bbc2ecfe2e",
@@ -83,15 +92,6 @@
       "query": "신도시 착공"
     },
     {
-      "id": "c524021bcaae",
-      "title": "올해 수도권 공공주택 6만2000가구 착공…3기 신도시 집중 공급",
-      "source": "Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWmcyQzU3d0dtZXRUNHAzMzBiNGdHUGptNlZRdUJRZ2hEblZlclFoUXJoQmlCRFBNMnFyY0JhLXM0M0kyOXZRQnB5dkNNUms0WU9ZZVoxWDNWSHQwbHNkeExJRUFubTNpRVpsekEtNTF1ZHVNRl9nSFhMUGRuLVYtQmo5RHpDSWV5dHI0YXJrbGZZOWNzVmlVYg?oc=5",
-      "published": "2026-04-15T15:00:41+09:00",
-      "date": "2026-04-15",
-      "query": "신도시 착공"
-    },
-    {
       "id": "c766cd9836c1",
       "title": "올해 수도권 공공주택 6.2만호 착공 추진…3기 신도시 포함",
       "source": "연합뉴스",
@@ -101,20 +101,20 @@
       "query": "신도시 착공"
     },
     {
+      "id": "0d561215ccfe",
+      "title": "올해 수도권 공공주택 6만2000가구 착공…3기 신도시 집중 공급 - 조선비즈",
+      "source": "Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWmcyQzU3d0dtZXRUNHAzMzBiNGdHUGptNlZRdUJRZ2hEblZlclFoUXJoQmlCRFBNMnFyY0JhLXM0M0kyOXZRQnB5dkNNUms0WU9ZZVoxWDNWSHQwbHNkeExJRUFubTNpRVpsekEtNTF1ZHVNRl9nSFhMUGRuLVYtQmo5RHpDSWV5dHI0YXJrbGZZOWNzVmlVYtIBrAFBVV95cUxQWXdsdXpsa21GNDFWNlVSR1l0Ymh0R01iUlRIWklLTl9qT2NNZXdMc2xoTXQxbXViWjlLWnAxN1lDTGR4ME1QM29tYTQwMkl3ZmwxeVZMMEwydTNuanRLUXZfWm5NdmVVekVEaGNvNW5fYXVJS2txLXJHNTF0clF6Zm85N3hfV3d5ejBBVlV3UGszeEc0OEVWTjFEVTFlelFJdEI4RHlPb3FSWjVJ?oc=5",
+      "published": "2026-04-15T15:00:00+09:00",
+      "date": "2026-04-15",
+      "query": "신도시 착공"
+    },
+    {
       "id": "35bf1b967dc8",
       "title": "이상일 용인시장, “반도체 국가산단 지연 안 된다”…정부에 입장 촉구",
       "source": "비즈월드",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xalVFZkx3a1RBRWtiVkVUWmYwLUtRbDNqUXUxV00wOUF5ZVNxWkNVa3JyaVlWVXBfVEZLZGw4SkRxLTRrS3NESG1lQXpDWU0wZEdMWFA2U0pwYld6aDc4TVY2aEVvQS1hUU0w?oc=5",
       "published": "2026-04-14T22:32:35+09:00",
-      "date": "2026-04-14",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "26c647cd0023",
-      "title": "용인 반도체 산단 접근성 높인다… 도로 확충 '속도'",
-      "source": "B world",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RYTFRV1pJbzlkYkxrQ3hvU0NHdEJjNGZTQ2UwNGlqYW1xclhpbW5RMEh5ZTNHdzVHXzFUeGtkRjhOOVQwd29lTUtobUs1b2FFSVhtbFA4ODJJakxKMXJIMm80ajlrcEtOeTdPZFpYZ0Q?oc=5",
-      "published": "2026-04-14T18:06:18+09:00",
       "date": "2026-04-14",
       "query": "반도체 국가산단"
     },
