@@ -132,6 +132,70 @@
   .loading { color: var(--ink-mute); font-family: var(--mono); font-size: 11px; padding: 20px 0; letter-spacing: 0.08em; }
   .empty { color: var(--ink-mute); font-family: var(--mono); font-size: 11px; padding: 14px 0; letter-spacing: 0.05em; }
 
+  .branch-popup-launch { display: flex; justify-content: center; margin: 24px 0 6px; }
+  .branch-popup-btn {
+    border: 1px solid var(--line);
+    background: var(--bg-elev);
+    color: var(--ink);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    padding: 10px 14px;
+    cursor: pointer;
+  }
+  .branch-popup-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(7, 10, 14, 0.78);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    padding: 18px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    width: min(860px, 100%);
+    max-height: 85vh;
+    overflow: auto;
+    border: 1px solid var(--line);
+    background: var(--bg-elev);
+    padding: 18px 20px 20px;
+  }
+  .modal-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .modal-head h4 { font-family: var(--serif); font-size: 20px; font-weight: 600; }
+  .modal-close {
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--ink-dim);
+    padding: 4px 8px;
+    cursor: pointer;
+    font-family: var(--mono);
+  }
+  .modal-close:hover { color: var(--ink); border-color: var(--accent); }
+  .branch-logo-row {
+    display: grid;
+    grid-template-columns: 40px 110px 1fr 90px 72px;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .branch-logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 6px;
+    background: #fff;
+    padding: 3px;
+  }
+  .branch-name { font-family: var(--serif); font-weight: 600; }
+  .branch-count { font-family: var(--mono); text-align: right; }
+  .branch-delta { font-family: var(--mono); text-align: right; font-size: 11px; }
+  .branch-delta.pos { color: var(--ok); }
+  .branch-delta.neg { color: var(--danger); }
+
   footer { border-top: 3px double var(--line); padding: 24px 48px; font-family: var(--mono); font-size: 10px; color: var(--ink-mute); letter-spacing: 0.08em; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
 
   @media (max-width: 1100px) {
@@ -188,10 +252,10 @@
   </div>
   <div class="divider"></div>
   <div class="hero-stat">
-    <div class="label">시중은행 총 점포 수</div>
-    <div class="big" id="stat-total">—</div>
-    <div class="delta" id="stat-total-delta">—</div>
-    <div class="sub" id="stat-total-asof">—</div>
+    <div class="label">시중은행 점포 현황</div>
+    <div class="big">—</div>
+    <div class="delta">하단 § 08 팝업에서 확인</div>
+    <div class="sub">상단에는 점포 통계 수치/기준일 미노출</div>
   </div>
   <div class="divider"></div>
   <div class="hero-stat">
@@ -272,7 +336,28 @@
     <div class="bench-grid" id="global-grid"><div class="loading">[LOADING]</div></div>
   </section>
 
+  <section class="section" id="branch-detail">
+    <div class="section-head">
+      <h3><span class="num">§ 08</span>은행별 점포 상세 (팝업)</h3>
+      <div class="updated" id="branch-popup-period">—</div>
+    </div>
+    <div class="branch-popup-launch">
+      <button class="branch-popup-btn" id="branch-popup-open">은행별 점포수 상세 보기</button>
+    </div>
+  </section>
+
 </main>
+
+<div class="modal-overlay" id="branch-modal-overlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="branch-modal-title">
+    <div class="modal-head">
+      <h4 id="branch-modal-title">5대 은행 점포수 (그래프 + 숫자)</h4>
+      <button class="modal-close" id="branch-modal-close">닫기 ✕</button>
+    </div>
+    <div id="branch-modal-meta" class="updated" style="margin-bottom:10px;">—</div>
+    <div id="branch-logo-rows"><div class="loading">[LOADING]</div></div>
+  </div>
+</div>
 
 <footer>
   <div>자동 수집 · 편집: GitHub Actions · 데이터 소스: 구글뉴스 RSS, 은행연합회, 금융위, 국토부 · <span id="last-build">—</span></div>
@@ -437,10 +522,20 @@ function renderDevelopment(data) {
 
 function renderStats(data) {
   const rows = document.getElementById('stat-rows');
+  const popupRows = document.getElementById('branch-logo-rows');
   if (!data || !data.banks) {
     rows.innerHTML = '<div class="empty">통계 데이터 없음</div>';
+    popupRows.innerHTML = '<div class="empty">통계 데이터 없음</div>';
     return;
   }
+
+  const LOGO_MAP = {
+    'KB국민': 'https://upload.wikimedia.org/wikipedia/commons/0/09/KB_Financial_Group_logo.svg',
+    '신한': 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Shinhan_Financial_Group_logo.svg',
+    '하나': 'https://upload.wikimedia.org/wikipedia/commons/9/95/Hana_Financial_Group_logo.svg',
+    '우리': 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Woori_Financial_Group_logo.svg',
+    'NH농협': 'https://upload.wikimedia.org/wikipedia/commons/2/2b/NH_Financial_Group_logo.svg',
+  };
 
   const max = Math.max(...data.banks.map(b => b.count));
   rows.innerHTML = data.banks.map(b => {
@@ -457,12 +552,24 @@ function renderStats(data) {
     `;
   }).join('');
 
-  document.getElementById('stat-total').textContent = data.total ? data.total.toLocaleString() : '—';
-  const d = data.total_delta_qoq;
-  const dEl = document.getElementById('stat-total-delta');
-  dEl.textContent = d < 0 ? `▼ ${Math.abs(d)} (전분기 대비)` : (d > 0 ? `▲ ${d} (전분기 대비)` : '± 0');
-  dEl.className = 'delta' + (d > 0 ? ' up' : '');
-  document.getElementById('stat-total-asof').textContent = `${esc(data.as_of || '')} · ${esc(data.source || '은행연합회')}`;
+  popupRows.innerHTML = data.banks.map(b => {
+    const pct = (b.count / max * 100).toFixed(0);
+    const chgClass = b.delta_qoq < 0 ? 'neg' : (b.delta_qoq > 0 ? 'pos' : '');
+    const chgText = b.delta_qoq === 0 ? '0' : (b.delta_qoq > 0 ? `+${b.delta_qoq}` : `${b.delta_qoq}`);
+    const logo = LOGO_MAP[b.name] || '';
+    return `
+      <div class="branch-logo-row">
+        <img class="branch-logo" src="${logo}" alt="${esc(b.name)} 로고" onerror="this.style.display='none'">
+        <div class="branch-name">${esc(b.name)}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%;"></div></div>
+        <div class="branch-count">${b.count.toLocaleString()}</div>
+        <div class="branch-delta ${chgClass}">${chgText}</div>
+      </div>
+    `;
+  }).join('');
+
+  document.getElementById('branch-modal-meta').textContent = `${esc(data.as_of || '')} · ${esc(data.source || '')}`;
+  document.getElementById('branch-popup-period').textContent = esc(data.as_of || '');
   document.getElementById('stat-period').textContent = esc(data.as_of || '');
 }
 
@@ -552,6 +659,19 @@ document.querySelectorAll('.nav a').forEach(a => {
       a.classList.add('active');
     }
   });
+});
+
+const branchModalOverlay = document.getElementById('branch-modal-overlay');
+document.getElementById('branch-popup-open').addEventListener('click', () => {
+  branchModalOverlay.classList.add('open');
+});
+document.getElementById('branch-modal-close').addEventListener('click', () => {
+  branchModalOverlay.classList.remove('open');
+});
+branchModalOverlay.addEventListener('click', (e) => {
+  if (e.target === branchModalOverlay) {
+    branchModalOverlay.classList.remove('open');
+  }
 });
 </script>
 
