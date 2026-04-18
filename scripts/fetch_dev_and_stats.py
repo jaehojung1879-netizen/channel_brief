@@ -418,10 +418,33 @@ def fisis_find_bank_finance_codes():
     """companySearch(partDiv=A) → 5대 은행 financeCd 매핑."""
     rows = _fisis_call("companySearch", partDiv=FISIS_PART_DIV_DOMESTIC_BANK)
     print(f"[fisis] companySearch returned {len(rows)} rows")
+    if rows:
+        print(f"[fisis] companySearch row[0] keys: {list(rows[0].keys())}")
+        print(f"[fisis] companySearch row[0] data: {rows[0]}")
+        if len(rows) > 1:
+            print(f"[fisis] companySearch row[1] data: {rows[1]}")
     result = {}
     for row in rows:
-        name = _fisis_first(row, ["financeNm", "financenm", "companyNm", "finCompNm", "kor_co_nm", "finName", "name", "nm"])
-        code = _fisis_first(row, ["financeCd", "financecd", "finCompCd", "finCd", "code", "cd"])
+        # 알려진 키로 먼저 시도, 실패 시 값 패턴(한글 은행명/숫자 코드)으로 fallback
+        name = _fisis_first(row, [
+            "financeNm", "financenm", "fin_nm",
+            "companyNm", "companynm", "finCompNm", "fin_co_nm",
+            "kor_co_nm", "finName", "name", "nm",
+        ])
+        code = _fisis_first(row, [
+            "financeCd", "financecd", "fin_cd",
+            "finCompCd", "fin_co_cd", "finCd", "code", "cd",
+        ])
+        if not name:
+            for v in row.values():
+                if isinstance(v, str) and re.search(r"은행|Bank", v):
+                    name = v
+                    break
+        if not code:
+            for k, v in row.items():
+                if isinstance(v, str) and re.fullmatch(r"\d{4,}", v.strip()) and "cd" in k.lower():
+                    code = v.strip()
+                    break
         if not name or not code:
             continue
         mapped = _map_bank_name(name)
@@ -445,11 +468,27 @@ def fisis_find_list_no(keywords):
                        lrgDiv=FISIS_LRG_DIV_BANK,
                        smlDiv=FISIS_SML_DIV_GENERAL)
     print(f"[fisis] statisticsListSearch(A,A) returned {len(rows)} rows")
+    if rows:
+        print(f"[fisis] statisticsListSearch row[0] keys: {list(rows[0].keys())}")
+        print(f"[fisis] statisticsListSearch row[0] data: {rows[0]}")
     norm_kws = [_norm(k) for k in keywords]
     first_names = []
     for row in rows:
-        name = _fisis_first(row, ["listNm", "listname", "listName", "stsListNm", "name", "nm"])
-        code = _fisis_first(row, ["listNo", "listno", "stsListNo", "code", "cd"])
+        name = _fisis_first(row, [
+            "listNm", "listnm", "list_nm",
+            "listname", "listName", "stsListNm", "sts_list_nm",
+            "name", "nm", "title",
+        ])
+        code = _fisis_first(row, [
+            "listNo", "listno", "list_no",
+            "stsListNo", "sts_list_no", "code", "cd",
+        ])
+        # fallback: any value containing target keywords → take the whole row
+        if not name:
+            for v in row.values():
+                if isinstance(v, str) and ("점포" in v or "영업점" in v):
+                    name = v
+                    break
         if not name or not code:
             continue
         if len(first_names) < 10:

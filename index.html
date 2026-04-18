@@ -149,6 +149,7 @@
     border-bottom: 1px solid var(--line);
     max-width: 1100px;
     margin: 0 auto;
+    overflow-wrap: break-word;
   }
   .hero .kicker {
     font-family: var(--mono);
@@ -161,13 +162,14 @@
   .hero h2 {
     font-family: var(--serif);
     font-weight: 600;
-    font-size: clamp(26px, 2.8vw, 38px);
-    line-height: 1.2;
-    letter-spacing: -0.02em;
+    font-size: clamp(24px, 2.4vw, 34px);
+    line-height: 1.25;
+    letter-spacing: -0.015em;
     margin-bottom: 18px;
     word-break: keep-all;
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
     hyphens: none;
+    max-width: 100%;
   }
   .hero p {
     color: var(--ink-dim);
