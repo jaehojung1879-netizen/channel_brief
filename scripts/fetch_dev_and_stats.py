@@ -177,8 +177,56 @@ def fetch_development_news():
 
 
 # ---------- FISIS OpenAPI ----------
-def _fisis_get(endpoint: str, **params):
-    """FISIS API GET (.json) → dict. 실패 시 None."""
+# FISIS 문서 "예제URL"/"예제요청결과" 는 XML 포맷 기준이라, XML을 1차 응답으로 사용하고
+# JSON은 보조 경로로 유지한다. XML은 BeautifulSoup(lxml/xml)로 파싱.
+def _fisis_parse_xml(body: bytes):
+    """bytes → BeautifulSoup. lxml 미설치 환경에서는 html.parser로 fallback."""
+    try:
+        return BeautifulSoup(body, "xml")  # lxml-xml
+    except Exception:
+        try:
+            return BeautifulSoup(body, "lxml")
+        except Exception:
+            return BeautifulSoup(body, "html.parser")
+
+
+def _fisis_log_sample(endpoint: str, text: str, limit: int = 400):
+    sample = re.sub(r"\s+", " ", (text or "")).strip()[:limit]
+    print(f"[fisis] {endpoint} sample: {sample}")
+
+
+def _fisis_get_xml(endpoint: str, **params):
+    """FISIS XML API GET → BeautifulSoup 또는 None."""
+    api_key = os.environ.get("FISIS_API_KEY", "").strip()
+    if not api_key:
+        print(f"[fisis] {endpoint}: FISIS_API_KEY not set")
+        return None
+    params.setdefault("auth", api_key)
+    params.setdefault("lang", "kr")
+    url = f"{FISIS_BASE}/{endpoint}.xml"
+    try:
+        resp = requests.get(url, params=params, headers=HEADERS, timeout=25)
+        if resp.status_code != 200:
+            print(f"[fisis] {endpoint} http={resp.status_code}")
+            _fisis_log_sample(endpoint, resp.text)
+            return None
+        soup = _fisis_parse_xml(resp.content)
+        err_cd_tag = soup.find(re.compile(r"^err_cd$", re.I))
+        if err_cd_tag:
+            code = (err_cd_tag.get_text() or "").strip()
+            if code and code != "000":
+                err_msg_tag = soup.find(re.compile(r"^err_msg$", re.I))
+                msg = err_msg_tag.get_text().strip() if err_msg_tag else ""
+                print(f"[fisis] {endpoint} api_err={code} msg='{msg}'")
+                return None
+        return soup
+    except Exception as e:
+        print(f"[fisis] {endpoint} request error: {e}")
+        return None
+
+
+def _fisis_get_json(endpoint: str, **params):
+    """FISIS JSON API GET (보조 경로) → dict 또는 None."""
     api_key = os.environ.get("FISIS_API_KEY", "").strip()
     if not api_key:
         return None
@@ -188,46 +236,112 @@ def _fisis_get(endpoint: str, **params):
     try:
         resp = requests.get(url, params=params, headers=HEADERS, timeout=25)
         if resp.status_code != 200:
-            print(f"[fisis] {endpoint} status={resp.status_code}")
             return None
         try:
             return resp.json()
         except Exception:
-            print(f"[fisis] {endpoint} non-json body (first 200): {resp.text[:200]}")
             return None
-    except Exception as e:
-        print(f"[fisis] {endpoint} request error: {e}")
+    except Exception:
         return None
 
 
-def _fisis_extract_rows(data):
-    """응답에서 row 리스트 추출 (FISIS 응답 구조가 문서화되지 않아 후보 순회)."""
-    if not isinstance(data, dict):
+# XML row 태그 후보. FISIS 응답에서 반복 row는 아래 이름들 중 하나로 추정.
+_FISIS_ROW_TAG_CANDIDATES = ("list", "row", "item", "record", "dataSet")
+
+
+def _xml_row_dict(node) -> dict:
+    """XML element를 {자식태그: 텍스트} dict로 변환."""
+    d = {}
+    for child in node.children:
+        name = getattr(child, "name", None)
+        if not name:
+            continue
+        txt = child.get_text(strip=True) if hasattr(child, "get_text") else ""
+        if txt:
+            d[name] = txt
+    return d
+
+
+def _fisis_extract_rows_any(resp):
+    """XML(soup) / JSON(dict) 응답에서 row dict 리스트 추출."""
+    if resp is None:
         return []
-    for key in ["result", "list", "data", "items", "row"]:
-        v = data.get(key)
-        if isinstance(v, list):
-            return v
-        if isinstance(v, dict):
-            for inner in ["list", "row", "data", "items"]:
-                vv = v.get(inner)
-                if isinstance(vv, list):
-                    return vv
-    for nk in ["response", "body"]:
-        nested = data.get(nk)
-        if isinstance(nested, dict):
-            for key in ["result", "list", "data", "items", "row"]:
-                v = nested.get(key)
-                if isinstance(v, list):
-                    return v
+    # XML path
+    if hasattr(resp, "find_all"):
+        # err_cd만 있는 래퍼 제외
+        for tag in _FISIS_ROW_TAG_CANDIDATES:
+            nodes = [n for n in resp.find_all(tag) if n.find(re.compile(r"err_cd|err_msg", re.I)) is None]
+            if not nodes:
+                # err_cd 체크 없이 모든 태그 수집도 시도
+                nodes = resp.find_all(tag)
+            # 실질적으로 자식이 있는 것만
+            nodes = [n for n in nodes if _xml_row_dict(n)]
+            if nodes:
+                return [_xml_row_dict(n) for n in nodes]
+        # 최후의 수단: <result> 바로 밑에 있는 모든 element를 각각 row로 간주
+        top = resp.find("result")
+        if top:
+            candidate_rows = []
+            for child in top.find_all(recursive=False):
+                if child.name in ("err_cd", "err_msg"):
+                    continue
+                d = _xml_row_dict(child)
+                if d:
+                    candidate_rows.append(d)
+            if candidate_rows:
+                return candidate_rows
+        return []
+    # JSON path (dict)
+    if isinstance(resp, dict):
+        for key in ["result", "list", "data", "items", "row"]:
+            v = resp.get(key)
+            if isinstance(v, list):
+                return v
+            if isinstance(v, dict):
+                for inner in ["list", "row", "data", "items"]:
+                    vv = v.get(inner)
+                    if isinstance(vv, list):
+                        return vv
+        for nk in ["response", "body"]:
+            nested = resp.get(nk)
+            if isinstance(nested, dict):
+                for key in ["result", "list", "data", "items", "row"]:
+                    v = nested.get(key)
+                    if isinstance(v, list):
+                        return v
     return []
+
+
+def _fisis_call(endpoint: str, **params):
+    """XML 우선, 실패 시 JSON fallback. row list 반환."""
+    soup = _fisis_get_xml(endpoint, **params)
+    rows = _fisis_extract_rows_any(soup)
+    if rows:
+        return rows
+    data = _fisis_get_json(endpoint, **params)
+    rows = _fisis_extract_rows_any(data)
+    if not rows:
+        print(f"[fisis] {endpoint} zero rows (xml+json). params={ {k:v for k,v in params.items() if k!='auth'} }")
+    return rows
 
 
 def _fisis_first(row: dict, keys):
     for k in keys:
         v = row.get(k)
-        if v is not None and str(v).strip():
-            return str(v).strip()
+        if v is None:
+            continue
+        s = str(v).strip()
+        if s:
+            return s
+    # case-insensitive retry
+    low = {k.lower(): v for k, v in row.items()}
+    for k in keys:
+        v = low.get(k.lower())
+        if v is None:
+            continue
+        s = str(v).strip()
+        if s:
+            return s
     return ""
 
 
@@ -254,37 +368,50 @@ def _fisis_row_value(row: dict):
 
 def fisis_find_bank_finance_codes():
     """companySearch(partDiv=A) → 5대 은행 financeCd 매핑."""
-    data = _fisis_get("companySearch", partDiv=FISIS_PART_DIV_DOMESTIC_BANK)
-    rows = _fisis_extract_rows(data)
+    rows = _fisis_call("companySearch", partDiv=FISIS_PART_DIV_DOMESTIC_BANK)
+    print(f"[fisis] companySearch returned {len(rows)} rows")
     result = {}
     for row in rows:
-        name = _fisis_first(row, ["financeNm", "companyNm", "finCompNm", "kor_co_nm", "finName", "name"])
-        code = _fisis_first(row, ["financeCd", "finCompCd", "finCd", "code"])
+        name = _fisis_first(row, ["financeNm", "financenm", "companyNm", "finCompNm", "kor_co_nm", "finName", "name", "nm"])
+        code = _fisis_first(row, ["financeCd", "financecd", "finCompCd", "finCd", "code", "cd"])
         if not name or not code:
             continue
         mapped = _map_bank_name(name)
         if mapped and mapped not in result:
             result[mapped] = code
             print(f"[fisis] financeCd discovered: {mapped} = {code} ({name})")
+    missing = [b["name"] for b in TARGET_BANKS if b["name"] not in result]
+    if missing:
+        print(f"[fisis] financeCd unresolved for: {missing}")
     return result
 
 
-def fisis_find_list_no(keyword: str):
-    """statisticsListSearch(lrgDiv=A, smlDiv=A) → listNm에 keyword 포함된 listNo."""
-    data = _fisis_get("statisticsListSearch",
-                      lrgDiv=FISIS_LRG_DIV_BANK,
-                      smlDiv=FISIS_SML_DIV_GENERAL)
-    rows = _fisis_extract_rows(data)
-    norm_kw = _norm(keyword)
+def fisis_find_list_no(keywords):
+    """statisticsListSearch(lrgDiv=A, smlDiv=A) → 키워드 집합 중 하나라도 매칭되는 listNo 반환.
+
+    keywords: str 또는 str tuple. 각 키워드는 공백 제거·소문자 비교.
+    """
+    if isinstance(keywords, str):
+        keywords = (keywords,)
+    rows = _fisis_call("statisticsListSearch",
+                       lrgDiv=FISIS_LRG_DIV_BANK,
+                       smlDiv=FISIS_SML_DIV_GENERAL)
+    print(f"[fisis] statisticsListSearch(A,A) returned {len(rows)} rows")
+    norm_kws = [_norm(k) for k in keywords]
+    first_names = []
     for row in rows:
-        name = _fisis_first(row, ["listNm", "listName", "stsListNm", "name"])
-        code = _fisis_first(row, ["listNo", "stsListNo", "code"])
+        name = _fisis_first(row, ["listNm", "listname", "listName", "stsListNm", "name", "nm"])
+        code = _fisis_first(row, ["listNo", "listno", "stsListNo", "code", "cd"])
         if not name or not code:
             continue
-        if norm_kw in _norm(name):
-            print(f"[fisis] listNo discovered: '{keyword}' → {code} ({name})")
-            return code
-    print(f"[fisis] listNo not found for keyword '{keyword}'")
+        if len(first_names) < 10:
+            first_names.append(f"{code}:{name}")
+        nn = _norm(name)
+        for kw in norm_kws:
+            if kw and kw in nn:
+                print(f"[fisis] listNo discovered: '{keywords[0]}' → {code} ({name})")
+                return code
+    print(f"[fisis] listNo not found for keywords {keywords}. top-10 seen: {first_names}")
     return None
 
 
@@ -317,9 +444,9 @@ def fisis_discover_codes():
         discovered = fisis_find_bank_finance_codes()
         bank_cds.update(discovered)
     if not list_no_branch:
-        list_no_branch = fisis_find_list_no(FISIS_LIST_KEYWORD_BRANCH)
+        list_no_branch = fisis_find_list_no((FISIS_LIST_KEYWORD_BRANCH, "영업점포", "영업점 현황", "점포현황"))
     if not list_no_regional:
-        list_no_regional = fisis_find_list_no(FISIS_LIST_KEYWORD_REGIONAL)
+        list_no_regional = fisis_find_list_no((FISIS_LIST_KEYWORD_REGIONAL, "지역별점포", "지역별 점포", "지역별영업점"))
 
     codes = {
         "bank_finance_codes": bank_cds,
@@ -337,13 +464,12 @@ def _fisis_fetch_info(list_no: str, finance_cd: str, months_back: int = 18):
     end_ym = now.strftime("%Y%m")
     start_dt = (now.replace(day=1) - timedelta(days=months_back * 31))
     start_ym = start_dt.strftime("%Y%m")
-    data = _fisis_get("statisticsInfoSearch",
-                      financeCd=finance_cd,
-                      listNo=list_no,
-                      term="Q",
-                      startBaseMm=start_ym,
-                      endBaseMm=end_ym)
-    return _fisis_extract_rows(data)
+    return _fisis_call("statisticsInfoSearch",
+                       financeCd=finance_cd,
+                       listNo=list_no,
+                       term="Q",
+                       startBaseMm=start_ym,
+                       endBaseMm=end_ym)
 
 
 def fisis_build_branch_stats(codes: dict):
