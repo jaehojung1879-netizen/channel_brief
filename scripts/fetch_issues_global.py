@@ -1,6 +1,6 @@
 """
-채널 이슈 트래커 (장차법·ATM·키오스크·접근성)
-해외 리테일 뱅킹 혁신 사례 (영문 구글뉴스)
+채널 이슈 트래커 - 상생금융 / TECH 2컬럼 재편
+해외 리테일 뱅킹 혁신 사례 유지
 """
 import feedparser
 import json
@@ -14,14 +14,37 @@ import hashlib
 KST = timezone(timedelta(hours=9))
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
-ISSUE_KEYWORDS = [
-    "장애인차별금지법 키오스크",
-    "무인단말기 접근성",
-    "ATM 공동화",
+# 상생금융 — 포용·소상공인·취약계층·지역사회
+SOCIAL_FINANCE_KEYWORDS = [
+    "상생금융",
+    "포용금융",
+    "서민금융",
+    "소상공인 금융지원",
     "고령자 금융",
+    "취약계층 금융",
+    "새희망홀씨",
+    "중소기업 상생",
+    "지역재투자",
+    "금융접근성",
+    "은행 사회공헌",
+]
+
+# TECH — AI·디지털·핀테크·인프라
+TECH_KEYWORDS = [
+    "은행 AI",
+    "은행 생성형 AI",
+    "은행 클라우드",
+    "마이데이터 은행",
+    "비대면 실명확인",
     "원격화상상담",
+    "예금토큰",
+    "CBDC 은행",
+    "블록체인 은행",
+    "스테이블코인 은행",
+    "오픈뱅킹",
     "디지털 데스크 은행",
-    "은행 점포 폐쇄 지역사회",
+    "스마트 키오스크 은행",
+    "핀테크 제휴",
 ]
 
 GLOBAL_KEYWORDS = [
@@ -31,6 +54,7 @@ GLOBAL_KEYWORDS = [
     ("bank hub UK banking", "UK"),
     ("ING branch redesign", "EU"),
     ("bank branch of the future", "Global"),
+    ("digital bank branch redesign", "Global"),
 ]
 
 
@@ -46,7 +70,7 @@ def clean_html(raw: str) -> str:
     return text.strip()
 
 
-def fetch_google_news(query: str, hl="ko", gl="KR", ceid="KR:ko", limit=5):
+def fetch_google_news(query, hl="ko", gl="KR", ceid="KR:ko", limit=5):
     encoded = quote(query)
     url = f"https://news.google.com/rss/search?q={encoded}&hl={hl}&gl={gl}&ceid={ceid}"
     items = []
@@ -79,46 +103,37 @@ def fetch_google_news(query: str, hl="ko", gl="KR", ceid="KR:ko", limit=5):
     return items
 
 
-def categorize_issue(title: str) -> str:
-    """이슈 카테고리 자동 태깅"""
-    t = title
-    if any(k in t for k in ["장애", "키오스크", "접근성", "장차법"]):
-        return "장애인차별금지법"
-    if "ATM" in t or "atm" in t:
-        return "ATM"
-    if any(k in t for k in ["고령", "시니어"]):
-        return "고령자 금융"
-    if any(k in t for k in ["원격", "화상", "디지털 데스크"]):
-        return "디지털 데스크"
-    if any(k in t for k in ["폐쇄", "지역사회", "점포 축소"]):
-        return "점포 축소"
-    return "기타"
+def collect_by_keywords(keywords: list, days_limit: int = 10, limit_each: int = 4) -> list:
+    """키워드 리스트로 수집 + 중복 제거 + 기간 필터 + 최신순 정렬"""
+    all_items = []
+    for q in keywords:
+        items = fetch_google_news(q, limit=limit_each)
+        all_items.extend(items)
+        time.sleep(0.8)
+
+    seen = set()
+    deduped = []
+    for it in all_items:
+        key = it["title"][:30]
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(it)
+
+    cutoff = datetime.now(KST) - timedelta(days=days_limit)
+    deduped = [x for x in deduped if datetime.fromisoformat(x["published"]) >= cutoff]
+    deduped.sort(key=lambda x: x["published"], reverse=True)
+    return deduped
 
 
 def main():
     print(f"[issue+global] start at {datetime.now(KST).isoformat()}")
 
-    # 국내 채널 이슈
-    issue_items = []
-    for q in ISSUE_KEYWORDS:
-        items = fetch_google_news(q, limit=4)
-        issue_items.extend(items)
-        time.sleep(1.0)
+    social_finance = collect_by_keywords(SOCIAL_FINANCE_KEYWORDS, days_limit=10, limit_each=4)
+    print(f"[social_finance] {len(social_finance)} items")
 
-    # 중복 제거 + 카테고리 태깅
-    seen = set()
-    deduped = []
-    for it in issue_items:
-        key = it["title"][:30]
-        if key in seen:
-            continue
-        seen.add(key)
-        it["category"] = categorize_issue(it["title"])
-        deduped.append(it)
-
-    cutoff = datetime.now(KST) - timedelta(days=7)
-    deduped = [x for x in deduped if datetime.fromisoformat(x["published"]) >= cutoff]
-    deduped.sort(key=lambda x: x["published"], reverse=True)
+    tech = collect_by_keywords(TECH_KEYWORDS, days_limit=10, limit_each=4)
+    print(f"[tech] {len(tech)} items")
 
     # 해외 사례
     global_items = []
@@ -138,7 +153,7 @@ def main():
         seen_g.add(key)
         global_deduped.append(it)
 
-    cutoff_g = datetime.now(KST) - timedelta(days=14)
+    cutoff_g = datetime.now(KST) - timedelta(days=21)
     global_deduped = [x for x in global_deduped if datetime.fromisoformat(x["published"]) >= cutoff_g]
     global_deduped.sort(key=lambda x: x["published"], reverse=True)
 
@@ -146,20 +161,21 @@ def main():
     (DATA_DIR / "issues.json").write_text(
         json.dumps({
             "updated_at": datetime.now(KST).isoformat(),
-            "items": deduped[:20],
+            "social_finance": social_finance[:8],
+            "tech": tech[:8],
         }, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
-    print(f"[issue] saved {len(deduped[:20])} items")
+    print(f"[issues] saved social_finance={len(social_finance[:8])}, tech={len(tech[:8])}")
 
     (DATA_DIR / "global.json").write_text(
         json.dumps({
             "updated_at": datetime.now(KST).isoformat(),
-            "items": global_deduped[:15],
+            "items": global_deduped[:12],
         }, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
-    print(f"[global] saved {len(global_deduped[:15])} items")
+    print(f"[global] saved {len(global_deduped[:12])} items")
 
 
 if __name__ == "__main__":
