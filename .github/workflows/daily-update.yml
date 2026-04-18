@@ -45,14 +45,6 @@ jobs:
           FISIS_TERM: ${{ secrets.FISIS_TERM }}
           FISIS_START_BASE_MM: ${{ secrets.FISIS_START_BASE_MM }}
           FISIS_END_BASE_MM: ${{ secrets.FISIS_END_BASE_MM }}
-          BRANCH_STATS_API_KEY: ${{ secrets.BRANCH_STATS_API_KEY }}
-          BRANCH_STATS_API_URL: ${{ secrets.BRANCH_STATS_API_URL }}
-          BRANCH_STATS_FINANCE_CD: ${{ secrets.BRANCH_STATS_FINANCE_CD }}
-          BRANCH_STATS_LIST_NO: ${{ secrets.BRANCH_STATS_LIST_NO }}
-          BRANCH_STATS_ACCOUNT_CD: ${{ secrets.BRANCH_STATS_ACCOUNT_CD }}
-          BRANCH_STATS_TERM: ${{ secrets.BRANCH_STATS_TERM }}
-          BRANCH_STATS_START_BASE_MM: ${{ secrets.BRANCH_STATS_START_BASE_MM }}
-          BRANCH_STATS_END_BASE_MM: ${{ secrets.BRANCH_STATS_END_BASE_MM }}
         continue-on-error: true
 
       - name: Fetch issues + global

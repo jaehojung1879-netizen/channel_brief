@@ -1,35 +1,36 @@
 {
-  "updated_at": "2026-04-17T07:49:48.527979+09:00",
+  "updated_at": "2026-04-18T08:56:16.674870+09:00",
   "as_of": "2025-12-31",
-  "source": "은행연합회 은행업무 통계 (수동 업데이트 필요)",
+  "source": "은행연합회 은행업무 통계 (수동 업데이트 필요) (스크래핑 실패로 fallback)",
+  "source_url": "",
+  "is_fallback": true,
   "banks": [
     {
       "name": "KB국민",
       "count": 803,
-      "delta_qoq": -12
+      "delta_qoq": 0
     },
     {
       "name": "신한",
       "count": 747,
-      "delta_qoq": -8
+      "delta_qoq": 0
     },
     {
       "name": "하나",
       "count": 621,
-      "delta_qoq": -9
+      "delta_qoq": 0
     },
     {
       "name": "우리",
       "count": 676,
-      "delta_qoq": -11
+      "delta_qoq": 0
     },
     {
       "name": "NH농협",
       "count": 1080,
-      "delta_qoq": -2
+      "delta_qoq": 0
     }
   ],
   "total": 3927,
-  "total_delta_qoq": -42,
-  "note": "이 파일은 분기별로 수동 업데이트해야 합니다. 은행연합회 공표자료 확인 후 숫자 교체."
+  "total_delta_qoq": 0
 }

@@ -161,33 +161,20 @@ def load_previous_stats():
     return {"banks": []}
 
 
-def _env_first(*names, default=""):
-    """주어진 환경변수 이름 중 첫 번째 유효값 반환."""
-    for name in names:
-        v = os.environ.get(name, "").strip()
-        if v:
-            return v
-    return default
-
-
 def fetch_branch_stats_from_fisis():
     """금융통계정보시스템(FISIS) API에서 점포 수 조회."""
-    api_key = _env_first(
-        "FISIS_API_KEY",
-        "BRANCH_STATS_API_KEY",
-        "BRANCH_API_KEY",
-    )
+    api_key = os.environ.get("FISIS_API_KEY", "").strip()
     if not api_key:
         return None
 
-    explicit_url = _env_first("FISIS_BRANCH_API_URL", "BRANCH_STATS_API_URL")
-    finance_cd = _env_first("FISIS_FINANCE_CD", "BRANCH_STATS_FINANCE_CD", default="BK")  # 예: 은행권
-    list_no = _env_first("FISIS_LIST_NO", "BRANCH_STATS_LIST_NO")
-    account_cd = _env_first("FISIS_ACCOUNT_CD", "BRANCH_STATS_ACCOUNT_CD")
-    term = _env_first("FISIS_TERM", "BRANCH_STATS_TERM", default="Q")  # Q / M / Y
-    lang = _env_first("FISIS_LANG", "BRANCH_STATS_LANG", default="kr")
-    start_ym = _env_first("FISIS_START_BASE_MM", "BRANCH_STATS_START_BASE_MM", default="202001")
-    end_ym = _env_first("FISIS_END_BASE_MM", "BRANCH_STATS_END_BASE_MM", default=datetime.now(KST).strftime("%Y%m"))
+    explicit_url = os.environ.get("FISIS_BRANCH_API_URL", "").strip()
+    finance_cd = os.environ.get("FISIS_FINANCE_CD", "BK").strip()  # 예: 은행권
+    list_no = os.environ.get("FISIS_LIST_NO", "").strip()
+    account_cd = os.environ.get("FISIS_ACCOUNT_CD", "").strip()
+    term = os.environ.get("FISIS_TERM", "Q").strip()  # Q / M / Y
+    lang = os.environ.get("FISIS_LANG", "kr").strip()
+    start_ym = os.environ.get("FISIS_START_BASE_MM", "202001").strip()
+    end_ym = os.environ.get("FISIS_END_BASE_MM", datetime.now(KST).strftime("%Y%m")).strip()
 
     if explicit_url:
         # 예: http://fisis.fss.or.kr/openapi/statisticsListSearch.json?financeCd=BK&listNo=...&accountCd=...
