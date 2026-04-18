@@ -49,17 +49,23 @@
   /* ===== Masthead ===== */
   .masthead {
     border-bottom: 3px double var(--line);
-    padding: 28px var(--pad-x) 20px;
+    padding: 24px var(--pad-x) 18px;
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: end;
-    gap: 24px;
+    grid-template-columns: minmax(160px, 1fr) minmax(0, auto) minmax(160px, 1fr);
+    align-items: center;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
   }
   .mast-left {
     font-family: var(--mono);
     font-size: 11px;
     color: var(--ink-dim);
     letter-spacing: 0.08em;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .mast-left .dot {
     display: inline-block;
@@ -70,22 +76,31 @@
     animation: pulse 2s ease-in-out infinite;
   }
   @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
-  .mast-center { text-align: center; }
+  .mast-center {
+    text-align: center;
+    min-width: 0;
+    max-width: 100%;
+  }
   .mast-center h1 {
     font-family: var(--serif);
     font-weight: 900;
-    font-size: clamp(22px, 4.2vw, 44px);
+    font-size: clamp(22px, 3.6vw, 40px);
     letter-spacing: -0.02em;
     line-height: 1.05;
     font-variation-settings: 'opsz' 144;
+    white-space: nowrap;
+    overflow-wrap: break-word;
   }
   .mast-center .tagline {
     font-family: var(--serif);
     font-style: italic;
-    font-size: clamp(10.5px, 1.1vw, 14px);
+    font-size: clamp(10.5px, 1vw, 13px);
     color: var(--ink-dim);
     margin-top: 6px;
     letter-spacing: 0.02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .mast-right {
     font-family: var(--mono);
@@ -94,6 +109,10 @@
     letter-spacing: 0.08em;
     text-align: right;
     line-height: 1.5;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .mast-right .vol { color: var(--accent); }
 
@@ -932,28 +951,8 @@
     <div class="bench-grid" id="global-grid"><div class="loading">[LOADING]</div></div>
   </section>
 
-  <section class="section" id="branch-detail">
-    <div class="section-head">
-      <h3><span class="num">§ 08</span>은행별 점포 상세 (팝업)</h3>
-      <div class="updated" id="branch-popup-period">—</div>
-    </div>
-    <div class="branch-popup-launch">
-      <button class="branch-popup-btn" id="branch-popup-open">은행별 점포수 상세 보기</button>
-    </div>
-  </section>
 
 </main>
-
-<div class="modal-overlay" id="branch-modal-overlay">
-  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="branch-modal-title">
-    <div class="modal-head">
-      <h4 id="branch-modal-title">5대 은행 점포수 (그래프 + 숫자)</h4>
-      <button class="modal-close" id="branch-modal-close">닫기 ✕</button>
-    </div>
-    <div id="branch-modal-meta" class="updated" style="margin-bottom:10px;">—</div>
-    <div id="branch-logo-rows"><div class="loading">[LOADING]</div></div>
-  </div>
-</div>
 
 <footer>
   <div>자동 수집 · 편집: GitHub Actions · 데이터 소스: 구글뉴스 RSS, 은행연합회, 금융위, 국토부, FISIS · <span id="last-build">—</span></div>
@@ -1384,18 +1383,6 @@ document.querySelectorAll('.nav a').forEach(a => {
   });
 });
 
-const branchModalOverlay = document.getElementById('branch-modal-overlay');
-document.getElementById('branch-popup-open').addEventListener('click', () => {
-  branchModalOverlay.classList.add('open');
-});
-document.getElementById('branch-modal-close').addEventListener('click', () => {
-  branchModalOverlay.classList.remove('open');
-});
-branchModalOverlay.addEventListener('click', (e) => {
-  if (e.target === branchModalOverlay) {
-    branchModalOverlay.classList.remove('open');
-  }
-});
 </script>
 
 </body>

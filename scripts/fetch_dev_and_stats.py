@@ -26,7 +26,12 @@ HEADERS = {
 }
 
 # ====== FISIS OpenAPI ======
-FISIS_BASE = "http://fisis.fss.or.kr/openapi"
+# 공식 도메인은 http만 운영. 일부 환경에서 https 강제 redirect 가 필요할 수 있어 둘 다 시도.
+FISIS_BASE_CANDIDATES = [
+    "http://fisis.fss.or.kr/openapi",
+    "https://fisis.fss.or.kr/openapi",
+]
+FISIS_BASE = FISIS_BASE_CANDIDATES[0]
 FISIS_PART_DIV_DOMESTIC_BANK = "A"   # 국내은행
 FISIS_LRG_DIV_BANK = "A"
 FISIS_SML_DIV_GENERAL = "A"           # 일반현황
@@ -195,34 +200,49 @@ def _fisis_log_sample(endpoint: str, text: str, limit: int = 400):
     print(f"[fisis] {endpoint} sample: {sample}")
 
 
+def _mask_key(k: str) -> str:
+    if not k:
+        return "(empty)"
+    if len(k) <= 6:
+        return "***"
+    return f"{k[:3]}***{k[-3:]} (len={len(k)})"
+
+
 def _fisis_get_xml(endpoint: str, **params):
-    """FISIS XML API GET → BeautifulSoup 또는 None."""
+    """FISIS XML API GET → BeautifulSoup 또는 None. http→https 순차 시도."""
     api_key = os.environ.get("FISIS_API_KEY", "").strip()
     if not api_key:
-        print(f"[fisis] {endpoint}: FISIS_API_KEY not set")
+        print(f"[fisis] {endpoint}: FISIS_API_KEY not set (env=missing)")
         return None
     params.setdefault("auth", api_key)
     params.setdefault("lang", "kr")
-    url = f"{FISIS_BASE}/{endpoint}.xml"
-    try:
-        resp = requests.get(url, params=params, headers=HEADERS, timeout=25)
-        if resp.status_code != 200:
-            print(f"[fisis] {endpoint} http={resp.status_code}")
-            _fisis_log_sample(endpoint, resp.text)
-            return None
-        soup = _fisis_parse_xml(resp.content)
-        err_cd_tag = soup.find(re.compile(r"^err_cd$", re.I))
-        if err_cd_tag:
-            code = (err_cd_tag.get_text() or "").strip()
-            if code and code != "000":
-                err_msg_tag = soup.find(re.compile(r"^err_msg$", re.I))
-                msg = err_msg_tag.get_text().strip() if err_msg_tag else ""
-                print(f"[fisis] {endpoint} api_err={code} msg='{msg}'")
-                return None
-        return soup
-    except Exception as e:
-        print(f"[fisis] {endpoint} request error: {e}")
-        return None
+    last_err = None
+    for base in FISIS_BASE_CANDIDATES:
+        url = f"{base}/{endpoint}.xml"
+        try:
+            resp = requests.get(url, params=params, headers=HEADERS, timeout=25, allow_redirects=True)
+            print(f"[fisis] GET {url} http={resp.status_code} bytes={len(resp.content)} key={_mask_key(api_key)}")
+            if resp.status_code != 200:
+                _fisis_log_sample(endpoint, resp.text)
+                last_err = f"http={resp.status_code}"
+                continue
+            soup = _fisis_parse_xml(resp.content)
+            err_cd_tag = soup.find(re.compile(r"^err_cd$", re.I))
+            if err_cd_tag:
+                code = (err_cd_tag.get_text() or "").strip()
+                if code and code != "000":
+                    err_msg_tag = soup.find(re.compile(r"^err_msg$", re.I))
+                    msg = err_msg_tag.get_text().strip() if err_msg_tag else ""
+                    print(f"[fisis] {endpoint} api_err={code} msg='{msg}'")
+                    _fisis_log_sample(endpoint, resp.text)
+                    return None
+            return soup
+        except Exception as e:
+            last_err = str(e)
+            print(f"[fisis] {endpoint} request error on {base}: {e}")
+            continue
+    print(f"[fisis] {endpoint} all bases failed (last={last_err})")
+    return None
 
 
 def _fisis_get_json(endpoint: str, **params):
@@ -232,17 +252,22 @@ def _fisis_get_json(endpoint: str, **params):
         return None
     params.setdefault("auth", api_key)
     params.setdefault("lang", "kr")
-    url = f"{FISIS_BASE}/{endpoint}.json"
-    try:
-        resp = requests.get(url, params=params, headers=HEADERS, timeout=25)
-        if resp.status_code != 200:
-            return None
+    for base in FISIS_BASE_CANDIDATES:
+        url = f"{base}/{endpoint}.json"
         try:
-            return resp.json()
-        except Exception:
-            return None
-    except Exception:
-        return None
+            resp = requests.get(url, params=params, headers=HEADERS, timeout=25, allow_redirects=True)
+            print(f"[fisis] GET {url} http={resp.status_code} bytes={len(resp.content)} (json)")
+            if resp.status_code != 200:
+                continue
+            try:
+                return resp.json()
+            except Exception:
+                _fisis_log_sample(endpoint + " json", resp.text)
+                continue
+        except Exception as e:
+            print(f"[fisis] {endpoint} json error on {base}: {e}")
+            continue
+    return None
 
 
 # XML row 태그 후보. FISIS 응답에서 반복 row는 아래 이름들 중 하나로 추정.
