@@ -161,10 +161,13 @@
   .hero h2 {
     font-family: var(--serif);
     font-weight: 600;
-    font-size: clamp(28px, 3.4vw, 44px);
-    line-height: 1.15;
+    font-size: clamp(26px, 2.8vw, 38px);
+    line-height: 1.2;
     letter-spacing: -0.02em;
     margin-bottom: 18px;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    hyphens: none;
   }
   .hero p {
     color: var(--ink-dim);
@@ -810,7 +813,6 @@
 <nav class="nav">
   <a href="#headline" class="active">Headline</a>
   <a href="#news">영업점 언론</a>
-  <a href="#disclosure">연합회 · 당국</a>
   <a href="#development">개발 공시</a>
   <a href="#branch">점포 현황</a>
   <a href="#issue">채널 이슈</a>
@@ -840,27 +842,9 @@
     </div>
   </section>
 
-  <div class="two-col">
-    <section class="section" id="disclosure">
-      <div class="section-head">
-        <h3><span class="num">§ 02</span>은행연합회 공시</h3>
-        <div class="updated" id="kfb-count">—</div>
-      </div>
-      <div class="disclosure-list" id="kfb-list"><div class="loading">[LOADING]</div></div>
-    </section>
-
-    <section class="section">
-      <div class="section-head">
-        <h3><span class="num">§ 03</span>금융위 · 금감원</h3>
-        <div class="updated" id="fsc-count">—</div>
-      </div>
-      <div class="disclosure-list" id="fsc-list"><div class="loading">[LOADING]</div></div>
-    </section>
-  </div>
-
   <section class="section" id="development">
     <div class="section-head">
-      <h3><span class="num">§ 04</span>산업단지 · 복합개발 · 도시재생</h3>
+      <h3><span class="num">§ 02</span>산업단지 · 복합개발 · 도시재생</h3>
       <div class="updated" id="dev-updated">—</div>
     </div>
     <div class="disclosure-list" id="dev-list"><div class="loading">[LOADING]</div></div>
@@ -868,7 +852,7 @@
 
   <section class="section" id="branch">
     <div class="section-head">
-      <h3><span class="num">§ 05</span>시중은행 점포 현황</h3>
+      <h3><span class="num">§ 03</span>시중은행 점포 현황</h3>
       <div class="updated" id="branch-meta">—</div>
     </div>
     <div class="branch-section">
@@ -928,7 +912,7 @@
 
   <section class="section" id="issue">
     <div class="section-head">
-      <h3><span class="num">§ 06</span>채널 이슈 트래커</h3>
+      <h3><span class="num">§ 04</span>채널 이슈 트래커</h3>
       <div class="updated" id="issue-updated">—</div>
     </div>
     <div class="two-col">
@@ -945,7 +929,7 @@
 
   <section class="section" id="global">
     <div class="section-head">
-      <h3><span class="num">§ 07</span>해외 리테일 뱅킹 혁신</h3>
+      <h3><span class="num">§ 05</span>해외 리테일 뱅킹 혁신</h3>
       <div class="updated">CURATED</div>
     </div>
     <div class="bench-grid" id="global-grid"><div class="loading">[LOADING]</div></div>
@@ -955,7 +939,7 @@
 </main>
 
 <footer>
-  <div>자동 수집 · 편집: GitHub Actions · 데이터 소스: 구글뉴스 RSS, 은행연합회, 금융위, 국토부, FISIS · <span id="last-build">—</span></div>
+  <div>자동 수집 · 편집: GitHub Actions · 데이터 소스: 구글뉴스 RSS, 국토부, FISIS · <span id="last-build">—</span></div>
   <div>내부 참고자료 · 채널전략부 · Not for external distribution</div>
 </footer>
 
@@ -1078,37 +1062,6 @@ function renderHeadlineAndNews(data) {
 
   const syncTime = new Date(data.updated_at);
   updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
-}
-
-function renderDisclosure(data) {
-  const kfbList = document.getElementById('kfb-list');
-  const fscList = document.getElementById('fsc-list');
-
-  if (!data) {
-    kfbList.innerHTML = '<div class="empty">데이터 없음</div>';
-    fscList.innerHTML = '<div class="empty">데이터 없음</div>';
-    return;
-  }
-
-  const renderList = (items) => {
-    if (!items || items.length === 0) return '<div class="empty">수집된 항목 없음</div>';
-    return items.slice(0, 7).map(it => {
-      const tag = it.priority ? '중점' : '일반';
-      const title = it.priority ? `<em>${esc(it.title)}</em>` : esc(it.title);
-      return `
-        <a href="${esc(it.link || '#')}" target="_blank" rel="noopener" class="disc-item">
-          <div class="date">${esc(it.date || '—')}</div>
-          <div class="title">${title}</div>
-          <div class="tag">${tag}</div>
-        </a>
-      `;
-    }).join('');
-  };
-
-  kfbList.innerHTML = renderList(data.kfb);
-  fscList.innerHTML = renderList(data.fsc);
-  document.getElementById('kfb-count').textContent = `${(data.kfb || []).length} ITEMS`;
-  document.getElementById('fsc-count').textContent = `${(data.fsc || []).length} ITEMS`;
 }
 
 function renderDevelopment(data) {
@@ -1353,9 +1306,8 @@ async function renderLastBuild() {
   renderMasthead();
   initBranchTabs();
 
-  const [news, disclosure, development, stats, issues, global] = await Promise.all([
+  const [news, development, stats, issues, global] = await Promise.all([
     loadJSON('news.json'),
-    loadJSON('disclosure.json'),
     loadJSON('development.json'),
     loadJSON('branch_stats.json'),
     loadJSON('issues.json'),
@@ -1363,7 +1315,6 @@ async function renderLastBuild() {
   ]);
 
   renderHeadlineAndNews(news);
-  renderDisclosure(disclosure);
   renderDevelopment(development);
   renderBranchStats(stats);
   renderIssues(issues);
