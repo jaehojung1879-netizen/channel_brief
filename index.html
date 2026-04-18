@@ -798,7 +798,28 @@
     <div class="bench-grid" id="global-grid"><div class="loading">[LOADING]</div></div>
   </section>
 
+  <section class="section" id="branch-detail">
+    <div class="section-head">
+      <h3><span class="num">§ 08</span>은행별 점포 상세 (팝업)</h3>
+      <div class="updated" id="branch-popup-period">—</div>
+    </div>
+    <div class="branch-popup-launch">
+      <button class="branch-popup-btn" id="branch-popup-open">은행별 점포수 상세 보기</button>
+    </div>
+  </section>
+
 </main>
+
+<div class="modal-overlay" id="branch-modal-overlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="branch-modal-title">
+    <div class="modal-head">
+      <h4 id="branch-modal-title">5대 은행 점포수 (그래프 + 숫자)</h4>
+      <button class="modal-close" id="branch-modal-close">닫기 ✕</button>
+    </div>
+    <div id="branch-modal-meta" class="updated" style="margin-bottom:10px;">—</div>
+    <div id="branch-logo-rows"><div class="loading">[LOADING]</div></div>
+  </div>
+</div>
 
 <footer>
   <div>자동 수집 · 편집: GitHub Actions · 데이터 소스: 구글뉴스 RSS, 은행연합회, 금융위, 국토부, FISIS · <span id="last-build">—</span></div>
@@ -1126,6 +1147,19 @@ document.querySelectorAll('.nav a').forEach(a => {
       a.classList.add('active');
     }
   });
+});
+
+const branchModalOverlay = document.getElementById('branch-modal-overlay');
+document.getElementById('branch-popup-open').addEventListener('click', () => {
+  branchModalOverlay.classList.add('open');
+});
+document.getElementById('branch-modal-close').addEventListener('click', () => {
+  branchModalOverlay.classList.remove('open');
+});
+branchModalOverlay.addEventListener('click', (e) => {
+  if (e.target === branchModalOverlay) {
+    branchModalOverlay.classList.remove('open');
+  }
 });
 </script>
 
