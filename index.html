@@ -1671,12 +1671,14 @@ function renderBranchRegionalRows() {
 
   rowsEl.innerHTML = banksSorted.map(b => {
     const count = b.count || 0;
+    const branches = b.branches ?? count;
+    const subOff = b.sub_offices || 0;
     const pct = (count / max * 100).toFixed(1);
     return `
       <div class="branch-row">
         <div class="bank">${bankLogoHTML(b.name)}</div>
         <div class="bar-track"><div class="bar-seg-branches" style="width:${pct}%;"></div></div>
-        <div class="count-cell">${count.toLocaleString()}</div>
+        <div class="count-cell">${count.toLocaleString()}<span class="sub">지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}</span></div>
         <div class="chg zero">—</div>
       </div>
     `;
@@ -1885,16 +1887,17 @@ const BANK_COLORS = {
 };
 
 let _trendChart = null;
+let _trendDelayed = false;
 
 function fmtYmLabel(ym) {
   if (!ym || ym.length !== 6) return ym || '';
   return ym.slice(0, 4) + '-' + ym.slice(4);
 }
 
-function collectYearEndLabels(banks) {
+function collectHalfYearLabels(banks) {
   const set = new Set();
   banks.forEach(b => (b.history || []).forEach(h => {
-    if (h.ym && h.ym.endsWith('12')) set.add(h.ym);
+    if (h.ym && h.ym.length === 6) set.add(h.ym);
   }));
   return Array.from(set).sort();
 }
@@ -1902,7 +1905,7 @@ function collectYearEndLabels(banks) {
 function openBanksTrend() {
   if (!_branchData || !_branchData.banks) return;
   const banks = _branchData.banks;
-  const labels = collectYearEndLabels(banks);
+  const labels = collectHalfYearLabels(banks);
   if (labels.length === 0) {
     alert('시계열 데이터가 아직 수집되지 않았습니다.');
     return;
@@ -1921,12 +1924,14 @@ function openBanksTrend() {
       borderColor: BANK_COLORS[b.name] || '#d4a24c',
       backgroundColor: BANK_COLORS[b.name] || '#d4a24c',
       borderWidth: 2,
-      tension: 0.25,
-      pointRadius: 3,
+      tension: 0.38,
+      cubicInterpolationMode: 'monotone',
+      pointRadius: 2,
+      pointHoverRadius: 4,
       spanGaps: true,
     };
   });
-  renderTrend('4대 시중은행 점포 수 추이', '연말 기준 · 단위: 개', labels.map(fmtYmLabel), datasets);
+  renderTrend('4대 시중은행 점포 수 추이', '최근 기준월로부터 5년 · 6개월 단위 · 단위: 개', labels.map(fmtYmLabel), datasets);
 }
 
 function openRegionalTrend() {
@@ -1949,12 +1954,14 @@ function openRegionalTrend() {
       borderColor: BANK_COLORS[name] || '#d4a24c',
       backgroundColor: BANK_COLORS[name] || '#d4a24c',
       borderWidth: 2,
-      tension: 0.25,
-      pointRadius: 3,
+      tension: 0.38,
+      cubicInterpolationMode: 'monotone',
+      pointRadius: 2,
+      pointHoverRadius: 4,
       spanGaps: true,
     };
   });
-  renderTrend(`${region.region} 지역 점포 수 추이`, '연말 기준 · 단위: 개 · 4대 은행', labels, datasets);
+  renderTrend(`${region.region} 지역 점포 수 추이`, '최근 기준월로부터 5년 · 6개월 단위 · 단위: 개 · 4대 은행', labels, datasets);
 }
 
 function renderTrend(title, sub, labels, datasets) {
@@ -1963,6 +1970,7 @@ function renderTrend(title, sub, labels, datasets) {
   const canvas = document.getElementById('trend-canvas');
   const ctx = canvas.getContext('2d');
   if (_trendChart) { _trendChart.destroy(); _trendChart = null; }
+  _trendDelayed = false;
   if (!window.Chart) {
     alert('차트 라이브러리를 불러오지 못했습니다. 네트워크를 확인해 주세요.');
     return;
@@ -1973,6 +1981,10 @@ function renderTrend(title, sub, labels, datasets) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: { duration: 1350, easing: 'easeOutCubic' },
+      animations: {
+        colors: { duration: 300 },
+      },
       interaction: { mode: 'index', intersect: false },
       plugins: {
         legend: {
@@ -2036,13 +2048,13 @@ document.addEventListener('click', e => {
     <div class="head">
       <div>
         <h3 id="trend-modal-title">5년 점포 추이</h3>
-        <div class="sub" id="trend-modal-sub">연말 기준 (FISIS)</div>
+        <div class="sub" id="trend-modal-sub">최근 기준월로부터 5년 · 6개월 단위 (FISIS)</div>
       </div>
       <button class="modal-close" type="button" data-close-trend aria-label="닫기">&times;</button>
     </div>
     <div class="body">
       <div class="canvas-wrap"><canvas id="trend-canvas"></canvas></div>
-      <div class="foot-note" id="trend-foot">SOURCE · FISIS statisticsInfoSearch · TERM=Q · YEAR-END ONLY</div>
+      <div class="foot-note" id="trend-foot">SOURCE · FISIS statisticsInfoSearch · TERM=Q/M · LATEST-ANCHORED 5Y · 6-MONTH INTERVAL</div>
     </div>
   </div>
 </div>

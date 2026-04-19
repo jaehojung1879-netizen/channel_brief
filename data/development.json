@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T17:11:31.005100+09:00",
+  "updated_at": "2026-04-19T18:25:52.513844+09:00",
   "items": [
     {
       "id": "2a218f525359",
@@ -8,15 +8,6 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
       "published": "2026-04-19T13:27:11+09:00",
       "date": "2026-04-19",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "7eb3efc3ca8e",
-      "title": "김영식 용인특례시의원, 반도체 국가산단 이전론 우려",
-      "source": "브레이크뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RdHZWS0IySmZJQksxTjQ5bFRJOWhwYklSUHZkQ1AySmEwaHNONjlQMjJiZ0FhcDBDNU8tMHBUY1lnWVdObkptUQ?oc=5",
-      "published": "2026-04-18T01:47:06+09:00",
-      "date": "2026-04-18",
       "query": "반도체 국가산단"
     },
     {
@@ -38,13 +29,22 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "13bbc2ecfe2e",
-      "title": "민주 박태완 울산 중구청장 후보 \"지구단위계획 철폐로 노후주택 재개발 지원\"",
-      "source": "울산신문",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qRnlHQ2VxV3VMQWtaQ0ZrYVZZczdJSGdVMlRCLWdQWVhYbWk4aDc5dmZJUTgxcVl4YlF0VTUxT2FwN0NxLTRKM203S2FPYlJiODNqYjFud05BUVdJTlI0R0lvakhteDVENlN0Y2ln0gFyQVVfeXFMUHR6bHhxOWw4Q3plOG5YY0VlLTlGNF9ORDNjd0dGa3VjZVJQYUhhVW1yV0RrdUFYdm1ZWC0wUGpFVE1zaUNkRHltZGF1OFBWNzlTdXNmUWFsdUNqLXR5UksycngxNE04Rm8xS1VBN243bW5R?oc=5",
-      "published": "2026-04-16T20:10:00+09:00",
-      "date": "2026-04-16",
+      "id": "fca5ec07a703",
+      "title": "울산 기초단체장 예비후보들 공약 선점 경쟁",
+      "source": "경상일보",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50a051dUxJMGdnNmNaTFQ1TVlrQzJJMzR5MDZ0RUE0SXJvcmU1RlYteWo1TVBCZzlHdjd3VTg0bDBZdVZyRm0zcmtCUURqTktOM2gxTXBzdTNVSjFGN3BROERzSkthbU85SkFaeg?oc=5",
+      "published": "2026-04-17T00:00:00+09:00",
+      "date": "2026-04-17",
       "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "1944eb5cf176",
+      "title": "김병민 용인특례시의원, \"반도체 국가산단 이전 주장, 정치적 접근 경계해야\"",
+      "source": "글로벌에픽",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xTXZCakNsQjhCLXVmVF9oTjN5TlJwR0lHNXV6d2hsWVdDb0pBX2NacGlCajl5TUc2WVFobnRtTFJKMVpUcmM1NTlfMnRsN1FGd1NDRGNLM1VzU2ZjbFUtbFhMQUJ4MkJDTGhvdGt6NjdNakJ4UmdMN2xGODg?oc=5",
+      "published": "2026-04-16T23:27:10+09:00",
+      "date": "2026-04-16",
+      "query": "반도체 국가산단"
     },
     {
       "id": "58f256fc8373",
