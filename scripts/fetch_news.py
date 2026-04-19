@@ -1,15 +1,25 @@
 """
 채널전략부 Daily Brief - 뉴스 스크래퍼
 점수 기반 헤드라인 자동 선정 + 카테고리별 리스트 분리 저장
+표시 대상 기사에 대해 og:description 수집 + (옵션) Claude 요약 생성
 """
 import feedparser
 import json
+import os
 import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import quote
 import time
 import hashlib
+
+import requests
+from bs4 import BeautifulSoup
+
+try:
+    import anthropic  # optional
+except Exception:
+    anthropic = None
 
 KST = timezone(timedelta(hours=9))
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -199,6 +209,113 @@ def dedupe(items: list) -> list:
     return result
 
 
+UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+)
+
+
+def fetch_article_snippet(url: str, timeout: float = 6.0) -> str:
+    """기사 URL을 열어 og:description / meta description / 첫 단락을 추출."""
+    if not url:
+        return ""
+    try:
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=timeout, allow_redirects=True)
+        if r.status_code != 200 or not r.text:
+            return ""
+        soup = BeautifulSoup(r.text, "lxml")
+        for sel in [
+            ("meta", {"property": "og:description"}),
+            ("meta", {"name": "description"}),
+            ("meta", {"name": "twitter:description"}),
+        ]:
+            tag = soup.find(*sel)
+            if tag and tag.get("content"):
+                text = clean_html(tag["content"])
+                if len(text) >= 20:
+                    return text[:600]
+        # fallback: 본문 후보 영역의 첫 단락
+        for sel in ["article p", "#articleBody p", ".article-body p", ".news-body p", "main p"]:
+            p = soup.select_one(sel)
+            if p and p.get_text(strip=True):
+                text = clean_html(p.get_text(" "))
+                if len(text) >= 30:
+                    return text[:600]
+        # 마지막 fallback: 페이지 내 첫 번째 긴 p
+        for p in soup.find_all("p"):
+            text = clean_html(p.get_text(" "))
+            if len(text) >= 40:
+                return text[:600]
+    except Exception as e:
+        print(f"[news] snippet fail {url[:60]}: {e}")
+    return ""
+
+
+_claude_client = None
+_claude_disabled = False
+
+
+def _get_claude():
+    global _claude_client, _claude_disabled
+    if _claude_disabled:
+        return None
+    if _claude_client is not None:
+        return _claude_client
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if not key or anthropic is None:
+        _claude_disabled = True
+        return None
+    try:
+        _claude_client = anthropic.Anthropic(api_key=key)
+        return _claude_client
+    except Exception as e:
+        print(f"[news] claude init fail: {e}")
+        _claude_disabled = True
+        return None
+
+
+def summarize_with_claude(title: str, snippet: str) -> str:
+    """Claude Haiku로 2-3문장 한국어 요약. 실패 시 빈 문자열."""
+    client = _get_claude()
+    if not client or not snippet:
+        return ""
+    prompt = (
+        f"다음은 한국 금융 기사입니다. 채널전략(영업점·지점) 실무자 관점에서 "
+        f"핵심만 2문장, 한국어 존댓말로 요약해 주세요. 불필요한 머리말 없이 요약문만 출력하세요.\n\n"
+        f"[제목]\n{title}\n\n[본문 발췌]\n{snippet}"
+    )
+    try:
+        msg = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=220,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        parts = []
+        for block in msg.content:
+            if getattr(block, "type", None) == "text":
+                parts.append(block.text)
+        return " ".join(parts).strip()
+    except Exception as e:
+        print(f"[news] claude summarize fail: {e}")
+        return ""
+
+
+def enrich_with_summary(item: dict, budget_s: float = 4.0) -> None:
+    """단일 기사 아이템에 ai_summary 필드 추가."""
+    if item.get("ai_summary"):
+        return
+    t0 = time.time()
+    snippet = fetch_article_snippet(item.get("link", ""), timeout=budget_s)
+    if not snippet:
+        item["ai_summary"] = ""
+        return
+    # Claude 요약을 시도하되, 실패 시 snippet을 그대로 사용
+    summary = summarize_with_claude(item.get("title", ""), snippet)
+    item["ai_summary"] = summary or snippet
+    elapsed = time.time() - t0
+    print(f"[news] enrich {item.get('title','')[:30]}… ({elapsed:.1f}s, {'LLM' if summary else 'snippet'})")
+
+
 def filter_recent(items: list, days: int = 3) -> list:
     cutoff = datetime.now(KST) - timedelta(days=days)
     result = []
@@ -258,6 +375,25 @@ def main():
     headline = None
     if scored and scored[0]["score"] > 0:
         headline = {**scored[0]["article"], "_score": round(scored[0]["score"], 1)}
+
+    # 화면에 실제 노출될 후보만 enrichment 대상으로 (비용·시간 절약)
+    display_targets = []
+    if headline:
+        display_targets.append(headline)
+    for cat_items in all_results.values():
+        display_targets.extend(cat_items[:9])
+    seen_ids = set()
+    unique_targets = []
+    for it in display_targets:
+        iid = it.get("id")
+        if iid and iid in seen_ids:
+            continue
+        seen_ids.add(iid)
+        unique_targets.append(it)
+
+    print(f"[news] enrichment targets: {len(unique_targets)} articles (LLM={'on' if _get_claude() else 'off'})")
+    for it in unique_targets:
+        enrich_with_summary(it)
 
     output = {
         "updated_at": datetime.now(KST).isoformat(),

@@ -1478,15 +1478,19 @@ document.querySelectorAll('.nav a').forEach(a => {
 });
 
 function buildSummaryText(it) {
+  const ai = (it.ai_summary || '').trim();
   const raw = (it.summary || '').trim();
   const title = (it.title || '').trim();
-  if (!raw || raw === title) {
-    return { text: '이 기사는 RSS 제목만 제공되어 요약을 생성할 수 없었습니다. 원문을 확인해 주세요.', empty: true };
+  if (ai && ai !== title) {
+    return { text: ai, empty: false, source: 'ai' };
   }
-  if (raw.length < 30) {
-    return { text: raw + '\n\n(요약 본문이 짧습니다. 원문을 확인해 주세요.)', empty: false };
+  if (raw && raw !== title && raw.length >= 30) {
+    return { text: raw, empty: false, source: 'rss' };
   }
-  return { text: raw, empty: false };
+  if (raw && raw !== title) {
+    return { text: raw + '\n\n(요약 본문이 짧습니다. 원문을 확인해 주세요.)', empty: false, source: 'rss' };
+  }
+  return { text: '요약을 가져오지 못했습니다. 원문을 확인해 주세요.', empty: true, source: 'none' };
 }
 
 function openArticleModal(it) {
@@ -1497,11 +1501,15 @@ function openArticleModal(it) {
   const body = document.getElementById('modal-summary');
   const time = document.getElementById('modal-time');
   const link = document.getElementById('modal-open-link');
-  const { text, empty } = buildSummaryText(it);
+  const { text, empty, source } = buildSummaryText(it);
   src.textContent = (it.source || '').toUpperCase();
   title.textContent = it.title || '';
   body.textContent = text;
   body.classList.toggle('empty', empty);
+  const srcLabel = document.getElementById('modal-summary-source');
+  if (srcLabel) {
+    srcLabel.textContent = source === 'ai' ? 'Claude Haiku 생성' : source === 'rss' ? '원문 발췌' : '—';
+  }
   time.textContent = fmtRelative(it.published);
   link.href = it.link || '#';
   backdrop.classList.add('open');
@@ -1535,7 +1543,7 @@ document.addEventListener('keydown', e => {
       <button class="modal-close" type="button" data-close-modal aria-label="닫기">&times;</button>
     </div>
     <div class="modal-body">
-      <div class="summary-label"><span class="badge">AI 요약</span><span>RSS 기반 · 참고용</span></div>
+      <div class="summary-label"><span class="badge">기사 요약</span><span id="modal-summary-source">—</span></div>
       <div class="summary-text" id="modal-summary">—</div>
     </div>
     <div class="modal-foot">
