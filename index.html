@@ -458,6 +458,7 @@
     background: var(--bg-elev);
     border: 1px solid var(--line);
     padding: 28px 32px;
+    overflow: hidden;
   }
   .branch-head {
     display: flex;
@@ -864,6 +865,10 @@
       gap: 12px;
     }
   }
+  /* Tablet */
+  @media (max-width: 1100px) and (min-width: 769px) {
+    .branch-row .count-cell { font-size: 13px; }
+  }
   /* Mobile */
   @media (max-width: 768px) {
     :root { --pad-x: 20px; }
@@ -897,12 +902,14 @@
     .disc-item .tag { grid-column: 2; justify-self: start; margin-top: 4px; }
     .branch-section { padding: 20px; }
     .branch-row {
-      grid-template-columns: 90px 1fr 70px 50px;
-      gap: 10px;
+      grid-template-columns: 80px 1fr 64px 44px;
+      gap: 8px;
       font-size: 13px;
     }
     .branch-row .bank { font-size: 13px; }
     .branch-row .count { font-size: 13px; }
+    .branch-row .count-cell { font-size: 13px; }
+    .branch-row .count-cell .sub { font-size: 9px; letter-spacing: 0; }
     .region-map-grid {
       grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 5px;
@@ -919,6 +926,16 @@
       text-align: center;
       white-space: normal;
       word-break: keep-all;
+      overflow-wrap: break-word;
+      font-size: 10.5px;
+    }
+    .branch-source-badge, .source-badge {
+      display: block;
+      margin-left: 0;
+      margin-top: 6px;
+      font-size: 8px;
+      white-space: normal;
+      word-break: break-all;
     }
   }
   /* Small mobile */
@@ -930,17 +947,32 @@
     .hero p { font-size: 13px; }
     .section-head h3 { font-size: 17px; }
     .section-head h3 .num { font-size: 10px; margin-right: 6px; }
-    .branch-section { padding: 16px; }
+    .branch-section { padding: 16px 14px; }
     .branch-row {
-      grid-template-columns: 70px 1fr 60px 44px;
-      gap: 8px;
+      grid-template-columns: 68px 1fr 56px 36px;
+      gap: 6px;
       font-size: 12px;
-      padding: 12px 0;
+      padding: 11px 0;
     }
+    .branch-row .bank { font-size: 12px; }
+    .branch-row .count-cell { font-size: 12px; }
+    .branch-row .count-cell .sub { display: none; }
     .branch-head h4 { font-size: 15px; }
     .news-item h4 { font-size: 15px; }
     .issue-item h5 { font-size: 13px; }
     .region-map-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .region-tile { font-size: 9px; padding: 7px 3px; }
+  }
+  /* Very small mobile */
+  @media (max-width: 360px) {
+    :root { --pad-x: 12px; }
+    .branch-section { padding: 12px 10px; }
+    .branch-row {
+      grid-template-columns: 60px 1fr 50px 32px;
+      gap: 5px;
+      font-size: 11px;
+    }
+    .region-map-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; }
   }
 
   /* ===== Bank logo chips ===== */
@@ -987,22 +1019,26 @@
     padding: 12px;
     margin-bottom: 16px;
     background: var(--bg-card);
+    overflow: hidden;
   }
   .region-map-grid {
     display: grid;
-    grid-template-columns: repeat(6, minmax(52px, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 6px;
   }
   .region-tile {
     background: var(--bg);
     border: 1px solid var(--line);
     color: var(--ink-dim);
-    padding: 8px 6px;
+    padding: 8px 4px;
     text-align: center;
     font-family: var(--mono);
     font-size: 10px;
     line-height: 1.35;
     cursor: pointer;
+    overflow: hidden;
+    word-break: keep-all;
+    overflow-wrap: break-word;
   }
   .region-tile.active {
     border-color: var(--accent);
@@ -1711,26 +1747,41 @@ function renderBranchRegionalRows() {
   const banks = region.banks || [];
   const banksSorted = [...banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
   const max = Math.max(...banksSorted.map(b => b.count || 0), 1);
+  const hasSubOffices = banksSorted.some(b => (b.sub_offices || 0) > 0);
   const total = banksSorted.reduce((s, b) => s + (b.count || 0), 0);
+  const totalBr = banksSorted.reduce((s, b) => s + (b.branches || 0), 0);
+  const totalSub = banksSorted.reduce((s, b) => s + (b.sub_offices || 0), 0);
 
   rowsEl.innerHTML = banksSorted.map(b => {
     const count = b.count || 0;
-    const branchesRaw = b.branches ?? 0;
     const subOff = b.sub_offices || 0;
-    const branches = branchesRaw > 0 ? branchesRaw : Math.max(count - subOff, 0);
-    const pct = (count / max * 100).toFixed(1);
+    const branches = (b.branches ?? 0) > 0 ? (b.branches) : Math.max(count - subOff, 0);
+    const pctBr = (branches / max * 100).toFixed(1);
+    const pctSub = (subOff / max * 100).toFixed(1);
+    const subLine = hasSubOffices
+      ? `지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}`
+      : `지점+출장소 합산`;
     return `
       <div class="branch-row">
         <div class="bank">${bankLogoHTML(b.name)}</div>
-        <div class="bar-track"><div class="bar-seg-branches" style="width:${pct}%;"></div></div>
-        <div class="count-cell">합계 ${count.toLocaleString()} · 출장소 ${subOff.toLocaleString()}<span class="sub">지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}</span></div>
+        <div class="bar-track" title="지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}">
+          <div class="bar-seg-branches" style="width:${pctBr}%;"></div>
+          <div class="bar-seg-sub" style="width:${pctSub}%;"></div>
+        </div>
+        <div class="count-cell">
+          ${count.toLocaleString()}
+          <span class="sub">${subLine}</span>
+        </div>
         <div class="chg zero">—</div>
       </div>
     `;
   }).join('') + `
     <div class="branch-total-row">
       <div class="label">${esc(_activeRegion)} 4대 은행 합계</div>
-      <div class="val">${total.toLocaleString()}</div>
+      <div class="val">
+        ${total.toLocaleString()}
+        ${hasSubOffices ? `<span class="delta chg zero" style="font-size:11px;"> · 지점 ${totalBr.toLocaleString()} · 출장소 ${totalSub.toLocaleString()}</span>` : ''}
+      </div>
     </div>
   `;
 }
@@ -1932,8 +1983,13 @@ const BANK_COLORS = {
 };
 
 let _trendChart = null;
+let _trendRevealRafId = null;
+
 const trendRevealPlugin = {
   id: 'trendReveal',
+  beforeInit(chart) {
+    chart.$revealProgress = 0;
+  },
   beforeDatasetsDraw(chart) {
     const progress = chart.$revealProgress ?? 1;
     if (progress >= 1) return;
@@ -1942,7 +1998,7 @@ const trendRevealPlugin = {
     chart.$clipActive = true;
     ctx.save();
     ctx.beginPath();
-    ctx.rect(chartArea.left, chartArea.top, chartArea.width * progress, chartArea.height);
+    ctx.rect(chartArea.left, chartArea.top, chartArea.width * progress, chartArea.height + 4);
     ctx.clip();
   },
   afterDatasetsDraw(chart) {
@@ -1952,6 +2008,29 @@ const trendRevealPlugin = {
     }
   },
 };
+
+function _easeInOutSine(t) {
+  return -(Math.cos(Math.PI * t) - 1) / 2;
+}
+
+function animateTrendReveal(chart, duration) {
+  if (_trendRevealRafId) { cancelAnimationFrame(_trendRevealRafId); _trendRevealRafId = null; }
+  chart.$revealProgress = 0;
+  chart.update('none');
+  const start = performance.now();
+  function frame(now) {
+    const t = Math.min((now - start) / duration, 1);
+    chart.$revealProgress = _easeInOutSine(t);
+    chart.update('none');
+    if (t < 1) {
+      _trendRevealRafId = requestAnimationFrame(frame);
+    } else {
+      chart.$revealProgress = 1;
+      _trendRevealRafId = null;
+    }
+  }
+  _trendRevealRafId = requestAnimationFrame(frame);
+}
 
 function fmtYmLabel(ym) {
   if (!ym || ym.length !== 6) return ym || '';
@@ -2079,19 +2158,7 @@ function renderTrend(title, sub, labels, datasets) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      animation: {
-        duration: 1250,
-        easing: 'easeOutCubic',
-        onProgress(anim) {
-          if (!anim || !anim.chart || !anim.numSteps) return;
-          anim.chart.$revealProgress = Math.min(1, anim.currentStep / anim.numSteps);
-        },
-        onComplete(anim) {
-          if (!anim || !anim.chart) return;
-          anim.chart.$revealProgress = 1;
-        },
-      },
-      animations: { colors: { duration: 600, easing: 'easeOutQuad' } },
+      animation: false,
       interaction: { mode: 'index', intersect: false },
       plugins: {
         legend: {
@@ -2125,9 +2192,11 @@ function renderTrend(title, sub, labels, datasets) {
   });
   document.getElementById('trend-modal').classList.add('open');
   document.body.style.overflow = 'hidden';
+  animateTrendReveal(_trendChart, 2000);
 }
 
 function closeTrendModal() {
+  if (_trendRevealRafId) { cancelAnimationFrame(_trendRevealRafId); _trendRevealRafId = null; }
   const m = document.getElementById('trend-modal');
   if (m) m.classList.remove('open');
   document.body.style.overflow = '';

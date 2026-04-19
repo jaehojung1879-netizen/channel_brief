@@ -759,17 +759,23 @@ def _normalize_branch_record(rec: dict) -> dict:
     count = int((rec or {}).get("count", 0) or 0)
     branches = int((rec or {}).get("branches", 0) or 0)
     sub_offices = int((rec or {}).get("sub_offices", 0) or 0)
-    # count/지점/출장소 간 불일치가 있으면 지점+출장소를 정답으로 맞춘다.
-    if branches > 0 or sub_offices > 0:
-        if branches == 0 and count > 0:
-            branches = max(count - sub_offices, 0)
-        if sub_offices == 0 and count > 0 and branches < count:
-            sub_offices = max(count - branches, 0)
+
+    if branches > 0 and sub_offices > 0:
+        # 둘 다 명확히 수집된 경우: 합산을 count로
         count = branches + sub_offices
-    elif count > 0:
-        # 분해값이 비어있고 총량만 있으면 일단 지점으로 간주 (출장소 0)
+    elif branches > 0 and sub_offices == 0 and count > branches:
+        # 지점만 수집됐고 total > branches → 차이를 출장소로 추론
+        sub_offices = count - branches
+    elif sub_offices > 0 and branches == 0:
+        branches = max(count - sub_offices, 0)
+        count = branches + sub_offices
+    elif branches > 0 and sub_offices == 0 and count == 0:
+        count = branches
+    elif count > 0 and branches == 0 and sub_offices == 0:
+        # total만 있고 분해값 없음 → 일단 지점으로 간주
         branches = count
         sub_offices = 0
+
     return {"count": count, "branches": branches, "sub_offices": sub_offices}
 
 
@@ -881,9 +887,17 @@ def fisis_build_regional_stats(codes: dict):
             )
             vals = _extract_branch_numbers(chunk)
             if vals:
-                rec["branches"] = max(rec["branches"], int(vals.get("branches", 0)))
-                rec["sub_offices"] = max(rec["sub_offices"], int(vals.get("sub_offices", 0)))
-                rec["count"] = max(rec["count"], int(vals.get("count", 0)))
+                if kind == "branches":
+                    rec["branches"] = max(rec["branches"], int(vals.get("branches", 0)))
+                elif kind == "sub_offices":
+                    rec["sub_offices"] = max(rec["sub_offices"], int(vals.get("sub_offices", 0)))
+                else:  # kind == "count"
+                    rec["count"] = max(rec["count"], int(vals.get("count", 0)))
+                    # only propagate breakdown if sub_offices explicitly present
+                    s_val = int(vals.get("sub_offices", 0))
+                    if s_val > 0:
+                        rec["branches"] = max(rec["branches"], int(vals.get("branches", 0)))
+                        rec["sub_offices"] = max(rec["sub_offices"], s_val)
                 continue
             fallback_val = max((_fisis_row_value(r) or 0) for r in chunk)
             if kind == "branches":
@@ -948,7 +962,8 @@ def fisis_build_regional_stats(codes: dict):
             val = _fisis_row_value(row)
             if val is None:
                 continue
-            rec = {"count": int(val), "branches": int(val), "sub_offices": 0}
+            # Initialize with count only; branches/sub_offices filled by subsequent loops
+            rec = {"count": int(val), "branches": 0, "sub_offices": 0}
             region_ym_bank.setdefault(region, {}).setdefault(ym, {})[bank] = rec
 
         for row in rows_branches:
