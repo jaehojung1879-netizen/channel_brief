@@ -145,44 +145,9 @@
           "count": 656
         }
       ]
-    },
-    {
-      "name": "NH농협",
-      "count": 1064,
-      "branches": 776,
-      "sub_offices": 288,
-      "delta_yoy": 0,
-      "delta_qoq": 0,
-      "prev_year_end_count": 1064,
-      "history": [
-        {
-          "ym": "202012",
-          "count": 1122
-        },
-        {
-          "ym": "202112",
-          "count": 1109
-        },
-        {
-          "ym": "202212",
-          "count": 1106
-        },
-        {
-          "ym": "202312",
-          "count": 1101
-        },
-        {
-          "ym": "202412",
-          "count": 1064
-        },
-        {
-          "ym": "202512",
-          "count": 1064
-        }
-      ]
     }
   ],
-  "total": 3752,
+  "total": 2688,
   "total_delta_yoy": -91,
   "total_delta_qoq": -91,
   "regional": []
