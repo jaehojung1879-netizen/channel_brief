@@ -1747,20 +1747,16 @@ function renderBranchRegionalRows() {
   const banks = region.banks || [];
   const banksSorted = [...banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
   const max = Math.max(...banksSorted.map(b => b.count || 0), 1);
-  const hasSubOffices = banksSorted.some(b => (b.sub_offices || 0) > 0);
   const total = banksSorted.reduce((s, b) => s + (b.count || 0), 0);
   const totalBr = banksSorted.reduce((s, b) => s + (b.branches || 0), 0);
   const totalSub = banksSorted.reduce((s, b) => s + (b.sub_offices || 0), 0);
 
   rowsEl.innerHTML = banksSorted.map(b => {
-    const count = b.count || 0;
     const subOff = b.sub_offices || 0;
-    const branches = (b.branches ?? 0) > 0 ? (b.branches) : Math.max(count - subOff, 0);
+    const branches = (b.branches !== undefined && b.branches !== null) ? b.branches : ((b.count || 0) - subOff);
+    const count = branches + subOff;
     const pctBr = (branches / max * 100).toFixed(1);
     const pctSub = (subOff / max * 100).toFixed(1);
-    const subLine = hasSubOffices
-      ? `지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}`
-      : `지점+출장소 합산`;
     return `
       <div class="branch-row">
         <div class="bank">${bankLogoHTML(b.name)}</div>
@@ -1770,7 +1766,7 @@ function renderBranchRegionalRows() {
         </div>
         <div class="count-cell">
           ${count.toLocaleString()}
-          <span class="sub">${subLine}</span>
+          <span class="sub">지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}</span>
         </div>
         <div class="chg zero">—</div>
       </div>
@@ -1779,8 +1775,8 @@ function renderBranchRegionalRows() {
     <div class="branch-total-row">
       <div class="label">${esc(_activeRegion)} 4대 은행 합계</div>
       <div class="val">
-        ${total.toLocaleString()}
-        ${hasSubOffices ? `<span class="delta chg zero" style="font-size:11px;"> · 지점 ${totalBr.toLocaleString()} · 출장소 ${totalSub.toLocaleString()}</span>` : ''}
+        ${(totalBr + totalSub).toLocaleString()}
+        <span class="delta chg zero" style="font-size:11px;"> · 지점 ${totalBr.toLocaleString()} · 출장소 ${totalSub.toLocaleString()}</span>
       </div>
     </div>
   `;
@@ -1983,53 +1979,48 @@ const BANK_COLORS = {
 };
 
 let _trendChart = null;
-let _trendRevealRafId = null;
 
-const trendRevealPlugin = {
-  id: 'trendReveal',
-  beforeInit(chart) {
-    chart.$revealProgress = 0;
-  },
-  beforeDatasetsDraw(chart) {
-    const progress = chart.$revealProgress ?? 1;
-    if (progress >= 1) return;
-    const { ctx, chartArea } = chart;
-    if (!chartArea) return;
-    chart.$clipActive = true;
-    ctx.save();
-    ctx.beginPath();
-    ctx.rect(chartArea.left, chartArea.top, chartArea.width * progress, chartArea.height + 4);
-    ctx.clip();
-  },
-  afterDatasetsDraw(chart) {
-    if (chart.$clipActive) {
-      chart.ctx.restore();
-      chart.$clipActive = false;
-    }
-  },
-};
-
-function _easeInOutSine(t) {
-  return -(Math.cos(Math.PI * t) - 1) / 2;
-}
-
-function animateTrendReveal(chart, duration) {
-  if (_trendRevealRafId) { cancelAnimationFrame(_trendRevealRafId); _trendRevealRafId = null; }
-  chart.$revealProgress = 0;
-  chart.update('none');
-  const start = performance.now();
-  function frame(now) {
-    const t = Math.min((now - start) / duration, 1);
-    chart.$revealProgress = _easeInOutSine(t);
-    chart.update('none');
-    if (t < 1) {
-      _trendRevealRafId = requestAnimationFrame(frame);
-    } else {
-      chart.$revealProgress = 1;
-      _trendRevealRafId = null;
-    }
-  }
-  _trendRevealRafId = requestAnimationFrame(frame);
+// Per-point staggered animation from previous point: draws the line like a pen.
+function buildProgressiveAnimation(pointCount, totalDuration) {
+  const segments = Math.max(pointCount - 1, 1);
+  const segDuration = totalDuration / segments;
+  const prevPointY = (ctx) => {
+    if (ctx.type !== 'data') return 0;
+    if (ctx.index === 0) return ctx.chart.scales.y.getPixelForValue(ctx.chart.scales.y.min);
+    const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
+    const prev = meta && meta.data[ctx.index - 1];
+    if (!prev) return 0;
+    return prev.getProps(['y'], true).y;
+  };
+  const prevPointX = (ctx) => {
+    if (ctx.type !== 'data') return 0;
+    if (ctx.index === 0) return ctx.chart.scales.x.getPixelForValue(0);
+    const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
+    const prev = meta && meta.data[ctx.index - 1];
+    if (!prev) return 0;
+    return prev.getProps(['x'], true).x;
+  };
+  const stagger = (ctx) => {
+    if (ctx.type !== 'data' || ctx._started) return 0;
+    ctx._started = true;
+    return ctx.index * segDuration;
+  };
+  return {
+    x: {
+      type: 'number',
+      easing: 'linear',
+      duration: segDuration,
+      from: prevPointX,
+      delay: stagger,
+    },
+    y: {
+      type: 'number',
+      easing: 'linear',
+      duration: segDuration,
+      from: prevPointY,
+      delay: stagger,
+    },
+  };
 }
 
 function fmtYmLabel(ym) {
@@ -2134,7 +2125,6 @@ function renderTrend(title, sub, labels, datasets) {
   const canvas = document.getElementById('trend-canvas');
   const ctx = canvas.getContext('2d');
   if (_trendChart) { _trendChart.destroy(); _trendChart = null; }
-  _trendDelayed = false;
   if (!window.Chart) {
     alert('차트 라이브러리를 불러오지 못했습니다. 네트워크를 확인해 주세요.');
     return;
@@ -2151,14 +2141,22 @@ function renderTrend(title, sub, labels, datasets) {
       fill: false,
     };
   });
+  const pointCount = labels.length;
+  const totalDuration = 2000;
   _trendChart = new Chart(ctx, {
     type: 'line',
-    plugins: [trendRevealPlugin],
     data: { labels, datasets: styledDatasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      animation: false,
+      animation: {
+        duration: totalDuration,
+        easing: 'linear',
+      },
+      animations: buildProgressiveAnimation(pointCount, totalDuration),
+      transitions: {
+        active: { animation: { duration: 0 } },
+      },
       interaction: { mode: 'index', intersect: false },
       plugins: {
         legend: {
@@ -2192,11 +2190,9 @@ function renderTrend(title, sub, labels, datasets) {
   });
   document.getElementById('trend-modal').classList.add('open');
   document.body.style.overflow = 'hidden';
-  animateTrendReveal(_trendChart, 2000);
 }
 
 function closeTrendModal() {
-  if (_trendRevealRafId) { cancelAnimationFrame(_trendRevealRafId); _trendRevealRafId = null; }
   const m = document.getElementById('trend-modal');
   if (m) m.classList.remove('open');
   document.body.style.overflow = '';
