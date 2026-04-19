@@ -742,7 +742,7 @@ def _extract_branch_numbers(rows: list) -> dict:
 
 
 def fisis_build_branch_stats(codes: dict):
-    """영업점포현황 → 은행별 최신값 + 5년 연말 시계열."""
+    """영업점포현황 → 은행별 최신값 + 최신 기준월 anchor 5년(6개월 간격) 시계열."""
     list_no = codes.get("list_no_branch")
     bank_cds = codes.get("bank_finance_codes") or {}
     if not list_no or len(bank_cds) < len(TARGET_BANKS):
@@ -780,10 +780,11 @@ def fisis_build_branch_stats(codes: dict):
             continue
         per_bank[bank] = latest_vals
 
-        # 연말 시계열 (yyyy12만 필터)
+        # 최신 시점 기준 최근 5년(6개월 간격) 시계열
         history = {}
+        target_yms = set(_half_year_yms(latest_ym, years=5))
         for ym in yms:
-            if not ym.endswith("12"):
+            if ym not in target_yms:
                 continue
             period_rows = [r for r in rows if _fisis_row_ym(r) == ym]
             vals = _extract_branch_numbers(period_rows)
@@ -820,15 +821,45 @@ def fisis_build_branch_stats(codes: dict):
 
 
 def fisis_build_regional_stats(codes: dict):
-    """지역별 점포 현황 → [{region, banks, history:[{ym, banks:[{name,count}]}]}]."""
+    """지역별 점포 현황 → [{region, banks, history:[{ym, banks:[{name,count,branches,sub_offices}]}]}]."""
     list_no = codes.get("list_no_regional")
     bank_cds = codes.get("bank_finance_codes") or {}
     if not list_no or len(bank_cds) < len(TARGET_BANKS):
         return None
 
-    # region → {ym → {bank → count}}
+    # region → {ym → {bank → {count, branches, sub_offices}}}
     region_ym_bank = {}
     latest_ym_overall = ""
+
+    def _merge_regional_rows(rows: list, bank: str, target_yms: set, kind: str):
+        grouped_rows = {}
+        for row in rows:
+            ym = _fisis_row_ym(row)
+            region = _resolve_region_name(row)
+            if ym not in target_yms or not region:
+                continue
+            if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
+                continue
+            grouped_rows.setdefault((region, ym), []).append(row)
+
+        for (region, ym), chunk in grouped_rows.items():
+            rec = region_ym_bank.setdefault(region, {}).setdefault(ym, {}).setdefault(
+                bank,
+                {"count": 0, "branches": 0, "sub_offices": 0},
+            )
+            vals = _extract_branch_numbers(chunk)
+            if vals:
+                rec["branches"] = max(rec["branches"], int(vals.get("branches", 0)))
+                rec["sub_offices"] = max(rec["sub_offices"], int(vals.get("sub_offices", 0)))
+                rec["count"] = max(rec["count"], int(vals.get("count", 0)))
+                continue
+            fallback_val = max((_fisis_row_value(r) or 0) for r in chunk)
+            if kind == "branches":
+                rec["branches"] = max(rec["branches"], int(fallback_val))
+            elif kind == "sub_offices":
+                rec["sub_offices"] = max(rec["sub_offices"], int(fallback_val))
+            else:
+                rec["count"] = max(rec["count"], int(fallback_val))
 
     for meta in TARGET_BANKS:
         bank = meta["name"]
@@ -836,6 +867,8 @@ def fisis_build_regional_stats(codes: dict):
         if not finance_cd:
             continue
         rows = _fisis_fetch_info(list_no, finance_cd, months_back=72)
+        rows_branches = _fisis_fetch_info(list_no, finance_cd, months_back=72, account_cd="A11")
+        rows_sub_offices = _fisis_fetch_info(list_no, finance_cd, months_back=72, account_cd="A12")
         if not rows:
             continue
         yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
@@ -844,12 +877,26 @@ def fisis_build_regional_stats(codes: dict):
         latest_ym = yms[0]
         if latest_ym > latest_ym_overall:
             latest_ym_overall = latest_ym
-        # 최신 + 연말 시계열
-        target_yms = {latest_ym} | {ym for ym in yms if ym.endswith("12")}
+        # 최신 시점 기준 최근 5년(6개월 간격) + 최신
+        target_yms = set(_half_year_yms(latest_ym, years=5)) | {latest_ym}
 
+        _merge_regional_rows(rows, bank, target_yms, kind="count")
+        if rows_branches:
+            _merge_regional_rows(rows_branches, bank, target_yms, kind="branches")
+        if rows_sub_offices:
+            _merge_regional_rows(rows_sub_offices, bank, target_yms, kind="sub_offices")
+        time.sleep(0.3)
+
+    if not region_ym_bank:
+        # 통계표 구조에 따라 financeCd 없이 전체 은행이 내려오는 경우 fallback 파싱
+        rows = _fisis_fetch_info(list_no, finance_cd="", months_back=72)
+        rows_branches = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A11")
+        rows_sub_offices = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A12")
+
+        grouped_rows = {}
         for row in rows:
             ym = _fisis_row_ym(row)
-            if ym not in target_yms:
+            if not ym:
                 continue
             region = _resolve_region_name(row)
             if not region:
@@ -859,8 +906,36 @@ def fisis_build_regional_stats(codes: dict):
             val = _fisis_row_value(row)
             if val is None:
                 continue
-            region_ym_bank.setdefault(region, {}).setdefault(ym, {})[bank] = int(val)
-        time.sleep(0.3)
+            rec = {"count": int(val), "branches": int(val), "sub_offices": 0}
+            region_ym_bank.setdefault(region, {}).setdefault(ym, {})[bank] = rec
+
+        for row in rows_branches:
+            ym = _fisis_row_ym(row)
+            if not ym:
+                continue
+            bank = _map_bank_name(_fisis_first(row, ["financeNm", "finance_nm", "companyNm", "cmpyNm", "bankNm", "kor_co_nm", "name"]))
+            region = _resolve_region_name(row)
+            val = _fisis_row_value(row)
+            if not bank or not region or val is None:
+                continue
+            if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
+                continue
+            rec = region_ym_bank.setdefault(region, {}).setdefault(ym, {}).setdefault(bank, {"count": 0, "branches": 0, "sub_offices": 0})
+            rec["branches"] = max(rec["branches"], int(val))
+
+        for row in rows_sub_offices:
+            ym = _fisis_row_ym(row)
+            if not ym:
+                continue
+            bank = _map_bank_name(_fisis_first(row, ["financeNm", "finance_nm", "companyNm", "cmpyNm", "bankNm", "kor_co_nm", "name"]))
+            region = _resolve_region_name(row)
+            val = _fisis_row_value(row)
+            if not bank or not region or val is None:
+                continue
+            if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
+                continue
+            rec = region_ym_bank.setdefault(region, {}).setdefault(ym, {}).setdefault(bank, {"count": 0, "branches": 0, "sub_offices": 0})
+            rec["sub_offices"] = max(rec["sub_offices"], int(val))
 
     if not region_ym_bank:
         # 통계표 구조에 따라 financeCd 없이 전체 은행이 내려오는 경우 fallback 파싱
@@ -893,15 +968,39 @@ def fisis_build_regional_stats(codes: dict):
     regional = []
     for region, ym_map in sorted(region_ym_bank.items(), key=lambda x: sort_key(x[0])):
         latest = ym_map.get(latest_ym_overall, {})
-        latest_banks = [{"name": m["name"], "count": int(latest.get(m["name"], 0))} for m in TARGET_BANKS]
+        latest_banks = []
+        for m in TARGET_BANKS:
+            rec = latest.get(m["name"], {}) or {}
+            if rec.get("count", 0) == 0:
+                rec["count"] = int(rec.get("branches", 0)) + int(rec.get("sub_offices", 0))
+            latest_banks.append({
+                "name": m["name"],
+                "count": int(rec.get("count", 0)),
+                "branches": int(rec.get("branches", rec.get("count", 0))),
+                "sub_offices": int(rec.get("sub_offices", 0)),
+            })
         if sum(b["count"] for b in latest_banks) == 0:
             continue
         history = []
-        for ym in sorted(k for k in ym_map.keys() if k.endswith("12")):
+        for ym in sorted(k for k in ym_map.keys()):
             per = ym_map[ym]
+            hist_banks = []
+            for m in TARGET_BANKS:
+                rec = (per.get(m["name"], {}) or {})
+                branches = int(rec.get("branches", rec.get("count", 0)))
+                sub_offices = int(rec.get("sub_offices", 0))
+                count = int(rec.get("count", 0))
+                if count == 0:
+                    count = branches + sub_offices
+                hist_banks.append({
+                    "name": m["name"],
+                    "count": count,
+                    "branches": branches,
+                    "sub_offices": sub_offices,
+                })
             history.append({
                 "ym": ym,
-                "banks": [{"name": m["name"], "count": int(per.get(m["name"], 0))} for m in TARGET_BANKS],
+                "banks": hist_banks,
             })
         regional.append({"region": region, "banks": latest_banks, "history": history})
 
