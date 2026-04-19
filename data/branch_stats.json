@@ -1,6 +1,7 @@
 {
-  "updated_at": "2026-04-19T12:55:23.186331+09:00",
+  "updated_at": "2026-04-19T13:36:20.287658+09:00",
   "as_of": "2025-12-31",
+  "latest_ym": "202512",
   "source": "금융통계정보시스템(FISIS) · 국내은행 영업점포현황",
   "source_url": "http://fisis.fss.or.kr/openapi/statisticsInfoSearch.json",
   "is_fallback": false,
@@ -10,38 +11,179 @@
       "count": 772,
       "branches": 621,
       "sub_offices": 151,
-      "delta_qoq": -31
+      "delta_yoy": -26,
+      "delta_qoq": -26,
+      "prev_year_end_count": 798,
+      "history": [
+        {
+          "ym": "202012",
+          "count": 970
+        },
+        {
+          "ym": "202112",
+          "count": 912
+        },
+        {
+          "ym": "202212",
+          "count": 854
+        },
+        {
+          "ym": "202312",
+          "count": 795
+        },
+        {
+          "ym": "202412",
+          "count": 798
+        },
+        {
+          "ym": "202512",
+          "count": 772
+        }
+      ]
     },
     {
       "name": "신한",
       "count": 651,
       "branches": 538,
       "sub_offices": 113,
-      "delta_qoq": -96
+      "delta_yoy": -43,
+      "delta_qoq": -43,
+      "prev_year_end_count": 694,
+      "history": [
+        {
+          "ym": "202012",
+          "count": 860
+        },
+        {
+          "ym": "202112",
+          "count": 785
+        },
+        {
+          "ym": "202212",
+          "count": 722
+        },
+        {
+          "ym": "202312",
+          "count": 722
+        },
+        {
+          "ym": "202412",
+          "count": 694
+        },
+        {
+          "ym": "202512",
+          "count": 651
+        }
+      ]
     },
     {
       "name": "하나",
       "count": 609,
       "branches": 534,
       "sub_offices": 75,
-      "delta_qoq": -12
+      "delta_yoy": 6,
+      "delta_qoq": 6,
+      "prev_year_end_count": 603,
+      "history": [
+        {
+          "ym": "202012",
+          "count": 652
+        },
+        {
+          "ym": "202112",
+          "count": 614
+        },
+        {
+          "ym": "202212",
+          "count": 594
+        },
+        {
+          "ym": "202312",
+          "count": 598
+        },
+        {
+          "ym": "202412",
+          "count": 603
+        },
+        {
+          "ym": "202512",
+          "count": 609
+        }
+      ]
     },
     {
       "name": "우리",
       "count": 656,
       "branches": 554,
       "sub_offices": 102,
-      "delta_qoq": -20
+      "delta_yoy": -28,
+      "delta_qoq": -28,
+      "prev_year_end_count": 684,
+      "history": [
+        {
+          "ym": "202012",
+          "count": 821
+        },
+        {
+          "ym": "202112",
+          "count": 768
+        },
+        {
+          "ym": "202212",
+          "count": 713
+        },
+        {
+          "ym": "202312",
+          "count": 711
+        },
+        {
+          "ym": "202412",
+          "count": 684
+        },
+        {
+          "ym": "202512",
+          "count": 656
+        }
+      ]
     },
     {
       "name": "NH농협",
       "count": 1064,
       "branches": 776,
       "sub_offices": 288,
-      "delta_qoq": -16
+      "delta_yoy": 0,
+      "delta_qoq": 0,
+      "prev_year_end_count": 1064,
+      "history": [
+        {
+          "ym": "202012",
+          "count": 1122
+        },
+        {
+          "ym": "202112",
+          "count": 1109
+        },
+        {
+          "ym": "202212",
+          "count": 1106
+        },
+        {
+          "ym": "202312",
+          "count": 1101
+        },
+        {
+          "ym": "202412",
+          "count": 1064
+        },
+        {
+          "ym": "202512",
+          "count": 1064
+        }
+      ]
     }
   ],
   "total": 3752,
-  "total_delta_qoq": -175,
+  "total_delta_yoy": -91,
+  "total_delta_qoq": -91,
   "regional": []
 }

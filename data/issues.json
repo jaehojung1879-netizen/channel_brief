@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T12:56:07.223667+09:00",
+  "updated_at": "2026-04-19T13:37:03.433556+09:00",
   "social_finance": [
     {
       "id": "9a23174e3dad",
@@ -38,11 +38,11 @@
       "query": "중소기업 상생"
     },
     {
-      "id": "db4050755e58",
+      "id": "b2eee3e24266",
       "title": "이천시 제15회 평생학습축제 연계 중소기업 상생마켓 성황리 마무리 > 뉴스",
       "source": "더코리아",
       "summary": "이천시 제15회 평생학습축제 연계 중소기업 상생마켓 성황리 마무리 > 뉴스&nbsp;&nbsp;더코리아",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0Rm83R1NFU1NvQVlaVXZvNDdoSm1hSTk4REd1ekt3NVdEbVV1Rkk5U3dMcjRwR2RjV0hSZnR6UlNURjNHSG4tM0JCNnlIS1BYcDBCUF9nVVdtWjNwaG9rV3d1MjFuRmZjWkhhZmNyazM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE94LXpJMHlod3NRRC1YZGV0d0syUHRNeWozT1FBNnBnQjBjQnJKOE51X09XWWQzOGJxMndFdXBEU2Mzejg?oc=5",
       "published": "2026-04-18T17:19:00+09:00",
       "query": "중소기업 상생"
     },
@@ -85,6 +85,15 @@
       "query": "은행 생성형 AI"
     },
     {
+      "id": "cdc94103c105",
+      "title": "지지부진한 입법에도 스테이블코인 도입 위해 달리는 금융권",
+      "source": "ntoday.co.kr",
+      "summary": "지지부진한 입법에도 스테이블코인 도입 위해 달리는 금융권&nbsp;&nbsp;ntoday.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TTjhReXZMN0Rjb21IV181blVleXZJaVhCWXZzNWowQ2t1QUJLQ2YyLVBmenhMSTZBNHRjSjlJY3dtZ1NieXF4VHhBM3B5eGplaTJ0UEVsbm4wZ1BoTld6MmxfWHlvRHYtUEdV0gFvQVVfeXFMTTNCSTNRUTI2dTJvNWduY2VKTnhna0xGdzlGang5SXp1Yld6MXNUZDI1anhRdE44dFV5WkthTnZqYkNjSW9XQ2thYzdXeHphb18wbjM5Vm41ajd6T3QwZDM1ZVpCcXVTYWU1dGpnM213?oc=5",
+      "published": "2026-04-19T10:33:25+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
       "id": "4d9a03dd2e51",
       "title": "수출입은행, 자체 생성형 AI로 대출 심사 단축…130억 투입",
       "source": "디지털데일리",
@@ -97,7 +106,7 @@
       "id": "6813f6ed0c23",
       "title": "수출입은행, 생성형 AI ‘KEXIM AI’ 구축 착수⋯130억 규모",
       "source": "브릿지경제",
-      "summary": "수출입은행, 생성형 AI ‘KEXIM AI’ 구축 착수⋯130억 규모&nbsp;&nbsp;브릿지경제수출입은행, 자체 생성형 AI로 대출 심사 프로세스 단축한다&nbsp;&nbsp;마켓인수출입은행, 130억원 규모 자체 생성형 AI 플랫폼 'KEXIM AI' 구축 착수&nbsp;&nbsp;전자신문수출입은행, 자체 생성형 AI 플랫폼 'KEXIM AI' 구축&nbsp;&nbsp;파이낸셜뉴스수출입은행, 자체 생성형 AI로 대출 심사",
+      "summary": "수출입은행, 생성형 AI ‘KEXIM AI’ 구축 착수⋯130억 규모&nbsp;&nbsp;브릿지경제수출입은행, 자체 생성형 AI로 대출 심사 프로세스 단축한다&nbsp;&nbsp;마켓인수출입은행, 130억원 규모 자체 생성형 AI 플랫폼 'KEXIM AI' 구축 착수&nbsp;&nbsp;전자신문수출입은행, 자체 생성형 AI 플랫폼 'KEXIM AI' 구축&nbsp;&nbsp;파이낸셜뉴스수출입은행, 자체 AI 플랫폼 'KEXIM",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPcFdhVXg0Wlh1YWtHNjFpYWhrMUVsb0l1UzlXRkVUMWg4REUzazlXdUhYNjZvTDNPUjlOOFp1MFJCM0NCaURrSGZ3MjRiZGY2VjlDYzJYYU5BZw?oc=5",
       "published": "2026-04-19T09:41:00+09:00",
       "query": "은행 AI"
@@ -110,24 +119,6 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ELVE4eU1WZnFiUnVvSXpyc2NMMHJwcWY3VF92b095VGdxb3BWTHhWLW9EY29GcDh5Y2NNYWRzMVplZ3FmQlFmd05SVUU4Zw?oc=5",
       "published": "2026-04-19T09:00:00+09:00",
       "query": "은행 생성형 AI"
-    },
-    {
-      "id": "693fb7a7dc89",
-      "title": "\"일상어 검색부터 10초 여신심사까지\"···금융권, 'AI 에이전트' 무한경쟁",
-      "source": "뉴스웨이",
-      "summary": "\"일상어 검색부터 10초 여신심사까지\"···금융권, 'AI 에이전트' 무한경쟁&nbsp;&nbsp;뉴스웨이",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vc3lpS3V6NmFRakd5X0UxVGlVUVlKOE5sbTByaF8xYTJRdHUyUHhjSXd3M3dGY3I2NS1wR1J4T0ptNF9aTUNRT1dMVF9kYVI5cXlBcEpWWjVPR21CR3lJVlFINEN5eGZ6dnc?oc=5",
-      "published": "2026-04-18T08:11:00+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "e550c89ef695",
-      "title": "코스콤 '온체인 은행' 주목…금융 인프라 판 바뀐다",
-      "source": "데일리안",
-      "summary": "코스콤 '온체인 은행' 주목…금융 인프라 판 바뀐다&nbsp;&nbsp;데일리안",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNRUVfaElMU09nRHlhbFZyWVY5QlhiMWlXYnl4WFJscFZZaHBHYk5fZ19jMkVYSUxRRTZMZ3VBVU5ZSUdRNUpyMG1ocGZOc3NJeFByV0Ryd0g1T1d5M0NWamZUVTJVa1FzcEpTck54cWNkckQzRnZJdUtOV2lWckxSd0lhdC1PNWpMdUxkaEJGejc1WUF5MXIxS2NoSjlwb01zS1psa3hHTnQ2X1FTUWhsNU05REFfZU94VC15ZUtSVzVxWVAwR2pBZ01BM09xYm1SaXA4RUo1enExMFpkcVdwQlo2QlNSMnJ2TjFjR3Q2ZGFBLUpDd0o4YjRUZ21qZ3FQUmdTRW5DVnJiQ2ZTR1hjY3BNaV9qd3PSAZoCQVVfeXFMTlRaemJHNUp6cVRWWXBSRzhDcG9zb1l3alR3Ynp3UWRuRWlMVkJEU2c3OTRqT1o2WGFfcGZBTFBNVGZzQnJNQ1RVSGdwdHJRZjZFOFNhTG5lbklmVU01Z1hlWmR0bXFQdGpXM2p0VEdNNlpIQjZncVVPdXpaWnZlN3Y2SnR2bEZRcHNpWm56bFBPNDQ5TUFWYXNPTF9yQUhmMGZ5eGxEY1ZaWTFZNXJkUVJua00yNGM1d3pseDhheU1VYmRiMWVwUlRIRWc1amw4YTJGbEtZUE5xTWh0WWZKbHBSM2MwemZjUld5RDlVeXdyMHgtdkxKUWtVbHlyMnp3U3ROQ2NKampYQUY0UjNTY19PTExyNUc0YXVn?oc=5",
-      "published": "2026-04-18T07:06:00+09:00",
-      "query": "블록체인 은행"
     },
     {
       "id": "734a12922b4a",
@@ -146,6 +137,15 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1EZ3ZlektjUVlFM2Ffa1Jtb3h6YlM5VFNqQ3hEMkE4cXJJaUVIS1pEcUZzWnFzNDNtaU5hdGRHUzVXMzdwd3JDb05KTWY5QUJyNm5lakh5WkVNTm5raHZQR9IBeEFVX3lxTE16djRHQlZ1T1M1U09TbkFURjBMeFpDUDBISjdDeUpSWmhtS3AtUEZBVmhTVW5mOUNvMVgyd25iQ3djd0JmSld0SzZldkZhYkRtYVdJUjJ4MkNaVGt4VnE2TnY1VGMxa3lkWXQ4UDhSMHFOZHVFRlVCZw?oc=5",
       "published": "2026-04-17T16:05:45+09:00",
       "query": "은행 AI"
+    },
+    {
+      "id": "a347f6224bfa",
+      "title": "한은, 스테이블코인과 공존 선택···생태계는 예금토큰이 선점",
+      "source": "뉴스프리존",
+      "summary": "한은, 스테이블코인과 공존 선택···생태계는 예금토큰이 선점&nbsp;&nbsp;뉴스프리존",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54b0VFSnBUNG9SNzJucVBnNGpQbm4teFFBMTE3Y3JnOHpsb3ZzenVXYjA1YzlkTXcwNG9uSko1SUdOUDZxdnFObXIyNlUtRkNlb2dUNjhCd3NBY18ydy15VGZGd1dzb0FHdEhMSmtSSEllREXSAXdBVV95cUxOeDZBWmVsVVdyamxya3pKcTRkTi1KX0xFMFdWMUdTbnIxTFpCLXRqNnVxd0kyZlpfbGFNc1VEdHdYZ09CRVZCTkFVVnMtTEp3X19mMmY4MV8wU1k0ZzVoSkJWRXY4aElzeEdHZlQ4blItSWZCS1JLZw?oc=5",
+      "published": "2026-04-17T15:51:20+09:00",
+      "query": "예금토큰"
     }
   ]
 }
