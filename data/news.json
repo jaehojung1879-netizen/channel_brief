@@ -1,26 +1,77 @@
 {
-  "updated_at": "2026-04-19T14:12:58.073057+09:00",
+  "updated_at": "2026-04-20T06:00:36.337556+09:00",
   "headline": {
-    "id": "721067535033",
-    "title": "'생산성 꼴찌' 강태영 행장의 농협은행, 점포 못 줄이는 딜레마",
-    "source": "땅집고",
-    "summary": "'생산성 꼴찌' 강태영 행장의 농협은행, 점포 못 줄이는 딜레마 땅집고",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjT0lxMUJ6ZXVCU3hlVEhWbFBHSUhlb2w2d1o1TFFHZ0t4eGhlWFNhd3lfcEY3bVI4S1dlRzlTanoxSlBIc1V3QU4xV09MMjUtR1puNV96bDZKRFA5VVBTUFNpR1JlY1NoWl9SQXFlbXpNcTFiREhxd0VxdmVKOUnSAXNBVV95cUxPM1ZrTE84cnZnUDVvV3c1TGg2a1hCdjNRZG85QjhSeGZzUDM3VHVJYXpMN2hSdmZnT2ZPTFYtNFRqTVh6MEdBQXNjWkplOEVTR1o1MnJScGs1YmlBS1dNeWtrcTBkSHByWkFqbEEzMVhaRTNB?oc=5",
-    "published": "2026-04-17T06:00:00+09:00",
+    "id": "af49f572fb64",
+    "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
+    "source": "한국금융신문",
+    "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
+    "published": "2026-04-20T00:00:00+09:00",
     "query": "은행 점포",
-    "_score": 5.0,
+    "engine": "google",
+    "rank": 1,
+    "_score": 31.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "804babc9c489",
-        "title": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장",
-        "source": "뉴스웍스",
-        "summary": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장 뉴스웍스",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YWTltMjIweTFBemtfeGk1ejJJajdKczFjR2hCX0dnV0hNOTZVNDc3TW5GNWo5bzRyREVsSktXWURzdThOTGRpSjREWld2X0FYNlNkWnZZeW1IbzAzR21jb1ZBQmpoaU5IVE1xN1U5QQ?oc=5",
-        "published": "2026-04-18T13:00:00+09:00",
+        "id": "5e9645be55a8",
+        "title": "점포 줄고, AI에 밀리고… 은행 '취업 문' 더 좁아졌다 [장애인 고용의 역설 上-②]",
+        "source": "v.daum.net",
+        "summary": "점포 줄고, AI에 밀리고… 은행 '취업 문' 더 좁아졌다 [장애인 고용의 역설 上-②] v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5lSnJMMGtPWDRmNmlSb2EzYVQ1Z2gzS05oNU1sWWd4WkZxT3JBVU1ZVERJeTB4S1BlZzdvVDRiR0dlVzR5d21PZXA2RURpcjQ?oc=5",
+        "published": "2026-04-20T05:00:19+09:00",
         "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "af49f572fb64",
+        "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
+        "source": "한국금융신문",
+        "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
+        "published": "2026-04-20T00:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1
+      },
+      {
+        "id": "72e77ed0aa90",
+        "title": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략]",
+        "source": "한국금융신문",
+        "summary": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략] 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5udW1YemFlMzctTTA5dmptVnRCazladG95U1JuWkE5dm5TYUlnNXo3TGZuQ25QdFp5d25nOEpZX044MC0zdnFSNGpRcTRaVXhfeDdFZEE5WXNWeFZpS0dFNElnbENWVTJmY19yaGxrai0yMmV5TkJOanV5Rkc?oc=5",
+        "published": "2026-04-20T00:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a114c58dbde6",
+        "title": "점포 확대 ‘역발상ʼ·찾아가는 교육까지…‘발로 뛰는ʼ 하나은행 [은행 접근성 보완 전략]",
+        "source": "한국금융신문",
+        "summary": "점포 확대 ‘역발상ʼ·찾아가는 교육까지…‘발로 뛰는ʼ 하나은행 [은행 접근성 보완 전략] 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yUDllZHVZNFhfaElKcVBNeTZ5dmM5dGdrc1kzTWZYRHlINVQ3NUI5NGp5RmlWOVBfV2xCaWlBZTh4c3R6RTdjLTZ2ZUI3VWJOSWRQWlFOOGpKdUpydjh2dDJqajBUUnNqUkhyeFhMUklDVG85bXN4ZGtvcw?oc=5",
+        "published": "2026-04-20T00:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 13,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "59a50e474cf7",
+        "title": "점포 주는데…은행대리업 어디까지 왔나",
+        "source": "이데일리",
+        "summary": "점포 주는데…은행대리업 어디까지 왔나 이데일리",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV1NjQVMtaUlfdVdFUEZtRlNLd2F4YXRxYjBXNXRtYXNlcHpGOFE0WXQzYklfNU51YjA4S0E1S01aQUhDQUlUMVdlczlNaU5faUd5NG1rejhHMEVEclJIUGc2QVhMbTNwY2tVWkVnOFhFSWZFYTY5VGdxUXJlUGVFSg?oc=5",
+        "published": "2026-04-19T15:34:29+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -30,9 +81,61 @@
         "summary": "'생산성 꼴찌' 강태영 행장의 농협은행, 점포 못 줄이는 딜레마 땅집고",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjT0lxMUJ6ZXVCU3hlVEhWbFBHSUhlb2w2d1o1TFFHZ0t4eGhlWFNhd3lfcEY3bVI4S1dlRzlTanoxSlBIc1V3QU4xV09MMjUtR1puNV96bDZKRFA5VVBTUFNpR1JlY1NoWl9SQXFlbXpNcTFiREhxd0VxdmVKOUnSAXNBVV95cUxPM1ZrTE84cnZnUDVvV3c1TGg2a1hCdjNRZG85QjhSeGZzUDM3VHVJYXpMN2hSdmZnT2ZPTFYtNFRqTVh6MEdBQXNjWkplOEVTR1o1MnJScGs1YmlBS1dNeWtrcTBkSHByWkFqbEEzMVhaRTNB?oc=5",
         "published": "2026-04-17T06:00:00+09:00",
-        "query": "은행 점포"
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "df9c14295cf2",
+        "title": "KB국민은행, 영업점 중심 생산적금융 강화",
+        "source": "금융경제신문",
+        "summary": "KB국민은행, 영업점 중심 생산적금융 강화 금융경제신문",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TVGJrYlBXSkNlbHM5QlpUVE9lckJ6Z2dyVWczOWxIQWRzODZnU1h4WllFM09STVlhR3lINGlmQ2Y2RDBaZW1lak9Sb2RFeFVrdW9CeE5teG5sX2tiOGd4a01zVlBJZktjcDUzMtIBb0FVX3lxTE5pSVVfclp1SlhfMXludEhsTS1DZGxUWWVJOVJaRzVhSTQ5QWxnVVUzS1AxTVFnNWpwdEd2ckRFaW5HVjhHZUt4eGEzN21DdFgyRklQc2F6ZGdfT2w3eE1sc3ZObkFxV2dqWGpnS1hQYw?oc=5",
+        "published": "2026-04-16T13:30:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "216e4f9c05e6",
+        "title": "외국인 점포 늘리고 대출 문 넓히는 은행들",
+        "source": "한국경제",
+        "summary": "외국인 점포 늘리고 대출 문 넓히는 은행들 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sY0I2WkFZV1hmajFOd1B6Y1pVd1ZDX3BYRWowS1RRM3E4dkN2UmdPYjhTS0V4SGY1UXVUQUdCejlrYmwxZzdXQUZtdHpsWFRib2h6bFlTek5OUdIBVEFVX3lxTE8wZzdaWVBSbHBvbXpqQm1LUE5CM0VkdDIyc1ZMdUhlb0JkS19Gbk5GZ0tab0hSMEtCcGJ1eWRoWVlDM1FtVUhsUzZyNjU4TVhqcldsLQ?oc=5",
+        "published": "2026-04-15T17:36:29+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": []
+    "policy_news": [],
+    "shinhan_news": [
+      {
+        "id": "af49f572fb64",
+        "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
+        "source": "한국금융신문",
+        "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
+        "published": "2026-04-20T00:00:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1
+      },
+      {
+        "id": "804babc9c489",
+        "title": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장",
+        "source": "뉴스웍스",
+        "summary": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장 뉴스웍스",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YWTltMjIweTFBemtfeGk1ejJJajdKczFjR2hCX0dnV0hNOTZVNDc3TW5GNWo5bzRyREVsSktXWURzdThOTGRpSjREWld2X0FYNlNkWnZZeW1IbzAzR21jb1ZBQmpoaU5IVE1xN1U5QQ?oc=5",
+        "published": "2026-04-18T13:00:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ]
   }
 }

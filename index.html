@@ -2055,6 +2055,7 @@ function renderTrend(title, sub, labels, datasets) {
   const canvas = document.getElementById('trend-canvas');
   const ctx = canvas.getContext('2d');
   if (_trendChart) { _trendChart.destroy(); _trendChart = null; }
+  _trendDelayed = false;
   if (!window.Chart) {
     alert('차트 라이브러리를 불러오지 못했습니다. 네트워크를 확인해 주세요.');
     return;

@@ -925,6 +925,13 @@ def fisis_build_regional_stats(codes: dict):
         rows_branches = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A11")
         rows_sub_offices = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A12")
 
+    if not region_ym_bank:
+        # 통계표 구조에 따라 financeCd 없이 전체 은행이 내려오는 경우 fallback 파싱
+        rows = _fisis_fetch_info(list_no, finance_cd="", months_back=72)
+        rows_branches = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A11")
+        rows_sub_offices = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A12")
+
+        grouped_rows = {}
         for row in rows:
             ym = _fisis_row_ym(row)
             if not ym:
