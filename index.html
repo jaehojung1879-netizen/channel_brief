@@ -1375,7 +1375,7 @@ function renderHeadlineAndNews(data) {
   if (items.length === 0) {
     grid.innerHTML = '<div class="empty">최근 기사가 없습니다.</div>';
     updated.textContent = '0 ARTICLES';
-    renderShinhanNews(combined, data.updated_at);
+    renderShinhanNews(data, combined);
     return;
   }
 
@@ -1401,17 +1401,28 @@ function renderHeadlineAndNews(data) {
 
   const syncTime = new Date(data.updated_at);
   updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
-  renderShinhanNews(combined, data.updated_at);
+  renderShinhanNews(data, combined);
 }
 
-function renderShinhanNews(allItems, updatedAt) {
+function renderShinhanNews(newsData, allItems) {
   const grid = document.getElementById('shinhan-news-grid');
   const updated = document.getElementById('shinhan-news-updated');
   if (!grid || !updated) return;
-  const items = (allItems || []).filter(it => {
+  const dedicated = (newsData?.categories?.shinhan_news || []).slice();
+  const fallback = (allItems || []).filter(it => {
     const txt = `${it.title || ''} ${it.summary || ''}`;
     return txt.includes('신한') || String(it.source || '').includes('신한');
-  }).slice(0, 12);
+  });
+  const merged = [...dedicated];
+  const seen = new Set(merged.map(it => (it.title || '').slice(0, 30)));
+  for (const it of fallback) {
+    const k = (it.title || '').slice(0, 30);
+    if (seen.has(k)) continue;
+    seen.add(k);
+    merged.push(it);
+    if (merged.length >= 12) break;
+  }
+  const items = merged.slice(0, 12);
   if (items.length === 0) {
     grid.innerHTML = '<div class="empty">신한은행 관련 기사가 없습니다.</div>';
     updated.textContent = '0 ARTICLES';
@@ -1433,7 +1444,7 @@ function renderShinhanNews(allItems, updatedAt) {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
     });
   });
-  const syncTime = new Date(updatedAt || Date.now());
+  const syncTime = new Date(newsData?.updated_at || Date.now());
   updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
 }
 

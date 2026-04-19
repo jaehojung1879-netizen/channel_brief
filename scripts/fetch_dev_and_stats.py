@@ -56,8 +56,28 @@ TARGET_BANKS = [
 
 REGION_ORDER = [
     "서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종",
-    "경기", "강원", "충북", "충남", "전북", "전남", "경북", "경남", "제주",
+    "경기", "강원", "충청", "경상", "전라", "제주",
+    "충북", "충남", "전북", "전남", "경북", "경남",
 ]
+
+# FISIS "일반현황-지역별 점포 현황" 지역코드 매핑
+REGION_CODE_MAP = {
+    "A": "서울특별시",
+    "B": "인천광역시",
+    "C": "부산광역시",
+    "D": "대구광역시",
+    "E": "대전광역시",
+    "F": "울산광역시",
+    "G": "광주광역시",
+    "H": "경기도",
+    "I": "강원도",
+    "J": "충청도",
+    "K": "경상도",
+    "L": "전라도",
+    "M": "제주도",
+    "N": "세종특별자치시",
+    "O": "합계",
+}
 
 DEV_KEYWORDS = [
     "LH 지구지정",
@@ -128,6 +148,21 @@ def _ym_to_asof(ym: str):
     mo = ym[4:6]
     day = "31" if mo in ("03", "05", "07", "08", "10", "12") else ("30" if mo in ("04", "06", "09", "11") else "28")
     return f"{ym[:4]}-{mo}-{day}"
+
+
+def _resolve_region_name(row: dict):
+    """FISIS row에서 지역명/지역코드를 해석해 표준 지역명 반환."""
+    code = _fisis_first(row, ["regionCd", "region_cd", "areaCd", "area_cd", "zoneCd", "zone_cd", "localCd", "local_cd"])
+    if code:
+        code = str(code).strip().upper()
+        if code in REGION_CODE_MAP:
+            return REGION_CODE_MAP[code]
+    return _fisis_first(row, [
+        "region", "regionNm", "area", "areaNm",
+        "siNm", "sidoNm", "sigunguNm", "guNm",
+        "zoneNm", "zoneName", "localNm", "local_nm",
+        "accountNm", "acntNm", "itemNm", "name",
+    ])
 
 
 # ---------- development news ----------
@@ -751,14 +786,10 @@ def fisis_build_regional_stats(codes: dict):
             ym = _fisis_row_ym(row)
             if ym not in target_yms:
                 continue
-            region = _fisis_first(row, [
-                "region", "regionNm", "area", "areaNm",
-                "siNm", "sidoNm", "zoneNm", "zoneName",
-                "accountNm", "acntNm", "itemNm", "name",
-            ])
+            region = _resolve_region_name(row)
             if not region:
                 continue
-            if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total"):
+            if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
                 continue
             val = _fisis_row_value(row)
             if val is None:
@@ -777,12 +808,8 @@ def fisis_build_regional_stats(codes: dict):
             bank = _map_bank_name(bank_nm_raw)
             if not bank:
                 continue
-            region = _fisis_first(row, [
-                "region", "regionNm", "area", "areaNm", "sidoNm", "sigunguNm",
-                "siNm", "guNm", "zoneNm", "zoneName", "localNm", "local_nm",
-                "itemNm", "item_nm", "clsNm",
-            ])
-            if not region or region in ("합계", "소계", "총계", "계", "전국", "전 국", "total"):
+            region = _resolve_region_name(row)
+            if not region or region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
                 continue
             val = _fisis_row_value(row)
             if val is None:
@@ -912,12 +939,21 @@ def load_previous_stats():
 
 def load_branch_stats():
     """FISIS → KFB 스크래핑 → 수동 파일 순."""
+    prev = load_previous_stats()
     fisis = fetch_branch_stats_from_fisis()
     if fisis:
+        # FISIS 지역 통계가 일시적으로 비는 날은 기존 누적 지역 데이터 유지
+        if not fisis.get("regional") and prev.get("regional"):
+            fisis["regional"] = prev.get("regional", [])
+            fisis["latest_ym"] = fisis.get("latest_ym") or prev.get("latest_ym", "")
+            fisis["source"] = f"{fisis.get('source', '')} (regional: previous cache reused)"
         return fisis
 
     scraped = fetch_branch_stats_from_kfb()
     if scraped:
+        if prev.get("regional"):
+            scraped["regional"] = prev.get("regional", [])
+            scraped["latest_ym"] = prev.get("latest_ym", "")
         return scraped
 
     stat_file = DATA_DIR / "branch_stats_manual.json"
@@ -933,6 +969,9 @@ def load_branch_stats():
                 b.setdefault("sub_offices", 0)
                 b["count"] = int(b.get("branches", 0)) + int(b.get("sub_offices", 0))
         fallback.setdefault("regional", [])
+        if (not fallback.get("regional")) and prev.get("regional"):
+            fallback["regional"] = prev.get("regional", [])
+            fallback["latest_ym"] = prev.get("latest_ym", "")
         return fallback
 
     return {

@@ -46,6 +46,12 @@ KEYWORDS = {
     ],
 }
 
+SHINHAN_KEYWORDS = [
+    "신한은행 영업점",
+    "신한은행 점포",
+    "신한은행 지점",
+]
+
 # 헤드라인 점수 계산용 키워드 가중치
 KEYWORD_WEIGHTS = {
     # 핵심 주제
@@ -275,7 +281,7 @@ def dedupe(items: list) -> list:
     return result
 
 
-def is_relevant_article(item: dict) -> bool:
+def is_relevant_article(item: dict, require_core: bool = True) -> bool:
     title = (item.get("title") or "").strip()
     summary = (item.get("summary") or "").strip()
     source = (item.get("source") or "").strip()
@@ -287,9 +293,18 @@ def is_relevant_article(item: dict) -> bool:
         return False
 
     # 영업점 연관 키워드가 최소 1개는 있어야 표시
-    if not any(kw.lower() in hay for kw in CORE_BRANCH_KEYWORDS):
+    if require_core and not any(kw.lower() in hay for kw in CORE_BRANCH_KEYWORDS):
         return False
     return True
+
+
+def is_shinhan_article(item: dict) -> bool:
+    title = (item.get("title") or "").strip()
+    summary = (item.get("summary") or "").strip()
+    hay = f"{title} {summary}".lower()
+    if "신한" not in hay and "shinhan" not in hay:
+        return False
+    return is_relevant_article(item, require_core=False)
 
 
 UA = (
@@ -434,6 +449,36 @@ def main():
         bucket.sort(key=lambda x: x["published"], reverse=True)
         all_results[category] = bucket[:40]
         print(f"[news] {category}: {len(bucket[:40])} items")
+
+    # 신한은행 전용 풀(최소 2개 노출 보장용)
+    shinhan_bucket = []
+    for q in SHINHAN_KEYWORDS:
+        print(f"[news] fetching(shinhan): {q}")
+        g_items = fetch_google_news(q, max_items=14)
+        n_items = fetch_naver_news(q, max_items=10)
+        shinhan_bucket.extend(g_items + n_items)
+        raw_pool.extend(g_items + n_items)
+        time.sleep(1.0)
+    shinhan_bucket = [it for it in shinhan_bucket if is_shinhan_article(it)]
+    shinhan_bucket = filter_recent(shinhan_bucket, days=7)
+    shinhan_bucket = dedupe(shinhan_bucket)
+    shinhan_bucket.sort(key=lambda x: x["published"], reverse=True)
+
+    # 최소 2개 보장: 일반 풀에서 신한 관련 기사 보충
+    if len(shinhan_bucket) < 2:
+        combined_general = (all_results.get("branch_news", []) + all_results.get("policy_news", []))
+        for it in combined_general:
+            if not is_shinhan_article(it):
+                continue
+            key = (it.get("title", "")[:30], it.get("link", ""))
+            seen = {(x.get("title", "")[:30], x.get("link", "")) for x in shinhan_bucket}
+            if key in seen:
+                continue
+            shinhan_bucket.append(it)
+            if len(shinhan_bucket) >= 2:
+                break
+    all_results["shinhan_news"] = shinhan_bucket[:20]
+    print(f"[news] shinhan_news: {len(all_results['shinhan_news'])} items")
 
     # 전체 풀에서 제목 등장 횟수 집계 (중복도 = 화제성)
     title_count_map = {}
