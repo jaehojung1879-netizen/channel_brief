@@ -408,13 +408,16 @@ def _fisis_row_ym(row: dict):
 
 def _fisis_row_value(row: dict):
     val = _fisis_first(row, [
+        "a", "b", "c", "d",
         "dataValue", "data_value", "value", "val", "resultVal", "result_val",
         "amt", "cnt", "count", "num", "qty",
     ])
     n = _extract_int(val)
     if n is not None:
         return n
-    for v in row.values():
+    for k, v in row.items():
+        if k in ("base_month", "baseMm", "baseYm", "finance_cd", "financeCd", "account_cd", "accountCd"):
+            continue
         n = _extract_int(v)
         if n is not None:
             return n
@@ -606,30 +609,46 @@ def fisis_build_branch_stats(codes: dict):
         branches = None
         sub_offices = None
         sum_total = None
+        # 1순위: account_cd 기반 정확 매칭 (A1=국내 합계, A11=지점, A12=출장소)
+        by_cd = {}
         for row in latest_rows:
-            name = _fisis_first(row, [
-                "accountNm", "account_nm", "acntNm", "acnt_nm",
-                "acntName", "itemNm", "item_nm", "itemName", "name",
-            ])
+            cd = _fisis_first(row, ["account_cd", "accountCd", "acntCd", "acnt_cd"])
             val = _fisis_row_value(row)
-            if val is None:
-                continue
-            n = _norm(name)
-            if "출장소" in n:
-                sub_offices = (sub_offices or 0) + val if n != "출장소" else val
-                if n == "출장소":
-                    sub_offices = val
-            elif any(k in n for k in ["지점", "영업점", "본점", "branch"]):
-                if n in ("계", "소계", "합계"):
-                    continue
-                # 세부 구분(시/도점, 일반점 등)을 더하는 것보다 "지점계"/"합계" 우선
-                if branches is None:
-                    branches = val
-                else:
-                    branches += val
-            elif n in ("점포수", "점포", "총계", "계", "합계"):
-                sum_total = val
+            if cd and val is not None:
+                by_cd[cd] = val
+        if "A11" in by_cd:
+            branches = by_cd["A11"]
+        if "A12" in by_cd:
+            sub_offices = by_cd["A12"]
+        if "A1" in by_cd:
+            sum_total = by_cd["A1"]
 
+        # 2순위: 이름 기반 (account_cd 없거나 매칭 실패 시)
+        if branches is None or sub_offices is None:
+            for row in latest_rows:
+                name = _fisis_first(row, [
+                    "accountNm", "account_nm", "acntNm", "acnt_nm",
+                    "acntName", "itemNm", "item_nm", "itemName", "name",
+                ])
+                val = _fisis_row_value(row)
+                if val is None:
+                    continue
+                n = _norm(name)
+                if n in ("국내_지점", "지점", "국내지점"):
+                    if branches is None:
+                        branches = val
+                elif n in ("국내_출장소", "출장소", "국내출장소"):
+                    if sub_offices is None:
+                        sub_offices = val
+                elif n in ("국내", "점포수", "점포", "총계", "계", "합계"):
+                    if sum_total is None:
+                        sum_total = val
+
+        # 보정: 지점만 있고 출장소가 없을 때 총계 - 지점으로 역산
+        if branches is not None and sub_offices is None and sum_total is not None:
+            delta = sum_total - branches
+            if 0 <= delta <= 200:
+                sub_offices = delta
         # 보정: 지점·출장소가 없고 총계만 있으면 그걸 전체로
         if branches is None and sub_offices is None and sum_total is not None:
             branches = sum_total
