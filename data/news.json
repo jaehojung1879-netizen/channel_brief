@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T17:53:10.216902+09:00",
+  "updated_at": "2026-04-19T18:11:36.860930+09:00",
   "headline": {
     "id": "5e93adcbee3a",
     "title": "점포 주는데…은행대리업 어디까지 왔나",
@@ -48,6 +48,18 @@
         "query": "은행 영업점",
         "engine": "google",
         "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "216e4f9c05e6",
+        "title": "외국인 점포 늘리고 대출 문 넓히는 은행들",
+        "source": "한국경제",
+        "summary": "외국인 점포 늘리고 대출 문 넓히는 은행들 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sY0I2WkFZV1hmajFOd1B6Y1pVd1ZDX3BYRWowS1RRM3E4dkN2UmdPYjhTS0V4SGY1UXVUQUdCejlrYmwxZzdXQUZtdHpsWFRib2h6bFlTek5OUdIBVEFVX3lxTE8wZzdaWVBSbHBvbXpqQm1LUE5CM0VkdDIyc1ZMdUhlb0JkS19Gbk5GZ0tab0hSMEtCcGJ1eWRoWVlDM1FtVUhsUzZyNjU4TVhqcldsLQ?oc=5",
+        "published": "2026-04-15T17:36:29+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
