@@ -277,6 +277,136 @@
     letter-spacing: 0.06em;
   }
 
+  /* ===== Article preview modal ===== */
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(8, 12, 18, 0.78);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 24px;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    max-width: 640px;
+    width: 100%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .modal-head {
+    padding: 20px 24px 14px;
+    border-bottom: 1px solid var(--line-soft);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .modal-head .meta-line {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .modal-head h3 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+  .modal-close {
+    background: none;
+    border: none;
+    color: var(--ink-mute);
+    font-size: 22px;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .modal-close:hover { color: var(--ink); }
+  .modal-body {
+    padding: 18px 24px 22px;
+    overflow-y: auto;
+    flex: 1;
+  }
+  .modal-body .summary-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-mute);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .modal-body .summary-label .badge {
+    background: var(--accent-dim);
+    color: var(--bg);
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+  }
+  .modal-body .summary-text {
+    font-family: var(--sans);
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: var(--ink);
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+  }
+  .modal-body .summary-text.empty {
+    color: var(--ink-mute);
+    font-style: italic;
+  }
+  .modal-foot {
+    padding: 14px 24px 18px;
+    border-top: 1px solid var(--line-soft);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  .modal-foot .time {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-mute);
+    letter-spacing: 0.06em;
+  }
+  .modal-foot .open-link {
+    background: var(--accent);
+    color: var(--bg);
+    border: none;
+    padding: 9px 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 2px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .modal-foot .open-link:hover { background: #e8b65a; }
+
   /* ===== 2-col ===== */
   .two-col {
     display: grid;
@@ -1053,14 +1183,25 @@ function renderHeadlineAndNews(data) {
     return;
   }
 
-  grid.innerHTML = items.map(it => `
-    <a href="${esc(it.link)}" target="_blank" rel="noopener" class="news-item">
+  window.__newsItems = items;
+  grid.innerHTML = items.map((it, idx) => `
+    <div class="news-item" data-idx="${idx}" role="button" tabindex="0">
       <div class="src">${esc(it.source)}</div>
       <h4>${esc(it.title)}</h4>
       <p>${esc(it.summary || '')}</p>
       <div class="time">${fmtRelative(it.published)}</div>
-    </a>
+    </div>
   `).join('');
+  grid.querySelectorAll('.news-item').forEach(el => {
+    const open = () => {
+      const idx = Number(el.getAttribute('data-idx'));
+      openArticleModal(window.__newsItems[idx]);
+    };
+    el.addEventListener('click', open);
+    el.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+  });
 
   const syncTime = new Date(data.updated_at);
   updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
@@ -1336,7 +1477,73 @@ document.querySelectorAll('.nav a').forEach(a => {
   });
 });
 
+function buildSummaryText(it) {
+  const raw = (it.summary || '').trim();
+  const title = (it.title || '').trim();
+  if (!raw || raw === title) {
+    return { text: '이 기사는 RSS 제목만 제공되어 요약을 생성할 수 없었습니다. 원문을 확인해 주세요.', empty: true };
+  }
+  if (raw.length < 30) {
+    return { text: raw + '\n\n(요약 본문이 짧습니다. 원문을 확인해 주세요.)', empty: false };
+  }
+  return { text: raw, empty: false };
+}
+
+function openArticleModal(it) {
+  if (!it) return;
+  const backdrop = document.getElementById('article-modal');
+  const src = document.getElementById('modal-source');
+  const title = document.getElementById('modal-title');
+  const body = document.getElementById('modal-summary');
+  const time = document.getElementById('modal-time');
+  const link = document.getElementById('modal-open-link');
+  const { text, empty } = buildSummaryText(it);
+  src.textContent = (it.source || '').toUpperCase();
+  title.textContent = it.title || '';
+  body.textContent = text;
+  body.classList.toggle('empty', empty);
+  time.textContent = fmtRelative(it.published);
+  link.href = it.link || '#';
+  backdrop.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeArticleModal() {
+  document.getElementById('article-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('click', e => {
+  const backdrop = document.getElementById('article-modal');
+  if (!backdrop) return;
+  if (e.target === backdrop) closeArticleModal();
+  if (e.target.matches('[data-close-modal]')) closeArticleModal();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeArticleModal();
+});
+
 </script>
+
+<div class="modal-backdrop" id="article-modal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-head">
+      <div>
+        <div class="meta-line" id="modal-source">—</div>
+        <h3 id="modal-title">—</h3>
+      </div>
+      <button class="modal-close" type="button" data-close-modal aria-label="닫기">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="summary-label"><span class="badge">AI 요약</span><span>RSS 기반 · 참고용</span></div>
+      <div class="summary-text" id="modal-summary">—</div>
+    </div>
+    <div class="modal-foot">
+      <div class="time" id="modal-time">—</div>
+      <a class="open-link" id="modal-open-link" href="#" target="_blank" rel="noopener">원문 보기 →</a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
