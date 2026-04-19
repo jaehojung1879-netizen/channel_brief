@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T07:21:57.819676+09:00",
+  "updated_at": "2026-04-20T07:33:08.728049+09:00",
   "social_finance": [
     {
       "id": "aac5546e045e",
@@ -130,6 +130,15 @@
       "query": "은행 생성형 AI"
     },
     {
+      "id": "e550c89ef695",
+      "title": "코스콤 '온체인 은행' 주목…금융 인프라 판 바뀐다",
+      "source": "데일리안",
+      "summary": "코스콤 '온체인 은행' 주목…금융 인프라 판 바뀐다&nbsp;&nbsp;데일리안",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNRUVfaElMU09nRHlhbFZyWVY5QlhiMWlXYnl4WFJscFZZaHBHYk5fZ19jMkVYSUxRRTZMZ3VBVU5ZSUdRNUpyMG1ocGZOc3NJeFByV0Ryd0g1T1d5M0NWamZUVTJVa1FzcEpTck54cWNkckQzRnZJdUtOV2lWckxSd0lhdC1PNWpMdUxkaEJGejc1WUF5MXIxS2NoSjlwb01zS1psa3hHTnQ2X1FTUWhsNU05REFfZU94VC15ZUtSVzVxWVAwR2pBZ01BM09xYm1SaXA4RUo1enExMFpkcVdwQlo2QlNSMnJ2TjFjR3Q2ZGFBLUpDd0o4YjRUZ21qZ3FQUmdTRW5DVnJiQ2ZTR1hjY3BNaV9qd3PSAZoCQVVfeXFMTlRaemJHNUp6cVRWWXBSRzhDcG9zb1l3alR3Ynp3UWRuRWlMVkJEU2c3OTRqT1o2WGFfcGZBTFBNVGZzQnJNQ1RVSGdwdHJRZjZFOFNhTG5lbklmVU01Z1hlWmR0bXFQdGpXM2p0VEdNNlpIQjZncVVPdXpaWnZlN3Y2SnR2bEZRcHNpWm56bFBPNDQ5TUFWYXNPTF9yQUhmMGZ5eGxEY1ZaWTFZNXJkUVJua00yNGM1d3pseDhheU1VYmRiMWVwUlRIRWc1amw4YTJGbEtZUE5xTWh0WWZKbHBSM2MwemZjUld5RDlVeXdyMHgtdkxKUWtVbHlyMnp3U3ROQ2NKampYQUY0UjNTY19PTExyNUc0YXVn?oc=5",
+      "published": "2026-04-18T07:06:00+09:00",
+      "query": "블록체인 은행"
+    },
+    {
       "id": "a53ab85ea99f",
       "title": "홍콩통화청, 은행 중심의 2개 기관에 스테이블코인 라이선스 발급",
       "source": "KDI 경제교육·정보센터",
@@ -137,15 +146,6 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWTZ6WmZrbnJnZ18wbjNXQjV1RzNrV0ZzVUluTHFkNVBiNFVUOTJRNmlvaUZCN0tHZmk2YThtVUdGRWpPOTdfOFhMWG9kMzJDM0ZnbXk2SWp5RWNNY3NxNmJYb0U4YlVUaUJBT2NMOG5lUUtMMzhUdUEwOFRyTl9KZVdiYnF0VGNIMk9uUVVzOWxQMmJrdGpqbERYT0JNdFNlMmc?oc=5",
       "published": "2026-04-18T02:15:26+09:00",
       "query": "스테이블코인 은행"
-    },
-    {
-      "id": "734a12922b4a",
-      "title": "보안체계 다 뚫는 ‘초강력 AI 해커’ 충격 확산…“은행 시스템 위협” 경고",
-      "source": "v.daum.net",
-      "summary": "보안체계 다 뚫는 ‘초강력 AI 해커’ 충격 확산…“은행 시스템 위협” 경고&nbsp;&nbsp;v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LRUtOWWl6QUl3X1RCZVRVV0x3Yzc3MVhHT1B1OS1JZFRvbVQ4N19ZMjhGSEtKUU5PdzZQZW9KeVNzZ29xX1ZPeDduT1pHazA?oc=5",
-      "published": "2026-04-18T01:43:37+09:00",
-      "query": "은행 AI"
     }
   ]
 }
