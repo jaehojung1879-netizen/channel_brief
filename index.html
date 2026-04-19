@@ -924,7 +924,136 @@
     .news-item h4 { font-size: 15px; }
     .issue-item h5 { font-size: 13px; }
   }
+
+  /* ===== Bank logo chips ===== */
+  .bank-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .bank-logo {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #fff;
+    flex-shrink: 0;
+  }
+  .bank-logo.kb { background: #FFBC00; color: #3A2E00; }
+  .bank-logo.shinhan { background: #0046FF; }
+  .bank-logo.hana { background: #008C95; }
+  .bank-logo.woori { background: #0067AC; }
+  .bank-logo.nh { background: #00A738; }
+  .bank-logo.generic { background: var(--accent-dim); }
+
+  /* ===== Trend chart button ===== */
+  .trend-btn {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--ink-dim);
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 7px 12px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .trend-btn:hover {
+    color: var(--accent);
+    border-color: var(--accent-dim);
+    background: var(--bg-elev);
+  }
+  .trend-btn .ic { font-size: 13px; }
+  .trend-btn-row {
+    margin: 6px 0 14px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* ===== Chart modal ===== */
+  .chart-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(8, 12, 18, 0.78);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 24px;
+  }
+  .chart-modal.open { display: flex; }
+  .chart-modal .panel {
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    max-width: 880px;
+    width: 100%;
+    max-height: 86vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .chart-modal .head {
+    padding: 18px 24px 14px;
+    border-bottom: 1px solid var(--line-soft);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  .chart-modal .head h3 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.005em;
+  }
+  .chart-modal .head .sub {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-mute);
+    letter-spacing: 0.12em;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+  .chart-modal .body {
+    padding: 18px 24px 22px;
+    overflow-y: auto;
+    flex: 1;
+  }
+  .chart-modal .canvas-wrap {
+    position: relative;
+    height: 420px;
+    min-height: 320px;
+  }
+  @media (max-width: 720px) {
+    .chart-modal .canvas-wrap { height: 320px; }
+  }
+  .chart-modal .foot-note {
+    margin-top: 12px;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-mute);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
 </head>
 <body>
 
@@ -1003,6 +1132,11 @@
 
       <!-- View: 은행별 -->
       <div id="view-banks">
+        <div class="trend-btn-row">
+          <button class="trend-btn" id="trend-btn-banks" type="button">
+            <span class="ic">📈</span> 5년 시계열 보기
+          </button>
+        </div>
         <div class="branch-legend">
           <span><span class="swatch branches"></span>지점(본점·출장소 外)</span>
           <span><span class="swatch sub"></span>출장소</span>
@@ -1022,6 +1156,11 @@
       <!-- View: 지역별 -->
       <div id="view-regional" class="view-hidden">
         <div class="region-chips" id="region-chips"></div>
+        <div class="trend-btn-row">
+          <button class="trend-btn" id="trend-btn-regional" type="button">
+            <span class="ic">📈</span> 지역 5년 시계열 보기
+          </button>
+        </div>
         <div class="branch-legend">
           <span><span class="swatch branches"></span>해당 지역 내 점포 수 (은행별)</span>
         </div>
@@ -1263,11 +1402,35 @@ function renderBranchStats(data) {
 
   // 합계
   const total = data.total || data.banks.reduce((s, b) => s + (b.count || 0), 0);
-  const totalDelta = data.total_delta_qoq || 0;
+  const totalDelta = (data.total_delta_yoy !== undefined ? data.total_delta_yoy : data.total_delta_qoq) || 0;
   totalEl.textContent = total.toLocaleString();
   const deltaClass = totalDelta < 0 ? 'neg' : (totalDelta > 0 ? 'pos' : 'zero');
   totalDeltaEl.className = `delta chg ${deltaClass}`;
-  totalDeltaEl.textContent = totalDelta === 0 ? '±0' : (totalDelta > 0 ? `+${totalDelta} QoQ` : `${totalDelta} QoQ`);
+  totalDeltaEl.textContent = totalDelta === 0 ? '±0 전년말 대비' : (totalDelta > 0 ? `+${totalDelta} 전년말 대비` : `${totalDelta} 전년말 대비`);
+}
+
+function bankLogoClass(name) {
+  if (!name) return 'generic';
+  if (name.includes('국민') || name.startsWith('KB')) return 'kb';
+  if (name.includes('신한')) return 'shinhan';
+  if (name.includes('하나')) return 'hana';
+  if (name.includes('우리')) return 'woori';
+  if (name.includes('농협') || name.startsWith('NH')) return 'nh';
+  return 'generic';
+}
+function bankLogoLabel(name) {
+  if (!name) return '';
+  if (name.includes('국민') || name.startsWith('KB')) return 'KB';
+  if (name.includes('신한')) return '신한';
+  if (name.includes('하나')) return '하나';
+  if (name.includes('우리')) return '우리';
+  if (name.includes('농협') || name.startsWith('NH')) return 'NH';
+  return name.slice(0, 2);
+}
+function bankLogoHTML(name) {
+  const cls = bankLogoClass(name);
+  const lbl = bankLogoLabel(name);
+  return `<span class="bank-chip"><span class="bank-logo ${cls}">${esc(lbl)}</span>${esc(name)}</span>`;
 }
 
 function renderBranchBanksView(data) {
@@ -1280,12 +1443,12 @@ function renderBranchBanksView(data) {
     const subOff = b.sub_offices || 0;
     const pctBr = (branches / max * 100);
     const pctSub = (subOff / max * 100);
-    const d = b.delta_qoq || 0;
+    const d = (b.delta_yoy !== undefined ? b.delta_yoy : b.delta_qoq) || 0;
     const chgClass = d < 0 ? 'neg' : (d > 0 ? 'pos' : 'zero');
     const chgText = d === 0 ? '0' : (d > 0 ? `+${d}` : `${d}`);
     return `
       <div class="branch-row">
-        <div class="bank">${esc(b.name)}</div>
+        <div class="bank">${bankLogoHTML(b.name)}</div>
         <div class="bar-track" title="지점 ${branches} · 출장소 ${subOff}">
           <div class="bar-seg-branches" style="width:${pctBr.toFixed(1)}%;"></div>
           <div class="bar-seg-sub" style="width:${pctSub.toFixed(1)}%;"></div>
@@ -1294,7 +1457,7 @@ function renderBranchBanksView(data) {
           ${count.toLocaleString()}
           <span class="sub">지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}</span>
         </div>
-        <div class="chg ${chgClass}">${chgText}</div>
+        <div class="chg ${chgClass}" title="전년말 대비">${chgText}</div>
       </div>
     `;
   }).join('');
@@ -1351,7 +1514,7 @@ function renderBranchRegionalRows() {
     const pct = (count / max * 100).toFixed(1);
     return `
       <div class="branch-row">
-        <div class="bank">${esc(b.name)}</div>
+        <div class="bank">${bankLogoHTML(b.name)}</div>
         <div class="bar-track"><div class="bar-seg-branches" style="width:${pct}%;"></div></div>
         <div class="count-cell">${count.toLocaleString()}</div>
         <div class="chg zero">—</div>
@@ -1528,10 +1691,180 @@ document.addEventListener('click', e => {
   if (e.target.matches('[data-close-modal]')) closeArticleModal();
 });
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeArticleModal();
+  if (e.key === 'Escape') { closeArticleModal(); closeTrendModal(); }
 });
 
+// ============== Trend chart modal ==============
+const BANK_COLORS = {
+  'KB국민': '#FFBC00',
+  '신한': '#0046FF',
+  '하나': '#008C95',
+  '우리': '#0067AC',
+  'NH농협': '#00A738',
+};
+
+let _trendChart = null;
+
+function fmtYmLabel(ym) {
+  if (!ym || ym.length !== 6) return ym || '';
+  return ym.slice(0, 4) + '-' + ym.slice(4);
+}
+
+function collectYearEndLabels(banks) {
+  const set = new Set();
+  banks.forEach(b => (b.history || []).forEach(h => {
+    if (h.ym && h.ym.endsWith('12')) set.add(h.ym);
+  }));
+  return Array.from(set).sort();
+}
+
+function openBanksTrend() {
+  if (!_branchData || !_branchData.banks) return;
+  const banks = _branchData.banks;
+  const labels = collectYearEndLabels(banks);
+  if (labels.length === 0) {
+    alert('시계열 데이터가 아직 수집되지 않았습니다.');
+    return;
+  }
+  const datasets = banks.map(b => {
+    const hist = {};
+    (b.history || []).forEach(h => { hist[h.ym] = h.count; });
+    // latest point 보강
+    const last = labels[labels.length - 1];
+    if (last && hist[last] === undefined && _branchData.latest_ym === last) {
+      hist[last] = b.count;
+    }
+    return {
+      label: b.name,
+      data: labels.map(ym => hist[ym] ?? null),
+      borderColor: BANK_COLORS[b.name] || '#d4a24c',
+      backgroundColor: BANK_COLORS[b.name] || '#d4a24c',
+      borderWidth: 2,
+      tension: 0.25,
+      pointRadius: 3,
+      spanGaps: true,
+    };
+  });
+  renderTrend('5대 시중은행 점포 수 추이', '연말 기준 · 단위: 개', labels.map(fmtYmLabel), datasets);
+}
+
+function openRegionalTrend() {
+  if (!_branchData || !_activeRegion) return;
+  const region = (_branchData.regional || []).find(r => r.region === _activeRegion);
+  if (!region || !region.history || region.history.length === 0) {
+    alert('선택한 지역의 시계열 데이터가 없습니다.');
+    return;
+  }
+  const labels = region.history.map(h => fmtYmLabel(h.ym));
+  const bankNames = (region.banks || []).map(b => b.name);
+  const datasets = bankNames.map(name => {
+    const data = region.history.map(h => {
+      const b = (h.banks || []).find(x => x.name === name);
+      return b ? b.count : null;
+    });
+    return {
+      label: name,
+      data,
+      borderColor: BANK_COLORS[name] || '#d4a24c',
+      backgroundColor: BANK_COLORS[name] || '#d4a24c',
+      borderWidth: 2,
+      tension: 0.25,
+      pointRadius: 3,
+      spanGaps: true,
+    };
+  });
+  renderTrend(`${region.region} 지역 점포 수 추이`, '연말 기준 · 단위: 개 · 5대 은행', labels, datasets);
+}
+
+function renderTrend(title, sub, labels, datasets) {
+  document.getElementById('trend-modal-title').textContent = title;
+  document.getElementById('trend-modal-sub').textContent = sub;
+  const canvas = document.getElementById('trend-canvas');
+  const ctx = canvas.getContext('2d');
+  if (_trendChart) { _trendChart.destroy(); _trendChart = null; }
+  if (!window.Chart) {
+    alert('차트 라이브러리를 불러오지 못했습니다. 네트워크를 확인해 주세요.');
+    return;
+  }
+  _trendChart = new Chart(ctx, {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { color: '#c0c6cd', font: { family: 'IBM Plex Sans KR, system-ui', size: 12 }, boxWidth: 12 },
+        },
+        tooltip: {
+          backgroundColor: '#0f1419',
+          borderColor: '#2a3441',
+          borderWidth: 1,
+          titleColor: '#e8e3d8',
+          bodyColor: '#e8e3d8',
+          padding: 10,
+          callbacks: {
+            label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y?.toLocaleString() ?? '—'}`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: { color: '#9ca3a9', font: { family: 'JetBrains Mono, monospace', size: 11 } },
+          grid: { color: '#1f2832' },
+        },
+        y: {
+          ticks: { color: '#9ca3a9', font: { family: 'JetBrains Mono, monospace', size: 11 } },
+          grid: { color: '#1f2832' },
+          beginAtZero: false,
+        },
+      },
+    },
+  });
+  document.getElementById('trend-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeTrendModal() {
+  const m = document.getElementById('trend-modal');
+  if (m) m.classList.remove('open');
+  document.body.style.overflow = '';
+  if (_trendChart) { _trendChart.destroy(); _trendChart = null; }
+}
+
+document.addEventListener('click', e => {
+  const m = document.getElementById('trend-modal');
+  if (!m) return;
+  if (e.target === m) closeTrendModal();
+  if (e.target.matches('[data-close-trend]')) closeTrendModal();
+});
+
+(function attachTrendButtons() {
+  const a = document.getElementById('trend-btn-banks');
+  const b = document.getElementById('trend-btn-regional');
+  if (a) a.addEventListener('click', openBanksTrend);
+  if (b) b.addEventListener('click', openRegionalTrend);
+})();
+
 </script>
+
+<div class="chart-modal" id="trend-modal" aria-hidden="true">
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="trend-modal-title">
+    <div class="head">
+      <div>
+        <h3 id="trend-modal-title">5년 점포 추이</h3>
+        <div class="sub" id="trend-modal-sub">연말 기준 (FISIS)</div>
+      </div>
+      <button class="modal-close" type="button" data-close-trend aria-label="닫기">&times;</button>
+    </div>
+    <div class="body">
+      <div class="canvas-wrap"><canvas id="trend-canvas"></canvas></div>
+      <div class="foot-note" id="trend-foot">SOURCE · FISIS statisticsInfoSearch · TERM=Q · YEAR-END ONLY</div>
+    </div>
+  </div>
+</div>
 
 <div class="modal-backdrop" id="article-modal" aria-hidden="true">
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">

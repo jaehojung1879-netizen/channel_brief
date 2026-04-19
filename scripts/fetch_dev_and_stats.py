@@ -569,8 +569,81 @@ def _fisis_fetch_info(list_no: str, finance_cd: str, months_back: int = 18):
                        endBaseMm=end_ym)
 
 
+def _year_end_yms(latest_ym: str, years: int = 5) -> list:
+    """latest_ym 기준 과거 N년치 연말(yyyy12) 리스트. 예: 202504 기준 5년 → [202012, 202112, 202212, 202312, 202412]."""
+    if not latest_ym or len(latest_ym) != 6:
+        return []
+    y = int(latest_ym[:4])
+    latest_is_ye = latest_ym.endswith("12")
+    end_y = y if latest_is_ye else y - 1
+    return [f"{end_y - i}12" for i in range(years - 1, -1, -1)]
+
+
+def _row_bucket_value(row: dict, prefer_cd: str = "A1") -> tuple:
+    """단일 row에서 (account_cd, value)를 뽑아줌. 총계(A1) 우선."""
+    cd = _fisis_first(row, ["account_cd", "accountCd", "acntCd", "acnt_cd"])
+    val = _fisis_row_value(row)
+    return cd, val
+
+
+def _extract_branch_numbers(rows: list) -> dict:
+    """주어진 row 리스트(한 시점/한 은행)에서 branches/sub_offices/count를 뽑음."""
+    branches = None
+    sub_offices = None
+    sum_total = None
+    by_cd = {}
+    for row in rows:
+        cd = _fisis_first(row, ["account_cd", "accountCd", "acntCd", "acnt_cd"])
+        val = _fisis_row_value(row)
+        if cd and val is not None:
+            by_cd[cd] = val
+    if "A11" in by_cd:
+        branches = by_cd["A11"]
+    if "A12" in by_cd:
+        sub_offices = by_cd["A12"]
+    if "A1" in by_cd:
+        sum_total = by_cd["A1"]
+
+    if branches is None or sub_offices is None:
+        for row in rows:
+            name = _fisis_first(row, [
+                "accountNm", "account_nm", "acntNm", "acnt_nm",
+                "acntName", "itemNm", "item_nm", "itemName", "name",
+            ])
+            val = _fisis_row_value(row)
+            if val is None:
+                continue
+            n = _norm(name)
+            if n in ("국내_지점", "지점", "국내지점"):
+                if branches is None:
+                    branches = val
+            elif n in ("국내_출장소", "출장소", "국내출장소"):
+                if sub_offices is None:
+                    sub_offices = val
+            elif n in ("국내", "점포수", "점포", "총계", "계", "합계"):
+                if sum_total is None:
+                    sum_total = val
+
+    if branches is not None and sub_offices is None and sum_total is not None:
+        delta = sum_total - branches
+        if 0 <= delta <= 200:
+            sub_offices = delta
+    if branches is None and sub_offices is None and sum_total is not None:
+        branches = sum_total
+        sub_offices = 0
+    if branches is None:
+        return {}
+    if sub_offices is None:
+        sub_offices = 0
+    return {
+        "branches": int(branches),
+        "sub_offices": int(sub_offices),
+        "count": int(branches) + int(sub_offices),
+    }
+
+
 def fisis_build_branch_stats(codes: dict):
-    """영업점포현황 → 은행별 {branches, sub_offices, count}."""
+    """영업점포현황 → 은행별 최신값 + 5년 연말 시계열."""
     list_no = codes.get("list_no_branch")
     bank_cds = codes.get("bank_finance_codes") or {}
     if not list_no or len(bank_cds) < 5:
@@ -578,6 +651,7 @@ def fisis_build_branch_stats(codes: dict):
 
     latest_ym_overall = ""
     per_bank = {}
+    per_bank_history = {}  # bank → {ym: count}
 
     for meta in TARGET_BANKS:
         bank = meta["name"]
@@ -585,84 +659,39 @@ def fisis_build_branch_stats(codes: dict):
         if not finance_cd:
             print(f"[fisis] missing financeCd: {bank}")
             continue
-        rows = _fisis_fetch_info(list_no, finance_cd)
+        # 최근 6년치(=72개월) 범위로 확장하여 연말 데이터 5개 이상 확보
+        rows = _fisis_fetch_info(list_no, finance_cd, months_back=72)
         print(f"[fisis] statisticsInfoSearch({bank},{finance_cd}) → {len(rows)} rows")
-        if rows:
-            print(f"[fisis]   row[0] keys: {list(rows[0].keys())}")
-            print(f"[fisis]   row[0] data: {rows[0]}")
-            if len(rows) > 1:
-                print(f"[fisis]   row[1] data: {rows[1]}")
         if not rows:
             print(f"[fisis] no rows for {bank} (listNo={list_no})")
             continue
 
         yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
         if not yms:
-            print(f"[fisis]   {bank} no parseable YM in rows. sample raw: {rows[0]}")
+            print(f"[fisis]   {bank} no parseable YM in rows. sample: {rows[0]}")
             continue
         latest_ym = yms[0]
         if latest_ym > latest_ym_overall:
             latest_ym_overall = latest_ym
+
+        # 최신 시점 값
         latest_rows = [r for r in rows if _fisis_row_ym(r) == latest_ym]
-        print(f"[fisis]   {bank} latest_ym={latest_ym} latest_rows={len(latest_rows)}")
-
-        branches = None
-        sub_offices = None
-        sum_total = None
-        # 1순위: account_cd 기반 정확 매칭 (A1=국내 합계, A11=지점, A12=출장소)
-        by_cd = {}
-        for row in latest_rows:
-            cd = _fisis_first(row, ["account_cd", "accountCd", "acntCd", "acnt_cd"])
-            val = _fisis_row_value(row)
-            if cd and val is not None:
-                by_cd[cd] = val
-        if "A11" in by_cd:
-            branches = by_cd["A11"]
-        if "A12" in by_cd:
-            sub_offices = by_cd["A12"]
-        if "A1" in by_cd:
-            sum_total = by_cd["A1"]
-
-        # 2순위: 이름 기반 (account_cd 없거나 매칭 실패 시)
-        if branches is None or sub_offices is None:
-            for row in latest_rows:
-                name = _fisis_first(row, [
-                    "accountNm", "account_nm", "acntNm", "acnt_nm",
-                    "acntName", "itemNm", "item_nm", "itemName", "name",
-                ])
-                val = _fisis_row_value(row)
-                if val is None:
-                    continue
-                n = _norm(name)
-                if n in ("국내_지점", "지점", "국내지점"):
-                    if branches is None:
-                        branches = val
-                elif n in ("국내_출장소", "출장소", "국내출장소"):
-                    if sub_offices is None:
-                        sub_offices = val
-                elif n in ("국내", "점포수", "점포", "총계", "계", "합계"):
-                    if sum_total is None:
-                        sum_total = val
-
-        # 보정: 지점만 있고 출장소가 없을 때 총계 - 지점으로 역산
-        if branches is not None and sub_offices is None and sum_total is not None:
-            delta = sum_total - branches
-            if 0 <= delta <= 200:
-                sub_offices = delta
-        # 보정: 지점·출장소가 없고 총계만 있으면 그걸 전체로
-        if branches is None and sub_offices is None and sum_total is not None:
-            branches = sum_total
-            sub_offices = 0
-        if branches is None:
+        latest_vals = _extract_branch_numbers(latest_rows)
+        if not latest_vals:
             continue
-        if sub_offices is None:
-            sub_offices = 0
+        per_bank[bank] = latest_vals
 
-        per_bank[bank] = {
-            "branches": int(branches),
-            "sub_offices": int(sub_offices),
-            "count": int(branches) + int(sub_offices),
-        }
+        # 연말 시계열 (yyyy12만 필터)
+        history = {}
+        for ym in yms:
+            if not ym.endswith("12"):
+                continue
+            period_rows = [r for r in rows if _fisis_row_ym(r) == ym]
+            vals = _extract_branch_numbers(period_rows)
+            if vals:
+                history[ym] = vals["count"]
+        per_bank_history[bank] = history
+        print(f"[fisis]   {bank} latest={latest_vals['count']} history_points={len(history)}")
         time.sleep(0.3)
 
     if len(per_bank) < 5:
@@ -673,7 +702,12 @@ def fisis_build_branch_stats(codes: dict):
         rec = per_bank.get(meta["name"])
         if not rec:
             return None
-        banks.append({"name": meta["name"], **rec})
+        hist = per_bank_history.get(meta["name"], {})
+        banks.append({
+            "name": meta["name"],
+            **rec,
+            "history": [{"ym": ym, "count": hist[ym]} for ym in sorted(hist.keys())],
+        })
 
     if not all(100 <= b["count"] <= 3000 for b in banks):
         print(f"[fisis] branch count out of range: {[b['count'] for b in banks]}")
@@ -687,13 +721,14 @@ def fisis_build_branch_stats(codes: dict):
 
 
 def fisis_build_regional_stats(codes: dict):
-    """지역별 점포 현황 → [{region, banks:[{name,count}]}]."""
+    """지역별 점포 현황 → [{region, banks, history:[{ym, banks:[{name,count}]}]}]."""
     list_no = codes.get("list_no_regional")
     bank_cds = codes.get("bank_finance_codes") or {}
     if not list_no or len(bank_cds) < 5:
         return None
 
-    region_map = {}
+    # region → {ym → {bank → count}}
+    region_ym_bank = {}
     latest_ym_overall = ""
 
     for meta in TARGET_BANKS:
@@ -701,7 +736,7 @@ def fisis_build_regional_stats(codes: dict):
         finance_cd = bank_cds.get(bank)
         if not finance_cd:
             continue
-        rows = _fisis_fetch_info(list_no, finance_cd, months_back=9)
+        rows = _fisis_fetch_info(list_no, finance_cd, months_back=72)
         if not rows:
             continue
         yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
@@ -710,9 +745,13 @@ def fisis_build_regional_stats(codes: dict):
         latest_ym = yms[0]
         if latest_ym > latest_ym_overall:
             latest_ym_overall = latest_ym
-        latest_rows = [r for r in rows if _fisis_row_ym(r) == latest_ym]
+        # 최신 + 연말 시계열
+        target_yms = {latest_ym} | {ym for ym in yms if ym.endswith("12")}
 
-        for row in latest_rows:
+        for row in rows:
+            ym = _fisis_row_ym(row)
+            if ym not in target_yms:
+                continue
             region = _fisis_first(row, [
                 "region", "regionNm", "area", "areaNm",
                 "siNm", "sidoNm", "zoneNm", "zoneName",
@@ -725,10 +764,10 @@ def fisis_build_regional_stats(codes: dict):
             val = _fisis_row_value(row)
             if val is None:
                 continue
-            region_map.setdefault(region, {})[bank] = int(val)
+            region_ym_bank.setdefault(region, {}).setdefault(ym, {})[bank] = int(val)
         time.sleep(0.3)
 
-    if not region_map:
+    if not region_ym_bank:
         return None
 
     def sort_key(nm):
@@ -738,11 +777,19 @@ def fisis_build_regional_stats(codes: dict):
         return 999
 
     regional = []
-    for region, bank_dict in sorted(region_map.items(), key=lambda x: sort_key(x[0])):
-        banks = [{"name": m["name"], "count": int(bank_dict.get(m["name"], 0))} for m in TARGET_BANKS]
-        if sum(b["count"] for b in banks) == 0:
+    for region, ym_map in sorted(region_ym_bank.items(), key=lambda x: sort_key(x[0])):
+        latest = ym_map.get(latest_ym_overall, {})
+        latest_banks = [{"name": m["name"], "count": int(latest.get(m["name"], 0))} for m in TARGET_BANKS]
+        if sum(b["count"] for b in latest_banks) == 0:
             continue
-        regional.append({"region": region, "banks": banks})
+        history = []
+        for ym in sorted(k for k in ym_map.keys() if k.endswith("12")):
+            per = ym_map[ym]
+            history.append({
+                "ym": ym,
+                "banks": [{"name": m["name"], "count": int(per.get(m["name"], 0))} for m in TARGET_BANKS],
+            })
+        regional.append({"region": region, "banks": latest_banks, "history": history})
 
     if not regional:
         return None
@@ -758,6 +805,7 @@ def fetch_branch_stats_from_fisis():
     regional_data = fisis_build_regional_stats(codes)
     return {
         "as_of": branch["as_of"],
+        "latest_ym": branch.get("latest_ym", ""),
         "source": "금융통계정보시스템(FISIS) · 국내은행 영업점포현황",
         "source_url": f"{FISIS_BASE}/statisticsInfoSearch.json",
         "banks": branch["banks"],
@@ -891,33 +939,55 @@ def main():
     )
     print(f"[dev] saved {len(dev_items)} items")
 
-    prev = load_previous_stats()
-    prev_map = {b.get("name"): b.get("count", 0) for b in prev.get("banks", [])}
+    # 전년말 대비 = 최신 YM의 직전 연말 값 비교
+    def _prev_year_end_count(history: list, latest_ym: str) -> int:
+        if not history:
+            return 0
+        latest_y = int(latest_ym[:4]) if latest_ym and len(latest_ym) >= 4 else 0
+        latest_is_ye = bool(latest_ym and latest_ym.endswith("12"))
+        target_y = (latest_y - 1) if latest_is_ye else (latest_y - 1)
+        target_ym = f"{target_y}12"
+        for h in history:
+            if h.get("ym") == target_ym:
+                return int(h.get("count", 0))
+        # 없으면 latest 직전 시점 사용
+        ye_points = [h for h in history if h.get("ym", "").endswith("12") and h.get("ym") < (latest_ym or "")]
+        if ye_points:
+            return int(ye_points[-1].get("count", 0))
+        return 0
 
+    latest_ym_str = stats.get("latest_ym", "") or ""
     banks_out = []
     for b in stats.get("banks", []):
-        old = prev_map.get(b["name"])
-        delta_qoq = (b["count"] - old) if isinstance(old, int) else 0
+        history = b.get("history", [])
+        prev_ye = _prev_year_end_count(history, latest_ym_str)
+        delta_yoy = (b["count"] - prev_ye) if prev_ye else 0
         banks_out.append({
             "name": b["name"],
             "count": b["count"],
             "branches": int(b.get("branches", b["count"])),
             "sub_offices": int(b.get("sub_offices", 0)),
-            "delta_qoq": delta_qoq,
+            "delta_yoy": delta_yoy,
+            "delta_qoq": delta_yoy,  # 하위 호환 (legacy UI key)
+            "prev_year_end_count": prev_ye,
+            "history": history,
         })
 
     total = sum(x["count"] for x in banks_out)
-    total_prev = sum(prev_map.get(x["name"], x["count"]) for x in banks_out)
+    total_prev_ye = sum(x["prev_year_end_count"] for x in banks_out)
+    total_delta_yoy = total - total_prev_ye if total_prev_ye else 0
 
     stats_output = {
         "updated_at": datetime.now(KST).isoformat(),
         "as_of": stats.get("as_of"),
+        "latest_ym": latest_ym_str,
         "source": stats.get("source"),
         "source_url": stats.get("source_url", ""),
         "is_fallback": bool(stats.get("is_fallback", False)),
         "banks": banks_out,
         "total": total,
-        "total_delta_qoq": total - total_prev,
+        "total_delta_yoy": total_delta_yoy,
+        "total_delta_qoq": total_delta_yoy,  # 하위 호환
         "regional": stats.get("regional", []),
     }
     (DATA_DIR / "branch_stats.json").write_text(
