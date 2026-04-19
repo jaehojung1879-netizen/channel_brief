@@ -1,15 +1,6 @@
 {
-  "updated_at": "2026-04-19T14:14:09.274408+09:00",
+  "updated_at": "2026-04-19T14:56:21.385172+09:00",
   "social_finance": [
-    {
-      "id": "9a23174e3dad",
-      "title": "하나금융그룹, 미래 꿈나무의 눈높이에 맞춘 「유아 ESG 금융교육」 실시!!",
-      "source": "파이낸셜리더스",
-      "summary": "하나금융그룹, 미래 꿈나무의 눈높이에 맞춘 「유아 ESG 금융교육」 실시!!&nbsp;&nbsp;파이낸셜리더스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFaF9WRjVGTnBZX1ZvcUtnQXhKZXFMS2dRdy1mTi1CcDBHM0Ricm8tSjA1LWFqdzhHQXctYkFCVHhkdHd2OTNxcGF2OU1taVNjZkJHYUpwMXdpa2oxdkNHN0FKVFhQZlRLWVE?oc=5",
-      "published": "2026-04-19T09:02:49+09:00",
-      "query": "금융접근성"
-    },
     {
       "id": "86f59f21838d",
       "title": "청년들 담는 '포용금융'...은행권, 청년자립·주거·재기지원 '가속'",
@@ -72,6 +63,15 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkWFJFdHU3cmdoSE0xNVFLVkpSblNxQXJtZW9VdUppdjcwd2daYTFPV3JqTFFvYWFIaTVPSEZ4cUVQTWxJVHJkRFpiWW5wQTNYUTdlNzhvSVNzZTd0S3lUWEc5THU3VGxHcy1Rajc5RTLSAXRBVV95cUxPUTd4NDZDcHJza2NoYkJLRnJMQS1CTTVzLUZWRkppOFRYQi1ZSkhzeUtua0dyX0pKOWY5dU5OVWxudURFWkE0NG92X3FtXzMxZHZodVdFVWhyMTg2Zm90ODBxS2NzZDkxY2NlT2FhVGIzR1BtWg?oc=5",
       "published": "2026-04-17T04:00:00+09:00",
       "query": "포용금융"
+    },
+    {
+      "id": "3007f111dad1",
+      "title": "남해군·경남신용보증재단, 소상공인 금융지원 협력 강화",
+      "source": "경남일보",
+      "summary": "남해군·경남신용보증재단, 소상공인 금융지원 협력 강화&nbsp;&nbsp;경남일보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9meHpKMnJmR0RaTC1oZTJCYm5vZktyc1lmbVVkeFFndS1UOWw0MjExekNaTXBXZGxTQk9IVlhOcEV6dHdaVmhVZ09MZUNQTnlFZE42WU1fZnc0akhteXM5NUtDTjdpVThyYUhZ?oc=5",
+      "published": "2026-04-16T18:35:52+09:00",
+      "query": "소상공인 금융지원"
     }
   ],
   "tech": [
