@@ -394,7 +394,11 @@ def _fisis_first(row: dict, keys):
 
 
 def _fisis_row_ym(row: dict):
-    v = _fisis_first(row, ["baseYm", "basYm", "baseMm", "base_mm", "baseYymm", "period"])
+    v = _fisis_first(row, [
+        "baseYm", "base_ym", "basYm", "bas_ym",
+        "baseMm", "base_mm", "baseYymm", "base_yymm",
+        "period", "stat_ym", "stnd_ym",
+    ])
     if re.fullmatch(r"\d{6}", v):
         return v
     txt = " ".join(str(x) for x in row.values())
@@ -403,7 +407,10 @@ def _fisis_row_ym(row: dict):
 
 
 def _fisis_row_value(row: dict):
-    val = _fisis_first(row, ["dataValue", "value", "val", "resultVal", "amt", "cnt", "count"])
+    val = _fisis_first(row, [
+        "dataValue", "data_value", "value", "val", "resultVal", "result_val",
+        "amt", "cnt", "count", "num", "qty",
+    ])
     n = _extract_int(val)
     if n is not None:
         return n
@@ -576,23 +583,34 @@ def fisis_build_branch_stats(codes: dict):
             print(f"[fisis] missing financeCd: {bank}")
             continue
         rows = _fisis_fetch_info(list_no, finance_cd)
+        print(f"[fisis] statisticsInfoSearch({bank},{finance_cd}) → {len(rows)} rows")
+        if rows:
+            print(f"[fisis]   row[0] keys: {list(rows[0].keys())}")
+            print(f"[fisis]   row[0] data: {rows[0]}")
+            if len(rows) > 1:
+                print(f"[fisis]   row[1] data: {rows[1]}")
         if not rows:
             print(f"[fisis] no rows for {bank} (listNo={list_no})")
             continue
 
         yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
         if not yms:
+            print(f"[fisis]   {bank} no parseable YM in rows. sample raw: {rows[0]}")
             continue
         latest_ym = yms[0]
         if latest_ym > latest_ym_overall:
             latest_ym_overall = latest_ym
         latest_rows = [r for r in rows if _fisis_row_ym(r) == latest_ym]
+        print(f"[fisis]   {bank} latest_ym={latest_ym} latest_rows={len(latest_rows)}")
 
         branches = None
         sub_offices = None
         sum_total = None
         for row in latest_rows:
-            name = _fisis_first(row, ["accountNm", "acntNm", "acntName", "itemNm", "itemName", "name"])
+            name = _fisis_first(row, [
+                "accountNm", "account_nm", "acntNm", "acnt_nm",
+                "acntName", "itemNm", "item_nm", "itemName", "name",
+            ])
             val = _fisis_row_value(row)
             if val is None:
                 continue
