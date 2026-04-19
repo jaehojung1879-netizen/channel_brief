@@ -48,11 +48,10 @@ KFB_BRANCH_URL_CANDIDATES = [
 ]
 
 TARGET_BANKS = [
-    {"name": "KB국민", "aliases": ["kb국민은행", "kb국민", "국민은행", "kookmin"]},
     {"name": "신한", "aliases": ["신한은행", "신한", "shinhan"]},
+    {"name": "KB국민", "aliases": ["kb국민은행", "kb국민", "국민은행", "kookmin"]},
     {"name": "하나", "aliases": ["하나은행", "keb하나", "하나", "hana"]},
     {"name": "우리", "aliases": ["우리은행", "우리", "woori"]},
-    {"name": "NH농협", "aliases": ["nh농협은행", "농협은행", "nh농협", "농협", "nonghyup"]},
 ]
 
 REGION_ORDER = [
@@ -425,7 +424,7 @@ def _fisis_row_value(row: dict):
 
 
 def fisis_find_bank_finance_codes():
-    """companySearch(partDiv=A) → 5대 은행 financeCd 매핑."""
+    """companySearch(partDiv=A) → 대상 은행 financeCd 매핑."""
     rows = _fisis_call("companySearch", partDiv=FISIS_PART_DIV_DOMESTIC_BANK)
     print(f"[fisis] companySearch returned {len(rows)} rows")
     if rows:
@@ -555,7 +554,7 @@ def fisis_discover_codes():
     return codes
 
 
-def _fisis_fetch_info(list_no: str, finance_cd: str, months_back: int = 18):
+def _fisis_fetch_info(list_no: str, finance_cd: str = "", months_back: int = 18):
     """statisticsInfoSearch 호출. 최근 months_back 개월 범위의 분기 데이터."""
     now = datetime.now(KST)
     end_ym = now.strftime("%Y%m")
@@ -646,7 +645,7 @@ def fisis_build_branch_stats(codes: dict):
     """영업점포현황 → 은행별 최신값 + 5년 연말 시계열."""
     list_no = codes.get("list_no_branch")
     bank_cds = codes.get("bank_finance_codes") or {}
-    if not list_no or len(bank_cds) < 5:
+    if not list_no or len(bank_cds) < len(TARGET_BANKS):
         return None
 
     latest_ym_overall = ""
@@ -694,7 +693,7 @@ def fisis_build_branch_stats(codes: dict):
         print(f"[fisis]   {bank} latest={latest_vals['count']} history_points={len(history)}")
         time.sleep(0.3)
 
-    if len(per_bank) < 5:
+    if len(per_bank) < len(TARGET_BANKS):
         return None
 
     banks = []
@@ -724,7 +723,7 @@ def fisis_build_regional_stats(codes: dict):
     """지역별 점포 현황 → [{region, banks, history:[{ym, banks:[{name,count}]}]}]."""
     list_no = codes.get("list_no_regional")
     bank_cds = codes.get("bank_finance_codes") or {}
-    if not list_no or len(bank_cds) < 5:
+    if not list_no or len(bank_cds) < len(TARGET_BANKS):
         return None
 
     # region → {ym → {bank → count}}
@@ -766,6 +765,29 @@ def fisis_build_regional_stats(codes: dict):
                 continue
             region_ym_bank.setdefault(region, {}).setdefault(ym, {})[bank] = int(val)
         time.sleep(0.3)
+
+    if not region_ym_bank:
+        # 통계표 구조에 따라 financeCd 없이 전체 은행이 내려오는 경우 fallback 파싱
+        rows = _fisis_fetch_info(list_no, finance_cd="", months_back=72)
+        for row in rows:
+            ym = _fisis_row_ym(row)
+            if not ym:
+                continue
+            bank_nm_raw = _fisis_first(row, ["financeNm", "finance_nm", "companyNm", "cmpyNm", "bankNm", "kor_co_nm", "name"])
+            bank = _map_bank_name(bank_nm_raw)
+            if not bank:
+                continue
+            region = _fisis_first(row, [
+                "region", "regionNm", "area", "areaNm", "sidoNm", "sigunguNm",
+                "siNm", "guNm", "zoneNm", "zoneName", "localNm", "local_nm",
+                "itemNm", "item_nm", "clsNm",
+            ])
+            if not region or region in ("합계", "소계", "총계", "계", "전국", "전 국", "total"):
+                continue
+            val = _fisis_row_value(row)
+            if val is None:
+                continue
+            region_ym_bank.setdefault(region, {}).setdefault(ym, {})[bank] = int(val)
 
     if not region_ym_bank:
         return None
@@ -992,6 +1014,20 @@ def main():
     }
     (DATA_DIR / "branch_stats.json").write_text(
         json.dumps(stats_output, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    (DATA_DIR / "fisis_regional.json").write_text(
+        json.dumps(
+            {
+                "updated_at": stats_output["updated_at"],
+                "as_of": stats_output["as_of"],
+                "latest_ym": stats_output.get("latest_ym", ""),
+                "regional": stats_output.get("regional", []),
+                "source": stats_output.get("source", ""),
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
     )
     print(f"[stats] saved: as_of={stats.get('as_of')} fallback={stats_output['is_fallback']} regional_n={len(stats_output['regional'])}")
 
