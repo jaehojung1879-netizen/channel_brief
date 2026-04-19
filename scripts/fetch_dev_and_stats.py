@@ -645,51 +645,37 @@ def fisis_discover_codes():
     return codes
 
 
-def _ym_add_months(ym: str, delta_months: int) -> str:
-    if not ym or not re.fullmatch(r"\d{6}", ym):
-        return ""
-    y = int(ym[:4])
-    m = int(ym[4:6])
-    serial = y * 12 + (m - 1) + delta_months
-    ny = serial // 12
-    nm = (serial % 12) + 1
-    return f"{ny:04d}{nm:02d}"
-
-
-def _half_year_yms(latest_ym: str, years: int = 5) -> list:
-    """latest_ym 기준, 6개월 간격 최근 N년 시계열. 예: 202606 기준 5년 → [202106, 202112, ..., 202606]."""
-    if not latest_ym or not re.fullmatch(r"\d{6}", latest_ym):
-        return []
-    first = _ym_add_months(latest_ym, -(years * 12))
-    if not first:
-        return []
-    yms = []
-    cur = first
-    while cur <= latest_ym:
-        yms.append(cur)
-        cur = _ym_add_months(cur, 6)
-    return yms
-
-
-def _fisis_fetch_info(list_no: str, finance_cd: str = "", months_back: int = 72, account_cd: str = ""):
-    """statisticsInfoSearch 호출. 최근 months_back 개월 범위 데이터(분기 우선, 월 fallback)."""
+def _fisis_fetch_info(list_no: str, finance_cd: str = "", months_back: int = 18):
+    """statisticsInfoSearch 호출. 최근 months_back 개월 범위의 분기 데이터."""
     now = datetime.now(KST)
     end_ym = now.strftime("%Y%m")
     start_dt = (now.replace(day=1) - timedelta(days=months_back * 31))
     start_ym = start_dt.strftime("%Y%m")
-    params = {
-        "financeCd": finance_cd,
-        "listNo": list_no,
-        "startBaseMm": start_ym,
-        "endBaseMm": end_ym,
-    }
-    if account_cd:
-        params["accountCd"] = account_cd
-    rows = _fisis_call("statisticsInfoSearch", term="Q", **params)
+    rows = _fisis_call("statisticsInfoSearch",
+                       financeCd=finance_cd,
+                       listNo=list_no,
+                       term="Q",
+                       startBaseMm=start_ym,
+                       endBaseMm=end_ym)
     if rows:
         return rows
     # 일부 통계표는 월 단위(term=M)만 응답
-    return _fisis_call("statisticsInfoSearch", term="M", **params)
+    return _fisis_call("statisticsInfoSearch",
+                       financeCd=finance_cd,
+                       listNo=list_no,
+                       term="M",
+                       startBaseMm=start_ym,
+                       endBaseMm=end_ym)
+
+
+def _year_end_yms(latest_ym: str, years: int = 5) -> list:
+    """latest_ym 기준 과거 N년치 연말(yyyy12) 리스트. 예: 202504 기준 5년 → [202012, 202112, 202212, 202312, 202412]."""
+    if not latest_ym or len(latest_ym) != 6:
+        return []
+    y = int(latest_ym[:4])
+    latest_is_ye = latest_ym.endswith("12")
+    end_y = y if latest_is_ye else y - 1
+    return [f"{end_y - i}12" for i in range(years - 1, -1, -1)]
 
 
 def _row_bucket_value(row: dict, prefer_cd: str = "A1") -> tuple:
@@ -912,14 +898,10 @@ def fisis_build_regional_stats(codes: dict):
             ym = _fisis_row_ym(row)
             if not ym:
                 continue
-            if ym > latest_ym_overall:
-                latest_ym_overall = ym
-            bank_nm_raw = _fisis_first(row, ["financeNm", "finance_nm", "companyNm", "cmpyNm", "bankNm", "kor_co_nm", "name"])
-            bank = _map_bank_name(bank_nm_raw)
-            if not bank:
-                continue
             region = _resolve_region_name(row)
-            if not region or region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
+            if not region:
+                continue
+            if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
                 continue
             val = _fisis_row_value(row)
             if val is None:
@@ -954,6 +936,25 @@ def fisis_build_regional_stats(codes: dict):
                 continue
             rec = region_ym_bank.setdefault(region, {}).setdefault(ym, {}).setdefault(bank, {"count": 0, "branches": 0, "sub_offices": 0})
             rec["sub_offices"] = max(rec["sub_offices"], int(val))
+
+    if not region_ym_bank:
+        # 통계표 구조에 따라 financeCd 없이 전체 은행이 내려오는 경우 fallback 파싱
+        rows = _fisis_fetch_info(list_no, finance_cd="", months_back=72)
+        for row in rows:
+            ym = _fisis_row_ym(row)
+            if not ym:
+                continue
+            bank_nm_raw = _fisis_first(row, ["financeNm", "finance_nm", "companyNm", "cmpyNm", "bankNm", "kor_co_nm", "name"])
+            bank = _map_bank_name(bank_nm_raw)
+            if not bank:
+                continue
+            region = _resolve_region_name(row)
+            if not region or region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
+                continue
+            val = _fisis_row_value(row)
+            if val is None:
+                continue
+            region_ym_bank.setdefault(region, {}).setdefault(ym, {})[bank] = int(val)
 
     if not region_ym_bank:
         return None

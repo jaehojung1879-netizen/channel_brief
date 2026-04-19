@@ -1931,7 +1931,7 @@ function openBanksTrend() {
       spanGaps: true,
     };
   });
-  renderTrend('4대 시중은행 점포 수 추이', '최근 기준월로부터 5년 · 6개월 단위 · 단위: 개', labels.map(fmtYmLabel), datasets);
+  renderTrend('4대 시중은행 점포 수 추이', '연말 기준 · 단위: 개', labels.map(fmtYmLabel), datasets);
 }
 
 function openRegionalTrend() {
@@ -1961,7 +1961,7 @@ function openRegionalTrend() {
       spanGaps: true,
     };
   });
-  renderTrend(`${region.region} 지역 점포 수 추이`, '최근 기준월로부터 5년 · 6개월 단위 · 단위: 개 · 4대 은행', labels, datasets);
+  renderTrend(`${region.region} 지역 점포 수 추이`, '연말 기준 · 단위: 개 · 4대 은행', labels, datasets);
 }
 
 function renderTrend(title, sub, labels, datasets) {
@@ -1981,9 +1981,38 @@ function renderTrend(title, sub, labels, datasets) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      animation: { duration: 1350, easing: 'easeOutCubic' },
+      animation: {
+        onComplete: () => { _trendDelayed = true; },
+      },
       animations: {
-        colors: { duration: 300 },
+        x: {
+          type: 'number',
+          easing: 'linear',
+          duration: 420,
+          from: NaN,
+          delay(c) {
+            if (c.type !== 'data' || c.xStarted || _trendDelayed) return 0;
+            c.xStarted = true;
+            return c.index * 110;
+          },
+        },
+        y: {
+          type: 'number',
+          easing: 'linear',
+          duration: 420,
+          from(c) {
+            if (c.index === 0) {
+              return c.chart.scales.y.getPixelForValue(c.chart.scales.y.min);
+            }
+            const prev = c.chart.getDatasetMeta(c.datasetIndex).data[c.index - 1];
+            return prev ? prev.getProps(['y'], true).y : c.chart.scales.y.getPixelForValue(c.chart.scales.y.min);
+          },
+          delay(c) {
+            if (c.type !== 'data' || c.yStarted || _trendDelayed) return 0;
+            c.yStarted = true;
+            return c.index * 110;
+          },
+        },
       },
       interaction: { mode: 'index', intersect: false },
       plugins: {
