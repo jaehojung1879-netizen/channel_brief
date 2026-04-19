@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-19T07:56:38.496514+09:00",
+  "updated_at": "2026-04-19T12:34:16.847515+09:00",
   "headline": {
-    "id": "3e6fa8b00f93",
-    "title": "결제 혁신 실험장 된 편의점···은행과 '예금 토큰' 확산 승부수",
-    "source": "서울파이낸스",
-    "summary": "결제 혁신 실험장 된 편의점···은행과 '예금 토큰' 확산 승부수 서울파이낸스",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GOTdVQk1tTG91cEprcXVlMUNpUVJqYlVLdlo3N09SRnhPY2c3NXY1eklJTEVlUndtQXRSQ3ltWHFTc09zSGtCYVUteWc0NjZNak42a0RZUWs0dXRCT3BQU19FdW9reUlWcHc?oc=5",
-    "published": "2026-04-16T12:00:00+09:00",
+    "id": "243cbde3022f",
+    "title": "“편의점 결제부터 국고금 집행까지”…은행권, 예금토큰 실전 배치 속도",
+    "source": "브릿지경제",
+    "summary": "“편의점 결제부터 국고금 집행까지”…은행권, 예금토큰 실전 배치 속도 브릿지경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CLVIxRmk1S1kxWXEtT1p5US1qSG9tSDE0c1YzM1FZZ09CaG03N2lQZ2w2MGUyZ1RUZkhTd3E2c3ZTU0tTY09uZU5HWTVFTnM5ZnNJZlFaS1ptUQ?oc=5",
+    "published": "2026-04-16T13:34:00+09:00",
     "query": "편의점 은행",
-    "_score": 8.0
+    "_score": 6.0
   },
   "categories": {
     "branch_news": [
@@ -47,45 +47,8 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TVGJrYlBXSkNlbHM5QlpUVE9lckJ6Z2dyVWczOWxIQWRzODZnU1h4WllFM09STVlhR3lINGlmQ2Y2RDBaZW1lak9Sb2RFeFVrdW9CeE5teG5sX2tiOGd4a01zVlBJZktjcDUzMtIBb0FVX3lxTE5pSVVfclp1SlhfMXludEhsTS1DZGxUWWVJOVJaRzVhSTQ5QWxnVVUzS1AxTVFnNWpwdEd2ckRFaW5HVjhHZUt4eGEzN21DdFgyRklQc2F6ZGdfT2w3eE1sc3ZObkFxV2dqWGpnS1hQYw?oc=5",
         "published": "2026-04-16T13:30:00+09:00",
         "query": "은행 영업점"
-      },
-      {
-        "id": "cf34acf63b50",
-        "title": "\"사라진 점포, 돌아온 베테랑\"…은행권 인력판 다시 짠다",
-        "source": "네이트",
-        "summary": "\"사라진 점포, 돌아온 베테랑\"…은행권 인력판 다시 짠다 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01SHZJeUVUekR6Y3hVUks5NjgwckxGdzhVakpRbWw3ei1FMHFYM1NMbzMzUjRic2RTM1FYYnVOaVgyNVdwak81aWJzNWJEeENBNEF3?oc=5",
-        "published": "2026-04-16T13:06:00+09:00",
-        "query": "은행 점포"
-      },
-      {
-        "id": "3e6fa8b00f93",
-        "title": "결제 혁신 실험장 된 편의점···은행과 '예금 토큰' 확산 승부수",
-        "source": "서울파이낸스",
-        "summary": "결제 혁신 실험장 된 편의점···은행과 '예금 토큰' 확산 승부수 서울파이낸스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GOTdVQk1tTG91cEprcXVlMUNpUVJqYlVLdlo3N09SRnhPY2c3NXY1eklJTEVlUndtQXRSQ3ltWHFTc09zSGtCYVUteWc0NjZNak42a0RZUWs0dXRCT3BQU19FdW9reUlWcHc?oc=5",
-        "published": "2026-04-16T12:00:00+09:00",
-        "query": "편의점 은행"
-      },
-      {
-        "id": "3f121f9c05bc",
-        "title": "[로펌라운지] 광장, 정보보호·디지털금융 전문가 정세진 변호사 영입",
-        "source": "아주경제",
-        "summary": "[로펌라운지] 광장, 정보보호·디지털금융 전문가 정세진 변호사 영입 아주경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13QlpXby1LTGdrVnVvX0ZreE10Nkk2N0lucVltZ1hnaFdmcU4yZmk3NVRuTWo3R0QwYjZRbHgwTUtEa1NoQ1F6TVFZS2pIWU9WdVh6TFIxSmN4QdIBWEFVX3lxTE5WSzR1S05zRDk3UktEUWdCb2pURzM2ZjkxdWxBTmJqWXNWX3gxT3d5Y2V4aUR5Rk1pVXZLa3AyVVVpUVp2YmNjNUVGNFo3ZWVmdmNTczh0VF8?oc=5",
-        "published": "2026-04-16T09:35:10+09:00",
-        "query": "디지털 라운지"
       }
     ],
-    "policy_news": [
-      {
-        "id": "5a1b4a1a93ed",
-        "title": "ATM 수수료 사전 고지, 임산부 배지... 불만을 노래하던 사람들이 만든 변화",
-        "source": "오마이뉴스",
-        "summary": "ATM 수수료 사전 고지, 임산부 배지... 불만을 노래하던 사람들이 만든 변화 오마이뉴스",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBiWWw1aS1wbVJEa3laM2I0R3pISExWdWhtUXFQME41dVF6bnNDOHpaNkVNNjFzTWZzZ2NXY3lBRGN1b3NETGE2VmI1NVREdDE5SWtvNm9HZ3NfdURjMURPSVhfSTNnRXJtOC1LN3FBMnBOdGVvdS00?oc=5",
-        "published": "2026-04-16T10:26:00+09:00",
-        "query": "ATM 수수료"
-      }
-    ]
+    "policy_news": []
   }
 }

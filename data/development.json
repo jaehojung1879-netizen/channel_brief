@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-19T07:57:03.132847+09:00",
+  "updated_at": "2026-04-19T12:34:37.430839+09:00",
   "items": [
     {
       "id": "789d8a3196d2",
       "title": "[다시, 울산을 짓다] 울산동구 도시재생사업 살펴보기(5): 서부동 도시재생사업(1)",
       "source": "울산저널i",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CU1RfZ0pja1ZZRkg1eWlzMjRrQ1Q4bEJBUHltbmhYZU4wU0FfazZ4dG1GbWZib09MOFVjTG01Z2VMUmwza1poRXdNeFRQQXhyZFR0U3RjOGtVN2FuWlFIWWF5dy1xZnlFYUI5ZFdKUFpIQ28?oc=5",
-      "published": "2026-04-18T00:00:57+09:00",
+      "published": "2026-04-18T00:00:03+09:00",
       "date": "2026-04-18",
       "query": "도시재생 활성화계획"
     },
@@ -56,11 +56,11 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "1de3b829c4f6",
+      "id": "ac47211d6151",
       "title": "서울시, 중랑구 중화2동 도시재생활성화계획 변경안 도시계획위원회 재생분과위원회 심의 '수정가결'",
-      "source": "경기뉴스원",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBNbGl2U0ZZSExuZkZmT2hzUFYwZHZTaEcza2xLNGNjakJQcHhSNEpNa2IzNEhzSHFhZFpwLTJuMzIzeGZpX2RlOG0tSUQzRDNldVFFUm13UDZhRjFzaF9TdkQwVQ?oc=5",
-      "published": "2026-04-16T13:10:06+09:00",
+      "source": "더 데일리가드",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jbXBaQU5BU21SdGsyWnUwbDdOdnUxOHpodmdDczdPQTY0VTRvQkRGdGl0dGg1dWR6T0dqMGhndm8tQXZiQ2ZjcHJpQkhBQkZrQUUwZGFLS1prNENjMDRpMks5QnVONG05RnljOTc5c3hSX2Ex0gF0QVVfeXFMTmNtcFpBTkFTbVJ0azJadTBsN052dTE4emh2Z0NzN09BNjRVNG9CREZ0aXR0aDV1ZHpPR2owaGd2by1BdmJDZmNwcmlCSEFCRmtBRTBkYUtLWms0Q2MwNGkySzlCdU40bTlGeWM5NzlzeFJfYTE?oc=5",
+      "published": "2026-04-16T16:00:00+09:00",
       "date": "2026-04-16",
       "query": "도시재생 활성화계획"
     },
@@ -110,6 +110,15 @@
       "query": "신도시 착공"
     },
     {
+      "id": "4b9ef77eaa1b",
+      "title": "마린시티 주상복합 전환 논란…지구단위계획 쟁점 속 ‘특혜 의혹’ 재점화",
+      "source": "이코노미사이언스",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TeHNrNkR5VzNTM2dxT0phVmNISEhBa3JfcUZieG9DSG54emFSN2pNSVpfM1JMUm15LVpoMnV0bGpDTF91SnZiTFdqQjNFbDBDNUpiN0lwS0dCNWJJYjB1dGpoOEVnTEhKM0dMZUZsaw?oc=5",
+      "published": "2026-04-15T11:46:15+09:00",
+      "date": "2026-04-15",
+      "query": "복합개발 지구단위계획"
+    },
+    {
       "id": "35bf1b967dc8",
       "title": "이상일 용인시장, “반도체 국가산단 지연 안 된다”…정부에 입장 촉구",
       "source": "비즈월드",
@@ -124,15 +133,6 @@
       "source": "자치안성신문",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05ZkdtMU12RkZ5VnFGUC1yQW5vWWp2cmZJbHVNUzdpbjJoZHIyU2x2eUVtamxHdk0zNmhIWnZUVGYwS3pjQlRyMHFtNTNyV0VKSm82VGxPQ3lRMjFaQVVLcm5VbFE2TU5TRVhSaFQ4X3hmb0RudllFRWJ5dlE?oc=5",
       "published": "2026-04-14T16:00:00+09:00",
-      "date": "2026-04-14",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "7a9b87d7ab36",
-      "title": "이상일 “용인 반도체 산단, 정부 왜 늦추나…분산 아닌 집적으로 승부해야”",
-      "source": "에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5keWhxcmRYSHlNckZObmYtUWVzQ1dPNEtRN0RLZTVqZHp4RXpNQzVRaFdkZXhpdmlzRU9od243bk54ZGZqTHZCOU91MVdKNko1VEFCSGdqS0JPSFE?oc=5",
-      "published": "2026-04-14T15:20:13+09:00",
       "date": "2026-04-14",
       "query": "반도체 국가산단"
     }
