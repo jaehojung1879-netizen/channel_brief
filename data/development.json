@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T06:49:16.371143+09:00",
+  "updated_at": "2026-04-20T07:21:13.533003+09:00",
   "items": [
     {
       "id": "4f0b1d7d0e2b",
@@ -8,15 +8,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3bGpRdDlKSkVYUHl5cVVZOUFCRFozOUhORW42enkxSkNMd3YtNDhxN0FwdzBSME5GX1p6UFBxdTFlZl9Wd21WcmJHNnhxeS05allhTE1B?oc=5",
       "published": "2026-04-20T06:00:00+09:00",
       "date": "2026-04-20",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-04-19T13:27:11+09:00",
-      "date": "2026-04-19",
       "query": "반도체 국가산단"
     },
     {
@@ -47,15 +38,6 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-04-16T16:00:00+09:00",
-      "date": "2026-04-16",
-      "query": "도시재생 활성화계획"
-    },
-    {
       "id": "ac47211d6151",
       "title": "서울시, 중랑구 중화2동 도시재생활성화계획 변경안 도시계획위원회 재생분과위원회 심의 '수정가결'",
       "source": "더 데일리가드",
@@ -70,6 +52,15 @@
       "source": "Chosunbiz",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTHhUMW9Kcmk2UnVIVk9CN3VNdGxCQUlkTzhQaS0tb29fSWt3ZjlWNHhRQ0tfN1lZMWlpRk9WZWcxbExTYk9Ua0FZTlA3Y3ZzSEtoUUllRUJpZ0k3WDUyU3ZUU2Jfa09XSFluYXNFaFdZODVWUXJGb0Qxc0RhVUwtRUR5ejNNWW8wcGZvVVFjTG94azJnWnlTc9IBrAFBVV95cUxNV0J1VjQ4a3h4dFZJY2pUNGZHWVZzYk5PZk9fVXRiajloOFNZUDdhdGpPYnFxSWo2TE1SZ3RSOGhWWGxuRGJBakVDZHFveXRnc2U4TmtZMTcxd2UwUUVzcmNTSTBDcG5KaWNWb1l2eThkVkE3ZWJwd2NTd3gzUUVITTNybDdGMzVVMDFEZnJwUDZveTh3ZFRLRHJTYjF4ZWJhbnFTeFZjQWFaZ1l2?oc=5",
       "published": "2026-04-16T14:50:00+09:00",
+      "date": "2026-04-16",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "21e0936d1aab",
+      "title": "중화2동 모아타운 본격화…도시재생 뉴딜사업 마무리 수순",
+      "source": "이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWXdxazFTUFZ5WEVnUkZGQ0FCQ0M2TTlYNUR2TzY1T01CNmtvZUlNYWdwZGttUUpWSi13dVlDdnhGM0cyYUVpdkwtaEo1VzhRdHFmOTFfOFNmNkJ5WUl3OHhTM2tyNFdZcWkwRzRhNWRjUXFwOUFiZnd2RDFnUmtWZA?oc=5",
+      "published": "2026-04-16T10:00:04+09:00",
       "date": "2026-04-16",
       "query": "도시재생 활성화계획"
     },
@@ -117,6 +108,24 @@
       "published": "2026-04-15T15:00:00+09:00",
       "date": "2026-04-15",
       "query": "신도시 착공"
+    },
+    {
+      "id": "35bf1b967dc8",
+      "title": "이상일 용인시장, “반도체 국가산단 지연 안 된다”…정부에 입장 촉구",
+      "source": "비즈월드",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xalVFZkx3a1RBRWtiVkVUWmYwLUtRbDNqUXUxV00wOUF5ZVNxWkNVa3JyaVlWVXBfVEZLZGw4SkRxLTRrS3NESG1lQXpDWU0wZEdMWFA2U0pwYld6aDc4TVY2aEVvQS1hUU0w?oc=5",
+      "published": "2026-04-14T22:32:35+09:00",
+      "date": "2026-04-14",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "9707cbc3df46",
+      "title": "삼성반도체 국가산단 송전선로 강행 ... SK하이닉스 공장폐수, 고삼호수 직방류, 지방 선거 기간 안성 지킬 해법 마련 해야",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05ZkdtMU12RkZ5VnFGUC1yQW5vWWp2cmZJbHVNUzdpbjJoZHIyU2x2eUVtamxHdk0zNmhIWnZUVGYwS3pjQlRyMHFtNTNyV0VKSm82VGxPQ3lRMjFaQVVLcm5VbFE2TU5TRVhSaFQ4X3hmb0RudllFRWJ5dlE?oc=5",
+      "published": "2026-04-14T16:00:00+09:00",
+      "date": "2026-04-14",
+      "query": "반도체 국가산단"
     },
     {
       "id": "e8ba659b85f7",
