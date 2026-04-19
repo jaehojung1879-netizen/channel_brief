@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T17:12:13.822123+09:00",
+  "updated_at": "2026-04-19T17:33:20.118997+09:00",
   "social_finance": [
     {
       "id": "eaf5ff7de364",
@@ -9,15 +9,6 @@
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPZDJISjg4SXJ2YUVIbVllVW16Qk4zVHhWMzRPekRLNE95RFRaLUhPb05qUkdxWmVnU0g1d25oc2JZbU1TVkllQjlpblFwdjVyR3pKcDItUDRWVVVtNnV2SkVOaDJ5NlJROWlqbGtFQVAyN0U?oc=5",
       "published": "2026-04-19T15:35:40+09:00",
       "query": "포용금융"
-    },
-    {
-      "id": "ced6b507d7b5",
-      "title": "하나금융, '유아 ESG 금융교육' 실시",
-      "source": "fetv.co.kr",
-      "summary": "하나금융, '유아 ESG 금융교육' 실시&nbsp;&nbsp;fetv.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKODFlR05CTmhQUnAyVkRpWGNzMmIzNWRWR2swT0lCdFByS2JVSk5TVHZfYU1YbUc4VFAyMFdweThRUHlnZXk3ZzY3c19BSVNYb2FoTDVHdVU2VGtyZy02S0hQeGp0a0k5?oc=5",
-      "published": "2026-04-19T09:00:00+09:00",
-      "query": "금융접근성"
     },
     {
       "id": "a17af5fc5282",
@@ -72,6 +63,15 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9meHpKMnJmR0RaTC1oZTJCYm5vZktyc1lmbVVkeFFndS1UOWw0MjExekNaTXBXZGxTQk9IVlhOcEV6dHdaVmhVZ09MZUNQTnlFZE42WU1fZnc0akhteXM5NUtDTjdpVThyYUhZ?oc=5",
       "published": "2026-04-16T18:35:52+09:00",
       "query": "소상공인 금융지원"
+    },
+    {
+      "id": "d3ab29aa21b7",
+      "title": "4대 금융지주, 취약계층 '상생 행보' 박차",
+      "source": "서울파이낸스",
+      "summary": "4대 금융지주, 취약계층 '상생 행보' 박차&nbsp;&nbsp;서울파이낸스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CeC1rRGstNzEtWEZ2NUJYUS1jZkR2UUJKZ3EyMGJTdVhHY2pVb0xEUy13Y0dIRXVtaTgyUzZMbUMzc3Izdl9nUU1PVmUxc29iWnhYYWZ5WTFKb0lUYXlrUTZNSjJmbzRPeWc?oc=5",
+      "published": "2026-04-16T17:31:41+09:00",
+      "query": "취약계층 금융"
     }
   ],
   "tech": [
