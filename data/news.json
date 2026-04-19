@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-04-19T12:34:16.847515+09:00",
+  "updated_at": "2026-04-19T12:54:56.474443+09:00",
   "headline": {
-    "id": "243cbde3022f",
-    "title": "“편의점 결제부터 국고금 집행까지”…은행권, 예금토큰 실전 배치 속도",
-    "source": "브릿지경제",
-    "summary": "“편의점 결제부터 국고금 집행까지”…은행권, 예금토큰 실전 배치 속도 브릿지경제",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CLVIxRmk1S1kxWXEtT1p5US1qSG9tSDE0c1YzM1FZZ09CaG03N2lQZ2w2MGUyZ1RUZkhTd3E2c3ZTU0tTY09uZU5HWTVFTnM5ZnNJZlFaS1ptUQ?oc=5",
-    "published": "2026-04-16T13:34:00+09:00",
-    "query": "편의점 은행",
-    "_score": 6.0
+    "id": "22feafb136bd",
+    "title": "국회입법조사처, \"배리어프리 키오스크 장애인 체감 중심으로 전환해야\"",
+    "source": "에이블뉴스",
+    "summary": "국회입법조사처, \"배리어프리 키오스크 장애인 체감 중심으로 전환해야\" 에이블뉴스",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tcjE2eDBXZjZuaEtRSVlUeVFILWR3WmxxZlFUZW5OU0U2TlRtR3BZSHgxTzZaLUQxZ3Fmc3N3bWxaQTlCS0U5VzFRQjdTa1A1MExlX1h0SHlsSGFpN2lYQ2Jta250M1kwT0Y3MlNB?oc=5",
+    "published": "2026-04-17T17:28:00+09:00",
+    "query": "장애인차별금지법 키오스크",
+    "_score": 8.0,
+    "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
@@ -19,7 +20,8 @@
         "summary": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장 뉴스웍스",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YWTltMjIweTFBemtfeGk1ejJJajdKczFjR2hCX0dnV0hNOTZVNDc3TW5GNWo5bzRyREVsSktXWURzdThOTGRpSjREWld2X0FYNlNkWnZZeW1IbzAzR21jb1ZBQmpoaU5IVE1xN1U5QQ?oc=5",
         "published": "2026-04-18T13:00:00+09:00",
-        "query": "은행 점포"
+        "query": "은행 점포",
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "721067535033",
@@ -28,7 +30,8 @@
         "summary": "'생산성 꼴찌' 강태영 행장의 농협은행, 점포 못 줄이는 딜레마 땅집고",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjT0lxMUJ6ZXVCU3hlVEhWbFBHSUhlb2w2d1o1TFFHZ0t4eGhlWFNhd3lfcEY3bVI4S1dlRzlTanoxSlBIc1V3QU4xV09MMjUtR1puNV96bDZKRFA5VVBTUFNpR1JlY1NoWl9SQXFlbXpNcTFiREhxd0VxdmVKOUnSAXNBVV95cUxPM1ZrTE84cnZnUDVvV3c1TGg2a1hCdjNRZG85QjhSeGZzUDM3VHVJYXpMN2hSdmZnT2ZPTFYtNFRqTVh6MEdBQXNjWkplOEVTR1o1MnJScGs1YmlBS1dNeWtrcTBkSHByWkFqbEEzMVhaRTNB?oc=5",
         "published": "2026-04-17T06:00:00+09:00",
-        "query": "은행 점포"
+        "query": "은행 점포",
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "243cbde3022f",
@@ -37,7 +40,8 @@
         "summary": "“편의점 결제부터 국고금 집행까지”…은행권, 예금토큰 실전 배치 속도 브릿지경제",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CLVIxRmk1S1kxWXEtT1p5US1qSG9tSDE0c1YzM1FZZ09CaG03N2lQZ2w2MGUyZ1RUZkhTd3E2c3ZTU0tTY09uZU5HWTVFTnM5ZnNJZlFaS1ptUQ?oc=5",
         "published": "2026-04-16T13:34:00+09:00",
-        "query": "편의점 은행"
+        "query": "편의점 은행",
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "df9c14295cf2",
@@ -46,9 +50,20 @@
         "summary": "KB국민은행, 영업점 중심 생산적금융 강화 금융경제신문",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TVGJrYlBXSkNlbHM5QlpUVE9lckJ6Z2dyVWczOWxIQWRzODZnU1h4WllFM09STVlhR3lINGlmQ2Y2RDBaZW1lak9Sb2RFeFVrdW9CeE5teG5sX2tiOGd4a01zVlBJZktjcDUzMtIBb0FVX3lxTE5pSVVfclp1SlhfMXludEhsTS1DZGxUWWVJOVJaRzVhSTQ5QWxnVVUzS1AxTVFnNWpwdEd2ckRFaW5HVjhHZUt4eGEzN21DdFgyRklQc2F6ZGdfT2w3eE1sc3ZObkFxV2dqWGpnS1hQYw?oc=5",
         "published": "2026-04-16T13:30:00+09:00",
-        "query": "은행 영업점"
+        "query": "은행 영업점",
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": []
+    "policy_news": [
+      {
+        "id": "22feafb136bd",
+        "title": "국회입법조사처, \"배리어프리 키오스크 장애인 체감 중심으로 전환해야\"",
+        "source": "에이블뉴스",
+        "summary": "국회입법조사처, \"배리어프리 키오스크 장애인 체감 중심으로 전환해야\" 에이블뉴스",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tcjE2eDBXZjZuaEtRSVlUeVFILWR3WmxxZlFUZW5OU0U2TlRtR3BZSHgxTzZaLUQxZ3Fmc3N3bWxaQTlCS0U5VzFRQjdTa1A1MExlX1h0SHlsSGFpN2lYQ2Jta250M1kwT0Y3MlNB?oc=5",
+        "published": "2026-04-17T17:28:00+09:00",
+        "query": "장애인차별금지법 키오스크"
+      }
+    ]
   }
 }

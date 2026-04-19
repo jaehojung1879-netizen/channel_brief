@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-04-19T12:34:37.431394+09:00",
+  "updated_at": "2026-04-19T12:55:23.186331+09:00",
   "as_of": "2025-12-31",
-  "source": "은행연합회 은행업무 통계 (수동 업데이트 필요) (FISIS·스크래핑 실패로 fallback)",
-  "source_url": "",
-  "is_fallback": true,
+  "source": "금융통계정보시스템(FISIS) · 국내은행 영업점포현황",
+  "source_url": "http://fisis.fss.or.kr/openapi/statisticsInfoSearch.json",
+  "is_fallback": false,
   "banks": [
     {
       "name": "KB국민",
-      "count": 803,
-      "branches": 768,
-      "sub_offices": 35,
-      "delta_qoq": 0
+      "count": 772,
+      "branches": 621,
+      "sub_offices": 151,
+      "delta_qoq": -31
     },
     {
       "name": "신한",
-      "count": 747,
-      "branches": 717,
-      "sub_offices": 30,
-      "delta_qoq": 0
+      "count": 651,
+      "branches": 538,
+      "sub_offices": 113,
+      "delta_qoq": -96
     },
     {
       "name": "하나",
-      "count": 621,
-      "branches": 596,
-      "sub_offices": 25,
-      "delta_qoq": 0
+      "count": 609,
+      "branches": 534,
+      "sub_offices": 75,
+      "delta_qoq": -12
     },
     {
       "name": "우리",
-      "count": 676,
-      "branches": 649,
-      "sub_offices": 27,
-      "delta_qoq": 0
+      "count": 656,
+      "branches": 554,
+      "sub_offices": 102,
+      "delta_qoq": -20
     },
     {
       "name": "NH농협",
-      "count": 1080,
-      "branches": 1021,
-      "sub_offices": 59,
-      "delta_qoq": 0
+      "count": 1064,
+      "branches": 776,
+      "sub_offices": 288,
+      "delta_qoq": -16
     }
   ],
-  "total": 3927,
-  "total_delta_qoq": 0,
+  "total": 3752,
+  "total_delta_qoq": -175,
   "regional": []
 }
