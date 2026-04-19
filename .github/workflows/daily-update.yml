@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -56,12 +58,24 @@ jobs:
 
       - name: Commit and push
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "chore: daily data update $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+          git commit -m "chore: daily data update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # race condition 대비: push 실패 시 rebase 후 최대 3회 재시도
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Push ok on attempt $attempt"
+              exit 0
+            fi
+            echo "Push failed on attempt $attempt, rebasing onto origin/main…"
+            git fetch origin main
+            git pull --rebase origin main || true
+          done
+          echo "Push ultimately failed after 3 attempts" >&2
+          exit 1
