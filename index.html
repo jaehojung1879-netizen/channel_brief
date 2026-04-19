@@ -1981,36 +1981,9 @@ function renderTrend(title, sub, labels, datasets) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      animation: { duration: 1600, easing: 'easeOutQuart', onComplete: () => { _trendDelayed = true; } },
+      animation: { duration: 1350, easing: 'easeOutCubic' },
       animations: {
-        x: {
-          type: 'number',
-          easing: 'easeOutQuart',
-          duration: 760,
-          from: NaN,
-          delay(c) {
-            if (c.type !== 'data' || c.xStarted || _trendDelayed) return 0;
-            c.xStarted = true;
-            return c.index * 70;
-          },
-        },
-        y: {
-          type: 'number',
-          easing: 'easeOutQuart',
-          duration: 760,
-          from(c) {
-            if (c.index === 0) {
-              return c.chart.scales.y.getPixelForValue(c.chart.scales.y.min);
-            }
-            const prev = c.chart.getDatasetMeta(c.datasetIndex).data[c.index - 1];
-            return prev ? prev.getProps(['y'], true).y : c.chart.scales.y.getPixelForValue(c.chart.scales.y.min);
-          },
-          delay(c) {
-            if (c.type !== 'data' || c.yStarted || _trendDelayed) return 0;
-            c.yStarted = true;
-            return c.index * 70;
-          },
-        },
+        colors: { duration: 300 },
       },
       interaction: { mode: 'index', intersect: false },
       plugins: {
