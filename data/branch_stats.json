@@ -7,41 +7,6 @@
   "is_fallback": false,
   "banks": [
     {
-      "name": "KB국민",
-      "count": 772,
-      "branches": 621,
-      "sub_offices": 151,
-      "delta_yoy": -26,
-      "delta_qoq": -26,
-      "prev_year_end_count": 798,
-      "history": [
-        {
-          "ym": "202012",
-          "count": 970
-        },
-        {
-          "ym": "202112",
-          "count": 912
-        },
-        {
-          "ym": "202212",
-          "count": 854
-        },
-        {
-          "ym": "202312",
-          "count": 795
-        },
-        {
-          "ym": "202412",
-          "count": 798
-        },
-        {
-          "ym": "202512",
-          "count": 772
-        }
-      ]
-    },
-    {
       "name": "신한",
       "count": 651,
       "branches": 538,
@@ -73,6 +38,41 @@
         {
           "ym": "202512",
           "count": 651
+        }
+      ]
+    },
+    {
+      "name": "KB국민",
+      "count": 772,
+      "branches": 621,
+      "sub_offices": 151,
+      "delta_yoy": -26,
+      "delta_qoq": -26,
+      "prev_year_end_count": 798,
+      "history": [
+        {
+          "ym": "202012",
+          "count": 970
+        },
+        {
+          "ym": "202112",
+          "count": 912
+        },
+        {
+          "ym": "202212",
+          "count": 854
+        },
+        {
+          "ym": "202312",
+          "count": 795
+        },
+        {
+          "ym": "202412",
+          "count": 798
+        },
+        {
+          "ym": "202512",
+          "count": 772
         }
       ]
     },

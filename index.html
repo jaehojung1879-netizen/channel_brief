@@ -1111,6 +1111,7 @@
 <nav class="nav">
   <a href="#headline" class="active">Headline</a>
   <a href="#news">영업점 언론</a>
+  <a href="#shinhan-news">신한은행 언론</a>
   <a href="#development">개발 공시</a>
   <a href="#branch">점포 현황</a>
   <a href="#issue">채널 이슈</a>
@@ -1136,6 +1137,16 @@
       <div class="updated" id="news-updated">LOADING…</div>
     </div>
     <div class="news-grid" id="news-grid">
+      <div class="loading">[LOADING]</div>
+    </div>
+  </section>
+
+  <section class="section" id="shinhan-news">
+    <div class="section-head">
+      <h3><span class="num">§ 01-A</span>신한은행 관련 언론</h3>
+      <div class="updated" id="shinhan-news-updated">LOADING…</div>
+    </div>
+    <div class="news-grid" id="shinhan-news-grid">
       <div class="loading">[LOADING]</div>
     </div>
   </section>
@@ -1353,12 +1364,13 @@ function renderHeadlineAndNews(data) {
     if (it.id === headlineId) continue;
     seen.add(key);
     items.push(it);
-    if (items.length >= 9) break;
+    if (items.length >= 15) break;
   }
 
   if (items.length === 0) {
     grid.innerHTML = '<div class="empty">최근 기사가 없습니다.</div>';
     updated.textContent = '0 ARTICLES';
+    renderShinhanNews(combined, data.updated_at);
     return;
   }
 
@@ -1383,6 +1395,40 @@ function renderHeadlineAndNews(data) {
   });
 
   const syncTime = new Date(data.updated_at);
+  updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
+  renderShinhanNews(combined, data.updated_at);
+}
+
+function renderShinhanNews(allItems, updatedAt) {
+  const grid = document.getElementById('shinhan-news-grid');
+  const updated = document.getElementById('shinhan-news-updated');
+  if (!grid || !updated) return;
+  const items = (allItems || []).filter(it => {
+    const txt = `${it.title || ''} ${it.summary || ''}`;
+    return txt.includes('신한') || String(it.source || '').includes('신한');
+  }).slice(0, 12);
+  if (items.length === 0) {
+    grid.innerHTML = '<div class="empty">신한은행 관련 기사가 없습니다.</div>';
+    updated.textContent = '0 ARTICLES';
+    return;
+  }
+  window.__shinhanNewsItems = items;
+  grid.innerHTML = items.map((it, idx) => `
+    <div class="news-item" data-idx="${idx}" role="button" tabindex="0">
+      <div class="src">${esc(it.source)}</div>
+      <h4>${esc(it.title)}</h4>
+      <p>${esc(it.summary || '')}</p>
+      <div class="time">${fmtRelative(it.published)}</div>
+    </div>
+  `).join('');
+  grid.querySelectorAll('.news-item').forEach(el => {
+    const open = () => openArticleModal(window.__shinhanNewsItems[Number(el.getAttribute('data-idx'))]);
+    el.addEventListener('click', open);
+    el.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+  });
+  const syncTime = new Date(updatedAt || Date.now());
   updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
 }
 
@@ -1419,6 +1465,12 @@ const REGION_TILE_ORDER = [
   '경북', '대구', '경남', '부산',
   '울산',
 ];
+const BANK_PRIORITY = ['신한', 'KB국민', '하나', '우리'];
+
+function bankOrder(name) {
+  const idx = BANK_PRIORITY.indexOf(name);
+  return idx === -1 ? 999 : idx;
+}
 
 function renderBranchStats(data) {
   _branchData = data;
@@ -1499,9 +1551,10 @@ function bankLogoHTML(name) {
 
 function renderBranchBanksView(data) {
   const rows = document.getElementById('branch-rows');
-  const max = Math.max(...data.banks.map(b => b.count || 0), 1);
+  const banksSorted = [...data.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const max = Math.max(...banksSorted.map(b => b.count || 0), 1);
 
-  rows.innerHTML = data.banks.map(b => {
+  rows.innerHTML = banksSorted.map(b => {
     const count = b.count || 0;
     const branches = (b.branches !== undefined) ? b.branches : count;
     const subOff = b.sub_offices || 0;
@@ -1596,10 +1649,11 @@ function renderBranchRegionalRows() {
     return;
   }
   const banks = region.banks || [];
-  const max = Math.max(...banks.map(b => b.count || 0), 1);
-  const total = banks.reduce((s, b) => s + (b.count || 0), 0);
+  const banksSorted = [...banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const max = Math.max(...banksSorted.map(b => b.count || 0), 1);
+  const total = banksSorted.reduce((s, b) => s + (b.count || 0), 0);
 
-  rowsEl.innerHTML = banks.map(b => {
+  rowsEl.innerHTML = banksSorted.map(b => {
     const count = b.count || 0;
     const pct = (count / max * 100).toFixed(1);
     return `

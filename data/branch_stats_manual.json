@@ -3,18 +3,18 @@
   "source": "은행연합회 은행업무 통계 (수동 업데이트 필요)",
   "banks": [
     {
-      "name": "KB국민",
-      "branches": 768,
-      "sub_offices": 35,
-      "count": 803,
-      "delta_qoq": -12
-    },
-    {
       "name": "신한",
       "branches": 717,
       "sub_offices": 30,
       "count": 747,
       "delta_qoq": -8
+    },
+    {
+      "name": "KB국민",
+      "branches": 768,
+      "sub_offices": 35,
+      "count": 803,
+      "delta_qoq": -12
     },
     {
       "name": "하나",

@@ -98,7 +98,7 @@ def make_id(url: str) -> str:
     return hashlib.md5(url.encode("utf-8")).hexdigest()[:12]
 
 
-def fetch_google_news(query: str, max_items: int = 10) -> list:
+def fetch_google_news(query: str, max_items: int = 16) -> list:
     encoded = quote(query)
     url = f"https://news.google.com/rss/search?q={encoded}&hl=ko&gl=KR&ceid=KR:ko"
     try:
@@ -134,7 +134,7 @@ def fetch_google_news(query: str, max_items: int = 10) -> list:
         return []
 
 
-def fetch_naver_news(query: str, max_items: int = 8) -> list:
+def fetch_naver_news(query: str, max_items: int = 12) -> list:
     """네이버 뉴스 검색 결과에서 상위 기사 추출 (국내 섹션 헤드라인 보강)."""
     url = "https://search.naver.com/search.naver"
     try:
@@ -371,7 +371,7 @@ def enrich_with_summary(item: dict, budget_s: float = 4.0) -> None:
     print(f"[news] enrich {item.get('title','')[:30]}… ({elapsed:.1f}s, {'LLM' if summary else 'snippet'})")
 
 
-def filter_recent(items: list, days: int = 3) -> list:
+def filter_recent(items: list, days: int = 5) -> list:
     cutoff = datetime.now(KST) - timedelta(days=days)
     result = []
     for item in items:
@@ -393,18 +393,18 @@ def main():
         bucket = []
         for q in queries:
             print(f"[news] fetching: {q}")
-            g_items = fetch_google_news(q, max_items=8)
-            n_items = fetch_naver_news(q, max_items=6)
+            g_items = fetch_google_news(q, max_items=16)
+            n_items = fetch_naver_news(q, max_items=12)
             items = g_items + n_items
             bucket.extend(items)
             raw_pool.extend(items)
             time.sleep(1.0)
 
-        bucket = filter_recent(bucket, days=3)
+        bucket = filter_recent(bucket, days=5)
         bucket = dedupe(bucket)
         bucket.sort(key=lambda x: x["published"], reverse=True)
-        all_results[category] = bucket[:20]
-        print(f"[news] {category}: {len(bucket[:20])} items")
+        all_results[category] = bucket[:40]
+        print(f"[news] {category}: {len(bucket[:40])} items")
 
     # 전체 풀에서 제목 등장 횟수 집계 (중복도 = 화제성)
     title_count_map = {}
