@@ -80,6 +80,17 @@ NEGATIVE_KEYWORDS = [
 # 해외 비관련 기사 차감용
 FOREIGN_SIGNALS = ["Vietnam", "베트남", "China.", "미얀마"]
 
+BLOCKED_TITLE_KEYWORDS = [
+    "cofix", "코픽스", "자금조달비용지수",
+    "예금금리", "대출금리", "환율", "채권", "국채",
+    "vietnam", "베트남", "미얀마", "캄보디아", "라오스",
+]
+
+CORE_BRANCH_KEYWORDS = [
+    "영업점", "점포", "지점", "공동점포", "점포폐쇄", "채널",
+    "스마트점포", "디지털 라운지", "라운지", "은행 점포", "은행 영업점",
+]
+
 
 def clean_html(raw: str) -> str:
     if not raw:
@@ -264,6 +275,23 @@ def dedupe(items: list) -> list:
     return result
 
 
+def is_relevant_article(item: dict) -> bool:
+    title = (item.get("title") or "").strip()
+    summary = (item.get("summary") or "").strip()
+    source = (item.get("source") or "").strip()
+    hay = f"{title} {summary}".lower()
+
+    if any(kw in hay for kw in BLOCKED_TITLE_KEYWORDS):
+        return False
+    if any(kw.lower() in source.lower() for kw in ("vietnam", "미얀마")):
+        return False
+
+    # 영업점 연관 키워드가 최소 1개는 있어야 표시
+    if not any(kw.lower() in hay for kw in CORE_BRANCH_KEYWORDS):
+        return False
+    return True
+
+
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
@@ -400,6 +428,7 @@ def main():
             raw_pool.extend(items)
             time.sleep(1.0)
 
+        bucket = [it for it in bucket if is_relevant_article(it)]
         bucket = filter_recent(bucket, days=5)
         bucket = dedupe(bucket)
         bucket.sort(key=lambda x: x["published"], reverse=True)

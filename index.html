@@ -1300,6 +1300,11 @@ function esc(s) {
   return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 }
 
+function openNewsArticle(it) {
+  if (!it || !it.link) return;
+  window.open(it.link, '_blank', 'noopener');
+}
+
 function renderMasthead() {
   const today = new Date();
   const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
@@ -1386,7 +1391,7 @@ function renderHeadlineAndNews(data) {
   grid.querySelectorAll('.news-item').forEach(el => {
     const open = () => {
       const idx = Number(el.getAttribute('data-idx'));
-      openArticleModal(window.__newsItems[idx]);
+      openNewsArticle(window.__newsItems[idx]);
     };
     el.addEventListener('click', open);
     el.addEventListener('keydown', e => {
@@ -1422,7 +1427,7 @@ function renderShinhanNews(allItems, updatedAt) {
     </div>
   `).join('');
   grid.querySelectorAll('.news-item').forEach(el => {
-    const open = () => openArticleModal(window.__shinhanNewsItems[Number(el.getAttribute('data-idx'))]);
+    const open = () => openNewsArticle(window.__shinhanNewsItems[Number(el.getAttribute('data-idx'))]);
     el.addEventListener('click', open);
     el.addEventListener('keydown', e => {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
