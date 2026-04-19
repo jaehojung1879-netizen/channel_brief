@@ -125,10 +125,55 @@ def fetch_google_news(query: str, max_items: int = 10) -> list:
                 "link": entry.get("link", ""),
                 "published": pub_dt.isoformat(),
                 "query": query,
+                "engine": "google",
+                "rank": len(items) + 1,
             })
         return items
     except Exception as e:
         print(f"[ERR] google news '{query}': {e}")
+        return []
+
+
+def fetch_naver_news(query: str, max_items: int = 8) -> list:
+    """네이버 뉴스 검색 결과에서 상위 기사 추출 (국내 섹션 헤드라인 보강)."""
+    url = "https://search.naver.com/search.naver"
+    try:
+        r = requests.get(
+            url,
+            params={"where": "news", "query": query, "sort": "0", "pd": "3"},
+            headers={"User-Agent": UA},
+            timeout=8,
+        )
+        if r.status_code != 200:
+            return []
+        soup = BeautifulSoup(r.text, "lxml")
+        items = []
+        seen = set()
+        for idx, a in enumerate(soup.select("a.news_tit"), start=1):
+            if len(items) >= max_items:
+                break
+            title = clean_html(a.get("title") or a.get_text(" ", strip=True))
+            link = a.get("href") or ""
+            if not title or not link:
+                continue
+            key = title[:30]
+            if key in seen:
+                continue
+            seen.add(key)
+            items.append({
+                "id": make_id(link),
+                "title": title,
+                "source": "Naver News",
+                "summary": "",
+                "link": link,
+                "published": datetime.now(KST).isoformat(),
+                "query": query,
+                "engine": "naver",
+                "rank": idx,
+            })
+        return items
+    except Exception as e:
+        print(f"[ERR] naver news '{query}': {e}")
         return []
 
 
@@ -170,6 +215,16 @@ def score_article(article: dict, title_count_map: dict) -> float:
     # 3. 신뢰도 있는 매체
     if any(ts in source for ts in TRUSTED_SOURCES):
         score += 3
+
+    # 3.5 검색엔진/순위 가중치 (국내 이슈는 네이버 우선 반영)
+    engine = article.get("engine", "")
+    rank = int(article.get("rank", 99) or 99)
+    if engine == "naver":
+        score += 3
+        if rank <= 3:
+            score += (4 - rank) * 1.5
+    elif engine == "google" and rank <= 3:
+        score += (4 - rank) * 1.0
 
     # 4. 다중 쿼리 등장 (연관성 지표)
     title_key = title[:20]
@@ -338,7 +393,9 @@ def main():
         bucket = []
         for q in queries:
             print(f"[news] fetching: {q}")
-            items = fetch_google_news(q, max_items=8)
+            g_items = fetch_google_news(q, max_items=8)
+            n_items = fetch_naver_news(q, max_items=6)
+            items = g_items + n_items
             bucket.extend(items)
             raw_pool.extend(items)
             time.sleep(1.0)

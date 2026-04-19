@@ -18,10 +18,13 @@ channel-brief/
     ├── news.json                       # 자동 생성
     ├── disclosure.json                 # 자동 생성
     ├── development.json                # 자동 생성
-    ├── branch_stats.json               # 자동 생성 (manual 기반)
+    ├── branch_stats.json               # 자동 생성
+    ├── fisis_regional.json             # 자동 생성 (지역별 탭 lazy-load)
     ├── branch_stats_manual.json        # **분기별 수동 업데이트 필요**
     ├── issues.json                     # 자동 생성
     └── global.json                     # 자동 생성
+└── assets/
+    └── bank-logos/                     # 은행 로고 이미지 수동 업로드 폴더
 ```
 
 ---
@@ -130,6 +133,16 @@ git push -u origin main
 
 ### 키워드 추가
 `scripts/fetch_news.py` 의 `KEYWORDS` 딕셔너리 수정.
+
+### 은행 로고 직접 넣기
+`assets/bank-logos/` 폴더에 아래 파일명으로 PNG(권장 128x128 이상)를 넣어주세요.
+
+- `kb.png`
+- `shinhan.png`
+- `hana.png`
+- `woori.png`
+
+파일을 넣으면 대시보드에서 자동으로 로고 이미지를 우선 사용하고, 파일이 없으면 기존 텍스트 배지로 fallback 됩니다.
 
 ### 색상 테마 변경
 `index.html` 상단 `:root` CSS 변수:
