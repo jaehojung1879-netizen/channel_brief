@@ -755,6 +755,24 @@ def _extract_branch_numbers(rows: list) -> dict:
     }
 
 
+def _normalize_branch_record(rec: dict) -> dict:
+    count = int((rec or {}).get("count", 0) or 0)
+    branches = int((rec or {}).get("branches", 0) or 0)
+    sub_offices = int((rec or {}).get("sub_offices", 0) or 0)
+    # count/지점/출장소 간 불일치가 있으면 지점+출장소를 정답으로 맞춘다.
+    if branches > 0 or sub_offices > 0:
+        if branches == 0 and count > 0:
+            branches = max(count - sub_offices, 0)
+        if sub_offices == 0 and count > 0 and branches < count:
+            sub_offices = max(count - branches, 0)
+        count = branches + sub_offices
+    elif count > 0:
+        # 분해값이 비어있고 총량만 있으면 일단 지점으로 간주 (출장소 0)
+        branches = count
+        sub_offices = 0
+    return {"count": count, "branches": branches, "sub_offices": sub_offices}
+
+
 def fisis_build_branch_stats(codes: dict):
     """영업점포현황 → 은행별 최신값 + 최신 기준월 anchor 5년(6개월 간격) 시계열."""
     list_no = codes.get("list_no_branch")
@@ -907,6 +925,12 @@ def fisis_build_regional_stats(codes: dict):
         rows_branches = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A11")
         rows_sub_offices = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A12")
 
+    if not region_ym_bank:
+        # 통계표 구조에 따라 financeCd 없이 전체 은행이 내려오는 경우 fallback 파싱
+        rows = _fisis_fetch_info(list_no, finance_cd="", months_back=72)
+        rows_branches = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A11")
+        rows_sub_offices = _fisis_fetch_info(list_no, finance_cd="", months_back=72, account_cd="A12")
+
         grouped_rows = {}
         for row in rows:
             ym = _fisis_row_ym(row)
@@ -969,14 +993,12 @@ def fisis_build_regional_stats(codes: dict):
         latest = ym_map.get(latest_ym_overall, {})
         latest_banks = []
         for m in TARGET_BANKS:
-            rec = latest.get(m["name"], {}) or {}
-            if rec.get("count", 0) == 0:
-                rec["count"] = int(rec.get("branches", 0)) + int(rec.get("sub_offices", 0))
+            rec = _normalize_branch_record(latest.get(m["name"], {}) or {})
             latest_banks.append({
                 "name": m["name"],
-                "count": int(rec.get("count", 0)),
-                "branches": int(rec.get("branches", rec.get("count", 0))),
-                "sub_offices": int(rec.get("sub_offices", 0)),
+                "count": int(rec["count"]),
+                "branches": int(rec["branches"]),
+                "sub_offices": int(rec["sub_offices"]),
             })
         if sum(b["count"] for b in latest_banks) == 0:
             continue
@@ -985,17 +1007,12 @@ def fisis_build_regional_stats(codes: dict):
             per = ym_map[ym]
             hist_banks = []
             for m in TARGET_BANKS:
-                rec = (per.get(m["name"], {}) or {})
-                branches = int(rec.get("branches", rec.get("count", 0)))
-                sub_offices = int(rec.get("sub_offices", 0))
-                count = int(rec.get("count", 0))
-                if count == 0:
-                    count = branches + sub_offices
+                rec = _normalize_branch_record(per.get(m["name"], {}) or {})
                 hist_banks.append({
                     "name": m["name"],
-                    "count": count,
-                    "branches": branches,
-                    "sub_offices": sub_offices,
+                    "count": int(rec["count"]),
+                    "branches": int(rec["branches"]),
+                    "sub_offices": int(rec["sub_offices"]),
                 })
             history.append({
                 "ym": ym,

@@ -903,6 +903,23 @@
     }
     .branch-row .bank { font-size: 13px; }
     .branch-row .count { font-size: 13px; }
+    .region-map-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 5px;
+    }
+    .region-chips {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px;
+    }
+    .region-chip {
+      width: 100%;
+      min-width: 0;
+      padding: 7px 8px;
+      text-align: center;
+      white-space: normal;
+      word-break: keep-all;
+    }
   }
   /* Small mobile */
   @media (max-width: 480px) {
@@ -923,6 +940,7 @@
     .branch-head h4 { font-size: 15px; }
     .news-item h4 { font-size: 15px; }
     .issue-item h5 { font-size: 13px; }
+    .region-map-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   }
 
   /* ===== Bank logo chips ===== */
@@ -1300,6 +1318,25 @@ function esc(s) {
   return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 }
 
+function normalizeTitle(s) {
+  return String(s || '')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .replace(/[^\p{L}\p{N}\s]/gu, '')
+    .trim();
+}
+
+function articleKey(it) {
+  if (!it) return '';
+  const link = String(it.link || '').trim().toLowerCase();
+  if (link) return `link:${link}`;
+  const id = String(it.id || '').trim();
+  if (id) return `id:${id}`;
+  const title = normalizeTitle(it.title || '');
+  const src = String(it.source || '').trim().toLowerCase();
+  return `title:${title}|src:${src}`;
+}
+
 function openNewsArticle(it) {
   if (!it || !it.link) return;
   window.open(it.link, '_blank', 'noopener');
@@ -1356,17 +1393,17 @@ function renderHeadlineAndNews(data) {
     ...(data.categories?.policy_news || []),
   ];
   const headlineId = headline?.id;
-  const headlineTitlePrefix = (headline?.title || '').slice(0, 20);
+  const headlineKey = articleKey(headline);
 
   const seen = new Set();
-  if (headlineId) seen.add(headlineTitlePrefix);
+  if (headlineKey) seen.add(headlineKey);
 
   const items = [];
   const sorted = combined.sort((a, b) => new Date(b.published) - new Date(a.published));
   for (const it of sorted) {
-    const key = (it.title || '').slice(0, 20);
-    if (seen.has(key)) continue;
-    if (it.id === headlineId) continue;
+    const key = articleKey(it);
+    if (!key || seen.has(key)) continue;
+    if (it.id === headlineId || key === headlineKey) continue;
     seen.add(key);
     items.push(it);
     if (items.length >= 15) break;
@@ -1375,7 +1412,7 @@ function renderHeadlineAndNews(data) {
   if (items.length === 0) {
     grid.innerHTML = '<div class="empty">최근 기사가 없습니다.</div>';
     updated.textContent = '0 ARTICLES';
-    renderShinhanNews(data, combined);
+    renderShinhanNews(data, combined, seen);
     return;
   }
 
@@ -1401,10 +1438,11 @@ function renderHeadlineAndNews(data) {
 
   const syncTime = new Date(data.updated_at);
   updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
-  renderShinhanNews(data, combined);
+  const shownKeys = new Set(seen);
+  renderShinhanNews(data, combined, shownKeys);
 }
 
-function renderShinhanNews(newsData, allItems) {
+function renderShinhanNews(newsData, allItems, excludedKeys = new Set()) {
   const grid = document.getElementById('shinhan-news-grid');
   const updated = document.getElementById('shinhan-news-updated');
   if (!grid || !updated) return;
@@ -1413,16 +1451,22 @@ function renderShinhanNews(newsData, allItems) {
     const txt = `${it.title || ''} ${it.summary || ''}`;
     return txt.includes('신한') || String(it.source || '').includes('신한');
   });
-  const merged = [...dedicated];
-  const seen = new Set(merged.map(it => (it.title || '').slice(0, 30)));
-  for (const it of fallback) {
-    const k = (it.title || '').slice(0, 30);
-    if (seen.has(k)) continue;
+  const seen = new Set();
+  const finalMerged = [];
+  for (const it of dedicated) {
+    const k = articleKey(it);
+    if (!k || excludedKeys.has(k) || seen.has(k)) continue;
     seen.add(k);
-    merged.push(it);
-    if (merged.length >= 12) break;
+    finalMerged.push(it);
   }
-  const items = merged.slice(0, 12);
+  for (const it of fallback) {
+    const k = articleKey(it);
+    if (!k || excludedKeys.has(k) || seen.has(k)) continue;
+    seen.add(k);
+    finalMerged.push(it);
+    if (finalMerged.length >= 12) break;
+  }
+  const items = finalMerged.slice(0, 12);
   if (items.length === 0) {
     grid.innerHTML = '<div class="empty">신한은행 관련 기사가 없습니다.</div>';
     updated.textContent = '0 ARTICLES';
@@ -1671,14 +1715,15 @@ function renderBranchRegionalRows() {
 
   rowsEl.innerHTML = banksSorted.map(b => {
     const count = b.count || 0;
-    const branches = b.branches ?? count;
+    const branchesRaw = b.branches ?? 0;
     const subOff = b.sub_offices || 0;
+    const branches = branchesRaw > 0 ? branchesRaw : Math.max(count - subOff, 0);
     const pct = (count / max * 100).toFixed(1);
     return `
       <div class="branch-row">
         <div class="bank">${bankLogoHTML(b.name)}</div>
         <div class="bar-track"><div class="bar-seg-branches" style="width:${pct}%;"></div></div>
-        <div class="count-cell">${count.toLocaleString()}<span class="sub">지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}</span></div>
+        <div class="count-cell">합계 ${count.toLocaleString()} · 출장소 ${subOff.toLocaleString()}<span class="sub">지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}</span></div>
         <div class="chg zero">—</div>
       </div>
     `;
@@ -1887,11 +1932,51 @@ const BANK_COLORS = {
 };
 
 let _trendChart = null;
-let _trendDelayed = false;
+const trendRevealPlugin = {
+  id: 'trendReveal',
+  beforeDatasetsDraw(chart) {
+    const progress = chart.$revealProgress ?? 1;
+    if (progress >= 1) return;
+    const { ctx, chartArea } = chart;
+    if (!chartArea) return;
+    chart.$clipActive = true;
+    ctx.save();
+    ctx.beginPath();
+    ctx.rect(chartArea.left, chartArea.top, chartArea.width * progress, chartArea.height);
+    ctx.clip();
+  },
+  afterDatasetsDraw(chart) {
+    if (chart.$clipActive) {
+      chart.ctx.restore();
+      chart.$clipActive = false;
+    }
+  },
+};
 
 function fmtYmLabel(ym) {
   if (!ym || ym.length !== 6) return ym || '';
   return ym.slice(0, 4) + '-' + ym.slice(4);
+}
+
+function hexToRgba(hex, alpha) {
+  if (!hex) return `rgba(212,162,76,${alpha})`;
+  const raw = String(hex).replace('#', '').trim();
+  const full = raw.length === 3 ? raw.split('').map(ch => ch + ch).join('') : raw;
+  if (!/^[0-9a-fA-F]{6}$/.test(full)) return `rgba(212,162,76,${alpha})`;
+  const r = parseInt(full.slice(0, 2), 16);
+  const g = parseInt(full.slice(2, 4), 16);
+  const b = parseInt(full.slice(4, 6), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
+function lineGradient(chart, color) {
+  const { ctx, chartArea } = chart;
+  if (!chartArea) return color;
+  const g = ctx.createLinearGradient(chartArea.left, chartArea.top, chartArea.right, chartArea.bottom);
+  g.addColorStop(0, hexToRgba(color, 0.95));
+  g.addColorStop(0.45, hexToRgba(color, 0.75));
+  g.addColorStop(1, hexToRgba(color, 0.45));
+  return g;
 }
 
 function collectHalfYearLabels(banks) {
@@ -1975,16 +2060,38 @@ function renderTrend(title, sub, labels, datasets) {
     alert('차트 라이브러리를 불러오지 못했습니다. 네트워크를 확인해 주세요.');
     return;
   }
+  const styledDatasets = datasets.map(ds => {
+    const base = ds.borderColor || '#d4a24c';
+    return {
+      ...ds,
+      borderColor: (c) => lineGradient(c.chart, base),
+      pointBorderColor: hexToRgba(base, 0.95),
+      pointBackgroundColor: hexToRgba(base, 0.95),
+      pointHoverBackgroundColor: hexToRgba(base, 1),
+      pointHoverBorderColor: '#0f1419',
+      fill: false,
+    };
+  });
   _trendChart = new Chart(ctx, {
     type: 'line',
-    data: { labels, datasets },
+    plugins: [trendRevealPlugin],
+    data: { labels, datasets: styledDatasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      animation: { duration: 1350, easing: 'easeOutCubic' },
-      animations: {
-        colors: { duration: 300 },
+      animation: {
+        duration: 1250,
+        easing: 'easeOutCubic',
+        onProgress(anim) {
+          if (!anim || !anim.chart || !anim.numSteps) return;
+          anim.chart.$revealProgress = Math.min(1, anim.currentStep / anim.numSteps);
+        },
+        onComplete(anim) {
+          if (!anim || !anim.chart) return;
+          anim.chart.$revealProgress = 1;
+        },
       },
+      animations: { colors: { duration: 600, easing: 'easeOutQuad' } },
       interaction: { mode: 'index', intersect: false },
       plugins: {
         legend: {
