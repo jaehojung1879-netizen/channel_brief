@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T13:37:03.433556+09:00",
+  "updated_at": "2026-04-19T14:14:09.274408+09:00",
   "social_finance": [
     {
       "id": "9a23174e3dad",
@@ -38,11 +38,11 @@
       "query": "중소기업 상생"
     },
     {
-      "id": "b2eee3e24266",
+      "id": "db4050755e58",
       "title": "이천시 제15회 평생학습축제 연계 중소기업 상생마켓 성황리 마무리 > 뉴스",
       "source": "더코리아",
       "summary": "이천시 제15회 평생학습축제 연계 중소기업 상생마켓 성황리 마무리 > 뉴스&nbsp;&nbsp;더코리아",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE94LXpJMHlod3NRRC1YZGV0d0syUHRNeWozT1FBNnBnQjBjQnJKOE51X09XWWQzOGJxMndFdXBEU2Mzejg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0Rm83R1NFU1NvQVlaVXZvNDdoSm1hSTk4REd1ekt3NVdEbVV1Rkk5U3dMcjRwR2RjV0hSZnR6UlNURjNHSG4tM0JCNnlIS1BYcDBCUF9nVVdtWjNwaG9rV3d1MjFuRmZjWkhhZmNyazM?oc=5",
       "published": "2026-04-18T17:19:00+09:00",
       "query": "중소기업 상생"
     },
@@ -65,25 +65,16 @@
       "query": "중소기업 상생"
     },
     {
-      "id": "3007f111dad1",
-      "title": "남해군·경남신용보증재단, 소상공인 금융지원 협력 강화",
-      "source": "경남일보",
-      "summary": "남해군·경남신용보증재단, 소상공인 금융지원 협력 강화&nbsp;&nbsp;경남일보",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9meHpKMnJmR0RaTC1oZTJCYm5vZktyc1lmbVVkeFFndS1UOWw0MjExekNaTXBXZGxTQk9IVlhOcEV6dHdaVmhVZ09MZUNQTnlFZE42WU1fZnc0akhteXM5NUtDTjdpVThyYUhZ?oc=5",
-      "published": "2026-04-16T18:35:52+09:00",
-      "query": "소상공인 금융지원"
+      "id": "5acdcae3617e",
+      "title": "[따뜻한 동행⑥] 우리금융, 포용금융 7조2000억 확대... 상생 속도",
+      "source": "포인트데일리",
+      "summary": "[따뜻한 동행⑥] 우리금융, 포용금융 7조2000억 확대... 상생 속도&nbsp;&nbsp;포인트데일리",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkWFJFdHU3cmdoSE0xNVFLVkpSblNxQXJtZW9VdUppdjcwd2daYTFPV3JqTFFvYWFIaTVPSEZ4cUVQTWxJVHJkRFpiWW5wQTNYUTdlNzhvSVNzZTd0S3lUWEc5THU3VGxHcy1Rajc5RTLSAXRBVV95cUxPUTd4NDZDcHJza2NoYkJLRnJMQS1CTTVzLUZWRkppOFRYQi1ZSkhzeUtua0dyX0pKOWY5dU5OVWxudURFWkE0NG92X3FtXzMxZHZodVdFVWhyMTg2Zm90ODBxS2NzZDkxY2NlT2FhVGIzR1BtWg?oc=5",
+      "published": "2026-04-17T04:00:00+09:00",
+      "query": "포용금융"
     }
   ],
   "tech": [
-    {
-      "id": "4ab45953d902",
-      "title": "수출입은행, 자체 생성형 AI 플랫폼 'KEXIM AI' 구축",
-      "source": "파이낸셜뉴스",
-      "summary": "수출입은행, 자체 생성형 AI 플랫폼 'KEXIM AI' 구축&nbsp;&nbsp;파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LY3BGaEMwZ0lvUFhfV3NtQmVCbnE5Q2FVdlRaaGJqVUdiWk1ZNnphanpEYkU3N2Q3TzR6bjJUcXAzUnJGdTZoaGFEdjZJOEVmZmx1LXFRUjZqd9IBXkFVX3lxTE5Eb2ZDVjE1TXhrRmNwdnI5d3JaYy15M2JsWlFaalJ4ZGIzTnpqQjRMdVJnT3ZndnhpVy1OV0IyMXNsei1mRFd3VTE5dVFRM1FQZUpjSHdoUHQ1MkQ5SkE?oc=5",
-      "published": "2026-04-19T11:26:36+09:00",
-      "query": "은행 생성형 AI"
-    },
     {
       "id": "cdc94103c105",
       "title": "지지부진한 입법에도 스테이블코인 도입 위해 달리는 금융권",
@@ -110,6 +101,15 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPcFdhVXg0Wlh1YWtHNjFpYWhrMUVsb0l1UzlXRkVUMWg4REUzazlXdUhYNjZvTDNPUjlOOFp1MFJCM0NCaURrSGZ3MjRiZGY2VjlDYzJYYU5BZw?oc=5",
       "published": "2026-04-19T09:41:00+09:00",
       "query": "은행 AI"
+    },
+    {
+      "id": "978546921ec7",
+      "title": "수출입은행, 자체 생성형 AI로 대출 심사 프로세스 단축한다",
+      "source": "이데일리",
+      "summary": "수출입은행, 자체 생성형 AI로 대출 심사 프로세스 단축한다&nbsp;&nbsp;이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc01GMnVYeHNBVHZDVFlDQ1ZNejdOdEdhZmlVYl9RalhVRXFQaG5pRkdCakNNVHloOWJNa0tYbGRDeml3eFRwTUtWTG8xZzN4cUpZWjVkdHk4M2hVbW1KQ1BNRTU1Qm1jcmlXZFR3SUM4R2RRSHNiUGJpaF83ZXM5Yw?oc=5",
+      "published": "2026-04-19T09:39:32+09:00",
+      "query": "은행 생성형 AI"
     },
     {
       "id": "c3a25cced268",
