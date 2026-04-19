@@ -948,12 +948,49 @@
     color: #fff;
     flex-shrink: 0;
   }
+  .bank-logo-img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    object-fit: contain;
+    background: #fff;
+    border: 1px solid var(--line);
+    display: inline-flex;
+    flex-shrink: 0;
+  }
   .bank-logo.kb { background: #FFBC00; color: #3A2E00; }
   .bank-logo.shinhan { background: #0046FF; }
   .bank-logo.hana { background: #008C95; }
   .bank-logo.woori { background: #0067AC; }
-  .bank-logo.nh { background: #00A738; }
   .bank-logo.generic { background: var(--accent-dim); }
+
+  .region-map {
+    border: 1px solid var(--line-soft);
+    padding: 12px;
+    margin-bottom: 16px;
+    background: var(--bg-card);
+  }
+  .region-map-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(52px, 1fr));
+    gap: 6px;
+  }
+  .region-tile {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    color: var(--ink-dim);
+    padding: 8px 6px;
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 10px;
+    line-height: 1.35;
+    cursor: pointer;
+  }
+  .region-tile.active {
+    border-color: var(--accent);
+    color: var(--ink);
+    background: rgba(212, 162, 76, 0.1);
+  }
 
   /* ===== Trend chart button ===== */
   .trend-btn {
@@ -1063,7 +1100,7 @@
   </div>
   <div class="mast-center">
     <h1>채널전략부 <em style="font-style:italic; font-weight:400;">Daily Brief</em></h1>
-    <div class="tagline">Channel Intelligence for Retail Banking Strategy</div>
+    <div class="tagline">Channel Intelligence for Banking Strategy</div>
   </div>
   <div class="mast-right">
     <span id="vol">VOL. I · NO. —</span><br>
@@ -1074,6 +1111,7 @@
 <nav class="nav">
   <a href="#headline" class="active">Headline</a>
   <a href="#news">영업점 언론</a>
+  <a href="#shinhan-news">신한은행 언론</a>
   <a href="#development">개발 공시</a>
   <a href="#branch">점포 현황</a>
   <a href="#issue">채널 이슈</a>
@@ -1103,6 +1141,16 @@
     </div>
   </section>
 
+  <section class="section" id="shinhan-news">
+    <div class="section-head">
+      <h3><span class="num">§ 01-A</span>신한은행 관련 언론</h3>
+      <div class="updated" id="shinhan-news-updated">LOADING…</div>
+    </div>
+    <div class="news-grid" id="shinhan-news-grid">
+      <div class="loading">[LOADING]</div>
+    </div>
+  </section>
+
   <section class="section" id="development">
     <div class="section-head">
       <h3><span class="num">§ 02</span>산업단지 · 복합개발 · 도시재생</h3>
@@ -1119,7 +1167,7 @@
     <div class="branch-section">
       <div class="branch-head">
         <h4>
-          5대 시중은행 점포 현황
+          4대 시중은행 점포 현황
           <span id="branch-source-badge" class="source-badge fallback">SOURCE: —</span>
         </h4>
         <div class="meta" id="branch-asof">—</div>
@@ -1145,7 +1193,7 @@
           <div class="loading">[LOADING]</div>
         </div>
         <div class="branch-total-row">
-          <div class="label">합계 (5대 은행)</div>
+          <div class="label">합계 (4대 은행)</div>
           <div class="val">
             <span id="branch-total">—</span>
             <span class="delta" id="branch-total-delta"></span>
@@ -1155,6 +1203,9 @@
 
       <!-- View: 지역별 -->
       <div id="view-regional" class="view-hidden">
+        <div class="region-map">
+          <div class="region-map-grid" id="region-map-grid"></div>
+        </div>
         <div class="region-chips" id="region-chips"></div>
         <div class="trend-btn-row">
           <button class="trend-btn" id="trend-btn-regional" type="button">
@@ -1172,7 +1223,7 @@
       <div id="fisis-guide" class="fisis-guide" style="display:none;">
         <strong>⚠ FISIS API 추가 설정 필요 (현재 fallback 사용 중)</strong><br>
         현재 <code>FISIS_API_KEY</code>만 Secrets에 등록된 상태입니다. 다음 Actions 실행 시 발견(discovery) 로직이
-        <code>companySearch</code> → <code>statisticsListSearch</code> 체인으로 5대 은행 <code>financeCd</code>와
+        <code>companySearch</code> → <code>statisticsListSearch</code> 체인으로 4대 은행 <code>financeCd</code>와
         통계표 "영업점포현황"·"지역별 점포 현황"의 <code>listNo</code>를 자동 탐색하여 <code>data/fisis_codes.json</code>에 캐싱합니다.<br><br>
         발견이 실패하는 경우 FISIS 사이트(<code>http://fisis.fss.or.kr</code>)의 "단수 통계표 조회 &gt; 일반현황"에서
         통계표명을 확인한 뒤, Secrets에 <code>FISIS_LIST_NO_BRANCH</code>·<code>FISIS_LIST_NO_REGIONAL</code>을
@@ -1249,6 +1300,11 @@ function esc(s) {
   return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 }
 
+function openNewsArticle(it) {
+  if (!it || !it.link) return;
+  window.open(it.link, '_blank', 'noopener');
+}
+
 function renderMasthead() {
   const today = new Date();
   const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
@@ -1313,12 +1369,13 @@ function renderHeadlineAndNews(data) {
     if (it.id === headlineId) continue;
     seen.add(key);
     items.push(it);
-    if (items.length >= 9) break;
+    if (items.length >= 15) break;
   }
 
   if (items.length === 0) {
     grid.innerHTML = '<div class="empty">최근 기사가 없습니다.</div>';
     updated.textContent = '0 ARTICLES';
+    renderShinhanNews(data, combined);
     return;
   }
 
@@ -1334,7 +1391,7 @@ function renderHeadlineAndNews(data) {
   grid.querySelectorAll('.news-item').forEach(el => {
     const open = () => {
       const idx = Number(el.getAttribute('data-idx'));
-      openArticleModal(window.__newsItems[idx]);
+      openNewsArticle(window.__newsItems[idx]);
     };
     el.addEventListener('click', open);
     el.addEventListener('keydown', e => {
@@ -1343,6 +1400,51 @@ function renderHeadlineAndNews(data) {
   });
 
   const syncTime = new Date(data.updated_at);
+  updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
+  renderShinhanNews(data, combined);
+}
+
+function renderShinhanNews(newsData, allItems) {
+  const grid = document.getElementById('shinhan-news-grid');
+  const updated = document.getElementById('shinhan-news-updated');
+  if (!grid || !updated) return;
+  const dedicated = (newsData?.categories?.shinhan_news || []).slice();
+  const fallback = (allItems || []).filter(it => {
+    const txt = `${it.title || ''} ${it.summary || ''}`;
+    return txt.includes('신한') || String(it.source || '').includes('신한');
+  });
+  const merged = [...dedicated];
+  const seen = new Set(merged.map(it => (it.title || '').slice(0, 30)));
+  for (const it of fallback) {
+    const k = (it.title || '').slice(0, 30);
+    if (seen.has(k)) continue;
+    seen.add(k);
+    merged.push(it);
+    if (merged.length >= 12) break;
+  }
+  const items = merged.slice(0, 12);
+  if (items.length === 0) {
+    grid.innerHTML = '<div class="empty">신한은행 관련 기사가 없습니다.</div>';
+    updated.textContent = '0 ARTICLES';
+    return;
+  }
+  window.__shinhanNewsItems = items;
+  grid.innerHTML = items.map((it, idx) => `
+    <div class="news-item" data-idx="${idx}" role="button" tabindex="0">
+      <div class="src">${esc(it.source)}</div>
+      <h4>${esc(it.title)}</h4>
+      <p>${esc(it.summary || '')}</p>
+      <div class="time">${fmtRelative(it.published)}</div>
+    </div>
+  `).join('');
+  grid.querySelectorAll('.news-item').forEach(el => {
+    const open = () => openNewsArticle(window.__shinhanNewsItems[Number(el.getAttribute('data-idx'))]);
+    el.addEventListener('click', open);
+    el.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+  });
+  const syncTime = new Date(newsData?.updated_at || Date.now());
   updated.textContent = `LAST SYNC · ${syncTime.toLocaleTimeString('ko-KR', {hour12:false})} · ${items.length} ARTICLES`;
 }
 
@@ -1364,6 +1466,27 @@ function renderDevelopment(data) {
 
 let _branchData = null;
 let _activeRegion = null;
+let _fisisRegionalLoaded = false;
+const LOGO_BASE_PATH = './assets/bank-logos';
+const BANK_LOGO_FILES = {
+  'KB국민': 'kb.png',
+  '신한': 'shinhan.png',
+  '하나': 'hana.png',
+  '우리': 'woori.png',
+};
+const REGION_TILE_ORDER = [
+  '서울', '인천', '경기', '강원',
+  '세종', '충북', '충남', '대전',
+  '전북', '전남', '광주', '제주',
+  '경북', '대구', '경남', '부산',
+  '울산',
+];
+const BANK_PRIORITY = ['신한', 'KB국민', '하나', '우리'];
+
+function bankOrder(name) {
+  const idx = BANK_PRIORITY.indexOf(name);
+  return idx === -1 ? 999 : idx;
+}
 
 function renderBranchStats(data) {
   _branchData = data;
@@ -1415,7 +1538,6 @@ function bankLogoClass(name) {
   if (name.includes('신한')) return 'shinhan';
   if (name.includes('하나')) return 'hana';
   if (name.includes('우리')) return 'woori';
-  if (name.includes('농협') || name.startsWith('NH')) return 'nh';
   return 'generic';
 }
 function bankLogoLabel(name) {
@@ -1424,20 +1546,31 @@ function bankLogoLabel(name) {
   if (name.includes('신한')) return '신한';
   if (name.includes('하나')) return '하나';
   if (name.includes('우리')) return '우리';
-  if (name.includes('농협') || name.startsWith('NH')) return 'NH';
   return name.slice(0, 2);
+}
+function bankLogoImagePath(name) {
+  return BANK_LOGO_FILES[name] ? `${LOGO_BASE_PATH}/${BANK_LOGO_FILES[name]}` : '';
 }
 function bankLogoHTML(name) {
   const cls = bankLogoClass(name);
   const lbl = bankLogoLabel(name);
+  const img = bankLogoImagePath(name);
+  if (img) {
+    return `<span class="bank-chip">
+      <img class="bank-logo-img" src="${esc(img)}" alt="${esc(name)} 로고" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-flex';">
+      <span class="bank-logo ${cls}" style="display:none;">${esc(lbl)}</span>
+      ${esc(name)}
+    </span>`;
+  }
   return `<span class="bank-chip"><span class="bank-logo ${cls}">${esc(lbl)}</span>${esc(name)}</span>`;
 }
 
 function renderBranchBanksView(data) {
   const rows = document.getElementById('branch-rows');
-  const max = Math.max(...data.banks.map(b => b.count || 0), 1);
+  const banksSorted = [...data.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const max = Math.max(...banksSorted.map(b => b.count || 0), 1);
 
-  rows.innerHTML = data.banks.map(b => {
+  rows.innerHTML = banksSorted.map(b => {
     const count = b.count || 0;
     const branches = (b.branches !== undefined) ? b.branches : count;
     const subOff = b.sub_offices || 0;
@@ -1485,6 +1618,7 @@ function renderBranchRegionalTabs(data) {
   chipsEl.innerHTML = regional.map(r => `
     <button class="region-chip ${r.region === _activeRegion ? 'active' : ''}" data-region="${esc(r.region)}">${esc(r.region)}</button>
   `).join('');
+  renderRegionMapTiles(regional);
 
   chipsEl.querySelectorAll('.region-chip').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -1497,6 +1631,31 @@ function renderBranchRegionalTabs(data) {
   renderBranchRegionalRows();
 }
 
+function renderRegionMapTiles(regional) {
+  const mapEl = document.getElementById('region-map-grid');
+  if (!mapEl) return;
+  const totals = new Map();
+  (regional || []).forEach(r => totals.set(r.region, (r.banks || []).reduce((s, b) => s + (b.count || 0), 0)));
+  const ordered = [
+    ...REGION_TILE_ORDER.filter(r => totals.has(r)),
+    ...Array.from(totals.keys()).filter(r => !REGION_TILE_ORDER.includes(r)),
+  ];
+  mapEl.innerHTML = ordered.map(region => `
+    <button class="region-tile ${region === _activeRegion ? 'active' : ''}" data-region="${esc(region)}">
+      <div>${esc(region)}</div>
+      <div>${(totals.get(region) || 0).toLocaleString()}</div>
+    </button>
+  `).join('');
+  mapEl.querySelectorAll('.region-tile').forEach(btn => {
+    btn.addEventListener('click', () => {
+      _activeRegion = btn.dataset.region;
+      document.querySelectorAll('.region-chip').forEach(b => b.classList.toggle('active', b.dataset.region === _activeRegion));
+      mapEl.querySelectorAll('.region-tile').forEach(b => b.classList.toggle('active', b.dataset.region === _activeRegion));
+      renderBranchRegionalRows();
+    });
+  });
+}
+
 function renderBranchRegionalRows() {
   const rowsEl = document.getElementById('regional-rows');
   if (!_branchData || !_activeRegion) return;
@@ -1506,10 +1665,11 @@ function renderBranchRegionalRows() {
     return;
   }
   const banks = region.banks || [];
-  const max = Math.max(...banks.map(b => b.count || 0), 1);
-  const total = banks.reduce((s, b) => s + (b.count || 0), 0);
+  const banksSorted = [...banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const max = Math.max(...banksSorted.map(b => b.count || 0), 1);
+  const total = banksSorted.reduce((s, b) => s + (b.count || 0), 0);
 
-  rowsEl.innerHTML = banks.map(b => {
+  rowsEl.innerHTML = banksSorted.map(b => {
     const count = b.count || 0;
     const pct = (count / max * 100).toFixed(1);
     return `
@@ -1522,15 +1682,29 @@ function renderBranchRegionalRows() {
     `;
   }).join('') + `
     <div class="branch-total-row">
-      <div class="label">${esc(_activeRegion)} 5대 은행 합계</div>
+      <div class="label">${esc(_activeRegion)} 4대 은행 합계</div>
       <div class="val">${total.toLocaleString()}</div>
     </div>
   `;
 }
 
+async function ensureRegionalDataFromFisis() {
+  if (_fisisRegionalLoaded || !_branchData) return;
+  if (Array.isArray(_branchData.regional) && _branchData.regional.length > 0) {
+    _fisisRegionalLoaded = true;
+    return;
+  }
+  const fisisRegional = await loadJSON('fisis_regional.json');
+  if (!fisisRegional || !Array.isArray(fisisRegional.regional) || fisisRegional.regional.length === 0) return;
+  _branchData.regional = fisisRegional.regional;
+  _branchData.latest_ym = _branchData.latest_ym || fisisRegional.latest_ym || '';
+  _fisisRegionalLoaded = true;
+  renderBranchRegionalTabs(_branchData);
+}
+
 function initBranchTabs() {
   document.querySelectorAll('.branch-tab-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
       const view = btn.dataset.view;
       document.querySelectorAll('.branch-tab-btn').forEach(b => {
         const active = b.dataset.view === view;
@@ -1539,6 +1713,9 @@ function initBranchTabs() {
       });
       document.getElementById('view-banks').classList.toggle('view-hidden', view !== 'banks');
       document.getElementById('view-regional').classList.toggle('view-hidden', view !== 'regional');
+      if (view === 'regional') {
+        await ensureRegionalDataFromFisis();
+      }
     });
   });
 }
@@ -1658,20 +1835,25 @@ function buildSummaryText(it) {
 
 function openArticleModal(it) {
   if (!it) return;
+  const preview = buildSummaryText(it);
+  if (preview.empty && it.link) {
+    window.open(it.link, '_blank', 'noopener');
+    return;
+  }
   const backdrop = document.getElementById('article-modal');
   const src = document.getElementById('modal-source');
   const title = document.getElementById('modal-title');
   const body = document.getElementById('modal-summary');
   const time = document.getElementById('modal-time');
   const link = document.getElementById('modal-open-link');
-  const { text, empty, source } = buildSummaryText(it);
+  const { text, empty, source } = preview;
   src.textContent = (it.source || '').toUpperCase();
   title.textContent = it.title || '';
   body.textContent = text;
   body.classList.toggle('empty', empty);
   const srcLabel = document.getElementById('modal-summary-source');
   if (srcLabel) {
-    srcLabel.textContent = source === 'ai' ? 'Claude Haiku 생성' : source === 'rss' ? '원문 발췌' : '—';
+    srcLabel.textContent = source === 'ai' ? 'AI 요약' : source === 'rss' ? '원문 발췌' : '요약 없음';
   }
   time.textContent = fmtRelative(it.published);
   link.href = it.link || '#';
@@ -1700,10 +1882,10 @@ const BANK_COLORS = {
   '신한': '#0046FF',
   '하나': '#008C95',
   '우리': '#0067AC',
-  'NH농협': '#00A738',
 };
 
 let _trendChart = null;
+let _trendDelayed = false;
 
 function fmtYmLabel(ym) {
   if (!ym || ym.length !== 6) return ym || '';
@@ -1745,7 +1927,7 @@ function openBanksTrend() {
       spanGaps: true,
     };
   });
-  renderTrend('5대 시중은행 점포 수 추이', '연말 기준 · 단위: 개', labels.map(fmtYmLabel), datasets);
+  renderTrend('4대 시중은행 점포 수 추이', '연말 기준 · 단위: 개', labels.map(fmtYmLabel), datasets);
 }
 
 function openRegionalTrend() {
@@ -1773,7 +1955,7 @@ function openRegionalTrend() {
       spanGaps: true,
     };
   });
-  renderTrend(`${region.region} 지역 점포 수 추이`, '연말 기준 · 단위: 개 · 5대 은행', labels, datasets);
+  renderTrend(`${region.region} 지역 점포 수 추이`, '연말 기준 · 단위: 개 · 4대 은행', labels, datasets);
 }
 
 function renderTrend(title, sub, labels, datasets) {
@@ -1782,6 +1964,7 @@ function renderTrend(title, sub, labels, datasets) {
   const canvas = document.getElementById('trend-canvas');
   const ctx = canvas.getContext('2d');
   if (_trendChart) { _trendChart.destroy(); _trendChart = null; }
+  _trendDelayed = false;
   if (!window.Chart) {
     alert('차트 라이브러리를 불러오지 못했습니다. 네트워크를 확인해 주세요.');
     return;
@@ -1792,6 +1975,39 @@ function renderTrend(title, sub, labels, datasets) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: {
+        onComplete: () => { _trendDelayed = true; },
+      },
+      animations: {
+        x: {
+          type: 'number',
+          easing: 'linear',
+          duration: 420,
+          from: NaN,
+          delay(c) {
+            if (c.type !== 'data' || c.xStarted || _trendDelayed) return 0;
+            c.xStarted = true;
+            return c.index * 110;
+          },
+        },
+        y: {
+          type: 'number',
+          easing: 'linear',
+          duration: 420,
+          from(c) {
+            if (c.index === 0) {
+              return c.chart.scales.y.getPixelForValue(c.chart.scales.y.min);
+            }
+            const prev = c.chart.getDatasetMeta(c.datasetIndex).data[c.index - 1];
+            return prev ? prev.getProps(['y'], true).y : c.chart.scales.y.getPixelForValue(c.chart.scales.y.min);
+          },
+          delay(c) {
+            if (c.type !== 'data' || c.yStarted || _trendDelayed) return 0;
+            c.yStarted = true;
+            return c.index * 110;
+          },
+        },
+      },
       interaction: { mode: 'index', intersect: false },
       plugins: {
         legend: {
