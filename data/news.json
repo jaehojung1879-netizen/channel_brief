@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T16:49:11.837570+09:00",
+  "updated_at": "2026-04-19T17:11:03.904863+09:00",
   "headline": {
     "id": "5e93adcbee3a",
     "title": "점포 주는데…은행대리업 어디까지 왔나",
@@ -75,6 +75,20 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": []
+    "policy_news": [],
+    "shinhan_news": [
+      {
+        "id": "804babc9c489",
+        "title": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장",
+        "source": "뉴스웍스",
+        "summary": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장 뉴스웍스",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YWTltMjIweTFBemtfeGk1ejJJajdKczFjR2hCX0dnV0hNOTZVNDc3TW5GNWo5bzRyREVsSktXWURzdThOTGRpSjREWld2X0FYNlNkWnZZeW1IbzAzR21jb1ZBQmpoaU5IVE1xN1U5QQ?oc=5",
+        "published": "2026-04-18T13:00:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ]
   }
 }
