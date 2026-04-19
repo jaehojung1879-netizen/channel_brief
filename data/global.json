@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T18:12:44.135682+09:00",
+  "updated_at": "2026-04-19T18:26:33.528906+09:00",
   "items": [
     {
       "id": "ad964c3acf65",
@@ -20,6 +20,16 @@
       "published": "2026-04-13T16:00:00+09:00",
       "query": "Capital One Cafe branch",
       "region": "US"
+    },
+    {
+      "id": "4a4c4559c49c",
+      "title": "JPMorgan Chase targets Huntersville site for future bank branch",
+      "source": "The Business Journals",
+      "summary": "JPMorgan Chase targets Huntersville site for future bank branch&nbsp;&nbsp;The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZ0haNkQwM3RDVGFOVjB3TUtvLVdLd1p4RHRXeV9rUE9aZDRaS0pfaUI2aDlXQ3JEUmItMzhiNXo2cGRScnlzZXJXem10a29fZDZoempBYXJGTTVyZG1nNHU3REh2VWgwY21PSWNtcFE2MmhMdUdERHRDWVpKMkUtcEJZb0hSR1NVM2RvWDJoN1VoREVZY0g5NUotaVZDQ2d3NXJDMnpn?oc=5",
+      "published": "2026-03-31T16:00:00+09:00",
+      "query": "bank branch of the future",
+      "region": "Global"
     }
   ]
 }
