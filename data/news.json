@@ -1,27 +1,30 @@
 {
-  "updated_at": "2026-04-19T14:12:58.073057+09:00",
+  "updated_at": "2026-04-19T17:53:10.216902+09:00",
   "headline": {
-    "id": "721067535033",
-    "title": "'생산성 꼴찌' 강태영 행장의 농협은행, 점포 못 줄이는 딜레마",
-    "source": "땅집고",
-    "summary": "'생산성 꼴찌' 강태영 행장의 농협은행, 점포 못 줄이는 딜레마 땅집고",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjT0lxMUJ6ZXVCU3hlVEhWbFBHSUhlb2w2d1o1TFFHZ0t4eGhlWFNhd3lfcEY3bVI4S1dlRzlTanoxSlBIc1V3QU4xV09MMjUtR1puNV96bDZKRFA5VVBTUFNpR1JlY1NoWl9SQXFlbXpNcTFiREhxd0VxdmVKOUnSAXNBVV95cUxPM1ZrTE84cnZnUDVvV3c1TGg2a1hCdjNRZG85QjhSeGZzUDM3VHVJYXpMN2hSdmZnT2ZPTFYtNFRqTVh6MEdBQXNjWkplOEVTR1o1MnJScGs1YmlBS1dNeWtrcTBkSHByWkFqbEEzMVhaRTNB?oc=5",
-    "published": "2026-04-17T06:00:00+09:00",
+    "id": "5e93adcbee3a",
+    "title": "점포 주는데…은행대리업 어디까지 왔나",
+    "source": "네이트",
+    "summary": "점포 주는데…은행대리업 어디까지 왔나 네이트",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYelpBX2pKVk82N0ZlYk1HcFBFOVNCQ21QTlM0YkJITFU5UUc4RXh6WVZjUzBQdC1KcHIyWU1taVpkMEtsQ1h0c0lsSzRMV3hJTDFB?oc=5",
+    "published": "2026-04-19T15:36:00+09:00",
     "query": "은행 점포",
-    "_score": 5.0,
+    "engine": "google",
+    "rank": 1,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "804babc9c489",
-        "title": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장",
-        "source": "뉴스웍스",
-        "summary": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장 뉴스웍스",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YWTltMjIweTFBemtfeGk1ejJJajdKczFjR2hCX0dnV0hNOTZVNDc3TW5GNWo5bzRyREVsSktXWURzdThOTGRpSjREWld2X0FYNlNkWnZZeW1IbzAzR21jb1ZBQmpoaU5IVE1xN1U5QQ?oc=5",
-        "published": "2026-04-18T13:00:00+09:00",
+        "id": "5e93adcbee3a",
+        "title": "점포 주는데…은행대리업 어디까지 왔나",
+        "source": "네이트",
+        "summary": "점포 주는데…은행대리업 어디까지 왔나 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYelpBX2pKVk82N0ZlYk1HcFBFOVNCQ21QTlM0YkJITFU5UUc4RXh6WVZjUzBQdC1KcHIyWU1taVpkMEtsQ1h0c0lsSzRMV3hJTDFB?oc=5",
+        "published": "2026-04-19T15:36:00+09:00",
         "query": "은행 점포",
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "engine": "google",
+        "rank": 1
       },
       {
         "id": "721067535033",
@@ -30,9 +33,38 @@
         "summary": "'생산성 꼴찌' 강태영 행장의 농협은행, 점포 못 줄이는 딜레마 땅집고",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjT0lxMUJ6ZXVCU3hlVEhWbFBHSUhlb2w2d1o1TFFHZ0t4eGhlWFNhd3lfcEY3bVI4S1dlRzlTanoxSlBIc1V3QU4xV09MMjUtR1puNV96bDZKRFA5VVBTUFNpR1JlY1NoWl9SQXFlbXpNcTFiREhxd0VxdmVKOUnSAXNBVV95cUxPM1ZrTE84cnZnUDVvV3c1TGg2a1hCdjNRZG85QjhSeGZzUDM3VHVJYXpMN2hSdmZnT2ZPTFYtNFRqTVh6MEdBQXNjWkplOEVTR1o1MnJScGs1YmlBS1dNeWtrcTBkSHByWkFqbEEzMVhaRTNB?oc=5",
         "published": "2026-04-17T06:00:00+09:00",
-        "query": "은행 점포"
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "df9c14295cf2",
+        "title": "KB국민은행, 영업점 중심 생산적금융 강화",
+        "source": "금융경제신문",
+        "summary": "KB국민은행, 영업점 중심 생산적금융 강화 금융경제신문",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TVGJrYlBXSkNlbHM5QlpUVE9lckJ6Z2dyVWczOWxIQWRzODZnU1h4WllFM09STVlhR3lINGlmQ2Y2RDBaZW1lak9Sb2RFeFVrdW9CeE5teG5sX2tiOGd4a01zVlBJZktjcDUzMtIBb0FVX3lxTE5pSVVfclp1SlhfMXludEhsTS1DZGxUWWVJOVJaRzVhSTQ5QWxnVVUzS1AxTVFnNWpwdEd2ckRFaW5HVjhHZUt4eGEzN21DdFgyRklQc2F6ZGdfT2w3eE1sc3ZObkFxV2dqWGpnS1hQYw?oc=5",
+        "published": "2026-04-16T13:30:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": []
+    "policy_news": [],
+    "shinhan_news": [
+      {
+        "id": "804babc9c489",
+        "title": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장",
+        "source": "뉴스웍스",
+        "summary": "\"아파트 안으로 들어온 PB\"…신한·현대건설, '디에이치 금융모델' 확장 뉴스웍스",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YWTltMjIweTFBemtfeGk1ejJJajdKczFjR2hCX0dnV0hNOTZVNDc3TW5GNWo5bzRyREVsSktXWURzdThOTGRpSjREWld2X0FYNlNkWnZZeW1IbzAzR21jb1ZBQmpoaU5IVE1xN1U5QQ?oc=5",
+        "published": "2026-04-18T13:00:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ]
   }
 }

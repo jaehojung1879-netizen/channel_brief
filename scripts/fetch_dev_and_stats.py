@@ -905,6 +905,25 @@ def fisis_build_regional_stats(codes: dict):
             region_ym_bank.setdefault(region, {}).setdefault(ym, {})[bank] = rec
 
     if not region_ym_bank:
+        # 통계표 구조에 따라 financeCd 없이 전체 은행이 내려오는 경우 fallback 파싱
+        rows = _fisis_fetch_info(list_no, finance_cd="", months_back=72)
+        for row in rows:
+            ym = _fisis_row_ym(row)
+            if not ym:
+                continue
+            bank_nm_raw = _fisis_first(row, ["financeNm", "finance_nm", "companyNm", "cmpyNm", "bankNm", "kor_co_nm", "name"])
+            bank = _map_bank_name(bank_nm_raw)
+            if not bank:
+                continue
+            region = _resolve_region_name(row)
+            if not region or region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
+                continue
+            val = _fisis_row_value(row)
+            if val is None:
+                continue
+            region_ym_bank.setdefault(region, {}).setdefault(ym, {})[bank] = int(val)
+
+    if not region_ym_bank:
         return None
 
     def sort_key(nm):
