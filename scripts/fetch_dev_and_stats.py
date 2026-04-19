@@ -152,7 +152,10 @@ def _ym_to_asof(ym: str):
 
 def _resolve_region_name(row: dict):
     """FISIS row에서 지역명/지역코드를 해석해 표준 지역명 반환."""
-    code = _fisis_first(row, ["regionCd", "region_cd", "areaCd", "area_cd", "zoneCd", "zone_cd", "localCd", "local_cd"])
+    code = _fisis_first(row, [
+        "regionCd", "region_cd", "areaCd", "area_cd", "zoneCd", "zone_cd", "localCd", "local_cd",
+        "accountCd", "account_cd", "acntCd", "acnt_cd",
+    ])
     if code:
         code = str(code).strip().upper()
         if code in REGION_CODE_MAP:
@@ -546,6 +549,49 @@ def fisis_find_list_no(keywords):
     return None
 
 
+def _looks_like_regional_rows(rows: list) -> bool:
+    """지역별 통계표 응답인지 휴리스틱 판별."""
+    if not rows:
+        return False
+    hit = 0
+    for r in rows[:60]:
+        region = _resolve_region_name(r)
+        if region and region not in ("합계", "소계", "총계", "계", "전국", "전 국", "total"):
+            hit += 1
+    return hit >= 3
+
+
+def fisis_find_regional_list_no_by_probe(bank_cds: dict):
+    """listNo 자동 발견 실패 시, 후보 listNo를 실제 조회해 지역코드/지역명 포함 응답인지 검사."""
+    if not bank_cds:
+        return None
+    probe_fin_cd = next(iter(bank_cds.values()), "")
+    if not probe_fin_cd:
+        return None
+    rows = _fisis_call("statisticsListSearch", partDiv=FISIS_PART_DIV_DOMESTIC_BANK, lrgDiv=FISIS_LRG_DIV_BANK, smlDiv=FISIS_SML_DIV_GENERAL)
+    if not rows:
+        return None
+
+    candidates = []
+    for row in rows:
+        name = _fisis_first(row, ["listNm", "listnm", "list_nm", "name", "title"]) or ""
+        code = _fisis_first(row, ["listNo", "listno", "list_no", "stsListNo", "sts_list_no", "code", "cd"])
+        if not code:
+            continue
+        nn = _norm(name)
+        if "점포" in nn or "영업점" in nn:
+            candidates.append((str(code), str(name)))
+    # 이름이 더 직접적인 후보 우선
+    candidates.sort(key=lambda x: (0 if ("지역별" in x[1] or "권역별" in x[1]) else 1, x[0]))
+    for list_no, name in candidates[:30]:
+        probe_rows = _fisis_fetch_info(list_no, probe_fin_cd, months_back=18)
+        if _looks_like_regional_rows(probe_rows):
+            print(f"[fisis] regional listNo probe hit: {list_no} ({name})")
+            return list_no
+    print("[fisis] regional listNo probe failed")
+    return None
+
+
 def fisis_load_cache():
     if not FISIS_CACHE_FILE.exists():
         return {}
@@ -568,16 +614,26 @@ def fisis_discover_codes():
     """발견 + 캐시. 환경변수로 수동 override 가능."""
     cached = fisis_load_cache()
     bank_cds = dict(cached.get("bank_finance_codes") or {})
-    list_no_branch = cached.get("list_no_branch") or os.environ.get("FISIS_LIST_NO_BRANCH", "").strip()
-    list_no_regional = cached.get("list_no_regional") or os.environ.get("FISIS_LIST_NO_REGIONAL", "").strip()
+    list_no_branch = (
+        cached.get("list_no_branch")
+        or os.environ.get("FISIS_LIST_NO_BRANCH", "").strip()
+        or os.environ.get("FISIS_LIST_NO", "").strip()  # legacy env
+    )
+    list_no_regional = (
+        cached.get("list_no_regional")
+        or os.environ.get("FISIS_LIST_NO_REGIONAL", "").strip()
+        or os.environ.get("FISIS_LIST_NO", "").strip()  # legacy env
+    )
 
-    if len(bank_cds) < 5:
+    if len(bank_cds) < len(TARGET_BANKS):
         discovered = fisis_find_bank_finance_codes()
         bank_cds.update(discovered)
     if not list_no_branch:
         list_no_branch = fisis_find_list_no((FISIS_LIST_KEYWORD_BRANCH, "영업점포", "영업점 현황", "점포현황"))
     if not list_no_regional:
         list_no_regional = fisis_find_list_no((FISIS_LIST_KEYWORD_REGIONAL, "지역별점포", "지역별 점포", "지역별영업점"))
+    if not list_no_regional:
+        list_no_regional = fisis_find_regional_list_no_by_probe(bank_cds)
 
     codes = {
         "bank_finance_codes": bank_cds,
@@ -595,10 +651,19 @@ def _fisis_fetch_info(list_no: str, finance_cd: str = "", months_back: int = 18)
     end_ym = now.strftime("%Y%m")
     start_dt = (now.replace(day=1) - timedelta(days=months_back * 31))
     start_ym = start_dt.strftime("%Y%m")
-    return _fisis_call("statisticsInfoSearch",
+    rows = _fisis_call("statisticsInfoSearch",
                        financeCd=finance_cd,
                        listNo=list_no,
                        term="Q",
+                       startBaseMm=start_ym,
+                       endBaseMm=end_ym)
+    if rows:
+        return rows
+    # 일부 통계표는 월 단위(term=M)만 응답
+    return _fisis_call("statisticsInfoSearch",
+                       financeCd=finance_cd,
+                       listNo=list_no,
+                       term="M",
                        startBaseMm=start_ym,
                        endBaseMm=end_ym)
 

@@ -90,11 +90,17 @@ BLOCKED_TITLE_KEYWORDS = [
     "cofix", "코픽스", "자금조달비용지수",
     "예금금리", "대출금리", "환율", "채권", "국채",
     "vietnam", "베트남", "미얀마", "캄보디아", "라오스",
+    "로펌라운지", "법무법인", "로펌",
 ]
 
 CORE_BRANCH_KEYWORDS = [
     "영업점", "점포", "지점", "공동점포", "점포폐쇄", "채널",
-    "스마트점포", "디지털 라운지", "라운지", "은행 점포", "은행 영업점",
+    "스마트점포", "디지털 라운지", "은행 점포", "은행 영업점",
+]
+
+BANK_CONTEXT_KEYWORDS = [
+    "은행", "신한", "국민", "하나", "우리", "kb", "shinhan", "woori", "hana",
+    "금감원", "금융위", "은행연합회",
 ]
 
 
@@ -294,6 +300,9 @@ def is_relevant_article(item: dict, require_core: bool = True) -> bool:
 
     # 영업점 연관 키워드가 최소 1개는 있어야 표시
     if require_core and not any(kw.lower() in hay for kw in CORE_BRANCH_KEYWORDS):
+        return False
+    # 은행 맥락이 없으면 제외 (로펌 라운지 등 비관련 기사 제거)
+    if not any(kw.lower() in hay for kw in BANK_CONTEXT_KEYWORDS):
         return False
     return True
 

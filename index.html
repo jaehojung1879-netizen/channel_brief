@@ -1885,6 +1885,7 @@ const BANK_COLORS = {
 };
 
 let _trendChart = null;
+let _trendDelayed = false;
 
 function fmtYmLabel(ym) {
   if (!ym || ym.length !== 6) return ym || '';
@@ -1963,6 +1964,7 @@ function renderTrend(title, sub, labels, datasets) {
   const canvas = document.getElementById('trend-canvas');
   const ctx = canvas.getContext('2d');
   if (_trendChart) { _trendChart.destroy(); _trendChart = null; }
+  _trendDelayed = false;
   if (!window.Chart) {
     alert('차트 라이브러리를 불러오지 못했습니다. 네트워크를 확인해 주세요.');
     return;
@@ -1973,6 +1975,39 @@ function renderTrend(title, sub, labels, datasets) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: {
+        onComplete: () => { _trendDelayed = true; },
+      },
+      animations: {
+        x: {
+          type: 'number',
+          easing: 'linear',
+          duration: 420,
+          from: NaN,
+          delay(c) {
+            if (c.type !== 'data' || c.xStarted || _trendDelayed) return 0;
+            c.xStarted = true;
+            return c.index * 110;
+          },
+        },
+        y: {
+          type: 'number',
+          easing: 'linear',
+          duration: 420,
+          from(c) {
+            if (c.index === 0) {
+              return c.chart.scales.y.getPixelForValue(c.chart.scales.y.min);
+            }
+            const prev = c.chart.getDatasetMeta(c.datasetIndex).data[c.index - 1];
+            return prev ? prev.getProps(['y'], true).y : c.chart.scales.y.getPixelForValue(c.chart.scales.y.min);
+          },
+          delay(c) {
+            if (c.type !== 'data' || c.yStarted || _trendDelayed) return 0;
+            c.yStarted = true;
+            return c.index * 110;
+          },
+        },
+      },
       interaction: { mode: 'index', intersect: false },
       plugins: {
         legend: {
