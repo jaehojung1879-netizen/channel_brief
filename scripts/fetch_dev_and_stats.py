@@ -918,6 +918,11 @@ def fisis_build_regional_stats(codes: dict):
         rows = _fisis_fetch_info(list_no, finance_cd, months_back=72)
         rows_branches = _fisis_fetch_info(list_no, finance_cd, months_back=72, account_cd="A11")
         rows_sub_offices = _fisis_fetch_info(list_no, finance_cd, months_back=72, account_cd="A12")
+        if rows and bank == "신한":
+            sample = rows[0]
+            print(f"[fisis][regional] sample row keys: {list(sample.keys())}")
+            print(f"[fisis][regional] sample row: {sample}")
+            print(f"[fisis][regional] rows_sub_offices count: {len(rows_sub_offices)}")
         if not rows:
             continue
         yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
@@ -934,6 +939,24 @@ def fisis_build_regional_stats(codes: dict):
             _merge_regional_rows(rows_branches, bank, target_yms, kind="branches")
         if rows_sub_offices:
             _merge_regional_rows(rows_sub_offices, bank, target_yms, kind="sub_offices")
+        else:
+            # Wide-format fallback: FISIS regional rows often have 지점 in field "a"
+            # and 출장소 in field "b" of the SAME row (not separate A12 rows).
+            # accountCd="A12" filter matches no region codes → rows_sub_offices empty.
+            for row in rows:
+                ym = _fisis_row_ym(row)
+                region = _resolve_region_name(row)
+                if ym not in target_yms or not region:
+                    continue
+                if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
+                    continue
+                b_val = _extract_int(row.get("b") or row.get("B"))
+                if b_val is None:
+                    continue
+                rec = region_ym_bank.get(region, {}).get(ym, {}).get(bank)
+                if rec is not None and b_val > 0:
+                    rec["sub_offices"] = max(rec["sub_offices"], b_val)
+                    rec["count"] = max(rec["count"], rec["branches"] + b_val)
         time.sleep(0.3)
 
     if not region_ym_bank:
@@ -996,6 +1019,23 @@ def fisis_build_regional_stats(codes: dict):
                 continue
             rec = region_ym_bank.setdefault(region, {}).setdefault(ym, {}).setdefault(bank, {"count": 0, "branches": 0, "sub_offices": 0})
             rec["sub_offices"] = max(rec["sub_offices"], int(val))
+
+        if not rows_sub_offices:
+            for row in rows:
+                ym = _fisis_row_ym(row)
+                bank_nm_raw = _fisis_first(row, ["financeNm", "finance_nm", "companyNm", "cmpyNm", "bankNm", "kor_co_nm", "name"])
+                bank = _map_bank_name(bank_nm_raw)
+                region = _resolve_region_name(row)
+                if not ym or not bank or not region:
+                    continue
+                if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
+                    continue
+                b_val = _extract_int(row.get("b") or row.get("B"))
+                if b_val is None or b_val <= 0:
+                    continue
+                rec = region_ym_bank.get(region, {}).get(ym, {}).get(bank)
+                if rec is not None:
+                    rec["sub_offices"] = max(rec["sub_offices"], b_val)
 
     if not region_ym_bank:
         return None
