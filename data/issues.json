@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-21T07:44:23.536300+09:00",
+  "updated_at": "2026-04-21T08:24:44.519723+09:00",
   "social_finance": [
+    {
+      "id": "c85e1f19d9a4",
+      "title": "한수원, 원전 소재 지역 소상공인.소기업 금융 지원",
+      "source": "tbc.co.kr",
+      "summary": "한수원, 원전 소재 지역 소상공인.소기업 금융 지원&nbsp;&nbsp;tbc.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObmpkRHFYUWVBVUstRFdMdTFfS1Rta0pjcFVDX0JvbkQ3Z1JrdnMxd1dBcmM3dU1Rby1TU1NQYnBDMGlJRjludmhVd1NCbmdVVWhUTER6OVpnNUNJWlZnVmtDeG1MQ284VVFxZzZIa3BNXzRlbU9ZRHc3bmw5SmFBNVh0RGRhdw?oc=5",
+      "published": "2026-04-21T08:08:58+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "a36111549303",
+      "title": "한수원, 소상공인 금융지원 300억원 기금 조성",
+      "source": "v.daum.net",
+      "summary": "한수원, 소상공인 금융지원 300억원 기금 조성&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EeFVXYmN3azhXdDFUTDF5dllsYThfSjVqb09GdnZfUTkwd2YxcHNEQXk1UFlHQXdVd2YtcVdnVkctS3hoTUNRZ0JDVDI0WUU?oc=5",
+      "published": "2026-04-21T07:59:02+09:00",
+      "query": "소상공인 금융지원"
+    },
     {
       "id": "9cd818a53f73",
       "title": "군산시 금융복지상담센터, 채무조정부터 자산 형성까지 통합 지원",
@@ -18,15 +36,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FcWJJSGRRMXJsMzFhWVU3SkJMckx5YWdsNDNZbWZwS1EzMG8tYWctZnNZU09UNDBHcXZ6b0hPVkNKVGtaZXVaNUY3aVo1YmE3VjV5TWQ3cW8zdzRTeExHQ3FfQTlvZw?oc=5",
       "published": "2026-04-20T22:32:01+09:00",
       "query": "취약계층 금융"
-    },
-    {
-      "id": "e719765386f4",
-      "title": "한수원, 소상공인 금융지원 300억 원 기금 조성",
-      "source": "부산일보",
-      "summary": "한수원, 소상공인 금융지원 300억 원 기금 조성&nbsp;&nbsp;부산일보",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02c042bkhZMmhFd1RQRVZ4VlRtRTdpWk5xR3d3aF9EczhtNUpnVGxWdGpRWTd4WmR3QUtQR1BVNXdZNkxSRjFBNFJkZFJnVElja3BKWmlsLW9TU0QzaVctMFJieF82Z2JpT21IYlVxYkdyeVkw?oc=5",
-      "published": "2026-04-20T19:19:17+09:00",
-      "query": "소상공인 금융지원"
     },
     {
       "id": "5e32cfeb21a3",
@@ -56,15 +65,6 @@
       "query": "상생금융"
     },
     {
-      "id": "a52ba480caa1",
-      "title": "[금융 게시판] 우리은행, 중동전쟁 피해 기업 금융지원 外",
-      "source": "라이센스뉴스",
-      "summary": "[금융 게시판] 우리은행, 중동전쟁 피해 기업 금융지원 外&nbsp;&nbsp;라이센스뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZUnZGNVFSMWQtUDk3NzRzOHN4LUdHcGVlS1A1V1c4T1p5bnVhOFBaYzhKSDA4VVhHd0VNdVJ4cjJTWWM0QjR4YkdQNWtaSThJbnZJc1ZTRzFKbDk3WVB2ZEMybTFXR01GU1Fn?oc=5",
-      "published": "2026-04-20T17:25:27+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
       "id": "73731a9a10a1",
       "title": "김은경 서금원장, 일일 상담사로 현장 점검…“맞춤형 복합지원 강화”",
       "source": "이투데이",
@@ -76,11 +76,11 @@
   ],
   "tech": [
     {
-      "id": "2465f7a02b00",
-      "title": "[비트코인 지금]CBDC·스테이블코인 공존…'디지털 통화 투트랙' 현실화되나",
-      "source": "네이트",
-      "summary": "[비트코인 지금]CBDC·스테이블코인 공존…'디지털 통화 투트랙' 현실화되나&nbsp;&nbsp;네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oNks2Z3NjbmF6NTg4Z0VCRFNmTnh6czMtLVBVMjNFTmt3N2pKZlRqM29FOUFtRnNHamdtT3VIT3VSS3RYdWRjWGJDZ1FaS3ZpRjkw?oc=5",
+      "id": "b6e37ea4c00d",
+      "title": "[비트코인 지금]CBDC·스테이블코인 공존…‘디지털 통화 투트랙’ 현실화되나",
+      "source": "아시아경제",
+      "summary": "[비트코인 지금]CBDC·스테이블코인 공존…‘디지털 통화 투트랙’ 현실화되나&nbsp;&nbsp;아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mSEE3NVhHT3dzTUtLX2UzNktKcDJFQmJLWEZhb0hZUlI3V1hyT2xMLUhtb3ZmZ3BiMnQ2dlMwMGlxaXFSa1ZWOGg0Yk5hVWNqSDUzTEJwUlVlOHVkWnpYVQ?oc=5",
       "published": "2026-04-21T06:36:00+09:00",
       "query": "CBDC 은행"
     },
