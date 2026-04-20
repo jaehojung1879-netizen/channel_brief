@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T08:24:01.166362+09:00",
+  "updated_at": "2026-04-21T08:54:16.614791+09:00",
   "as_of": "2025-12-31",
   "latest_ym": "202512",
   "source": "금융통계정보시스템(FISIS) · 국내은행 영업점포현황",
@@ -237,26 +237,26 @@
         {
           "name": "신한",
           "count": 220,
-          "branches": 220,
-          "sub_offices": 0
+          "branches": 189,
+          "sub_offices": 31
         },
         {
           "name": "KB국민",
           "count": 256,
-          "branches": 256,
-          "sub_offices": 0
+          "branches": 221,
+          "sub_offices": 35
         },
         {
           "name": "하나",
           "count": 220,
-          "branches": 220,
-          "sub_offices": 0
+          "branches": 196,
+          "sub_offices": 24
         },
         {
           "name": "우리",
           "count": 238,
-          "branches": 238,
-          "sub_offices": 0
+          "branches": 211,
+          "sub_offices": 27
         }
       ],
       "history": [
@@ -266,26 +266,26 @@
             {
               "name": "신한",
               "count": 314,
-              "branches": 314,
-              "sub_offices": 0
+              "branches": 270,
+              "sub_offices": 44
             },
             {
               "name": "KB국민",
               "count": 326,
-              "branches": 326,
-              "sub_offices": 0
+              "branches": 296,
+              "sub_offices": 30
             },
             {
               "name": "하나",
               "count": 250,
-              "branches": 250,
-              "sub_offices": 0
+              "branches": 230,
+              "sub_offices": 20
             },
             {
               "name": "우리",
               "count": 335,
-              "branches": 335,
-              "sub_offices": 0
+              "branches": 300,
+              "sub_offices": 35
             }
           ]
         },
@@ -295,26 +295,26 @@
             {
               "name": "신한",
               "count": 305,
-              "branches": 305,
-              "sub_offices": 0
+              "branches": 256,
+              "sub_offices": 49
             },
             {
               "name": "KB국민",
               "count": 322,
-              "branches": 322,
-              "sub_offices": 0
+              "branches": 290,
+              "sub_offices": 32
             },
             {
               "name": "하나",
               "count": 243,
-              "branches": 243,
-              "sub_offices": 0
+              "branches": 226,
+              "sub_offices": 17
             },
             {
               "name": "우리",
               "count": 333,
-              "branches": 333,
-              "sub_offices": 0
+              "branches": 301,
+              "sub_offices": 32
             }
           ]
         },
@@ -324,26 +324,26 @@
             {
               "name": "신한",
               "count": 279,
-              "branches": 279,
-              "sub_offices": 0
+              "branches": 237,
+              "sub_offices": 42
             },
             {
               "name": "KB국민",
               "count": 319,
-              "branches": 319,
-              "sub_offices": 0
+              "branches": 297,
+              "sub_offices": 22
             },
             {
               "name": "하나",
               "count": 232,
-              "branches": 232,
-              "sub_offices": 0
+              "branches": 210,
+              "sub_offices": 22
             },
             {
               "name": "우리",
               "count": 313,
-              "branches": 313,
-              "sub_offices": 0
+              "branches": 283,
+              "sub_offices": 30
             }
           ]
         },
@@ -353,26 +353,26 @@
             {
               "name": "신한",
               "count": 267,
-              "branches": 267,
-              "sub_offices": 0
+              "branches": 227,
+              "sub_offices": 40
             },
             {
               "name": "KB국민",
               "count": 307,
-              "branches": 307,
-              "sub_offices": 0
+              "branches": 280,
+              "sub_offices": 27
             },
             {
               "name": "하나",
               "count": 221,
-              "branches": 221,
-              "sub_offices": 0
+              "branches": 200,
+              "sub_offices": 21
             },
             {
               "name": "우리",
               "count": 293,
-              "branches": 293,
-              "sub_offices": 0
+              "branches": 266,
+              "sub_offices": 27
             }
           ]
         },
@@ -382,26 +382,26 @@
             {
               "name": "신한",
               "count": 263,
-              "branches": 263,
-              "sub_offices": 0
+              "branches": 225,
+              "sub_offices": 38
             },
             {
               "name": "KB국민",
               "count": 307,
-              "branches": 307,
-              "sub_offices": 0
+              "branches": 291,
+              "sub_offices": 16
             },
             {
               "name": "하나",
               "count": 219,
-              "branches": 219,
-              "sub_offices": 0
+              "branches": 199,
+              "sub_offices": 20
             },
             {
               "name": "우리",
               "count": 285,
-              "branches": 285,
-              "sub_offices": 0
+              "branches": 260,
+              "sub_offices": 25
             }
           ]
         },
@@ -411,26 +411,26 @@
             {
               "name": "신한",
               "count": 266,
-              "branches": 266,
-              "sub_offices": 0
+              "branches": 229,
+              "sub_offices": 37
             },
             {
               "name": "KB국민",
               "count": 273,
-              "branches": 273,
-              "sub_offices": 0
+              "branches": 246,
+              "sub_offices": 27
             },
             {
               "name": "하나",
               "count": 219,
-              "branches": 219,
-              "sub_offices": 0
+              "branches": 199,
+              "sub_offices": 20
             },
             {
               "name": "우리",
               "count": 280,
-              "branches": 280,
-              "sub_offices": 0
+              "branches": 255,
+              "sub_offices": 25
             }
           ]
         },
@@ -440,26 +440,26 @@
             {
               "name": "신한",
               "count": 266,
-              "branches": 266,
-              "sub_offices": 0
+              "branches": 231,
+              "sub_offices": 35
             },
             {
               "name": "KB국민",
               "count": 274,
-              "branches": 274,
-              "sub_offices": 0
+              "branches": 247,
+              "sub_offices": 27
             },
             {
               "name": "하나",
               "count": 220,
-              "branches": 220,
-              "sub_offices": 0
+              "branches": 201,
+              "sub_offices": 19
             },
             {
               "name": "우리",
               "count": 279,
-              "branches": 279,
-              "sub_offices": 0
+              "branches": 251,
+              "sub_offices": 28
             }
           ]
         },
@@ -469,26 +469,26 @@
             {
               "name": "신한",
               "count": 263,
-              "branches": 263,
-              "sub_offices": 0
+              "branches": 227,
+              "sub_offices": 36
             },
             {
               "name": "KB국민",
               "count": 275,
-              "branches": 275,
-              "sub_offices": 0
+              "branches": 249,
+              "sub_offices": 26
             },
             {
               "name": "하나",
               "count": 221,
-              "branches": 221,
-              "sub_offices": 0
+              "branches": 201,
+              "sub_offices": 20
             },
             {
               "name": "우리",
               "count": 271,
-              "branches": 271,
-              "sub_offices": 0
+              "branches": 244,
+              "sub_offices": 27
             }
           ]
         },
@@ -498,26 +498,26 @@
             {
               "name": "신한",
               "count": 252,
-              "branches": 252,
-              "sub_offices": 0
+              "branches": 219,
+              "sub_offices": 33
             },
             {
               "name": "KB국민",
               "count": 275,
-              "branches": 275,
-              "sub_offices": 0
+              "branches": 248,
+              "sub_offices": 27
             },
             {
               "name": "하나",
               "count": 221,
-              "branches": 221,
-              "sub_offices": 0
+              "branches": 201,
+              "sub_offices": 20
             },
             {
               "name": "우리",
               "count": 255,
-              "branches": 255,
-              "sub_offices": 0
+              "branches": 228,
+              "sub_offices": 27
             }
           ]
         },
@@ -527,26 +527,26 @@
             {
               "name": "신한",
               "count": 222,
-              "branches": 222,
-              "sub_offices": 0
+              "branches": 190,
+              "sub_offices": 32
             },
             {
               "name": "KB국민",
               "count": 255,
-              "branches": 255,
-              "sub_offices": 0
+              "branches": 220,
+              "sub_offices": 35
             },
             {
               "name": "하나",
               "count": 220,
-              "branches": 220,
-              "sub_offices": 0
+              "branches": 197,
+              "sub_offices": 23
             },
             {
               "name": "우리",
               "count": 241,
-              "branches": 241,
-              "sub_offices": 0
+              "branches": 215,
+              "sub_offices": 26
             }
           ]
         },
@@ -556,26 +556,26 @@
             {
               "name": "신한",
               "count": 220,
-              "branches": 220,
-              "sub_offices": 0
+              "branches": 189,
+              "sub_offices": 31
             },
             {
               "name": "KB국민",
               "count": 256,
-              "branches": 256,
-              "sub_offices": 0
+              "branches": 221,
+              "sub_offices": 35
             },
             {
               "name": "하나",
               "count": 220,
-              "branches": 220,
-              "sub_offices": 0
+              "branches": 196,
+              "sub_offices": 24
             },
             {
               "name": "우리",
               "count": 238,
-              "branches": 238,
-              "sub_offices": 0
+              "branches": 211,
+              "sub_offices": 27
             }
           ]
         }
@@ -587,26 +587,26 @@
         {
           "name": "신한",
           "count": 22,
-          "branches": 22,
-          "sub_offices": 0
+          "branches": 17,
+          "sub_offices": 5
         },
         {
           "name": "KB국민",
           "count": 37,
-          "branches": 37,
-          "sub_offices": 0
+          "branches": 26,
+          "sub_offices": 11
         },
         {
           "name": "하나",
           "count": 35,
-          "branches": 35,
-          "sub_offices": 0
+          "branches": 33,
+          "sub_offices": 2
         },
         {
           "name": "우리",
           "count": 36,
-          "branches": 36,
-          "sub_offices": 0
+          "branches": 33,
+          "sub_offices": 3
         }
       ],
       "history": [
@@ -616,26 +616,26 @@
             {
               "name": "신한",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 5
             },
             {
               "name": "KB국민",
               "count": 56,
-              "branches": 56,
-              "sub_offices": 0
+              "branches": 52,
+              "sub_offices": 4
             },
             {
               "name": "하나",
               "count": 37,
-              "branches": 37,
-              "sub_offices": 0
+              "branches": 35,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 43,
-              "branches": 43,
-              "sub_offices": 0
+              "branches": 41,
+              "sub_offices": 2
             }
           ]
         },
@@ -645,26 +645,26 @@
             {
               "name": "신한",
               "count": 30,
-              "branches": 30,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 7
             },
             {
               "name": "KB국민",
               "count": 47,
-              "branches": 47,
-              "sub_offices": 0
+              "branches": 36,
+              "sub_offices": 11
             },
             {
               "name": "하나",
               "count": 36,
-              "branches": 36,
-              "sub_offices": 0
+              "branches": 34,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 43,
-              "branches": 43,
-              "sub_offices": 0
+              "branches": 41,
+              "sub_offices": 2
             }
           ]
         },
@@ -674,26 +674,26 @@
             {
               "name": "신한",
               "count": 29,
-              "branches": 29,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 6
             },
             {
               "name": "KB국민",
               "count": 47,
-              "branches": 47,
-              "sub_offices": 0
+              "branches": 41,
+              "sub_offices": 6
             },
             {
               "name": "하나",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 43,
-              "branches": 43,
-              "sub_offices": 0
+              "branches": 42,
+              "sub_offices": 1
             }
           ]
         },
@@ -703,26 +703,26 @@
             {
               "name": "신한",
               "count": 27,
-              "branches": 27,
-              "sub_offices": 0
+              "branches": 22,
+              "sub_offices": 5
             },
             {
               "name": "KB국민",
               "count": 46,
-              "branches": 46,
-              "sub_offices": 0
+              "branches": 41,
+              "sub_offices": 5
             },
             {
               "name": "하나",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 42,
-              "branches": 42,
-              "sub_offices": 0
+              "branches": 41,
+              "sub_offices": 1
             }
           ]
         },
@@ -732,26 +732,26 @@
             {
               "name": "신한",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 4
             },
             {
               "name": "KB국민",
               "count": 46,
-              "branches": 46,
-              "sub_offices": 0
+              "branches": 41,
+              "sub_offices": 5
             },
             {
               "name": "하나",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 41,
-              "branches": 41,
-              "sub_offices": 0
+              "branches": 40,
+              "sub_offices": 1
             }
           ]
         },
@@ -761,26 +761,26 @@
             {
               "name": "신한",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 4
             },
             {
               "name": "KB국민",
               "count": 42,
-              "branches": 42,
-              "sub_offices": 0
+              "branches": 35,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 41,
-              "branches": 41,
-              "sub_offices": 0
+              "branches": 40,
+              "sub_offices": 1
             }
           ]
         },
@@ -790,26 +790,26 @@
             {
               "name": "신한",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 4
             },
             {
               "name": "KB국민",
               "count": 42,
-              "branches": 42,
-              "sub_offices": 0
+              "branches": 35,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 41,
-              "branches": 41,
-              "sub_offices": 0
+              "branches": 40,
+              "sub_offices": 1
             }
           ]
         },
@@ -819,26 +819,26 @@
             {
               "name": "신한",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 42,
-              "branches": 42,
-              "sub_offices": 0
+              "branches": 35,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 41,
-              "branches": 41,
-              "sub_offices": 0
+              "branches": 40,
+              "sub_offices": 1
             }
           ]
         },
@@ -848,26 +848,26 @@
             {
               "name": "신한",
               "count": 24,
-              "branches": 24,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 5
             },
             {
               "name": "KB국민",
               "count": 42,
-              "branches": 42,
-              "sub_offices": 0
+              "branches": 35,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 40,
-              "branches": 40,
-              "sub_offices": 0
+              "branches": 39,
+              "sub_offices": 1
             }
           ]
         },
@@ -877,26 +877,26 @@
             {
               "name": "신한",
               "count": 22,
-              "branches": 22,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 5
             },
             {
               "name": "KB국민",
               "count": 37,
-              "branches": 37,
-              "sub_offices": 0
+              "branches": 26,
+              "sub_offices": 11
             },
             {
               "name": "하나",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 38,
-              "branches": 38,
-              "sub_offices": 0
+              "branches": 36,
+              "sub_offices": 2
             }
           ]
         },
@@ -906,26 +906,26 @@
             {
               "name": "신한",
               "count": 22,
-              "branches": 22,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 5
             },
             {
               "name": "KB국민",
               "count": 37,
-              "branches": 37,
-              "sub_offices": 0
+              "branches": 26,
+              "sub_offices": 11
             },
             {
               "name": "하나",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 36,
-              "branches": 36,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 3
             }
           ]
         }
@@ -937,14 +937,14 @@
         {
           "name": "신한",
           "count": 16,
-          "branches": 16,
-          "sub_offices": 0
+          "branches": 15,
+          "sub_offices": 1
         },
         {
           "name": "KB국민",
           "count": 21,
-          "branches": 21,
-          "sub_offices": 0
+          "branches": 14,
+          "sub_offices": 7
         },
         {
           "name": "하나",
@@ -966,14 +966,14 @@
             {
               "name": "신한",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 35,
-              "branches": 35,
-              "sub_offices": 0
+              "branches": 31,
+              "sub_offices": 4
             },
             {
               "name": "하나",
@@ -995,14 +995,14 @@
             {
               "name": "신한",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 24,
+              "sub_offices": 7
             },
             {
               "name": "하나",
@@ -1024,14 +1024,14 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 26,
+              "sub_offices": 5
             },
             {
               "name": "하나",
@@ -1053,14 +1053,14 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 27,
-              "branches": 27,
-              "sub_offices": 0
+              "branches": 24,
+              "sub_offices": 3
             },
             {
               "name": "하나",
@@ -1082,14 +1082,14 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 27,
-              "branches": 27,
-              "sub_offices": 0
+              "branches": 24,
+              "sub_offices": 3
             },
             {
               "name": "하나",
@@ -1111,14 +1111,14 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 2
             },
             {
               "name": "하나",
@@ -1140,14 +1140,14 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 2
             },
             {
               "name": "하나",
@@ -1169,14 +1169,14 @@
             {
               "name": "신한",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 2
             },
             {
               "name": "하나",
@@ -1198,14 +1198,14 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 16,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 2
             },
             {
               "name": "하나",
@@ -1227,14 +1227,14 @@
             {
               "name": "신한",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 7
             },
             {
               "name": "하나",
@@ -1256,14 +1256,14 @@
             {
               "name": "신한",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 7
             },
             {
               "name": "하나",
@@ -1287,26 +1287,26 @@
         {
           "name": "신한",
           "count": 39,
-          "branches": 39,
-          "sub_offices": 0
+          "branches": 29,
+          "sub_offices": 10
         },
         {
           "name": "KB국민",
           "count": 33,
-          "branches": 33,
-          "sub_offices": 0
+          "branches": 21,
+          "sub_offices": 12
         },
         {
           "name": "하나",
           "count": 25,
-          "branches": 25,
-          "sub_offices": 0
+          "branches": 19,
+          "sub_offices": 6
         },
         {
           "name": "우리",
           "count": 26,
-          "branches": 26,
-          "sub_offices": 0
+          "branches": 17,
+          "sub_offices": 9
         }
       ],
       "history": [
@@ -1316,26 +1316,26 @@
             {
               "name": "신한",
               "count": 48,
-              "branches": 48,
-              "sub_offices": 0
+              "branches": 39,
+              "sub_offices": 9
             },
             {
               "name": "KB국민",
               "count": 50,
-              "branches": 50,
-              "sub_offices": 0
+              "branches": 46,
+              "sub_offices": 4
             },
             {
               "name": "하나",
               "count": 24,
-              "branches": 24,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 28,
-              "branches": 28,
-              "sub_offices": 0
+              "branches": 20,
+              "sub_offices": 8
             }
           ]
         },
@@ -1345,26 +1345,26 @@
             {
               "name": "신한",
               "count": 47,
-              "branches": 47,
-              "sub_offices": 0
+              "branches": 37,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 48,
-              "branches": 48,
-              "sub_offices": 0
+              "branches": 43,
+              "sub_offices": 5
             },
             {
               "name": "하나",
               "count": 24,
-              "branches": 24,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 28,
-              "branches": 28,
-              "sub_offices": 0
+              "branches": 20,
+              "sub_offices": 8
             }
           ]
         },
@@ -1374,26 +1374,26 @@
             {
               "name": "신한",
               "count": 44,
-              "branches": 44,
-              "sub_offices": 0
+              "branches": 35,
+              "sub_offices": 9
             },
             {
               "name": "KB국민",
               "count": 48,
-              "branches": 48,
-              "sub_offices": 0
+              "branches": 45,
+              "sub_offices": 3
             },
             {
               "name": "하나",
               "count": 24,
-              "branches": 24,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 27,
-              "branches": 27,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 8
             }
           ]
         },
@@ -1403,26 +1403,26 @@
             {
               "name": "신한",
               "count": 42,
-              "branches": 42,
-              "sub_offices": 0
+              "branches": 33,
+              "sub_offices": 9
             },
             {
               "name": "KB국민",
               "count": 44,
-              "branches": 44,
-              "sub_offices": 0
+              "branches": 39,
+              "sub_offices": 5
             },
             {
               "name": "하나",
               "count": 24,
-              "branches": 24,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 8
             }
           ]
         },
@@ -1432,26 +1432,26 @@
             {
               "name": "신한",
               "count": 43,
-              "branches": 43,
-              "sub_offices": 0
+              "branches": 34,
+              "sub_offices": 9
             },
             {
               "name": "KB국민",
               "count": 44,
-              "branches": 44,
-              "sub_offices": 0
+              "branches": 41,
+              "sub_offices": 3
             },
             {
               "name": "하나",
               "count": 24,
-              "branches": 24,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 8
             }
           ]
         },
@@ -1461,26 +1461,26 @@
             {
               "name": "신한",
               "count": 43,
-              "branches": 43,
-              "sub_offices": 0
+              "branches": 34,
+              "sub_offices": 9
             },
             {
               "name": "KB국민",
               "count": 40,
-              "branches": 40,
-              "sub_offices": 0
+              "branches": 36,
+              "sub_offices": 4
             },
             {
               "name": "하나",
               "count": 24,
-              "branches": 24,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 8
             }
           ]
         },
@@ -1490,26 +1490,26 @@
             {
               "name": "신한",
               "count": 43,
-              "branches": 43,
-              "sub_offices": 0
+              "branches": 34,
+              "sub_offices": 9
             },
             {
               "name": "KB국민",
               "count": 40,
-              "branches": 40,
-              "sub_offices": 0
+              "branches": 36,
+              "sub_offices": 4
             },
             {
               "name": "하나",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 10
             }
           ]
         },
@@ -1519,26 +1519,26 @@
             {
               "name": "신한",
               "count": 42,
-              "branches": 42,
-              "sub_offices": 0
+              "branches": 34,
+              "sub_offices": 8
             },
             {
               "name": "KB국민",
               "count": 39,
-              "branches": 39,
-              "sub_offices": 0
+              "branches": 31,
+              "sub_offices": 8
             },
             {
               "name": "하나",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 10
             }
           ]
         },
@@ -1548,26 +1548,26 @@
             {
               "name": "신한",
               "count": 42,
-              "branches": 42,
-              "sub_offices": 0
+              "branches": 34,
+              "sub_offices": 8
             },
             {
               "name": "KB국민",
               "count": 39,
-              "branches": 39,
-              "sub_offices": 0
+              "branches": 31,
+              "sub_offices": 8
             },
             {
               "name": "하나",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 10
             }
           ]
         },
@@ -1577,26 +1577,26 @@
             {
               "name": "신한",
               "count": 39,
-              "branches": 39,
-              "sub_offices": 0
+              "branches": 29,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 12
             },
             {
               "name": "하나",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 10
             }
           ]
         },
@@ -1606,26 +1606,26 @@
             {
               "name": "신한",
               "count": 39,
-              "branches": 39,
-              "sub_offices": 0
+              "branches": 29,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 12
             },
             {
               "name": "하나",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 9
             }
           ]
         }
@@ -1637,14 +1637,14 @@
         {
           "name": "신한",
           "count": 9,
-          "branches": 9,
-          "sub_offices": 0
+          "branches": 7,
+          "sub_offices": 2
         },
         {
           "name": "KB국민",
           "count": 12,
-          "branches": 12,
-          "sub_offices": 0
+          "branches": 11,
+          "sub_offices": 1
         },
         {
           "name": "하나",
@@ -1655,8 +1655,8 @@
         {
           "name": "우리",
           "count": 8,
-          "branches": 8,
-          "sub_offices": 0
+          "branches": 7,
+          "sub_offices": 1
         }
       ],
       "history": [
@@ -1666,14 +1666,14 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 11,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 3
             },
             {
               "name": "하나",
@@ -1684,8 +1684,8 @@
             {
               "name": "우리",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 1
             }
           ]
         },
@@ -1695,14 +1695,14 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 11,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 5
             },
             {
               "name": "하나",
@@ -1713,8 +1713,8 @@
             {
               "name": "우리",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 1
             }
           ]
         },
@@ -1724,14 +1724,14 @@
             {
               "name": "신한",
               "count": 11,
-              "branches": 11,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 4
             },
             {
               "name": "하나",
@@ -1742,8 +1742,8 @@
             {
               "name": "우리",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 1
             }
           ]
         },
@@ -1753,14 +1753,14 @@
             {
               "name": "신한",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 2
             },
             {
               "name": "하나",
@@ -1771,8 +1771,8 @@
             {
               "name": "우리",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 1
             }
           ]
         },
@@ -1782,14 +1782,14 @@
             {
               "name": "신한",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 2
             },
             {
               "name": "하나",
@@ -1800,8 +1800,8 @@
             {
               "name": "우리",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 1
             }
           ]
         },
@@ -1811,14 +1811,14 @@
             {
               "name": "신한",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -1829,8 +1829,8 @@
             {
               "name": "우리",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 1
             }
           ]
         },
@@ -1840,14 +1840,14 @@
             {
               "name": "신한",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -1858,8 +1858,8 @@
             {
               "name": "우리",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 1
             }
           ]
         },
@@ -1869,14 +1869,14 @@
             {
               "name": "신한",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -1887,8 +1887,8 @@
             {
               "name": "우리",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 1
             }
           ]
         },
@@ -1898,14 +1898,14 @@
             {
               "name": "신한",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -1916,8 +1916,8 @@
             {
               "name": "우리",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 1
             }
           ]
         },
@@ -1927,14 +1927,14 @@
             {
               "name": "신한",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 11,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -1945,8 +1945,8 @@
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -1956,14 +1956,14 @@
             {
               "name": "신한",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 11,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -1974,8 +1974,8 @@
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         }
@@ -1987,26 +1987,26 @@
         {
           "name": "신한",
           "count": 11,
-          "branches": 11,
-          "sub_offices": 0
+          "branches": 9,
+          "sub_offices": 2
         },
         {
           "name": "KB국민",
           "count": 13,
-          "branches": 13,
-          "sub_offices": 0
+          "branches": 5,
+          "sub_offices": 8
         },
         {
           "name": "하나",
           "count": 33,
-          "branches": 33,
-          "sub_offices": 0
+          "branches": 24,
+          "sub_offices": 9
         },
         {
           "name": "우리",
           "count": 11,
-          "branches": 11,
-          "sub_offices": 0
+          "branches": 7,
+          "sub_offices": 4
         }
       ],
       "history": [
@@ -2016,26 +2016,26 @@
             {
               "name": "신한",
               "count": 15,
-              "branches": 15,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 6
             },
             {
               "name": "하나",
               "count": 37,
-              "branches": 37,
-              "sub_offices": 0
+              "branches": 31,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 3
             }
           ]
         },
@@ -2045,26 +2045,26 @@
             {
               "name": "신한",
               "count": 15,
-              "branches": 15,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 11,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 37,
-              "branches": 37,
-              "sub_offices": 0
+              "branches": 31,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 3
             }
           ]
         },
@@ -2074,26 +2074,26 @@
             {
               "name": "신한",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 6
             },
             {
               "name": "하나",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 24,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 3
             }
           ]
         },
@@ -2103,26 +2103,26 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 11,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 6
             },
             {
               "name": "하나",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 25,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 4
             }
           ]
         },
@@ -2132,26 +2132,26 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 6
             },
             {
               "name": "하나",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 25,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 4
             }
           ]
         },
@@ -2161,26 +2161,26 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 15,
-              "branches": 15,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 6
             },
             {
               "name": "하나",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 25,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 4
             }
           ]
         },
@@ -2190,26 +2190,26 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 15,
-              "branches": 15,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 25,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 4
             }
           ]
         },
@@ -2219,26 +2219,26 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 15,
-              "branches": 15,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 25,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 4
             }
           ]
         },
@@ -2248,26 +2248,26 @@
             {
               "name": "신한",
               "count": 11,
-              "branches": 11,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 15,
-              "branches": 15,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 25,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 4
             }
           ]
         },
@@ -2277,26 +2277,26 @@
             {
               "name": "신한",
               "count": 11,
-              "branches": 11,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 8
             },
             {
               "name": "하나",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 24,
+              "sub_offices": 9
             },
             {
               "name": "우리",
               "count": 11,
-              "branches": 11,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 4
             }
           ]
         },
@@ -2306,26 +2306,26 @@
             {
               "name": "신한",
               "count": 11,
-              "branches": 11,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 8
             },
             {
               "name": "하나",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 24,
+              "sub_offices": 9
             },
             {
               "name": "우리",
               "count": 11,
-              "branches": 11,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 4
             }
           ]
         }
@@ -2337,26 +2337,26 @@
         {
           "name": "신한",
           "count": 8,
-          "branches": 8,
-          "sub_offices": 0
+          "branches": 6,
+          "sub_offices": 2
         },
         {
           "name": "KB국민",
           "count": 7,
-          "branches": 7,
-          "sub_offices": 0
+          "branches": 5,
+          "sub_offices": 2
         },
         {
           "name": "하나",
           "count": 9,
-          "branches": 9,
-          "sub_offices": 0
+          "branches": 5,
+          "sub_offices": 4
         },
         {
           "name": "우리",
           "count": 8,
-          "branches": 8,
-          "sub_offices": 0
+          "branches": 7,
+          "sub_offices": 1
         }
       ],
       "history": [
@@ -2366,8 +2366,8 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
@@ -2378,14 +2378,14 @@
             {
               "name": "하나",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 6,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2395,26 +2395,26 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 2
             },
             {
               "name": "하나",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 6,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2424,26 +2424,26 @@
             {
               "name": "신한",
               "count": 12,
-              "branches": 12,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 10,
-              "branches": 10,
-              "sub_offices": 0
+              "branches": 6,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2453,26 +2453,26 @@
             {
               "name": "신한",
               "count": 11,
-              "branches": 11,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "하나",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2482,26 +2482,26 @@
             {
               "name": "신한",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "하나",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2511,26 +2511,26 @@
             {
               "name": "신한",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2540,26 +2540,26 @@
             {
               "name": "신한",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2569,26 +2569,26 @@
             {
               "name": "신한",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2598,26 +2598,26 @@
             {
               "name": "신한",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 8,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2627,26 +2627,26 @@
             {
               "name": "신한",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 6,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 7,
-              "branches": 7,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 2
             },
             {
               "name": "하나",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         },
@@ -2656,26 +2656,26 @@
             {
               "name": "신한",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 6,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 7,
-              "branches": 7,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 2
             },
             {
               "name": "하나",
               "count": 9,
-              "branches": 9,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 8,
-              "branches": 8,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 1
             }
           ]
         }
@@ -2686,27 +2686,27 @@
       "banks": [
         {
           "name": "신한",
-          "count": 2,
-          "branches": 2,
-          "sub_offices": 0
+          "count": 3,
+          "branches": 0,
+          "sub_offices": 3
         },
         {
           "name": "KB국민",
           "count": 3,
-          "branches": 3,
-          "sub_offices": 0
+          "branches": 2,
+          "sub_offices": 1
         },
         {
           "name": "하나",
           "count": 4,
-          "branches": 4,
-          "sub_offices": 0
+          "branches": 1,
+          "sub_offices": 3
         },
         {
           "name": "우리",
           "count": 2,
-          "branches": 2,
-          "sub_offices": 0
+          "branches": 1,
+          "sub_offices": 1
         }
       ],
       "history": [
@@ -2716,8 +2716,8 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
@@ -2728,14 +2728,14 @@
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             }
           ]
         },
@@ -2745,26 +2745,26 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 3,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             }
           ]
         },
@@ -2774,26 +2774,26 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 3
             },
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         },
@@ -2803,26 +2803,26 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 3
             },
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         },
@@ -2832,26 +2832,26 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 3
             },
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         },
@@ -2861,26 +2861,26 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 3
             },
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         },
@@ -2890,26 +2890,26 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 3
             },
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         },
@@ -2919,26 +2919,26 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 3
             },
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         },
@@ -2948,26 +2948,26 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 3
             },
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         },
@@ -2976,27 +2976,27 @@
           "banks": [
             {
               "name": "신한",
-              "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "count": 3,
+              "branches": 0,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 3
             },
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         },
@@ -3005,27 +3005,27 @@
           "banks": [
             {
               "name": "신한",
-              "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "count": 3,
+              "branches": 0,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 3
             },
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         }
@@ -3037,26 +3037,26 @@
         {
           "name": "신한",
           "count": 124,
-          "branches": 124,
-          "sub_offices": 0
+          "branches": 104,
+          "sub_offices": 20
         },
         {
           "name": "KB국민",
           "count": 154,
-          "branches": 154,
-          "sub_offices": 0
+          "branches": 115,
+          "sub_offices": 39
         },
         {
           "name": "하나",
           "count": 96,
-          "branches": 96,
-          "sub_offices": 0
+          "branches": 81,
+          "sub_offices": 15
         },
         {
           "name": "우리",
           "count": 138,
-          "branches": 138,
-          "sub_offices": 0
+          "branches": 107,
+          "sub_offices": 31
         }
       ],
       "history": [
@@ -3066,26 +3066,26 @@
             {
               "name": "신한",
               "count": 166,
-              "branches": 166,
-              "sub_offices": 0
+              "branches": 146,
+              "sub_offices": 20
             },
             {
               "name": "KB국민",
               "count": 220,
-              "branches": 220,
-              "sub_offices": 0
+              "branches": 203,
+              "sub_offices": 17
             },
             {
               "name": "하나",
               "count": 113,
-              "branches": 113,
-              "sub_offices": 0
+              "branches": 107,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 172,
-              "branches": 172,
-              "sub_offices": 0
+              "branches": 139,
+              "sub_offices": 33
             }
           ]
         },
@@ -3095,26 +3095,26 @@
             {
               "name": "신한",
               "count": 161,
-              "branches": 161,
-              "sub_offices": 0
+              "branches": 137,
+              "sub_offices": 24
             },
             {
               "name": "KB국민",
               "count": 214,
-              "branches": 214,
-              "sub_offices": 0
+              "branches": 193,
+              "sub_offices": 21
             },
             {
               "name": "하나",
               "count": 107,
-              "branches": 107,
-              "sub_offices": 0
+              "branches": 101,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 172,
-              "branches": 172,
-              "sub_offices": 0
+              "branches": 140,
+              "sub_offices": 32
             }
           ]
         },
@@ -3124,26 +3124,26 @@
             {
               "name": "신한",
               "count": 152,
-              "branches": 152,
-              "sub_offices": 0
+              "branches": 132,
+              "sub_offices": 20
             },
             {
               "name": "KB국민",
               "count": 213,
-              "branches": 213,
-              "sub_offices": 0
+              "branches": 196,
+              "sub_offices": 17
             },
             {
               "name": "하나",
               "count": 97,
-              "branches": 97,
-              "sub_offices": 0
+              "branches": 89,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 159,
-              "branches": 159,
-              "sub_offices": 0
+              "branches": 130,
+              "sub_offices": 29
             }
           ]
         },
@@ -3153,26 +3153,26 @@
             {
               "name": "신한",
               "count": 140,
-              "branches": 140,
-              "sub_offices": 0
+              "branches": 121,
+              "sub_offices": 19
             },
             {
               "name": "KB국민",
               "count": 201,
-              "branches": 201,
-              "sub_offices": 0
+              "branches": 180,
+              "sub_offices": 21
             },
             {
               "name": "하나",
               "count": 96,
-              "branches": 96,
-              "sub_offices": 0
+              "branches": 88,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 148,
-              "branches": 148,
-              "sub_offices": 0
+              "branches": 119,
+              "sub_offices": 29
             }
           ]
         },
@@ -3182,26 +3182,26 @@
             {
               "name": "신한",
               "count": 134,
-              "branches": 134,
-              "sub_offices": 0
+              "branches": 115,
+              "sub_offices": 19
             },
             {
               "name": "KB국민",
               "count": 201,
-              "branches": 201,
-              "sub_offices": 0
+              "branches": 187,
+              "sub_offices": 14
             },
             {
               "name": "하나",
               "count": 95,
-              "branches": 95,
-              "sub_offices": 0
+              "branches": 87,
+              "sub_offices": 8
             },
             {
               "name": "우리",
               "count": 148,
-              "branches": 148,
-              "sub_offices": 0
+              "branches": 120,
+              "sub_offices": 28
             }
           ]
         },
@@ -3211,26 +3211,26 @@
             {
               "name": "신한",
               "count": 136,
-              "branches": 136,
-              "sub_offices": 0
+              "branches": 118,
+              "sub_offices": 18
             },
             {
               "name": "KB국민",
               "count": 182,
-              "branches": 182,
-              "sub_offices": 0
+              "branches": 162,
+              "sub_offices": 20
             },
             {
               "name": "하나",
               "count": 95,
-              "branches": 95,
-              "sub_offices": 0
+              "branches": 86,
+              "sub_offices": 9
             },
             {
               "name": "우리",
               "count": 148,
-              "branches": 148,
-              "sub_offices": 0
+              "branches": 120,
+              "sub_offices": 28
             }
           ]
         },
@@ -3240,26 +3240,26 @@
             {
               "name": "신한",
               "count": 136,
-              "branches": 136,
-              "sub_offices": 0
+              "branches": 118,
+              "sub_offices": 18
             },
             {
               "name": "KB국민",
               "count": 183,
-              "branches": 183,
-              "sub_offices": 0
+              "branches": 163,
+              "sub_offices": 20
             },
             {
               "name": "하나",
               "count": 96,
-              "branches": 96,
-              "sub_offices": 0
+              "branches": 85,
+              "sub_offices": 11
             },
             {
               "name": "우리",
               "count": 147,
-              "branches": 147,
-              "sub_offices": 0
+              "branches": 118,
+              "sub_offices": 29
             }
           ]
         },
@@ -3269,26 +3269,26 @@
             {
               "name": "신한",
               "count": 135,
-              "branches": 135,
-              "sub_offices": 0
+              "branches": 117,
+              "sub_offices": 18
             },
             {
               "name": "KB국민",
               "count": 183,
-              "branches": 183,
-              "sub_offices": 0
+              "branches": 163,
+              "sub_offices": 20
             },
             {
               "name": "하나",
               "count": 96,
-              "branches": 96,
-              "sub_offices": 0
+              "branches": 85,
+              "sub_offices": 11
             },
             {
               "name": "우리",
               "count": 146,
-              "branches": 146,
-              "sub_offices": 0
+              "branches": 116,
+              "sub_offices": 30
             }
           ]
         },
@@ -3298,26 +3298,26 @@
             {
               "name": "신한",
               "count": 131,
-              "branches": 131,
-              "sub_offices": 0
+              "branches": 113,
+              "sub_offices": 18
             },
             {
               "name": "KB국민",
               "count": 183,
-              "branches": 183,
-              "sub_offices": 0
+              "branches": 163,
+              "sub_offices": 20
             },
             {
               "name": "하나",
               "count": 96,
-              "branches": 96,
-              "sub_offices": 0
+              "branches": 83,
+              "sub_offices": 13
             },
             {
               "name": "우리",
               "count": 143,
-              "branches": 143,
-              "sub_offices": 0
+              "branches": 112,
+              "sub_offices": 31
             }
           ]
         },
@@ -3327,26 +3327,26 @@
             {
               "name": "신한",
               "count": 124,
-              "branches": 124,
-              "sub_offices": 0
+              "branches": 105,
+              "sub_offices": 19
             },
             {
               "name": "KB국민",
               "count": 155,
-              "branches": 155,
-              "sub_offices": 0
+              "branches": 116,
+              "sub_offices": 39
             },
             {
               "name": "하나",
               "count": 96,
-              "branches": 96,
-              "sub_offices": 0
+              "branches": 81,
+              "sub_offices": 15
             },
             {
               "name": "우리",
               "count": 138,
-              "branches": 138,
-              "sub_offices": 0
+              "branches": 107,
+              "sub_offices": 31
             }
           ]
         },
@@ -3356,26 +3356,26 @@
             {
               "name": "신한",
               "count": 124,
-              "branches": 124,
-              "sub_offices": 0
+              "branches": 104,
+              "sub_offices": 20
             },
             {
               "name": "KB국민",
               "count": 154,
-              "branches": 154,
-              "sub_offices": 0
+              "branches": 115,
+              "sub_offices": 39
             },
             {
               "name": "하나",
               "count": 96,
-              "branches": 96,
-              "sub_offices": 0
+              "branches": 81,
+              "sub_offices": 15
             },
             {
               "name": "우리",
               "count": 138,
-              "branches": 138,
-              "sub_offices": 0
+              "branches": 107,
+              "sub_offices": 31
             }
           ]
         }
@@ -3387,14 +3387,14 @@
         {
           "name": "신한",
           "count": 17,
-          "branches": 17,
-          "sub_offices": 0
+          "branches": 7,
+          "sub_offices": 10
         },
         {
           "name": "KB국민",
           "count": 7,
-          "branches": 7,
-          "sub_offices": 0
+          "branches": 1,
+          "sub_offices": 6
         },
         {
           "name": "하나",
@@ -3405,8 +3405,8 @@
         {
           "name": "우리",
           "count": 6,
-          "branches": 6,
-          "sub_offices": 0
+          "branches": 2,
+          "sub_offices": 4
         }
       ],
       "history": [
@@ -3416,8 +3416,8 @@
             {
               "name": "신한",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 9
             },
             {
               "name": "KB국민",
@@ -3428,14 +3428,14 @@
             {
               "name": "하나",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3445,26 +3445,26 @@
             {
               "name": "신한",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 9
             },
             {
               "name": "KB국민",
               "count": 13,
-              "branches": 13,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 1
             },
             {
               "name": "하나",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3474,8 +3474,8 @@
             {
               "name": "신한",
               "count": 19,
-              "branches": 19,
-              "sub_offices": 0
+              "branches": 11,
+              "sub_offices": 8
             },
             {
               "name": "KB국민",
@@ -3486,14 +3486,14 @@
             {
               "name": "하나",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 5,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3503,8 +3503,8 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
@@ -3521,8 +3521,8 @@
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3532,8 +3532,8 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
@@ -3550,8 +3550,8 @@
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3561,8 +3561,8 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
@@ -3579,8 +3579,8 @@
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3590,8 +3590,8 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
@@ -3608,8 +3608,8 @@
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3619,8 +3619,8 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
@@ -3637,8 +3637,8 @@
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3648,8 +3648,8 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
@@ -3666,8 +3666,8 @@
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3677,14 +3677,14 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 7,
-              "branches": 7,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 6
             },
             {
               "name": "하나",
@@ -3695,8 +3695,8 @@
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         },
@@ -3706,14 +3706,14 @@
             {
               "name": "신한",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 7,
-              "branches": 7,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 6
             },
             {
               "name": "하나",
@@ -3724,8 +3724,8 @@
             {
               "name": "우리",
               "count": 6,
-              "branches": 6,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 4
             }
           ]
         }
@@ -3737,26 +3737,26 @@
         {
           "name": "신한",
           "count": 32,
-          "branches": 32,
-          "sub_offices": 0
+          "branches": 22,
+          "sub_offices": 10
         },
         {
           "name": "KB국민",
           "count": 22,
-          "branches": 22,
-          "sub_offices": 0
+          "branches": 12,
+          "sub_offices": 10
         },
         {
           "name": "하나",
           "count": 31,
-          "branches": 31,
-          "sub_offices": 0
+          "branches": 26,
+          "sub_offices": 5
         },
         {
           "name": "우리",
           "count": 21,
-          "branches": 21,
-          "sub_offices": 0
+          "branches": 12,
+          "sub_offices": 9
         }
       ],
       "history": [
@@ -3766,26 +3766,26 @@
             {
               "name": "신한",
               "count": 34,
-              "branches": 34,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 15
             },
             {
               "name": "KB국민",
               "count": 36,
-              "branches": 36,
-              "sub_offices": 0
+              "branches": 29,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 28,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 8
             }
           ]
         },
@@ -3795,26 +3795,26 @@
             {
               "name": "신한",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 16
             },
             {
               "name": "KB국민",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 20,
+              "sub_offices": 11
             },
             {
               "name": "하나",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 28,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 8
             }
           ]
         },
@@ -3824,26 +3824,26 @@
             {
               "name": "신한",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 14
             },
             {
               "name": "KB국민",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 10
             },
             {
               "name": "하나",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 28,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 22,
-              "branches": 22,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 8
             }
           ]
         },
@@ -3853,26 +3853,26 @@
             {
               "name": "신한",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 13
             },
             {
               "name": "KB국민",
               "count": 29,
-              "branches": 29,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 10
             },
             {
               "name": "하나",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 8
             }
           ]
         },
@@ -3882,26 +3882,26 @@
             {
               "name": "신한",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 11
             },
             {
               "name": "KB국민",
               "count": 29,
-              "branches": 29,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 8
             },
             {
               "name": "하나",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 8
             }
           ]
         },
@@ -3911,26 +3911,26 @@
             {
               "name": "신한",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 8
             },
             {
               "name": "하나",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 8
             }
           ]
         },
@@ -3940,26 +3940,26 @@
             {
               "name": "신한",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 18,
+              "sub_offices": 8
             },
             {
               "name": "하나",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 4
             },
             {
               "name": "우리",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 8
             }
           ]
         },
@@ -3969,26 +3969,26 @@
             {
               "name": "신한",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 26,
+              "sub_offices": 5
             },
             {
               "name": "우리",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 9
             }
           ]
         },
@@ -3998,26 +3998,26 @@
             {
               "name": "신한",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 22,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 7
             },
             {
               "name": "하나",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 26,
+              "sub_offices": 5
             },
             {
               "name": "우리",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 9
             }
           ]
         },
@@ -4027,26 +4027,26 @@
             {
               "name": "신한",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 22,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 22,
-              "branches": 22,
-              "sub_offices": 0
+              "branches": 11,
+              "sub_offices": 11
             },
             {
               "name": "하나",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 26,
+              "sub_offices": 5
             },
             {
               "name": "우리",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 9
             }
           ]
         },
@@ -4056,26 +4056,26 @@
             {
               "name": "신한",
               "count": 32,
-              "branches": 32,
-              "sub_offices": 0
+              "branches": 22,
+              "sub_offices": 10
             },
             {
               "name": "KB국민",
               "count": 22,
-              "branches": 22,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 10
             },
             {
               "name": "하나",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 26,
+              "sub_offices": 5
             },
             {
               "name": "우리",
               "count": 21,
-              "branches": 21,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 9
             }
           ]
         }
@@ -4087,26 +4087,26 @@
         {
           "name": "신한",
           "count": 20,
-          "branches": 20,
-          "sub_offices": 0
+          "branches": 6,
+          "sub_offices": 14
         },
         {
           "name": "KB국민",
           "count": 33,
-          "branches": 33,
-          "sub_offices": 0
+          "branches": 21,
+          "sub_offices": 12
         },
         {
           "name": "하나",
           "count": 23,
-          "branches": 23,
-          "sub_offices": 0
+          "branches": 17,
+          "sub_offices": 6
         },
         {
           "name": "우리",
           "count": 25,
-          "branches": 25,
-          "sub_offices": 0
+          "branches": 17,
+          "sub_offices": 8
         }
       ],
       "history": [
@@ -4116,26 +4116,26 @@
             {
               "name": "신한",
               "count": 29,
-              "branches": 29,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 20
             },
             {
               "name": "KB국민",
               "count": 53,
-              "branches": 53,
-              "sub_offices": 0
+              "branches": 43,
+              "sub_offices": 10
             },
             {
               "name": "하나",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 20,
+              "sub_offices": 5
             },
             {
               "name": "우리",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 24,
+              "sub_offices": 7
             }
           ]
         },
@@ -4145,26 +4145,26 @@
             {
               "name": "신한",
               "count": 29,
-              "branches": 29,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 20
             },
             {
               "name": "KB국민",
               "count": 46,
-              "branches": 46,
-              "sub_offices": 0
+              "branches": 32,
+              "sub_offices": 14
             },
             {
               "name": "하나",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 20,
+              "sub_offices": 5
             },
             {
               "name": "우리",
               "count": 31,
-              "branches": 31,
-              "sub_offices": 0
+              "branches": 24,
+              "sub_offices": 7
             }
           ]
         },
@@ -4174,26 +4174,26 @@
             {
               "name": "신한",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 9,
+              "sub_offices": 16
             },
             {
               "name": "KB국민",
               "count": 46,
-              "branches": 46,
-              "sub_offices": 0
+              "branches": 36,
+              "sub_offices": 10
             },
             {
               "name": "하나",
               "count": 24,
-              "branches": 24,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 5
             },
             {
               "name": "우리",
               "count": 29,
-              "branches": 29,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 6
             }
           ]
         },
@@ -4203,26 +4203,26 @@
             {
               "name": "신한",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 10,
+              "sub_offices": 13
             },
             {
               "name": "KB국민",
               "count": 41,
-              "branches": 41,
-              "sub_offices": 0
+              "branches": 29,
+              "sub_offices": 12
             },
             {
               "name": "하나",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 28,
-              "branches": 28,
-              "sub_offices": 0
+              "branches": 22,
+              "sub_offices": 6
             }
           ]
         },
@@ -4232,26 +4232,26 @@
             {
               "name": "신한",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 6,
+              "sub_offices": 14
             },
             {
               "name": "KB국민",
               "count": 40,
-              "branches": 40,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 13
             },
             {
               "name": "하나",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 27,
-              "branches": 27,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 6
             }
           ]
         },
@@ -4261,26 +4261,26 @@
             {
               "name": "신한",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 13
             },
             {
               "name": "KB국민",
               "count": 37,
-              "branches": 37,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 10
             },
             {
               "name": "하나",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 27,
-              "branches": 27,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 6
             }
           ]
         },
@@ -4290,26 +4290,26 @@
             {
               "name": "신한",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 13
             },
             {
               "name": "KB국민",
               "count": 37,
-              "branches": 37,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 10
             },
             {
               "name": "하나",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 27,
-              "branches": 27,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 6
             }
           ]
         },
@@ -4319,26 +4319,26 @@
             {
               "name": "신한",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 13
             },
             {
               "name": "KB국민",
               "count": 37,
-              "branches": 37,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 10
             },
             {
               "name": "하나",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 27,
-              "branches": 27,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 6
             }
           ]
         },
@@ -4348,26 +4348,26 @@
             {
               "name": "신한",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 7,
+              "sub_offices": 13
             },
             {
               "name": "KB국민",
               "count": 37,
-              "branches": 37,
-              "sub_offices": 0
+              "branches": 27,
+              "sub_offices": 10
             },
             {
               "name": "하나",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 27,
-              "branches": 27,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 6
             }
           ]
         },
@@ -4377,26 +4377,26 @@
             {
               "name": "신한",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 6,
+              "sub_offices": 14
             },
             {
               "name": "KB국민",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 20,
+              "sub_offices": 13
             },
             {
               "name": "하나",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 19,
+              "sub_offices": 7
             }
           ]
         },
@@ -4406,26 +4406,26 @@
             {
               "name": "신한",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 6,
+              "sub_offices": 14
             },
             {
               "name": "KB국민",
               "count": 33,
-              "branches": 33,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 12
             },
             {
               "name": "하나",
               "count": 23,
-              "branches": 23,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 6
             },
             {
               "name": "우리",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 8
             }
           ]
         }
@@ -4437,26 +4437,26 @@
         {
           "name": "신한",
           "count": 14,
-          "branches": 14,
-          "sub_offices": 0
+          "branches": 12,
+          "sub_offices": 2
         },
         {
           "name": "KB국민",
           "count": 19,
-          "branches": 19,
-          "sub_offices": 0
+          "branches": 13,
+          "sub_offices": 6
         },
         {
           "name": "하나",
           "count": 17,
-          "branches": 17,
-          "sub_offices": 0
+          "branches": 16,
+          "sub_offices": 1
         },
         {
           "name": "우리",
           "count": 16,
-          "branches": 16,
-          "sub_offices": 0
+          "branches": 13,
+          "sub_offices": 3
         }
       ],
       "history": [
@@ -4466,26 +4466,26 @@
             {
               "name": "신한",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 34,
-              "branches": 34,
-              "sub_offices": 0
+              "branches": 32,
+              "sub_offices": 2
             },
             {
               "name": "하나",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 19,
-              "branches": 19,
-              "sub_offices": 0
+              "branches": 16,
+              "sub_offices": 3
             }
           ]
         },
@@ -4495,26 +4495,26 @@
             {
               "name": "신한",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 30,
-              "branches": 30,
-              "sub_offices": 0
+              "branches": 26,
+              "sub_offices": 4
             },
             {
               "name": "하나",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 19,
-              "branches": 19,
-              "sub_offices": 0
+              "branches": 16,
+              "sub_offices": 3
             }
           ]
         },
@@ -4524,26 +4524,26 @@
             {
               "name": "신한",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 14,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 30,
-              "branches": 30,
-              "sub_offices": 0
+              "branches": 28,
+              "sub_offices": 2
             },
             {
               "name": "하나",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 16,
+              "sub_offices": 2
             }
           ]
         },
@@ -4553,26 +4553,26 @@
             {
               "name": "신한",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 26,
-              "branches": 26,
-              "sub_offices": 0
+              "branches": 23,
+              "sub_offices": 3
             },
             {
               "name": "하나",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 2
             }
           ]
         },
@@ -4582,26 +4582,26 @@
             {
               "name": "신한",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 25,
-              "branches": 25,
-              "sub_offices": 0
+              "branches": 21,
+              "sub_offices": 4
             },
             {
               "name": "하나",
               "count": 18,
-              "branches": 18,
-              "sub_offices": 0
+              "branches": 17,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 2
             }
           ]
         },
@@ -4611,26 +4611,26 @@
             {
               "name": "신한",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 5
             },
             {
               "name": "하나",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 2
             },
             {
               "name": "우리",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 2
             }
           ]
         },
@@ -4640,26 +4640,26 @@
             {
               "name": "신한",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 5
             },
             {
               "name": "하나",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 16,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 3
             }
           ]
         },
@@ -4669,26 +4669,26 @@
             {
               "name": "신한",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 5
             },
             {
               "name": "하나",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 16,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 3
             }
           ]
         },
@@ -4698,26 +4698,26 @@
             {
               "name": "신한",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 20,
-              "branches": 20,
-              "sub_offices": 0
+              "branches": 15,
+              "sub_offices": 5
             },
             {
               "name": "하나",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 16,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 3
             }
           ]
         },
@@ -4727,26 +4727,26 @@
             {
               "name": "신한",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 19,
-              "branches": 19,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 6
             },
             {
               "name": "하나",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 16,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 3
             }
           ]
         },
@@ -4756,26 +4756,26 @@
             {
               "name": "신한",
               "count": 14,
-              "branches": 14,
-              "sub_offices": 0
+              "branches": 12,
+              "sub_offices": 2
             },
             {
               "name": "KB국민",
               "count": 19,
-              "branches": 19,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 6
             },
             {
               "name": "하나",
               "count": 17,
-              "branches": 17,
-              "sub_offices": 0
+              "branches": 16,
+              "sub_offices": 1
             },
             {
               "name": "우리",
               "count": 16,
-              "branches": 16,
-              "sub_offices": 0
+              "branches": 13,
+              "sub_offices": 3
             }
           ]
         }
@@ -4787,14 +4787,14 @@
         {
           "name": "신한",
           "count": 3,
-          "branches": 3,
-          "sub_offices": 0
+          "branches": 2,
+          "sub_offices": 1
         },
         {
           "name": "KB국민",
           "count": 3,
-          "branches": 3,
-          "sub_offices": 0
+          "branches": 2,
+          "sub_offices": 1
         },
         {
           "name": "하나",
@@ -4805,8 +4805,8 @@
         {
           "name": "우리",
           "count": 2,
-          "branches": 2,
-          "sub_offices": 0
+          "branches": 1,
+          "sub_offices": 1
         }
       ],
       "history": [
@@ -4816,14 +4816,14 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 0,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 5,
-              "branches": 5,
-              "sub_offices": 0
+              "branches": 4,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -4845,14 +4845,14 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 0,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 2
             },
             {
               "name": "하나",
@@ -4874,14 +4874,14 @@
             {
               "name": "신한",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 3,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 3,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -4903,14 +4903,14 @@
             {
               "name": "신한",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 3,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 3,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -4932,14 +4932,14 @@
             {
               "name": "신한",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 3,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 3,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -4961,14 +4961,14 @@
             {
               "name": "신한",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 3,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -4990,14 +4990,14 @@
             {
               "name": "신한",
               "count": 4,
-              "branches": 4,
-              "sub_offices": 0
+              "branches": 3,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -5019,14 +5019,14 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -5048,14 +5048,14 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -5077,14 +5077,14 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -5106,14 +5106,14 @@
             {
               "name": "신한",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "KB국민",
               "count": 3,
-              "branches": 3,
-              "sub_offices": 0
+              "branches": 2,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -5124,8 +5124,8 @@
             {
               "name": "우리",
               "count": 2,
-              "branches": 2,
-              "sub_offices": 0
+              "branches": 1,
+              "sub_offices": 1
             }
           ]
         }
