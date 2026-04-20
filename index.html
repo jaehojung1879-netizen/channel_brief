@@ -1982,9 +1982,11 @@ let _trendChart = null;
 
 // Progressive pen-drawing animation: x snaps to position (from NaN = hidden until delay),
 // y slides from the previous point's final y — creating a left-to-right drawing effect.
+// Segments overlap (segDuration > staggerInterval) to reduce choppiness between points.
 function buildProgressiveAnimation(pointCount, totalDuration) {
   const segments = Math.max(pointCount - 1, 1);
-  const segDuration = totalDuration / segments;
+  const staggerInterval = totalDuration / segments;   // time between starts
+  const segDuration = Math.round(staggerInterval * 1.6); // each segment lasts longer → overlap
   const prevPointY = (ctx) => {
     if (ctx.type !== 'data' || ctx.index === 0) return NaN;
     const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
@@ -2000,18 +2002,18 @@ function buildProgressiveAnimation(pointCount, totalDuration) {
       delay(ctx) {
         if (ctx.type !== 'data' || ctx.xStarted) return 0;
         ctx.xStarted = true;
-        return ctx.index * segDuration;
+        return ctx.index * staggerInterval;
       },
     },
     y: {
       type: 'number',
-      easing: 'linear',
+      easing: 'easeOutCubic',
       duration: segDuration,
       from: prevPointY,
       delay(ctx) {
         if (ctx.type !== 'data' || ctx.yStarted) return 0;
         ctx.yStarted = true;
-        return ctx.index * segDuration;
+        return ctx.index * staggerInterval;
       },
     },
   };
@@ -2132,11 +2134,13 @@ function renderTrend(title, sub, labels, datasets) {
       pointBackgroundColor: hexToRgba(base, 0.95),
       pointHoverBackgroundColor: hexToRgba(base, 1),
       pointHoverBorderColor: '#0f1419',
+      tension: 0.35,
       fill: false,
     };
   });
   const pointCount = labels.length;
-  const totalDuration = 2000;
+  const totalDuration = 2400; // stagger window; actual last-point finishes at totalDuration * 1.6
+  const chartAnimDuration = Math.round(totalDuration * 1.65); // cover last segment finish
   _trendChart = new Chart(ctx, {
     type: 'line',
     data: { labels, datasets: styledDatasets },
@@ -2144,7 +2148,7 @@ function renderTrend(title, sub, labels, datasets) {
       responsive: true,
       maintainAspectRatio: false,
       animation: {
-        duration: totalDuration,
+        duration: chartAnimDuration,
         easing: 'linear',
       },
       animations: buildProgressiveAnimation(pointCount, totalDuration),
