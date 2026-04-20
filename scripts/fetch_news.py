@@ -512,9 +512,27 @@ def main():
     for i, s in enumerate(scored[:5]):
         print(f"  #{i+1} [{s['score']:.1f}] {s['article']['title'][:60]}")
 
+    # Skip yesterday's headline so the same article doesn't headline two days in a row.
+    prev_headline_key = None
+    out_path = DATA_DIR / "news.json"
+    if out_path.exists():
+        try:
+            prev = json.loads(out_path.read_text(encoding="utf-8"))
+            prev_h = prev.get("headline") or {}
+            if prev_h.get("title"):
+                prev_headline_key = prev_h["title"][:40]
+        except Exception:
+            pass
+
     headline = None
-    if scored and scored[0]["score"] > 0:
-        headline = {**scored[0]["article"], "_score": round(scored[0]["score"], 1)}
+    for s in scored:
+        if s["score"] <= 0:
+            break
+        article = s["article"]
+        if prev_headline_key and article.get("title", "")[:40] == prev_headline_key:
+            continue
+        headline = {**article, "_score": round(s["score"], 1)}
+        break
 
     # 화면에 실제 노출될 후보만 enrichment 대상으로 (비용·시간 절약)
     display_targets = []
@@ -540,7 +558,6 @@ def main():
         "headline": headline,
         "categories": all_results,
     }
-    out_path = DATA_DIR / "news.json"
     out_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[news] saved: {out_path}")
 

@@ -744,8 +744,10 @@ def _extract_branch_numbers(rows: list) -> dict:
     if branches is None and sub_offices is None and sum_total is not None:
         branches = sum_total
         sub_offices = 0
-    if branches is None:
+    if branches is None and sub_offices is None:
         return {}
+    if branches is None:
+        branches = 0
     if sub_offices is None:
         sub_offices = 0
     return {
@@ -893,10 +895,11 @@ def fisis_build_regional_stats(codes: dict):
                     rec["sub_offices"] = max(rec["sub_offices"], int(vals.get("sub_offices", 0)))
                 else:  # kind == "count"
                     rec["count"] = max(rec["count"], int(vals.get("count", 0)))
-                    # only propagate breakdown if sub_offices explicitly present
+                    b_val = int(vals.get("branches", 0))
                     s_val = int(vals.get("sub_offices", 0))
+                    if b_val > 0:
+                        rec["branches"] = max(rec["branches"], b_val)
                     if s_val > 0:
-                        rec["branches"] = max(rec["branches"], int(vals.get("branches", 0)))
                         rec["sub_offices"] = max(rec["sub_offices"], s_val)
                 continue
             fallback_val = max((_fisis_row_value(r) or 0) for r in chunk)

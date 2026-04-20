@@ -956,7 +956,7 @@
     }
     .branch-row .bank { font-size: 12px; }
     .branch-row .count-cell { font-size: 12px; }
-    .branch-row .count-cell .sub { display: none; }
+    .branch-row .count-cell .sub { font-size: 9px; }
     .branch-head h4 { font-size: 15px; }
     .news-item h4 { font-size: 15px; }
     .issue-item h5 { font-size: 13px; }
@@ -1980,45 +1980,39 @@ const BANK_COLORS = {
 
 let _trendChart = null;
 
-// Per-point staggered animation from previous point: draws the line like a pen.
+// Progressive pen-drawing animation: x snaps to position (from NaN = hidden until delay),
+// y slides from the previous point's final y — creating a left-to-right drawing effect.
 function buildProgressiveAnimation(pointCount, totalDuration) {
   const segments = Math.max(pointCount - 1, 1);
   const segDuration = totalDuration / segments;
   const prevPointY = (ctx) => {
-    if (ctx.type !== 'data') return 0;
-    if (ctx.index === 0) return ctx.chart.scales.y.getPixelForValue(ctx.chart.scales.y.min);
+    if (ctx.type !== 'data' || ctx.index === 0) return NaN;
     const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
     const prev = meta && meta.data[ctx.index - 1];
-    if (!prev) return 0;
-    return prev.getProps(['y'], true).y;
-  };
-  const prevPointX = (ctx) => {
-    if (ctx.type !== 'data') return 0;
-    if (ctx.index === 0) return ctx.chart.scales.x.getPixelForValue(0);
-    const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
-    const prev = meta && meta.data[ctx.index - 1];
-    if (!prev) return 0;
-    return prev.getProps(['x'], true).x;
-  };
-  const stagger = (ctx) => {
-    if (ctx.type !== 'data' || ctx._started) return 0;
-    ctx._started = true;
-    return ctx.index * segDuration;
+    return prev ? prev.getProps(['y'], true).y : NaN;
   };
   return {
     x: {
       type: 'number',
       easing: 'linear',
       duration: segDuration,
-      from: prevPointX,
-      delay: stagger,
+      from: NaN,
+      delay(ctx) {
+        if (ctx.type !== 'data' || ctx.xStarted) return 0;
+        ctx.xStarted = true;
+        return ctx.index * segDuration;
+      },
     },
     y: {
       type: 'number',
       easing: 'linear',
       duration: segDuration,
       from: prevPointY,
-      delay: stagger,
+      delay(ctx) {
+        if (ctx.type !== 'data' || ctx.yStarted) return 0;
+        ctx.yStarted = true;
+        return ctx.index * segDuration;
+      },
     },
   };
 }
