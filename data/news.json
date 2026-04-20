@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T07:36:27.989682+09:00",
+  "updated_at": "2026-04-21T07:42:51.847046+09:00",
   "headline": {
     "id": "af49f572fb64",
     "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
@@ -9,12 +9,48 @@
     "published": "2026-04-20T00:00:00+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 31.0,
+    "rank": 3,
+    "_score": 26.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "508070221fcc",
+        "title": "영업점 없이도 자녀 계좌 개설…SBI저축은행, 비대면 서비스 선도",
+        "source": "인더스트리뉴스",
+        "summary": "영업점 없이도 자녀 계좌 개설…SBI저축은행, 비대면 서비스 선도 인더스트리뉴스",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PbmtyNEpXT2VEVkVGaFdLVHA0UTlaNVlNVlhJX0MxZnFYRERhVlJVT2ZtWDc3TlZBaThCYWI2a3g4UHVQS3ZfMjBVTmhJckFxWE5zMDlCUl9HcmhaSWdRXzdwZlpJcmxGdXhsT0FSTXJndw?oc=5",
+        "published": "2026-04-20T15:56:07+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "d16a28afc5de",
+        "title": "농협은행, 외화예금 비대면 서비스 확대…\"영업점 중심 거래서 탈피\"",
+        "source": "SBSBiz",
+        "summary": "농협은행, 외화예금 비대면 서비스 확대…\"영업점 중심 거래서 탈피\" SBSBiz",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wbVY0Z0Y5ZDBZell4VXgza3YzMTR6a0VLVkJwdkpRSkNITkFMX2E2X3Z1cHFELWU5X0M5S0t6R3gxR3ZCbk5xYk9VQUl6bTk4em1r?oc=5",
+        "published": "2026-04-20T15:25:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "387a07592068",
+        "title": "광주은행, 서울·수도권 영업점 6곳 통폐합",
+        "source": "네이트",
+        "summary": "광주은행, 서울·수도권 영업점 6곳 통폐합 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15ZTRMXy13Mi1nVS1jcTZ5M0ltSXJxelNOc1prcHk3MmoyNXBGOEsxcDZlcjdtWDhNSTJUMVBLeUh1Y1NnMW5yLVZaa1dGbzg3ZFZz?oc=5",
+        "published": "2026-04-20T13:27:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "5e9645be55a8",
         "title": "점포 줄고, AI에 밀리고… 은행 '취업 문' 더 좁아졌다 [장애인 고용의 역설 上-②]",
@@ -24,7 +60,7 @@
         "published": "2026-04-20T05:00:19+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +72,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1
+        "rank": 3
       },
       {
         "id": "72e77ed0aa90",
@@ -47,7 +83,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 6,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -59,7 +95,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 13,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -75,18 +111,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "721067535033",
-        "title": "'생산성 꼴찌' 강태영 행장의 농협은행, 점포 못 줄이는 딜레마",
-        "source": "땅집고",
-        "summary": "'생산성 꼴찌' 강태영 행장의 농협은행, 점포 못 줄이는 딜레마 땅집고",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjT0lxMUJ6ZXVCU3hlVEhWbFBHSUhlb2w2d1o1TFFHZ0t4eGhlWFNhd3lfcEY3bVI4S1dlRzlTanoxSlBIc1V3QU4xV09MMjUtR1puNV96bDZKRFA5VVBTUFNpR1JlY1NoWl9SQXFlbXpNcTFiREhxd0VxdmVKOUnSAXNBVV95cUxPM1ZrTE84cnZnUDVvV3c1TGg2a1hCdjNRZG85QjhSeGZzUDM3VHVJYXpMN2hSdmZnT2ZPTFYtNFRqTVh6MEdBQXNjWkplOEVTR1o1MnJScGs1YmlBS1dNeWtrcTBkSHByWkFqbEEzMVhaRTNB?oc=5",
-        "published": "2026-04-17T06:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "df9c14295cf2",
         "title": "KB국민은행, 영업점 중심 생산적금융 강화",
         "source": "금융경제신문",
@@ -95,12 +119,24 @@
         "published": "2026-04-16T13:30:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "2c75f209f96c",
+        "title": "금융권 장애인 고용 드라이브…신한은행도 보폭 확대",
+        "source": "주간한국",
+        "summary": "금융권 장애인 고용 드라이브…신한은행도 보폭 확대 주간한국",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nazZvcW11N0hfUHVJRGVkVHo1cnlvOGJlNEVMMlBEVTJabWQ1b2FvQUYwcERLS1hwNXJFWC1Wb0ZRMWF3bGR2Nno0Wl9rVlRKeHRDN2ROU0laNG1BUnkyUERQYVJnUGtJakhSQ2NmcEnSAXRBVV95cUxNUXU4WlJTM3lWanRqM1NTQV9NVXhMTXpQdHhPYkhwSktlV1R0SFIwZmN4b25yd3ZsQTJVMU9BOWFMVnFyLUxfNVd6T2g5Rmh1WDVjcU5hR1RJTWRIRk1Tb19XNjRkelQ4ZGFtQmdIMjRKMm9MSA?oc=5",
+        "published": "2026-04-20T11:48:55+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "af49f572fb64",
         "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
@@ -121,7 +157,7 @@
         "published": "2026-04-18T13:00:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
