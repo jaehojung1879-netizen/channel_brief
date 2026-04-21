@@ -737,9 +737,27 @@ def _extract_branch_numbers(rows: list) -> dict:
                 if sum_total is None:
                     sum_total = val
 
+    # FISIS XML may use Korean element names directly as field keys.
+    # Also check "b" for sub_offices in wide-format single-row responses.
+    if branches is None:
+        for row in rows:
+            v = _extract_int(row.get("지점") or row.get("branch") or row.get("branchCnt") or row.get("branch_cnt"))
+            if v is not None:
+                branches = v
+                break
+    if sub_offices is None:
+        for row in rows:
+            v = _extract_int(
+                row.get("출장소") or row.get("subOffice") or row.get("sub_office")
+                or row.get("subOfficeCnt") or row.get("sub_office_cnt") or row.get("b") or row.get("B")
+            )
+            if v is not None:
+                sub_offices = v
+                break
+
     if branches is not None and sub_offices is None and sum_total is not None:
         delta = sum_total - branches
-        if 0 <= delta <= 200:
+        if 0 <= delta <= 2000:
             sub_offices = delta
     if branches is None and sub_offices is None and sum_total is not None:
         branches = sum_total
@@ -950,7 +968,11 @@ def fisis_build_regional_stats(codes: dict):
                     continue
                 if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
                     continue
-                b_val = _extract_int(row.get("b") or row.get("B"))
+                b_val = _extract_int(
+                    row.get("b") or row.get("B")
+                    or row.get("출장소") or row.get("subOffice") or row.get("sub_office")
+                    or row.get("subOfficeCnt") or row.get("sub_office_cnt")
+                )
                 if b_val is None:
                     continue
                 rec = region_ym_bank.get(region, {}).get(ym, {}).get(bank)
@@ -1030,7 +1052,11 @@ def fisis_build_regional_stats(codes: dict):
                     continue
                 if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
                     continue
-                b_val = _extract_int(row.get("b") or row.get("B"))
+                b_val = _extract_int(
+                    row.get("b") or row.get("B")
+                    or row.get("출장소") or row.get("subOffice") or row.get("sub_office")
+                    or row.get("subOfficeCnt") or row.get("sub_office_cnt")
+                )
                 if b_val is None or b_val <= 0:
                     continue
                 rec = region_ym_bank.get(region, {}).get(ym, {}).get(bank)
