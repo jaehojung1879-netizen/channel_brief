@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T07:02:51.382319+09:00",
+  "updated_at": "2026-04-22T07:39:58.507347+09:00",
   "social_finance": [
     {
       "id": "80632dfa21f1",
@@ -9,15 +9,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBncnQ1Nm5KdXpneVRwdHhwYWQ4UVRWMU8tTEhSWTNaWnFWU29PVUI5emhZQzljUm0xdThuUTdiUlZ1bjAzRDJWOTJHOFlPeC12b2UwbUkwaDh0LUdCQUtSVmtjcmZBVnQ1bWfSAW9BVV95cUxOWXFwZk9GTm9HMmRHTlVsY3lOeHQtZVU1ZDVxcXpfMkszck1USXR2UWFROG1UbUhacGJWSzBYWVdZQ29INXNpZXhORDQ2RGUwclFmN1Q2Z0JLR1oyQzdoTTBoTk9iTnRyUEJ6MGthMzQ?oc=5",
       "published": "2026-04-22T04:00:00+09:00",
       "query": "중소기업 상생"
-    },
-    {
-      "id": "0b2f7c9cd653",
-      "title": "BNK경남은행, 지역재투자 평가’에서 경남지역 유일 6년 연속 최우수 획득",
-      "source": "부산경제신문",
-      "summary": "BNK경남은행, 지역재투자 평가’에서 경남지역 유일 6년 연속 최우수 획득&nbsp;&nbsp;부산경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBScTE2UmNPM2FVWFpHR1ctV2RBeTV4Z3o1SkFYZVVBZnhRVlRuc1p4Nm8xanluSE02NThXODJINEtwR1cyYy1vYnhJZFYtMnh1eEdxRVNsNEtvdnZzWWhCdVJ3?oc=5",
-      "published": "2026-04-22T03:22:08+09:00",
-      "query": "지역재투자"
     },
     {
       "id": "1468dda04109",
@@ -72,9 +63,36 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RaWZXUEdMeGZDVUh6eGpmd3BLek12RHo5Ti14TFczSFdFVVdKLW5VbWxqQlJGcThFMVowX3RIWlpnNGtZMkhsUXpTa0VtV3dneW95TQ?oc=5",
       "published": "2026-04-21T14:52:00+09:00",
       "query": "포용금융"
+    },
+    {
+      "id": "9eec773afc90",
+      "title": "한국수력원자력, 소상공인 금융지원 300억 원 기금 조성",
+      "source": "디지털비즈온",
+      "summary": "한국수력원자력, 소상공인 금융지원 300억 원 기금 조성&nbsp;&nbsp;디지털비즈온",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE40MmhENG9OOHFMdVlNZnMybjJtWkJiVHBTYVNGbnJEZk04WTlYa293R1NhX1ZoMy1qUk1KTjFQazFiMkNmY0RtUmNCa29jZm1mVGRJMUhsYWxpLVJDZmlYdkNGTm1SZmxnYmg4cDcxYUxsZ9IBdEFVX3lxTE5SU0JFV29SZFdHODBQRHFDampXWXZTTkwtcXlmd1JDeko2MGNRM2x0Z2V2N2tJQkt2RFloak1rbkFtWmNEbXNUSGpGN3hmTV9OeEd4LWdlQWVibmV2MEVlUEo5T29GcVZRc2RkeGJJbjNqa21o?oc=5",
+      "published": "2026-04-21T14:29:16+09:00",
+      "query": "소상공인 금융지원"
     }
   ],
   "tech": [
+    {
+      "id": "897aeb7bddc9",
+      "title": "SWIFT-리플, 적대적 경쟁 끝났다…글로벌 은행 60% '양다리' 융합 가속",
+      "source": "글로벌이코노믹",
+      "summary": "SWIFT-리플, 적대적 경쟁 끝났다…글로벌 은행 60% '양다리' 융합 가속&nbsp;&nbsp;글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcENJMTdHMWdpUlhJelJ1NWtkaDJzZUl1U0lzQ1pZeVl4YWZFemwwNHVnQ0ZSYlVzR3dkWFZDdHdPVjVrd29kb1VjM052TkhvckszRk0tZ3V4eFJWR0NhblJKal9zOGZpRHJQNTVfcGFEM3JIZHB0a205Qm0zUUNSOUc1ZHF2TC1l?oc=5",
+      "published": "2026-04-22T07:07:23+09:00",
+      "query": "블록체인 은행"
+    },
+    {
+      "id": "3cb02293d920",
+      "title": "기업은행, AX 조직개편 추진",
+      "source": "서울경제",
+      "summary": "기업은행, AX 조직개편 추진&nbsp;&nbsp;서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90dS1fR2Q2bjU3OGxsWV9nZWFSMUpZcGlYQkNEc3ZJWVNuajBObl9SU05ZUE9VeHlhQm5LMU5TRWZERmgza3ZFbU5FN3lmblpIUFHSAVNBVV95cUxNQzlCeHRCTGZ5ZjIzNWEyUGExSlp2N0tlT05rN3ZYemI0OXVwc2RTY3hPc1EtaXVIM2RqUGVpWEZoSVdJY1p1TDBDZjJpemRoU2w0OA?oc=5",
+      "published": "2026-04-22T06:26:45+09:00",
+      "query": "은행 AI"
+    },
     {
       "id": "16b4fda0adf7",
       "title": "앤트로픽, 유럽 은행에 Mythos AI 접근 확대 예정 (로이터) By Investing.com",
@@ -128,24 +146,6 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0VWpld3Z6UGNGdTZ2TEhMOVQ0bFg3c0dGOWhBeXpvQTQ5N292QnQ1SkFONWdtby0zdGE4cFEtV09wXy1VbkNudUVGbHJTQQ?oc=5",
       "published": "2026-04-21T17:00:00+09:00",
       "query": "은행 AI"
-    },
-    {
-      "id": "ae47acaafd4f",
-      "title": "은행 AI, '보조'에서 '핵심'으로…금융권 판 흔든다",
-      "source": "뉴스저널리즘",
-      "summary": "은행 AI, '보조'에서 '핵심'으로…금융권 판 흔든다&nbsp;&nbsp;뉴스저널리즘",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tbEluZWV5a1FhUzhLOGxjaHQ0czh4c3VlU0luTXJJZ3pjT0VLcFhEd0h3TndLZ2ZsbWtqZnZ5aDMybmNOT3ROQzlBQ3ZVRTFrOUxqTEFlVWV0MWVqRDNCa3A3NDQ2Q1p0dUE0?oc=5",
-      "published": "2026-04-21T14:04:50+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "5540949b9a0d",
-      "title": "‘CBDC 중심’ 재확인한 신임 한은 총재… 혁신보단 안정성",
-      "source": "IT조선",
-      "summary": "‘CBDC 중심’ 재확인한 신임 한은 총재… 혁신보단 안정성&nbsp;&nbsp;IT조선",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1aE1McGhoWElRbm1lb0Y0TzZIb1Y3MTF3Ym1uZTZ0YzV3eHIzUk1tSHdUR1RSTkp0R2FkR3ZDNm05anFzOE9GOTlCSDE3NUhBMFFMWXBVTW1IdkRVRDRBbm5zUDgwOTZCelZkSkZ1VWzSAXRBVV95cUxQMUpIUklkVU1FemEzRDVEdFhZWU8yMmlXbTVjcWpiRkhZWHQ5dVZWQ1ZDY3ZVemU2RkktU1Y3TFpkOUNvdlFiN3pDczl0T2RGeXE5NWpaVXJ4VEhhZ3QwUnNMSURuZGVvb3ZfdHoxRFhpX083Sg?oc=5",
-      "published": "2026-04-21T14:01:12+09:00",
-      "query": "CBDC 은행"
     }
   ]
 }

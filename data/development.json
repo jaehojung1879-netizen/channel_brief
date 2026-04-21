@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T07:02:06.845650+09:00",
+  "updated_at": "2026-04-22T07:39:13.369151+09:00",
   "items": [
     {
       "id": "2a218f525359",
@@ -56,6 +56,15 @@
       "query": "반도체 국가산단"
     },
     {
+      "id": "e3c9d68ef66f",
+      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
+      "published": "2026-04-19T16:00:00+09:00",
+      "date": "2026-04-19",
+      "query": "도시재생 활성화계획"
+    },
+    {
       "id": "13bbc2ecfe2e",
       "title": "민주 박태완 울산 중구청장 후보 \"지구단위계획 철폐로 노후주택 재개발 지원\"",
       "source": "울산신문",
@@ -78,15 +87,6 @@
       "title": "서울시, 중랑구 중화2동 도시재생활성화계획 변경안 도시계획위원회 재생분과위원회 심의 '수정가결'",
       "source": "더 데일리가드",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jbXBaQU5BU21SdGsyWnUwbDdOdnUxOHpodmdDczdPQTY0VTRvQkRGdGl0dGg1dWR6T0dqMGhndm8tQXZiQ2ZjcHJpQkhBQkZrQUUwZGFLS1prNENjMDRpMks5QnVONG05RnljOTc5c3hSX2Ex0gF0QVVfeXFMTmNtcFpBTkFTbVJ0azJadTBsN052dTE4emh2Z0NzN09BNjRVNG9CREZ0aXR0aDV1ZHpPR2owaGd2by1BdmJDZmNwcmlCSEFCRmtBRTBkYUtLWms0Q2MwNGkySzlCdU40bTlGeWM5NzlzeFJfYTE?oc=5",
-      "published": "2026-04-16T16:00:00+09:00",
-      "date": "2026-04-16",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
       "published": "2026-04-16T16:00:00+09:00",
       "date": "2026-04-16",
       "query": "도시재생 활성화계획"
@@ -119,11 +119,11 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "0aba6d4f83f5",
-      "title": "올해 수도권 3기 신도시 등에서 6만2천가구 공공주택 '착공'",
-      "source": "금융소비자뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Vb1pFcy13dXFXTFdydUJCeVQ3dUlMZzdxMnc4RGJFQ3NNTUZtcTMwNUFyVEFvaWhjWU0xRm1ONFZDbUNpUXNfdzNNV2N4aUwteG4xU3hkOUotc0dzdkFPWnpqNWI0LTNDUEE?oc=5",
-      "published": "2026-04-15T16:27:34+09:00",
+      "id": "072868fceeef",
+      "title": "‘3기 신도시’ 포함, 올해 수도권 공공주택 6만2천가구 착공 추진",
+      "source": "경기일보",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxbEluZ0U1V2V2MmxYY1VOODVXejF4d0Vicng1T1Y4YVQ2T0JTOVdMVmd1Wm5hVzR5dnRZMUtMcmhoTUVERXVLcUNCLUpaRkpXdzAxaXA0YWdTNUk?oc=5",
+      "published": "2026-04-15T17:29:00+09:00",
       "date": "2026-04-15",
       "query": "신도시 착공"
     },
