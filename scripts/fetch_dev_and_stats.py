@@ -737,8 +737,9 @@ def _extract_branch_numbers(rows: list) -> dict:
                 if sum_total is None:
                     sum_total = val
 
-    # FISIS XML may use Korean element names directly as field keys.
-    # Also check "b" for sub_offices in wide-format single-row responses.
+    # FISIS XML may use Korean element names directly as field keys (tall-format only).
+    # Do NOT check "b" here — wide-format "b"=출장소 is handled in the regional fetch
+    # fallback where we can also read "a"=지점 to keep branches correct.
     if branches is None:
         for row in rows:
             v = _extract_int(row.get("지점") or row.get("branch") or row.get("branchCnt") or row.get("branch_cnt"))
@@ -749,7 +750,7 @@ def _extract_branch_numbers(rows: list) -> dict:
         for row in rows:
             v = _extract_int(
                 row.get("출장소") or row.get("subOffice") or row.get("sub_office")
-                or row.get("subOfficeCnt") or row.get("sub_office_cnt") or row.get("b") or row.get("B")
+                or row.get("subOfficeCnt") or row.get("sub_office_cnt")
             )
             if v is not None:
                 sub_offices = v
@@ -940,6 +941,7 @@ def fisis_build_regional_stats(codes: dict):
             sample = rows[0]
             print(f"[fisis][regional] sample row keys: {list(sample.keys())}")
             print(f"[fisis][regional] sample row: {sample}")
+            print(f"[fisis][regional] rows_branches count: {len(rows_branches)}")
             print(f"[fisis][regional] rows_sub_offices count: {len(rows_sub_offices)}")
         if not rows:
             continue
@@ -968,17 +970,27 @@ def fisis_build_regional_stats(codes: dict):
                     continue
                 if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
                     continue
+                # Read both branch (a) and sub_office (b) from the same wide-format row.
+                # MUST update branches too — if only sub_offices is set with branches=0,
+                # _normalize_branch_record computes branches = count - sub_offices (wrong).
+                a_val = _extract_int(
+                    row.get("a") or row.get("A")
+                    or row.get("지점") or row.get("branch") or row.get("branchCnt")
+                )
                 b_val = _extract_int(
                     row.get("b") or row.get("B")
                     or row.get("출장소") or row.get("subOffice") or row.get("sub_office")
                     or row.get("subOfficeCnt") or row.get("sub_office_cnt")
                 )
-                if b_val is None:
+                if b_val is None or b_val <= 0:
                     continue
                 rec = region_ym_bank.get(region, {}).get(ym, {}).get(bank)
-                if rec is not None and b_val > 0:
-                    rec["sub_offices"] = max(rec["sub_offices"], b_val)
-                    rec["count"] = max(rec["count"], rec["branches"] + b_val)
+                if rec is None:
+                    continue
+                rec["sub_offices"] = max(rec["sub_offices"], b_val)
+                if a_val is not None and a_val > 0:
+                    rec["branches"] = max(rec["branches"], a_val)
+                rec["count"] = max(rec["count"], (rec["branches"] or 0) + b_val)
         time.sleep(0.3)
 
     if not region_ym_bank:
@@ -1052,6 +1064,10 @@ def fisis_build_regional_stats(codes: dict):
                     continue
                 if region in ("합계", "소계", "총계", "계", "전국", "전 국", "total", REGION_CODE_MAP.get("O")):
                     continue
+                a_val = _extract_int(
+                    row.get("a") or row.get("A")
+                    or row.get("지점") or row.get("branch") or row.get("branchCnt")
+                )
                 b_val = _extract_int(
                     row.get("b") or row.get("B")
                     or row.get("출장소") or row.get("subOffice") or row.get("sub_office")
@@ -1062,6 +1078,9 @@ def fisis_build_regional_stats(codes: dict):
                 rec = region_ym_bank.get(region, {}).get(ym, {}).get(bank)
                 if rec is not None:
                     rec["sub_offices"] = max(rec["sub_offices"], b_val)
+                    if a_val is not None and a_val > 0:
+                        rec["branches"] = max(rec["branches"], a_val)
+                    rec["count"] = max(rec["count"], (rec["branches"] or 0) + b_val)
 
     if not region_ym_bank:
         return None
