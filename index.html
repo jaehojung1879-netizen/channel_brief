@@ -1986,7 +1986,7 @@ let _trendChart = null;
 function buildProgressiveAnimation(pointCount, totalDuration) {
   const segments = Math.max(pointCount - 1, 1);
   const staggerInterval = totalDuration / segments;   // time between starts
-  const segDuration = Math.round(staggerInterval * 1.6); // each segment lasts longer → overlap
+  const segDuration = Math.round(staggerInterval * 4.0); // high overlap → smooth continuous draw
   const prevPointY = (ctx) => {
     if (ctx.type !== 'data' || ctx.index === 0) return NaN;
     const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
@@ -2139,8 +2139,8 @@ function renderTrend(title, sub, labels, datasets) {
     };
   });
   const pointCount = labels.length;
-  const totalDuration = 2400; // stagger window; actual last-point finishes at totalDuration * 1.6
-  const chartAnimDuration = Math.round(totalDuration * 1.65); // cover last segment finish
+  const totalDuration = 1000; // stagger window (2× faster than before)
+  const chartAnimDuration = Math.round(totalDuration * 3.0); // safe cover for last segment
   _trendChart = new Chart(ctx, {
     type: 'line',
     data: { labels, datasets: styledDatasets },
