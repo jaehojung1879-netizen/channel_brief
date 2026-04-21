@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T08:54:16.614791+09:00",
+  "updated_at": "2026-04-22T07:02:06.846210+09:00",
   "as_of": "2025-12-31",
   "latest_ym": "202512",
   "regional": [
@@ -8,26 +8,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 220,
-          "branches": 189,
+          "count": 31,
+          "branches": 0,
           "sub_offices": 31
         },
         {
           "name": "KB국민",
-          "count": 256,
-          "branches": 221,
+          "count": 35,
+          "branches": 0,
           "sub_offices": 35
         },
         {
           "name": "하나",
-          "count": 220,
-          "branches": 196,
+          "count": 24,
+          "branches": 0,
           "sub_offices": 24
         },
         {
           "name": "우리",
-          "count": 238,
-          "branches": 211,
+          "count": 27,
+          "branches": 0,
           "sub_offices": 27
         }
       ],
@@ -37,26 +37,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 314,
-              "branches": 270,
+              "count": 44,
+              "branches": 0,
               "sub_offices": 44
             },
             {
               "name": "KB국민",
-              "count": 326,
-              "branches": 296,
+              "count": 30,
+              "branches": 0,
               "sub_offices": 30
             },
             {
               "name": "하나",
-              "count": 250,
-              "branches": 230,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "우리",
-              "count": 335,
-              "branches": 300,
+              "count": 35,
+              "branches": 0,
               "sub_offices": 35
             }
           ]
@@ -66,26 +66,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 305,
-              "branches": 256,
+              "count": 49,
+              "branches": 0,
               "sub_offices": 49
             },
             {
               "name": "KB국민",
-              "count": 322,
-              "branches": 290,
+              "count": 32,
+              "branches": 0,
               "sub_offices": 32
             },
             {
               "name": "하나",
-              "count": 243,
-              "branches": 226,
+              "count": 17,
+              "branches": 0,
               "sub_offices": 17
             },
             {
               "name": "우리",
-              "count": 333,
-              "branches": 301,
+              "count": 32,
+              "branches": 0,
               "sub_offices": 32
             }
           ]
@@ -95,26 +95,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 279,
-              "branches": 237,
+              "count": 42,
+              "branches": 0,
               "sub_offices": 42
             },
             {
               "name": "KB국민",
-              "count": 319,
-              "branches": 297,
+              "count": 22,
+              "branches": 0,
               "sub_offices": 22
             },
             {
               "name": "하나",
-              "count": 232,
-              "branches": 210,
+              "count": 22,
+              "branches": 0,
               "sub_offices": 22
             },
             {
               "name": "우리",
-              "count": 313,
-              "branches": 283,
+              "count": 30,
+              "branches": 0,
               "sub_offices": 30
             }
           ]
@@ -124,26 +124,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 267,
-              "branches": 227,
+              "count": 40,
+              "branches": 0,
               "sub_offices": 40
             },
             {
               "name": "KB국민",
-              "count": 307,
-              "branches": 280,
+              "count": 27,
+              "branches": 0,
               "sub_offices": 27
             },
             {
               "name": "하나",
-              "count": 221,
-              "branches": 200,
+              "count": 21,
+              "branches": 0,
               "sub_offices": 21
             },
             {
               "name": "우리",
-              "count": 293,
-              "branches": 266,
+              "count": 27,
+              "branches": 0,
               "sub_offices": 27
             }
           ]
@@ -153,26 +153,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 263,
-              "branches": 225,
+              "count": 38,
+              "branches": 0,
               "sub_offices": 38
             },
             {
               "name": "KB국민",
-              "count": 307,
-              "branches": 291,
+              "count": 16,
+              "branches": 0,
               "sub_offices": 16
             },
             {
               "name": "하나",
-              "count": 219,
-              "branches": 199,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "우리",
-              "count": 285,
-              "branches": 260,
+              "count": 25,
+              "branches": 0,
               "sub_offices": 25
             }
           ]
@@ -182,26 +182,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 266,
-              "branches": 229,
+              "count": 37,
+              "branches": 0,
               "sub_offices": 37
             },
             {
               "name": "KB국민",
-              "count": 273,
-              "branches": 246,
+              "count": 27,
+              "branches": 0,
               "sub_offices": 27
             },
             {
               "name": "하나",
-              "count": 219,
-              "branches": 199,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "우리",
-              "count": 280,
-              "branches": 255,
+              "count": 25,
+              "branches": 0,
               "sub_offices": 25
             }
           ]
@@ -211,26 +211,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 266,
-              "branches": 231,
+              "count": 35,
+              "branches": 0,
               "sub_offices": 35
             },
             {
               "name": "KB국민",
-              "count": 274,
-              "branches": 247,
+              "count": 27,
+              "branches": 0,
               "sub_offices": 27
             },
             {
               "name": "하나",
-              "count": 220,
-              "branches": 201,
+              "count": 19,
+              "branches": 0,
               "sub_offices": 19
             },
             {
               "name": "우리",
-              "count": 279,
-              "branches": 251,
+              "count": 28,
+              "branches": 0,
               "sub_offices": 28
             }
           ]
@@ -240,26 +240,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 263,
-              "branches": 227,
+              "count": 36,
+              "branches": 0,
               "sub_offices": 36
             },
             {
               "name": "KB국민",
-              "count": 275,
-              "branches": 249,
+              "count": 26,
+              "branches": 0,
               "sub_offices": 26
             },
             {
               "name": "하나",
-              "count": 221,
-              "branches": 201,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "우리",
-              "count": 271,
-              "branches": 244,
+              "count": 27,
+              "branches": 0,
               "sub_offices": 27
             }
           ]
@@ -269,26 +269,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 252,
-              "branches": 219,
+              "count": 33,
+              "branches": 0,
               "sub_offices": 33
             },
             {
               "name": "KB국민",
-              "count": 275,
-              "branches": 248,
+              "count": 27,
+              "branches": 0,
               "sub_offices": 27
             },
             {
               "name": "하나",
-              "count": 221,
-              "branches": 201,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "우리",
-              "count": 255,
-              "branches": 228,
+              "count": 27,
+              "branches": 0,
               "sub_offices": 27
             }
           ]
@@ -298,26 +298,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 222,
-              "branches": 190,
+              "count": 32,
+              "branches": 0,
               "sub_offices": 32
             },
             {
               "name": "KB국민",
-              "count": 255,
-              "branches": 220,
+              "count": 35,
+              "branches": 0,
               "sub_offices": 35
             },
             {
               "name": "하나",
-              "count": 220,
-              "branches": 197,
+              "count": 23,
+              "branches": 0,
               "sub_offices": 23
             },
             {
               "name": "우리",
-              "count": 241,
-              "branches": 215,
+              "count": 26,
+              "branches": 0,
               "sub_offices": 26
             }
           ]
@@ -327,26 +327,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 220,
-              "branches": 189,
+              "count": 31,
+              "branches": 0,
               "sub_offices": 31
             },
             {
               "name": "KB국민",
-              "count": 256,
-              "branches": 221,
+              "count": 35,
+              "branches": 0,
               "sub_offices": 35
             },
             {
               "name": "하나",
-              "count": 220,
-              "branches": 196,
+              "count": 24,
+              "branches": 0,
               "sub_offices": 24
             },
             {
               "name": "우리",
-              "count": 238,
-              "branches": 211,
+              "count": 27,
+              "branches": 0,
               "sub_offices": 27
             }
           ]
@@ -358,26 +358,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 22,
-          "branches": 17,
+          "count": 5,
+          "branches": 0,
           "sub_offices": 5
         },
         {
           "name": "KB국민",
-          "count": 37,
-          "branches": 26,
+          "count": 11,
+          "branches": 0,
           "sub_offices": 11
         },
         {
           "name": "하나",
-          "count": 35,
-          "branches": 33,
+          "count": 2,
+          "branches": 0,
           "sub_offices": 2
         },
         {
           "name": "우리",
-          "count": 36,
-          "branches": 33,
+          "count": 3,
+          "branches": 0,
           "sub_offices": 3
         }
       ],
@@ -387,26 +387,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 32,
-              "branches": 27,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "KB국민",
-              "count": 56,
-              "branches": 52,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "하나",
-              "count": 37,
-              "branches": 35,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 43,
-              "branches": 41,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             }
           ]
@@ -416,26 +416,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 30,
-              "branches": 23,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "KB국민",
-              "count": 47,
-              "branches": 36,
+              "count": 11,
+              "branches": 0,
               "sub_offices": 11
             },
             {
               "name": "하나",
-              "count": 36,
-              "branches": 34,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 43,
-              "branches": 41,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             }
           ]
@@ -445,26 +445,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 29,
-              "branches": 23,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "KB국민",
-              "count": 47,
-              "branches": 41,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 35,
-              "branches": 33,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 43,
-              "branches": 42,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -474,26 +474,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 27,
-              "branches": 22,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "KB국민",
-              "count": 46,
-              "branches": 41,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 35,
-              "branches": 33,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 42,
-              "branches": 41,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -503,26 +503,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 25,
-              "branches": 21,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "KB국민",
-              "count": 46,
-              "branches": 41,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 35,
-              "branches": 33,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 41,
-              "branches": 40,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -532,26 +532,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 25,
-              "branches": 21,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "KB국민",
-              "count": 42,
-              "branches": 35,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 35,
-              "branches": 33,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 41,
-              "branches": 40,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -561,26 +561,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 25,
-              "branches": 21,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "KB국민",
-              "count": 42,
-              "branches": 35,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 35,
-              "branches": 33,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 41,
-              "branches": 40,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -590,26 +590,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 26,
-              "branches": 23,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "KB국민",
-              "count": 42,
-              "branches": 35,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 35,
-              "branches": 33,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 41,
-              "branches": 40,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -619,26 +619,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 24,
-              "branches": 19,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "KB국민",
-              "count": 42,
-              "branches": 35,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 35,
-              "branches": 33,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 40,
-              "branches": 39,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -648,26 +648,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 22,
-              "branches": 17,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "KB국민",
-              "count": 37,
-              "branches": 26,
+              "count": 11,
+              "branches": 0,
               "sub_offices": 11
             },
             {
               "name": "하나",
-              "count": 35,
-              "branches": 33,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 38,
-              "branches": 36,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             }
           ]
@@ -677,26 +677,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 22,
-              "branches": 17,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "KB국민",
-              "count": 37,
-              "branches": 26,
+              "count": 11,
+              "branches": 0,
               "sub_offices": 11
             },
             {
               "name": "하나",
-              "count": 35,
-              "branches": 33,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 36,
-              "branches": 33,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -708,26 +708,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 16,
-          "branches": 15,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         },
         {
           "name": "KB국민",
-          "count": 21,
-          "branches": 14,
+          "count": 7,
+          "branches": 0,
           "sub_offices": 7
         },
         {
           "name": "하나",
-          "count": 21,
-          "branches": 21,
+          "count": 0,
+          "branches": 0,
           "sub_offices": 0
         },
         {
           "name": "우리",
-          "count": 17,
-          "branches": 17,
+          "count": 0,
+          "branches": 0,
           "sub_offices": 0
         }
       ],
@@ -737,26 +737,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 21,
-              "branches": 18,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "KB국민",
-              "count": 35,
-              "branches": 31,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "하나",
-              "count": 24,
-              "branches": 24,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 18,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -766,26 +766,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 21,
-              "branches": 18,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "KB국민",
-              "count": 31,
-              "branches": 24,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 23,
-              "branches": 23,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 18,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -795,26 +795,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 14,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "KB국민",
-              "count": 31,
-              "branches": 26,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 22,
-              "branches": 22,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 18,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -824,26 +824,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 14,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "KB국민",
-              "count": 27,
-              "branches": 24,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "하나",
-              "count": 21,
-              "branches": 21,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 18,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -853,26 +853,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 14,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "KB국민",
-              "count": 27,
-              "branches": 24,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "하나",
-              "count": 21,
-              "branches": 21,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 18,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -882,26 +882,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 15,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 25,
-              "branches": 23,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 21,
-              "branches": 21,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 18,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -911,26 +911,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 15,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 25,
-              "branches": 23,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 21,
-              "branches": 21,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 18,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -940,26 +940,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 18,
-              "branches": 17,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 25,
-              "branches": 23,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 21,
-              "branches": 21,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 18,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -969,26 +969,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 16,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 25,
-              "branches": 23,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 21,
-              "branches": 21,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 18,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -998,26 +998,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 16,
-              "branches": 15,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 21,
-              "branches": 14,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 21,
-              "branches": 21,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 17,
-              "branches": 17,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -1027,26 +1027,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 16,
-              "branches": 15,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 21,
-              "branches": 14,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 21,
-              "branches": 21,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 17,
-              "branches": 17,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -1058,26 +1058,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 39,
-          "branches": 29,
+          "count": 10,
+          "branches": 0,
           "sub_offices": 10
         },
         {
           "name": "KB국민",
-          "count": 33,
-          "branches": 21,
+          "count": 12,
+          "branches": 0,
           "sub_offices": 12
         },
         {
           "name": "하나",
-          "count": 25,
-          "branches": 19,
+          "count": 6,
+          "branches": 0,
           "sub_offices": 6
         },
         {
           "name": "우리",
-          "count": 26,
-          "branches": 17,
+          "count": 9,
+          "branches": 0,
           "sub_offices": 9
         }
       ],
@@ -1087,26 +1087,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 48,
-              "branches": 39,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 50,
-              "branches": 46,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "하나",
-              "count": 24,
-              "branches": 18,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 28,
-              "branches": 20,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -1116,26 +1116,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 47,
-              "branches": 37,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 48,
-              "branches": 43,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 24,
-              "branches": 18,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 28,
-              "branches": 20,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -1145,26 +1145,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 44,
-              "branches": 35,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 48,
-              "branches": 45,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "하나",
-              "count": 24,
-              "branches": 18,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 27,
-              "branches": 19,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -1174,26 +1174,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 42,
-              "branches": 33,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 44,
-              "branches": 39,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 24,
-              "branches": 18,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 26,
-              "branches": 18,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -1203,26 +1203,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 43,
-              "branches": 34,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 44,
-              "branches": 41,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "하나",
-              "count": 24,
-              "branches": 18,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 26,
-              "branches": 18,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -1232,26 +1232,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 43,
-              "branches": 34,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 40,
-              "branches": 36,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "하나",
-              "count": 24,
-              "branches": 18,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 26,
-              "branches": 18,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -1261,26 +1261,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 43,
-              "branches": 34,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 40,
-              "branches": 36,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "하나",
-              "count": 25,
-              "branches": 19,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 25,
-              "branches": 15,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             }
           ]
@@ -1290,26 +1290,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 42,
-              "branches": 34,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "KB국민",
-              "count": 39,
-              "branches": 31,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "하나",
-              "count": 25,
-              "branches": 19,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 25,
-              "branches": 15,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             }
           ]
@@ -1319,26 +1319,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 42,
-              "branches": 34,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "KB국민",
-              "count": 39,
-              "branches": 31,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "하나",
-              "count": 25,
-              "branches": 19,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 25,
-              "branches": 15,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             }
           ]
@@ -1348,26 +1348,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 39,
-              "branches": 29,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 33,
-              "branches": 21,
+              "count": 12,
+              "branches": 0,
               "sub_offices": 12
             },
             {
               "name": "하나",
-              "count": 25,
-              "branches": 19,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 25,
-              "branches": 15,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             }
           ]
@@ -1377,26 +1377,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 39,
-              "branches": 29,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 33,
-              "branches": 21,
+              "count": 12,
+              "branches": 0,
               "sub_offices": 12
             },
             {
               "name": "하나",
-              "count": 25,
-              "branches": 19,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 26,
-              "branches": 17,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             }
           ]
@@ -1408,26 +1408,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 9,
-          "branches": 7,
+          "count": 2,
+          "branches": 0,
           "sub_offices": 2
         },
         {
           "name": "KB국민",
-          "count": 12,
-          "branches": 11,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         },
         {
           "name": "하나",
-          "count": 10,
-          "branches": 10,
+          "count": 0,
+          "branches": 0,
           "sub_offices": 0
         },
         {
           "name": "우리",
-          "count": 8,
-          "branches": 7,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         }
       ],
@@ -1437,26 +1437,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 11,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 16,
-              "branches": 13,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 10,
-              "branches": 9,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1466,26 +1466,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 11,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 8,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 10,
-              "branches": 9,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1495,26 +1495,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 11,
-              "branches": 10,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 9,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 10,
-              "branches": 9,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1524,26 +1524,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 10,
-              "branches": 9,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 12,
-              "branches": 10,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 10,
-              "branches": 9,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1553,26 +1553,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 10,
-              "branches": 9,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 12,
-              "branches": 10,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 9,
-              "branches": 8,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1582,26 +1582,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 10,
-              "branches": 9,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 12,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 9,
-              "branches": 8,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1611,26 +1611,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 10,
-              "branches": 8,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 12,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 9,
-              "branches": 8,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1640,26 +1640,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 10,
-              "branches": 8,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 12,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 9,
-              "branches": 8,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1669,26 +1669,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 12,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 9,
-              "branches": 8,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1698,26 +1698,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 12,
-              "branches": 11,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1727,26 +1727,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 12,
-              "branches": 11,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 10,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -1758,26 +1758,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 11,
-          "branches": 9,
+          "count": 2,
+          "branches": 0,
           "sub_offices": 2
         },
         {
           "name": "KB국민",
-          "count": 13,
-          "branches": 5,
+          "count": 8,
+          "branches": 0,
           "sub_offices": 8
         },
         {
           "name": "하나",
-          "count": 33,
-          "branches": 24,
+          "count": 9,
+          "branches": 0,
           "sub_offices": 9
         },
         {
           "name": "우리",
-          "count": 11,
-          "branches": 7,
+          "count": 4,
+          "branches": 0,
           "sub_offices": 4
         }
       ],
@@ -1787,26 +1787,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 15,
-              "branches": 14,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 20,
-              "branches": 14,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 37,
-              "branches": 31,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 16,
-              "branches": 13,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -1816,26 +1816,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 15,
-              "branches": 14,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 18,
-              "branches": 11,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 37,
-              "branches": 31,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 16,
-              "branches": 13,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -1845,26 +1845,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 14,
-              "branches": 13,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 18,
-              "branches": 12,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 32,
-              "branches": 24,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 16,
-              "branches": 13,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -1874,26 +1874,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 11,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 18,
-              "branches": 12,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 33,
-              "branches": 25,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 14,
-              "branches": 10,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -1903,26 +1903,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 10,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 18,
-              "branches": 12,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 33,
-              "branches": 25,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 13,
-              "branches": 9,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -1932,26 +1932,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 10,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 15,
-              "branches": 9,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 33,
-              "branches": 25,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 13,
-              "branches": 9,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -1961,26 +1961,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 10,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 15,
-              "branches": 8,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 33,
-              "branches": 25,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 13,
-              "branches": 9,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -1990,26 +1990,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 10,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 15,
-              "branches": 8,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 33,
-              "branches": 25,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 13,
-              "branches": 9,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -2019,26 +2019,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 11,
-              "branches": 9,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 15,
-              "branches": 8,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 33,
-              "branches": 25,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 13,
-              "branches": 9,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -2048,26 +2048,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 11,
-              "branches": 9,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 5,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "하나",
-              "count": 33,
-              "branches": 24,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "우리",
-              "count": 11,
-              "branches": 7,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -2077,26 +2077,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 11,
-              "branches": 9,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 5,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "하나",
-              "count": 33,
-              "branches": 24,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "우리",
-              "count": 11,
-              "branches": 7,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -2108,26 +2108,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 8,
-          "branches": 6,
+          "count": 2,
+          "branches": 0,
           "sub_offices": 2
         },
         {
           "name": "KB국민",
-          "count": 7,
-          "branches": 5,
+          "count": 2,
+          "branches": 0,
           "sub_offices": 2
         },
         {
           "name": "하나",
-          "count": 9,
-          "branches": 5,
+          "count": 4,
+          "branches": 0,
           "sub_offices": 4
         },
         {
           "name": "우리",
-          "count": 8,
-          "branches": 7,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         }
       ],
@@ -2137,26 +2137,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 10,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 13,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 6,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2166,26 +2166,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 10,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 10,
-              "branches": 8,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 6,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2195,26 +2195,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 10,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 10,
-              "branches": 9,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 10,
-              "branches": 6,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2224,26 +2224,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 11,
-              "branches": 9,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 9,
-              "branches": 5,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2253,26 +2253,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 9,
-              "branches": 5,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2282,26 +2282,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 9,
-              "branches": 8,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 9,
-              "branches": 5,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2311,26 +2311,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 9,
-              "branches": 8,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 9,
-              "branches": 5,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2340,26 +2340,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 9,
-              "branches": 8,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 9,
-              "branches": 5,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2369,26 +2369,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 9,
-              "branches": 7,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 9,
-              "branches": 8,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 9,
-              "branches": 5,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2398,26 +2398,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 8,
-              "branches": 6,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 7,
-              "branches": 5,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 9,
-              "branches": 5,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2427,26 +2427,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 8,
-              "branches": 6,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 7,
-              "branches": 5,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 9,
-              "branches": 5,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 8,
-              "branches": 7,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2464,20 +2464,20 @@
         },
         {
           "name": "KB국민",
-          "count": 3,
-          "branches": 2,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         },
         {
           "name": "하나",
-          "count": 4,
-          "branches": 1,
+          "count": 3,
+          "branches": 0,
           "sub_offices": 3
         },
         {
           "name": "우리",
-          "count": 2,
-          "branches": 1,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         }
       ],
@@ -2487,26 +2487,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 1,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 5,
-              "branches": 5,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 2,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2516,26 +2516,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 1,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 4,
-              "branches": 3,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 2,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2545,26 +2545,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 1,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 1,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2574,26 +2574,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 1,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 1,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2603,26 +2603,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 1,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 1,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2632,26 +2632,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 1,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 1,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2661,26 +2661,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 1,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 1,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2690,26 +2690,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 1,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 1,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2719,26 +2719,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 1,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 1,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2754,20 +2754,20 @@
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 1,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2783,20 +2783,20 @@
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 1,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
@@ -2808,26 +2808,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 124,
-          "branches": 104,
+          "count": 20,
+          "branches": 0,
           "sub_offices": 20
         },
         {
           "name": "KB국민",
-          "count": 154,
-          "branches": 115,
+          "count": 39,
+          "branches": 0,
           "sub_offices": 39
         },
         {
           "name": "하나",
-          "count": 96,
-          "branches": 81,
+          "count": 15,
+          "branches": 0,
           "sub_offices": 15
         },
         {
           "name": "우리",
-          "count": 138,
-          "branches": 107,
+          "count": 31,
+          "branches": 0,
           "sub_offices": 31
         }
       ],
@@ -2837,26 +2837,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 166,
-              "branches": 146,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "KB국민",
-              "count": 220,
-              "branches": 203,
+              "count": 17,
+              "branches": 0,
               "sub_offices": 17
             },
             {
               "name": "하나",
-              "count": 113,
-              "branches": 107,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 172,
-              "branches": 139,
+              "count": 33,
+              "branches": 0,
               "sub_offices": 33
             }
           ]
@@ -2866,26 +2866,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 161,
-              "branches": 137,
+              "count": 24,
+              "branches": 0,
               "sub_offices": 24
             },
             {
               "name": "KB국민",
-              "count": 214,
-              "branches": 193,
+              "count": 21,
+              "branches": 0,
               "sub_offices": 21
             },
             {
               "name": "하나",
-              "count": 107,
-              "branches": 101,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 172,
-              "branches": 140,
+              "count": 32,
+              "branches": 0,
               "sub_offices": 32
             }
           ]
@@ -2895,26 +2895,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 152,
-              "branches": 132,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "KB국민",
-              "count": 213,
-              "branches": 196,
+              "count": 17,
+              "branches": 0,
               "sub_offices": 17
             },
             {
               "name": "하나",
-              "count": 97,
-              "branches": 89,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 159,
-              "branches": 130,
+              "count": 29,
+              "branches": 0,
               "sub_offices": 29
             }
           ]
@@ -2924,26 +2924,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 140,
-              "branches": 121,
+              "count": 19,
+              "branches": 0,
               "sub_offices": 19
             },
             {
               "name": "KB국민",
-              "count": 201,
-              "branches": 180,
+              "count": 21,
+              "branches": 0,
               "sub_offices": 21
             },
             {
               "name": "하나",
-              "count": 96,
-              "branches": 88,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 148,
-              "branches": 119,
+              "count": 29,
+              "branches": 0,
               "sub_offices": 29
             }
           ]
@@ -2953,26 +2953,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 134,
-              "branches": 115,
+              "count": 19,
+              "branches": 0,
               "sub_offices": 19
             },
             {
               "name": "KB국민",
-              "count": 201,
-              "branches": 187,
+              "count": 14,
+              "branches": 0,
               "sub_offices": 14
             },
             {
               "name": "하나",
-              "count": 95,
-              "branches": 87,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 148,
-              "branches": 120,
+              "count": 28,
+              "branches": 0,
               "sub_offices": 28
             }
           ]
@@ -2982,26 +2982,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 136,
-              "branches": 118,
+              "count": 18,
+              "branches": 0,
               "sub_offices": 18
             },
             {
               "name": "KB국민",
-              "count": 182,
-              "branches": 162,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "하나",
-              "count": 95,
-              "branches": 86,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "우리",
-              "count": 148,
-              "branches": 120,
+              "count": 28,
+              "branches": 0,
               "sub_offices": 28
             }
           ]
@@ -3011,26 +3011,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 136,
-              "branches": 118,
+              "count": 18,
+              "branches": 0,
               "sub_offices": 18
             },
             {
               "name": "KB국민",
-              "count": 183,
-              "branches": 163,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "하나",
-              "count": 96,
-              "branches": 85,
+              "count": 11,
+              "branches": 0,
               "sub_offices": 11
             },
             {
               "name": "우리",
-              "count": 147,
-              "branches": 118,
+              "count": 29,
+              "branches": 0,
               "sub_offices": 29
             }
           ]
@@ -3040,26 +3040,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 135,
-              "branches": 117,
+              "count": 18,
+              "branches": 0,
               "sub_offices": 18
             },
             {
               "name": "KB국민",
-              "count": 183,
-              "branches": 163,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "하나",
-              "count": 96,
-              "branches": 85,
+              "count": 11,
+              "branches": 0,
               "sub_offices": 11
             },
             {
               "name": "우리",
-              "count": 146,
-              "branches": 116,
+              "count": 30,
+              "branches": 0,
               "sub_offices": 30
             }
           ]
@@ -3069,26 +3069,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 131,
-              "branches": 113,
+              "count": 18,
+              "branches": 0,
               "sub_offices": 18
             },
             {
               "name": "KB국민",
-              "count": 183,
-              "branches": 163,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "하나",
-              "count": 96,
-              "branches": 83,
+              "count": 13,
+              "branches": 0,
               "sub_offices": 13
             },
             {
               "name": "우리",
-              "count": 143,
-              "branches": 112,
+              "count": 31,
+              "branches": 0,
               "sub_offices": 31
             }
           ]
@@ -3098,26 +3098,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 124,
-              "branches": 105,
+              "count": 19,
+              "branches": 0,
               "sub_offices": 19
             },
             {
               "name": "KB국민",
-              "count": 155,
-              "branches": 116,
+              "count": 39,
+              "branches": 0,
               "sub_offices": 39
             },
             {
               "name": "하나",
-              "count": 96,
-              "branches": 81,
+              "count": 15,
+              "branches": 0,
               "sub_offices": 15
             },
             {
               "name": "우리",
-              "count": 138,
-              "branches": 107,
+              "count": 31,
+              "branches": 0,
               "sub_offices": 31
             }
           ]
@@ -3127,26 +3127,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 124,
-              "branches": 104,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "KB국민",
-              "count": 154,
-              "branches": 115,
+              "count": 39,
+              "branches": 0,
               "sub_offices": 39
             },
             {
               "name": "하나",
-              "count": 96,
-              "branches": 81,
+              "count": 15,
+              "branches": 0,
               "sub_offices": 15
             },
             {
               "name": "우리",
-              "count": 138,
-              "branches": 107,
+              "count": 31,
+              "branches": 0,
               "sub_offices": 31
             }
           ]
@@ -3158,26 +3158,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 17,
-          "branches": 7,
+          "count": 10,
+          "branches": 0,
           "sub_offices": 10
         },
         {
           "name": "KB국민",
-          "count": 7,
-          "branches": 1,
+          "count": 6,
+          "branches": 0,
           "sub_offices": 6
         },
         {
           "name": "하나",
-          "count": 6,
-          "branches": 6,
+          "count": 0,
+          "branches": 0,
           "sub_offices": 0
         },
         {
           "name": "우리",
-          "count": 6,
-          "branches": 2,
+          "count": 4,
+          "branches": 0,
           "sub_offices": 4
         }
       ],
@@ -3187,26 +3187,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 18,
-              "branches": 9,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 15,
-              "branches": 15,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 5,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3216,26 +3216,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 18,
-              "branches": 9,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 12,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 5,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3245,26 +3245,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 19,
-              "branches": 11,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 13,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 5,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3274,26 +3274,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 7,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 13,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 6,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3303,26 +3303,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 7,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 13,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 6,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3332,26 +3332,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 7,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 13,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 6,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3361,26 +3361,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 7,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 13,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 6,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3390,26 +3390,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 7,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 13,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 6,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3419,26 +3419,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 7,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 13,
-              "branches": 13,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 6,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3448,26 +3448,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 7,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 7,
-              "branches": 1,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 6,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3477,26 +3477,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 17,
-              "branches": 7,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 7,
-              "branches": 1,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 6,
-              "branches": 6,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 6,
-              "branches": 2,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             }
           ]
@@ -3508,26 +3508,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 32,
-          "branches": 22,
+          "count": 10,
+          "branches": 0,
           "sub_offices": 10
         },
         {
           "name": "KB국민",
-          "count": 22,
-          "branches": 12,
+          "count": 10,
+          "branches": 0,
           "sub_offices": 10
         },
         {
           "name": "하나",
-          "count": 31,
-          "branches": 26,
+          "count": 5,
+          "branches": 0,
           "sub_offices": 5
         },
         {
           "name": "우리",
-          "count": 21,
-          "branches": 12,
+          "count": 9,
+          "branches": 0,
           "sub_offices": 9
         }
       ],
@@ -3537,26 +3537,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 34,
-              "branches": 19,
+              "count": 15,
+              "branches": 0,
               "sub_offices": 15
             },
             {
               "name": "KB국민",
-              "count": 36,
-              "branches": 29,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 32,
-              "branches": 28,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 23,
-              "branches": 15,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -3566,26 +3566,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 33,
-              "branches": 17,
+              "count": 16,
+              "branches": 0,
               "sub_offices": 16
             },
             {
               "name": "KB국민",
-              "count": 31,
-              "branches": 20,
+              "count": 11,
+              "branches": 0,
               "sub_offices": 11
             },
             {
               "name": "하나",
-              "count": 32,
-              "branches": 28,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 23,
-              "branches": 15,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -3595,26 +3595,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 32,
-              "branches": 18,
+              "count": 14,
+              "branches": 0,
               "sub_offices": 14
             },
             {
               "name": "KB국민",
-              "count": 31,
-              "branches": 21,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "하나",
-              "count": 32,
-              "branches": 28,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 22,
-              "branches": 14,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -3624,26 +3624,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 32,
-              "branches": 19,
+              "count": 13,
+              "branches": 0,
               "sub_offices": 13
             },
             {
               "name": "KB국민",
-              "count": 29,
-              "branches": 19,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "하나",
-              "count": 31,
-              "branches": 27,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 21,
-              "branches": 13,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -3653,26 +3653,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 32,
-              "branches": 21,
+              "count": 11,
+              "branches": 0,
               "sub_offices": 11
             },
             {
               "name": "KB국민",
-              "count": 29,
-              "branches": 21,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "하나",
-              "count": 31,
-              "branches": 27,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 21,
-              "branches": 13,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -3682,26 +3682,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 33,
-              "branches": 23,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 26,
-              "branches": 18,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "하나",
-              "count": 31,
-              "branches": 27,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 21,
-              "branches": 13,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -3711,26 +3711,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 33,
-              "branches": 23,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 26,
-              "branches": 18,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             },
             {
               "name": "하나",
-              "count": 31,
-              "branches": 27,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 21,
-              "branches": 13,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -3740,26 +3740,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 33,
-              "branches": 23,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 26,
-              "branches": 19,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 31,
-              "branches": 26,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "우리",
-              "count": 21,
-              "branches": 12,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             }
           ]
@@ -3769,26 +3769,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 32,
-              "branches": 22,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 26,
-              "branches": 19,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             },
             {
               "name": "하나",
-              "count": 31,
-              "branches": 26,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "우리",
-              "count": 21,
-              "branches": 12,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             }
           ]
@@ -3798,26 +3798,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 32,
-              "branches": 22,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 22,
-              "branches": 11,
+              "count": 11,
+              "branches": 0,
               "sub_offices": 11
             },
             {
               "name": "하나",
-              "count": 31,
-              "branches": 26,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "우리",
-              "count": 21,
-              "branches": 12,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             }
           ]
@@ -3827,26 +3827,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 32,
-              "branches": 22,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "KB국민",
-              "count": 22,
-              "branches": 12,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "하나",
-              "count": 31,
-              "branches": 26,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "우리",
-              "count": 21,
-              "branches": 12,
+              "count": 9,
+              "branches": 0,
               "sub_offices": 9
             }
           ]
@@ -3858,26 +3858,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 20,
-          "branches": 6,
+          "count": 14,
+          "branches": 0,
           "sub_offices": 14
         },
         {
           "name": "KB국민",
-          "count": 33,
-          "branches": 21,
+          "count": 12,
+          "branches": 0,
           "sub_offices": 12
         },
         {
           "name": "하나",
-          "count": 23,
-          "branches": 17,
+          "count": 6,
+          "branches": 0,
           "sub_offices": 6
         },
         {
           "name": "우리",
-          "count": 25,
-          "branches": 17,
+          "count": 8,
+          "branches": 0,
           "sub_offices": 8
         }
       ],
@@ -3887,26 +3887,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 29,
-              "branches": 9,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "KB국민",
-              "count": 53,
-              "branches": 43,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "하나",
-              "count": 25,
-              "branches": 20,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "우리",
-              "count": 31,
-              "branches": 24,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             }
           ]
@@ -3916,26 +3916,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 29,
-              "branches": 9,
+              "count": 20,
+              "branches": 0,
               "sub_offices": 20
             },
             {
               "name": "KB국민",
-              "count": 46,
-              "branches": 32,
+              "count": 14,
+              "branches": 0,
               "sub_offices": 14
             },
             {
               "name": "하나",
-              "count": 25,
-              "branches": 20,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "우리",
-              "count": 31,
-              "branches": 24,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             }
           ]
@@ -3945,26 +3945,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 25,
-              "branches": 9,
+              "count": 16,
+              "branches": 0,
               "sub_offices": 16
             },
             {
               "name": "KB국민",
-              "count": 46,
-              "branches": 36,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "하나",
-              "count": 24,
-              "branches": 19,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "우리",
-              "count": 29,
-              "branches": 23,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             }
           ]
@@ -3974,26 +3974,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 23,
-              "branches": 10,
+              "count": 13,
+              "branches": 0,
               "sub_offices": 13
             },
             {
               "name": "KB국민",
-              "count": 41,
-              "branches": 29,
+              "count": 12,
+              "branches": 0,
               "sub_offices": 12
             },
             {
               "name": "하나",
-              "count": 23,
-              "branches": 17,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 28,
-              "branches": 22,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             }
           ]
@@ -4003,26 +4003,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 20,
-              "branches": 6,
+              "count": 14,
+              "branches": 0,
               "sub_offices": 14
             },
             {
               "name": "KB국민",
-              "count": 40,
-              "branches": 27,
+              "count": 13,
+              "branches": 0,
               "sub_offices": 13
             },
             {
               "name": "하나",
-              "count": 23,
-              "branches": 17,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 27,
-              "branches": 21,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             }
           ]
@@ -4032,26 +4032,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 20,
-              "branches": 7,
+              "count": 13,
+              "branches": 0,
               "sub_offices": 13
             },
             {
               "name": "KB국민",
-              "count": 37,
-              "branches": 27,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "하나",
-              "count": 23,
-              "branches": 17,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 27,
-              "branches": 21,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             }
           ]
@@ -4061,26 +4061,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 20,
-              "branches": 7,
+              "count": 13,
+              "branches": 0,
               "sub_offices": 13
             },
             {
               "name": "KB국민",
-              "count": 37,
-              "branches": 27,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "하나",
-              "count": 23,
-              "branches": 17,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 27,
-              "branches": 21,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             }
           ]
@@ -4090,26 +4090,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 20,
-              "branches": 7,
+              "count": 13,
+              "branches": 0,
               "sub_offices": 13
             },
             {
               "name": "KB국민",
-              "count": 37,
-              "branches": 27,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "하나",
-              "count": 23,
-              "branches": 17,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 27,
-              "branches": 21,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             }
           ]
@@ -4119,26 +4119,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 20,
-              "branches": 7,
+              "count": 13,
+              "branches": 0,
               "sub_offices": 13
             },
             {
               "name": "KB국민",
-              "count": 37,
-              "branches": 27,
+              "count": 10,
+              "branches": 0,
               "sub_offices": 10
             },
             {
               "name": "하나",
-              "count": 23,
-              "branches": 17,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 27,
-              "branches": 21,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             }
           ]
@@ -4148,26 +4148,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 20,
-              "branches": 6,
+              "count": 14,
+              "branches": 0,
               "sub_offices": 14
             },
             {
               "name": "KB국민",
-              "count": 33,
-              "branches": 20,
+              "count": 13,
+              "branches": 0,
               "sub_offices": 13
             },
             {
               "name": "하나",
-              "count": 23,
-              "branches": 17,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 26,
-              "branches": 19,
+              "count": 7,
+              "branches": 0,
               "sub_offices": 7
             }
           ]
@@ -4177,26 +4177,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 20,
-              "branches": 6,
+              "count": 14,
+              "branches": 0,
               "sub_offices": 14
             },
             {
               "name": "KB국민",
-              "count": 33,
-              "branches": 21,
+              "count": 12,
+              "branches": 0,
               "sub_offices": 12
             },
             {
               "name": "하나",
-              "count": 23,
-              "branches": 17,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 25,
-              "branches": 17,
+              "count": 8,
+              "branches": 0,
               "sub_offices": 8
             }
           ]
@@ -4208,26 +4208,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 14,
-          "branches": 12,
+          "count": 2,
+          "branches": 0,
           "sub_offices": 2
         },
         {
           "name": "KB국민",
-          "count": 19,
-          "branches": 13,
+          "count": 6,
+          "branches": 0,
           "sub_offices": 6
         },
         {
           "name": "하나",
-          "count": 17,
-          "branches": 16,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         },
         {
           "name": "우리",
-          "count": 16,
-          "branches": 13,
+          "count": 3,
+          "branches": 0,
           "sub_offices": 3
         }
       ],
@@ -4237,26 +4237,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 16,
-              "branches": 14,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 34,
-              "branches": 32,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 18,
-              "branches": 17,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 19,
-              "branches": 16,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -4266,26 +4266,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 16,
-              "branches": 14,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 30,
-              "branches": 26,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "하나",
-              "count": 18,
-              "branches": 17,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 19,
-              "branches": 16,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -4295,26 +4295,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 16,
-              "branches": 14,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 30,
-              "branches": 28,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 18,
-              "branches": 17,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 18,
-              "branches": 16,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             }
           ]
@@ -4324,26 +4324,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 14,
-              "branches": 12,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 26,
-              "branches": 23,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             },
             {
               "name": "하나",
-              "count": 18,
-              "branches": 17,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 17,
-              "branches": 15,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             }
           ]
@@ -4353,26 +4353,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 14,
-              "branches": 12,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 25,
-              "branches": 21,
+              "count": 4,
+              "branches": 0,
               "sub_offices": 4
             },
             {
               "name": "하나",
-              "count": 18,
-              "branches": 17,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 17,
-              "branches": 15,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             }
           ]
@@ -4382,26 +4382,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 14,
-              "branches": 12,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 20,
-              "branches": 15,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 17,
-              "branches": 15,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "우리",
-              "count": 17,
-              "branches": 15,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             }
           ]
@@ -4411,26 +4411,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 14,
-              "branches": 12,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 20,
-              "branches": 15,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 17,
-              "branches": 16,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 16,
-              "branches": 13,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -4440,26 +4440,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 14,
-              "branches": 12,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 20,
-              "branches": 15,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 17,
-              "branches": 16,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 16,
-              "branches": 13,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -4469,26 +4469,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 14,
-              "branches": 12,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 20,
-              "branches": 15,
+              "count": 5,
+              "branches": 0,
               "sub_offices": 5
             },
             {
               "name": "하나",
-              "count": 17,
-              "branches": 16,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 16,
-              "branches": 13,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -4498,26 +4498,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 14,
-              "branches": 12,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 19,
-              "branches": 13,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 17,
-              "branches": 16,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 16,
-              "branches": 13,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -4527,26 +4527,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 14,
-              "branches": 12,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 19,
-              "branches": 13,
+              "count": 6,
+              "branches": 0,
               "sub_offices": 6
             },
             {
               "name": "하나",
-              "count": 17,
-              "branches": 16,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "우리",
-              "count": 16,
-              "branches": 13,
+              "count": 3,
+              "branches": 0,
               "sub_offices": 3
             }
           ]
@@ -4558,26 +4558,26 @@
       "banks": [
         {
           "name": "신한",
-          "count": 3,
-          "branches": 2,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         },
         {
           "name": "KB국민",
-          "count": 3,
-          "branches": 2,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         },
         {
           "name": "하나",
-          "count": 3,
-          "branches": 3,
+          "count": 0,
+          "branches": 0,
           "sub_offices": 0
         },
         {
           "name": "우리",
-          "count": 2,
-          "branches": 1,
+          "count": 1,
+          "branches": 0,
           "sub_offices": 1
         }
       ],
@@ -4593,20 +4593,20 @@
             },
             {
               "name": "KB국민",
-              "count": 5,
-              "branches": 4,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 4,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4622,20 +4622,20 @@
             },
             {
               "name": "KB국민",
-              "count": 4,
-              "branches": 2,
+              "count": 2,
+              "branches": 0,
               "sub_offices": 2
             },
             {
               "name": "하나",
-              "count": 4,
-              "branches": 4,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4645,26 +4645,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 4,
-              "branches": 3,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 4,
-              "branches": 3,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4674,26 +4674,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 4,
-              "branches": 3,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 4,
-              "branches": 3,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4703,26 +4703,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 4,
-              "branches": 3,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 4,
-              "branches": 3,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4732,26 +4732,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 4,
-              "branches": 3,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4761,26 +4761,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 4,
-              "branches": 3,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4790,26 +4790,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4819,26 +4819,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4848,26 +4848,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             }
           ]
@@ -4877,26 +4877,26 @@
           "banks": [
             {
               "name": "신한",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "KB국민",
-              "count": 3,
-              "branches": 2,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             },
             {
               "name": "하나",
-              "count": 3,
-              "branches": 3,
+              "count": 0,
+              "branches": 0,
               "sub_offices": 0
             },
             {
               "name": "우리",
-              "count": 2,
-              "branches": 1,
+              "count": 1,
+              "branches": 0,
               "sub_offices": 1
             }
           ]
