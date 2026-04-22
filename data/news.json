@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-22T07:38:21.906585+09:00",
+  "updated_at": "2026-04-22T09:48:34.888256+09:00",
   "headline": {
-    "id": "af49f572fb64",
-    "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
+    "id": "72e77ed0aa90",
+    "title": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략]",
     "source": "한국금융신문",
-    "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
+    "summary": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략] 한국금융신문",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5udW1YemFlMzctTTA5dmptVnRCazladG95U1JuWkE5dm5TYUlnNXo3TGZuQ25QdFp5d25nOEpZX044MC0zdnFSNGpRcTRaVXhfeDdFZEE5WXNWeFZpS0dFNElnbENWVTJmY19yaGxrai0yMmV5TkJOanV5Rkc?oc=5",
     "published": "2026-04-20T00:00:00+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 2,
-    "_score": 26.0,
+    "rank": 11,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -36,7 +36,7 @@
         "published": "2026-04-20T15:25:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +60,8 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "72e77ed0aa90",
@@ -71,8 +72,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 11
       },
       {
         "id": "a114c58dbde6",

@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-04-22T07:39:58.507347+09:00",
+  "updated_at": "2026-04-22T09:52:37.263813+09:00",
   "social_finance": [
+    {
+      "id": "844dd219bb84",
+      "title": "교보생명, 중소기업 대상 AI 교육 도입… 상생형 서비스 확대",
+      "source": "핀포인트뉴스",
+      "summary": "교보생명, 중소기업 대상 AI 교육 도입… 상생형 서비스 확대&nbsp;&nbsp;핀포인트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXVjQ1aGk1cEo2ZW5kYXAxZ2Q2NEVJSUdaUjc1V25CbFUtOTgxYjdfVDZrbzBId2RYdGJVUHllRlBoT1QtZEN6QTNjQmFJLTVlYk1XX3VEbjhKY0hHMWZ0cVZDQ0xrc2FsWGMwS09nLVNadW_SAXdBVV95cUxON2w1LUJidzdnZW5hWHRTNTFQY19sWDFDdnFmU2YwZTVoRTJwSUhwd2szNUtMTFB6NnFncWp5b0tCX3RwX0xxbEhZNWJoT194VTdLMUt0bktTYk1EQXo0THlUTC1RWlZoc2RaamxaU014VXlXTmZZRQ?oc=5",
+      "published": "2026-04-22T09:15:49+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "5794b2a59007",
+      "title": "'서류 없는 청구' 동양생명, 실손24 인앱 출시…금융 취약계층 편의도 강화",
+      "source": "청년일보",
+      "summary": "'서류 없는 청구' 동양생명, 실손24 인앱 출시…금융 취약계층 편의도 강화&nbsp;&nbsp;청년일보",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZTUdkUTlsVWJmaEIzRWhfVWo3anhNR3ZMczNybXZjLVYzN1g0UkE3X0o1WjRLLVQ4azJvQkZNcGg3dS0zcHh2THNtclJpR1hxZWtzcWpJMFY5U0Y3U3FxVVVOV0NaLWM?oc=5",
+      "published": "2026-04-22T09:07:43+09:00",
+      "query": "취약계층 금융"
+    },
     {
       "id": "80632dfa21f1",
       "title": "[단독]대기업, 상생협력모펀드 출자한다는데 1년째 \"기다려라\" - 머니투데이",
@@ -54,98 +72,80 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKR3ZKMG1KajV2emZ1VUR0MXZoaVFSQWRuN3pwQVIwODk2R3ZCVmRGMVcwUjk2UU1yX0ozLUNIZEtVSzVmYnJpdFVmUmY3TjVXSElUclgxZ3RmZw?oc=5",
       "published": "2026-04-21T15:02:00+09:00",
       "query": "소상공인 금융지원"
-    },
-    {
-      "id": "4eca456883aa",
-      "title": "은행권, 청년 지원 확대…인재 육성·포용금융 '두 트랙'",
-      "source": "이투데이",
-      "summary": "은행권, 청년 지원 확대…인재 육성·포용금융 '두 트랙'&nbsp;&nbsp;이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RaWZXUEdMeGZDVUh6eGpmd3BLek12RHo5Ti14TFczSFdFVVdKLW5VbWxqQlJGcThFMVowX3RIWlpnNGtZMkhsUXpTa0VtV3dneW95TQ?oc=5",
-      "published": "2026-04-21T14:52:00+09:00",
-      "query": "포용금융"
-    },
-    {
-      "id": "9eec773afc90",
-      "title": "한국수력원자력, 소상공인 금융지원 300억 원 기금 조성",
-      "source": "디지털비즈온",
-      "summary": "한국수력원자력, 소상공인 금융지원 300억 원 기금 조성&nbsp;&nbsp;디지털비즈온",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE40MmhENG9OOHFMdVlNZnMybjJtWkJiVHBTYVNGbnJEZk04WTlYa293R1NhX1ZoMy1qUk1KTjFQazFiMkNmY0RtUmNCa29jZm1mVGRJMUhsYWxpLVJDZmlYdkNGTm1SZmxnYmg4cDcxYUxsZ9IBdEFVX3lxTE5SU0JFV29SZFdHODBQRHFDampXWXZTTkwtcXlmd1JDeko2MGNRM2x0Z2V2N2tJQkt2RFloak1rbkFtWmNEbXNUSGpGN3hmTV9OeEd4LWdlQWVibmV2MEVlUEo5T29GcVZRc2RkeGJJbjNqa21o?oc=5",
-      "published": "2026-04-21T14:29:16+09:00",
-      "query": "소상공인 금융지원"
     }
   ],
   "tech": [
     {
-      "id": "897aeb7bddc9",
-      "title": "SWIFT-리플, 적대적 경쟁 끝났다…글로벌 은행 60% '양다리' 융합 가속",
-      "source": "글로벌이코노믹",
-      "summary": "SWIFT-리플, 적대적 경쟁 끝났다…글로벌 은행 60% '양다리' 융합 가속&nbsp;&nbsp;글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcENJMTdHMWdpUlhJelJ1NWtkaDJzZUl1U0lzQ1pZeVl4YWZFemwwNHVnQ0ZSYlVzR3dkWFZDdHdPVjVrd29kb1VjM052TkhvckszRk0tZ3V4eFJWR0NhblJKal9zOGZpRHJQNTVfcGFEM3JIZHB0a205Qm0zUUNSOUc1ZHF2TC1l?oc=5",
-      "published": "2026-04-22T07:07:23+09:00",
-      "query": "블록체인 은행"
-    },
-    {
-      "id": "3cb02293d920",
-      "title": "기업은행, AX 조직개편 추진",
-      "source": "서울경제",
-      "summary": "기업은행, AX 조직개편 추진&nbsp;&nbsp;서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90dS1fR2Q2bjU3OGxsWV9nZWFSMUpZcGlYQkNEc3ZJWVNuajBObl9SU05ZUE9VeHlhQm5LMU5TRWZERmgza3ZFbU5FN3lmblpIUFHSAVNBVV95cUxNQzlCeHRCTGZ5ZjIzNWEyUGExSlp2N0tlT05rN3ZYemI0OXVwc2RTY3hPc1EtaXVIM2RqUGVpWEZoSVdJY1p1TDBDZjJpemRoU2w0OA?oc=5",
-      "published": "2026-04-22T06:26:45+09:00",
+      "id": "d83aa4202b97",
+      "title": "하나은행, 어린이 경제 뮤지컬 전국 확대...AI 기반 접근성 강화",
+      "source": "이로운넷",
+      "summary": "하나은행, 어린이 경제 뮤지컬 전국 확대...AI 기반 접근성 강화&nbsp;&nbsp;이로운넷",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4QUpPZHFzZ1RtTGtYb0hQcEstZ0tGbG83TVlra2FZM1ZHTmZJaEhOU3g4cW5kWnQwUzBTUmF6ZzVVZ0pKOEJ6VU16TVQ3dUg0MnRNNmtpQlVxeGZkeTNOcGpWTW4xdw?oc=5",
+      "published": "2026-04-22T09:50:37+09:00",
       "query": "은행 AI"
     },
     {
-      "id": "16b4fda0adf7",
-      "title": "앤트로픽, 유럽 은행에 Mythos AI 접근 확대 예정 (로이터) By Investing.com",
-      "source": "Investing.com 한국어",
-      "summary": "앤트로픽, 유럽 은행에 Mythos AI 접근 확대 예정 (로이터) By Investing.com&nbsp;&nbsp;Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjVFhRMzVIVjJyV1l2WFBWTE5DaW5Jc2ItOXZtNzhlNHZnYjlWUEpJVmktdm9CVVdLQ3doVS1ILTVtcnZFTnFKVDBtblR0S29jbkRVZmQtaUxhYk9rOU03bnhmUWpyTXh2NFE5Vi1aUHlIZkZHUDNJ?oc=5",
-      "published": "2026-04-22T06:02:00+09:00",
+      "id": "2d0756b00fba",
+      "title": "하나은행, AI 자막 안경 도입한 어린이 경제 뮤지컬 공연 실시",
+      "source": "PRESS9",
+      "summary": "하나은행, AI 자막 안경 도입한 어린이 경제 뮤지컬 공연 실시&nbsp;&nbsp;PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RcFpVbXlVQVoyNm5PeHJ1OFRMcjNleVBPS083bTQzbkNJWmZOVHJucG5zNzVTWURwRDZkdDBLX2tsY09YUHRPc2lzb0dhcTg2eTNJeXVMUHVVUGd3Tms3NThMT0w?oc=5",
+      "published": "2026-04-22T09:39:24+09:00",
       "query": "은행 AI"
     },
     {
-      "id": "4d6bc0fd5b60",
-      "title": "무디스, “스테이블코인의 은행 업계 영향력 제한적”",
-      "source": "경향게임스",
-      "summary": "무디스, “스테이블코인의 은행 업계 영향력 제한적”&nbsp;&nbsp;경향게임스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xQ3M2MDJzUzR6d2lXM3JoOGZmcVdRR0FyTW44SjF2cDRwNkZlX3JXM2NQUDRKOU9zUmxmZ1Y3TWpUeU9uVnZfS04yVE5fUU5hX1RXZTlLOFVyLWZTRXJCSDVwZDlWTGlPT1lsOA?oc=5",
-      "published": "2026-04-22T04:00:28+09:00",
-      "query": "블록체인 은행"
+      "id": "8e222344e846",
+      "title": "유라클, 저축은행 대상 AI 도입 전략 세미나 개최",
+      "source": "전자신문",
+      "summary": "유라클, 저축은행 대상 AI 도입 전략 세미나 개최&nbsp;&nbsp;전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tdmROcDFURHQ2dFN2Z09yUzREME8zcW5weHpKTFlWMG1wNFhDaHJjX0N5TExVOGFzMGl2QkQ3WnRDWElBZE1RY0NOVTcxUQ?oc=5",
+      "published": "2026-04-22T09:34:47+09:00",
+      "query": "은행 AI"
     },
     {
-      "id": "257144e7db0a",
-      "title": "기웅정보통신, 개정 전자금융거래법 대응 ‘비대면 실명확인 서비스’ 출시",
-      "source": "핀테크투데이",
-      "summary": "기웅정보통신, 개정 전자금융거래법 대응 ‘비대면 실명확인 서비스’ 출시&nbsp;&nbsp;핀테크투데이",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RQVJvempXUmJnWU9fbDljUWZReTFhWjA1OF9TTURfbEJKWGZFYzJlVm93ekRoYm9SSkt4Rnd5VjBTeW1oRVdjODNLVlhOeDhPcjVDdkFqd2dXaVBxM09QYmwwSGlFRmpjMzkzelppMTBiTnPSAXNBVV95cUxOUUFSb3pqV1JiZ1lPX2w5Y1FmUXkxYVowNThfU01EX2xCSlhmRWMyZVZvd3pEaGJvUkpLeEZ3eVYwU3ltaEVXYzgzS1ZYTng4T3I1Q3ZBandnV2lQcTNPUGJsMEhpRUZqYzM5M3paaTEwYk5z?oc=5",
-      "published": "2026-04-21T19:18:53+09:00",
-      "query": "비대면 실명확인"
+      "id": "05b069895fad",
+      "title": "NHN KCP, NH농협은행과 '스테이블코인 결제 시대' 연다",
+      "source": "전자신문",
+      "summary": "NHN KCP, NH농협은행과 '스테이블코인 결제 시대' 연다&nbsp;&nbsp;전자신문농협은행, NHN KCP와 스테이블코인 결제 협력&nbsp;&nbsp;newsis.comNHN KCP, NH농협은행과 '스테이블코인 결제' 인프라 구축&nbsp;&nbsp;지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xMnVuSnJRenBjOUU5OGtnTGV6N0k4VHRhS0c3bGVxT0FsTGNvczI0di1zWE1JVUFzNnJleENBM09QSlk5RVNRWE1pTDd3QQ?oc=5",
+      "published": "2026-04-22T09:24:30+09:00",
+      "query": "스테이블코인 은행"
     },
     {
-      "id": "9cb66e3dcc51",
-      "title": "첫날부터 CBDC 띄운 신현송…\"한발 앞서 디지털화폐 준비\"",
-      "source": "파이낸셜뉴스",
-      "summary": "첫날부터 CBDC 띄운 신현송…\"한발 앞서 디지털화폐 준비\"&nbsp;&nbsp;파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5STnd5M0tPeDRsc0NhTGoyNlZWT1VBdHpkbHJMSVEzTzlYdmtxVVY4cy1Ra0M0VThRckhrRmNaRG44NS14ZDlNM3ktaWVzVDQwQkI2QXNwRUNOUdIBXkFVX3lxTFBUeUY3eFd2eTRYYThxSlBORXo2QldNdUVNMzhOWHVmSHMwWTVkbW5zYWw0UU9SdlJkRDRFRnBJREotaEJxOElZTTR5ZFNtOFRQSmFKdl9lTGk1T1h5NEE?oc=5",
-      "published": "2026-04-21T18:30:06+09:00",
+      "id": "d21e646406ab",
+      "title": "케빈 워시 \"가상자산은 금융 일부\"...CBDC 반대·금리 독립성 강조",
+      "source": "디지털애셋",
+      "summary": "케빈 워시 \"가상자산은 금융 일부\"...CBDC 반대·금리 독립성 강조&nbsp;&nbsp;디지털애셋",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1od1RCdFBORE1jMlI3VUcyTk82YzlBRmVzU1NWZFJqYmdHVW9odGN1TU4zVnNBbXZPNjdWSzlfd1AxSjlCWXlWRkE5UVZfYk4zVTVNd292ei1zNEN3TXJkNE1mZjFxcXdrbHdZYnFEbVV4dw?oc=5",
+      "published": "2026-04-22T08:59:23+09:00",
       "query": "CBDC 은행"
     },
     {
-      "id": "d255a2682178",
-      "title": "금융 망분리 완화에 SaaS 상시 허용…핀테크·AI ‘실사용’ 본격화",
-      "source": "위키리크스한국",
-      "summary": "금융 망분리 완화에 SaaS 상시 허용…핀테크·AI ‘실사용’ 본격화&nbsp;&nbsp;위키리크스한국",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaTUY1dFFFNFdocUFOZjlFeHlHRGVFbVFmODhlV19SR2xjMU4tdTNmbV9xeFlBTHcwdUR6YW5WUHBNSTREMll0dkRkWG1fWE1sZUFYQlFnTkR2TXRONndkcFF6MDRzQ3lCLVZoY1puTQ?oc=5",
-      "published": "2026-04-21T17:55:00+09:00",
+      "id": "4d3c8abef7d1",
+      "title": "NH농협은행-NHN KCP, AI 에이전트 디지털 지급결제 협력 본격화",
+      "source": "마켓인",
+      "summary": "NH농협은행-NHN KCP, AI 에이전트 디지털 지급결제 협력 본격화&nbsp;&nbsp;마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UU3BmMDI0cGx1VUdMazBncUEzVWRLejkzOUpNU0dCZFA1ZkZGRVJNNWlpdFo4Tld2c0E3RUx6dHE0QW9vbjZqMHp5V256VHMxc25WMG1ZaDJEOGE0NTdZRFZFQzVoM2dOaG9SenhjZEpZZ2c?oc=5",
+      "published": "2026-04-22T08:55:08+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "a01a624ff3e7",
+      "title": "NHN클라우드-NC AI, ‘AI 인프라’ 맞손…공공·금융 산업 공략 |",
+      "source": "HeraldK.com",
+      "summary": "NHN클라우드-NC AI, ‘AI 인프라’ 맞손…공공·금융 산업 공략 |&nbsp;&nbsp;HeraldK.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNejQ1WVJrTDJXZmJGUGFXLWZLLVY5V24tekZ5eFdLNTREMU1kal96eXgwc0ZfY2gtLWdVVzNKdEZkOXhpS0QtbkN5STlRaFg0bmVXaVl1d3VsM2RINlJLWEtjb3lVYmF2X01mSzNSYVlyUE9iQzdETUtucWJvQXZ4WVViWlk5VllHa1lFRmZHX2tjaGtaN055VVV3MDVBdTRkM1d0RmZ2cDFteTk1MVNRWXNEcUNwVi1Bd0c2QXlvSWNzSndMVkRURUNTTGdsLXNCdlNXc29oX1VidHB0d2EzUVNKZTBVeWVfdnFYdzYwQzBaNmdZWDk5akNIRFBqdklxSGc1eHNqYW1aRDdlRTZIazFkNG5aNlNmZ2l3N0JxZ1RWWW5nNHVDWGlBdjZsVkt6a1hlZFF0YkZ1NlVhYjE0TjhWWG9jR3hV?oc=5",
+      "published": "2026-04-22T08:01:46+09:00",
       "query": "은행 클라우드"
     },
     {
-      "id": "2a14887fbd85",
-      "title": "우리은행, 'AI 에이전트 전용 GPU 클러스터' 구축…생성형 AI 내재화 본격화",
-      "source": "전자신문",
-      "summary": "우리은행, 'AI 에이전트 전용 GPU 클러스터' 구축…생성형 AI 내재화 본격화&nbsp;&nbsp;전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0VWpld3Z6UGNGdTZ2TEhMOVQ0bFg3c0dGOWhBeXpvQTQ5N292QnQ1SkFONWdtby0zdGE4cFEtV09wXy1VbkNudUVGbHJTQQ?oc=5",
-      "published": "2026-04-21T17:00:00+09:00",
-      "query": "은행 AI"
+      "id": "e0831d0f1a1c",
+      "title": "신현송 한은 총재 “우리 경제 구조 개혁 위해 적극적 역할 하겠다”",
+      "source": "농민신문",
+      "summary": "신현송 한은 총재 “우리 경제 구조 개혁 위해 적극적 역할 하겠다”&nbsp;&nbsp;농민신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iczczYmF4RDlneEZqM2RJaVE2Y1dyNDFYbFFXNFRiald0WHBQNnJlaHhaSmVieUhkZ1hKNzdPNWJodFR5cXZnZTJkaW9xdGEzVnBJamEwMzdvZw?oc=5",
+      "published": "2026-04-22T07:57:41+09:00",
+      "query": "CBDC 은행"
     }
   ]
 }
