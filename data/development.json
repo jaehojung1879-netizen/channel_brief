@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T07:07:18.962507+09:00",
+  "updated_at": "2026-04-23T07:49:22.523406+09:00",
   "items": [
     {
       "id": "9ad52c0b7a65",
@@ -17,15 +17,6 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCc2pmaEs0LUlrR0tibjFRc3czWFY2TWRZZjhaTFl0cWpEMGlQTTJneHZ4NTZYOXFOaGYyWjNsc0Z6VmFUVTR6T1l0YV8xdGlaNW1Jd2pIelhXck9PNjZLZkpMS2NnRE5JODlB?oc=5",
       "published": "2026-04-22T11:29:34+09:00",
       "date": "2026-04-22",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-04-21T19:03:31+09:00",
-      "date": "2026-04-21",
       "query": "반도체 국가산단"
     },
     {
@@ -56,6 +47,15 @@
       "query": "반도체 국가산단"
     },
     {
+      "id": "b7b4a4ad4b8b",
+      "title": "진보당 이종욱 \"반도체 국가산단 전남광주로 분산배치 해야\"",
+      "source": "뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmckN5UGhqNEZWLWxRUm5fU2Z5R1djYXdYQ05uWURQTEJIUnZwWlZjN0ZQNXJnc2lNcFJUb1BfN19ycHRYM1c2dlMwY0VaM1VvX093d05HZUxGcG5MeHlr?oc=5",
+      "published": "2026-04-20T11:28:48+09:00",
+      "date": "2026-04-20",
+      "query": "반도체 국가산단"
+    },
+    {
       "id": "e3c9d68ef66f",
       "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
       "source": "자치안성신문",
@@ -63,6 +63,15 @@
       "published": "2026-04-19T16:00:00+09:00",
       "date": "2026-04-19",
       "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "13bbc2ecfe2e",
+      "title": "민주 박태완 울산 중구청장 후보 \"지구단위계획 철폐로 노후주택 재개발 지원\"",
+      "source": "울산신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qRnlHQ2VxV3VMQWtaQ0ZrYVZZczdJSGdVMlRCLWdQWVhYbWk4aDc5dmZJUTgxcVl4YlF0VTUxT2FwN0NxLTRKM203S2FPYlJiODNqYjFud05BUVdJTlI0R0lvakhteDVENlN0Y2ln0gFyQVVfeXFMUHR6bHhxOWw4Q3plOG5YY0VlLTlGNF9ORDNjd0dGa3VjZVJQYUhhVW1yV0RrdUFYdm1ZWC0wUGpFVE1zaUNkRHltZGF1OFBWNzlTdXNmUWFsdUNqLXR5UksycngxNE04Rm8xS1VBN243bW5R?oc=5",
+      "published": "2026-04-16T20:10:00+09:00",
+      "date": "2026-04-16",
+      "query": "복합개발 지구단위계획"
     },
     {
       "id": "58f256fc8373",
