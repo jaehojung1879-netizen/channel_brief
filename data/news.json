@@ -1,20 +1,43 @@
 {
-  "updated_at": "2026-04-22T09:48:34.888256+09:00",
+  "updated_at": "2026-04-23T07:06:14.570281+09:00",
   "headline": {
-    "id": "72e77ed0aa90",
-    "title": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략]",
-    "source": "한국금융신문",
-    "summary": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략] 한국금융신문",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5udW1YemFlMzctTTA5dmptVnRCazladG95U1JuWkE5dm5TYUlnNXo3TGZuQ25QdFp5d25nOEpZX044MC0zdnFSNGpRcTRaVXhfeDdFZEE5WXNWeFZpS0dFNElnbENWVTJmY19yaGxrai0yMmV5TkJOanV5Rkc?oc=5",
-    "published": "2026-04-20T00:00:00+09:00",
+    "id": "b2ee561b3720",
+    "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
+    "source": "PRESS9",
+    "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42TzcxZFpGZ190UmdlX1AwcGpFWnRZY0JvbEw5WUFtQWUtYjZTdGpoNGxobDE2NnZlcmQ2emxXcnhhU1B4Z1VUWVA4Zjg3N3Z2TjNnS015YnRBR1NaejFpRHZMZkY?oc=5",
+    "published": "2026-04-22T14:57:26+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 11,
-    "_score": 18.0,
+    "rank": 2,
+    "_score": 26.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "c6b8a5145653",
+        "title": "은행 지점 대신 출장소로 점포수 유지 ‘꼼수’…대체점포도 하세월",
+        "source": "뉴스토마토",
+        "summary": "은행 지점 대신 출장소로 점포수 유지 ‘꼼수’…대체점포도 하세월 뉴스토마토",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BeXVvd1kxZFZXQ1p5QnpQWG5nMEI0b3BGc1h2NDBpZWdya0o5UHY2cGRzdW1ta0h2dlRUTTJUT2hnWmtPcFJJMG84LURNQ2VlOURjU0IwUE9qWEh6Qm5TVg?oc=5",
+        "published": "2026-04-22T16:15:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "b2ee561b3720",
+        "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
+        "source": "PRESS9",
+        "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42TzcxZFpGZ190UmdlX1AwcGpFWnRZY0JvbEw5WUFtQWUtYjZTdGpoNGxobDE2NnZlcmQ2emxXcnhhU1B4Z1VUWVA4Zjg3N3Z2TjNnS015YnRBR1NaejFpRHZMZkY?oc=5",
+        "published": "2026-04-22T14:57:26+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2
+      },
       {
         "id": "32ad4d636ac3",
         "title": "[점포의 진화]①KB국민은행, '9To6'로 공간 효율 높여",
@@ -24,19 +47,19 @@
         "published": "2026-04-21T15:17:29+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 15,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "d16a28afc5de",
         "title": "농협은행, 외화예금 비대면 서비스 확대…\"영업점 중심 거래서 탈피\"",
-        "source": "SBSBiz",
-        "summary": "농협은행, 외화예금 비대면 서비스 확대…\"영업점 중심 거래서 탈피\" SBSBiz",
+        "source": "biz.sbs.co.kr.",
+        "summary": "농협은행, 외화예금 비대면 서비스 확대…\"영업점 중심 거래서 탈피\" biz.sbs.co.kr.",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wbVY0Z0Y5ZDBZell4VXgza3YzMTR6a0VLVkJwdkpRSkNITkFMX2E2X3Z1cHFELWU5X0M5S0t6R3gxR3ZCbk5xYk9VQUl6bTk4em1r?oc=5",
         "published": "2026-04-20T15:25:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +71,7 @@
         "published": "2026-04-20T05:00:19+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +83,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,18 +95,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11
-      },
-      {
-        "id": "a114c58dbde6",
-        "title": "점포 확대 ‘역발상ʼ·찾아가는 교육까지…‘발로 뛰는ʼ 하나은행 [은행 접근성 보완 전략]",
-        "source": "한국금융신문",
-        "summary": "점포 확대 ‘역발상ʼ·찾아가는 교육까지…‘발로 뛰는ʼ 하나은행 [은행 접근성 보완 전략] 한국금융신문",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yUDllZHVZNFhfaElKcVBNeTZ5dmM5dGdrc1kzTWZYRHlINVQ3NUI5NGp5RmlWOVBfV2xCaWlBZTh4c3R6RTdjLTZ2ZUI3VWJOSWRQWlFOOGpKdUpydjh2dDJqajBUUnNqUkhyeFhMUklDVG85bXN4ZGtvcw?oc=5",
-        "published": "2026-04-20T00:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 15,
+        "rank": 13,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -95,12 +107,23 @@
         "published": "2026-04-19T15:34:29+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "b2ee561b3720",
+        "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
+        "source": "PRESS9",
+        "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42TzcxZFpGZ190UmdlX1AwcGpFWnRZY0JvbEw5WUFtQWUtYjZTdGpoNGxobDE2NnZlcmQ2emxXcnhhU1B4Z1VUWVA4Zjg3N3Z2TjNnS015YnRBR1NaejFpRHZMZkY?oc=5",
+        "published": "2026-04-22T14:57:26+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1
+      },
       {
         "id": "2c75f209f96c",
         "title": "금융권 장애인 고용 드라이브…신한은행도 보폭 확대",
@@ -110,7 +133,7 @@
         "published": "2026-04-20T11:48:55+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -122,7 +145,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1
+        "rank": 2
       }
     ]
   }
