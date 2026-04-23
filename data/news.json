@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-24T07:39:44.842073+09:00",
+  "updated_at": "2026-04-24T07:44:10.101733+09:00",
   "headline": {
-    "id": "b2ee561b3720",
-    "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
-    "source": "PRESS9",
-    "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42TzcxZFpGZ190UmdlX1AwcGpFWnRZY0JvbEw5WUFtQWUtYjZTdGpoNGxobDE2NnZlcmQ2emxXcnhhU1B4Z1VUWVA4Zjg3N3Z2TjNnS015YnRBR1NaejFpRHZMZkY?oc=5",
-    "published": "2026-04-22T14:57:26+09:00",
-    "query": "디지털 라운지",
+    "id": "af49f572fb64",
+    "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
+    "source": "한국금융신문",
+    "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
+    "published": "2026-04-20T00:00:00+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 19.0,
+    "rank": 3,
+    "_score": 22.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -48,7 +48,8 @@
         "published": "2026-04-22T14:57:26+09:00",
         "query": "디지털 라운지",
         "engine": "google",
-        "rank": 1
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "32ad4d636ac3",
@@ -83,8 +84,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 3
       },
       {
         "id": "72e77ed0aa90",
@@ -146,18 +146,6 @@
         "query": "금감원 점포",
         "engine": "google",
         "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "013a9d36ec30",
-        "title": "금감원 주가조작 근절대책 불공정연루 점포 영업정지",
-        "source": "매일경제",
-        "summary": "금감원 주가조작 근절대책 불공정연루 점포 영업정지 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1Xc1NUc2NER0ZfZ1o3VWNnRGNIM0tUdGVlTkR1SjJjTHY0N3doZ255TUs1V3JzM1NDS3RQZ2J5Y1doWXA5aVE?oc=5",
-        "published": "2026-04-23T00:03:22+09:00",
-        "query": "금감원 점포",
-        "engine": "google",
-        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
