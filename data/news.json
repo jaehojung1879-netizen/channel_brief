@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-04-23T07:48:23.764873+09:00",
+  "updated_at": "2026-04-24T07:39:44.842073+09:00",
   "headline": {
-    "id": "af49f572fb64",
-    "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
-    "source": "한국금융신문",
-    "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
-    "published": "2026-04-20T00:00:00+09:00",
-    "query": "은행 점포",
+    "id": "b2ee561b3720",
+    "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
+    "source": "PRESS9",
+    "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42TzcxZFpGZ190UmdlX1AwcGpFWnRZY0JvbEw5WUFtQWUtYjZTdGpoNGxobDE2NnZlcmQ2emxXcnhhU1B4Z1VUWVA4Zjg3N3Z2TjNnS015YnRBR1NaejFpRHZMZkY?oc=5",
+    "published": "2026-04-22T14:57:26+09:00",
+    "query": "디지털 라운지",
     "engine": "google",
-    "rank": 3,
-    "_score": 25.0,
+    "rank": 1,
+    "_score": 19.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "a8a011c0ff2e",
+        "title": "[점포의 진화]③하나은행, '노후·자산' 대면 상담에 집중",
+        "source": "PRESS9",
+        "summary": "[점포의 진화]③하나은행, '노후·자산' 대면 상담에 집중 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6Yks1dWlEM0hrNzJLVjdvTHQxYnlsMTVvWm1peGU4NFNvQjFwUnc3VnVtU2JzSTJYU2g3SjM1ZDRwbWM3RzRrM0toaU5sUmE2N0VSWlJSa1c3SWloVzItYW14UGE?oc=5",
+        "published": "2026-04-23T13:58:20+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "c6b8a5145653",
         "title": "은행 지점 대신 출장소로 점포수 유지 ‘꼼수’…대체점포도 하세월",
@@ -34,10 +46,9 @@
         "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42TzcxZFpGZ190UmdlX1AwcGpFWnRZY0JvbEw5WUFtQWUtYjZTdGpoNGxobDE2NnZlcmQ2emxXcnhhU1B4Z1VUWVA4Zjg3N3Z2TjNnS015YnRBR1NaejFpRHZMZkY?oc=5",
         "published": "2026-04-22T14:57:26+09:00",
-        "query": "은행 점포",
+        "query": "디지털 라운지",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 1
       },
       {
         "id": "32ad4d636ac3",
@@ -48,19 +59,7 @@
         "published": "2026-04-21T15:17:29+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 15,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "d16a28afc5de",
-        "title": "농협은행, 외화예금 비대면 서비스 확대…\"영업점 중심 거래서 탈피\"",
-        "source": "biz.sbs.co.kr.",
-        "summary": "농협은행, 외화예금 비대면 서비스 확대…\"영업점 중심 거래서 탈피\" biz.sbs.co.kr.",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wbVY0Z0Y5ZDBZell4VXgza3YzMTR6a0VLVkJwdkpRSkNITkFMX2E2X3Z1cHFELWU5X0M5S0t6R3gxR3ZCbk5xYk9VQUl6bTk4em1r?oc=5",
-        "published": "2026-04-20T15:25:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 2,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +71,7 @@
         "published": "2026-04-20T05:00:19+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,7 +83,8 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "72e77ed0aa90",
@@ -95,7 +95,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 13,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -107,22 +107,96 @@
         "published": "2026-04-19T15:34:29+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": [],
+    "policy_news": [
+      {
+        "id": "a7c032bc1375",
+        "title": "금감원, 증권사 거점점포 검사 착수…하나증권 첫 순서",
+        "source": "아주경제",
+        "summary": "금감원, 증권사 거점점포 검사 착수…하나증권 첫 순서 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fSUpqSVgtQWVFTnFsdml6azlpejFHa0k3YkZpLUpZd3pkUGx6MXl6c0hFY0VpbUZ3Y0NGZjdDNEw4SEtsd0p6dUFBVElIQTAtQXVrSk1lREjSAVhBVV95cUxPX0lKaklYLUFlRU5xbHZpems5aXoxR2tJN2JGaS1KWXd6ZFBsejF5enNIRWNFaW1Gd2NDRmY3QzRMOEhLbHdKenVBQVRJSEEwLUF1a0pNZURI?oc=5",
+        "published": "2026-04-23T18:49:14+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2ca7a6c6660f",
+        "title": "금감원, 하나증권 '거점점포' 현장검사 돌입 - 머니투데이",
+        "source": "머니투데이",
+        "summary": "금감원, 하나증권 '거점점포' 현장검사 돌입 - 머니투데이 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFRUFDZ3hGSkd0MGhWR3QyZ2R4OVR3VWZkZnhGdWZyTFE1NDhpMjdZLXNybVNyRUZ4OEdVYjVwY1NZWk02UFdyUTJSUnNETnBCTWczZk1HbkkzenNoR0syS3ZMdFJNa0J00gFuQVVfeXFMTWR1TkZiYlNVTWVTcU04Q1JtRV92NGlsY2M4bWtuV1hlakkyd1JUZWFUNDBmaGYzZncyVWlkWnBZUzBDdDVVbmlFek4yeFF4RXYxRFh1TnN5Z012NW1ldnlmUUM1em02SG9CdllwaUE?oc=5",
+        "published": "2026-04-23T17:27:43+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "9e3f3ac511ae",
+        "title": "올해 첫 거점점포 타깃은 하나증권…금감원 현장검사 |",
+        "source": "연합인포맥스",
+        "summary": "올해 첫 거점점포 타깃은 하나증권…금감원 현장검사 | 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ubnlzd011YnJYYW1IVDVZOVlISXozTy1TU1YzNHVYNTgwRnVPaC1NTkJaNEtDdnRKc3l0NEFJZTAwYktmZzRmLVRpR1VFeWxfc0xPQkNBb0FrekxxZUpuMUFnUjRHMzhZeXc2VEU5UlVTOGtB?oc=5",
+        "published": "2026-04-23T16:27:40+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "013a9d36ec30",
+        "title": "금감원 주가조작 근절대책 불공정연루 점포 영업정지",
+        "source": "매일경제",
+        "summary": "금감원 주가조작 근절대책 불공정연루 점포 영업정지 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1Xc1NUc2NER0ZfZ1o3VWNnRGNIM0tUdGVlTkR1SjJjTHY0N3doZ255TUs1V3JzM1NDS3RQZ2J5Y1doWXA5aVE?oc=5",
+        "published": "2026-04-23T00:03:22+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ],
     "shinhan_news": [
       {
-        "id": "b2ee561b3720",
+        "id": "1f8a03654e6f",
+        "title": "신한은행 동해지점 대한노인회 기부금 전달",
+        "source": "강원도민일보",
+        "summary": "신한은행 동해지점 대한노인회 기부금 전달 강원도민일보",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4cWc0cjlhVnc1Vm9RaU5FOWltTzRocWpxSjZSTFhHNld4S1J0TnplTFF2aHBsQlIxZk9VQjNBNW5MM19taWpJNUlFMllyNjItRHU0bVh3UjgxTmR0YVI2bWRGVnZyMzg?oc=5",
+        "published": "2026-04-24T00:02:02+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "70969aacfb3b",
         "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
         "source": "PRESS9",
         "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42TzcxZFpGZ190UmdlX1AwcGpFWnRZY0JvbEw5WUFtQWUtYjZTdGpoNGxobDE2NnZlcmQ2emxXcnhhU1B4Z1VUWVA4Zjg3N3Z2TjNnS015YnRBR1NaejFpRHZMZkY?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tLUZ4QkxSQ2xBYVh6N004SThLaUJwWHRKUW9tbXQza2xzQ3dyVi1kakhjZUZ4aDk0UGNSQVZ6WTdrZm0yZkFVQjhUaEZaVW5SZDhubVk5N2VuTWFPMkltVjRsVU5MZw?oc=5",
         "published": "2026-04-22T14:57:26+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "46925f9a4480",
+        "title": "15회 변시 합격자 대상 최대 1억 원 대출… 신한은행, 신규법조인 한정상품 출시",
+        "source": "법조신문",
+        "summary": "15회 변시 합격자 대상 최대 1억 원 대출… 신한은행, 신규법조인 한정상품 출시 법조신문",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlbV8zcldKUlRocTlZbXJXc2h0LXl2Zy1VdjhRS2M1WnBnTUdFLXd3Z2s1bDR6eWZGd25fRXUyVnVhTHpTT1VZT3pWbTRBZE9mZGNsdy1xcjVOYXdZN0swY0N4c1VyTExSYkxKNnVRSQ?oc=5",
+        "published": "2026-04-21T16:00:00+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "2c75f209f96c",
@@ -145,7 +219,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2
+        "rank": 1
       }
     ]
   }
