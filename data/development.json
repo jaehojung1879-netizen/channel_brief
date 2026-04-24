@@ -1,13 +1,58 @@
 {
-  "updated_at": "2026-04-24T07:45:06.741739+09:00",
+  "updated_at": "2026-04-25T07:40:45.793400+09:00",
   "items": [
     {
-      "id": "b385a79919af",
-      "title": "[아유경제_부동산] 옛 버스 차고지 망우동 360-1 일대, 준주거지역으로 상향… 복합 개발 추진",
-      "source": "아유경제",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BWDZZLU9mTXktbFlEdUUtbWNKVDNPaG5DZTVUaGRMOEo5NU5nZDJxTHFGUy1jZllTcU1WejhnY1JNYUplVm9KT2tIbWdOY2dLV2hXLTZJVDhjMjRoMHNPNnJkYlNTYmxI?oc=5",
-      "published": "2026-04-23T14:04:20+09:00",
-      "date": "2026-04-23",
+      "id": "fad36275a4dd",
+      "title": "‘원조 부촌’ 워커힐아파트, 재건축 재시동… 1·2단지 ‘통합’ 기틀 마련 - 조선비즈",
+      "source": "Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWEYzOFpsdkpQbk1VSzc0RkZzd2VESXo3V3VQQmFWSHVFd21nUTRfdTJpX0JBZlZRT3JVbnU1SHhyTmVWbjJnUDJBSTNleEh4UUlrZmpCSXpOZEpDZ3k5NGdDc1dVaWk4OVNFU19QSEkzd0Q3Rl9lcGVUODRGWkktd0NfRE5GRk1ZU1F5YmxVQ29MdnU3TGNQMtIBrAFBVV95cUxNTXlOZzlCWkM2bnlITV9zM3NBWDR5Zzg4RnlBeEZ5SndyLWpYUzJYZ2pJZmhhX0w5WVZEb2hPaS01c1lMOHhjanBqaHQ0UHJwR3NoSFJnandJR2prY0JWQkxfUHRzWnJtT1hmUmNXMmN0blRzVUxZODg3bEFyQkVWNHRQSHhFTktMWC1lTEdCTS1seWF5THlyVDlfX2F6UUNHbHBkeTZvQi1oWXFj?oc=5",
+      "published": "2026-04-25T06:00:00+09:00",
+      "date": "2026-04-25",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "68c1618265af",
+      "title": "추미애 경기지사 후보, 삼성·SK하이닉스 현장서 반도체 벨트 강화 구상",
+      "source": "전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96S1ZnU1ZfU3FDVWNxWGZnZThsQWFzR1hjZE9mY0plb0F5OWt4X2ZlY0I0THRUc2RoOWt1WmhuSG9DMXY5RWtIdHQ2QnRidw?oc=5",
+      "published": "2026-04-24T21:20:46+09:00",
+      "date": "2026-04-24",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "e8d618c1c7fd",
+      "title": "현근택, 추미애와 반도체 산단 지원 강조",
+      "source": "서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00WjNxeEZ1UEhTTk9ScDRJN3BWRFpsMjc5T0IzN1FTMUdmeWdIaVlwZ0NrZzVXSUswd01JWDZnVEFfbUpLNnQ4Zzh3amw4S3ZvVWtqOXBGNVJURGFSb25DX0dvcnI?oc=5",
+      "published": "2026-04-24T20:31:44+09:00",
+      "date": "2026-04-24",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "fb51a29847fc",
+      "title": "현근택 “정부·경기도와 ‘원팀’, 세계 최고 반도체 도시 용인 완성”",
+      "source": "뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91WDlvQ1N3TGlVZV9VaDI5QVB3OC1rUDVpRU1YeXlDTDVQY1Z0QjVndFlhVllpaGdpS052OWNTZEMtTkNzZ3UwRFViMmZWb0NjU2xlbldR?oc=5",
+      "published": "2026-04-24T18:27:28+09:00",
+      "date": "2026-04-24",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "fb534eb8905e",
+      "title": "추미애 “용인 반도체 클러스터 흔들림 없이 추진”…지역 정치권 ‘원팀 행보’",
+      "source": "경기일보",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zZTRpOC1CT1FmVkFWQmdsZjg0Wl9mS0Fkd1dtUnFEbXlsM2ZSZlN0X1NHSkg3NlNsU0kyMUhmVzJoTElvYzFqMVpTakFyeDkyM05hNUNZd1ZoY00?oc=5",
+      "published": "2026-04-24T18:09:00+09:00",
+      "date": "2026-04-24",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "b70b071f63fb",
+      "title": "망우동 360-1번지 지구단위계획 수정가결",
+      "source": "한국도시환경헤럴드",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kaHBISWZNMmQ5dnNxa3RyczZnTy1BMk15TjF2THl4b2VjMk5RbFNsMUp6eklfcWRONi00VFA5WHFsbnJVejd2QWVYXzMyRno3aW5ya2sxZGN0YTlPQmFvalFZcFhEREp6QWZuUNIBcEFVX3lxTFB1ZWxrbHJmVzlhMzBqX3Q4OVlNdVNQcWVqVU81ajhZWU40Ukh5MEV0MFF4LUttZ1BvVXRGNnlBYlA5MmZBX2laVGNZUFp4cW1oZTY2dVo4Y2FnTUg1NGYyMzhhMU02T0Y0ck9sVlktRlM?oc=5",
+      "published": "2026-04-24T13:26:30+09:00",
+      "date": "2026-04-24",
       "query": "복합개발 지구단위계획"
     },
     {
@@ -29,19 +74,10 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "6dec798bafc8",
+      "id": "c51ac41a8187",
       "title": "'옛 버스 차고지' 중랑 망우동 360-1번지 지구단위계획 결정",
       "source": "뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yUUhhVmpkUU1qbnk2OWpydk5ndC1wZ3VKR1RVUDBwQnlTWnFsU2hRckVXamRISFl6dm5WQWFqdVA3RGJUcGJacEpST18wQXAzOTFDMHg2dHVtd3M?oc=5",
-      "published": "2026-04-23T10:00:00+09:00",
-      "date": "2026-04-23",
-      "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "ab9400ab6a42",
-      "title": "중랑구 망우동 360-1, 준주거지역 상향…복합개발 추진 기반 마련",
-      "source": "뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzQzBiZndiQlFkXzNlbWdJR0JpelRXN0lCWWpId0RaYkU5UjBMZmxwcW5MLTQweW9vQmVSVFFjenBFNFZ2WEtKM1BWNW4wSHBNY1hBa2l1bzdxSS1n?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aTFFyaDVzLUYzNGlUQ1lnVElVbzlLZHVJSFdNSzBiQzJSaG5tampRVjgxQ2w2TFVjYklmSUJzVURnT2hNTmNwVkRfbk9IZ3pWTFl3R01uOTNUX0hvUUhKdA?oc=5",
       "published": "2026-04-23T10:00:00+09:00",
       "date": "2026-04-23",
       "query": "복합개발 지구단위계획"
@@ -56,15 +92,6 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "05f651186949",
-      "title": "대우건설, ‘용인 반도체 국가산단’ 배후 주거지로 우뚝",
-      "source": "서울신문",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xc19QaUhfeUUyQ3JRNVpPZmRlSjZSY1RidExuU3VZalJMcWtQVnZDbkdTQ1djeXFPcWRKS01RNGV1WnFka0VQNHJ2MUNDVXNIblpMempZMm5tdkZET19kTjdGWlptQlprUE1aY3BpWlJLYmZPX1JQMA?oc=5",
-      "published": "2026-04-21T00:53:03+09:00",
-      "date": "2026-04-21",
-      "query": "반도체 국가산단"
-    },
-    {
       "id": "c9c9ed9e45c4",
       "title": "사례로 들여다보는 정비사업과 국·공유지 ②",
       "source": "remagazine.co.kr",
@@ -74,31 +101,13 @@
       "query": "기반시설 인가"
     },
     {
-      "id": "bf018bf95d00",
-      "title": "용인 반도체 국가산단 예정지 개발행위 제한 연장",
-      "source": "용인시민신문",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RMmFUejlmTENrY1hVN0p2djc4NEVKWWpxRkhTcXpMOHAwUVFqUlRIWFpLZzhJa2M2eGFOcmNlT2VDQkVvbldkakdTM3o2UXZjb09YZVpZaTV6Q05GQkRzWkxTUll2WWk0dEo2ZA?oc=5",
-      "published": "2026-04-20T12:16:40+09:00",
-      "date": "2026-04-20",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "d11c57ff4436",
-      "title": "진보당 이종욱 \"반도체 국가산단 전남광주로 분산배치 해야\"",
-      "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NdVhHM1RzWkZxNkZGei0xam5RUlNTbHF2RTZwakRtN1ZLc19nRzUyOHRzX2ozQnFTU2RzX1luVHI4YXNmWlNobV9WOFcxNkk?oc=5",
-      "published": "2026-04-20T11:30:12+09:00",
-      "date": "2026-04-20",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "32696c19ba88",
-      "title": "[경기 시·군 리더의 힘]이상일 용인시장 “반도체 속도전, 용인 도시경쟁력으로 바꾸는 단계”",
-      "source": "전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE52TmVyTENtX09rS2dwYkZDT0NabFVyZ2xLQi1TcDJyYWFwaVM3d3l3ZUlHUmxTZ3ZJdWVDUkpPdFc5cm5WSVF1OG5iWnhYZw?oc=5",
-      "published": "2026-04-20T10:47:21+09:00",
-      "date": "2026-04-20",
-      "query": "반도체 국가산단"
+      "id": "e3c9d68ef66f",
+      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
+      "published": "2026-04-19T16:00:00+09:00",
+      "date": "2026-04-19",
+      "query": "도시재생 활성화계획"
     }
   ]
 }
