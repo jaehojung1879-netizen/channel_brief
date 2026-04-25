@@ -1,20 +1,56 @@
 {
-  "updated_at": "2026-04-25T07:39:52.094954+09:00",
+  "updated_at": "2026-04-26T07:38:00.454910+09:00",
   "headline": {
-    "id": "b2ee561b3720",
-    "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
-    "source": "PRESS9",
-    "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42TzcxZFpGZ190UmdlX1AwcGpFWnRZY0JvbEw5WUFtQWUtYjZTdGpoNGxobDE2NnZlcmQ2emxXcnhhU1B4Z1VUWVA4Zjg3N3Z2TjNnS015YnRBR1NaejFpRHZMZkY?oc=5",
-    "published": "2026-04-22T14:57:26+09:00",
-    "query": "디지털 라운지",
+    "id": "af49f572fb64",
+    "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
+    "source": "한국금융신문",
+    "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
+    "published": "2026-04-20T00:00:00+09:00",
+    "query": "신한은행 영업점",
     "engine": "google",
     "rank": 1,
-    "_score": 18.0,
+    "_score": 24.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "1f5b52892ba5",
+        "title": "\"외국인 고객 잡아라\" 은행권, 전용앱부터 특화점포까지",
+        "source": "더구루",
+        "summary": "\"외국인 고객 잡아라\" 은행권, 전용앱부터 특화점포까지 더구루",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05NGZIdXZZQzBPMjRMRGw3VWx5TEpXOWUyZlk0TENtOUw3T21qOWk3aUdOTEtlaFVRNHhRTmwyV2FsdzRBZDhmTDMxdnRBSEllc055bjhIdGhiRGV6cVE?oc=5",
+        "published": "2026-04-26T00:00:24+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "d4805412103e",
+        "title": "영업점 가지 않아도 OK…농협은행 ‘후계농육성자금’ 무방문 대출",
+        "source": "농민신문",
+        "summary": "영업점 가지 않아도 OK…농협은행 ‘후계농육성자금’ 무방문 대출 농민신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LajJMakJrTU1QN0ZEejc0cHB5VzQ0b2MyUkpFY05HTjFYTG9YR2NvaW85NlF3LW5ZRHAtMGJIWjlrTW1MYVh0dE9ZMWY3bEN6Vzh0NDBDdHppQQ?oc=5",
+        "published": "2026-04-25T11:12:25+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "b8b3af9c6a4c",
+        "title": "Sh수협은행,‘혼자가 아닌 함께’ 전국 영업점장과 제2차 경영전략회의 개최",
+        "source": "내외뉴스통신",
+        "summary": "Sh수협은행,‘혼자가 아닌 함께’ 전국 영업점장과 제2차 경영전략회의 개최 내외뉴스통신",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82WHlaNmVaaXZmVC1uX0kwWm52NVdod3EwQks4ZnNSYU81VkZPWGtFazlWSGtBNkNNRG52R19lSUtiNkNxTlE0b3JiZHFhZXZCdjJhSUJNbnNwbFZQQnpybTllMlZGdVhkRjQwcdIBcEFVX3lxTE03RGdSVXRWcThtWGdIQVBZQ0stQk5PMmJDa244RHdwZDg0RDU4M0x4RUJQNWlTOFFVcnRFU2JpcjN3dnVlRzZaeXVSSmpIcnl1RFN6N3JGMGxlZlBvVUVJSHotUEtINkhYTWM4NlRyUjA?oc=5",
+        "published": "2026-04-24T16:05:06+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 7,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "fc0b73f33dc3",
         "title": "수협은행, 전국 영업점장과 ‘제2차 경영전략회의’ 개최",
@@ -24,19 +60,7 @@
         "published": "2026-04-24T15:18:57+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "c4604de2a6d6",
-        "title": "Sh수협은행, 영업점장과 제2차 경영전략회의 개최",
-        "source": "뉴스퀘스트",
-        "summary": "Sh수협은행, 영업점장과 제2차 경영전략회의 개최 뉴스퀘스트",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tMWpfZmlMb09wLWZVdVZSTUw5Wk85S0ktbHRUMzRIMnRDTF9Gb2ZIcDdJdUwzN2Q5NFdhbk9xUk9sMzBheVpRNnRrdGFCR0t5ck5WOERDcm51VTdHZ3JBS2NJTHlWak1qTlRqQlhYQ1RkODjSAXNBVV95cUxNLTFqX2ZpTG9PcC1mVXVWUk1MOVpPOUtJLWx0VDM0SDJ0Q0xfRm9mSHA3SXVMMzdkOTRXYW5PcVJPbDMwYXlaUTZ0a3RhQkdLeXJOVjhEQ3JudVU3R2dyQUtjSUx5VmpNak5UakJYWENUZDg4?oc=5",
-        "published": "2026-04-24T15:04:22+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 1,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,19 +72,20 @@
         "published": "2026-04-22T16:15:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "b2ee561b3720",
+        "id": "70969aacfb3b",
         "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
         "source": "PRESS9",
         "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42TzcxZFpGZ190UmdlX1AwcGpFWnRZY0JvbEw5WUFtQWUtYjZTdGpoNGxobDE2NnZlcmQ2emxXcnhhU1B4Z1VUWVA4Zjg3N3Z2TjNnS015YnRBR1NaejFpRHZMZkY?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tLUZ4QkxSQ2xBYVh6N004SThLaUJwWHRKUW9tbXQza2xzQ3dyVi1kakhjZUZ4aDk0UGNSQVZ6WTdrZm0yZkFVQjhUaEZaVW5SZDhubVk5N2VuTWFPMkltVjRsVU5MZw?oc=5",
         "published": "2026-04-22T14:57:26+09:00",
         "query": "디지털 라운지",
         "engine": "google",
-        "rank": 1
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "32ad4d636ac3",
@@ -89,6 +114,18 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
+        "id": "799c8318a133",
+        "title": "금감원, 하나증권 '거점점포' 현장검사 돌입",
+        "source": "네이트",
+        "summary": "금감원, 하나증권 '거점점포' 현장검사 돌입 네이트",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TSlhlUlNQa2stbzdXX3BJY09nVHIyaUtkV2hRdUFCaG9rTldqMy1URHBfNU9tY3RxWjVVS01IbXhjeGtKU0VaQXNfUnFlMXd2cGlySWZaTkRRUUo1Sm9WVk9yTDA2dFZ1SjFMX2hwbEJpLWFYR1VNNA?oc=5",
+        "published": "2026-04-23T17:28:00+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
         "id": "2ca7a6c6660f",
         "title": "금감원, 하나증권 '거점점포' 현장검사 돌입 - 머니투데이",
         "source": "머니투데이",
@@ -101,12 +138,12 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "9e3f3ac511ae",
-        "title": "올해 첫 거점점포 타깃은 하나증권…금감원 현장검사 |",
+        "id": "9c1a243c737e",
+        "title": "올해 첫 거점점포 타깃은 하나증권…금감원 현장검사",
         "source": "연합인포맥스",
-        "summary": "올해 첫 거점점포 타깃은 하나증권…금감원 현장검사 | 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ubnlzd011YnJYYW1IVDVZOVlISXozTy1TU1YzNHVYNTgwRnVPaC1NTkJaNEtDdnRKc3l0NEFJZTAwYktmZzRmLVRpR1VFeWxfc0xPQkNBb0FrekxxZUpuMUFnUjRHMzhZeXc2VEU5UlVTOGtB?oc=5",
-        "published": "2026-04-23T16:27:40+09:00",
+        "summary": "올해 첫 거점점포 타깃은 하나증권…금감원 현장검사 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rbEg0b1NvQ18zMGxEem95aVNZY2k1dHg0YmlFT2NveHU4bW5tZW80SllPajFkeFpNeVAycjVuX0NfR19UWXg1NVFNb0E1aTlOem5yN2xWblRhRV9FY2kzdWNuVmVIR0ZIaWFmZjRWeGc?oc=5",
+        "published": "2026-04-23T16:23:08+09:00",
         "query": "금감원 점포",
         "engine": "google",
         "rank": 1,
@@ -121,10 +158,9 @@
         "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tLUZ4QkxSQ2xBYVh6N004SThLaUJwWHRKUW9tbXQza2xzQ3dyVi1kakhjZUZ4aDk0UGNSQVZ6WTdrZm0yZkFVQjhUaEZaVW5SZDhubVk5N2VuTWFPMkltVjRsVU5MZw?oc=5",
         "published": "2026-04-22T14:57:26+09:00",
-        "query": "신한은행 영업점",
+        "query": "신한은행 점포",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 2
       },
       {
         "id": "46925f9a4480",
@@ -147,7 +183,7 @@
         "published": "2026-04-20T11:48:55+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -159,8 +195,7 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 1
       }
     ]
   }
