@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T07:39:35.715044+09:00",
+  "updated_at": "2026-04-26T08:31:43.181821+09:00",
   "social_finance": [
     {
       "id": "cd4742701c8e",
@@ -27,15 +27,6 @@
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HbFBpenJESW1uMExfY2U3aTFLbWZzaVh0X013V0JZZlRGbVJVRU5LWmJ4cGtlNUE0X2NkNnB0ZEhUMWdWcHUwMWlCUEVtMzl5ZDdPd1N0VGZMMlVlNE9PM1VfUllZS0J1YkZHcF9mTWhuZmE2QlpZ0gF3QVVfeXFMT0dsUGl6ckRJbW4wTF9jZTdpMUttZnNpWHRfTXdXQllmVEZtUlVFTktaYnhwa2U1QTRfY2Q2cHRkSFQxZ1ZwdTAxaUJQRW0zOXlkN093U3RUZkwyVWU0T08zVV9SWVlLQnViRkdwX2ZNaG5mYTZCWlk?oc=5",
       "published": "2026-04-25T16:17:48+09:00",
       "query": "은행 사회공헌"
-    },
-    {
-      "id": "3b05229be77f",
-      "title": "경남신용보증재단, 남해군 소상공인 금융지원 강화",
-      "source": "남해신문",
-      "summary": "경남신용보증재단, 남해군 소상공인 금융지원 강화&nbsp;&nbsp;남해신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Rc2VJRHVRVjM2SllBeDI4MTdTcmZCQ0VCdklHRjlkZFRxdjJYeVlVQUtQNXZvNy1WQXlkUkZ5UVpLM2pESS1oc05ZWUVWWDQzbXJXT19Lb2FueVV2TmEzYUlZT1owRU9l0gFoQVVfeXFMT1FzZUlEdVFWMzZKWUF4MjgxN1NyZkJDRUJ2SUdGOWRkVHF2Mlh5WVVBS1A1dm83LVZBeWRSRnlRWkszakRJLWhzTllZRVZYNDNtcldPX0tvYW55VXZOYTNhSVlPWjBFT2U?oc=5",
-      "published": "2026-04-24T22:09:05+09:00",
-      "query": "소상공인 금융지원"
     },
     {
       "id": "4aaf197e0ac8",
@@ -72,6 +63,15 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Ca3JZdmlCMUtpLWtFck9vOGp3RnVuLVowUVQ3NzQySVhuMkNwcEJ4S1JDUUtzTnNHOENBZFdFQks2cTh6REhzbU1IN3VXdnFzT0ZFV2Fn?oc=5",
       "published": "2026-04-24T14:07:17+09:00",
       "query": "중소기업 상생"
+    },
+    {
+      "id": "8d6b644020f3",
+      "title": "이윤 넘어 상생으로…신한은행 ‘포용금융’ 가속 [같이의 가치 ESG]",
+      "source": "v.daum.net",
+      "summary": "이윤 넘어 상생으로…신한은행 ‘포용금융’ 가속 [같이의 가치 ESG]&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAyMm1WM2x5X01XUGxKMkhpR3doZU5Xd29JN2o3VHFMeWtJWm1fT21VaGt3dkh0MkdWdGx4ZVZUcmE2dE9TTk5Ianl0QnZTVGs?oc=5",
+      "published": "2026-04-24T14:01:43+09:00",
+      "query": "포용금융"
     }
   ],
   "tech": [
@@ -101,6 +101,15 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nVS1DZXNYU2FjTkptY3B5TTAzY2JxdlpXdzM1NzF5dE9fQ2JubENBd2JSQjNCak0xNWFCNVdYSU5vYi1qNUIyZjItXzdfaXphcFlnQ2ZVb2xuTW1ldWhBbEdnMVVsaXB0blVtUlJHdw?oc=5",
       "published": "2026-04-24T18:02:21+09:00",
       "query": "은행 클라우드"
+    },
+    {
+      "id": "289f03d96705",
+      "title": "[크립토Now] CBDC·스테이블코인을 바라보는 한미 차이의 결과는?",
+      "source": "매일경제TV",
+      "summary": "[크립토Now] CBDC·스테이블코인을 바라보는 한미 차이의 결과는?&nbsp;&nbsp;매일경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yWHQyRFVGS2dMQWNaSnhremNiZjBXYy1fdkpnR3ZIaTlVRWNJaWd3a1Y5eUxXZ1ZHem8zUk9KWHh5RnN1N0IwZG9FeWlBQ3FaaGFoV1hFUTFvbmh2bExZNktlMFN2VDI4?oc=5",
+      "published": "2026-04-24T16:58:00+09:00",
+      "query": "CBDC 은행"
     },
     {
       "id": "98d9dfe03acc",
@@ -137,15 +146,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hcVNxRV9ja0FhWFFzQ0FIM0t0QlBYTFp3eGlqQmRWcEVSQTZ4YUx0YkFzaTUwSXIzT1N4SXR6aEZHTE9VMFBuNWdBbkFWSm83aDViX1FRTlZUMFpXTElkY2RUMlpSUQ?oc=5",
       "published": "2026-04-24T12:23:17+09:00",
       "query": "은행 생성형 AI"
-    },
-    {
-      "id": "7e3ebdc0efd6",
-      "title": "[단독] CBDC 강조해 놓고…신현송 한은 총재, 디지털화폐 자문라인 전원 해촉",
-      "source": "MTN 머니투데이방송",
-      "summary": "[단독] CBDC 강조해 놓고…신현송 한은 총재, 디지털화폐 자문라인 전원 해촉&nbsp;&nbsp;MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1iQklxdnBEUzQ5Z1hCOTd2cW9mV1lRLW1zaUhIdzM2V3ZrWXRqRXZBS2ExalJoSWtFV3FRclJGSEtBcjlkRU1pQS1yZzR3YTRmUVFhVzYxejBIaC1GWE5qTWdXN2M?oc=5",
-      "published": "2026-04-24T11:18:19+09:00",
-      "query": "CBDC 은행"
     }
   ]
 }
