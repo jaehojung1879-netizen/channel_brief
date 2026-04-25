@@ -1667,22 +1667,40 @@ function bankLogoHTML(name) {
   return `<span class="bank-chip"><span class="bank-logo ${cls}">${esc(lbl)}</span>${esc(name)}</span>`;
 }
 
+function deriveBranchBreakdown(row) {
+  const toNum = (v) => Number.isFinite(Number(v)) ? Number(v) : null;
+  const rawCount = toNum(row?.count);
+  let branches = toNum(row?.branches);
+  let subOffices = toNum(row?.sub_offices);
+
+  if (branches === null && subOffices === null) {
+    if (rawCount !== null) {
+      branches = rawCount;
+      subOffices = 0;
+    } else {
+      branches = 0;
+      subOffices = 0;
+    }
+  } else if (branches === null) {
+    branches = (rawCount !== null) ? Math.max(0, rawCount - (subOffices || 0)) : 0;
+  } else if (subOffices === null) {
+    subOffices = (rawCount !== null) ? Math.max(0, rawCount - (branches || 0)) : 0;
+  }
+
+  const count = Math.max(0, (branches || 0) + (subOffices || 0));
+  return { branches: branches || 0, subOffices: subOffices || 0, count };
+}
+
 function renderBranchBanksView(data) {
   const rows = document.getElementById('branch-rows');
   const banksSorted = [...data.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
-  const normalized = banksSorted.map(b => {
-    const branches = Number.isFinite(b.branches) ? b.branches : null;
-    const subOff = Number.isFinite(b.sub_offices) ? b.sub_offices : null;
-    const rawCount = Number.isFinite(b.count) ? b.count : 0;
-    const reconciledCount = (branches !== null && subOff !== null) ? (branches + subOff) : rawCount;
-    return { ...b, branches, subOff, count: reconciledCount };
-  });
+  const normalized = banksSorted.map(b => ({ ...b, ...deriveBranchBreakdown(b) }));
   const max = Math.max(...normalized.map(b => b.count || 0), 1);
 
   rows.innerHTML = normalized.map(b => {
     const count = b.count || 0;
-    const branches = (b.branches !== null) ? b.branches : count;
-    const subOff = (b.subOff !== null) ? b.subOff : 0;
+    const branches = b.branches || 0;
+    const subOff = b.subOffices || 0;
     const pctBr = (branches / max * 100);
     const pctSub = (subOff / max * 100);
     const d = (b.delta_yoy !== undefined ? b.delta_yoy : b.delta_qoq) || 0;
@@ -1744,7 +1762,10 @@ function renderRegionMapTiles(regional) {
   const mapEl = document.getElementById('region-map-grid');
   if (!mapEl) return;
   const totals = new Map();
-  (regional || []).forEach(r => totals.set(r.region, (r.banks || []).reduce((s, b) => s + (b.count || 0), 0)));
+  (regional || []).forEach(r => totals.set(
+    r.region,
+    (r.banks || []).reduce((s, b) => s + deriveBranchBreakdown(b).count, 0)
+  ));
   const ordered = [
     ...REGION_TILE_ORDER.filter(r => totals.has(r)),
     ...Array.from(totals.keys()).filter(r => !REGION_TILE_ORDER.includes(r)),
@@ -1773,34 +1794,24 @@ function renderBranchRegionalRows() {
     rowsEl.innerHTML = `<div class="region-empty">선택한 지역 데이터가 없습니다.</div>`;
     return;
   }
-  const banks = region.banks || [];
-  const splitAvailable = banks.some(b => {
-    const branches = Number(b.branches || 0);
-    const subOff = Number(b.sub_offices || 0);
-    const count = Number(b.count || 0);
-    return branches > 0 || (branches + subOff > 0 && (branches + subOff) === count && subOff !== count);
-  });
+  const banks = (region.banks || []).map(b => ({ ...b, ...deriveBranchBreakdown(b) }));
   const banksSorted = [...banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
   const max = Math.max(...banksSorted.map(b => b.count || 0), 1);
   const total = banksSorted.reduce((s, b) => s + (b.count || 0), 0);
   const totalBr = banksSorted.reduce((s, b) => s + (b.branches || 0), 0);
-  const totalSub = banksSorted.reduce((s, b) => s + (b.sub_offices || 0), 0);
+  const totalSub = banksSorted.reduce((s, b) => s + (b.subOffices || 0), 0);
 
   rowsEl.innerHTML = banksSorted.map(b => {
-    const subOff = Number(b.sub_offices || 0);
-    const branchesRaw = (b.branches !== undefined && b.branches !== null) ? Number(b.branches) : null;
-    const countRaw = Number(b.count || 0);
-    const count = splitAvailable ? ((branchesRaw ?? 0) + subOff) : countRaw;
-    const branches = splitAvailable ? (branchesRaw ?? Math.max(0, count - subOff)) : count;
+    const count = b.count || 0;
+    const branches = b.branches || 0;
+    const subOff = b.subOffices || 0;
     const pctBr = (branches / max * 100).toFixed(1);
-    const pctSub = splitAvailable ? (subOff / max * 100).toFixed(1) : '0.0';
-    const subLabel = splitAvailable
-      ? `지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}`
-      : '세부(지점/출장소) 구분 미제공';
+    const pctSub = (subOff / max * 100).toFixed(1);
+    const subLabel = `지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}`;
     return `
       <div class="branch-row">
         <div class="bank">${bankLogoHTML(b.name)}</div>
-        <div class="bar-track" title="${splitAvailable ? `지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}` : `점포 ${count.toLocaleString()}`}">
+        <div class="bar-track" title="지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}">
           <div class="bar-seg-branches" style="width:${pctBr}%;"></div>
           <div class="bar-seg-sub" style="width:${pctSub}%;"></div>
         </div>
@@ -1815,9 +1826,9 @@ function renderBranchRegionalRows() {
     <div class="branch-total-row">
       <div class="label">${esc(_activeRegion)} 4대 은행 합계</div>
       <div class="val">
-        ${splitAvailable ? (totalBr + totalSub).toLocaleString() : total.toLocaleString()}
+        ${total.toLocaleString()}
         <span class="delta chg zero" style="font-size:11px;">
-          ${splitAvailable ? ` · 지점 ${totalBr.toLocaleString()} · 출장소 ${totalSub.toLocaleString()}` : ' · 세부(지점/출장소) 구분 미제공'}
+          · 지점 ${totalBr.toLocaleString()} · 출장소 ${totalSub.toLocaleString()}
         </span>
       </div>
     </div>
