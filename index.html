@@ -1349,6 +1349,17 @@ function fmtDate(iso) {
   return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`;
 }
 
+function isValidDate(d) {
+  return d instanceof Date && !Number.isNaN(d.getTime());
+}
+
+function isWithinHours(iso, hours = 24) {
+  if (!iso) return false;
+  const d = new Date(iso);
+  if (!isValidDate(d)) return false;
+  return (new Date() - d) <= hours * 3600000;
+}
+
 function esc(s) {
   if (!s) return '';
   return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -1399,9 +1410,21 @@ function renderHeadlineAndNews(data) {
     return;
   }
 
+  const combined = [
+    ...(data.categories?.branch_news || []),
+    ...(data.categories?.policy_news || []),
+  ];
+  const sortedCombined = [...combined].sort((a, b) => new Date(b.published) - new Date(a.published));
+
+  // 헤드라인은 24시간 이내 기사만 노출
+  let headline = data.headline || null;
+  if (!isWithinHours(headline?.published, 24)) {
+    headline = sortedCombined.find(it => isWithinHours(it?.published, 24)) || null;
+  }
+
   // 헤드라인 렌더
-  const headline = data.headline;
   if (headline) {
+    document.getElementById('lead-kicker').textContent = "TODAY'S LEAD · 헤드라인";
     document.getElementById('lead-title').textContent = headline.title;
     document.getElementById('lead-summary').textContent = headline.summary || `${headline.source} 보도.`;
     document.getElementById('lead-source').textContent = (headline.source || '').toUpperCase();
@@ -1417,17 +1440,16 @@ function renderHeadlineAndNews(data) {
       document.querySelector('.hero').onclick = () => window.open(headline.link, '_blank');
     }
   } else {
+    document.getElementById('lead-kicker').textContent = "TODAY'S LEAD · 헤드라인 없음";
     document.getElementById('lead-title').textContent = '헤드라인 후보 없음';
-    document.getElementById('lead-summary').textContent = '수집된 기사 중 선정 기준을 통과한 항목이 없습니다.';
+    document.getElementById('lead-summary').textContent = '최근 24시간 이내 기사 중 헤드라인으로 표시할 항목이 없습니다.';
     document.getElementById('lead-source').textContent = '—';
     document.getElementById('lead-time').textContent = '—';
+    document.querySelector('.hero').style.cursor = 'default';
+    document.querySelector('.hero').onclick = null;
   }
 
   // 리스트 렌더 (헤드라인 제외)
-  const combined = [
-    ...(data.categories?.branch_news || []),
-    ...(data.categories?.policy_news || []),
-  ];
   const headlineId = headline?.id;
   const headlineKey = articleKey(headline);
 
@@ -1435,7 +1457,7 @@ function renderHeadlineAndNews(data) {
   if (headlineKey) seen.add(headlineKey);
 
   const items = [];
-  const sorted = combined.sort((a, b) => new Date(b.published) - new Date(a.published));
+  const sorted = sortedCombined;
   for (const it of sorted) {
     const key = articleKey(it);
     if (!key || seen.has(key)) continue;
@@ -1648,12 +1670,19 @@ function bankLogoHTML(name) {
 function renderBranchBanksView(data) {
   const rows = document.getElementById('branch-rows');
   const banksSorted = [...data.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
-  const max = Math.max(...banksSorted.map(b => b.count || 0), 1);
+  const normalized = banksSorted.map(b => {
+    const branches = Number.isFinite(b.branches) ? b.branches : null;
+    const subOff = Number.isFinite(b.sub_offices) ? b.sub_offices : null;
+    const rawCount = Number.isFinite(b.count) ? b.count : 0;
+    const reconciledCount = (branches !== null && subOff !== null) ? (branches + subOff) : rawCount;
+    return { ...b, branches, subOff, count: reconciledCount };
+  });
+  const max = Math.max(...normalized.map(b => b.count || 0), 1);
 
-  rows.innerHTML = banksSorted.map(b => {
+  rows.innerHTML = normalized.map(b => {
     const count = b.count || 0;
-    const branches = (b.branches !== undefined) ? b.branches : count;
-    const subOff = b.sub_offices || 0;
+    const branches = (b.branches !== null) ? b.branches : count;
+    const subOff = (b.subOff !== null) ? b.subOff : 0;
     const pctBr = (branches / max * 100);
     const pctSub = (subOff / max * 100);
     const d = (b.delta_yoy !== undefined ? b.delta_yoy : b.delta_qoq) || 0;
@@ -1745,6 +1774,12 @@ function renderBranchRegionalRows() {
     return;
   }
   const banks = region.banks || [];
+  const splitAvailable = banks.some(b => {
+    const branches = Number(b.branches || 0);
+    const subOff = Number(b.sub_offices || 0);
+    const count = Number(b.count || 0);
+    return branches > 0 || (branches + subOff > 0 && (branches + subOff) === count && subOff !== count);
+  });
   const banksSorted = [...banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
   const max = Math.max(...banksSorted.map(b => b.count || 0), 1);
   const total = banksSorted.reduce((s, b) => s + (b.count || 0), 0);
@@ -1752,21 +1787,26 @@ function renderBranchRegionalRows() {
   const totalSub = banksSorted.reduce((s, b) => s + (b.sub_offices || 0), 0);
 
   rowsEl.innerHTML = banksSorted.map(b => {
-    const subOff = b.sub_offices || 0;
-    const branches = (b.branches !== undefined && b.branches !== null) ? b.branches : ((b.count || 0) - subOff);
-    const count = branches + subOff;
+    const subOff = Number(b.sub_offices || 0);
+    const branchesRaw = (b.branches !== undefined && b.branches !== null) ? Number(b.branches) : null;
+    const countRaw = Number(b.count || 0);
+    const count = splitAvailable ? ((branchesRaw ?? 0) + subOff) : countRaw;
+    const branches = splitAvailable ? (branchesRaw ?? Math.max(0, count - subOff)) : count;
     const pctBr = (branches / max * 100).toFixed(1);
-    const pctSub = (subOff / max * 100).toFixed(1);
+    const pctSub = splitAvailable ? (subOff / max * 100).toFixed(1) : '0.0';
+    const subLabel = splitAvailable
+      ? `지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}`
+      : '세부(지점/출장소) 구분 미제공';
     return `
       <div class="branch-row">
         <div class="bank">${bankLogoHTML(b.name)}</div>
-        <div class="bar-track" title="지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}">
+        <div class="bar-track" title="${splitAvailable ? `지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}` : `점포 ${count.toLocaleString()}`}">
           <div class="bar-seg-branches" style="width:${pctBr}%;"></div>
           <div class="bar-seg-sub" style="width:${pctSub}%;"></div>
         </div>
         <div class="count-cell">
           ${count.toLocaleString()}
-          <span class="sub">지점 ${branches.toLocaleString()} · 출장소 ${subOff.toLocaleString()}</span>
+          <span class="sub">${subLabel}</span>
         </div>
         <div class="chg zero">—</div>
       </div>
@@ -1775,8 +1815,10 @@ function renderBranchRegionalRows() {
     <div class="branch-total-row">
       <div class="label">${esc(_activeRegion)} 4대 은행 합계</div>
       <div class="val">
-        ${(totalBr + totalSub).toLocaleString()}
-        <span class="delta chg zero" style="font-size:11px;"> · 지점 ${totalBr.toLocaleString()} · 출장소 ${totalSub.toLocaleString()}</span>
+        ${splitAvailable ? (totalBr + totalSub).toLocaleString() : total.toLocaleString()}
+        <span class="delta chg zero" style="font-size:11px;">
+          ${splitAvailable ? ` · 지점 ${totalBr.toLocaleString()} · 출장소 ${totalSub.toLocaleString()}` : ' · 세부(지점/출장소) 구분 미제공'}
+        </span>
       </div>
     </div>
   `;
