@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-26T08:49:29.512802+09:00",
+  "updated_at": "2026-04-26T09:09:38.732506+09:00",
   "headline": {
-    "id": "af49f572fb64",
-    "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
-    "source": "한국금융신문",
-    "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
-    "published": "2026-04-20T00:00:00+09:00",
-    "query": "신한은행 영업점",
+    "id": "70969aacfb3b",
+    "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
+    "source": "PRESS9",
+    "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tLUZ4QkxSQ2xBYVh6N004SThLaUJwWHRKUW9tbXQza2xzQ3dyVi1kakhjZUZ4aDk0UGNSQVZ6WTdrZm0yZkFVQjhUaEZaVW5SZDhubVk5N2VuTWFPMkltVjRsVU5MZw?oc=5",
+    "published": "2026-04-22T14:57:26+09:00",
+    "query": "디지털 라운지",
     "engine": "google",
     "rank": 1,
-    "_score": 24.0,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -64,6 +64,18 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
+        "id": "a8a011c0ff2e",
+        "title": "[점포의 진화]③하나은행, '노후·자산' 대면 상담에 집중",
+        "source": "PRESS9",
+        "summary": "[점포의 진화]③하나은행, '노후·자산' 대면 상담에 집중 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6Yks1dWlEM0hrNzJLVjdvTHQxYnlsMTVvWm1peGU4NFNvQjFwUnc3VnVtU2JzSTJYU2g3SjM1ZDRwbWM3RzRrM0toaU5sUmE2N0VSWlJSa1c3SWloVzItYW14UGE?oc=5",
+        "published": "2026-04-23T13:58:20+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
         "id": "c6b8a5145653",
         "title": "은행 지점 대신 출장소로 점포수 유지 ‘꼼수’…대체점포도 하세월",
         "source": "뉴스토마토",
@@ -84,20 +96,7 @@
         "published": "2026-04-22T14:57:26+09:00",
         "query": "디지털 라운지",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "32ad4d636ac3",
-        "title": "[점포의 진화]①KB국민은행, '9To6'로 공간 효율 높여",
-        "source": "PRESS9",
-        "summary": "[점포의 진화]①KB국민은행, '9To6'로 공간 효율 높여 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJdUJNbzlfQVh3T2d1aU41Q1czUTF5QkxxUE4ta0ZOQ3lBODR0WGllQ0lYTk1oZkwtVk5zelpYMU15QjdpWEFFOW54WlNjLTdHRjZzMmtxT3BjS1dWMGFqeTJqTlY?oc=5",
-        "published": "2026-04-21T15:17:29+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 15,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 1
       }
     ],
     "policy_news": [
@@ -158,9 +157,9 @@
         "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tLUZ4QkxSQ2xBYVh6N004SThLaUJwWHRKUW9tbXQza2xzQ3dyVi1kakhjZUZ4aDk0UGNSQVZ6WTdrZm0yZkFVQjhUaEZaVW5SZDhubVk5N2VuTWFPMkltVjRsVU5MZw?oc=5",
         "published": "2026-04-22T14:57:26+09:00",
-        "query": "신한은행 점포",
+        "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2
+        "rank": 1
       },
       {
         "id": "46925f9a4480",
@@ -183,7 +182,7 @@
         "published": "2026-04-20T11:48:55+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 9,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -195,7 +194,8 @@
         "published": "2026-04-20T00:00:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
   }

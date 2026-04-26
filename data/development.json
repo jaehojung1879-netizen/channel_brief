@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T08:50:34.502908+09:00",
+  "updated_at": "2026-04-26T09:10:42.139270+09:00",
   "items": [
     {
       "id": "fad36275a4dd",
@@ -18,6 +18,15 @@
       "published": "2026-04-25T16:49:59+09:00",
       "date": "2026-04-25",
       "query": "반도체 국가산단"
+    },
+    {
+      "id": "d736cc2264ab",
+      "title": "평택－파주에 「미니 신도시」…９９년 착공，３５만명 수용｜퍼가기",
+      "source": "동아일보",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UTmlhRDh0Z2ZzR2ZfbXM0QVBrcUozRkRNbFhUZUZhTnkwa0hDTF9MaEFkbFllaVVqNXNGWU9WdW9ES1BnTzAyRWhQMS1TNFpjcTBiMEtMWmRkYU5qc2NSMGdQUlFaYmlZeXh6c092cENRVTV2bkpZSFh5VENFUQ?oc=5",
+      "published": "2026-04-25T09:48:52+09:00",
+      "date": "2026-04-25",
+      "query": "신도시 착공"
     },
     {
       "id": "c7637d99b8a1",
@@ -108,15 +117,6 @@
       "published": "2026-04-20T16:00:00+09:00",
       "date": "2026-04-20",
       "query": "기반시설 인가"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-04-19T16:00:00+09:00",
-      "date": "2026-04-19",
-      "query": "도시재생 활성화계획"
     }
   ]
 }
