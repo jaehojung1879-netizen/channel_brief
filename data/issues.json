@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T09:11:25.305694+09:00",
+  "updated_at": "2026-04-26T09:45:51.923703+09:00",
   "social_finance": [
     {
       "id": "cd4742701c8e",
@@ -38,6 +38,15 @@
       "query": "포용금융"
     },
     {
+      "id": "4aaf197e0ac8",
+      "title": "수출입은행, 취약계층 지원 ‘그냥드림’ 협력 확대",
+      "source": "데일리경제",
+      "summary": "수출입은행, 취약계층 지원 ‘그냥드림’ 협력 확대&nbsp;&nbsp;데일리경제",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRVHJpQ0trLW83Y2VkeHF3enl5eTBTN1ktLW1aYXFObUMwaG44bFlCU3Z0SmEtOHJLVkhTVE9GWjNZdjIwcm44a2QyWjBuN0R2emg5UHl0dXo5UnZ6MUVzYlFKd0daR1pBcndERQ?oc=5",
+      "published": "2026-04-24T16:34:26+09:00",
+      "query": "은행 사회공헌"
+    },
+    {
       "id": "9f1f1a449ffb",
       "title": "초고령사회 속 시니어 챙기는 은행들…JB금융만 '제자리'",
       "source": "1코노미뉴스",
@@ -62,15 +71,6 @@
       "summary": "“직접 찾아갑니다”…한국남부발전, 현장 중심 중소기업 상생경영 강화&nbsp;&nbsp;매일경제",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Ca3JZdmlCMUtpLWtFck9vOGp3RnVuLVowUVQ3NzQySVhuMkNwcEJ4S1JDUUtzTnNHOENBZFdFQks2cTh6REhzbU1IN3VXdnFzT0ZFV2Fn?oc=5",
       "published": "2026-04-24T14:07:17+09:00",
-      "query": "중소기업 상생"
-    },
-    {
-      "id": "888da5213dcf",
-      "title": "남부발전, 현장 중심 ‘찾아가는 소통’… 중소기업 상생경영 강화",
-      "source": "에너지데일리",
-      "summary": "남부발전, 현장 중심 ‘찾아가는 소통’… 중소기업 상생경영 강화&nbsp;&nbsp;에너지데일리",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Dem5fY0NSSTRzQ01uNTZHeVV3dDJ1STFKd1ptdE15enZsZEpXY2Z5RFdMYmRsbng3UmQtT0pVRnFUTmpLcTc4SVRMdy1oM0E0bzl2Z24xOUxBNXR6MXlXSk41SFZZd3hJbWpWQ3g3QV8?oc=5",
-      "published": "2026-04-24T13:42:14+09:00",
       "query": "중소기업 상생"
     }
   ],
@@ -103,15 +103,6 @@
       "query": "은행 클라우드"
     },
     {
-      "id": "289f03d96705",
-      "title": "[크립토Now] CBDC·스테이블코인을 바라보는 한미 차이의 결과는?",
-      "source": "매일경제TV",
-      "summary": "[크립토Now] CBDC·스테이블코인을 바라보는 한미 차이의 결과는?&nbsp;&nbsp;매일경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yWHQyRFVGS2dMQWNaSnhremNiZjBXYy1fdkpnR3ZIaTlVRWNJaWd3a1Y5eUxXZ1ZHem8zUk9KWHh5RnN1N0IwZG9FeWlBQ3FaaGFoV1hFUTFvbmh2bExZNktlMFN2VDI4?oc=5",
-      "published": "2026-04-24T16:58:00+09:00",
-      "query": "CBDC 은행"
-    },
-    {
       "id": "98d9dfe03acc",
       "title": "두나무 '기와체인' 품은 은행들…차세대 송금·스테이블코인 판 깐다",
       "source": "v.daum.net",
@@ -128,6 +119,15 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iVUc1cjk0NnVsWDY0MHZfT1pZWjNPNkRQOG1MaURDZThPRy04Y1A0aFFhbE8xODZSYUZfRFJrTlUwdnlBT2F3bC1WNktvaHQ4c21Kd3dTM1hnWVFNTkdLSk5nSlN2R2V6U1E?oc=5",
       "published": "2026-04-24T14:18:39+09:00",
       "query": "은행 AI"
+    },
+    {
+      "id": "3c16844d690c",
+      "title": "위허브, 오픈모빌리티와 전략적 협력…“예금토큰 인프라 구축”",
+      "source": "서울경제TV",
+      "summary": "위허브, 오픈모빌리티와 전략적 협력…“예금토큰 인프라 구축”&nbsp;&nbsp;서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rNWdqMi0waFNoZlIwNVk1UnR3MXZXZmMtUlVnVVcxcWRHM28wVElVRnh3S3huZktrNzFLc204MXpVQ01GdVVUTnNRNWFsSE1iQlFrNllUVzc0OGRCc1ZFNzI3c2E?oc=5",
+      "published": "2026-04-24T14:10:57+09:00",
+      "query": "예금토큰"
     },
     {
       "id": "bf900058295f",
