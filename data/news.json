@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-26T09:44:16.387694+09:00",
+  "updated_at": "2026-04-27T07:39:01.539959+09:00",
   "headline": {
-    "id": "af49f572fb64",
-    "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
-    "source": "한국금융신문",
-    "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
-    "published": "2026-04-20T00:00:00+09:00",
-    "query": "신한은행 영업점",
+    "id": "70969aacfb3b",
+    "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
+    "source": "PRESS9",
+    "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tLUZ4QkxSQ2xBYVh6N004SThLaUJwWHRKUW9tbXQza2xzQ3dyVi1kakhjZUZ4aDk0UGNSQVZ6WTdrZm0yZkFVQjhUaEZaVW5SZDhubVk5N2VuTWFPMkltVjRsVU5MZw?oc=5",
+    "published": "2026-04-22T14:57:26+09:00",
+    "query": "디지털 라운지",
     "engine": "google",
-    "rank": 2,
-    "_score": 23.0,
+    "rank": 1,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -24,7 +24,7 @@
         "published": "2026-04-26T00:00:24+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -52,18 +52,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "fc0b73f33dc3",
-        "title": "수협은행, 전국 영업점장과 ‘제2차 경영전략회의’ 개최",
-        "source": "CNB뉴스",
-        "summary": "수협은행, 전국 영업점장과 ‘제2차 경영전략회의’ 개최 CNB뉴스",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tVjVHTmZldGhTMG56V18wOTdlRkZWbVVwUm13RkNZMWctdXpLT25EVlJ6ZTAyUzZiLUdVZ1lhV1g4S09UZDhfM1FZd2kyMTJkVkJ1aDZTZm50TWExMGxYZjRkMnZVUFN3c3Br?oc=5",
-        "published": "2026-04-24T15:18:57+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "c6b8a5145653",
         "title": "은행 지점 대신 출장소로 점포수 유지 ‘꼼수’…대체점포도 하세월",
         "source": "뉴스토마토",
@@ -72,7 +60,7 @@
         "published": "2026-04-22T16:15:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,29 +72,16 @@
         "published": "2026-04-22T14:57:26+09:00",
         "query": "디지털 라운지",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "32ad4d636ac3",
-        "title": "[점포의 진화]①KB국민은행, '9To6'로 공간 효율 높여",
-        "source": "PRESS9",
-        "summary": "[점포의 진화]①KB국민은행, '9To6'로 공간 효율 높여 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJdUJNbzlfQVh3T2d1aU41Q1czUTF5QkxxUE4ta0ZOQ3lBODR0WGllQ0lYTk1oZkwtVk5zelpYMU15QjdpWEFFOW54WlNjLTdHRjZzMmtxT3BjS1dWMGFqeTJqTlY?oc=5",
-        "published": "2026-04-21T15:17:29+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 14,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 1
       }
     ],
     "policy_news": [
       {
-        "id": "a7c032bc1375",
+        "id": "6c1c5db8c7dd",
         "title": "금감원, 증권사 거점점포 검사 착수…하나증권 첫 순서",
         "source": "아주경제",
         "summary": "금감원, 증권사 거점점포 검사 착수…하나증권 첫 순서 아주경제",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fSUpqSVgtQWVFTnFsdml6azlpejFHa0k3YkZpLUpZd3pkUGx6MXl6c0hFY0VpbUZ3Y0NGZjdDNEw4SEtsd0p6dUFBVElIQTAtQXVrSk1lREjSAVhBVV95cUxPX0lKaklYLUFlRU5xbHZpems5aXoxR2tJN2JGaS1KWXd6ZFBsejF5enNIRWNFaW1Gd2NDRmY3QzRMOEhLbHdKenVBQVRJSEEwLUF1a0pNZURI?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGclZ6TnpWOXVsaWJsQ2dWM3Q5YTlaM1Q1U3FWV2MzQ0F5VnI2WTlEaFRaQ1ZOZDMzcjFNckFOWVR6NVNWM0ZyTXpVck81UXFaRm91QXd4eWhYd9IBWEFVX3lxTE9fSUpqSVgtQWVFTnFsdml6azlpejFHa0k3YkZpLUpZd3pkUGx6MXl6c0hFY0VpbUZ3Y0NGZjdDNEw4SEtsd0p6dUFBVElIQTAtQXVrSk1lREg?oc=5",
         "published": "2026-04-23T18:49:14+09:00",
         "query": "금감원 점포",
         "engine": "google",
@@ -160,7 +135,7 @@
         "published": "2026-04-22T14:57:26+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1
+        "rank": 2
       },
       {
         "id": "46925f9a4480",
@@ -181,21 +156,10 @@
         "summary": "금융권 장애인 고용 드라이브…신한은행도 보폭 확대 주간한국",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nazZvcW11N0hfUHVJRGVkVHo1cnlvOGJlNEVMMlBEVTJabWQ1b2FvQUYwcERLS1hwNXJFWC1Wb0ZRMWF3bGR2Nno0Wl9rVlRKeHRDN2ROU0laNG1BUnkyUERQYVJnUGtJakhSQ2NmcEnSAXRBVV95cUxNUXU4WlJTM3lWanRqM1NTQV9NVXhMTXpQdHhPYkhwSktlV1R0SFIwZmN4b25yd3ZsQTJVMU9BOWFMVnFyLUxfNVd6T2g5Rmh1WDVjcU5hR1RJTWRIRk1Tb19XNjRkelQ4ZGFtQmdIMjRKMm9MSA?oc=5",
         "published": "2026-04-20T11:48:55+09:00",
-        "query": "신한은행 영업점",
+        "query": "신한은행 점포",
         "engine": "google",
-        "rank": 10,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "af49f572fb64",
-        "title": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략]",
-        "source": "한국금융신문",
-        "summary": "신한은행, 점포 43곳 줄여…‘디지털·학이재ʼ로 보완 [은행 접근성 보완 전략] 한국금융신문",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbmdvR2dCeEVKbnczTnA4WTRnLWEzdlJCWHQ3bXBHOFpyQnpVbXIwck1hMkVLRk1sZTV5TExGQlVKN0djR2VNSmtGYTZoZFE3QURyTXNRYVpvOTdtZEU0RGR4NUU0ZGx4dzNVSlM3dnZDNjdJcks5N3JOSlM?oc=5",
-        "published": "2026-04-20T00:00:00+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 2
       }
     ]
   }
