@@ -1373,6 +1373,48 @@ function normalizeTitle(s) {
     .trim();
 }
 
+function normalizeTitleLoose(s) {
+  return normalizeTitle(s)
+    .replace(/\b(단독|속보|종합|인터뷰|기획)\b/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function titleTokenSet(s) {
+  return new Set(
+    normalizeTitleLoose(s)
+      .split(' ')
+      .map(t => t.trim())
+      .filter(t => t.length >= 2)
+  );
+}
+
+function jaccardSimilarity(setA, setB) {
+  if (!setA.size || !setB.size) return 0;
+  let intersection = 0;
+  for (const t of setA) {
+    if (setB.has(t)) intersection += 1;
+  }
+  const union = setA.size + setB.size - intersection;
+  return union > 0 ? intersection / union : 0;
+}
+
+function isLikelyDuplicateArticle(a, b) {
+  if (!a || !b) return false;
+  const linkA = String(a.link || '').trim().toLowerCase();
+  const linkB = String(b.link || '').trim().toLowerCase();
+  if (linkA && linkB && linkA === linkB) return true;
+
+  const titleA = normalizeTitleLoose(a.title || '');
+  const titleB = normalizeTitleLoose(b.title || '');
+  if (!titleA || !titleB) return false;
+  if (titleA === titleB) return true;
+  if (titleA.includes(titleB) || titleB.includes(titleA)) return true;
+
+  const sim = jaccardSimilarity(titleTokenSet(titleA), titleTokenSet(titleB));
+  return sim >= 0.72;
+}
+
 function articleKey(it) {
   if (!it) return '';
   const link = String(it.link || '').trim().toLowerCase();
@@ -1454,7 +1496,9 @@ function renderHeadlineAndNews(data) {
   const headlineKey = articleKey(headline);
 
   const seen = new Set();
+  const deduped = [];
   if (headlineKey) seen.add(headlineKey);
+  if (headline) deduped.push(headline);
 
   const items = [];
   const sorted = sortedCombined;
@@ -1462,7 +1506,9 @@ function renderHeadlineAndNews(data) {
     const key = articleKey(it);
     if (!key || seen.has(key)) continue;
     if (it.id === headlineId || key === headlineKey) continue;
+    if (deduped.some(prev => isLikelyDuplicateArticle(prev, it))) continue;
     seen.add(key);
+    deduped.push(it);
     items.push(it);
     if (items.length >= 15) break;
   }
@@ -1510,17 +1556,22 @@ function renderShinhanNews(newsData, allItems, excludedKeys = new Set()) {
     return txt.includes('신한') || String(it.source || '').includes('신한');
   });
   const seen = new Set();
+  const deduped = [];
   const finalMerged = [];
   for (const it of dedicated) {
     const k = articleKey(it);
     if (!k || excludedKeys.has(k) || seen.has(k)) continue;
+    if (deduped.some(prev => isLikelyDuplicateArticle(prev, it))) continue;
     seen.add(k);
+    deduped.push(it);
     finalMerged.push(it);
   }
   for (const it of fallback) {
     const k = articleKey(it);
     if (!k || excludedKeys.has(k) || seen.has(k)) continue;
+    if (deduped.some(prev => isLikelyDuplicateArticle(prev, it))) continue;
     seen.add(k);
+    deduped.push(it);
     finalMerged.push(it);
     if (finalMerged.length >= 12) break;
   }
@@ -2032,6 +2083,27 @@ const BANK_COLORS = {
 };
 
 let _trendChart = null;
+const progressiveRevealPlugin = {
+  id: 'progressiveReveal',
+  beforeDatasetsDraw(chart) {
+    const progress = Number.isFinite(chart.$drawProgress) ? chart.$drawProgress : 1;
+    const { chartArea, ctx } = chart;
+    if (!chartArea) return;
+    const revealX = chartArea.left + (chartArea.right - chartArea.left) * Math.max(0, Math.min(1, progress));
+    ctx.save();
+    ctx.beginPath();
+    ctx.rect(chartArea.left, chartArea.top, Math.max(1, revealX - chartArea.left), chartArea.bottom - chartArea.top);
+    ctx.clip();
+    ctx.globalAlpha = 0.15 + (0.85 * progress);
+    chart.$revealSaved = true;
+  },
+  afterDatasetsDraw(chart) {
+    if (chart.$revealSaved) {
+      chart.ctx.restore();
+      chart.$revealSaved = false;
+    }
+  },
+};
 
 // Progressive pen-drawing animation: x snaps to position (from NaN = hidden until delay),
 // y slides from the previous point's final y — creating a left-to-right drawing effect.
@@ -2039,7 +2111,7 @@ let _trendChart = null;
 function buildProgressiveAnimation(pointCount, totalDuration) {
   const segments = Math.max(pointCount - 1, 1);
   const staggerInterval = totalDuration / segments;   // time between starts
-  const segDuration = Math.round(staggerInterval * 1.6); // each segment lasts longer → overlap
+  const segDuration = Math.round(staggerInterval * 1.35); // 빠르게 진행하면서도 세그먼트 겹침 유지
   const prevPointY = (ctx) => {
     if (ctx.type !== 'data' || ctx.index === 0) return NaN;
     const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
@@ -2192,17 +2264,26 @@ function renderTrend(title, sub, labels, datasets) {
     };
   });
   const pointCount = labels.length;
-  const totalDuration = 2400; // stagger window; actual last-point finishes at totalDuration * 1.6
-  const chartAnimDuration = Math.round(totalDuration * 1.65); // cover last segment finish
+  const totalDuration = 1200; // 기존 대비 약 2배 빠른 드로잉
+  const chartAnimDuration = Math.round(totalDuration * 1.4);
   _trendChart = new Chart(ctx, {
     type: 'line',
     data: { labels, datasets: styledDatasets },
+    plugins: [progressiveRevealPlugin],
     options: {
       responsive: true,
       maintainAspectRatio: false,
       animation: {
         duration: chartAnimDuration,
         easing: 'linear',
+        onProgress(anim) {
+          if (!anim || !anim.chart) return;
+          const denom = anim.numSteps || 1;
+          anim.chart.$drawProgress = Math.max(0, Math.min(1, anim.currentStep / denom));
+        },
+        onComplete(anim) {
+          if (anim && anim.chart) anim.chart.$drawProgress = 1;
+        },
       },
       animations: buildProgressiveAnimation(pointCount, totalDuration),
       transitions: {
