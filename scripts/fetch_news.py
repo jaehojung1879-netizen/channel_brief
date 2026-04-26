@@ -287,6 +287,40 @@ def dedupe(items: list) -> list:
     return result
 
 
+def _similar_title_key(title: str) -> str:
+    """언론사만 다른 유사 기사 묶음을 위한 느슨한 제목 키."""
+    t = clean_html(title or "").lower()
+    # 대괄호/소괄호 태그, 따옴표 제거
+    t = re.sub(r"\[[^\]]+\]|\([^)]+\)|\"|\'", " ", t)
+    # 숫자/문장부호 정리
+    t = re.sub(r"[^0-9a-z가-힣\s]", " ", t)
+    # 의미 약한 토큰 제거
+    stop = {
+        "단독", "종합", "속보", "인터뷰", "기획", "현장", "르포", "사진", "포토",
+        "은행", "금융", "관련", "이슈", "뉴스",
+    }
+    tokens = [tok for tok in t.split() if len(tok) > 1 and tok not in stop]
+    return " ".join(tokens[:8])
+
+
+def dedupe_similar(items: list, keep_per_topic: int = 2) -> list:
+    """완전중복 외에 '거의 같은 제목' 기사도 노출을 제한."""
+    grouped = {}
+    for item in items:
+        key = _similar_title_key(item.get("title", ""))
+        if not key:
+            key = (item.get("title", "") or "")[:20].lower()
+        grouped.setdefault(key, []).append(item)
+
+    out = []
+    for _, group in grouped.items():
+        # 최신순 우선 유지
+        group.sort(key=lambda x: x.get("published", ""), reverse=True)
+        out.extend(group[:keep_per_topic])
+    out.sort(key=lambda x: x.get("published", ""), reverse=True)
+    return out
+
+
 def is_relevant_article(item: dict, require_core: bool = True) -> bool:
     title = (item.get("title") or "").strip()
     summary = (item.get("summary") or "").strip()
@@ -455,6 +489,7 @@ def main():
         bucket = [it for it in bucket if is_relevant_article(it)]
         bucket = filter_recent(bucket, days=5)
         bucket = dedupe(bucket)
+        bucket = dedupe_similar(bucket, keep_per_topic=2)
         bucket.sort(key=lambda x: x["published"], reverse=True)
         all_results[category] = bucket[:40]
         print(f"[news] {category}: {len(bucket[:40])} items")
@@ -471,6 +506,7 @@ def main():
     shinhan_bucket = [it for it in shinhan_bucket if is_shinhan_article(it)]
     shinhan_bucket = filter_recent(shinhan_bucket, days=7)
     shinhan_bucket = dedupe(shinhan_bucket)
+    shinhan_bucket = dedupe_similar(shinhan_bucket, keep_per_topic=2)
     shinhan_bucket.sort(key=lambda x: x["published"], reverse=True)
 
     # 최소 2개 보장: 일반 풀에서 신한 관련 기사 보충

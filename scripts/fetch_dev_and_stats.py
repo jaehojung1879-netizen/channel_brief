@@ -738,10 +738,14 @@ def _extract_branch_numbers(rows: list) -> dict:
                     sum_total = val
 
     # FISIS XML may use Korean element names directly as field keys.
-    # Also check "b" for sub_offices in wide-format single-row responses.
+    # Also check wide-format single-row responses where
+    # "a"=지점, "b"=출장소 인 경우가 존재.
     if branches is None:
         for row in rows:
-            v = _extract_int(row.get("지점") or row.get("branch") or row.get("branchCnt") or row.get("branch_cnt"))
+            v = _extract_int(
+                row.get("지점") or row.get("branch") or row.get("branchCnt") or row.get("branch_cnt")
+                or row.get("a") or row.get("A")
+            )
             if v is not None:
                 branches = v
                 break
@@ -754,6 +758,10 @@ def _extract_branch_numbers(rows: list) -> dict:
             if v is not None:
                 sub_offices = v
                 break
+
+    # wide-format에서 총계 필드가 없고 a/b만 내려오는 경우 합계를 보정
+    if sum_total is None and branches is not None and sub_offices is not None:
+        sum_total = branches + sub_offices
 
     if branches is not None and sub_offices is None and sum_total is not None:
         delta = sum_total - branches
