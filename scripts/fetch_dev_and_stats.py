@@ -38,6 +38,8 @@ FISIS_SML_DIV_GENERAL = "A"           # 일반현황
 FISIS_CACHE_FILE = DATA_DIR / "fisis_codes.json"
 FISIS_LIST_KEYWORD_BRANCH = "영업점포현황"
 FISIS_LIST_KEYWORD_REGIONAL = "지역별 점포"
+FISIS_LIST_KEYWORD_ATM = "자동화기기 설치현황"
+ATM_ACCOUNT_CODES = tuple("ABCDEFG")
 
 KFB_BRANCH_URL_CANDIDATES = [
     "https://portal.kfb.or.kr/fingoods/saving/listBranchStatistics.do",
@@ -624,6 +626,10 @@ def fisis_discover_codes():
         or os.environ.get("FISIS_LIST_NO_REGIONAL", "").strip()
         or os.environ.get("FISIS_LIST_NO", "").strip()  # legacy env
     )
+    list_no_atm = (
+        cached.get("list_no_atm")
+        or os.environ.get("FISIS_LIST_NO_ATM", "").strip()
+    )
 
     if len(bank_cds) < len(TARGET_BANKS):
         discovered = fisis_find_bank_finance_codes()
@@ -634,11 +640,14 @@ def fisis_discover_codes():
         list_no_regional = fisis_find_list_no((FISIS_LIST_KEYWORD_REGIONAL, "지역별점포", "지역별 점포", "지역별영업점"))
     if not list_no_regional:
         list_no_regional = fisis_find_regional_list_no_by_probe(bank_cds)
+    if not list_no_atm:
+        list_no_atm = fisis_find_list_no((FISIS_LIST_KEYWORD_ATM, "자동화기기설치현황", "자동화기기", "CD/ATM"))
 
     codes = {
         "bank_finance_codes": bank_cds,
         "list_no_branch": list_no_branch or "",
         "list_no_regional": list_no_regional or "",
+        "list_no_atm": list_no_atm or "",
         "discovered_at": datetime.now(KST).isoformat(),
     }
     fisis_save_cache(codes)
@@ -1118,12 +1127,85 @@ def fisis_build_regional_stats(codes: dict):
     return {"latest_ym": latest_ym_overall, "regional": regional}
 
 
+def fisis_fetch_account_labels(list_no: str) -> dict:
+    """accountListSearch(listNo=...) → {accountCd: accountNm}."""
+    if not list_no:
+        return {}
+    rows = _fisis_call("accountListSearch", listNo=list_no)
+    labels = {}
+    for row in rows:
+        cd = _fisis_first(row, ["accountCd", "account_cd", "acntCd", "acnt_cd", "code", "cd"]).upper()
+        nm = _fisis_first(row, ["accountNm", "account_nm", "acntNm", "acnt_nm", "name", "nm", "itemNm"])
+        if cd:
+            labels[cd] = nm or cd
+    return labels
+
+
+def fisis_build_atm_stats(codes: dict):
+    """자동화기기 설치현황(listNo)에서 accountCd A~G 항목을 은행별로 수집."""
+    list_no = codes.get("list_no_atm")
+    bank_cds = codes.get("bank_finance_codes") or {}
+    if not list_no or len(bank_cds) < len(TARGET_BANKS):
+        return None
+
+    labels = fisis_fetch_account_labels(list_no)
+    latest_ym_overall = ""
+    banks = []
+
+    for meta in TARGET_BANKS:
+        bank = meta["name"]
+        finance_cd = bank_cds.get(bank)
+        if not finance_cd:
+            continue
+        rows = _fisis_fetch_info(list_no, finance_cd, months_back=72)
+        if not rows:
+            continue
+        yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
+        if not yms:
+            continue
+        latest_ym = yms[0]
+        latest_ym_overall = max(latest_ym_overall, latest_ym)
+
+        latest_rows = [r for r in rows if _fisis_row_ym(r) == latest_ym]
+        by_code = {code: 0 for code in ATM_ACCOUNT_CODES}
+        for row in latest_rows:
+            code = _fisis_first(row, ["accountCd", "account_cd", "acntCd", "acnt_cd", "code", "cd"]).upper()
+            if code not in by_code:
+                continue
+            val = _fisis_row_value(row)
+            if val is None:
+                continue
+            by_code[code] = max(by_code[code], int(val))
+
+        items = [{
+            "code": code,
+            "name": labels.get(code) or f"코드 {code}",
+            "count": int(by_code.get(code, 0)),
+        } for code in ATM_ACCOUNT_CODES]
+        total = sum(x["count"] for x in items)
+        banks.append({"name": bank, "items": items, "total": total})
+        time.sleep(0.25)
+
+    if len(banks) < len(TARGET_BANKS):
+        return None
+
+    return {
+        "as_of": _ym_to_asof(latest_ym_overall),
+        "latest_ym": latest_ym_overall,
+        "list_no": list_no,
+        "codes": [{"code": c, "name": labels.get(c) or f"코드 {c}"} for c in ATM_ACCOUNT_CODES],
+        "banks": banks,
+        "total": sum(b.get("total", 0) for b in banks),
+    }
+
+
 def fetch_branch_stats_from_fisis():
     codes = fisis_discover_codes()
     branch = fisis_build_branch_stats(codes)
     if not branch:
         return None
     regional_data = fisis_build_regional_stats(codes)
+    atm_data = fisis_build_atm_stats(codes)
     return {
         "as_of": branch["as_of"],
         "latest_ym": branch.get("latest_ym", ""),
@@ -1131,6 +1213,7 @@ def fetch_branch_stats_from_fisis():
         "source_url": f"{FISIS_BASE}/statisticsInfoSearch.json",
         "banks": branch["banks"],
         "regional": (regional_data or {}).get("regional", []),
+        "atm_devices": atm_data or {},
         "is_fallback": False,
     }
 
@@ -1219,6 +1302,8 @@ def load_branch_stats():
             fisis["regional"] = prev.get("regional", [])
             fisis["latest_ym"] = fisis.get("latest_ym") or prev.get("latest_ym", "")
             fisis["source"] = f"{fisis.get('source', '')} (regional: previous cache reused)"
+        if not fisis.get("atm_devices") and prev.get("atm_devices"):
+            fisis["atm_devices"] = prev.get("atm_devices", {})
         return fisis
 
     scraped = fetch_branch_stats_from_kfb()
@@ -1226,6 +1311,8 @@ def load_branch_stats():
         if prev.get("regional"):
             scraped["regional"] = prev.get("regional", [])
             scraped["latest_ym"] = prev.get("latest_ym", "")
+        if prev.get("atm_devices"):
+            scraped["atm_devices"] = prev.get("atm_devices", {})
         return scraped
 
     stat_file = DATA_DIR / "branch_stats_manual.json"
@@ -1241,9 +1328,12 @@ def load_branch_stats():
                 b.setdefault("sub_offices", 0)
                 b["count"] = int(b.get("branches", 0)) + int(b.get("sub_offices", 0))
         fallback.setdefault("regional", [])
+        fallback.setdefault("atm_devices", {})
         if (not fallback.get("regional")) and prev.get("regional"):
             fallback["regional"] = prev.get("regional", [])
             fallback["latest_ym"] = prev.get("latest_ym", "")
+        if (not fallback.get("atm_devices")) and prev.get("atm_devices"):
+            fallback["atm_devices"] = prev.get("atm_devices", {})
         return fallback
 
     return {
@@ -1253,6 +1343,7 @@ def load_branch_stats():
             {"name": b["name"], "branches": 0, "sub_offices": 0, "count": 0} for b in TARGET_BANKS
         ],
         "regional": [],
+        "atm_devices": {},
         "is_fallback": True,
     }
 
@@ -1322,6 +1413,7 @@ def main():
         "total_delta_yoy": total_delta_yoy,
         "total_delta_qoq": total_delta_yoy,  # 하위 호환
         "regional": stats.get("regional", []),
+        "atm_devices": stats.get("atm_devices", {}),
     }
     (DATA_DIR / "branch_stats.json").write_text(
         json.dumps(stats_output, ensure_ascii=False, indent=2), encoding="utf-8"

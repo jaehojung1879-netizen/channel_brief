@@ -687,6 +687,28 @@
     margin-left: 12px;
     font-size: 12px;
   }
+  .atm-meta {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-mute);
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+  }
+  .atm-code-list {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-mute);
+    margin: 8px 0 14px;
+    letter-spacing: 0.04em;
+  }
+  .atm-breakdown {
+    display: block;
+    margin-top: 4px;
+    font-size: 9px;
+    color: var(--ink-mute);
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+  }
 
   .fisis-guide {
     margin-top: 20px;
@@ -1284,6 +1306,24 @@
         수동 등록하면 됩니다.
       </div>
     </div>
+    <div class="branch-section" style="margin-top:18px;">
+      <div class="branch-head">
+        <h4>
+          시중은행 자동화기기 현황
+          <span id="atm-source-badge" class="source-badge fallback">SOURCE: —</span>
+        </h4>
+        <div class="meta" id="atm-asof">—</div>
+      </div>
+      <div class="atm-meta" id="atm-list-no">LIST NO: —</div>
+      <div class="atm-code-list" id="atm-code-list">코드 A~G 정보를 불러오는 중...</div>
+      <div class="branch-table" id="atm-rows">
+        <div class="loading">[LOADING]</div>
+      </div>
+      <div class="branch-total-row">
+        <div class="label">합계 (4대 은행 · 코드 A~G)</div>
+        <div class="val"><span id="atm-total">—</span></div>
+      </div>
+    </div>
   </section>
 
   <section class="section" id="issue">
@@ -1376,6 +1416,8 @@ function normalizeTitle(s) {
 function normalizeTitleLoose(s) {
   return normalizeTitle(s)
     .replace(/\b(단독|속보|종합|인터뷰|기획)\b/g, ' ')
+    .replace(/\b(nh|농협|nh농협|농협은행|신한|kb|국민|하나|우리)\b/g, ' ')
+    .replace(/\b(무방문|비대면|대출|지원|서비스|출시|확대)\b/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -1412,7 +1454,7 @@ function isLikelyDuplicateArticle(a, b) {
   if (titleA.includes(titleB) || titleB.includes(titleA)) return true;
 
   const sim = jaccardSimilarity(titleTokenSet(titleA), titleTokenSet(titleB));
-  return sim >= 0.72;
+  return sim >= 0.64;
 }
 
 function articleKey(it) {
@@ -1620,6 +1662,7 @@ function renderDevelopment(data) {
 let _branchData = null;
 let _activeRegion = null;
 let _fisisRegionalLoaded = false;
+let _trendRenderedKeys = new Set();
 const LOGO_BASE_PATH = './assets/bank-logos';
 const BANK_LOGO_FILES = {
   'KB국민': 'kb.png',
@@ -1675,6 +1718,7 @@ function renderBranchStats(data) {
 
   renderBranchBanksView(data);
   renderBranchRegionalTabs(data);
+  renderAtmStats(data);
 
   // 합계
   const total = data.total || data.banks.reduce((s, b) => s + (b.count || 0), 0);
@@ -1884,6 +1928,62 @@ function renderBranchRegionalRows() {
       </div>
     </div>
   `;
+}
+
+function renderAtmStats(data) {
+  const rowsEl = document.getElementById('atm-rows');
+  const asofEl = document.getElementById('atm-asof');
+  const badgeEl = document.getElementById('atm-source-badge');
+  const listNoEl = document.getElementById('atm-list-no');
+  const codeEl = document.getElementById('atm-code-list');
+  const totalEl = document.getElementById('atm-total');
+  const atm = data?.atm_devices || null;
+
+  if (!rowsEl || !asofEl || !badgeEl || !listNoEl || !codeEl || !totalEl) return;
+  if (!atm || !Array.isArray(atm.banks) || atm.banks.length === 0) {
+    rowsEl.innerHTML = '<div class="empty">자동화기기 설치현황 데이터가 아직 수집되지 않았습니다.</div>';
+    asofEl.textContent = '—';
+    listNoEl.textContent = 'LIST NO: —';
+    codeEl.textContent = '코드 A~G 정보를 찾지 못했습니다.';
+    badgeEl.textContent = 'SOURCE: 미수집';
+    badgeEl.className = 'source-badge fallback';
+    totalEl.textContent = '—';
+    return;
+  }
+
+  const codes = Array.isArray(atm.codes) ? atm.codes : [];
+  const max = Math.max(...atm.banks.map(b => Number(b.total || 0)), 1);
+  const orderedBanks = [...atm.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  rowsEl.innerHTML = orderedBanks.map(bank => {
+    const total = Number(bank.total || 0);
+    const pct = (total / max) * 100;
+    const breakdown = (bank.items || [])
+      .filter(x => Number(x.count || 0) > 0)
+      .map(x => `${esc(x.code)}:${Number(x.count || 0).toLocaleString()}`)
+      .join(' · ');
+    return `
+      <div class="branch-row">
+        <div class="bank">${bankLogoHTML(bank.name)}</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:${pct.toFixed(1)}%;"></div>
+        </div>
+        <div class="count-cell">
+          ${total.toLocaleString()}
+          <span class="atm-breakdown">${breakdown || '세부 코드 값 없음'}</span>
+        </div>
+        <div class="chg zero">A~G</div>
+      </div>
+    `;
+  }).join('');
+
+  asofEl.textContent = `AS OF ${atm.as_of || data.as_of || '—'}`;
+  listNoEl.textContent = `LIST NO: ${atm.list_no || '—'}`;
+  codeEl.textContent = codes.length
+    ? codes.map(c => `${c.code}=${c.name || c.code}`).join(' · ')
+    : '코드 A~G 라벨 미수집 (기본 코드 사용)';
+  totalEl.textContent = Number(atm.total || 0).toLocaleString();
+  badgeEl.textContent = `SOURCE: FISIS · ${atm.list_no || 'ATM'}`;
+  badgeEl.className = 'source-badge live';
 }
 
 async function ensureRegionalDataFromFisis() {
@@ -2111,7 +2211,7 @@ const progressiveRevealPlugin = {
 function buildProgressiveAnimation(pointCount, totalDuration) {
   const segments = Math.max(pointCount - 1, 1);
   const staggerInterval = totalDuration / segments;   // time between starts
-  const segDuration = Math.round(staggerInterval * 1.35); // 빠르게 진행하면서도 세그먼트 겹침 유지
+  const segDuration = Math.round(staggerInterval * 1.65); // 세그먼트 겹침을 늘려 초기 끊김 완화
   const prevPointY = (ctx) => {
     if (ctx.type !== 'data' || ctx.index === 0) return NaN;
     const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
@@ -2121,24 +2221,24 @@ function buildProgressiveAnimation(pointCount, totalDuration) {
   return {
     x: {
       type: 'number',
-      easing: 'linear',
+      easing: 'easeInOutCubic',
       duration: segDuration,
       from: NaN,
       delay(ctx) {
         if (ctx.type !== 'data' || ctx.xStarted) return 0;
         ctx.xStarted = true;
-        return ctx.index * staggerInterval;
+        return ctx.index * Math.round(staggerInterval * 0.9);
       },
     },
     y: {
       type: 'number',
-      easing: 'easeOutCubic',
+      easing: 'easeOutQuart',
       duration: segDuration,
       from: prevPointY,
       delay(ctx) {
         if (ctx.type !== 'data' || ctx.yStarted) return 0;
         ctx.yStarted = true;
-        return ctx.index * staggerInterval;
+        return ctx.index * Math.round(staggerInterval * 0.9);
       },
     },
   };
@@ -2241,6 +2341,8 @@ function openRegionalTrend() {
 }
 
 function renderTrend(title, sub, labels, datasets) {
+  const chartKey = `${title}|${labels.join(',')}|${datasets.map(d => d.label).join(',')}`;
+  const hasRenderedBefore = _trendRenderedKeys.has(chartKey);
   document.getElementById('trend-modal-title').textContent = title;
   document.getElementById('trend-modal-sub').textContent = sub;
   const canvas = document.getElementById('trend-canvas');
@@ -2264,8 +2366,8 @@ function renderTrend(title, sub, labels, datasets) {
     };
   });
   const pointCount = labels.length;
-  const totalDuration = 1200; // 기존 대비 약 2배 빠른 드로잉
-  const chartAnimDuration = Math.round(totalDuration * 1.4);
+  const totalDuration = hasRenderedBefore ? 0 : 1500;
+  const chartAnimDuration = hasRenderedBefore ? 0 : Math.round(totalDuration * 1.4);
   _trendChart = new Chart(ctx, {
     type: 'line',
     data: { labels, datasets: styledDatasets },
@@ -2285,7 +2387,7 @@ function renderTrend(title, sub, labels, datasets) {
           if (anim && anim.chart) anim.chart.$drawProgress = 1;
         },
       },
-      animations: buildProgressiveAnimation(pointCount, totalDuration),
+      animations: hasRenderedBefore ? false : buildProgressiveAnimation(pointCount, totalDuration),
       transitions: {
         active: { animation: { duration: 0 } },
       },
@@ -2320,6 +2422,7 @@ function renderTrend(title, sub, labels, datasets) {
       },
     },
   });
+  _trendRenderedKeys.add(chartKey);
   document.getElementById('trend-modal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
