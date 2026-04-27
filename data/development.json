@@ -1,12 +1,21 @@
 {
-  "updated_at": "2026-04-27T15:50:30.971313+09:00",
+  "updated_at": "2026-04-28T07:46:14.845829+09:00",
   "items": [
     {
-      "id": "a5e5480ef2f6",
-      "title": "이상일 용인시장 후보, “추미애, ‘속도전’ 말보다 반도체 원안 추진부터 요구해야”",
-      "source": "경기in",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5GVE5UQ0N1OEF0S2FSd0t0UUFHQ0F6TjZib2Zyc3hEZXVkamxvSndJdFp4V0FXMUFIcy00VkZJQlVyTGc?oc=5",
-      "published": "2026-04-27T14:39:00+09:00",
+      "id": "a750966b97e5",
+      "title": "신길4구역 도심복합사업, 지구지정 동의율 달성 눈앞…“내년 상반기 시공사 선정 목표”",
+      "source": "디벨로퍼뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Z3hPVVJtQTJlUXRISFFlOXhkc3I1eXo1em5nREdDN0Q5bENxRk5OSEhuQmE3alJtVDFPSnhmaVpuMmE2YjlVc0lTTVE0emJMeGtqZmZ4cjY1cUNfRkFUTEtadDR6eWdG?oc=5",
+      "published": "2026-04-27T16:20:56+09:00",
+      "date": "2026-04-27",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "abc90948204b",
+      "title": "이상일 용인시장 후보, “추미애, 용인 반도체 행보는 선거용 쇼”",
+      "source": "뉴스체인지",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96a1c1Y1hwc1dmRWlvcGNmQ2h3Z3ZxdHJvemlNamxqUGFMUHRSaXpURmNyQWNTcnN4Q1VsSHpfVTJQbTktX0MweFF3bw?oc=5",
+      "published": "2026-04-27T14:32:00+09:00",
       "date": "2026-04-27",
       "query": "반도체 국가산단"
     },
@@ -20,15 +29,6 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "3d428b97426c",
-      "title": "반도체 산업 현장 점검...현근택 후보 \"용인 세계 최고 반도체 도시로 도약\"",
-      "source": "팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpYUJoNzZKTVVmYy1TenBocXQ5bHdrQWFyZzB6TFFDZVhpRFUtR2pNcGktRnl3ZzhoaTE0SUFTS29WdGMyZXZZWVBxUS1kOWRfNGdIVUUxQjZLRU5qalFBLVNycE4zbUU?oc=5",
-      "published": "2026-04-26T18:47:45+09:00",
-      "date": "2026-04-26",
-      "query": "반도체 국가산단"
-    },
-    {
       "id": "fad36275a4dd",
       "title": "‘원조 부촌’ 워커힐아파트, 재건축 재시동… 1·2단지 ‘통합’ 기틀 마련 - 조선비즈",
       "source": "Chosunbiz",
@@ -36,15 +36,6 @@
       "published": "2026-04-25T18:46:00+09:00",
       "date": "2026-04-25",
       "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "d736cc2264ab",
-      "title": "평택－파주에 「미니 신도시」…９９년 착공，３５만명 수용｜퍼가기",
-      "source": "동아일보",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UTmlhRDh0Z2ZzR2ZfbXM0QVBrcUozRkRNbFhUZUZhTnkwa0hDTF9MaEFkbFllaVVqNXNGWU9WdW9ES1BnTzAyRWhQMS1TNFpjcTBiMEtMWmRkYU5qc2NSMGdQUlFaYmlZeXh6c092cENRVTV2bkpZSFh5VENFUQ?oc=5",
-      "published": "2026-04-25T09:48:52+09:00",
-      "date": "2026-04-25",
-      "query": "신도시 착공"
     },
     {
       "id": "c7637d99b8a1",
@@ -63,6 +54,15 @@
       "published": "2026-04-24T22:02:08+09:00",
       "date": "2026-04-24",
       "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "fb534eb8905e",
+      "title": "추미애 “용인 반도체 클러스터 흔들림 없이 추진”…지역 정치권 ‘원팀 행보’",
+      "source": "경기일보",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zZTRpOC1CT1FmVkFWQmdsZjg0Wl9mS0Fkd1dtUnFEbXlsM2ZSZlN0X1NHSkg3NlNsU0kyMUhmVzJoTElvYzFqMVpTakFyeDkyM05hNUNZd1ZoY00?oc=5",
+      "published": "2026-04-24T18:09:00+09:00",
+      "date": "2026-04-24",
+      "query": "반도체 국가산단"
     },
     {
       "id": "2a218f525359",
@@ -101,22 +101,13 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "fbd684881597",
-      "title": "롯데 '인천버스터미널 복합개발' 심의 통과···하반기 착공 목표",
-      "source": "인천투데이",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LUWh0QkZBNWotTGZnTDFlcUZYd1o1Z3Eta185YU41aUt5VnBXbU5obkxuNkVmeFIxZ1cxNlZNTmlxbWFkV1U1TVN2Z2FieFN4SlJKV1RBV29SdmdzUV9XWWgzZERqamMzcjdGeUozYjQ?oc=5",
-      "published": "2026-04-21T15:17:55+09:00",
-      "date": "2026-04-21",
+      "id": "ab9400ab6a42",
+      "title": "중랑구 망우동 360-1, 준주거지역 상향…복합개발 추진 기반 마련",
+      "source": "뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzQzBiZndiQlFkXzNlbWdJR0JpelRXN0lCWWpId0RaYkU5UjBMZmxwcW5MLTQweW9vQmVSVFFjenBFNFZ2WEtKM1BWNW4wSHBNY1hBa2l1bzdxSS1n?oc=5",
+      "published": "2026-04-23T10:00:00+09:00",
+      "date": "2026-04-23",
       "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "c9c9ed9e45c4",
-      "title": "사례로 들여다보는 정비사업과 국·공유지 ②",
-      "source": "remagazine.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Lb3ROU3RmMHowLS1fY3RJb21EQWdBa2l0czBRTnAyS0RMS0dEeEdhai1DZTFpMlBYa2ZoUWxJaXd4XzNsNDkyUHIwalZISi1TZW0zSlJVUEVYXy1vX1lSaDVQMVNPbWI4STh30gFvQVVfeXFMUFBJbEJ0Ql9rVXB2bGF2ZXFrd3pGMTY5bmZUYU85cTFuWlpRbE1xQTMwbzFrb29oTnF6ck12SUVCdTZtZGdua2kwSU9TT0hXbGxCSTdLQUMtV2t2WE4xZ3NDRTkwVTRSZ1MxMU9CY0JF?oc=5",
-      "published": "2026-04-20T16:00:00+09:00",
-      "date": "2026-04-20",
-      "query": "기반시설 인가"
     }
   ]
 }
