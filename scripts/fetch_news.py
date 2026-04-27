@@ -12,6 +12,7 @@ from pathlib import Path
 from urllib.parse import quote
 import time
 import hashlib
+from difflib import SequenceMatcher
 
 import requests
 from bs4 import BeautifulSoup
@@ -303,22 +304,55 @@ def _similar_title_key(title: str) -> str:
     return " ".join(tokens[:8])
 
 
+def _title_tokens(title: str) -> set:
+    t = clean_html(title or "").lower()
+    t = re.sub(r"\[[^\]]+\]|\([^)]+\)|\"|\'", " ", t)
+    t = re.sub(r"[^0-9a-z가-힣\s]", " ", t)
+    stop = {
+        "단독", "종합", "속보", "인터뷰", "기획", "현장", "르포", "사진", "포토",
+        "은행", "금융", "관련", "이슈", "뉴스", "오늘", "내일", "이번", "정부", "기자",
+    }
+    return {tok for tok in t.split() if len(tok) > 1 and tok not in stop}
+
+
+def _are_similar_titles(a: str, b: str) -> bool:
+    ka, kb = _similar_title_key(a), _similar_title_key(b)
+    if ka and kb and ka == kb:
+        return True
+
+    ta, tb = _title_tokens(a), _title_tokens(b)
+    if ta and tb:
+        inter = len(ta & tb)
+        union = len(ta | tb)
+        if union > 0 and (inter / union) >= 0.65:
+            return True
+        shorter = min(len(ta), len(tb))
+        if shorter >= 4 and inter >= (shorter - 1):
+            return True
+
+    ratio = SequenceMatcher(None, clean_html(a or ""), clean_html(b or "")).ratio()
+    return ratio >= 0.82
+
+
 def dedupe_similar(items: list, keep_per_topic: int = 1) -> list:
     """완전중복 외에 '거의 같은 제목' 기사도 노출을 제한."""
-    grouped = {}
-    for item in items:
-        key = _similar_title_key(item.get("title", ""))
-        if not key:
-            key = (item.get("title", "") or "")[:20].lower()
-        grouped.setdefault(key, []).append(item)
+    ordered = sorted(items, key=lambda x: x.get("published", ""), reverse=True)
+    clusters = []
+    for item in ordered:
+        title = item.get("title", "")
+        placed = False
+        for cluster in clusters:
+            if _are_similar_titles(title, cluster[0].get("title", "")):
+                cluster.append(item)
+                placed = True
+                break
+        if not placed:
+            clusters.append([item])
 
     out = []
-    for _, group in grouped.items():
-        # 최신순 우선 유지
-        group.sort(key=lambda x: x.get("published", ""), reverse=True)
+    for group in clusters:
         out.extend(group[:keep_per_topic])
-    out.sort(key=lambda x: x.get("published", ""), reverse=True)
-    return out
+    return sorted(out, key=lambda x: x.get("published", ""), reverse=True)
 
 
 def is_relevant_article(item: dict, require_core: bool = True) -> bool:

@@ -39,7 +39,8 @@ FISIS_CACHE_FILE = DATA_DIR / "fisis_codes.json"
 FISIS_LIST_KEYWORD_BRANCH = "영업점포현황"
 FISIS_LIST_KEYWORD_REGIONAL = "지역별 점포"
 FISIS_LIST_KEYWORD_ATM = "자동화기기 설치현황"
-ATM_ACCOUNT_CODES = tuple("ABCDEFG")
+# FISIS 단순통계표(일반현황-자동화기기 설치 현황) 기본 코드 표기 순서
+ATM_ACCOUNT_CODES = ("A", "B", "C", "E", "D", "F", "G")
 
 KFB_BRANCH_URL_CANDIDATES = [
     "https://portal.kfb.or.kr/fingoods/saving/listBranchStatistics.do",
@@ -1141,61 +1142,139 @@ def fisis_fetch_account_labels(list_no: str) -> dict:
     return labels
 
 
+def _atm_row_code_values(row: dict) -> dict:
+    """ATM row에서 code→value 사전 추출. (row형 + wide형 a~g 모두 대응)"""
+    out = {}
+    code = _fisis_first(row, ["accountCd", "account_cd", "acntCd", "acnt_cd", "code", "cd"]).upper()
+    if code:
+        val = _fisis_row_value(row)
+        if val is not None:
+            out[code] = int(val)
+            return out
+    # wide-format fallback: accountCd 없이 a~g 필드가 바로 내려오는 케이스
+    for c in ATM_ACCOUNT_CODES:
+        v = _extract_int(row.get(c.lower()) or row.get(c))
+        if v is not None:
+            out[c] = int(v)
+    return out
+
+
+def _atm_extract_code_totals(rows: list) -> dict:
+    by_code = {}
+    for row in rows:
+        pairs = _atm_row_code_values(row)
+        for code, val in pairs.items():
+            by_code[code] = max(by_code.get(code, 0), int(val))
+    return by_code
+
+
+def _atm_build_bank_row(bank: str, rows: list, labels: dict):
+    yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
+    if not yms:
+        return None
+    latest_ym = yms[0]
+    target_yms = set(_half_year_yms(latest_ym, years=5)) | {latest_ym}
+    by_ym = {}
+    for ym in sorted(target_yms):
+        ym_rows = [r for r in rows if _fisis_row_ym(r) == ym]
+        if not ym_rows:
+            continue
+        ym_codes = _atm_extract_code_totals(ym_rows)
+        if ym_codes:
+            by_ym[ym] = ym_codes
+
+    if latest_ym not in by_ym:
+        return None
+    by_code = by_ym.get(latest_ym, {})
+    codes = [c for c in ATM_ACCOUNT_CODES if c in by_code] + sorted([c for c in by_code.keys() if c not in ATM_ACCOUNT_CODES])
+    items = [{
+        "code": c,
+        "name": labels.get(c) or f"코드 {c}",
+        "count": int(by_code.get(c, 0)),
+    } for c in codes]
+    history = []
+    for ym in sorted(by_ym.keys()):
+        hist_codes = by_ym[ym]
+        history.append({
+            "ym": ym,
+            "items": [{"code": c, "count": int(hist_codes.get(c, 0))} for c in codes],
+            "total": int(sum(hist_codes.values())),
+        })
+    total = sum(x["count"] for x in items)
+    return {
+        "name": bank,
+        "latest_ym": latest_ym,
+        "items": items,
+        "total": total,
+        "history": history,
+    }
+
+
 def fisis_build_atm_stats(codes: dict):
-    """자동화기기 설치현황(listNo)에서 accountCd A~G 항목을 은행별로 수집."""
+    """자동화기기 설치현황(listNo)에서 ATM 항목을 은행별로 수집 (FISIS only)."""
     list_no = codes.get("list_no_atm")
     bank_cds = codes.get("bank_finance_codes") or {}
     if not list_no or len(bank_cds) < len(TARGET_BANKS):
         return None
 
     labels = fisis_fetch_account_labels(list_no)
-    latest_ym_overall = ""
-    banks = []
+    by_bank = {}
 
+    # 1) branch stats와 동일하게 financeCd별 조회를 먼저 시도
     for meta in TARGET_BANKS:
         bank = meta["name"]
         finance_cd = bank_cds.get(bank)
         if not finance_cd:
             continue
         rows = _fisis_fetch_info(list_no, finance_cd, months_back=72)
-        if not rows:
-            continue
-        yms = sorted({_fisis_row_ym(r) for r in rows} - {""}, reverse=True)
-        if not yms:
-            continue
-        latest_ym = yms[0]
-        latest_ym_overall = max(latest_ym_overall, latest_ym)
-
-        latest_rows = [r for r in rows if _fisis_row_ym(r) == latest_ym]
-        by_code = {code: 0 for code in ATM_ACCOUNT_CODES}
-        for row in latest_rows:
-            code = _fisis_first(row, ["accountCd", "account_cd", "acntCd", "acnt_cd", "code", "cd"]).upper()
-            if code not in by_code:
-                continue
-            val = _fisis_row_value(row)
-            if val is None:
-                continue
-            by_code[code] = max(by_code[code], int(val))
-
-        items = [{
-            "code": code,
-            "name": labels.get(code) or f"코드 {code}",
-            "count": int(by_code.get(code, 0)),
-        } for code in ATM_ACCOUNT_CODES]
-        total = sum(x["count"] for x in items)
-        banks.append({"name": bank, "items": items, "total": total})
+        rec = _atm_build_bank_row(bank, rows, labels) if rows else None
+        if rec:
+            by_bank[bank] = rec
         time.sleep(0.25)
 
-    if len(banks) < len(TARGET_BANKS):
+    # 2) 통계표가 financeCd 없이 전체은행 묶음으로 내려오는 케이스 fallback
+    if len(by_bank) < len(TARGET_BANKS):
+        rows_all = _fisis_fetch_info(list_no, finance_cd="", months_back=72)
+        grouped = {}
+        for row in rows_all:
+            bank_nm = _fisis_first(row, ["financeNm", "finance_nm", "companyNm", "cmpyNm", "bankNm", "kor_co_nm", "name"])
+            bank = _map_bank_name(bank_nm)
+            if not bank or bank in by_bank:
+                continue
+            grouped.setdefault(bank, []).append(row)
+        for bank, rows in grouped.items():
+            rec = _atm_build_bank_row(bank, rows, labels)
+            if rec:
+                by_bank[bank] = rec
+
+    if not by_bank:
         return None
 
+    latest_ym_overall = max((v.get("latest_ym", "") for v in by_bank.values()), default="")
+    ordered_banks = []
+    all_codes = set()
+    for meta in TARGET_BANKS:
+        bank = meta["name"]
+        rec = by_bank.get(bank)
+        if not rec:
+            rec = {"name": bank, "items": [], "total": 0, "latest_ym": latest_ym_overall, "history": []}
+        for it in rec.get("items", []):
+            all_codes.add(it.get("code", ""))
+        ordered_banks.append({
+            "name": rec["name"],
+            "items": rec["items"],
+            "total": int(rec.get("total", 0)),
+            "history": rec.get("history", []),
+        })
+
+    ordered_codes = [c for c in ATM_ACCOUNT_CODES if c in all_codes] + sorted([c for c in all_codes if c and c not in ATM_ACCOUNT_CODES])
     return {
         "as_of": _ym_to_asof(latest_ym_overall),
         "latest_ym": latest_ym_overall,
         "list_no": list_no,
-        "codes": [{"code": c, "name": labels.get(c) or f"코드 {c}"} for c in ATM_ACCOUNT_CODES],
-        "banks": banks,
-        "total": sum(b.get("total", 0) for b in banks),
+        "codes": [{"code": c, "name": labels.get(c) or f"코드 {c}"} for c in ordered_codes],
+        "banks": ordered_banks,
+        "total": sum(b.get("total", 0) for b in ordered_banks),
     }
 
 
@@ -1311,7 +1390,7 @@ def load_branch_stats():
         if prev.get("regional"):
             scraped["regional"] = prev.get("regional", [])
             scraped["latest_ym"] = prev.get("latest_ym", "")
-        if prev.get("atm_devices"):
+        if (not scraped.get("atm_devices")) and prev.get("atm_devices"):
             scraped["atm_devices"] = prev.get("atm_devices", {})
         return scraped
 

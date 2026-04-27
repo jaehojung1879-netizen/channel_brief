@@ -1662,7 +1662,6 @@ function renderDevelopment(data) {
 let _branchData = null;
 let _activeRegion = null;
 let _fisisRegionalLoaded = false;
-let _trendRenderedKeys = new Set();
 const LOGO_BASE_PATH = './assets/bank-logos';
 const BANK_LOGO_FILES = {
   'KB국민': 'kb.png',
@@ -2183,91 +2182,10 @@ const BANK_COLORS = {
 };
 
 let _trendChart = null;
-const progressiveRevealPlugin = {
-  id: 'progressiveReveal',
-  beforeDatasetsDraw(chart) {
-    const progress = Number.isFinite(chart.$drawProgress) ? chart.$drawProgress : 1;
-    const { chartArea, ctx } = chart;
-    if (!chartArea) return;
-    const revealX = chartArea.left + (chartArea.right - chartArea.left) * Math.max(0, Math.min(1, progress));
-    ctx.save();
-    ctx.beginPath();
-    ctx.rect(chartArea.left, chartArea.top, Math.max(1, revealX - chartArea.left), chartArea.bottom - chartArea.top);
-    ctx.clip();
-    ctx.globalAlpha = 0.15 + (0.85 * progress);
-    chart.$revealSaved = true;
-  },
-  afterDatasetsDraw(chart) {
-    if (chart.$revealSaved) {
-      chart.ctx.restore();
-      chart.$revealSaved = false;
-    }
-  },
-};
-
-// Progressive pen-drawing animation: x snaps to position (from NaN = hidden until delay),
-// y slides from the previous point's final y — creating a left-to-right drawing effect.
-// Segments overlap (segDuration > staggerInterval) to reduce choppiness between points.
-function buildProgressiveAnimation(pointCount, totalDuration) {
-  const segments = Math.max(pointCount - 1, 1);
-  const staggerInterval = totalDuration / segments;   // time between starts
-  const segDuration = Math.round(staggerInterval * 1.65); // 세그먼트 겹침을 늘려 초기 끊김 완화
-  const prevPointY = (ctx) => {
-    if (ctx.type !== 'data' || ctx.index === 0) return NaN;
-    const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
-    const prev = meta && meta.data[ctx.index - 1];
-    return prev ? prev.getProps(['y'], true).y : NaN;
-  };
-  return {
-    x: {
-      type: 'number',
-      easing: 'easeInOutCubic',
-      duration: segDuration,
-      from: NaN,
-      delay(ctx) {
-        if (ctx.type !== 'data' || ctx.xStarted) return 0;
-        ctx.xStarted = true;
-        return ctx.index * Math.round(staggerInterval * 0.9);
-      },
-    },
-    y: {
-      type: 'number',
-      easing: 'easeOutQuart',
-      duration: segDuration,
-      from: prevPointY,
-      delay(ctx) {
-        if (ctx.type !== 'data' || ctx.yStarted) return 0;
-        ctx.yStarted = true;
-        return ctx.index * Math.round(staggerInterval * 0.9);
-      },
-    },
-  };
-}
 
 function fmtYmLabel(ym) {
   if (!ym || ym.length !== 6) return ym || '';
   return ym.slice(0, 4) + '-' + ym.slice(4);
-}
-
-function hexToRgba(hex, alpha) {
-  if (!hex) return `rgba(212,162,76,${alpha})`;
-  const raw = String(hex).replace('#', '').trim();
-  const full = raw.length === 3 ? raw.split('').map(ch => ch + ch).join('') : raw;
-  if (!/^[0-9a-fA-F]{6}$/.test(full)) return `rgba(212,162,76,${alpha})`;
-  const r = parseInt(full.slice(0, 2), 16);
-  const g = parseInt(full.slice(2, 4), 16);
-  const b = parseInt(full.slice(4, 6), 16);
-  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-}
-
-function lineGradient(chart, color) {
-  const { ctx, chartArea } = chart;
-  if (!chartArea) return color;
-  const g = ctx.createLinearGradient(chartArea.left, chartArea.top, chartArea.right, chartArea.bottom);
-  g.addColorStop(0, hexToRgba(color, 0.95));
-  g.addColorStop(0.45, hexToRgba(color, 0.75));
-  g.addColorStop(1, hexToRgba(color, 0.45));
-  return g;
 }
 
 function collectHalfYearLabels(banks) {
@@ -2341,8 +2259,6 @@ function openRegionalTrend() {
 }
 
 function renderTrend(title, sub, labels, datasets) {
-  const chartKey = `${title}|${labels.join(',')}|${datasets.map(d => d.label).join(',')}`;
-  const hasRenderedBefore = _trendRenderedKeys.has(chartKey);
   document.getElementById('trend-modal-title').textContent = title;
   document.getElementById('trend-modal-sub').textContent = sub;
   const canvas = document.getElementById('trend-canvas');
@@ -2356,38 +2272,22 @@ function renderTrend(title, sub, labels, datasets) {
     const base = ds.borderColor || '#d4a24c';
     return {
       ...ds,
-      borderColor: (c) => lineGradient(c.chart, base),
-      pointBorderColor: hexToRgba(base, 0.95),
-      pointBackgroundColor: hexToRgba(base, 0.95),
-      pointHoverBackgroundColor: hexToRgba(base, 1),
+      borderColor: base,
+      pointBorderColor: base,
+      pointBackgroundColor: base,
+      pointHoverBackgroundColor: base,
       pointHoverBorderColor: '#0f1419',
       tension: 0.35,
       fill: false,
     };
   });
-  const pointCount = labels.length;
-  const totalDuration = hasRenderedBefore ? 0 : 1500;
-  const chartAnimDuration = hasRenderedBefore ? 0 : Math.round(totalDuration * 1.4);
   _trendChart = new Chart(ctx, {
     type: 'line',
     data: { labels, datasets: styledDatasets },
-    plugins: [progressiveRevealPlugin],
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      animation: {
-        duration: chartAnimDuration,
-        easing: 'linear',
-        onProgress(anim) {
-          if (!anim || !anim.chart) return;
-          const denom = anim.numSteps || 1;
-          anim.chart.$drawProgress = Math.max(0, Math.min(1, anim.currentStep / denom));
-        },
-        onComplete(anim) {
-          if (anim && anim.chart) anim.chart.$drawProgress = 1;
-        },
-      },
-      animations: hasRenderedBefore ? false : buildProgressiveAnimation(pointCount, totalDuration),
+      animation: false,
       transitions: {
         active: { animation: { duration: 0 } },
       },
@@ -2422,7 +2322,6 @@ function renderTrend(title, sub, labels, datasets) {
       },
     },
   });
-  _trendRenderedKeys.add(chartKey);
   document.getElementById('trend-modal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
