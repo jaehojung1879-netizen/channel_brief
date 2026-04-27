@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-04-27T07:39:51.238808+09:00",
+  "updated_at": "2026-04-27T14:16:38.767103+09:00",
   "items": [
+    {
+      "id": "f073ee421125",
+      "title": "추미애 \"용인 반도체 산단 차질 없어\"… 지방 이전 일축",
+      "source": "B world",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WRHQ2RU1zeldXclRKWFFQbmRUdm9GNDN1OS14VnpTMkdNOTJ3Rkd2RkhZZjRmc3NELU5hTU1nLUdFdnIzRXBaa3dHOXJjV2pOVXI2MFFnWXJveXRSeEJIWFU0Mm8yZDhkZFhuR0FFY1Y?oc=5",
+      "published": "2026-04-27T13:36:53+09:00",
+      "date": "2026-04-27",
+      "query": "반도체 국가산단"
+    },
     {
       "id": "3d428b97426c",
       "title": "반도체 산업 현장 점검...현근택 후보 \"용인 세계 최고 반도체 도시로 도약\"",
       "source": "팍스경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpYUJoNzZKTVVmYy1TenBocXQ5bHdrQWFyZzB6TFFDZVhpRFUtR2pNcGktRnl3ZzhoaTE0SUFTS29WdGMyZXZZWVBxUS1kOWRfNGdIVUUxQjZLRU5qalFBLVNycE4zbUU?oc=5",
       "published": "2026-04-26T18:47:45+09:00",
-      "date": "2026-04-26",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "7f0338919fac",
-      "title": "추미애, 주말 경기 전역 종횡무진…반도체 벨트 점검·열세지역 공략 ‘투트랙’",
-      "source": "인천일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBaTAtT2g4MkJzWXlMNnQ1LUh5Q1AzeUxLMWVmeFNyb1RlemdJOGk3enpUTlNRcDRxMTBrb0lVenl0OUI4SWFnT1RxUWNLdi1hZU13NnR4VXNhaHliTWJGYnNPZndpc2c1S21oRlB1LUk?oc=5",
-      "published": "2026-04-26T14:39:00+09:00",
       "date": "2026-04-26",
       "query": "반도체 국가산단"
     },
@@ -29,15 +29,6 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "d736cc2264ab",
-      "title": "평택－파주에 「미니 신도시」…９９년 착공，３５만명 수용｜퍼가기",
-      "source": "동아일보",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UTmlhRDh0Z2ZzR2ZfbXM0QVBrcUozRkRNbFhUZUZhTnkwa0hDTF9MaEFkbFllaVVqNXNGWU9WdW9ES1BnTzAyRWhQMS1TNFpjcTBiMEtMWmRkYU5qc2NSMGdQUlFaYmlZeXh6c092cENRVTV2bkpZSFh5VENFUQ?oc=5",
-      "published": "2026-04-25T09:48:52+09:00",
-      "date": "2026-04-25",
-      "query": "신도시 착공"
-    },
-    {
       "id": "c7637d99b8a1",
       "title": "추미애, “용인 반도체 국가산단, 반드시 계획대로 제때 완수되야”",
       "source": "이코노뉴스",
@@ -45,15 +36,6 @@
       "published": "2026-04-25T08:20:03+09:00",
       "date": "2026-04-25",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "0215db22f909",
-      "title": "올해 수도권 공공주택 6.2만호 착공 추진…3기 신도시 포함",
-      "source": "뉴스통",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOamF3c2VVRklGRkpMdkpPZ05LcXhMclg1RHdVLXNfZWVfYWxmVkduUVdjalRVRlpkSkppNElfazFwR3ByWlhqZ2p5NEpyWWFHa2dkVkZhV1VSRFBIQTJXN0VaLVBuc1QxbFNqQnhfd1FFVnNGRnNOeVJOTlo5NjF2cm81QzJRV1B4Vy1TNFpMZGkxeElMN2g2S01La05nY2drdk92cnU2ck5HRzZncHM1bXVWVDRJR3E2V2c?oc=5",
-      "published": "2026-04-25T01:39:02+09:00",
-      "date": "2026-04-25",
-      "query": "신도시 착공"
     },
     {
       "id": "d938cc9ff120",
@@ -96,15 +78,6 @@
       "title": "'옛 버스 차고지' 중랑 망우동 360-1번지 지구단위계획 결정",
       "source": "뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yUUhhVmpkUU1qbnk2OWpydk5ndC1wZ3VKR1RVUDBwQnlTWnFsU2hRckVXamRISFl6dm5WQWFqdVA3RGJUcGJacEpST18wQXAzOTFDMHg2dHVtd3M?oc=5",
-      "published": "2026-04-23T10:00:00+09:00",
-      "date": "2026-04-23",
-      "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "1f37df64d8b5",
-      "title": "중랑구 망우동 폐쇄된 주차장, 복합개발 추진…저이용 토지 활용 - 머니투데이",
-      "source": "머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZaEdwXzVzWER4MDQ5Z0hEU3Zib2pHb1BHMDRHczJvMEJ1OExISEV4ZVlVcGwzaFZxZ2VvZzVrbHJqSlh3dnlnS240aUlmbzdhdk1ZRmJ0TE5tZzJtaWhlY3ZFQzZ3c1JIaFHSAW9BVV95cUxOSUxZQ1Y3YjduNGRkVGpKNlBrVmZrWjhBN3lTTVhpOU1DbFhnalZxRmZFU3Bwd3Vma0JkVHg2NmxUVFcxQ3o4d3Y3am9FZi1JenFZUnMtTlplT2pDRFoyM2c2cFdWUnB6a2ZfYnhSVG8?oc=5",
       "published": "2026-04-23T10:00:00+09:00",
       "date": "2026-04-23",
       "query": "복합개발 지구단위계획"

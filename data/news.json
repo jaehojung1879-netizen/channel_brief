@@ -1,20 +1,138 @@
 {
-  "updated_at": "2026-04-27T07:39:01.539959+09:00",
+  "updated_at": "2026-04-27T14:15:33.802194+09:00",
   "headline": {
-    "id": "70969aacfb3b",
-    "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
-    "source": "PRESS9",
-    "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tLUZ4QkxSQ2xBYVh6N004SThLaUJwWHRKUW9tbXQza2xzQ3dyVi1kakhjZUZ4aDk0UGNSQVZ6WTdrZm0yZkFVQjhUaEZaVW5SZDhubVk5N2VuTWFPMkltVjRsVU5MZw?oc=5",
-    "published": "2026-04-22T14:57:26+09:00",
-    "query": "디지털 라운지",
+    "id": "c1d99f7d1020",
+    "title": "농협은행 ”영업점 방문 없이 신청부터 실행까지”... 후계농육성자금 비대면 대출 도입",
+    "source": "핸드메이커",
+    "summary": "농협은행 ”영업점 방문 없이 신청부터 실행까지”... 후계농육성자금 비대면 대출 도입 핸드메이커",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqYV9pU3BMZzlZdURHd05xOWR6Q04zak55Ty1ybE0wbEpRaEQ1allCWkdDWVYxbmJ3RUkzSTBjbzFJeXBZaVR6UUUyZEJBT19vdXdXVkxrTUZDekhRLTZvNUEzTlpldU0?oc=5",
+    "published": "2026-04-27T09:39:20+09:00",
+    "query": "은행 영업점",
     "engine": "google",
     "rank": 1,
-    "_score": 18.0,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "4bdd1a8b1c10",
+        "title": "농협은행, 후계농육성자금 영업점 무방문 대출 서비스 도입",
+        "source": "파이낸셜신문",
+        "summary": "농협은행, 후계농육성자금 영업점 무방문 대출 서비스 도입 파이낸셜신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MakFhUTNLMFhRa1k2NENiYVdSZG5HV01jZTZKVTBEX19hSHRaaFl1RTQycGFlSnJ0UGdHY2VwVWV6a1I2WTVCT2F2RTYyQnlicEFoVnR1ZjVwZS1meTZRSVo0RXZHMlo2eEs0?oc=5",
+        "published": "2026-04-27T11:25:09+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "6fd2a04579bd",
+        "title": "NH농협은행, ‘후계농육성자금 영업점 무방문 대출’ 선봬",
+        "source": "CNB뉴스",
+        "summary": "NH농협은행, ‘후계농육성자금 영업점 무방문 대출’ 선봬 CNB뉴스",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sWHVVSnpRb3ozX0ZUOXhNeU8xck9sX3pnWk9ZLTcxWEJHUGNZam5YNFptUFMtVzgwMDBEcmVZUUVCWmE5eHlPNXFlMWRiTHRBSUlkVXhxdC1wTHJ4dnI1VUNkeUI1cl80ZDFn?oc=5",
+        "published": "2026-04-27T11:05:09+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2bff04f49156",
+        "title": "NH농협은행, '후계농육성자금 영업점 무방문 대출 서비스' 도입",
+        "source": "디스커버리뉴스(DISCOVERYNEWS)",
+        "summary": "NH농협은행, '후계농육성자금 영업점 무방문 대출 서비스' 도입 디스커버리뉴스(DISCOVERYNEWS)",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE84a0I2TkJYNk1Tb18yT21OUHluZ2ZhcHBlamMzM0wwc1FNZGx4dXdhR2lXUnk4SV94UFVhbjF2WXdzd0NyVTQtemIyazhrTklmd0JHMkpYdHdnWFlHRkZsN2FrakRtLWJOMy1KejFJSWUzZw?oc=5",
+        "published": "2026-04-27T09:52:44+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "c1d99f7d1020",
+        "title": "농협은행 ”영업점 방문 없이 신청부터 실행까지”... 후계농육성자금 비대면 대출 도입",
+        "source": "핸드메이커",
+        "summary": "농협은행 ”영업점 방문 없이 신청부터 실행까지”... 후계농육성자금 비대면 대출 도입 핸드메이커",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqYV9pU3BMZzlZdURHd05xOWR6Q04zak55Ty1ybE0wbEpRaEQ1allCWkdDWVYxbmJ3RUkzSTBjbzFJeXBZaVR6UUUyZEJBT19vdXdXVkxrTUZDekhRLTZvNUEzTlpldU0?oc=5",
+        "published": "2026-04-27T09:39:20+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1
+      },
+      {
+        "id": "92bec5728acf",
+        "title": "농협은행, '후계농육성자금 영업점 무방문 대출 서비스' 도입",
+        "source": "seoulwire.com",
+        "summary": "농협은행, '후계농육성자금 영업점 무방문 대출 서비스' 도입 seoulwire.com",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RVXloU0NiVXlOcHZGYzF4MHM0djloY2xWdWhVSFdTZjZyNDlMU2pYMnM4SlJkWjZVMnZ4TV95TDBpR0xqQWZnQWxVR1FxTjhUUTBCcnRXc0FtZ1VJWF9rM3Z0REFjZ1JxYW9vQg?oc=5",
+        "published": "2026-04-27T09:37:52+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "3770a6d2e4d2",
+        "title": "NH농협은행, 농업정책자금 최초 ‘후계농육성자금 영업점 무방문 대출 서비스’ 도입",
+        "source": "헤럴드경제",
+        "summary": "NH농협은행, 농업정책자금 최초 ‘후계농육성자금 영업점 무방문 대출 서비스’ 도입 헤럴드경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTNTYtT2xxU2V3Sk9nUDNmaE5FcGdMV0FwclIxY2l0VnY5WHpIUl9LTHhVYS1yRGFLaU9GQUVEUXZWNnZsczVhQUI1b2kxdW5UUHV3OEJB?oc=5",
+        "published": "2026-04-27T09:26:13+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a1ee696567c5",
+        "title": "NH농협은행 '후계농육성자금 영업점 무방문 대출서비스' 도입",
+        "source": "뉴스핌",
+        "summary": "NH농협은행 '후계농육성자금 영업점 무방문 대출서비스' 도입 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92ZzNkYmd2QkFrWDRNc011Sk1pTjNXZGhuWTRBWjMzLVdNYjNBLV9iTGxrYXQ0NDJCcFVKRzZ2YTA3dFpyQWw4VWl2UUtYZnhQb0NNTkVUeFJuZmZI?oc=5",
+        "published": "2026-04-27T09:17:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "fd78146166e5",
+        "title": "영업점 안가도 OK…농협은행, 후계농육성자금 무방문 대출 도입",
+        "source": "아주경제",
+        "summary": "영업점 안가도 OK…농협은행, 후계농육성자금 무방문 대출 도입 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tOW1vV1NERUdzcDZTV1NiWDFtSHZDUlJpSmVlUDkxNThlVXJlMGk4UTN3dXFLc3gweUh6VmJTbTNpLTc4UEF2aGhmNXJOTkNuN1RoVVZxdUhqd9IBWEFVX3lxTE1fdWJ0cXlKNTZ4WndIMXE5R0dTXy16cUNUeGxiZUJXUjE5RE13STExZ0syQm1kdkljZWtpN3JwN2xnT1lmLTBtZVA2eERrbkpEWDNNYng4alA?oc=5",
+        "published": "2026-04-27T08:46:36+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "82553e174c61",
+        "title": "농협은행, 농업정책자금 최초 '후계농육성자금 영업점 무방문 대출 서비스' 도입",
+        "source": "데일리한국",
+        "summary": "농협은행, 농업정책자금 최초 '후계농육성자금 영업점 무방문 대출 서비스' 도입 데일리한국",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2ZFE1OWVtcFFOQjByLTBkTHNHOHUyRVpERFFIb0NLbFNaanZzQWdiTFdjY2NRQllxREdoX2hvSXFUc1RMWWJBU0F4ZktpOXBtaDFaQk9NSFBpZnZ5WjlCUEUwS2oyMFFWcGIzZXlhd9IBc0FVX3lxTE9mS2ZlX19va185TUo5TDNsU2JEVWoyZkFsM09mYzQxTjRiRXdYLV9NZnlIRWhnRHc1YmlBUy1zZzk2aFI5bzJ6djFtY21SeXhhUVBQMXExM0RKX202Z3JSMm5mVFNTUEp4dDc1OXlZbHdiU0E?oc=5",
+        "published": "2026-04-27T08:43:51+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 10,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "745c77b801cc",
+        "title": "NH농협은행, 농업정책자금 최초 '후계농육성자금 영업점 무방문 대출 서비스' 도입",
+        "source": "한국경제",
+        "summary": "NH농협은행, 농업정책자금 최초 '후계농육성자금 영업점 무방문 대출 서비스' 도입 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fbjVSb3lVdUVidFc2aFVpUW5IaDNGYUNQbWZRWTcwaXktX1Vqd3Z0TUl0bHZYb1g5RlA3QnRXSmdnd0tjNDVmdUFfRVVrVEF2c1lhallMODJTQdIBVEFVX3lxTE14ci0zYWUtSElUMVdBQ3NNMWNGYVIzb3FILV9Mb1dFYkM5NkdsVzBVSTlPdlhremNnZWtHekx5RTg2a05yMVRoNjBJRHVEVk5kTVlGNQ?oc=5",
+        "published": "2026-04-27T08:10:37+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 7
+      },
       {
         "id": "1f5b52892ba5",
         "title": "\"외국인 고객 잡아라\" 은행권, 전용앱부터 특화점포까지",
@@ -24,8 +142,7 @@
         "published": "2026-04-26T00:00:24+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 2
       },
       {
         "id": "d4805412103e",
@@ -36,20 +153,18 @@
         "published": "2026-04-25T11:12:25+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 11
       },
       {
-        "id": "b8b3af9c6a4c",
-        "title": "Sh수협은행,‘혼자가 아닌 함께’ 전국 영업점장과 제2차 경영전략회의 개최",
-        "source": "내외뉴스통신",
-        "summary": "Sh수협은행,‘혼자가 아닌 함께’ 전국 영업점장과 제2차 경영전략회의 개최 내외뉴스통신",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82WHlaNmVaaXZmVC1uX0kwWm52NVdod3EwQks4ZnNSYU81VkZPWGtFazlWSGtBNkNNRG52R19lSUtiNkNxTlE0b3JiZHFhZXZCdjJhSUJNbnNwbFZQQnpybTllMlZGdVhkRjQwcdIBcEFVX3lxTE03RGdSVXRWcThtWGdIQVBZQ0stQk5PMmJDa244RHdwZDg0RDU4M0x4RUJQNWlTOFFVcnRFU2JpcjN3dnVlRzZaeXVSSmpIcnl1RFN6N3JGMGxlZlBvVUVJSHotUEtINkhYTWM4NlRyUjA?oc=5",
-        "published": "2026-04-24T16:05:06+09:00",
+        "id": "215c2bfae7e8",
+        "title": "Sh수협은행, 영업점장과 제2차 경영전략회의 개최",
+        "source": "뉴스퀘스트",
+        "summary": "Sh수협은행, 영업점장과 제2차 경영전략회의 개최 뉴스퀘스트",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84VWxzVDM5emtHWkpOaFlNdGRJZTR1OUhGRmw0UXBXUkxTbzJWSXRER1lQYWp1TG1NQVppdE1kWTBsWWh5Z2VuX1VoNlhFbDYxTS1BQUFMZDdaMW45WDNoaU42bXp0MnRCSUhpa1BDONIBc0FVX3lxTE0tMWpfZmlMb09wLWZVdVZSTUw5Wk85S0ktbHRUMzRIMnRDTF9Gb2ZIcDdJdUwzN2Q5NFdhbk9xUk9sMzBheVpRNnRrdGFCR0t5ck5WOERDcm51VTdHZ3JBS2NJTHlWak1qTlRqQlhYQ1RkODg?oc=5",
+        "published": "2026-04-24T14:49:28+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 13
       },
       {
         "id": "c6b8a5145653",
@@ -60,8 +175,7 @@
         "published": "2026-04-22T16:15:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 1
       },
       {
         "id": "70969aacfb3b",
@@ -86,18 +200,6 @@
         "query": "금감원 점포",
         "engine": "google",
         "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "799c8318a133",
-        "title": "금감원, 하나증권 '거점점포' 현장검사 돌입",
-        "source": "네이트",
-        "summary": "금감원, 하나증권 '거점점포' 현장검사 돌입 네이트",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TSlhlUlNQa2stbzdXX3BJY09nVHIyaUtkV2hRdUFCaG9rTldqMy1URHBfNU9tY3RxWjVVS01IbXhjeGtKU0VaQXNfUnFlMXd2cGlySWZaTkRRUUo1Sm9WVk9yTDA2dFZ1SjFMX2hwbEJpLWFYR1VNNA?oc=5",
-        "published": "2026-04-23T17:28:00+09:00",
-        "query": "금감원 점포",
-        "engine": "google",
-        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -127,6 +229,18 @@
     ],
     "shinhan_news": [
       {
+        "id": "c605ce808fc4",
+        "title": "[포토뉴스]신한은행 동해지점, 대한노인회 동해시지회에 기부금 전달",
+        "source": "강원일보",
+        "summary": "[포토뉴스]신한은행 동해지점, 대한노인회 동해시지회에 기부금 전달 강원일보",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CeDNPcjItT21hZ08ya1FXWmd5NjJSMUp6SlNUTnJnQlhndXF2U1l3bXdHZ2lTbzhadnlnVXp6U1FuZGdXM25WX3Q3NUU4S2VmTXFfRXNhTkl4RGlfQjVZMWFB?oc=5",
+        "published": "2026-04-26T12:22:46+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
         "id": "70969aacfb3b",
         "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
         "source": "PRESS9",
@@ -135,7 +249,8 @@
         "published": "2026-04-22T14:57:26+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "46925f9a4480",
@@ -146,19 +261,7 @@
         "published": "2026-04-21T16:00:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "2c75f209f96c",
-        "title": "금융권 장애인 고용 드라이브…신한은행도 보폭 확대",
-        "source": "주간한국",
-        "summary": "금융권 장애인 고용 드라이브…신한은행도 보폭 확대 주간한국",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nazZvcW11N0hfUHVJRGVkVHo1cnlvOGJlNEVMMlBEVTJabWQ1b2FvQUYwcERLS1hwNXJFWC1Wb0ZRMWF3bGR2Nno0Wl9rVlRKeHRDN2ROU0laNG1BUnkyUERQYVJnUGtJakhSQ2NmcEnSAXRBVV95cUxNUXU4WlJTM3lWanRqM1NTQV9NVXhMTXpQdHhPYkhwSktlV1R0SFIwZmN4b25yd3ZsQTJVMU9BOWFMVnFyLUxfNVd6T2g5Rmh1WDVjcU5hR1RJTWRIRk1Tb19XNjRkelQ4ZGFtQmdIMjRKMm9MSA?oc=5",
-        "published": "2026-04-20T11:48:55+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 4,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
