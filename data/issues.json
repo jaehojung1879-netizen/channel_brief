@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-04-27T15:32:16.073033+09:00",
+  "updated_at": "2026-04-27T15:51:14.886013+09:00",
   "social_finance": [
+    {
+      "id": "173033d091e5",
+      "title": "이억원 \"포용금융, 취약계층·금융소외자에서 중신용자까지 확대\"",
+      "source": "파이낸셜신문",
+      "summary": "이억원 \"포용금융, 취약계층·금융소외자에서 중신용자까지 확대\"&nbsp;&nbsp;파이낸셜신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEMVFDeUI5a1IzbzZJZWJ2b19IbWFWeGVpeGhEWW9uYUxjeTdUZ19CRDR3OVRtRG5FcWlySW9zN3NBTzc5dGg2dmVzRnEyX0Y4dGZzdFBaeFdaMzFUT1BpcS16TkJqWG5uaFhN?oc=5",
+      "published": "2026-04-27T15:37:00+09:00",
+      "query": "취약계층 금융"
+    },
+    {
+      "id": "5a765125a924",
+      "title": "소상공인연합회장 \"고유가지원금, 지역상권 살리는 마중물 돼야\"",
+      "source": "연합뉴스",
+      "summary": "소상공인연합회장 \"고유가지원금, 지역상권 살리는 마중물 돼야\"&nbsp;&nbsp;연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iNktHRm92Y1NMQnkxdHQxZmxhQ3pPU1JMSE5tajB6TGRWTlBPelNzM2YyUzJpeGYyRng4bDc3RGhESm9vckdCbzhXeG1la1ZVcFItaWt1SzhfbGPSAWBBVV95cUxNSnBteHZ4QTE2RFVZWS1NU3BmMG81TTZ3aEFlbFVzYmktSUtUS3VNb3dFcVB6cFB1UnFQRzRKTWR6dlRjZURsdUlYTDk2TkF4cjlwVE04QjZkdWpybUxIZ0E?oc=5",
+      "published": "2026-04-27T15:35:09+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "5add710fd129",
+      "title": "중신용자 대출 31.9조로 늘린다…금리 최대 5.2%p 인하",
+      "source": "v.daum.net",
+      "summary": "중신용자 대출 31.9조로 늘린다…금리 최대 5.2%p 인하&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5ZE9NdU1wWF8zU3h5TmNvSWp3THRiMVF3Y2ZINEVLYjNsVWlJUXV2clpqQjRNY3hfTVBsNjdKSDAxbVFjUTQ4ZElvRkZ0dWM?oc=5",
+      "published": "2026-04-27T15:29:51+09:00",
+      "query": "서민금융"
+    },
     {
       "id": "03f23dfc47d5",
       "title": "한국환경공단, 동반성장 ‘최우수’…중소기업 상생 모델 입증",
@@ -11,22 +38,22 @@
       "query": "중소기업 상생"
     },
     {
+      "id": "db9858243c8d",
+      "title": "예보, 신용정보사와 공정추심 협약 체결",
+      "source": "한국보험신문",
+      "summary": "예보, 신용정보사와 공정추심 협약 체결&nbsp;&nbsp;한국보험신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lVFpYSGkyZW1BS0Y3RFo3ZE5tYWRNRHJiVkVNdE91bXZES1hhdl9XTVVCUDFIdlNkYUhFSVVFSFJROGtLX3YzS1ZFa3BuOFpnYlNJY0J3Y1dWdll2SVc0bGJ1WUpKbjdUWFlJ0gFvQVVfeXFMTWtWWlRTUWVSMmpQX3BtdGowdDZla1MtT1lkRWFYNWxiSGpNNnhfSEp3cXd0WmNzbEFERUYwYmJvclJramRrMWxzb2FSZlU1dnprOHhOMFNycGNLSHctMmZjNE15b2FnSEhPVXVFazJn?oc=5",
+      "published": "2026-04-27T15:26:25+09:00",
+      "query": "취약계층 금융"
+    },
+    {
       "id": "8ccac79df8e4",
       "title": "예보, 신용정보사 6곳과 '포용금융·공정추심' 협약…채무자 재기 지원 강화",
       "source": "네이트",
       "summary": "예보, 신용정보사 6곳과 '포용금융·공정추심' 협약…채무자 재기 지원 강화&nbsp;&nbsp;네이트",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VakFiWTZiNHNVenRmdHRLbnJfVmpCdUFuRkQ0b0MteEVlS1FjODNzNzNHRlZfdGJvQU0zSDJzQ1VKbHptRUxncWlWR1c3cGdPRjdV?oc=5",
-      "published": "2026-04-27T15:25:09+09:00",
+      "published": "2026-04-27T15:25:00+09:00",
       "query": "포용금융"
-    },
-    {
-      "id": "a615f3c32b3b",
-      "title": "여수광양항만공사, 공공기관 동반성장 평가 3년 연속 '최우수 등급' 달성",
-      "source": "여수넷통뉴스",
-      "summary": "여수광양항만공사, 공공기관 동반성장 평가 3년 연속 '최우수 등급' 달성&nbsp;&nbsp;여수넷통뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVOFJzeG53X2ROMGZRQktzUk5XbGtCRW5RaW1Ja2FqMm9qV2hBbnV0UFpRNWRKZ0ZIc0N1cFdvdmY0ZmpWTFE2dmZJNjBUTkxSTl9uVmJIbUFTbHhCYjNkWU8zZy1fNnJo?oc=5",
-      "published": "2026-04-27T15:18:26+09:00",
-      "query": "중소기업 상생"
     },
     {
       "id": "acf06087cc78",
@@ -45,33 +72,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tNDc4SFdiOTB5dmdscnJpU1oybjZnSnM1aVRYUG5tSmNDQXFucFRlZkl3M2x1R3JyZUt1TFpDdHB1SlFDU0lCMW94Ynh0MzA?oc=5",
       "published": "2026-04-27T15:04:40+09:00",
       "query": "중소기업 상생"
-    },
-    {
-      "id": "94cebb48cc7c",
-      "title": "인천 서구, 소상공인 위한 15억 원 금융지원 협약 체결",
-      "source": "브릿지경제",
-      "summary": "인천 서구, 소상공인 위한 15억 원 금융지원 협약 체결&nbsp;&nbsp;브릿지경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mY1JQU0prNFFwRHU4TnJIMHBpS3NBM2xXd1ZDNWRScjU1azF0MkhSN2hxMnVBTkp3MDdYTW5qSW5oX3dtQV9JTU1yWGE0VmtQQzZScFlBZG9Wdw?oc=5",
-      "published": "2026-04-27T14:54:00+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "f5738d4bb734",
-      "title": "이억원 “포용금융, 중신용자까지 범위 넓힌다”… 중금리 대출 활성화 방안 발표",
-      "source": "천지일보",
-      "summary": "이억원 “포용금융, 중신용자까지 범위 넓힌다”… 중금리 대출 활성화 방안 발표&nbsp;&nbsp;천지일보",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjTWsyOVBsdWV2SktsbVZLNGFybkZpbDV5R3M3WDZDdTNrRndlcEtiMG5kV0FONUE4WEFycmJ3eFJzb3c0UW9Fb01sY2pBUmVjZE9NVndFTW5JM0pROENXZ1FMUmxTWXVYN0E?oc=5",
-      "published": "2026-04-27T14:42:39+09:00",
-      "query": "포용금융"
-    },
-    {
-      "id": "4b9cce2c4fe1",
-      "title": "[6.3 지선] 다가온 지방선거, 경제·금융 공약은?",
-      "source": "스트레이트뉴스",
-      "summary": "[6.3 지선] 다가온 지방선거, 경제·금융 공약은?&nbsp;&nbsp;스트레이트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwaExlbFlnOGVlUC1GemJqOGJnT3p2ZnE0SFEzbDFVQ1J3dUFyZl9vRTZhbnV3VmFzdVpQdnd5eGpfaml0c0RyazZHZUVUck10SzVmVEZYTDFrRXRRVUZ1cmI4aEUyM29kMHVLWEVUVDJYb2fSAXdBVV95cUxOa2pzWFQzZXNjekFIZ29DcXJzcFFrdlNldzVCcEx3OE51aTNJVHdWZ0pJS1BmMU94WDc2VzRsYXRyN1NSMjhvcXUzNW5tS2dxY3dkVGphWUpQR2UwNC13TFZHV2VwbExzTS1OMW5xWTZNOG9yQ0JIaw?oc=5",
-      "published": "2026-04-27T14:26:54+09:00",
-      "query": "취약계층 금융"
     }
   ],
   "tech": [

@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-04-27T15:30:11.760477+09:00",
+  "updated_at": "2026-04-27T15:49:24.958703+09:00",
   "headline": {
-    "id": "f09f0eb72f68",
-    "title": "NH농협은행, '후계농육성자금 영업점 무방문 대출 서비스' 도입",
-    "source": "아시아경제",
-    "summary": "NH농협은행, '후계농육성자금 영업점 무방문 대출 서비스' 도입 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Ib1Z5T2lPbHNvUFBUUHdLRDBtZTdiSWdrWk9VV1VWeG5uNC1pQ3lVNUFBQTBNaGQwVHNvVDYxRmk0N1NqdGtnY0x2RzBiQkxzVm9KSXBOejN0SW5jN3BuWA?oc=5",
-    "published": "2026-04-27T08:17:41+09:00",
-    "query": "은행 영업점",
+    "id": "70969aacfb3b",
+    "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
+    "source": "PRESS9",
+    "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tLUZ4QkxSQ2xBYVh6N004SThLaUJwWHRKUW9tbXQza2xzQ3dyVi1kakhjZUZ4aDk0UGNSQVZ6WTdrZm0yZkFVQjhUaEZaVW5SZDhubVk5N2VuTWFPMkltVjRsVU5MZw?oc=5",
+    "published": "2026-04-22T14:57:26+09:00",
+    "query": "신한은행 영업점",
     "engine": "google",
     "rank": 2,
     "_score": 17.0,
@@ -15,6 +15,18 @@
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "3309d5733796",
+        "title": "NH농협은행, 후계농육성자금 영업점 무방문 대출 서비스 도입",
+        "source": "중앙이코노미뉴스",
+        "summary": "NH농협은행, 후계농육성자금 영업점 무방문 대출 서비스 도입 중앙이코노미뉴스",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IdVNMOWFoMnRJX3J5b0FSbE9XOTV4Zjkxb3lDM1hOSGpSdkZXRU1aVGZpczVvN3NOb3lTc2gya2NUVV9LUjFzWXVhMnFrOEZuSENMeDNOLTQ0Q1hmbVlwR1Jsa0dRdXc4Q0Y5TDhVT0VKZw?oc=5",
+        "published": "2026-04-27T15:30:33+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "4bdd1a8b1c10",
         "title": "농협은행, 후계농육성자금 영업점 무방문 대출 서비스 도입",
@@ -24,7 +36,7 @@
         "published": "2026-04-27T11:25:09+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +48,7 @@
         "published": "2026-04-27T11:05:09+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +72,7 @@
         "published": "2026-04-27T09:26:13+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +84,7 @@
         "published": "2026-04-27T08:46:36+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -86,17 +98,6 @@
         "engine": "google",
         "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "f09f0eb72f68",
-        "title": "NH농협은행, '후계농육성자금 영업점 무방문 대출 서비스' 도입",
-        "source": "아시아경제",
-        "summary": "NH농협은행, '후계농육성자금 영업점 무방문 대출 서비스' 도입 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Ib1Z5T2lPbHNvUFBUUHdLRDBtZTdiSWdrWk9VV1VWeG5uNC1pQ3lVNUFBQTBNaGQwVHNvVDYxRmk0N1NqdGtnY0x2RzBiQkxzVm9KSXBOejN0SW5jN3BuWA?oc=5",
-        "published": "2026-04-27T08:17:41+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 2
       },
       {
         "id": "1f5b52892ba5",
@@ -205,8 +206,7 @@
         "published": "2026-04-22T14:57:26+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 2
       },
       {
         "id": "46925f9a4480",
