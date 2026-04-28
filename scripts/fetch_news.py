@@ -316,6 +316,12 @@ def _title_tokens(title: str) -> set:
 
 
 def _are_similar_titles(a: str, b: str) -> bool:
+    ah = clean_html(a or "").lower()
+    bh = clean_html(b or "").lower()
+    # 실무 이슈: 동일 보도자료 재작성(예: 농협 후계농육성자금 무방문 대출) 과다 노출 방지
+    if ("후계농육성자금" in ah and "후계농육성자금" in bh) and ("농협" in ah and "농협" in bh):
+        return True
+
     ka, kb = _similar_title_key(a), _similar_title_key(b)
     if ka and kb and ka == kb:
         return True

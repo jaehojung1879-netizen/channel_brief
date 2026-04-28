@@ -1449,7 +1449,10 @@ function isLikelyDuplicateArticle(a, b) {
 
   const titleA = normalizeTitleLoose(a.title || '');
   const titleB = normalizeTitleLoose(b.title || '');
+  const rawA = normalizeTitle(a.title || '');
+  const rawB = normalizeTitle(b.title || '');
   if (!titleA || !titleB) return false;
+  if (rawA.includes('후계농육성자금') && rawB.includes('후계농육성자금') && rawA.includes('농협') && rawB.includes('농협')) return true;
   if (titleA === titleB) return true;
   if (titleA.includes(titleB) || titleB.includes(titleA)) return true;
 
