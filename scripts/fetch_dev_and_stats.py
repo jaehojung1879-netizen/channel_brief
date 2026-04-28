@@ -1214,7 +1214,7 @@ def fisis_build_atm_stats(codes: dict):
     """자동화기기 설치현황(listNo)에서 ATM 항목을 은행별로 수집 (FISIS only)."""
     list_no = codes.get("list_no_atm")
     bank_cds = codes.get("bank_finance_codes") or {}
-    if not list_no or len(bank_cds) < len(TARGET_BANKS):
+    if not list_no:
         return None
 
     labels = fisis_fetch_account_labels(list_no)
