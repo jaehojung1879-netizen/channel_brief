@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-04-29T07:59:31.823905+09:00",
+  "updated_at": "2026-04-29T08:16:13.339895+09:00",
   "social_finance": [
+    {
+      "id": "a99cf4e2f8dd",
+      "title": "남부발전, 중소기업과의 상생협력 노력 인정받았다",
+      "source": "에너지데일리",
+      "summary": "남부발전, 중소기업과의 상생협력 노력 인정받았다&nbsp;&nbsp;에너지데일리",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FMFpycUNWa2lQbjBER09lM0U1TG5EcUxFZzNyU05XZUtUVHAwUENvRTNxQ2E1eWxQVFFNeU1lTzE2YW80eVByOXVZako2R08yR3hQNDZ1ZmNsaGJjdVlBLWdXUHVUTExoRWhDX043UzU?oc=5",
+      "published": "2026-04-29T08:07:23+09:00",
+      "query": "중소기업 상생"
+    },
     {
       "id": "77f7a85c539c",
       "title": "남양주시, ‘왕숙신도시 점프업(Jump-up) 상생금융’ 협약 체결",
@@ -63,15 +72,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tdVV6dlZKamRRZTJzcGF4aDktYVVPb3BlZkJfQzVJNVV5ZXFlWTJfQjJMOThHWjU2dFpFajZIV3hhQlFKdEtjRHRJTUtHMzRwdWFHR0VrSktZbVl3OU9CbGxtdG8yMTN6NEFhRzVWcm_SAXBBVV95cUxObXVVenZWSmpkUWUyc3BheGg5LWFVT29wZWZCX0M1STVVeWVxZVkyX0IyTDk4R1o1NnRaRWo2SFd4YUJRSnRLY0R0SU1LRzM0cHVhR0dFa0pLWW1ZdzlPQmxsbXRvMjEzejRBYUc1VnJv?oc=5",
       "published": "2026-04-28T19:36:38+09:00",
       "query": "중소기업 상생"
-    },
-    {
-      "id": "f77db64e4d34",
-      "title": "농협상호금융, 외국인 금융 접근성 확대 나선다",
-      "source": "mstoday.co.kr",
-      "summary": "농협상호금융, 외국인 금융 접근성 확대 나선다&nbsp;&nbsp;mstoday.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiTmhVWnJnVnZabG15Y0xxeU1WN09OYTdTMXF3Z2xWYUs0MHVhYTJFeWd1dE9TMHBleG9PTWN3dXo2VmdONUFZWXBPbWRoTDhtWDBHQ2hCZkNGNlJEaXVZTHJ2dzNzVUE?oc=5",
-      "published": "2026-04-28T19:06:55+09:00",
-      "query": "금융접근성"
     }
   ],
   "tech": [
@@ -101,15 +101,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsNUhYX0xoYzRqYUNGTWJZYXRFc05OLVZPTFVCQklzbVh4cktIZV81eTVfWndGUGs2VXlpa1ZhV1dsQllnOFkzQ25mZklXODRLRW9yNEIwcmhKUmpXT09IVkYxakRzOWJ5aFE?oc=5",
       "published": "2026-04-28T18:35:30+09:00",
       "query": "스테이블코인 은행"
-    },
-    {
-      "id": "d15fbe1b6a6e",
-      "title": "[금융 HOT 뉴스] iM뱅크, ‘국내 최초’ 은행 주도 양자 내성 블록체인 공동 PoC 진행",
-      "source": "비즈월드",
-      "summary": "[금융 HOT 뉴스] iM뱅크, ‘국내 최초’ 은행 주도 양자 내성 블록체인 공동 PoC 진행&nbsp;&nbsp;비즈월드",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtMFdvN083bzF6YzUzd1Zucl9DQ0c5LVd3Nld6Nk5RUW9HZmVrRW1IZHViRWs0NGxvSVZaQTQxSG1oVFdfdTNBQ19VUXpkWjNTZnNSLVBDQUhYMWkzaGVma1QtRm1VOGcwWXc?oc=5",
-      "published": "2026-04-28T17:57:00+09:00",
-      "query": "블록체인 은행"
     },
     {
       "id": "4ccc07692865",
@@ -146,6 +137,15 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MTVdwUmdjS29XdGhkTXAwaXFsU3RyeGRLd3ZYdTgtMXF2c2R2ZmlyQmtiTWtDNGxPei1taS1CLUxMckVXQWoxSlVrajBzUQ?oc=5",
       "published": "2026-04-28T14:10:36+09:00",
       "query": "은행 AI"
+    },
+    {
+      "id": "2bfa4ad1f8fc",
+      "title": "iM뱅크, 원화 스테이블코인 PoC 착수…은행 주도 모델 검증",
+      "source": "서울경제TV",
+      "summary": "iM뱅크, 원화 스테이블코인 PoC 착수…은행 주도 모델 검증&nbsp;&nbsp;서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wVS1IbDRXUzdvMjU2UWlZQUUxUXBCeG1yRzg2M0dKTXkzNU5KS2hqdmgxbWpJRTFzWG90MVU4UVI3UG5fTDRPN25kMnJFTzRIc0ZJYW1CSGhFVi00amJLOHpBN1E?oc=5",
+      "published": "2026-04-28T11:37:01+09:00",
+      "query": "스테이블코인 은행"
     }
   ]
 }

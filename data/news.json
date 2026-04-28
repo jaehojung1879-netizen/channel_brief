@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-29T07:57:18.913848+09:00",
+  "updated_at": "2026-04-29T08:14:03.463784+09:00",
   "headline": {
-    "id": "70969aacfb3b",
-    "title": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워",
-    "source": "PRESS9",
-    "summary": "[점포의 진화]②신한은행, 'AI 라운지·디지로그'로 대면 공백 채워 PRESS9",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tLUZ4QkxSQ2xBYVh6N004SThLaUJwWHRKUW9tbXQza2xzQ3dyVi1kakhjZUZ4aDk0UGNSQVZ6WTdrZm0yZkFVQjhUaEZaVW5SZDhubVk5N2VuTWFPMkltVjRsVU5MZw?oc=5",
-    "published": "2026-04-22T14:57:26+09:00",
-    "query": "신한은행 영업점",
+    "id": "81ad14b7130f",
+    "title": "[단독] 정진완 우리은행장 \"본점 인력 영업점 전진 배치…신상필벌 명확히\"",
+    "source": "중앙이코노미뉴스",
+    "summary": "[단독] 정진완 우리은행장 \"본점 인력 영업점 전진 배치…신상필벌 명확히\" 중앙이코노미뉴스",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSZS1KYjQ2UUtrRnJZbXlLcGo0ZDJwMzVMRVRocTZzNEM4SmVvQ2R5VkJlWmE0M3B5M0UzZWx2cGwzaWlGV01DaVh1SVB6aWJGNHhGVEtkU2NmOFQ3NEtWcENHc2k0QlhzZWw2d0pYelZQdw?oc=5",
+    "published": "2026-04-28T15:41:19+09:00",
+    "query": "은행 영업점",
     "engine": "google",
     "rank": 4,
-    "_score": 15.0,
+    "_score": 8.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -24,8 +24,7 @@
         "published": "2026-04-28T15:41:19+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 4
       },
       {
         "id": "f048fe5bb663",
@@ -36,7 +35,7 @@
         "published": "2026-04-27T20:51:09+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 14,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +47,7 @@
         "published": "2026-04-24T14:49:28+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 13,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -99,7 +98,8 @@
         "published": "2026-04-22T14:57:26+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 4
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
   }
