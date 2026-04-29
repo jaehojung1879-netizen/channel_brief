@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T07:58:59.980881+09:00",
+  "updated_at": "2026-04-30T08:14:56.759180+09:00",
   "as_of": "2025-12-31",
   "latest_ym": "202512",
   "source": "금융통계정보시스템(FISIS) · 국내은행 영업점포현황",
@@ -5132,5 +5132,1744 @@
       ]
     }
   ],
-  "atm_devices": {}
+  "atm_devices": {
+    "as_of": "2025-12-31",
+    "latest_ym": "202512",
+    "list_no": "SA026",
+    "codes": [
+      {
+        "code": "A",
+        "name": "CD"
+      },
+      {
+        "code": "B",
+        "name": "ATM"
+      },
+      {
+        "code": "C",
+        "name": "기타"
+      },
+      {
+        "code": "E",
+        "name": "화상단말기"
+      },
+      {
+        "code": "D",
+        "name": "합계"
+      },
+      {
+        "code": "F",
+        "name": "무인점포"
+      },
+      {
+        "code": "G",
+        "name": "점내 365일 코너"
+      }
+    ],
+    "banks": [
+      {
+        "name": "신한",
+        "items": [
+          {
+            "code": "A",
+            "name": "CD",
+            "count": 3
+          },
+          {
+            "code": "B",
+            "name": "ATM",
+            "count": 3916
+          },
+          {
+            "code": "C",
+            "name": "기타",
+            "count": 631
+          },
+          {
+            "code": "E",
+            "name": "화상단말기",
+            "count": 544
+          },
+          {
+            "code": "D",
+            "name": "합계",
+            "count": 5094
+          },
+          {
+            "code": "F",
+            "name": "무인점포",
+            "count": 1146
+          },
+          {
+            "code": "G",
+            "name": "점내 365일 코너",
+            "count": 821
+          }
+        ],
+        "total": 12155,
+        "history": [
+          {
+            "ym": "202012",
+            "items": [
+              {
+                "code": "A",
+                "count": 12
+              },
+              {
+                "code": "B",
+                "count": 5472
+              },
+              {
+                "code": "C",
+                "count": 837
+              },
+              {
+                "code": "E",
+                "count": 37
+              },
+              {
+                "code": "D",
+                "count": 6358
+              },
+              {
+                "code": "F",
+                "count": 1812
+              },
+              {
+                "code": "G",
+                "count": 815
+              }
+            ],
+            "total": 15343
+          },
+          {
+            "ym": "202106",
+            "items": [
+              {
+                "code": "A",
+                "count": 8
+              },
+              {
+                "code": "B",
+                "count": 5393
+              },
+              {
+                "code": "C",
+                "count": 830
+              },
+              {
+                "code": "E",
+                "count": 36
+              },
+              {
+                "code": "D",
+                "count": 6267
+              },
+              {
+                "code": "F",
+                "count": 1797
+              },
+              {
+                "code": "G",
+                "count": 794
+              }
+            ],
+            "total": 15125
+          },
+          {
+            "ym": "202112",
+            "items": [
+              {
+                "code": "A",
+                "count": 7
+              },
+              {
+                "code": "B",
+                "count": 5234
+              },
+              {
+                "code": "C",
+                "count": 852
+              },
+              {
+                "code": "E",
+                "count": 189
+              },
+              {
+                "code": "D",
+                "count": 6282
+              },
+              {
+                "code": "F",
+                "count": 1864
+              },
+              {
+                "code": "G",
+                "count": 779
+              }
+            ],
+            "total": 15207
+          },
+          {
+            "ym": "202206",
+            "items": [
+              {
+                "code": "A",
+                "count": 7
+              },
+              {
+                "code": "B",
+                "count": 4965
+              },
+              {
+                "code": "C",
+                "count": 813
+              },
+              {
+                "code": "E",
+                "count": 330
+              },
+              {
+                "code": "D",
+                "count": 6115
+              },
+              {
+                "code": "F",
+                "count": 1750
+              },
+              {
+                "code": "G",
+                "count": 753
+              }
+            ],
+            "total": 14733
+          },
+          {
+            "ym": "202212",
+            "items": [
+              {
+                "code": "A",
+                "count": 7
+              },
+              {
+                "code": "B",
+                "count": 4849
+              },
+              {
+                "code": "C",
+                "count": 696
+              },
+              {
+                "code": "E",
+                "count": 473
+              },
+              {
+                "code": "D",
+                "count": 6025
+              },
+              {
+                "code": "F",
+                "count": 1736
+              },
+              {
+                "code": "G",
+                "count": 783
+              }
+            ],
+            "total": 14569
+          },
+          {
+            "ym": "202306",
+            "items": [
+              {
+                "code": "A",
+                "count": 6
+              },
+              {
+                "code": "B",
+                "count": 4686
+              },
+              {
+                "code": "C",
+                "count": 650
+              },
+              {
+                "code": "E",
+                "count": 535
+              },
+              {
+                "code": "D",
+                "count": 5877
+              },
+              {
+                "code": "F",
+                "count": 1748
+              },
+              {
+                "code": "G",
+                "count": 786
+              }
+            ],
+            "total": 14288
+          },
+          {
+            "ym": "202312",
+            "items": [
+              {
+                "code": "A",
+                "count": 3
+              },
+              {
+                "code": "B",
+                "count": 4558
+              },
+              {
+                "code": "C",
+                "count": 649
+              },
+              {
+                "code": "E",
+                "count": 508
+              },
+              {
+                "code": "D",
+                "count": 5718
+              },
+              {
+                "code": "F",
+                "count": 1685
+              },
+              {
+                "code": "G",
+                "count": 768
+              }
+            ],
+            "total": 13889
+          },
+          {
+            "ym": "202406",
+            "items": [
+              {
+                "code": "A",
+                "count": 3
+              },
+              {
+                "code": "B",
+                "count": 4493
+              },
+              {
+                "code": "C",
+                "count": 653
+              },
+              {
+                "code": "E",
+                "count": 516
+              },
+              {
+                "code": "D",
+                "count": 5665
+              },
+              {
+                "code": "F",
+                "count": 1553
+              },
+              {
+                "code": "G",
+                "count": 852
+              }
+            ],
+            "total": 13735
+          },
+          {
+            "ym": "202412",
+            "items": [
+              {
+                "code": "A",
+                "count": 3
+              },
+              {
+                "code": "B",
+                "count": 4372
+              },
+              {
+                "code": "C",
+                "count": 651
+              },
+              {
+                "code": "E",
+                "count": 524
+              },
+              {
+                "code": "D",
+                "count": 5550
+              },
+              {
+                "code": "F",
+                "count": 1475
+              },
+              {
+                "code": "G",
+                "count": 835
+              }
+            ],
+            "total": 13410
+          },
+          {
+            "ym": "202506",
+            "items": [
+              {
+                "code": "A",
+                "count": 3
+              },
+              {
+                "code": "B",
+                "count": 4239
+              },
+              {
+                "code": "C",
+                "count": 635
+              },
+              {
+                "code": "E",
+                "count": 562
+              },
+              {
+                "code": "D",
+                "count": 5439
+              },
+              {
+                "code": "F",
+                "count": 1422
+              },
+              {
+                "code": "G",
+                "count": 818
+              }
+            ],
+            "total": 13118
+          },
+          {
+            "ym": "202512",
+            "items": [
+              {
+                "code": "A",
+                "count": 3
+              },
+              {
+                "code": "B",
+                "count": 3916
+              },
+              {
+                "code": "C",
+                "count": 631
+              },
+              {
+                "code": "E",
+                "count": 544
+              },
+              {
+                "code": "D",
+                "count": 5094
+              },
+              {
+                "code": "F",
+                "count": 1146
+              },
+              {
+                "code": "G",
+                "count": 821
+              }
+            ],
+            "total": 12155
+          }
+        ]
+      },
+      {
+        "name": "KB국민",
+        "items": [
+          {
+            "code": "A",
+            "name": "CD",
+            "count": 0
+          },
+          {
+            "code": "B",
+            "name": "ATM",
+            "count": 4162
+          },
+          {
+            "code": "C",
+            "name": "기타",
+            "count": 1110
+          },
+          {
+            "code": "E",
+            "name": "화상단말기",
+            "count": 0
+          },
+          {
+            "code": "D",
+            "name": "합계",
+            "count": 5272
+          },
+          {
+            "code": "F",
+            "name": "무인점포",
+            "count": 1062
+          },
+          {
+            "code": "G",
+            "name": "점내 365일 코너",
+            "count": 213
+          }
+        ],
+        "total": 11819,
+        "history": [
+          {
+            "ym": "202012",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 5785
+              },
+              {
+                "code": "C",
+                "count": 1291
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 7076
+              },
+              {
+                "code": "F",
+                "count": 749
+              },
+              {
+                "code": "G",
+                "count": 738
+              }
+            ],
+            "total": 15639
+          },
+          {
+            "ym": "202106",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 5547
+              },
+              {
+                "code": "C",
+                "count": 1279
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 6826
+              },
+              {
+                "code": "F",
+                "count": 725
+              },
+              {
+                "code": "G",
+                "count": 713
+              }
+            ],
+            "total": 15090
+          },
+          {
+            "ym": "202112",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 5179
+              },
+              {
+                "code": "C",
+                "count": 1196
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 6375
+              },
+              {
+                "code": "F",
+                "count": 739
+              },
+              {
+                "code": "G",
+                "count": 672
+              }
+            ],
+            "total": 14161
+          },
+          {
+            "ym": "202206",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4984
+              },
+              {
+                "code": "C",
+                "count": 1229
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 6213
+              },
+              {
+                "code": "F",
+                "count": 840
+              },
+              {
+                "code": "G",
+                "count": 623
+              }
+            ],
+            "total": 13889
+          },
+          {
+            "ym": "202212",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4563
+              },
+              {
+                "code": "C",
+                "count": 1228
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 5791
+              },
+              {
+                "code": "F",
+                "count": 871
+              },
+              {
+                "code": "G",
+                "count": 618
+              }
+            ],
+            "total": 13071
+          },
+          {
+            "ym": "202306",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4463
+              },
+              {
+                "code": "C",
+                "count": 1164
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 5627
+              },
+              {
+                "code": "F",
+                "count": 950
+              },
+              {
+                "code": "G",
+                "count": 377
+              }
+            ],
+            "total": 12581
+          },
+          {
+            "ym": "202312",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4329
+              },
+              {
+                "code": "C",
+                "count": 1163
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 5492
+              },
+              {
+                "code": "F",
+                "count": 988
+              },
+              {
+                "code": "G",
+                "count": 339
+              }
+            ],
+            "total": 12311
+          },
+          {
+            "ym": "202406",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4322
+              },
+              {
+                "code": "C",
+                "count": 1167
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 5489
+              },
+              {
+                "code": "F",
+                "count": 1026
+              },
+              {
+                "code": "G",
+                "count": 291
+              }
+            ],
+            "total": 12295
+          },
+          {
+            "ym": "202412",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4288
+              },
+              {
+                "code": "C",
+                "count": 1165
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 5453
+              },
+              {
+                "code": "F",
+                "count": 1029
+              },
+              {
+                "code": "G",
+                "count": 278
+              }
+            ],
+            "total": 12213
+          },
+          {
+            "ym": "202506",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4210
+              },
+              {
+                "code": "C",
+                "count": 1129
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 5339
+              },
+              {
+                "code": "F",
+                "count": 1041
+              },
+              {
+                "code": "G",
+                "count": 248
+              }
+            ],
+            "total": 11967
+          },
+          {
+            "ym": "202512",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4162
+              },
+              {
+                "code": "C",
+                "count": 1110
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 5272
+              },
+              {
+                "code": "F",
+                "count": 1062
+              },
+              {
+                "code": "G",
+                "count": 213
+              }
+            ],
+            "total": 11819
+          }
+        ]
+      },
+      {
+        "name": "하나",
+        "items": [
+          {
+            "code": "A",
+            "name": "CD",
+            "count": 3
+          },
+          {
+            "code": "B",
+            "name": "ATM",
+            "count": 3368
+          },
+          {
+            "code": "C",
+            "name": "기타",
+            "count": 131
+          },
+          {
+            "code": "E",
+            "name": "화상단말기",
+            "count": 7
+          },
+          {
+            "code": "D",
+            "name": "합계",
+            "count": 3509
+          },
+          {
+            "code": "F",
+            "name": "무인점포",
+            "count": 216
+          },
+          {
+            "code": "G",
+            "name": "점내 365일 코너",
+            "count": 636
+          }
+        ],
+        "total": 7870,
+        "history": [
+          {
+            "ym": "202012",
+            "items": [
+              {
+                "code": "A",
+                "count": 6
+              },
+              {
+                "code": "B",
+                "count": 3745
+              },
+              {
+                "code": "C",
+                "count": 6
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 3757
+              },
+              {
+                "code": "F",
+                "count": 203
+              },
+              {
+                "code": "G",
+                "count": 688
+              }
+            ],
+            "total": 8405
+          },
+          {
+            "ym": "202106",
+            "items": [
+              {
+                "code": "A",
+                "count": 6
+              },
+              {
+                "code": "B",
+                "count": 3673
+              },
+              {
+                "code": "C",
+                "count": 6
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 3685
+              },
+              {
+                "code": "F",
+                "count": 204
+              },
+              {
+                "code": "G",
+                "count": 670
+              }
+            ],
+            "total": 8244
+          },
+          {
+            "ym": "202112",
+            "items": [
+              {
+                "code": "A",
+                "count": 6
+              },
+              {
+                "code": "B",
+                "count": 3558
+              },
+              {
+                "code": "C",
+                "count": 7
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 3571
+              },
+              {
+                "code": "F",
+                "count": 200
+              },
+              {
+                "code": "G",
+                "count": 648
+              }
+            ],
+            "total": 7990
+          },
+          {
+            "ym": "202206",
+            "items": [
+              {
+                "code": "A",
+                "count": 6
+              },
+              {
+                "code": "B",
+                "count": 3523
+              },
+              {
+                "code": "C",
+                "count": 11
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 3540
+              },
+              {
+                "code": "F",
+                "count": 214
+              },
+              {
+                "code": "G",
+                "count": 626
+              }
+            ],
+            "total": 7920
+          },
+          {
+            "ym": "202212",
+            "items": [
+              {
+                "code": "A",
+                "count": 6
+              },
+              {
+                "code": "B",
+                "count": 3481
+              },
+              {
+                "code": "C",
+                "count": 46
+              },
+              {
+                "code": "E",
+                "count": 1
+              },
+              {
+                "code": "D",
+                "count": 3534
+              },
+              {
+                "code": "F",
+                "count": 216
+              },
+              {
+                "code": "G",
+                "count": 622
+              }
+            ],
+            "total": 7906
+          },
+          {
+            "ym": "202306",
+            "items": [
+              {
+                "code": "A",
+                "count": 7
+              },
+              {
+                "code": "B",
+                "count": 3442
+              },
+              {
+                "code": "C",
+                "count": 56
+              },
+              {
+                "code": "E",
+                "count": 5
+              },
+              {
+                "code": "D",
+                "count": 3510
+              },
+              {
+                "code": "F",
+                "count": 211
+              },
+              {
+                "code": "G",
+                "count": 621
+              }
+            ],
+            "total": 7852
+          },
+          {
+            "ym": "202312",
+            "items": [
+              {
+                "code": "A",
+                "count": 7
+              },
+              {
+                "code": "B",
+                "count": 3423
+              },
+              {
+                "code": "C",
+                "count": 90
+              },
+              {
+                "code": "E",
+                "count": 6
+              },
+              {
+                "code": "D",
+                "count": 3526
+              },
+              {
+                "code": "F",
+                "count": 212
+              },
+              {
+                "code": "G",
+                "count": 627
+              }
+            ],
+            "total": 7891
+          },
+          {
+            "ym": "202406",
+            "items": [
+              {
+                "code": "A",
+                "count": 4
+              },
+              {
+                "code": "B",
+                "count": 3408
+              },
+              {
+                "code": "C",
+                "count": 115
+              },
+              {
+                "code": "E",
+                "count": 6
+              },
+              {
+                "code": "D",
+                "count": 3533
+              },
+              {
+                "code": "F",
+                "count": 215
+              },
+              {
+                "code": "G",
+                "count": 630
+              }
+            ],
+            "total": 7911
+          },
+          {
+            "ym": "202412",
+            "items": [
+              {
+                "code": "A",
+                "count": 4
+              },
+              {
+                "code": "B",
+                "count": 3385
+              },
+              {
+                "code": "C",
+                "count": 124
+              },
+              {
+                "code": "E",
+                "count": 7
+              },
+              {
+                "code": "D",
+                "count": 3520
+              },
+              {
+                "code": "F",
+                "count": 211
+              },
+              {
+                "code": "G",
+                "count": 629
+              }
+            ],
+            "total": 7880
+          },
+          {
+            "ym": "202506",
+            "items": [
+              {
+                "code": "A",
+                "count": 4
+              },
+              {
+                "code": "B",
+                "count": 3391
+              },
+              {
+                "code": "C",
+                "count": 129
+              },
+              {
+                "code": "E",
+                "count": 7
+              },
+              {
+                "code": "D",
+                "count": 3531
+              },
+              {
+                "code": "F",
+                "count": 219
+              },
+              {
+                "code": "G",
+                "count": 632
+              }
+            ],
+            "total": 7913
+          },
+          {
+            "ym": "202512",
+            "items": [
+              {
+                "code": "A",
+                "count": 3
+              },
+              {
+                "code": "B",
+                "count": 3368
+              },
+              {
+                "code": "C",
+                "count": 131
+              },
+              {
+                "code": "E",
+                "count": 7
+              },
+              {
+                "code": "D",
+                "count": 3509
+              },
+              {
+                "code": "F",
+                "count": 216
+              },
+              {
+                "code": "G",
+                "count": 636
+              }
+            ],
+            "total": 7870
+          }
+        ]
+      },
+      {
+        "name": "우리",
+        "items": [
+          {
+            "code": "A",
+            "name": "CD",
+            "count": 0
+          },
+          {
+            "code": "B",
+            "name": "ATM",
+            "count": 3253
+          },
+          {
+            "code": "C",
+            "name": "기타",
+            "count": 651
+          },
+          {
+            "code": "E",
+            "name": "화상단말기",
+            "count": 86
+          },
+          {
+            "code": "D",
+            "name": "합계",
+            "count": 3990
+          },
+          {
+            "code": "F",
+            "name": "무인점포",
+            "count": 250
+          },
+          {
+            "code": "G",
+            "name": "점내 365일 코너",
+            "count": 621
+          }
+        ],
+        "total": 8851,
+        "history": [
+          {
+            "ym": "202012",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4487
+              },
+              {
+                "code": "C",
+                "count": 861
+              },
+              {
+                "code": "E",
+                "count": 44
+              },
+              {
+                "code": "D",
+                "count": 5392
+              },
+              {
+                "code": "F",
+                "count": 215
+              },
+              {
+                "code": "G",
+                "count": 821
+              }
+            ],
+            "total": 11820
+          },
+          {
+            "ym": "202106",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4431
+              },
+              {
+                "code": "C",
+                "count": 857
+              },
+              {
+                "code": "E",
+                "count": 47
+              },
+              {
+                "code": "D",
+                "count": 5335
+              },
+              {
+                "code": "F",
+                "count": 203
+              },
+              {
+                "code": "G",
+                "count": 816
+              }
+            ],
+            "total": 11689
+          },
+          {
+            "ym": "202112",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4296
+              },
+              {
+                "code": "C",
+                "count": 832
+              },
+              {
+                "code": "E",
+                "count": 47
+              },
+              {
+                "code": "D",
+                "count": 5175
+              },
+              {
+                "code": "F",
+                "count": 241
+              },
+              {
+                "code": "G",
+                "count": 791
+              }
+            ],
+            "total": 11382
+          },
+          {
+            "ym": "202206",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4024
+              },
+              {
+                "code": "C",
+                "count": 759
+              },
+              {
+                "code": "E",
+                "count": 46
+              },
+              {
+                "code": "D",
+                "count": 4829
+              },
+              {
+                "code": "F",
+                "count": 236
+              },
+              {
+                "code": "G",
+                "count": 730
+              }
+            ],
+            "total": 10624
+          },
+          {
+            "ym": "202212",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 3950
+              },
+              {
+                "code": "C",
+                "count": 740
+              },
+              {
+                "code": "E",
+                "count": 57
+              },
+              {
+                "code": "D",
+                "count": 4747
+              },
+              {
+                "code": "F",
+                "count": 237
+              },
+              {
+                "code": "G",
+                "count": 712
+              }
+            ],
+            "total": 10443
+          },
+          {
+            "ym": "202306",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 3783
+              },
+              {
+                "code": "C",
+                "count": 731
+              },
+              {
+                "code": "E",
+                "count": 57
+              },
+              {
+                "code": "D",
+                "count": 4571
+              },
+              {
+                "code": "F",
+                "count": 232
+              },
+              {
+                "code": "G",
+                "count": 707
+              }
+            ],
+            "total": 10081
+          },
+          {
+            "ym": "202312",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 3685
+              },
+              {
+                "code": "C",
+                "count": 730
+              },
+              {
+                "code": "E",
+                "count": 57
+              },
+              {
+                "code": "D",
+                "count": 4472
+              },
+              {
+                "code": "F",
+                "count": 231
+              },
+              {
+                "code": "G",
+                "count": 709
+              }
+            ],
+            "total": 9884
+          },
+          {
+            "ym": "202406",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 3539
+              },
+              {
+                "code": "C",
+                "count": 718
+              },
+              {
+                "code": "E",
+                "count": 74
+              },
+              {
+                "code": "D",
+                "count": 4331
+              },
+              {
+                "code": "F",
+                "count": 234
+              },
+              {
+                "code": "G",
+                "count": 698
+              }
+            ],
+            "total": 9594
+          },
+          {
+            "ym": "202412",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 3451
+              },
+              {
+                "code": "C",
+                "count": 691
+              },
+              {
+                "code": "E",
+                "count": 80
+              },
+              {
+                "code": "D",
+                "count": 4222
+              },
+              {
+                "code": "F",
+                "count": 239
+              },
+              {
+                "code": "G",
+                "count": 674
+              }
+            ],
+            "total": 9357
+          },
+          {
+            "ym": "202506",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 3383
+              },
+              {
+                "code": "C",
+                "count": 660
+              },
+              {
+                "code": "E",
+                "count": 86
+              },
+              {
+                "code": "D",
+                "count": 4129
+              },
+              {
+                "code": "F",
+                "count": 240
+              },
+              {
+                "code": "G",
+                "count": 644
+              }
+            ],
+            "total": 9142
+          },
+          {
+            "ym": "202512",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 3253
+              },
+              {
+                "code": "C",
+                "count": 651
+              },
+              {
+                "code": "E",
+                "count": 86
+              },
+              {
+                "code": "D",
+                "count": 3990
+              },
+              {
+                "code": "F",
+                "count": 250
+              },
+              {
+                "code": "G",
+                "count": 621
+              }
+            ],
+            "total": 8851
+          }
+        ]
+      }
+    ],
+    "total": 40695,
+    "debug": {
+      "list_no_atm": "SA026",
+      "finance_cd_targets": 4,
+      "per_bank_query_success": [
+        {
+          "bank": "신한",
+          "finance_cd": "0011625",
+          "rows": 98
+        },
+        {
+          "bank": "KB국민",
+          "finance_cd": "0010927",
+          "rows": 98
+        },
+        {
+          "bank": "하나",
+          "finance_cd": "0013909",
+          "rows": 98
+        },
+        {
+          "bank": "우리",
+          "finance_cd": "0010001",
+          "rows": 98
+        }
+      ],
+      "fallback_all_rows_used": false,
+      "resolved_banks": [
+        "신한",
+        "KB국민",
+        "하나",
+        "우리"
+      ],
+      "missing_banks": []
+    }
+  }
 }
