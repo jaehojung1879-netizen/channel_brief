@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-30T07:34:26.588011+09:00",
+  "updated_at": "2026-04-30T07:57:28.429208+09:00",
   "headline": {
-    "id": "48b450816f3a",
-    "title": "신한은행, 영업점에서 '땡겨요' 동네 맛집 홍보",
-    "source": "파이낸셜뉴스",
-    "summary": "신한은행, 영업점에서 '땡겨요' 동네 맛집 홍보 파이낸셜뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBOaGhyX0FRclMwSkp1SktqV1BwSUl2U0FubHQ5dVo1Tm9lZ0w1enZPXzdxMzg2NVhnOHVYNHYzY1diR19vZUhOWmhsR1BId01WZkduVXRHSlBxQdIBXkFVX3lxTE9NbXFtaktFTDVLUjdFSUlLSFpCSGxPQmk2c0FoQ3FRRzJlTFh5MDgwWGxCTnRGM1pGaXVJSzVsYnk0bnJEc2c5SzlkY2ZMUk9LWEx0aXNoZUtXLXRzMFE?oc=5",
-    "published": "2026-04-29T14:16:01+09:00",
-    "query": "은행 영업점",
+    "id": "6962a48890fd",
+    "title": "신한은행, 배달앱 ‘땡겨요’ 가맹점 무료 광고…영업점 디지털망으로 소상공인 지원",
+    "source": "투데이e코노믹",
+    "summary": "신한은행, 배달앱 ‘땡겨요’ 가맹점 무료 광고…영업점 디지털망으로 소상공인 지원 투데이e코노믹",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VQmlzelllUm9ya3c1dU5DY0tEQnF4UFRvSTRTa24tRzJYbVVEYTd5cmE2Ul9jTXdBemk3VEdQLWVuWVo2X19rYmFQaU1WNXQ4VXNNdWZzbWt1VFcxVWFYUFg1ai1OR28?oc=5",
+    "published": "2026-04-29T17:25:10+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 4,
-    "_score": 14.0,
+    "rank": 1,
+    "_score": 8.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -24,8 +24,7 @@
         "published": "2026-04-29T17:25:10+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 1
       },
       {
         "id": "8d1fc399b239",
@@ -60,7 +59,8 @@
         "published": "2026-04-29T14:16:01+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "194c06a1d8b8",
@@ -83,7 +83,7 @@
         "published": "2026-04-29T11:53:44+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 12,
+        "rank": 13,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -95,7 +95,7 @@
         "published": "2026-04-27T09:39:20+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 13,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -108,7 +108,7 @@
         "summary": "신한은행, 점포 광고판 개방···'땡겨요' 가맹점 홍보 지원 현대경제신문",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqNHZOdldHcUVtUVg5TVRBY3J3VWdmT0U0WHZMUXVLTWg5b3dlb3hMVlE1VTk0RmJDSFBJOUhHVVh2RDlic0dza1F3YVkyd3R6YzNhZDJzTVhnVjgzQlU2TldObXUyZ3ZnQ3BZ0gFrQVVfeXFMUGo0dk52V0dxRW1RWDlNVEFjcndVZ2ZPRTRYdkxRdUtNaDlvd2VveExWUTVVOTRGYkNIUEk5SEdVWHZEOWJzR3NrUXdhWTJ3dHpjM2FkMnNNWGdWODNCVTZOV05tdTJndmdDcFk?oc=5",
         "published": "2026-04-29T17:44:40+09:00",
-        "query": "신한은행 점포",
+        "query": "신한은행 영업점",
         "engine": "google",
         "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
@@ -125,18 +125,6 @@
         "rank": 4
       },
       {
-        "id": "02dbb2717b69",
-        "title": "\"은행영업점 광고판을 동네 맛집 홍보판으로\" 신한은행 땡겨요, 가맹점 지원",
-        "source": "catchnews.kr",
-        "summary": "\"은행영업점 광고판을 동네 맛집 홍보판으로\" 신한은행 땡겨요, 가맹점 지원 catchnews.kr",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sbTk2SE1ldnU1YjR5b2ljNXNINUNuRHRISjdSXzI5UVY1d0tmSFk5SHRsSGFWdVdkQWxUdUZVOFhvMkFIWEtiMUxJa0h4TnlSZXg5b19waGRNX3FaZFFmRkpkbXFuUEpuNU53?oc=5",
-        "published": "2026-04-29T17:15:00+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "8d1fc399b239",
         "title": "신한은행, 영업점 광고판 소상공인에 무료 개방… ‘우리동네 맛집’ 알린다",
         "source": "스마트경제",
@@ -145,7 +133,7 @@
         "published": "2026-04-29T15:37:02+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1
+        "rank": 2
       },
       {
         "id": "2ca7ab5f2045",
@@ -195,17 +183,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "48b450816f3a",
-        "title": "신한은행, 영업점에서 '땡겨요' 동네 맛집 홍보",
-        "source": "파이낸셜뉴스",
-        "summary": "신한은행, 영업점에서 '땡겨요' 동네 맛집 홍보 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBOaGhyX0FRclMwSkp1SktqV1BwSUl2U0FubHQ5dVo1Tm9lZ0w1enZPXzdxMzg2NVhnOHVYNHYzY1diR19vZUhOWmhsR1BId01WZkduVXRHSlBxQdIBXkFVX3lxTE9NbXFtaktFTDVLUjdFSUlLSFpCSGxPQmk2c0FoQ3FRRzJlTFh5MDgwWGxCTnRGM1pGaXVJSzVsYnk0bnJEc2c5SzlkY2ZMUk9LWEx0aXNoZUtXLXRzMFE?oc=5",
-        "published": "2026-04-29T14:16:01+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 3
-      },
-      {
         "id": "042bb42dfc05",
         "title": "신한은행, ‘땡겨요’ 가맹점에 은행 광고판 무료 제공…오프라인 상권 지원",
         "source": "베타뉴스",
@@ -214,7 +191,8 @@
         "published": "2026-04-29T13:54:57+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 11
+        "rank": 11,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "f983cfaed157",
@@ -225,7 +203,8 @@
         "published": "2026-04-29T13:40:24+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 7
+        "rank": 7,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "194c06a1d8b8",
@@ -236,7 +215,7 @@
         "published": "2026-04-29T13:19:42+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2
+        "rank": 3
       },
       {
         "id": "19585003f2b1",
@@ -250,6 +229,17 @@
         "rank": 8
       },
       {
+        "id": "53732fd1b9f2",
+        "title": "신한은행 ‘땡겨요’, 영업점 광고판 무료 개방…소상공인 ‘동네 맛집’ 홍보 돕는다",
+        "source": "thefairnews.co.kr",
+        "summary": "신한은행 ‘땡겨요’, 영업점 광고판 무료 개방…소상공인 ‘동네 맛집’ 홍보 돕는다 thefairnews.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wbFJmaVdLQzhOVW5RX1dWTFFjSk16Ym9UZG1HQm5GMGV3UVVraWhtVEhfUlpVa0RoU1U2MXNzX3JIUkdhemxfbGZUZWV3c3k4UG9LWU1sWFNRNVZRMDh2YzlsWkNfSm1FWHFERmVPTmjSAXRBVV95cUxNeGdlX180U1lib2g3S1RnSGJRVHhfV0IxOC0wY014V1Jzb2gyT1AxWEZ2SHlRcDFaTFphejBWcE9EdC1ZcVh2Y21pQkxSM2NycDA1MVIxRE9tQ1RLWHhSWGdsNjdLY0VGTFlDQmxYS3BFVnJjdQ?oc=5",
+        "published": "2026-04-29T11:16:09+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 6
+      },
+      {
         "id": "94b5db444952",
         "title": "대한노인회 강원 동해시지회, 신한은행서 사랑의 기부금 200만원 전달 받아",
         "source": "백세시대",
@@ -258,7 +248,7 @@
         "published": "2026-04-28T03:21:36+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 4
+        "rank": 3
       },
       {
         "id": "46925f9a4480",
@@ -269,7 +259,7 @@
         "published": "2026-04-23T09:00:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 5
+        "rank": 4
       }
     ]
   }

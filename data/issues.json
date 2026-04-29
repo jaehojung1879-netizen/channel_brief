@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-04-30T07:36:35.063695+09:00",
+  "updated_at": "2026-04-30T07:59:43.555460+09:00",
   "social_finance": [
     {
       "id": "70db3353c7c8",
       "title": "상호금융 제도개선 TF 출범…\"포용금융 늘리면 규제 완화 검토\"",
       "source": "뉴시스",
-      "summary": "상호금융 제도개선 TF 출범…\"포용금융 늘리면 규제 완화 검토\"&nbsp;&nbsp;뉴시스금융위, 상호금융 포용금융 확대 유도…규제 완화 인센티브 검토&nbsp;&nbsp;연합인포맥스상호금융, 부동산 대출 줄이고 ‘포용금융’ 확대 추진&nbsp;&nbsp;마켓인",
+      "summary": "상호금융 제도개선 TF 출범…\"포용금융 늘리면 규제 완화 검토\"&nbsp;&nbsp;뉴시스상호금융, 부동산 대출 줄이고 ‘포용금융’ 확대 추진&nbsp;&nbsp;마켓인'가계대출 셧다운' 상호금융에 포용금융 압박…\"인센티브 늘려야\"&nbsp;&nbsp;뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03NEJWSTFWZ054X0RxbFJhMTJGWThhbDNRZ1BqTDN5VktGd0habHkzMTFlTDdWa2FIVm9nTzJRRExTZGpROWxpaEVWelg5dzA3eW5HdUF3UHUwMU5mcVZyRNIBeEFVX3lxTE9GU2JsendyWU5vc2VQN19haThDVnhpZ095SzVWM1J6a0wwbU9OU3lBeThrX1dBbWFmdDhCU0Y5NkRWMmZZcXUzZGRSQWdITC1pVXg3cG9tYTVuRVA1SEREWkY2bE9iOWJ0ZXNxTDF2U1pJZTZ5QklySA?oc=5",
       "published": "2026-04-30T06:00:00+09:00",
       "query": "포용금융"
@@ -38,15 +38,6 @@
       "query": "중소기업 상생"
     },
     {
-      "id": "b28f0448ccb0",
-      "title": "삼성전자, 재난안전망 사업협력을 위한 중소기업 상생협력 협약식 개최",
-      "source": "samsung.com",
-      "summary": "삼성전자, 재난안전망 사업협력을 위한 중소기업 상생협력 협약식 개최&nbsp;&nbsp;samsung.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UNkhvMVN1WjdvYTNFNmR1V1Y2ZHNzQTdvR21MOWR5TExVaXFCLUdRZlI1YkdYWXB5ZDY4UUFRdkFILW1FSGJ6ZkVwbDM1WndfdWhWT0paR0hMUDJPeDBNV3Vn?oc=5",
-      "published": "2026-04-29T19:40:24+09:00",
-      "query": "중소기업 상생"
-    },
-    {
       "id": "956205941161",
       "title": "관악구, 중·소상공인 특별신용보증 250억 지원…위기 극복 나서",
       "source": "시정일보",
@@ -72,6 +63,15 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9scjhvVFpMWEtPT2o1Vi1PdXJRY3VQSEpTc256OXZVRTdpckdtaXFoaHFScHpMRXhfam5GZUdZTlF1NGJUTm5xelFrTkZHWGh0WVM3Ug?oc=5",
       "published": "2026-04-29T18:12:00+09:00",
       "query": "서민금융"
+    },
+    {
+      "id": "7952124d193a",
+      "title": "신협, 예술인 금융지원 확대 나서",
+      "source": "한국보험신문",
+      "summary": "신협, 예술인 금융지원 확대 나서&nbsp;&nbsp;한국보험신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15aWdsbURIWWVXVl94YmVRc3pGeFpEUktXOFJfYzhHOVpscjNyUEZIWWduMmpDQ091RVZ1aFZSSzN4b0J4c2U0WnVXY3RTRmN0T25uRTVqTXBoZU5lUnNVMnZGTkdDTlZPaUZv0gFvQVVfeXFMTzRmLXNJZ2lnNWJTaXBRdWVkcjNsT1hkZ1pSaU5mdlZYZHZqbEFKTnFIZUw5d3dNOW1Yb0tscVhHQ3hXR1FhMDREYmdyclMzaFVkZDY4MFl6Qzc5TEU1NVVvNkNfSlRONnZ6TmtVaTE0?oc=5",
+      "published": "2026-04-29T17:57:50+09:00",
+      "query": "금융접근성"
     }
   ],
   "tech": [
@@ -130,12 +130,12 @@
       "query": "블록체인 은행"
     },
     {
-      "id": "db0a333e801c",
+      "id": "e25822fa5838",
       "title": "은행·코인·무역 한판 결합···두나무, 하나·포스코와 ‘블록체인 결제망’ 실험",
       "source": "이뉴스투데이",
       "summary": "은행·코인·무역 한판 결합···두나무, 하나·포스코와 ‘블록체인 결제망’ 실험&nbsp;&nbsp;이뉴스투데이",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxV1BSWXFUWktsNHFYVjVlYjl6WE5JbXIySi14N1ZoRGpyY3E0MTAwbllVR2k1d0dwWmtOSXhqU0tNWmloSVIyMmJTYXpBTndHNmZ5d2lFR3BsMk16MGhPNjl2WE4wSjZJd2dRckZQaElpVXR40gF0QVVfeXFMUHFXUFJZcVRaS2w0cVhWNWViOXpYTkltcjJKLXg3VmhEanJjcTQxMDBuWVVHaTV3R3Baa05JeGpTS01aaWhJUjIyYlNhekFOd0c2Znl3aUVHcGwyTXowaE82OXZYTjBKNkl3Z1FyRlBoSWlVdHg?oc=5",
-      "published": "2026-04-29T10:04:51+09:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90TndQdVlnZnBOanVZbXl2V1hfNWNsX2laY3pBWGNRUHJYNS1zbDA4M3pLTnd5b1lWTVVsZGh3a1FrQmVrOVZhVkVjRVhVZ0M0OWVmSng4R1dQVUpVYTh4ZXdBdUVPcXdZd0ZuOHY0Z3DSAXRBVV95cUxQcVdQUllxVFpLbDRxWFY1ZWI5elhOSW1yMkoteDdWaERqcmNxNDEwMG5ZVUdpNXdHcFprTkl4alNLTVppaElSMjJiU2F6QU53RzZmeXdpRUdwbDJNejBoTzY5dlhOMEo2SXdnUXJGUGhJaVV0eA?oc=5",
+      "published": "2026-04-29T10:00:00+09:00",
       "query": "블록체인 은행"
     },
     {
