@@ -1214,11 +1214,17 @@ def fisis_build_atm_stats(codes: dict):
     """자동화기기 설치현황(listNo)에서 ATM 항목을 은행별로 수집 (FISIS only)."""
     list_no = codes.get("list_no_atm")
     bank_cds = codes.get("bank_finance_codes") or {}
-    if not list_no or len(bank_cds) < len(TARGET_BANKS):
+    if not list_no:
         return None
 
     labels = fisis_fetch_account_labels(list_no)
     by_bank = {}
+    collection_debug = {
+        "list_no_atm": list_no,
+        "finance_cd_targets": len([b for b in TARGET_BANKS if bank_cds.get(b["name"])]),
+        "per_bank_query_success": [],
+        "fallback_all_rows_used": False,
+    }
 
     # 1) branch stats와 동일하게 financeCd별 조회를 먼저 시도
     for meta in TARGET_BANKS:
@@ -1227,6 +1233,11 @@ def fisis_build_atm_stats(codes: dict):
         if not finance_cd:
             continue
         rows = _fisis_fetch_info(list_no, finance_cd, months_back=72)
+        collection_debug["per_bank_query_success"].append({
+            "bank": bank,
+            "finance_cd": finance_cd,
+            "rows": len(rows),
+        })
         rec = _atm_build_bank_row(bank, rows, labels) if rows else None
         if rec:
             by_bank[bank] = rec
@@ -1235,6 +1246,8 @@ def fisis_build_atm_stats(codes: dict):
     # 2) 통계표가 financeCd 없이 전체은행 묶음으로 내려오는 케이스 fallback
     if len(by_bank) < len(TARGET_BANKS):
         rows_all = _fisis_fetch_info(list_no, finance_cd="", months_back=72)
+        collection_debug["fallback_all_rows_used"] = True
+        collection_debug["fallback_all_rows"] = len(rows_all)
         grouped = {}
         for row in rows_all:
             bank_nm = _fisis_first(row, ["financeNm", "finance_nm", "companyNm", "cmpyNm", "bankNm", "kor_co_nm", "name"])
@@ -1275,6 +1288,11 @@ def fisis_build_atm_stats(codes: dict):
         "codes": [{"code": c, "name": labels.get(c) or f"코드 {c}"} for c in ordered_codes],
         "banks": ordered_banks,
         "total": sum(b.get("total", 0) for b in ordered_banks),
+        "debug": {
+            **collection_debug,
+            "resolved_banks": [b.get("name") for b in ordered_banks if int(b.get("total", 0)) > 0],
+            "missing_banks": [m["name"] for m in TARGET_BANKS if not by_bank.get(m["name"])],
+        },
     }
 
 
