@@ -681,8 +681,13 @@ def _half_year_yms(latest_ym: str, years: int = 5) -> list:
     return yms
 
 
-def _fisis_fetch_info(list_no: str, finance_cd: str = "", months_back: int = 72, account_cd: str = ""):
-    """statisticsInfoSearch 호출. 최근 months_back 개월 범위 데이터(분기 우선, 월 fallback)."""
+def _fisis_fetch_info(list_no: str, finance_cd: str = "", months_back: int = 72, account_cd: str = "",
+                      term_priority: tuple = ("Q", "H", "Y", "M")):
+    """statisticsInfoSearch 호출. 최근 months_back 개월 범위 데이터.
+
+    term_priority: 통계표마다 응답하는 조회주기가 다르므로 순차 시도한다.
+    - 점포 통계는 분기(Q) 우선, ATM 등 일부 단순통계는 반기(H) 또는 연(Y) 응답.
+    """
     now = datetime.now(KST)
     end_ym = now.strftime("%Y%m")
     start_dt = (now.replace(day=1) - timedelta(days=months_back * 31))
@@ -695,11 +700,11 @@ def _fisis_fetch_info(list_no: str, finance_cd: str = "", months_back: int = 72,
     }
     if account_cd:
         params["accountCd"] = account_cd
-    rows = _fisis_call("statisticsInfoSearch", term="Q", **params)
-    if rows:
-        return rows
-    # 일부 통계표는 월 단위(term=M)만 응답
-    return _fisis_call("statisticsInfoSearch", term="M", **params)
+    for term in term_priority:
+        rows = _fisis_call("statisticsInfoSearch", term=term, **params)
+        if rows:
+            return rows
+    return []
 
 
 def _row_bucket_value(row: dict, prefer_cd: str = "A1") -> tuple:
@@ -1226,13 +1231,18 @@ def fisis_build_atm_stats(codes: dict):
         "fallback_all_rows_used": False,
     }
 
+    # ATM 통계표(자동화기기 설치현황, SA026)는 FISIS 화면 기준 조회주기가 '반기'.
+    # 반기(H) → 연(Y) → 분기(Q) → 월(M) 순서로 시도해 빈 응답을 줄인다.
+    atm_term_priority = ("H", "Y", "Q", "M")
+
     # 1) branch stats와 동일하게 financeCd별 조회를 먼저 시도
     for meta in TARGET_BANKS:
         bank = meta["name"]
         finance_cd = bank_cds.get(bank)
         if not finance_cd:
             continue
-        rows = _fisis_fetch_info(list_no, finance_cd, months_back=72)
+        rows = _fisis_fetch_info(list_no, finance_cd, months_back=84,
+                                 term_priority=atm_term_priority)
         collection_debug["per_bank_query_success"].append({
             "bank": bank,
             "finance_cd": finance_cd,
@@ -1245,7 +1255,8 @@ def fisis_build_atm_stats(codes: dict):
 
     # 2) 통계표가 financeCd 없이 전체은행 묶음으로 내려오는 케이스 fallback
     if len(by_bank) < len(TARGET_BANKS):
-        rows_all = _fisis_fetch_info(list_no, finance_cd="", months_back=72)
+        rows_all = _fisis_fetch_info(list_no, finance_cd="", months_back=84,
+                                     term_priority=atm_term_priority)
         collection_debug["fallback_all_rows_used"] = True
         collection_debug["fallback_all_rows"] = len(rows_all)
         grouped = {}

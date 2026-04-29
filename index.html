@@ -1095,7 +1095,31 @@
     margin: 6px 0 14px;
     display: flex;
     justify-content: flex-end;
+    gap: 8px;
+    align-items: center;
   }
+  .csv-btn {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--ink-dim);
+    width: 32px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+  }
+  .csv-btn:hover {
+    color: #1f7a45;
+    border-color: #1f7a45;
+    background: rgba(31,122,69,0.08);
+  }
+  .csv-btn .ic { font-size: 11px; font-weight: 700; }
 
   /* ===== Chart modal ===== */
   .chart-modal {
@@ -1260,6 +1284,9 @@
           <button class="trend-btn" id="trend-btn-banks" type="button">
             <span class="ic">📈</span> 5년 시계열 보기
           </button>
+          <button class="csv-btn" id="csv-btn-banks" type="button" title="현재 시계열을 CSV(Excel)로 다운로드" aria-label="Excel 다운로드">
+            <span class="ic">XLS</span>
+          </button>
         </div>
         <div class="branch-legend">
           <span><span class="swatch branches"></span>지점(본점·출장소 外)</span>
@@ -1287,6 +1314,9 @@
           <button class="trend-btn" id="trend-btn-regional" type="button">
             <span class="ic">📈</span> 지역 5년 시계열 보기
           </button>
+          <button class="csv-btn" id="csv-btn-regional" type="button" title="선택 지역 시계열을 CSV(Excel)로 다운로드" aria-label="Excel 다운로드">
+            <span class="ic">XLS</span>
+          </button>
         </div>
         <div class="branch-legend">
           <span><span class="swatch branches"></span>해당 지역 내 점포 수 (은행별)</span>
@@ -1306,6 +1336,37 @@
         수동 등록하면 됩니다.
       </div>
     </div>
+    <div class="branch-section" style="margin-top:18px;">
+      <div class="branch-head">
+        <h4>
+          시중은행 무인점포(F) 현황
+          <span id="unmanned-source-badge" class="source-badge fallback">SOURCE: —</span>
+        </h4>
+        <div class="meta" id="unmanned-asof">—</div>
+      </div>
+      <div class="trend-btn-row">
+        <button class="trend-btn" id="trend-btn-unmanned" type="button">
+          <span class="ic">📈</span> 무인점포 5년 시계열 보기
+        </button>
+        <button class="csv-btn" id="csv-btn-unmanned" type="button" title="무인점포 시계열을 CSV(Excel)로 다운로드" aria-label="Excel 다운로드">
+          <span class="ic">XLS</span>
+        </button>
+      </div>
+      <div class="branch-legend">
+        <span><span class="swatch branches"></span>코드 F · 무인점포 (FISIS 자동화기기 설치현황)</span>
+      </div>
+      <div class="branch-table" id="unmanned-rows">
+        <div class="loading">[LOADING]</div>
+      </div>
+      <div class="branch-total-row">
+        <div class="label">합계 (4대 은행 · 무인점포)</div>
+        <div class="val">
+          <span id="unmanned-total">—</span>
+          <span class="delta" id="unmanned-total-delta"></span>
+        </div>
+      </div>
+    </div>
+
     <div class="branch-section" style="margin-top:18px;">
       <div class="branch-head">
         <h4>
@@ -1720,6 +1781,7 @@ function renderBranchStats(data) {
 
   renderBranchBanksView(data);
   renderBranchRegionalTabs(data);
+  renderUnmannedStats(data);
   renderAtmStats(data);
 
   // 합계
@@ -1988,6 +2050,96 @@ function renderAtmStats(data) {
   badgeEl.className = 'source-badge live';
 }
 
+// ====== 무인점포 (FISIS 자동화기기 설치현황 - 코드 F) ======
+function _bankUnmannedLatest(bank) {
+  const item = (bank.items || []).find(x => (x.code || '').toUpperCase() === 'F');
+  return item ? Number(item.count || 0) : 0;
+}
+
+function _bankUnmannedHistoryMap(bank) {
+  const out = {};
+  (bank.history || []).forEach(h => {
+    const f = (h.items || []).find(x => (x.code || '').toUpperCase() === 'F');
+    if (h.ym) out[h.ym] = f ? Number(f.count || 0) : 0;
+  });
+  return out;
+}
+
+function renderUnmannedStats(data) {
+  const rowsEl = document.getElementById('unmanned-rows');
+  const asofEl = document.getElementById('unmanned-asof');
+  const badgeEl = document.getElementById('unmanned-source-badge');
+  const totalEl = document.getElementById('unmanned-total');
+  const totalDeltaEl = document.getElementById('unmanned-total-delta');
+  if (!rowsEl || !asofEl || !badgeEl || !totalEl) return;
+
+  const atm = data?.atm_devices || null;
+  if (!atm || !Array.isArray(atm.banks) || atm.banks.length === 0) {
+    rowsEl.innerHTML = '<div class="empty">무인점포(F) 데이터 미수집 — FISIS 자동화기기 설치현황 응답이 비어 있습니다. 다음 수집 시 반영됩니다.</div>';
+    asofEl.textContent = '—';
+    badgeEl.textContent = 'SOURCE: 미수집';
+    badgeEl.className = 'source-badge fallback';
+    totalEl.textContent = '—';
+    if (totalDeltaEl) { totalDeltaEl.textContent = ''; totalDeltaEl.className = 'delta'; }
+    return;
+  }
+
+  const orderedBanks = [...atm.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const counts = orderedBanks.map(_bankUnmannedLatest);
+  const max = Math.max(...counts, 1);
+  const total = counts.reduce((s, n) => s + n, 0);
+
+  // 전년말 대비 (history에서 직전 연말의 F 합계)
+  const latestYm = atm.latest_ym || '';
+  let prevYeTotal = 0;
+  if (latestYm && latestYm.length >= 4) {
+    const targetYm = `${parseInt(latestYm.slice(0, 4)) - 1}12`;
+    prevYeTotal = orderedBanks.reduce((s, bank) => {
+      const map = _bankUnmannedHistoryMap(bank);
+      return s + (map[targetYm] || 0);
+    }, 0);
+  }
+  const totalDelta = prevYeTotal ? (total - prevYeTotal) : 0;
+
+  rowsEl.innerHTML = orderedBanks.map((bank, i) => {
+    const count = counts[i];
+    const pct = (count / max) * 100;
+    const histMap = _bankUnmannedHistoryMap(bank);
+    let yoy = 0;
+    if (latestYm && latestYm.length >= 4) {
+      const targetYm = `${parseInt(latestYm.slice(0, 4)) - 1}12`;
+      yoy = (histMap[latestYm] || count) - (histMap[targetYm] || 0);
+    }
+    const yoyClass = yoy < 0 ? 'neg' : (yoy > 0 ? 'pos' : 'zero');
+    const yoyLabel = yoy === 0 ? '±0' : (yoy > 0 ? `+${yoy}` : `${yoy}`);
+    return `
+      <div class="branch-row">
+        <div class="bank">${bankLogoHTML(bank.name)}</div>
+        <div class="bar-track" title="무인점포 ${count.toLocaleString()}">
+          <div class="bar-fill" style="width:${pct.toFixed(1)}%;"></div>
+        </div>
+        <div class="count-cell">
+          ${count.toLocaleString()}
+          <span class="sub">F · 무인점포</span>
+        </div>
+        <div class="chg ${yoyClass}">${yoyLabel}</div>
+      </div>
+    `;
+  }).join('');
+
+  asofEl.textContent = `AS OF ${atm.as_of || data.as_of || '—'}`;
+  totalEl.textContent = total.toLocaleString();
+  if (totalDeltaEl) {
+    const cls = totalDelta < 0 ? 'neg' : (totalDelta > 0 ? 'pos' : 'zero');
+    totalDeltaEl.className = `delta chg ${cls}`;
+    totalDeltaEl.textContent = totalDelta === 0
+      ? (prevYeTotal ? '±0 전년말 대비' : '')
+      : (totalDelta > 0 ? `+${totalDelta} 전년말 대비` : `${totalDelta} 전년말 대비`);
+  }
+  badgeEl.textContent = `SOURCE: FISIS · ${atm.list_no || 'SA026'} · 코드 F`;
+  badgeEl.className = 'source-badge live';
+}
+
 async function ensureRegionalDataFromFisis() {
   if (_fisisRegionalLoaded || !_branchData) return;
   if (Array.isArray(_branchData.regional) && _branchData.regional.length > 0) {
@@ -2231,6 +2383,41 @@ function openBanksTrend() {
   renderTrend('4대 시중은행 점포 수 추이', '최근 기준월로부터 5년 · 6개월 단위 · 단위: 개', labels.map(fmtYmLabel), datasets);
 }
 
+function openUnmannedTrend() {
+  const atm = _branchData?.atm_devices;
+  if (!atm || !Array.isArray(atm.banks) || atm.banks.length === 0) {
+    alert('무인점포 시계열 데이터가 아직 수집되지 않았습니다.');
+    return;
+  }
+  // 모든 은행의 history에서 ym 합집합
+  const ymSet = new Set();
+  atm.banks.forEach(b => (b.history || []).forEach(h => { if (h.ym) ymSet.add(h.ym); }));
+  const labels = Array.from(ymSet).sort();
+  if (labels.length === 0) {
+    alert('무인점포 시계열 데이터가 아직 수집되지 않았습니다.');
+    return;
+  }
+  const orderedBanks = [...atm.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const datasets = orderedBanks.map(b => {
+    const histMap = _bankUnmannedHistoryMap(b);
+    return {
+      label: b.name,
+      data: labels.map(ym => histMap[ym] ?? null),
+      borderColor: BANK_COLORS[b.name] || '#d4a24c',
+      backgroundColor: BANK_COLORS[b.name] || '#d4a24c',
+      borderWidth: 2,
+      tension: 0.38,
+      cubicInterpolationMode: 'monotone',
+      pointRadius: 2,
+      pointHoverRadius: 4,
+      spanGaps: true,
+    };
+  });
+  renderTrend('4대 시중은행 무인점포(F) 추이',
+    'FISIS 자동화기기 설치현황 · 6개월 단위 · 단위: 개',
+    labels.map(fmtYmLabel), datasets);
+}
+
 function openRegionalTrend() {
   if (!_branchData || !_activeRegion) return;
   const region = (_branchData.regional || []).find(r => r.region === _activeRegion);
@@ -2290,10 +2477,17 @@ function renderTrend(title, sub, labels, datasets) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      animation: false,
+      // 모달이 처음 열릴 때만 부드럽게 그려지도록: 초기 그리기 애니메이션은 켜고
+      // 호버/리사이즈 등 데이터셋 갱신 트랜지션은 0으로 차단.
+      animation: { duration: 750, easing: 'easeOutCubic' },
       transitions: {
         active: { animation: { duration: 0 } },
+        resize: { animation: { duration: 0 } },
+        show: { animations: { x: { from: 0 }, y: { from: 0 } } },
+        hide: { animations: { x: { to: 0 }, y: { to: 0 } } },
       },
+      hover: { animationDuration: 0 },
+      responsiveAnimationDuration: 0,
       interaction: { mode: 'index', intersect: false },
       plugins: {
         legend: {
@@ -2346,8 +2540,114 @@ document.addEventListener('click', e => {
 (function attachTrendButtons() {
   const a = document.getElementById('trend-btn-banks');
   const b = document.getElementById('trend-btn-regional');
+  const u = document.getElementById('trend-btn-unmanned');
   if (a) a.addEventListener('click', openBanksTrend);
   if (b) b.addEventListener('click', openRegionalTrend);
+  if (u) u.addEventListener('click', openUnmannedTrend);
+})();
+
+// ============== CSV (Excel) export ==============
+function _downloadCSV(filename, headers, rows) {
+  const escapeCell = v => {
+    if (v === null || v === undefined) return '';
+    const s = String(v);
+    if (/[",\n]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+    return s;
+  };
+  const lines = [headers.map(escapeCell).join(',')];
+  rows.forEach(r => lines.push(r.map(escapeCell).join(',')));
+  // UTF-8 BOM 으로 Excel 한글 깨짐 방지
+  const csv = '﻿' + lines.join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function exportBanksTrendCSV() {
+  if (!_branchData || !_branchData.banks) {
+    alert('데이터가 아직 준비되지 않았습니다.');
+    return;
+  }
+  const banks = _branchData.banks;
+  const labels = collectHalfYearLabels(banks);
+  if (labels.length === 0) {
+    alert('시계열 데이터가 없습니다.');
+    return;
+  }
+  const headers = ['기준월', ...banks.map(b => b.name), '합계'];
+  const rows = labels.map(ym => {
+    const counts = banks.map(b => {
+      const h = (b.history || []).find(x => x.ym === ym);
+      return h ? Number(h.count || 0) : '';
+    });
+    const total = counts.reduce((s, n) => s + (typeof n === 'number' ? n : 0), 0);
+    return [fmtYmLabel(ym), ...counts, total];
+  });
+  _downloadCSV(`channel-brief_banks-trend_${_branchData.latest_ym || ''}.csv`, headers, rows);
+}
+
+function exportRegionalTrendCSV() {
+  if (!_branchData || !_activeRegion) {
+    alert('지역을 먼저 선택해 주세요.');
+    return;
+  }
+  const region = (_branchData.regional || []).find(r => r.region === _activeRegion);
+  if (!region || !region.history || region.history.length === 0) {
+    alert('선택한 지역의 시계열 데이터가 없습니다.');
+    return;
+  }
+  const bankNames = (region.banks || []).map(b => b.name);
+  const headers = ['기준월', ...bankNames, '합계'];
+  const rows = region.history.map(h => {
+    const counts = bankNames.map(name => {
+      const b = (h.banks || []).find(x => x.name === name);
+      return b ? Number(b.count || 0) : '';
+    });
+    const total = counts.reduce((s, n) => s + (typeof n === 'number' ? n : 0), 0);
+    return [fmtYmLabel(h.ym), ...counts, total];
+  });
+  _downloadCSV(`channel-brief_regional-${_activeRegion}_${_branchData.latest_ym || ''}.csv`, headers, rows);
+}
+
+function exportUnmannedTrendCSV() {
+  const atm = _branchData?.atm_devices;
+  if (!atm || !Array.isArray(atm.banks) || atm.banks.length === 0) {
+    alert('무인점포 시계열 데이터가 없습니다.');
+    return;
+  }
+  const ymSet = new Set();
+  atm.banks.forEach(b => (b.history || []).forEach(h => { if (h.ym) ymSet.add(h.ym); }));
+  const labels = Array.from(ymSet).sort();
+  if (labels.length === 0) {
+    alert('무인점포 시계열 데이터가 없습니다.');
+    return;
+  }
+  const orderedBanks = [...atm.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const headers = ['기준월', ...orderedBanks.map(b => b.name), '합계'];
+  const rows = labels.map(ym => {
+    const counts = orderedBanks.map(b => {
+      const map = _bankUnmannedHistoryMap(b);
+      return ym in map ? map[ym] : '';
+    });
+    const total = counts.reduce((s, n) => s + (typeof n === 'number' ? n : 0), 0);
+    return [fmtYmLabel(ym), ...counts, total];
+  });
+  _downloadCSV(`channel-brief_unmanned-trend_${atm.latest_ym || ''}.csv`, headers, rows);
+}
+
+(function attachCsvButtons() {
+  const a = document.getElementById('csv-btn-banks');
+  const b = document.getElementById('csv-btn-regional');
+  const u = document.getElementById('csv-btn-unmanned');
+  if (a) a.addEventListener('click', exportBanksTrendCSV);
+  if (b) b.addEventListener('click', exportRegionalTrendCSV);
+  if (u) u.addEventListener('click', exportUnmannedTrendCSV);
 })();
 
 </script>

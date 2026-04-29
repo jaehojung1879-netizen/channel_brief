@@ -104,6 +104,53 @@ BANK_CONTEXT_KEYWORDS = [
     "금감원", "금융위", "은행연합회",
 ]
 
+# 같은 보도자료/사건의 재가공 기사 군집화를 위한 '주제 앵커'.
+# 기사 제목에서 동일 앵커가 2건 이상 공통 등장하거나, 동일 주체은행 + 공통 앵커 1개 → 동일 주제로 판단.
+TOPIC_ANCHORS = [
+    "땡겨요", "광고판", "동네 맛집", "맛집 홍보", "디지털 광고판",
+    "공동점포", "공동 점포", "디지털 라운지", "스마트 점포", "스마트점포",
+    "점포 폐쇄", "점포폐쇄", "통폐합", "내실화", "모범규준",
+    "키오스크", "화상상담", "화상단말기", "ATM 수수료", "수수료 면제",
+    "후계농육성자금", "후계농", "편의점 은행", "편의점 점포",
+    "365일 코너", "점내 365", "365 코너",
+    "무인점포", "무인 점포", "무인 점포",
+    "고령자", "장애인", "장차법", "접근성",
+    "혁신금융서비스", "샌드박스", "MyData", "마이데이터",
+    "상생 패키지", "상생금융", "상생 금융",
+]
+
+PRIMARY_BANK_TOKENS = [
+    ("신한은행", "신한"), ("신한카드", "신한"), ("shinhan", "신한"), ("신한", "신한"),
+    ("kb국민", "국민"), ("국민은행", "국민"), ("kb hana", ""),  # noise guard
+    ("하나은행", "하나"), ("hana", "하나"),
+    ("우리은행", "우리"), ("woori", "우리"),
+    ("농협은행", "농협"), ("nh농협", "농협"), ("농협", "농협"),
+    ("기업은행", "기업"), ("ibk", "기업"),
+    ("산업은행", "산업"), ("kdb", "산업"),
+    ("수협", "수협"), ("새마을", "새마을"), ("신협", "신협"),
+    ("카카오뱅크", "카카오"), ("토스뱅크", "토스"), ("케이뱅크", "케이"),
+    ("국민", "국민"),  # 마지막에 두어 더 긴 토큰 우선
+]
+
+
+def _primary_bank(text: str) -> str:
+    low = (text or "").lower()
+    for token, label in PRIMARY_BANK_TOKENS:
+        if not label:
+            continue
+        if token in low:
+            return label
+    return ""
+
+
+def _topic_anchors(text: str) -> set:
+    low = (text or "").lower()
+    found = set()
+    for a in TOPIC_ANCHORS:
+        if a.lower() in low:
+            found.add(a)
+    return found
+
 
 def clean_html(raw: str) -> str:
     if not raw:
@@ -304,6 +351,17 @@ def _similar_title_key(title: str) -> str:
     return " ".join(tokens[:8])
 
 
+_KOREAN_PARTICLE_RE = re.compile(r"(에서|으로|에게|에는|에도|이라|에|은|는|이|가|을|를|와|과|도|만|의|로|서)$")
+
+
+def _strip_particle(tok: str) -> str:
+    """간단한 조사 제거: 토큰 비교 시 '소상공인에' ↔ '소상공인' 동일 처리."""
+    m = _KOREAN_PARTICLE_RE.search(tok)
+    if m and len(tok) - len(m.group(0)) >= 2:
+        return tok[: -len(m.group(0))]
+    return tok
+
+
 def _title_tokens(title: str) -> set:
     t = clean_html(title or "").lower()
     t = re.sub(r"\[[^\]]+\]|\([^)]+\)|\"|\'", " ", t)
@@ -311,16 +369,32 @@ def _title_tokens(title: str) -> set:
     stop = {
         "단독", "종합", "속보", "인터뷰", "기획", "현장", "르포", "사진", "포토",
         "은행", "금융", "관련", "이슈", "뉴스", "오늘", "내일", "이번", "정부", "기자",
+        "지원", "활용", "운영", "도입", "출시", "확대", "강화", "추진", "계획",
     }
-    return {tok for tok in t.split() if len(tok) > 1 and tok not in stop}
+    return {
+        _strip_particle(tok)
+        for tok in t.split()
+        if len(tok) > 1 and tok not in stop
+    } - stop
 
 
 def _are_similar_titles(a: str, b: str) -> bool:
     ah = clean_html(a or "").lower()
     bh = clean_html(b or "").lower()
-    # 실무 이슈: 동일 보도자료 재작성(예: 농협 후계농육성자금 무방문 대출) 과다 노출 방지
-    if ("후계농육성자금" in ah and "후계농육성자금" in bh) and ("농협" in ah and "농협" in bh):
-        return True
+
+    # 1) 주제 앵커 기반 군집화: 언론사별로 표현이 달라도 같은 사건이면 묶임.
+    #    - 동일 주체은행 + 공통 앵커 1개 이상 → 동일 주제
+    #    - 주체은행이 식별되지 않더라도 공통 앵커 2개 이상 → 동일 주제
+    anchors_a = _topic_anchors(ah)
+    anchors_b = _topic_anchors(bh)
+    common_anchors = anchors_a & anchors_b
+    bank_a = _primary_bank(ah)
+    bank_b = _primary_bank(bh)
+    if common_anchors:
+        if bank_a and bank_a == bank_b:
+            return True
+        if len(common_anchors) >= 2:
+            return True
 
     ka, kb = _similar_title_key(a), _similar_title_key(b)
     if ka and kb and ka == kb:
@@ -330,14 +404,20 @@ def _are_similar_titles(a: str, b: str) -> bool:
     if ta and tb:
         inter = len(ta & tb)
         union = len(ta | tb)
-        if union > 0 and (inter / union) >= 0.65:
+        # 동일 주체 은행 기사일수록 같은 사건일 확률이 높으므로 임계치를 완화한다.
+        same_bank = bool(bank_a and bank_a == bank_b)
+        jaccard_threshold = 0.32 if same_bank else 0.55
+        if union > 0 and (inter / union) >= jaccard_threshold:
             return True
         shorter = min(len(ta), len(tb))
-        if shorter >= 4 and inter >= (shorter - 1):
+        if shorter >= 4 and inter >= max(3, shorter - 2):
+            return True
+        # 같은 은행 + 핵심 명사 3개 이상 공유는 같은 보도자료 재가공으로 본다.
+        if same_bank and inter >= 3:
             return True
 
     ratio = SequenceMatcher(None, clean_html(a or ""), clean_html(b or "")).ratio()
-    return ratio >= 0.82
+    return ratio >= 0.78
 
 
 def dedupe_similar(items: list, keep_per_topic: int = 1) -> list:
@@ -609,6 +689,20 @@ def main():
             continue
         headline = {**article, "_score": round(s["score"], 1)}
         break
+
+    # 헤드라인과 동일 주제(앵커+은행)의 기사는 카테고리 리스트에서 제외하여
+    # 동일 사건이 여러 카드로 반복 노출되는 현상을 한 번 더 차단한다.
+    if headline:
+        h_title = headline.get("title", "")
+        for cat in list(all_results.keys()):
+            filtered = []
+            for it in all_results[cat]:
+                if it.get("id") == headline.get("id"):
+                    continue
+                if _are_similar_titles(h_title, it.get("title", "")):
+                    continue
+                filtered.append(it)
+            all_results[cat] = filtered
 
     # 화면에 실제 노출될 후보만 enrichment 대상으로 (비용·시간 절약)
     display_targets = []
