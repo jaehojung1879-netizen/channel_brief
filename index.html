@@ -1381,7 +1381,7 @@
         <div class="loading">[LOADING]</div>
       </div>
       <div class="branch-total-row">
-        <div class="label">합계 (4대 은행 · 코드 A~G)</div>
+        <div class="label">합계 (4대 은행 · 코드 D)</div>
         <div class="val"><span id="atm-total">—</span></div>
       </div>
     </div>
@@ -2016,12 +2016,19 @@ function renderAtmStats(data) {
   }
 
   const codes = Array.isArray(atm.codes) ? atm.codes : [];
-  const max = Math.max(...atm.banks.map(b => Number(b.total || 0)), 1);
+  const targetCode = 'D';
+  const codeCount = (bank, code) => {
+    const found = (bank.items || []).find(x => (x.code || '').toUpperCase() === code);
+    return Number(found?.count || 0);
+  };
+  const max = Math.max(...atm.banks.map(b => codeCount(b, targetCode)), 1);
   const orderedBanks = [...atm.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const totalD = orderedBanks.reduce((sum, b) => sum + codeCount(b, targetCode), 0);
   rowsEl.innerHTML = orderedBanks.map(bank => {
-    const total = Number(bank.total || 0);
+    const total = codeCount(bank, targetCode);
     const pct = (total / max) * 100;
     const breakdown = (bank.items || [])
+      .filter(x => !['F', 'G'].includes((x.code || '').toUpperCase()))
       .filter(x => Number(x.count || 0) > 0)
       .map(x => `${esc(x.code)}:${Number(x.count || 0).toLocaleString()}`)
       .join(' · ');
@@ -2035,7 +2042,7 @@ function renderAtmStats(data) {
           ${total.toLocaleString()}
           <span class="atm-breakdown">${breakdown || '세부 코드 값 없음'}</span>
         </div>
-        <div class="chg zero">A~G</div>
+        <div class="chg zero">D</div>
       </div>
     `;
   }).join('');
@@ -2043,9 +2050,11 @@ function renderAtmStats(data) {
   asofEl.textContent = `AS OF ${atm.as_of || data.as_of || '—'}`;
   listNoEl.textContent = `LIST NO: ${atm.list_no || '—'}`;
   codeEl.textContent = codes.length
-    ? codes.map(c => `${c.code}=${c.name || c.code}`).join(' · ')
-    : '코드 A~G 라벨 미수집 (기본 코드 사용)';
-  totalEl.textContent = Number(atm.total || 0).toLocaleString();
+    ? codes
+      .filter(c => !['F', 'G'].includes((c.code || '').toUpperCase()))
+      .map(c => `${c.code}=${c.name || c.code}`).join(' · ')
+    : '코드 라벨 미수집 (기본 코드 사용)';
+  totalEl.textContent = totalD.toLocaleString();
   badgeEl.textContent = `SOURCE: FISIS · ${atm.list_no || 'ATM'}`;
   badgeEl.className = 'source-badge live';
 }
@@ -2494,17 +2503,7 @@ function renderTrend(title, sub, labels, datasets) {
           position: 'bottom',
           labels: { color: '#c0c6cd', font: { family: 'IBM Plex Sans KR, system-ui', size: 12 }, boxWidth: 12 },
         },
-        tooltip: {
-          backgroundColor: '#0f1419',
-          borderColor: '#2a3441',
-          borderWidth: 1,
-          titleColor: '#e8e3d8',
-          bodyColor: '#e8e3d8',
-          padding: 10,
-          callbacks: {
-            label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y?.toLocaleString() ?? '—'}`,
-          },
-        },
+        tooltip: { enabled: false },
       },
       scales: {
         x: {
