@@ -1339,7 +1339,7 @@
     <div class="branch-section" style="margin-top:18px;">
       <div class="branch-head">
         <h4>
-          시중은행 무인점포(F) 현황
+          시중은행 무인점포 현황
           <span id="unmanned-source-badge" class="source-badge fallback">SOURCE: —</span>
         </h4>
         <div class="meta" id="unmanned-asof">—</div>
@@ -1353,7 +1353,7 @@
         </button>
       </div>
       <div class="branch-legend">
-        <span><span class="swatch branches"></span>코드 F · 무인점포 (FISIS 자동화기기 설치현황)</span>
+        <span><span class="swatch branches"></span>무인점포 (FISIS 자동화기기 설치현황)</span>
       </div>
       <div class="branch-table" id="unmanned-rows">
         <div class="loading">[LOADING]</div>
@@ -1375,13 +1375,21 @@
         </h4>
         <div class="meta" id="atm-asof">—</div>
       </div>
+      <div class="trend-btn-row">
+        <button class="trend-btn" id="trend-btn-atm" type="button">
+          <span class="ic">📈</span> 자동화기기 5년 시계열 보기
+        </button>
+        <button class="csv-btn" id="csv-btn-atm" type="button" title="자동화기기 시계열을 CSV(Excel)로 다운로드" aria-label="Excel 다운로드">
+          <span class="ic">XLS</span>
+        </button>
+      </div>
       <div class="atm-meta" id="atm-list-no">LIST NO: —</div>
       <div class="atm-code-list" id="atm-code-list">코드 A~G 정보를 불러오는 중...</div>
       <div class="branch-table" id="atm-rows">
         <div class="loading">[LOADING]</div>
       </div>
       <div class="branch-total-row">
-        <div class="label">합계 (4대 은행 · 코드 D)</div>
+        <div class="label">합계 (4대 은행)</div>
         <div class="val"><span id="atm-total">—</span></div>
       </div>
     </div>
@@ -2042,7 +2050,6 @@ function renderAtmStats(data) {
           ${total.toLocaleString()}
           <span class="atm-breakdown">${breakdown || '세부 코드 값 없음'}</span>
         </div>
-        <div class="chg zero">D</div>
       </div>
     `;
   }).join('');
@@ -2084,7 +2091,7 @@ function renderUnmannedStats(data) {
 
   const atm = data?.atm_devices || null;
   if (!atm || !Array.isArray(atm.banks) || atm.banks.length === 0) {
-    rowsEl.innerHTML = '<div class="empty">무인점포(F) 데이터 미수집 — FISIS 자동화기기 설치현황 응답이 비어 있습니다. 다음 수집 시 반영됩니다.</div>';
+    rowsEl.innerHTML = '<div class="empty">무인점포 데이터 미수집 — FISIS 자동화기기 설치현황 응답이 비어 있습니다. 다음 수집 시 반영됩니다.</div>';
     asofEl.textContent = '—';
     badgeEl.textContent = 'SOURCE: 미수집';
     badgeEl.className = 'source-badge fallback';
@@ -2129,7 +2136,7 @@ function renderUnmannedStats(data) {
         </div>
         <div class="count-cell">
           ${count.toLocaleString()}
-          <span class="sub">F · 무인점포</span>
+          <span class="sub">무인점포</span>
         </div>
         <div class="chg ${yoyClass}">${yoyLabel}</div>
       </div>
@@ -2145,7 +2152,7 @@ function renderUnmannedStats(data) {
       ? (prevYeTotal ? '±0 전년말 대비' : '')
       : (totalDelta > 0 ? `+${totalDelta} 전년말 대비` : `${totalDelta} 전년말 대비`);
   }
-  badgeEl.textContent = `SOURCE: FISIS · ${atm.list_no || 'SA026'} · 코드 F`;
+  badgeEl.textContent = `SOURCE: FISIS · ${atm.list_no || 'SA026'}`;
   badgeEl.className = 'source-badge live';
 }
 
@@ -2422,7 +2429,50 @@ function openUnmannedTrend() {
       spanGaps: true,
     };
   });
-  renderTrend('4대 시중은행 무인점포(F) 추이',
+  renderTrend('4대 시중은행 무인점포 추이',
+    'FISIS 자동화기기 설치현황 · 6개월 단위 · 단위: 개',
+    labels.map(fmtYmLabel), datasets);
+}
+
+function _bankAtmHistoryMap(bank) {
+  const out = {};
+  (bank.history || []).forEach(h => {
+    const d = (h.items || []).find(x => (x.code || '').toUpperCase() === 'D');
+    if (h.ym) out[h.ym] = d ? Number(d.count || 0) : 0;
+  });
+  return out;
+}
+
+function openAtmTrend() {
+  const atm = _branchData?.atm_devices;
+  if (!atm || !Array.isArray(atm.banks) || atm.banks.length === 0) {
+    alert('자동화기기 시계열 데이터가 아직 수집되지 않았습니다.');
+    return;
+  }
+  const ymSet = new Set();
+  atm.banks.forEach(b => (b.history || []).forEach(h => { if (h.ym) ymSet.add(h.ym); }));
+  const labels = Array.from(ymSet).sort();
+  if (labels.length === 0) {
+    alert('자동화기기 시계열 데이터가 아직 수집되지 않았습니다.');
+    return;
+  }
+  const orderedBanks = [...atm.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const datasets = orderedBanks.map(b => {
+    const histMap = _bankAtmHistoryMap(b);
+    return {
+      label: b.name,
+      data: labels.map(ym => histMap[ym] ?? null),
+      borderColor: BANK_COLORS[b.name] || '#d4a24c',
+      backgroundColor: BANK_COLORS[b.name] || '#d4a24c',
+      borderWidth: 2,
+      tension: 0.38,
+      cubicInterpolationMode: 'monotone',
+      pointRadius: 2,
+      pointHoverRadius: 4,
+      spanGaps: true,
+    };
+  });
+  renderTrend('4대 시중은행 자동화기기 추이',
     'FISIS 자동화기기 설치현황 · 6개월 단위 · 단위: 개',
     labels.map(fmtYmLabel), datasets);
 }
@@ -2480,20 +2530,52 @@ function renderTrend(title, sub, labels, datasets) {
       fill: false,
     };
   });
+  // 점 → 점으로 선이 그려지듯 진행하는 애니메이션 (전체 약 1초)
+  const totalDuration = 1000;
+  const pointCount = Math.max(labels.length, 1);
+  const stepDelay = pointCount > 1 ? totalDuration / (pointCount - 1) : totalDuration;
+  const previousY = (ctx) => {
+    const meta = ctx.chart.getDatasetMeta(ctx.datasetIndex);
+    if (!meta || ctx.index === 0 || !meta.data[ctx.index - 1]) {
+      return ctx.chart.scales.y.getPixelForValue(0);
+    }
+    return meta.data[ctx.index - 1].getProps(['y'], true).y;
+  };
+  const progressiveAnimation = {
+    x: {
+      type: 'number',
+      easing: 'linear',
+      duration: stepDelay,
+      from: NaN,
+      delay(ctx) {
+        if (ctx.type !== 'data' || ctx.xStarted) return 0;
+        ctx.xStarted = true;
+        return ctx.index * stepDelay;
+      },
+    },
+    y: {
+      type: 'number',
+      easing: 'linear',
+      duration: stepDelay,
+      from: previousY,
+      delay(ctx) {
+        if (ctx.type !== 'data' || ctx.yStarted) return 0;
+        ctx.yStarted = true;
+        return ctx.index * stepDelay;
+      },
+    },
+  };
+
   _trendChart = new Chart(ctx, {
     type: 'line',
     data: { labels, datasets: styledDatasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      // 모달이 처음 열릴 때만 부드럽게 그려지도록: 초기 그리기 애니메이션은 켜고
-      // 호버/리사이즈 등 데이터셋 갱신 트랜지션은 0으로 차단.
-      animation: { duration: 750, easing: 'easeOutCubic' },
+      animation: progressiveAnimation,
       transitions: {
         active: { animation: { duration: 0 } },
         resize: { animation: { duration: 0 } },
-        show: { animations: { x: { from: 0 }, y: { from: 0 } } },
-        hide: { animations: { x: { to: 0 }, y: { to: 0 } } },
       },
       hover: { animationDuration: 0 },
       responsiveAnimationDuration: 0,
@@ -2503,7 +2585,30 @@ function renderTrend(title, sub, labels, datasets) {
           position: 'bottom',
           labels: { color: '#c0c6cd', font: { family: 'IBM Plex Sans KR, system-ui', size: 12 }, boxWidth: 12 },
         },
-        tooltip: { enabled: false },
+        tooltip: {
+          enabled: true,
+          mode: 'index',
+          intersect: false,
+          backgroundColor: 'rgba(15, 20, 25, 0.95)',
+          borderColor: '#2a3441',
+          borderWidth: 1,
+          titleColor: '#e6ebf0',
+          titleFont: { family: 'IBM Plex Sans KR, system-ui', size: 12, weight: '600' },
+          bodyColor: '#c0c6cd',
+          bodyFont: { family: 'JetBrains Mono, monospace', size: 12 },
+          padding: 10,
+          cornerRadius: 6,
+          displayColors: true,
+          boxWidth: 8,
+          boxHeight: 8,
+          callbacks: {
+            label(ctx) {
+              const v = ctx.parsed.y;
+              const num = (v == null) ? '—' : Number(v).toLocaleString();
+              return `${ctx.dataset.label}: ${num}`;
+            },
+          },
+        },
       },
       scales: {
         x: {
@@ -2540,9 +2645,11 @@ document.addEventListener('click', e => {
   const a = document.getElementById('trend-btn-banks');
   const b = document.getElementById('trend-btn-regional');
   const u = document.getElementById('trend-btn-unmanned');
+  const t = document.getElementById('trend-btn-atm');
   if (a) a.addEventListener('click', openBanksTrend);
   if (b) b.addEventListener('click', openRegionalTrend);
   if (u) u.addEventListener('click', openUnmannedTrend);
+  if (t) t.addEventListener('click', openAtmTrend);
 })();
 
 // ============== CSV (Excel) export ==============
@@ -2640,13 +2747,41 @@ function exportUnmannedTrendCSV() {
   _downloadCSV(`channel-brief_unmanned-trend_${atm.latest_ym || ''}.csv`, headers, rows);
 }
 
+function exportAtmTrendCSV() {
+  const atm = _branchData?.atm_devices;
+  if (!atm || !Array.isArray(atm.banks) || atm.banks.length === 0) {
+    alert('자동화기기 시계열 데이터가 없습니다.');
+    return;
+  }
+  const ymSet = new Set();
+  atm.banks.forEach(b => (b.history || []).forEach(h => { if (h.ym) ymSet.add(h.ym); }));
+  const labels = Array.from(ymSet).sort();
+  if (labels.length === 0) {
+    alert('자동화기기 시계열 데이터가 없습니다.');
+    return;
+  }
+  const orderedBanks = [...atm.banks].sort((a, b) => bankOrder(a.name) - bankOrder(b.name));
+  const headers = ['기준월', ...orderedBanks.map(b => b.name), '합계'];
+  const rows = labels.map(ym => {
+    const counts = orderedBanks.map(b => {
+      const map = _bankAtmHistoryMap(b);
+      return ym in map ? map[ym] : '';
+    });
+    const total = counts.reduce((s, n) => s + (typeof n === 'number' ? n : 0), 0);
+    return [fmtYmLabel(ym), ...counts, total];
+  });
+  _downloadCSV(`channel-brief_atm-trend_${atm.latest_ym || ''}.csv`, headers, rows);
+}
+
 (function attachCsvButtons() {
   const a = document.getElementById('csv-btn-banks');
   const b = document.getElementById('csv-btn-regional');
   const u = document.getElementById('csv-btn-unmanned');
+  const t = document.getElementById('csv-btn-atm');
   if (a) a.addEventListener('click', exportBanksTrendCSV);
   if (b) b.addEventListener('click', exportRegionalTrendCSV);
   if (u) u.addEventListener('click', exportUnmannedTrendCSV);
+  if (t) t.addEventListener('click', exportAtmTrendCSV);
 })();
 
 </script>
