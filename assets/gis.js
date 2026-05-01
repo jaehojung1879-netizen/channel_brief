@@ -304,11 +304,27 @@ async function bootstrap() {
   initMap();
 
   if (STATE.branches.length === 0) {
-    showOverlay(
-      '영업점 좌표 미수집',
-      'KAKAO_REST_API_KEY 등록 여부를 확인해 주세요.\n워크플로를 다시 실행하면 영업점 데이터가 지도에 반영됩니다.',
-      true,
-    );
+    const diag = meta.diagnostics || {};
+    const lines = ['KAKAO_REST_API_KEY 등록 여부를 확인해 주세요.'];
+    if (diag.rest_key_resolved === false) {
+      const seen = diag.kakao_env_seen || {};
+      const setNames = Object.keys(seen).filter(k => seen[k] === 'set');
+      const emptyNames = Object.keys(seen).filter(k => seen[k] === 'empty');
+      if (setNames.length) {
+        lines.push(`현재 워크플로에서 인식된 KAKAO_* secret: ${setNames.join(', ')}`);
+      } else {
+        lines.push('현재 워크플로에서 인식된 KAKAO_* secret: 없음');
+      }
+      if (emptyNames.length) {
+        lines.push(`empty 로 들어온 candidate: ${emptyNames.join(', ')}`);
+      }
+      if (diag.hint) lines.push(diag.hint);
+    } else if (diag.note) {
+      lines.push(diag.note);
+    } else {
+      lines.push('워크플로를 다시 실행하면 영업점 데이터가 지도에 반영됩니다.');
+    }
+    showOverlay('영업점 좌표 미수집', lines.join('\n'), true);
     return;
   }
 
