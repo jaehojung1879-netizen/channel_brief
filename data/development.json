@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-01T15:19:28.125729+09:00",
+  "updated_at": "2026-05-02T07:56:00.883051+09:00",
   "items": [
+    {
+      "id": "5efe677a722b",
+      "title": "멈춰 있던 부지에 새 기능… 망우동 주거·체육 결합한 복합개발 가시화",
+      "source": "리얼캐스트",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11SFkxemRhNGZLRjI0MnE4eGRiaUNacHVhbmxvOHZvLXJodmNiZTdmRUNkNEIyZ0xjX0lSVXl6cTNXSExvRmp1OFVmTDBxaS1Fcmo4LU02bnYtc210Mm1xeU5OZGVvNk1y0gFsQVVfeXFMT2k1MU92MHYtUUgtekJ5OWV0Um80anpHTlUzZVloODduOTg5LWhWQ0JjMklaMDhFZEtuMzRrY3l5Z2ZiZm12NkdZdW1lYXphal9xV3JfMXBDRGVoUWtFc01IN1N2UG9OOGhTb2Za?oc=5",
+      "published": "2026-05-01T09:00:00+09:00",
+      "date": "2026-05-01",
+      "query": "복합개발 지구단위계획"
+    },
     {
       "id": "08c3029de0ff",
       "title": "신도시 급성장에 3040 유입 늘어… 반도체 표심 어디로",
@@ -18,15 +27,6 @@
       "published": "2026-05-01T00:00:17+09:00",
       "date": "2026-05-01",
       "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "9bd717a46aed",
-      "title": "환경 문제 지적, 수급 불안정…용인 국가산단 LNG발전소 과제 여전",
-      "source": "뉴스토마토",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rMXFlR2xwbEZkdE5SUzF3eFVmM09INkQxcXp1X08zNWo1VC05M0lQOThaSnNpUEJEU3dXbWg1Q3dRa0dKRE4yM1FCUHdPN0ZCaEx6ellFdS1nU1d2Slo1Tg?oc=5",
-      "published": "2026-04-30T14:52:12+09:00",
-      "date": "2026-04-30",
-      "query": "반도체 국가산단"
     },
     {
       "id": "2a218f525359",
@@ -72,24 +72,6 @@
       "published": "2026-04-28T09:42:19+09:00",
       "date": "2026-04-28",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "a750966b97e5",
-      "title": "신길4구역 도심복합사업, 지구지정 동의율 달성 눈앞…“내년 상반기 시공사 선정 목표”",
-      "source": "디벨로퍼뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Z3hPVVJtQTJlUXRISFFlOXhkc3I1eXo1em5nREdDN0Q5bENxRk5OSEhuQmE3alJtVDFPSnhmaVpuMmE2YjlVc0lTTVE0emJMeGtqZmZ4cjY1cUNfRkFUTEtadDR6eWdG?oc=5",
-      "published": "2026-04-27T16:20:56+09:00",
-      "date": "2026-04-27",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "d938cc9ff120",
-      "title": "부천 소사 근린재생형 도시재생활성화계획 수립",
-      "source": "브레이크뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBmSk1xR3RHRFdvdjRsRF9JMkFhRUFkZm9fNmNsV24zWmsxQS1RR08zc3YxYjRmTk5KM3FaY2xjSWJnMDdBQ0ln?oc=5",
-      "published": "2026-04-24T22:02:08+09:00",
-      "date": "2026-04-24",
-      "query": "도시재생 활성화계획"
     }
   ]
 }
