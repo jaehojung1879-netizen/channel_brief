@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-05-01T11:22:59.475641+09:00",
+  "updated_at": "2026-05-01T15:17:38.164389+09:00",
   "headline": {
-    "id": "a68cfc2def72",
-    "title": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포",
-    "source": "네이트",
-    "summary": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포 네이트",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Vb1BsOVV3QkJPdFdiMWtHV0RpbVI2anV0TEo2VFBMYTJjRUM1dVE3aUZyRzMxODlLSU1BYkprNGVkX002dU9hdlVPWjhHalZBWWJ3?oc=5",
-    "published": "2026-05-01T10:56:00+09:00",
-    "query": "은행 영업점",
+    "id": "45bb26550ccd",
+    "title": "남동구새마을회-신한은행 남동구청지점, 지역사회 상생 위한 협약",
+    "source": "웹이코노미",
+    "summary": "남동구새마을회-신한은행 남동구청지점, 지역사회 상생 위한 협약 웹이코노미",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RZHVuLXNWa1N6WU9vdjduSTlZOGowVVJjbkhuTzVaVEJqRVpiTG9RMkNMU2ZMem5zVnIxSV82UmpQcXkxQlI5YndJbUw4ajFCVl9YRnJlbGU3NUdSVW9FRGd6UmtMSTFFdFc1MEJPZTFtUQ?oc=5",
+    "published": "2026-04-30T12:53:20+09:00",
+    "query": "신한은행 지점",
     "engine": "google",
-    "rank": 2,
-    "_score": 19.0,
+    "rank": 10,
+    "_score": 15.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "9bfcc2451f46",
+        "title": "다들 점포 줄이는데…시니어 전용 창구는 늘리는 하나은행",
+        "source": "네이트",
+        "summary": "다들 점포 줄이는데…시니어 전용 창구는 늘리는 하나은행 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pcGV0OG5aRlc0Y2lLVEtWUHI5Slc5UGRqQXphLXpDMDRKeE9Wend6Z3ZGcHF2QmFiUWMySHNEZmxYVk53aVpZaE5tZUU5ZEFiUndn?oc=5",
+        "published": "2026-05-01T13:20:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a68cfc2def72",
+        "title": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포",
+        "source": "네이트",
+        "summary": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Vb1BsOVV3QkJPdFdiMWtHV0RpbVI2anV0TEo2VFBMYTJjRUM1dVE3aUZyRzMxODlLSU1BYkprNGVkX002dU9hdlVPWjhHalZBWWJ3?oc=5",
+        "published": "2026-05-01T10:56:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "2f7fd0600a7b",
         "title": "신한은행, “영업점 광고판으로 동네 맛집 알린다“… ‘땡겨요’ 가맹점 홍보 지원",
@@ -36,59 +60,34 @@
         "published": "2026-04-27T09:39:20+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 13,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
       {
-        "id": "a7f97333c1f6",
-        "title": "신한은행, '우리동네 맛집 땡겨요'로 소상공인 홍보 지원",
-        "source": "캠페인 인사이트",
-        "summary": "신한은행, '우리동네 맛집 땡겨요'로 소상공인 홍보 지원 캠페인 인사이트",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBXcGFoekFFRmxGSzVmbkdHdDFzVmNzXzVnMTZzVjQ3c1dsaU5WOVNUQl9sTS1WUmotV3JaSDZPU0ZCMmY5N2dkOWdUOGtsdFl2TEhFTmc4WXFDR3VpaTJLM3hUbTE0cDBpQzcyY1hheWdwcEdO?oc=5",
-        "published": "2026-04-30T13:15:00+09:00",
+        "id": "0bbc31abac17",
+        "title": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포",
+        "source": "매일경제TV",
+        "summary": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포 매일경제TV",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLUkFYVGJfUGtxdkozVjdQazdmNnMwRzE2aFJQSzViS3RnMVMwLUd5Rkg4SHNkd2lzV0kzeFp0QWhTTGNMd2owMU1KVzhDczhSZFZUemJLMEwxVTdWMW5EajB1R3A0VzhG?oc=5",
+        "published": "2026-05-01T10:58:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 14,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "45bb26550ccd",
-        "title": "남동구새마을회-신한은행 남동구청지점, 지역사회 상생 위한 협약",
-        "source": "웹이코노미",
-        "summary": "남동구새마을회-신한은행 남동구청지점, 지역사회 상생 위한 협약 웹이코노미",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RZHVuLXNWa1N6WU9vdjduSTlZOGowVVJjbkhuTzVaVEJqRVpiTG9RMkNMU2ZMem5zVnIxSV82UmpQcXkxQlI5YndJbUw4ajFCVl9YRnJlbGU3NUdSVW9FRGd6UmtMSTFFdFc1MEJPZTFtUQ?oc=5",
-        "published": "2026-04-30T12:53:20+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 9,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "4a3ea52add5d",
-        "title": "[ND 은행] 우리금융·신한은행·하나금융 外",
-        "source": "뉴스드림",
-        "summary": "[ND 은행] 우리금융·신한은행·하나금융 外 뉴스드림",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43aHc2NmhUWldjNFBEc1k1aHAwZ3lBek92YUJ6QnBQY3RJdHJqMS1ZOGtObXVGck1PSExjakxQV2lnTWRQX3NMRkx5bEx3Z3UyRWxZS1dLZElLdGdiaTFWYnJOOG50SXRzUnfSAW5BVV95cUxPNWlNUmF5Umd1UXNTRjhSLWpVNkdpaXRWZzdKbnIzWU5hSzRFMS1Bei1uVGR2V0twUElEWVowWjN2TjFoZHhFWUxWekZ6bkFyMXp2bVlLMl9kdG9WczlnV0JlOWFLZm8wTjNGRkRndw?oc=5",
-        "published": "2026-04-29T14:14:24+09:00",
+        "id": "2f7fd0600a7b",
+        "title": "신한은행, “영업점 광고판으로 동네 맛집 알린다“… ‘땡겨요’ 가맹점 홍보 지원",
+        "source": "핸드메이커",
+        "summary": "신한은행, “영업점 광고판으로 동네 맛집 알린다“… ‘땡겨요’ 가맹점 홍보 지원 핸드메이커",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83WU9UYWZHcXhxRURiLWd1dmlrdEhxUG5ncXRsUWd2Nkt0WF8xb2V2V2Ftbi1nclg3M05uN1BhT1dqWlFWa3FuT1lBQ094RWFlOWUyZnZHNHFiRDZ5NEM2bTlTOWV5QUk?oc=5",
+        "published": "2026-04-30T09:59:14+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 9,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "94b5db444952",
-        "title": "대한노인회 강원 동해시지회, 신한은행서 사랑의 기부금 200만원 전달 받아",
-        "source": "백세시대",
-        "summary": "대한노인회 강원 동해시지회, 신한은행서 사랑의 기부금 200만원 전달 받아 백세시대",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UYXVEMXB6aXJoQ2dXRHlVSEU4T2h4Mm5aUkVmcjZzOXU4Yzk5TG0yUDhKdVNMamJCbkFvR0FNelZXZFdJaFZrRFdRZGc0bGpoR01fNlg5UF90YkJTX245eGRqMXFSSVZOUzBB?oc=5",
-        "published": "2026-04-28T03:21:36+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 3
       }
     ]
   }
