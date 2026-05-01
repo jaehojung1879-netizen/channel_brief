@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-01T07:55:50.562843+09:00",
+  "updated_at": "2026-05-01T11:25:25.905938+09:00",
   "social_finance": [
+    {
+      "id": "f7b08495080d",
+      "title": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포",
+      "source": "매일경제TV",
+      "summary": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포&nbsp;&nbsp;매일경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UYVd3a0FleWIyeGdyaEEzRkFNbWRxeEVaZlhOaU9OWnlOcGp3czh5aXVhTFZRRVBTVDVZSUE3UUlkNVc0YXNCdVh0RFVDcHdSb2I1NHlsZnlqaHpJVVpKMUV2NnRXMGFV?oc=5",
+      "published": "2026-05-01T10:58:00+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "96bc342f905f",
+      "title": "금융권 키워드는 ‘상생·혁신·내실’…고물가 위기 속 서민 지원·AI 투자 가속화",
+      "source": "데일리팝",
+      "summary": "금융권 키워드는 ‘상생·혁신·내실’…고물가 위기 속 서민 지원·AI 투자 가속화&nbsp;&nbsp;데일리팝",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ycndDa0U1LXdybm91N3A0czFPeVhiY2NPR25ocUZHRW4yc25FQ2FQZVl2cmdPOTNCdi1pdkRZSlNYV05EOWloYXdvdVhXaE9EVGl0N1laaVVaSkdvek9KT2I3SmdBT00?oc=5",
+      "published": "2026-05-01T10:29:00+09:00",
+      "query": "상생금융"
+    },
     {
       "id": "045077bd7e8b",
       "title": "저축은행 '가짜 1000억 매출채권' 사기…상생금융 시스템 허점 뚫렸다",
@@ -18,6 +36,15 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHZHI3OFFRZmJDd3hhTld5THFXNGQ0bjdfbFAwbzI1aklJamJSaHNhWDdBNzRRVnhJUHJpZnBPbXg3TzRfa1dJX2MwQW5aSG9qVjVv?oc=5",
       "published": "2026-05-01T05:01:00+09:00",
       "query": "취약계층 금융"
+    },
+    {
+      "id": "acf157dc7044",
+      "title": "정부 애쓰지만 저축은행 중금리대출 37% 급감···서민금융 여전히 경색",
+      "source": "여성경제신문",
+      "summary": "정부 애쓰지만 저축은행 중금리대출 37% 급감···서민금융 여전히 경색&nbsp;&nbsp;여성경제신문",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iUEFTSWhKSlkxRDJfSGhoQXppdklVLVI5T2ZPSVJUR1lrODhUeVRjbjA1NmtQM1lwQ2lYZ2RFNUVqWmE4YzVIZWJVejFMUW9ieTVuSXAzQ2ZEY1dNVGdJZmU3TWRwS1JxN1dkMmpERkEwa1nSAXdBVV95cUxQSWpEWWR5SHcyWm1FTWUtWlU1WjdkTXdoeXJmaEVSSzZPZGhRYTRDRTJlR2sxMlBuc1pVYkQ3R1J0VVUtNXhtWWFtZWNOSm9wb21vM1dfRTUxTGctRU84TjlURFNKQkhvbHgteDhvZkRZc2dMc2dCcw?oc=5",
+      "published": "2026-04-30T21:45:59+09:00",
+      "query": "서민금융"
     },
     {
       "id": "0e737864a61f",
@@ -38,15 +65,6 @@
       "query": "서민금융"
     },
     {
-      "id": "a647f286c2e6",
-      "title": "수수료 면제에 소상공인·시니어 금융 확대까지...은행권 상생·포용금융 실천 잇달아",
-      "source": "파이낸셜포스트",
-      "summary": "수수료 면제에 소상공인·시니어 금융 확대까지...은행권 상생·포용금융 실천 잇달아&nbsp;&nbsp;파이낸셜포스트",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIa3lheFpvbU85a3hFR08wYndGWi1GZlNvbU5lcDJJOXRhSEdvVGRnSHRRamdqOHAxU1VOVHktWlNDLW05Q1p2bVpLaVczR0dwRVJGcFBreHAtbjJNVm56dXV3TzZLWmJSaG96NHZRdW5sYXo1?oc=5",
-      "published": "2026-04-30T18:13:15+09:00",
-      "query": "상생금융"
-    },
-    {
       "id": "8c88715cb475",
       "title": "“집만 지원하던 시대 끝”…대구도시개발공사, 금융 자립까지 돕는다",
       "source": "v.daum.net",
@@ -54,35 +72,17 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JQ3NxajR1UFFnN2NQUnYwZnhKOEU1LWhWeWJGbzlqRm14MlpwbmlaUjlJeFFLcWNIclp2TFMtbnFpLThIdE5LcU9OdzQtTU0?oc=5",
       "published": "2026-04-30T17:55:02+09:00",
       "query": "취약계층 금융"
-    },
-    {
-      "id": "f66f640d1d81",
-      "title": "KB금융, ‘피지컬 AI’ 시니어케어 서비스 시연",
-      "source": "백세시대",
-      "summary": "KB금융, ‘피지컬 AI’ 시니어케어 서비스 시연&nbsp;&nbsp;백세시대",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YaEVxQk5ZSlp2YjNFWjY3OFVGb0FwOHduOTRXUHVVR3lMY3lmX1M4Tm1IdXpJMWVDZWZIcmJfSllrUTRXMDdvQkJ3VzN1SW9KSXhUOFRNQ0NSaDFnLXZrQ0pFdkVuNEdXWl9F?oc=5",
-      "published": "2026-04-30T17:10:18+09:00",
-      "query": "고령자 금융"
-    },
-    {
-      "id": "c29c12ab7ef7",
-      "title": "한국마사회, 동반성장 평가‘최우수’등급… '상생협력' 성과",
-      "source": "백세시대",
-      "summary": "한국마사회, 동반성장 평가‘최우수’등급… '상생협력' 성과&nbsp;&nbsp;백세시대",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PS1B4ZkdqRHVVaU5ENVFfYUdKYkJpaHY4a1g1QzNuUFVwUW15b2R2UHRVeTZiZW5Ra2V4QXhycEc0T1ZYZ1MzcUJOSmlvUmFvaUNpNFA5T0l1Tld2Z3p6c08yQi1nUlhyV053?oc=5",
-      "published": "2026-04-30T17:10:02+09:00",
-      "query": "중소기업 상생"
     }
   ],
   "tech": [
     {
-      "id": "cc4ee21096af",
-      "title": "세계 2위 스테이블코인 서클, 잘나가던 주가는 왜 반토막이 났을까",
-      "source": "조선일보",
-      "summary": "세계 2위 스테이블코인 서클, 잘나가던 주가는 왜 반토막이 났을까&nbsp;&nbsp;조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUmZadU1wUVBEZlZYS21sMTJIaTRPb25uMUxoWkFjNFJVc2RlWFdMYVVkNDdoQmYzTkkxQ19reU5FTDFsNFh1YXVVSEYxUXllWExzYkVUd3ZHSG1uOGxzR052akhZamtPUzVZMHEzMDQ3R2s1eVlMbnhOTjhLbUxRdU0tbXFUN0tCcm9BYjN3?oc=5",
-      "published": "2026-05-01T03:00:00+09:00",
-      "query": "스테이블코인 은행"
+      "id": "1bd33ce0d6da",
+      "title": "“AI는 은행 계좌가 없다…그래서 블록체인이 필요하다” 손정의 아닌 Justin Sun의 충격 발언",
+      "source": "블록체인투데이",
+      "summary": "“AI는 은행 계좌가 없다…그래서 블록체인이 필요하다” 손정의 아닌 Justin Sun의 충격 발언&nbsp;&nbsp;블록체인투데이",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NbmtScGxaV3hfa2RpenJ5d1Fjc1RQVjdfQWR0ZmN6ajAxanFMdDFDeENHMFBzdEFuSV9oQmFRLThGUzV2NnBYNHBWNkVEY2d2TXBrUWpuLWZnd3VCVF9vYmlzUnIzaTh6YkthOExpWnIydVFiN0E?oc=5",
+      "published": "2026-05-01T10:53:29+09:00",
+      "query": "블록체인 은행"
     },
     {
       "id": "65dc8b9cd28a",
@@ -121,15 +121,6 @@
       "query": "은행 생성형 AI"
     },
     {
-      "id": "b02c4cabf62a",
-      "title": "NH농협은행, LG CNS와 '에이전틱 AI 뱅크' 전환 본격화",
-      "source": "네이트",
-      "summary": "NH농협은행, LG CNS와 '에이전틱 AI 뱅크' 전환 본격화&nbsp;&nbsp;네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nQmVRRVc3Y19jc3k3V1J4R0w3Y1pPRE54NHRYSi1hODBVY1lGN256ajBCdkxNRkJNR3FIYU81WjNEYm5EYjRUdlAtTTdlTklvZFA0?oc=5",
-      "published": "2026-04-30T14:08:00+09:00",
-      "query": "은행 생성형 AI"
-    },
-    {
       "id": "a26405d06982",
       "title": "NH농협은행, LG CNS와 ‘에이전틱 AI 뱅크’ 전환 본격화",
       "source": "동아일보",
@@ -145,6 +136,15 @@
       "summary": "IBK기업은행, 중기 AI 역량 강화 지원…'AI·경영 혁신캠프' 성료&nbsp;&nbsp;전자신문",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0dFRDT0NYS2JidkhkY0RfS1RfdDEzZWxocGhUWFlLVHJzYjU2V200MUFRbUlOSVF4bVNDdnV0M0FOVW1nQmphMFJnejJtQQ?oc=5",
       "published": "2026-04-30T14:02:52+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "80b2621550ca",
+      "title": "NH농협은행-LG CNS, '에이전틱 AI' 발굴…금융 서비스 고도화",
+      "source": "전자신문",
+      "summary": "NH농협은행-LG CNS, '에이전틱 AI' 발굴…금융 서비스 고도화&nbsp;&nbsp;전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1GQ3R1NGEtSU5kSGRUTE1UUWdUUXRiTnNlT0FyaDBNbEtJdEkwUkM3eE5OODlyNWtQNlpMNXd2M21IcjdCejFkTFlpampaQQ?oc=5",
+      "published": "2026-04-30T13:56:02+09:00",
       "query": "은행 AI"
     }
   ]

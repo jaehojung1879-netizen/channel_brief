@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T07:55:04.896618+09:00",
+  "updated_at": "2026-05-01T11:24:40.725420+09:00",
   "items": [
     {
       "id": "08c3029de0ff",
@@ -47,6 +47,15 @@
       "query": "복합개발 지구단위계획"
     },
     {
+      "id": "dad0f04e6fd7",
+      "title": "부천괴안 공공주택지구 지구계획 변경(4차) 승인",
+      "source": "한국도시환경헤럴드",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RTTR4LVZRQkdhVHFXdm9WVkdnWkZfVUc1anRqZ0dpZXQ2ZjVMaVFnVFBiNV92SXNsYVpWcjdqc0lFdGI5N1VYVTlEYnpZbGd6cTVIUGZNM0FLUzFYaWE3bm5LVVZSTGxUSzhrctIBcEFVX3lxTFBfdC1kWmNwbVhrakhNcEpJVF80Q0hMdlNRbktIdGpSX3dLb0tSamllYkZYRjFQd1FWWlphbnRKalViMS1zVTRST2ZRU0RjM3dqakRHT09YWlZ2ZndUdG1vNFh0Rl9GWHl0VHN6UFNVY0I?oc=5",
+      "published": "2026-04-29T07:59:13+09:00",
+      "date": "2026-04-29",
+      "query": "국토교통부 고시"
+    },
+    {
       "id": "e3c9d68ef66f",
       "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
       "source": "자치안성신문",
@@ -81,15 +90,6 @@
       "published": "2026-04-27T16:20:56+09:00",
       "date": "2026-04-27",
       "query": "LH 지구지정"
-    },
-    {
-      "id": "5f6daf038834",
-      "title": "서울시, 구의역 일대 200억원 규모 도시재생 사업 실시",
-      "source": "스카이데일리",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2dXQ2UVU0SEtQajlCMFBIR2ZDN0hyYXFKMExhT2JabHlSQ0NlRFJkWFNVZUt2cFNyQU84S25sUzdyU0lZSEx6MHFQei1jbEE2ZkdMeEU4WFVxMC1KZWZBX2NKZzNwVmc0RjRlMm84Qi0wbjNwTjgyN0UyYTRCZw?oc=5",
-      "published": "2026-04-27T04:49:52+09:00",
-      "date": "2026-04-27",
-      "query": "도시재생 활성화계획"
     },
     {
       "id": "d938cc9ff120",
