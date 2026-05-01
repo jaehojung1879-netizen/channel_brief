@@ -113,8 +113,40 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
   }
   .mast-right .vol { color: var(--accent); }
+  .mast-right .meta-copy { line-height: 1.5; }
+  .mast-right .mast-gis {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border: 1px solid rgba(92, 170, 255, 0.65);
+    color: #9fd0ff;
+    background: rgba(14, 35, 72, 0.58);
+    box-shadow: 0 0 10px rgba(56, 156, 255, 0.42), inset 0 0 10px rgba(56, 156, 255, 0.15);
+    transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s, color 0.15s;
+    flex-shrink: 0;
+  }
+  .mast-right .mast-gis:hover {
+    color: #d7ebff;
+    border-color: rgba(146, 205, 255, 0.88);
+    box-shadow: 0 0 14px rgba(74, 167, 255, 0.56), inset 0 0 10px rgba(74, 167, 255, 0.22);
+    transform: translateY(-1px);
+  }
+  .mast-right .mast-gis svg {
+    width: 13px;
+    height: 13px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
 
   /* ===== Nav ===== */
   .nav {
@@ -141,32 +173,6 @@
   .nav a.active {
     color: var(--ink);
     border-bottom: 1px solid var(--accent);
-  }
-  .nav .nav-gis {
-    margin-left: auto;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 4px 10px;
-    border: 1px solid var(--line);
-    color: var(--ink);
-    background: var(--bg-elev);
-    transition: border-color 0.15s, color 0.15s, background 0.15s;
-    flex-shrink: 0;
-  }
-  .nav .nav-gis:hover {
-    color: var(--accent);
-    border-color: var(--accent-dim);
-    background: var(--bg-card);
-  }
-  .nav .nav-gis svg {
-    width: 13px;
-    height: 13px;
-    stroke: currentColor;
-    fill: none;
-    stroke-width: 1.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
   }
 
   /* ===== Hero - 헤드라인만 ===== */
@@ -1229,8 +1235,19 @@
     <div class="tagline">Channel Intelligence for Banking Strategy</div>
   </div>
   <div class="mast-right">
-    <span id="vol">VOL. I · NO. —</span><br>
-    <span id="today-date">—</span>
+    <div class="meta-copy">
+      <span id="vol">VOL. I · NO. —</span><br>
+      <span id="today-date">—</span>
+    </div>
+    <a href="./gis.html" class="mast-gis" title="GIS · 4대 시중은행 영업점 지도">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M3 12h18"></path>
+        <path d="M12 3a14 14 0 0 1 0 18"></path>
+        <path d="M12 3a14 14 0 0 0 0 18"></path>
+      </svg>
+      GIS
+    </a>
   </div>
 </header>
 
@@ -1242,15 +1259,6 @@
   <a href="#branch">점포 현황</a>
   <a href="#issue">채널 이슈</a>
   <a href="#global">해외 벤치마크</a>
-  <a href="./gis.html" class="nav-gis" title="GIS · 4대 시중은행 영업점 지도">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="9"></circle>
-      <path d="M3 12h18"></path>
-      <path d="M12 3a14 14 0 0 1 0 18"></path>
-      <path d="M12 3a14 14 0 0 0 0 18"></path>
-    </svg>
-    GIS
-  </a>
 </nav>
 
 <section class="hero" id="headline">
