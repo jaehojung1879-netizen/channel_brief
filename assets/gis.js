@@ -125,12 +125,6 @@ function relocateMobileControls() {
 
   const toMobile = STATE.mobileMq.matches;
   if (toMobile) {
-    if (STATE.logoGroup === 'all') {
-      STATE.logoGroup = 'shinhan';
-      syncBankFilterFromLogoGroup();
-      const radio = document.querySelector('#logo-group-toggle input[value="shinhan"]');
-      if (radio) radio.checked = true;
-    }
     mobileWrap.appendChild(searchBlock);
     mobileWrap.appendChild(filterBlock);
   } else {
