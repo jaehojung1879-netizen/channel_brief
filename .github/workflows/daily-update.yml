@@ -53,6 +53,17 @@ jobs:
         run: python scripts/fetch_issues_global.py
         continue-on-error: true
 
+      - name: Fetch Kakao bank branches (GIS)
+        run: python scripts/fetch_kakao_branches.py
+        env:
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          KAKAO_API_KEY: ${{ secrets.KAKAO_API_KEY }}
+          KAKAO_JS_KEY: ${{ secrets.KAKAO_JS_KEY }}
+          KAKAO_JAVASCRIPT_KEY: ${{ secrets.KAKAO_JAVASCRIPT_KEY }}
+          KAKAO_MAP_JS_KEY: ${{ secrets.KAKAO_MAP_JS_KEY }}
+        continue-on-error: true
+
       - name: Generate build timestamp
         run: |
           date -u +"%Y-%m-%dT%H:%M:%SZ" > data/last_build.txt
