@@ -13,6 +13,7 @@
 """
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import re
@@ -226,9 +227,35 @@ def _fetch_rone_price_index(api_key: str, region: dict) -> dict | None:
     }
 
 
-def main() -> int:
-    kosis_key = (os.environ.get("KOSIS") or "").strip()
-    rone_key = (os.environ.get("R_ONE") or "").strip()
+def _load_existing() -> dict:
+    """regional_stats.json 이 이미 있다면 로드. 없으면 빈 구조."""
+    if not OUT_PATH.exists():
+        return {}
+    try:
+        return json.loads(OUT_PATH.read_text(encoding="utf-8")) or {}
+    except (OSError, ValueError) as e:
+        print(f"[warn] 기존 regional_stats.json 파싱 실패: {e!r} — 새로 생성합니다.")
+        return {}
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="시·군·구 지역통계 수집 (KOSIS / R-ONE).")
+    parser.add_argument(
+        "--source",
+        choices=("kosis", "r_one", "both"),
+        default="both",
+        help=(
+            "수집 대상. 'kosis' 는 인구통계만, 'r_one' 은 매매가격지수만, "
+            "'both' 는 기존과 동일하게 둘 다 (기본값)."
+        ),
+    )
+    args = parser.parse_args(argv)
+
+    do_kosis = args.source in ("kosis", "both")
+    do_rone = args.source in ("r_one", "both")
+
+    kosis_key = (os.environ.get("KOSIS") or "").strip() if do_kosis else ""
+    rone_key = (os.environ.get("R_ONE") or "").strip() if do_rone else ""
 
     regions, counts = _collect_regions()
     if not regions:
@@ -239,35 +266,59 @@ def main() -> int:
         }, ensure_ascii=False, indent=2), encoding="utf-8")
         return 0
 
+    # 기존 결과를 읽어와서 source 별 필드만 갱신 (다른 source 데이터는 보존).
+    existing = _load_existing()
+    existing_regions: dict[str, dict] = existing.get("regions") or {}
+    existing_diag: dict = existing.get("diagnostics") or {}
+
     diagnostics = {
-        "kosis_key": "set" if kosis_key else "empty",
-        "r_one_key": "set" if rone_key else "empty",
+        "source": args.source,
+        "kosis_key": "set" if kosis_key else ("skip" if not do_kosis else "empty"),
+        "r_one_key": "set" if rone_key else ("skip" if not do_rone else "empty"),
         "region_count": len(regions),
     }
 
-    if not kosis_key and not rone_key:
+    if do_kosis and not kosis_key and do_rone and not rone_key:
+        # 둘 다 비어있는 'both' 단독 실행
         print("[skip] KOSIS / R_ONE 키 모두 미설정 — 지역 통계 수집을 건너뜁니다.")
         OUT_PATH.write_text(json.dumps({
             "as_of": datetime.now(KST).isoformat(timespec="seconds"),
-            "regions": {},
+            "regions": existing_regions,
             "diagnostics": {**diagnostics, "note": "KOSIS / R_ONE secret 등록 후 다음 워크플로 실행 시 반영됩니다."},
         }, ensure_ascii=False, indent=2), encoding="utf-8")
+        return 0
+    if args.source == "kosis" and not kosis_key:
+        print("[skip] KOSIS 키 미설정 — KOSIS 단독 수집 건너뜀.")
+        return 0
+    if args.source == "r_one" and not rone_key:
+        print("[skip] R_ONE 키 미설정 — R-ONE 단독 수집 건너뜀.")
         return 0
 
     out: dict[str, dict] = {}
     pop_ok = pop_fail = rone_ok = rone_fail = 0
     for idx, region in enumerate(regions, start=1):
+        prev = existing_regions.get(region["key"]) or {}
         entry: dict = {
             "sido": region["sido"],
             "sigungu": region["sigungu"],
             "branch_count": counts.get(region["key"], 0),
         }
+        # KOSIS 미실행 시 기존 인구 데이터 그대로 보존
+        if "population" in prev and not do_kosis:
+            entry["population"] = prev["population"]
+        # R-ONE 미실행 시 기존 매매가격지수 그대로 보존
+        if "price_index" in prev and not do_rone:
+            entry["price_index"] = prev["price_index"]
+
         if kosis_key:
             data = _fetch_kosis_population(kosis_key, region)
             if data and "error" not in data:
                 entry["population"] = data
                 pop_ok += 1
             else:
+                # 신규 수집 실패 시 기존 값 유지 (있다면)
+                if "population" in prev:
+                    entry["population"] = prev["population"]
                 pop_fail += 1
             time.sleep(0.05)
         if rone_key:
@@ -276,24 +327,38 @@ def main() -> int:
                 entry["price_index"] = data
                 rone_ok += 1
             else:
+                if "price_index" in prev:
+                    entry["price_index"] = prev["price_index"]
                 rone_fail += 1
             time.sleep(0.05)
         out[region["key"]] = entry
         if idx % 25 == 0 or idx == len(regions):
-            print(f"  [progress] regional stats: {idx}/{len(regions)} (pop ok={pop_ok}, rone ok={rone_ok})", flush=True)
+            print(f"  [progress] regional stats ({args.source}): {idx}/{len(regions)} (pop ok={pop_ok}, rone ok={rone_ok})", flush=True)
 
-    diagnostics.update({
-        "population_ok": pop_ok,
-        "population_fail": pop_fail,
-        "price_index_ok": rone_ok,
-        "price_index_fail": rone_fail,
-    })
+    if do_kosis:
+        diagnostics["population_ok"] = pop_ok
+        diagnostics["population_fail"] = pop_fail
+    else:
+        # 이전 진단치 유지
+        if "population_ok" in existing_diag:
+            diagnostics["population_ok"] = existing_diag["population_ok"]
+        if "population_fail" in existing_diag:
+            diagnostics["population_fail"] = existing_diag["population_fail"]
+    if do_rone:
+        diagnostics["price_index_ok"] = rone_ok
+        diagnostics["price_index_fail"] = rone_fail
+    else:
+        if "price_index_ok" in existing_diag:
+            diagnostics["price_index_ok"] = existing_diag["price_index_ok"]
+        if "price_index_fail" in existing_diag:
+            diagnostics["price_index_fail"] = existing_diag["price_index_fail"]
+
     OUT_PATH.write_text(json.dumps({
         "as_of": datetime.now(KST).isoformat(timespec="seconds"),
         "regions": out,
         "diagnostics": diagnostics,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[done] regional_stats.json 갱신: {len(out)} 지역 (pop ok={pop_ok}, rone ok={rone_ok})")
+    print(f"[done] regional_stats.json 갱신 ({args.source}): {len(out)} 지역 (pop ok={pop_ok}, rone ok={rone_ok})")
     return 0
 
 

@@ -1,20 +1,20 @@
-name: Weekly Regional Stats Refresh
+name: Weekly Regional Stats Refresh (R-ONE)
 
 on:
   schedule:
-    # 매주 일요일 23:00 UTC = 월요일 08:00 KST
-    - cron: '0 23 * * 0'
+    # 매주 월요일 02:00 UTC = 11:00 KST (KOSIS 워크플로 보다 3시간 늦게 실행하여 git race 회피)
+    - cron: '0 2 * * 1'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: regional-stats-update
+  group: regional-stats-rone-update
   cancel-in-progress: false
 
 jobs:
-  regional-stats:
+  regional-stats-rone:
     runs-on: ubuntu-latest
     timeout-minutes: 60
 
@@ -33,10 +33,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch regional stats (KOSIS · R-ONE)
-        run: python -u scripts/fetch_regional_stats.py
+      - name: Fetch regional stats (R-ONE only)
+        run: python -u scripts/fetch_regional_stats.py --source r_one
         env:
-          KOSIS: ${{ secrets.KOSIS }}
           R_ONE: ${{ secrets.R_ONE }}
 
       - name: Commit and push
@@ -46,11 +45,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/regional_stats.json
           if git diff --cached --quiet; then
-            echo "No regional stats changes to commit"
+            echo "No R-ONE regional stats changes to commit"
             exit 0
           fi
-          git commit -m "chore: weekly regional stats refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
+          git commit -m "chore: weekly regional stats refresh — R-ONE $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for attempt in 1 2 3 4 5; do
             if git push; then
               echo "Push ok on attempt $attempt"
               exit 0
@@ -59,5 +58,5 @@ jobs:
             git fetch origin main
             git pull --rebase origin main || true
           done
-          echo "Push ultimately failed after 3 attempts" >&2
+          echo "Push ultimately failed after 5 attempts" >&2
           exit 1
