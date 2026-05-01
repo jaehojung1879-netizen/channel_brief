@@ -10,6 +10,13 @@ const BANK_META = {
 };
 const BANK_ORDER = ['신한', 'KB국민', '하나', '우리'];
 
+// 신한은행 본점 (서울 중구 세종대로9길 20)
+const SHINHAN_HQ = { lat: 37.5654, lng: 126.9826, level: 4 };
+
+// '365', '주차장' 등 무인채널/부속시설 키워드는 클라이언트에서도 한 번 더 거른다.
+// (서버측 fetcher 도 동일 키워드로 제외하지만, 직전 데이터에 잔존할 수 있어 이중 가드)
+const NAME_BLOCKLIST_RE = /(365|주\s*차\s*장|ATM|자동화\s*(?:코너|기기)|디지털\s*라운지|디라운지|키오스크|무인\s*(?:점포|창구)|환전\s*소)/i;
+
 // 광역시·도 prefix → 표준 이름
 const REGION_PREFIX = [
   ['서울특별시', '서울'], ['서울', '서울'],
@@ -34,10 +41,11 @@ const REGION_PREFIX = [
 const STATE = {
   branches: [],
   filter: new Set(BANK_ORDER),
+  logoGroup: 'all',          // 'all' | 'shinhan' | 'others'
   markers: [],
   map: null,
   infoWindow: null,
-  mapBounds: null,
+  regionStats: null,
 };
 
 function escHtml(s) {
@@ -54,6 +62,28 @@ function regionFromAddress(addr) {
     if (addr.startsWith(prefix)) return label;
   }
   return '기타';
+}
+
+// kakao address 첫 두 토큰 → KOSIS / R-ONE 매핑용 표준 (시도, 시군구) key
+function regionKeyFromAddress(addr) {
+  if (!addr) return '';
+  let sido = '';
+  let rest = addr;
+  for (const [prefix, label] of REGION_PREFIX) {
+    if (addr.startsWith(prefix)) {
+      sido = label;
+      rest = addr.slice(prefix.length).trim();
+      break;
+    }
+  }
+  if (!sido) return '';
+  const parts = rest.split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return sido;
+  let sigungu = parts[0];
+  if (parts.length >= 2 && parts[1].endsWith('구') && sigungu.endsWith('시')) {
+    sigungu = `${sigungu} ${parts[1]}`;
+  }
+  return `${sido} ${sigungu}`;
 }
 
 async function loadJSON(path) {
@@ -112,6 +142,29 @@ function renderBankToggles() {
   });
 }
 
+function bindLogoGroupToggle() {
+  const wrap = document.getElementById('logo-group-toggle');
+  if (!wrap) return;
+  wrap.addEventListener('change', (ev) => {
+    const t = ev.target;
+    if (!t || t.name !== 'logoGroup') return;
+    STATE.logoGroup = t.value;
+    syncBankFilterFromLogoGroup();
+    renderBankToggles();
+    renderMarkers();
+  });
+}
+
+function syncBankFilterFromLogoGroup() {
+  if (STATE.logoGroup === 'shinhan') {
+    STATE.filter = new Set(['신한']);
+  } else if (STATE.logoGroup === 'others') {
+    STATE.filter = new Set(BANK_ORDER.filter(n => n !== '신한'));
+  } else {
+    STATE.filter = new Set(BANK_ORDER);
+  }
+}
+
 function renderStats(meta) {
   document.getElementById('stat-total').textContent = STATE.branches.length.toLocaleString();
   document.getElementById('stat-asof').textContent = meta?.as_of
@@ -147,6 +200,95 @@ function renderRegionBars() {
   }).join('');
 }
 
+// ============== Branch search (신한 only) ==============
+function bindBranchSearch() {
+  const input = document.getElementById('branch-search');
+  const out = document.getElementById('branch-search-results');
+  if (!input || !out) return;
+
+  let activeIdx = -1;
+  let lastMatches = [];
+
+  const render = (matches) => {
+    lastMatches = matches;
+    activeIdx = -1;
+    if (matches.length === 0) {
+      out.hidden = true;
+      out.innerHTML = '';
+      return;
+    }
+    out.innerHTML = matches.map((b, i) => `
+      <button type="button" class="search-row" data-idx="${i}">
+        <span class="bn">${escHtml(b.name)}</span>
+        <span class="ad">${escHtml(b.road_address || b.address || '')}</span>
+      </button>
+    `).join('');
+    out.hidden = false;
+  };
+
+  const onPick = (b) => {
+    if (!b || !STATE.map) return;
+    out.hidden = true;
+    input.value = b.name;
+    if (Number.isFinite(b.lat) && Number.isFinite(b.lng)) {
+      const pos = new kakao.maps.LatLng(b.lat, b.lng);
+      STATE.map.setLevel(3);
+      STATE.map.setCenter(pos);
+      openInfo(b, pos);
+    }
+  };
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) { render([]); return; }
+    const pool = STATE.branches.filter(b => b.bank === '신한');
+    const matches = pool.filter(b =>
+      (b.name || '').toLowerCase().includes(q) ||
+      (b.road_address || '').toLowerCase().includes(q) ||
+      (b.address || '').toLowerCase().includes(q)
+    ).slice(0, 12);
+    render(matches);
+  });
+
+  input.addEventListener('keydown', (ev) => {
+    if (out.hidden || lastMatches.length === 0) return;
+    if (ev.key === 'ArrowDown') {
+      ev.preventDefault();
+      activeIdx = Math.min(activeIdx + 1, lastMatches.length - 1);
+    } else if (ev.key === 'ArrowUp') {
+      ev.preventDefault();
+      activeIdx = Math.max(activeIdx - 1, 0);
+    } else if (ev.key === 'Enter') {
+      ev.preventDefault();
+      const pick = activeIdx >= 0 ? lastMatches[activeIdx] : lastMatches[0];
+      onPick(pick);
+      return;
+    } else if (ev.key === 'Escape') {
+      out.hidden = true;
+      return;
+    } else {
+      return;
+    }
+    out.querySelectorAll('.search-row').forEach((node, i) => {
+      node.classList.toggle('active', i === activeIdx);
+    });
+  });
+
+  out.addEventListener('mousedown', (ev) => {
+    const row = ev.target.closest('.search-row');
+    if (!row) return;
+    ev.preventDefault();
+    const i = Number(row.dataset.idx);
+    if (Number.isFinite(i)) onPick(lastMatches[i]);
+  });
+
+  document.addEventListener('click', (ev) => {
+    if (!out.contains(ev.target) && ev.target !== input) {
+      out.hidden = true;
+    }
+  });
+}
+
 // ============== Kakao Map ==============
 function buildMarkerNode(bank) {
   const meta = BANK_META[bank];
@@ -169,6 +311,35 @@ function clearMarkers() {
   STATE.markers = [];
 }
 
+function regionStatsHtml(b) {
+  if (!STATE.regionStats || !STATE.regionStats.regions) {
+    return `<div class="rs-empty">통계청·한국부동산원 자료는 다음 워크플로 실행 후 표시됩니다.</div>`;
+  }
+  const key = regionKeyFromAddress(b.address || b.road_address || '');
+  const entry = key && STATE.regionStats.regions[key];
+  if (!entry) {
+    return `<div class="rs-empty">${escHtml(key || '지역 미상')} · 자료 미수집</div>`;
+  }
+  const rows = [];
+  if (entry.population && entry.population.value != null) {
+    const v = Number(entry.population.value).toLocaleString();
+    const period = entry.population.period ? ` (${escHtml(entry.population.period)})` : '';
+    rows.push(`<div class="rs-row"><span class="k">인구</span><span class="v">${v} 명${period}</span><span class="src">KOSIS</span></div>`);
+  }
+  if (entry.price_index && entry.price_index.value != null) {
+    const v = Number(entry.price_index.value).toFixed(1);
+    const period = entry.price_index.period ? ` (${escHtml(entry.price_index.period)})` : '';
+    rows.push(`<div class="rs-row"><span class="k">매매가격지수</span><span class="v">${v}${period}</span><span class="src">R-ONE</span></div>`);
+  }
+  if (entry.branch_count != null) {
+    rows.push(`<div class="rs-row"><span class="k">관내 4대銀 점포</span><span class="v">${entry.branch_count.toLocaleString()} 개</span><span class="src">Kakao</span></div>`);
+  }
+  if (rows.length === 0) {
+    return `<div class="rs-empty">${escHtml(key)} · 자료 미수집</div>`;
+  }
+  return `<div class="rs-block"><div class="rs-head">${escHtml(key)} · 입지 자료</div>${rows.join('')}</div>`;
+}
+
 function infoHtml(b) {
   const region = regionFromAddress(b.address || b.road_address || '');
   const place = b.place_url ? `<a href="${escHtml(b.place_url)}" target="_blank" rel="noopener">Kakao Place →</a>` : '';
@@ -178,15 +349,22 @@ function infoHtml(b) {
       <div class="ad">${escHtml(b.road_address || b.address || '')}</div>
       ${b.phone ? `<div class="ph">${escHtml(b.phone)}</div>` : ''}
       <div class="ph">${escHtml(b.bank)} · ${escHtml(region)}</div>
+      ${regionStatsHtml(b)}
       ${place}
     </div>
   `;
 }
 
+function isVisibleByFilter(b) {
+  if (!STATE.filter.has(b.bank)) return false;
+  if (NAME_BLOCKLIST_RE.test(b.name || '')) return false;
+  return true;
+}
+
 function renderMarkers() {
   if (!STATE.map) return;
   clearMarkers();
-  const visible = STATE.branches.filter(b => STATE.filter.has(b.bank));
+  const visible = STATE.branches.filter(isVisibleByFilter);
   visible.forEach(b => {
     if (!Number.isFinite(b.lat) || !Number.isFinite(b.lng)) return;
     const pos = new kakao.maps.LatLng(b.lat, b.lng);
@@ -240,49 +418,56 @@ function loadKakaoSdk(jsKey) {
   });
 }
 
+function findShinhanHQ() {
+  // '신한은행 본점' / '본점영업부' 등을 우선 매칭, 실패 시 좌표 fallback.
+  const shinhan = STATE.branches.filter(b => b.bank === '신한');
+  const hq = shinhan.find(b => /본점\s*영업부/.test(b.name || ''))
+          || shinhan.find(b => /신한.*본점|본점.*신한/.test(b.name || ''))
+          || shinhan.find(b => /본점/.test(b.name || ''));
+  if (hq && Number.isFinite(hq.lat) && Number.isFinite(hq.lng)) {
+    return { lat: hq.lat, lng: hq.lng };
+  }
+  return { lat: SHINHAN_HQ.lat, lng: SHINHAN_HQ.lng };
+}
+
 function initMap() {
   const container = document.getElementById('map');
+  // 첫 진입: 신한은행 본점을 중심으로, 줌은 max(=1)에서 3단계 완화한 level 4.
+  const hq = findShinhanHQ();
   STATE.map = new kakao.maps.Map(container, {
-    center: new kakao.maps.LatLng(36.5, 127.8),
-    level: 13,
+    center: new kakao.maps.LatLng(hq.lat, hq.lng),
+    level: SHINHAN_HQ.level,
   });
-  // 표준 컨트롤
   const zoomCtrl = new kakao.maps.ZoomControl();
   STATE.map.addControl(zoomCtrl, kakao.maps.ControlPosition.TOPRIGHT);
-  // 빈 영역 클릭 시 InfoWindow 닫기
   kakao.maps.event.addListener(STATE.map, 'click', () => {
     if (STATE.infoWindow) STATE.infoWindow.close();
   });
 }
 
-function fitToBranches() {
-  if (!STATE.map || STATE.branches.length === 0) return;
-  const bounds = new kakao.maps.LatLngBounds();
-  let added = 0;
-  STATE.branches.forEach(b => {
-    if (Number.isFinite(b.lat) && Number.isFinite(b.lng)) {
-      bounds.extend(new kakao.maps.LatLng(b.lat, b.lng));
-      added++;
-    }
-  });
-  if (added > 0) STATE.map.setBounds(bounds);
-}
-
 // ============== Bootstrap ==============
 async function bootstrap() {
   document.getElementById('today-date').textContent = fmtKstNow();
+  bindLogoGroupToggle();
 
-  const [config, branchesPayload] = await Promise.all([
+  const [config, branchesPayload, regionStats] = await Promise.all([
     loadJSON('kakao_config.json'),
     loadJSON('kakao_branches.json'),
+    loadJSON('regional_stats.json'),
   ]);
 
   const meta = branchesPayload || {};
-  STATE.branches = Array.isArray(meta.branches) ? meta.branches.filter(b => BANK_META[b.bank]) : [];
+  const rawBranches = Array.isArray(meta.branches) ? meta.branches : [];
+  // 직전 데이터에 잔존하는 '365' / '주차장' 등 무인채널/부속시설은 클라이언트에서도 제외.
+  STATE.branches = rawBranches.filter(b =>
+    BANK_META[b.bank] && !NAME_BLOCKLIST_RE.test(b.name || '')
+  );
+  STATE.regionStats = regionStats;
 
   renderStats(meta);
   renderBankToggles();
   renderRegionBars();
+  bindBranchSearch();
 
   const jsKey = (config && config.jsKey) ? config.jsKey.trim() : '';
   if (!jsKey) {
@@ -330,7 +515,6 @@ async function bootstrap() {
 
   hideOverlay();
   renderMarkers();
-  fitToBranches();
 }
 
 document.addEventListener('DOMContentLoaded', bootstrap);

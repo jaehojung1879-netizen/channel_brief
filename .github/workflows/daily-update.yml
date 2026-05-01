@@ -57,6 +57,13 @@ jobs:
         run: python scripts/fetch_issues_global.py
         continue-on-error: true
 
+      - name: Fetch regional stats (KOSIS · R-ONE)
+        run: python -u scripts/fetch_regional_stats.py
+        env:
+          KOSIS: ${{ secrets.KOSIS }}
+          R_ONE: ${{ secrets.R_ONE }}
+        continue-on-error: true
+
       - name: Generate build timestamp
         run: |
           date -u +"%Y-%m-%dT%H:%M:%SZ" > data/last_build.txt

@@ -34,10 +34,36 @@
 
 <main class="gis-shell">
   <aside class="gis-side">
+    <section class="side-block">
+      <div class="block-head">
+        <span class="num">§ A0</span>
+        <h3>영업점 검색</h3>
+      </div>
+      <div class="search-wrap">
+        <input type="search" id="branch-search" autocomplete="off"
+               placeholder="신한은행 영업점명 (예: 강남, 본점)" />
+        <div class="search-results" id="branch-search-results" hidden></div>
+      </div>
+    </section>
+
     <section class="side-block" id="legal-block">
       <div class="block-head">
         <span class="num">§ A</span>
         <h3>은행 필터</h3>
+      </div>
+      <div class="logo-group-toggle" id="logo-group-toggle">
+        <label class="logo-radio">
+          <input type="radio" name="logoGroup" value="all" checked>
+          <span>전체</span>
+        </label>
+        <label class="logo-radio">
+          <input type="radio" name="logoGroup" value="shinhan">
+          <span>신한만</span>
+        </label>
+        <label class="logo-radio">
+          <input type="radio" name="logoGroup" value="others">
+          <span>타행만</span>
+        </label>
       </div>
       <div class="bank-toggle-list" id="bank-toggle-list">
         <div class="loading">[LOADING]</div>
@@ -79,7 +105,7 @@
         <li><strong>경쟁점포</strong> · Kakao Local API 카테고리 BK9 (현 페이지 데이터)</li>
         <li><strong>대중교통 접근성</strong> · 국토부 대중교통 환승통계 / 지하철 승하차</li>
       </ul>
-      <p class="ref-note">통계청 KOSIS API 키 등록 후 자동 매핑 예정 (현재는 기초 좌표만 제공).</p>
+      <p class="ref-note" id="region-stats-note">영업점 마커 클릭 시 해당 시·군·구 통계청 / 한국부동산원 자료가 표시됩니다.</p>
     </section>
   </aside>
 

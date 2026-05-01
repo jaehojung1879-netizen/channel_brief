@@ -77,12 +77,19 @@ jobs:
           KAKAO_JAVASCRIPT_KEY: ${{ secrets.KAKAO_JAVASCRIPT_KEY }}
           KAKAO_MAP_JS_KEY: ${{ secrets.KAKAO_MAP_JS_KEY }}
 
+      - name: Fetch regional stats (KOSIS · R-ONE)
+        run: python -u scripts/fetch_regional_stats.py
+        env:
+          KOSIS: ${{ secrets.KOSIS }}
+          R_ONE: ${{ secrets.R_ONE }}
+        continue-on-error: true
+
       - name: Commit and push
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/kakao_branches.json data/kakao_config.json
+          git add data/kakao_branches.json data/kakao_config.json data/regional_stats.json
           if git diff --cached --quiet; then
             echo "No GIS changes to commit"
             exit 0
