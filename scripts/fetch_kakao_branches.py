@@ -242,8 +242,17 @@ def _kakao_keyword(rest_key: str, query: str, page: int) -> tuple[dict | None, s
 def fetch_branches_for_bank(rest_key: str, bank: dict, seen: dict, diag: dict) -> int:
     """anchor 별 키워드 검색을 돌며 해당 은행 영업점만 누적. 반환=신규 추가 수."""
     added = 0
-    for anchor in SEARCH_ANCHORS:
+    total_anchors = len(SEARCH_ANCHORS)
+    started = time.monotonic()
+    for idx, anchor in enumerate(SEARCH_ANCHORS, start=1):
         query = f"{anchor} {bank['official']}"
+        if idx % 25 == 0 or idx == total_anchors:
+            elapsed = time.monotonic() - started
+            print(
+                f"  [progress] {bank['name']}: {idx}/{total_anchors} anchors "
+                f"(누적 {added}건, {elapsed:.0f}s)",
+                flush=True,
+            )
         for page in range(1, MAX_PAGES + 1):
             payload, err = _kakao_keyword(rest_key, query, page)
             time.sleep(THROTTLE_SEC)

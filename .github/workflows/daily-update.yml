@@ -8,10 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -52,52 +56,6 @@ jobs:
       - name: Fetch issues + global
         run: python scripts/fetch_issues_global.py
         continue-on-error: true
-
-      - name: Fetch Kakao bank branches (GIS)
-        run: python scripts/fetch_kakao_branches.py
-        env:
-          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
-          KAKAO_REST_API: ${{ secrets.KAKAO_REST_API }}
-          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
-          KAKAO_API_KEY: ${{ secrets.KAKAO_API_KEY }}
-          KAKAO_JS_KEY: ${{ secrets.KAKAO_JS_KEY }}
-          KAKAO_JAVASCRIPT_KEY: ${{ secrets.KAKAO_JAVASCRIPT_KEY }}
-          KAKAO_MAP_JS_KEY: ${{ secrets.KAKAO_MAP_JS_KEY }}
-        continue-on-error: true
-
-      - name: Debug Kakao secret wiring (presence only)
-        if: always()
-        run: |
-          python - <<'PY'
-          import os
-          keys = [
-              "KAKAO_REST_API_KEY", "KAKAO_REST_API", "KAKAO_REST_KEY", "KAKAO_API_KEY",
-              "KAKAO_JS_KEY", "KAKAO_JAVASCRIPT_KEY", "KAKAO_MAP_JS_KEY",
-          ]
-          print("--- explicit candidates ---")
-          for k in keys:
-              v = os.environ.get(k, "")
-              state = f"set(len={len(v.strip())})" if v.strip() else "empty"
-              print(f"{k}={state}")
-          print("--- all KAKAO_* env vars in this job ---")
-          any_kakao = False
-          for k, v in sorted(os.environ.items()):
-              if not k.upper().startswith("KAKAO"):
-                  continue
-              any_kakao = True
-              s = (v or "").strip()
-              print(f"{k}={'set(len=%d)' % len(s) if s else 'empty'}")
-          if not any_kakao:
-              print("(no KAKAO_* env vars wired into this job — secret was likely added under a different scope)")
-          PY
-        env:
-          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
-          KAKAO_REST_API: ${{ secrets.KAKAO_REST_API }}
-          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
-          KAKAO_API_KEY: ${{ secrets.KAKAO_API_KEY }}
-          KAKAO_JS_KEY: ${{ secrets.KAKAO_JS_KEY }}
-          KAKAO_JAVASCRIPT_KEY: ${{ secrets.KAKAO_JAVASCRIPT_KEY }}
-          KAKAO_MAP_JS_KEY: ${{ secrets.KAKAO_MAP_JS_KEY }}
 
       - name: Generate build timestamp
         run: |
