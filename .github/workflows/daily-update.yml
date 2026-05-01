@@ -57,6 +57,7 @@ jobs:
         run: python scripts/fetch_kakao_branches.py
         env:
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REST_API: ${{ secrets.KAKAO_REST_API }}
           KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
           KAKAO_API_KEY: ${{ secrets.KAKAO_API_KEY }}
           KAKAO_JS_KEY: ${{ secrets.KAKAO_JS_KEY }}
