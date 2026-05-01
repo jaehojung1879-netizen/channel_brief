@@ -46,6 +46,7 @@ const STATE = {
   map: null,
   infoWindow: null,
   regionStats: null,
+  mobileMq: window.matchMedia('(max-width: 960px)'),
 };
 
 function escHtml(s) {
@@ -111,6 +112,25 @@ function showOverlay(title, msg, isError = false) {
 function hideOverlay() {
   const overlay = document.getElementById('map-overlay');
   if (overlay) overlay.classList.add('hidden');
+}
+
+
+
+function relocateMobileControls() {
+  const mobileWrap = document.getElementById('mobile-map-controls');
+  const sidebar = document.querySelector('.gis-side');
+  const searchBlock = document.getElementById('search-block');
+  const filterBlock = document.getElementById('filter-block');
+  if (!mobileWrap || !sidebar || !searchBlock || !filterBlock) return;
+
+  const toMobile = STATE.mobileMq.matches;
+  if (toMobile) {
+    mobileWrap.appendChild(searchBlock);
+    mobileWrap.appendChild(filterBlock);
+  } else {
+    sidebar.prepend(filterBlock);
+    sidebar.prepend(searchBlock);
+  }
 }
 
 // ============== Sidebar ==============
@@ -449,6 +469,8 @@ function initMap() {
 async function bootstrap() {
   document.getElementById('today-date').textContent = fmtKstNow();
   bindLogoGroupToggle();
+  relocateMobileControls();
+  STATE.mobileMq.addEventListener('change', relocateMobileControls);
 
   const [config, branchesPayload, regionStats] = await Promise.all([
     loadJSON('kakao_config.json'),

@@ -34,7 +34,7 @@
 
 <main class="gis-shell">
   <aside class="gis-side">
-    <section class="side-block">
+    <section class="side-block" id="search-block">
       <div class="block-head">
         <span class="num">§ A0</span>
         <h3>영업점 검색</h3>
@@ -46,7 +46,7 @@
       </div>
     </section>
 
-    <section class="side-block" id="legal-block">
+    <section class="side-block" id="filter-block">
       <div class="block-head">
         <span class="num">§ A</span>
         <h3>은행 필터</h3>
@@ -110,6 +110,7 @@
   </aside>
 
   <section class="gis-main">
+    <div class="mobile-map-controls" id="mobile-map-controls" aria-label="모바일 지도 컨트롤"></div>
     <div id="map" class="kakao-map"></div>
     <div class="map-overlay" id="map-overlay">
       <div class="overlay-card">
