@@ -492,3 +492,34 @@ body, .gis-shell, .gis-main, .gis-side, .kakao-map {
   }
   .kakao-map { min-height: 360px; }
 }
+
+.mobile-map-controls { display: none; }
+
+@media (max-width: 960px) {
+  .mobile-map-controls {
+    display: grid;
+    gap: 8px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    z-index: 12;
+    padding: 10px;
+    border: 1px solid var(--line);
+    background: rgba(15, 20, 25, 0.92);
+    backdrop-filter: blur(3px);
+  }
+  .mobile-map-controls .side-block {
+    margin: 0;
+    padding: 0;
+  }
+  .mobile-map-controls .block-head {
+    margin-bottom: 8px;
+  }
+  .gis-side .mobile-hidden {
+    display: none;
+  }
+  .kakao-map {
+    min-height: 520px;
+  }
+}

@@ -138,6 +138,25 @@
     box-shadow: 0 0 14px rgba(74, 167, 255, 0.56), inset 0 0 10px rgba(74, 167, 255, 0.22);
     transform: translateY(-1px);
   }
+
+  .mast-right .mast-gis-wrap { position: relative; display: inline-flex; align-items: center; }
+  .mast-right .mast-gis-hint {
+    position: absolute;
+    right: -28px;
+    top: -9px;
+    font-family: var(--mono);
+    font-size: 8px;
+    letter-spacing: 0.08em;
+    color: #d7ebff;
+    opacity: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+  }
+  .mast-right .mast-gis.attn { animation: gisJump 0.36s ease-in-out 2; }
+  .mast-right .mast-gis-hint.attn { animation: clickBlink 2s ease-in-out 1; }
+  @keyframes gisJump { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+  @keyframes clickBlink { 0%,100% { opacity: 0; } 20%,40%,60%,80% { opacity: 1; } 30%,50%,70%,90% { opacity: 0; } }
+
   .mast-right .mast-gis svg {
     width: 13px;
     height: 13px;
@@ -1239,7 +1258,7 @@
       <span id="vol">VOL. I · NO. —</span><br>
       <span id="today-date">—</span>
     </div>
-    <a href="./gis.html" class="mast-gis" title="GIS · 4대 시중은행 영업점 지도">
+    <div class="mast-gis-wrap"><a href="./gis.html" class="mast-gis" id="mast-gis" title="GIS · 4대 시중은행 영업점 지도">
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <circle cx="12" cy="12" r="9"></circle>
         <path d="M3 12h18"></path>
@@ -1247,7 +1266,7 @@
         <path d="M12 3a14 14 0 0 0 0 18"></path>
       </svg>
       GIS
-    </a>
+    </a><span class="mast-gis-hint" id="mast-gis-hint">CLICK</span></div>
   </div>
 </header>
 
@@ -1599,6 +1618,19 @@ function renderMasthead() {
   const diffDays = Math.floor((today - start) / 86400000);
   document.getElementById('vol').innerHTML = `VOL. I · NO. <span style="color:var(--accent)">${String(diffDays).padStart(3,'0')}</span>`;
 }
+
+function animateGisAttention() {
+  const gis = document.getElementById('mast-gis');
+  const hint = document.getElementById('mast-gis-hint');
+  if (!gis || !hint) return;
+  gis.classList.add('attn');
+  hint.classList.add('attn');
+  setTimeout(() => {
+    gis.classList.remove('attn');
+    hint.classList.remove('attn');
+  }, 2200);
+}
+
 
 function renderHeadlineAndNews(data) {
   const grid = document.getElementById('news-grid');
@@ -2298,6 +2330,7 @@ async function renderLastBuild() {
 
 (async function init() {
   renderMasthead();
+  animateGisAttention();
   initBranchTabs();
 
   const [news, development, stats, issues, global] = await Promise.all([
