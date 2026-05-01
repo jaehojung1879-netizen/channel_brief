@@ -142,20 +142,37 @@
   .mast-right .mast-gis-wrap { position: relative; display: inline-flex; align-items: center; }
   .mast-right .mast-gis-hint {
     position: absolute;
-    right: -28px;
-    top: -9px;
+    right: -36px;
+    top: -10px;
     font-family: var(--mono);
-    font-size: 8px;
-    letter-spacing: 0.08em;
-    color: #d7ebff;
+    font-size: 9px;
+    letter-spacing: 0.03em;
+    color: #0f1419;
+    background: #d7ebff;
+    border: 1px solid rgba(146, 205, 255, 0.9);
+    border-radius: 10px;
+    padding: 2px 6px;
     opacity: 0;
     pointer-events: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
   }
-  .mast-right .mast-gis.attn { animation: gisJump 0.36s ease-in-out 2; }
-  .mast-right .mast-gis-hint.attn { animation: clickBlink 2s ease-in-out 1; }
-  @keyframes gisJump { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
-  @keyframes clickBlink { 0%,100% { opacity: 0; } 20%,40%,60%,80% { opacity: 1; } 30%,50%,70%,90% { opacity: 0; } }
+  .mast-right .mast-gis-hint::after {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    background: #d7ebff;
+    border-left: 1px solid rgba(146, 205, 255, 0.9);
+    border-bottom: 1px solid rgba(146, 205, 255, 0.9);
+    transform: translateY(-50%) rotate(45deg);
+  }
+  .mast-right .mast-gis-hint.attn { animation: clickBlink 4s steps(1, end) 1; }
+  @keyframes clickBlink {
+    0%, 12.49%, 25%, 37.49%, 50%, 62.49%, 75%, 87.49%, 100% { opacity: 0; }
+    12.5%, 24.99%, 37.5%, 49.99%, 62.5%, 74.99%, 87.5%, 99.99% { opacity: 1; }
+  }
 
   .mast-right .mast-gis svg {
     width: 13px;
@@ -952,7 +969,8 @@
       gap: 10px;
     }
     .mast-left, .mast-right { text-align: center; }
-    .mast-right { line-height: 1.3; }
+    .mast-right { line-height: 1.3; justify-content: center; }
+    .mast-right .meta-copy { text-align: center; }
     .nav { padding: 10px var(--pad-x); gap: 20px; }
     .hero { padding: 32px var(--pad-x); }
     .hero h2 { font-size: 24px; }
@@ -1255,7 +1273,6 @@
   </div>
   <div class="mast-right">
     <div class="meta-copy">
-      <span id="vol">VOL. I · NO. —</span><br>
       <span id="today-date">—</span>
     </div>
     <div class="mast-gis-wrap"><a href="./gis.html" class="mast-gis" id="mast-gis" title="GIS · 4대 시중은행 영업점 지도">
@@ -1266,7 +1283,7 @@
         <path d="M12 3a14 14 0 0 0 0 18"></path>
       </svg>
       GIS
-    </a><span class="mast-gis-hint" id="mast-gis-hint">CLICK</span></div>
+    </a><span class="mast-gis-hint" id="mast-gis-hint">click</span></div>
   </div>
 </header>
 
@@ -1614,9 +1631,6 @@ function renderMasthead() {
   document.getElementById('today-date').textContent =
     `${days[today.getDay()]}, ${months[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}`;
 
-  const start = new Date('2026-01-01');
-  const diffDays = Math.floor((today - start) / 86400000);
-  document.getElementById('vol').innerHTML = `VOL. I · NO. <span style="color:var(--accent)">${String(diffDays).padStart(3,'0')}</span>`;
 }
 
 function animateGisAttention() {
