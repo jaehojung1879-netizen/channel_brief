@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GIS · 채널전략부 Daily Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,900&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+KR:wght@300;400;600;900&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/gis.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="mast-left">
+    <a class="back-link" href="./index.html" aria-label="Daily Brief 로 돌아가기">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+      <span>Daily Brief</span>
+    </a>
+  </div>
+  <div class="mast-center">
+    <h1>GIS <em>Atlas</em></h1>
+    <div class="tagline">4대 시중은행 영업점 지도 · Channel Location Intelligence</div>
+  </div>
+  <div class="mast-right">
+    <span id="vol">VOL. I · NO. —</span><br>
+    <span id="today-date">—</span>
+  </div>
+</header>
+
+<nav class="nav">
+  <a href="./index.html#headline">Headline</a>
+  <a href="./index.html#branch">점포 현황</a>
+  <a href="./gis.html" class="active">GIS</a>
+</nav>
+
+<main class="gis-shell">
+  <aside class="gis-side">
+    <section class="side-block" id="legal-block">
+      <div class="block-head">
+        <span class="num">§ A</span>
+        <h3>은행 필터</h3>
+      </div>
+      <div class="bank-toggle-list" id="bank-toggle-list">
+        <div class="loading">[LOADING]</div>
+      </div>
+    </section>
+
+    <section class="side-block">
+      <div class="block-head">
+        <span class="num">§ B</span>
+        <h3>요약 통계</h3>
+      </div>
+      <div class="stat-grid" id="stat-grid">
+        <div class="stat"><div class="k">수집된 영업점</div><div class="v" id="stat-total">—</div></div>
+        <div class="stat"><div class="k">기준 시각</div><div class="v" id="stat-asof">—</div></div>
+      </div>
+    </section>
+
+    <section class="side-block">
+      <div class="block-head">
+        <span class="num">§ C</span>
+        <h3>지역별 분포</h3>
+      </div>
+      <div class="region-bars" id="region-bars">
+        <div class="loading">[LOADING]</div>
+      </div>
+    </section>
+
+    <section class="side-block">
+      <div class="block-head">
+        <span class="num">§ D</span>
+        <h3>입지 분석 기초자료</h3>
+      </div>
+      <ul class="ref-list">
+        <li><strong>인구·세대</strong> · 행정안전부 주민등록 인구 (월간) / 통계청 KOSIS</li>
+        <li><strong>사업체·종사자</strong> · 통계청 전국사업체조사 (시·군·구 단위)</li>
+        <li><strong>가구소득·자산</strong> · 통계청 가계금융복지조사</li>
+        <li><strong>유동인구</strong> · KT, SKT 통신사 또는 서울 열린데이터광장</li>
+        <li><strong>지가·임대</strong> · 한국부동산원 R-ONE / 국토교통부 실거래가</li>
+        <li><strong>경쟁점포</strong> · Kakao Local API 카테고리 BK9 (현 페이지 데이터)</li>
+        <li><strong>대중교통 접근성</strong> · 국토부 대중교통 환승통계 / 지하철 승하차</li>
+      </ul>
+      <p class="ref-note">통계청 KOSIS API 키 등록 후 자동 매핑 예정 (현재는 기초 좌표만 제공).</p>
+    </section>
+  </aside>
+
+  <section class="gis-main">
+    <div id="map" class="kakao-map"></div>
+    <div class="map-overlay" id="map-overlay">
+      <div class="overlay-card">
+        <div class="overlay-title">지도를 불러오는 중…</div>
+        <div class="overlay-msg" id="overlay-msg">Kakao Maps SDK 초기화</div>
+      </div>
+    </div>
+    <div class="map-meta" id="map-meta">
+      <span id="meta-source">SOURCE: —</span>
+      <span id="meta-updated">UPDATED: —</span>
+    </div>
+  </section>
+</main>
+
+<footer class="gis-foot">
+  <div>GIS Atlas · 채널전략부 내부 참고자료</div>
+  <div>데이터: Kakao Local API · 지도: Kakao Maps · 별도 표기 외 무단 외부 배포 금지</div>
+</footer>
+
+<script src="./assets/gis.js"></script>
+</body>
+</html>
