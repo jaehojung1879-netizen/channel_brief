@@ -1,0 +1,2166 @@
+{
+  "as_of": "2026-05-02T07:19:23+09:00",
+  "regions": {
+    "강원 강릉시": {
+      "sido": "강원",
+      "sigungu": "강릉시",
+      "branch_count": 21,
+      "population": {
+        "value": 205891,
+        "period": "202603",
+        "label": "강릉시",
+        "unit": "명"
+      }
+    },
+    "강원 고성군": {
+      "sido": "강원",
+      "sigungu": "고성군",
+      "branch_count": 1,
+      "population": {
+        "value": 46842,
+        "period": "202603",
+        "label": "고성군",
+        "unit": "명"
+      }
+    },
+    "강원 동해시": {
+      "sido": "강원",
+      "sigungu": "동해시",
+      "branch_count": 10,
+      "population": {
+        "value": 85875,
+        "period": "202603",
+        "label": "동해시",
+        "unit": "명"
+      }
+    },
+    "강원 삼척시": {
+      "sido": "강원",
+      "sigungu": "삼척시",
+      "branch_count": 7,
+      "population": {
+        "value": 60450,
+        "period": "202603",
+        "label": "삼척시",
+        "unit": "명"
+      }
+    },
+    "강원 속초시": {
+      "sido": "강원",
+      "sigungu": "속초시",
+      "branch_count": 13,
+      "population": {
+        "value": 78982,
+        "period": "202603",
+        "label": "속초시",
+        "unit": "명"
+      }
+    },
+    "강원 양양군": {
+      "sido": "강원",
+      "sigungu": "양양군",
+      "branch_count": 1,
+      "population": {
+        "value": 27364,
+        "period": "202603",
+        "label": "양양군",
+        "unit": "명"
+      }
+    },
+    "강원 영월군": {
+      "sido": "강원",
+      "sigungu": "영월군",
+      "branch_count": 3,
+      "population": {
+        "value": 35868,
+        "period": "202603",
+        "label": "영월군",
+        "unit": "명"
+      }
+    },
+    "강원 원주시": {
+      "sido": "강원",
+      "sigungu": "원주시",
+      "branch_count": 53,
+      "population": {
+        "value": 363900,
+        "period": "202603",
+        "label": "원주시",
+        "unit": "명"
+      }
+    },
+    "강원 인제군": {
+      "sido": "강원",
+      "sigungu": "인제군",
+      "branch_count": 2
+    },
+    "강원 정선군": {
+      "sido": "강원",
+      "sigungu": "정선군",
+      "branch_count": 7,
+      "population": {
+        "value": 35053,
+        "period": "202603",
+        "label": "정선군",
+        "unit": "명"
+      }
+    },
+    "강원 철원군": {
+      "sido": "강원",
+      "sigungu": "철원군",
+      "branch_count": 2,
+      "population": {
+        "value": 39802,
+        "period": "202603",
+        "label": "철원군",
+        "unit": "명"
+      }
+    },
+    "강원 춘천시": {
+      "sido": "강원",
+      "sigungu": "춘천시",
+      "branch_count": 73
+    },
+    "강원 태백시": {
+      "sido": "강원",
+      "sigungu": "태백시",
+      "branch_count": 4,
+      "population": {
+        "value": 36859,
+        "period": "202603",
+        "label": "태백시",
+        "unit": "명"
+      }
+    },
+    "강원 평창군": {
+      "sido": "강원",
+      "sigungu": "평창군",
+      "branch_count": 3,
+      "population": {
+        "value": 39860,
+        "period": "202603",
+        "label": "평창군",
+        "unit": "명"
+      }
+    },
+    "강원 홍천군": {
+      "sido": "강원",
+      "sigungu": "홍천군",
+      "branch_count": 8
+    },
+    "강원 화천군": {
+      "sido": "강원",
+      "sigungu": "화천군",
+      "branch_count": 1,
+      "population": {
+        "value": 22290,
+        "period": "202603",
+        "label": "화천군",
+        "unit": "명"
+      }
+    },
+    "강원 횡성군": {
+      "sido": "강원",
+      "sigungu": "횡성군",
+      "branch_count": 4,
+      "population": {
+        "value": 45573,
+        "period": "202603",
+        "label": "횡성군",
+        "unit": "명"
+      }
+    },
+    "경기 가평군": {
+      "sido": "경기",
+      "sigungu": "가평군",
+      "branch_count": 8
+    },
+    "경기 고양시 덕양구": {
+      "sido": "경기",
+      "sigungu": "고양시 덕양구",
+      "branch_count": 35,
+      "population": {
+        "value": 1058050,
+        "period": "202603",
+        "label": "고양시",
+        "unit": "명"
+      }
+    },
+    "경기 고양시 일산동구": {
+      "sido": "경기",
+      "sigungu": "고양시 일산동구",
+      "branch_count": 32,
+      "population": {
+        "value": 83530,
+        "period": "202603",
+        "label": "동구",
+        "unit": "명"
+      }
+    },
+    "경기 고양시 일산서구": {
+      "sido": "경기",
+      "sigungu": "고양시 일산서구",
+      "branch_count": 36
+    },
+    "경기 과천시": {
+      "sido": "경기",
+      "sigungu": "과천시",
+      "branch_count": 13,
+      "population": {
+        "value": 80197,
+        "period": "202603",
+        "label": "과천시",
+        "unit": "명"
+      }
+    },
+    "경기 광명시": {
+      "sido": "경기",
+      "sigungu": "광명시",
+      "branch_count": 21,
+      "population": {
+        "value": 302390,
+        "period": "202603",
+        "label": "광명시",
+        "unit": "명"
+      }
+    },
+    "경기 광주시": {
+      "sido": "경기",
+      "sigungu": "광주시",
+      "branch_count": 27
+    },
+    "경기 구리시": {
+      "sido": "경기",
+      "sigungu": "구리시",
+      "branch_count": 15,
+      "population": {
+        "value": 185982,
+        "period": "202603",
+        "label": "구리시",
+        "unit": "명"
+      }
+    },
+    "경기 군포시": {
+      "sido": "경기",
+      "sigungu": "군포시",
+      "branch_count": 25,
+      "population": {
+        "value": 250300,
+        "period": "202603",
+        "label": "군포시",
+        "unit": "명"
+      }
+    },
+    "경기 김포시": {
+      "sido": "경기",
+      "sigungu": "김포시",
+      "branch_count": 48
+    },
+    "경기 남양주시": {
+      "sido": "경기",
+      "sigungu": "남양주시",
+      "branch_count": 80,
+      "population": {
+        "value": 728597,
+        "period": "202603",
+        "label": "남양주시",
+        "unit": "명"
+      }
+    },
+    "경기 동두천시": {
+      "sido": "경기",
+      "sigungu": "동두천시",
+      "branch_count": 6,
+      "population": {
+        "value": 86326,
+        "period": "202603",
+        "label": "동두천시",
+        "unit": "명"
+      }
+    },
+    "경기 부천시 소사구": {
+      "sido": "경기",
+      "sigungu": "부천시 소사구",
+      "branch_count": 15
+    },
+    "경기 부천시 오정구": {
+      "sido": "경기",
+      "sigungu": "부천시 오정구",
+      "branch_count": 6,
+      "population": {
+        "value": 756701,
+        "period": "202603",
+        "label": "부천시",
+        "unit": "명"
+      }
+    },
+    "경기 부천시 원미구": {
+      "sido": "경기",
+      "sigungu": "부천시 원미구",
+      "branch_count": 46,
+      "population": {
+        "value": 756701,
+        "period": "202603",
+        "label": "부천시",
+        "unit": "명"
+      }
+    },
+    "경기 성남시 분당구": {
+      "sido": "경기",
+      "sigungu": "성남시 분당구",
+      "branch_count": 79
+    },
+    "경기 성남시 수정구": {
+      "sido": "경기",
+      "sigungu": "성남시 수정구",
+      "branch_count": 27,
+      "population": {
+        "value": 905493,
+        "period": "202603",
+        "label": "성남시",
+        "unit": "명"
+      }
+    },
+    "경기 성남시 중원구": {
+      "sido": "경기",
+      "sigungu": "성남시 중원구",
+      "branch_count": 28,
+      "population": {
+        "value": 905493,
+        "period": "202603",
+        "label": "성남시",
+        "unit": "명"
+      }
+    },
+    "경기 수원시 권선구": {
+      "sido": "경기",
+      "sigungu": "수원시 권선구",
+      "branch_count": 16
+    },
+    "경기 수원시 영통구": {
+      "sido": "경기",
+      "sigungu": "수원시 영통구",
+      "branch_count": 36,
+      "population": {
+        "value": 1186167,
+        "period": "202603",
+        "label": "수원시",
+        "unit": "명"
+      }
+    },
+    "경기 수원시 장안구": {
+      "sido": "경기",
+      "sigungu": "수원시 장안구",
+      "branch_count": 13,
+      "population": {
+        "value": 1186167,
+        "period": "202603",
+        "label": "수원시",
+        "unit": "명"
+      }
+    },
+    "경기 수원시 팔달구": {
+      "sido": "경기",
+      "sigungu": "수원시 팔달구",
+      "branch_count": 25
+    },
+    "경기 시흥시": {
+      "sido": "경기",
+      "sigungu": "시흥시",
+      "branch_count": 39,
+      "population": {
+        "value": 514501,
+        "period": "202603",
+        "label": "시흥시",
+        "unit": "명"
+      }
+    },
+    "경기 안산시 단원구": {
+      "sido": "경기",
+      "sigungu": "안산시 단원구",
+      "branch_count": 66,
+      "population": {
+        "value": 610783,
+        "period": "202603",
+        "label": "안산시",
+        "unit": "명"
+      }
+    },
+    "경기 안산시 상록구": {
+      "sido": "경기",
+      "sigungu": "안산시 상록구",
+      "branch_count": 28
+    },
+    "경기 안성시": {
+      "sido": "경기",
+      "sigungu": "안성시",
+      "branch_count": 27,
+      "population": {
+        "value": 197266,
+        "period": "202603",
+        "label": "안성시",
+        "unit": "명"
+      }
+    },
+    "경기 안양시 동안구": {
+      "sido": "경기",
+      "sigungu": "안양시 동안구",
+      "branch_count": 46,
+      "population": {
+        "value": 562666,
+        "period": "202603",
+        "label": "안양시",
+        "unit": "명"
+      }
+    },
+    "경기 안양시 만안구": {
+      "sido": "경기",
+      "sigungu": "안양시 만안구",
+      "branch_count": 25
+    },
+    "경기 양주시": {
+      "sido": "경기",
+      "sigungu": "양주시",
+      "branch_count": 24,
+      "population": {
+        "value": 728597,
+        "period": "202603",
+        "label": "남양주시",
+        "unit": "명"
+      }
+    },
+    "경기 양평군": {
+      "sido": "경기",
+      "sigungu": "양평군",
+      "branch_count": 3,
+      "population": {
+        "value": 126742,
+        "period": "202603",
+        "label": "양평군",
+        "unit": "명"
+      }
+    },
+    "경기 여주시": {
+      "sido": "경기",
+      "sigungu": "여주시",
+      "branch_count": 21
+    },
+    "경기 연천군": {
+      "sido": "경기",
+      "sigungu": "연천군",
+      "branch_count": 5,
+      "population": {
+        "value": 42684,
+        "period": "202603",
+        "label": "연천군",
+        "unit": "명"
+      }
+    },
+    "경기 오산시": {
+      "sido": "경기",
+      "sigungu": "오산시",
+      "branch_count": 16,
+      "population": {
+        "value": 250783,
+        "period": "202603",
+        "label": "오산시",
+        "unit": "명"
+      }
+    },
+    "경기 용인시 기흥구": {
+      "sido": "경기",
+      "sigungu": "용인시 기흥구",
+      "branch_count": 44
+    },
+    "경기 용인시 수지구": {
+      "sido": "경기",
+      "sigungu": "용인시 수지구",
+      "branch_count": 34,
+      "population": {
+        "value": 1090420,
+        "period": "202603",
+        "label": "용인시",
+        "unit": "명"
+      }
+    },
+    "경기 용인시 처인구": {
+      "sido": "경기",
+      "sigungu": "용인시 처인구",
+      "branch_count": 37,
+      "population": {
+        "value": 1090420,
+        "period": "202603",
+        "label": "용인시",
+        "unit": "명"
+      }
+    },
+    "경기 의왕시": {
+      "sido": "경기",
+      "sigungu": "의왕시",
+      "branch_count": 10
+    },
+    "경기 의정부시": {
+      "sido": "경기",
+      "sigungu": "의정부시",
+      "branch_count": 49,
+      "population": {
+        "value": 461460,
+        "period": "202603",
+        "label": "의정부시",
+        "unit": "명"
+      }
+    },
+    "경기 이천시": {
+      "sido": "경기",
+      "sigungu": "이천시",
+      "branch_count": 34,
+      "population": {
+        "value": 223229,
+        "period": "202603",
+        "label": "이천시",
+        "unit": "명"
+      }
+    },
+    "경기 파주시": {
+      "sido": "경기",
+      "sigungu": "파주시",
+      "branch_count": 75
+    },
+    "경기 평택시": {
+      "sido": "경기",
+      "sigungu": "평택시",
+      "branch_count": 80,
+      "population": {
+        "value": 615107,
+        "period": "202603",
+        "label": "평택시",
+        "unit": "명"
+      }
+    },
+    "경기 포천시": {
+      "sido": "경기",
+      "sigungu": "포천시",
+      "branch_count": 28,
+      "population": {
+        "value": 140428,
+        "period": "202603",
+        "label": "포천시",
+        "unit": "명"
+      }
+    },
+    "경기 하남시": {
+      "sido": "경기",
+      "sigungu": "하남시",
+      "branch_count": 32
+    },
+    "경기 화성시 동탄구": {
+      "sido": "경기",
+      "sigungu": "화성시 동탄구",
+      "branch_count": 20,
+      "population": {
+        "value": 995253,
+        "period": "202603",
+        "label": "화성시",
+        "unit": "명"
+      }
+    },
+    "경기 화성시 만세구": {
+      "sido": "경기",
+      "sigungu": "화성시 만세구",
+      "branch_count": 21,
+      "population": {
+        "value": 995253,
+        "period": "202603",
+        "label": "화성시",
+        "unit": "명"
+      }
+    },
+    "경기 화성시 병점구": {
+      "sido": "경기",
+      "sigungu": "화성시 병점구",
+      "branch_count": 10
+    },
+    "경기 화성시 효행구": {
+      "sido": "경기",
+      "sigungu": "화성시 효행구",
+      "branch_count": 14,
+      "population": {
+        "value": 995253,
+        "period": "202603",
+        "label": "화성시",
+        "unit": "명"
+      }
+    },
+    "경남 거제시": {
+      "sido": "경남",
+      "sigungu": "거제시",
+      "branch_count": 14,
+      "population": {
+        "value": 229585,
+        "period": "202603",
+        "label": "거제시",
+        "unit": "명"
+      }
+    },
+    "경남 거창군": {
+      "sido": "경남",
+      "sigungu": "거창군",
+      "branch_count": 3
+    },
+    "경남 고성군": {
+      "sido": "경남",
+      "sigungu": "고성군",
+      "branch_count": 1,
+      "population": {
+        "value": 46842,
+        "period": "202603",
+        "label": "고성군",
+        "unit": "명"
+      }
+    },
+    "경남 김해시": {
+      "sido": "경남",
+      "sigungu": "김해시",
+      "branch_count": 40,
+      "population": {
+        "value": 532407,
+        "period": "202603",
+        "label": "김해시",
+        "unit": "명"
+      }
+    },
+    "경남 밀양시": {
+      "sido": "경남",
+      "sigungu": "밀양시",
+      "branch_count": 5
+    },
+    "경남 사천시": {
+      "sido": "경남",
+      "sigungu": "사천시",
+      "branch_count": 13,
+      "population": {
+        "value": 107784,
+        "period": "202603",
+        "label": "사천시",
+        "unit": "명"
+      }
+    },
+    "경남 산청군": {
+      "sido": "경남",
+      "sigungu": "산청군",
+      "branch_count": 1,
+      "population": {
+        "value": 32662,
+        "period": "202603",
+        "label": "산청군",
+        "unit": "명"
+      }
+    },
+    "경남 양산시": {
+      "sido": "경남",
+      "sigungu": "양산시",
+      "branch_count": 31
+    },
+    "경남 진주시": {
+      "sido": "경남",
+      "sigungu": "진주시",
+      "branch_count": 18,
+      "population": {
+        "value": 335302,
+        "period": "202603",
+        "label": "진주시",
+        "unit": "명"
+      }
+    },
+    "경남 창녕군": {
+      "sido": "경남",
+      "sigungu": "창녕군",
+      "branch_count": 1,
+      "population": {
+        "value": 54743,
+        "period": "202603",
+        "label": "창녕군",
+        "unit": "명"
+      }
+    },
+    "경남 창원시 마산합포구": {
+      "sido": "경남",
+      "sigungu": "창원시 마산합포구",
+      "branch_count": 13
+    },
+    "경남 창원시 마산회원구": {
+      "sido": "경남",
+      "sigungu": "창원시 마산회원구",
+      "branch_count": 16,
+      "population": {
+        "value": 987728,
+        "period": "202603",
+        "label": "창원시",
+        "unit": "명"
+      }
+    },
+    "경남 창원시 성산구": {
+      "sido": "경남",
+      "sigungu": "창원시 성산구",
+      "branch_count": 52,
+      "population": {
+        "value": 987728,
+        "period": "202603",
+        "label": "창원시",
+        "unit": "명"
+      }
+    },
+    "경남 창원시 의창구": {
+      "sido": "경남",
+      "sigungu": "창원시 의창구",
+      "branch_count": 5
+    },
+    "경남 창원시 진해구": {
+      "sido": "경남",
+      "sigungu": "창원시 진해구",
+      "branch_count": 10,
+      "population": {
+        "value": 987728,
+        "period": "202603",
+        "label": "창원시",
+        "unit": "명"
+      }
+    },
+    "경남 통영시": {
+      "sido": "경남",
+      "sigungu": "통영시",
+      "branch_count": 15,
+      "population": {
+        "value": 115968,
+        "period": "202603",
+        "label": "통영시",
+        "unit": "명"
+      }
+    },
+    "경남 함안군": {
+      "sido": "경남",
+      "sigungu": "함안군",
+      "branch_count": 5
+    },
+    "경북 경산시": {
+      "sido": "경북",
+      "sigungu": "경산시",
+      "branch_count": 20,
+      "population": {
+        "value": 263483,
+        "period": "202603",
+        "label": "경산시",
+        "unit": "명"
+      }
+    },
+    "경북 경주시": {
+      "sido": "경북",
+      "sigungu": "경주시",
+      "branch_count": 42,
+      "population": {
+        "value": 243282,
+        "period": "202603",
+        "label": "경주시",
+        "unit": "명"
+      }
+    },
+    "경북 구미시": {
+      "sido": "경북",
+      "sigungu": "구미시",
+      "branch_count": 65
+    },
+    "경북 김천시": {
+      "sido": "경북",
+      "sigungu": "김천시",
+      "branch_count": 18,
+      "population": {
+        "value": 133145,
+        "period": "202603",
+        "label": "김천시",
+        "unit": "명"
+      }
+    },
+    "경북 문경시": {
+      "sido": "경북",
+      "sigungu": "문경시",
+      "branch_count": 2,
+      "population": {
+        "value": 64904,
+        "period": "202603",
+        "label": "문경시",
+        "unit": "명"
+      }
+    },
+    "경북 상주시": {
+      "sido": "경북",
+      "sigungu": "상주시",
+      "branch_count": 2
+    },
+    "경북 안동시": {
+      "sido": "경북",
+      "sigungu": "안동시",
+      "branch_count": 17,
+      "population": {
+        "value": 152097,
+        "period": "202603",
+        "label": "안동시",
+        "unit": "명"
+      }
+    },
+    "경북 영주시": {
+      "sido": "경북",
+      "sigungu": "영주시",
+      "branch_count": 11,
+      "population": {
+        "value": 96673,
+        "period": "202603",
+        "label": "영주시",
+        "unit": "명"
+      }
+    },
+    "경북 영천시": {
+      "sido": "경북",
+      "sigungu": "영천시",
+      "branch_count": 2
+    },
+    "경북 예천군": {
+      "sido": "경북",
+      "sigungu": "예천군",
+      "branch_count": 2,
+      "population": {
+        "value": 53670,
+        "period": "202603",
+        "label": "예천군",
+        "unit": "명"
+      }
+    },
+    "경북 울진군": {
+      "sido": "경북",
+      "sigungu": "울진군",
+      "branch_count": 1,
+      "population": {
+        "value": 46030,
+        "period": "202603",
+        "label": "울진군",
+        "unit": "명"
+      }
+    },
+    "경북 의성군": {
+      "sido": "경북",
+      "sigungu": "의성군",
+      "branch_count": 2
+    },
+    "경북 칠곡군": {
+      "sido": "경북",
+      "sigungu": "칠곡군",
+      "branch_count": 9,
+      "population": {
+        "value": 103999,
+        "period": "202603",
+        "label": "칠곡군",
+        "unit": "명"
+      }
+    },
+    "경북 포항시 남구": {
+      "sido": "경북",
+      "sigungu": "포항시 남구",
+      "branch_count": 34,
+      "population": {
+        "value": 253768,
+        "period": "202603",
+        "label": "남구",
+        "unit": "명"
+      }
+    },
+    "경북 포항시 북구": {
+      "sido": "경북",
+      "sigungu": "포항시 북구",
+      "branch_count": 29
+    },
+    "광주 광산구": {
+      "sido": "광주",
+      "sigungu": "광산구",
+      "branch_count": 36,
+      "population": {
+        "value": 385574,
+        "period": "202603",
+        "label": "광산구",
+        "unit": "명"
+      }
+    },
+    "광주 남구": {
+      "sido": "광주",
+      "sigungu": "남구",
+      "branch_count": 11,
+      "population": {
+        "value": 554165,
+        "period": "202603",
+        "label": "강남구",
+        "unit": "명"
+      }
+    },
+    "광주 동구": {
+      "sido": "광주",
+      "sigungu": "동구",
+      "branch_count": 12
+    },
+    "광주 북구": {
+      "sido": "광주",
+      "sigungu": "북구",
+      "branch_count": 24,
+      "population": {
+        "value": 422778,
+        "period": "202603",
+        "label": "성북구",
+        "unit": "명"
+      }
+    },
+    "광주 서구": {
+      "sido": "광주",
+      "sigungu": "서구",
+      "branch_count": 29,
+      "population": {
+        "value": 548985,
+        "period": "202603",
+        "label": "강서구",
+        "unit": "명"
+      }
+    },
+    "대구 군위군": {
+      "sido": "대구",
+      "sigungu": "군위군",
+      "branch_count": 2
+    },
+    "대구 남구": {
+      "sido": "대구",
+      "sigungu": "남구",
+      "branch_count": 10,
+      "population": {
+        "value": 554165,
+        "period": "202603",
+        "label": "강남구",
+        "unit": "명"
+      }
+    },
+    "대구 달서구": {
+      "sido": "대구",
+      "sigungu": "달서구",
+      "branch_count": 36,
+      "population": {
+        "value": 101452,
+        "period": "202603",
+        "label": "서구",
+        "unit": "명"
+      }
+    },
+    "대구 달성군": {
+      "sido": "대구",
+      "sigungu": "달성군",
+      "branch_count": 19
+    },
+    "대구 동구": {
+      "sido": "대구",
+      "sigungu": "동구",
+      "branch_count": 25,
+      "population": {
+        "value": 275093,
+        "period": "202603",
+        "label": "성동구",
+        "unit": "명"
+      }
+    },
+    "대구 북구": {
+      "sido": "대구",
+      "sigungu": "북구",
+      "branch_count": 32,
+      "population": {
+        "value": 422778,
+        "period": "202603",
+        "label": "성북구",
+        "unit": "명"
+      }
+    },
+    "대구 서구": {
+      "sido": "대구",
+      "sigungu": "서구",
+      "branch_count": 5
+    },
+    "대구 수성구": {
+      "sido": "대구",
+      "sigungu": "수성구",
+      "branch_count": 34,
+      "population": {
+        "value": 408930,
+        "period": "202603",
+        "label": "수성구",
+        "unit": "명"
+      }
+    },
+    "대구 중구": {
+      "sido": "대구",
+      "sigungu": "중구",
+      "branch_count": 17,
+      "population": {
+        "value": 117762,
+        "period": "202603",
+        "label": "중구",
+        "unit": "명"
+      }
+    },
+    "대전 대덕구": {
+      "sido": "대전",
+      "sigungu": "대덕구",
+      "branch_count": 17
+    },
+    "대전 동구": {
+      "sido": "대전",
+      "sigungu": "동구",
+      "branch_count": 30,
+      "population": {
+        "value": 275093,
+        "period": "202603",
+        "label": "성동구",
+        "unit": "명"
+      }
+    },
+    "대전 서구": {
+      "sido": "대전",
+      "sigungu": "서구",
+      "branch_count": 43,
+      "population": {
+        "value": 548985,
+        "period": "202603",
+        "label": "강서구",
+        "unit": "명"
+      }
+    },
+    "대전 유성구": {
+      "sido": "대전",
+      "sigungu": "유성구",
+      "branch_count": 74
+    },
+    "대전 중구": {
+      "sido": "대전",
+      "sigungu": "중구",
+      "branch_count": 17,
+      "population": {
+        "value": 117762,
+        "period": "202603",
+        "label": "중구",
+        "unit": "명"
+      }
+    },
+    "부산 강서구": {
+      "sido": "부산",
+      "sigungu": "강서구",
+      "branch_count": 29,
+      "population": {
+        "value": 548985,
+        "period": "202603",
+        "label": "강서구",
+        "unit": "명"
+      }
+    },
+    "부산 금정구": {
+      "sido": "부산",
+      "sigungu": "금정구",
+      "branch_count": 25
+    },
+    "부산 기장군": {
+      "sido": "부산",
+      "sigungu": "기장군",
+      "branch_count": 18,
+      "population": {
+        "value": 175285,
+        "period": "202603",
+        "label": "기장군",
+        "unit": "명"
+      }
+    },
+    "부산 남구": {
+      "sido": "부산",
+      "sigungu": "남구",
+      "branch_count": 20,
+      "population": {
+        "value": 554165,
+        "period": "202603",
+        "label": "강남구",
+        "unit": "명"
+      }
+    },
+    "부산 동구": {
+      "sido": "부산",
+      "sigungu": "동구",
+      "branch_count": 14
+    },
+    "부산 동래구": {
+      "sido": "부산",
+      "sigungu": "동래구",
+      "branch_count": 19,
+      "population": {
+        "value": 272155,
+        "period": "202603",
+        "label": "동래구",
+        "unit": "명"
+      }
+    },
+    "부산 부산진구": {
+      "sido": "부산",
+      "sigungu": "부산진구",
+      "branch_count": 39,
+      "population": {
+        "value": 365294,
+        "period": "202603",
+        "label": "부산진구",
+        "unit": "명"
+      }
+    },
+    "부산 북구": {
+      "sido": "부산",
+      "sigungu": "북구",
+      "branch_count": 13
+    },
+    "부산 사상구": {
+      "sido": "부산",
+      "sigungu": "사상구",
+      "branch_count": 21,
+      "population": {
+        "value": 193189,
+        "period": "202603",
+        "label": "사상구",
+        "unit": "명"
+      }
+    },
+    "부산 사하구": {
+      "sido": "부산",
+      "sigungu": "사하구",
+      "branch_count": 26,
+      "population": {
+        "value": 283945,
+        "period": "202603",
+        "label": "사하구",
+        "unit": "명"
+      }
+    },
+    "부산 서구": {
+      "sido": "부산",
+      "sigungu": "서구",
+      "branch_count": 7
+    },
+    "부산 수영구": {
+      "sido": "부산",
+      "sigungu": "수영구",
+      "branch_count": 11,
+      "population": {
+        "value": 168585,
+        "period": "202603",
+        "label": "수영구",
+        "unit": "명"
+      }
+    },
+    "부산 연제구": {
+      "sido": "부산",
+      "sigungu": "연제구",
+      "branch_count": 21,
+      "population": {
+        "value": 211426,
+        "period": "202603",
+        "label": "연제구",
+        "unit": "명"
+      }
+    },
+    "부산 영도구": {
+      "sido": "부산",
+      "sigungu": "영도구",
+      "branch_count": 7
+    },
+    "부산 중구": {
+      "sido": "부산",
+      "sigungu": "중구",
+      "branch_count": 23,
+      "population": {
+        "value": 117762,
+        "period": "202603",
+        "label": "중구",
+        "unit": "명"
+      }
+    },
+    "부산 해운대구": {
+      "sido": "부산",
+      "sigungu": "해운대구",
+      "branch_count": 47,
+      "population": {
+        "value": 371470,
+        "period": "202603",
+        "label": "해운대구",
+        "unit": "명"
+      }
+    },
+    "서울 강남구": {
+      "sido": "서울",
+      "sigungu": "강남구",
+      "branch_count": 165
+    },
+    "서울 강동구": {
+      "sido": "서울",
+      "sigungu": "강동구",
+      "branch_count": 67,
+      "population": {
+        "value": 499795,
+        "period": "202603",
+        "label": "강동구",
+        "unit": "명"
+      }
+    },
+    "서울 강북구": {
+      "sido": "서울",
+      "sigungu": "강북구",
+      "branch_count": 23,
+      "population": {
+        "value": 278786,
+        "period": "202603",
+        "label": "강북구",
+        "unit": "명"
+      }
+    },
+    "서울 강서구": {
+      "sido": "서울",
+      "sigungu": "강서구",
+      "branch_count": 40
+    },
+    "서울 관악구": {
+      "sido": "서울",
+      "sigungu": "관악구",
+      "branch_count": 38,
+      "population": {
+        "value": 478468,
+        "period": "202603",
+        "label": "관악구",
+        "unit": "명"
+      }
+    },
+    "서울 광진구": {
+      "sido": "서울",
+      "sigungu": "광진구",
+      "branch_count": 33,
+      "population": {
+        "value": 331123,
+        "period": "202603",
+        "label": "광진구",
+        "unit": "명"
+      }
+    },
+    "서울 구로구": {
+      "sido": "서울",
+      "sigungu": "구로구",
+      "branch_count": 55
+    },
+    "서울 금천구": {
+      "sido": "서울",
+      "sigungu": "금천구",
+      "branch_count": 61,
+      "population": {
+        "value": 222712,
+        "period": "202603",
+        "label": "금천구",
+        "unit": "명"
+      }
+    },
+    "서울 노원구": {
+      "sido": "서울",
+      "sigungu": "노원구",
+      "branch_count": 67,
+      "population": {
+        "value": 482487,
+        "period": "202603",
+        "label": "노원구",
+        "unit": "명"
+      }
+    },
+    "서울 도봉구": {
+      "sido": "서울",
+      "sigungu": "도봉구",
+      "branch_count": 40
+    },
+    "서울 동대문구": {
+      "sido": "서울",
+      "sigungu": "동대문구",
+      "branch_count": 28,
+      "population": {
+        "value": 351542,
+        "period": "202603",
+        "label": "동대문구",
+        "unit": "명"
+      }
+    },
+    "서울 동작구": {
+      "sido": "서울",
+      "sigungu": "동작구",
+      "branch_count": 34,
+      "population": {
+        "value": 372236,
+        "period": "202603",
+        "label": "동작구",
+        "unit": "명"
+      }
+    },
+    "서울 마포구": {
+      "sido": "서울",
+      "sigungu": "마포구",
+      "branch_count": 42
+    },
+    "서울 서대문구": {
+      "sido": "서울",
+      "sigungu": "서대문구",
+      "branch_count": 28,
+      "population": {
+        "value": 300594,
+        "period": "202603",
+        "label": "서대문구",
+        "unit": "명"
+      }
+    },
+    "서울 서초구": {
+      "sido": "서울",
+      "sigungu": "서초구",
+      "branch_count": 103,
+      "population": {
+        "value": 415540,
+        "period": "202603",
+        "label": "서초구",
+        "unit": "명"
+      }
+    },
+    "서울 성동구": {
+      "sido": "서울",
+      "sigungu": "성동구",
+      "branch_count": 28
+    },
+    "서울 성북구": {
+      "sido": "서울",
+      "sigungu": "성북구",
+      "branch_count": 32,
+      "population": {
+        "value": 422778,
+        "period": "202603",
+        "label": "성북구",
+        "unit": "명"
+      }
+    },
+    "서울 송파구": {
+      "sido": "서울",
+      "sigungu": "송파구",
+      "branch_count": 75,
+      "population": {
+        "value": 650071,
+        "period": "202603",
+        "label": "송파구",
+        "unit": "명"
+      }
+    },
+    "서울 양천구": {
+      "sido": "서울",
+      "sigungu": "양천구",
+      "branch_count": 39
+    },
+    "서울 영등포구": {
+      "sido": "서울",
+      "sigungu": "영등포구",
+      "branch_count": 62,
+      "population": {
+        "value": 371177,
+        "period": "202603",
+        "label": "영등포구",
+        "unit": "명"
+      }
+    },
+    "서울 용산구": {
+      "sido": "서울",
+      "sigungu": "용산구",
+      "branch_count": 80,
+      "population": {
+        "value": 200962,
+        "period": "202603",
+        "label": "용산구",
+        "unit": "명"
+      }
+    },
+    "서울 은평구": {
+      "sido": "서울",
+      "sigungu": "은평구",
+      "branch_count": 26
+    },
+    "서울 종로구": {
+      "sido": "서울",
+      "sigungu": "종로구",
+      "branch_count": 58,
+      "population": {
+        "value": 136817,
+        "period": "202603",
+        "label": "종로구",
+        "unit": "명"
+      }
+    },
+    "서울 중구": {
+      "sido": "서울",
+      "sigungu": "중구",
+      "branch_count": 86,
+      "population": {
+        "value": 117762,
+        "period": "202603",
+        "label": "중구",
+        "unit": "명"
+      }
+    },
+    "서울 중랑구": {
+      "sido": "서울",
+      "sigungu": "중랑구",
+      "branch_count": 17
+    },
+    "세종 가람동": {
+      "sido": "세종",
+      "sigungu": "가람동",
+      "branch_count": 1
+    },
+    "세종 고운동": {
+      "sido": "세종",
+      "sigungu": "고운동",
+      "branch_count": 2
+    },
+    "세종 나성동": {
+      "sido": "세종",
+      "sigungu": "나성동",
+      "branch_count": 3
+    },
+    "세종 다정동": {
+      "sido": "세종",
+      "sigungu": "다정동",
+      "branch_count": 2
+    },
+    "세종 대평동": {
+      "sido": "세종",
+      "sigungu": "대평동",
+      "branch_count": 1
+    },
+    "세종 도담동": {
+      "sido": "세종",
+      "sigungu": "도담동",
+      "branch_count": 6
+    },
+    "세종 반곡동": {
+      "sido": "세종",
+      "sigungu": "반곡동",
+      "branch_count": 3
+    },
+    "세종 보람동": {
+      "sido": "세종",
+      "sigungu": "보람동",
+      "branch_count": 5
+    },
+    "세종 부강면": {
+      "sido": "세종",
+      "sigungu": "부강면",
+      "branch_count": 3
+    },
+    "세종 새롬동": {
+      "sido": "세종",
+      "sigungu": "새롬동",
+      "branch_count": 3
+    },
+    "세종 소담동": {
+      "sido": "세종",
+      "sigungu": "소담동",
+      "branch_count": 1
+    },
+    "세종 아름동": {
+      "sido": "세종",
+      "sigungu": "아름동",
+      "branch_count": 2
+    },
+    "세종 어진동": {
+      "sido": "세종",
+      "sigungu": "어진동",
+      "branch_count": 9
+    },
+    "세종 연동면": {
+      "sido": "세종",
+      "sigungu": "연동면",
+      "branch_count": 1
+    },
+    "세종 장군면": {
+      "sido": "세종",
+      "sigungu": "장군면",
+      "branch_count": 1
+    },
+    "세종 전의면": {
+      "sido": "세종",
+      "sigungu": "전의면",
+      "branch_count": 2
+    },
+    "세종 조치원읍": {
+      "sido": "세종",
+      "sigungu": "조치원읍",
+      "branch_count": 9
+    },
+    "세종 종촌동": {
+      "sido": "세종",
+      "sigungu": "종촌동",
+      "branch_count": 1
+    },
+    "세종 집현동": {
+      "sido": "세종",
+      "sigungu": "집현동",
+      "branch_count": 3
+    },
+    "세종 한솔동": {
+      "sido": "세종",
+      "sigungu": "한솔동",
+      "branch_count": 2
+    },
+    "울산 남구": {
+      "sido": "울산",
+      "sigungu": "남구",
+      "branch_count": 44
+    },
+    "울산 동구": {
+      "sido": "울산",
+      "sigungu": "동구",
+      "branch_count": 28,
+      "population": {
+        "value": 275093,
+        "period": "202603",
+        "label": "성동구",
+        "unit": "명"
+      }
+    },
+    "울산 북구": {
+      "sido": "울산",
+      "sigungu": "북구",
+      "branch_count": 28,
+      "population": {
+        "value": 422778,
+        "period": "202603",
+        "label": "성북구",
+        "unit": "명"
+      }
+    },
+    "울산 울주군": {
+      "sido": "울산",
+      "sigungu": "울주군",
+      "branch_count": 20
+    },
+    "울산 중구": {
+      "sido": "울산",
+      "sigungu": "중구",
+      "branch_count": 13,
+      "population": {
+        "value": 117762,
+        "period": "202603",
+        "label": "중구",
+        "unit": "명"
+      }
+    },
+    "인천 강화군": {
+      "sido": "인천",
+      "sigungu": "강화군",
+      "branch_count": 8,
+      "population": {
+        "value": 69615,
+        "period": "202603",
+        "label": "강화군",
+        "unit": "명"
+      }
+    },
+    "인천 계양구": {
+      "sido": "인천",
+      "sigungu": "계양구",
+      "branch_count": 20
+    },
+    "인천 남동구": {
+      "sido": "인천",
+      "sigungu": "남동구",
+      "branch_count": 67,
+      "population": {
+        "value": 83530,
+        "period": "202603",
+        "label": "동구",
+        "unit": "명"
+      }
+    },
+    "인천 동구": {
+      "sido": "인천",
+      "sigungu": "동구",
+      "branch_count": 10,
+      "population": {
+        "value": 275093,
+        "period": "202603",
+        "label": "성동구",
+        "unit": "명"
+      }
+    },
+    "인천 미추홀구": {
+      "sido": "인천",
+      "sigungu": "미추홀구",
+      "branch_count": 62
+    },
+    "인천 부평구": {
+      "sido": "인천",
+      "sigungu": "부평구",
+      "branch_count": 50,
+      "population": {
+        "value": 489390,
+        "period": "202603",
+        "label": "부평구",
+        "unit": "명"
+      }
+    },
+    "인천 서구": {
+      "sido": "인천",
+      "sigungu": "서구",
+      "branch_count": 63,
+      "population": {
+        "value": 548985,
+        "period": "202603",
+        "label": "강서구",
+        "unit": "명"
+      }
+    },
+    "인천 연수구": {
+      "sido": "인천",
+      "sigungu": "연수구",
+      "branch_count": 70
+    },
+    "인천 옹진군": {
+      "sido": "인천",
+      "sigungu": "옹진군",
+      "branch_count": 2,
+      "population": {
+        "value": 19425,
+        "period": "202603",
+        "label": "옹진군",
+        "unit": "명"
+      }
+    },
+    "인천 중구": {
+      "sido": "인천",
+      "sigungu": "중구",
+      "branch_count": 69,
+      "population": {
+        "value": 117762,
+        "period": "202603",
+        "label": "중구",
+        "unit": "명"
+      }
+    },
+    "전남 곡성군": {
+      "sido": "전남",
+      "sigungu": "곡성군",
+      "branch_count": 1
+    },
+    "전남 광양시": {
+      "sido": "전남",
+      "sigungu": "광양시",
+      "branch_count": 20,
+      "population": {
+        "value": 155699,
+        "period": "202603",
+        "label": "광양시",
+        "unit": "명"
+      }
+    },
+    "전남 구례군": {
+      "sido": "전남",
+      "sigungu": "구례군",
+      "branch_count": 1,
+      "population": {
+        "value": 23941,
+        "period": "202603",
+        "label": "구례군",
+        "unit": "명"
+      }
+    },
+    "전남 나주시": {
+      "sido": "전남",
+      "sigungu": "나주시",
+      "branch_count": 15
+    },
+    "전남 목포시": {
+      "sido": "전남",
+      "sigungu": "목포시",
+      "branch_count": 20,
+      "population": {
+        "value": 200442,
+        "period": "202603",
+        "label": "목포시",
+        "unit": "명"
+      }
+    },
+    "전남 무안군": {
+      "sido": "전남",
+      "sigungu": "무안군",
+      "branch_count": 6,
+      "population": {
+        "value": 95732,
+        "period": "202603",
+        "label": "무안군",
+        "unit": "명"
+      }
+    },
+    "전남 보성군": {
+      "sido": "전남",
+      "sigungu": "보성군",
+      "branch_count": 1
+    },
+    "전남 순천시": {
+      "sido": "전남",
+      "sigungu": "순천시",
+      "branch_count": 19,
+      "population": {
+        "value": 274529,
+        "period": "202603",
+        "label": "순천시",
+        "unit": "명"
+      }
+    },
+    "전남 여수시": {
+      "sido": "전남",
+      "sigungu": "여수시",
+      "branch_count": 36,
+      "population": {
+        "value": 261649,
+        "period": "202603",
+        "label": "여수시",
+        "unit": "명"
+      }
+    },
+    "전남 영암군": {
+      "sido": "전남",
+      "sigungu": "영암군",
+      "branch_count": 9
+    },
+    "전남 완도군": {
+      "sido": "전남",
+      "sigungu": "완도군",
+      "branch_count": 1,
+      "population": {
+        "value": 44339,
+        "period": "202603",
+        "label": "완도군",
+        "unit": "명"
+      }
+    },
+    "전남 장성군": {
+      "sido": "전남",
+      "sigungu": "장성군",
+      "branch_count": 1,
+      "population": {
+        "value": 42984,
+        "period": "202603",
+        "label": "장성군",
+        "unit": "명"
+      }
+    },
+    "전남 진도군": {
+      "sido": "전남",
+      "sigungu": "진도군",
+      "branch_count": 1
+    },
+    "전남 해남군": {
+      "sido": "전남",
+      "sigungu": "해남군",
+      "branch_count": 2,
+      "population": {
+        "value": 62114,
+        "period": "202603",
+        "label": "해남군",
+        "unit": "명"
+      }
+    },
+    "전남 화순군": {
+      "sido": "전남",
+      "sigungu": "화순군",
+      "branch_count": 3,
+      "population": {
+        "value": 60126,
+        "period": "202603",
+        "label": "화순군",
+        "unit": "명"
+      }
+    },
+    "전북 고창군": {
+      "sido": "전북",
+      "sigungu": "고창군",
+      "branch_count": 1
+    },
+    "전북 군산시": {
+      "sido": "전북",
+      "sigungu": "군산시",
+      "branch_count": 29,
+      "population": {
+        "value": 255565,
+        "period": "202603",
+        "label": "군산시",
+        "unit": "명"
+      }
+    },
+    "전북 김제시": {
+      "sido": "전북",
+      "sigungu": "김제시",
+      "branch_count": 3,
+      "population": {
+        "value": 81713,
+        "period": "202603",
+        "label": "김제시",
+        "unit": "명"
+      }
+    },
+    "전북 남원시": {
+      "sido": "전북",
+      "sigungu": "남원시",
+      "branch_count": 2
+    },
+    "전북 무주군": {
+      "sido": "전북",
+      "sigungu": "무주군",
+      "branch_count": 3,
+      "population": {
+        "value": 23063,
+        "period": "202603",
+        "label": "무주군",
+        "unit": "명"
+      }
+    },
+    "전북 부안군": {
+      "sido": "전북",
+      "sigungu": "부안군",
+      "branch_count": 2,
+      "population": {
+        "value": 47038,
+        "period": "202603",
+        "label": "부안군",
+        "unit": "명"
+      }
+    },
+    "전북 완주군": {
+      "sido": "전북",
+      "sigungu": "완주군",
+      "branch_count": 13
+    },
+    "전북 익산시": {
+      "sido": "전북",
+      "sigungu": "익산시",
+      "branch_count": 33,
+      "population": {
+        "value": 266973,
+        "period": "202603",
+        "label": "익산시",
+        "unit": "명"
+      }
+    },
+    "전북 전주시 덕진구": {
+      "sido": "전북",
+      "sigungu": "전주시 덕진구",
+      "branch_count": 16,
+      "population": {
+        "value": 622915,
+        "period": "202603",
+        "label": "전주시",
+        "unit": "명"
+      }
+    },
+    "전북 전주시 완산구": {
+      "sido": "전북",
+      "sigungu": "전주시 완산구",
+      "branch_count": 31
+    },
+    "전북 정읍시": {
+      "sido": "전북",
+      "sigungu": "정읍시",
+      "branch_count": 4,
+      "population": {
+        "value": 100795,
+        "period": "202603",
+        "label": "정읍시",
+        "unit": "명"
+      }
+    },
+    "제주 서귀포시": {
+      "sido": "제주",
+      "sigungu": "서귀포시",
+      "branch_count": 28,
+      "population": {
+        "value": 178794,
+        "period": "202603",
+        "label": "서귀포시",
+        "unit": "명"
+      }
+    },
+    "제주 제주시": {
+      "sido": "제주",
+      "sigungu": "제주시",
+      "branch_count": 32
+    },
+    "충남 계룡시": {
+      "sido": "충남",
+      "sigungu": "계룡시",
+      "branch_count": 2,
+      "population": {
+        "value": 45959,
+        "period": "202603",
+        "label": "계룡시",
+        "unit": "명"
+      }
+    },
+    "충남 공주시": {
+      "sido": "충남",
+      "sigungu": "공주시",
+      "branch_count": 12,
+      "population": {
+        "value": 99843,
+        "period": "202603",
+        "label": "공주시",
+        "unit": "명"
+      }
+    },
+    "충남 금산군": {
+      "sido": "충남",
+      "sigungu": "금산군",
+      "branch_count": 6
+    },
+    "충남 논산시": {
+      "sido": "충남",
+      "sigungu": "논산시",
+      "branch_count": 13,
+      "population": {
+        "value": 106295,
+        "period": "202603",
+        "label": "논산시",
+        "unit": "명"
+      }
+    },
+    "충남 당진시": {
+      "sido": "충남",
+      "sigungu": "당진시",
+      "branch_count": 22,
+      "population": {
+        "value": 172249,
+        "period": "202603",
+        "label": "당진시",
+        "unit": "명"
+      }
+    },
+    "충남 보령시": {
+      "sido": "충남",
+      "sigungu": "보령시",
+      "branch_count": 9
+    },
+    "충남 부여군": {
+      "sido": "충남",
+      "sigungu": "부여군",
+      "branch_count": 3,
+      "population": {
+        "value": 57984,
+        "period": "202603",
+        "label": "부여군",
+        "unit": "명"
+      }
+    },
+    "충남 서산시": {
+      "sido": "충남",
+      "sigungu": "서산시",
+      "branch_count": 13,
+      "population": {
+        "value": 171556,
+        "period": "202603",
+        "label": "서산시",
+        "unit": "명"
+      }
+    },
+    "충남 서천군": {
+      "sido": "충남",
+      "sigungu": "서천군",
+      "branch_count": 3
+    },
+    "충남 아산시": {
+      "sido": "충남",
+      "sigungu": "아산시",
+      "branch_count": 51,
+      "population": {
+        "value": 361590,
+        "period": "202603",
+        "label": "아산시",
+        "unit": "명"
+      }
+    },
+    "충남 예산군": {
+      "sido": "충남",
+      "sigungu": "예산군",
+      "branch_count": 8,
+      "population": {
+        "value": 78604,
+        "period": "202603",
+        "label": "예산군",
+        "unit": "명"
+      }
+    },
+    "충남 천안시 동남구": {
+      "sido": "충남",
+      "sigungu": "천안시 동남구",
+      "branch_count": 41
+    },
+    "충남 천안시 서북구": {
+      "sido": "충남",
+      "sigungu": "천안시 서북구",
+      "branch_count": 44,
+      "population": {
+        "value": 261557,
+        "period": "202603",
+        "label": "북구",
+        "unit": "명"
+      }
+    },
+    "충남 태안군": {
+      "sido": "충남",
+      "sigungu": "태안군",
+      "branch_count": 7,
+      "population": {
+        "value": 59177,
+        "period": "202603",
+        "label": "태안군",
+        "unit": "명"
+      }
+    },
+    "충남 홍성군": {
+      "sido": "충남",
+      "sigungu": "홍성군",
+      "branch_count": 20
+    },
+    "충북 괴산군": {
+      "sido": "충북",
+      "sigungu": "괴산군",
+      "branch_count": 1,
+      "population": {
+        "value": 37532,
+        "period": "202603",
+        "label": "괴산군",
+        "unit": "명"
+      }
+    },
+    "충북 단양군": {
+      "sido": "충북",
+      "sigungu": "단양군",
+      "branch_count": 1,
+      "population": {
+        "value": 26644,
+        "period": "202603",
+        "label": "단양군",
+        "unit": "명"
+      }
+    },
+    "충북 영동군": {
+      "sido": "충북",
+      "sigungu": "영동군",
+      "branch_count": 1
+    },
+    "충북 옥천군": {
+      "sido": "충북",
+      "sigungu": "옥천군",
+      "branch_count": 1,
+      "population": {
+        "value": 50259,
+        "period": "202603",
+        "label": "옥천군",
+        "unit": "명"
+      }
+    },
+    "충북 음성군": {
+      "sido": "충북",
+      "sigungu": "음성군",
+      "branch_count": 22,
+      "population": {
+        "value": 95429,
+        "period": "202603",
+        "label": "음성군",
+        "unit": "명"
+      }
+    },
+    "충북 제천시": {
+      "sido": "충북",
+      "sigungu": "제천시",
+      "branch_count": 14
+    },
+    "충북 증평군": {
+      "sido": "충북",
+      "sigungu": "증평군",
+      "branch_count": 2,
+      "population": {
+        "value": 36585,
+        "period": "202603",
+        "label": "증평군",
+        "unit": "명"
+      }
+    },
+    "충북 진천군": {
+      "sido": "충북",
+      "sigungu": "진천군",
+      "branch_count": 6,
+      "population": {
+        "value": 85590,
+        "period": "202603",
+        "label": "진천군",
+        "unit": "명"
+      }
+    },
+    "충북 청주시 상당구": {
+      "sido": "충북",
+      "sigungu": "청주시 상당구",
+      "branch_count": 17
+    },
+    "충북 청주시 서원구": {
+      "sido": "충북",
+      "sigungu": "청주시 서원구",
+      "branch_count": 12,
+      "population": {
+        "value": 857936,
+        "period": "202603",
+        "label": "청주시",
+        "unit": "명"
+      }
+    },
+    "충북 청주시 청원구": {
+      "sido": "충북",
+      "sigungu": "청주시 청원구",
+      "branch_count": 27,
+      "population": {
+        "value": 857936,
+        "period": "202603",
+        "label": "청주시",
+        "unit": "명"
+      }
+    },
+    "충북 청주시 흥덕구": {
+      "sido": "충북",
+      "sigungu": "청주시 흥덕구",
+      "branch_count": 44
+    },
+    "충북 충주시": {
+      "sido": "충북",
+      "sigungu": "충주시",
+      "branch_count": 28,
+      "population": {
+        "value": 206096,
+        "period": "202603",
+        "label": "충주시",
+        "unit": "명"
+      }
+    }
+  },
+  "diagnostics": {
+    "source": "kosis",
+    "kosis_key": "set",
+    "r_one_key": "skip",
+    "region_count": 247,
+    "population_ok": 153,
+    "population_fail": 94
+  }
+}
