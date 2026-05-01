@@ -148,12 +148,42 @@ SEARCH_ANCHORS = [
 ]
 
 
-def _resolve_env(*candidates: str) -> str | None:
+REST_KEY_RE = re.compile(r"(?i)kakao.*(rest|api)")
+JS_KEY_RE = re.compile(r"(?i)kakao.*(js|javascript|map)")
+
+
+def _resolve_env(*candidates: str) -> tuple[str | None, str | None]:
+    """우선순위: 명시된 후보 → 그 다음 KAKAO_* 환경변수 중 정규식 매칭."""
     for k in candidates:
         v = os.environ.get(k, "").strip()
         if v:
-            return v
-    return None
+            return v, k
+    return None, None
+
+
+def _resolve_env_fuzzy(pattern: re.Pattern, exclude: set[str]) -> tuple[str | None, str | None]:
+    """정확한 후보가 없을 때, KAKAO_* env 중 패턴 매칭되는 것을 fallback 으로 사용."""
+    for k, v in sorted(os.environ.items()):
+        if k in exclude:
+            continue
+        if not pattern.search(k):
+            continue
+        if not k.upper().startswith("KAKAO"):
+            continue
+        s = (v or "").strip()
+        if s:
+            return s, k
+    return None, None
+
+
+def _scan_kakao_env() -> dict[str, str]:
+    """KAKAO* prefix 를 가진 모든 env var 의 set/empty 상태 (값은 노출 안 함)."""
+    out: dict[str, str] = {}
+    for k, v in sorted(os.environ.items()):
+        if not k.upper().startswith("KAKAO"):
+            continue
+        out[k] = "set" if (v and v.strip()) else "empty"
+    return out
 
 
 def _env_presence(*keys: str) -> str:
@@ -253,39 +283,62 @@ def fetch_branches_for_bank(rest_key: str, bank: dict, seen: dict, diag: dict) -
     return added
 
 
-def write_kakao_config(js_key: str | None) -> None:
+def write_kakao_config(js_key: str | None, js_key_source: str | None) -> None:
     cfg_path = DATA_DIR / "kakao_config.json"
     payload = {
         "jsKey": js_key or "",
+        "jsKeySource": js_key_source or "",
         "updated": datetime.now(KST).isoformat(timespec="seconds"),
     }
     cfg_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     if js_key:
-        print(f"  [config] data/kakao_config.json 갱신 (JS key 길이={len(js_key)})")
+        print(f"  [config] data/kakao_config.json 갱신 (JS key 길이={len(js_key)}, source={js_key_source})")
     else:
         print("  [config] KAKAO_JS_KEY 미설정 — 프론트는 키 미설정 안내를 표시합니다.")
 
 
 def main() -> int:
     rest_keys = ("KAKAO_REST_API_KEY", "KAKAO_REST_API", "KAKAO_REST_KEY", "KAKAO_API_KEY")
-    rest_key = _resolve_env(*rest_keys)
-    js_key = _resolve_env("KAKAO_JS_KEY", "KAKAO_JAVASCRIPT_KEY", "KAKAO_MAP_JS_KEY")
+    js_keys = ("KAKAO_JS_KEY", "KAKAO_JAVASCRIPT_KEY", "KAKAO_MAP_JS_KEY")
 
-    write_kakao_config(js_key)
+    rest_key, rest_source = _resolve_env(*rest_keys)
+    if not rest_key:
+        rest_key, rest_source = _resolve_env_fuzzy(REST_KEY_RE, exclude=set(js_keys))
+        if rest_key:
+            print(f"  [fuzzy] REST 키를 '{rest_source}' env 에서 발견 (정확한 이름 후보 미설정)")
 
+    js_key, js_source = _resolve_env(*js_keys)
+    if not js_key:
+        js_key, js_source = _resolve_env_fuzzy(JS_KEY_RE, exclude=set(rest_keys) | ({rest_source} if rest_source else set()))
+        if js_key:
+            print(f"  [fuzzy] JS 키를 '{js_source}' env 에서 발견 (정확한 이름 후보 미설정)")
+
+    write_kakao_config(js_key, js_source)
+
+    kakao_env_seen = _scan_kakao_env()
     out_path = DATA_DIR / "kakao_branches.json"
 
     if not rest_key:
         print("[skip] REST API 키 미설정 — 영업점 좌표 수집을 건너뜁니다.")
         print(f"       checked: {_env_presence(*rest_keys)}")
-        if not out_path.exists():
-            out_path.write_text(json.dumps({
-                "as_of": datetime.now(KST).isoformat(timespec="seconds"),
-                "source": "Kakao Local API (미수집 — REST API 키 필요)",
-                "is_fallback": True,
-                "branches": [],
-                "summary": {},
-            }, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"       all KAKAO_* env vars seen: {kakao_env_seen or '(none)'}")
+        out_path.write_text(json.dumps({
+            "as_of": datetime.now(KST).isoformat(timespec="seconds"),
+            "source": "Kakao Local API (미수집 — REST API 키 필요)",
+            "is_fallback": True,
+            "branches": [],
+            "summary": {},
+            "diagnostics": {
+                "rest_key_resolved": False,
+                "rest_key_candidates": list(rest_keys),
+                "kakao_env_seen": kakao_env_seen,
+                "hint": (
+                    "GitHub → Settings → Secrets and variables → Actions → Repository secrets 에 "
+                    "이름을 정확히 KAKAO_REST_API_KEY 로 등록했는지 확인해 주세요. "
+                    "Codespaces / Dependabot / Environment 별 secret 은 daily-update 워크플로에서 읽히지 않습니다."
+                ),
+            },
+        }, ensure_ascii=False, indent=2), encoding="utf-8")
         return 0
 
     prev_payload = None
@@ -312,6 +365,13 @@ def main() -> int:
         payload["source"] = "Kakao Local API (직전 정상 데이터 유지)"
         payload["as_of"] = datetime.now(KST).isoformat(timespec="seconds")
         payload["last_error"] = diag
+        payload["diagnostics"] = {
+            "rest_key_resolved": True,
+            "rest_key_source": rest_source,
+            "js_key_source": js_source or "",
+            "kakao_env_seen": kakao_env_seen,
+            "note": "REST 키는 정상 인식됐지만 이번 호출에서 0건이 반환되어 직전 데이터 유지.",
+        }
         out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         return 0
 
@@ -324,6 +384,12 @@ def main() -> int:
         "total": len(branches),
         "branches": branches,
         "last_error": diag,
+        "diagnostics": {
+            "rest_key_resolved": True,
+            "rest_key_source": rest_source,
+            "js_key_source": js_source or "",
+            "kakao_env_seen": kakao_env_seen,
+        },
     }
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[done] {len(branches)}건 수집 → {out_path.relative_to(DATA_DIR.parent)}")
