@@ -458,6 +458,9 @@ function initMap() {
     center: new kakao.maps.LatLng(hq.lat, hq.lng),
     level: SHINHAN_HQ.level,
   });
+  // 일부 안드로이드 태블릿 (예: 삼성 갤럭시 패드) 에서 기본값이 무시되는 사례가 있어 명시.
+  if (typeof STATE.map.setDraggable === 'function') STATE.map.setDraggable(true);
+  if (typeof STATE.map.setZoomable === 'function') STATE.map.setZoomable(true);
   const zoomCtrl = new kakao.maps.ZoomControl();
   STATE.map.addControl(zoomCtrl, kakao.maps.ControlPosition.TOPRIGHT);
   kakao.maps.event.addListener(STATE.map, 'click', () => {

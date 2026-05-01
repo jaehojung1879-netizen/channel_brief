@@ -309,7 +309,12 @@ a { color: inherit; text-decoration: none; }
   width: 100%;
   background: #0a0d12;
   min-height: 480px;
+  /* 삼성 갤럭시 패드 등에서 브라우저 기본 스크롤이 지도 드래그를 가로채는 현상 방지 */
+  touch-action: none;
+  -ms-touch-action: none;
+  overscroll-behavior: contain;
 }
+.kakao-map * { touch-action: none; }
 .map-meta {
   border-top: 1px solid var(--line);
   padding: 8px 18px;
