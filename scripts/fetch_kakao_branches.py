@@ -156,6 +156,14 @@ def _resolve_env(*candidates: str) -> str | None:
     return None
 
 
+def _env_presence(*keys: str) -> str:
+    parts = []
+    for k in keys:
+        v = os.environ.get(k)
+        parts.append(f"{k}={'set' if (v is not None and v.strip()) else 'empty'}")
+    return ", ".join(parts)
+
+
 def _match_bank(name: str, category: str, terms: list[str]) -> bool:
     haystack = f"{name} {category}"
     for t in terms:
@@ -257,7 +265,8 @@ def write_kakao_config(js_key: str | None) -> None:
 
 
 def main() -> int:
-    rest_key = _resolve_env("KAKAO_REST_API_KEY", "KAKAO_REST_API", "KAKAO_REST_KEY", "KAKAO_API_KEY")
+    rest_keys = ("KAKAO_REST_API_KEY", "KAKAO_REST_API", "KAKAO_REST_KEY", "KAKAO_API_KEY")
+    rest_key = _resolve_env(*rest_keys)
     js_key = _resolve_env("KAKAO_JS_KEY", "KAKAO_JAVASCRIPT_KEY", "KAKAO_MAP_JS_KEY")
 
     write_kakao_config(js_key)
@@ -265,7 +274,8 @@ def main() -> int:
     out_path = DATA_DIR / "kakao_branches.json"
 
     if not rest_key:
-        print("[skip] KAKAO_REST_API_KEY 미설정 — 영업점 좌표 수집을 건너뜁니다.")
+        print("[skip] REST API 키 미설정 — 영업점 좌표 수집을 건너뜁니다.")
+        print(f"       checked: {_env_presence(*rest_keys)}")
         if not out_path.exists():
             out_path.write_text(json.dumps({
                 "as_of": datetime.now(KST).isoformat(timespec="seconds"),

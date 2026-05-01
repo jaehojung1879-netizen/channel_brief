@@ -65,6 +65,29 @@ jobs:
           KAKAO_MAP_JS_KEY: ${{ secrets.KAKAO_MAP_JS_KEY }}
         continue-on-error: true
 
+      - name: Debug Kakao secret wiring (presence only)
+        if: always()
+        run: |
+          python - <<'PY'
+          import os
+          keys = [
+              "KAKAO_REST_API_KEY", "KAKAO_REST_API", "KAKAO_REST_KEY", "KAKAO_API_KEY",
+              "KAKAO_JS_KEY", "KAKAO_JAVASCRIPT_KEY", "KAKAO_MAP_JS_KEY",
+          ]
+          for k in keys:
+              v = os.environ.get(k, "")
+              state = "set" if v.strip() else "empty"
+              print(f"{k}={state}")
+          PY
+        env:
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REST_API: ${{ secrets.KAKAO_REST_API }}
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          KAKAO_API_KEY: ${{ secrets.KAKAO_API_KEY }}
+          KAKAO_JS_KEY: ${{ secrets.KAKAO_JS_KEY }}
+          KAKAO_JAVASCRIPT_KEY: ${{ secrets.KAKAO_JAVASCRIPT_KEY }}
+          KAKAO_MAP_JS_KEY: ${{ secrets.KAKAO_MAP_JS_KEY }}
+
       - name: Generate build timestamp
         run: |
           date -u +"%Y-%m-%dT%H:%M:%SZ" > data/last_build.txt
