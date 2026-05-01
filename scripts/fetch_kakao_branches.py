@@ -182,7 +182,7 @@ def _is_real_branch(doc: dict) -> bool:
     return True
 
 
-def _kakao_keyword(rest_key: str, query: str, page: int) -> dict | None:
+def _kakao_keyword(rest_key: str, query: str, page: int) -> tuple[dict | None, str | None]:
     headers = {"Authorization": f"KakaoAK {rest_key}"}
     params = {
         "query": query,
@@ -194,30 +194,32 @@ def _kakao_keyword(rest_key: str, query: str, page: int) -> dict | None:
         try:
             r = requests.get(KAKAO_KEYWORD_URL, headers=headers, params=params, timeout=8)
             if r.status_code == 200:
-                return r.json()
+                return r.json(), None
             if r.status_code == 429:
                 time.sleep(1.0 * (attempt + 1))
                 continue
             if r.status_code in (401, 403):
                 print(f"  [auth] Kakao REST API 인증 실패 (status={r.status_code}) — REST 키 확인 필요", file=sys.stderr)
-                return None
+                return None, "auth"
             print(f"  [warn] Kakao API status={r.status_code} for q={query!r}", file=sys.stderr)
-            return None
+            return None, f"http_{r.status_code}"
         except requests.RequestException as e:
             print(f"  [warn] {e!r} — retry {attempt+1}/3", file=sys.stderr)
             time.sleep(0.5 * (attempt + 1))
-    return None
+    return None, "network"
 
 
-def fetch_branches_for_bank(rest_key: str, bank: dict, seen: dict) -> int:
+def fetch_branches_for_bank(rest_key: str, bank: dict, seen: dict, diag: dict) -> int:
     """anchor 별 키워드 검색을 돌며 해당 은행 영업점만 누적. 반환=신규 추가 수."""
     added = 0
     for anchor in SEARCH_ANCHORS:
         query = f"{anchor} {bank['official']}"
         for page in range(1, MAX_PAGES + 1):
-            payload = _kakao_keyword(rest_key, query, page)
+            payload, err = _kakao_keyword(rest_key, query, page)
             time.sleep(THROTTLE_SEC)
             if not payload:
+                if err:
+                    diag[err] = diag.get(err, 0) + 1
                 break
             docs = payload.get("documents") or []
             for d in docs:
@@ -286,15 +288,32 @@ def main() -> int:
             }, ensure_ascii=False, indent=2), encoding="utf-8")
         return 0
 
+    prev_payload = None
+    if out_path.exists():
+        try:
+            prev_payload = json.loads(out_path.read_text(encoding="utf-8"))
+        except Exception:
+            prev_payload = None
+
     all_seen: dict[str, dict] = {}
+    diag: dict[str, int] = {}
     summary = {}
     for bank in TARGET_BANKS:
-        before = len(all_seen)
-        added = fetch_branches_for_bank(rest_key, bank, all_seen)
-        after = len(all_seen)
+        added = fetch_branches_for_bank(rest_key, bank, all_seen, diag)
         bank_count = sum(1 for v in all_seen.values() if v["bank"] == bank["name"])
         summary[bank["name"]] = bank_count
         print(f"[bank] {bank['official']}: +{added} (누적 {bank_count}개)")
+
+    prev_branches = (prev_payload or {}).get("branches") if isinstance(prev_payload, dict) else None
+    if len(all_seen) == 0 and isinstance(prev_branches, list) and prev_branches:
+        print("[fallback] 이번 수집 결과가 0건이라 직전 정상 데이터를 유지합니다.")
+        payload = dict(prev_payload)
+        payload["is_fallback"] = True
+        payload["source"] = "Kakao Local API (직전 정상 데이터 유지)"
+        payload["as_of"] = datetime.now(KST).isoformat(timespec="seconds")
+        payload["last_error"] = diag
+        out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        return 0
 
     branches = sorted(all_seen.values(), key=lambda x: (x["bank"], x["name"]))
     payload = {
@@ -304,6 +323,7 @@ def main() -> int:
         "summary": summary,
         "total": len(branches),
         "branches": branches,
+        "last_error": diag,
     }
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[done] {len(branches)}건 수집 → {out_path.relative_to(DATA_DIR.parent)}")
