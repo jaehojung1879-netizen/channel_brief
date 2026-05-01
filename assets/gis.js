@@ -1,4 +1,4 @@
-// ============== GIS Atlas (gis.html) ==============
+// ============== GIS (gis.html) ==============
 const DATA_BASE = './data';
 const LOGO_BASE = './assets/bank-logos';
 
@@ -306,7 +306,7 @@ async function bootstrap() {
   if (STATE.branches.length === 0) {
     showOverlay(
       '영업점 좌표 미수집',
-      'KAKAO_REST_API_KEY 가 등록되어 있는지 확인해 주세요.\n다음 워크플로 실행 시 ~수천 개 영업점이 이 지도에 표시됩니다.',
+      'KAKAO_REST_API_KEY 등록 여부를 확인해 주세요.\n워크플로를 다시 실행하면 영업점 데이터가 지도에 반영됩니다.',
       true,
     );
     return;

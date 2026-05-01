@@ -71,7 +71,6 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: -0.02em;
   font-variation-settings: 'opsz' 144;
 }
-.mast-center h1 em { font-style: italic; font-weight: 400; color: var(--accent); }
 .mast-center .tagline {
   font-family: var(--serif);
   font-style: italic;
@@ -231,6 +230,10 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.08em;
 }
 
+body, .gis-shell, .gis-main, .gis-side, .kakao-map {
+  min-width: 0;
+}
+
 .map-overlay {
   position: absolute; inset: 0;
   display: flex; align-items: center; justify-content: center;
@@ -342,11 +345,24 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 960px) {
   :root { --pad-x: 18px; --side-w: 100%; }
+  .masthead {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: left;
+  }
+  .mast-center,
+  .mast-right {
+    text-align: left;
+  }
   .gis-shell { grid-template-columns: 1fr; }
   .gis-side {
     border-right: none;
     border-bottom: 1px solid var(--line);
     max-height: none;
+  }
+  .map-meta {
+    flex-wrap: wrap;
+    gap: 8px;
   }
   .kakao-map { min-height: 360px; }
 }
