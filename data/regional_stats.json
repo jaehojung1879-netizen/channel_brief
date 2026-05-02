@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-02T09:41:45+09:00",
+  "as_of": "2026-05-03T07:47:07+09:00",
   "regions": {
     "강원 강릉시": {
       "sido": "강원",
@@ -5924,12 +5924,10 @@
     "kosis_key": "skip",
     "r_one_key": "set",
     "region_count": 247,
+    "seoul_key": "skip",
     "population_ok": 153,
     "population_fail": 94,
-    "price_index_ok": 146,
-    "price_index_fail": 101,
-    "price_index_dropped_stale": 146,
-    "price_index_ok_recent": 0,
-    "note": "KOSIS 사업체수 / 소득 / Seoul 유동인구는 다음 워크플로 실행 후 추가됨"
+    "price_index_ok": 0,
+    "price_index_fail": 247
   }
 }
