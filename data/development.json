@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-05-02T07:56:00.883051+09:00",
+  "updated_at": "2026-05-03T07:43:27.246468+09:00",
   "items": [
+    {
+      "id": "1b4c7fbe7551",
+      "title": "테헤란로, 20층 복합시설로 새롭게 태어난다",
+      "source": "미디어시시비비",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mcjdGUGwxMVpxdG1taG5rTVpHaUZrMUI2bGliRlpJT1lIOGVzWlE0SU9PdlBNcHR5TmlFZzVlak5SUFN3QVQyYmxlLTBWN2xpaGNMeTR3ak4wWmhHdzRILWdybEhaVGJUYlZacy1CYVVydw?oc=5",
+      "published": "2026-05-02T11:16:26+09:00",
+      "date": "2026-05-02",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-05-02T06:49:51+09:00",
+      "date": "2026-05-02",
+      "query": "반도체 국가산단"
+    },
     {
       "id": "5efe677a722b",
       "title": "멈춰 있던 부지에 새 기능… 망우동 주거·체육 결합한 복합개발 가시화",
@@ -18,33 +36,6 @@
       "published": "2026-05-01T00:49:00+09:00",
       "date": "2026-05-01",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "204dfe1faa00",
-      "title": "[다시, 울산을 짓다] 울산동구 도시재생사업 살펴보기(6): 서부동 도시재생사업(2)",
-      "source": "울산저널i",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PX2xjazYtbmVlS2FvRlBHZWVjX09DdXFwTm1qbVNsTndJV2NNVEk1a1BzRGItMlI2SFFyX1NiQnVhTVMxWUkxODkwNHFlajI2WDhlTnNmUG5kczcxRVhzSkdyRkFPbEVKRGg1b19IWXphR0E?oc=5",
-      "published": "2026-05-01T00:00:17+09:00",
-      "date": "2026-05-01",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-04-29T16:00:00+09:00",
-      "date": "2026-04-29",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "680f8438be49",
-      "title": "신상진 성남시장, 오리역세권 제4테크노밸리 지구단위계획으로 전환 추진",
-      "source": "디스커버리뉴스(DISCOVERYNEWS)",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PWlRiV0hnWk1VZ29zY2VLTzktUE9JNVJ3LWgzLVhydnNTM1YxTENndFZZcEpYZXNmdVlwVW5CMUp4c1NuOUJSR1BEWG40TlIzMXZYUkNFY1YweXMzZXZQeGVxQWNsc2gyeTU1WHhvZUJWUQ?oc=5",
-      "published": "2026-04-29T11:29:03+09:00",
-      "date": "2026-04-29",
-      "query": "복합개발 지구단위계획"
     },
     {
       "id": "e3c9d68ef66f",
@@ -72,6 +63,24 @@
       "published": "2026-04-28T09:42:19+09:00",
       "date": "2026-04-28",
       "query": "반도체 국가산단"
+    },
+    {
+      "id": "73f3dc03a4b4",
+      "title": "이비엔(EBN)뉴스센터",
+      "source": "ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3QTRqWEJiSVpsS2lOc013WG12T2NiSXl2VlozWlFjNnYxZlg2aW1hcVZaRG9wT3pOSzlFMjM4ZEpOemVYWnFzMFNWMHF4WWllbTlvSU50Q1VGVjhJNnNFbUJ5NXJUa1JPVkZLUl9UWElENW9DQ3EyVTkzbm11QQ?oc=5",
+      "published": "2026-04-28T05:42:13+09:00",
+      "date": "2026-04-28",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "a750966b97e5",
+      "title": "신길4구역 도심복합사업, 지구지정 동의율 달성 눈앞…“내년 상반기 시공사 선정 목표”",
+      "source": "디벨로퍼뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96Z3hPVVJtQTJlUXRISFFlOXhkc3I1eXo1em5nREdDN0Q5bENxRk5OSEhuQmE3alJtVDFPSnhmaVpuMmE2YjlVc0lTTVE0emJMeGtqZmZ4cjY1cUNfRkFUTEtadDR6eWdG?oc=5",
+      "published": "2026-04-27T16:20:56+09:00",
+      "date": "2026-04-27",
+      "query": "LH 지구지정"
     }
   ]
 }
