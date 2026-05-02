@@ -341,18 +341,26 @@ function regionStatsHtml(b) {
     return `<div class="rs-empty">${escHtml(key || '지역 미상')} · 자료 미수집</div>`;
   }
   const rows = [];
+
+  // 종합 입지 점수 (0~100). 모든 시·군·구 대비 백분위 가중평균.
+  const sc = entry.location_score;
+  if (sc && sc.value != null) {
+    const v = Number(sc.value).toFixed(1);
+    rows.push(`<div class="rs-row rs-score"><span class="k">입지 점수</span><span class="v">${v} / 100</span><span class="src">백분위</span></div>`);
+  }
+
   if (entry.population && entry.population.value != null) {
     const v = Number(entry.population.value).toLocaleString();
     const period = entry.population.period ? ` (${escHtml(entry.population.period)})` : '';
     rows.push(`<div class="rs-row"><span class="k">인구</span><span class="v">${v} 명${period}</span><span class="src">KOSIS</span></div>`);
   }
+  if (entry.branch_count != null) {
+    rows.push(`<div class="rs-row"><span class="k">관내 4대銀 점포</span><span class="v">${entry.branch_count.toLocaleString()} 개</span><span class="src">Kakao</span></div>`);
+  }
   if (entry.price_index && entry.price_index.value != null) {
     const v = Number(entry.price_index.value).toFixed(1);
     const period = entry.price_index.period ? ` (${escHtml(entry.price_index.period)})` : '';
     rows.push(`<div class="rs-row"><span class="k">매매가격지수</span><span class="v">${v}${period}</span><span class="src">R-ONE</span></div>`);
-  }
-  if (entry.branch_count != null) {
-    rows.push(`<div class="rs-row"><span class="k">관내 4대銀 점포</span><span class="v">${entry.branch_count.toLocaleString()} 개</span><span class="src">Kakao</span></div>`);
   }
   if (rows.length === 0) {
     return `<div class="rs-empty">${escHtml(key)} · 자료 미수집</div>`;
@@ -362,7 +370,6 @@ function regionStatsHtml(b) {
 
 function infoHtml(b) {
   const region = regionFromAddress(b.address || b.road_address || '');
-  const place = b.place_url ? `<a href="${escHtml(b.place_url)}" target="_blank" rel="noopener">Kakao Place →</a>` : '';
   return `
     <div class="gis-info">
       <div class="bn">${escHtml(b.name)}</div>
@@ -370,7 +377,6 @@ function infoHtml(b) {
       ${b.phone ? `<div class="ph">${escHtml(b.phone)}</div>` : ''}
       <div class="ph">${escHtml(b.bank)} · ${escHtml(region)}</div>
       ${regionStatsHtml(b)}
-      ${place}
     </div>
   `;
 }
