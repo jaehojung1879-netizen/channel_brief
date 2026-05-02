@@ -43,20 +43,35 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/regional_stats.json
-          if git diff --cached --quiet; then
+
+          if ! git status --porcelain data/regional_stats.json | grep -q .; then
             echo "No R-ONE regional stats changes to commit"
             exit 0
           fi
-          git commit -m "chore: weekly regional stats refresh — R-ONE $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          # 새로 만든 파일을 임시 보관하고, race 가 발생해도 매번 origin/main 의 깨끗한
+          # 상태에 다시 적용하는 방식으로 push (rebase 충돌로 영구히 push 가 막히는 사태 방지).
+          cp data/regional_stats.json /tmp/regional_stats_new.json
+
           for attempt in 1 2 3 4 5; do
-            if git push; then
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/regional_stats_new.json data/regional_stats.json
+            git add data/regional_stats.json
+            if git diff --cached --quiet; then
+              echo "After resync to origin/main, file matches — nothing to commit (attempt $attempt)"
+              exit 0
+            fi
+            git commit -m "chore: weekly regional stats refresh — R-ONE $(date -u +'%Y-%m-%d %H:%M UTC')"
+            if git push origin HEAD:main; then
               echo "Push ok on attempt $attempt"
               exit 0
             fi
-            echo "Push failed on attempt $attempt, rebasing onto origin/main…"
-            git fetch origin main
-            git pull --rebase origin main || true
+            echo "Push failed on attempt $attempt — will resync and retry"
+            sleep $((attempt * 2))
           done
+
           echo "Push ultimately failed after 5 attempts" >&2
+          git status
+          git log --oneline -5
           exit 1
