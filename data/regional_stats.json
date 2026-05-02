@@ -12,12 +12,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 52.0,
+        "value": 48.7,
         "components": {
-          "population_pct": 48.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 48.7,
+          "market_source": "population",
           "branch_density_pct": 56.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 고성군": {
@@ -31,12 +39,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 7.9,
+        "value": 13.2,
         "components": {
-          "population_pct": 13.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 13.2,
+          "market_source": "population",
           "branch_density_pct": 0.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 동해시": {
@@ -50,12 +66,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 29.8,
+        "value": 26.3,
         "components": {
-          "population_pct": 26.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 26.3,
+          "market_source": "population",
           "branch_density_pct": 35.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 삼척시": {
@@ -69,12 +93,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 23.2,
+        "value": 19.1,
         "components": {
-          "population_pct": 19.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 19.1,
+          "market_source": "population",
           "branch_density_pct": 29.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 속초시": {
@@ -88,12 +120,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 29.4,
+        "value": 22.4,
         "components": {
-          "population_pct": 22.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 22.4,
+          "market_source": "population",
           "branch_density_pct": 39.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 양양군": {
@@ -107,12 +147,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 2.1,
+        "value": 3.3,
         "components": {
-          "population_pct": 3.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 3.3,
+          "market_source": "population",
           "branch_density_pct": 0.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 영월군": {
@@ -126,12 +174,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 10.1,
+        "value": 5.3,
         "components": {
-          "population_pct": 5.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 5.3,
+          "market_source": "population",
           "branch_density_pct": 17.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 원주시": {
@@ -145,12 +201,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 76.8,
+        "value": 67.8,
         "components": {
-          "population_pct": 67.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 67.8,
+          "market_source": "population",
           "branch_density_pct": 90.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 인제군": {
@@ -160,10 +224,16 @@
       "location_score": {
         "value": 9.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 9.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "강원 정선군": {
@@ -177,12 +247,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 14.6,
+        "value": 4.6,
         "components": {
-          "population_pct": 4.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 4.6,
+          "market_source": "population",
           "branch_density_pct": 29.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 철원군": {
@@ -196,12 +274,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 8.8,
+        "value": 7.9,
         "components": {
-          "population_pct": 7.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 7.9,
+          "market_source": "population",
           "branch_density_pct": 10.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 춘천시": {
@@ -211,10 +297,16 @@
       "location_score": {
         "value": 95.9,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 95.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "강원 태백시": {
@@ -228,12 +320,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 13.2,
+        "value": 6.6,
         "components": {
-          "population_pct": 6.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 6.6,
+          "market_source": "population",
           "branch_density_pct": 23.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 평창군": {
@@ -247,12 +347,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 12.3,
+        "value": 8.6,
         "components": {
-          "population_pct": 8.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 8.6,
+          "market_source": "population",
           "branch_density_pct": 17.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 홍천군": {
@@ -262,10 +370,16 @@
       "location_score": {
         "value": 31.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 31.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "강원 화천군": {
@@ -281,10 +395,18 @@
       "location_score": {
         "value": 0.7,
         "components": {
-          "population_pct": 0.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 0.7,
+          "market_source": "population",
           "branch_density_pct": 0.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "강원 횡성군": {
@@ -298,12 +420,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 16.1,
+        "value": 11.2,
         "components": {
-          "population_pct": 11.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 11.2,
+          "market_source": "population",
           "branch_density_pct": 23.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 가평군": {
@@ -313,10 +443,16 @@
       "location_score": {
         "value": 31.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 31.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 고양시 덕양구": {
@@ -330,12 +466,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 89.6,
+        "value": 97.4,
         "components": {
-          "population_pct": 97.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 97.4,
+          "market_source": "population",
           "branch_density_pct": 78.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 고양시 일산동구": {
@@ -349,12 +493,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 43.9,
+        "value": 24.3,
         "components": {
-          "population_pct": 24.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 24.3,
+          "market_source": "population",
           "branch_density_pct": 73.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 고양시 일산서구": {
@@ -364,10 +516,16 @@
       "location_score": {
         "value": 78.5,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 78.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 과천시": {
@@ -381,12 +539,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 29.9,
+        "value": 23.0,
         "components": {
-          "population_pct": 23.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 23.0,
+          "market_source": "population",
           "branch_density_pct": 40.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 광명시": {
@@ -400,12 +566,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 61.6,
+        "value": 64.5,
         "components": {
-          "population_pct": 64.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 64.5,
+          "market_source": "population",
           "branch_density_pct": 57.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 광주시": {
@@ -415,10 +589,16 @@
       "location_score": {
         "value": 64.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 64.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 구리시": {
@@ -434,10 +614,18 @@
       "location_score": {
         "value": 45.4,
         "components": {
-          "population_pct": 45.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 45.4,
+          "market_source": "population",
           "branch_density_pct": 45.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 군포시": {
@@ -451,12 +639,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 56.7,
+        "value": 53.3,
         "components": {
-          "population_pct": 53.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 53.3,
+          "market_source": "population",
           "branch_density_pct": 61.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 김포시": {
@@ -466,10 +662,16 @@
       "location_score": {
         "value": 88.2,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 88.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 남양주시": {
@@ -483,12 +685,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 92.1,
+        "value": 88.2,
         "components": {
-          "population_pct": 88.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 88.2,
+          "market_source": "population",
           "branch_density_pct": 98.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 동두천시": {
@@ -502,12 +712,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 26.9,
+        "value": 27.0,
         "components": {
-          "population_pct": 27.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 27.0,
+          "market_source": "population",
           "branch_density_pct": 26.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 부천시 소사구": {
@@ -517,10 +735,16 @@
       "location_score": {
         "value": 45.9,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 45.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 부천시 오정구": {
@@ -534,12 +758,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 64.6,
+        "value": 89.5,
         "components": {
-          "population_pct": 89.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 89.5,
+          "market_source": "population",
           "branch_density_pct": 27.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 부천시 원미구": {
@@ -553,12 +785,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 88.9,
+        "value": 90.1,
         "components": {
-          "population_pct": 90.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 90.1,
+          "market_source": "population",
           "branch_density_pct": 87.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 성남시 분당구": {
@@ -568,10 +808,16 @@
       "location_score": {
         "value": 97.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 97.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 성남시 수정구": {
@@ -585,12 +831,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 81.3,
+        "value": 92.1,
         "components": {
-          "population_pct": 92.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 92.1,
+          "market_source": "population",
           "branch_density_pct": 65.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 성남시 중원구": {
@@ -604,12 +858,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 82.2,
+        "value": 92.8,
         "components": {
-          "population_pct": 92.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 92.8,
+          "market_source": "population",
           "branch_density_pct": 66.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 수원시 권선구": {
@@ -619,10 +881,16 @@
       "location_score": {
         "value": 47.2,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 47.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 수원시 영통구": {
@@ -636,12 +904,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 91.1,
+        "value": 99.3,
         "components": {
-          "population_pct": 99.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 99.3,
+          "market_source": "population",
           "branch_density_pct": 78.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 수원시 장안구": {
@@ -655,12 +931,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 76.3,
+        "value": 100.0,
         "components": {
-          "population_pct": 100.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 100.0,
+          "market_source": "population",
           "branch_density_pct": 40.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 수원시 팔달구": {
@@ -670,10 +954,16 @@
       "location_score": {
         "value": 62.2,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 62.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 시흥시": {
@@ -687,12 +977,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 79.9,
+        "value": 78.9,
         "components": {
-          "population_pct": 78.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 78.9,
+          "market_source": "population",
           "branch_density_pct": 81.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 안산시 단원구": {
@@ -706,12 +1004,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 88.7,
+        "value": 85.5,
         "components": {
-          "population_pct": 85.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 85.5,
+          "market_source": "population",
           "branch_density_pct": 93.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 안산시 상록구": {
@@ -721,10 +1027,16 @@
       "location_score": {
         "value": 66.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 66.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 안성시": {
@@ -738,12 +1050,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 54.2,
+        "value": 46.7,
         "components": {
-          "population_pct": 46.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 46.7,
+          "market_source": "population",
           "branch_density_pct": 65.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 안양시 동안구": {
@@ -757,12 +1077,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 85.9,
+        "value": 84.9,
         "components": {
-          "population_pct": 84.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 84.9,
+          "market_source": "population",
           "branch_density_pct": 87.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 안양시 만안구": {
@@ -772,10 +1100,16 @@
       "location_score": {
         "value": 62.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 62.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 양주시": {
@@ -789,12 +1123,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 77.7,
+        "value": 88.8,
         "components": {
-          "population_pct": 88.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 88.8,
+          "market_source": "population",
           "branch_density_pct": 61.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 양평군": {
@@ -808,12 +1150,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 30.2,
+        "value": 38.2,
         "components": {
-          "population_pct": 38.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 38.2,
+          "market_source": "population",
           "branch_density_pct": 18.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 여주시": {
@@ -823,10 +1173,16 @@
       "location_score": {
         "value": 57.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 57.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 연천군": {
@@ -840,12 +1196,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 15.3,
+        "value": 9.2,
         "components": {
-          "population_pct": 9.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 9.2,
+          "market_source": "population",
           "branch_density_pct": 24.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 오산시": {
@@ -859,12 +1223,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 51.4,
+        "value": 53.9,
         "components": {
-          "population_pct": 53.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 53.9,
+          "market_source": "population",
           "branch_density_pct": 47.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 용인시 기흥구": {
@@ -874,10 +1246,16 @@
       "location_score": {
         "value": 85.4,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 85.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 용인시 수지구": {
@@ -891,12 +1269,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 89.2,
+        "value": 98.0,
         "components": {
-          "population_pct": 98.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 98.0,
+          "market_source": "population",
           "branch_density_pct": 76.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 용인시 처인구": {
@@ -910,12 +1296,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 91.4,
+        "value": 98.7,
         "components": {
-          "population_pct": 98.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 98.7,
+          "market_source": "population",
           "branch_density_pct": 80.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 의왕시": {
@@ -925,10 +1319,16 @@
       "location_score": {
         "value": 35.4,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 35.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 의정부시": {
@@ -942,12 +1342,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 80.8,
+        "value": 75.7,
         "components": {
-          "population_pct": 75.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 75.7,
+          "market_source": "population",
           "branch_density_pct": 88.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 이천시": {
@@ -961,12 +1369,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 61.4,
+        "value": 51.3,
         "components": {
-          "population_pct": 51.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 51.3,
+          "market_source": "population",
           "branch_density_pct": 76.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 파주시": {
@@ -976,10 +1392,16 @@
       "location_score": {
         "value": 96.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 96.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 평택시": {
@@ -993,12 +1415,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 91.1,
+        "value": 86.2,
         "components": {
-          "population_pct": 86.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 86.2,
+          "market_source": "population",
           "branch_density_pct": 98.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 포천시": {
@@ -1012,12 +1442,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 50.9,
+        "value": 40.1,
         "components": {
-          "population_pct": 40.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 40.1,
+          "market_source": "population",
           "branch_density_pct": 67.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 하남시": {
@@ -1027,10 +1465,16 @@
       "location_score": {
         "value": 73.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 73.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 화성시 동탄구": {
@@ -1044,12 +1488,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 78.7,
+        "value": 95.4,
         "components": {
-          "population_pct": 95.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 95.4,
+          "market_source": "population",
           "branch_density_pct": 53.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 화성시 만세구": {
@@ -1063,12 +1515,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 80.9,
+        "value": 96.1,
         "components": {
-          "population_pct": 96.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 96.1,
+          "market_source": "population",
           "branch_density_pct": 58.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경기 화성시 병점구": {
@@ -1078,10 +1538,16 @@
       "location_score": {
         "value": 35.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 35.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경기 화성시 효행구": {
@@ -1095,12 +1561,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 75.6,
+        "value": 96.7,
         "components": {
-          "population_pct": 96.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 96.7,
+          "market_source": "population",
           "branch_density_pct": 43.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 거제시": {
@@ -1114,12 +1588,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 48.9,
+        "value": 52.0,
         "components": {
-          "population_pct": 52.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 52.0,
+          "market_source": "population",
           "branch_density_pct": 44.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 거창군": {
@@ -1129,10 +1611,16 @@
       "location_score": {
         "value": 18.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 18.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경남 고성군": {
@@ -1146,12 +1634,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 8.8,
+        "value": 13.8,
         "components": {
-          "population_pct": 13.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 13.8,
+          "market_source": "population",
           "branch_density_pct": 1.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 김해시": {
@@ -1165,12 +1661,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 80.8,
+        "value": 79.6,
         "components": {
-          "population_pct": 79.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 79.6,
+          "market_source": "population",
           "branch_density_pct": 82.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 밀양시": {
@@ -1180,10 +1684,16 @@
       "location_score": {
         "value": 24.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 24.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경남 사천시": {
@@ -1197,12 +1707,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 36.2,
+        "value": 32.9,
         "components": {
-          "population_pct": 32.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 32.9,
+          "market_source": "population",
           "branch_density_pct": 41.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 산청군": {
@@ -1216,12 +1734,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 3.0,
+        "value": 3.9,
         "components": {
-          "population_pct": 3.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 3.9,
+          "market_source": "population",
           "branch_density_pct": 1.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 양산시": {
@@ -1231,10 +1757,16 @@
       "location_score": {
         "value": 72.4,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 72.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경남 진주시": {
@@ -1248,12 +1780,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 60.0,
+        "value": 65.8,
         "components": {
-          "population_pct": 65.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 65.8,
+          "market_source": "population",
           "branch_density_pct": 51.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 창녕군": {
@@ -1267,12 +1807,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 10.7,
+        "value": 16.4,
         "components": {
-          "population_pct": 16.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 16.4,
+          "market_source": "population",
           "branch_density_pct": 2.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 창원시 마산합포구": {
@@ -1282,10 +1830,16 @@
       "location_score": {
         "value": 41.5,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 41.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경남 창원시 마산회원구": {
@@ -1299,12 +1853,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 75.2,
+        "value": 93.4,
         "components": {
-          "population_pct": 93.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 93.4,
+          "market_source": "population",
           "branch_density_pct": 48.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 창원시 성산구": {
@@ -1318,12 +1880,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 92.4,
+        "value": 94.1,
         "components": {
-          "population_pct": 94.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 94.1,
+          "market_source": "population",
           "branch_density_pct": 89.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 창원시 의창구": {
@@ -1333,10 +1903,16 @@
       "location_score": {
         "value": 25.2,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 25.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경남 창원시 진해구": {
@@ -1350,12 +1926,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 71.3,
+        "value": 94.7,
         "components": {
-          "population_pct": 94.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 94.7,
+          "market_source": "population",
           "branch_density_pct": 36.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 통영시": {
@@ -1369,12 +1953,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 38.7,
+        "value": 33.6,
         "components": {
-          "population_pct": 33.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 33.6,
+          "market_source": "population",
           "branch_density_pct": 46.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경남 함안군": {
@@ -1384,10 +1976,16 @@
       "location_score": {
         "value": 25.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 25.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경북 경산시": {
@@ -1401,12 +1999,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 56.0,
+        "value": 57.2,
         "components": {
-          "population_pct": 57.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 57.2,
+          "market_source": "population",
           "branch_density_pct": 54.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 경주시": {
@@ -1420,12 +2026,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 65.2,
+        "value": 52.6,
         "components": {
-          "population_pct": 52.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 52.6,
+          "market_source": "population",
           "branch_density_pct": 84.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 구미시": {
@@ -1435,10 +2049,16 @@
       "location_score": {
         "value": 93.1,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 93.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경북 김천시": {
@@ -1452,12 +2072,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 43.9,
+        "value": 38.8,
         "components": {
-          "population_pct": 38.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 38.8,
+          "market_source": "population",
           "branch_density_pct": 51.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 문경시": {
@@ -1471,12 +2099,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 16.5,
+        "value": 20.4,
         "components": {
-          "population_pct": 20.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 20.4,
+          "market_source": "population",
           "branch_density_pct": 10.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 상주시": {
@@ -1486,10 +2122,16 @@
       "location_score": {
         "value": 11.0,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 11.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경북 안동시": {
@@ -1503,12 +2145,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 44.0,
+        "value": 40.8,
         "components": {
-          "population_pct": 40.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 40.8,
+          "market_source": "population",
           "branch_density_pct": 48.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 영주시": {
@@ -1522,12 +2172,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 32.3,
+        "value": 28.9,
         "components": {
-          "population_pct": 28.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 28.9,
+          "market_source": "population",
           "branch_density_pct": 37.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 영천시": {
@@ -1537,10 +2195,16 @@
       "location_score": {
         "value": 11.4,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 11.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경북 예천군": {
@@ -1554,12 +2218,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 14.2,
+        "value": 15.8,
         "components": {
-          "population_pct": 15.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 15.8,
+          "market_source": "population",
           "branch_density_pct": 11.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 울진군": {
@@ -1573,12 +2245,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 8.5,
+        "value": 12.5,
         "components": {
-          "population_pct": 12.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 12.5,
+          "market_source": "population",
           "branch_density_pct": 2.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 의성군": {
@@ -1588,10 +2268,16 @@
       "location_score": {
         "value": 12.2,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 12.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "경북 칠곡군": {
@@ -1605,12 +2291,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 32.1,
+        "value": 31.6,
         "components": {
-          "population_pct": 31.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 31.6,
+          "market_source": "population",
           "branch_density_pct": 32.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 포항시 남구": {
@@ -1624,12 +2318,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 63.5,
+        "value": 54.6,
         "components": {
-          "population_pct": 54.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 54.6,
+          "market_source": "population",
           "branch_density_pct": 76.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "경북 포항시 북구": {
@@ -1639,10 +2341,16 @@
       "location_score": {
         "value": 70.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 70.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "광주 광산구": {
@@ -1656,12 +2364,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 74.3,
+        "value": 71.1,
         "components": {
-          "population_pct": 71.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 71.1,
+          "market_source": "population",
           "branch_density_pct": 79.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "광주 남구": {
@@ -1675,12 +2391,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 64.9,
+        "value": 82.9,
         "components": {
-          "population_pct": 82.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 82.9,
+          "market_source": "population",
           "branch_density_pct": 37.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "광주 동구": {
@@ -1690,10 +2414,16 @@
       "location_score": {
         "value": 38.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 38.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "광주 북구": {
@@ -1707,12 +2437,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 68.4,
+        "value": 73.0,
         "components": {
-          "population_pct": 73.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 73.0,
+          "market_source": "population",
           "branch_density_pct": 61.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "광주 서구": {
@@ -1726,12 +2464,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 76.5,
+        "value": 80.3,
         "components": {
-          "population_pct": 80.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 80.3,
+          "market_source": "population",
           "branch_density_pct": 70.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "대구 군위군": {
@@ -1741,10 +2487,16 @@
       "location_score": {
         "value": 12.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 12.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "대구 남구": {
@@ -1758,12 +2510,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 64.8,
+        "value": 83.6,
         "components": {
-          "population_pct": 83.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 83.6,
+          "market_source": "population",
           "branch_density_pct": 36.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "대구 달서구": {
@@ -1777,12 +2537,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 50.4,
+        "value": 30.9,
         "components": {
-          "population_pct": 30.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 30.9,
+          "market_source": "population",
           "branch_density_pct": 79.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "대구 달성군": {
@@ -1792,10 +2560,16 @@
       "location_score": {
         "value": 52.4,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 52.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "대구 동구": {
@@ -1809,12 +2583,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 61.1,
+        "value": 59.9,
         "components": {
-          "population_pct": 59.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 59.9,
+          "market_source": "population",
           "branch_density_pct": 63.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "대구 북구": {
@@ -1828,12 +2610,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 73.8,
+        "value": 73.7,
         "components": {
-          "population_pct": 73.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 73.7,
+          "market_source": "population",
           "branch_density_pct": 74.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "대구 서구": {
@@ -1843,10 +2633,16 @@
       "location_score": {
         "value": 26.0,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 26.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "대구 수성구": {
@@ -1860,12 +2656,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 73.9,
+        "value": 71.7,
         "components": {
-          "population_pct": 71.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 71.7,
+          "market_source": "population",
           "branch_density_pct": 77.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "대구 중구": {
@@ -1879,12 +2683,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 40.2,
+        "value": 34.2,
         "components": {
-          "population_pct": 34.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 34.2,
+          "market_source": "population",
           "branch_density_pct": 49.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "대전 대덕구": {
@@ -1894,10 +2706,16 @@
       "location_score": {
         "value": 49.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 49.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "대전 동구": {
@@ -1911,12 +2729,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 65.1,
+        "value": 60.5,
         "components": {
-          "population_pct": 60.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 60.5,
+          "market_source": "population",
           "branch_density_pct": 72.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "대전 서구": {
@@ -1930,12 +2756,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 82.5,
+        "value": 80.9,
         "components": {
-          "population_pct": 80.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 80.9,
+          "market_source": "population",
           "branch_density_pct": 85.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "대전 유성구": {
@@ -1945,10 +2779,16 @@
       "location_score": {
         "value": 96.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 96.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "대전 중구": {
@@ -1962,12 +2802,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 40.9,
+        "value": 34.9,
         "components": {
-          "population_pct": 34.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 34.9,
+          "market_source": "population",
           "branch_density_pct": 50.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 강서구": {
@@ -1981,12 +2829,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 77.4,
+        "value": 81.6,
         "components": {
-          "population_pct": 81.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 81.6,
+          "market_source": "population",
           "branch_density_pct": 71.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 금정구": {
@@ -1996,10 +2852,16 @@
       "location_score": {
         "value": 63.4,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 63.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "부산 기장군": {
@@ -2013,12 +2875,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 47.3,
+        "value": 44.1,
         "components": {
-          "population_pct": 44.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 44.1,
+          "market_source": "population",
           "branch_density_pct": 52.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 남구": {
@@ -2032,12 +2902,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 72.3,
+        "value": 84.2,
         "components": {
-          "population_pct": 84.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 84.2,
+          "market_source": "population",
           "branch_density_pct": 54.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 동구": {
@@ -2047,10 +2925,16 @@
       "location_score": {
         "value": 44.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 44.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "부산 동래구": {
@@ -2064,12 +2948,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 56.3,
+        "value": 58.6,
         "components": {
-          "population_pct": 58.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 58.6,
+          "market_source": "population",
           "branch_density_pct": 52.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 부산진구": {
@@ -2083,12 +2975,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 73.7,
+        "value": 68.4,
         "components": {
-          "population_pct": 68.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 68.4,
+          "market_source": "population",
           "branch_density_pct": 81.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 북구": {
@@ -2098,10 +2998,16 @@
       "location_score": {
         "value": 41.9,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 41.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "부산 사상구": {
@@ -2115,12 +3021,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 51.0,
+        "value": 46.1,
         "components": {
-          "population_pct": 46.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 46.1,
+          "market_source": "population",
           "branch_density_pct": 58.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 사하구": {
@@ -2134,12 +3048,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 63.4,
+        "value": 63.2,
         "components": {
-          "population_pct": 63.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 63.2,
+          "market_source": "population",
           "branch_density_pct": 63.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 서구": {
@@ -2149,10 +3071,16 @@
       "location_score": {
         "value": 30.1,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 30.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "부산 수영구": {
@@ -2166,12 +3094,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 40.5,
+        "value": 42.1,
         "components": {
-          "population_pct": 42.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 42.1,
+          "market_source": "population",
           "branch_density_pct": 38.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 연제구": {
@@ -2185,12 +3121,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 53.6,
+        "value": 50.0,
         "components": {
-          "population_pct": 50.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 50.0,
+          "market_source": "population",
           "branch_density_pct": 58.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 영도구": {
@@ -2200,10 +3144,16 @@
       "location_score": {
         "value": 30.5,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 30.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "부산 중구": {
@@ -2217,12 +3167,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 45.4,
+        "value": 35.5,
         "components": {
-          "population_pct": 35.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 35.5,
+          "market_source": "population",
           "branch_density_pct": 60.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "부산 해운대구": {
@@ -2236,12 +3194,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 77.0,
+        "value": 69.7,
         "components": {
-          "population_pct": 69.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 69.7,
+          "market_source": "population",
           "branch_density_pct": 87.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 강남구": {
@@ -2251,10 +3217,16 @@
       "location_score": {
         "value": 100.0,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 100.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "서울 강동구": {
@@ -2268,12 +3240,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 84.5,
+        "value": 78.3,
         "components": {
-          "population_pct": 78.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 78.3,
+          "market_source": "population",
           "branch_density_pct": 93.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 강북구": {
@@ -2287,12 +3267,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 61.7,
+        "value": 62.5,
         "components": {
-          "population_pct": 62.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 62.5,
+          "market_source": "population",
           "branch_density_pct": 60.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 강서구": {
@@ -2302,10 +3290,16 @@
       "location_score": {
         "value": 82.9,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 82.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "서울 관악구": {
@@ -2319,12 +3313,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 78.1,
+        "value": 76.3,
         "components": {
-          "population_pct": 76.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 76.3,
+          "market_source": "population",
           "branch_density_pct": 80.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 광진구": {
@@ -2338,12 +3340,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 69.2,
+        "value": 65.1,
         "components": {
-          "population_pct": 65.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 65.1,
+          "market_source": "population",
           "branch_density_pct": 75.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 구로구": {
@@ -2353,10 +3363,16 @@
       "location_score": {
         "value": 90.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 90.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "서울 금천구": {
@@ -2370,12 +3386,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 67.0,
+        "value": 50.7,
         "components": {
-          "population_pct": 50.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 50.7,
+          "market_source": "population",
           "branch_density_pct": 91.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 노원구": {
@@ -2389,12 +3413,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 83.9,
+        "value": 77.0,
         "components": {
-          "population_pct": 77.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 77.0,
+          "market_source": "population",
           "branch_density_pct": 94.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 도봉구": {
@@ -2404,10 +3436,16 @@
       "location_score": {
         "value": 83.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 83.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "서울 동대문구": {
@@ -2421,12 +3459,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 66.9,
+        "value": 66.4,
         "components": {
-          "population_pct": 66.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 66.4,
+          "market_source": "population",
           "branch_density_pct": 67.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 동작구": {
@@ -2440,12 +3486,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 73.3,
+        "value": 70.4,
         "components": {
-          "population_pct": 70.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 70.4,
+          "market_source": "population",
           "branch_density_pct": 77.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 마포구": {
@@ -2455,10 +3509,16 @@
       "location_score": {
         "value": 84.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 84.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "서울 서대문구": {
@@ -2472,12 +3532,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 65.4,
+        "value": 63.8,
         "components": {
-          "population_pct": 63.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 63.8,
+          "market_source": "population",
           "branch_density_pct": 67.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 서초구": {
@@ -2491,12 +3559,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 83.3,
+        "value": 72.4,
         "components": {
-          "population_pct": 72.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 72.4,
+          "market_source": "population",
           "branch_density_pct": 99.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 성동구": {
@@ -2506,10 +3582,16 @@
       "location_score": {
         "value": 68.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 68.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "서울 성북구": {
@@ -2523,12 +3605,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 74.4,
+        "value": 74.3,
         "components": {
-          "population_pct": 74.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 74.3,
+          "market_source": "population",
           "branch_density_pct": 74.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 송파구": {
@@ -2542,12 +3632,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 91.4,
+        "value": 87.5,
         "components": {
-          "population_pct": 87.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 87.5,
+          "market_source": "population",
           "branch_density_pct": 97.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 양천구": {
@@ -2557,10 +3655,16 @@
       "location_score": {
         "value": 82.1,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 82.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "서울 영등포구": {
@@ -2574,12 +3678,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 78.2,
+        "value": 69.1,
         "components": {
-          "population_pct": 69.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 69.1,
+          "market_source": "population",
           "branch_density_pct": 91.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 용산구": {
@@ -2593,12 +3705,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 68.3,
+        "value": 48.0,
         "components": {
-          "population_pct": 48.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 48.0,
+          "market_source": "population",
           "branch_density_pct": 98.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 은평구": {
@@ -2608,10 +3728,16 @@
       "location_score": {
         "value": 64.2,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 64.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "서울 종로구": {
@@ -2625,12 +3751,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 60.1,
+        "value": 39.5,
         "components": {
-          "population_pct": 39.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 39.5,
+          "market_source": "population",
           "branch_density_pct": 91.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 중구": {
@@ -2644,12 +3778,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 61.4,
+        "value": 36.2,
         "components": {
-          "population_pct": 36.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 36.2,
+          "market_source": "population",
           "branch_density_pct": 99.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "서울 중랑구": {
@@ -2659,10 +3801,16 @@
       "location_score": {
         "value": 50.4,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 50.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 가람동": {
@@ -2672,10 +3820,16 @@
       "location_score": {
         "value": 2.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 2.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 고운동": {
@@ -2685,10 +3839,16 @@
       "location_score": {
         "value": 13.0,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 13.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 나성동": {
@@ -2698,10 +3858,16 @@
       "location_score": {
         "value": 19.1,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 19.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 다정동": {
@@ -2711,10 +3877,16 @@
       "location_score": {
         "value": 13.4,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 13.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 대평동": {
@@ -2724,10 +3896,16 @@
       "location_score": {
         "value": 3.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 3.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 도담동": {
@@ -2737,10 +3915,16 @@
       "location_score": {
         "value": 27.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 27.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 반곡동": {
@@ -2750,10 +3934,16 @@
       "location_score": {
         "value": 19.5,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 19.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 보람동": {
@@ -2763,10 +3953,16 @@
       "location_score": {
         "value": 26.4,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 26.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 부강면": {
@@ -2776,10 +3972,16 @@
       "location_score": {
         "value": 19.9,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 19.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 새롬동": {
@@ -2789,10 +3991,16 @@
       "location_score": {
         "value": 20.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 20.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 소담동": {
@@ -2802,10 +4010,16 @@
       "location_score": {
         "value": 3.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 3.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 아름동": {
@@ -2815,10 +4029,16 @@
       "location_score": {
         "value": 13.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 13.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 어진동": {
@@ -2828,10 +4048,16 @@
       "location_score": {
         "value": 33.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 33.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 연동면": {
@@ -2841,10 +4067,16 @@
       "location_score": {
         "value": 4.1,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 4.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 장군면": {
@@ -2854,10 +4086,16 @@
       "location_score": {
         "value": 4.5,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 4.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 전의면": {
@@ -2867,10 +4105,16 @@
       "location_score": {
         "value": 14.2,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 14.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 조치원읍": {
@@ -2880,10 +4124,16 @@
       "location_score": {
         "value": 33.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 33.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 종촌동": {
@@ -2893,10 +4143,16 @@
       "location_score": {
         "value": 4.9,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 4.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 집현동": {
@@ -2906,10 +4162,16 @@
       "location_score": {
         "value": 20.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 20.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "세종 한솔동": {
@@ -2919,10 +4181,16 @@
       "location_score": {
         "value": 14.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 14.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "울산 남구": {
@@ -2932,10 +4200,16 @@
       "location_score": {
         "value": 85.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 85.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "울산 동구": {
@@ -2949,12 +4223,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 64.2,
+        "value": 61.2,
         "components": {
-          "population_pct": 61.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 61.2,
+          "market_source": "population",
           "branch_density_pct": 68.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "울산 북구": {
@@ -2968,12 +4250,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 72.6,
+        "value": 75.0,
         "components": {
-          "population_pct": 75.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 75.0,
+          "market_source": "population",
           "branch_density_pct": 69.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "울산 울주군": {
@@ -2983,10 +4273,16 @@
       "location_score": {
         "value": 54.9,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 54.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "울산 중구": {
@@ -3000,12 +4296,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 39.0,
+        "value": 36.8,
         "components": {
-          "population_pct": 36.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 36.8,
+          "market_source": "population",
           "branch_density_pct": 42.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "인천 강화군": {
@@ -3019,12 +4323,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 25.5,
+        "value": 21.1,
         "components": {
-          "population_pct": 21.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 21.1,
+          "market_source": "population",
           "branch_density_pct": 32.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "인천 계양구": {
@@ -3034,10 +4346,16 @@
       "location_score": {
         "value": 55.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 55.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "인천 남동구": {
@@ -3051,12 +4369,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 52.9,
+        "value": 25.0,
         "components": {
-          "population_pct": 25.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 25.0,
+          "market_source": "population",
           "branch_density_pct": 94.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "인천 동구": {
@@ -3070,12 +4396,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 51.9,
+        "value": 61.8,
         "components": {
-          "population_pct": 61.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 61.8,
+          "market_source": "population",
           "branch_density_pct": 37.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "인천 미추홀구": {
@@ -3085,10 +4419,16 @@
       "location_score": {
         "value": 92.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 92.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "인천 부평구": {
@@ -3102,12 +4442,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 82.2,
+        "value": 77.6,
         "components": {
-          "population_pct": 77.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 77.6,
+          "market_source": "population",
           "branch_density_pct": 89.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "인천 서구": {
@@ -3121,12 +4469,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 86.4,
+        "value": 82.2,
         "components": {
-          "population_pct": 82.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 82.2,
+          "market_source": "population",
           "branch_density_pct": 92.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "인천 연수구": {
@@ -3136,10 +4492,16 @@
       "location_score": {
         "value": 95.5,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 95.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "인천 옹진군": {
@@ -3153,12 +4515,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 6.0,
+        "value": 0.0,
         "components": {
-          "population_pct": 0.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 0.0,
+          "market_source": "population",
           "branch_density_pct": 15.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "인천 중구": {
@@ -3172,12 +4542,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 60.5,
+        "value": 37.5,
         "components": {
-          "population_pct": 37.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 37.5,
+          "market_source": "population",
           "branch_density_pct": 95.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 곡성군": {
@@ -3187,10 +4565,16 @@
       "location_score": {
         "value": 5.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 5.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "전남 광양시": {
@@ -3204,12 +4588,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 47.1,
+        "value": 41.4,
         "components": {
-          "population_pct": 41.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 41.4,
+          "market_source": "population",
           "branch_density_pct": 55.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 구례군": {
@@ -3223,12 +4615,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 3.5,
+        "value": 2.0,
         "components": {
-          "population_pct": 2.0,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 2.0,
+          "market_source": "population",
           "branch_density_pct": 5.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 나주시": {
@@ -3238,10 +4638,16 @@
       "location_score": {
         "value": 46.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 46.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "전남 목포시": {
@@ -3255,12 +4661,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 50.9,
+        "value": 47.4,
         "components": {
-          "population_pct": 47.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 47.4,
+          "market_source": "population",
           "branch_density_pct": 56.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 무안군": {
@@ -3274,12 +4688,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 28.2,
+        "value": 28.3,
         "components": {
-          "population_pct": 28.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 28.3,
+          "market_source": "population",
           "branch_density_pct": 28.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 보성군": {
@@ -3289,10 +4711,16 @@
       "location_score": {
         "value": 6.1,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 6.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "전남 순천시": {
@@ -3306,12 +4734,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 56.8,
+        "value": 59.2,
         "components": {
-          "population_pct": 59.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 59.2,
+          "market_source": "population",
           "branch_density_pct": 53.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 여수시": {
@@ -3325,12 +4761,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 66.0,
+        "value": 56.6,
         "components": {
-          "population_pct": 56.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 56.6,
+          "market_source": "population",
           "branch_density_pct": 80.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 영암군": {
@@ -3340,10 +4784,16 @@
       "location_score": {
         "value": 34.1,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 34.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "전남 완도군": {
@@ -3357,12 +4807,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 8.9,
+        "value": 10.5,
         "components": {
-          "population_pct": 10.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 10.5,
+          "market_source": "population",
           "branch_density_pct": 6.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 장성군": {
@@ -3376,12 +4834,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 8.7,
+        "value": 9.9,
         "components": {
-          "population_pct": 9.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 9.9,
+          "market_source": "population",
           "branch_density_pct": 6.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 진도군": {
@@ -3391,10 +4857,16 @@
       "location_score": {
         "value": 7.3,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 7.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "전남 해남군": {
@@ -3408,12 +4880,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 18.0,
+        "value": 19.7,
         "components": {
-          "population_pct": 19.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 19.7,
+          "market_source": "population",
           "branch_density_pct": 15.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전남 화순군": {
@@ -3427,12 +4907,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 19.5,
+        "value": 18.4,
         "components": {
-          "population_pct": 18.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 18.4,
+          "market_source": "population",
           "branch_density_pct": 21.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전북 고창군": {
@@ -3442,10 +4930,16 @@
       "location_score": {
         "value": 7.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 7.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "전북 군산시": {
@@ -3459,12 +4953,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 61.8,
+        "value": 55.3,
         "components": {
-          "population_pct": 55.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 55.3,
+          "market_source": "population",
           "branch_density_pct": 71.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전북 김제시": {
@@ -3478,12 +4980,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 22.8,
+        "value": 23.7,
         "components": {
-          "population_pct": 23.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 23.7,
+          "market_source": "population",
           "branch_density_pct": 21.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전북 남원시": {
@@ -3493,10 +5003,16 @@
       "location_score": {
         "value": 15.9,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 15.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "전북 무주군": {
@@ -3510,12 +5026,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 9.6,
+        "value": 1.3,
         "components": {
-          "population_pct": 1.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 1.3,
+          "market_source": "population",
           "branch_density_pct": 22.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전북 부안군": {
@@ -3529,12 +5053,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 15.2,
+        "value": 14.5,
         "components": {
-          "population_pct": 14.5,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 14.5,
+          "market_source": "population",
           "branch_density_pct": 16.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전북 완주군": {
@@ -3544,10 +5076,16 @@
       "location_score": {
         "value": 42.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 42.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "전북 익산시": {
@@ -3561,12 +5099,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 65.0,
+        "value": 57.9,
         "components": {
-          "population_pct": 57.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 57.9,
+          "market_source": "population",
           "branch_density_pct": 75.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전북 전주시 덕진구": {
@@ -3580,12 +5126,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 71.5,
+        "value": 86.8,
         "components": {
-          "population_pct": 86.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 86.8,
+          "market_source": "population",
           "branch_density_pct": 48.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "전북 전주시 완산구": {
@@ -3595,10 +5149,16 @@
       "location_score": {
         "value": 72.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 72.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "전북 정읍시": {
@@ -3612,12 +5172,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 27.8,
+        "value": 30.3,
         "components": {
-          "population_pct": 30.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 30.3,
+          "market_source": "population",
           "branch_density_pct": 24.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "제주 서귀포시": {
@@ -3631,12 +5199,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 54.6,
+        "value": 44.7,
         "components": {
-          "population_pct": 44.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 44.7,
+          "market_source": "population",
           "branch_density_pct": 69.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "제주 제주시": {
@@ -3646,10 +5222,16 @@
       "location_score": {
         "value": 74.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 74.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충남 계룡시": {
@@ -3663,12 +5245,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 13.8,
+        "value": 11.8,
         "components": {
-          "population_pct": 11.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 11.8,
+          "market_source": "population",
           "branch_density_pct": 16.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 공주시": {
@@ -3682,12 +5272,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 33.4,
+        "value": 29.6,
         "components": {
-          "population_pct": 29.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 29.6,
+          "market_source": "population",
           "branch_density_pct": 39.0
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 금산군": {
@@ -3697,10 +5295,16 @@
       "location_score": {
         "value": 28.5,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 28.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충남 논산시": {
@@ -3714,12 +5318,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 36.6,
+        "value": 32.2,
         "components": {
-          "population_pct": 32.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 32.2,
+          "market_source": "population",
           "branch_density_pct": 43.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 당진시": {
@@ -3733,12 +5345,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 49.8,
+        "value": 43.4,
         "components": {
-          "population_pct": 43.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 43.4,
+          "market_source": "population",
           "branch_density_pct": 59.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 보령시": {
@@ -3748,10 +5368,16 @@
       "location_score": {
         "value": 34.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 34.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충남 부여군": {
@@ -3765,12 +5391,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 19.2,
+        "value": 17.1,
         "components": {
-          "population_pct": 17.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 17.1,
+          "market_source": "population",
           "branch_density_pct": 22.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 서산시": {
@@ -3784,12 +5418,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 43.1,
+        "value": 42.8,
         "components": {
-          "population_pct": 42.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 42.8,
+          "market_source": "population",
           "branch_density_pct": 43.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 서천군": {
@@ -3799,10 +5441,16 @@
       "location_score": {
         "value": 22.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 22.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충남 아산시": {
@@ -3816,12 +5464,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 76.0,
+        "value": 67.1,
         "components": {
-          "population_pct": 67.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 67.1,
+          "market_source": "population",
           "branch_density_pct": 89.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 예산군": {
@@ -3835,12 +5491,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 26.0,
+        "value": 21.7,
         "components": {
-          "population_pct": 21.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 21.7,
+          "market_source": "population",
           "branch_density_pct": 32.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 천안시 동남구": {
@@ -3850,10 +5514,16 @@
       "location_score": {
         "value": 83.7,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 83.7
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충남 천안시 서북구": {
@@ -3867,12 +5537,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 68.0,
+        "value": 55.9,
         "components": {
-          "population_pct": 55.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 55.9,
+          "market_source": "population",
           "branch_density_pct": 86.2
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 태안군": {
@@ -3886,12 +5564,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 23.0,
+        "value": 17.8,
         "components": {
-          "population_pct": 17.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 17.8,
+          "market_source": "population",
           "branch_density_pct": 30.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충남 홍성군": {
@@ -3901,10 +5587,16 @@
       "location_score": {
         "value": 56.5,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 56.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충북 괴산군": {
@@ -3918,12 +5610,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 7.6,
+        "value": 7.2,
         "components": {
-          "population_pct": 7.2,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 7.2,
+          "market_source": "population",
           "branch_density_pct": 8.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충북 단양군": {
@@ -3937,12 +5637,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 5.0,
+        "value": 2.6,
         "components": {
-          "population_pct": 2.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 2.6,
+          "market_source": "population",
           "branch_density_pct": 8.5
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충북 영동군": {
@@ -3952,10 +5660,16 @@
       "location_score": {
         "value": 8.9,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 8.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충북 옥천군": {
@@ -3969,12 +5683,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 12.8,
+        "value": 15.1,
         "components": {
-          "population_pct": 15.1,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 15.1,
+          "market_source": "population",
           "branch_density_pct": 9.3
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충북 음성군": {
@@ -3988,12 +5710,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 40.5,
+        "value": 27.6,
         "components": {
-          "population_pct": 27.6,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 27.6,
+          "market_source": "population",
           "branch_density_pct": 59.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충북 제천시": {
@@ -4003,10 +5733,16 @@
       "location_score": {
         "value": 45.1,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 45.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충북 증평군": {
@@ -4020,12 +5756,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 10.4,
+        "value": 5.9,
         "components": {
-          "population_pct": 5.9,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 5.9,
+          "market_source": "population",
           "branch_density_pct": 17.1
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충북 진천군": {
@@ -4039,12 +5783,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 26.9,
+        "value": 25.7,
         "components": {
-          "population_pct": 25.7,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 25.7,
+          "market_source": "population",
           "branch_density_pct": 28.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충북 청주시 상당구": {
@@ -4054,10 +5806,16 @@
       "location_score": {
         "value": 50.8,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 50.8
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충북 청주시 서원구": {
@@ -4071,12 +5829,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 70.2,
+        "value": 90.8,
         "components": {
-          "population_pct": 90.8,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 90.8,
+          "market_source": "population",
           "branch_density_pct": 39.4
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충북 청주시 청원구": {
@@ -4090,12 +5856,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 81.2,
+        "value": 91.4,
         "components": {
-          "population_pct": 91.4,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 91.4,
+          "market_source": "population",
           "branch_density_pct": 65.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
     "충북 청주시 흥덕구": {
@@ -4105,10 +5879,16 @@
       "location_score": {
         "value": 86.6,
         "components": {
-          "population_pct": null,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
           "branch_density_pct": 86.6
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "충북 충주시": {
@@ -4122,12 +5902,20 @@
         "unit": "명"
       },
       "location_score": {
-        "value": 57.6,
+        "value": 49.3,
         "components": {
-          "population_pct": 49.3,
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 49.3,
+          "market_source": "population",
           "branch_density_pct": 69.9
         },
-        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+        "weights": {
+          "businesses": 0.45,
+          "income": 0.35,
+          "market": 0.2
+        },
+        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     }
   },
@@ -4141,6 +5929,7 @@
     "price_index_ok": 146,
     "price_index_fail": 101,
     "price_index_dropped_stale": 146,
-    "price_index_ok_recent": 0
+    "price_index_ok_recent": 0,
+    "note": "KOSIS 사업체수 / 소득 / Seoul 유동인구는 다음 워크플로 실행 후 추가됨"
   }
 }
