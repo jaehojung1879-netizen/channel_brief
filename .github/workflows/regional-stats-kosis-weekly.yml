@@ -33,10 +33,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch regional stats (KOSIS only)
+      - name: Fetch regional stats (KOSIS + Seoul OpenAPI)
         run: python -u scripts/fetch_regional_stats.py --source kosis
         env:
           KOSIS: ${{ secrets.KOSIS }}
+          SEOUL: ${{ secrets.SEOUL }}
 
       - name: Commit and push
         run: |

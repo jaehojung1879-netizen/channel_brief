@@ -97,17 +97,23 @@
       </div>
       <p class="ref-sub">현재 수집 중</p>
       <ul class="ref-list">
-        <li><span class="ref-on">●</span> <strong>인구·세대</strong> · 통계청 KOSIS (월간)</li>
+        <li><span class="ref-on">●</span> <strong>사업체수</strong> · 통계청 KOSIS 전국사업체조사 (시·군·구)</li>
+        <li><span class="ref-on">●</span> <strong>가구 평균소득</strong> · 통계청 KOSIS 가계금융복지조사 (시·도 → 하위 시·군·구 적용)</li>
+        <li><span class="ref-on">●</span> <strong>인구·세대</strong> · 통계청 KOSIS (시·군·구, 월간)</li>
+        <li><span class="ref-on">●</span> <strong>유동인구</strong> · 서울 열린데이터광장 IoT (자치구 단위, 서울 한정)</li>
         <li><span class="ref-on">●</span> <strong>경쟁점포</strong> · Kakao Local API 카테고리 BK9</li>
-        <li><span class="ref-on">●</span> <strong>입지 점수 (0~100)</strong> · 인구 60% + 4대銀 점포수 40% (백분위 가중평균)</li>
+      </ul>
+      <p class="ref-sub">입지 점수 가중치</p>
+      <ul class="ref-list">
+        <li><strong>사업체수 45%</strong> · <strong>가구소득 35%</strong> · <strong>시장 규모 20%</strong></li>
+        <li>시장 규모: <em>서울</em> 자치구는 <strong>유동인구</strong>, 그 외는 <strong>인구</strong>. 모든 시·군·구 백분위 가중평균 (0~100).</li>
       </ul>
       <p class="ref-sub">예정 (확장 계획)</p>
       <ul class="ref-list ref-list-pending">
+        <li><span class="ref-off">○</span> <strong>가구 자산</strong> · 시·군·구 단위 KOSIS 데이터 부재로 보류</li>
         <li><span class="ref-off">○</span> <strong>지가·임대</strong> · 한국부동산원 R-ONE / 국토부 실거래가
           <span class="ref-warn">현재 호출되는 R-ONE 표가 옛 데이터만 반환하여 일시 비활성화</span></li>
-        <li><span class="ref-off">○</span> <strong>사업체·종사자</strong> · 통계청 전국사업체조사</li>
-        <li><span class="ref-off">○</span> <strong>가구소득·자산</strong> · 통계청 가계금융복지조사</li>
-        <li><span class="ref-off">○</span> <strong>유동인구</strong> · 통신사 / 서울 열린데이터광장</li>
+        <li><span class="ref-off">○</span> <strong>유동인구 (전국)</strong> · 통신사 데이터 (현재는 서울만 가용)</li>
         <li><span class="ref-off">○</span> <strong>대중교통 접근성</strong> · 국토부 환승통계 / 지하철 승하차</li>
       </ul>
       <p class="ref-note" id="region-stats-note">영업점 마커 클릭 시 해당 시·군·구의 입지 점수와 기초자료가 표시됩니다.</p>

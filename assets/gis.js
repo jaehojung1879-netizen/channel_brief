@@ -333,7 +333,7 @@ function clearMarkers() {
 
 function regionStatsHtml(b) {
   if (!STATE.regionStats || !STATE.regionStats.regions) {
-    return `<div class="rs-empty">통계청·한국부동산원 자료는 다음 워크플로 실행 후 표시됩니다.</div>`;
+    return `<div class="rs-empty">통계청·한국부동산원·서울OpenAPI 자료는 다음 워크플로 실행 후 표시됩니다.</div>`;
   }
   const key = regionKeyFromAddress(b.address || b.road_address || '');
   const entry = key && STATE.regionStats.regions[key];
@@ -342,17 +342,47 @@ function regionStatsHtml(b) {
   }
   const rows = [];
 
-  // 종합 입지 점수 (0~100). 모든 시·군·구 대비 백분위 가중평균.
+  // 종합 입지 점수 — 사업체수 45% / 소득 35% / 시장(인구·유동인구) 20%.
   const sc = entry.location_score;
   if (sc && sc.value != null) {
     const v = Number(sc.value).toFixed(1);
     rows.push(`<div class="rs-row rs-score"><span class="k">입지 점수</span><span class="v">${v} / 100</span><span class="src">백분위</span></div>`);
+    const c = sc.components || {};
+    const parts = [];
+    if (c.businesses_pct != null) parts.push(`사업체 ${Number(c.businesses_pct).toFixed(0)}p`);
+    if (c.income_pct != null) parts.push(`소득 ${Number(c.income_pct).toFixed(0)}p`);
+    if (c.market_pct != null) {
+      const lbl = c.market_source === 'floating_population' ? '유동인구' : '인구';
+      parts.push(`${lbl} ${Number(c.market_pct).toFixed(0)}p`);
+    }
+    if (c.branch_density_pct != null) parts.push(`점포밀도 ${Number(c.branch_density_pct).toFixed(0)}p`);
+    if (parts.length) {
+      rows.push(`<div class="rs-row rs-score-breakdown"><span class="k"></span><span class="v">${escHtml(parts.join(' · '))}</span><span class="src"></span></div>`);
+    }
   }
 
+  if (entry.businesses && entry.businesses.value != null) {
+    const v = Number(entry.businesses.value).toLocaleString();
+    const period = entry.businesses.period ? ` (${escHtml(entry.businesses.period)})` : '';
+    rows.push(`<div class="rs-row"><span class="k">사업체수</span><span class="v">${v} 개${period}</span><span class="src">KOSIS</span></div>`);
+  }
+  if (entry.income && entry.income.value != null) {
+    const raw = Number(entry.income.value);
+    const v = Number.isFinite(raw) ? raw.toLocaleString(undefined, { maximumFractionDigits: 0 }) : '—';
+    const unit = entry.income.unit ? ` ${escHtml(entry.income.unit)}` : '';
+    const period = entry.income.period ? ` (${escHtml(entry.income.period)})` : '';
+    const scope = entry.income.scope === 'sido' ? ' · 시·도 평균' : '';
+    rows.push(`<div class="rs-row"><span class="k">평균 가구소득</span><span class="v">${v}${unit}${period}</span><span class="src">KOSIS${scope}</span></div>`);
+  }
   if (entry.population && entry.population.value != null) {
     const v = Number(entry.population.value).toLocaleString();
     const period = entry.population.period ? ` (${escHtml(entry.population.period)})` : '';
     rows.push(`<div class="rs-row"><span class="k">인구</span><span class="v">${v} 명${period}</span><span class="src">KOSIS</span></div>`);
+  }
+  if (entry.floating_population && entry.floating_population.value != null) {
+    const v = Number(entry.floating_population.value).toLocaleString(undefined, { maximumFractionDigits: 1 });
+    const samples = entry.floating_population.samples ? ` · n=${entry.floating_population.samples.toLocaleString()}` : '';
+    rows.push(`<div class="rs-row"><span class="k">유동인구</span><span class="v">${v} 명/측정${samples}</span><span class="src">서울 OpenAPI</span></div>`);
   }
   if (entry.branch_count != null) {
     rows.push(`<div class="rs-row"><span class="k">관내 4대銀 점포</span><span class="v">${entry.branch_count.toLocaleString()} 개</span><span class="src">Kakao</span></div>`);

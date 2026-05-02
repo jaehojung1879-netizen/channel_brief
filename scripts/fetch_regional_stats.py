@@ -1,20 +1,22 @@
 """
 영업점 소재 시·군·구별 입지 분석 기초자료 수집.
 
-- 통계청 KOSIS Open API 에서 시·군·구별 주민등록 인구·세대 수,
-- 한국부동산원 R-ONE 부동산통계정보 Open API 에서 시·군·구 단위 매매가격지수
-  (또는 가능 시 평균지가 / 임대료 지수) 를 받아 옵니다.
+- 통계청 KOSIS Open API: 인구 (시·군·구), 사업체수 (시·군·구), 평균 가구소득 (시·도)
+- 한국부동산원 R-ONE Open API: 시·군·구 매매가격지수
+- 서울 열린데이터광장: IoT 유동인구 센서 (자치구별, 서울만)
 - 결과: data/regional_stats.json
-- 비공개 키가 미설정이면 graceful skip 합니다 (frontend 는 '미수집' 표기).
+- 비공개 키 미설정 시 graceful skip.
 
 환경변수 (없으면 graceful skip):
   KOSIS    — 통계청 KOSIS Open API 인증키
   R_ONE    — 한국부동산원 R-ONE Open API 인증키
+  SEOUL    — 서울 열린데이터광장 사용자키 (서울 자치구 유동인구 한정)
 """
 from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
 import re
 import sys
@@ -32,24 +34,68 @@ BRANCHES_PATH = DATA_DIR / "kakao_branches.json"
 OUT_PATH = DATA_DIR / "regional_stats.json"
 
 KOSIS_BASE = "https://kosis.kr/openapi/Param/statisticsParameterData.do"
-# 행정안전부 주민등록 인구·세대수 (월별, 시군구) — 가장 일반적으로 쓰이는 표.
+
+# ---------- KOSIS 표 정의 ----------
+# 행정안전부 주민등록 인구·세대수 (월별, 시군구).
 KOSIS_POP_TBL = {
-    "orgId": "101",          # 통계청
-    "tblId": "DT_1B040A3",   # 시군구별 주민등록인구 (월별)
-    "itmId": "T20",          # 총인구
+    "orgId": "101",
+    "tblId": "DT_1B040A3",
+    "itmId": "T20",
     "objL1": "ALL",
     "format": "json",
     "jsonVD": "Y",
     "prdSe": "M",
     "newEstPrdCnt": "1",
 }
+# 전국사업체조사 시·군·구별 사업체수 (연간). 주의: KOSIS 카탈로그에서 표 ID
+# / itmId 가 변경될 수 있으니, 실패 로그가 보이면 본 정의를 갱신.
+KOSIS_BIZ_TBL = {
+    "orgId": "101",
+    "tblId": "DT_1K52001",
+    "itmId": "T01",          # 사업체수
+    "objL1": "ALL",
+    "format": "json",
+    "jsonVD": "Y",
+    "prdSe": "Y",
+    "newEstPrdCnt": "1",
+}
+# 가계금융복지조사 시·도별 가구 평균 경상소득 (연간). 시·군·구 단위 직접
+# 데이터는 KOSIS 에 사실상 없어 시·도 평균을 하위 시·군·구에 동일 적용 (proxy).
+KOSIS_INCOME_TBL = {
+    "orgId": "101",
+    "tblId": "DT_1L9H001",
+    "itmId": "T01",          # 평균 경상소득
+    "objL1": "ALL",
+    "format": "json",
+    "jsonVD": "Y",
+    "prdSe": "Y",
+    "newEstPrdCnt": "1",
+}
 
 R_ONE_BASE = "https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do"
-# 시군구 매매가격지수 (월) — STATBL_ID 는 R-ONE 사이트에서 확인 가능.
 R_ONE_TBL = {
-    "STATBL_ID": "A_2024_00045",   # 시군구 종합 매매가격지수 (월간)
+    "STATBL_ID": "A_2024_00045",
     "DTACYCLE_CD": "MM",
     "Type": "json",
+}
+
+# ---------- Seoul 열린데이터광장 ----------
+SEOUL_API_BASE = "http://openapi.seoul.go.kr:8088"
+SEOUL_FLOATING_SERVICE = "IotVdata018"  # 시민생활 데이터 IoT 유동인구 센서
+SEOUL_FLOATING_PAGE = 1000               # 한 호출 최대 행수
+SEOUL_FLOATING_MAX_ROWS = 30000          # 가장 최근 N 행만 사용 (≈ 최근 6 시간 분량)
+
+# 자치구 영문 표기 → 한글 (Seoul OpenAPI 응답은 영문 표기).
+SEOUL_DISTRICT_KO = {
+    "Jongno-gu": "종로구", "Jung-gu": "중구", "Yongsan-gu": "용산구",
+    "Seongdong-gu": "성동구", "Gwangjin-gu": "광진구", "Dongdaemun-gu": "동대문구",
+    "Jungnang-gu": "중랑구", "Seongbuk-gu": "성북구", "Gangbuk-gu": "강북구",
+    "Dobong-gu": "도봉구", "Nowon-gu": "노원구", "Eunpyeong-gu": "은평구",
+    "Seodaemun-gu": "서대문구", "Mapo-gu": "마포구", "Yangcheon-gu": "양천구",
+    "Gangseo-gu": "강서구", "Guro-gu": "구로구", "Geumcheon-gu": "금천구",
+    "Yeongdeungpo-gu": "영등포구", "Dongjak-gu": "동작구", "Gwanak-gu": "관악구",
+    "Seocho-gu": "서초구", "Gangnam-gu": "강남구", "Songpa-gu": "송파구",
+    "Gangdong-gu": "강동구",
 }
 
 # 광역시·도 prefix → 표준 라벨 (kakao_branches address 첫 토큰 매핑용)
@@ -131,27 +177,26 @@ def _collect_regions() -> tuple[list[dict], dict[str, int]]:
     return region_list, dict(counts)
 
 
-def _fetch_kosis_table(api_key: str) -> tuple[list | None, str | None]:
-    """KOSIS 시·군·구별 주민등록 인구 표 전체를 1 회 호출로 받아온다.
+def _fetch_kosis_table(api_key: str, tbl_config: dict | None = None, label: str = "kosis") -> tuple[list | None, str | None]:
+    """KOSIS 표 전체를 1 회 호출로 받아온다 (인구·사업체·소득 등 공용).
     반환값: (rows, error_msg). 정상 시 error_msg=None.
     """
-    params = dict(KOSIS_POP_TBL)
+    params = dict(tbl_config if tbl_config is not None else KOSIS_POP_TBL)
     params["apiKey"] = api_key
     try:
         r = requests.get(KOSIS_BASE, params=params, timeout=60)
     except requests.RequestException as e:
-        return None, f"request_failed: {e!r}"
+        return None, f"{label}_request_failed: {e!r}"
     if r.status_code != 200:
-        return None, f"http_{r.status_code}: {r.text[:200]}"
+        return None, f"{label}_http_{r.status_code}: {r.text[:200]}"
     try:
         body = r.json()
     except ValueError as e:
-        return None, f"non_json_response: {e!r} body={r.text[:200]}"
+        return None, f"{label}_non_json: {e!r} body={r.text[:200]}"
     if isinstance(body, dict) and body.get("err") is not None:
-        # KOSIS 가 인증 실패 등에서 dict 로 에러 반환하는 경우.
-        return None, f"api_error: {body!r}"[:300]
+        return None, f"{label}_api_error: {body!r}"[:300]
     if not isinstance(body, list):
-        return None, f"unexpected_payload type={type(body).__name__} sample={str(body)[:200]}"
+        return None, f"{label}_unexpected_payload type={type(body).__name__} sample={str(body)[:200]}"
     return body, None
 
 
@@ -168,17 +213,124 @@ def _build_kosis_index(rows: list) -> dict[str, dict]:
     return by_nm
 
 
-def _kosis_row_to_value(latest: dict) -> dict:
-    try:
-        val = int(float(latest.get("DT") or 0))
-    except (TypeError, ValueError):
-        val = None
+def _kosis_row_to_value(latest: dict, default_unit: str = "명") -> dict:
+    raw = latest.get("DT")
+    val: float | int | None = None
+    if raw not in (None, ""):
+        try:
+            f = float(raw)
+            val = int(f) if f.is_integer() else f
+        except (TypeError, ValueError):
+            val = None
     return {
         "value": val,
         "period": latest.get("PRD_DE"),
         "label": latest.get("C1_NM"),
-        "unit": latest.get("UNIT_NM") or "명",
+        "unit": latest.get("UNIT_NM") or default_unit,
     }
+
+
+# ---------- Seoul OpenAPI 유동인구 ----------
+
+def _fetch_seoul_floating(api_key: str, max_rows: int = SEOUL_FLOATING_MAX_ROWS) -> tuple[dict[str, dict], str | None]:
+    """Seoul IoT 유동인구 센서 (IotVdata018) 의 가장 최근 max_rows 행을 받아
+    자치구별 (한글 라벨) 평균 visitor count 산출.
+
+    Seoul OpenAPI URL 패턴:
+      http://openapi.seoul.go.kr:8088/{KEY}/{TYPE}/{SERVICE}/{START}/{END}/
+    pagination 은 1-indexed inclusive, 한 호출 최대 1000 행.
+
+    반환: (자치구_한글 → {value, samples, total, unit, source}, error_msg or None).
+    error_msg 는 부분 실패 시 경고용 (정상이면 None).
+    """
+    # 1) 총 row 수 조회 (1..1).
+    url0 = f"{SEOUL_API_BASE}/{api_key}/json/{SEOUL_FLOATING_SERVICE}/1/1"
+    try:
+        r = requests.get(url0, timeout=30)
+    except requests.RequestException as e:
+        return {}, f"seoul_init_request: {e!r}"
+    if r.status_code != 200:
+        return {}, f"seoul_init_http_{r.status_code}: {r.text[:200]}"
+    try:
+        body = r.json()
+    except ValueError as e:
+        return {}, f"seoul_init_non_json: {e!r} body={r.text[:200]}"
+
+    container = body.get(SEOUL_FLOATING_SERVICE) or {}
+    result = container.get("RESULT") or {}
+    if isinstance(result, dict):
+        code = str(result.get("CODE") or "")
+        if code and code not in ("INFO-000", "00", "0"):
+            return {}, f"seoul_api_error: code={code} msg={result.get('MESSAGE')!s:.200}"
+
+    try:
+        total = int(container.get("list_total_count") or 0)
+    except (TypeError, ValueError):
+        total = 0
+    if total <= 0:
+        return {}, f"seoul_empty_total: keys={list(container.keys())}"
+
+    end = total
+    start = max(1, end - max_rows + 1)
+    print(
+        f"[fetch] Seoul 유동인구: 전체 {total} 행 중 최근 {end - start + 1} 행 호출 (start={start} end={end})",
+        flush=True,
+    )
+
+    counts: dict[str, list[int]] = {}
+    pages_ok = 0
+    pages_fail = 0
+    last_err: str | None = None
+    cur = start
+    while cur <= end:
+        cur_end = min(cur + SEOUL_FLOATING_PAGE - 1, end)
+        url = f"{SEOUL_API_BASE}/{api_key}/json/{SEOUL_FLOATING_SERVICE}/{cur}/{cur_end}"
+        try:
+            r = requests.get(url, timeout=30)
+            body = r.json()
+        except (requests.RequestException, ValueError) as e:
+            last_err = f"page_{cur}_{cur_end}: {e!r}"
+            pages_fail += 1
+            cur = cur_end + 1
+            continue
+
+        rows = (body.get(SEOUL_FLOATING_SERVICE) or {}).get("row") or []
+        if not isinstance(rows, list):
+            rows = []
+        for row in rows:
+            district_en = (row.get("AUTONOMOUS_DISTRICT") or "").strip()
+            district_ko = SEOUL_DISTRICT_KO.get(district_en)
+            if not district_ko:
+                continue
+            try:
+                v = int(row.get("VISITOR_COUNT") or 0)
+            except (ValueError, TypeError):
+                continue
+            if v < 0:
+                continue
+            counts.setdefault(district_ko, []).append(v)
+        pages_ok += 1
+        cur = cur_end + 1
+
+    out: dict[str, dict] = {}
+    now_kst = datetime.now(KST).strftime("%Y-%m-%d")
+    for district_ko, vs in counts.items():
+        if not vs:
+            continue
+        out[district_ko] = {
+            "value": round(sum(vs) / len(vs), 2),
+            "total": sum(vs),
+            "samples": len(vs),
+            "period": now_kst,
+            "unit": "명/측정",
+            "source": "Seoul OpenAPI · IotVdata018",
+        }
+    print(
+        f"[fetch] Seoul 유동인구 처리 완료: {pages_ok} 페이지 성공 / {pages_fail} 실패, "
+        f"{len(out)} 자치구 집계",
+        flush=True,
+    )
+    return out, last_err
 
 
 def _fetch_rone_table(api_key: str) -> tuple[list | None, str | None]:
@@ -382,18 +534,45 @@ def main(argv: list[str] | None = None) -> int:
         print("[skip] R_ONE 키 미설정 — R-ONE 단독 수집 건너뜀.")
         return 0
 
-    # 표 전체를 1 회 (R-ONE 은 페이징) 만 받아 로컬 인덱스로 룩업.
-    kosis_index: dict[str, dict] = {}
+    # KOSIS 워크플로 (kosis / both) 에 한해 서울 유동인구도 동시에 수집.
+    seoul_key = (os.environ.get("SEOUL") or "").strip() if do_kosis else ""
+    diagnostics["seoul_key"] = "set" if seoul_key else ("skip" if not do_kosis else "empty")
+
+    # 인덱스 준비.
+    kosis_pop_index: dict[str, dict] = {}
+    kosis_biz_index: dict[str, dict] = {}
+    kosis_income_sido_index: dict[str, dict] = {}
     rone_index: dict[str, dict] = {}
+    seoul_floating: dict[str, dict] = {}
+
     if kosis_key:
         print("[fetch] KOSIS 시·군·구별 인구 표 호출…", flush=True)
-        rows, err = _fetch_kosis_table(kosis_key)
+        rows, err = _fetch_kosis_table(kosis_key, KOSIS_POP_TBL, label="kosis_pop")
         if err:
-            print(f"[error] KOSIS fetch 실패: {err}", flush=True)
-            diagnostics["kosis_error"] = err
+            print(f"[error] KOSIS 인구 fetch 실패: {err}", flush=True)
+            diagnostics["kosis_pop_error"] = err
         else:
-            kosis_index = _build_kosis_index(rows or [])
-            print(f"[fetch] KOSIS rows={len(rows or [])}, unique 지역={len(kosis_index)}", flush=True)
+            kosis_pop_index = _build_kosis_index(rows or [])
+            print(f"[fetch] KOSIS 인구 rows={len(rows or [])}, unique 지역={len(kosis_pop_index)}", flush=True)
+
+        print("[fetch] KOSIS 시·군·구별 사업체수 표 호출…", flush=True)
+        rows, err = _fetch_kosis_table(kosis_key, KOSIS_BIZ_TBL, label="kosis_biz")
+        if err:
+            print(f"[error] KOSIS 사업체수 fetch 실패: {err}", flush=True)
+            diagnostics["kosis_biz_error"] = err
+        else:
+            kosis_biz_index = _build_kosis_index(rows or [])
+            print(f"[fetch] KOSIS 사업체수 rows={len(rows or [])}, unique 지역={len(kosis_biz_index)}", flush=True)
+
+        print("[fetch] KOSIS 시·도별 평균 가구 경상소득 표 호출…", flush=True)
+        rows, err = _fetch_kosis_table(kosis_key, KOSIS_INCOME_TBL, label="kosis_income")
+        if err:
+            print(f"[error] KOSIS 소득 fetch 실패: {err}", flush=True)
+            diagnostics["kosis_income_error"] = err
+        else:
+            kosis_income_sido_index = _build_kosis_index(rows or [])
+            print(f"[fetch] KOSIS 소득 rows={len(rows or [])}, unique 시·도={len(kosis_income_sido_index)}", flush=True)
+
     if rone_key:
         print("[fetch] R-ONE 시·군·구 매매가격지수 표 페이징 호출…", flush=True)
         rows, err = _fetch_rone_table(rone_key)
@@ -402,14 +581,29 @@ def main(argv: list[str] | None = None) -> int:
             diagnostics["r_one_error"] = err
         else:
             if err:
-                # 일부 페이지만 실패한 경우는 경고만 남기고 진행.
                 print(f"[warn] R-ONE 부분 실패: {err}", flush=True)
                 diagnostics["r_one_warn"] = err
             rone_index = _build_rone_index(rows or [])
             print(f"[fetch] R-ONE rows={len(rows or [])}, unique 지역={len(rone_index)}", flush=True)
 
+    if seoul_key:
+        try:
+            seoul_floating, err = _fetch_seoul_floating(seoul_key)
+            if err:
+                print(f"[warn] Seoul 유동인구 부분 실패: {err}", flush=True)
+                diagnostics["seoul_warn"] = err
+            diagnostics["seoul_districts"] = len(seoul_floating)
+        except requests.RequestException as e:  # pragma: no cover — 안전망
+            print(f"[error] Seoul 유동인구 호출 예외: {e!r}", flush=True)
+            diagnostics["seoul_error"] = repr(e)[:200]
+
     out: dict[str, dict] = {}
-    pop_ok = pop_fail = rone_ok = rone_fail = 0
+    pop_ok = pop_fail = 0
+    biz_ok = biz_fail = 0
+    income_ok = income_fail = 0
+    rone_ok = rone_fail = 0
+    flow_ok = 0
+
     for region in regions:
         prev = existing_regions.get(region["key"]) or {}
         entry: dict = {
@@ -417,28 +611,73 @@ def main(argv: list[str] | None = None) -> int:
             "sigungu": region["sigungu"],
             "branch_count": counts.get(region["key"], 0),
         }
-        # 미실행 source 의 데이터는 기존 값 그대로 보존
-        if "population" in prev and not do_kosis:
-            entry["population"] = prev["population"]
-        if "price_index" in prev and not do_rone:
+        # 미실행 source 의 데이터는 기존 값 그대로 보존.
+        if not do_kosis:
+            for k in ("population", "businesses", "income"):
+                if k in prev:
+                    entry[k] = prev[k]
+            if "floating_population" in prev:
+                entry["floating_population"] = prev["floating_population"]
+        if not do_rone and "price_index" in prev:
             entry["price_index"] = prev["price_index"]
 
+        # KOSIS 인구
         if kosis_key:
-            row = _lookup_region(kosis_index, region)
+            row = _lookup_region(kosis_pop_index, region)
             if row is not None:
-                entry["population"] = _kosis_row_to_value(row)
+                entry["population"] = _kosis_row_to_value(row, default_unit="명")
                 pop_ok += 1
             else:
                 if "population" in prev:
                     entry["population"] = prev["population"]
                 pop_fail += 1
+
+        # KOSIS 사업체수
+        if kosis_key and kosis_biz_index:
+            row = _lookup_region(kosis_biz_index, region)
+            if row is not None:
+                entry["businesses"] = _kosis_row_to_value(row, default_unit="개")
+                biz_ok += 1
+            else:
+                if "businesses" in prev:
+                    entry["businesses"] = prev["businesses"]
+                biz_fail += 1
+
+        # KOSIS 소득 (시·도 평균을 하위 시·군·구에 부여 — proxy)
+        if kosis_key and kosis_income_sido_index:
+            sido = region["sido"]
+            sido_target = sido.replace(" ", "")
+            sido_row = kosis_income_sido_index.get(sido_target)
+            if sido_row is None:
+                # partial match
+                for nm, r_ in kosis_income_sido_index.items():
+                    if sido_target and (sido_target in nm or nm in sido_target):
+                        sido_row = r_
+                        break
+            if sido_row is not None:
+                v = _kosis_row_to_value(sido_row, default_unit="만원")
+                v["scope"] = "sido"
+                v["note"] = f"{sido} 시·도 평균 (시·군·구 직접 데이터 부재)"
+                entry["income"] = v
+                income_ok += 1
+            else:
+                if "income" in prev:
+                    entry["income"] = prev["income"]
+                income_fail += 1
+
+        # 서울 자치구 유동인구
+        if kosis_key and seoul_floating and region["sido"] == "서울":
+            sigungu_target = region["sigungu"].replace(" ", "")
+            fp = seoul_floating.get(sigungu_target)
+            if fp is not None:
+                entry["floating_population"] = fp
+                flow_ok += 1
+
+        # R-ONE 매매가격지수 (옛 스냅샷이면 폐기)
         if rone_key:
             row = _lookup_region(rone_index, region)
             if row is not None:
                 pi = _rone_row_to_value(row)
-                # 시점이 너무 과거 (PRICE_INDEX_MAX_AGE_MONTHS 초과) 면 폐기.
-                # R-ONE 카탈로그의 일부 STATBL_ID 가 2005년 등 옛 스냅샷만 반환하는
-                # 케이스를 차단해서, UI 에 잘못된 인상을 주지 않도록.
                 if _is_period_recent_enough(pi.get("period")):
                     entry["price_index"] = pi
                     rone_ok += 1
@@ -448,30 +687,38 @@ def main(argv: list[str] | None = None) -> int:
                 if "price_index" in prev:
                     entry["price_index"] = prev["price_index"]
                 rone_fail += 1
+
         out[region["key"]] = entry
+
     print(
-        f"[summary] {len(regions)} 지역 처리: KOSIS ok={pop_ok}/fail={pop_fail}, "
-        f"R-ONE ok={rone_ok}/fail={rone_fail}",
+        f"[summary] {len(regions)} 지역 처리: pop ok={pop_ok}/fail={pop_fail}, "
+        f"biz ok={biz_ok}/fail={biz_fail}, income ok={income_ok}/fail={income_fail}, "
+        f"flow(서울) ok={flow_ok}, R-ONE ok={rone_ok}/fail={rone_fail}",
         flush=True,
     )
 
     if do_kosis:
         diagnostics["population_ok"] = pop_ok
         diagnostics["population_fail"] = pop_fail
+        diagnostics["businesses_ok"] = biz_ok
+        diagnostics["businesses_fail"] = biz_fail
+        diagnostics["income_ok"] = income_ok
+        diagnostics["income_fail"] = income_fail
+        if seoul_key:
+            diagnostics["floating_ok"] = flow_ok
     else:
-        # 이전 진단치 유지
-        if "population_ok" in existing_diag:
-            diagnostics["population_ok"] = existing_diag["population_ok"]
-        if "population_fail" in existing_diag:
-            diagnostics["population_fail"] = existing_diag["population_fail"]
+        for k in ("population_ok", "population_fail",
+                  "businesses_ok", "businesses_fail",
+                  "income_ok", "income_fail", "floating_ok"):
+            if k in existing_diag:
+                diagnostics[k] = existing_diag[k]
     if do_rone:
         diagnostics["price_index_ok"] = rone_ok
         diagnostics["price_index_fail"] = rone_fail
     else:
-        if "price_index_ok" in existing_diag:
-            diagnostics["price_index_ok"] = existing_diag["price_index_ok"]
-        if "price_index_fail" in existing_diag:
-            diagnostics["price_index_fail"] = existing_diag["price_index_fail"]
+        for k in ("price_index_ok", "price_index_fail"):
+            if k in existing_diag:
+                diagnostics[k] = existing_diag[k]
 
     _attach_location_scores(out)
 
@@ -480,70 +727,121 @@ def main(argv: list[str] | None = None) -> int:
         "regions": out,
         "diagnostics": diagnostics,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[done] regional_stats.json 갱신 ({args.source}): {len(out)} 지역 (pop ok={pop_ok}, rone ok={rone_ok})")
+    print(f"[done] regional_stats.json 갱신 ({args.source}): {len(out)} 지역", flush=True)
     return 0
 
 
 def _attach_location_scores(regions_out: dict[str, dict]) -> None:
     """각 시·군·구에 0~100 입지 점수 (location_score) 부여.
 
-    실제 수집되는 두 가지 신호만 사용 (정직 우선):
-      - 인구 규모 (KOSIS): 시장 잠재력 프록시. log 변환 후 백분위.
-      - 4 대銀 점포 수 (Kakao): 상권 활성도 프록시. log 변환 후 백분위.
-    각각의 백분위를 0~100 으로 환산해 가중평균 (인구 60% / 점포 40%).
-    데이터가 부족한 지역은 점수 None.
-    """
-    import math
+    가중치 (실무 경험 기반):
+      - 사업체수 (KOSIS, 시·군·구):   45 %
+      - 가구 평균소득 (KOSIS, 시·도):  35 %
+      - 시장 규모: 20 %
+          서울 자치구는 'floating_population' (Seoul OpenAPI IoT 유동인구) 사용,
+          그 외 시·군·구는 'population' 사용.
 
-    def _log_pct(values: list[float]) -> dict[int, float]:
-        """index → percentile (0~100). 입력은 양수만 가정."""
-        if not values:
+    각 컴포넌트는 모든 시·군·구 대비 log 변환 백분위 (0~100). 누락 컴포넌트는
+    제외하고 남은 가중치를 정규화해 점수 산출. 컴포넌트가 하나도 없으면
+    point None.
+    """
+
+    def _log_pct(idx_values: list[tuple[int, float]]) -> dict[int, float]:
+        """[(원본인덱스, 값)] → 인덱스 → 백분위 (0~100)."""
+        if not idx_values:
             return {}
-        logs = [math.log(max(v, 1.0)) for v in values]
-        ranks = sorted(range(len(logs)), key=lambda i: logs[i])
-        out_pct: dict[int, float] = {}
-        n = len(ranks)
-        for order, idx in enumerate(ranks):
-            out_pct[idx] = (order / max(n - 1, 1)) * 100.0
-        return out_pct
+        logs = [(idx, math.log(max(v, 1.0))) for idx, v in idx_values]
+        logs.sort(key=lambda p: p[1])
+        n = len(logs)
+        return {idx: (order / max(n - 1, 1)) * 100.0 for order, (idx, _) in enumerate(logs)}
 
     keys = list(regions_out.keys())
-    pops: list[float | None] = []
-    brs: list[float | None] = []
-    for k in keys:
-        e = regions_out[k]
-        pop = (e.get("population") or {}).get("value")
-        pops.append(float(pop) if isinstance(pop, (int, float)) and pop > 0 else None)
-        bc = e.get("branch_count")
-        brs.append(float(bc) if isinstance(bc, (int, float)) and bc > 0 else None)
 
-    # 백분위 계산용 인덱스 (None 제외)
-    pop_idx = [i for i, v in enumerate(pops) if v is not None]
-    pop_pct = _log_pct([pops[i] for i in pop_idx]) if pop_idx else {}
-    pop_pct_full: dict[int, float] = {pop_idx[j]: v for j, v in pop_pct.items()} if pop_pct else {}
+    def _collect(field: str, sub: str = "value") -> list[tuple[int, float]]:
+        out_l: list[tuple[int, float]] = []
+        for i, k in enumerate(keys):
+            e = regions_out[k]
+            obj = e.get(field) or {}
+            v = obj.get(sub) if isinstance(obj, dict) else None
+            if isinstance(v, (int, float)) and v > 0:
+                out_l.append((i, float(v)))
+        return out_l
 
-    br_idx = [i for i, v in enumerate(brs) if v is not None]
-    br_pct = _log_pct([brs[i] for i in br_idx]) if br_idx else {}
-    br_pct_full: dict[int, float] = {br_idx[j]: v for j, v in br_pct.items()} if br_pct else {}
+    biz_pct = _log_pct(_collect("businesses"))
+    income_pct = _log_pct(_collect("income"))
+    pop_pct = _log_pct(_collect("population"))
+    flow_pct = _log_pct(_collect("floating_population"))
+
+    # 점포수 (4 대銀) 는 score 에는 포함하지 않지만, 컴포넌트 분해용 참고치로 노출.
+    branch_idx_values = [
+        (i, float(regions_out[k].get("branch_count")))
+        for i, k in enumerate(keys)
+        if isinstance(regions_out[k].get("branch_count"), (int, float))
+        and regions_out[k]["branch_count"] > 0
+    ]
+    branch_pct = _log_pct(branch_idx_values)
+
+    W_BIZ = 0.45
+    W_INCOME = 0.35
+    W_MARKET = 0.20  # 인구 또는 유동인구
 
     for i, k in enumerate(keys):
-        components: list[tuple[float, float]] = []  # (weight, value)
-        if i in pop_pct_full:
-            components.append((0.6, pop_pct_full[i]))
-        if i in br_pct_full:
-            components.append((0.4, br_pct_full[i]))
+        e = regions_out[k]
+        is_seoul = e.get("sido") == "서울"
+        # 서울이면 유동인구 우선, 없으면 인구로 fallback. 비서울은 인구.
+        market_pct: float | None = None
+        market_source: str | None = None
+        if is_seoul and i in flow_pct:
+            market_pct = flow_pct[i]
+            market_source = "floating_population"
+        elif i in pop_pct:
+            market_pct = pop_pct[i]
+            market_source = "population"
+
+        components: list[tuple[float, float]] = []
+        if i in biz_pct:
+            components.append((W_BIZ, biz_pct[i]))
+        if i in income_pct:
+            components.append((W_INCOME, income_pct[i]))
+        if market_pct is not None:
+            components.append((W_MARKET, market_pct))
+
         if not components:
-            regions_out[k]["location_score"] = None
+            # Fallback: 주요 컴포넌트 모두 없을 때만 점포밀도를 임시 점수로 사용
+            # (워크플로 첫 실행 직후 데이터가 차오르기 전 UI 가 비지 않도록).
+            if i in branch_pct:
+                e["location_score"] = {
+                    "value": round(branch_pct[i], 1),
+                    "components": {
+                        "businesses_pct": None,
+                        "income_pct": None,
+                        "market_pct": None,
+                        "market_source": None,
+                        "branch_density_pct": round(branch_pct[i], 1),
+                    },
+                    "weights": {"branch_density_fallback": 1.0},
+                    "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체.",
+                }
+            else:
+                e["location_score"] = None
             continue
         total_w = sum(w for w, _ in components)
         score = sum(w * v for w, v in components) / total_w
-        regions_out[k]["location_score"] = {
+        e["location_score"] = {
             "value": round(score, 1),
             "components": {
-                "population_pct": round(pop_pct_full[i], 1) if i in pop_pct_full else None,
-                "branch_density_pct": round(br_pct_full[i], 1) if i in br_pct_full else None,
+                "businesses_pct": round(biz_pct[i], 1) if i in biz_pct else None,
+                "income_pct": round(income_pct[i], 1) if i in income_pct else None,
+                "market_pct": round(market_pct, 1) if market_pct is not None else None,
+                "market_source": market_source,
+                "branch_density_pct": round(branch_pct[i], 1) if i in branch_pct else None,
             },
-            "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)",
+            "weights": {"businesses": W_BIZ, "income": W_INCOME, "market": W_MARKET},
+            "note": (
+                "사업체수 45% · 가구소득 35% · "
+                "시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. "
+                "누락 컴포넌트는 가중치 정규화로 제외."
+            ),
         }
 
 
