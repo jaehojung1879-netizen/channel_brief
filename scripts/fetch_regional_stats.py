@@ -278,6 +278,28 @@ def _rone_row_to_value(latest: dict) -> dict:
     }
 
 
+# R-ONE 표가 너무 오래된 시점만 반환할 경우 (예: 2005년) 표시는 무의미하므로,
+# 최근 N 년 이내 시점만 유효 데이터로 인정.
+PRICE_INDEX_MAX_AGE_MONTHS = 24
+
+
+def _is_period_recent_enough(period: str | None) -> bool:
+    """WRTTIME_IDTFR_ID (보통 'YYYYMM') 가 최근 PRICE_INDEX_MAX_AGE_MONTHS 이내인지."""
+    if not period:
+        return False
+    s = str(period).strip()
+    # YYYYMM
+    if len(s) >= 6 and s[:6].isdigit():
+        try:
+            y, m = int(s[:4]), int(s[4:6])
+            now = datetime.now(KST)
+            age = (now.year - y) * 12 + (now.month - m)
+            return 0 <= age <= PRICE_INDEX_MAX_AGE_MONTHS
+        except ValueError:
+            return False
+    return False
+
+
 def _lookup_region(index: dict[str, dict], region: dict) -> dict | None:
     """로컬 인덱스에서 시·군·구 row 1 건 조회 (정확 일치 → 부분 포함 순)."""
     sido = region["sido"]
@@ -413,8 +435,15 @@ def main(argv: list[str] | None = None) -> int:
         if rone_key:
             row = _lookup_region(rone_index, region)
             if row is not None:
-                entry["price_index"] = _rone_row_to_value(row)
-                rone_ok += 1
+                pi = _rone_row_to_value(row)
+                # 시점이 너무 과거 (PRICE_INDEX_MAX_AGE_MONTHS 초과) 면 폐기.
+                # R-ONE 카탈로그의 일부 STATBL_ID 가 2005년 등 옛 스냅샷만 반환하는
+                # 케이스를 차단해서, UI 에 잘못된 인상을 주지 않도록.
+                if _is_period_recent_enough(pi.get("period")):
+                    entry["price_index"] = pi
+                    rone_ok += 1
+                else:
+                    rone_fail += 1
             else:
                 if "price_index" in prev:
                     entry["price_index"] = prev["price_index"]
@@ -444,6 +473,8 @@ def main(argv: list[str] | None = None) -> int:
         if "price_index_fail" in existing_diag:
             diagnostics["price_index_fail"] = existing_diag["price_index_fail"]
 
+    _attach_location_scores(out)
+
     OUT_PATH.write_text(json.dumps({
         "as_of": datetime.now(KST).isoformat(timespec="seconds"),
         "regions": out,
@@ -451,6 +482,69 @@ def main(argv: list[str] | None = None) -> int:
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[done] regional_stats.json 갱신 ({args.source}): {len(out)} 지역 (pop ok={pop_ok}, rone ok={rone_ok})")
     return 0
+
+
+def _attach_location_scores(regions_out: dict[str, dict]) -> None:
+    """각 시·군·구에 0~100 입지 점수 (location_score) 부여.
+
+    실제 수집되는 두 가지 신호만 사용 (정직 우선):
+      - 인구 규모 (KOSIS): 시장 잠재력 프록시. log 변환 후 백분위.
+      - 4 대銀 점포 수 (Kakao): 상권 활성도 프록시. log 변환 후 백분위.
+    각각의 백분위를 0~100 으로 환산해 가중평균 (인구 60% / 점포 40%).
+    데이터가 부족한 지역은 점수 None.
+    """
+    import math
+
+    def _log_pct(values: list[float]) -> dict[int, float]:
+        """index → percentile (0~100). 입력은 양수만 가정."""
+        if not values:
+            return {}
+        logs = [math.log(max(v, 1.0)) for v in values]
+        ranks = sorted(range(len(logs)), key=lambda i: logs[i])
+        out_pct: dict[int, float] = {}
+        n = len(ranks)
+        for order, idx in enumerate(ranks):
+            out_pct[idx] = (order / max(n - 1, 1)) * 100.0
+        return out_pct
+
+    keys = list(regions_out.keys())
+    pops: list[float | None] = []
+    brs: list[float | None] = []
+    for k in keys:
+        e = regions_out[k]
+        pop = (e.get("population") or {}).get("value")
+        pops.append(float(pop) if isinstance(pop, (int, float)) and pop > 0 else None)
+        bc = e.get("branch_count")
+        brs.append(float(bc) if isinstance(bc, (int, float)) and bc > 0 else None)
+
+    # 백분위 계산용 인덱스 (None 제외)
+    pop_idx = [i for i, v in enumerate(pops) if v is not None]
+    pop_pct = _log_pct([pops[i] for i in pop_idx]) if pop_idx else {}
+    pop_pct_full: dict[int, float] = {pop_idx[j]: v for j, v in pop_pct.items()} if pop_pct else {}
+
+    br_idx = [i for i, v in enumerate(brs) if v is not None]
+    br_pct = _log_pct([brs[i] for i in br_idx]) if br_idx else {}
+    br_pct_full: dict[int, float] = {br_idx[j]: v for j, v in br_pct.items()} if br_pct else {}
+
+    for i, k in enumerate(keys):
+        components: list[tuple[float, float]] = []  # (weight, value)
+        if i in pop_pct_full:
+            components.append((0.6, pop_pct_full[i]))
+        if i in br_pct_full:
+            components.append((0.4, br_pct_full[i]))
+        if not components:
+            regions_out[k]["location_score"] = None
+            continue
+        total_w = sum(w for w, _ in components)
+        score = sum(w * v for w, v in components) / total_w
+        regions_out[k]["location_score"] = {
+            "value": round(score, 1),
+            "components": {
+                "population_pct": round(pop_pct_full[i], 1) if i in pop_pct_full else None,
+                "branch_density_pct": round(br_pct_full[i], 1) if i in br_pct_full else None,
+            },
+            "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)",
+        }
 
 
 if __name__ == "__main__":

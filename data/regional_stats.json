@@ -11,11 +11,13 @@
         "label": "강릉시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 67.8251783910874,
-        "period": "200509",
-        "label": "강릉시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 52.0,
+        "components": {
+          "population_pct": 48.7,
+          "branch_density_pct": 56.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 고성군": {
@@ -27,6 +29,14 @@
         "period": "202603",
         "label": "고성군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 7.9,
+        "components": {
+          "population_pct": 13.2,
+          "branch_density_pct": 0.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 동해시": {
@@ -38,6 +48,14 @@
         "period": "202603",
         "label": "동해시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 29.8,
+        "components": {
+          "population_pct": 26.3,
+          "branch_density_pct": 35.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 삼척시": {
@@ -49,6 +67,14 @@
         "period": "202603",
         "label": "삼척시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 23.2,
+        "components": {
+          "population_pct": 19.1,
+          "branch_density_pct": 29.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 속초시": {
@@ -60,6 +86,14 @@
         "period": "202603",
         "label": "속초시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 29.4,
+        "components": {
+          "population_pct": 22.4,
+          "branch_density_pct": 39.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 양양군": {
@@ -71,6 +105,14 @@
         "period": "202603",
         "label": "양양군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 2.1,
+        "components": {
+          "population_pct": 3.3,
+          "branch_density_pct": 0.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 영월군": {
@@ -82,6 +124,14 @@
         "period": "202603",
         "label": "영월군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 10.1,
+        "components": {
+          "population_pct": 5.3,
+          "branch_density_pct": 17.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 원주시": {
@@ -94,17 +144,27 @@
         "label": "원주시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 81.1864964009137,
-        "period": "200509",
-        "label": "원주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 76.8,
+        "components": {
+          "population_pct": 67.8,
+          "branch_density_pct": 90.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 인제군": {
       "sido": "강원",
       "sigungu": "인제군",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 9.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 9.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "강원 정선군": {
       "sido": "강원",
@@ -115,6 +175,14 @@
         "period": "202603",
         "label": "정선군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 14.6,
+        "components": {
+          "population_pct": 4.6,
+          "branch_density_pct": 29.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 철원군": {
@@ -126,17 +194,27 @@
         "period": "202603",
         "label": "철원군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 8.8,
+        "components": {
+          "population_pct": 7.9,
+          "branch_density_pct": 10.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 춘천시": {
       "sido": "강원",
       "sigungu": "춘천시",
       "branch_count": 73,
-      "price_index": {
-        "value": 68.2599914707255,
-        "period": "200509",
-        "label": "춘천시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 95.9,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 95.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 태백시": {
@@ -148,6 +226,14 @@
         "period": "202603",
         "label": "태백시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 13.2,
+        "components": {
+          "population_pct": 6.6,
+          "branch_density_pct": 23.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 평창군": {
@@ -159,12 +245,28 @@
         "period": "202603",
         "label": "평창군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 12.3,
+        "components": {
+          "population_pct": 8.6,
+          "branch_density_pct": 17.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 홍천군": {
       "sido": "강원",
       "sigungu": "홍천군",
-      "branch_count": 8
+      "branch_count": 8,
+      "location_score": {
+        "value": 31.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 31.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "강원 화천군": {
       "sido": "강원",
@@ -175,6 +277,14 @@
         "period": "202603",
         "label": "화천군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 0.7,
+        "components": {
+          "population_pct": 0.7,
+          "branch_density_pct": 0.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "강원 횡성군": {
@@ -186,12 +296,28 @@
         "period": "202603",
         "label": "횡성군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 16.1,
+        "components": {
+          "population_pct": 11.2,
+          "branch_density_pct": 23.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 가평군": {
       "sido": "경기",
       "sigungu": "가평군",
-      "branch_count": 8
+      "branch_count": 8,
+      "location_score": {
+        "value": 31.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 31.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "경기 고양시 덕양구": {
       "sido": "경기",
@@ -203,11 +329,13 @@
         "label": "고양시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 53.537889369007,
-        "period": "200509",
-        "label": "덕양구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 89.6,
+        "components": {
+          "population_pct": 97.4,
+          "branch_density_pct": 78.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 고양시 일산동구": {
@@ -220,22 +348,26 @@
         "label": "동구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 76.119808596956,
-        "period": "200509",
-        "label": "동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 43.9,
+        "components": {
+          "population_pct": 24.3,
+          "branch_density_pct": 73.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 고양시 일산서구": {
       "sido": "경기",
       "sigungu": "고양시 일산서구",
       "branch_count": 36,
-      "price_index": {
-        "value": 78.5417060704249,
-        "period": "200509",
-        "label": "서구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 78.5,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 78.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 과천시": {
@@ -248,11 +380,13 @@
         "label": "과천시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 48.277092743428,
-        "period": "200509",
-        "label": "과천시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 29.9,
+        "components": {
+          "population_pct": 23.0,
+          "branch_density_pct": 40.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 광명시": {
@@ -265,22 +399,26 @@
         "label": "광명시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 41.8014896719372,
-        "period": "200509",
-        "label": "광명시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 61.6,
+        "components": {
+          "population_pct": 64.5,
+          "branch_density_pct": 57.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 광주시": {
       "sido": "경기",
       "sigungu": "광주시",
       "branch_count": 27,
-      "price_index": {
-        "value": 69.3730722729477,
-        "period": "200508",
-        "label": "광주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 64.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 64.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 구리시": {
@@ -293,11 +431,13 @@
         "label": "구리시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 44.5188380987757,
-        "period": "200509",
-        "label": "구리시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 45.4,
+        "components": {
+          "population_pct": 45.4,
+          "branch_density_pct": 45.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 군포시": {
@@ -310,22 +450,26 @@
         "label": "군포시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 52.4179296678007,
-        "period": "200509",
-        "label": "군포시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 56.7,
+        "components": {
+          "population_pct": 53.3,
+          "branch_density_pct": 61.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 김포시": {
       "sido": "경기",
       "sigungu": "김포시",
       "branch_count": 48,
-      "price_index": {
-        "value": 70.4630951311839,
-        "period": "200508",
-        "label": "김포시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 88.2,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 88.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 남양주시": {
@@ -338,11 +482,13 @@
         "label": "남양주시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 57.2066393353678,
-        "period": "200509",
-        "label": "남양주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 92.1,
+        "components": {
+          "population_pct": 88.2,
+          "branch_density_pct": 98.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 동두천시": {
@@ -355,22 +501,26 @@
         "label": "동두천시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 63.2423262862475,
-        "period": "200508",
-        "label": "동두천시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 26.9,
+        "components": {
+          "population_pct": 27.0,
+          "branch_density_pct": 26.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 부천시 소사구": {
       "sido": "경기",
       "sigungu": "부천시 소사구",
       "branch_count": 15,
-      "price_index": {
-        "value": 52.9217738763389,
-        "period": "200509",
-        "label": "부천시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 45.9,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 45.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 부천시 오정구": {
@@ -383,11 +533,13 @@
         "label": "부천시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 52.9217738763389,
-        "period": "200509",
-        "label": "부천시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 64.6,
+        "components": {
+          "population_pct": 89.5,
+          "branch_density_pct": 27.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 부천시 원미구": {
@@ -400,22 +552,26 @@
         "label": "부천시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 52.9217738763389,
-        "period": "200509",
-        "label": "부천시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 88.9,
+        "components": {
+          "population_pct": 90.1,
+          "branch_density_pct": 87.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 성남시 분당구": {
       "sido": "경기",
       "sigungu": "성남시 분당구",
       "branch_count": 79,
-      "price_index": {
-        "value": 58.4236191305634,
-        "period": "200509",
-        "label": "성남시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 97.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 97.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 성남시 수정구": {
@@ -428,11 +584,13 @@
         "label": "성남시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 58.4236191305634,
-        "period": "200509",
-        "label": "성남시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 81.3,
+        "components": {
+          "population_pct": 92.1,
+          "branch_density_pct": 65.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 성남시 중원구": {
@@ -445,22 +603,26 @@
         "label": "성남시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 58.4236191305634,
-        "period": "200509",
-        "label": "성남시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 82.2,
+        "components": {
+          "population_pct": 92.8,
+          "branch_density_pct": 66.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 수원시 권선구": {
       "sido": "경기",
       "sigungu": "수원시 권선구",
       "branch_count": 16,
-      "price_index": {
-        "value": 49.2195511866009,
-        "period": "200509",
-        "label": "수원시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 47.2,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 47.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 수원시 영통구": {
@@ -473,11 +635,13 @@
         "label": "수원시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 49.2195511866009,
-        "period": "200509",
-        "label": "수원시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 91.1,
+        "components": {
+          "population_pct": 99.3,
+          "branch_density_pct": 78.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 수원시 장안구": {
@@ -490,22 +654,26 @@
         "label": "수원시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 49.2195511866009,
-        "period": "200509",
-        "label": "수원시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 76.3,
+        "components": {
+          "population_pct": 100.0,
+          "branch_density_pct": 40.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 수원시 팔달구": {
       "sido": "경기",
       "sigungu": "수원시 팔달구",
       "branch_count": 25,
-      "price_index": {
-        "value": 49.2195511866009,
-        "period": "200509",
-        "label": "수원시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 62.2,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 62.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 시흥시": {
@@ -518,11 +686,13 @@
         "label": "시흥시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 45.4902029158607,
-        "period": "200509",
-        "label": "시흥시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 79.9,
+        "components": {
+          "population_pct": 78.9,
+          "branch_density_pct": 81.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 안산시 단원구": {
@@ -535,22 +705,26 @@
         "label": "안산시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 45.1872240688764,
-        "period": "200509",
-        "label": "안산시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 88.7,
+        "components": {
+          "population_pct": 85.5,
+          "branch_density_pct": 93.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 안산시 상록구": {
       "sido": "경기",
       "sigungu": "안산시 상록구",
       "branch_count": 28,
-      "price_index": {
-        "value": 45.1872240688764,
-        "period": "200509",
-        "label": "안산시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 66.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 66.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 안성시": {
@@ -563,11 +737,13 @@
         "label": "안성시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 74.1664827064056,
-        "period": "200509",
-        "label": "안성시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 54.2,
+        "components": {
+          "population_pct": 46.7,
+          "branch_density_pct": 65.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 안양시 동안구": {
@@ -580,22 +756,26 @@
         "label": "안양시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 47.3736054166048,
-        "period": "200509",
-        "label": "안양시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 85.9,
+        "components": {
+          "population_pct": 84.9,
+          "branch_density_pct": 87.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 안양시 만안구": {
       "sido": "경기",
       "sigungu": "안양시 만안구",
       "branch_count": 25,
-      "price_index": {
-        "value": 52.2365490077646,
-        "period": "200509",
-        "label": "만안구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 62.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 62.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 양주시": {
@@ -608,11 +788,13 @@
         "label": "남양주시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 67.787956153929,
-        "period": "200508",
-        "label": "양주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 77.7,
+        "components": {
+          "population_pct": 88.8,
+          "branch_density_pct": 61.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 양평군": {
@@ -624,12 +806,28 @@
         "period": "202603",
         "label": "양평군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 30.2,
+        "components": {
+          "population_pct": 38.2,
+          "branch_density_pct": 18.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 여주시": {
       "sido": "경기",
       "sigungu": "여주시",
-      "branch_count": 21
+      "branch_count": 21,
+      "location_score": {
+        "value": 57.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 57.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "경기 연천군": {
       "sido": "경기",
@@ -640,6 +838,14 @@
         "period": "202603",
         "label": "연천군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 15.3,
+        "components": {
+          "population_pct": 9.2,
+          "branch_density_pct": 24.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 오산시": {
@@ -652,22 +858,26 @@
         "label": "오산시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 64.7847471257133,
-        "period": "200509",
-        "label": "오산시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 51.4,
+        "components": {
+          "population_pct": 53.9,
+          "branch_density_pct": 47.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 용인시 기흥구": {
       "sido": "경기",
       "sigungu": "용인시 기흥구",
       "branch_count": 44,
-      "price_index": {
-        "value": 64.5558664670506,
-        "period": "200509",
-        "label": "기흥구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 85.4,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 85.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 용인시 수지구": {
@@ -680,11 +890,13 @@
         "label": "용인시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 66.9121109936961,
-        "period": "200509",
-        "label": "용인시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 89.2,
+        "components": {
+          "population_pct": 98.0,
+          "branch_density_pct": 76.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 용인시 처인구": {
@@ -697,22 +909,26 @@
         "label": "용인시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 64.0141387415056,
-        "period": "200509",
-        "label": "처인구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 91.4,
+        "components": {
+          "population_pct": 98.7,
+          "branch_density_pct": 80.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 의왕시": {
       "sido": "경기",
       "sigungu": "의왕시",
       "branch_count": 10,
-      "price_index": {
-        "value": 49.5199426748403,
-        "period": "200509",
-        "label": "의왕시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 35.4,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 35.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 의정부시": {
@@ -725,11 +941,13 @@
         "label": "의정부시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 53.5051200479045,
-        "period": "200508",
-        "label": "의정부시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 80.8,
+        "components": {
+          "population_pct": 75.7,
+          "branch_density_pct": 88.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 이천시": {
@@ -742,22 +960,26 @@
         "label": "이천시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 62.2900932079533,
-        "period": "200508",
-        "label": "이천시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 61.4,
+        "components": {
+          "population_pct": 51.3,
+          "branch_density_pct": 76.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 파주시": {
       "sido": "경기",
       "sigungu": "파주시",
       "branch_count": 75,
-      "price_index": {
-        "value": 73.1315656838875,
-        "period": "200508",
-        "label": "파주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 96.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 96.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 평택시": {
@@ -770,11 +992,13 @@
         "label": "평택시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 70.4509897914238,
-        "period": "200509",
-        "label": "평택시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 91.1,
+        "components": {
+          "population_pct": 86.2,
+          "branch_density_pct": 98.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 포천시": {
@@ -786,17 +1010,27 @@
         "period": "202603",
         "label": "포천시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 50.9,
+        "components": {
+          "population_pct": 40.1,
+          "branch_density_pct": 67.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 하남시": {
       "sido": "경기",
       "sigungu": "하남시",
       "branch_count": 32,
-      "price_index": {
-        "value": 53.9205514848335,
-        "period": "200509",
-        "label": "하남시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 73.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 73.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 화성시 동탄구": {
@@ -809,11 +1043,13 @@
         "label": "화성시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 61.336837219924,
-        "period": "200509",
-        "label": "화성시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 78.7,
+        "components": {
+          "population_pct": 95.4,
+          "branch_density_pct": 53.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 화성시 만세구": {
@@ -826,22 +1062,26 @@
         "label": "화성시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 61.336837219924,
-        "period": "200509",
-        "label": "화성시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 80.9,
+        "components": {
+          "population_pct": 96.1,
+          "branch_density_pct": 58.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 화성시 병점구": {
       "sido": "경기",
       "sigungu": "화성시 병점구",
       "branch_count": 10,
-      "price_index": {
-        "value": 61.336837219924,
-        "period": "200509",
-        "label": "화성시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 35.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 35.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경기 화성시 효행구": {
@@ -854,11 +1094,13 @@
         "label": "화성시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 61.336837219924,
-        "period": "200509",
-        "label": "화성시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 75.6,
+        "components": {
+          "population_pct": 96.7,
+          "branch_density_pct": 43.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 거제시": {
@@ -871,17 +1113,27 @@
         "label": "거제시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 91.4523773283333,
-        "period": "200509",
-        "label": "거제시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 48.9,
+        "components": {
+          "population_pct": 52.0,
+          "branch_density_pct": 44.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 거창군": {
       "sido": "경남",
       "sigungu": "거창군",
-      "branch_count": 3
+      "branch_count": 3,
+      "location_score": {
+        "value": 18.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 18.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "경남 고성군": {
       "sido": "경남",
@@ -892,6 +1144,14 @@
         "period": "202603",
         "label": "고성군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 8.8,
+        "components": {
+          "population_pct": 13.8,
+          "branch_density_pct": 1.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 김해시": {
@@ -904,17 +1164,27 @@
         "label": "김해시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 72.8743415029162,
-        "period": "200509",
-        "label": "김해시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 80.8,
+        "components": {
+          "population_pct": 79.6,
+          "branch_density_pct": 82.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 밀양시": {
       "sido": "경남",
       "sigungu": "밀양시",
-      "branch_count": 5
+      "branch_count": 5,
+      "location_score": {
+        "value": 24.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 24.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "경남 사천시": {
       "sido": "경남",
@@ -925,6 +1195,14 @@
         "period": "202603",
         "label": "사천시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 36.2,
+        "components": {
+          "population_pct": 32.9,
+          "branch_density_pct": 41.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 산청군": {
@@ -936,17 +1214,27 @@
         "period": "202603",
         "label": "산청군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 3.0,
+        "components": {
+          "population_pct": 3.9,
+          "branch_density_pct": 1.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 양산시": {
       "sido": "경남",
       "sigungu": "양산시",
       "branch_count": 31,
-      "price_index": {
-        "value": 75.1765941301732,
-        "period": "200509",
-        "label": "양산시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 72.4,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 72.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 진주시": {
@@ -959,11 +1247,13 @@
         "label": "진주시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 73.4496437704003,
-        "period": "200509",
-        "label": "진주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 60.0,
+        "components": {
+          "population_pct": 65.8,
+          "branch_density_pct": 51.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 창녕군": {
@@ -975,17 +1265,27 @@
         "period": "202603",
         "label": "창녕군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 10.7,
+        "components": {
+          "population_pct": 16.4,
+          "branch_density_pct": 2.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 창원시 마산합포구": {
       "sido": "경남",
       "sigungu": "창원시 마산합포구",
       "branch_count": 13,
-      "price_index": {
-        "value": 69.4361633997398,
-        "period": "200509",
-        "label": "창원시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 41.5,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 41.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 창원시 마산회원구": {
@@ -998,11 +1298,13 @@
         "label": "창원시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 69.4361633997398,
-        "period": "200509",
-        "label": "창원시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 75.2,
+        "components": {
+          "population_pct": 93.4,
+          "branch_density_pct": 48.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 창원시 성산구": {
@@ -1015,22 +1317,26 @@
         "label": "창원시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 69.4361633997398,
-        "period": "200509",
-        "label": "창원시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 92.4,
+        "components": {
+          "population_pct": 94.1,
+          "branch_density_pct": 89.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 창원시 의창구": {
       "sido": "경남",
       "sigungu": "창원시 의창구",
       "branch_count": 5,
-      "price_index": {
-        "value": 71.3349845017178,
-        "period": "200509",
-        "label": "의창구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 25.2,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 25.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 창원시 진해구": {
@@ -1043,11 +1349,13 @@
         "label": "창원시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 69.4361633997398,
-        "period": "200509",
-        "label": "창원시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 71.3,
+        "components": {
+          "population_pct": 94.7,
+          "branch_density_pct": 36.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 통영시": {
@@ -1059,12 +1367,28 @@
         "period": "202603",
         "label": "통영시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 38.7,
+        "components": {
+          "population_pct": 33.6,
+          "branch_density_pct": 46.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경남 함안군": {
       "sido": "경남",
       "sigungu": "함안군",
-      "branch_count": 5
+      "branch_count": 5,
+      "location_score": {
+        "value": 25.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 25.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "경북 경산시": {
       "sido": "경북",
@@ -1076,11 +1400,13 @@
         "label": "경산시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 75.1233340905061,
-        "period": "200509",
-        "label": "경산시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 56.0,
+        "components": {
+          "population_pct": 57.2,
+          "branch_density_pct": 54.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 경주시": {
@@ -1092,17 +1418,27 @@
         "period": "202603",
         "label": "경주시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 65.2,
+        "components": {
+          "population_pct": 52.6,
+          "branch_density_pct": 84.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 구미시": {
       "sido": "경북",
       "sigungu": "구미시",
       "branch_count": 65,
-      "price_index": {
-        "value": 81.6501276660348,
-        "period": "200509",
-        "label": "구미시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 93.1,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 93.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 김천시": {
@@ -1114,6 +1450,14 @@
         "period": "202603",
         "label": "김천시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 43.9,
+        "components": {
+          "population_pct": 38.8,
+          "branch_density_pct": 51.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 문경시": {
@@ -1125,12 +1469,28 @@
         "period": "202603",
         "label": "문경시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 16.5,
+        "components": {
+          "population_pct": 20.4,
+          "branch_density_pct": 10.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 상주시": {
       "sido": "경북",
       "sigungu": "상주시",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 11.0,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 11.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "경북 안동시": {
       "sido": "경북",
@@ -1141,6 +1501,14 @@
         "period": "202603",
         "label": "안동시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 44.0,
+        "components": {
+          "population_pct": 40.8,
+          "branch_density_pct": 48.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 영주시": {
@@ -1152,12 +1520,28 @@
         "period": "202603",
         "label": "영주시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 32.3,
+        "components": {
+          "population_pct": 28.9,
+          "branch_density_pct": 37.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 영천시": {
       "sido": "경북",
       "sigungu": "영천시",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 11.4,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 11.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "경북 예천군": {
       "sido": "경북",
@@ -1168,6 +1552,14 @@
         "period": "202603",
         "label": "예천군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 14.2,
+        "components": {
+          "population_pct": 15.8,
+          "branch_density_pct": 11.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 울진군": {
@@ -1179,12 +1571,28 @@
         "period": "202603",
         "label": "울진군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 8.5,
+        "components": {
+          "population_pct": 12.5,
+          "branch_density_pct": 2.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 의성군": {
       "sido": "경북",
       "sigungu": "의성군",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 12.2,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 12.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "경북 칠곡군": {
       "sido": "경북",
@@ -1195,6 +1603,14 @@
         "period": "202603",
         "label": "칠곡군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 32.1,
+        "components": {
+          "population_pct": 31.6,
+          "branch_density_pct": 32.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 포항시 남구": {
@@ -1207,22 +1623,26 @@
         "label": "남구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 64.2546568535722,
-        "period": "200509",
-        "label": "남구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 63.5,
+        "components": {
+          "population_pct": 54.6,
+          "branch_density_pct": 76.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "경북 포항시 북구": {
       "sido": "경북",
       "sigungu": "포항시 북구",
       "branch_count": 29,
-      "price_index": {
-        "value": 72.2828458077978,
-        "period": "200509",
-        "label": "포항시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 70.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 70.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "광주 광산구": {
@@ -1235,11 +1655,13 @@
         "label": "광산구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 61.4238931739072,
-        "period": "200509",
-        "label": "광산구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 74.3,
+        "components": {
+          "population_pct": 71.1,
+          "branch_density_pct": 79.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "광주 남구": {
@@ -1252,22 +1674,26 @@
         "label": "강남구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 64.2546568535722,
-        "period": "200509",
-        "label": "남구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 64.9,
+        "components": {
+          "population_pct": 82.9,
+          "branch_density_pct": 37.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "광주 동구": {
       "sido": "광주",
       "sigungu": "동구",
       "branch_count": 12,
-      "price_index": {
-        "value": 76.119808596956,
-        "period": "200509",
-        "label": "동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 38.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 38.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "광주 북구": {
@@ -1280,11 +1706,13 @@
         "label": "성북구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 78.0387447460729,
-        "period": "200509",
-        "label": "북구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 68.4,
+        "components": {
+          "population_pct": 73.0,
+          "branch_density_pct": 61.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "광주 서구": {
@@ -1297,17 +1725,27 @@
         "label": "강서구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 78.5417060704249,
-        "period": "200509",
-        "label": "서구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 76.5,
+        "components": {
+          "population_pct": 80.3,
+          "branch_density_pct": 70.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대구 군위군": {
       "sido": "대구",
       "sigungu": "군위군",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 12.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 12.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "대구 남구": {
       "sido": "대구",
@@ -1319,11 +1757,13 @@
         "label": "강남구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 64.2546568535722,
-        "period": "200509",
-        "label": "남구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 64.8,
+        "components": {
+          "population_pct": 83.6,
+          "branch_density_pct": 36.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대구 달서구": {
@@ -1336,22 +1776,26 @@
         "label": "서구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 82.8046811583541,
-        "period": "200509",
-        "label": "달서구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 50.4,
+        "components": {
+          "population_pct": 30.9,
+          "branch_density_pct": 79.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대구 달성군": {
       "sido": "대구",
       "sigungu": "달성군",
       "branch_count": 19,
-      "price_index": {
-        "value": 86.3659061327126,
-        "period": "200509",
-        "label": "달성군",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 52.4,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 52.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대구 동구": {
@@ -1364,11 +1808,13 @@
         "label": "성동구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 76.119808596956,
-        "period": "200509",
-        "label": "동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 61.1,
+        "components": {
+          "population_pct": 59.9,
+          "branch_density_pct": 63.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대구 북구": {
@@ -1381,22 +1827,26 @@
         "label": "성북구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 78.0387447460729,
-        "period": "200509",
-        "label": "북구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 73.8,
+        "components": {
+          "population_pct": 73.7,
+          "branch_density_pct": 74.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대구 서구": {
       "sido": "대구",
       "sigungu": "서구",
       "branch_count": 5,
-      "price_index": {
-        "value": 78.5417060704249,
-        "period": "200509",
-        "label": "서구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 26.0,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 26.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대구 수성구": {
@@ -1409,11 +1859,13 @@
         "label": "수성구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 63.9586120027998,
-        "period": "200509",
-        "label": "수성구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 73.9,
+        "components": {
+          "population_pct": 71.7,
+          "branch_density_pct": 77.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대구 중구": {
@@ -1426,22 +1878,26 @@
         "label": "중구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 87.1218103688192,
-        "period": "200509",
-        "label": "중구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 40.2,
+        "components": {
+          "population_pct": 34.2,
+          "branch_density_pct": 49.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대전 대덕구": {
       "sido": "대전",
       "sigungu": "대덕구",
       "branch_count": 17,
-      "price_index": {
-        "value": 63.7029161101707,
-        "period": "200509",
-        "label": "대덕구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 49.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 49.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대전 동구": {
@@ -1454,11 +1910,13 @@
         "label": "성동구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 76.119808596956,
-        "period": "200509",
-        "label": "동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 65.1,
+        "components": {
+          "population_pct": 60.5,
+          "branch_density_pct": 72.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대전 서구": {
@@ -1471,22 +1929,26 @@
         "label": "강서구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 78.5417060704249,
-        "period": "200509",
-        "label": "서구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 82.5,
+        "components": {
+          "population_pct": 80.9,
+          "branch_density_pct": 85.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대전 유성구": {
       "sido": "대전",
       "sigungu": "유성구",
       "branch_count": 74,
-      "price_index": {
-        "value": 67.5972800193901,
-        "period": "200509",
-        "label": "유성구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 96.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 96.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "대전 중구": {
@@ -1499,11 +1961,13 @@
         "label": "중구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 87.1218103688192,
-        "period": "200509",
-        "label": "중구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 40.9,
+        "components": {
+          "population_pct": 34.9,
+          "branch_density_pct": 50.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 강서구": {
@@ -1516,22 +1980,26 @@
         "label": "강서구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 53.890393060441,
-        "period": "200509",
-        "label": "강서구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 77.4,
+        "components": {
+          "population_pct": 81.6,
+          "branch_density_pct": 71.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 금정구": {
       "sido": "부산",
       "sigungu": "금정구",
       "branch_count": 25,
-      "price_index": {
-        "value": 72.897749051587,
-        "period": "200509",
-        "label": "금정구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 63.4,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 63.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 기장군": {
@@ -1544,11 +2012,13 @@
         "label": "기장군",
         "unit": "명"
       },
-      "price_index": {
-        "value": 58.7893758506922,
-        "period": "200509",
-        "label": "기장군",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 47.3,
+        "components": {
+          "population_pct": 44.1,
+          "branch_density_pct": 52.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 남구": {
@@ -1561,22 +2031,26 @@
         "label": "강남구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 64.2546568535722,
-        "period": "200509",
-        "label": "남구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 72.3,
+        "components": {
+          "population_pct": 84.2,
+          "branch_density_pct": 54.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 동구": {
       "sido": "부산",
       "sigungu": "동구",
       "branch_count": 14,
-      "price_index": {
-        "value": 76.119808596956,
-        "period": "200509",
-        "label": "동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 44.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 44.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 동래구": {
@@ -1589,11 +2063,13 @@
         "label": "동래구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 63.3841012728978,
-        "period": "200509",
-        "label": "동래구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 56.3,
+        "components": {
+          "population_pct": 58.6,
+          "branch_density_pct": 52.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 부산진구": {
@@ -1606,22 +2082,26 @@
         "label": "부산진구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 64.5531730010057,
-        "period": "200509",
-        "label": "부산진구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 73.7,
+        "components": {
+          "population_pct": 68.4,
+          "branch_density_pct": 81.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 북구": {
       "sido": "부산",
       "sigungu": "북구",
       "branch_count": 13,
-      "price_index": {
-        "value": 78.0387447460729,
-        "period": "200509",
-        "label": "북구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 41.9,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 41.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 사상구": {
@@ -1634,11 +2114,13 @@
         "label": "사상구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 58.2332816989242,
-        "period": "200509",
-        "label": "사상구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 51.0,
+        "components": {
+          "population_pct": 46.1,
+          "branch_density_pct": 58.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 사하구": {
@@ -1651,22 +2133,26 @@
         "label": "사하구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 64.8524809283473,
-        "period": "200509",
-        "label": "사하구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 63.4,
+        "components": {
+          "population_pct": 63.2,
+          "branch_density_pct": 63.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 서구": {
       "sido": "부산",
       "sigungu": "서구",
       "branch_count": 7,
-      "price_index": {
-        "value": 78.5417060704249,
-        "period": "200509",
-        "label": "서구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 30.1,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 30.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 수영구": {
@@ -1679,11 +2165,13 @@
         "label": "수영구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 55.9592497535584,
-        "period": "200509",
-        "label": "수영구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 40.5,
+        "components": {
+          "population_pct": 42.1,
+          "branch_density_pct": 38.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 연제구": {
@@ -1696,22 +2184,26 @@
         "label": "연제구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 64.2709990924994,
-        "period": "200509",
-        "label": "연제구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 53.6,
+        "components": {
+          "population_pct": 50.0,
+          "branch_density_pct": 58.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 영도구": {
       "sido": "부산",
       "sigungu": "영도구",
       "branch_count": 7,
-      "price_index": {
-        "value": 77.5709594219503,
-        "period": "200509",
-        "label": "영도구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 30.5,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 30.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 중구": {
@@ -1724,11 +2216,13 @@
         "label": "중구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 87.1218103688192,
-        "period": "200509",
-        "label": "중구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 45.4,
+        "components": {
+          "population_pct": 35.5,
+          "branch_density_pct": 60.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "부산 해운대구": {
@@ -1741,22 +2235,26 @@
         "label": "해운대구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 49.989746089833,
-        "period": "200509",
-        "label": "해운대구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 77.0,
+        "components": {
+          "population_pct": 69.7,
+          "branch_density_pct": 87.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 강남구": {
       "sido": "서울",
       "sigungu": "강남구",
       "branch_count": 165,
-      "price_index": {
-        "value": 48.7865111367455,
-        "period": "200508",
-        "label": "강남구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 100.0,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 100.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 강동구": {
@@ -1769,11 +2267,13 @@
         "label": "강동구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 52.8331671907623,
-        "period": "200508",
-        "label": "강동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 84.5,
+        "components": {
+          "population_pct": 78.3,
+          "branch_density_pct": 93.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 강북구": {
@@ -1786,22 +2286,26 @@
         "label": "강북구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 53.9310344614481,
-        "period": "200509",
-        "label": "강북구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 61.7,
+        "components": {
+          "population_pct": 62.5,
+          "branch_density_pct": 60.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 강서구": {
       "sido": "서울",
       "sigungu": "강서구",
       "branch_count": 40,
-      "price_index": {
-        "value": 53.890393060441,
-        "period": "200509",
-        "label": "강서구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 82.9,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 82.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 관악구": {
@@ -1814,11 +2318,13 @@
         "label": "관악구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 55.4141520770054,
-        "period": "200508",
-        "label": "관악구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 78.1,
+        "components": {
+          "population_pct": 76.3,
+          "branch_density_pct": 80.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 광진구": {
@@ -1831,22 +2337,26 @@
         "label": "광진구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 54.5581104068216,
-        "period": "200509",
-        "label": "광진구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 69.2,
+        "components": {
+          "population_pct": 65.1,
+          "branch_density_pct": 75.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 구로구": {
       "sido": "서울",
       "sigungu": "구로구",
       "branch_count": 55,
-      "price_index": {
-        "value": 54.3123558478322,
-        "period": "200509",
-        "label": "구로구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 90.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 90.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 금천구": {
@@ -1859,11 +2369,13 @@
         "label": "금천구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 58.688277926316,
-        "period": "200509",
-        "label": "금천구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 67.0,
+        "components": {
+          "population_pct": 50.7,
+          "branch_density_pct": 91.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 노원구": {
@@ -1876,22 +2388,26 @@
         "label": "노원구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 48.4219372874677,
-        "period": "200509",
-        "label": "노원구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 83.9,
+        "components": {
+          "population_pct": 77.0,
+          "branch_density_pct": 94.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 도봉구": {
       "sido": "서울",
       "sigungu": "도봉구",
       "branch_count": 40,
-      "price_index": {
-        "value": 62.423583994886,
-        "period": "200509",
-        "label": "도봉구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 83.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 83.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 동대문구": {
@@ -1904,11 +2420,13 @@
         "label": "동대문구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 55.2770810366838,
-        "period": "200509",
-        "label": "동대문구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 66.9,
+        "components": {
+          "population_pct": 66.4,
+          "branch_density_pct": 67.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 동작구": {
@@ -1921,22 +2439,26 @@
         "label": "동작구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 46.7339931244435,
-        "period": "200508",
-        "label": "동작구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 73.3,
+        "components": {
+          "population_pct": 70.4,
+          "branch_density_pct": 77.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 마포구": {
       "sido": "서울",
       "sigungu": "마포구",
       "branch_count": 42,
-      "price_index": {
-        "value": 44.5864837343052,
-        "period": "200509",
-        "label": "마포구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 84.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 84.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 서대문구": {
@@ -1949,11 +2471,13 @@
         "label": "서대문구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 56.4348529837894,
-        "period": "200509",
-        "label": "서대문구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 65.4,
+        "components": {
+          "population_pct": 63.8,
+          "branch_density_pct": 67.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 서초구": {
@@ -1966,22 +2490,26 @@
         "label": "서초구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 46.3659397901341,
-        "period": "200508",
-        "label": "서초구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 83.3,
+        "components": {
+          "population_pct": 72.4,
+          "branch_density_pct": 99.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 성동구": {
       "sido": "서울",
       "sigungu": "성동구",
       "branch_count": 28,
-      "price_index": {
-        "value": 44.4782334642146,
-        "period": "200509",
-        "label": "성동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 68.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 68.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 성북구": {
@@ -1994,11 +2522,13 @@
         "label": "성북구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 57.3554225696254,
-        "period": "200509",
-        "label": "성북구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 74.4,
+        "components": {
+          "population_pct": 74.3,
+          "branch_density_pct": 74.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 송파구": {
@@ -2011,22 +2541,26 @@
         "label": "송파구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 46.5334719015527,
-        "period": "200508",
-        "label": "송파구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 91.4,
+        "components": {
+          "population_pct": 87.5,
+          "branch_density_pct": 97.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 양천구": {
       "sido": "서울",
       "sigungu": "양천구",
       "branch_count": 39,
-      "price_index": {
-        "value": 50.0286264717873,
-        "period": "200509",
-        "label": "양천구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 82.1,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 82.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 영등포구": {
@@ -2039,11 +2573,13 @@
         "label": "영등포구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 49.6618078011675,
-        "period": "200508",
-        "label": "영등포구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 78.2,
+        "components": {
+          "population_pct": 69.1,
+          "branch_density_pct": 91.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 용산구": {
@@ -2056,22 +2592,26 @@
         "label": "용산구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 49.4411713955538,
-        "period": "200509",
-        "label": "용산구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 68.3,
+        "components": {
+          "population_pct": 48.0,
+          "branch_density_pct": 98.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 은평구": {
       "sido": "서울",
       "sigungu": "은평구",
       "branch_count": 26,
-      "price_index": {
-        "value": 62.5928311332888,
-        "period": "200509",
-        "label": "은평구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 64.2,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 64.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 종로구": {
@@ -2084,11 +2624,13 @@
         "label": "종로구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 58.4604640523361,
-        "period": "200509",
-        "label": "종로구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 60.1,
+        "components": {
+          "population_pct": 39.5,
+          "branch_density_pct": 91.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 중구": {
@@ -2101,133 +2643,299 @@
         "label": "중구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 87.1218103688192,
-        "period": "200509",
-        "label": "중구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 61.4,
+        "components": {
+          "population_pct": 36.2,
+          "branch_density_pct": 99.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "서울 중랑구": {
       "sido": "서울",
       "sigungu": "중랑구",
       "branch_count": 17,
-      "price_index": {
-        "value": 58.6798029571585,
-        "period": "200509",
-        "label": "중랑구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 50.4,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 50.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "세종 가람동": {
       "sido": "세종",
       "sigungu": "가람동",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 2.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 2.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 고운동": {
       "sido": "세종",
       "sigungu": "고운동",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 13.0,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 13.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 나성동": {
       "sido": "세종",
       "sigungu": "나성동",
-      "branch_count": 3
+      "branch_count": 3,
+      "location_score": {
+        "value": 19.1,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 19.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 다정동": {
       "sido": "세종",
       "sigungu": "다정동",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 13.4,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 13.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 대평동": {
       "sido": "세종",
       "sigungu": "대평동",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 3.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 3.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 도담동": {
       "sido": "세종",
       "sigungu": "도담동",
-      "branch_count": 6
+      "branch_count": 6,
+      "location_score": {
+        "value": 27.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 27.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 반곡동": {
       "sido": "세종",
       "sigungu": "반곡동",
-      "branch_count": 3
+      "branch_count": 3,
+      "location_score": {
+        "value": 19.5,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 19.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 보람동": {
       "sido": "세종",
       "sigungu": "보람동",
-      "branch_count": 5
+      "branch_count": 5,
+      "location_score": {
+        "value": 26.4,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 26.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 부강면": {
       "sido": "세종",
       "sigungu": "부강면",
-      "branch_count": 3
+      "branch_count": 3,
+      "location_score": {
+        "value": 19.9,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 19.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 새롬동": {
       "sido": "세종",
       "sigungu": "새롬동",
-      "branch_count": 3
+      "branch_count": 3,
+      "location_score": {
+        "value": 20.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 20.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 소담동": {
       "sido": "세종",
       "sigungu": "소담동",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 3.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 3.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 아름동": {
       "sido": "세종",
       "sigungu": "아름동",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 13.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 13.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 어진동": {
       "sido": "세종",
       "sigungu": "어진동",
-      "branch_count": 9
+      "branch_count": 9,
+      "location_score": {
+        "value": 33.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 33.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 연동면": {
       "sido": "세종",
       "sigungu": "연동면",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 4.1,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 4.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 장군면": {
       "sido": "세종",
       "sigungu": "장군면",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 4.5,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 4.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 전의면": {
       "sido": "세종",
       "sigungu": "전의면",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 14.2,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 14.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 조치원읍": {
       "sido": "세종",
       "sigungu": "조치원읍",
-      "branch_count": 9
+      "branch_count": 9,
+      "location_score": {
+        "value": 33.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 33.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 종촌동": {
       "sido": "세종",
       "sigungu": "종촌동",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 4.9,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 4.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 집현동": {
       "sido": "세종",
       "sigungu": "집현동",
-      "branch_count": 3
+      "branch_count": 3,
+      "location_score": {
+        "value": 20.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 20.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "세종 한솔동": {
       "sido": "세종",
       "sigungu": "한솔동",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 14.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 14.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "울산 남구": {
       "sido": "울산",
       "sigungu": "남구",
       "branch_count": 44,
-      "price_index": {
-        "value": 64.2546568535722,
-        "period": "200509",
-        "label": "남구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 85.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 85.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "울산 동구": {
@@ -2240,11 +2948,13 @@
         "label": "성동구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 76.119808596956,
-        "period": "200509",
-        "label": "동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 64.2,
+        "components": {
+          "population_pct": 61.2,
+          "branch_density_pct": 68.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "울산 북구": {
@@ -2257,22 +2967,26 @@
         "label": "성북구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 78.0387447460729,
-        "period": "200509",
-        "label": "북구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 72.6,
+        "components": {
+          "population_pct": 75.0,
+          "branch_density_pct": 69.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "울산 울주군": {
       "sido": "울산",
       "sigungu": "울주군",
       "branch_count": 20,
-      "price_index": {
-        "value": 60.765102511637,
-        "period": "200509",
-        "label": "울주군",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 54.9,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 54.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "울산 중구": {
@@ -2285,11 +2999,13 @@
         "label": "중구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 87.1218103688192,
-        "period": "200509",
-        "label": "중구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 39.0,
+        "components": {
+          "population_pct": 36.8,
+          "branch_density_pct": 42.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 강화군": {
@@ -2301,17 +3017,27 @@
         "period": "202603",
         "label": "강화군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 25.5,
+        "components": {
+          "population_pct": 21.1,
+          "branch_density_pct": 32.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 계양구": {
       "sido": "인천",
       "sigungu": "계양구",
       "branch_count": 20,
-      "price_index": {
-        "value": 54.4354208713816,
-        "period": "200509",
-        "label": "계양구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 55.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 55.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 남동구": {
@@ -2324,11 +3050,13 @@
         "label": "동구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 59.7841076661898,
-        "period": "200509",
-        "label": "남동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 52.9,
+        "components": {
+          "population_pct": 25.0,
+          "branch_density_pct": 94.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 동구": {
@@ -2341,22 +3069,26 @@
         "label": "성동구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 76.119808596956,
-        "period": "200509",
-        "label": "동구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 51.9,
+        "components": {
+          "population_pct": 61.8,
+          "branch_density_pct": 37.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 미추홀구": {
       "sido": "인천",
       "sigungu": "미추홀구",
       "branch_count": 62,
-      "price_index": {
-        "value": 61.0364820420992,
-        "period": "200509",
-        "label": "미추홀구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 92.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 92.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 부평구": {
@@ -2369,11 +3101,13 @@
         "label": "부평구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 54.0836965507289,
-        "period": "200509",
-        "label": "부평구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 82.2,
+        "components": {
+          "population_pct": 77.6,
+          "branch_density_pct": 89.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 서구": {
@@ -2386,22 +3120,26 @@
         "label": "강서구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 78.5417060704249,
-        "period": "200509",
-        "label": "서구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 86.4,
+        "components": {
+          "population_pct": 82.2,
+          "branch_density_pct": 92.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 연수구": {
       "sido": "인천",
       "sigungu": "연수구",
       "branch_count": 70,
-      "price_index": {
-        "value": 54.6147417324721,
-        "period": "200509",
-        "label": "연수구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 95.5,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 95.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 옹진군": {
@@ -2413,6 +3151,14 @@
         "period": "202603",
         "label": "옹진군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 6.0,
+        "components": {
+          "population_pct": 0.0,
+          "branch_density_pct": 15.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "인천 중구": {
@@ -2425,17 +3171,27 @@
         "label": "중구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 87.1218103688192,
-        "period": "200509",
-        "label": "중구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 60.5,
+        "components": {
+          "population_pct": 37.5,
+          "branch_density_pct": 95.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 곡성군": {
       "sido": "전남",
       "sigungu": "곡성군",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 5.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 5.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "전남 광양시": {
       "sido": "전남",
@@ -2447,11 +3203,13 @@
         "label": "광양시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 68.4228247407296,
-        "period": "200509",
-        "label": "광양시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 47.1,
+        "components": {
+          "population_pct": 41.4,
+          "branch_density_pct": 55.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 구례군": {
@@ -2463,12 +3221,28 @@
         "period": "202603",
         "label": "구례군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 3.5,
+        "components": {
+          "population_pct": 2.0,
+          "branch_density_pct": 5.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 나주시": {
       "sido": "전남",
       "sigungu": "나주시",
-      "branch_count": 15
+      "branch_count": 15,
+      "location_score": {
+        "value": 46.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 46.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "전남 목포시": {
       "sido": "전남",
@@ -2480,11 +3254,13 @@
         "label": "목포시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 72.6265422265783,
-        "period": "200509",
-        "label": "목포시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 50.9,
+        "components": {
+          "population_pct": 47.4,
+          "branch_density_pct": 56.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 무안군": {
@@ -2496,12 +3272,28 @@
         "period": "202603",
         "label": "무안군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 28.2,
+        "components": {
+          "population_pct": 28.3,
+          "branch_density_pct": 28.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 보성군": {
       "sido": "전남",
       "sigungu": "보성군",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 6.1,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 6.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "전남 순천시": {
       "sido": "전남",
@@ -2513,11 +3305,13 @@
         "label": "순천시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 57.2147813930824,
-        "period": "200509",
-        "label": "순천시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 56.8,
+        "components": {
+          "population_pct": 59.2,
+          "branch_density_pct": 53.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 여수시": {
@@ -2530,17 +3324,27 @@
         "label": "여수시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 69.069413614808,
-        "period": "200509",
-        "label": "여수시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 66.0,
+        "components": {
+          "population_pct": 56.6,
+          "branch_density_pct": 80.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 영암군": {
       "sido": "전남",
       "sigungu": "영암군",
-      "branch_count": 9
+      "branch_count": 9,
+      "location_score": {
+        "value": 34.1,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 34.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "전남 완도군": {
       "sido": "전남",
@@ -2551,6 +3355,14 @@
         "period": "202603",
         "label": "완도군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 8.9,
+        "components": {
+          "population_pct": 10.5,
+          "branch_density_pct": 6.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 장성군": {
@@ -2562,12 +3374,28 @@
         "period": "202603",
         "label": "장성군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 8.7,
+        "components": {
+          "population_pct": 9.9,
+          "branch_density_pct": 6.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 진도군": {
       "sido": "전남",
       "sigungu": "진도군",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 7.3,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 7.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "전남 해남군": {
       "sido": "전남",
@@ -2578,6 +3406,14 @@
         "period": "202603",
         "label": "해남군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 18.0,
+        "components": {
+          "population_pct": 19.7,
+          "branch_density_pct": 15.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전남 화순군": {
@@ -2589,12 +3425,28 @@
         "period": "202603",
         "label": "화순군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 19.5,
+        "components": {
+          "population_pct": 18.4,
+          "branch_density_pct": 21.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전북 고창군": {
       "sido": "전북",
       "sigungu": "고창군",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 7.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 7.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "전북 군산시": {
       "sido": "전북",
@@ -2606,11 +3458,13 @@
         "label": "군산시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 67.7914568797659,
-        "period": "200509",
-        "label": "군산시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 61.8,
+        "components": {
+          "population_pct": 55.3,
+          "branch_density_pct": 71.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전북 김제시": {
@@ -2622,12 +3476,28 @@
         "period": "202603",
         "label": "김제시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 22.8,
+        "components": {
+          "population_pct": 23.7,
+          "branch_density_pct": 21.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전북 남원시": {
       "sido": "전북",
       "sigungu": "남원시",
-      "branch_count": 2
+      "branch_count": 2,
+      "location_score": {
+        "value": 15.9,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 15.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "전북 무주군": {
       "sido": "전북",
@@ -2638,6 +3508,14 @@
         "period": "202603",
         "label": "무주군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 9.6,
+        "components": {
+          "population_pct": 1.3,
+          "branch_density_pct": 22.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전북 부안군": {
@@ -2649,12 +3527,28 @@
         "period": "202603",
         "label": "부안군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 15.2,
+        "components": {
+          "population_pct": 14.5,
+          "branch_density_pct": 16.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전북 완주군": {
       "sido": "전북",
       "sigungu": "완주군",
-      "branch_count": 13
+      "branch_count": 13,
+      "location_score": {
+        "value": 42.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 42.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "전북 익산시": {
       "sido": "전북",
@@ -2666,11 +3560,13 @@
         "label": "익산시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 65.8537758841485,
-        "period": "200509",
-        "label": "익산시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 65.0,
+        "components": {
+          "population_pct": 57.9,
+          "branch_density_pct": 75.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전북 전주시 덕진구": {
@@ -2683,22 +3579,26 @@
         "label": "전주시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 56.1668240129152,
-        "period": "200509",
-        "label": "전주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 71.5,
+        "components": {
+          "population_pct": 86.8,
+          "branch_density_pct": 48.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전북 전주시 완산구": {
       "sido": "전북",
       "sigungu": "전주시 완산구",
       "branch_count": 31,
-      "price_index": {
-        "value": 56.1668240129152,
-        "period": "200509",
-        "label": "전주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 72.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 72.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "전북 정읍시": {
@@ -2710,6 +3610,14 @@
         "period": "202603",
         "label": "정읍시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 27.8,
+        "components": {
+          "population_pct": 30.3,
+          "branch_density_pct": 24.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "제주 서귀포시": {
@@ -2721,17 +3629,27 @@
         "period": "202603",
         "label": "서귀포시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 54.6,
+        "components": {
+          "population_pct": 44.7,
+          "branch_density_pct": 69.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "제주 제주시": {
       "sido": "제주",
       "sigungu": "제주시",
       "branch_count": 32,
-      "price_index": {
-        "value": 53.1296852961633,
-        "period": "200509",
-        "label": "제주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 74.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 74.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 계룡시": {
@@ -2744,11 +3662,13 @@
         "label": "계룡시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 98.08580576558,
-        "period": "200509",
-        "label": "계룡시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 13.8,
+        "components": {
+          "population_pct": 11.8,
+          "branch_density_pct": 16.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 공주시": {
@@ -2761,17 +3681,27 @@
         "label": "공주시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 80.9944524252895,
-        "period": "200509",
-        "label": "공주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 33.4,
+        "components": {
+          "population_pct": 29.6,
+          "branch_density_pct": 39.0
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 금산군": {
       "sido": "충남",
       "sigungu": "금산군",
-      "branch_count": 6
+      "branch_count": 6,
+      "location_score": {
+        "value": 28.5,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 28.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "충남 논산시": {
       "sido": "충남",
@@ -2783,11 +3713,13 @@
         "label": "논산시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 54.7660428887132,
-        "period": "200509",
-        "label": "논산시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 36.6,
+        "components": {
+          "population_pct": 32.2,
+          "branch_density_pct": 43.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 당진시": {
@@ -2799,12 +3731,28 @@
         "period": "202603",
         "label": "당진시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 49.8,
+        "components": {
+          "population_pct": 43.4,
+          "branch_density_pct": 59.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 보령시": {
       "sido": "충남",
       "sigungu": "보령시",
-      "branch_count": 9
+      "branch_count": 9,
+      "location_score": {
+        "value": 34.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 34.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "충남 부여군": {
       "sido": "충남",
@@ -2815,6 +3763,14 @@
         "period": "202603",
         "label": "부여군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 19.2,
+        "components": {
+          "population_pct": 17.1,
+          "branch_density_pct": 22.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 서산시": {
@@ -2826,12 +3782,28 @@
         "period": "202603",
         "label": "서산시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 43.1,
+        "components": {
+          "population_pct": 42.8,
+          "branch_density_pct": 43.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 서천군": {
       "sido": "충남",
       "sigungu": "서천군",
-      "branch_count": 3
+      "branch_count": 3,
+      "location_score": {
+        "value": 22.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 22.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "충남 아산시": {
       "sido": "충남",
@@ -2843,11 +3815,13 @@
         "label": "아산시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 75.2853956427775,
-        "period": "200509",
-        "label": "아산시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 76.0,
+        "components": {
+          "population_pct": 67.1,
+          "branch_density_pct": 89.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 예산군": {
@@ -2859,17 +3833,27 @@
         "period": "202603",
         "label": "예산군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 26.0,
+        "components": {
+          "population_pct": 21.7,
+          "branch_density_pct": 32.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 천안시 동남구": {
       "sido": "충남",
       "sigungu": "천안시 동남구",
       "branch_count": 41,
-      "price_index": {
-        "value": 64.2546568535722,
-        "period": "200509",
-        "label": "남구",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 83.7,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 83.7
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 천안시 서북구": {
@@ -2882,11 +3866,13 @@
         "label": "북구",
         "unit": "명"
       },
-      "price_index": {
-        "value": 74.7819850263186,
-        "period": "200509",
-        "label": "천안시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 68.0,
+        "components": {
+          "population_pct": 55.9,
+          "branch_density_pct": 86.2
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 태안군": {
@@ -2898,12 +3884,28 @@
         "period": "202603",
         "label": "태안군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 23.0,
+        "components": {
+          "population_pct": 17.8,
+          "branch_density_pct": 30.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충남 홍성군": {
       "sido": "충남",
       "sigungu": "홍성군",
-      "branch_count": 20
+      "branch_count": 20,
+      "location_score": {
+        "value": 56.5,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 56.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "충북 괴산군": {
       "sido": "충북",
@@ -2914,6 +3916,14 @@
         "period": "202603",
         "label": "괴산군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 7.6,
+        "components": {
+          "population_pct": 7.2,
+          "branch_density_pct": 8.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충북 단양군": {
@@ -2925,12 +3935,28 @@
         "period": "202603",
         "label": "단양군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 5.0,
+        "components": {
+          "population_pct": 2.6,
+          "branch_density_pct": 8.5
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충북 영동군": {
       "sido": "충북",
       "sigungu": "영동군",
-      "branch_count": 1
+      "branch_count": 1,
+      "location_score": {
+        "value": 8.9,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 8.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "충북 옥천군": {
       "sido": "충북",
@@ -2941,6 +3967,14 @@
         "period": "202603",
         "label": "옥천군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 12.8,
+        "components": {
+          "population_pct": 15.1,
+          "branch_density_pct": 9.3
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충북 음성군": {
@@ -2952,12 +3986,28 @@
         "period": "202603",
         "label": "음성군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 40.5,
+        "components": {
+          "population_pct": 27.6,
+          "branch_density_pct": 59.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충북 제천시": {
       "sido": "충북",
       "sigungu": "제천시",
-      "branch_count": 14
+      "branch_count": 14,
+      "location_score": {
+        "value": 45.1,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 45.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "충북 증평군": {
       "sido": "충북",
@@ -2968,6 +4018,14 @@
         "period": "202603",
         "label": "증평군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 10.4,
+        "components": {
+          "population_pct": 5.9,
+          "branch_density_pct": 17.1
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충북 진천군": {
@@ -2979,12 +4037,28 @@
         "period": "202603",
         "label": "진천군",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 26.9,
+        "components": {
+          "population_pct": 25.7,
+          "branch_density_pct": 28.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충북 청주시 상당구": {
       "sido": "충북",
       "sigungu": "청주시 상당구",
-      "branch_count": 17
+      "branch_count": 17,
+      "location_score": {
+        "value": 50.8,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 50.8
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "충북 청주시 서원구": {
       "sido": "충북",
@@ -2995,6 +4069,14 @@
         "period": "202603",
         "label": "청주시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 70.2,
+        "components": {
+          "population_pct": 90.8,
+          "branch_density_pct": 39.4
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충북 청주시 청원구": {
@@ -3006,12 +4088,28 @@
         "period": "202603",
         "label": "청주시",
         "unit": "명"
+      },
+      "location_score": {
+        "value": 81.2,
+        "components": {
+          "population_pct": 91.4,
+          "branch_density_pct": 65.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     },
     "충북 청주시 흥덕구": {
       "sido": "충북",
       "sigungu": "청주시 흥덕구",
-      "branch_count": 44
+      "branch_count": 44,
+      "location_score": {
+        "value": 86.6,
+        "components": {
+          "population_pct": null,
+          "branch_density_pct": 86.6
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
+      }
     },
     "충북 충주시": {
       "sido": "충북",
@@ -3023,11 +4121,13 @@
         "label": "충주시",
         "unit": "명"
       },
-      "price_index": {
-        "value": 63.0498995492383,
-        "period": "200509",
-        "label": "충주시",
-        "unit": "지수(2021.06=100)"
+      "location_score": {
+        "value": 57.6,
+        "components": {
+          "population_pct": 49.3,
+          "branch_density_pct": 69.9
+        },
+        "note": "인구 60% · 관내 4대銀 점포수 40% (모든 시·군·구 백분위)"
       }
     }
   },
@@ -3039,6 +4139,8 @@
     "population_ok": 153,
     "population_fail": 94,
     "price_index_ok": 146,
-    "price_index_fail": 101
+    "price_index_fail": 101,
+    "price_index_dropped_stale": 146,
+    "price_index_ok_recent": 0
   }
 }
