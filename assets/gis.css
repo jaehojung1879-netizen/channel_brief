@@ -672,7 +672,7 @@ body, .gis-shell, .gis-main, .gis-side, .kakao-map {
 @media (max-width: 960px) {
   .gis-main { order: 1; }
   .gis-side { order: 2; }
-  .kakao-map { min-height: 520px; }
+  .kakao-map { min-height: 62vh; }
   .map-legend {
     top: 12px;
     right: 10px;
@@ -701,25 +701,39 @@ body, .gis-shell, .gis-main, .gis-side, .kakao-map {
 @media (max-width: 960px) {
   .mobile-map-controls {
     display: block;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: min(68vw, 320px);
-    z-index: 26;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+    padding: 10px 10px 6px;
+    background: var(--bg-elev);
+    border-bottom: 1px solid var(--line-soft);
   }
   .mobile-map-controls #search-block {
     margin-bottom: 0;
-    padding: 8px;
-    background: rgba(15,20,25,0.92);
-    border: 1px solid var(--line);
-    backdrop-filter: blur(2px);
+    padding: 0;
+    background: transparent;
+    border: 0;
   }
   .mobile-map-controls #search-block .block-head { display: none; }
-  .mobile-map-controls .search-wrap input[type="search"] { font-size: 12px; }
+  .mobile-map-controls .search-wrap input[type="search"] { font-size: 16px; }
+  .mobile-map-controls .search-results { max-height: 42vh; }
   .kakao-map {
     touch-action: auto;
     -ms-touch-action: auto;
     overscroll-behavior: auto;
+    min-height: 56vh;
   }
   .kakao-map * { touch-action: auto; }
+  .map-meta {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 24;
+    border-top: 1px solid var(--line);
+    background: rgba(15,20,25,0.92);
+    backdrop-filter: blur(2px);
+    padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px));
+    font-size: 9.5px;
+  }
 }
