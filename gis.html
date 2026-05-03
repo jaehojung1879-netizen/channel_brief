@@ -103,10 +103,17 @@
         <li><span class="ref-on">●</span> <strong>유동인구</strong> · 서울 열린데이터광장 IoT (자치구 단위, 서울 한정)</li>
         <li><span class="ref-on">●</span> <strong>경쟁점포</strong> · Kakao Local API 카테고리 BK9</li>
       </ul>
-      <p class="ref-sub">입지 점수 가중치</p>
+      <p class="ref-sub">영업점 점수 산정</p>
       <ul class="ref-list">
-        <li><strong>사업체수 45%</strong> · <strong>가구소득 35%</strong> · <strong>시장 규모 20%</strong></li>
-        <li>시장 규모: <em>서울</em> 자치구는 <strong>유동인구</strong>, 그 외는 <strong>인구</strong>. 모든 시·군·구 백분위 가중평균 (0~100).</li>
+        <li><strong>행정구 점수 50%</strong> + <strong>반경 내 점포밀도 50%</strong></li>
+        <li>반경 = 수도권·광역시·세종 · <strong>1 km</strong>, 그 외 <strong>2 km</strong>. 반경 내 4 대銀 점포수의 log 백분위 (0~100).</li>
+        <li>행정구 점수 = 사업체수 45% · 가구소득 35% · 시장 규모 20% (서울 자치구는 유동인구, 그 외는 인구).</li>
+      </ul>
+      <p class="ref-sub">서울 유동인구 표시</p>
+      <ul class="ref-list">
+        <li>지도 우측 범례의 <strong>서울 유동인구</strong> 체크박스를 켜면 25 개 자치구 중심에 보라색 원이 표시됩니다.</li>
+        <li>원 크기 = 자치구별 IoT 센서 평균 측정당 방문자 수 (sqrt 비례, 30~120 px).</li>
+        <li>표시 값 = 최근 ~30,000 측정값의 평균 (서울 OpenAPI <code>IotVdata018</code>).</li>
       </ul>
       <p class="ref-sub">예정 (확장 계획)</p>
       <ul class="ref-list ref-list-pending">

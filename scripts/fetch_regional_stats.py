@@ -236,21 +236,35 @@ def _fetch_seoul_floating(api_key: str, max_rows: int = SEOUL_FLOATING_MAX_ROWS)
     """Seoul IoT 유동인구 센서 (IotVdata018) 의 가장 최근 max_rows 행을 받아
     자치구별 (한글 라벨) 평균 visitor count 산출.
 
-    Seoul OpenAPI URL 패턴:
-      http://openapi.seoul.go.kr:8088/{KEY}/{TYPE}/{SERVICE}/{START}/{END}/
-    pagination 은 1-indexed inclusive, 한 호출 최대 1000 행.
+    Seoul OpenAPI URL 패턴 (필터 슬롯 2개 의무):
+      http://openapi.seoul.go.kr:8088/{KEY}/{TYPE}/{SERVICE}/{START}/{END}/%20/%20/
+    pagination 은 1-indexed inclusive, START < END 필수, 한 호출 최대 1000 행.
 
     반환: (자치구_한글 → {value, samples, total, unit, source}, error_msg or None).
-    error_msg 는 부분 실패 시 경고용 (정상이면 None).
     """
-    # 1) 총 row 수 조회 (1..1).
-    url0 = f"{SEOUL_API_BASE}/{api_key}/json/{SEOUL_FLOATING_SERVICE}/1/1"
+
+    def _is_xml_error(text: str) -> str | None:
+        """응답이 XML 에러 (<RESULT><CODE>ERROR-...) 면 메시지 추출, 아니면 None."""
+        s = (text or "").lstrip()
+        if not s.startswith("<"):
+            return None
+        m_code = re.search(r"<CODE>([^<]+)</CODE>", s)
+        m_msg = re.search(r"<MESSAGE>(?:<!\[CDATA\[)?([^<\]]+)", s)
+        return f"{(m_code.group(1) if m_code else 'XML_ERR')}: {(m_msg.group(1) if m_msg else '')[:200]}"
+
+    # 1) 초기 호출로 list_total_count 얻기. Seoul OpenAPI 는 START==END 를 거부하므로
+    #    1/5 로 호출 (사용자 예시 패턴과 동일). 필터 슬롯 2 개 (%20/%20) 도 추가.
+    url0 = f"{SEOUL_API_BASE}/{api_key}/json/{SEOUL_FLOATING_SERVICE}/1/5/%20/%20/"
     try:
         r = requests.get(url0, timeout=30)
     except requests.RequestException as e:
         return {}, f"seoul_init_request: {e!r}"
     if r.status_code != 200:
         return {}, f"seoul_init_http_{r.status_code}: {r.text[:200]}"
+
+    xml_err = _is_xml_error(r.text)
+    if xml_err is not None:
+        return {}, f"seoul_init_xml_error: {xml_err}"
     try:
         body = r.json()
     except ValueError as e:
@@ -284,12 +298,27 @@ def _fetch_seoul_floating(api_key: str, max_rows: int = SEOUL_FLOATING_MAX_ROWS)
     cur = start
     while cur <= end:
         cur_end = min(cur + SEOUL_FLOATING_PAGE - 1, end)
-        url = f"{SEOUL_API_BASE}/{api_key}/json/{SEOUL_FLOATING_SERVICE}/{cur}/{cur_end}"
+        # START==END 회피 — 한 행만 남으면 한 칸 앞당겨 호출 (중복 방지를 위해 dedupe 는 SERIAL_NO+SENSING_TIME 으로).
+        if cur == cur_end and cur > 1:
+            cur -= 1
+        url = f"{SEOUL_API_BASE}/{api_key}/json/{SEOUL_FLOATING_SERVICE}/{cur}/{cur_end}/%20/%20/"
         try:
             r = requests.get(url, timeout=30)
+        except requests.RequestException as e:
+            last_err = f"page_{cur}_{cur_end}_req: {e!r}"
+            pages_fail += 1
+            cur = cur_end + 1
+            continue
+        xml_err = _is_xml_error(r.text)
+        if xml_err is not None:
+            last_err = f"page_{cur}_{cur_end}_xml: {xml_err}"
+            pages_fail += 1
+            cur = cur_end + 1
+            continue
+        try:
             body = r.json()
-        except (requests.RequestException, ValueError) as e:
-            last_err = f"page_{cur}_{cur_end}: {e!r}"
+        except ValueError as e:
+            last_err = f"page_{cur}_{cur_end}_json: {e!r}"
             pages_fail += 1
             cur = cur_end + 1
             continue

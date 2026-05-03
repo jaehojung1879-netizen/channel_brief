@@ -333,6 +333,90 @@ a { color: inherit; text-decoration: none; }
   overscroll-behavior: contain;
 }
 .kakao-map * { touch-action: none; }
+
+/* ========== 지도 위 범례 (은행 필터 + 유동인구 토글) ========== */
+.map-legend {
+  position: absolute;
+  top: 56px;        /* Kakao 줌 컨트롤 바로 아래 */
+  right: 10px;
+  z-index: 25;
+  display: flex; flex-direction: column;
+  gap: 6px;
+  padding: 6px;
+  background: rgba(15, 20, 25, 0.92);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(3px);
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--ink);
+}
+.map-legend .legend-row {
+  display: flex; align-items: center; gap: 4px;
+}
+.map-legend .legend-banks { gap: 3px; }
+.map-legend .legend-bank {
+  width: 26px; height: 26px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: #fff;
+  border: 2px solid #0f1419;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.15s, border-color 0.15s, transform 0.1s;
+}
+.map-legend .legend-bank:hover { transform: scale(1.06); }
+.map-legend .legend-bank.off { opacity: 0.32; }
+.map-legend .legend-bank img {
+  width: 18px; height: 18px;
+  object-fit: contain; border-radius: 50%;
+}
+.map-legend .legend-bank.kb { border-color: var(--kb); }
+.map-legend .legend-bank.shinhan { border-color: var(--shinhan); }
+.map-legend .legend-bank.hana { border-color: var(--hana); }
+.map-legend .legend-bank.woori { border-color: var(--woori); }
+.map-legend .legend-flow {
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  padding: 2px 4px 2px 2px;
+  border-top: 1px dashed var(--line-soft);
+  margin-top: 2px;
+}
+.map-legend .legend-flow input { margin: 0; }
+.map-legend .legend-flow .dot {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: rgba(155, 81, 224, 0.55);
+  border: 1px solid rgba(155, 81, 224, 0.95);
+}
+.map-legend .legend-flow .lbl { color: var(--ink); }
+
+/* ========== 서울 자치구 유동인구 원형 오버레이 ========== */
+.flow-circle {
+  border-radius: 50%;
+  background: rgba(155, 81, 224, 0.32);
+  border: 1px solid rgba(155, 81, 224, 0.85);
+  box-shadow: 0 0 14px rgba(155, 81, 224, 0.18);
+  display: flex; align-items: center; justify-content: center;
+  pointer-events: none;
+  transform: translate(-50%, -50%);  /* CustomOverlay 의 anchor 0.5/0.5 와 함께 정확 중앙 */
+}
+.flow-circle .flow-lbl {
+  display: flex; flex-direction: column; align-items: center;
+  color: #fff;
+  text-shadow: 0 0 4px rgba(0,0,0,0.55);
+  font-family: var(--mono);
+  text-align: center;
+  line-height: 1.15;
+  pointer-events: none;
+}
+.flow-circle .flow-lbl .d { font-size: 11px; font-weight: 600; }
+.flow-circle .flow-lbl .v { font-size: 10px; opacity: 0.92; }
+
+/* ========== 데스크탑에서는 사이드바 은행 필터 숨김 (지도 범례로 이동) ========== */
+@media (min-width: 961px) {
+  .gis-side #filter-block { display: none; }
+}
+
 .map-meta {
   border-top: 1px solid var(--line);
   padding: 8px 18px;

@@ -47,6 +47,43 @@ const STATE = {
   infoWindow: null,
   regionStats: null,
   mobileMq: window.matchMedia('(max-width: 960px)'),
+  // 유동인구 오버레이
+  flowVisible: false,
+  flowOverlays: [],
+  // 영업점 단위 점수 캐시 (key = b.id 또는 idx, value = { branchScore, localPct, nearby, radiusKm })
+  branchScores: new Map(),
+};
+
+// 수도권 + 광역시 + 세종 = 1km, 그 외 시·도 = 2km.
+const METRO_SIDOS = new Set(['서울', '경기', '인천', '부산', '대구', '광주', '대전', '울산', '세종']);
+
+// 서울 25 자치구 중심좌표 (대략값) — 유동인구 원형 오버레이 위치용.
+const SEOUL_DISTRICT_CENTROIDS = {
+  '강남구': { lat: 37.5172, lng: 127.0473 },
+  '강동구': { lat: 37.5301, lng: 127.1238 },
+  '강북구': { lat: 37.6396, lng: 127.0257 },
+  '강서구': { lat: 37.5509, lng: 126.8495 },
+  '관악구': { lat: 37.4784, lng: 126.9516 },
+  '광진구': { lat: 37.5384, lng: 127.0822 },
+  '구로구': { lat: 37.4954, lng: 126.8874 },
+  '금천구': { lat: 37.4566, lng: 126.8954 },
+  '노원구': { lat: 37.6542, lng: 127.0568 },
+  '도봉구': { lat: 37.6688, lng: 127.0471 },
+  '동대문구': { lat: 37.5744, lng: 127.0395 },
+  '동작구': { lat: 37.5124, lng: 126.9393 },
+  '마포구': { lat: 37.5663, lng: 126.9019 },
+  '서대문구': { lat: 37.5791, lng: 126.9368 },
+  '서초구': { lat: 37.4836, lng: 127.0327 },
+  '성동구': { lat: 37.5634, lng: 127.0371 },
+  '성북구': { lat: 37.5894, lng: 127.0167 },
+  '송파구': { lat: 37.5145, lng: 127.1059 },
+  '양천구': { lat: 37.5170, lng: 126.8665 },
+  '영등포구': { lat: 37.5264, lng: 126.8962 },
+  '용산구': { lat: 37.5384, lng: 126.9654 },
+  '은평구': { lat: 37.6027, lng: 126.9291 },
+  '종로구': { lat: 37.5735, lng: 126.9788 },
+  '중구':   { lat: 37.5641, lng: 126.9979 },
+  '중랑구': { lat: 37.6066, lng: 127.0926 },
 };
 
 function escHtml(s) {
@@ -85,6 +122,90 @@ function regionKeyFromAddress(addr) {
     sigungu = `${sigungu} ${parts[1]}`;
   }
   return `${sido} ${sigungu}`;
+}
+
+function sidoFromAddress(addr) {
+  if (!addr) return '';
+  for (const [prefix, label] of REGION_PREFIX) {
+    if (addr.startsWith(prefix)) return label;
+  }
+  return '';
+}
+
+function haversineKm(lat1, lng1, lat2, lng2) {
+  const R = 6371;
+  const toRad = d => d * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a = Math.sin(dLat / 2) ** 2
+    + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+
+function radiusKmFor(branch) {
+  const sido = sidoFromAddress(branch.address || branch.road_address || '');
+  return METRO_SIDOS.has(sido) ? 1.0 : 2.0;
+}
+
+// 모든 영업점에 대해: 반경 내 (4 대銀) 점포수 → log 백분위 → 행정구 점수와 가중평균.
+function computeBranchScores() {
+  STATE.branchScores = new Map();
+  const all = STATE.branches.filter(b => Number.isFinite(b.lat) && Number.isFinite(b.lng));
+  if (all.length === 0) return;
+
+  const nearby = new Array(all.length).fill(0);
+  const radii = new Array(all.length);
+  for (let i = 0; i < all.length; i++) radii[i] = radiusKmFor(all[i]);
+
+  // O(N^2) 이지만 N≈수천이고 1 회만 계산 (필터 변경시에는 재계산 X — radius 는 영업점 위치 기반이므로 고정).
+  for (let i = 0; i < all.length; i++) {
+    const a = all[i]; const r = radii[i];
+    for (let j = i + 1; j < all.length; j++) {
+      const b = all[j];
+      const d = haversineKm(a.lat, a.lng, b.lat, b.lng);
+      if (d <= r) nearby[i]++;
+      if (d <= radii[j]) nearby[j]++;
+    }
+  }
+
+  // log 백분위 (양수만 고려; 0 이면 최저).
+  const idxValues = [];
+  for (let i = 0; i < nearby.length; i++) {
+    if (nearby[i] > 0) idxValues.push([i, Math.log(nearby[i])]);
+  }
+  idxValues.sort((p, q) => p[1] - q[1]);
+  const pcts = new Map();
+  const n = idxValues.length;
+  for (let order = 0; order < n; order++) {
+    pcts.set(idxValues[order][0], (order / Math.max(n - 1, 1)) * 100);
+  }
+
+  for (let i = 0; i < all.length; i++) {
+    const b = all[i];
+    const localPct = pcts.has(i) ? pcts.get(i) : 0;
+    const districtScore = districtScoreFor(b);
+    let combined;
+    if (districtScore != null) {
+      combined = 0.5 * districtScore + 0.5 * localPct;
+    } else {
+      combined = localPct;
+    }
+    STATE.branchScores.set(b, {
+      branchScore: Math.round(combined * 10) / 10,
+      localPct: Math.round(localPct * 10) / 10,
+      districtScore: districtScore != null ? Math.round(districtScore * 10) / 10 : null,
+      nearby: nearby[i],
+      radiusKm: radii[i],
+    });
+  }
+}
+
+function districtScoreFor(branch) {
+  if (!STATE.regionStats || !STATE.regionStats.regions) return null;
+  const key = regionKeyFromAddress(branch.address || branch.road_address || '');
+  const entry = key && STATE.regionStats.regions[key];
+  const v = entry && entry.location_score && entry.location_score.value;
+  return (typeof v === 'number') ? v : null;
 }
 
 async function loadJSON(path) {
@@ -342,11 +463,22 @@ function regionStatsHtml(b) {
   }
   const rows = [];
 
-  // 종합 입지 점수 — 사업체수 45% / 소득 35% / 시장(인구·유동인구) 20%.
+  // 영업점 단위 점수 (행정구 점수 50% + 반경 내 점포밀도 50%) 를 최상단에 강조.
+  const bs = STATE.branchScores.get(b);
+  if (bs) {
+    const v = Number(bs.branchScore).toFixed(1);
+    rows.push(`<div class="rs-row rs-score"><span class="k">영업점 점수</span><span class="v">${v} / 100</span><span class="src">반경${bs.radiusKm}km</span></div>`);
+    const dpart = bs.districtScore != null ? `행정구 ${bs.districtScore.toFixed(0)}p` : null;
+    const lpart = `반경 ${bs.radiusKm}km ${bs.nearby}개·${bs.localPct.toFixed(0)}p`;
+    const parts = [dpart, lpart].filter(Boolean);
+    rows.push(`<div class="rs-row rs-score-breakdown"><span class="k"></span><span class="v">${escHtml(parts.join(' · '))}</span><span class="src"></span></div>`);
+  }
+
+  // 행정구(시·군·구) 점수 — 사업체수 45% / 소득 35% / 시장(인구·유동인구) 20%.
   const sc = entry.location_score;
   if (sc && sc.value != null) {
     const v = Number(sc.value).toFixed(1);
-    rows.push(`<div class="rs-row rs-score"><span class="k">입지 점수</span><span class="v">${v} / 100</span><span class="src">백분위</span></div>`);
+    rows.push(`<div class="rs-row"><span class="k">행정구 점수</span><span class="v">${v} / 100</span><span class="src">백분위</span></div>`);
     const c = sc.components || {};
     const parts = [];
     if (c.businesses_pct != null) parts.push(`사업체 ${Number(c.businesses_pct).toFixed(0)}p`);
@@ -504,6 +636,116 @@ function initMap() {
   });
 }
 
+// ============== Seoul 유동인구 오버레이 ==============
+function seoulFlowEntries() {
+  const out = [];
+  if (!STATE.regionStats || !STATE.regionStats.regions) return out;
+  for (const [district, centroid] of Object.entries(SEOUL_DISTRICT_CENTROIDS)) {
+    const entry = STATE.regionStats.regions[`서울 ${district}`] || null;
+    const fp = entry && entry.floating_population;
+    if (!fp || fp.value == null) continue;
+    out.push({ district, centroid, value: fp.value, samples: fp.samples });
+  }
+  return out;
+}
+
+function flowSizePx(value, minVal, maxVal) {
+  // 평균 visitor count 를 30~120px 범위로 매핑 (sqrt 스케일).
+  const lo = 30, hi = 120;
+  if (!(maxVal > minVal)) return (lo + hi) / 2;
+  const t = Math.sqrt(Math.max(value - minVal, 0) / (maxVal - minVal));
+  return lo + (hi - lo) * t;
+}
+
+function clearSeoulFlowOverlays() {
+  STATE.flowOverlays.forEach(o => { try { o.setMap(null); } catch (_e) {} });
+  STATE.flowOverlays = [];
+}
+
+function renderSeoulFlowOverlays() {
+  clearSeoulFlowOverlays();
+  if (!STATE.map || !STATE.flowVisible) return;
+  const entries = seoulFlowEntries();
+  if (entries.length === 0) return;
+
+  const values = entries.map(e => e.value);
+  const minV = Math.min(...values);
+  const maxV = Math.max(...values);
+
+  entries.forEach(e => {
+    const size = flowSizePx(e.value, minV, maxV);
+    const node = document.createElement('div');
+    node.className = 'flow-circle';
+    node.style.width = `${size}px`;
+    node.style.height = `${size}px`;
+    node.innerHTML = `<div class="flow-lbl"><span class="d">${escHtml(e.district)}</span><span class="v">${Number(e.value).toFixed(0)}명</span></div>`;
+    const overlay = new kakao.maps.CustomOverlay({
+      position: new kakao.maps.LatLng(e.centroid.lat, e.centroid.lng),
+      content: node,
+      yAnchor: 0.5,
+      xAnchor: 0.5,
+      clickable: false,
+      zIndex: 0,
+    });
+    overlay.setMap(STATE.map);
+    STATE.flowOverlays.push(overlay);
+  });
+}
+
+// ============== 지도 위 범례 (은행 필터 + 유동인구 토글) ==============
+function buildMapLegend() {
+  const main = document.querySelector('.gis-main');
+  if (!main) return;
+  // 모바일에서는 sidebar 위쪽 mobile-map-controls 를 그대로 쓰므로 데스크탑 한정.
+  if (STATE.mobileMq.matches) {
+    const existing = document.getElementById('map-legend');
+    if (existing) existing.remove();
+    return;
+  }
+  let leg = document.getElementById('map-legend');
+  if (!leg) {
+    leg = document.createElement('div');
+    leg.id = 'map-legend';
+    leg.className = 'map-legend';
+    main.appendChild(leg);
+  }
+  // 은행 필터 (로고 토글) + 유동인구 토글.
+  leg.innerHTML = `
+    <div class="legend-row legend-banks" id="legend-banks">
+      ${BANK_ORDER.map(name => {
+        const meta = BANK_META[name] || {};
+        const off = !STATE.filter.has(name);
+        return `<button type="button" class="legend-bank ${meta.cls}${off ? ' off' : ''}" data-bank="${escHtml(name)}" title="${escHtml(name)}은행">
+          <img src="${LOGO_BASE}/${meta.logo}" alt="${escHtml(name)}" />
+        </button>`;
+      }).join('')}
+    </div>
+    <label class="legend-row legend-flow">
+      <input type="checkbox" id="legend-flow-toggle" ${STATE.flowVisible ? 'checked' : ''} />
+      <span class="dot"></span>
+      <span class="lbl">서울 유동인구</span>
+    </label>
+  `;
+
+  leg.querySelectorAll('.legend-bank').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const name = btn.dataset.bank;
+      if (STATE.filter.has(name)) STATE.filter.delete(name);
+      else STATE.filter.add(name);
+      btn.classList.toggle('off');
+      // 사이드바 (있다면) 와 동기화.
+      const sb = document.querySelector(`#bank-toggle-list .bank-toggle[data-bank="${name}"]`);
+      if (sb) sb.classList.toggle('off');
+      renderMarkers();
+    });
+  });
+  const cb = leg.querySelector('#legend-flow-toggle');
+  if (cb) cb.addEventListener('change', () => {
+    STATE.flowVisible = !!cb.checked;
+    renderSeoulFlowOverlays();
+  });
+}
+
 // ============== Bootstrap ==============
 async function bootstrap() {
   document.getElementById('today-date').textContent = fmtKstNow();
@@ -575,7 +817,10 @@ async function bootstrap() {
   }
 
   hideOverlay();
+  computeBranchScores();
   renderMarkers();
+  buildMapLegend();
+  STATE.mobileMq.addEventListener('change', buildMapLegend);
 }
 
 document.addEventListener('DOMContentLoaded', bootstrap);
