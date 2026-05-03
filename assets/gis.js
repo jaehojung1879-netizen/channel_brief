@@ -228,7 +228,6 @@ function buildScoreCsv() {
     '시·도 평균 가구소득',
     '시·군·구 인구(명)',
     '서울 자치구 평균 유동인구(명/측정)',
-    '관내 4대銀 점포수(시·군·구)',
   ];
   const regions = (STATE.regionStats && STATE.regionStats.regions) || {};
   const lines = [HEAD.map(csvCell).join(',')];
@@ -266,7 +265,6 @@ function buildScoreCsv() {
       (entry.income || {}).value ?? '',
       (entry.population || {}).value ?? '',
       (entry.floating_population || {}).value ?? '',
-      entry.branch_count ?? '',
     ];
     lines.push(row.map(csvCell).join(','));
   });
@@ -329,20 +327,8 @@ function hideOverlay() {
 
 
 function relocateMobileControls() {
-  const mobileWrap = document.getElementById('mobile-map-controls');
-  const sidebar = document.querySelector('.gis-side');
-  const searchBlock = document.getElementById('search-block');
-  const filterBlock = document.getElementById('filter-block');
-  if (!mobileWrap || !sidebar || !searchBlock || !filterBlock) return;
-
-  const toMobile = STATE.mobileMq.matches;
-  if (toMobile) {
-    mobileWrap.appendChild(searchBlock);
-    mobileWrap.appendChild(filterBlock);
-  } else {
-    sidebar.prepend(filterBlock);
-    sidebar.prepend(searchBlock);
-  }
+  // 검색/필터를 지도 위로 이동하지 않는다.
+  // 모바일에서는 사이드 영역 자체가 지도 하단으로 배치된다.
 }
 
 // ============== Sidebar ==============
@@ -572,7 +558,6 @@ function regionStatsHtml(b) {
       <div class="score-cell"><div class="k">행정구 점수(50%)</div><div class="v">${district} p</div></div>
       <div class="score-cell"><div class="k">반경 점포밀도(50%)</div><div class="v">${density} p</div></div>
       <div class="score-cell"><div class="k">반경 기준</div><div class="v">${bs.radiusKm} km</div></div>
-      <div class="score-cell"><div class="k">반경 내 4대은행</div><div class="v">${bs.nearby} 개</div></div>
     </div>
   `;
 }
@@ -743,12 +728,6 @@ function renderSeoulFlowOverlays() {
 function buildMapLegend() {
   const main = document.querySelector('.gis-main');
   if (!main) return;
-  // 모바일에서는 sidebar 위쪽 mobile-map-controls 를 그대로 쓰므로 데스크탑 한정.
-  if (STATE.mobileMq.matches) {
-    const existing = document.getElementById('map-legend');
-    if (existing) existing.remove();
-    return;
-  }
   let leg = document.getElementById('map-legend');
   if (!leg) {
     leg = document.createElement('div');

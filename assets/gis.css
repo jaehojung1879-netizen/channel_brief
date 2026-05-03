@@ -663,44 +663,16 @@ body, .gis-shell, .gis-main, .gis-side, .kakao-map {
   .kakao-map { min-height: 360px; }
 }
 
-.mobile-map-controls { display: none; }
+.mobile-map-controls { display: none !important; }
 
 @media (max-width: 960px) {
-  .mobile-map-controls {
-    display: grid;
-    gap: 8px;
-    position: static;
-    z-index: 1;
-    margin: 10px 10px 0;
-    padding: 10px;
-    border: 1px solid var(--line);
-    background: rgba(15, 20, 25, 0.92);
-    backdrop-filter: blur(3px);
+  .gis-main { order: 1; }
+  .gis-side { order: 2; }
+  .kakao-map { min-height: 520px; }
+  .map-legend {
+    top: 12px;
+    right: 10px;
   }
-  .mobile-map-controls .side-block {
-    margin: 0;
-    padding: 0;
-  }
-  .mobile-map-controls .block-head {
-    margin-bottom: 8px;
-  }
-  .gis-side .mobile-hidden {
-    display: none;
-  }
-  .kakao-map {
-    min-height: 520px;
-  }
-}
-
-@media (max-width: 960px) {
-  #mobile-map-controls #bank-toggle-list { display: flex; }
-  #mobile-map-controls .logo-group-toggle { grid-template-columns: repeat(3, 1fr); }
-  #mobile-map-controls .csv-download {
-    margin-left: auto;
-    min-width: 54px;
-    justify-content: center;
-  }
-  #mobile-map-controls .bank-toggle .name { font-size: 13px; }
 }
 
 .gis-info .score-pill {
