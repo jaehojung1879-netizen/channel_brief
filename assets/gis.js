@@ -554,57 +554,27 @@ function clearMarkers() {
 
 function regionStatsHtml(b) {
   if (!STATE.regionStats || !STATE.regionStats.regions) {
-    return `<div class="rs-empty">통계청·한국부동산원·서울OpenAPI 자료는 다음 워크플로 실행 후 표시됩니다.</div>`;
+    return `<div class="rs-empty">점수 산정 데이터가 아직 동기화되지 않았습니다.</div>`;
   }
   const key = regionKeyFromAddress(b.address || b.road_address || '');
   const entry = key && STATE.regionStats.regions[key];
-  if (!entry) {
-    return `<div class="rs-empty">${escHtml(key || '지역 미상')} · 자료 미수집</div>`;
-  }
-  const rows = [];
-
-  // 영업점 단위 점수 (행정구 점수 50% + 반경 내 점포밀도 50%) 를 최상단에 강조.
   const bs = STATE.branchScores.get(b);
-  if (bs) {
-    const v = Number(bs.branchScore).toFixed(1);
-    rows.push(`<div class="rs-row rs-score"><span class="k">영업점 점수</span><span class="v">${v} / 100</span><span class="src">반경${bs.radiusKm}km</span></div>`);
-    const lpart = `반경 ${bs.radiusKm}km 내 4대銀 ${bs.nearby}개 · 백분위 ${bs.localPct.toFixed(0)}p`;
-    rows.push(`<div class="rs-row rs-score-breakdown"><span class="k"></span><span class="v">${escHtml(lpart)}</span><span class="src"></span></div>`);
-  }
-
-  // 행정구 점수 / 인구 행은 사용자 요청에 따라 정보창에 노출하지 않음.
-  // (전체 산정 근거는 § B 요약 통계 옆 다운로드 버튼의 CSV 에서 확인.)
-
-  if (entry.businesses && entry.businesses.value != null) {
-    const v = Number(entry.businesses.value).toLocaleString();
-    const period = entry.businesses.period ? ` (${escHtml(entry.businesses.period)})` : '';
-    rows.push(`<div class="rs-row"><span class="k">사업체수</span><span class="v">${v} 개${period}</span><span class="src">KOSIS</span></div>`);
-  }
-  if (entry.income && entry.income.value != null) {
-    const raw = Number(entry.income.value);
-    const v = Number.isFinite(raw) ? raw.toLocaleString(undefined, { maximumFractionDigits: 0 }) : '—';
-    const unit = entry.income.unit ? ` ${escHtml(entry.income.unit)}` : '';
-    const period = entry.income.period ? ` (${escHtml(entry.income.period)})` : '';
-    const scope = entry.income.scope === 'sido' ? ' · 시·도 평균' : '';
-    rows.push(`<div class="rs-row"><span class="k">평균 가구소득</span><span class="v">${v}${unit}${period}</span><span class="src">KOSIS${scope}</span></div>`);
-  }
-  if (entry.floating_population && entry.floating_population.value != null) {
-    const v = Number(entry.floating_population.value).toLocaleString(undefined, { maximumFractionDigits: 1 });
-    const samples = entry.floating_population.samples ? ` · n=${entry.floating_population.samples.toLocaleString()}` : '';
-    rows.push(`<div class="rs-row"><span class="k">유동인구</span><span class="v">${v} 명/측정${samples}</span><span class="src">서울 OpenAPI</span></div>`);
-  }
-  if (entry.branch_count != null) {
-    rows.push(`<div class="rs-row"><span class="k">관내 4대銀 점포</span><span class="v">${entry.branch_count.toLocaleString()} 개</span><span class="src">Kakao</span></div>`);
-  }
-  if (entry.price_index && entry.price_index.value != null) {
-    const v = Number(entry.price_index.value).toFixed(1);
-    const period = entry.price_index.period ? ` (${escHtml(entry.price_index.period)})` : '';
-    rows.push(`<div class="rs-row"><span class="k">매매가격지수</span><span class="v">${v}${period}</span><span class="src">R-ONE</span></div>`);
-  }
-  if (rows.length === 0) {
-    return `<div class="rs-empty">${escHtml(key)} · 자료 미수집</div>`;
-  }
-  return `<div class="rs-block"><div class="rs-head">${escHtml(key)} · 입지 자료</div>${rows.join('')}</div>`;
+  if (!entry || !bs) return `<div class="rs-empty">${escHtml(key || '지역 미상')} · 자료 미수집</div>`;
+  const district = bs.districtScore != null ? bs.districtScore.toFixed(1) : '—';
+  const density = bs.localPct != null ? bs.localPct.toFixed(1) : '—';
+  const finalScore = bs.branchScore != null ? bs.branchScore.toFixed(1) : '—';
+  return `
+    <div class="score-pill">
+      <div class="label">영업점 점수 (100점 만점)</div>
+      <div class="value">${finalScore}</div>
+    </div>
+    <div class="score-grid">
+      <div class="score-cell"><div class="k">행정구 점수(50%)</div><div class="v">${district} p</div></div>
+      <div class="score-cell"><div class="k">반경 점포밀도(50%)</div><div class="v">${density} p</div></div>
+      <div class="score-cell"><div class="k">반경 기준</div><div class="v">${bs.radiusKm} km</div></div>
+      <div class="score-cell"><div class="k">반경 내 4대은행</div><div class="v">${bs.nearby} 개</div></div>
+    </div>
+  `;
 }
 
 function infoHtml(b) {
