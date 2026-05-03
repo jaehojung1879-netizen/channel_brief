@@ -327,8 +327,16 @@ function hideOverlay() {
 
 
 function relocateMobileControls() {
-  // 검색/필터를 지도 위로 이동하지 않는다.
-  // 모바일에서는 사이드 영역 자체가 지도 하단으로 배치된다.
+  const host = document.getElementById('mobile-map-controls');
+  const searchBlock = document.getElementById('search-block');
+  const side = document.querySelector('.gis-side');
+  if (!host || !searchBlock || !side) return;
+
+  if (STATE.mobileMq.matches) {
+    if (!host.contains(searchBlock)) host.appendChild(searchBlock);
+  } else if (!side.contains(searchBlock)) {
+    side.insertBefore(searchBlock, side.firstElementChild);
+  }
 }
 
 // ============== Sidebar ==============
@@ -549,15 +557,20 @@ function regionStatsHtml(b) {
   const district = bs.districtScore != null ? bs.districtScore.toFixed(1) : '—';
   const density = bs.localPct != null ? bs.localPct.toFixed(1) : '—';
   const finalScore = bs.branchScore != null ? bs.branchScore.toFixed(1) : '—';
+  const c = (entry.location_score && entry.location_score.components) || {};
+  const marketSource = c.market_source || (entry.floating_population ? '서울 IoT 유동인구' : '주민등록 인구');
   return `
     <div class="score-pill">
       <div class="label">영업점 점수 (100점 만점)</div>
       <div class="value">${finalScore}</div>
     </div>
     <div class="score-grid">
+      <div class="score-cell"><div class="k">최종 산식</div><div class="v">행정구 50% + 반경 50%</div></div>
       <div class="score-cell"><div class="k">행정구 점수(50%)</div><div class="v">${district} p</div></div>
+      <div class="score-cell"><div class="k">행정구 내부 가중치</div><div class="v">사업체45·소득35·시장20</div></div>
       <div class="score-cell"><div class="k">반경 점포밀도(50%)</div><div class="v">${density} p</div></div>
-      <div class="score-cell"><div class="k">반경 기준</div><div class="v">${bs.radiusKm} km</div></div>
+      <div class="score-cell"><div class="k">시장지표 기준</div><div class="v">${escHtml(marketSource)}</div></div>
+      <div class="score-cell"><div class="k">반경 / 인접점포</div><div class="v">${bs.radiusKm}km / ${bs.nearby}개</div></div>
     </div>
   `;
 }
@@ -706,18 +719,29 @@ function renderSeoulFlowOverlays() {
 
   entries.forEach(e => {
     const size = flowSizePx(e.value, minV, maxV);
-    const node = document.createElement('div');
+    const node = document.createElement('button');
+    node.type = 'button';
     node.className = 'flow-circle';
     node.style.width = `${size}px`;
     node.style.height = `${size}px`;
     node.innerHTML = `<div class="flow-lbl"><span class="d">${escHtml(e.district)}</span><span class="v">${Number(e.value).toFixed(0)}명</span></div>`;
+    node.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      const pos = new kakao.maps.LatLng(e.centroid.lat, e.centroid.lng);
+      const samples = Number(e.samples || 0).toLocaleString();
+      const html = `<div class="gis-info flow-info"><div class="bn">서울 ${escHtml(e.district)} 유동인구</div><div class="ph">평균 ${Number(e.value).toFixed(1)}명 / 측정</div><div class="ad">최근 표본 ${samples}건 기준 (서울 IoT OpenAPI)</div></div>`;
+      if (!STATE.infoWindow) STATE.infoWindow = new kakao.maps.InfoWindow({ removable: true, zIndex: 50 });
+      STATE.infoWindow.setContent(html);
+      STATE.infoWindow.setPosition(pos);
+      STATE.infoWindow.open(STATE.map);
+    });
     const overlay = new kakao.maps.CustomOverlay({
       position: new kakao.maps.LatLng(e.centroid.lat, e.centroid.lng),
       content: node,
       yAnchor: 0.5,
       xAnchor: 0.5,
-      clickable: false,
-      zIndex: 0,
+      clickable: true,
+      zIndex: 3,
     });
     overlay.setMap(STATE.map);
     STATE.flowOverlays.push(overlay);
