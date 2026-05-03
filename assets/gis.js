@@ -208,6 +208,97 @@ function districtScoreFor(branch) {
   return (typeof v === 'number') ? v : null;
 }
 
+// ============== 점수 산정 결과 CSV 다운로드 ==============
+function buildScoreCsv() {
+  const HEAD = [
+    '은행', '영업점명', '도로명주소', '지번주소', '시·도', '시·군·구',
+    'lat', 'lng',
+    '반경(km)',
+    '반경 내 4대銀 점포수',
+    '반경 점포밀도 백분위(p)',
+    '행정구 점수(p)',
+    '행정구 사업체 백분위(p)',
+    '행정구 소득 백분위(p)',
+    '행정구 시장(인구/유동) 백분위(p)',
+    '행정구 시장 source',
+    '행정구 점포밀도 백분위(p)',
+    '영업점 점수(최종)',
+    '계산식',
+    '시·군·구 사업체수(개)',
+    '시·도 평균 가구소득',
+    '시·군·구 인구(명)',
+    '서울 자치구 평균 유동인구(명/측정)',
+    '관내 4대銀 점포수(시·군·구)',
+  ];
+  const regions = (STATE.regionStats && STATE.regionStats.regions) || {};
+  const lines = [HEAD.map(csvCell).join(',')];
+  STATE.branches.forEach(b => {
+    const sido = sidoFromAddress(b.address || b.road_address || '');
+    const key = regionKeyFromAddress(b.address || b.road_address || '');
+    const entry = (key && regions[key]) || {};
+    const sc = entry.location_score || {};
+    const c = sc.components || {};
+    const bs = STATE.branchScores.get(b) || {};
+    const sigungu = key.startsWith(sido + ' ') ? key.slice(sido.length + 1) : '';
+    const dScore = bs.districtScore;
+    const lPct = bs.localPct;
+    const branchScore = bs.branchScore;
+    let formula = '';
+    if (dScore != null && lPct != null && branchScore != null) {
+      formula = `0.5 × ${dScore.toFixed(1)} (행정구) + 0.5 × ${lPct.toFixed(1)} (반경) = ${branchScore.toFixed(1)}`;
+    } else if (lPct != null && branchScore != null) {
+      formula = `${lPct.toFixed(1)} (반경 단독, 행정구 점수 없음) = ${branchScore.toFixed(1)}`;
+    }
+    const row = [
+      b.bank, b.name, b.road_address || '', b.address || '', sido, sigungu,
+      Number.isFinite(b.lat) ? b.lat : '', Number.isFinite(b.lng) ? b.lng : '',
+      bs.radiusKm ?? '', bs.nearby ?? '',
+      lPct != null ? lPct.toFixed(1) : '',
+      dScore != null ? dScore.toFixed(1) : '',
+      c.businesses_pct != null ? c.businesses_pct : '',
+      c.income_pct != null ? c.income_pct : '',
+      c.market_pct != null ? c.market_pct : '',
+      c.market_source || '',
+      c.branch_density_pct != null ? c.branch_density_pct : '',
+      branchScore != null ? branchScore.toFixed(1) : '',
+      formula,
+      (entry.businesses || {}).value ?? '',
+      (entry.income || {}).value ?? '',
+      (entry.population || {}).value ?? '',
+      (entry.floating_population || {}).value ?? '',
+      entry.branch_count ?? '',
+    ];
+    lines.push(row.map(csvCell).join(','));
+  });
+  return lines.join('\r\n');
+}
+
+function csvCell(v) {
+  if (v == null) return '';
+  const s = String(v);
+  if (/[",\r\n]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+  return s;
+}
+
+function downloadScoreCsv() {
+  const csv = buildScoreCsv();
+  // UTF-8 BOM 으로 Excel 한글 인코딩 인식.
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const d = new Date();
+  const pad = n => String(n).padStart(2, '0');
+  const stamp = `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}`;
+  a.href = url;
+  a.download = `영업점_입지점수_${stamp}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => {
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }, 100);
+}
+
 async function loadJSON(path) {
   try {
     const r = await fetch(`${DATA_BASE}/${path}?t=${Date.now()}`);
@@ -313,6 +404,15 @@ function renderStats(meta) {
     : '—';
   document.getElementById('meta-source').textContent = `SOURCE: ${meta?.source || '—'}`;
   document.getElementById('meta-updated').textContent = `UPDATED: ${meta?.as_of || '—'}`;
+  const dl = document.getElementById('score-csv-download');
+  if (dl && !dl.dataset.bound) {
+    dl.addEventListener('click', (ev) => {
+      ev.preventDefault();
+      try { downloadScoreCsv(); }
+      catch (e) { console.error('[GIS] CSV 생성 실패', e); }
+    });
+    dl.dataset.bound = '1';
+  }
 }
 
 function renderRegionBars() {
@@ -468,30 +568,12 @@ function regionStatsHtml(b) {
   if (bs) {
     const v = Number(bs.branchScore).toFixed(1);
     rows.push(`<div class="rs-row rs-score"><span class="k">영업점 점수</span><span class="v">${v} / 100</span><span class="src">반경${bs.radiusKm}km</span></div>`);
-    const dpart = bs.districtScore != null ? `행정구 ${bs.districtScore.toFixed(0)}p` : null;
-    const lpart = `반경 ${bs.radiusKm}km ${bs.nearby}개·${bs.localPct.toFixed(0)}p`;
-    const parts = [dpart, lpart].filter(Boolean);
-    rows.push(`<div class="rs-row rs-score-breakdown"><span class="k"></span><span class="v">${escHtml(parts.join(' · '))}</span><span class="src"></span></div>`);
+    const lpart = `반경 ${bs.radiusKm}km 내 4대銀 ${bs.nearby}개 · 백분위 ${bs.localPct.toFixed(0)}p`;
+    rows.push(`<div class="rs-row rs-score-breakdown"><span class="k"></span><span class="v">${escHtml(lpart)}</span><span class="src"></span></div>`);
   }
 
-  // 행정구(시·군·구) 점수 — 사업체수 45% / 소득 35% / 시장(인구·유동인구) 20%.
-  const sc = entry.location_score;
-  if (sc && sc.value != null) {
-    const v = Number(sc.value).toFixed(1);
-    rows.push(`<div class="rs-row"><span class="k">행정구 점수</span><span class="v">${v} / 100</span><span class="src">백분위</span></div>`);
-    const c = sc.components || {};
-    const parts = [];
-    if (c.businesses_pct != null) parts.push(`사업체 ${Number(c.businesses_pct).toFixed(0)}p`);
-    if (c.income_pct != null) parts.push(`소득 ${Number(c.income_pct).toFixed(0)}p`);
-    if (c.market_pct != null) {
-      const lbl = c.market_source === 'floating_population' ? '유동인구' : '인구';
-      parts.push(`${lbl} ${Number(c.market_pct).toFixed(0)}p`);
-    }
-    if (c.branch_density_pct != null) parts.push(`점포밀도 ${Number(c.branch_density_pct).toFixed(0)}p`);
-    if (parts.length) {
-      rows.push(`<div class="rs-row rs-score-breakdown"><span class="k"></span><span class="v">${escHtml(parts.join(' · '))}</span><span class="src"></span></div>`);
-    }
-  }
+  // 행정구 점수 / 인구 행은 사용자 요청에 따라 정보창에 노출하지 않음.
+  // (전체 산정 근거는 § B 요약 통계 옆 다운로드 버튼의 CSV 에서 확인.)
 
   if (entry.businesses && entry.businesses.value != null) {
     const v = Number(entry.businesses.value).toLocaleString();
@@ -505,11 +587,6 @@ function regionStatsHtml(b) {
     const period = entry.income.period ? ` (${escHtml(entry.income.period)})` : '';
     const scope = entry.income.scope === 'sido' ? ' · 시·도 평균' : '';
     rows.push(`<div class="rs-row"><span class="k">평균 가구소득</span><span class="v">${v}${unit}${period}</span><span class="src">KOSIS${scope}</span></div>`);
-  }
-  if (entry.population && entry.population.value != null) {
-    const v = Number(entry.population.value).toLocaleString();
-    const period = entry.population.period ? ` (${escHtml(entry.population.period)})` : '';
-    rows.push(`<div class="rs-row"><span class="k">인구</span><span class="v">${v} 명${period}</span><span class="src">KOSIS</span></div>`);
   }
   if (entry.floating_population && entry.floating_population.value != null) {
     const v = Number(entry.floating_population.value).toLocaleString(undefined, { maximumFractionDigits: 1 });

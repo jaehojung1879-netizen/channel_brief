@@ -124,6 +124,25 @@ a { color: inherit; text-decoration: none; }
   font-family: var(--serif); font-weight: 600;
   font-size: 15px; letter-spacing: -0.005em;
 }
+.block-head .csv-download {
+  margin-left: auto;
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 3px 8px;
+  font-family: var(--mono); font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--ink-dim);
+  background: var(--bg-card);
+  border: 1px solid var(--line-soft);
+  border-radius: 2px;
+  text-decoration: none;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.block-head .csv-download:hover {
+  color: var(--accent);
+  border-color: var(--accent-dim);
+  background: var(--bg-elev);
+}
+.block-head .csv-download svg { display: block; }
 
 .search-wrap { position: relative; }
 .search-wrap input[type="search"] {
