@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-05-03T07:41:37.600899+09:00",
+  "updated_at": "2026-05-04T06:37:17.300954+09:00",
   "headline": {
-    "id": "93b8d8ae9eb8",
-    "title": "은행지점 줄이더니 어르신 창구 6배로 늘린다…하나은행의 ‘老림수’",
+    "id": "5951640e8161",
+    "title": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포",
     "source": "매일경제",
-    "summary": "은행지점 줄이더니 어르신 창구 6배로 늘린다…하나은행의 ‘老림수’ 매일경제",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xcjVqMG5NNldOVU05RkxLcVR0MkhaOTZQc2JFQnI5YWkzU3NEMTIwS3VaRHlwb2ZUaVZEOUMxZWRweWVvc0tMZFl0aTNPSXhLQ2ZlTA?oc=5",
-    "published": "2026-05-02T10:22:26+09:00",
-    "query": "은행 점포",
+    "summary": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포 매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PZjlNMUV2cFVqM21OeS1GZlVhbUNOM09ISmpKdllET3NwSC1PZUxUYkg3b25qektLbXZ1Ti0ta2V5ZlFOLXdrNHk3MktHWFZjNkl5cg?oc=5",
+    "published": "2026-05-01T10:55:26+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 1,
-    "_score": 16.0,
+    "rank": 3,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "9bfcc2451f46",
-        "title": "다들 점포 줄이는데…시니어 전용 창구는 늘리는 하나은행",
-        "source": "네이트",
-        "summary": "다들 점포 줄이는데…시니어 전용 창구는 늘리는 하나은행 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pcGV0OG5aRlc0Y2lLVEtWUHI5Slc5UGRqQXphLXpDMDRKeE9Wend6Z3ZGcHF2QmFiUWMySHNEZmxYVk53aVpZaE5tZUU5ZEFiUndn?oc=5",
-        "published": "2026-05-01T13:20:00+09:00",
+        "id": "93b8d8ae9eb8",
+        "title": "은행지점 줄이더니 어르신 창구 6배로 늘린다…하나은행의 ‘老림수’",
+        "source": "매일경제",
+        "summary": "은행지점 줄이더니 어르신 창구 6배로 늘린다…하나은행의 ‘老림수’ 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xcjVqMG5NNldOVU05RkxLcVR0MkhaOTZQc2JFQnI5YWkzU3NEMTIwS3VaRHlwb2ZUaVZEOUMxZWRweWVvc0tMZFl0aTNPSXhLQ2ZlTA?oc=5",
+        "published": "2026-05-02T10:22:26+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 10,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -43,27 +43,27 @@
     "policy_news": [],
     "shinhan_news": [
       {
-        "id": "df98cd93df49",
-        "title": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포",
-        "source": "v.daum.net",
-        "summary": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1sMkdOY0d3cDJVeGhkZWV2OWNtVk5hN2ZUVDhFSUF0UlF6WFFVYTdVMDh0Y0p4bk82cjRiS0JYazh0TTVkNS1sdHhiMA?oc=5",
-        "published": "2026-05-01T10:57:00+09:00",
-        "query": "신한은행 영업점",
+        "id": "a7f97333c1f6",
+        "title": "신한은행, '우리동네 맛집 땡겨요'로 소상공인 홍보 지원",
+        "source": "캠페인 인사이트",
+        "summary": "신한은행, '우리동네 맛집 땡겨요'로 소상공인 홍보 지원 캠페인 인사이트",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBXcGFoekFFRmxGSzVmbkdHdDFzVmNzXzVnMTZzVjQ3c1dsaU5WOVNUQl9sTS1WUmotV3JaSDZPU0ZCMmY5N2dkOWdUOGtsdFl2TEhFTmc4WXFDR3VpaTJLM3hUbTE0cDBpQzcyY1hheWdwcEdO?oc=5",
+        "published": "2026-04-30T13:15:00+09:00",
+        "query": "신한은행 지점",
         "engine": "google",
-        "rank": 1,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "293e69a383da",
-        "title": "신한은행, ‘우리동네 맛집 땡겨요’ 홍보 프로그램 실시",
-        "source": "더퍼블릭",
-        "summary": "신한은행, ‘우리동네 맛집 땡겨요’ 홍보 프로그램 실시 더퍼블릭",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yOUJqTWlQY0R5VVhQeTlWVjV0bG1UN2JzX2JHYTVKSjE4TUR0U0xtRWhWay1CbEhvbkxxRlVyX2xPLUlRM0E0MTJTMV9Zcm9MaFhtLTRnemhiUHltWlRmSUp3WU9ERFdPbGFuendaY9IBb0FVX3lxTE5yOUJqTWlQY0R5VVhQeTlWVjV0bG1UN2JzX2JHYTVKSjE4TUR0U0xtRWhWay1CbEhvbkxxRlVyX2xPLUlRM0E0MTJTMV9Zcm9MaFhtLTRnemhiUHltWlRmSUp3WU9ERFdPbGFuendaYw?oc=5",
-        "published": "2026-05-01T09:57:15+09:00",
-        "query": "신한은행 영업점",
+        "id": "ab221e85e183",
+        "title": "남동구새마을회-신한은행 남동구청지점, 지역사회 상생을 위한 업무협약 체결",
+        "source": "시사일보",
+        "summary": "남동구새마을회-신한은행 남동구청지점, 지역사회 상생을 위한 업무협약 체결 시사일보",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMMXNtaGpkMFZJcE93SmRFeVhwYnJxRVdFZEhPV3lsVWhhUmVaaTJxR0QtOTYzWVVqUmdDT3o5eGd2OVYzdTlnZzhrN2Y?oc=5",
+        "published": "2026-04-30T11:14:00+09:00",
+        "query": "신한은행 지점",
         "engine": "google",
-        "rank": 13,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -75,7 +75,7 @@
         "published": "2026-04-29T11:25:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -85,9 +85,9 @@
         "summary": "신한은행 \"퇴근 후, 토요일에도 오픈\"…일부 점포 영업시간 연장 포춘코리아",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kVjgtZzlVVmxKclp6YjFTb0hLRVNSbkJ0WEJrdGRFV2pXM0NNR0hCbTZ4bUVLMDFtRWtSQUQwUGlMUWc5YTdKLS1HTEFjUUh5LVlDV2NnMG1NdFBXck9NZzR6RTd6ODhYbklvdldkaTEtZw?oc=5",
         "published": "2026-04-27T16:00:00+09:00",
-        "query": "신한은행 영업점",
+        "query": "신한은행 점포",
         "engine": "google",
-        "rank": 14,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
