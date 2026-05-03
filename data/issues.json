@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T07:36:38.716710+09:00",
+  "updated_at": "2026-05-04T07:57:07.676598+09:00",
   "social_finance": [
     {
       "id": "b25554b72289",
@@ -56,6 +56,15 @@
       "query": "소상공인 금융지원"
     },
     {
+      "id": "40ed51e3cc00",
+      "title": "대구도시개발공사·신용회복위원회, 주거 취약계층 경제적 자립 지원 위한 업무협약 체결",
+      "source": "헤럴드경제",
+      "summary": "대구도시개발공사·신용회복위원회, 주거 취약계층 경제적 자립 지원 위한 업무협약 체결&nbsp;&nbsp;헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhN29BNUhIS0cyUXZkNWN4b05ISF9rRkwweHZQUUVWQXNhMS1zSFFBNkdVdWFwU1JPV1JBakdoWVNoOWJsZFpvT01pWUVqeXBSR0VQeGNR?oc=5",
+      "published": "2026-05-03T21:02:08+09:00",
+      "query": "취약계층 금융"
+    },
+    {
       "id": "e1a8a30ea339",
       "title": "[사설] 불법 사금융 근절하려면 서민금융 안전망 더 촘촘해져야",
       "source": "서울신문",
@@ -63,15 +72,6 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbXF6ZjhFaXpYY2M3OVN5Q2VaTzBVcXdZRnlkWEtfcDEtd2ExVXRobmJaTkVkMGZkczFWa2FIdkJBZjYzV2pvb3JTZzRKM1ZkQWRUTWRGd2NTOXIxdXdpczd6bTB6eldaeDdQUnJfalphZDN1dzJlSm15STNESjF4YVV3?oc=5",
       "published": "2026-05-03T20:44:20+09:00",
       "query": "서민금융"
-    },
-    {
-      "id": "2f272b2f50e3",
-      "title": "김용범 “잔인한 금융시스템, 나도 공범”…신용평가 체계 재설계 시사",
-      "source": "한겨레",
-      "summary": "김용범 “잔인한 금융시스템, 나도 공범”…신용평가 체계 재설계 시사&nbsp;&nbsp;한겨레",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oWGFjOGxveUlob29XUkNuS1J0S3ZDeUF4TFNYWHplMHhzYW1fYmlXRFhqX1BEWjF0eG9JN3FCY29oNTY3RjVadnBuYjZpVkozazR4dWoyRm8xblNoRG5IN2FiTTVhWG8?oc=5",
-      "published": "2026-05-03T20:15:00+09:00",
-      "query": "포용금융"
     }
   ],
   "tech": [

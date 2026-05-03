@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-05-04T07:34:17.144313+09:00",
+  "updated_at": "2026-05-04T07:55:01.230437+09:00",
   "headline": {
-    "id": "93b8d8ae9eb8",
-    "title": "은행지점 줄이더니 어르신 창구 6배로 늘린다…하나은행의 ‘老림수’",
+    "id": "5951640e8161",
+    "title": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포",
     "source": "매일경제",
-    "summary": "은행지점 줄이더니 어르신 창구 6배로 늘린다…하나은행의 ‘老림수’ 매일경제",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xcjVqMG5NNldOVU05RkxLcVR0MkhaOTZQc2JFQnI5YWkzU3NEMTIwS3VaRHlwb2ZUaVZEOUMxZWRweWVvc0tMZFl0aTNPSXhLQ2ZlTA?oc=5",
-    "published": "2026-05-02T10:22:26+09:00",
-    "query": "은행 점포",
+    "summary": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포 매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PZjlNMUV2cFVqM21OeS1GZlVhbUNOM09ISmpKdllET3NwSC1PZUxUYkg3b25qektLbXZ1Ti0ta2V5ZlFOLXdrNHk3MktHWFZjNkl5cg?oc=5",
+    "published": "2026-05-01T10:55:26+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 2,
-    "_score": 13.0,
+    "rank": 3,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "5951640e8161",
-        "title": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포",
+        "id": "93b8d8ae9eb8",
+        "title": "은행지점 줄이더니 어르신 창구 6배로 늘린다…하나은행의 ‘老림수’",
         "source": "매일경제",
-        "summary": "신한은행, 포용금융 가이드북 낸다…전국 영업점 배포 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PZjlNMUV2cFVqM21OeS1GZlVhbUNOM09ISmpKdllET3NwSC1PZUxUYkg3b25qektLbXZ1Ti0ta2V5ZlFOLXdrNHk3MktHWFZjNkl5cg?oc=5",
-        "published": "2026-05-01T10:55:26+09:00",
-        "query": "은행 영업점",
+        "summary": "은행지점 줄이더니 어르신 창구 6배로 늘린다…하나은행의 ‘老림수’ 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xcjVqMG5NNldOVU05RkxLcVR0MkhaOTZQc2JFQnI5YWkzU3NEMTIwS3VaRHlwb2ZUaVZEOUMxZWRweWVvc0tMZFl0aTNPSXhLQ2ZlTA?oc=5",
+        "published": "2026-05-02T10:22:26+09:00",
+        "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -43,18 +43,6 @@
     "policy_news": [],
     "shinhan_news": [
       {
-        "id": "2371d98b0e70",
-        "title": "신한은행, 포용금융 가이드북 낸다 … 전국 영업점 배포",
-        "source": "매일경제",
-        "summary": "신한은행, 포용금융 가이드북 낸다 … 전국 영업점 배포 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lR0tjX3ZQWnV5SlpKNGYtSGlaX3RZeUVLek5qTEJLSVJUUzZucGpaWE5PV2hUOVNnWnJQemtPSzV2TmFZZVhzVW90VUJ3WWFtbXJwcQ?oc=5",
-        "published": "2026-05-01T17:33:35+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 9,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "a7f97333c1f6",
         "title": "신한은행, '우리동네 맛집 땡겨요'로 소상공인 홍보 지원",
         "source": "캠페인 인사이트",
@@ -63,19 +51,7 @@
         "published": "2026-04-30T13:15:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "75b396952e6f",
-        "title": "'지역사회와 함께하는…'구 새마을회, 신한은행 구청지점과 지역사회 상생 협약",
-        "source": "남동뉴스",
-        "summary": "'지역사회와 함께하는…'구 새마을회, 신한은행 구청지점과 지역사회 상생 협약 남동뉴스",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FeWJfRVVOdkZHb0ZpalVuXzhBS19kVDJfQkhSMlE2eDRkTmtBemY5UnFBaC1VSkNtQnBqb25FdnBYUGEyaWQ0TndRUFhINnM4Q0JpeTJDS1FQeThib1gwbFM1T0tjR2dnT05rOHZLZ9IBc0FVX3lxTFBLNVNLOHF1TGhSbjkyZzhGWFV5RTFRR0tocHNURmJld3dMZWJ2WE1zVFNJT2hkSzIxU01qVHU5ZHh6VmtOQlkyNnZaU2lXckdDajNfY2lPUjVtelpuR1dFY2xxdkNpWVVOa2NERjE1NDhvR3c?oc=5",
-        "published": "2026-04-30T11:18:07+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 4,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
