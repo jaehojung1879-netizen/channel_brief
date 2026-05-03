@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-05-04T06:39:47.884001+09:00",
+  "updated_at": "2026-05-04T07:36:38.716710+09:00",
   "social_finance": [
+    {
+      "id": "b25554b72289",
+      "title": "구미시, 소상공인 위기 대응 총력…자금·비용·브랜드·상권 '전방위 지원'",
+      "source": "포커스데일리",
+      "summary": "구미시, 소상공인 위기 대응 총력…자금·비용·브랜드·상권 '전방위 지원'&nbsp;&nbsp;포커스데일리",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94cnpGdHdHcGROZmhrYkkyNGdlQ2R0aDBoZDI1bDZZczAzUFZmZU1aQTFPRHdRVDVKNERpcXhzRVYtUUs1bEhpdnRTOE5KUGhWeWJPXy1NenBjQThnUExKclVWdTY5UQ?oc=5",
+      "published": "2026-05-04T07:22:35+09:00",
+      "query": "소상공인 금융지원"
+    },
     {
       "id": "8210ed2d3229",
       "title": "김용범 \"금융구조 재설계 필요\" 주장…靑, 금융체계 개편논의 탄력받나",
@@ -56,15 +65,6 @@
       "query": "서민금융"
     },
     {
-      "id": "9a12676b7589",
-      "title": "구미시, 소상공인 복합위기 정면돌파… 역대 최대 ‘960억’ 금융지원 등 전방위 대책 가동",
-      "source": "뷰티경제",
-      "summary": "구미시, 소상공인 복합위기 정면돌파… 역대 최대 ‘960억’ 금융지원 등 전방위 대책 가동&nbsp;&nbsp;뷰티경제",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13amRKcGlzOVJPaTFQVkJfamFhZmNGeFlFTXVxX1RSQ1kwZ3JMMG5JRzdOS0tYNENSZ0xsc05FTDJDT1J3aTZoREI0UDJrSXlvdkhNMDJrT2ttYjNfM0s4ekhiSDlmNlhRSGc?oc=5",
-      "published": "2026-05-03T20:28:53+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
       "id": "2f272b2f50e3",
       "title": "김용범 “잔인한 금융시스템, 나도 공범”…신용평가 체계 재설계 시사",
       "source": "한겨레",
@@ -75,6 +75,24 @@
     }
   ],
   "tech": [
+    {
+      "id": "d536099bb282",
+      "title": "금융 마이데이터 브랜드평판 2026년 5월 빅데이터 분석... 1위 미래에셋증권 마이데이터, 2위 현대카드 마이데이터, 3위 신한은행 마이데이터",
+      "source": "핀포인트뉴스",
+      "summary": "금융 마이데이터 브랜드평판 2026년 5월 빅데이터 분석... 1위 미래에셋증권 마이데이터, 2위 현대카드 마이데이터, 3위 신한은행 마이데이터&nbsp;&nbsp;핀포인트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02TUQ1YmlSTjhRSGp4Q0JJa2RqQl9ULVFaNGdvR3QxeHVtRXRaZEpaOTA2QXplT3M3OUE2ZzVieVE3SDBHOVFEVDZ5VTZIWWxlWXgyb042c1FLaU1uSUxldjVRMEtPT0RaamVzc2c4WGktbUXSAXdBVV95cUxORGc1c3h0N1lDUWNJQnRiYUtNbWg1UE02RzBKOEUyYTVyLXdJY3l2OXFpMWNFejRRYVo0Sk5YVElaLU4tUnFteVppLTFJM2lEWHZpRlJIY2Q3b1VRSmhlNlJZUGhVdmxlMGloaGdiNGVKSzBHNi0xUQ?oc=5",
+      "published": "2026-05-04T07:03:15+09:00",
+      "query": "마이데이터 은행"
+    },
+    {
+      "id": "9c3a6e390210",
+      "title": "[빅데이터로본다] 금융 마이데이터 2026년 5월 브랜드평판... 1위 미래에셋증권 마이데이터, 2위 현대카드 마이데이터, 3위 신한은행 마이데이터",
+      "source": "일간투데이",
+      "summary": "[빅데이터로본다] 금융 마이데이터 2026년 5월 브랜드평판... 1위 미래에셋증권 마이데이터, 2위 현대카드 마이데이터, 3위 신한은행 마이데이터&nbsp;&nbsp;일간투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE04MXNUejVzcExTSUlodUV3SDFpbFR4UllCWVJlejBFQ01MZVFiVDJ2MEZWX29CaE1leVY1bUhEUmFoeTlqdjNsSnotU3c0UTE1c1p3cWpOWDl4anBsWHl3SzQzVE1zLTdPUlZN?oc=5",
+      "published": "2026-05-04T06:32:00+09:00",
+      "query": "마이데이터 은행"
+    },
     {
       "id": "75f8abf2ebeb",
       "title": "금융권 올라탄 두나무의 '기와체인'…'한국판 베이스' 될까",
@@ -103,11 +121,11 @@
       "query": "은행 AI"
     },
     {
-      "id": "c424b790b54a",
-      "title": "“AI가 직접 결제한다” 금융결제원, 전용 플랫폼 기술검증 착수 - 조선비즈",
+      "id": "c2b9c406dc1e",
+      "title": "\"AI가 직접 결제한다\" 금융결제원, 전용 플랫폼 기술검증 착수",
       "source": "Chosunbiz",
-      "summary": "“AI가 직접 결제한다” 금융결제원, 전용 플랫폼 기술검증 착수 - 조선비즈&nbsp;&nbsp;Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdFBYMEdzbE4zUnd3ZmFZVjcwU0tXMTUwMUVSQWJSR1FFNmpwLUpBdVRnUWx1Unp6RUEzY0RGel9qV2UyRXZGUVpfWEhSZGFHYmdOWi14dkhObnZmQk9qdDVtNjMxcW9UWjlCX1BWSlVocXdGOWcyeHV6ZFpGNENDbVN5V3dyZFNp0gGcAUFVX3lxTFBrLW1PMmZVUkVGZTcyTTRNYlBMNW5QQUx3aXpFQVR6NVlCWTZ0QTV0c1JqeXd0MlhfQTczTHdrcHJKZk5BV1loa213MmpiVW9hMXBoNGxlZTJwNFdsdE5iQzZjQ1JRdTlfei1JQTdfd2tqU3BXMEJrMUZwcG9MTVVkSWNWMmhYNkN0LXY0dXNrUlF3T3FEdHNydU9zZw?oc=5",
+      "summary": "\"AI가 직접 결제한다\" 금융결제원, 전용 플랫폼 기술검증 착수&nbsp;&nbsp;Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdFBYMEdzbE4zUnd3ZmFZVjcwU0tXMTUwMUVSQWJSR1FFNmpwLUpBdVRnUWx1Unp6RUEzY0RGel9qV2UyRXZGUVpfWEhSZGFHYmdOWi14dkhObnZmQk9qdDVtNjMxcW9UWjlCX1BWSlVocXdGOWcyeHV6ZFpGNENDbVN5V3dyZFNp?oc=5",
       "published": "2026-05-03T18:16:00+09:00",
       "query": "은행 AI"
     },
@@ -128,24 +146,6 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aT0J6RE9QU09SRkhkTVdDZ08xVk1ZSlR4R1JhOFFyVVVYWU9XamZIZjU5TWFKTmVMbzhuNFJlc0FSTkh4MzdrM1BIQWNvQnRiNllz0gFTQVVfeXFMTlpPQnpET1BTT1JGSGRNV0NnTzFWTVlKVHhHUmE4UXJVVVhZT1dqZkhmNTlNYUpOZUxvOG40UmVzQVJOSHgzN2szUEhBY29CdGI2WXM?oc=5",
       "published": "2026-05-03T15:53:36+09:00",
       "query": "CBDC 은행"
-    },
-    {
-      "id": "df171052639c",
-      "title": "코인 넘어 결제·자산 인프라로…KB금융, 디지털금융 선점 속도",
-      "source": "포쓰저널",
-      "summary": "코인 넘어 결제·자산 인프라로…KB금융, 디지털금융 선점 속도&nbsp;&nbsp;포쓰저널",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IWmdPRFJ5YlprbEZ4YWE4NGhpTzc4TzJfYTJhQWJQaHRFOEw1NTByRHNCVW5vQUx1cTc0Q0dwNkhpV0NLMGdEaF9tRlBTNHZWcllvN2wxRXJKZGxIOF9icjc2N0w?oc=5",
-      "published": "2026-05-03T11:54:29+09:00",
-      "query": "예금토큰"
-    },
-    {
-      "id": "ce389a6110d2",
-      "title": "문페이-우리은행, 원화 스테이블코인 인프라 조성 협력 MOU 체결",
-      "source": "헬로티",
-      "summary": "문페이-우리은행, 원화 스테이블코인 인프라 조성 협력 MOU 체결&nbsp;&nbsp;헬로티",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sUzF3YW53UG1lbTY1QlZpTjlQclF2a2phelZ0Z01INmgweDVRNktVUXdnV2o5ZVBQSk9DeWZWcUhobXZ6WXRoLTZuNklxQjFGc3JSTFo0TnY2bVJXbkRn?oc=5",
-      "published": "2026-05-02T21:52:21+09:00",
-      "query": "스테이블코인 은행"
     }
   ]
 }
