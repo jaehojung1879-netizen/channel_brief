@@ -48,7 +48,7 @@ const STATE = {
   regionStats: null,
   mobileMq: window.matchMedia('(max-width: 960px)'),
   // 유동인구 오버레이
-  flowVisible: false,
+  flowVisible: true,
   flowOverlays: [],
   // 영업점 단위 점수 캐시 (key = b.id 또는 idx, value = { branchScore, localPct, nearby, radiusKm })
   branchScores: new Map(),
@@ -467,8 +467,7 @@ function bindBranchSearch() {
     input.value = b.name;
     if (Number.isFinite(b.lat) && Number.isFinite(b.lng)) {
       const pos = new kakao.maps.LatLng(b.lat, b.lng);
-      STATE.map.setLevel(3);
-      STATE.map.setCenter(pos);
+      STATE.map.panTo(pos);
       openInfo(b, pos);
     }
   };
