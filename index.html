@@ -139,11 +139,11 @@
     transform: translateY(-1px);
   }
 
-  .mast-right .mast-gis-wrap { position: relative; display: inline-flex; align-items: center; }
+  .mast-right .mast-gis-wrap { position: relative; display: inline-flex; align-items: center; padding-right: 56px; overflow: visible; }
   .mast-right .mast-gis-hint {
     position: absolute;
-    right: -36px;
-    top: -10px;
+    right: 0;
+    top: -12px;
     font-family: var(--mono);
     font-size: 9px;
     letter-spacing: 0.03em;
@@ -168,7 +168,12 @@
     border-bottom: 1px solid rgba(146, 205, 255, 0.9);
     transform: translateY(-50%) rotate(45deg);
   }
-  .mast-right .mast-gis-hint.attn { animation: clickBlink 4s steps(1, end) 1; }
+  .mast-right .mast-gis-hint.attn { animation: clickBlink 2.8s steps(1, end) 1; opacity: 1; }
+  .mast-right .mast-gis.attn { animation: gisNudge 0.35s ease-in-out 5; }
+  @keyframes gisNudge {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
   @keyframes clickBlink {
     0%, 12.49%, 25%, 37.49%, 50%, 62.49%, 75%, 87.49%, 100% { opacity: 0; }
     12.5%, 24.99%, 37.5%, 49.99%, 62.5%, 74.99%, 87.5%, 99.99% { opacity: 1; }
@@ -184,6 +189,22 @@
     stroke-linejoin: round;
   }
 
+
+  @media (max-width: 960px) {
+    .mast-right {
+      justify-content: space-between;
+      white-space: normal;
+      overflow: visible;
+      gap: 8px;
+    }
+    .mast-right .mast-gis-wrap { padding-right: 0; }
+    .mast-right .mast-gis-hint {
+      right: -8px;
+      top: -16px;
+      font-size: 8px;
+      padding: 1px 5px;
+    }
+  }
   /* ===== Nav ===== */
   .nav {
     border-bottom: 1px solid var(--line);
