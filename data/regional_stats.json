@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-04T08:43:15+09:00",
+  "as_of": "2026-05-04T14:28:00+09:00",
   "regions": {
     "강원 강릉시": {
       "sido": "강원",
@@ -5755,15 +5755,11 @@
     }
   },
   "diagnostics": {
-    "source": "kosis",
-    "kosis_key": "set",
-    "r_one_key": "skip",
+    "source": "r_one",
+    "kosis_key": "skip",
+    "r_one_key": "set",
     "region_count": 216,
-    "seoul_key": "set",
-    "kosis_biz_error": "kosis_biz_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
-    "kosis_income_error": "kosis_income_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
-    "seoul_warn": "seoul_init_xml_error: ERROR-332: 요청종료위치 값을 확인하십시오.\n요청인자 중 END_INDEX를 확인하십시오.",
-    "seoul_districts": 0,
+    "seoul_key": "skip",
     "population_ok": 206,
     "population_fail": 10,
     "businesses_ok": 0,
@@ -5772,6 +5768,6 @@
     "income_fail": 0,
     "floating_ok": 0,
     "price_index_ok": 0,
-    "price_index_fail": 247
+    "price_index_fail": 216
   }
 }
