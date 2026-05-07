@@ -1,32 +1,20 @@
 {
-  "updated_at": "2026-05-08T06:41:13.132701+09:00",
+  "updated_at": "2026-05-08T08:01:10.424585+09:00",
   "headline": {
-    "id": "de1469e6beff",
-    "title": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략]",
-    "source": "MSN",
-    "summary": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략] MSN",
-    "link": "https://news.google.com/rss/articles/CBMi1wVBVV95cUxNaFRNRi1HeEcyZHNlbzl2R0pKT0ZtQ2hjdHdWRTJtS3d0aEZuVG1mNG5MUEdFYzNsREZ5Q1dlNFFxMzlCa0RfUDRLYmxfdk9wOGViWFhra245SFZQR0ZEenhtQ1NuN3ZGakI5ZGc2NlNwMU5YRHptMlBsQm9lU0U2Nlg3VkpDbjZKVUV0eTkyU0JBektJc25tUU44UXVpSHYxZkhHbHl4MjVUckZlWl9oTVo1VTBBWnR3YkQ3bXhnd0NCeFpxcjlqUmN3WXlGSjMwMFlWc2M0Wkh4M09aVV9tYl9GVTNoQUlYaVRVWnNBamZReU1KV1BLUTFzdUdUdy1pc0UzQUJVd3pXSlVIaHhlcV9QTF94RmIyNUpYdDdjMUo2ZzZtSHpMUGhjOVBfRU5McFZ3bVJkZ2VEaUxXZzBjb0NMdGZqeE1VN2RlMzV5TFVOazM4c1BGaC0zX1FUN3RZQjJNZlNwdWVLMXZOcEVZMGF0dC1IS1dQNE9VMnNGRFhUUThfMklodHoyRmhCUDdSLVhHbXJPN1B6YUVIQTJUTUhBS0MzbEUyTU5jZ0xtd1B1ZGZmRVFlaDVXYTRZOFIxRm5ZVkhFeUUxaHNDU2o3S1ZVM3UzcFV3Mkh3N2FlU254TWdUN1RybEpJbFNVamxXMjRVTHZCbjg2VGdLaXBLVGY0YzN2Z3Nrc19DY3lKLUdMdG1tUUhtZEZDYmV4S1FSTUxfY3RSWGxfckNZenZYclNocWFnZ1lUTjJqX0prdnowejNQRmpUV1dpaGk4UmhFWGdrWXpkVzlGQmFjX1FjeWpKdHlOcG5PN2xwNnRfYWt1WHQ0NldNWVozTWVfNVRFQ3hvVHFUTnpqVWJnSHN0b3JITDdGaG40anpLZV9kSkFTTmFYWjRDanY3Wlc5a0dYR2JDZnJsTWZPaEZRc3N0bEpuQ3NDUWhKWUhYazZzZmxobm1CdlNv?oc=5",
-    "published": "2026-05-06T00:23:59+09:00",
-    "query": "공동점포",
+    "id": "eb817aaf3f73",
+    "title": "[이슈플러스] 인력·점포 줄인 은행권…AI가 빈자리 대체",
+    "source": "전자신문",
+    "summary": "[이슈플러스] 인력·점포 줄인 은행권…AI가 빈자리 대체 전자신문",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8ydDV2ejVFc3VrTFNOQ2o1MXhpM3pXeGxETjBkSUpFbTg4MC0xQW5WV2Y3MW5DVlBQZ2FKdGo5UFdpQlhKczk1ckpIVnhidw?oc=5",
+    "published": "2026-05-07T16:00:00+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 6,
-    "_score": 15.0,
+    "rank": 1,
+    "_score": 13.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
-      {
-        "id": "eb817aaf3f73",
-        "title": "[이슈플러스] 인력·점포 줄인 은행권…AI가 빈자리 대체",
-        "source": "전자신문",
-        "summary": "[이슈플러스] 인력·점포 줄인 은행권…AI가 빈자리 대체 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8ydDV2ejVFc3VrTFNOQ2o1MXhpM3pXeGxETjBkSUpFbTg4MC0xQW5WV2Y3MW5DVlBQZ2FKdGo5UFdpQlhKczk1ckpIVnhidw?oc=5",
-        "published": "2026-05-07T16:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
       {
         "id": "a64ab739a25c",
         "title": "보험사 해외점포 순익 '2억 달러' 육박…은행·증권 진출에 실적 확대",
@@ -36,7 +24,7 @@
         "published": "2026-05-07T09:01:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +48,19 @@
         "published": "2026-05-06T09:42:57+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12,
+        "rank": 10,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "de1469e6beff",
+        "title": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략]",
+        "source": "MSN",
+        "summary": "이환주號 국민은행, 점포 축소 승부수…대면·디지털 결합 ‘투트랙 전략ʼ 가속 [은행 접근성 보완 전략] MSN",
+        "link": "https://news.google.com/rss/articles/CBMi1wVBVV95cUxNaFRNRi1HeEcyZHNlbzl2R0pKT0ZtQ2hjdHdWRTJtS3d0aEZuVG1mNG5MUEdFYzNsREZ5Q1dlNFFxMzlCa0RfUDRLYmxfdk9wOGViWFhra245SFZQR0ZEenhtQ1NuN3ZGakI5ZGc2NlNwMU5YRHptMlBsQm9lU0U2Nlg3VkpDbjZKVUV0eTkyU0JBektJc25tUU44UXVpSHYxZkhHbHl4MjVUckZlWl9oTVo1VTBBWnR3YkQ3bXhnd0NCeFpxcjlqUmN3WXlGSjMwMFlWc2M0Wkh4M09aVV9tYl9GVTNoQUlYaVRVWnNBamZReU1KV1BLUTFzdUdUdy1pc0UzQUJVd3pXSlVIaHhlcV9QTF94RmIyNUpYdDdjMUo2ZzZtSHpMUGhjOVBfRU5McFZ3bVJkZ2VEaUxXZzBjb0NMdGZqeE1VN2RlMzV5TFVOazM4c1BGaC0zX1FUN3RZQjJNZlNwdWVLMXZOcEVZMGF0dC1IS1dQNE9VMnNGRFhUUThfMklodHoyRmhCUDdSLVhHbXJPN1B6YUVIQTJUTUhBS0MzbEUyTU5jZ0xtd1B1ZGZmRVFlaDVXYTRZOFIxRm5ZVkhFeUUxaHNDU2o3S1ZVM3UzcFV3Mkh3N2FlU254TWdUN1RybEpJbFNVamxXMjRVTHZCbjg2VGdLaXBLVGY0YzN2Z3Nrc19DY3lKLUdMdG1tUUhtZEZDYmV4S1FSTUxfY3RSWGxfckNZenZYclNocWFnZ1lUTjJqX0prdnowejNQRmpUV1dpaGk4UmhFWGdrWXpkVzlGQmFjX1FjeWpKdHlOcG5PN2xwNnRfYWt1WHQ0NldNWVozTWVfNVRFQ3hvVHFUTnpqVWJnSHN0b3JITDdGaG40anpLZV9kSkFTTmFYWjRDanY3Wlc5a0dYR2JDZnJsTWZPaEZRc3N0bEpuQ3NDUWhKWUhYazZzZmxobm1CdlNv?oc=5",
+        "published": "2026-05-06T00:23:59+09:00",
+        "query": "공동점포",
+        "engine": "google",
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -73,6 +73,18 @@
         "query": "은행 점포",
         "engine": "google",
         "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "81ab59967638",
+        "title": "디지털 전환 속 은행 점포 폐쇄 바람",
+        "source": "newstong.co.kr",
+        "summary": "디지털 전환 속 은행 점포 폐쇄 바람 newstong.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZVhqTTgxd1hEeVJOTG5EakMxOXNtd2FDcUJhZTdvVkdRVnY3VldlVEhsUEtuT3FKMGxIRWRpcVBNSUlaSGxNR19pWGdXS1lKVmVxVjgzeTVoX0hVOThjell0YkUtSjdSMzNfMXgySUhxZE5Dd1JqTUsxckhrSTAtRmJuSHNORlJQVERXeFpWNUl3aHFKTHppcEhWbG43LW5xR2F2UlFuOF9SYjEtb3JmVGc5clp0M2NHc3NMUFVZaElBSWc4NVAwUzlLb2c2dw?oc=5",
+        "published": "2026-05-03T19:51:03+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
