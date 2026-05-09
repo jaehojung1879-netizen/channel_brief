@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-09T07:55:39.108859+09:00",
+  "updated_at": "2026-05-10T07:43:49.633444+09:00",
   "headline": {
-    "id": "fd176b00dc74",
-    "title": "용인시수지노인복지관, 신한은행 수지지점과 어버이날 나눔 행사 진행",
-    "source": "웹이코노미",
-    "summary": "용인시수지노인복지관, 신한은행 수지지점과 어버이날 나눔 행사 진행 웹이코노미",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDd2g2cWp6dWp0ZzI2Q0NDaGFuRk90VHhoT0dXaDFLSXhDSGdzRnl5czZLZzdidFEtdm9LMXJTQVNXSEwxYzhPVzVlQ0hIQWlhcTF3dHJGWGs0cGdyRmZSQnhMX3hrcnM2U2I5Sk9wdjMxQQ?oc=5",
-    "published": "2026-05-08T19:34:49+09:00",
-    "query": "신한은행 지점",
+    "id": "d47119cd099e",
+    "title": "[기획] \"인천 원도심 소상공인, 은행 영업점 감소로 금융 접근성 저하",
+    "source": "한국미디어뉴스",
+    "summary": "[기획] \"인천 원도심 소상공인, 은행 영업점 감소로 금융 접근성 저하 한국미디어뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1RTFhsWjhtRzdKTG9jOG1nSHFyeHVJUndhMWdwRWU1a2VxN2ItbEYzb1dyTFN0a0xqR0dQbTBrcDN4cFAtV1l3RUk2c3k3cmFIVWdsVV9oZmtHOUxaalVhSnAwSzEwQQ?oc=5",
+    "published": "2026-05-09T21:50:38+09:00",
+    "query": "은행 점포",
     "engine": "google",
     "rank": 1,
-    "_score": 13.0,
+    "_score": 19.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -24,7 +24,7 @@
         "published": "2026-05-07T16:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,36 +36,37 @@
         "published": "2026-05-06T16:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "3716fe52b279",
-        "title": "\"자산관리 경계 허문다\"...우리은행, '투체어스W' VIP 맞춤형 점포 확장",
-        "source": "중앙이코노미뉴스",
-        "summary": "\"자산관리 경계 허문다\"...우리은행, '투체어스W' VIP 맞춤형 점포 확장 중앙이코노미뉴스",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vTWx1Qlc2bUFDTXdDWERpZzRQZ0RXYm1oUW5BYl9SN3REVTlmWXkxSmJkMlNTdjgtZGc1OE9aeXpONi15UC1NYm9KX1RicEpRMk1lV3Z0bEdGdG55dkhYSVBHNGhvX2tSdzBDc1JOVXNPQQ?oc=5",
-        "published": "2026-05-06T09:42:57+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 13,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [
       {
-        "id": "46d4d62edda4",
+        "id": "5a40a3843832",
         "title": "금감원 \"보험사 해외점포 불확실성 확대…리스크 관리 강화\"",
         "source": "v.daum.net",
         "summary": "금감원 \"보험사 해외점포 불확실성 확대…리스크 관리 강화\" v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1CS1pyLUl3VWktN1JYNkFHWUpMeUQzaDFUOXpqN01PbkEtOXM2elNZN1hZenYxc0hQMGhqZW1JVDUtMkZQbllkSktYUQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0ta2xOTFQ4NHVsYTdiV3BsTFkxRU15NDZRS19Qd0dnQnVqaktGSUFJejZ0N1NhM2wtNjA1Z09jTW0xMnBWT0tjcFFlU1gycXV3aktwUw?oc=5",
         "published": "2026-05-07T06:00:02+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "shinhan_news": []
+    "shinhan_news": [
+      {
+        "id": "fd176b00dc74",
+        "title": "용인시수지노인복지관, 신한은행 수지지점과 어버이날 나눔 행사 진행",
+        "source": "웹이코노미",
+        "summary": "용인시수지노인복지관, 신한은행 수지지점과 어버이날 나눔 행사 진행 웹이코노미",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDd2g2cWp6dWp0ZzI2Q0NDaGFuRk90VHhoT0dXaDFLSXhDSGdzRnl5czZLZzdidFEtdm9LMXJTQVNXSEwxYzhPVzVlQ0hIQWlhcTF3dHJGWGs0cGdyRmZSQnhMX3hrcnM2U2I5Sk9wdjMxQQ?oc=5",
+        "published": "2026-05-08T19:34:49+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ]
   }
 }
