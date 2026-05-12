@@ -1,80 +1,134 @@
 {
-  "updated_at": "2026-05-12T07:56:38.715880+09:00",
+  "updated_at": "2026-05-13T08:04:23.558498+09:00",
   "social_finance": [
     {
-      "id": "61d2b3a6f845",
-      "title": "[굿모닝금융] 우리금융재단·iM사회공헌재단·JT저축은행 등",
-      "source": "비즈월드",
-      "summary": "[굿모닝금융] 우리금융재단·iM사회공헌재단·JT저축은행 등&nbsp;&nbsp;비즈월드",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yWFgtcVlzRnFSdlJtUWxhY3dFUkdud2JBcWstR05SQlkwOFlkWkJKTXI0eERTT0xzcFJDQWt0NlJMTmhkX25iZ3lHeGlPc043TEhFdjJzTHFjeXpRYm5WS2gzRnFNWlVUTFE?oc=5",
-      "published": "2026-05-12T06:27:00+09:00",
-      "query": "은행 사회공헌"
+      "id": "6095bbaad033",
+      "title": "신한은행, ‘사잇돌대출’ 활용 포용금융 확대 가속화",
+      "source": "fetv.co.kr",
+      "summary": "신한은행, ‘사잇돌대출’ 활용 포용금융 확대 가속화&nbsp;&nbsp;fetv.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxc1g1UGJjcjBPV0tyZ3JhR21Kb3BtZHB0cmpKUkRycU5BemVhLUpYMFIzSU5lMmxxUnFSTGhpbWtzQ0NpZ05UdFRPSlJGM0xNSWdXMk4wQ21pZW1UNC1laFA1QUExbVdP?oc=5",
+      "published": "2026-05-13T07:00:00+09:00",
+      "query": "새희망홀씨"
     },
     {
-      "id": "cfcaefc14e0b",
-      "title": "[기자의눈] 빚만 늘리는 포용금융 되지 않으려면",
-      "source": "아주경제",
-      "summary": "[기자의눈] 빚만 늘리는 포용금융 되지 않으려면&nbsp;&nbsp;아주경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyZjJucjltRzhGNUluMTlHM0JnRVVuNXM5S3YyNkhxXzRzUEdOU01Eblg5eUhBTUxTRk5WMGwyZXMyRHRfVml0T3lQRGZ1OGFLbUx6UXdTT1BjQdIBWEFVX3lxTE5haWpiaUc5RDlQVjYwNzg0eU5mVzJoUEt1MGRMQ19SMno3Wm1KRDI4em9uQUVuQktFU2N1TjZYODdzbzFrd0gtRnhTR2dkSHp1a0lBaHF1OGY?oc=5",
-      "published": "2026-05-12T06:00:00+09:00",
-      "query": "취약계층 금융"
+      "id": "9bfcbb7bc8de",
+      "title": "[6회 ESG어워드]카카오뱅크, 기술로 금융소외 줄였다",
+      "source": "네이트",
+      "summary": "[6회 ESG어워드]카카오뱅크, 기술로 금융소외 줄였다&nbsp;&nbsp;네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80X0poTEpmNVo1T3R2SmVpMnlUaFl6X0UxOVFLTzNFVEMyTkk4UFJDTFQtZHVaZC1yVmg5TjN0NFJUb1pUM3dOclVBeHJBcGo1cGhV?oc=5",
+      "published": "2026-05-13T05:08:00+09:00",
+      "query": "금융접근성"
     },
     {
-      "id": "8a59effef4cc",
-      "title": "광주은행, 지역 어린이 위한 ‘드림꾸러미’ 사회공헌 활동 펼쳐",
-      "source": "시사의창",
-      "summary": "광주은행, 지역 어린이 위한 ‘드림꾸러미’ 사회공헌 활동 펼쳐&nbsp;&nbsp;시사의창",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93dkIxYUExUWpxV3d4YkZjalBmNFZXa3pXdzR0cmdnMVRsSF9YbnFIQnBQUllMMFEzNnpqN2Z2NHpqdUlzbHNLbC1seFZqOEtGZFhLUg?oc=5",
-      "published": "2026-05-12T00:27:41+09:00",
-      "query": "은행 사회공헌"
+      "id": "fbc33133547f",
+      "title": "국민은행, 새희망홀씨 대출 금리 1%P 인하…포용금융 실천",
+      "source": "디지털데일리",
+      "summary": "국민은행, 새희망홀씨 대출 금리 1%P 인하…포용금융 실천&nbsp;&nbsp;디지털데일리",
+      "link": "https://news.google.com/rss/articles/CBMiggdBVV95cUxOZGFxUFZLemoxSUlaWW5oTEdyRDdlZ0Z4TlAzVl9WSlNTXzY4WnFBVGpGRS1rNnBkNGFOS3BWTE9PaEs5TEp0VG5UdEt3bFpyVlJGcUJnY3BXbW9xTlBGOVVCMEJLeElldTVqUzRpMGJrbDMxNTMxVHo1a19VRlRrSFltRWtfUlZidjgzTHRZeTlJVFplVUVGV2pIbmJGVkZQdm1rV2pWUHNZVS1MWWRjeElBcVJtQ2ptVjN6cDNBelE4LWN2aXFueURFWWJRRk04U0E5RWJSSE83RnZja3VyRXBHOWo3ZDBOQTR1dDE0UnBBTHJwbm5ZMkNFaFJBM0xDN2cwNW9ORWtFb1R2LXp0bDJmaFhnWHJ4cFBhZXlqVTMwLXVrdUJ2dGlQNlJjZC1CdThYMHg3c2ZOY0lHZGcwRnBIa3BEUWw3a3ZCMGRydzgwTmx6di0yYlZia1VZLTdxOWJYU0NJdUo1LWhzWDFtcVFmM0pSaXUxSTR0UGN3bmNVbFhpMHFGTTBYQWNhUVJVb3NsRG1SVXR5S08yMDZ4WU1KWVhINTR6cUZzamNDWTVaNi1rOGdpaUhhV19mZTJIMVdaS1EtYVlRUjNyTHFZNUNlRG83bEcwSWcwN1pBb19jM3dtQ01kR2xTd09jUElkbmZsdk9VWmNJTWxHNDM2aEQ3N1gtWm5JOVAzN0sxNmc5WXEwdnBnZ2lCcmktbXY4UjZET09nSDBhajBVMzRkbENuR0M5MkZ0a0hlMHBaamJVT2YtZVFDakFPUkFUZXdTSmR4MU84aXZYZGZJZmZPTWFZSDZnS1NNamo3NVdraVNmdXJFbl82M0lEVHNpT2tjY1NwdThHcXdqMUVkdGxnRkF4YXdPSUxNOEZEWEpUWE5XUTVNXzVvbUx3d1ZKaUxESldzUVlTS3haN2RIa1pHSmxaQ0FLWFVUOXlaWE4tN1hCdDNHQllTWklyN0txU1lqcTZubW5KNG03NmM1eVU5THBFUWpxcUJYVkdwMnc5NWJuTDNabWJMTWVrTGFuSXBhXzQ2a21pa2t4Q3hvaFJHR3Y3dzZMYzRmZ2VZUDNFMGx4dlJIR2hpS3FIQ0tRYmhmM2kwcVl6ZVNvVTA4LVB4dzNkTVNDXzFPbmhnaHIzbmV0UFdxZFQ2emkwdmlfZzRHbGN5R0hUZ1YySFItU0J5QXRR?oc=5",
+      "published": "2026-05-13T03:48:23+09:00",
+      "query": "새희망홀씨"
     },
     {
-      "id": "b1d93c08276c",
-      "title": "생활비 위기, 노인 학대까지 부추겨",
-      "source": "위클리코리아",
-      "summary": "생활비 위기, 노인 학대까지 부추겨&nbsp;&nbsp;위클리코리아",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNkFCbnBzeE1nNzMwSGczTXEybEZDSkQyWGhrVW5WODFOSHppdVNCWlVzNXBXSVpqQnNXMXRSUk9WUkpHRWpLOC0zR3JkUDZQc3Y5RzdKQ3NVSm1mWHpLdnhZTUplR2hIRmJDMTRhdHpkT2VSeHVlc3BmX1dJbE9wT3kwZGtxMjVEWGYxT2k3S3ptMXBvRkk2SXlqWkhBQW9Tek5zdEduRUQtcnRaQTRFaW95aWd0TENUWnlISHV1M05NQVNYemgxOThGRW1Wc1E0NWVRaU0xcV9fbWJCVVhmZUswV0RBczNwMzFRU1dxVDBya0lGNVlvOQ?oc=5",
-      "published": "2026-05-11T18:28:33+09:00",
-      "query": "고령자 금융"
+      "id": "9c8860c32bac",
+      "title": "산업부, 상생 무역금융 확산…연내 10조원 조성 목표",
+      "source": "한국무역협회-KITA.NET",
+      "summary": "산업부, 상생 무역금융 확산…연내 10조원 조성 목표&nbsp;&nbsp;한국무역협회-KITA.NET",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNFhyRjFJNjFxUFQ0YjBQbkloNmFFcUtkRWs0UGtoVnpZSXpISWVBazVaSzJZZG5SV1hkNWZhLWYxRWtQeVpFZ2dfbWU1cW5VWkthUFpUemg5Y3NpZ1hDdXcyWFhhdlJHNjBYeDhQSXhfYUw0TnN5SHBvWGFFZUY2V1VYY3BRNG1kVTlMTA?oc=5",
+      "published": "2026-05-12T23:58:03+09:00",
+      "query": "상생금융"
     },
     {
-      "id": "0d82f8a263df",
-      "title": "자산관리 넘어 AI 돌봄까지…KB금융 시니어 확장",
-      "source": "서울경제TV",
-      "summary": "자산관리 넘어 AI 돌봄까지…KB금융 시니어 확장&nbsp;&nbsp;서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KUnh0aTRpUHdjMnM1NmtTRmZuTHFQU3BsSmIxN2hrOE9GTWZjSHpVcGlaOEh4cDdMRXQ3VFBEdUpYUUkxZlNZNDlBU3kxSUNpY0hNZnB6aU5sd2pMRGNEMFhGYVE?oc=5",
-      "published": "2026-05-11T18:13:40+09:00",
-      "query": "고령자 금융"
+      "id": "a285f5fe5ccb",
+      "title": "[심층] 배당 줄고 수익성 흔들려도…새마을금고 “서민금융 역할, 포용의 길 간다”",
+      "source": "오늘경제",
+      "summary": "[심층] 배당 줄고 수익성 흔들려도…새마을금고 “서민금융 역할, 포용의 길 간다”&nbsp;&nbsp;오늘경제",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2Vk9EQjFEYjRDVGhPVXZ6RXJVNVo4WlpSZmZ0Z2drUnZXMkhqdmRaaVBEVXZ1MURNdnA5SHp5ekFibVBvRkRuVG02RU1md1RzR2t5Y3FtTjZ6Nkw1M3pMSWEzbkR0azRLLURlRjVjX3gtbmc?oc=5",
+      "published": "2026-05-12T21:50:00+09:00",
+      "query": "서민금융"
     },
     {
-      "id": "cf23ea5100f3",
-      "title": "“줄폐업 막는다”…한성숙 장관, 소상공인 금융안전망 점검",
-      "source": "매일일보",
-      "summary": "“줄폐업 막는다”…한성숙 장관, 소상공인 금융안전망 점검&nbsp;&nbsp;매일일보",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5cHhWQk4tSXVib3N6LWc0WDBuakpmMExfNVR2WFZJQWUyMWM3Q2k0alNQN1IwMzVtZ3NESVFablNuVmFyeGtTRlJKaWlvSUdzT1l4QTJZR1lxWnBXbWRDb3lENHc?oc=5",
-      "published": "2026-05-11T16:58:44+09:00",
-      "query": "소상공인 금융지원"
+      "id": "cc8ffc7ef322",
+      "title": "한권 후보, 미래 성장 위한 펀드 대상 공공기금 출자 조례 제정",
+      "source": "일간제주",
+      "summary": "한권 후보, 미래 성장 위한 펀드 대상 공공기금 출자 조례 제정&nbsp;&nbsp;일간제주",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5jVjR3WVV5VzhLZkJublpGVUhqT0hrWGZHQmM2VXF5VEZDX29rdFg4dUoyNVhfY214OTlwbElIdzRENHZ6MkdONlRVcDlfbFVfcW5EYjhLMUhrM0tyTWdicVZiNFpackxRUEZV?oc=5",
+      "published": "2026-05-12T19:19:35+09:00",
+      "query": "지역재투자"
     },
     {
-      "id": "5c03383ab843",
-      "title": "iM뱅크, 포용금융 브랜드 'inter-Maum' 선봬…\"금융공공성 강화\"",
-      "source": "매일경제 마켓",
-      "summary": "iM뱅크, 포용금융 브랜드 'inter-Maum' 선봬…\"금융공공성 강화\"&nbsp;&nbsp;매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mNEpBRmJJdFB2YnVIY2tPekRmbkh2cWpscVJWNlFVRE14YVZDeXZwaHlpMWQyTVctM1Zwd3VtZmJwUWV6VDBzMEFkNTZYTE9tbUE?oc=5",
-      "published": "2026-05-11T16:56:03+09:00",
+      "id": "f54af784d0bd",
+      "title": "광명종합사회복지관-한국중소기업진흥평생교육원, ‘상생 복지 실현’ 손잡다",
+      "source": "G밸리타임스",
+      "summary": "광명종합사회복지관-한국중소기업진흥평생교육원, ‘상생 복지 실현’ 손잡다&nbsp;&nbsp;G밸리타임스",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sa2ttdW9HV19ic3RBbDI4TTRGbVBCMUhac3NJX2s5ZkRjOXV4UzFwdjNFaEl5WG1ST1FzbG4zeTJaOVZiRS11YzVKSzlxMUxMVElkWmpQSG1QaXhBWXBTTGY3LW1seWkzRVE4VHRB?oc=5",
+      "published": "2026-05-12T18:50:00+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "853dbc4284ee",
+      "title": "장민영 \"신용평가 체계 재검토…생산적·포용금융 대전환 속도\"",
+      "source": "한국경제",
+      "summary": "장민영 \"신용평가 체계 재검토…생산적·포용금융 대전환 속도\"&nbsp;&nbsp;한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PUlBhQ3dDOHV3YWxsbnl3c1ZZWlptaXJVR0wzZEZTZl9vMXpjZTJlQ3h3d25HX2pMM0NPR0x3aThCZnhyWUU0QU4tZ2FmVDdEZE9OTm5ydVRyUdIBVEFVX3lxTE5tXzVYZ1pjNnZIMlNMR3U4VXZHU0hXTENnSFhSQTI1SjVVcEhNZUVUMXQtTnRWUm1wY2lJaEltNmQyNENuT3VVVUxLcDQ0eTNXdGNUYQ?oc=5",
+      "published": "2026-05-12T18:14:48+09:00",
       "query": "포용금융"
-    },
-    {
-      "id": "438274c890e9",
-      "title": "우리금융·광주은행, 취약계층 아동·청소년 대상 사회공헌 활발",
-      "source": "통신일보",
-      "summary": "우리금융·광주은행, 취약계층 아동·청소년 대상 사회공헌 활발&nbsp;&nbsp;통신일보",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aR2d3X1R3ZXB6eWQ1N3FVNVM5cG5rbHV1WktUZEJRclBBRTl4Q3VRTnA3TmNNcVFaMmlSQjhpZ3lwRjFoWUNVeV80UDZmVk82aGdHaUdndWw0bk5JdzQySHBSR2c5dw?oc=5",
-      "published": "2026-05-11T16:35:47+09:00",
-      "query": "취약계층 금융"
     }
   ],
   "tech": [
+    {
+      "id": "5729467ca280",
+      "title": "스테이블코인 주도권 경쟁…은행 vs 거래소, 디지털 원화 패권 누가 쥘까",
+      "source": "라이센스뉴스",
+      "summary": "스테이블코인 주도권 경쟁…은행 vs 거래소, 디지털 원화 패권 누가 쥘까&nbsp;&nbsp;라이센스뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9wZVpGMTlick1kTFhhTUVIT1lmOHFjSVJ0SHZYeDF0c28xQ3o1Unh5QXlRNEFSdVdOSjVjT2VjSWt1aE8xenZDdUw2bGJDTnpOVE9YSDd6cWtLMFJ3N29UanNIbzhMLXBkLV9J?oc=5",
+      "published": "2026-05-13T07:00:00+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "a5545599c5c0",
+      "title": "[이슈+] 미 상원, 가상자산 포괄 규제 ‘클래리티 법안’ 공개...스테이블코인 이자 제한·CBDC 금지 담겼다",
+      "source": "비즈트리뷴",
+      "summary": "[이슈+] 미 상원, 가상자산 포괄 규제 ‘클래리티 법안’ 공개...스테이블코인 이자 제한·CBDC 금지 담겼다&nbsp;&nbsp;비즈트리뷴",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtcVpOVVpYdlExM0NCVmdBYlZDdnNEaVNXeE4zNXhtZzRqd21hR21TeTR5UHhJTHhUZXRWdUpVM0VLYkRqSkZ4ZENMQXNfU2lnQzlGRXZxcmFDMDlOWnNjVjhyMDhobm1KMElUTUJYbWg?oc=5",
+      "published": "2026-05-12T17:47:52+09:00",
+      "query": "CBDC 은행"
+    },
+    {
+      "id": "999693b9b36a",
+      "title": "억대 자산가만 받던 PB 상담 AI가 문턱 낮춘다…하나은행, 자산관리 대중화 시동",
+      "source": "녹색경제신문",
+      "summary": "억대 자산가만 받던 PB 상담 AI가 문턱 낮춘다…하나은행, 자산관리 대중화 시동&nbsp;&nbsp;녹색경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XSDZtVVV6Mm9ibWZtY2ZUQzBVWG82a1RwVmx4aUFLTEVXWWFvNnR6NDNvSXc0WDRtU1NDR205S19yaHlXcmVKNlJoUzR1S0FTVW1vOE9scVpIcDRkX2FZajNIN3psbm5s?oc=5",
+      "published": "2026-05-12T16:13:27+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "2aaf10bd26de",
+      "title": "美 상원 은행위, 운명의 마크업 앞두고 '클래리티 법안' 수정안 공개",
+      "source": "디지털투데이",
+      "summary": "美 상원 은행위, 운명의 마크업 앞두고 '클래리티 법안' 수정안 공개&nbsp;&nbsp;디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05Ny1nZmlyc3EwaGljbi1obkdnYzBfMTBQQlRwNHVaN19XRUZvYmFmMXQ1M2dnbENaNVc3ckVhSXhlSlZaMlpBN3prRW9NOV9LTi1LVE5kRGdkbVdCZmQ1VWhUWWhjNmpxcVllbTV0cTVmdUE?oc=5",
+      "published": "2026-05-12T15:43:00+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "8c1e76413a65",
+      "title": "“은행 중심 스테이블코인 한계”…단계적 시장 개방 필요성 대두",
+      "source": "이투데이",
+      "summary": "“은행 중심 스테이블코인 한계”…단계적 시장 개방 필요성 대두&nbsp;&nbsp;이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lYldoNjVUMzQ0ekF2YUE1MFNDVG1KVDUzdVUtTGFzVGlHYkVTVXI4WE8tQzZuYWZoVkxVdkMyMnVzcmlpT3VvamROTHg1MzZMZzFjRQ?oc=5",
+      "published": "2026-05-12T14:44:00+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "5f31ef383511",
+      "title": "“은행 송금 메뉴 대신 한 문장으로”… 텐센트, 말레이시아 라이트 뱅크와 대화형 금융 시대 연다",
+      "source": "인공지능신문",
+      "summary": "“은행 송금 메뉴 대신 한 문장으로”… 텐센트, 말레이시아 라이트 뱅크와 대화형 금융 시대 연다&nbsp;&nbsp;인공지능신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tejNmWkI5WG5pUTB6MDQyR1Y5NHplblF2ektUUFBLMy1WN1ZrRXVPbHM5aFNZS3NIdV85SWsyMGdrcVN5ZFMwVU5PVmgtMXREM3J0TE5QX1h5MHBXWUtJNjhvam40OU0?oc=5",
+      "published": "2026-05-12T09:08:19+09:00",
+      "query": "은행 클라우드"
+    },
     {
       "id": "6ecac1f80292",
       "title": "통화내용 요약하고… 은행 데이터 분석… 국산 AI 모델, 생활·산업 속 ‘전방위 확산’",
@@ -85,67 +139,13 @@
       "query": "은행 AI"
     },
     {
-      "id": "abe83a733966",
-      "title": "메가존클라우드-EY한영, 금융 AI 사업 확대 ‘맞손’",
-      "source": "테크월드",
-      "summary": "메가존클라우드-EY한영, 금융 AI 사업 확대 ‘맞손’&nbsp;&nbsp;테크월드",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VaUdobU0zWVNycnZHRnRlNm1Qdm0yYlNpUnBSdTJxVWZSTWpZbzk0NHgxYXJRZHFvOHR3SF83MzQ4a1djOWJ5NVZiUzlUcXRISnppTzd5cnU3Mk9IdkdXNmZBVHpqeXhG?oc=5",
-      "published": "2026-05-11T15:15:42+09:00",
-      "query": "은행 클라우드"
-    },
-    {
-      "id": "bc836013e3a9",
-      "title": "금융권 AI 활용, 교육·영업 현장으로 확대",
-      "source": "포쓰저널",
-      "summary": "금융권 AI 활용, 교육·영업 현장으로 확대&nbsp;&nbsp;포쓰저널",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PSm5icl9iakpIT3ZybXFzYzB1Sjk4QlVMZDByTVZDRHpEVEFIaDhxeEJOMVJ4Y2tTLXZSSlJhUVYtUmdPQ3NIYnFKaHZhZDBNU3ByTHZNX3dGQjZCZ2lUNkVnMTc?oc=5",
-      "published": "2026-05-11T15:14:34+09:00",
-      "query": "은행 생성형 AI"
-    },
-    {
-      "id": "3af74de81e42",
-      "title": "부산은행, 'AI 리더십 서밋' 개최…AI 전환 속도",
-      "source": "포춘코리아",
-      "summary": "부산은행, 'AI 리더십 서밋' 개최…AI 전환 속도&nbsp;&nbsp;포춘코리아",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hUURWQ3ZNX0NTN1FFempJNHFLaUdKWjFZRjVWemRlNU5HRHZGM1J2a2dJVnV1REg4a1JuNFVfTllWY1ZDNHNKT3hQQXVNXzhXQ19YZi03VkpSUmIyLXlpRTB5NHZmOE1ZMW1WSmF2bU5nQdIBdkFVX3lxTE8xUVdoVFdDRWVBS19NWmJIVTBldlNud3JpUWhUMjZ3UVNmNWMyR3pWTHdfTHRRaFZPVlZlUHVYYWlLU1lSNHhla0NER0pJclNQZ3lPSlhvSmlJWGtFRzlZRFZxN3pmVnl4MVQ2cFhTaUw3ZWt1bFE?oc=5",
-      "published": "2026-05-11T15:06:40+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "b93a4e0938de",
+      "id": "f1b89a4a5f8c",
       "title": "[청원 언박싱] CBDC(중앙은행 디지털 화폐) 도입의 반대에 관한 청원",
       "source": "시선뉴스",
       "summary": "[청원 언박싱] CBDC(중앙은행 디지털 화폐) 도입의 반대에 관한 청원&nbsp;&nbsp;시선뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nLVdFOVBFTnM2a25zRVQweVdhbm1UM1pvX1ppTnMxU1J4RTFVR2tacWpZaS02eDRrSFppOXVORUVISzdrWkVEN3Y4ZVhfcndYWTlrSVFWNGNZOFp4QVUydUNNbmQ2WkNWajFBeXNB0gFyQVVfeXFMTkVzUFRiaEpCSUJBWmR3NXZKRnZlTVJhNk5nZndiRk9zclcwUHhSbDlDeFNJWkdOZHBJNW4xQXVzSUctbVREWWFSZExQVFQtN0tMbzFpWEdTek1rd2drVGh6ZVVuZm56N1dybFg4eGdCWEx3?oc=5",
-      "published": "2026-05-11T14:58:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Fc1BUYmhKQklCQVpkdzV2SkZ2ZU1SYTZOZ2Z3YkZPc3JXMFB4Umw5Q3hTSVpHTmRwSTVuMUF1c0lHLW1URFlhUmRMUFRULTdLTG8xaVhHU3pNa3dna1RoemVVbmZuejdXcmxYOHhnQlhMd9IBckFVX3lxTE5Fc1BUYmhKQklCQVpkdzV2SkZ2ZU1SYTZOZ2Z3YkZPc3JXMFB4Umw5Q3hTSVpHTmRwSTVuMUF1c0lHLW1URFlhUmRMUFRULTdLTG8xaVhHU3pNa3dna1RoemVVbmZuejdXcmxYOHhnQlhMdw?oc=5",
+      "published": "2026-05-11T15:51:20+09:00",
       "query": "CBDC 은행"
-    },
-    {
-      "id": "5b2bf82b1cf8",
-      "title": "BNK부산은행, AI 기반 금융 혁신 전략 공유",
-      "source": "글로벌이코노믹",
-      "summary": "BNK부산은행, AI 기반 금융 혁신 전략 공유&nbsp;&nbsp;글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSXF1b0pkXzdUVUd5YUlXMWI3VzM3NnFiemxHYmhFOHNzLTdzbDBEd284WkZEd0ppRmstN0haaUg3amttV3VLenh6MVhPZnQxcndoMXFMSENOVXVNbjNXUkt1YndDVV9McjBYYWMtTHh2M1FNNWRXeVBxV25ETzI1UjZPUGM?oc=5",
-      "published": "2026-05-11T14:21:28+09:00",
-      "query": "은행 생성형 AI"
-    },
-    {
-      "id": "0954d92485f8",
-      "title": "“스테이블코인 지연땐 100조 유출…은행 주도 넣되, 위헌적 거래소 규제 빼야”",
-      "source": "이데일리TV",
-      "summary": "“스테이블코인 지연땐 100조 유출…은행 주도 넣되, 위헌적 거래소 규제 빼야”&nbsp;&nbsp;이데일리TV",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05WGc3eFN2X2c4bGp1ZGowSGY1MmRnd184RlFsLUlqX3JMLXc3ZXpCaVdIMGhTYkM2cHdTRTRqX196VWlIR1hQV2NWM3hDVDRwOXRNMkMtLVBkN3Y3WjRYcUdfS2ZKUUpldHpjN2pZRTBXRm5lb3pOT0Nydw?oc=5",
-      "published": "2026-05-11T13:44:00+09:00",
-      "query": "스테이블코인 은행"
-    },
-    {
-      "id": "3385a62c0cbe",
-      "title": "부산은행, ‘AI 네이티브 은행’ 전환 시동",
-      "source": "국민일보",
-      "summary": "부산은행, ‘AI 네이티브 은행’ 전환 시동&nbsp;&nbsp;국민일보",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13cVlfdDBUVUdDam5hU001eEl4TnEwR1ZCYldkZ2xsUG42ckVuVXFTZkVEZF9Hd05NUFhOVF9OZkx5LVZoLUtoZkdtakFJeVRkOG5OTHVoVlBOaEtkT1ZJcmpveHRHLXPSAWxBVV95cUxOZUdVVmxHVmdmQ0xuZERTZ3luaWFqakljSVlKemNfel9nRUMxNG81dFhhMnJhQmFpMlhUYnJ1ay1tYl8xX1F5Y0Vyb3dLV2E5Vl8xeVZ6dk5fdUhDSGduSlBGWUdrekxyeDdPNkg?oc=5",
-      "published": "2026-05-11T12:45:00+09:00",
-      "query": "은행 생성형 AI"
     }
   ]
 }
