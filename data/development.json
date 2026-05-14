@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-05-14T08:07:00.439114+09:00",
+  "updated_at": "2026-05-15T07:15:45.203283+09:00",
   "items": [
+    {
+      "id": "861f2c09d109",
+      "title": "서울 삼성역세권에 28층 복합시설 조성…내년 상반기 착공",
+      "source": "아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4teFR5ZkhoczVJbTR5Snk1YkhwaGZJZjVsSkFpOUxMcEwzZ1FuN1Nrazk1Z0hnV25qbUN4aU5VckRIY2tVLTduVVJFOF92NFppWjZLZlhOeWl2bTdYN2RyaTBjdDZhcnBEU3JYUnFB?oc=5",
+      "published": "2026-05-14T17:34:12+09:00",
+      "date": "2026-05-14",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "c476a5ad09dc",
+      "title": "[6·3 이사람] 현근택 용인시장 후보 “반도체 국가산단 성공, 여당 원팀으로 완성”",
+      "source": "경기신문",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55dmV3dUpEN2ZoOEVFRFBrTkhSVURkSmJjRUZ0SlpiRGhCU3BVSzgtaGdld195dm5Pb1F2WTFIOHJ6TC1zVWZ6MTRwUHBWVFFhT2FNMzBCQXJFT3RWVkJWbk5B?oc=5",
+      "published": "2026-05-14T16:06:00+09:00",
+      "date": "2026-05-14",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "39d9864c5771",
+      "title": "서울시, 삼성역 역세권 활성화 위한 지구단위계획 수정 가결",
+      "source": "웹이코노미",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE50QnNuRklVMG5ndEdDT1VOZDRTTjNZd2lTS0NoYW4yRnhMLXJLVFVDVzZuUnZzTGU5aHZhbGtIOHpMY25WaTZNUHQ3SHVoRDRxRDFJMG9nU0lQWWxseFdMM3YyYlJrZ2UzRFpSRUVFaUhXUQ?oc=5",
+      "published": "2026-05-14T14:58:46+09:00",
+      "date": "2026-05-14",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "0a874242a8c4",
+      "title": "성남 오리역세권 개발 방식 놓고 후보 간 이견…김병욱 ‘화이트존’ vs 신상진 ‘지구단위계획’",
+      "source": "글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOENhQXdJRElBTmJKcUxYT25xWTdXVEprNmhFcmU1ZUFndl9sUUJaMUJQOUtBelNvaGN1RDFRMk10ckszaDU1TlNWVE10bjgzd29ZTjZ4b1R4aHBadHBtdlBmRnJBd0pJVFd5aXA2WnJFVWxaeG9yUzJZNXFkZVFzV0lQTllYdjRQXzBR?oc=5",
+      "published": "2026-05-14T12:39:35+09:00",
+      "date": "2026-05-14",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "168579d457c4",
+      "title": "서울시, 국제교류복합지구 지구단위계획 결정(변경)(안) 삼성역 역세권 활성화사업' 수정가결",
+      "source": "newszoom.kr",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9MbzBRc3FWLU9FSi1QemdBelpaSDJVQV81eUE4eTFMZjZwNTdOT0VzZXhaMTBhMkNibFMtS0E4V2o4ZDNz?oc=5",
+      "published": "2026-05-14T12:28:00+09:00",
+      "date": "2026-05-14",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-05-14T12:21:24+09:00",
+      "date": "2026-05-14",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "0ae940070099",
+      "title": "현근택 용인시장 후보, 반도체 국가산단 조기 추진 공약 발표",
+      "source": "용인일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vSzN5bEQzWnQwMVhHTTlfNDVza1J6ZmJlS253aFNOVXd6LVppSDJjTVVvV2djY01GRThJb2NFQi1ReUVQOVlfc2YzR184ejNpVnBIWnNvak53SHhoODI0OWFQLTNJdlYtZWQ2YktjbkU?oc=5",
+      "published": "2026-05-14T10:57:00+09:00",
+      "date": "2026-05-14",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "804849a6927a",
+      "title": "서초동 코오롱 부지, 38층 복합시설로 개발…2032년 준공 목표",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QZ0NhWmhEb0NQcE1lOVd3MXN6MXFnSVlEcTYyWXZnWXh2TExndjQtN3BXTWxkdWgwS2sxblJTZzR3RUdkYjhRdWpybmY1VHVLOVFrUXU2cktfNF9xT2luQdIBYEFVX3lxTE5QZ0NhWmhEb0NQcE1lOVd3MXN6MXFnSVlEcTYyWXZnWXh2TExndjQtN3BXTWxkdWgwS2sxblJTZzR3RUdkYjhRdWpybmY1VHVLOVFrUXU2cktfNF9xT2luQQ?oc=5",
+      "published": "2026-05-14T10:04:40+09:00",
+      "date": "2026-05-14",
+      "query": "복합개발 지구단위계획"
+    },
     {
       "id": "403e3165d8d2",
       "title": "현근택 \"여당 시장의 힘으로 반도체 국가산단 성공 이끌 것\"",
@@ -11,48 +83,12 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "275430720fd4",
-      "title": "현근택 용인시장 후보, 대표공약 1번 발표…“반도체 국가산단의 성공 이끌 것”",
-      "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1KVTdhR0ctR19ob2ZaOTktLVJ4a0pPaFZ4WUEtbS1iZUdUcXpiMW5yLVVtVmt5M1ptRDNOZTBfaGowNVhQN2c?oc=5",
-      "published": "2026-05-13T19:14:45+09:00",
-      "date": "2026-05-13",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "bc309da182b7",
-      "title": "현근택, 대표공약 1호 발표…“반도체 국가산단 성공, 힘있는 여당시장이 이끌겠다”",
-      "source": "경인신문",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FS2hTMnR3UDl3cnBHY2xDS1NhTi1ZZHV6alpYUnhJQWtabzREZVFhemlhNldfWkI3d25sdFVXS2RqRG44a3JOWm5LbXJOU0w4VVNZWGNBWlB2WHJsc09XX09KSGRwUXc?oc=5",
-      "published": "2026-05-13T17:51:16+09:00",
-      "date": "2026-05-13",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "7fb461b39aa8",
-      "title": "이상일, 용인시장 재선 출마 선언…\"반도체 국가산단 착공 지연, 모골이 송연\"",
-      "source": "이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GNmFVUWZ0aUdUcENMMUF6MEM2MmhYX0VSNjVNb0VXWjZXem5mTnNVa2dKM0VJQUdTSXhyMHVNa2liM2dmU1Z3WC1Fbm1TekthMnNHdg?oc=5",
-      "published": "2026-05-13T17:07:00+09:00",
-      "date": "2026-05-13",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "cba492ac0e26",
-      "title": "LH \"오산 세교3택지지구 사업 안한다\"",
-      "source": "매일건설신문",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTmFaeTBTVF9hSGpBcjhKcWNQOHYtVm1TMTFPVlJ3cWlGemR1bUJWdklETVpvQjJiUHBWbmRHRG1BbkFZWjh1RUMzbWdCLUFyN0wxeUtrNUZVSW54dHRGd3c1aVdDYmE0NWhOemlfbWNqYUpiSDZoLV94TlRyY2pfZHR0TVJXdDNvVTlEUkRxUkFXeGM3VTFLVUpuZThzOUh5RmdLd2I4TmRCcEhyZXJMa21MT0w4cnpIQklFRk9JZGN5T1U3aThzUTlB?oc=5",
-      "published": "2026-05-13T13:05:00+09:00",
-      "date": "2026-05-13",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-05-12T14:31:14+09:00",
-      "date": "2026-05-12",
+      "id": "8d1a854ed951",
+      "title": "이상일 “용인 반도체 국가산단 흔들리면 안 된다”…삼성전자 현장서 속도 강조",
+      "source": "뉴스타운",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KQUoyMmk5aXp1Snp6Yjh4UDgzU1hYaThFRVJYRUNCXzRaT1JhS3R6dlhjc212UnFtSjlZNmZZTHdBRWNBd2dHYjZPR3VDc1lYdXpRLVM3XzZLQzJPM0lneHhDaHRiUURMa2FTN2RR?oc=5",
+      "published": "2026-05-11T20:18:31+09:00",
+      "date": "2026-05-11",
       "query": "반도체 국가산단"
     },
     {
