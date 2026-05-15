@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-05-15T07:58:16.384140+09:00",
+  "updated_at": "2026-05-16T07:56:38.426149+09:00",
   "items": [
     {
-      "id": "861f2c09d109",
-      "title": "서울 삼성역세권에 28층 복합시설 조성…내년 상반기 착공",
-      "source": "아시아투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4teFR5ZkhoczVJbTR5Snk1YkhwaGZJZjVsSkFpOUxMcEwzZ1FuN1Nrazk1Z0hnV25qbUN4aU5VckRIY2tVLTduVVJFOF92NFppWjZLZlhOeWl2bTdYN2RyaTBjdDZhcnBEU3JYUnFB?oc=5",
-      "published": "2026-05-14T17:34:12+09:00",
-      "date": "2026-05-14",
-      "query": "복합개발 지구단위계획"
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-05-15T16:07:48+09:00",
+      "date": "2026-05-15",
+      "query": "반도체 국가산단"
     },
     {
-      "id": "c476a5ad09dc",
-      "title": "[6·3 이사람] 현근택 용인시장 후보 “반도체 국가산단 성공, 여당 원팀으로 완성”",
-      "source": "경기신문",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55dmV3dUpEN2ZoOEVFRFBrTkhSVURkSmJjRUZ0SlpiRGhCU3BVSzgtaGdld195dm5Pb1F2WTFIOHJ6TC1zVWZ6MTRwUHBWVFFhT2FNMzBCQXJFT3RWVkJWbk5B?oc=5",
-      "published": "2026-05-14T16:06:00+09:00",
-      "date": "2026-05-14",
+      "id": "5ca593a1e90d",
+      "title": "[이슈] LH, 3기 신도시 1만3000호 올해 착공…건설 시장 숨통 트이나",
+      "source": "폴리뉴스 Polinews",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oR2wya1FjVGpjUkhqaVhkYUxyNUpiN2t0NWlacjRXY0x5Q2h6WFlCa1ZLd0dZTGlvUmcwZFlHNTJySjRXQ0hnQmR4aG5RQ19tT2ZGb3Y4TkZHQUZHc29wNzJwNnpJeVNsc3dvblNB0gFyQVVfeXFMTzg0TGItSHZEMzR0UGI5aVV2WVl4d3NmdVRPRUJEaG1NRjZxR1RhVEhQYkdBTUEydWNfNGw4cHB2bjNiY2dwM0NiWWVYYlpBRnlrczZpN21FaWp3T2J6bFl0b0x4RzgyMlI2c0YwXzJsZzV3?oc=5",
+      "published": "2026-05-15T16:02:15+09:00",
+      "date": "2026-05-15",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "a8a790f3b013",
+      "title": "현근택 용인시장 후보 “반도체 국가산단 주변 100만평 위성도시 조성”…경제자유구역·국제학교 구상 제시",
+      "source": "누리일보",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ncld1cHNIZGVMNTBsQ1ZsX0QwUU1lalN3cTNDYlU0d0NJX0JQM2NhcUhnMFh0RXJBZVpvR09tYU9VQlNLT2dHbVZ1MnMyVVl5XzRlM2sxQlBrSTlE?oc=5",
+      "published": "2026-05-15T14:14:40+09:00",
+      "date": "2026-05-15",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "6f351db4d27c",
+      "title": "현근택, 용인 반도체 국가산단 조기 가동 1호 공약 발표",
+      "source": "전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPT0k3WEVCRTlBd1VDelVJOXE2Mjl5SjVxWnhVWV9LaE1fdWVuWTJXN3VQUmJBR3JfeHFETDNEMDRmR2dOVFBFdE9Ya3JMQQ?oc=5",
+      "published": "2026-05-15T10:42:05+09:00",
+      "date": "2026-05-15",
       "query": "반도체 국가산단"
     },
     {
@@ -47,22 +65,13 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-05-14T12:21:24+09:00",
+      "id": "5348b4088d00",
+      "title": "서초 코오롱 스포렉스 38층 개발…당산·삼성역 일대 복합개발 추진",
+      "source": "기계설비신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41QzItZmVkVTZQTWc2aGtIOE51aHFxZ2FPQ29wX3JleFN2anFBRDFtbkFjaEpoQUhRb2c0cFAtVlV2Y2lLRzJfb2NmbXU1MlJVakdvRDRXNllUTDkxcmZZOExkTnJHWVJFRmdWYQ?oc=5",
+      "published": "2026-05-14T10:13:00+09:00",
       "date": "2026-05-14",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "0ae940070099",
-      "title": "현근택 용인시장 후보, 반도체 국가산단 조기 추진 공약 발표",
-      "source": "용인일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vSzN5bEQzWnQwMVhHTTlfNDVza1J6ZmJlS253aFNOVXd6LVppSDJjTVVvV2djY01GRThJb2NFQi1ReUVQOVlfc2YzR184ejNpVnBIWnNvak53SHhoODI0OWFQLTNJdlYtZWQ2YktjbkU?oc=5",
-      "published": "2026-05-14T10:57:00+09:00",
-      "date": "2026-05-14",
-      "query": "반도체 국가산단"
+      "query": "복합개발 지구단위계획"
     },
     {
       "id": "804849a6927a",
@@ -74,6 +83,15 @@
       "query": "복합개발 지구단위계획"
     },
     {
+      "id": "b6ef84fe77e4",
+      "title": "[6·3 지방선거] 현근택 민주당 용인시장 후보“반도체 국가산단의 성공”…첫 번째 대표 공약 공개",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ieGRpRXM0dTB5WXR4Ry0xbDNFNVJ0VUx1eXBkdWNsNC12aGp1Mk5pVkRqbHBTLThBVFg4S2lwYkNtU1QtU3g1MlphZlg2a2s?oc=5",
+      "published": "2026-05-14T09:30:14+09:00",
+      "date": "2026-05-14",
+      "query": "반도체 국가산단"
+    },
+    {
       "id": "403e3165d8d2",
       "title": "현근택 \"여당 시장의 힘으로 반도체 국가산단 성공 이끌 것\"",
       "source": "프레시안",
@@ -83,22 +101,22 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "8d1a854ed951",
-      "title": "이상일 “용인 반도체 국가산단 흔들리면 안 된다”…삼성전자 현장서 속도 강조",
-      "source": "뉴스타운",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KQUoyMmk5aXp1Snp6Yjh4UDgzU1hYaThFRVJYRUNCXzRaT1JhS3R6dlhjc212UnFtSjlZNmZZTHdBRWNBd2dHYjZPR3VDc1lYdXpRLVM3XzZLQzJPM0lneHhDaHRiUURMa2FTN2RR?oc=5",
-      "published": "2026-05-11T20:18:31+09:00",
-      "date": "2026-05-11",
-      "query": "반도체 국가산단"
-    },
-    {
       "id": "e3c9d68ef66f",
       "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
       "source": "자치안성신문",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-05-08T16:00:00+09:00",
-      "date": "2026-05-08",
+      "published": "2026-05-13T16:00:00+09:00",
+      "date": "2026-05-13",
       "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "cba492ac0e26",
+      "title": "LH \"오산 세교3택지지구 사업 안한다\"",
+      "source": "매일건설신문",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTmFaeTBTVF9hSGpBcjhKcWNQOHYtVm1TMTFPVlJ3cWlGemR1bUJWdklETVpvQjJiUHBWbmRHRG1BbkFZWjh1RUMzbWdCLUFyN0wxeUtrNUZVSW54dHRGd3c1aVdDYmE0NWhOemlfbWNqYUpiSDZoLV94TlRyY2pfZHR0TVJXdDNvVTlEUkRxUkFXeGM3VTFLVUpuZThzOUh5RmdLd2I4TmRCcEhyZXJMa21MT0w4cnpIQklFRk9JZGN5T1U3aThzUTlB?oc=5",
+      "published": "2026-05-13T13:05:00+09:00",
+      "date": "2026-05-13",
+      "query": "LH 지구지정"
     }
   ]
 }
