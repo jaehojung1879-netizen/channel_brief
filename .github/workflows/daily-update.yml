@@ -2,7 +2,9 @@ name: Daily Channel Brief Update
 
 on:
   schedule:
-    - cron: '0 22 * * *'
+    # GitHub Actions schedule can be delayed (often up to ~60 min).
+    # Run earlier than 07:00 KST so publication still lands around 07:00 KST.
+    - cron: '30 21 * * *'
   workflow_dispatch:
 
 permissions:
