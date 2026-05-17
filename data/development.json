@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-05-17T07:46:14.260254+09:00",
+  "updated_at": "2026-05-18T07:49:31.714053+09:00",
   "items": [
+    {
+      "id": "c3accc0f7baf",
+      "title": "1기 신도시 재건축 ‘먹구름’…“2027년 착공 절대 불가”",
+      "source": "kukinews.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zRkp1cFlaYTRNRzhhNHdJNjVYc2dWcDJfbVpjZnRkU0d0aEw1UTBTeTlsdWlneTlsNEtIc1V6NXZpU2hWS3M3Ulp4eGxRNWxuU3Q3eFNsbm5qUElwMVd2SlhMQQ?oc=5",
+      "published": "2026-05-17T00:37:31+09:00",
+      "date": "2026-05-17",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "e3c9d68ef66f",
+      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
+      "published": "2026-05-16T16:00:00+09:00",
+      "date": "2026-05-16",
+      "query": "도시재생 활성화계획"
+    },
     {
       "id": "2a218f525359",
       "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
       "source": "자치안성신문",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-05-16T17:36:39+09:00",
+      "published": "2026-05-16T16:00:00+09:00",
       "date": "2026-05-16",
       "query": "반도체 국가산단"
     },
@@ -36,6 +54,15 @@
       "published": "2026-05-15T10:42:05+09:00",
       "date": "2026-05-15",
       "query": "반도체 국가산단"
+    },
+    {
+      "id": "258294e43a9c",
+      "title": "무주군, 서귀포시 주민주도 공동체 활성화에 힘 모으기로",
+      "source": "프레시안",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53RER0Q3lWbzl6bElGSWxUT3d2VkZjeC1MdjROUXlLNWE1eGJFRjM5VmxDQUZjRlJET3paZVl5OTBEc0NtbXR3cXdENnZRQ2RYbW5xeFlQUU9yNlFXaWVKT0dBYURKSVR5b1U4?oc=5",
+      "published": "2026-05-14T19:33:29+09:00",
+      "date": "2026-05-14",
+      "query": "도시재생 활성화계획"
     },
     {
       "id": "39d9864c5771",
@@ -99,24 +126,6 @@
       "published": "2026-05-13T19:24:32+09:00",
       "date": "2026-05-13",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-05-13T16:00:00+09:00",
-      "date": "2026-05-13",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "cba492ac0e26",
-      "title": "LH \"오산 세교3택지지구 사업 안한다\"",
-      "source": "매일건설신문",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTmFaeTBTVF9hSGpBcjhKcWNQOHYtVm1TMTFPVlJ3cWlGemR1bUJWdklETVpvQjJiUHBWbmRHRG1BbkFZWjh1RUMzbWdCLUFyN0wxeUtrNUZVSW54dHRGd3c1aVdDYmE0NWhOemlfbWNqYUpiSDZoLV94TlRyY2pfZHR0TVJXdDNvVTlEUkRxUkFXeGM3VTFLVUpuZThzOUh5RmdLd2I4TmRCcEhyZXJMa21MT0w4cnpIQklFRk9JZGN5T1U3aThzUTlB?oc=5",
-      "published": "2026-05-13T13:05:00+09:00",
-      "date": "2026-05-13",
-      "query": "LH 지구지정"
     }
   ]
 }

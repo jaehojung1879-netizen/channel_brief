@@ -1,30 +1,66 @@
 {
-  "updated_at": "2026-05-17T07:44:24.123457+09:00",
+  "updated_at": "2026-05-18T07:48:08.414915+09:00",
   "headline": {
-    "id": "0dde75e87c5f",
-    "title": "“앱보다 지점” 택한 美 은행들...한국은 점포 줄이기 한창",
-    "source": "에너지경제신문",
-    "summary": "“앱보다 지점” 택한 美 은행들...한국은 점포 줄이기 한창 에너지경제신문",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WOVBkaFVid29lSHRVZHJCWmV6VlFTRlRrekVZXzlrbHIwRVh5RFNRbkdDVXhldkd0bmlCQlQ3cFF1QVIzczd5aHIwa1ZaUjMxaHBRTTFBc1VSTEU5OHVvYnlB?oc=5",
-    "published": "2026-05-16T17:16:00+09:00",
+    "id": "18683ddbd3c1",
+    "title": "시중은행 점포 통폐합 속 농협·기은 채널 유지 '눈길'",
+    "source": "뉴스토마토",
+    "summary": "시중은행 점포 통폐합 속 농협·기은 채널 유지 '눈길' 뉴스토마토",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoY2dUZVdmelgyM3VCb19kVFBocHpJVVMxdzlZbWNZVExMTEZudVFHSlN0NXFLbEtuckVRVS1zUVBXMDZDUk52XzE5OG9IUUMtcmp0QXpiYWVEdHBxUWpEbg?oc=5",
+    "published": "2026-05-13T17:05:34+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 18.0,
+    "rank": 2,
+    "_score": 15.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "6c468047fe29",
-        "title": "KB국민은행, 전국 영업점에서‘무더위.한파 쉼터’ 운영",
-        "source": "한국NGO신문",
-        "summary": "KB국민은행, 전국 영업점에서‘무더위.한파 쉼터’ 운영 한국NGO신문",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xTW5CaFlweF83SG11RE5Ld1g0OGx6T1JaNlMzZzh0SFRWNk45OWo2T0J2MFpWWXgyWndrWEh0NkRwd2x3VnBWbTIwZTB3SHR2THA4THhKUnduUGZEQ21acXNFcWlmXzVV?oc=5",
-        "published": "2026-05-16T22:30:38+09:00",
+        "id": "d701f1c51bc6",
+        "title": "KB국민은행, 전국 영업점서 ‘무더위·한파쉼터’ 운영 外",
+        "source": "리얼캐스트",
+        "summary": "KB국민은행, 전국 영업점서 ‘무더위·한파쉼터’ 운영 外 리얼캐스트",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FMnNNNkgzWGhYOFNDd282akVpVlo5THpuS3VoMDBkRnRwRFFrT29nZjVDcXZQZTVPZVJCR29BaWYzTi1hWEF1T25PNTQ2ZzVMSnJ5TWdOTVFySlVOZHlBeEFfUW45Zmdy0gFsQVVfeXFMT0hTaGVRV2ViaV8yRkdGYmpadktmTkJFdkIwakViMzBqTEhpUHZ4M1h6WEU1bnlnOTZWbHBReUpRMkJDTlhEc0FDYXE1WUYzcjZUZVp0RVl5dlNIUElyV3NQVjRjcDVJbmg2c0ZN?oc=5",
+        "published": "2026-05-17T13:20:15+09:00",
         "query": "은행 영업점",
         "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "bf07a40ff734",
+        "title": "“상품 판매보다 상담”…우리은행 ‘이음상담센터’ 실험, 은행 점포 전략의 전환점 될까",
+        "source": "뉴스밸류",
+        "summary": "“상품 판매보다 상담”…우리은행 ‘이음상담센터’ 실험, 은행 점포 전략의 전환점 될까 뉴스밸류",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxMFM0akhzVVUySHVaMDhfZVQ1ejc2Rl91MnVGTExLSEFJcE84ZlhQY3hOcmUxWWhVSlVEdzZ0VjhIQ2VaQ1IwX3F1MnpzdVUxdk5aZFN2N3NpUkNQR0hWczBOOWpSNjBpRmc?oc=5",
+        "published": "2026-05-17T09:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "8f151c93a7df",
+        "title": "“앱보다 지점” 택한 美 은행들...한국은 점포 줄이기 한창",
+        "source": "에너지경제신문",
+        "summary": "“앱보다 지점” 택한 美 은행들...한국은 점포 줄이기 한창 에너지경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQQ2FRLTBxS2FhYlhPNmNRbkNkSFVRVGp4d3lpaDlQZFNVZFNqb0JyNWRVa2RQRkNwUl9hNHdFQ2JSeVBVQUg4STQ4bTBGUF9jVWd2XzNoaDZNU00?oc=5",
+        "published": "2026-05-16T17:16:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
         "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a2a6d1c0277b",
+        "title": "KB국민은행 영업점, 여름·겨울 쉼터로 개방",
+        "source": "현대경제신문",
+        "summary": "KB국민은행 영업점, 여름·겨울 쉼터로 개방 현대경제신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1REg0UlY2UmVzRS1mbHNGb0Q1NUcxYnFkbFhYX1VpcGhfSGttOEZVLUJDM2lrck01TktrUnBKNDRqMllxa1g4aFlrVG84eTVFRkpFdlg4X2dKcnVkdFJQVFNoSVN6RUlSbk1V0gFrQVVfeXFMUHVESDRSVjZSZXNFLWZsc0ZvRDU1RzFicWRsWFhfVWlwaF9Ia204RlUtQkMzaWtyTTVOS2tScEo0NGoyWXFrWDhoWWtUbzh5NUVGSkV2WDhfZ0pydWR0UlBUU2hJU3pFSVJuTVU?oc=5",
+        "published": "2026-05-15T16:09:22+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,83 +72,22 @@
         "published": "2026-05-15T14:29:11+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "d25a87f4508a",
-        "title": "벌써 무더위? 국민은행 영업점 ‘원두막’ 오픈",
-        "source": "스트레이트뉴스",
-        "summary": "벌써 무더위? 국민은행 영업점 ‘원두막’ 오픈 스트레이트뉴스",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ba3NCNlJiTG9DNm1QY2lMSEtoTjhNeEk0WXYzdFd3eVFQZUZHVVFRb3FaYmNhNnhOUlBmX2ZlV003SzM0RUhTMHJBMExhQ3lfeUhxWG12NTUxNmMtUG0xLXN0WjF4X2JwYnRSM2ZPUjU2WjZMUEhZ0gF3QVVfeXFMTkFrc0I2UmJMb0M2bVBjaUxIS2hOOE14STRZdjN0V3d5UVBlRkdVUVFvcVpiY2E2eE5SUGZfZmVXTTdLMzRFSFMwckEwTGFDeV95SHFYbXY1NTE2Yy1QbTEtc3RaMXhfYnBidFIzZk9SNTZaNkxQSFk?oc=5",
-        "published": "2026-05-15T11:03:23+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "d520f902e7b4",
-        "title": "[오늘의 인천소사] 대한천일은행 인천지점 개설",
-        "source": "인천투데이",
-        "summary": "[오늘의 인천소사] 대한천일은행 인천지점 개설 인천투데이",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1teEhCbFd0NndmNHpZaHg2SDBfdlJWVVhiUkFDN0Y4eFFEZ2dwT29YZEVoSzV2Q2tMWW9hZ2hmdmM4dWFKMzJLZU1PNjZFbTlYVHBsSm9qOHp3cFNrR1ZGTnB2NUprWUtMR3BxZm92RXE?oc=5",
-        "published": "2026-05-15T09:11:34+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "18683ddbd3c1",
-        "title": "시중은행 점포 통폐합 속 농협·기은 채널 유지 '눈길'",
-        "source": "뉴스토마토",
-        "summary": "시중은행 점포 통폐합 속 농협·기은 채널 유지 '눈길' 뉴스토마토",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoY2dUZVdmelgyM3VCb19kVFBocHpJVVMxdzlZbWNZVExMTEZudVFHSlN0NXFLbEtuckVRVS1zUVBXMDZDUk52XzE5OG9IUUMtcmp0QXpiYWVEdHBxUWpEbg?oc=5",
-        "published": "2026-05-13T17:05:34+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "00cf2f40eb56",
-        "title": "점포공백 대안 '은행대리업' 속도날까",
-        "source": "파이낸셜뉴스",
-        "summary": "점포공백 대안 '은행대리업' 속도날까 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KVlVVRmo1QTdQRG1zTVZqanpxMGZIWWM5NG5WOE82QXpDZ1BzOS04UzAyX2J5U094N0dCM2lHQndIZGRZMGV0RVRkYjY3cVJ0emJ6V0JnZG5UUdIBXkFVX3lxTE01ZURwZTZmNlI2YlM1T2NIekFmX21abVNaQzg3dlpZZnVYQ1ExbW9RVmllamZJM1duYnFOZXFjSHg1cXY1RjB1UVZZX2dldWtvMjhVelBVMXBlT3Y5Y3c?oc=5",
-        "published": "2026-05-12T18:23:25+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 15,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": [
-      {
-        "id": "7a99a056a22c",
-        "title": "금감원, 거점점포 검사 올해 4곳 예정…대형 증권사로 확대",
-        "source": "네이트",
-        "summary": "금감원, 거점점포 검사 올해 4곳 예정…대형 증권사로 확대 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xeE9Jc3VyWU1nc1VZRHpBVzBFS2l4eUVWRGIwSW4xTmdlVmNGMTNWeXo4QkQxR3NKcHdTbGxBNjNPYmxyVnNqb3hRSVh3QTFjS1Nj?oc=5",
-        "published": "2026-05-12T18:14:00+09:00",
-        "query": "금감원 점포",
-        "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      }
-    ],
+    "policy_news": [],
     "shinhan_news": [
       {
-        "id": "62af10575d7a",
-        "title": "정상혁號 신한은행, 플랫폼 내 결제·대출 구현…사업자·생활금융 연결 확대 [은행권 임베디드 금융 전략]",
-        "source": "한국금융신문",
-        "summary": "정상혁號 신한은행, 플랫폼 내 결제·대출 구현…사업자·생활금융 연결 확대 [은행권 임베디드 금융 전략] 한국금융신문",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UUk1FQ1ltZWdHMmY3UXNBVjZRSUhKbnEzNGdvTlFrMnR3ZU5IbGFtTUdJVXJaWE44b3NfMGc0WHhIeWt6WmRuTlFaQTlmd0c2T3Jxb0pVSlVfdXZOUnAxU1VpaFZrOUtxcUNBMDVSUmIyOGlXZzF6TVpPT2w?oc=5",
-        "published": "2026-05-13T14:00:00+09:00",
+        "id": "717e7ab8de93",
+        "title": "신한은행 동해지점, 묵호노인종합복지관에 100만원 전달",
+        "source": "강원도민일보",
+        "summary": "신한은행 동해지점, 묵호노인종합복지관에 100만원 전달 강원도민일보",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWMGlYdW5RLXprYmFjSU5ZZ2tfNmdNSXZ0aW8wMnY0WmdUSHd0SjRVYzNsY29GUmRMc01QSUowNEl2a2JNT1VMNFNSQkJRQzNSOVJTMW44eW9LYWlWcDhtUFZWRm9YaVk?oc=5",
+        "published": "2026-05-17T15:29:08+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 11,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -124,7 +99,7 @@
         "published": "2026-05-12T17:49:16+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -136,19 +111,7 @@
         "published": "2026-05-12T13:00:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "9f7cfbc6506e",
-        "title": "신한은행, 해외점포를 기후금융 기지로…런던·뉴욕 현지 전략 보니",
-        "source": "v.daum.net",
-        "summary": "신한은행, 해외점포를 기후금융 기지로…런던·뉴욕 현지 전략 보니 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9FLVd3STZ1WWlpOW14d1RtWS1IRkRzZmFkZDlpdWxYWlNyX2dfeDB0QUUtQTllWU1faEF2cnVNWXd3NERjOTJhNS1JNA?oc=5",
-        "published": "2026-05-10T18:20:26+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
