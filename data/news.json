@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-05-18T07:48:08.414915+09:00",
+  "updated_at": "2026-05-19T07:34:17.853869+09:00",
   "headline": {
-    "id": "18683ddbd3c1",
-    "title": "시중은행 점포 통폐합 속 농협·기은 채널 유지 '눈길'",
-    "source": "뉴스토마토",
-    "summary": "시중은행 점포 통폐합 속 농협·기은 채널 유지 '눈길' 뉴스토마토",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoY2dUZVdmelgyM3VCb19kVFBocHpJVVMxdzlZbWNZVExMTEZudVFHSlN0NXFLbEtuckVRVS1zUVBXMDZDUk52XzE5OG9IUUMtcmp0QXpiYWVEdHBxUWpEbg?oc=5",
-    "published": "2026-05-13T17:05:34+09:00",
+    "id": "244ba111d870",
+    "title": "우리은행, 남대문·강남·홍대에 고객 상담 전문 점포 개설",
+    "source": "헤럴드경제",
+    "summary": "우리은행, 남대문·강남·홍대에 고객 상담 전문 점포 개설 헤럴드경제",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMG82UGxqd2pfRnl0NlhEV0MwMkluN1paOHdaSzA3OXBGcU9vYWtEZUZ6WURMdUZZWFJvNHNOTEV0UWwycGJPT0JuWER0Z1RFaWZqVldB?oc=5",
+    "published": "2026-05-18T09:30:52+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 2,
-    "_score": 15.0,
+    "rank": 6,
+    "_score": 17.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "a47356c2701a",
+        "title": "NH농협은행, 영업점 방문 어려운 고객 편의성↑..‘MMT 개인 비대면 가입서비스’ 출시",
+        "source": "한국정경신문",
+        "summary": "NH농협은행, 영업점 방문 어려운 고객 편의성↑..‘MMT 개인 비대면 가입서비스’ 출시 한국정경신문",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FaFp5T2xnSW5zZmhyR1hZSzZzSXFtZ0Vrb2VjMm9sQmZKbnhNTUU1bzlCSTU5dDJUVEtWR0xMM0FwQXpBSkFhSFFXTHMzeW56cXc?oc=5",
+        "published": "2026-05-18T09:54:28+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "d701f1c51bc6",
         "title": "KB국민은행, 전국 영업점서 ‘무더위·한파쉼터’ 운영 外",
@@ -24,19 +36,7 @@
         "published": "2026-05-17T13:20:15+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "bf07a40ff734",
-        "title": "“상품 판매보다 상담”…우리은행 ‘이음상담센터’ 실험, 은행 점포 전략의 전환점 될까",
-        "source": "뉴스밸류",
-        "summary": "“상품 판매보다 상담”…우리은행 ‘이음상담센터’ 실험, 은행 점포 전략의 전환점 될까 뉴스밸류",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxMFM0akhzVVUySHVaMDhfZVQ1ejc2Rl91MnVGTExLSEFJcE84ZlhQY3hOcmUxWWhVSlVEdzZ0VjhIQ2VaQ1IwX3F1MnpzdVUxdk5aZFN2N3NpUkNQR0hWczBOOWpSNjBpRmc?oc=5",
-        "published": "2026-05-17T09:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 4,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -52,18 +52,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "a2a6d1c0277b",
-        "title": "KB국민은행 영업점, 여름·겨울 쉼터로 개방",
-        "source": "현대경제신문",
-        "summary": "KB국민은행 영업점, 여름·겨울 쉼터로 개방 현대경제신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1REg0UlY2UmVzRS1mbHNGb0Q1NUcxYnFkbFhYX1VpcGhfSGttOEZVLUJDM2lrck01TktrUnBKNDRqMllxa1g4aFlrVG84eTVFRkpFdlg4X2dKcnVkdFJQVFNoSVN6RUlSbk1V0gFrQVVfeXFMUHVESDRSVjZSZXNFLWZsc0ZvRDU1RzFicWRsWFhfVWlwaF9Ia204RlUtQkMzaWtyTTVOS2tScEo0NGoyWXFrWDhoWWtUbzh5NUVGSkV2WDhfZ0pydWR0UlBUU2hJU3pFSVJuTVU?oc=5",
-        "published": "2026-05-15T16:09:22+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 8,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "67473f76ee19",
         "title": "[KINN] AI와 콜센터① “은행 콜센터는 비대면 영업점, AI가 만능은 아니다”",
         "source": "NewsTapa",
@@ -73,6 +61,30 @@
         "query": "은행 영업점",
         "engine": "google",
         "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "7294c656d089",
+        "title": "벌써 무더위? 국민은행 영업점 ‘원두막’ 오픈",
+        "source": "스트레이트뉴스",
+        "summary": "벌써 무더위? 국민은행 영업점 ‘원두막’ 오픈 스트레이트뉴스",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BVDFGbnJIcFM1aVRqRWRRRmZqUk5YVXN6TlJ3dkZOUlczQVVib0xsdnpIajJfN0o5a1dwUGJxaHFmSkZsZTJDeHRPWDhtcjR4QmtxWnNwLTlPOURSUzVoREZla1h0YTY1LVpPTlRsXzJveUXSAXdBVV95cUxOQWtzQjZSYkxvQzZtUGNpTEhLaE44TXhJNFl2M3RXd3lRUGVGR1VRUW9xWmJjYTZ4TlJQZl9mZVdNN0szNEVIUzByQTBMYUN5X3lIcVhtdjU1MTZjLVBtMS1zdFoxeF9icGJ0UjNmT1I1Nlo2TFBIWQ?oc=5",
+        "published": "2026-05-15T11:00:03+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "18683ddbd3c1",
+        "title": "시중은행 점포 통폐합 속 농협·기은 채널 유지 '눈길'",
+        "source": "뉴스토마토",
+        "summary": "시중은행 점포 통폐합 속 농협·기은 채널 유지 '눈길' 뉴스토마토",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoY2dUZVdmelgyM3VCb19kVFBocHpJVVMxdzlZbWNZVExMTEZudVFHSlN0NXFLbEtuckVRVS1zUVBXMDZDUk52XzE5OG9IUUMtcmp0QXpiYWVEdHBxUWpEbg?oc=5",
+        "published": "2026-05-14T08:16:45+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -87,7 +99,7 @@
         "published": "2026-05-17T15:29:08+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -99,7 +111,7 @@
         "published": "2026-05-12T17:49:16+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -111,7 +123,7 @@
         "published": "2026-05-12T13:00:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 4,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
