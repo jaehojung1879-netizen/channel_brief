@@ -1,14 +1,32 @@
 {
-  "updated_at": "2026-05-19T07:35:56.774114+09:00",
+  "updated_at": "2026-05-20T07:49:04.834545+09:00",
   "items": [
     {
-      "id": "3e79605a044c",
-      "title": "RE100이 반도체산단 이전 근거가 못 되는 이유 [왜냐면]",
-      "source": "한겨레",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYcGN3RGdseGxGZUp6NU9hYUlBZjVJdHVLbEo0aWJsWHZiUUdZZ0JaZ2xxcXhZb1dsZmowQ3c1LVg0NDcwNUV2TkhTbUNZS2s3LXV3SjViaVNiM1AtelZKOWVmTXFyQ2c?oc=5",
-      "published": "2026-05-18T19:19:00+09:00",
-      "date": "2026-05-18",
+      "id": "e960054bf028",
+      "title": "반도체 갈 길 급한데…용인 클러스터 부지조성 ‘하세월’",
+      "source": "대한경제",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iVFFtV0VQbUFsY1ZVR1VOdWYyQlM1Szk3azZJZjdjZHRBTXcyRmpuT1hHZzI0N1VoWERMRXROdDZPb0pxZVNWTjY4R2E2VGNQRUNRekJDaEw3ekgtNl9ONVBKR0RJdmRCd1hsM0wyMlhjeldY?oc=5",
+      "published": "2026-05-20T06:00:36+09:00",
+      "date": "2026-05-20",
       "query": "반도체 국가산단"
+    },
+    {
+      "id": "187382120633",
+      "title": "“전력·물 감당 불가, 용인 반도체 공장 10개 중 8개 영호남으로”",
+      "source": "한겨레",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YaDF0ckNoMWF1cFR3M2hoZlRFNkg3NGpnb01wMXBBMjRBOVEtMEV0VjhTcFNWdXRtd0x2YTIzTzhYUVd2Zm5uWnJHY3Bkc2FrZ3NBQW9HVTJBbm5fZXlOb0pzNXJtOHlmNjlpLQ?oc=5",
+      "published": "2026-05-19T13:37:00+09:00",
+      "date": "2026-05-19",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "0e4e351c6c71",
+      "title": "인천터미널, 내년 말 새 건물로 이전",
+      "source": "인천일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PWVNFUUQ4SUdtT0dZRjdwa0FJd2lneWNsZzdkaFkwZThENzZZbG01MEZLclVRU3B1Wkp1T2VsUHhLdGhCZlZHSVRXTFRiTnBtSFJfc1FJc0RmTFk4YmdWWTZISjdrbHFfc3Rnc0ZXdkc?oc=5",
+      "published": "2026-05-18T20:01:00+09:00",
+      "date": "2026-05-18",
+      "query": "복합개발 지구단위계획"
     },
     {
       "id": "e1acdf7f189a",
@@ -16,6 +34,15 @@
       "source": "오마이뉴스",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfamJBUmdqNWgzRml3N0MwNUhoRkJZZE5YYWYyQk14Q3hwRVZlWmxPNmdyeWw0OHNMUXJzUllWb1BrbS11djBCeG5fM2QzT0daYTdfYjRib2pQNmQ5Z0tWVXUtaHFvMzJtYnRMOUQySlhBUFFIX2Vn?oc=5",
       "published": "2026-05-18T16:42:00+09:00",
+      "date": "2026-05-18",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-05-18T16:00:00+09:00",
       "date": "2026-05-18",
       "query": "반도체 국가산단"
     },
@@ -38,15 +65,6 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "922ec62aff14",
-      "title": "현근택 \"용인 반도체산단 배후 100만평 이상 경자구역 유치할 것\"",
-      "source": "이데일리",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYTB0akJDM2pPWUI5d3puUFRTeTBYTEVVT1BEVWJuZ0MwaEl1ZlhpQ1E1U2Ntb0tFYjlpcFVtVWFlQlZoVGZwU2xsUzRLbnJVc1YtbUpLbjNNbFotVVRTd3dDcDNfbHpUV3VZcVJOdFl3M0FpUk5FR1lvYi1hYTFZUw?oc=5",
-      "published": "2026-05-16T11:28:12+09:00",
-      "date": "2026-05-16",
-      "query": "반도체 국가산단"
-    },
-    {
       "id": "5ca593a1e90d",
       "title": "[이슈] LH, 3기 신도시 1만3000호 올해 착공…건설 시장 숨통 트이나",
       "source": "폴리뉴스 Polinews",
@@ -63,15 +81,6 @@
       "published": "2026-05-15T10:42:05+09:00",
       "date": "2026-05-15",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "861f2c09d109",
-      "title": "서울 삼성역세권에 28층 복합시설 조성…내년 상반기 착공",
-      "source": "아시아투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4teFR5ZkhoczVJbTR5Snk1YkhwaGZJZjVsSkFpOUxMcEwzZ1FuN1Nrazk1Z0hnV25qbUN4aU5VckRIY2tVLTduVVJFOF92NFppWjZLZlhOeWl2bTdYN2RyaTBjdDZhcnBEU3JYUnFB?oc=5",
-      "published": "2026-05-14T17:34:12+09:00",
-      "date": "2026-05-14",
-      "query": "복합개발 지구단위계획"
     },
     {
       "id": "39d9864c5771",
@@ -101,31 +110,13 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "804849a6927a",
+      "id": "6869b9c66c53",
       "title": "서초동 코오롱 부지, 38층 복합시설로 개발…2032년 준공 목표",
       "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QZ0NhWmhEb0NQcE1lOVd3MXN6MXFnSVlEcTYyWXZnWXh2TExndjQtN3BXTWxkdWgwS2sxblJTZzR3RUdkYjhRdWpybmY1VHVLOVFrUXU2cktfNF9xT2luQdIBYEFVX3lxTE5QZ0NhWmhEb0NQcE1lOVd3MXN6MXFnSVlEcTYyWXZnWXh2TExndjQtN3BXTWxkdWgwS2sxblJTZzR3RUdkYjhRdWpybmY1VHVLOVFrUXU2cktfNF9xT2luQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zSEtQZk1VMEhMZ3d2UXY2c0c0TUU1V0JyOFVtSUkwSGZ3RTR2ZzVnaFU2NG1PTjBGbndFZDZHT2lJVnkxZ0FnNlgzUVB4WmxLVGNsWDZqTE04SzDSAWBBVV95cUxOUGdDYVpoRG9DUHBNZTlXdzFzejFxZ0lZRHE2Mll2Z1l4dkxMZ3Y0LTdwV01sZHVoMEtrMW5SU2c0d0VHZGI4UXVqcm5mNVR1SzlRa1F1NnJLXzRfcU9pbkE?oc=5",
       "published": "2026-05-14T10:04:40+09:00",
       "date": "2026-05-14",
       "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "403e3165d8d2",
-      "title": "현근택 \"여당 시장의 힘으로 반도체 국가산단 성공 이끌 것\"",
-      "source": "프레시안",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yUnlRN3RzUjJwbU1GWHNNT1JnTkVUdGlTbTFkWDJ5dVdidVRWZnFkME5mZGhiY3l2b1J0bnMyeTNNTWFPZnEyeDREdkNIZk4tNGlKTk1yQkJ5ZUdZeDBRWG1neVJFUWZIX1F3?oc=5",
-      "published": "2026-05-13T19:24:32+09:00",
-      "date": "2026-05-13",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "cba492ac0e26",
-      "title": "LH \"오산 세교3택지지구 사업 안한다\"",
-      "source": "매일건설신문",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTmFaeTBTVF9hSGpBcjhKcWNQOHYtVm1TMTFPVlJ3cWlGemR1bUJWdklETVpvQjJiUHBWbmRHRG1BbkFZWjh1RUMzbWdCLUFyN0wxeUtrNUZVSW54dHRGd3c1aVdDYmE0NWhOemlfbWNqYUpiSDZoLV94TlRyY2pfZHR0TVJXdDNvVTlEUkRxUkFXeGM3VTFLVUpuZThzOUh5RmdLd2I4TmRCcEhyZXJMa21MT0w4cnpIQklFRk9JZGN5T1U3aThzUTlB?oc=5",
-      "published": "2026-05-13T13:05:00+09:00",
-      "date": "2026-05-13",
-      "query": "LH 지구지정"
     }
   ]
 }

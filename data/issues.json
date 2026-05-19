@@ -1,80 +1,125 @@
 {
-  "updated_at": "2026-05-19T07:36:41.308295+09:00",
+  "updated_at": "2026-05-20T07:49:52.439734+09:00",
   "social_finance": [
     {
-      "id": "32974f744d06",
-      "title": "하나금융, 사회혁신기업·취약계층 연결…상생형 일자리 확대",
-      "source": "라이센스뉴스",
-      "summary": "하나금융, 사회혁신기업·취약계층 연결…상생형 일자리 확대&nbsp;&nbsp;라이센스뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mZjFsM29kLVhhaGJwdlhESF9KMEpneURnUUVKbXNpRmlWTGw2MTloaUpnWTVCa2g3ZkxZdWI1WFYyWnMwWHlXMlU0Y0kzWTFnUmdrRF85dEhzVm05ajNBdk5adFpSSGlRLVZr?oc=5",
-      "published": "2026-05-18T21:46:53+09:00",
-      "query": "취약계층 금융"
-    },
-    {
-      "id": "0b2a89e63740",
-      "title": "중저신용·온라인 셀러 품는다...신한은행, 인천 소상공인 금융지원 확대",
-      "source": "ER 이코노믹리뷰",
-      "summary": "중저신용·온라인 셀러 품는다...신한은행, 인천 소상공인 금융지원 확대&nbsp;&nbsp;ER 이코노믹리뷰",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oa0ZJcnRyWEdNODhMUm9FVGd3UzhRS0ROdFFldmR5dDROaFREY2xjVG9Mb2NfZHdkRHNnYi1uOV9wSVdscVBTX2VtakM0ejd0dWJMcUwtWnk4bnJtUTlNdDFqUWZSQlJzanVR?oc=5",
-      "published": "2026-05-18T21:28:38+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "3992000da8c6",
-      "title": "장애인 가족 지원부터 청년 멘토링까지...KB국민은행, 사회공헌 확대",
-      "source": "디지털투데이",
-      "summary": "장애인 가족 지원부터 청년 멘토링까지...KB국민은행, 사회공헌 확대&nbsp;&nbsp;디지털투데이",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IQ0tQUmNPMXNPN0dKOWd5Q1oxWjY3Y2FZWU9iTDVvTG5mclFsQm5LemotTnhlQ1JDNExQWVZnRHJ0MFByWTh0Z2FaODljRk5WaWJybmJlNWZmNnpaMlpSQ2R0RmVhaW9fYzRQREZBMklUNXM?oc=5",
-      "published": "2026-05-18T21:02:00+09:00",
-      "query": "은행 사회공헌"
-    },
-    {
-      "id": "ad8076ce4315",
-      "title": "코스피 7천 시대의 그늘… 장애인 금융 접근성은 ‘제자리’",
-      "source": "더인디고",
-      "summary": "코스피 7천 시대의 그늘… 장애인 금융 접근성은 ‘제자리’&nbsp;&nbsp;더인디고",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zaTg5SEJXTjBWOXo5T2xQWF9nazNQSXdXd0pfQkh4dFkxanZTMTIwQ2xRaldXX2FwemhYQXY4RmxadmtrZTYxTy1nRGdKMFU?oc=5",
-      "published": "2026-05-18T20:25:10+09:00",
-      "query": "금융접근성"
-    },
-    {
-      "id": "ca2b943ceb78",
-      "title": "[금융 게시판] 은행권, 포용금융·플랫폼 경쟁 가속…KB·신한·우리·농협·기업은행",
-      "source": "라이센스뉴스",
-      "summary": "[금융 게시판] 은행권, 포용금융·플랫폼 경쟁 가속…KB·신한·우리·농협·기업은행&nbsp;&nbsp;라이센스뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QWVRBdUthTFdWZk5WZ18xdDNyS3drS2dXbzhMTEJXRVZVaUk5cWxGcUxWY3JkWkZhOWdpUXNHbkhTUDdBZ0FHTWJCeDJydUtBZ0JYV3A0bkZYVHZFTUQ2amk0UU5YVGFiMHlZ?oc=5",
-      "published": "2026-05-18T20:00:04+09:00",
-      "query": "상생금융"
-    },
-    {
-      "id": "fcd2ce485a27",
-      "title": "은행권, 마케팅 경쟁 키워드가 바뀐다…\"사회공헌에서 플랫폼까지\"",
-      "source": "서울타임즈뉴스",
-      "summary": "은행권, 마케팅 경쟁 키워드가 바뀐다…\"사회공헌에서 플랫폼까지\"&nbsp;&nbsp;서울타임즈뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QYzNoY0VDeXJOcVdMcG9lR0EtQVg1a3BzVWl0bW1jbWE2b05MNWYwSW56d1cwejhXa21wblJaWTdiNGpGQ19MLVZqelJnQmtVdmV6UF9SX084MTBncHFLMnRUemdhd29keWFr?oc=5",
-      "published": "2026-05-18T18:07:27+09:00",
-      "query": "은행 사회공헌"
-    },
-    {
-      "id": "cc42bb5d86e8",
-      "title": "토스뱅크 \"모두를 위한 포용금융\" 인뱅 첫 '전자점자 서비스' 도입",
+      "id": "3eab554d83d6",
+      "title": "李 '포용금융' 압박에…4대지주 2금융→1금융 '갈아타기' 길 터준다",
       "source": "v.daum.net",
-      "summary": "토스뱅크 \"모두를 위한 포용금융\" 인뱅 첫 '전자점자 서비스' 도입&nbsp;&nbsp;v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CYnVNQW9la2VfUnJkU0ZNdFJkTHk4QmdWSkJNcGprU0R3Smg3X280Tm96bVA1bXZ3d2dwNnZ2SG9vVldmeTQ1X0dvN3lsTG8?oc=5",
-      "published": "2026-05-18T18:06:58+09:00",
+      "summary": "李 '포용금융' 압박에…4대지주 2금융→1금융 '갈아타기' 길 터준다&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aaGh3czVOV1o2QzNvVE1LLUNqUzJaZlI5WTRLa1BHdTJ1RWJjQWZ1MDJuNHdFV2hTejRiMEJ2b1hHRUVCdEZGOE5QNnNJekE?oc=5",
+      "published": "2026-05-20T06:11:41+09:00",
       "query": "포용금융"
     },
     {
-      "id": "3aa25a148c27",
-      "title": "한국장총 “코스피 7000 시대, 장애인 금융 접근성 제대로 보장받고 있나”",
-      "source": "월드장애인사랑뉴스",
-      "summary": "한국장총 “코스피 7000 시대, 장애인 금융 접근성 제대로 보장받고 있나”&nbsp;&nbsp;월드장애인사랑뉴스",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xMUt6b1M2V1NXd0lONWw5NjM4eUxnajBlMlVkT3FBMFhxVURRajVLMVRqWVlaTngwemhub0s5VG80ZkNKc1RoQnlzMXc0dXBnSE1lcHVmaXctMXhEQS1rRFcxbzJwWXJKMHNNaHdJWQ?oc=5",
-      "published": "2026-05-18T17:43:23+09:00",
-      "query": "금융접근성"
+      "id": "b3b230dc0cd0",
+      "title": "포스코, 중소기업 스마트공장 구축 지원사업 모집…AI·DX 전환 지원",
+      "source": "IT타임스",
+      "summary": "포스코, 중소기업 스마트공장 구축 지원사업 모집…AI·DX 전환 지원&nbsp;&nbsp;IT타임스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YUDNIazkyWktrNXJVU1E5X3QxVW80UjZuT0hxV2pUNVBfTVNySmhaNlhhLUtVQ0xwY2FaMzluYmZkV3dwNXpBODRxS2s5T2pUdzd5N1M3WENiWndzNUVCR1ZZNFlvTlMw?oc=5",
+      "published": "2026-05-20T00:28:05+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "c86cd8ac9f75",
+      "title": "'제2의 성수동' vs '3조 금융지원'…정원오·오세훈 소상공인 표심 잡기",
+      "source": "더팩트",
+      "summary": "'제2의 성수동' vs '3조 금융지원'…정원오·오세훈 소상공인 표심 잡기&nbsp;&nbsp;더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PSjVmZ1p3VDVTTkFVel84NkRGMVpJWjc0d09YUXVFak5Ca0kwdzAweXZKNzNHc0FPSUoxT3U2N2w3V0pLSFVvQ193UnFPZXR6V21qV2N30gFQQVVfeXFMTjFDWDY0NmJTa19lNG9VQnR2aFVkaGRrLVgwSHJtOXVEc0xnYUJ3VGtpLXhSTmZUdDItYnc0SU96SjNIaGR1Qlg5YlNXNjRlV0Y?oc=5",
+      "published": "2026-05-20T00:00:03+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "f60182d50646",
+      "title": "KB국민은행, 시니어 레지던스 보증금 상속 돕는 신탁 서비스 출시",
+      "source": "이코노뉴스",
+      "summary": "KB국민은행, 시니어 레지던스 보증금 상속 돕는 신탁 서비스 출시&nbsp;&nbsp;이코노뉴스",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfc21zRkVERW41Q3Voc2xaNEstY3RJMjZaVHlBOUhkUnlNSnBBXzVxTm0td0YtZDVfVVFHN0dfUUk1djVYc0ppWkxBRTF2NXdaWGtPN0VrTzh1Rnd1c3VlMkk0X0RndWxTMnFQYVl5SQ?oc=5",
+      "published": "2026-05-19T20:59:37+09:00",
+      "query": "고령자 금융"
+    },
+    {
+      "id": "2a0636304d52",
+      "title": "카부기공제회 ‘다드림신협’으로 키운다…포용금융 확대",
+      "source": "국제신문",
+      "summary": "카부기공제회 ‘다드림신협’으로 키운다…포용금융 확대&nbsp;&nbsp;국제신문",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjFjMHlQazI5VzhsQ1J3YXhRWERGOXhfUlJjbGNUbEsyczlsZ2lEc3FxSGZISG84WEhmdGFjOHkyN1VpVm9TZ1RXZGJWTXlwc0gxWkp3UVdxMDVRRW0xTExvbGlqU29mRXUtdkpyMzJHNHFIc3czY0VsUmFwOXpYd3hFbENzQXAtZkFuQTR3?oc=5",
+      "published": "2026-05-19T19:12:00+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "ae5ad4673ce1",
+      "title": "영등포농협, 파크골프대회서 시니어 고객 대상 상생금융 마케팅",
+      "source": "농민신문",
+      "summary": "영등포농협, 파크골프대회서 시니어 고객 대상 상생금융 마케팅&nbsp;&nbsp;농민신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UUEZnS3pURmRCMENYRnRROFFPMERhcjhaZ3VhQWFqM2ZVeEhtaDdsWmo5QW1RdVhjV05fbFdaU3U3TG9lT3lxdlJubjcxS01MbnhrXzAwZmkwQQ?oc=5",
+      "published": "2026-05-19T18:31:00+09:00",
+      "query": "상생금융"
+    },
+    {
+      "id": "742fc3de4f56",
+      "title": "[금융 게시판] 은행권, M&A·시니어 자산관리·폭염 대응·K뷰티 협업까지 영역 다변화",
+      "source": "라이센스뉴스",
+      "summary": "[금융 게시판] 은행권, M&amp;A·시니어 자산관리·폭염 대응·K뷰티 협업까지 영역 다변화&nbsp;&nbsp;라이센스뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiS3dkd3lnNG5BSTlicVhFaEF0dDdzZ3UxU1RraWpER0JtLUxlSWdPaXpQdEttZEJhdmlaMzlIaHcwWXgtRU5JZUgzTG1QRVIyT3lfemgzYkxxZHZpSnpVRExIUlVpcFJLX2Rn?oc=5",
+      "published": "2026-05-19T17:41:25+09:00",
+      "query": "고령자 금융"
+    },
+    {
+      "id": "d7fe638534ff",
+      "title": "경남 고용 떠받치는 소상공인·자영업…“기업형 지원을”",
+      "source": "v.daum.net",
+      "summary": "경남 고용 떠받치는 소상공인·자영업…“기업형 지원을”&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KbjN1bWdvaGNETE0xdF82TE4tQ1VMOENpNnZRYUJtSDU3MVh2djdoMUpvLWY4SFRHWTdPZVkwSm1qT2Nqc0l2YlRPVWpFZVE?oc=5",
+      "published": "2026-05-19T17:30:08+09:00",
+      "query": "소상공인 금융지원"
     }
   ],
   "tech": [
+    {
+      "id": "28e9adf600f4",
+      "title": "주식·예금도 ‘토큰’으로···미·한 금융시장 뒤흔든 ‘디지털 자산화’ 격변",
+      "source": "이뉴스투데이",
+      "summary": "주식·예금도 ‘토큰’으로···미·한 금융시장 뒤흔든 ‘디지털 자산화’ 격변&nbsp;&nbsp;이뉴스투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BRU9yZmU3QWhjekFEVFdHYjA3Z19UMFduZWpWeXV1RXBVZDZidHJJSXBYNHFLWkpZTmMwSzFpN3Z0Y29HY01VTEYwRGdGNWFaTmcwM0RkY3VRckFLNTU1OWxBaExqTU9VdTBtWUZsVkbSAXRBVV95cUxOVDlqR2ZicFVZZWpQZGU0NDR0YnNpZ1QzdHpiZzVKUzNER2kyZVllYXpZcU5tell4VHZPNkpEaVM1WlVLZXpWVHM2R01vYmFpZW42Rm5aaGphWHRjanBRZnJ5ZHRVcVJnT2xrMkpHbjhXYXd6NA?oc=5",
+      "published": "2026-05-19T18:23:42+09:00",
+      "query": "예금토큰"
+    },
+    {
+      "id": "872ab47a57cc",
+      "title": "[크립토Now] 한은, '예금토큰 상용화' 준비 박차",
+      "source": "매일경제 마켓",
+      "summary": "[크립토Now] 한은, '예금토큰 상용화' 준비 박차&nbsp;&nbsp;매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpQnJNeF9tZWZPY1JHakZhb0VTYUJ0dmw3U1E5QlNZX1V2U29HTm5IR0xQc0U5b0tDbWNtNnFLM25IRDJ6Z21UZHJCZGo3bnQxWWc?oc=5",
+      "published": "2026-05-19T17:03:22+09:00",
+      "query": "예금토큰"
+    },
+    {
+      "id": "7e089325432f",
+      "title": "유아이패스, '오토메이션 클라우드·스위트' 출시…\"금융·공공 AI 에이전트 도입 지원\"",
+      "source": "뉴스웍스",
+      "summary": "유아이패스, '오토메이션 클라우드·스위트' 출시…\"금융·공공 AI 에이전트 도입 지원\"&nbsp;&nbsp;뉴스웍스",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZNTJUbnVuSjR1OUJ0T0tQOU9WT2N2OFcxclc5SnRtZ3gwdGFJT195ZVRnVkhIbGtORDBFTWVWV25PU0pGTk1uaDhDa0hxUTEzdl8ycGh1REtkWHhoZ1F1VEoydjdVcGxmNjZucTllcw?oc=5",
+      "published": "2026-05-19T11:32:25+09:00",
+      "query": "은행 클라우드"
+    },
+    {
+      "id": "586e04261997",
+      "title": "은행·공공도 에이전틱 AI 도입 길 열렸다…유아이패스, 자체 인프라 배포 지원",
+      "source": "뉴스탭",
+      "summary": "은행·공공도 에이전틱 AI 도입 길 열렸다…유아이패스, 자체 인프라 배포 지원&nbsp;&nbsp;뉴스탭",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42Z0tMUGR6SnE5amRoRFREdllqQlhlMTg3TEpncjZRX0dBVThvQ3BmQ2UxbHFBeEk3bUt6VWI3VWhvdXA5U2VXR2VlTHlRaHZJS0NpNEVXZmVfX0FxWjhRYS16OVZCRk9LYjBzVw?oc=5",
+      "published": "2026-05-19T11:00:33+09:00",
+      "query": "은행 클라우드"
+    },
+    {
+      "id": "bb9b8fa87280",
+      "title": "“달러·디지털화폐·블록체인까지”…일본은행의 경고, 세계 금융질서 대전환 시작되나",
+      "source": "블록체인투데이",
+      "summary": "“달러·디지털화폐·블록체인까지”…일본은행의 경고, 세계 금융질서 대전환 시작되나&nbsp;&nbsp;블록체인투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jUnU4VHg3Vy1GRW80OHg1RnNxajlhUHFXUTE3TGprLU55Y2t1Zmg1WU1SNmVaaEJMazFJUmROMDJaQ3pSb2VzWng1RjZFU1VQNm00Y1Y4NjBwOGZlWWJGWFlwX3RXTkl5Y3ptMWFGaWo?oc=5",
+      "published": "2026-05-19T10:52:33+09:00",
+      "query": "블록체인 은행"
+    },
     {
       "id": "abce4989bc71",
       "title": "기약 없는 원화 코인…CBDC 예금토큰 상용화 준비 순항",
@@ -100,52 +145,7 @@
       "summary": "한국은행, 예금토큰 상용화 준비 본격화…자동 전환·국고금 지급 실험 추진&nbsp;&nbsp;블루밍비트",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE42WGdrcFlhSi03UmRDVVRhTWhCQnYwUW9YdDVGNGRUc2hud1FzcmpiUXFfUUc5dzBRenlCamtYeVBHUXllUkd4bGwzQkpCNWhw?oc=5",
       "published": "2026-05-19T06:23:30+09:00",
-      "query": "예금토큰"
-    },
-    {
-      "id": "2556992c85f1",
-      "title": "원화 코인 늦어지는데…'예금토큰 상용화' 준비는 착착",
-      "source": "연합뉴스",
-      "summary": "원화 코인 늦어지는데…'예금토큰 상용화' 준비는 착착&nbsp;&nbsp;연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xQkJlcmU1Mkgtbk9OVlFUOEhkd0pub0pGTEZyQ293WkpGMzhqY1hkdUg3WWpwRVUySGx6dzZXRE41Rm9GVzBxdnc1ekViUnhHaWVQVFFYMjlZUFnSAWBBVV95cUxORFVnN0VEVTRPOE1KdG8tWVZCVU1nQWhVLWtWc1JJWXE5T1M1RS1tcmN3WlFJMTE2Qkk5TDRaS3AwdUZpbjBHTkNONTk4emU5NEtlMzVoejh3NzJ3b1JMNEo?oc=5",
-      "published": "2026-05-19T05:53:00+09:00",
-      "query": "예금토큰"
-    },
-    {
-      "id": "681eb846f220",
-      "title": "[#클라우드 월드] LG CNS-컬리 '물류센터 휴머노이드 로봇' 협약·네이버 '日 지자체·공공 위크' 참가·NHN두레이 '공공부문 SW 어워드'·메가존 '에이전틱 AI 전략' 공개·롯데이노 'ISO/IEC 42001' 획득·와이즈넛 'AI 에이전트 매출 성장'·NIA-수출입은행 '개도국 지원' 협약",
-      "source": "뉴스웍스",
-      "summary": "[#클라우드 월드] LG CNS-컬리 '물류센터 휴머노이드 로봇' 협약·네이버 '日 지자체·공공 위크' 참가·NHN두레이 '공공부문 SW 어워드'·메가존 '에이전틱 AI 전략' 공개·롯데이노 'ISO/IEC 42001' 획득·와이즈넛 'AI 에이전트 매출 성장'·NIA-수출입은행 '개도국 지원' 협약&nbsp;&nbsp;뉴스웍스",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmTXh3d0ZXRGJCcDlQSl9KZ01ZRWxGa0Q2Y0lLSW5EMmttQ1MxdzNWUmp2b3l1SHhCYzNjUnRNZkVsMzNHVlhqdUNZM2pvbHBIaXh6M1NWVFF0QTV3Wkl5NlVYQ0EyMXY5dTR4Y19YUdIBc0FVX3lxTE1kaWREeExNalNYbU9SdDRpYWd5LWZFaUhjYXRBRHUzNHA0VW5sRWQwTlFtYjBwMUdERFdUc000UXVkOFZIRGlXUXhqYVlVUXdDTDN5TVVOaXFJUS01T1BJSWRlSzZ3aGQxRTBZVVEzdE1scjQ?oc=5",
-      "published": "2026-05-18T18:17:51+09:00",
-      "query": "은행 클라우드"
-    },
-    {
-      "id": "f39f74836b52",
-      "title": "\"복잡한 디파이 AI가 처리\"…스위스 은행 시그넘, 블록체인 거래 실험 성공",
-      "source": "v.daum.net",
-      "summary": "\"복잡한 디파이 AI가 처리\"…스위스 은행 시그넘, 블록체인 거래 실험 성공&nbsp;&nbsp;v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE11VGFIeFZGZzdjeUxNWXZuZmpQWG9rZGJKc21peTZCZTVxdlpCZXpMU3RMb2lJUDgwMmR1eDVpckMwdXEzX3JYRVBGN0UyMjA?oc=5",
-      "published": "2026-05-18T17:46:02+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "74f403f11962",
-      "title": "글로벌 환거래 은행망의 종말… 솔라나 재단 “대형 은행들, 스테이블코인 직결제 준비”",
-      "source": "블록체인투데이",
-      "summary": "글로벌 환거래 은행망의 종말… 솔라나 재단 “대형 은행들, 스테이블코인 직결제 준비”&nbsp;&nbsp;블록체인투데이",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmMXVscWo4YkR6dGNfYTc2ZTRoTGhwVzJWWWNkTzZ4dTlTR3BYc2h4WFVUUm0yT0djNk5wQV84QkdBbDFMWFRQTlpTRG1faEFtMWhTdEdlTlBWZ284LU91TnBRdXVCTWpIR3ZFdVlENGk?oc=5",
-      "published": "2026-05-18T16:52:25+09:00",
-      "query": "블록체인 은행"
-    },
-    {
-      "id": "56f516e57cf0",
-      "title": "[베트남 간 K-블록체인]② 은행 잡은 두나무, 증권사 잡은 빗썸",
-      "source": "블로터",
-      "summary": "[베트남 간 K-블록체인]② 은행 잡은 두나무, 증권사 잡은 빗썸&nbsp;&nbsp;블로터",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yUkZobnBVY0U1YzZlWEF3VW9oQ0hMNDVqV2tyZzUtUG5nUFB2SVZJZVRXLVRWOU5kckE4UWxTeEh5YmZvZFRVNGpQaEdLQ2dXSmhTVllSYzV6VWM2bGVTWlFEc0FVZWZ50gFsQVVfeXFMTkkzbFpmTWVKakR2aXFnT1Z1cHdIb3ZNVlFwQlZJLWpLWG9RSEY2dE1KcUN5LW5UdkVzMUxFb1Nya1JrcDVEcUMtUlZzT2JUczQzbmxfMGtNSHhFRlR5Wk1qbEF4dldSZ2FKWC1q?oc=5",
-      "published": "2026-05-18T15:37:16+09:00",
-      "query": "블록체인 은행"
+      "query": "CBDC 은행"
     }
   ]
 }
