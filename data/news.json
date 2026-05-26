@@ -1,54 +1,66 @@
 {
-  "updated_at": "2026-05-26T07:37:49.809727+09:00",
+  "updated_at": "2026-05-27T07:52:25.722572+09:00",
   "headline": {
-    "id": "f731ba690c9e",
-    "title": "'ATM 왜 안보이지?' 은행 점포 1곳 줄 때 ATM 10대 사라졌다",
-    "source": "v.daum.net",
-    "summary": "'ATM 왜 안보이지?' 은행 점포 1곳 줄 때 ATM 10대 사라졌다 v.daum.net",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ud1J4MG1mdkRHeU41S0cydGppNFpCNld2OVR1Y2R4aTRBdm95ZW5VQk03dmFOY3lyQUZmZ0tTQmtlNjROS2RnaWZxWlZxTFE?oc=5",
-    "published": "2026-05-25T11:01:15+09:00",
+    "id": "ac2b33307c17",
+    "title": "[기획] 은행 점포 줄이고 AI 늘리고… 5대은행 ‘생산성 격차’ 더 벌어졌다",
+    "source": "오늘경제",
+    "summary": "[기획] 은행 점포 줄이고 AI 늘리고… 5대은행 ‘생산성 격차’ 더 벌어졌다 오늘경제",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fZHg4TWNTcDZyREtVX1RJa2RNOC14QW51SG4wVktqUTVySVlOM0NVWi1IeFVPaDFORUNEWkpHSkJBUUxSNWdBcEZuQzBpSzQ3ak9sR2FtdVBCTzFGN2MzalFzMHBVTDNUUW1TNHdnUGgwaXc?oc=5",
+    "published": "2026-05-27T05:00:00+09:00",
     "query": "은행 점포",
     "engine": "google",
     "rank": 1,
-    "_score": 17.0,
+    "_score": 16.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "95acef699a53",
-        "title": "농협은행, 전국 영업점서 ‘무더위쉼터’ 운영",
-        "source": "농민신문",
-        "summary": "농협은행, 전국 영업점서 ‘무더위쉼터’ 운영 농민신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kMmJrWEdpRmdLbVZJWThXTVE0cTVKT1JNS2ViZnlicE96VzB4U2t6RGJIQXRkZW1jWTFJVy1sTVVST1VSeFh4YUZDUGhlSlFLeHpFMV9udUFwZw?oc=5",
-        "published": "2026-05-22T18:29:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "72e6bf5b0fd2",
-        "title": "국민성장펀드 첫날 ‘흥행’…증권사·은행 영업점 판매한도 빠르게 소진",
-        "source": "동양뉴스",
-        "summary": "국민성장펀드 첫날 ‘흥행’…증권사·은행 영업점 판매한도 빠르게 소진 동양뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kaWo3NXI4ekM0WTl1dVd1VnVWb2FFbVRnNkp5VVFManpheGVmVVRvWS1oT09CM2NZVHdxSFZYQk1Rb1lVUHZSNFlJdVZrZnBtMHZEaHNJVnU3amtYSmhSTw?oc=5",
-        "published": "2026-05-22T16:43:19+09:00",
+        "id": "8b5e42fa94d7",
+        "title": "'ATM 왜 안보이지?' 은행 점포 1곳 줄 때 ATM 10대 사라졌다",
+        "source": "v.daum.net",
+        "summary": "'ATM 왜 안보이지?' 은행 점포 1곳 줄 때 ATM 10대 사라졌다 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RcDd4RzJRVVVxMktyalZXZUhvbkhlZ1hSSWRyT01sbHZfLWNFMjRwRjdiaVh0ZEpURjhEanc2Nm1HOTdOYi1BX1RScw?oc=5",
+        "published": "2026-05-25T11:01:15+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 15,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "065530cb921b",
-        "title": "국민참여성장펀드, 판매 첫날부터 완판 행렬…온라인 ‘10분컷’, 영업점 ‘오픈런’",
-        "source": "글로벌경제신문",
-        "summary": "국민참여성장펀드, 판매 첫날부터 완판 행렬…온라인 ‘10분컷’, 영업점 ‘오픈런’ 글로벌경제신문",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QNXM5S1BSVWRaakt0V3JHdUY3MWpfSk1Dc1Y5NGhVVG9CWmhSaDBJZ0h1Q2pxQURMNzFyN1ZGbmZSQng4dFhwOVFac3ptUnBNN0d5Y01CcWYwWkQ3b1FsdjRHMk8xRnBrV0FiUtIBcEFVX3lxTE1MX0xQUkduc1BPZUZsYjkxVHJTeGwtM3JCdjZUZktUcEF4SHpvYThScy1XVmRnbGVMOFRZWVBSQUp2UkNLcTkzZkVrazE5cTFjaXRIMnUyRkRGdTNKS0ZSemNKQ1BrY0l3dllRVmg1TVM?oc=5",
-        "published": "2026-05-22T15:32:32+09:00",
+        "id": "c5509217754e",
+        "title": "국내은행 해외점포 41개국 211개...단기순이익 2.3% 증가",
+        "source": "재외동포신문",
+        "summary": "국내은행 해외점포 41개국 211개...단기순이익 2.3% 증가 재외동포신문",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wY09RRVFJeGozcE9pa3E4dUxBa2JKbHdNOGdtRTNYUzZZQXh5OEIyQTBOMGsxRWp1S3hZVlRiXzliZmlRN05IaVFDdzlfWXk4NU0tMlFhSDktOUM4ZWVuM2VlTkRtMXZtZERTUQ?oc=5",
+        "published": "2026-05-23T08:17:49+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "999b36b531bf",
+        "title": "국민성장펀드 첫날 온라인 '완판'…증권사 영업점서 일부 가입 가능",
+        "source": "뉴시스",
+        "summary": "국민성장펀드 첫날 온라인 '완판'…증권사 영업점서 일부 가입 가능 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1OM3E0aE1EWWp6Rkhmbk8xQV9NMWpQSS1HTWhhcEhnRDQ4dEJKYVowT0tnWl9xT0ZRSFNnY2gyUkdCeWREbUVaVXhDb2xLZGpDVzNHUkZncFFhclBySHVFWdIBeEFVX3lxTE03TkEwQXNrNXpzMUFHb2hnSzVaT0Q1VU9EZmtmU3FjSjdCZE01ZXdqSm85ck5FUk9aYXlDTl9FREFXOFdsM2dnMXAwQ2g1ekh6a1ZENHRENS1Fb1IxRmFqdnlJOUx2dWVValJhSkJUNEtWbFF1d29UQw?oc=5",
+        "published": "2026-05-22T20:34:22+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 13,
+        "rank": 14,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "c6985ae0acb5",
+        "title": "NH농협은행, 전국 영업점 무더위·한파쉼터 운영",
+        "source": "뉴스핌",
+        "summary": "NH농협은행, 전국 영업점 무더위·한파쉼터 운영 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EQ21nMmRBZUlTeGxIb01mVjZzbVpfM3Bxckt0dWp4S1FvYTRxX2F4aXBVSFVmbGtkMk9pUmg1NUlJemlkUVVXTkdrYTdmRHFHY2hmcm5TZ3FaNXVT?oc=5",
+        "published": "2026-05-22T13:54:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +72,7 @@
         "published": "2026-05-22T11:35:47+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,61 +84,24 @@
         "published": "2026-05-22T09:30:33+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "9b10ed7661ac",
-        "title": "은행 영업점 사라져도 고객 86%는 그대로…모바일·타지점으로 ‘채널 이동’",
-        "source": "뉴시안",
-        "summary": "은행 영업점 사라져도 고객 86%는 그대로…모바일·타지점으로 ‘채널 이동’ 뉴시안",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kaFNtaTJyeEV4Vlo5am5tbzlhTk41bzlFSHBnc0g0OXVMTVlvWVhETFZOTS1zWlBNQkFuV01yZlhpNGpnY2JuYVNjc1VxeUdhOV85RnRrZXlMR1dRTjlvMDI0QjV1Z3dpclHSAW5BVV95cUxNRVh0ajFyMzFGTnh4NC1vOURJSS1rODFFbjgyQ2l6Y0ZoOFk4ZzV3aVVGdVVrRGlZbndRZXdXMzlwWlZSQW5aOHExVjhZVUtxaGFKN2NhcTZDTDlGTUxEeW5PVlN4ejE1WHdQY0puQQ?oc=5",
-        "published": "2026-05-21T14:08:04+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 4,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": [
-      {
-        "id": "41726c2eb443",
-        "title": "국내은행 해외점포 순익 증가세 16.5억 달러…전년比 2.3%↑",
-        "source": "스페셜경제",
-        "summary": "국내은행 해외점포 순익 증가세 16.5억 달러…전년比 2.3%↑ 스페셜경제",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCWktyc0Z4RHVJX0ItUVdpUzQwWkNXQlpadHZHZC1LRUpBLXUxZ1psaFBqczhPNVZrbFN5UW5vemJlcW8xNElTREFZWlk0eWFkTWRPazNPTkxFNXpkdW5PS0VTS0FUNmJyWmNLSQ?oc=5",
-        "published": "2026-05-21T13:24:50+09:00",
-        "query": "금감원 점포",
-        "engine": "google",
-        "rank": 9,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "b0b2787195dc",
-        "title": "K-금융 점포 211개·순익 2.4조... 금감원 \"인도 점포 가장 많아\"",
-        "source": "포인트경제",
-        "summary": "K-금융 점포 211개·순익 2.4조... 금감원 \"인도 점포 가장 많아\" 포인트경제",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02c1dqcFp2ajA1NUVCTjB0VE5ZMU1uSDFmTTh4OVJIR2NDWjZwSjZ5MkRNZXZhRG9MamYya0t1ZDRueFhQODNzcmNIM25BSlBWRUxCbGhNZHdUWEY3dkFxUThVN0IzQm9Xbnc?oc=5",
-        "published": "2026-05-21T11:30:45+09:00",
-        "query": "금감원 점포",
-        "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "7ec139007f8a",
-        "title": "작년 국내은행 해외점포 순이익 2.3%↑… 41개국에 211곳 운영",
-        "source": "파이낸셜신문",
-        "summary": "작년 국내은행 해외점포 순이익 2.3%↑… 41개국에 211곳 운영 파이낸셜신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GVXlUU28weWxFZXBxQklKU2EteUlQNTRaaVl2WXFsMzA1M2d3SjRjMmFNZFBsSklqMFlxOUNTclJEOXNLUEV3ZS1ZbFozNGFNMEk3V2x1emx5aFBOSHRxbHBCX3NNS0RCYjQw?oc=5",
-        "published": "2026-05-21T10:37:55+09:00",
-        "query": "금감원 점포",
-        "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      }
-    ],
+    "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "a475ab0f8696",
+        "title": "[은행 글로벌 실적 분석] [신한은행] 주춤한 법인 실적, 지점이 메웠다…SBJ은행 약진 지속",
+        "source": "딜사이트",
+        "summary": "[은행 글로벌 실적 분석] [신한은행] 주춤한 법인 실적, 지점이 메웠다…SBJ은행 약진 지속 딜사이트",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tTzl3d2E5RXVoNkN3bktiR2FvenVJTmNDUVI1aTZNM25FRzNERkQ3Z1V1WEJmQjluWmlCM2pEOVpRTDVTRU5ScE9kUDN2SGdQdDdkRE1zUTA?oc=5",
+        "published": "2026-05-27T06:15:13+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "3973671f4e7a",
         "title": "[신한은행 ESG점검] 자금세탁방지부 본부 격상…해외점포 리스크 대응 강화",
@@ -148,7 +123,7 @@
         "published": "2026-05-22T17:35:42+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 5,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -164,27 +139,15 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "8372e4ba3134",
-        "title": "[경제일보] 점포 3곳서 800조 메가뱅크로…신한금융, 위기때마다 문법 바꿨다",
-        "source": "네이트",
-        "summary": "[경제일보] 점포 3곳서 800조 메가뱅크로…신한금융, 위기때마다 문법 바꿨다 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qNFZpY0dhYWE4dHhjdHY4Vy1xSktHUThQMkp6MGhibWQ2LXpzYU5MOEc5RjQtZ1N2ZHlNQTZDcXU4cUstdUpmdXRnMFUxUzVSejNF?oc=5",
-        "published": "2026-05-21T08:01:00+09:00",
+        "id": "de8049e7c5a8",
+        "title": "신한은행, 1Q 해외법인 순익 1위 '수성'…KB·하나 '약진'",
+        "source": "1코노미뉴스",
+        "summary": "신한은행, 1Q 해외법인 순익 1위 '수성'…KB·하나 '약진' 1코노미뉴스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZYlgxNHpxSk1NRkMzNGo4WVJzQWVnalotRlBlb0NXNzFlY3JURzFlTUxJdXplbkdCZ0FqNDhOSEFhTC1zLXpZU3A4enpaUTdkR1dneERybXpVakY5YjVzdUxENW9vM0tCLW9fRlFBWlU?oc=5",
+        "published": "2026-05-21T15:47:41+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 14,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "58c6db3c7116",
-        "title": "신한銀, 국민참여형 국민성장펀드 450억원 한도 판매",
-        "source": "주간한국",
-        "summary": "신한銀, 국민참여형 국민성장펀드 450억원 한도 판매 주간한국",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sQU1yeWNmeVRkQWMwQTQ1Wkx0V0JYYW0tTWtOTkc1Y2xlWFZnMm9fZk9oci1FN3kyaFlnd2I5dzc5VjZTc1hicTI1em5tb3MzX0RwM3IxVTgybkVZNXg0MXNPUWcxaDVJZk9BZ0hWbnLSAXRBVV95cUxNZzhfZzVxRWdjeU5qWkRNZ2dqX2dqc2RYdmppWjFWeC1hcVpoREg0eENKVDk4Xy1OQndJR0s5TFRNRl94M0Jxd3FoRmJ4eDVsenBGZVZvRTNwdnF5dkpRX0FuV3l0Vy1VajQ5WU42ajRmTWFfWQ?oc=5",
-        "published": "2026-05-20T17:08:33+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 8,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -196,7 +159,7 @@
         "published": "2026-05-20T13:17:08+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 6,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
