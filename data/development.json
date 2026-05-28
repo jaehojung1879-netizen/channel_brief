@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-05-28T08:04:46.624032+09:00",
+  "updated_at": "2026-05-29T07:56:58.344763+09:00",
   "items": [
     {
-      "id": "59ff007837d7",
-      "title": "[6·3 격전지] 용인시장",
-      "source": "기호일보",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52MjRTY0UxY0xlNTVfdDVJSVprMHdBVlZ2b20zTk5NTmx4X3JJNGVHUWpDS2t1V2Y1aHZTZk1lNmhTR3NRSUVzR2RseGExUXdaM21OcWtublJGZ1owd2Z0YU1yQ0xRbFdNRjlxWjgwWQ?oc=5",
-      "published": "2026-05-28T06:58:43+09:00",
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-05-28T19:47:36+09:00",
+      "date": "2026-05-28",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "01275b91b792",
+      "title": "서울역 배후 서계동, ‘복합개발’ 시동 건다…지구단위계획 수정가결",
+      "source": "디벨로퍼뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sX3ZWcXpyOHYyZUFCYXc4UGRXa3psUnhUazBmWmVpVGUwWkVSY3VhdHZ6YkVVSUpsVWtibXdfc29YVXdhS2I1M3hrY3lKNUVoc2pLZHc4SWdHMm9HZ1BvWm9xd3lKY1pB?oc=5",
+      "published": "2026-05-28T14:36:56+09:00",
+      "date": "2026-05-28",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "47dc92f35db7",
+      "title": "“논현역 앞에 20층 복합시설”...잠원동 역세권 활성화사업, 서울시 심의 통과",
+      "source": "매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PcVBkaUV1OXVnQWZ2My1pUVFoTUY0QjhBNnhCSTl1U09zNF9PaEtwN1E0REJTdHc1aE45aGVDS3Z3a2pRdTA5NjVLN3JJLUN6bEFFVk1MSDQ?oc=5",
+      "published": "2026-05-28T13:49:54+09:00",
+      "date": "2026-05-28",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "7d4be92eed59",
+      "title": "서울역 뒤 서계동, 복합개발 시동…중심지 기능 강화 - 머니투데이",
+      "source": "머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JQm0zdVNyVjdNZVpSNDA1SWdTdlB6aDk2YXljV3hvNzd2RTNab0VXSkZGNEdHanBmM3BUa3hhVVdFV2ZuSVltMVY3ZUFJeG9aOTVaX2JMc09DT1pRUktadERZVXBxREtGT3lUWmtGZ9IBb0FVX3lxTE5JQm0zdVNyVjdNZVpSNDA1SWdTdlB6aDk2YXljV3hvNzd2RTNab0VXSkZGNEdHanBmM3BUa3hhVVdFV2ZuSVltMVY3ZUFJeG9aOTVaX2JMc09DT1pRUktadERZVXBxREtGT3lUWmtGZw?oc=5",
+      "published": "2026-05-28T10:00:00+09:00",
+      "date": "2026-05-28",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "9f36882f4a8a",
+      "title": "용인 반도체 국가산단 인프라 구축에 따른 배후 입지…‘이안 플렉시티’ 공급 예정",
+      "source": "경상일보",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TVU5vSWdxMk1ndDRmdm4ybFJpRWhjWDRKaHRyLXJjQ1Y1T19KTXlOeEY0Ym5BVGk2SFJLSEg3aWJ5WndfTi1jN1FVUmpmcjBiTzBGWTRhS0h6a1B6SmNpY1ZiQzh1SXRxNDEzQg?oc=5",
+      "published": "2026-05-28T09:00:00+09:00",
       "date": "2026-05-28",
       "query": "반도체 국가산단"
     },
@@ -29,20 +65,11 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "bc51ed04fbca",
-      "title": "“용인의 미래는 반도체에 달려 있다”…이상일 후보, 국가산단·교통망·이동호수공원 청사진 제시",
-      "source": "누리일보",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqWEltWEwxeVF0ajFlT1l6NU5sN01Bc0hPaVFJeHRkdXFwMEQycFNMb2EyamJmZFd1NE1kbmQzZDNyR1FBR0Y0U24tTzhWTTlmSWs5NDlKV19SRXNL?oc=5",
-      "published": "2026-05-27T14:56:02+09:00",
-      "date": "2026-05-27",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-05-26T16:00:00+09:00",
+      "id": "7e3518ab2b5e",
+      "title": "이상일 용인시장 후보 “반도체 국가산단 원안 추진, 후보 개인 선언으로는 부족”",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jWUp4b3RrdG1WMlBXRkx6NHJtYkcxRmJLUG1VSlFQQU5rRUpQd2JULUZXRklQTkZVWHRMdHl6ODRXRjgzVTdMTnU5TTQxUUU?oc=5",
+      "published": "2026-05-26T22:30:35+09:00",
       "date": "2026-05-26",
       "query": "반도체 국가산단"
     },
@@ -108,33 +135,6 @@
       "published": "2026-05-24T06:49:37+09:00",
       "date": "2026-05-24",
       "query": "신도시 착공"
-    },
-    {
-      "id": "4966e66d7b2e",
-      "title": "'3기 신도시 최대' 광명시흥 16년만 보상평가 완료…내년 착공",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ycWhRZXY0aEZ0ZjN4Wm5ORVVMZ0hnYXRDVldKV3VyTGFCdVAtZWpqSmxORDlKeExKTzFoR2VfX2R4dzR2dWREQjVKT21DWnZHaHVYQjRNQ1ZfWEXSAWBBVV95cUxPeEFEYW9JQzVpdWRwOU8ta08zSnM1anJ3RTNwOHF4a3oyVkx2dTBMcGZxZ2FHQXNpRENtQU9Oc0NNZmY4VkI3bUtVVWhuS09WNmE1RE9KVkpoWGNISGhnR1Q?oc=5",
-      "published": "2026-05-24T06:31:00+09:00",
-      "date": "2026-05-24",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "f4d501090455",
-      "title": "“남산, 서울 도심 활력거점으로 재탄생” - 서울시, 도시재생활성화계획 본격 추진",
-      "source": "한국도시환경헤럴드",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SUXJOTWRYekpiaWNsNE1HckFlUTNxM2lqeHV6NWVSSm9EbHdiRjhOVzAzdUhERU1KemQxMHhwUUxYMTNsVHlkSWhmSmRPVEZYX0d3MWFseDJFX2p3dzF3REhiamswekIwOGhiTUln0gFwQVVfeXFMTlZfVGVReTJTaC1ZWldKU05Db1Q0TFRHdGhHZHY4OFc1cjdRM05SQzBRODZaeDBVb1BJdVR4cnJvRUhNcFlJdkxJUWJiSEZGa0JjamdNTDlaWWl2cEpGX2FTQzZyMWdCVkZkeHVpVFA5Xw?oc=5",
-      "published": "2026-05-23T06:00:00+09:00",
-      "date": "2026-05-23",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "1cd03cb7fa45",
-      "title": "서울시, 남산 일대 도시재생활성화계획 ‘원안 가결’…193억 투입",
-      "source": "산경일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kOFBXZ0lHdW4zQXZTSEQyM0ZVT2F1bW9hQVg0c2RfZzVuUVBrdXdHRXFNb05hVE5iUkc0X0dpRDJkUEVXYndKMl8yckJlV1FoQ1JtVmFTQ3U0bC04UFpZdElIVXo1d0ViMjZwRGlXdC0?oc=5",
-      "published": "2026-05-21T15:40:43+09:00",
-      "date": "2026-05-21",
-      "query": "도시재생 활성화계획"
     }
   ]
 }
