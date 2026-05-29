@@ -1,30 +1,66 @@
 {
-  "updated_at": "2026-05-29T07:55:05.077817+09:00",
+  "updated_at": "2026-05-30T07:54:06.964496+09:00",
   "headline": {
-    "id": "72e41162186b",
-    "title": "[은행 글로벌 실적 분석][신한은행] 주춤한 법인 실적, 지점이 메웠다…SBJ은행 약진 지속 : 네이버 블로그",
-    "source": "Naver Blog",
-    "summary": "[은행 글로벌 실적 분석][신한은행] 주춤한 법인 실적, 지점이 메웠다…SBJ은행 약진 지속 : 네이버 블로그 Naver Blog",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUFY0QkpsbEVqUjE2VFltQkhVeXhscnBkVlpaQkFlQnFYczdwQzB6ckdtS05PR2lHSjFhNHk1NFFRcG1aOENTY3FKMmNfelpxVXBUaWp5VEo1NjRFY2lQU1ZHcmszcnN3THpxc0ltQzU1QU5sRkk0cWYtREhJMFhNQ0pxWF9ISzBsSGdkeEk5UQ?oc=5",
-    "published": "2026-05-29T05:27:58+09:00",
-    "query": "신한은행 점포",
+    "id": "f17364cfd100",
+    "title": "5대 은행 영업점 매년 130개씩 사라져…점포 통폐합 대안 '공동점포'",
+    "source": "이데일리",
+    "summary": "5대 은행 영업점 매년 130개씩 사라져…점포 통폐합 대안 '공동점포' 이데일리",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObTVUUFR1Nnh4V0RyRVg2TFdranZma21lZFItYnk1VmlsdUZUMElrMUJIQmR3c0w2aW5yN3psWVRtWlMwT0w3TG40OTZaR1d4VGhUV2YzbU5ZZzZLc1ZXQ2RlUmViOUc3V0JLOXlvNzc5OV9OX1NqdV9PNDFIVFQ4Rw?oc=5",
+    "published": "2026-05-29T10:10:38+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 16.0,
+    "rank": 5,
+    "_score": 35.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "850ee27bfbeb",
-        "title": "농협은행, 전국 영업점 무더위·한파쉼터로 개방…누구나 이용 가능",
-        "source": "gukjenews.com",
-        "summary": "농협은행, 전국 영업점 무더위·한파쉼터로 개방…누구나 이용 가능 gukjenews.com",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vZGRrb1phVm9iYUw4c3ZPeGFZZ2dWelNZWlNuSUt0NjNCNTk4LXJVYUJBZW1zbTFwcUtldFF6SzVVRS1YbF9tV3pGaUhBMHppXzJ2UkxmT2dTR1drbXFnNGVJSU9fRGdINjlzVGx3?oc=5",
-        "published": "2026-05-28T17:55:30+09:00",
+        "id": "ef92d06adec3",
+        "title": "5대 은행 희망퇴직 2470명…직원·영업점 감소세 이어져",
+        "source": "아이뉴스24",
+        "summary": "5대 은행 희망퇴직 2470명…직원·영업점 감소세 이어져 아이뉴스24",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5wWGZpUUZ4NGcwQldfcW9aR3hJNnRNbjhieng0OTJHclo5SkFsbjFDMndiOXV3VWc2MUx3cE51LVVENURTUm1TWVBqQVQ?oc=5",
+        "published": "2026-05-29T18:19:15+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "01b66cbf20d2",
+        "title": "광주은행 영업점 134곳, '무더위쉼터' 운영…6~9월 가동",
+        "source": "뉴시스",
+        "summary": "광주은행 영업점 134곳, '무더위쉼터' 운영…6~9월 가동 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qamxYZXAwOGZzZ01ycHFhZnJPVk4tU0RXTjRHWncxODVHVksxZ1YxckdVX0d2cVBMaExNWGxMR3BKczhXRWNja1dWTXJLSFo1OS1NTEhwbGtsbkluT0NlctIBeEFVX3lxTE5hU01XQ18zQ2hXSjFWSE1kTkxVSVFVTHVLOEsxTEtfZFJSeWRtdnFSbVhseUhDNERWSG5RTEhsQkxtenJ6WnpZVFdxd0ZVaThHa3NULXR6SHdLdlNaOWdFcGhRQ2dzYVUzOEpGbXhCR1BsX01KOTBtcw?oc=5",
+        "published": "2026-05-29T15:59:36+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "909891ad3ff3",
+        "title": "광주은행, 전 영업점 ‘무더위쉼터’ 운영… 폭염 취약계층 안전 지원",
+        "source": "안전신문",
+        "summary": "광주은행, 전 영업점 ‘무더위쉼터’ 운영… 폭염 취약계층 안전 지원 안전신문",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqLVpDMHlwcFJOM2pVeDVhMUs2elZSMG5rRGZBSmdLY3dYTHEtb3V4ZmhFT3VPSWJxTThNMFlMWXhxRW1nNmhqMVNUd2ZQVS1ZSXNLMWNEOURLUFY4djVBZi05VlJzM2lhOHdaNlo2OA?oc=5",
+        "published": "2026-05-29T14:23:25+09:00",
         "query": "은행 영업점",
         "engine": "google",
         "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "81d869acd9de",
+        "title": "농협은행 경기본부, 관내 영업점서 ‘무더위 쉼터‘ 운영",
+        "source": "기호일보",
+        "summary": "농협은행 경기본부, 관내 영업점서 ‘무더위 쉼터‘ 운영 기호일보",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51SnNyNVg4clNseVFHc0hlbVdqOHZZdUVDUG5OSWpldzJHWndYZnBfRlU5QkNmVHREM2pkcVRjM29VLTN6ZDd3LThBSHN5UHg1VUFwcDlyUmFRY3d1RFFvc0lEWjhuYW9EcVhIWUJuTQ?oc=5",
+        "published": "2026-05-28T15:36:36+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +72,7 @@
         "published": "2026-05-28T13:14:19+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +96,19 @@
         "published": "2026-05-27T16:19:01+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11,
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2fb0cdfecfd2",
+        "title": "[은행 글로벌 실적 분석] [신한은행] 주춤한 법인 실적, 지점이 메웠다…SBJ은행 약진 지속",
+        "source": "딜사이트",
+        "summary": "[은행 글로벌 실적 분석] [신한은행] 주춤한 법인 실적, 지점이 메웠다…SBJ은행 약진 지속 딜사이트",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1SlNSaTZuVHVjdXpIcU1mLTZUYWI0clF2SGloMUs2SzJucC02aElPWWJQNkVYUllmQVplOHpackIwX0VsTGNQZmZjV3p0NkE?oc=5",
+        "published": "2026-05-27T07:15:13+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +120,7 @@
         "published": "2026-05-27T05:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,24 +132,34 @@
         "published": "2026-05-26T05:55:40+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 9
       },
       {
-        "id": "f731ba690c9e",
+        "id": "4229ec078ede",
         "title": "'ATM 왜 안보이지?' 은행 점포 1곳 줄 때 ATM 10대 사라졌다",
         "source": "v.daum.net",
         "summary": "'ATM 왜 안보이지?' 은행 점포 1곳 줄 때 ATM 10대 사라졌다 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ud1J4MG1mdkRHeU41S0cydGppNFpCNld2OVR1Y2R4aTRBdm95ZW5VQk03dmFOY3lyQUZmZ0tTQmtlNjROS2RnaWZxWlZxTFE?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXcmp0ZnlSMGNkNDBWM0RJNEp5Y09OSGdlYVJrZm9pWnQ3RU1panhjeFdwcEJiZ3RrU01odjV1X1RhMnB0M2JKV3g0QUIydkdYZ2JWUA?oc=5",
         "published": "2026-05-25T11:01:15+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 2
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "ba9724f91bf8",
+        "title": "신한은행, ‘세계 월경의 날’ 맞아 생리대 무료 자판기 50대 설치",
+        "source": "여성신문",
+        "summary": "신한은행, ‘세계 월경의 날’ 맞아 생리대 무료 자판기 50대 설치 여성신문",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fajYxLTZJNXVmRXg0aUxFeW5TOXBWcHF2NEx3cHpDN2pQWndUQkpqVzRMYU5qS1pWZmMxVE1PRFlwT0hld1JCM0VuaGRQV2JLcklGcFVRS1hQaW0yVk5mR3l0Uk9Da3FMYjZGTGdmc9IBc0FVX3lxTFBteGlTakZua3NEd2RQVEVWZ0hmSS1vV25VTTFnMDVfVENhb0JQY1NPNDBTTjllV0R2a3czNFRJZncwUmtTX2tCU0x0a01rUWpGc0xPbm5jVnlqRzFhLWduYUc3VnQyeHp6SFNrT0xYMzV5UGs?oc=5",
+        "published": "2026-05-28T17:03:27+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "10c512406d3e",
         "title": "신한은행, 취약계층 여성 위생용품 지원...‘365 안심드림’ 사회공헌 활동 추진",
@@ -111,42 +169,54 @@
         "published": "2026-05-28T16:56:10+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "a55c123e5967",
-        "title": "신한은행, 전국 50개 영업점에 '생리대 무료 자판기’ 설치",
-        "source": "Korea IT Times",
-        "summary": "신한은행, 전국 50개 영업점에 '생리대 무료 자판기’ 설치 Korea IT Times",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RblFzT0Z2UWdXVlkzLWk0UlAtbUxQZGFUTlBTT3BiR3RnTDVXYTFCbDhsdVRVZEJ6U0tuUEFPTjNJTUUzZHpvbjRqZldaRUF1UlJfakVYVmZKdDFYVldjbU4xWDZaT2lKX2g2SjdqYVM?oc=5",
-        "published": "2026-05-28T13:14:19+09:00",
+        "id": "0ad43355c567",
+        "title": "신한은행 부평중앙지점, 은광원에 냉방기 청소 봉사 및 후원금 전달",
+        "source": "미디어생활",
+        "summary": "신한은행 부평중앙지점, 은광원에 냉방기 청소 봉사 및 후원금 전달 미디어생활",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBab1ZEXzY4R0JXenhyV1FjbXJNblRHNEs5c3FiTFBLQVY1LVh6WTJkU01BbV9oVXh2TEJ6aFJfOTBlU0FmY3BRYzhES1hIMXY0b3JtV2RYdy1VRE5hYjZEd0tLT2pITnBCeEl0aGVjRQ?oc=5",
+        "published": "2026-05-28T00:04:42+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "5275dec24ec8",
+        "title": "[르포] \"미래 은행...인간과 AI 공존\"…신한은행 'AI 브랜치' 가보다",
+        "source": "파이낸셜포스트",
+        "summary": "[르포] \"미래 은행...인간과 AI 공존\"…신한은행 'AI 브랜치' 가보다 파이낸셜포스트",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0yUWF4N3Z0QUtZR25FWmlQLXNxRmpxQjIyZ0NPVVItb2dRbVhsTWdPUHBhYWhfbUxiUElpTWw0ZnotTVVORm1KNGkxcTM0ejNWazQ4UEtLdGJxOU9IdXdTNzFVZVJFTGNCd09EVzBwRVhRSWQz?oc=5",
+        "published": "2026-05-27T15:37:50+09:00",
         "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2fb0cdfecfd2",
+        "title": "[은행 글로벌 실적 분석] [신한은행] 주춤한 법인 실적, 지점이 메웠다…SBJ은행 약진 지속",
+        "source": "딜사이트",
+        "summary": "[은행 글로벌 실적 분석] [신한은행] 주춤한 법인 실적, 지점이 메웠다…SBJ은행 약진 지속 딜사이트",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1SlNSaTZuVHVjdXpIcU1mLTZUYWI0clF2SGloMUs2SzJucC02aElPWWJQNkVYUllmQVplOHpackIwX0VsTGNQZmZjV3p0NkE?oc=5",
+        "published": "2026-05-27T07:15:13+09:00",
+        "query": "신한은행 점포",
         "engine": "google",
         "rank": 1
       },
       {
-        "id": "4aacd72a82d1",
-        "title": "신한은행 부평중앙지점, '은광원' 찾아 현장 봉사·후원…\"지역상생\" 강화",
-        "source": "뉴스티앤티",
-        "summary": "신한은행 부평중앙지점, '은광원' 찾아 현장 봉사·후원…\"지역상생\" 강화 뉴스티앤티",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0QzBrZjA2cnQ1SnpHSGFZcnpXNWNjNXlFYTBvdzIyODk4ZzRhUjFKQ1JoSmN5aGdBc0RzMU5KZ0JmRjdvdEQycDExWXdPOXBjM3U5cUdMSF9KZXNMempEM1JsOEg3c3NJUEE?oc=5",
-        "published": "2026-05-28T07:51:05+09:00",
-        "query": "신한은행 지점",
+        "id": "3973671f4e7a",
+        "title": "[신한은행 ESG점검] 자금세탁방지부 본부 격상…해외점포 리스크 대응 강화",
+        "source": "네이트",
+        "summary": "[신한은행 ESG점검] 자금세탁방지부 본부 격상…해외점포 리스크 대응 강화 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mTTNCTXBxa1VSUXVOQ1RzTDdPNTFkb00zRkpaX0s2anVkUWFNaXM4dm84Smd2OThxMXBzcUtKbTdRQ0hPUVRiTWQ4bnYtYVA3ZVFn?oc=5",
+        "published": "2026-05-25T07:10:00+09:00",
+        "query": "신한은행 점포",
         "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "a6885fe6eee8",
-        "title": "'국민참여형 성장펀드' 출시 첫날, 신한·농협은행 온라인 '완판'",
-        "source": "뉴스1",
-        "summary": "'국민참여형 성장펀드' 출시 첫날, 신한·농협은행 온라인 '완판' 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96SkNaU05nVzdGMVpwdlBtNjVoNF9qaU5NSTZXdl9Mc2FBU0tMdHhxQmNxeWE1dVZvNkdzSWU3WDJSQ3AxRjVIZ3p1ME1SNnRiT1hkNFZIWHBaVFkyc3gzWWJn?oc=5",
-        "published": "2026-05-22T10:19:57+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 10,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
