@@ -1,5 +1,151 @@
 {
-  "updated_at": "2026-05-31T07:42:15.632871+09:00",
-  "social_finance": [],
-  "tech": []
+  "updated_at": "2026-05-31T10:00:54.104082+09:00",
+  "social_finance": [
+    {
+      "id": "ff32cada49be",
+      "title": "위성곤, ‘소상공인 7000억 종합금융지원’ 공약",
+      "source": "제주매일",
+      "summary": "위성곤, ‘소상공인 7000억 종합금융지원’ 공약&nbsp;&nbsp;제주매일",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xZ1RNN2NSbTAxdFNidTVVRy0wdlFvRXc2TnpKeDJDMDdQWFViVHh5bmhtUFA4OEYzYjB3MUZKWWJBSG40NUljRUVWWGg4dk4tWHFabnVxbldxNTVjOS1QM29ZZEkyYUQ1eGJYNw?oc=5",
+      "published": "2026-05-31T09:03:25+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "77a2f84029ff",
+      "title": "서민·소상공인 든든한 '구원투수'로…금융권, 포용금융 속도전",
+      "source": "v.daum.net",
+      "summary": "서민·소상공인 든든한 '구원투수'로…금융권, 포용금융 속도전&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83c2k5Tjk4OUdsc0k1MWRVN01ZOWtZS1FjNVZQc2UxME4zRlhadDk1eC1nY1lNdDd3UUZTclhNOEhzRjlIVWwwOW9ZNGk2OG8?oc=5",
+      "published": "2026-05-31T09:03:02+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "6d05f4fc6081",
+      "title": "서천군새마을금고, 한국미래문화고 학생 대상 ‘맞춤형 금융교육’ 실시",
+      "source": "뉴스스토리",
+      "summary": "서천군새마을금고, 한국미래문화고 학생 대상 ‘맞춤형 금융교육’ 실시&nbsp;&nbsp;뉴스스토리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ycXNTVVhYaDhxS3cwRC1DMVhaWEh0WkkzM0o0TUc2SVhzWU9KNUlkWng4Q2R1bkdRNVRhbEc0bEdnVzZ3dGlGNHpZdjFaYkFvQjlaV1RmcUZSZnVfSlF2QjhyZ3lVeklBVUowSnlB?oc=5",
+      "published": "2026-05-31T03:47:56+09:00",
+      "query": "상생금융"
+    },
+    {
+      "id": "30c472504060",
+      "title": "위성곤 “소상공인 7000억 금융지원…골목상권 살리겠다”",
+      "source": "v.daum.net",
+      "summary": "위성곤 “소상공인 7000억 금융지원…골목상권 살리겠다”&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50VFBUUWxXYmJLVTlyRnlFZWwtWVQtbHZ3dVFTLTRoQ2xVTWU4c09CVHRPcEh6cHdZUkhPRlVmY1E0cmxPeDhXOExMb1NCV2s?oc=5",
+      "published": "2026-05-30T14:58:17+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "23644b7417c4",
+      "title": "금융당국, '포용금융 책임자' 도입 추진…은행권 긴장",
+      "source": "데일리한국",
+      "summary": "금융당국, '포용금융 책임자' 도입 추진…은행권 긴장&nbsp;&nbsp;데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0YVdhZkhlWTdZVGNiYmZXX21CamZUWGNGZGVHT3p6S0dITkszcHJlVDFyekoyY05PWld4RHN2UlVCWGhsUlJzLTVSX2Z2UHVYd0RZWldkMjRYQkkyTzZ6WkNwNmVfVnNxUllDbktYRdIBc0FVX3lxTE9JcUsyZjAtMXJWWVlnd3ZVclVLV19mcmpwV0NhWmlTY0t3Q1N2dVlkcUw3ZFgyM2JoN2xCUmlwR3haQkk2OEVGc1l1OUhCM0FEWC1tOFQ1RVBHZ0N5U01VU0gxajl5WTJPVnJfd3BXWFhvXzA?oc=5",
+      "published": "2026-05-30T14:00:00+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "19b98abe42af",
+      "title": "하동근 사장 취임 두달…한난, 실용·상생·안전·소통 공간 변모",
+      "source": "데일리한국",
+      "summary": "하동근 사장 취임 두달…한난, 실용·상생·안전·소통 공간 변모&nbsp;&nbsp;데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95S0RUMEtTVktoV181MEhSQ1FYb1l5QmRmS3hJN0xRTXJQeVRsOHBNcHhjdGZNZ2p6R3RVdk1lMkdza0lIZDhzeDQ4aHZpV194blhzY2tlRU1IZXVCV2tWSjJkaUdvY2dBRzBRaGdCZ9IBc0FVX3lxTE1TWlc3U0M3TXNJT1dIOTFnTTdQc3JSMmVaSmRxMlc1TnFJVGpnVEU0Q19NZ1dXczl5T0VHZXVVcmotMzc4cU0wa0pLZW1ld01TV2hEcWRWRjNWdm13V2JyMkVBUHJOb2JHamVXbmlKbG81RUE?oc=5",
+      "published": "2026-05-30T13:54:11+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "6e9ff183aa33",
+      "title": "시각장애인 금융 접근성 향상하는 은행들",
+      "source": "v.daum.net",
+      "summary": "시각장애인 금융 접근성 향상하는 은행들&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hOUw4Mnd3WWMzWXR3SC1IcjhXVFg5TDhDcndVSGk5UW9DdlE3TzJDbE9QbHFDbmppeFVlTTFubVFqdndMN0dpUTZuczJVTUU?oc=5",
+      "published": "2026-05-30T11:01:53+09:00",
+      "query": "금융접근성"
+    },
+    {
+      "id": "a35761e91fb3",
+      "title": "은행연합회, ‘2025 은행 사회공헌활동 보고서’ 발간…은행권 사회적 책임 성과 수록",
+      "source": "비즈월드",
+      "summary": "은행연합회, ‘2025 은행 사회공헌활동 보고서’ 발간…은행권 사회적 책임 성과 수록&nbsp;&nbsp;비즈월드",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1LbUs5U2tiQ2ZpelNTQXN2WjVLSkNldktzN2hXWjJCOUpEVVEwV2Q4MGN1YWljT0Z4Qzkwc3VkTkxlNzVtemg2XzVIaVF4Ml9OUzVqLTNuLVZfb0dISTJCcDlYeWxaQTd4aXhV?oc=5",
+      "published": "2026-05-29T20:28:00+09:00",
+      "query": "은행 사회공헌"
+    }
+  ],
+  "tech": [
+    {
+      "id": "26b3e60ffc2e",
+      "title": "“달러 무기화 막아라”... 中, 복권·급여·일대일로에 ‘디지털 위안화’ 전방위 강제 수혈",
+      "source": "글로벌이코노믹",
+      "summary": "“달러 무기화 막아라”... 中, 복권·급여·일대일로에 ‘디지털 위안화’ 전방위 강제 수혈&nbsp;&nbsp;글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUDR4WVU1TzVic2M0bUNxUzEweFlSemtoZm44bEtqdVB4dGV2Zm9hcmp2NnhQRHdZQXIwbDN0dVFsdHFRa3RPREpnT1JzMFlWanNzX2lDcEtLaWFKVDJTN2dNUlRfVW1YVi0wcUZFY0JseHhRblQ1dE9SNzFxOFhtbE1VR1NuSi1F?oc=5",
+      "published": "2026-05-31T07:48:54+09:00",
+      "query": "CBDC 은행"
+    },
+    {
+      "id": "50ac26d32dee",
+      "title": "\"AI가 플랫폼을 만든다\"... 아이피나우, 기술은행(NTB) 연구개발 사업 선정",
+      "source": "특허뉴스",
+      "summary": "\"AI가 플랫폼을 만든다\"... 아이피나우, 기술은행(NTB) 연구개발 사업 선정&nbsp;&nbsp;특허뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5EYUljOGw4RnVoVUNKUEtCXzB3bUJRd2xPMU4zanFGbTYyREFuZlluREZyeDNSNENjRlo2X095NklyVWRYaVRjYQ?oc=5",
+      "published": "2026-05-30T18:42:00+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "4cc82e1cb9a2",
+      "title": "카드뉴스 - 홍보자료 - 알림마당",
+      "source": "금융위원회",
+      "summary": "카드뉴스 - 홍보자료 - 알림마당&nbsp;&nbsp;금융위원회",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMjlJRmx3SmlaeXJ1ZzBFQTV6Ulg1bXZXZmlPWXFxVEhiQ01KZUxwR1Q0a1lBYXZKMjZpNHV0dmlCVzNYTEdOZl9YUzk2U1Y3MTdfckpvYXc0QmhyX2hzZ2FfcGtWdS0xaXBWdFlBbE5oeS14bUNTRUZEeG5sck1qUVQ1UERuNmNkajQ4?oc=5",
+      "published": "2026-05-29T23:13:52+09:00",
+      "query": "오픈뱅킹"
+    },
+    {
+      "id": "d67de1d1fa15",
+      "title": "소파이테크, 미국 은행 최초 스테이블코인 'SoFiUSD' 출시로 시장 주목",
+      "source": "매일경제 마켓",
+      "summary": "소파이테크, 미국 은행 최초 스테이블코인 'SoFiUSD' 출시로 시장 주목&nbsp;&nbsp;매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRRjktbFgwSEdDWE1KSUZYTk4xTFdRd21EQlpfaFptd2hxazEzREJkZjZrZHNVZTF4eUtLcEpGUTVSamRtaW42WFRYWnJDWlkyM2c?oc=5",
+      "published": "2026-05-29T22:41:30+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "d89b1c47cfb5",
+      "title": "소파이, 개장전 9% 강세…美은행 최초 스테이블 코인 출시",
+      "source": "마켓인",
+      "summary": "소파이, 개장전 9% 강세…美은행 최초 스테이블 코인 출시&nbsp;&nbsp;마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Uak42TG8yN3B0RW1sLUVIUTF5N1M4Zlh6TGsxaHp5TDhaRzhJVTg4N00tc3AtVlZlVk9tR2ptU242dlpKTkpSbnZrLVRJVlBobUpDTC1mQUZpZWt0amk4TF9tMFJMS1kzR0NWcEVWRG9LbW8?oc=5",
+      "published": "2026-05-29T21:03:18+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "66e5e65b356e",
+      "title": "개인정보위, 개인정보 분야 국제 개발협력 논의 참여…한국 마이데이터 제도 소개",
+      "source": "데일리시큐",
+      "summary": "개인정보위, 개인정보 분야 국제 개발협력 논의 참여…한국 마이데이터 제도 소개&nbsp;&nbsp;데일리시큐",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxSy1xb2pPa1FwUjNKaXkwQjN5R3Z6eW1FWDZLOEFwUGxlbnFzMVlmN1duM2R4SW5Nd0hCbm9pTFNUYzFmMHlGaU1aclktRG1NRjMyODNaUDV0UGNpTy1EM2k3dU5adDRobXBqZA?oc=5",
+      "published": "2026-05-29T17:43:41+09:00",
+      "query": "마이데이터 은행"
+    },
+    {
+      "id": "1137f3dbef6a",
+      "title": "1GLOBAL, 금융 및 규제 대상 산업의 클라우드 규정 준수 향상 위해 ‘베린트 커뮤니케이션즈 애널리틱스’ 출시",
+      "source": "koreasprint.com",
+      "summary": "1GLOBAL, 금융 및 규제 대상 산업의 클라우드 규정 준수 향상 위해 ‘베린트 커뮤니케이션즈 애널리틱스’ 출시&nbsp;&nbsp;koreasprint.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRWlsVjQ2MDVHakYwRGFJXzB0SzI0cWprZG9vaUl2WS1yZjJ1VElJdjlZbnJmM2JITVdfbmx1T3BlVWgzVC1YMU1iUm9jN2FRd2JKYTdzQ3RYdHpUaUNMTklDbzFSRzBXR1RlMU9B?oc=5",
+      "published": "2026-05-29T15:58:00+09:00",
+      "query": "은행 클라우드"
+    },
+    {
+      "id": "99f239c35b86",
+      "title": "스테이블코인 커지면 은행 대출 줄어든다…예금 이탈 경고등",
+      "source": "네이트",
+      "summary": "스테이블코인 커지면 은행 대출 줄어든다…예금 이탈 경고등&nbsp;&nbsp;네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13WHk2NmlybDJVQ0RUZjJpOGZSV2xYbC0zTmJMakpLRzBQaGI4bXkwWERLeG1DQVd4dk52Q0IyMVdtSHZqUzE4U1pTa29MWVlFWDVF?oc=5",
+      "published": "2026-05-29T15:32:00+09:00",
+      "query": "스테이블코인 은행"
+    }
+  ]
 }
