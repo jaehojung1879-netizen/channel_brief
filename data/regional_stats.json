@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-25T15:19:27+09:00",
+  "as_of": "2026-06-01T09:05:13+09:00",
   "regions": {
     "강원 강릉시": {
       "sido": "강원",
@@ -45,7 +45,7 @@
           "income_pct": null,
           "market_pct": 19.5,
           "market_source": "population",
-          "branch_density_pct": 20.9
+          "branch_density_pct": 21.4
         },
         "weights": {
           "businesses": 0.45,
@@ -1044,7 +1044,7 @@
           "income_pct": null,
           "market_pct": 42.9,
           "market_source": "population",
-          "branch_density_pct": 36.7
+          "branch_density_pct": 36.3
         },
         "weights": {
           "businesses": 0.45,
@@ -1098,7 +1098,7 @@
           "income_pct": null,
           "market_pct": 83.4,
           "market_source": "population",
-          "branch_density_pct": 37.2
+          "branch_density_pct": 36.7
         },
         "weights": {
           "businesses": 0.45,
@@ -1341,7 +1341,7 @@
           "income_pct": null,
           "market_pct": 38.5,
           "market_source": "population",
-          "branch_density_pct": 21.4
+          "branch_density_pct": 21.9
         },
         "weights": {
           "businesses": 0.45,
@@ -1746,7 +1746,7 @@
           "income_pct": null,
           "market_pct": 30.2,
           "market_source": "population",
-          "branch_density_pct": 21.9
+          "branch_density_pct": 22.3
         },
         "weights": {
           "businesses": 0.45,
@@ -1854,7 +1854,7 @@
           "income_pct": null,
           "market_pct": 92.7,
           "market_source": "population",
-          "branch_density_pct": 22.3
+          "branch_density_pct": 22.8
         },
         "weights": {
           "businesses": 0.45,
@@ -1962,7 +1962,7 @@
           "income_pct": null,
           "market_pct": 31.2,
           "market_source": "population",
-          "branch_density_pct": 22.8
+          "branch_density_pct": 23.3
         },
         "weights": {
           "businesses": 0.45,
@@ -1989,7 +1989,7 @@
           "income_pct": null,
           "market_pct": 57.1,
           "market_source": "population",
-          "branch_density_pct": 37.7
+          "branch_density_pct": 37.2
         },
         "weights": {
           "businesses": 0.45,
@@ -2016,7 +2016,7 @@
           "income_pct": null,
           "market_pct": 48.3,
           "market_source": "population",
-          "branch_density_pct": 38.1
+          "branch_density_pct": 37.7
         },
         "weights": {
           "businesses": 0.45,
@@ -2070,7 +2070,7 @@
           "income_pct": null,
           "market_pct": 36.1,
           "market_source": "population",
-          "branch_density_pct": 38.6
+          "branch_density_pct": 38.1
         },
         "weights": {
           "businesses": 0.45,
@@ -2340,7 +2340,7 @@
           "income_pct": null,
           "market_pct": 50.2,
           "market_source": "population",
-          "branch_density_pct": 39.1
+          "branch_density_pct": 38.6
         },
         "weights": {
           "businesses": 0.45,
@@ -2421,7 +2421,7 @@
           "income_pct": null,
           "market_pct": 50.7,
           "market_source": "population",
-          "branch_density_pct": 39.5
+          "branch_density_pct": 39.1
         },
         "weights": {
           "businesses": 0.45,
@@ -2529,7 +2529,7 @@
           "income_pct": null,
           "market_pct": 51.2,
           "market_source": "population",
-          "branch_density_pct": 23.3
+          "branch_density_pct": 23.7
         },
         "weights": {
           "businesses": 0.45,
@@ -2664,7 +2664,7 @@
           "income_pct": null,
           "market_pct": 26.8,
           "market_source": "population",
-          "branch_density_pct": 23.7
+          "branch_density_pct": 24.2
         },
         "weights": {
           "businesses": 0.45,
@@ -2934,7 +2934,7 @@
           "income_pct": null,
           "market_pct": 41.0,
           "market_source": "population",
-          "branch_density_pct": 40.0
+          "branch_density_pct": 39.5
         },
         "weights": {
           "businesses": 0.45,
@@ -3150,7 +3150,7 @@
           "income_pct": null,
           "market_pct": 27.8,
           "market_source": "population",
-          "branch_density_pct": 24.2
+          "branch_density_pct": 24.7
         },
         "weights": {
           "businesses": 0.45,
@@ -3231,7 +3231,7 @@
           "income_pct": null,
           "market_pct": 24.9,
           "market_source": "population",
-          "branch_density_pct": 24.7
+          "branch_density_pct": 25.1
         },
         "weights": {
           "businesses": 0.45,
@@ -3975,13 +3975,13 @@
       "sigungu": "나성동",
       "branch_count": 3,
       "location_score": {
-        "value": 25.1,
+        "value": 25.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 25.1
+          "branch_density_pct": 25.6
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4032,13 +4032,13 @@
       "sigungu": "보람동",
       "branch_count": 3,
       "location_score": {
-        "value": 25.6,
+        "value": 26.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 25.6
+          "branch_density_pct": 26.0
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4108,13 +4108,13 @@
       "sigungu": "어진동",
       "branch_count": 3,
       "location_score": {
-        "value": 26.0,
+        "value": 26.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 26.0
+          "branch_density_pct": 26.5
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4127,13 +4127,13 @@
       "sigungu": "조치원읍",
       "branch_count": 3,
       "location_score": {
-        "value": 26.5,
+        "value": 27.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 26.5
+          "branch_density_pct": 27.0
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4204,7 +4204,7 @@
           "income_pct": null,
           "market_pct": 18.0,
           "market_source": "population",
-          "branch_density_pct": 40.5
+          "branch_density_pct": 40.0
         },
         "weights": {
           "businesses": 0.45,
@@ -4231,7 +4231,7 @@
           "income_pct": null,
           "market_pct": 56.1,
           "market_source": "population",
-          "branch_density_pct": 40.9
+          "branch_density_pct": 40.5
         },
         "weights": {
           "businesses": 0.45,
@@ -4258,7 +4258,7 @@
           "income_pct": null,
           "market_pct": 46.3,
           "market_source": "population",
-          "branch_density_pct": 41.4
+          "branch_density_pct": 40.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4312,7 +4312,7 @@
           "income_pct": null,
           "market_pct": 12.7,
           "market_source": "population",
-          "branch_density_pct": 27.0
+          "branch_density_pct": 27.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4582,7 +4582,7 @@
           "income_pct": null,
           "market_pct": 31.7,
           "market_source": "population",
-          "branch_density_pct": 41.9
+          "branch_density_pct": 41.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4609,7 +4609,7 @@
           "income_pct": null,
           "market_pct": 43.4,
           "market_source": "population",
-          "branch_density_pct": 42.3
+          "branch_density_pct": 41.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4636,7 +4636,7 @@
           "income_pct": null,
           "market_pct": 22.4,
           "market_source": "population",
-          "branch_density_pct": 27.4
+          "branch_density_pct": 27.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4892,7 +4892,7 @@
     "전북 완주군": {
       "sido": "전북",
       "sigungu": "완주군",
-      "branch_count": 3,
+      "branch_count": 2,
       "population": {
         "value": 100092,
         "period": "202604",
@@ -4906,7 +4906,7 @@
           "income_pct": null,
           "market_pct": 24.4,
           "market_source": "population",
-          "branch_density_pct": 27.9
+          "branch_density_pct": 19.1
         },
         "weights": {
           "businesses": 0.45,
@@ -4946,7 +4946,7 @@
     "전북 전주시 덕진구": {
       "sido": "전북",
       "sigungu": "전주시 덕진구",
-      "branch_count": 5,
+      "branch_count": 6,
       "population": {
         "value": 622242,
         "period": "202604",
@@ -4960,7 +4960,7 @@
           "income_pct": null,
           "market_pct": 85.4,
           "market_source": "population",
-          "branch_density_pct": 35.3
+          "branch_density_pct": 42.3
         },
         "weights": {
           "businesses": 0.45,
@@ -5014,7 +5014,7 @@
           "income_pct": null,
           "market_pct": 25.4,
           "market_source": "population",
-          "branch_density_pct": 19.1
+          "branch_density_pct": 19.5
         },
         "weights": {
           "businesses": 0.45,
@@ -5041,7 +5041,7 @@
           "income_pct": null,
           "market_pct": 41.5,
           "market_source": "population",
-          "branch_density_pct": 35.8
+          "branch_density_pct": 35.3
         },
         "weights": {
           "businesses": 0.45,
@@ -5095,7 +5095,7 @@
           "income_pct": null,
           "market_pct": 4.4,
           "market_source": "population",
-          "branch_density_pct": 19.5
+          "branch_density_pct": 20.0
         },
         "weights": {
           "businesses": 0.45,
@@ -5365,7 +5365,7 @@
           "income_pct": null,
           "market_pct": 13.7,
           "market_source": "population",
-          "branch_density_pct": 20.0
+          "branch_density_pct": 20.5
         },
         "weights": {
           "businesses": 0.45,
@@ -5527,7 +5527,7 @@
           "income_pct": null,
           "market_pct": 22.0,
           "market_source": "population",
-          "branch_density_pct": 36.3
+          "branch_density_pct": 35.8
         },
         "weights": {
           "businesses": 0.45,
@@ -5581,7 +5581,7 @@
           "income_pct": null,
           "market_pct": 2.0,
           "market_source": "population",
-          "branch_density_pct": 20.5
+          "branch_density_pct": 20.9
         },
         "weights": {
           "businesses": 0.45,
@@ -5755,11 +5755,15 @@
     }
   },
   "diagnostics": {
-    "source": "r_one",
-    "kosis_key": "skip",
-    "r_one_key": "set",
+    "source": "kosis",
+    "kosis_key": "set",
+    "r_one_key": "skip",
     "region_count": 216,
-    "seoul_key": "skip",
+    "seoul_key": "set",
+    "kosis_biz_error": "kosis_biz_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
+    "kosis_income_error": "kosis_income_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
+    "seoul_warn": "seoul_init_xml_error: ERROR-332: 요청종료위치 값을 확인하십시오.\n요청인자 중 END_INDEX를 확인하십시오.",
+    "seoul_districts": 0,
     "population_ok": 206,
     "population_fail": 10,
     "businesses_ok": 0,
