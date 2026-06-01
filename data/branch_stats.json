@@ -1,235 +1,55 @@
 {
-  "updated_at": "2026-06-01T07:37:52.545368+09:00",
+  "updated_at": "2026-06-02T08:16:37.166285+09:00",
   "as_of": "2025-12-31",
   "latest_ym": "202512",
-  "source": "금융통계정보시스템(FISIS) · 국내은행 영업점포현황",
-  "source_url": "http://fisis.fss.or.kr/openapi/statisticsInfoSearch.json",
-  "is_fallback": false,
+  "source": "은행연합회 은행업무 통계 (수동 업데이트 필요) (FISIS·스크래핑 실패로 fallback)",
+  "source_url": "",
+  "is_fallback": true,
   "banks": [
     {
       "name": "신한",
-      "count": 651,
-      "branches": 538,
-      "sub_offices": 113,
-      "delta_yoy": -43,
-      "delta_qoq": -43,
-      "prev_year_end_count": 694,
-      "history": [
-        {
-          "ym": "202012",
-          "count": 860
-        },
-        {
-          "ym": "202106",
-          "count": 855
-        },
-        {
-          "ym": "202112",
-          "count": 785
-        },
-        {
-          "ym": "202206",
-          "count": 741
-        },
-        {
-          "ym": "202212",
-          "count": 722
-        },
-        {
-          "ym": "202306",
-          "count": 723
-        },
-        {
-          "ym": "202312",
-          "count": 722
-        },
-        {
-          "ym": "202406",
-          "count": 716
-        },
-        {
-          "ym": "202412",
-          "count": 694
-        },
-        {
-          "ym": "202506",
-          "count": 653
-        },
-        {
-          "ym": "202512",
-          "count": 651
-        }
-      ]
+      "count": 747,
+      "branches": 717,
+      "sub_offices": 30,
+      "delta_yoy": 0,
+      "delta_qoq": 0,
+      "prev_year_end_count": 0,
+      "history": []
     },
     {
       "name": "KB국민",
-      "count": 772,
-      "branches": 621,
-      "sub_offices": 151,
-      "delta_yoy": -26,
-      "delta_qoq": -26,
-      "prev_year_end_count": 798,
-      "history": [
-        {
-          "ym": "202012",
-          "count": 970
-        },
-        {
-          "ym": "202106",
-          "count": 952
-        },
-        {
-          "ym": "202112",
-          "count": 912
-        },
-        {
-          "ym": "202206",
-          "count": 876
-        },
-        {
-          "ym": "202212",
-          "count": 854
-        },
-        {
-          "ym": "202306",
-          "count": 792
-        },
-        {
-          "ym": "202312",
-          "count": 795
-        },
-        {
-          "ym": "202406",
-          "count": 797
-        },
-        {
-          "ym": "202412",
-          "count": 798
-        },
-        {
-          "ym": "202506",
-          "count": 774
-        },
-        {
-          "ym": "202512",
-          "count": 772
-        }
-      ]
+      "count": 803,
+      "branches": 768,
+      "sub_offices": 35,
+      "delta_yoy": 0,
+      "delta_qoq": 0,
+      "prev_year_end_count": 0,
+      "history": []
     },
     {
       "name": "하나",
-      "count": 609,
-      "branches": 534,
-      "sub_offices": 75,
-      "delta_yoy": 6,
-      "delta_qoq": 6,
-      "prev_year_end_count": 603,
-      "history": [
-        {
-          "ym": "202012",
-          "count": 652
-        },
-        {
-          "ym": "202106",
-          "count": 634
-        },
-        {
-          "ym": "202112",
-          "count": 614
-        },
-        {
-          "ym": "202206",
-          "count": 598
-        },
-        {
-          "ym": "202212",
-          "count": 594
-        },
-        {
-          "ym": "202306",
-          "count": 595
-        },
-        {
-          "ym": "202312",
-          "count": 598
-        },
-        {
-          "ym": "202406",
-          "count": 601
-        },
-        {
-          "ym": "202412",
-          "count": 603
-        },
-        {
-          "ym": "202506",
-          "count": 608
-        },
-        {
-          "ym": "202512",
-          "count": 609
-        }
-      ]
+      "count": 621,
+      "branches": 596,
+      "sub_offices": 25,
+      "delta_yoy": 0,
+      "delta_qoq": 0,
+      "prev_year_end_count": 0,
+      "history": []
     },
     {
       "name": "우리",
-      "count": 656,
-      "branches": 554,
-      "sub_offices": 102,
-      "delta_yoy": -28,
-      "delta_qoq": -28,
-      "prev_year_end_count": 684,
-      "history": [
-        {
-          "ym": "202012",
-          "count": 821
-        },
-        {
-          "ym": "202106",
-          "count": 815
-        },
-        {
-          "ym": "202112",
-          "count": 768
-        },
-        {
-          "ym": "202206",
-          "count": 728
-        },
-        {
-          "ym": "202212",
-          "count": 713
-        },
-        {
-          "ym": "202306",
-          "count": 708
-        },
-        {
-          "ym": "202312",
-          "count": 711
-        },
-        {
-          "ym": "202406",
-          "count": 703
-        },
-        {
-          "ym": "202412",
-          "count": 684
-        },
-        {
-          "ym": "202506",
-          "count": 659
-        },
-        {
-          "ym": "202512",
-          "count": 656
-        }
-      ]
+      "count": 676,
+      "branches": 649,
+      "sub_offices": 27,
+      "delta_yoy": 0,
+      "delta_qoq": 0,
+      "prev_year_end_count": 0,
+      "history": []
     }
   ],
-  "total": 2688,
-  "total_delta_yoy": -91,
-  "total_delta_qoq": -91,
+  "total": 2847,
+  "total_delta_yoy": 0,
+  "total_delta_qoq": 0,
   "regional": [
     {
       "region": "서울특별시",
