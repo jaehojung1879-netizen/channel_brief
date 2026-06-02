@@ -1,30 +1,78 @@
 {
-  "updated_at": "2026-06-02T08:14:52.969162+09:00",
+  "updated_at": "2026-06-03T08:18:28.952867+09:00",
   "headline": {
-    "id": "f17364cfd100",
-    "title": "5대 은행 영업점 매년 130개씩 사라져…점포 통폐합 대안 '공동점포'",
-    "source": "이데일리",
-    "summary": "5대 은행 영업점 매년 130개씩 사라져…점포 통폐합 대안 '공동점포' 이데일리",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObTVUUFR1Nnh4V0RyRVg2TFdranZma21lZFItYnk1VmlsdUZUMElrMUJIQmR3c0w2aW5yN3psWVRtWlMwT0w3TG40OTZaR1d4VGhUV2YzbU5ZZzZLc1ZXQ2RlUmViOUc3V0JLOXlvNzc5OV9OX1NqdV9PNDFIVFQ4Rw?oc=5",
-    "published": "2026-05-29T10:10:38+09:00",
-    "query": "공동점포",
+    "id": "ec30263ccc73",
+    "title": "[은행 영업망 재편 下] 줄어드는 영업점...'공동점포·편의점 점포'로 대안 찾는다",
+    "source": "반론보도닷컴",
+    "summary": "[은행 영업망 재편 下] 줄어드는 영업점...'공동점포·편의점 점포'로 대안 찾는다 반론보도닷컴",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xckl1dkM2b1ltSHB2ZlZ4RW1wazF1LWNQZU56X0lTdUFVa2tWQkNWUm4wd1ZSbkJ6VXFNYmprblF6aWIxSjQzbHpiMDY5bG5Kb3diSjV3TXhNM2Z5bjZROUIwUGF1ajNnb2hBWtIBcEFVX3lxTE1xekRQUFdVTms5UFVsaTBiNHJLM1BKV0VEZml0akk1WGtKYXp2a0JOdlo2MWhDR3RuTzd5ZFM2SllBTnh2UVkwNkd6ZDd1VEs1cDlNZVBIUDZYbVdHVEJCQjBRY3lIbzFoZUJpLWRQTkI?oc=5",
+    "published": "2026-06-02T08:00:00+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 2,
-    "_score": 28.0,
+    "rank": 3,
+    "_score": 30.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "0c0299960cb2",
-        "title": "우리은행, ‘그린콘서트’에 이동점포 운영...금융소비자 교육도 함께",
-        "source": "내외뉴스통신",
-        "summary": "우리은행, ‘그린콘서트’에 이동점포 운영...금융소비자 교육도 함께 내외뉴스통신",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GcEhUbUZZQjRORXQxZmpzNnRIOU51LThQT2hkS1FmT3BfaTJoWngxUGZ0V3ZzT2dIZV9QNjZieDIzbWdzVGhEWmV6LVpvN25SWGxhNllBN0VOT0pQX1Jfbkc4MGNKYjZPR2RMb0Nn0gFwQVVfeXFMTjVnNHlROHdxem5GdS0wTW9NOWVVT0NDUEpVenE3OUxmU0FBcUNKZnJIWHhaRzJPXzRYbEx5OTFUNzhldng5cU5Ec1ZRN1B5TkhESWZxaGI1NnpLSFJTVzBIZXRXZlRMMkljMTlVaGRLVw?oc=5",
-        "published": "2026-06-01T18:28:17+09:00",
+        "id": "de3d980047ef",
+        "title": "\"말하는 대로 다 되는 금융\"…웰컴저축은행, 분당 수내동에 생성형 AI 특화 지점 열었다",
+        "source": "스마트경제",
+        "summary": "\"말하는 대로 다 되는 금융\"…웰컴저축은행, 분당 수내동에 생성형 AI 특화 지점 열었다 스마트경제",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UVkt5VVlUSFpMVnF1U1pqbEI5c3dVS212N1JFZzYxTzVXRk9yOUJaOC03YTRYTm9KV1FROHplc0RHNkJSLUgtRXVRUUJkSFZHOGNCMzlFY1dQYmdpMmxZU2tCZVV4djlpRDlLRzdSbw?oc=5",
+        "published": "2026-06-02T17:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 13,
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "4e7ac355b419",
+        "title": "농협은행 경북 전 영업점, 폭염 속 ‘무더위 쉼터’ 개방",
+        "source": "kyongbuk.co.kr",
+        "summary": "농협은행 경북 전 영업점, 폭염 속 ‘무더위 쉼터’ 개방 kyongbuk.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5scEVzZ2tja1V6NUxQckIxRlJtSDhKSWlncUNCMW1jWE9zakdsQmRGS0JtV09vSXFlYW0yWTYySUpMZDlFWUd2WVNDMHNGYXF3cVVJX3NEWllsZzBHZ0N4cXlrXzRiRDRncU1KVzFTUQ?oc=5",
+        "published": "2026-06-02T16:40:20+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "9e9bf0647f5d",
+        "title": "NH농협은행, 소상공인 맞춤형 경영컨설팅… 점포 운영 고도화 점검",
+        "source": "글로벌이코노믹",
+        "summary": "NH농협은행, 소상공인 맞춤형 경영컨설팅… 점포 운영 고도화 점검 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRnFicnhiVDJUTEE3SW1hWDVseU05UUg3S1p1Z1lkYmhQQ1RiY3dFR004YlA4eVE2UmVfSHJteC15cFZmWlVBU3lTVkxRN0lORi00RXhJSVg2eU5Qb3BRcXctcnZhcXQ4OFpIODlGdW5WU21sNUpZUTZkOWNYWkduM09fVG0?oc=5",
+        "published": "2026-06-02T15:06:43+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "71b605948f31",
+        "title": "30도 무더위엔 은행으로…전국 영업점 쉼터로 탈바꿈",
+        "source": "한스경제",
+        "summary": "30도 무더위엔 은행으로…전국 영업점 쉼터로 탈바꿈 한스경제",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQLWhpR1dBNEgyWnJteUFnb2pxOGtzZnh4a001RWx1SkdEcGFuS2pOTVhISHRlUlRibGx1U2xsS1lCdXdfRm5LQ0w4Z1U5QUVFbkFzM0hkZ0NNMzlROFBOR2c0RW15bElnZVJv0gFvQVVfeXFMTXR0VnJfb0YtNTM1Y1hDVHl4MFZOOHNPbmYxOThvUTJfeWxCN0dZVmdFZGlsZThBazFydlE4UllZVzhGb0tmb2pqS3dBWkxuU2k2dzJwSTJldVJLRGpySkxuZzdWckhOTXR4bzRUVF9R?oc=5",
+        "published": "2026-06-02T09:59:46+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "af81c3e85864",
+        "title": "우리은행, ‘그린콘서트’에 이동점포 운영",
+        "source": "일간투데이",
+        "summary": "우리은행, ‘그린콘서트’에 이동점포 운영 일간투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sRTFwUFM3cERvTXZjbUNNUDFuMUFwVEFzUU1QV0JBaG5jSVZsU3ozQXY1R2dhcHRTUXRBemJEdVhYaWdNRkg0TGlQRFZxaFdveDUzdl95Qk9PVDMtaVM0RU5MMXc2MzFCb29J?oc=5",
+        "published": "2026-06-02T09:16:13+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,31 +84,19 @@
         "published": "2026-06-01T17:15:17+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "cd21c67e22e8",
-        "title": "NH농협은행 경북본부, 전 영업점 무더위 쉼터 본격 운영",
-        "source": "경상매일신문",
-        "summary": "NH농협은행 경북본부, 전 영업점 무더위 쉼터 본격 운영 경상매일신문",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Zai1DT19MdGNLUzFGMTJnOTNUS1prMzZ6Qi10bmN3ZXhmWTI4MDJpVGZRR19IU2NNb0JiSElpVUhqQ3MtZDBuOVY1UjJCU0JnR0tpcFYxZDUybzlRcVJN?oc=5",
-        "published": "2026-06-01T16:31:45+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
         "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "bb436acf56a2",
-        "title": "이재명 정부 '은행대리업' 첫발…우체국, 은행 점포 대안 될까",
-        "source": "네이트",
-        "summary": "이재명 정부 '은행대리업' 첫발…우체국, 은행 점포 대안 될까 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OYVJzcWpCd3hPUHRjT2EtenFYVFRjWDNONlNob1pSbG5VcW82Q1l3QzNfU0tucS15U2daWC1oWHotSzdjYjZhLTBha0k0VnNtZFJZ?oc=5",
-        "published": "2026-06-01T15:18:00+09:00",
-        "query": "은행 점포",
+        "id": "da35e3506109",
+        "title": "폭염 대비 은행 영업점 일제히 개방…“업무 무관 쉬고 가세요”",
+        "source": "SR타임스",
+        "summary": "폭염 대비 은행 영업점 일제히 개방…“업무 무관 쉬고 가세요” SR타임스",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5panB4cG5TOGgzWHVfNlhkQW1FQlpwSDhHcTI2cW5CUm9FTTFzMHRURU5aX2doNWlGcnUxZmx3MGNwb0p1T0kzVW9lcFdLTmtrcGJNUV9MTnNxVjlJZUkzRkxiT2ZnRW_SAWtBVV95cUxPVUZ4aVdiV3c0S1BvUm1iOGRGN21RaVZ1MVFMaDdDQmNrOTdvN0FkQ1lHQU05RDhyMEZHazVFbUZMOENFY0QtVWFvZ2VNd1dwZXRDZWJOaFVJLUlDZmg2VTJnZi1jT091ZWJWRQ?oc=5",
+        "published": "2026-06-01T14:37:55+09:00",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,19 +108,7 @@
         "published": "2026-06-01T13:10:10+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 9,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "dd75136d34dc",
-        "title": "무더위엔 은행 영업점으로…시중은행들 '쉼터' 운영",
-        "source": "연합뉴스 한민족센터",
-        "summary": "무더위엔 은행 영업점으로…시중은행들 '쉼터' 운영 연합뉴스 한민족센터",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91U2RUUk5UN25tc1FUREtUOTlmTDFzbmNqc3ZXTFJYYjBWOU9HVlc5MXozbUp4RkRtdHJZaTV5OWo5aWp5NXhfM0lfOUJXbjVza05nU1VQV0JPTFc1MjIxM3QtSVNkcEZCNHRjWTJ3LTc3eW8?oc=5",
-        "published": "2026-06-01T11:25:43+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 2,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -98,20 +122,31 @@
         "engine": "google",
         "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "f17364cfd100",
+        "title": "5대 은행 영업점 매년 130개씩 사라져…점포 통폐합 대안 '공동점포'",
+        "source": "이데일리",
+        "summary": "5대 은행 영업점 매년 130개씩 사라져…점포 통폐합 대안 '공동점포' 이데일리",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObTVUUFR1Nnh4V0RyRVg2TFdranZma21lZFItYnk1VmlsdUZUMElrMUJIQmR3c0w2aW5yN3psWVRtWlMwT0w3TG40OTZaR1d4VGhUV2YzbU5ZZzZLc1ZXQ2RlUmViOUc3V0JLOXlvNzc5OV9OX1NqdV9PNDFIVFQ4Rw?oc=5",
+        "published": "2026-05-29T10:10:38+09:00",
+        "query": "공동점포",
+        "engine": "google",
+        "rank": 3
       }
     ],
     "policy_news": [],
     "shinhan_news": [
       {
-        "id": "d504b0842e63",
-        "title": "신한은행, 전국 영업점 무더위 쉼터 9월 30일까지 운영",
-        "source": "리버티코리아포스트",
-        "summary": "신한은행, 전국 영업점 무더위 쉼터 9월 30일까지 운영 리버티코리아포스트",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jY0h6czJmT2F3dTF4dU1sSlYyNTRqbVFnWVktaUlmZ0d2b2R6ZnBueFFTQzlvQnVHTnBBUS1QUVo2WHp3ZHJtMURkMVFkM0dvMW9ZNW5uTVVZWGk2WG9QQkl4cGpHV2vSAWdBVV95cUxNY2NIenMyZk9hd3UxeHVNbEpWMjU0am1RZ1lZLWlJZmdHdm9kemZwbnhRU0M5b0J1R05wQVEtUFFaNlh6d2RybTFEZDFRZDNHbzFvWTVubk1VWVhpNlhvUEJJeHBqR1dr?oc=5",
-        "published": "2026-06-01T20:41:18+09:00",
+        "id": "6f21ecf970bc",
+        "title": "신한은행, 전국 영업점서 무더위 쉼터 운영",
+        "source": "스카이데일리",
+        "summary": "신한은행, 전국 영업점서 무더위 쉼터 운영 스카이데일리",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mQnhydWlvYktfaG03M1l4anRLMEJwSHdZMlE5b192ZWpIdXN6OVlsZTNZNzdVc0RCLUw4czlUWFVmbFktZDI3ZDhUSFdUei1aWXZLc1I4VWE5TFpSYS1IVWFhYld4dw?oc=5",
+        "published": "2026-06-01T20:06:37+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -127,39 +162,15 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "0a366051434c",
-        "title": "KB국민·신한등 주요 시중은행 '무더위 쉼터' 운영...하나은행 생수 무료 제공",
-        "source": "퍼블릭타임스",
-        "summary": "KB국민·신한등 주요 시중은행 '무더위 쉼터' 운영...하나은행 생수 무료 제공 퍼블릭타임스",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GX2E1a0hxSW04S2NxeXRnQW5rU3ZubTFDU2NTQ21CYkVxekdBZjZETGg1OWlkRzhCa0hyTjdUcnVBZ1VZcWtPNmNSSUZaeDJoUlktSGFyV2EtNDZXdVE2WDdyakUwWFlxbmxGb2ZB0gFuQVVfeXFMTkZfYTVrSHFJbThLY3F5dGdBbmtTdm5tMUNTY1NDbUJiRXF6R0FmNkRMaDU5aWRHOEJrSHJON1RydUFnVVlxa082Y1JJRlp4MmhSWS1IYXJXYS00Nld1UTZYN3JqRTBYWXFubEZvZkE?oc=5",
-        "published": "2026-06-01T15:00:00+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "b75e58a92b1c",
         "title": "신한은행 “무더위 피해 은행으로 오세요!”",
         "source": "스트레이트뉴스",
         "summary": "신한은행 “무더위 피해 은행으로 오세요!” 스트레이트뉴스",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xYXVMRnJVWHBRdHdYcWgxX3pOTUwxS28zN1dOX3VIeGFPWjBWa19rbHgxd1BpM1VJZ3dHNFJuUExsOVR2SVExN1Rhelh4YnJRUnRQemdPeHlROU01MU54bEJET3hhZGloT29UN3NjSUR3RHPSAXdBVV95cUxPVjBGTVJoNDJQbmZoc2VKUXMxcmExTUVENEdyQ2g4X0c0aUFWdHdhMExiUEtiRmNzOVpFNWtGNzFPeHZBdkE2NUlFNlhvTTVMS0gwN3gyN3NnaUNXT0t3Nk4wNmNZRC10bFVSZ0k3SWNvNWpCNU53cw?oc=5",
         "published": "2026-06-01T11:01:10+09:00",
-        "query": "신한은행 지점",
+        "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "4aacd72a82d1",
-        "title": "신한은행 부평중앙지점, '은광원' 찾아 현장 봉사·후원…\"지역상생\" 강화",
-        "source": "뉴스티앤티",
-        "summary": "신한은행 부평중앙지점, '은광원' 찾아 현장 봉사·후원…\"지역상생\" 강화 뉴스티앤티",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0QzBrZjA2cnQ1SnpHSGFZcnpXNWNjNXlFYTBvdzIyODk4ZzRhUjFKQ1JoSmN5aGdBc0RzMU5KZ0JmRjdvdEQycDExWXdPOXBjM3U5cUdMSF9KZXNMempEM1JsOEg3c3NJUEE?oc=5",
-        "published": "2026-05-28T07:51:05+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 12,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -171,7 +182,7 @@
         "published": "2026-05-27T15:37:50+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 6,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
