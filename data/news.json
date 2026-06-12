@@ -1,42 +1,54 @@
 {
-  "updated_at": "2026-06-12T08:08:19.119812+09:00",
+  "updated_at": "2026-06-13T08:00:25.087132+09:00",
   "headline": {
-    "id": "7d95c36e6ea6",
-    "title": "영업점 폐쇄에 부자도 떠난다…은행 특화점포 고도화 분주",
-    "source": "한스경제",
-    "summary": "영업점 폐쇄에 부자도 떠난다…은행 특화점포 고도화 분주 한스경제",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SWjlDYVhfQkJqZU9CLU5RY01MZDFIbi1RQU9OMW9TS0xCUFY4SXBhWEphalFjSVUzR0ZfdVA1aXhnX1c2WGx2cFlQQTdlRkh1VjBCR1RIdHNWMEJCM2J5Y0oyenZKbFZVQTQ3bVZKa9IBb0FVX3lxTE9SWjlDYVhfQkJqZU9CLU5RY01MZDFIbi1RQU9OMW9TS0xCUFY4SXBhWEphalFjSVUzR0ZfdVA1aXhnX1c2WGx2cFlQQTdlRkh1VjBCR1RIdHNWMEJCM2J5Y0oyenZKbFZVQTQ3bVZKaw?oc=5",
-    "published": "2026-06-09T15:12:09+09:00",
+    "id": "bea2ad0566a9",
+    "title": "당국 '점포유지' 압박에…출장소만 늘린 은행",
+    "source": "매일경제",
+    "summary": "당국 '점포유지' 압박에…출장소만 늘린 은행 매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQWUNoUE5XODIxTlFTcExsTUhrNjc2VmxPeDhKT2IydF9BU3Q5YzZ3WnFtMHhBUVliZHZRLTdUaFowVmVhZFhZVFY4ekpfamx2RkpMYw?oc=5",
+    "published": "2026-06-08T17:45:42+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 5,
-    "_score": 14.0,
+    "rank": 2,
+    "_score": 16.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "48c16fe56a8d",
-        "title": "단순 점포 확장 끝났다…시중은행, 글로벌 공급망•자본시장 정조준",
-        "source": "브릿지경제",
-        "summary": "단순 점포 확장 끝났다…시중은행, 글로벌 공급망•자본시장 정조준 브릿지경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zS0J5RVJnWlFLMXpXUEdKMVA2Z1oyTnZ6YjF1WWtGYURYQk14cGp3OUFTZWJQeWZiS1ZBUFBxMTBWSzJRV3RRcFBOZ1pBcHRVQVV0QTM5QTFtdw?oc=5",
-        "published": "2026-06-11T13:14:00+09:00",
+        "id": "fdabc59cb12c",
+        "title": "금융당국 방관에 씨티은행 점포 6곳으로 축소",
+        "source": "매일노동뉴스",
+        "summary": "금융당국 방관에 씨티은행 점포 6곳으로 축소 매일노동뉴스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aSXByVHNZU2NTTjVJcTRuTGtiOVIxVHM5bzItMnFjZnFSNkxUX1dlcWlLVXZyaUR3TWZpVm5EZWd3Y2s0eTdvU2c2Z21XRDRsUldUSnlNd244NWRRUFJBdU01VDdIM252YlA2dTlBODk?oc=5",
+        "published": "2026-06-12T17:15:35+09:00",
         "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "1ea77a3d652a",
+        "title": "NH농협은행 전북본부, 9월 말까지 관내 전 영업점 ‘무더위 쉼터’로 운영",
+        "source": "농수축산신문",
+        "summary": "NH농협은행 전북본부, 9월 말까지 관내 전 영업점 ‘무더위 쉼터’로 운영 농수축산신문",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SamxhMEVPVTEwSEp1TGxpZ0pYYVRLZ0FpcElQbFdvQ01RNi0zXzZWVE9DRkhWSW9nMlpWTVl5N2UyNUtzZDNJWUJfQ2x6VnJWMnEzbGotekg2ZVV1MlZVSnJrbWdRclJ0WXlrRQ?oc=5",
+        "published": "2026-06-12T16:39:40+09:00",
+        "query": "은행 영업점",
         "engine": "google",
         "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "20a5b921f5bb",
-        "title": "NH농협은행 경북본부, 전 영업점 '무더위 쉼터' 본격 운영",
-        "source": "경북신문",
-        "summary": "NH농협은행 경북본부, 전 영업점 '무더위 쉼터' 본격 운영 경북신문",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4cnNuUUJVTTVvczVQU21CbndlZjNBS2xOVDY4blZGd0xZV2d5UlhIRzNMeXZmNjJvWTQ1UmNYX2tZaUdVSU83MnkyUG1MdWtkeGNzNUlfNEo?oc=5",
-        "published": "2026-06-10T16:49:51+09:00",
-        "query": "은행 영업점",
+        "id": "70201049f7b4",
+        "title": "신한금융 시니어 전략···신한은행 점포 71개 줄어든 뒤 시작됐다",
+        "source": "이넷뉴스",
+        "summary": "신한금융 시니어 전략···신한은행 점포 71개 줄어든 뒤 시작됐다 이넷뉴스",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVZnRTM21OeFJ6aUNzNDFWTHJiOXBBcDNnQTdSbzJtMFVHckhTOHBJYUh4b0xqNUlQVUJ2RmRqOFVLRUprbVd3ZldKOG1wM0JId0NwcnNpM3J1c1ZBQjZPWXVGSW1iYkEzOUVoStIBcEFVX3lxTFBzUVlvUDRZZlEwQUVNNElwaV9aZktaaU5MWUUybVhJZk4yUkpQNWhzN0w5MkN1T0ItNGRkdWowZUk1cEF5QjltaVg0RVNBYjM4SUVTUWtqVWhSeFE5Nk1jcFM1YllxSnJOdTZlQXU1ejg?oc=5",
+        "published": "2026-06-12T12:30:03+09:00",
+        "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 3,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,43 +60,31 @@
         "published": "2026-06-10T15:28:10+09:00",
         "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "ad4fbc1658e2",
-        "title": "[현장] 씨티은행 점포 축소의 그늘…고용불안·고배당 논란 동시 확산",
-        "source": "파이낸셜포스트",
-        "summary": "[현장] 씨티은행 점포 축소의 그늘…고용불안·고배당 논란 동시 확산 파이낸셜포스트",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qTTFrXzBhd0NBZDdKSWZOTnI5VDZzRmtnU2Fvb3RUQ0F4aFlBT1BJc2htdXF1WTZOWWVKOE42andTX0pQMUZ4b0h4eGdwUW9zcnVwT0RmNzNVeG5LZ21CN1lBRTBjWjUwV2stOEg4YXVNc1pE?oc=5",
-        "published": "2026-06-09T17:33:46+09:00",
+        "id": "53e14dbaaace",
+        "title": "영업점 폐쇄에 부자도 떠난다…은행 특화점포 고도화 분주",
+        "source": "한스경제",
+        "summary": "영업점 폐쇄에 부자도 떠난다…은행 특화점포 고도화 분주 한스경제",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqVVFvY2lHb1hFYTUwNUxsQklVV0FvMm9yUElrZC1pamlvT3cteUNFeERieWhpN2NYLUNHMUxPai1tY2otX1Q2Rjg3QmI1cjlTT0M0LWg4eTJ4S3lnaV8xb3BlZFFma2h3OC1z0gFvQVVfeXFMT1JaOUNhWF9CQmplT0ItTlFjTUxkMUhuLVFBT04xb1NLTEJQVjhJcGFYSmFqUWNJVTNHRl91UDVpeGdfVzZYbHZwWVBBN2VGSHVWMEJHVEh0c1YwQkIzYnljSjJ6dkpsVlVBNDdtVkpr?oc=5",
+        "published": "2026-06-09T15:08:29+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "a945ae597fd7",
+        "id": "a9eed16b292f",
         "title": "Sh수협은행, 전국 영업점 '무더위 쉼터' 운영…\"더울 때 쉬다 가세요\"",
         "source": "v.daum.net",
         "summary": "Sh수협은행, 전국 영업점 '무더위 쉼터' 운영…\"더울 때 쉬다 가세요\" v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzVUR0MEM4VW85YVpnNFlOek53YWJXeXRFeWRGaG8zME1xMFZJV09GNE9YdGpabDkyc1NoRlEwOXNiUVFqUUJpeDNYY2E5MWxjZWVkOQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40MjhIR3JZM1VuUWluandBU25KMC1MOVNZYVhQUmF6b01KZG9WTVNVMEQwaHpQa2tsM0tJR2NCSnVua0ZPVUFfMDBoeFY2OGc?oc=5",
         "published": "2026-06-09T11:25:21+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "bea2ad0566a9",
-        "title": "당국 '점포유지' 압박에…출장소만 늘린 은행",
-        "source": "매일경제",
-        "summary": "당국 '점포유지' 압박에…출장소만 늘린 은행 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQWUNoUE5XODIxTlFTcExsTUhrNjc2VmxPeDhKT2IydF9BU3Q5YzZ3WnFtMHhBUVliZHZRLTdUaFowVmVhZFhZVFY4ekpfamx2RkpMYw?oc=5",
-        "published": "2026-06-08T17:45:42+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 4,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,31 +96,7 @@
         "published": "2026-06-08T17:21:57+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "fdabc59cb12c",
-        "title": "금융당국 방관에 씨티은행 점포 6곳으로 축소",
-        "source": "매일노동뉴스",
-        "summary": "금융당국 방관에 씨티은행 점포 6곳으로 축소 매일노동뉴스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aSXByVHNZU2NTTjVJcTRuTGtiOVIxVHM5bzItMnFjZnFSNkxUX1dlcWlLVXZyaUR3TWZpVm5EZWd3Y2s0eTdvU2c2Z21XRDRsUldUSnlNd244NWRRUFJBdU01VDdIM252YlA2dTlBODk?oc=5",
-        "published": "2026-06-08T16:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "ccdf2d3d7524",
-        "title": "NH농협은행, 영업점 자문단 ′Link-up Day′ 행사 개최",
-        "source": "메가경제",
-        "summary": "NH농협은행, 영업점 자문단 ′Link-up Day′ 행사 개최 메가경제",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VZU96aEtwMGtPSjFvUW8zdk9yV0dwcXpBMkwzdldaSzhtNGFpY0U4aEliek9VVXZjOGFNbUxPLUx3Ti1BSWtmeW5sanB5bTBqWF9fWmFramoyWjhZZkNuNWVKWDN1Sk9LN0xJaUFLdFgxZHlo0gFyQVVfeXFMUDdFeEl1QmJrMkI0WThTd2hEUGs4MnFmUXQ5TU1oTWFTeUQ2VGpIVDVCNU4zVU5iMzhpZWhubDd1UWJ0ZVdtbG5rd2JsM09UcXdYaTRZLVQxenM3U3B5ZmRKQzhCUGlmd3pRZE1NOXdKWjFR?oc=5",
-        "published": "2026-06-08T15:04:54+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 13,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -132,22 +108,34 @@
         "published": "2026-06-08T12:55:36+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 6
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "faa1edbf01be",
+        "title": "국가유산부터 은행 영업점까지…K-AI 모델, 현장 적용 확대",
+        "source": "디지털투데이",
+        "summary": "국가유산부터 은행 영업점까지…K-AI 모델, 현장 적용 확대 디지털투데이",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yZmZndFpQLWNGeDV6WE5VcGVIYjVSbldDNy1YSEc1dkpLYVZZcmtHdmlXY2VoamNzVER2dHJVWTBzMzRJclhMbXlheUMySGM0SFlhLU51dFp3dnR6X3RzandidkZ6WFpESDNkeTdDSXdFTUU?oc=5",
+        "published": "2026-06-08T10:59:32+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 11,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
       {
-        "id": "12edbab2a97c",
-        "title": "[은행업계 소식] 신한은행, IBK기업은행, Sh수협은행",
-        "source": "파이낸셜포스트",
-        "summary": "[은행업계 소식] 신한은행, IBK기업은행, Sh수협은행 파이낸셜포스트",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sRmc3ZzktcTlHVUlpM0M0Und1RXZlZGk0eTZZcV9kMERINnBwY0lHYkszLWpmM0ZTMnViR1UxTXV5cUw3QXhhU2w3TmMtbXdPaUNnQmdjWkVEZGYwNl95U1JPS0V2am5NVlRXXzBmR2hQdlp2?oc=5",
-        "published": "2026-06-08T16:28:35+09:00",
+        "id": "70201049f7b4",
+        "title": "신한금융 시니어 전략···신한은행 점포 71개 줄어든 뒤 시작됐다",
+        "source": "이넷뉴스",
+        "summary": "신한금융 시니어 전략···신한은행 점포 71개 줄어든 뒤 시작됐다 이넷뉴스",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVZnRTM21OeFJ6aUNzNDFWTHJiOXBBcDNnQTdSbzJtMFVHckhTOHBJYUh4b0xqNUlQVUJ2RmRqOFVLRUprbVd3ZldKOG1wM0JId0NwcnNpM3J1c1ZBQjZPWXVGSW1iYkEzOUVoStIBcEFVX3lxTFBzUVlvUDRZZlEwQUVNNElwaV9aZktaaU5MWUUybVhJZk4yUkpQNWhzN0w5MkN1T0ItNGRkdWowZUk1cEF5QjltaVg0RVNBYjM4SUVTUWtqVWhSeFE5Nk1jcFM1YllxSnJOdTZlQXU1ejg?oc=5",
+        "published": "2026-06-12T12:30:03+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 12,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 1
       },
       {
         "id": "0e3493c8ad31",
@@ -158,7 +146,7 @@
         "published": "2026-06-08T15:56:16+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -170,7 +158,7 @@
         "published": "2026-06-08T03:27:57+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 6,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
