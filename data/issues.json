@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T08:02:57.622949+09:00",
+  "updated_at": "2026-06-14T07:42:23.437094+09:00",
   "social_finance": [
     {
       "id": "abd5cef6ce57",
@@ -11,24 +11,6 @@
       "query": "취약계층 금융"
     },
     {
-      "id": "48318959e7c9",
-      "title": "[칼럼] 소상공인 숨통 틔울 ‘더힘내GO 카드’, 금융지원의 제도적 근거 마련해야",
-      "source": "정필",
-      "summary": "[칼럼] 소상공인 숨통 틔울 ‘더힘내GO 카드’, 금융지원의 제도적 근거 마련해야&nbsp;&nbsp;정필",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8waUtvNDlDdTYzdVdJcEZraVgzRC1ob0xnTWU1WDFXc2FnSlZObTIxSDBwYXpBNTU1aTg3RV8yWnU2dFpaeUxr?oc=5",
-      "published": "2026-06-12T21:53:00+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "03218e526cd4",
-      "title": "[N2 포커스] LIG D&A-니어스랩, 글로벌 대드론 시장 공략…대·중소기업 상생 수출 모델 주목",
-      "source": "뉴스투데이",
-      "summary": "[N2 포커스] LIG D&amp;A-니어스랩, 글로벌 대드론 시장 공략…대·중소기업 상생 수출 모델 주목&nbsp;&nbsp;뉴스투데이",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zTUdmd0NIR1F4ZHVfS2J4YzF3dDNOOEQtT3ZnNXBacWM3ZWZPQS13V3J6QzFWWDJlMy15RFJoX3BOWDZwWk44c2gyYVZvNmt5eHNsUEU2U0I1dmI4UHc?oc=5",
-      "published": "2026-06-12T19:11:00+09:00",
-      "query": "중소기업 상생"
-    },
-    {
       "id": "bd01d832a697",
       "title": "[이슈] \"지원 영역에 사각지대 없다\"…신한은행, 상생금융 상품 시중은행 1위",
       "source": "팍스경제TV",
@@ -38,95 +20,77 @@
       "query": "상생금융"
     },
     {
-      "id": "6f55401654df",
-      "title": "함영주 회장 \"생산적금융, 포용금융과 결합될 때 완성\"",
-      "source": "금융소비자뉴스",
-      "summary": "함영주 회장 \"생산적금융, 포용금융과 결합될 때 완성\"&nbsp;&nbsp;금융소비자뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwOUVyZmFFeHhOb1JOYktJeFlXQXFyd0J0VWtzR09LRHRNbVNqTl9reFN6YXFJNXpaWjhLZFFmU00xQmg5ZW55RHo4THltMm41eVY4eXRNdTlPVWxKX3lvT2xyTzFJaUNiMHc?oc=5",
-      "published": "2026-06-12T16:29:00+09:00",
+      "id": "9023ced8abcd",
+      "title": "'진옥동표 배달앱' 신한銀 땡겨요, 880만 회원 품고 소상공인 금융지원 확대",
+      "source": "녹색경제신문",
+      "summary": "'진옥동표 배달앱' 신한銀 땡겨요, 880만 회원 품고 소상공인 금융지원 확대&nbsp;&nbsp;녹색경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5d041YXJWS0xnUGhrWGw3Q3FvYmlvSFJnMWljTGwyZkhnajUzTG1jTzdIdlJCb0RJN3RGczdSQWh1YWFNU2l6dmRvNzF0S0x6bElaZjNxRUZSQUpDUk5lZDJXRUxEVDA?oc=5",
+      "published": "2026-06-12T13:49:58+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "101b6e13e45f",
+      "title": "[은행 사회공헌 분석] [KB국민] 시중은행 중 사회공헌 비용 최다…미래세대 투자 돋보여",
+      "source": "DealSite경제TV",
+      "summary": "[은행 사회공헌 분석] [KB국민] 시중은행 중 사회공헌 비용 최다…미래세대 투자 돋보여&nbsp;&nbsp;DealSite경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BM2JSNy02aVFVQVF2eUNITVVFMmVFS1NPVF9CajZENjJrdDRaZWJ6bWRRc2JQdE5uWlY0SHpLb1VaSlN5NXZSNWFKejBBQWNwVEluTlJn?oc=5",
+      "published": "2026-06-12T13:30:22+09:00",
+      "query": "은행 사회공헌"
+    },
+    {
+      "id": "d2075647494f",
+      "title": "금감원, 우리금융 이어 KB금융도 사회공헌 현장조사",
+      "source": "연합인포맥스",
+      "summary": "금감원, 우리금융 이어 KB금융도 사회공헌 현장조사&nbsp;&nbsp;연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1RTURtVURha3NaZnZlOWxaVW01MkZ0ZmVYUExZZzl1ZU14cnlhUm56SVhZQXBxMjQ1N01xd21iVjkzSnljU0ktSFpIX2tmekVqLVc0VVF1SjI5ZW01aW8yNFZ6dHpQZkhYSUl4RXZpU2xRU21W0gF0QVVfeXFMTVFNRG1VRGFrc1pmdmU5bFpVbTUyRnRmZVhQTFlnOXVlTXhyeWFSbnpJWFlBcHEyNDU3TXF3bWJWOTNKeWNTSS1IWkhfa2Z6RWotVzRVUXVKMjllbTVpbzI0Vnp0elBmSFhJSXhFdmlTbFFTbVY?oc=5",
+      "published": "2026-06-12T13:12:47+09:00",
+      "query": "은행 사회공헌"
+    },
+    {
+      "id": "3463e32ed7ba",
+      "title": "농협 남양주시지부, 조안면 송촌1리서 고령층 금융·복지 서비스 전개",
+      "source": "인천일보",
+      "summary": "농협 남양주시지부, 조안면 송촌1리서 고령층 금융·복지 서비스 전개&nbsp;&nbsp;인천일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pdjhvdzRId0tHUENGTldOVnpVR25rblFsdkdGZl9WaFlpckhuWVVKQm5MOHA4ajhNU0RDQ0ZaYXVIWEhJWG9Vd1JiZFIwNmR3TDI1NEVDbFUzb2FmbjJxcGFlbFJXLUI4SEwxZW9nOXk?oc=5",
+      "published": "2026-06-12T11:20:00+09:00",
+      "query": "고령자 금융"
+    },
+    {
+      "id": "12fa7054d4ae",
+      "title": "“생산적 금융, 포용금융과 결합될 때 완성”",
+      "source": "헤럴드경제",
+      "summary": "“생산적 금융, 포용금융과 결합될 때 완성”&nbsp;&nbsp;헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ES1o3bGlzelp2T1l1VTVzTnl1RzczcEEzcjNlaDZQVG44R09yc3MyREZlR2p6bThoSE9NdXBxamlMeWI5ZWM0dWlDc1VxZ3UwWHg3Q1d3?oc=5",
+      "published": "2026-06-12T11:14:06+09:00",
       "query": "포용금융"
     },
     {
-      "id": "1e705b0ebd49",
-      "title": "여성소비자신문 모바일 사이트, KB국민은행·신한은행, 금융취약계층 지원·내부 인재 육성 박차",
-      "source": "통신일보",
-      "summary": "여성소비자신문 모바일 사이트, KB국민은행·신한은행, 금융취약계층 지원·내부 인재 육성 박차&nbsp;&nbsp;통신일보",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ib1BzcjhQM2lrVDlyRDh6eS1jNzUwQWJHQmJtbUxOdUlDbjdTcmtxUTJjYlN0ODVFX3drZ1ZJQTRGd241Q2g5NU1PRkJSMGhnNU9QcVZJRmpieTRXeEhMaWZWUHpnQQ?oc=5",
-      "published": "2026-06-12T16:17:14+09:00",
-      "query": "취약계층 금융"
-    },
-    {
-      "id": "ee2ae217e722",
-      "title": "신한금융, 5조원 규모 ‘포용금융 2.0 ON(溫)’프로젝트 진행",
-      "source": "intn.co.kr",
-      "summary": "신한금융, 5조원 규모 ‘포용금융 2.0 ON(溫)’프로젝트 진행&nbsp;&nbsp;intn.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55dzktMnZTNVhSc3N5R20wT0FqZDBOSU5tWm1WV2E4LWlqN3ZlSVhEQzdlSWdkMDZVZEc4Uk9nMHVlVkJ6cFNPc20xUHFqQWVLNEIxSVVUMTRLZ1plLXNLLWZhVERnRTROOFE?oc=5",
-      "published": "2026-06-12T14:47:17+09:00",
-      "query": "포용금융"
-    },
-    {
-      "id": "e8d90b425655",
-      "title": "은행권 상생금융 2조 집행…이제 과제는 ‘이용률’이다",
-      "source": "토요경제",
-      "summary": "은행권 상생금융 2조 집행…이제 과제는 ‘이용률’이다&nbsp;&nbsp;토요경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5ZEM4T1h1Tk9QWk1UOWdmLVJtTGdoZW5YaXVCcHpKZTlkdEc2R2NlVlpHZjB5cWNzdHhjUnJxZDV0M2hub2g2SFQ5WmxUT3p1a1E0MmJpWFlHbmhzb3lHRtIBb0FVX3lxTE9vQ25keGxWeTV6bEtxWkw2cUNIdndIcERCS2VxNHVUeTdZc1F1dEFsRnlXS0twR1gwN0JzelVlbzhGRGZNMm1qSkUxdXg4WUs4bElJTktRMkZRUk5TbGJ4OE8tQ0g1M1NSYTRGWU5oVQ?oc=5",
-      "published": "2026-06-12T14:28:10+09:00",
-      "query": "상생금융"
+      "id": "151ea9b52354",
+      "title": "한·이탈리아 '중소기업 상생' 맞손…\"연계 사업 전개\"",
+      "source": "v.daum.net",
+      "summary": "한·이탈리아 '중소기업 상생' 맞손…\"연계 사업 전개\"&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzVTlWYzd5a1VaRmpXMzltU0tyVVZ4SklTNkY0MlU2cDhXRkhlYXNuUVBobm01dm1SU0pjcDlkVUdDcGlfQU1KQkpQRGpNaFU?oc=5",
+      "published": "2026-06-12T10:39:00+09:00",
+      "query": "중소기업 상생"
     }
   ],
   "tech": [
     {
-      "id": "d6d2a2076f2b",
-      "title": "AI 반도체주 과열 경고등 켠 월가 …월가는 ‘삼전닉스’ 레버리지 베팅 제동 [마켓시그널]",
-      "source": "서울경제",
-      "summary": "AI 반도체주 과열 경고등 켠 월가 …월가는 ‘삼전닉스’ 레버리지 베팅 제동 [마켓시그널]&nbsp;&nbsp;서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DVThlVW5iejRsU3BCUE94b0hsTmZxTkJYUUFDWTFFMGN5Z3NWa3JKT3JVemVfSUh3b05JYnlnNmpGM2hFSEpYeC13MnRneEdTVXfSAVNBVV95cUxQbmlRSF9zWXp1d1lDMGctc3hiRWF0dmZjUmU3TDMtZ1lYblROM3NnOWtyVEdBN1YwX0FUWjBrRTBZdVQ2aEpGUzFkcTJtQjZ0UlMzOA?oc=5",
-      "published": "2026-06-13T07:31:05+09:00",
+      "id": "6a33d407e09c",
+      "title": "[인터뷰] AI금융비서 넘어 AI에이전트 은행으로…웰컴저축은행의 실험",
+      "source": "바이라인네트워크",
+      "summary": "[인터뷰] AI금융비서 넘어 AI에이전트 은행으로…웰컴저축은행의 실험&nbsp;&nbsp;바이라인네트워크",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yNjZSZ1BsRjhscjZxTEVTeV9jTmlaTWlqVkQzMDFSY2RwbjVpcTdRdTZfd1VOZVNLSkpWaFZiNkRQSmJuZ1VxaklodVB1TWs?oc=5",
+      "published": "2026-06-13T18:00:10+09:00",
       "query": "은행 AI"
     },
     {
-      "id": "e7186ffc4455",
-      "title": "집값에 막히고 AI에 밀리고…청년층 자산 사다리 흔들린다",
-      "source": "뉴시안",
-      "summary": "집값에 막히고 AI에 밀리고…청년층 자산 사다리 흔들린다&nbsp;&nbsp;뉴시안",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qSXg1dXFqZFh5OFNnMmRHVFhzcmVUOGxkTGt3RGZOSHlfSUVzM1hMX1hBQ3JDYjZoSkVJUUlaMFBOdVhYcUlQZGRSVmZEMHprWUc0VmZVeXBmZ241Q2VwbmxKaXRiWmJQVUHSAW5BVV95cUxPRE9qY1c0b2lOemUyLVJUU0xJdEJNeW9nWTdhaHI3WXUtazdpU19jWE5LR3EtMDZVWFNfQXNsdWVOcHhudFdaOU5sRWlEbG5QSWF3SHpGbkRXbmVCZkM5czhaWkxJUmMzN0RuTUU0QQ?oc=5",
-      "published": "2026-06-13T07:05:28+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "87d3ef7d2b9c",
-      "title": "\"너무 오른 韓 AI 반도체주\"…월가, 삼전닉스 레버리지 베팅 줄인다",
-      "source": "뉴스1",
-      "summary": "\"너무 오른 韓 AI 반도체주\"…월가, 삼전닉스 레버리지 베팅 줄인다&nbsp;&nbsp;뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16Sk04bVBSbkpFT040VU5ZVk9RTG9oOFpGS2JZenoyM0hfSUItanJpTFQwcU1GT0JwR2M0Z2h3ZzJhNTh1bmI4NlVnbUl6WHB5RU5ZQkl5dEJxVVRLVXNfSDdSeVRZSDg?oc=5",
-      "published": "2026-06-12T16:09:02+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "4e366aed04e9",
-      "title": "“스테이블코인, 금융공학 아닌 절박한 민생 해법입니다” [Polinomics]",
-      "source": "포춘코리아",
-      "summary": "“스테이블코인, 금융공학 아닌 절박한 민생 해법입니다” [Polinomics]&nbsp;&nbsp;포춘코리아",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MdnQ1RFdlX1dka0hvY0VNVm1aaWNycjdmV2NTLUN3d2llZHNTanpZV1V2TFZkNFh5ZHF2TjVhS1R3LUdpOWpPX3llaU9kWHdwRi1DOVlhS296MTdVaFVVS1NEVm9iZ2F1a0tVdXI1X2FMUdIBdkFVX3lxTE5zTWt4S0NqRHljdFNKRmxYZDlzRGlqb0ltazBLbV93NVNRdTRQYkpoX0FzSHZ4M1FZYWF1QVBsMTNYeWZYQ3RmUVNYSEsybUhQQWgtZjZNUlpFdXFYRUd1Y0tZRGFpOElNRUt6VmdpSTZkMmczNWc?oc=5",
-      "published": "2026-06-12T16:00:00+09:00",
-      "query": "CBDC 은행"
-    },
-    {
-      "id": "06054ab21d75",
-      "title": "금융권, AI 전환 속도 빨라져...5대 금융그룹 중심 경쟁력 제고",
-      "source": "우먼타임스",
-      "summary": "금융권, AI 전환 속도 빨라져...5대 금융그룹 중심 경쟁력 제고&nbsp;&nbsp;우먼타임스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoamJTRWtuRTFsamNnUFRteWRybDU3c3l2bkE1eGgxSGZtM2xjcm01dDR5R1ppTlBnTFp6NWNiVG8tSjBKVkpVWWFLb0N0Zk4yVVRJWl9zWUpWejJMbUJOLVpxLVhqM1JNSXJ5c0dPTzbSAXRBVV95cUxPaDlyVGJyTnc0T1NWa0hZUGRjMUFVbl8zMlJYcXhYbzNBUFVBRTAtWmtZMXNVaFhicWViX1RKX3BhNE1wMnpYNnVWVE9EUTZ0X19feDNGdzIxNmhZenF2anNyVmR5bFJ3MktibE1YUEM5RXJ6LQ?oc=5",
-      "published": "2026-06-12T15:18:49+09:00",
-      "query": "은행 생성형 AI"
-    },
-    {
-      "id": "9892874e0145",
-      "title": "\"예금 대탈출 온다\"…스테이블코인에 뿔난 美 은행권, 클래리티법 반대 캠페인",
-      "source": "네이트",
-      "summary": "\"예금 대탈출 온다\"…스테이블코인에 뿔난 美 은행권, 클래리티법 반대 캠페인&nbsp;&nbsp;네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zTmk3VmtOSUFSUG40LWw5STMyeWJ4OWQ1SDE3RmVIQnQtbFhHUTZZQjF5UUpUbmk2SEFobGpjV19HdFV5cnNUUENENWVwQ3ZOUjJF?oc=5",
-      "published": "2026-06-12T10:12:00+09:00",
+      "id": "daa3c391f0a0",
+      "title": "“연내 도입 수요 있다” 스테이블코인 발행 앞둔 은행들이 최근 눈독들이는 것은? [크립토360]",
+      "source": "헤럴드경제",
+      "summary": "“연내 도입 수요 있다” 스테이블코인 발행 앞둔 은행들이 최근 눈독들이는 것은? [크립토360]&nbsp;&nbsp;헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uRW5CemRLQS00SHAxLUQ3SldxcV9tNFpxd1RBa0Q3Z25qZE1kdGF6TUlkbURXbkY4VHJTNDdhQlFBemV3bEFzVjFaYXc0bTRNVWJDZFVR?oc=5",
+      "published": "2026-06-13T12:17:00+09:00",
       "query": "스테이블코인 은행"
     },
     {
@@ -146,6 +110,42 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNSzlzOXFreGsyVW9YQ2RKdmY0QWhKc0tHaENtd1ppd3dlVmdUb3RWTmlsLUhyRVh2bUpnNWYyV2ptQVVLUVg3SjFic2lTYTAybjk1YjhQQTk0MnlYSHAyY2s2T2ZudXBjOWlJ?oc=5",
       "published": "2026-06-12T07:00:00+09:00",
       "query": "예금토큰"
+    },
+    {
+      "id": "73f6f11002bd",
+      "title": "원화 스테이블코인 누가 찍나…진짜 전쟁은 이제부터[코인, 법 안으로③]",
+      "source": "뉴시스",
+      "summary": "원화 스테이블코인 누가 찍나…진짜 전쟁은 이제부터[코인, 법 안으로③]&nbsp;&nbsp;뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5renlpSEVZVm9ZRTFjRmdUVTNCbFctTnMtWFNiTFNRUjJnd0otZGxWVlp6MndzYTRaVC1qRl9Gcm9RQjVsUVpTd0xwOU5JZ3d2akxybGdibWt0cGV2QzdwNtIBeEFVX3lxTE54aVFsOE5zakNFTVdXSlJhMVhmRXZCUHVhWmRSWmdsVVpndDVPM3pGU0I0UC1zdlBkR09uaFlMdDlmSHBINFgxb1BBSjJ3SjRlRjFabXQzNThHTEl0SWUzOF9ibk90T3Y1Q2xYdlRONmF2bDlsNUxJNA?oc=5",
+      "published": "2026-06-12T07:00:00+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "46ed5cb5bf8c",
+      "title": "AI가 일하고 블록체인이 기록한다…은행, 미래 금융 준비",
+      "source": "에너지경제신문",
+      "summary": "AI가 일하고 블록체인이 기록한다…은행, 미래 금융 준비&nbsp;&nbsp;에너지경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhUzhnQlJidlVWQ0pDR0p3SmZQajNiUXZ3UEg0UGZIV1d5V09BU3FsTGVhRUprX3NuOFhNRDh4MnpGQ2U4dWxSNDVvSHpsUVlGaS1nSlo4Nl9wVEU?oc=5",
+      "published": "2026-06-11T18:30:47+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "45bf62b7eac1",
+      "title": "우리은행 생성형 AI로 금융관리 지원, '인공지능 포용채무진단' 서비스 출시",
+      "source": "비즈니스포스트",
+      "summary": "우리은행 생성형 AI로 금융관리 지원, '인공지능 포용채무진단' 서비스 출시&nbsp;&nbsp;비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5QkVaVTNtMTUyQ0syNjREVTRoaE9QcXRkVkEzejcwcnRQSmZuN3VmQTRsZmVkOTJLemNrZlBQMlRMb0VSZUxxVUVEU3JxMkRoRTA4dkxFN3FTUFZYMEc3YzNId0U0YjE2SW9qU1hLTjVMREE?oc=5",
+      "published": "2026-06-11T17:32:04+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "48ef0c57463f",
+      "title": "은행은 스테이블코인, 증권사는 STO…\"온체인 금융 시대 열린다\" [토크노미 코리아 2026]",
+      "source": "파이낸셜뉴스",
+      "summary": "은행은 스테이블코인, 증권사는 STO…\"온체인 금융 시대 열린다\" [토크노미 코리아 2026]&nbsp;&nbsp;파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ba2ZTM29kY0FrcHREX2xKTk9ySEcxX2lZQWd2bXNndnNrajZSRzVWSGVkeFQ0Rkp1SEY4X3J4LUU0ZHBZT2lFZGFIcWJMQzVqOFVNLXdLZG5KZ9IBXkFVX3lxTFB5NktIcWROcE9XWjRHY1lKNXpjbS1xdGFEZjZvSVVlZ0pWaE9QYk9QWVlLYTVIUkVUSU94MTFUNHlQTlZlcXZEQno2ZTZ0YURRb0dncW5WNndTUVpHckE?oc=5",
+      "published": "2026-06-11T15:22:11+09:00",
+      "query": "스테이블코인 은행"
     }
   ]
 }
