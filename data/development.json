@@ -1,31 +1,49 @@
 {
-  "updated_at": "2026-06-14T07:41:36.215656+09:00",
+  "updated_at": "2026-06-15T07:47:19.008049+09:00",
   "items": [
     {
-      "id": "442f86844eae",
-      "title": "구마모토는 양산 돌입, 용인은 아직 조성 단계…반도체 경쟁력 가르는 ‘속도’",
-      "source": "광교신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45SXN1OC03dXJvMVlUUmdvOVpvdG1hOXVoS05mNU93X3cwbUExMF9QQTNob1RiQTU0NWwtTVdaQ1RjMnIxaUhWZTZOVTdQMnhwNWxGVTdvVWJzSXQxeHlxc3IxX1ZmQjNa0gFsQVVfeXFMT3VGQTFFSV9tTEQyUlp2ZHJSYTN6UWFqbWxtcGVOc2M4VjBvM3Y4TThFQnNHMm5MWnpzb3JUZVEyd0JZV0h5OGROMW5nX2JYQXN2NG1ZTEh6UDFpLXVwUVNkV3NRUzREWmcwd0Qx?oc=5",
-      "published": "2026-06-13T20:47:42+09:00",
-      "date": "2026-06-13",
+      "id": "0baf838bf03d",
+      "title": "신원식 전 정무부지사 \"새만금 AI 반도체 국가산단, 전북 미래 바꿀 마지막 기회\"",
+      "source": "투데이안",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sN1BHa1k3SmN1QnRFbkJMdGI2RlhDVDZYdWkxbFJKelQ4QWVZeVRtV2xDeE9IWTdlWjl1dlVZUGhYTXdxc0ZEeFEzU2o0UHE0UXFjOXluZFcycGFuemNoTWI3am1kd1Zx?oc=5",
+      "published": "2026-06-14T22:00:28+09:00",
+      "date": "2026-06-14",
       "query": "반도체 국가산단"
     },
     {
-      "id": "796f4df13cf7",
-      "title": "'760조 기대감' 부풀었지만…보상·용수·전력 어떻게?",
-      "source": "네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5adDJkMXNXcVA1bjY0U1NMdGpUZ3VQLTQxNDZDNGgtbUhfb1hwd3Y4NFIzbk4xaXFJNWZxUnJ5MXlnQ0xWOVM2dHJCeHpZWWQ3UzE0?oc=5",
-      "published": "2026-06-13T10:22:00+09:00",
-      "date": "2026-06-13",
+      "id": "85ae890b1bb8",
+      "title": "[에너지이슈] 용인 송전탑, ‘사회적 합의 테이블’로 풀 수 없나...기후위기비상행동, 원론적 비판 넘어 “공론화위원회 구성” 촉구",
+      "source": "산경e뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91QklleGVha3FTSWs1VUJNY0JnNTRoYVhtREZZbjdmVmZ2dVNXc2dya2tuNGs3QnBPZjE1SUJwR2hlOWxkXy1iOUQxZktqZlZHNmhsS2g2X24zQWlONmlqN1JKUVFxZk0?oc=5",
+      "published": "2026-06-14T21:19:51+09:00",
+      "date": "2026-06-14",
       "query": "반도체 국가산단"
+    },
+    {
+      "id": "2b172ebb2e24",
+      "title": "산림재난대응센터 헬기장 논의 답보…북구도시재생활성화 예산 계획 건의",
+      "source": "울산신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91SG41MmYzbUpnM1ptNEtBYmdBT09fX1hNOWJHb1RheGM3Q09hczdSOEZyNnl6Z1FmNThvRnMzQTJIa0FTN3UtOFA0UVFEQkJBMW8xRlJxZk95aV9SVzRQNVNkdDlqQ1dBOW1EZE5n0gFyQVVfeXFMT3VPWVJ0WXFIdUlaNUV5cUpJOVZIdWN0MlBiTFh4dUZ4WUFNeF9VX1VWaVJjTHRpRENId0I0bHRVLVpfaXROdFFSVWFpQU1GR2s3ay1GNTNtRXZKUWVMTlBCSmdqaGpldU5OZ2hLSUtGUFlB?oc=5",
+      "published": "2026-06-14T20:10:00+09:00",
+      "date": "2026-06-14",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "cc179c2b7a21",
+      "title": "울산시의회, 도시재생전략계획·공유재산안 원안가결",
+      "source": "울산매일",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wb0VDUW9DMGZ6cUo2SVk4N3IzVWJ0THpWOWJVQ1dsTlR6NHNCZ1pCME5qYTBuNUFzQWlmSTdMLXphQ0llWTVmU1dsSHBLdVVpMDVyNE9VeWUtbmFfZHpqWC0zU2swcHpUcUHSAW5BVV95cUxQUkVVUHF0NGloeFJMaU96U05rMWRJMjJrSVc0RHUyR0xfWElrdXlpT3pDSUFydU8zR2NjR0hxalZXc2xnbXJtaVM1cXVyVXB6Wjk5cGpTTHNFRlB3ejhMTjAxNUYxckRhRm9JUzc3Zw?oc=5",
+      "published": "2026-06-14T16:34:59+09:00",
+      "date": "2026-06-14",
+      "query": "도시재생 활성화계획"
     },
     {
       "id": "2a218f525359",
       "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
       "source": "자치안성신문",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-06-12T16:00:00+09:00",
-      "date": "2026-06-12",
+      "published": "2026-06-13T16:00:00+09:00",
+      "date": "2026-06-13",
       "query": "반도체 국가산단"
     },
     {
@@ -33,36 +51,9 @@
       "title": "[단독] ‘나노반도체 산단’ 갈수록 수렁…예타 재조사 수요는 단 12곳",
       "source": "v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HNFdRb0g5SUdPbHVjQVFGUjVtVEJreXY1aDJqbDhiMFFFXzNqZFVvQzhtNGo1N0VGaEs5ZXRRWkpwdGMxeHV0eVZNNWVMQ28?oc=5",
-      "published": "2026-06-12T10:17:20+09:00",
+      "published": "2026-06-12T10:17:00+09:00",
       "date": "2026-06-12",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "0e3d8fd4efad",
-      "title": "LH 전담팀 설립 2주 만에 서리풀2지구 지정 임박...주민 보상 협의 남아",
-      "source": "MSN",
-      "link": "https://news.google.com/rss/articles/CBMingNBVV95cUxNaWo4a3lOVmRrTEM4dHg4RzE5U0IzQ0VZa0FHcVloMVJnUGxmSEpfRGs3RjJxaGpDWXNSOFdnUGFfWDhReXp6RXJiSHJabm1sdHg2LV9WdDdWMXlJQlluaHQ3UTRCNm45eHozVTRDMHhBRzdidDV4bHhSWnhkeFRPOWEwekp0dTk1NjVLNTFsM2RaemVQaDNCSm9QcGs4QXF5NGtXUk5EMFMyYm5jX3J2MFQ5OW1uSzhodVBqTGZsVXJVWm5qdUJFOGZWN1Bka0lvUzlpb3RjNDRhaC1VSFh6S0NIUnIxU21ta2NjLVFNNkM5dHM0QTZsN1NLQTlxSmZOalpzZWVSR0g4bFo1bUs3QmRSUi01aGw3MlI0Y0gxQXpXaEZzTFFEd0QwekpxR2pILUZSTXR2bjVOVm9sUXBBUDc4R2kzcFVqdUJNNXNBS2h0eTJBNGpwRzN2bGF0a28wSGk2RlcwajJna0o1cVMyOXVTc04zWU1kS0o5SDJmcEhzZVE2VmZpQW1LdkZiTlYyVVdLRVZHYkUtRngtNlE?oc=5",
-      "published": "2026-06-11T16:01:38+09:00",
-      "date": "2026-06-11",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-06-11T16:00:00+09:00",
-      "date": "2026-06-11",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "0c14d260c276",
-      "title": "올해 첫 LH직접시행 민참 서울 착공, 내년으로…민참 재공고 잇따라 [부동산360]",
-      "source": "헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tRk4zSElzY01Va0tLcEhsWDc4NnZDdGJNbmFjNHBRWWJqXzhFY0pySWtFQ2tCY0toMUl5Vk9Nd2kwS21zdENtd0FyTU50d3RmV3NEQV9n?oc=5",
-      "published": "2026-06-11T10:31:03+09:00",
-      "date": "2026-06-11",
-      "query": "신도시 착공"
     },
     {
       "id": "3b8d62017eff",
@@ -72,6 +63,15 @@
       "published": "2026-06-10T17:28:20+09:00",
       "date": "2026-06-10",
       "query": "반도체 국가산단"
+    },
+    {
+      "id": "ef181f2579c2",
+      "title": "LH 전담팀 설립 2주 만에 서리풀2지구 지정 임박…주민 보상 협의 남아",
+      "source": "네이트",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ia0RucU1MU2Yzd2hQVFVuaUJFbHZKZm5QY280TmM0b3l3TF9CTEt5N1RFUUFhOUtQNVQtZkxMQUxHM2ZrcmE4M0pjVmdFblRFbVp1NGRObzdBTk45NUdISkxWeDRDdmpYOXY4THlDVDhWMjdtQXVvcg?oc=5",
+      "published": "2026-06-10T16:29:00+09:00",
+      "date": "2026-06-10",
+      "query": "LH 지구지정"
     },
     {
       "id": "28ac5610d3d3",
@@ -92,37 +92,19 @@
       "query": "기반시설 인가"
     },
     {
-      "id": "0e0d82950da0",
-      "title": "평택 신평지역, 경기 더드림 재생사업 지속운영단계 선정",
-      "source": "브릿지경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LNmtybFJEZlMwQTJieEotTHlVV29uTFYyYUZ3YzlkOWRkRUZFTVRkdHhhR1VvdEV3eXlxejVUbDFyODZGQXIyZUNOMHJLbm9aNU50ZzhmVDRPZw?oc=5",
-      "published": "2026-06-08T15:52:00+09:00",
-      "date": "2026-06-08",
+      "id": "c436b642155b",
+      "title": "평택 신평지역 경기 더드림 도시재생사업 지속운영단계 공모 최고점 선정",
+      "source": "정도일보",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pczZGTnNZYlpLQk5hdENfV0NyekNpX1Zkckx3MnlIb3ZYNDhTZ0JRclVtS1hWQV8xZ0Fha1M0ajRrSEN1bFY4QkViaEctREtoVFp3UFRnNnFDeDRqUlZqaDlkdmo?oc=5",
+      "published": "2026-06-09T05:50:05+09:00",
+      "date": "2026-06-09",
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "95db5a778a41",
-      "title": "동두천시, 도시재생사업 추진실적평가 ‘최고 등급’",
-      "source": "전국도민일보",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wQi1QT0NpMnF2dXA2cDk3QUlvTmFQS21zS1JVdTBzZnBwLTBGQk8xOHVEakNKclVyZzZ5UUZDZDZDVjYwc0dKZnBZc2JZUjVPMHp0SVJvZnk0NXk3UmVCMVV0Ui1WLU3SAWtBVV95cUxPdjNrSmFRUjVkYktsWXQ0U2JKV2FjM3I3VTFSc2wycnl1Tm0yZzNNemgyaGstTWdFanJqUElSUmUyYUUzMGxkal9KU2t6bDB3b1o2c004QTNGemZYTktNaERnZk5NR29iR0YzRQ?oc=5",
-      "published": "2026-06-08T15:05:11+09:00",
-      "date": "2026-06-08",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "e2f9746b3ca3",
-      "title": "동두천 원도심 바뀐다…도시재생 3년 연속 최고 등급",
-      "source": "일간경기",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90WTA0TmV6cUYyaWl6YnQzZU9iUlpTMDNtcjhkTm1LY2NLYlhka2p0aV8ydG9wY3phVGNEcFA3cXpBeXhZUERzYmxJUDlQRG0taU5GSlF3NEVyN1d2eWppSVJGZTJkb1Rl?oc=5",
-      "published": "2026-06-08T11:29:21+09:00",
-      "date": "2026-06-08",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "f8e158398518",
+      "id": "5bd182533c64",
       "title": "담양 보촌지구 착공…광주 배후 2689세대 신도시 조성",
       "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1pMWFBZ2J4UkxHRXpsQU5NNFplbkR0czBLNkw1Q1J4OXk0cVFZT3hQdHZQU083N0dQWEVYWGpYUnBhWDhTV1cxSFpwYjVwRjNWMWVFdA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfWThQbmZPekg1Y1hMT1lkaTZXRTNtY25WamlqX09WeXhPdi1Kc1g5NzYzVVhHUFpfU0kzcjZ4b1l3d0lSUVgtazk2OA?oc=5",
       "published": "2026-06-08T10:33:02+09:00",
       "date": "2026-06-08",
       "query": "신도시 착공"
