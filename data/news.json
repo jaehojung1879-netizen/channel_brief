@@ -1,42 +1,102 @@
 {
-  "updated_at": "2026-06-15T07:45:30.262964+09:00",
+  "updated_at": "2026-06-16T08:20:37.886960+09:00",
   "headline": {
-    "id": "86850a9517ff",
-    "title": "“은행 점포 1곳 늘면 신생기업 29개 증가”",
-    "source": "서울경제",
-    "summary": "“은행 점포 1곳 늘면 신생기업 29개 증가” 서울경제",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uOUhnMnhOX2FYVXVUYmlYYTJhRmNjcjA4RFp1T1lFYnBDdkxxZnBhX2cwVm9KSmZxSm56RkFuS084SEltUkJETVNmb3BvTUR1eEHSAVNBVV95cUxQelU3Sm0yRGRZNzFhOFhDc2NOS0d2Qm5wS0NYVWFXZFN1ZWZJWjBaTkVxd2xFSE5aYkF0bS1JNjB6Ykk3SGtHWFBEbzM3VF9BOTh5SQ?oc=5",
-    "published": "2026-06-14T15:38:22+09:00",
-    "query": "은행 점포",
+    "id": "a52b0dbb49ea",
+    "title": "하나은행, 영업점·본점 직원들 대상 '2026 연금고수전' 개최",
+    "source": "v.daum.net",
+    "summary": "하나은행, 영업점·본점 직원들 대상 '2026 연금고수전' 개최 v.daum.net",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kWXBscXYyZUgxWDFsMUlUeUZmQllrS1lwOXhac2hSSGFiT1ZPSEZITzJ5eFpIenctX0dscm1VaHdETllmWkpWV3E5c20yTVk?oc=5",
+    "published": "2026-06-15T09:59:00+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 2,
-    "_score": 13.0,
+    "rank": 1,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "87e30f5c9d50",
-        "title": "은행점포 줄어든 지역 신생기업 수도 감소",
-        "source": "매일경제",
-        "summary": "은행점포 줄어든 지역 신생기업 수도 감소 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDMDM3VGNFNERsMlNPT29rMVBKNTNaNjlPUEZzWC1QYlU0NDhKbnRhOC1sMUpRZWdUSlhxSXNzZUVTTnl2S1p0aHpxdkJMX2otZmR5aw?oc=5",
-        "published": "2026-06-14T17:45:53+09:00",
+        "id": "68e9204b49e4",
+        "title": "[마포나루의 아침] 금융 소외지역 은행 점포 남겨둬야",
+        "source": "글로벌이코노믹",
+        "summary": "[마포나루의 아침] 금융 소외지역 은행 점포 남겨둬야 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU2R5VzVSX2JEeDJJbm55bzlwdGRLYmV3LTNzcm96ZkRaSlYzbm9uVGJTVm8yTmpqbWNPWGZFaGU1TDBhX2dzRW84SkNEZlJlazQ2a1VFU0xtMC01eGlRNS1IZGNWLS1pSmxWaXdlcUl0RF91SmM2X0I2MllSSHpPUTNMSk0?oc=5",
+        "published": "2026-06-16T05:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "d340a4263c28",
-        "title": "산업연 “은행 점포 줄면 폐업↑·창업↓”",
-        "source": "부산일보",
-        "summary": "산업연 “은행 점포 줄면 폐업↑·창업↓” 부산일보",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1QZEdUTkdQLVN2eldJUlI0OF8ybDJfa1g0dFE3SDFFUWNvelVPazQ3R3VIN19ZNXhvMDN4ZkxYUHktbXZqQjFZcXY1djh5d0E2UG5QSUsxR3hqdWpnelZfRTR1N2laVG41TU5qaUNaY1hVNF93?oc=5",
-        "published": "2026-06-14T16:26:52+09:00",
-        "query": "은행 점포",
+        "id": "8080d09bcebf",
+        "title": "전북은행, 9월까지 전 영업점 ‘무더위 쉼터’ 운영",
+        "source": "전북도민일보",
+        "summary": "전북은행, 9월까지 전 영업점 ‘무더위 쉼터’ 운영 전북도민일보",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORlJpcUNRcG5lVTBPSWI3dzFHMndVVnFuMktQM2U5bkhpQXMwVURtSDNWVHpINE1pNS1GOTFwUGhVeF9CWmZJU1lwR04ySjctNU94UGsyMjEwLWxHWTJZZnlCd1VKTDNfVGRRVWZVcG5oREk5TWhGQ2xoeWtGZEY3aTNIck5SMFU?oc=5",
+        "published": "2026-06-15T18:23:09+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "86dcef9cfae1",
+        "title": "신한은행, 하계 체험형 인턴 50명 선발…영업점 실무·채용 연계 기회",
+        "source": "베타뉴스",
+        "summary": "신한은행, 하계 체험형 인턴 50명 선발…영업점 실무·채용 연계 기회 베타뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iTS1IcUxnLXQ0Z1NUMGRpZE82Y3dwODNoR1RyQ1JBM0tqbWN4ZTdrMWE4Y1V3a2ljbWxadDNibnc0ellsMlVZVVBUNWUxaXN3bm9mWlY5NEtJazJ0b1ZUWjFHNkg?oc=5",
+        "published": "2026-06-15T15:02:24+09:00",
+        "query": "은행 영업점",
         "engine": "google",
         "rank": 10,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "5d062a5ff833",
+        "title": "사라지는 은행점포들…지역 '중기 금융고립' 키운다",
+        "source": "v.daum.net",
+        "summary": "사라지는 은행점포들…지역 '중기 금융고립' 키운다 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1nR0picWZQZFFzLWpLN0lBSFlpTDJfQ1hPTDFxUUlVb1VaVHJ0SlNsaEgxUkh1WTZnS1hITkR2c0JUT0VBOFE?oc=5",
+        "published": "2026-06-15T14:09:02+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "6844abc5f4cc",
+        "title": "은행 점포 축소, 지역·기업 생멸 영향…'닭이 먼저나, 달걀이 먼저냐' 시각차",
+        "source": "파이낸셜포스트",
+        "summary": "은행 점포 축소, 지역·기업 생멸 영향…'닭이 먼저나, 달걀이 먼저냐' 시각차 파이낸셜포스트",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RUjRxTTA4WXAyazdmbmZzZlc1QktwMFdJZ2xRM0NLS0Zpa3VkcWJpX1JJRzlqVHktR3FHQTF4RC1CbFY3bllOSmVLLTlXYXhINzlOemlDNnMzWlNJVWY1eXBSdlBNWDlTX01BNDJRUFFYUHlv?oc=5",
+        "published": "2026-06-15T13:08:47+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 11,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "4230b117ab55",
+        "title": "폐점 급급한 은행권…산업연 \"점포 1개 줄면 지역 신생기업 29개 소멸\"",
+        "source": "미디어펜",
+        "summary": "폐점 급급한 은행권…산업연 \"점포 1개 줄면 지역 신생기업 29개 소멸\" 미디어펜",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tSnZzeVVTbUpFaTJROEhCNDFnb3l5cEtCbTBGMkVYb19kczhWTVdpQWgxT3R0bU55a1hDX1JMRl9TTFJ5d0NZb0xUT3o1Y1pIYlkyR1E5ajjSAVhBVV95cUxNLUp2c3lVU21KRWkyUThIQjQxZ295eXBLQm0wRjJFWG9fZHM4Vk1XaUFoMU90dG1OeWtYQ19STEZfU0xSeXdDWW9MVE96NWNaSGJZMkdROWo4?oc=5",
+        "published": "2026-06-15T11:45:32+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 14,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "0d0adcf81f68",
+        "title": "하나은행 \"최고의 연금 고수는 동울산지점 조주희 과장\"",
+        "source": "파이낸셜뉴스",
+        "summary": "하나은행 \"최고의 연금 고수는 동울산지점 조주희 과장\" 파이낸셜뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PT2hpLWRJVGZ6X3ZRVFJiOEEyakxGTWtOcjNDYjJtMUYyNVFrc25fXzZGUENfSjZUenRNcVVOZjU0X19nRWxkUGpEcThLUjFhMGdSSVhvQVhnQQ?oc=5",
+        "published": "2026-06-15T11:02:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -46,21 +106,21 @@
         "summary": "비대면 금융의 그늘…은행 점포 감소에 지역기업도 타격 SR타임스",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZVGdQT1FSOFF1eEZpT0RiM244RDVoMHhGaXUwdTdkMWVnbkNtZmtUaHBQc0Y3OS1pUUJnRWUxdnppN3hsd0NkTW12VVcweEZwd2VsMUhpc3hXcjJCR2JMcnFpYm43aE3SAWtBVV95cUxNTnVGYzdTN2UyaWZmSVVjY0xHcFZzdGUtSHpXbExZdEFhc3FzRURDLVp5akYyazJ3VlVsUHMyaTZWdW5VNWtBMHJEb1ZXbjV1NDY3MkQySGpVb2NENHpBTnR4Mm9TODVLekNxdw?oc=5",
         "published": "2026-06-14T16:18:12+09:00",
-        "query": "은행 점포",
+        "query": "은행 공동점포",
         "engine": "google",
-        "rank": 11,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "4192638012f5",
-        "title": "Sh수협은행, 전국 영업점 ‘무더위 쉼터’로 운영",
-        "source": "수산인신문",
-        "summary": "Sh수협은행, 전국 영업점 ‘무더위 쉼터’로 운영 수산인신문",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RWjNvNE04OW1CR0xtZGtfaXc3Z29FRUViR01ZaFFJVzVCLWtkNzhUVVVhN19nLU5oQkVBSldVOXJwTEpNTllfUU0xOTlmTldEQlNkc1NRdXJvSW1VdURvM0NlMy1OY0lRVlE?oc=5",
-        "published": "2026-06-14T14:09:46+09:00",
-        "query": "은행 영업점",
+        "id": "86850a9517ff",
+        "title": "“은행 점포 1곳 늘면 신생기업 29개 증가”",
+        "source": "서울경제",
+        "summary": "“은행 점포 1곳 늘면 신생기업 29개 증가” 서울경제",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uOUhnMnhOX2FYVXVUYmlYYTJhRmNjcjA4RFp1T1lFYnBDdkxxZnBhX2cwVm9KSmZxSm56RkFuS084SEltUkJETVNmb3BvTUR1eEHSAVNBVV95cUxQelU3Sm0yRGRZNzFhOFhDc2NOS0d2Qm5wS0NYVWFXZFN1ZWZJWjBaTkVxd2xFSE5aYkF0bS1JNjB6Ykk3SGtHWFBEbzM3VF9BOTh5SQ?oc=5",
+        "published": "2026-06-14T15:38:22+09:00",
+        "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,20 +132,18 @@
         "published": "2026-06-14T13:10:11+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 12
       },
       {
-        "id": "b3cbfa73048b",
+        "id": "1fef3f5d0982",
         "title": "산업硏 \"은행 점포 1곳당 신생기업 29곳 늘어\"",
         "source": "v.daum.net",
         "summary": "산업硏 \"은행 점포 1곳당 신생기업 29곳 늘어\" v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DTkN6OWRfRzJhUl9uNEQ0eWJPamFxMTNnVEhRdGNmVUVoQjRjbEpnTUJmTklkQlBaQ2xaYnk4YnFKSEh1SXpvYm5WZ1JwWjA?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5NWlM5QjRsZDUxUkxMaWJ5RGh2M28tR1lIalBNT3o4V3l0N1FfTDBmUzhVcWxraDQyaVUxLWl3VVVFQm9IWFE?oc=5",
         "published": "2026-06-14T12:45:02+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 7
       },
       {
         "id": "bad89c4a3f1c",
@@ -96,8 +154,7 @@
         "published": "2026-06-14T12:09:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 9
       },
       {
         "id": "33ee64ea9f09",
@@ -108,8 +165,18 @@
         "published": "2026-06-14T12:06:51+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 13
+      },
+      {
+        "id": "6453cd587552",
+        "title": "은행 점포 1곳에 기업 62곳 생사 달려…KIET 충격 보고서",
+        "source": "동행일보",
+        "summary": "은행 점포 1곳에 기업 62곳 생사 달려…KIET 충격 보고서 동행일보",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxNkFiTktZY0ZhMjNrVmJZRGZwc24waDRZSm1nZU5IdnYxWEs1Q00tYnEzUXZ5aEZRNWRPd3RJSHAtV3dUTVctN2l1QlFteUFkc3RFcGVEdUpVaFd2TzJ3dXJlRWtITmpj?oc=5",
+        "published": "2026-06-14T11:05:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 15
       },
       {
         "id": "849482180992",
@@ -120,19 +187,7 @@
         "published": "2026-06-14T11:00:02+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "a89bf3b611f0",
-        "title": "신한은행, 전국 영업점·본부서 ‘사랑의 헌혈 나눔’ 캠페인",
-        "source": "더게이트",
-        "summary": "신한은행, 전국 영업점·본부서 ‘사랑의 헌혈 나눔’ 캠페인 더게이트",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpTy02bGhYaE1CejlMaWpUWUNJdk1zR251Y1ZuUVdMbjdTQjdBQ3lBYS15THR2bmRHRU9uNUlYN2R5Z2dIdWNGUzZHYnpEaGtwbnF0cy1yVkxRRFlnVGRJd01YOEZUY0Rw0gFsQVVfeXFMTWJxaWI5UG9QTDZwdHF4UWh4LTRzS2RFN1JPSGF2STlHZ2VFV3d2d3I4NDF4eFVzZkV0WEtqRS1Ca3BoaHNnekF4ZkhHaVVORTEtUmUxZkJiMDFXMjFOei1nRVRLRC1BSWlvVEcz?oc=5",
-        "published": "2026-06-14T09:08:19+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 9
+        "rank": 16
       },
       {
         "id": "70201049f7b4",
@@ -143,22 +198,23 @@
         "published": "2026-06-12T12:30:03+09:00",
         "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 9
-      },
-      {
-        "id": "b71edb699d55",
-        "title": "점포 폐쇄···금융 당국 역할 촉구한 한국씨티은행노동자들",
-        "source": "참여와혁신",
-        "summary": "점포 폐쇄···금융 당국 역할 촉구한 한국씨티은행노동자들 참여와혁신",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91dF9QSHlVUnFaLVdNUmVGQkNIWkI4ZzVIV3Bjdlk5OVB1c040dmQxVXR2VUdDcm9SR3lYQ1dwaVVqMWZiZjY2a3pOSlpoSlRwYzdEMFFkVTNoVlJmRjNyVkJiam5VSVBPeWc5RGdn?oc=5",
-        "published": "2026-06-10T15:28:10+09:00",
-        "query": "은행 폐쇄",
-        "engine": "google",
-        "rank": 4
+        "rank": 10
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "7b1e745bfe25",
+        "title": "신한은행, 채용 특전 연계한 2026 하계 체험형 청년인턴 모집",
+        "source": "PRESS9",
+        "summary": "신한은행, 채용 특전 연계한 2026 하계 체험형 청년인턴 모집 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QTmplbTNYRkVBY1luME9mVEg5SzIzVWZhWnVBUTlLYXcyV3NMRjRfbmkxbjlMNnhieE9NcWFQVjFoSTlvaWdtNmllbnJZOGZVN1c2N2tsLU9oc1NDTTd0TXh3Q2w?oc=5",
+        "published": "2026-06-15T15:19:41+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "f6878b20310a",
         "title": "[K-은행 영토확장②] 신한, '글로벌 원톱' 굳히기···동남아 넘어 중앙아로",
@@ -168,7 +224,7 @@
         "published": "2026-06-14T17:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -180,7 +236,7 @@
         "published": "2026-06-14T09:45:31+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -192,7 +248,7 @@
         "published": "2026-06-12T12:30:03+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
