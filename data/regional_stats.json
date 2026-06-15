@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-08T15:29:35+09:00",
+  "as_of": "2026-06-15T09:10:08+09:00",
   "regions": {
     "강원 강릉시": {
       "sido": "강원",
@@ -5755,11 +5755,16 @@
     }
   },
   "diagnostics": {
-    "source": "r_one",
-    "kosis_key": "skip",
-    "r_one_key": "set",
+    "source": "kosis",
+    "kosis_key": "set",
+    "r_one_key": "skip",
     "region_count": 216,
-    "seoul_key": "skip",
+    "seoul_key": "set",
+    "kosis_pop_error": "kosis_pop_request_failed: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/Param/statisticsParameterData.do?orgId=101&tblId=DT_1B040A3&itmId=T20&objL1=ALL&format=json&jsonVD=Y&prdSe=M&newEstPrdCnt=1&apiKey=NzcxNjE3ODE1YmMwZjI3YTJmNWFlN2ZiZmMwMTFjNzA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='kosis.kr', port=443) at 0x7f765eb90b50>, 'Connection to kosis.kr timed out. (connect timeout=60)'))\"))",
+    "kosis_biz_error": "kosis_biz_request_failed: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/Param/statisticsParameterData.do?orgId=101&tblId=DT_1K52001&itmId=T01&objL1=ALL&format=json&jsonVD=Y&prdSe=Y&newEstPrdCnt=1&apiKey=NzcxNjE3ODE1YmMwZjI3YTJmNWFlN2ZiZmMwMTFjNzA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='kosis.kr', port=443) at 0x7f765eb90610>, 'Connection to kosis.kr timed out. (connect timeout=60)'))\"))",
+    "kosis_income_error": "kosis_income_request_failed: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/Param/statisticsParameterData.do?orgId=101&tblId=DT_1L9H001&itmId=T01&objL1=ALL&format=json&jsonVD=Y&prdSe=Y&newEstPrdCnt=1&apiKey=NzcxNjE3ODE1YmMwZjI3YTJmNWFlN2ZiZmMwMTFjNzA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='kosis.kr', port=443) at 0x7f765eb932d0>, 'Connection to kosis.kr timed out. (connect timeout=60)'))\"))",
+    "seoul_warn": "seoul_init_xml_error: ERROR-332: 요청종료위치 값을 확인하십시오.\n요청인자 중 END_INDEX를 확인하십시오.",
+    "seoul_districts": 0,
     "population_ok": 0,
     "population_fail": 216,
     "businesses_ok": 0,
