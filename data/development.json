@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-06-16T08:22:24.475830+09:00",
+  "updated_at": "2026-06-17T08:08:44.900633+09:00",
   "items": [
+    {
+      "id": "2d88ed8f9aa9",
+      "title": "[기획] 반도체특별법 시행령 논란…\"수도권 배제, 득인가 실인가?\"",
+      "source": "비즈월드",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05MEs3dkFJb1VkaWhrZjk5UVBwd3FJblBuWThYMmtUUlN6UVY4UEc2SzlERjhabVlpOFFNTDF2WnNSd1Q2SWRFZF9wR1ROdEZSU3lyOS05UzhrSmRELW9oanZ4Z0d3NnFIalE?oc=5",
+      "published": "2026-06-16T15:07:00+09:00",
+      "date": "2026-06-16",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "24f957184d1c",
+      "title": "하남, 신장동 도시재생 뉴딜사업 미완 종결",
+      "source": "시티뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9ja0IzeFNxM0VxaXZvYUlQUVJNXy1mLXhwYVI2Y0hlbVpvb2hLOU1pZC1PRDR2RUxpWUhjdEtNa1lndUE?oc=5",
+      "published": "2026-06-16T12:53:00+09:00",
+      "date": "2026-06-16",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "d44fa17268b7",
+      "title": "위례성심병원, 복지부 사전 승인 취득…내년 초 착공 목표",
+      "source": "MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XbWMtWW9HaFJUUGE5Z2Nya3hJTzg0eDhtamhZVzFlZjhWNUI1LUtvTUp1Rk5XVWZ0T3d0TmVEX3RsdEpuTjYtX2RXV3U0MVh6eVVtQWlkQzNvN0VnVXNHLVI3ZjI?oc=5",
+      "published": "2026-06-16T10:29:40+09:00",
+      "date": "2026-06-16",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "2ea7374d5e78",
+      "title": "의정부시도시재생지원센터, 망월사와 지속 가능한 '경기도형 더드림 도시재생사업' 위한 업무협약 체결",
+      "source": "미디어투데이",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMGRUSzNUM1h6TXpIQW9FbFFOQUtvY3MwdWxPcTJjR2xfUGN5QUFFSzhuOVdtUWllVUNsOEgwNF9KRHNZU20xWVczRG9tdUZac0l6ZXdfeC02eDlqMXllb29va3VtOUxIb3hidWNJNGRkN2szM281UmxFOWJtZGFKaHd1Z2UtelpGNWk1OVlnZm56czVHc1ZkaEhUcHRPTWlRaW51dA?oc=5",
+      "published": "2026-06-16T09:52:00+09:00",
+      "date": "2026-06-16",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-06-15T16:00:00+09:00",
+      "date": "2026-06-15",
+      "query": "반도체 국가산단"
+    },
     {
       "id": "0baf838bf03d",
       "title": "신원식 전 정무부지사 \"새만금 AI 반도체 국가산단, 전북 미래 바꿀 마지막 기회\"",
@@ -20,30 +65,12 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-06-14T16:00:00+09:00",
-      "date": "2026-06-14",
-      "query": "반도체 국가산단"
-    },
-    {
       "id": "ea3b8a519258",
       "title": "'760조 기대감' 부풀었지만…보상·용수·전력 어떻게?",
       "source": "v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVUDNjZWVCWUZYNWlZMnFlc2psVWhmYzh6Tnh0TGtzRTh2ajVJVllzU3Jiem1VdW43WWdsMHNPWjgwNW9SMlM4OS1CNWhnQTQ?oc=5",
       "published": "2026-06-13T10:21:05+09:00",
       "date": "2026-06-13",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "5feaa81755da",
-      "title": "[단독] ‘나노반도체 산단’ 갈수록 수렁…예타 재조사 수요는 단 12곳",
-      "source": "KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ma0dRTWoyRjhFQXl2N0h5aHJ1Q3hsdUJjblFMM3ZzVjlWb0JFa3VkdHBoZTFBTkxWWlZweTd4Z0dhbVctdkJlZ2U5TXNRbkFGMFZhLUdreGxWRThPeWJGeTlQbHRXdw?oc=5",
-      "published": "2026-06-12T07:39:00+09:00",
-      "date": "2026-06-12",
       "query": "반도체 국가산단"
     },
     {
@@ -63,33 +90,6 @@
       "published": "2026-06-10T17:28:20+09:00",
       "date": "2026-06-10",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "ef181f2579c2",
-      "title": "LH 전담팀 설립 2주 만에 서리풀2지구 지정 임박…주민 보상 협의 남아",
-      "source": "네이트",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ia0RucU1MU2Yzd2hQVFVuaUJFbHZKZm5QY280TmM0b3l3TF9CTEt5N1RFUUFhOUtQNVQtZkxMQUxHM2ZrcmE4M0pjVmdFblRFbVp1NGRObzdBTk45NUdISkxWeDRDdmpYOXY4THlDVDhWMjdtQXVvcg?oc=5",
-      "published": "2026-06-10T16:29:00+09:00",
-      "date": "2026-06-10",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "28ac5610d3d3",
-      "title": "기흥1구역 재건축조합 정비기반시설(공원) 공원조성계획 심의 및 실시계획인가업체 선정 입찰공고",
-      "source": "한국주택경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1WZFdUV08zVEh3U1lpYkhZSEFfRm56My1jbllZeWRndkpoWXB4czhTQjBKYnAwVktFUTVvVzdOejZhdm5ZS29XczI3Yy0zZDhLRjJjSEkxdWVwbERLeXhXMkcxb29yZlpL?oc=5",
-      "published": "2026-06-09T13:49:42+09:00",
-      "date": "2026-06-09",
-      "query": "기반시설 인가"
-    },
-    {
-      "id": "2226f606ca80",
-      "title": "기흥1구역 재건축조합 정비기반시설도로설계 및 실시계획인가업체 선정 입찰공고",
-      "source": "한국주택경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iNWJSWmI4Ui1uT2p0RzNHRDk5NlB2RGU0SThwMG91VExSdEZPY1NValE3dWN2Mk1YaURrbjhSdFpXWHdISWN2c3ZMZU1heFJ0cWhTZDYxVEJ0ZFp3cmZPSm9wZlI3aS1X?oc=5",
-      "published": "2026-06-09T13:26:33+09:00",
-      "date": "2026-06-09",
-      "query": "기반시설 인가"
     }
   ]
 }
