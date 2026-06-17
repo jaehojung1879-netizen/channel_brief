@@ -1,12 +1,21 @@
 {
-  "updated_at": "2026-06-17T08:08:44.900633+09:00",
+  "updated_at": "2026-06-18T08:04:29.119143+09:00",
   "items": [
     {
-      "id": "2d88ed8f9aa9",
-      "title": "[기획] 반도체특별법 시행령 논란…\"수도권 배제, 득인가 실인가?\"",
-      "source": "비즈월드",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05MEs3dkFJb1VkaWhrZjk5UVBwd3FJblBuWThYMmtUUlN6UVY4UEc2SzlERjhabVlpOFFNTDF2WnNSd1Q2SWRFZF9wR1ROdEZSU3lyOS05UzhrSmRELW9oanZ4Z0d3NnFIalE?oc=5",
-      "published": "2026-06-16T15:07:00+09:00",
+      "id": "c449f0dad693",
+      "title": "환경단체 “호남 반도체 패키징 공장은 본질 왜곡한 미봉책”",
+      "source": "한겨레",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UR2k4Zm9jUkNYTW5RUGpSV01CRjlwendtTGMteEwxc2ZQRnBkNkUzSDM2NE5qNXhZUHFIUFFIeXQ1bE5rbDVIdTk0UmFJdmRueWt3bWpZRm9rTlV1YU5PQVUwdVVVWWpBT08tdw?oc=5",
+      "published": "2026-06-17T22:45:48+09:00",
+      "date": "2026-06-17",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-06-16T16:00:00+09:00",
       "date": "2026-06-16",
       "query": "반도체 국가산단"
     },
@@ -29,24 +38,6 @@
       "query": "신도시 착공"
     },
     {
-      "id": "2ea7374d5e78",
-      "title": "의정부시도시재생지원센터, 망월사와 지속 가능한 '경기도형 더드림 도시재생사업' 위한 업무협약 체결",
-      "source": "미디어투데이",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMGRUSzNUM1h6TXpIQW9FbFFOQUtvY3MwdWxPcTJjR2xfUGN5QUFFSzhuOVdtUWllVUNsOEgwNF9KRHNZU20xWVczRG9tdUZac0l6ZXdfeC02eDlqMXllb29va3VtOUxIb3hidWNJNGRkN2szM281UmxFOWJtZGFKaHd1Z2UtelpGNWk1OVlnZm56czVHc1ZkaEhUcHRPTWlRaW51dA?oc=5",
-      "published": "2026-06-16T09:52:00+09:00",
-      "date": "2026-06-16",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-06-15T16:00:00+09:00",
-      "date": "2026-06-15",
-      "query": "반도체 국가산단"
-    },
-    {
       "id": "0baf838bf03d",
       "title": "신원식 전 정무부지사 \"새만금 AI 반도체 국가산단, 전북 미래 바꿀 마지막 기회\"",
       "source": "투데이안",
@@ -54,15 +45,6 @@
       "published": "2026-06-14T22:00:28+09:00",
       "date": "2026-06-14",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "2b172ebb2e24",
-      "title": "산림재난대응센터 헬기장 논의 답보…북구도시재생활성화 예산 계획 건의",
-      "source": "울산신문",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91SG41MmYzbUpnM1ptNEtBYmdBT09fX1hNOWJHb1RheGM3Q09hczdSOEZyNnl6Z1FmNThvRnMzQTJIa0FTN3UtOFA0UVFEQkJBMW8xRlJxZk95aV9SVzRQNVNkdDlqQ1dBOW1EZE5n0gFyQVVfeXFMT3VPWVJ0WXFIdUlaNUV5cUpJOVZIdWN0MlBiTFh4dUZ4WUFNeF9VX1VWaVJjTHRpRENId0I0bHRVLVpfaXROdFFSVWFpQU1GR2s3ay1GNTNtRXZKUWVMTlBCSmdqaGpldU5OZ2hLSUtGUFlB?oc=5",
-      "published": "2026-06-14T20:10:00+09:00",
-      "date": "2026-06-14",
-      "query": "도시재생 활성화계획"
     },
     {
       "id": "ea3b8a519258",
@@ -74,22 +56,13 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-06-11T16:00:00+09:00",
+      "id": "0c14d260c276",
+      "title": "올해 첫 LH직접시행 민참 서울 착공, 내년으로…민참 재공고 잇따라 [부동산360]",
+      "source": "헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tRk4zSElzY01Va0tLcEhsWDc4NnZDdGJNbmFjNHBRWWJqXzhFY0pySWtFQ2tCY0toMUl5Vk9Nd2kwS21zdENtd0FyTU50d3RmV3NEQV9n?oc=5",
+      "published": "2026-06-11T10:31:03+09:00",
       "date": "2026-06-11",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "3b8d62017eff",
-      "title": "SK는 뼈대 올리는데···삼성 반도체 산단, 발주부터 ‘삐걱’",
-      "source": "시사저널e",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5QS1JM1J3X2RYOHdZdzNOOVA4d1h3LTRDeDNxYkI5NWsxMk45a1NhNXg2cEZPdm5MWXJ2Ny1heFlNd1hRekJJQXRGNWpWdkFyVnV5cktWZ3B4bi0xbGJldkVoeFFsbEFuV1RfMU45Rk1EZ9IBdkFVX3lxTE1vdE5kZFdmQlp5TUhIb2J5ekoyNmtzY3ZxeUJtS0R0VnB6LWZXaW9HcnNKa1A4T3l6V21PdEUxV2ZRR3ptdldwa09NZHktZldlOU12dmY2SUszOFMwWlpkRkJ1TUZUaGRvVzR5dFhZT21CTXZXNVE?oc=5",
-      "published": "2026-06-10T17:28:20+09:00",
-      "date": "2026-06-10",
-      "query": "반도체 국가산단"
+      "query": "신도시 착공"
     }
   ]
 }
