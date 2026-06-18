@@ -1,14 +1,32 @@
 {
-  "updated_at": "2026-06-18T08:04:29.119143+09:00",
+  "updated_at": "2026-06-19T08:22:11.716452+09:00",
   "items": [
     {
-      "id": "c449f0dad693",
-      "title": "환경단체 “호남 반도체 패키징 공장은 본질 왜곡한 미봉책”",
-      "source": "한겨레",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UR2k4Zm9jUkNYTW5RUGpSV01CRjlwendtTGMteEwxc2ZQRnBkNkUzSDM2NE5qNXhZUHFIUFFIeXQ1bE5rbDVIdTk0UmFJdmRueWt3bWpZRm9rTlV1YU5PQVUwdVVVWWpBT08tdw?oc=5",
-      "published": "2026-06-17T22:45:48+09:00",
-      "date": "2026-06-17",
+      "id": "48a74e8286c6",
+      "title": "\"국가산단은 정치가 아니라 미래다,\" 용인특례시 이상일 시장의 경계가 필요한 이유",
+      "source": "한국글로벌뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tUks0RnJ6SHZCLUVVekN3YUsycm1YRno3LTJZVXFQdVBmVmZvcC1Rd1VWQnFzRkxEOXNXTUJEUzhRZDhjQklKTmhHSC0wOTVCUHRLVjZRTUNRVEU1Xzh3bQ?oc=5",
+      "published": "2026-06-19T00:20:11+09:00",
+      "date": "2026-06-19",
       "query": "반도체 국가산단"
+    },
+    {
+      "id": "f598fbf93186",
+      "title": "“반도체 산단·송전망 논의하자”···전북환경운동연합, 이원택 당선인에 공개토론 제안",
+      "source": "경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YSzh6ODhGNml5cmgtbndOcmJYaXJaTEI4Rmw1bkRoblF3S1ZQSy13LVJiX2F3aXRmTkNCRlRqLTB3NDh5enlsbE5RVzNyZWVLOWdVaG83QldGd9IBX0FVX3lxTE1adkZubkxkZmtEVFlPM1E2RmZ5OURNTHIyQzFIVExla01tNXh4ZzFrejdlNVQ5Mmxkd3h3b1VMeHlLVEJsYmlEQTA0emdjdUYyaFNuOWpXWk45ZVNNY0JN?oc=5",
+      "published": "2026-06-18T10:44:00+09:00",
+      "date": "2026-06-18",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "036b51aabdd0",
+      "title": "고양 대곡지구 지장물 조사 용역 착수…9천400가구 공급 시동",
+      "source": "KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJU20yaXlsYkJRdG9fN2hkdUxHUmJfT0w4M05ZdFk1dGpNZVZqaWJRd0p0X1BERHQtbzN1QTNEQ0xrWHhyY0pnZHlXM2JzVGZNa1hvQnF3VGRsRk9BLWV6NWFmeVBuLUIxV183TDZNUzJFdw?oc=5",
+      "published": "2026-06-18T08:17:49+09:00",
+      "date": "2026-06-18",
+      "query": "LH 지구지정"
     },
     {
       "id": "2a218f525359",
@@ -45,24 +63,6 @@
       "published": "2026-06-14T22:00:28+09:00",
       "date": "2026-06-14",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "ea3b8a519258",
-      "title": "'760조 기대감' 부풀었지만…보상·용수·전력 어떻게?",
-      "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVUDNjZWVCWUZYNWlZMnFlc2psVWhmYzh6Tnh0TGtzRTh2ajVJVllzU3Jiem1VdW43WWdsMHNPWjgwNW9SMlM4OS1CNWhnQTQ?oc=5",
-      "published": "2026-06-13T10:21:05+09:00",
-      "date": "2026-06-13",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "0c14d260c276",
-      "title": "올해 첫 LH직접시행 민참 서울 착공, 내년으로…민참 재공고 잇따라 [부동산360]",
-      "source": "헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tRk4zSElzY01Va0tLcEhsWDc4NnZDdGJNbmFjNHBRWWJqXzhFY0pySWtFQ2tCY0toMUl5Vk9Nd2kwS21zdENtd0FyTU50d3RmV3NEQV9n?oc=5",
-      "published": "2026-06-11T10:31:03+09:00",
-      "date": "2026-06-11",
-      "query": "신도시 착공"
     }
   ]
 }
