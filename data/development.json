@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-06-20T07:34:41.147304+09:00",
+  "updated_at": "2026-06-21T07:47:34.390492+09:00",
   "items": [
+    {
+      "id": "0f96adebb98b",
+      "title": "이상일 용인시장 \"광주 국회의원 발언, 용인 반도체 국가산단 흔드는 것\"",
+      "source": "뉴스로드",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GTjBfREw5T3dWNElneUxHOERoYTE5aTBabmR1OS1idko1SVR3clVxZVl4UC1seHFsVDVpRzhNbnlhT1F2eVBWQTFNVkVFMVU0VVdHd0FQcUdlaVFPUlBXVTh0cVRFcFRfRTRCVw?oc=5",
+      "published": "2026-06-20T20:45:31+09:00",
+      "date": "2026-06-20",
+      "query": "반도체 국가산단"
+    },
     {
       "id": "185ac8820c8b",
       "title": "[말말말] 이상일 용인시장, “용인 반도체 국가산단 흔들기 중단해야”",
       "source": "경인매일",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HVUx4WUZBbDRQbmQ5bVJvTUhkbDMwSWhjZW5ZTlBYdmV3TWpLVERUWVUzaFNaUGltcmJ4SEFZeXN4LWcwT2tja0Nzb2NCYXJMQ1E3SGI4RERLc1gzMV9KTFFsaTNyeUxf?oc=5",
       "published": "2026-06-19T18:36:59+09:00",
+      "date": "2026-06-19",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-06-19T16:00:00+09:00",
       "date": "2026-06-19",
       "query": "반도체 국가산단"
     },
@@ -20,33 +38,6 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "a8b6fff9bf80",
-      "title": "이상일 용인시장, 광주 정치권 겨냥 “국가산단 흔들기 다시 시작”",
-      "source": "경기일보",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QNEVuRXRMeER6QkVfRUFCTmozeHFkTFFRZWZJdmR1cDVmcVRBSW1wdURIWjJNa2Ywd2J2MVVUR3o2UHlBa1lvdjgxbG1ieU9OckNTanFVOG1tNFk?oc=5",
-      "published": "2026-06-19T12:04:00+09:00",
-      "date": "2026-06-19",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "069321a49fda",
-      "title": "이상일 용인특례시장 “정부, 용인 반도체 국가산단 계획대로 조성할지 밝혀야”",
-      "source": "유교신문",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05d2tPYzRtR3RpeHhYcFp5a1NYZDRYdjUyX0JoNktfNVlzTFhvczM1RHJvWWUwaUpTZktzNkxhNVFyR0pMMk5zeF9uWUFzNHFlSlJISkJWNmxoR1g3RHc?oc=5",
-      "published": "2026-06-19T09:10:53+09:00",
-      "date": "2026-06-19",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-06-18T16:00:00+09:00",
-      "date": "2026-06-18",
-      "query": "반도체 국가산단"
-    },
-    {
       "id": "e3c9d68ef66f",
       "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
       "source": "자치안성신문",
@@ -56,11 +47,11 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "036b51aabdd0",
-      "title": "고양 대곡지구 지장물 조사 용역 착수…9천400가구 공급 시동",
-      "source": "KB Think",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJU20yaXlsYkJRdG9fN2hkdUxHUmJfT0w4M05ZdFk1dGpNZVZqaWJRd0p0X1BERHQtbzN1QTNEQ0xrWHhyY0pnZHlXM2JzVGZNa1hvQnF3VGRsRk9BLWV6NWFmeVBuLUIxV183TDZNUzJFdw?oc=5",
-      "published": "2026-06-18T08:17:49+09:00",
+      "id": "bd66e78a4618",
+      "title": "고양 대곡지구 지장물 조사 용역 착수…9천400가구 공급 시동 |",
+      "source": "연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVVZFWWk4Zm9wbEs5NW82Y3VrQ3FKdjhSZjZJX1JlazhIYXZqZ3JyY0haQ2FzT1RVY0NyamZfTFQ1aGQ2bkVOTkdGdFBmWHV1YnluS2I2UzR5UEdVd01pX0tWbE16M3lJOXE3X3h0a2NWTktQ?oc=5",
+      "published": "2026-06-18T08:28:41+09:00",
       "date": "2026-06-18",
       "query": "LH 지구지정"
     },
@@ -90,15 +81,6 @@
       "published": "2026-06-15T16:00:00+09:00",
       "date": "2026-06-15",
       "query": "기반시설 인가"
-    },
-    {
-      "id": "2b172ebb2e24",
-      "title": "산림재난대응센터 헬기장 논의 답보…북구도시재생활성화 예산 계획 건의",
-      "source": "울산신문",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91SG41MmYzbUpnM1ptNEtBYmdBT09fX1hNOWJHb1RheGM3Q09hczdSOEZyNnl6Z1FmNThvRnMzQTJIa0FTN3UtOFA0UVFEQkJBMW8xRlJxZk95aV9SVzRQNVNkdDlqQ1dBOW1EZE5n0gFyQVVfeXFMT3VPWVJ0WXFIdUlaNUV5cUpJOVZIdWN0MlBiTFh4dUZ4WUFNeF9VX1VWaVJjTHRpRENId0I0bHRVLVpfaXROdFFSVWFpQU1GR2s3ay1GNTNtRXZKUWVMTlBCSmdqaGpldU5OZ2hLSUtGUFlB?oc=5",
-      "published": "2026-06-14T20:10:00+09:00",
-      "date": "2026-06-14",
-      "query": "도시재생 활성화계획"
     }
   ]
 }

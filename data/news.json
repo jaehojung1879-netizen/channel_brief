@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-06-20T07:32:53.290631+09:00",
+  "updated_at": "2026-06-21T07:45:55.267766+09:00",
   "headline": {
-    "id": "9d774ae6aad0",
-    "title": "일반 지점 줄이고 PB센터 집중…시중은행, 고액자산가 유치전",
-    "source": "매일경제",
-    "summary": "일반 지점 줄이고 PB센터 집중…시중은행, 고액자산가 유치전 매일경제",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCOHA4cXY2Z0FIQWZCMnZyRGtSOXVDcU1UN2RqSzE2blN0RHQtLUNCTnpCdE1kWHdRNlZ4U08xX3VQeUgxU1d4eFZXQVFjVjRyN0JOYQ?oc=5",
-    "published": "2026-06-16T14:15:09+09:00",
-    "query": "은행 영업점",
+    "id": "0f6408036d1f",
+    "title": "전원주, 최초 편의점 미팅→은행 VIP…\"몇십억 가져가야 지점장 나와\" ('동치미')",
+    "source": "네이트",
+    "summary": "전원주, 최초 편의점 미팅→은행 VIP…\"몇십억 가져가야 지점장 나와\" ('동치미') 네이트",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tdmIzTUtkZ3RaWTBVNFRmN0VsR20zckJ1MHdNS0htVkltZ1dLQndVU1NRdWloMUZDaFFTeVhkRUpSVWliWkV2dVFWTFp3N2FJaGZn?oc=5",
+    "published": "2026-06-21T00:07:00+09:00",
+    "query": "편의점 은행",
     "engine": "google",
-    "rank": 9,
-    "_score": 10.0,
+    "rank": 2,
+    "_score": 13.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "f323f5984a32",
+        "title": "\"비대면 시대에도 '은행점포'가 지역기업 살린다\"",
+        "source": "이데일리",
+        "summary": "\"비대면 시대에도 '은행점포'가 지역기업 살린다\" 이데일리",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMXJHdk42WUJLU0tfQkF3RjdubkFtU1h1R1lKYVpxdXFrQ0FIcy1HNzdrdEhsWjJ6UTJKRzZoaXhmbUo1V1VXNEZITE5GQTBkYTI3TUkxSG5XN0lvc050czd6ZF9FZDZHS3M3eTNNRG1JSHR4UDdkODhkNGZSVFhjWg?oc=5",
+        "published": "2026-06-20T08:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "f40be2556350",
         "title": "부산은행, 부산시와 ‘우리동네 기후쉼터’ 업무 맞손…영업점 전면 개방",
@@ -24,7 +36,7 @@
         "published": "2026-06-18T11:15:02+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 10,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -52,27 +64,27 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "9b9f207a7863",
+        "id": "f2a7165d06ce",
         "title": "\"은행 점포 안 팔리네\"…2천억원어치 매물 '산더미'",
-        "source": "KB Think",
-        "summary": "\"은행 점포 안 팔리네\"…2천억원어치 매물 '산더미' KB Think",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE40YWtTQzZzVnRHeTE0SVhWZHk3SEtHdGRVVEZuTHRTa0R1ZkVwU2lyTF81M0phZ1ludnZwOVNUQTFNcUwxeDZwUWNZcHVPVDN3SlBkdlZlNjF6Vmx6R3NQSTE0M0NqcXZ6aGJKTVJweFFYQQ?oc=5",
-        "published": "2026-06-18T09:00:29+09:00",
+        "source": "연합인포맥스",
+        "summary": "\"은행 점포 안 팔리네\"…2천억원어치 매물 '산더미' 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VSkNodF9mTUU4eXhlVlZBRXJES3lhLTgxSXRsMzNtOHYwd202S1pMLXZNTURVOGRsQUcwVXFreTFKVTlFWmFtMnljUXY0RnZ3Ym9ib2UwWWZkeW5VU3NUbFdVWHVaSEUwci1xdVEyMFc?oc=5",
+        "published": "2026-06-18T09:03:33+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "5b67ba0b96fb",
+        "id": "d3312bf505fd",
         "title": "BNK부산은행, 영업점 기후쉼터로 확대 운영",
         "source": "팝콘뉴스",
         "summary": "BNK부산은행, 영업점 기후쉼터로 확대 운영 팝콘뉴스",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xTmdvdlhnbzI5WGVXSldIc3RNQWtBdURhWS1KbjZUNFdTaE1HY0E2d0d1b3RVS19jc1prNWJXUi1JNU91dTJjUnFfdmFFdFFLY2FxSmhUbHpwZklieWlycjJaSVh2VlZRRVh2U3gzd9IBckFVX3lxTE1KX0RFai1WU3V2SGxDRmYyNmZWRDgza0l6VTBwRmc5bG4tTnZQU0t0alMwMldGUUFMRUY1Ny1PU1hhQTlZV1JvNjd5MFY4T1I2Y1JiQS1Ec2VKV3ZlQVZXVktGeG4taVk5dEJyajVuTUtrdw?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTMlBWVW1YTkR6cU1ucjlWUkwtUVJyWk1zTjJaQ3ZxNnU3VXF3VjdpVnZRWm1DZ1NYd3dQdWM3bGVvb1ZSRkoxcllsN21Qb1Y0RzRiQ29zV2x2bFZ1YlJ6eUlVbF9qd1BnVVVyLXZR0gFyQVVfeXFMTUpfREVqLVZTdXZIbENGZjI2ZlZEODNrSXpVMHBGZzlsbi1OdlBTS3RqUzAyV0ZRQUxFRjU3LU9TWGFBOVlXUm82N3kwVjhPUjZjUmJBLURzZUpXdmVBVldWS0Z4bi1pWTl0QnJqNW5NS2t3?oc=5",
         "published": "2026-06-17T17:13:18+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 11,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,7 +108,7 @@
         "published": "2026-06-17T15:08:38+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 14,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -120,19 +132,7 @@
         "published": "2026-06-17T11:37:51+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "d6565eb3d356",
-        "title": "AI가 위조 신분증 가린다…수협은행, 영업점 보안 강화",
-        "source": "뉴스퀘스트",
-        "summary": "AI가 위조 신분증 가린다…수협은행, 영업점 보안 강화 뉴스퀘스트",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sZVRwU3JFU25FRm96WnQzS1R4dWpTUEczQTQzZHFPQURVdHFxRHZ4eUlpbnBDWEY5TzhiMU9pUTBPYlB0Yi03cUR5TGhKRVJLWUlZa3RRNjZKcEFocWo2SGhYSmwzbnkya2VmOTNIYlRhN03SAXNBVV95cUxPbGVUcFNyRVNuRUZvelp0M0tUeHVqU1BHM0E0M2RxT0FEVXRxcUR2eHlJaW5wQ1hGOU84YjFPaVEwT2JQdGItN3FEeUxoSkVSS1lJWWt0UTY2SnBBaHFqNkhoWEpsM255MmtlZjkzSGJUYTdN?oc=5",
-        "published": "2026-06-17T11:34:14+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 15
+        "rank": 3
       },
       {
         "id": "9f4d602b78c4",
@@ -143,7 +143,7 @@
         "published": "2026-06-17T07:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5
+        "rank": 7
       },
       {
         "id": "044274e3d811",
@@ -154,7 +154,29 @@
         "published": "2026-06-17T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4
+        "rank": 5
+      },
+      {
+        "id": "8d6deb6e9aad",
+        "title": "영업점 없는데 은행대리 지정…저축은행 절반 '점포 0~1곳'",
+        "source": "v.daum.net",
+        "summary": "영업점 없는데 은행대리 지정…저축은행 절반 '점포 0~1곳' v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MMXJuLTNZWjRZb1ZwME9fQTNkYW5sMUp1QjhQR1BITTVjSlAtdkJLbGF3YzdQU1FURlM5d0o3cXhsQWRqcTF1eEh4enE0UDg?oc=5",
+        "published": "2026-06-16T14:16:03+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 15
+      },
+      {
+        "id": "9d774ae6aad0",
+        "title": "일반 지점 줄이고 PB센터 집중…시중은행, 고액자산가 유치전",
+        "source": "매일경제",
+        "summary": "일반 지점 줄이고 PB센터 집중…시중은행, 고액자산가 유치전 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCOHA4cXY2Z0FIQWZCMnZyRGtSOXVDcU1UN2RqSzE2blN0RHQtLUNCTnpCdE1kWHdRNlZ4U08xX3VQeUgxU1d4eFZXQVFjVjRyN0JOYQ?oc=5",
+        "published": "2026-06-16T14:15:09+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 11
       },
       {
         "id": "444850b873bb",
@@ -163,57 +185,25 @@
         "summary": "은행 점포 하나가 창업 29개를 좌우했다…지역금융의 경고음 더파워",
         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85ZjJEenl0Um1kbE5HckYza3g3blpIRkhNSkhyNFdWLW1ab0U4cjN4RF9vdXJVc3VudjMyOTQ0S0k2OHdpQVJ5Ty1CNDN4dmtzd1k5TllWYUhQR3BCcS1ISTU1cVZCbmhVTHNFeTcwNjRmZWZGWUxIbDA0V1dXZw?oc=5",
         "published": "2026-06-16T08:57:00+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 12
-      },
-      {
-        "id": "68e9204b49e4",
-        "title": "[마포나루의 아침] 금융 소외지역 은행 점포 남겨둬야",
-        "source": "글로벌이코노믹",
-        "summary": "[마포나루의 아침] 금융 소외지역 은행 점포 남겨둬야 글로벌이코노믹",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU2R5VzVSX2JEeDJJbm55bzlwdGRLYmV3LTNzcm96ZkRaSlYzbm9uVGJTVm8yTmpqbWNPWGZFaGU1TDBhX2dzRW84SkNEZlJlazQ2a1VFU0xtMC01eGlRNS1IZGNWLS1pSmxWaXdlcUl0RF91SmM2X0I2MllSSHpPUTNMSk0?oc=5",
-        "published": "2026-06-16T05:00:00+09:00",
         "query": "은행 점포",
-        "engine": "google",
-        "rank": 11
-      },
-      {
-        "id": "ca70c62ed7a3",
-        "title": "도내 은행 점포 14% 감소… 지역 밀착 금융 인프라 보완 시급",
-        "source": "v.daum.net",
-        "summary": "도내 은행 점포 14% 감소… 지역 밀착 금융 인프라 보완 시급 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wRjF2d3dFOHgzTVJ1QnhlS3RIbGoyT3dwczNlMkVNUlpmUnYtNTloM29QUWxuT0FKSzdjU3FoVTFUbUFYNFlIbkpZZ3ZfekRtRWhTVA?oc=5",
-        "published": "2026-06-15T21:19:38+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 2
-      },
-      {
-        "id": "858908bc7fc9",
-        "title": "사라지는 은행점포들…지역 '중기 금융고립' 키운다",
-        "source": "v.daum.net",
-        "summary": "사라지는 은행점포들…지역 '중기 금융고립' 키운다 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zejFYZWM4VUVGY0JWRmN6Q2VuR2NzSFFualRZaVg0XzBkMGkxLWdQS3c2QTg0QTlsMm1reV9yZHZUbmNKejhhRzVNVmI2ZVpqNUhhZw?oc=5",
-        "published": "2026-06-15T14:09:02+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 16
-      },
-      {
-        "id": "650e50712fc0",
-        "title": "하나은행, 영업점·본점 직원들 대상 '2026 연금고수전' 개최",
-        "source": "v.daum.net",
-        "summary": "하나은행, 영업점·본점 직원들 대상 '2026 연금고수전' 개최 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoZmZZeHM1d2I1akNDUldVd2QtbmhMTlpzVVZWVEhzeFEwbl9qNGZMcnNBcHRCVlRXd0xrN0RTZ2lBMlIxd0VwdnU2MC1XRGpQeEZkSw?oc=5",
-        "published": "2026-06-15T09:59:48+09:00",
-        "query": "은행 영업점",
         "engine": "google",
         "rank": 13
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "c0cb143b048c",
+        "title": "신한은행, 비대면 자녀 펀드 가입 서비스 '우리아이 펀드 만들기' 출시",
+        "source": "퍼블릭타임스",
+        "summary": "신한은행, 비대면 자녀 펀드 가입 서비스 '우리아이 펀드 만들기' 출시 퍼블릭타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qbV9DOFVBNGdJclFlOUwyVEYyWExINGlTZ0llcUlKZ0RYc29mNVJibVJiRnV2aGx4M0I3eGU4MHVndE9fSno1dnU1MUpfZzBPaHBOUjhmYkE1a0EyREhselhHWWdjdmtvb1HSAW5BVV95cUxQbGs3ZzlkZUlLeDJsYmYyWEg2QXNvS0JRWV9FLXQzX0t1M1pPMjJKTWEyNmdxWENOd1Z1UmNzaFgxZHpDYlNsd3hqWElOazJhTkJpZXd0V1FnLWJULVpRclY0MktURlJBWjNpOFVQUQ?oc=5",
+        "published": "2026-06-20T08:00:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "b85609026112",
         "title": "[리딩뱅크 주도권]②오프라인 줄이는 신한·KB銀…'앱 속으로' vs 'VIP 공간으로'",
@@ -227,18 +217,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "bbcec5fbd9a1",
-        "title": "신한은행, 신한 슈퍼SOL서 ‘우리아이 펀드 만들기’ 출시…자녀 명의 펀드 비대면 가입",
-        "source": "나눔경제뉴스",
-        "summary": "신한은행, 신한 슈퍼SOL서 ‘우리아이 펀드 만들기’ 출시…자녀 명의 펀드 비대면 가입 나눔경제뉴스",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KZnZya0pKUjRTRmNVRlVaZmtYTTZIZ3hBRER6djM5VjN0OElTd3dFQW5TQTBUcnF3WUFQdkJLV0M4Ry14V1lyUXNrQTdWLTIxLXNMUjlvWW5neVZzck9JdXBWY1VQZlNPYW5ELQ?oc=5",
-        "published": "2026-06-19T06:43:33+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "cc3293ec75ef",
         "title": "“은행·신용보증기금 한 번도 안 가고 1억원 받는다” 신한은행, 법인 대출 패러다임 뒤흔든 ‘이지원’ 전격 등판",
         "source": "스마트경제",
@@ -247,19 +225,7 @@
         "published": "2026-06-18T14:16:20+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 12,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "857d01e44a51",
-        "title": "[K생산적금융을 묻다 은행③] 신한은행 싱가포르지점장 정형동 \"동남아 역외금융 중심지, 작은 나라에서 '아시아 리딩뱅크'를 꿈꾸는 이유\"",
-        "source": "비즈니스포스트",
-        "summary": "[K생산적금융을 묻다 은행③] 신한은행 싱가포르지점장 정형동 \"동남아 역외금융 중심지, 작은 나라에서 '아시아 리딩뱅크'를 꿈꾸는 이유\" 비즈니스포스트",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VbVFxaW00OGt3Ml9GNS0xSEF5cVk4d1VKQlBfUE1WUHdTQUxjSHlvUWM0WmgzNTJLa25takdIUjJIRzMyajByN21pQVZsRkJadGlDeENiTk04S2JOOWNibXJaeDVFUnRsSm9rNlN0MGJ5eGs?oc=5",
-        "published": "2026-06-17T13:40:02+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 1,
+        "rank": 13,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -271,19 +237,7 @@
         "published": "2026-06-15T15:02:24+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "a89bf3b611f0",
-        "title": "신한은행, 전국 영업점·본부서 ‘사랑의 헌혈 나눔’ 캠페인",
-        "source": "더게이트",
-        "summary": "신한은행, 전국 영업점·본부서 ‘사랑의 헌혈 나눔’ 캠페인 더게이트",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpTy02bGhYaE1CejlMaWpUWUNJdk1zR251Y1ZuUVdMbjdTQjdBQ3lBYS15THR2bmRHRU9uNUlYN2R5Z2dIdWNGUzZHYnpEaGtwbnF0cy1yVkxRRFlnVGRJd01YOEZUY0Rw0gFsQVVfeXFMTWJxaWI5UG9QTDZwdHF4UWh4LTRzS2RFN1JPSGF2STlHZ2VFV3d2d3I4NDF4eFVzZkV0WEtqRS1Ca3BoaHNnekF4ZkhHaVVORTEtUmUxZkJiMDFXMjFOei1nRVRLRC1BSWlvVEcz?oc=5",
-        "published": "2026-06-14T09:08:19+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 13,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
