@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-06-21T07:47:34.390492+09:00",
+  "updated_at": "2026-06-22T07:47:29.270541+09:00",
   "items": [
     {
-      "id": "0f96adebb98b",
-      "title": "이상일 용인시장 \"광주 국회의원 발언, 용인 반도체 국가산단 흔드는 것\"",
-      "source": "뉴스로드",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GTjBfREw5T3dWNElneUxHOERoYTE5aTBabmR1OS1idko1SVR3clVxZVl4UC1seHFsVDVpRzhNbnlhT1F2eVBWQTFNVkVFMVU0VVdHd0FQcUdlaVFPUlBXVTh0cVRFcFRfRTRCVw?oc=5",
-      "published": "2026-06-20T20:45:31+09:00",
+      "id": "848c8bf738ad",
+      "title": "[통찰추호] 이상일, \"시민과 함께 용인을 글로벌 반도체 중심도시로 우뚝 세우겠다\"",
+      "source": "비욘드포스트",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5tTmlXemhPcHo0OEpWQzZuUjJNZ0JweDZjTks2anpJVWdXT3dxb255OUppUjlMSFNGbmxONjV6MnBKU202T0N0VV9nYUlBU093Rmc4UElNamhRbEJPQVdldVhibDBieEFDWU9vcXdfR3l0cU1lWklPLWpLel8?oc=5",
+      "published": "2026-06-22T05:26:00+09:00",
+      "date": "2026-06-22",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "8f8a6d613fdd",
+      "title": "“일방적 희생 강요말라”…경기도 반도체 현안 다시 불 붙는다",
+      "source": "경기신문",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PWEpzNmtiSFR5V0M2OFpKdFcyT21BaThkelp2RC02SUhKR2JhV185Umc5TXI2ZXlBS0xqcnRfa3NKM05tdDNNT0tpYUJFZTRFZml3Y25ObW5kYm16N2FHXzRB?oc=5",
+      "published": "2026-06-21T18:07:46+09:00",
+      "date": "2026-06-21",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-06-20T16:00:00+09:00",
       "date": "2026-06-20",
       "query": "반도체 국가산단"
     },
@@ -20,13 +38,13 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "id": "e3c9d68ef66f",
+      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
       "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
       "published": "2026-06-19T16:00:00+09:00",
       "date": "2026-06-19",
-      "query": "반도체 국가산단"
+      "query": "도시재생 활성화계획"
     },
     {
       "id": "362d204aff16",
@@ -36,15 +54,6 @@
       "published": "2026-06-19T13:43:07+09:00",
       "date": "2026-06-19",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-06-18T15:44:53+09:00",
-      "date": "2026-06-18",
-      "query": "도시재생 활성화계획"
     },
     {
       "id": "bd66e78a4618",
@@ -78,6 +87,15 @@
       "title": "사례로 들여다보는 정비사업과 국·공유지 ②",
       "source": "remagazine.co.kr",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Lb3ROU3RmMHowLS1fY3RJb21EQWdBa2l0czBRTnAyS0RMS0dEeEdhai1DZTFpMlBYa2ZoUWxJaXd4XzNsNDkyUHIwalZISi1TZW0zSlJVUEVYXy1vX1lSaDVQMVNPbWI4STh30gFvQVVfeXFMUFBJbEJ0Ql9rVXB2bGF2ZXFrd3pGMTY5bmZUYU85cTFuWlpRbE1xQTMwbzFrb29oTnF6ck12SUVCdTZtZGdua2kwSU9TT0hXbGxCSTdLQUMtV2t2WE4xZ3NDRTkwVTRSZ1MxMU9CY0JF?oc=5",
+      "published": "2026-06-15T16:00:00+09:00",
+      "date": "2026-06-15",
+      "query": "기반시설 인가"
+    },
+    {
+      "id": "6d810ae71c5f",
+      "title": "정비사업의 정비기반시설 무상귀속과 무상양도",
+      "source": "remagazine.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjeXdsUXVweDVJMkFPN0ZfZERFZksycWZHbU5wZnhib3dFR0U3YzhPWTgtbnlQSGd6VXNRVnZuWUszMHkyUDlnZzczelVKQUs5R0l0NS1yZ2c2VGpnakU3d1JrN0txNHZLNmI40gFvQVVfeXFMUHVvTFZyV3p6VmZwcnJpYS1TRy1reTIwZHNiTVJHMkF3RGliUG14NHFYLV9uU2JYNzZrOC05TXRPRXY4VjZ6QTQwV1BlNTl2ZTduc1MzYmdhMmFiamxENHdnM0ZTbXdfN19KRWRDaGxz?oc=5",
       "published": "2026-06-15T16:00:00+09:00",
       "date": "2026-06-15",
       "query": "기반시설 인가"
