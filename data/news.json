@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-06-23T08:04:35.716059+09:00",
+  "updated_at": "2026-06-24T07:49:52.283028+09:00",
   "headline": {
-    "id": "d59f48cc2f20",
-    "title": "BNK부산은행, 영업점 개방…폭염·한파시 시민 쉼터 제공",
-    "source": "헤럴드경제",
-    "summary": "BNK부산은행, 영업점 개방…폭염·한파시 시민 쉼터 제공 헤럴드경제",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3RkxHNUlCMXZDdGZ0VmxDdW12OEc0VEl6VmEzZndpZ0daNjJGbXN4ekVIUkRwVlh5UnhuSTRaeUp5ZFI5cURWNXR5RTB5bWVONUY4MFdB?oc=5",
-    "published": "2026-06-18T09:39:21+09:00",
-    "query": "은행 영업점",
+    "id": "9e2ba94c1fdd",
+    "title": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화'",
+    "source": "대한경제",
+    "summary": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화' 대한경제",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlM3FhOFhYem01Nkh2b3FsbEFQQlVLc3U0N21WZFNONm41Tkp1Snhtel9MZENIY2taT242a2toODN2VS0wR0R1MmVoRGR5U1ZuRTlJbEoyTWxMWFBQUVdITklNdmFHdXBRRFFxM2Via3B4Mk5K?oc=5",
+    "published": "2026-06-22T06:00:48+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 7,
-    "_score": 8.0,
+    "rank": 4,
+    "_score": 22.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "9e2ba94c1fdd",
-        "title": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화'",
-        "source": "대한경제",
-        "summary": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화' 대한경제",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlM3FhOFhYem01Nkh2b3FsbEFQQlVLc3U0N21WZFNONm41Tkp1Snhtel9MZENIY2taT242a2toODN2VS0wR0R1MmVoRGR5U1ZuRTlJbEoyTWxMWFBQUVdITklNdmFHdXBRRFFxM2Via3B4Mk5K?oc=5",
-        "published": "2026-06-22T06:00:48+09:00",
+        "id": "90f60c755ad9",
+        "title": "당국 제동에도…은행 점포 축소 '요지부동'",
+        "source": "DFT 대한금융신문",
+        "summary": "당국 제동에도…은행 점포 축소 '요지부동' DFT 대한금융신문",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51S3V0N0JkSVBQX1I3b1ZsM282V2pfdEtUTGd0QW9kbGo1QUszZUxRM2gyMWN5QW83ZWJVRzNuZUVrVDVFTnFRcy1UUENEVHdYa2ZTQTlxb1lvWkx1OGJmcDgxM1BCVHJPYjY5RWc3T2rSAXBBVV95cUxOdUt1dDdCZElQUF9SN29WbDNvNldqX3RLVExndEFvZGxqNUFLM2VMUTNoMjFjeUFvN2ViVUczbmVFa1Q1RU5xUXMtVFBDRFR3WGtmU0E5cW9Zb1pMdThiZnA4MTNQQlRyT2I2OUVnN09q?oc=5",
+        "published": "2026-06-24T06:29:52+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +36,7 @@
         "published": "2026-06-21T00:07:00+09:00",
         "query": "편의점 은행",
         "engine": "google",
-        "rank": 11,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -49,42 +49,6 @@
         "query": "은행 점포",
         "engine": "google",
         "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "f40be2556350",
-        "title": "부산은행, 부산시와 ‘우리동네 기후쉼터’ 업무 맞손…영업점 전면 개방",
-        "source": "청년투데이",
-        "summary": "부산은행, 부산시와 ‘우리동네 기후쉼터’ 업무 맞손…영업점 전면 개방 청년투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ueEE2dUM5V0l6Sl9iOWhkNzRVWngwOW9ZUzkzOU9OZGplTHVoX19LVHdUbzR0Y28tVnNRVlR3Z3pNekRmUk5ycEd0bmdKUFVXNE1vVW9oeXFzWTI1a1ZIU1dFTU5INkdnaGc?oc=5",
-        "published": "2026-06-18T11:15:02+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "ce2f01ab4fa3",
-        "title": "\"폭염도 한파도 피하세요\"… 부산은행, 전 영업점 '우리동네 기후쉼터'로 개방",
-        "source": "v.daum.net",
-        "summary": "\"폭염도 한파도 피하세요\"… 부산은행, 전 영업점 '우리동네 기후쉼터'로 개방 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlTUFFUU1xZlUzNHBMOXQ4SndwbXFpdUMydGNtcHVHUUJqTWhoMWZPZVhQNldVWTM3NUtsYkJMdExGUDdLWG1FTnZvaU5FZmM?oc=5",
-        "published": "2026-06-18T09:41:02+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "f2a7165d06ce",
-        "title": "\"은행 점포 안 팔리네\"…2천억원어치 매물 '산더미'",
-        "source": "연합인포맥스",
-        "summary": "\"은행 점포 안 팔리네\"…2천억원어치 매물 '산더미' 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VSkNodF9mTUU4eXhlVlZBRXJES3lhLTgxSXRsMzNtOHYwd202S1pMLXZNTURVOGRsQUcwVXFreTFKVTlFWmFtMnljUXY0RnZ3Ym9ib2UwWWZkeW5VU3NUbFdVWHVaSEUwci1xdVEyMFc?oc=5",
-        "published": "2026-06-18T09:03:33+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -99,7 +63,7 @@
         "published": "2026-06-20T08:00:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 5,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -111,19 +75,7 @@
         "published": "2026-06-19T11:32:18+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "0a0b3165a625",
-        "title": "신한은행, '법인 이지원 보증대출' 출시…비대면 원스톱 처리",
-        "source": "뉴시스",
-        "summary": "신한은행, '법인 이지원 보증대출' 출시…비대면 원스톱 처리 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vRkIyQ0ZGanU5OXktd05oTFFkaVQyX04xWDJPVWE2UVRXS1QzMzFxUnBFWkpFbzlBaXFodVhwcEFNcTcyVlRtelRFXzdPT1VSSlNEeWxjVXlnYXhuQW84WdIBeEFVX3lxTE96ajV2bEN1aHl0dFNNQW15WFVOUElFa2Y4VV9pV1Rvc1RVOC1neWhVUzVLaUhOY0prZW4zRkdOVXdqUXRlcmprcnd0YS1uVnRyZjhZS1Q4ZzF0bXJ5cmFubFdoYS1yMl9ERkxKR3NObmVIb0w4cmFIYg?oc=5",
-        "published": "2026-06-18T15:26:41+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 10,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
