@@ -1,26 +1,50 @@
 {
-  "updated_at": "2026-06-25T07:49:56.382769+09:00",
+  "updated_at": "2026-06-26T07:58:30.997330+09:00",
   "headline": {
-    "id": "4fe751d60949",
-    "title": "[진옥동號 신한금융 내부통제 진단]① \"고객 부주의\"라더니...영업점은 \"OTP 이력 없다\"",
-    "source": "파이낸셜포스트",
-    "summary": "[진옥동號 신한금융 내부통제 진단]① \"고객 부주의\"라더니...영업점은 \"OTP 이력 없다\" 파이낸셜포스트",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2UEhNZVNHbndsVVdMV0IzMml6ak5BQVcyNkljMkJ6d0lGS3NPeHluRk9qQUJUY2RsUjdIQjl0NjQ3QUpvWWU5WVMteENjaUZ2OHBFYVF5dXJOeEMxZ3EwUG5RN0ViQjRMZG5CZ3FLbnBycnF6?oc=5",
-    "published": "2026-06-24T16:23:56+09:00",
-    "query": "은행 영업점",
+    "id": "9e2ba94c1fdd",
+    "title": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화'",
+    "source": "대한경제",
+    "summary": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화' 대한경제",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlM3FhOFhYem01Nkh2b3FsbEFQQlVLc3U0N21WZFNONm41Tkp1Snhtel9MZENIY2taT242a2toODN2VS0wR0R1MmVoRGR5U1ZuRTlJbEoyTWxMWFBQUVdITklNdmFHdXBRRFFxM2Via3B4Mk5K?oc=5",
+    "published": "2026-06-22T06:00:48+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 8,
-    "_score": 14.0,
+    "rank": 5,
+    "_score": 22.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "982fd17db39f",
+        "id": "6b060025f72b",
+        "title": "동네 가게도 '디지털 점포' 시대…광주은행·토스플레이스 협력",
+        "source": "이코노미사이언스",
+        "summary": "동네 가게도 '디지털 점포' 시대…광주은행·토스플레이스 협력 이코노미사이언스",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tVzhISG9KaDlWcE9ieUlyZU5SaWYtbHFCQ2YwZW9lN0hwVU9VelVSU3hOLUxGODZMMjhCSGRsTVJTZXhOMmdpbDNna01TN1FyclJuT1RVSG9vWUsyUW5WWTVZSnl4VmJaQm1mSjJFbw?oc=5",
+        "published": "2026-06-25T16:34:51+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "bd2abe04a85e",
+        "title": "우리은행, 내달 37개 영업점 통폐합",
+        "source": "데이터뉴스",
+        "summary": "우리은행, 내달 37개 영업점 통폐합 데이터뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EVG8zOTlyUElNMjhtTlZqZnpNel95Qmp4QldMSFFBYkFVYl9vWkd4V1NNT0R3MExyZTRfeVNtNFlGTHlsd2g5aVQ3MmwxVzhSSG4zOHZta0VNVVoxWlp5eGtfVWQ?oc=5",
+        "published": "2026-06-25T08:14:56+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a998c83e3789",
         "title": "은행점포 1개 줄면, 지역내 신생기업 줄고 소멸기업 늘어",
         "source": "v.daum.net",
         "summary": "은행점포 1개 줄면, 지역내 신생기업 줄고 소멸기업 늘어 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTM0NJNEVUWDUzVzVINDVkSWlmNUFlbWlXaFpqQ25abmRkUFdSTXowb1JzRzdfcUU2WVZJSm9BZmZoejZGcktHWGRHLVZnN1U?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5XLWFoYXFCcllQb2IyaDBtVXIzOXh0ME81cjh5WjBGYkp5ek1aYXpteWl3YnFFYjM3T2ltNnMzYUpuSHgxS0E?oc=5",
         "published": "2026-06-25T00:01:30+09:00",
         "query": "은행 점포",
         "engine": "google",
@@ -36,7 +60,7 @@
         "published": "2026-06-24T14:41:22+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -50,34 +74,58 @@
         "engine": "google",
         "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "9e2ba94c1fdd",
-        "title": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화'",
-        "source": "대한경제",
-        "summary": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화' 대한경제",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlM3FhOFhYem01Nkh2b3FsbEFQQlVLc3U0N21WZFNONm41Tkp1Snhtel9MZENIY2taT242a2toODN2VS0wR0R1MmVoRGR5U1ZuRTlJbEoyTWxMWFBQUVdITklNdmFHdXBRRFFxM2Via3B4Mk5K?oc=5",
-        "published": "2026-06-22T06:00:48+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "c8c078da5677",
-        "title": "\"비대면 시대에도 '은행점포'가 지역기업 살린다\"",
-        "source": "마켓인",
-        "summary": "\"비대면 시대에도 '은행점포'가 지역기업 살린다\" 마켓인",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81QVdPdGRiYmxmNm9JNGlPOG9XX051ZE9QRlhCaTNFQS1WLWxTNTQyNE5YNDN0UzJ6dzM3RmpYbGxiMGhnckJQZVo4SmgzNWVDRXFBVlVmMEppQ1NockFDXzR1a3BrNUlnN0RiQzgtc0JWUEE?oc=5",
-        "published": "2026-06-20T08:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "6b51843cc64e",
+        "title": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK",
+        "source": "아이뉴스24",
+        "summary": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK 아이뉴스24",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mZ29LZ01oRmhQUlhDclNYUlJtN1lMd1E2dFJQejl5NExyTWZ2VEp3b3BNVS1WbFVYeV9VSE9jSmJ2LVVQQzZ4cVRZeS0?oc=5",
+        "published": "2026-06-25T17:11:39+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "bdb74c708bf6",
+        "title": "신한은행, 법인 전용 '이종통화 해외송금' 서비스",
+        "source": "뉴시스",
+        "summary": "신한은행, 법인 전용 '이종통화 해외송금' 서비스 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CQVgzUnR5Slg5SEU5UnZaLXM3Y1pBS1ZwemhGVC1CWGZIZEkzS0diODIyazdLMnp3TXJiMWVhdVJxVWJJZE0zaE5RMFBLcEhLSlNSLTVYMEg2b0Q5dnFrQV9KMXpjalV6TlNYbXZxRWo4VzJKSm5wT9IBeEFVX3lxTE5CQVgzUnR5Slg5SEU5UnZaLXM3Y1pBS1ZwemhGVC1CWGZIZEkzS0diODIyazdLMnp3TXJiMWVhdVJxVWJJZE0zaE5RMFBLcEhLSlNSLTVYMEg2b0Q5dnFrQV9KMXpjalV6TlNYbXZxRWo4VzJKSm5wTw?oc=5",
+        "published": "2026-06-25T15:58:33+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "8dd857225eb5",
+        "title": "[오늘의 은행] 신한은행·BNK경남은행·카카오뱅크",
+        "source": "파이낸셜리뷰",
+        "summary": "[오늘의 은행] 신한은행·BNK경남은행·카카오뱅크 파이낸셜리뷰",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WcWdtc1VhRFRDcUpxRG92blBoODVZWVFJRHE2bDg1aWIzUGJlSkdBeG9aSDdRQzVpWDJ4THktU3R2MTdQLVlqcDFUOTdfZXFIUGpEMl9RaHpMRE5JRzZVWmxGSHVYcG1RYTRqU09PQUJSbkxG?oc=5",
+        "published": "2026-06-25T15:45:11+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "97b840dc75a3",
+        "title": "“달러로 보내고 페소로 받는다”…신한은행, 법인용 ‘이종통화 송금’ 전격 출시",
+        "source": "스마트경제",
+        "summary": "“달러로 보내고 페소로 받는다”…신한은행, 법인용 ‘이종통화 송금’ 전격 출시 스마트경제",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0MWZPWTZPeFlSRE8xUGRFZDhXWlF3T19mQWQ1MnBHY2NOVE4zVXlGeEVBUWZIY190M2VCclBaT3NPaU92c29NV1VGTUdxYUdnU1luNGpXaDBDaFVNVGVtXzE2U0tRTmY3Rk1RaWlwaHY?oc=5",
+        "published": "2026-06-25T10:39:49+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "4eb9d91327ee",
         "title": "\"기회는 온다\".. 해외진출의 '무덤' 카자흐, 신한은 어떻게 성공했나 - 머니투데이",
@@ -91,27 +139,15 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "c0cb143b048c",
-        "title": "신한은행, 비대면 자녀 펀드 가입 서비스 '우리아이 펀드 만들기' 출시",
-        "source": "퍼블릭타임스",
-        "summary": "신한은행, 비대면 자녀 펀드 가입 서비스 '우리아이 펀드 만들기' 출시 퍼블릭타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qbV9DOFVBNGdJclFlOUwyVEYyWExINGlTZ0llcUlKZ0RYc29mNVJibVJiRnV2aGx4M0I3eGU4MHVndE9fSno1dnU1MUpfZzBPaHBOUjhmYkE1a0EyREhselhHWWdjdmtvb1HSAW5BVV95cUxQbGs3ZzlkZUlLeDJsYmYyWEg2QXNvS0JRWV9FLXQzX0t1M1pPMjJKTWEyNmdxWENOd1Z1UmNzaFgxZHpDYlNsd3hqWElOazJhTkJpZXd0V1FnLWJULVpRclY0MktURlJBWjNpOFVQUQ?oc=5",
-        "published": "2026-06-20T08:00:00+09:00",
+        "id": "4fe751d60949",
+        "title": "[진옥동號 신한금융 내부통제 진단]① \"고객 부주의\"라더니...영업점은 \"OTP 이력 없다\"",
+        "source": "파이낸셜포스트",
+        "summary": "[진옥동號 신한금융 내부통제 진단]① \"고객 부주의\"라더니...영업점은 \"OTP 이력 없다\" 파이낸셜포스트",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2UEhNZVNHbndsVVdMV0IzMml6ak5BQVcyNkljMkJ6d0lGS3NPeHluRk9qQUJUY2RsUjdIQjl0NjQ3QUpvWWU5WVMteENjaUZ2OHBFYVF5dXJOeEMxZ3EwUG5RN0ViQjRMZG5CZ3FLbnBycnF6?oc=5",
+        "published": "2026-06-24T16:23:56+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "b85609026112",
-        "title": "[리딩뱅크 주도권]②오프라인 줄이는 신한·KB銀…'앱 속으로' vs 'VIP 공간으로'",
-        "source": "PRESS9",
-        "summary": "[리딩뱅크 주도권]②오프라인 줄이는 신한·KB銀…'앱 속으로' vs 'VIP 공간으로' PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1NZE1vLW9Fb1BUMWl2X2dpUjlMQkNtZHVkdnJiMzZEVDRMdjZacnNjd2wtWE1TeU1hdjdOXy1tTnAyVXBDM1NidVk0V1hDU2kyZ0VxMXU3Wm9sLXo2MlU4M2NQN1Y?oc=5",
-        "published": "2026-06-19T11:32:18+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 4,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
