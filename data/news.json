@@ -1,30 +1,54 @@
 {
-  "updated_at": "2026-06-26T07:58:30.997330+09:00",
+  "updated_at": "2026-06-27T07:47:47.498149+09:00",
   "headline": {
-    "id": "9e2ba94c1fdd",
-    "title": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화'",
-    "source": "대한경제",
-    "summary": "우체국·편의점 제휴 등 영업점 통폐합 대응…은행대리업 앞서 은행 대면채널 '다변화' 대한경제",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBlM3FhOFhYem01Nkh2b3FsbEFQQlVLc3U0N21WZFNONm41Tkp1Snhtel9MZENIY2taT242a2toODN2VS0wR0R1MmVoRGR5U1ZuRTlJbEoyTWxMWFBQUVdITklNdmFHdXBRRFFxM2Via3B4Mk5K?oc=5",
-    "published": "2026-06-22T06:00:48+09:00",
-    "query": "은행 점포",
+    "id": "6b51843cc64e",
+    "title": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK",
+    "source": "아이뉴스24",
+    "summary": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK 아이뉴스24",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mZ29LZ01oRmhQUlhDclNYUlJtN1lMd1E2dFJQejl5NExyTWZ2VEp3b3BNVS1WbFVYeV9VSE9jSmJ2LVVQQzZ4cVRZeS0?oc=5",
+    "published": "2026-06-25T17:11:39+09:00",
+    "query": "편의점 은행",
     "engine": "google",
-    "rank": 5,
-    "_score": 22.0,
+    "rank": 2,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "6b060025f72b",
-        "title": "동네 가게도 '디지털 점포' 시대…광주은행·토스플레이스 협력",
-        "source": "이코노미사이언스",
-        "summary": "동네 가게도 '디지털 점포' 시대…광주은행·토스플레이스 협력 이코노미사이언스",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tVzhISG9KaDlWcE9ieUlyZU5SaWYtbHFCQ2YwZW9lN0hwVU9VelVSU3hOLUxGODZMMjhCSGRsTVJTZXhOMmdpbDNna01TN1FyclJuT1RVSG9vWUsyUW5WWTVZSnl4VmJaQm1mSjJFbw?oc=5",
-        "published": "2026-06-25T16:34:51+09:00",
-        "query": "은행 점포",
+        "id": "67303c6ab053",
+        "title": "NH농협은행 대전본부, 전 영업점 ‘무더위 쉼터’ 운영",
+        "source": "로컬투데이",
+        "summary": "NH농협은행 대전본부, 전 영업점 ‘무더위 쉼터’ 운영 로컬투데이",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDak91Q0xMeWlTM2tjSlFBWTRBUGlZeHF1dlFGb016WFF4UWFKTC1YVkJ0YlZpR3lrV3VZOW5RNEhxcDlTZnRyakdDLUVYLUp6RFNFQzRSWG03cnQwdHJNTHFJSnE2UkJTckNUblVVOGc?oc=5",
+        "published": "2026-06-26T18:31:59+09:00",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "3cb722c88920",
+        "title": "OK저축은행, 정기예금 최고 연 4.5% 인상…비대면·영업점 모두 적용",
+        "source": "글로벌이코노믹",
+        "summary": "OK저축은행, 정기예금 최고 연 4.5% 인상…비대면·영업점 모두 적용 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ05FQ1BQUm90M1hTLUE4c3Y0VTFsamNLeFJTYW50LVZlc2pRcFZScV9Id1BWOVNaXzk0aHJXQ20wN3BWUzBPZFFJOTQ3S2lTVGF4ZXp4YV9JYmRsSVJyb3dMNmI5VUw2NkNQUlVjRGJxYTZxX1ZLS1pJY0M3dzZSekMzUE0?oc=5",
+        "published": "2026-06-26T17:56:58+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "7f35d0e263da",
+        "title": "은행 문턱 낮춘 폭염 대응…농협 대전 영업점 '시민 쉼터' 전환",
+        "source": "충청일보",
+        "summary": "은행 문턱 낮춘 폭염 대응…농협 대전 영업점 '시민 쉼터' 전환 충청일보",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nSW1qTzlCckh6LUU4ZkxPT3FrNWktTWxCU2xudnhmX0VqdjFYMVdWa2JadF9FSnNBeE5zM0dlRXc5LU52UjVDRlc2RE5aaDRCSVB6aXFPNHdpeXNCWmpGTVItUUVsWGlFTDUzSlZOYw?oc=5",
+        "published": "2026-06-26T13:49:04+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -40,11 +64,11 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "a998c83e3789",
+        "id": "e5b87d739bbb",
         "title": "은행점포 1개 줄면, 지역내 신생기업 줄고 소멸기업 늘어",
         "source": "v.daum.net",
         "summary": "은행점포 1개 줄면, 지역내 신생기업 줄고 소멸기업 늘어 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5XLWFoYXFCcllQb2IyaDBtVXIzOXh0ME81cjh5WjBGYkp5ek1aYXpteWl3YnFFYjM3T2ltNnMzYUpuSHgxS0E?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1VQTNDZHd1b0VzNUVNdG5hVGYzR3BRbHZ1RWZJcVppcFdua3lhdWJuMExXRDljRkVydHZYOV9qQndFQmNULVByUzJUOA?oc=5",
         "published": "2026-06-25T00:01:30+09:00",
         "query": "은행 점포",
         "engine": "google",
@@ -60,16 +84,16 @@
         "published": "2026-06-24T14:41:22+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "90f60c755ad9",
+        "id": "2296bd5a07f6",
         "title": "당국 제동에도…은행 점포 축소 '요지부동'",
         "source": "DFT 대한금융신문",
         "summary": "당국 제동에도…은행 점포 축소 '요지부동' DFT 대한금융신문",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51S3V0N0JkSVBQX1I3b1ZsM282V2pfdEtUTGd0QW9kbGo1QUszZUxRM2gyMWN5QW83ZWJVRzNuZUVrVDVFTnFRcy1UUENEVHdYa2ZTQTlxb1lvWkx1OGJmcDgxM1BCVHJPYjY5RWc3T2rSAXBBVV95cUxOdUt1dDdCZElQUF9SN29WbDNvNldqX3RLVExndEFvZGxqNUFLM2VMUTNoMjFjeUFvN2ViVUczbmVFa1Q1RU5xUXMtVFBDRFR3WGtmU0E5cW9Zb1pMdThiZnA4MTNQQlRyT2I2OUVnN09q?oc=5",
-        "published": "2026-06-24T06:29:52+09:00",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lc2o1azRIdXZwVGItdUt4NlQyZzFKMzRsMTRDQ05BZjdCOUlSZU9RdFJKd3o0dWNiZi1pNlIzNzNQQmFpOVB0TGl5T2g1b0JhSDFqdG1uTU85aHVheDN0aXFMMUl5eVNLMUhNctIBcEFVX3lxTE51S3V0N0JkSVBQX1I3b1ZsM282V2pfdEtUTGd0QW9kbGo1QUszZUxRM2gyMWN5QW83ZWJVRzNuZUVrVDVFTnFRcy1UUENEVHdYa2ZTQTlxb1lvWkx1OGJmcDgxM1BCVHJPYjY5RWc3T2o?oc=5",
+        "published": "2026-06-24T06:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
         "rank": 2,
@@ -78,18 +102,6 @@
     ],
     "policy_news": [],
     "shinhan_news": [
-      {
-        "id": "6b51843cc64e",
-        "title": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK",
-        "source": "아이뉴스24",
-        "summary": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK 아이뉴스24",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mZ29LZ01oRmhQUlhDclNYUlJtN1lMd1E2dFJQejl5NExyTWZ2VEp3b3BNVS1WbFVYeV9VSE9jSmJ2LVVQQzZ4cVRZeS0?oc=5",
-        "published": "2026-06-25T17:11:39+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
       {
         "id": "bdb74c708bf6",
         "title": "신한은행, 법인 전용 '이종통화 해외송금' 서비스",
@@ -100,30 +112,6 @@
         "query": "신한은행 영업점",
         "engine": "google",
         "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "8dd857225eb5",
-        "title": "[오늘의 은행] 신한은행·BNK경남은행·카카오뱅크",
-        "source": "파이낸셜리뷰",
-        "summary": "[오늘의 은행] 신한은행·BNK경남은행·카카오뱅크 파이낸셜리뷰",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WcWdtc1VhRFRDcUpxRG92blBoODVZWVFJRHE2bDg1aWIzUGJlSkdBeG9aSDdRQzVpWDJ4THktU3R2MTdQLVlqcDFUOTdfZXFIUGpEMl9RaHpMRE5JRzZVWmxGSHVYcG1RYTRqU09PQUJSbkxG?oc=5",
-        "published": "2026-06-25T15:45:11+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "97b840dc75a3",
-        "title": "“달러로 보내고 페소로 받는다”…신한은행, 법인용 ‘이종통화 송금’ 전격 출시",
-        "source": "스마트경제",
-        "summary": "“달러로 보내고 페소로 받는다”…신한은행, 법인용 ‘이종통화 송금’ 전격 출시 스마트경제",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0MWZPWTZPeFlSRE8xUGRFZDhXWlF3T19mQWQ1MnBHY2NOVE4zVXlGeEVBUWZIY190M2VCclBaT3NPaU92c29NV1VGTUdxYUdnU1luNGpXaDBDaFVNVGVtXzE2U0tRTmY3Rk1RaWlwaHY?oc=5",
-        "published": "2026-06-25T10:39:49+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -147,7 +135,7 @@
         "published": "2026-06-24T16:23:56+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 7,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
