@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-27T07:49:36.927149+09:00",
+  "updated_at": "2026-06-28T07:40:50.330435+09:00",
   "items": [
+    {
+      "id": "02bcb6b158a8",
+      "title": "이상일 시장 \"시민 덕에 용인반도체산단 방해 무산… 삼성 360조 투자 변함없다\"",
+      "source": "굿타임즈",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9xUzR4S0JNQkh1eHhadjdjWXRaVk1zQTdHT1RHMjhacUJTT0V0Y3lLSDJvczNvYzBDVl9qWG8xcjgtZUlqNmRFdnA3dThsRl9vOXplSEhwY2tSeFN3TW9icmR2ZG1fVzFyak1PXy1JWQ?oc=5",
+      "published": "2026-06-27T17:33:16+09:00",
+      "date": "2026-06-27",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-06-27T12:17:08+09:00",
+      "date": "2026-06-27",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "e3c9d68ef66f",
+      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
+      "published": "2026-06-26T16:00:00+09:00",
+      "date": "2026-06-26",
+      "query": "도시재생 활성화계획"
+    },
     {
       "id": "e9b59bf6c37b",
       "title": "[고시] 수서역세권 공공주택지구 지구계획 변경(9차) 승인",
@@ -11,13 +38,13 @@
       "query": "국토교통부 고시"
     },
     {
-      "id": "2a218f525359",
-      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
-      "published": "2026-06-25T13:02:28+09:00",
-      "date": "2026-06-25",
-      "query": "반도체 국가산단"
+      "id": "0ccb7e783c2c",
+      "title": "아산시, 도시재생 거점공간 활성화를 위한 맞춤형 프로그램 운영",
+      "source": "굿뉴스365",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBieHA2N2x0NEk5cGhVU2tveHNnbkNpS0tBblgyY01GN2djczd2ZGUwSmJFNzQ0V3lmdTNDM1pZTnc5TUdlaFZhbnJWc1JBaUhCQUh1eWFmUG5mUEpzNzVzWmJKekxZMkpKZ0UtOTR6ZnBiUk1oU1E?oc=5",
+      "published": "2026-06-26T07:10:00+09:00",
+      "date": "2026-06-26",
+      "query": "도시재생 활성화계획"
     },
     {
       "id": "c9784a125864",
@@ -27,15 +54,6 @@
       "published": "2026-06-25T12:40:50+09:00",
       "date": "2026-06-25",
       "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "95d2b77e277e",
-      "title": "이상일 시장, 삼성전자 반도체 이전 우려 없다..\"삼성전자, 용인 국가산단 계획대로 진행\"확인",
-      "source": "대한경제",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01TGU2NGJybmpIVHhscWU2MDJxYzBraS1pdl9rLWZqc3Rtd1ZmV0pyVDFmeFBiU3M3eWZWYUhvek11bE9lbno2MWhIcUJCRENVM2pOeVRvckZSTVpxSDA1OHllbkVLMXVrbWEzNW9wR0V2cHl5?oc=5",
-      "published": "2026-06-25T10:34:31+09:00",
-      "date": "2026-06-25",
-      "query": "반도체 국가산단"
     },
     {
       "id": "e98530807388",
@@ -63,15 +81,6 @@
       "published": "2026-06-24T06:45:33+09:00",
       "date": "2026-06-24",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-06-23T16:00:00+09:00",
-      "date": "2026-06-23",
-      "query": "도시재생 활성화계획"
     },
     {
       "id": "0a814ed3a0f7",

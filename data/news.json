@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-27T07:47:47.498149+09:00",
+  "updated_at": "2026-06-28T07:39:01.324805+09:00",
   "headline": {
-    "id": "6b51843cc64e",
-    "title": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK",
-    "source": "아이뉴스24",
-    "summary": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK 아이뉴스24",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mZ29LZ01oRmhQUlhDclNYUlJtN1lMd1E2dFJQejl5NExyTWZ2VEp3b3BNVS1WbFVYeV9VSE9jSmJ2LVVQQzZ4cVRZeS0?oc=5",
-    "published": "2026-06-25T17:11:39+09:00",
-    "query": "편의점 은행",
+    "id": "bd2abe04a85e",
+    "title": "우리은행, 내달 37개 영업점 통폐합",
+    "source": "데이터뉴스",
+    "summary": "우리은행, 내달 37개 영업점 통폐합 데이터뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EVG8zOTlyUElNMjhtTlZqZnpNel95Qmp4QldMSFFBYkFVYl9vWkd4V1NNT0R3MExyZTRfeVNtNFlGTHlsd2g5aVQ3MmwxVzhSSG4zOHZta0VNVVoxWlp5eGtfVWQ?oc=5",
+    "published": "2026-06-25T08:14:56+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 2,
-    "_score": 14.0,
+    "rank": 3,
+    "_score": 13.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -24,7 +24,7 @@
         "published": "2026-06-26T18:31:59+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +36,7 @@
         "published": "2026-06-26T17:56:58+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,19 +48,31 @@
         "published": "2026-06-26T13:49:04+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "bd2abe04a85e",
-        "title": "우리은행, 내달 37개 영업점 통폐합",
-        "source": "데이터뉴스",
-        "summary": "우리은행, 내달 37개 영업점 통폐합 데이터뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EVG8zOTlyUElNMjhtTlZqZnpNel95Qmp4QldMSFFBYkFVYl9vWkd4V1NNT0R3MExyZTRfeVNtNFlGTHlsd2g5aVQ3MmwxVzhSSG4zOHZta0VNVVoxWlp5eGtfVWQ?oc=5",
-        "published": "2026-06-25T08:14:56+09:00",
-        "query": "은행 점포",
+        "id": "dd565e550c65",
+        "title": "사라지는 은행 영업점…대면채널 미래 [고수현의 금융속풀이]",
+        "source": "sisaon.co.kr",
+        "summary": "사라지는 은행 영업점…대면채널 미래 [고수현의 금융속풀이] sisaon.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9acFgyVWZBUWlMM2twM1BoZ21ROWRxZXItTmJMeXV0WFFXcEQwMGZOeVNLcWFhZE0ydk96WEx3LVg0aWF4eUdmYXpCNE1NY3pkbTRNb2M2MDBsY1Aya2dGRWREdDZBWEk5eU04?oc=5",
+        "published": "2026-06-26T07:30:00+09:00",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "6b51843cc64e",
+        "title": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK",
+        "source": "아이뉴스24",
+        "summary": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK 아이뉴스24",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mZ29LZ01oRmhQUlhDclNYUlJtN1lMd1E2dFJQejl5NExyTWZ2VEp3b3BNVS1WbFVYeV9VSE9jSmJ2LVVQQzZ4cVRZeS0?oc=5",
+        "published": "2026-06-25T17:11:39+09:00",
+        "query": "편의점 은행",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,7 +96,7 @@
         "published": "2026-06-24T14:41:22+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -103,6 +115,17 @@
     "policy_news": [],
     "shinhan_news": [
       {
+        "id": "6b51843cc64e",
+        "title": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK",
+        "source": "아이뉴스24",
+        "summary": "강원도 정선 GS25에 신한은행 점포 열린다…화상상담 OK 아이뉴스24",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mZ29LZ01oRmhQUlhDclNYUlJtN1lMd1E2dFJQejl5NExyTWZ2VEp3b3BNVS1WbFVYeV9VSE9jSmJ2LVVQQzZ4cVRZeS0?oc=5",
+        "published": "2026-06-25T17:11:39+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 2
+      },
+      {
         "id": "bdb74c708bf6",
         "title": "신한은행, 법인 전용 '이종통화 해외송금' 서비스",
         "source": "뉴시스",
@@ -110,18 +133,6 @@
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CQVgzUnR5Slg5SEU5UnZaLXM3Y1pBS1ZwemhGVC1CWGZIZEkzS0diODIyazdLMnp3TXJiMWVhdVJxVWJJZE0zaE5RMFBLcEhLSlNSLTVYMEg2b0Q5dnFrQV9KMXpjalV6TlNYbXZxRWo4VzJKSm5wT9IBeEFVX3lxTE5CQVgzUnR5Slg5SEU5UnZaLXM3Y1pBS1ZwemhGVC1CWGZIZEkzS0diODIyazdLMnp3TXJiMWVhdVJxVWJJZE0zaE5RMFBLcEhLSlNSLTVYMEg2b0Q5dnFrQV9KMXpjalV6TlNYbXZxRWo4VzJKSm5wTw?oc=5",
         "published": "2026-06-25T15:58:33+09:00",
         "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "4eb9d91327ee",
-        "title": "\"기회는 온다\".. 해외진출의 '무덤' 카자흐, 신한은 어떻게 성공했나 - 머니투데이",
-        "source": "머니투데이",
-        "summary": "\"기회는 온다\".. 해외진출의 '무덤' 카자흐, 신한은 어떻게 성공했나 - 머니투데이 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtSktmb2F6bFlYVlZNU3hLLXYtaTFyTUxCaVdTM3I0aGlDYkxUcHpMQzZpaTBpcUJIcm92aVNMMjhVcEJVOFlnbXk1QzJpUDgydGZRQjFVRkRoTVhjdXhSMklOV3JmWVNwaWx5MmhIU1rSAXBBVV95cUxQbUpLZm9hemxZWFZWTVN4Sy12LWkxck1MQmlXUzNyNGhpQ2JMVHB6TEM2aWkwaXFCSHJvdmlTTDI4VXBCVThZZ215NUMyaVA4MnRmUUIxVUZEaE1YY3V4UjJJTldyZllTcGlseTJoSFNa?oc=5",
-        "published": "2026-06-25T05:10:00+09:00",
-        "query": "신한은행 지점",
         "engine": "google",
         "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
@@ -135,7 +146,7 @@
         "published": "2026-06-24T16:23:56+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
