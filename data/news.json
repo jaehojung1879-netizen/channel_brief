@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-06-28T07:39:01.324805+09:00",
+  "updated_at": "2026-06-29T07:37:27.288519+09:00",
   "headline": {
-    "id": "bd2abe04a85e",
-    "title": "우리은행, 내달 37개 영업점 통폐합",
-    "source": "데이터뉴스",
-    "summary": "우리은행, 내달 37개 영업점 통폐합 데이터뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EVG8zOTlyUElNMjhtTlZqZnpNel95Qmp4QldMSFFBYkFVYl9vWkd4V1NNT0R3MExyZTRfeVNtNFlGTHlsd2g5aVQ3MmwxVzhSSG4zOHZta0VNVVoxWlp5eGtfVWQ?oc=5",
-    "published": "2026-06-25T08:14:56+09:00",
+    "id": "8c4ce5e81059",
+    "title": "[취재후일담] ‘점포 1067곳’ 농협은행이 디지털에 공들이는 까닭",
+    "source": "아시아투데이",
+    "summary": "[취재후일담] ‘점포 1067곳’ 농협은행이 디지털에 공들이는 까닭 아시아투데이",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LVUtfSlpoVEQ3WGlwcUtpNk5mTDV5U2pRY1l2UVRiQWpoT3NseDJnSzUtejFIU1NWNW90NHBNT3FqRkhCTEVUNm9vOXhOZy1VVzNpZFNSTWRtQXF2dElMeTJveG1MWm9KSUE2ZlRR?oc=5",
+    "published": "2026-06-28T18:03:04+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 3,
-    "_score": 13.0,
+    "rank": 1,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "67303c6ab053",
-        "title": "NH농협은행 대전본부, 전 영업점 ‘무더위 쉼터’ 운영",
-        "source": "로컬투데이",
-        "summary": "NH농협은행 대전본부, 전 영업점 ‘무더위 쉼터’ 운영 로컬투데이",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDak91Q0xMeWlTM2tjSlFBWTRBUGlZeHF1dlFGb016WFF4UWFKTC1YVkJ0YlZpR3lrV3VZOW5RNEhxcDlTZnRyakdDLUVYLUp6RFNFQzRSWG03cnQwdHJNTHFJSnE2UkJTckNUblVVOGc?oc=5",
-        "published": "2026-06-26T18:31:59+09:00",
+        "id": "d6f7d2cb200e",
+        "title": "NH농협은행 대전본부, 관내 전 영업점 ‘무더위 쉼터’ 운영",
+        "source": "금강일보",
+        "summary": "NH농협은행 대전본부, 관내 전 영업점 ‘무더위 쉼터’ 운영 금강일보",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MekFwUDQzeENFQkRON3N4ZDdnbUk4dXRjaDBRN20yTnlpcm5qSndEUWtLRy1zT1dzdkpjcjEyUEVqd0dQSktRbHdJSjVXTGJhXzZpdjJnOWV0b2N0Y3V1YjdiVHdmeEwyUWc?oc=5",
+        "published": "2026-06-28T16:54:11+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +36,7 @@
         "published": "2026-06-26T17:56:58+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -76,15 +76,27 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "e5b87d739bbb",
+        "id": "bd2abe04a85e",
+        "title": "우리은행, 내달 37개 영업점 통폐합",
+        "source": "데이터뉴스",
+        "summary": "우리은행, 내달 37개 영업점 통폐합 데이터뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EVG8zOTlyUElNMjhtTlZqZnpNel95Qmp4QldMSFFBYkFVYl9vWkd4V1NNT0R3MExyZTRfeVNtNFlGTHlsd2g5aVQ3MmwxVzhSSG4zOHZta0VNVVoxWlp5eGtfVWQ?oc=5",
+        "published": "2026-06-25T08:14:56+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "bdb167f73513",
         "title": "은행점포 1개 줄면, 지역내 신생기업 줄고 소멸기업 늘어",
         "source": "v.daum.net",
         "summary": "은행점포 1개 줄면, 지역내 신생기업 줄고 소멸기업 늘어 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1VQTNDZHd1b0VzNUVNdG5hVGYzR3BRbHZ1RWZJcVppcFdua3lhdWJuMExXRDljRkVydHZYOV9qQndFQmNULVByUzJUOA?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96ZDZ2LUlHU18zUGtrNGd0ekpMZDNjelBUbTF2WGlhdjNBdGNmbUMxcFYtSUxTVXdtR0pGQmNZMF90bHRoeTBTTEsyUE5sOHVxc0laVg?oc=5",
         "published": "2026-06-25T00:01:30+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,19 +108,7 @@
         "published": "2026-06-24T14:41:22+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 9,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "2296bd5a07f6",
-        "title": "당국 제동에도…은행 점포 축소 '요지부동'",
-        "source": "DFT 대한금융신문",
-        "summary": "당국 제동에도…은행 점포 축소 '요지부동' DFT 대한금융신문",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lc2o1azRIdXZwVGItdUt4NlQyZzFKMzRsMTRDQ05BZjdCOUlSZU9RdFJKd3o0dWNiZi1pNlIzNzNQQmFpOVB0TGl5T2g1b0JhSDFqdG1uTU85aHVheDN0aXFMMUl5eVNLMUhNctIBcEFVX3lxTE51S3V0N0JkSVBQX1I3b1ZsM282V2pfdEtUTGd0QW9kbGo1QUszZUxRM2gyMWN5QW83ZWJVRzNuZUVrVDVFTnFRcy1UUENEVHdYa2ZTQTlxb1lvWkx1OGJmcDgxM1BCVHJPYjY5RWc3T2o?oc=5",
-        "published": "2026-06-24T06:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 2,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -123,18 +123,18 @@
         "published": "2026-06-25T17:11:39+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2
+        "rank": 1
       },
       {
-        "id": "bdb74c708bf6",
-        "title": "신한은행, 법인 전용 '이종통화 해외송금' 서비스",
-        "source": "뉴시스",
-        "summary": "신한은행, 법인 전용 '이종통화 해외송금' 서비스 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CQVgzUnR5Slg5SEU5UnZaLXM3Y1pBS1ZwemhGVC1CWGZIZEkzS0diODIyazdLMnp3TXJiMWVhdVJxVWJJZE0zaE5RMFBLcEhLSlNSLTVYMEg2b0Q5dnFrQV9KMXpjalV6TlNYbXZxRWo4VzJKSm5wT9IBeEFVX3lxTE5CQVgzUnR5Slg5SEU5UnZaLXM3Y1pBS1ZwemhGVC1CWGZIZEkzS0diODIyazdLMnp3TXJiMWVhdVJxVWJJZE0zaE5RMFBLcEhLSlNSLTVYMEg2b0Q5dnFrQV9KMXpjalV6TlNYbXZxRWo4VzJKSm5wTw?oc=5",
-        "published": "2026-06-25T15:58:33+09:00",
+        "id": "102219dc64a9",
+        "title": "신한은행, 법인 전용 '이종통화 해외송금 서비스' 출시",
+        "source": "데이터뉴스",
+        "summary": "신한은행, 법인 전용 '이종통화 해외송금 서비스' 출시 데이터뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NU3h5bzI0Z21qVXRPZTlVZExPNE5ZalBvX2FBV3FHRGk2MExFQkRfNnJud0tjV2RMRVdCUGxxLWJ6NTZTZ3IyUm95eGUycU9IY2l4NmpVWDQtMEJYN3UzNg?oc=5",
+        "published": "2026-06-25T09:23:12+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -146,7 +146,7 @@
         "published": "2026-06-24T16:23:56+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 4,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
