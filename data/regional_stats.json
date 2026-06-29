@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-06-22T16:13:18+09:00",
+  "as_of": "2026-06-29T09:07:50+09:00",
   "regions": {
     "강원 강릉시": {
       "sido": "강원",
       "sigungu": "강릉시",
       "branch_count": 7,
       "population": {
-        "value": 205849,
-        "period": "202604",
+        "value": 205790,
+        "period": "202605",
         "label": "강릉시",
         "unit": "명"
       },
@@ -33,8 +33,8 @@
       "sigungu": "동해시",
       "branch_count": 3,
       "population": {
-        "value": 85758,
-        "period": "202604",
+        "value": 85608,
+        "period": "202605",
         "label": "동해시",
         "unit": "명"
       },
@@ -60,8 +60,8 @@
       "sigungu": "삼척시",
       "branch_count": 2,
       "population": {
-        "value": 60461,
-        "period": "202604",
+        "value": 60408,
+        "period": "202605",
         "label": "삼척시",
         "unit": "명"
       },
@@ -87,8 +87,8 @@
       "sigungu": "속초시",
       "branch_count": 4,
       "population": {
-        "value": 78842,
-        "period": "202604",
+        "value": 78805,
+        "period": "202605",
         "label": "속초시",
         "unit": "명"
       },
@@ -114,8 +114,8 @@
       "sigungu": "양양군",
       "branch_count": 1,
       "population": {
-        "value": 27406,
-        "period": "202604",
+        "value": 27417,
+        "period": "202605",
         "label": "양양군",
         "unit": "명"
       },
@@ -141,8 +141,8 @@
       "sigungu": "영월군",
       "branch_count": 2,
       "population": {
-        "value": 35836,
-        "period": "202604",
+        "value": 35757,
+        "period": "202605",
         "label": "영월군",
         "unit": "명"
       },
@@ -168,8 +168,8 @@
       "sigungu": "원주시",
       "branch_count": 15,
       "population": {
-        "value": 364286,
-        "period": "202604",
+        "value": 364570,
+        "period": "202605",
         "label": "원주시",
         "unit": "명"
       },
@@ -195,8 +195,8 @@
       "sigungu": "인제군",
       "branch_count": 1,
       "population": {
-        "value": 30773,
-        "period": "202604",
+        "value": 30752,
+        "period": "202605",
         "label": "인제군",
         "unit": "명"
       },
@@ -222,8 +222,8 @@
       "sigungu": "정선군",
       "branch_count": 4,
       "population": {
-        "value": 35073,
-        "period": "202604",
+        "value": 35113,
+        "period": "202605",
         "label": "정선군",
         "unit": "명"
       },
@@ -249,8 +249,8 @@
       "sigungu": "철원군",
       "branch_count": 1,
       "population": {
-        "value": 39779,
-        "period": "202604",
+        "value": 39727,
+        "period": "202605",
         "label": "철원군",
         "unit": "명"
       },
@@ -276,8 +276,8 @@
       "sigungu": "춘천시",
       "branch_count": 13,
       "population": {
-        "value": 284966,
-        "period": "202604",
+        "value": 285160,
+        "period": "202605",
         "label": "춘천시",
         "unit": "명"
       },
@@ -303,8 +303,8 @@
       "sigungu": "태백시",
       "branch_count": 2,
       "population": {
-        "value": 36850,
-        "period": "202604",
+        "value": 36853,
+        "period": "202605",
         "label": "태백시",
         "unit": "명"
       },
@@ -330,8 +330,8 @@
       "sigungu": "홍천군",
       "branch_count": 2,
       "population": {
-        "value": 65935,
-        "period": "202604",
+        "value": 65889,
+        "period": "202605",
         "label": "홍천군",
         "unit": "명"
       },
@@ -357,8 +357,8 @@
       "sigungu": "가평군",
       "branch_count": 1,
       "population": {
-        "value": 62010,
-        "period": "202604",
+        "value": 62044,
+        "period": "202605",
         "label": "가평군",
         "unit": "명"
       },
@@ -384,8 +384,8 @@
       "sigungu": "고양시 덕양구",
       "branch_count": 14,
       "population": {
-        "value": 1057762,
-        "period": "202604",
+        "value": 1057471,
+        "period": "202605",
         "label": "고양시",
         "unit": "명"
       },
@@ -411,8 +411,8 @@
       "sigungu": "고양시 일산동구",
       "branch_count": 18,
       "population": {
-        "value": 83475,
-        "period": "202604",
+        "value": 83432,
+        "period": "202605",
         "label": "동구",
         "unit": "명"
       },
@@ -438,8 +438,8 @@
       "sigungu": "고양시 일산서구",
       "branch_count": 19,
       "population": {
-        "value": 101312,
-        "period": "202604",
+        "value": 101320,
+        "period": "202605",
         "label": "서구",
         "unit": "명"
       },
@@ -465,8 +465,8 @@
       "sigungu": "과천시",
       "branch_count": 7,
       "population": {
-        "value": 80250,
-        "period": "202604",
+        "value": 80384,
+        "period": "202605",
         "label": "과천시",
         "unit": "명"
       },
@@ -492,8 +492,8 @@
       "sigungu": "광명시",
       "branch_count": 14,
       "population": {
-        "value": 303091,
-        "period": "202604",
+        "value": 303479,
+        "period": "202605",
         "label": "광명시",
         "unit": "명"
       },
@@ -519,8 +519,8 @@
       "sigungu": "광주시",
       "branch_count": 8,
       "population": {
-        "value": 397402,
-        "period": "202604",
+        "value": 398250,
+        "period": "202605",
         "label": "광주시",
         "unit": "명"
       },
@@ -546,8 +546,8 @@
       "sigungu": "구리시",
       "branch_count": 8,
       "population": {
-        "value": 186855,
-        "period": "202604",
+        "value": 187463,
+        "period": "202605",
         "label": "구리시",
         "unit": "명"
       },
@@ -573,8 +573,8 @@
       "sigungu": "군포시",
       "branch_count": 10,
       "population": {
-        "value": 250007,
-        "period": "202604",
+        "value": 249770,
+        "period": "202605",
         "label": "군포시",
         "unit": "명"
       },
@@ -600,8 +600,8 @@
       "sigungu": "김포시",
       "branch_count": 23,
       "population": {
-        "value": 484222,
-        "period": "202604",
+        "value": 484047,
+        "period": "202605",
         "label": "김포시",
         "unit": "명"
       },
@@ -627,8 +627,8 @@
       "sigungu": "남양주시",
       "branch_count": 24,
       "population": {
-        "value": 728126,
-        "period": "202604",
+        "value": 727717,
+        "period": "202605",
         "label": "남양주시",
         "unit": "명"
       },
@@ -654,8 +654,8 @@
       "sigungu": "동두천시",
       "branch_count": 2,
       "population": {
-        "value": 86293,
-        "period": "202604",
+        "value": 86243,
+        "period": "202605",
         "label": "동두천시",
         "unit": "명"
       },
@@ -681,8 +681,8 @@
       "sigungu": "부천시 소사구",
       "branch_count": 7,
       "population": {
-        "value": 756356,
-        "period": "202604",
+        "value": 756037,
+        "period": "202605",
         "label": "부천시",
         "unit": "명"
       },
@@ -708,8 +708,8 @@
       "sigungu": "부천시 오정구",
       "branch_count": 4,
       "population": {
-        "value": 756356,
-        "period": "202604",
+        "value": 756037,
+        "period": "202605",
         "label": "부천시",
         "unit": "명"
       },
@@ -735,8 +735,8 @@
       "sigungu": "부천시 원미구",
       "branch_count": 28,
       "population": {
-        "value": 756356,
-        "period": "202604",
+        "value": 756037,
+        "period": "202605",
         "label": "부천시",
         "unit": "명"
       },
@@ -762,8 +762,8 @@
       "sigungu": "성남시 분당구",
       "branch_count": 62,
       "population": {
-        "value": 904576,
-        "period": "202604",
+        "value": 903747,
+        "period": "202605",
         "label": "성남시",
         "unit": "명"
       },
@@ -789,8 +789,8 @@
       "sigungu": "성남시 수정구",
       "branch_count": 16,
       "population": {
-        "value": 904576,
-        "period": "202604",
+        "value": 903747,
+        "period": "202605",
         "label": "성남시",
         "unit": "명"
       },
@@ -816,8 +816,8 @@
       "sigungu": "성남시 중원구",
       "branch_count": 9,
       "population": {
-        "value": 904576,
-        "period": "202604",
+        "value": 903747,
+        "period": "202605",
         "label": "성남시",
         "unit": "명"
       },
@@ -843,8 +843,8 @@
       "sigungu": "수원시 권선구",
       "branch_count": 9,
       "population": {
-        "value": 1186150,
-        "period": "202604",
+        "value": 1186120,
+        "period": "202605",
         "label": "수원시",
         "unit": "명"
       },
@@ -870,8 +870,8 @@
       "sigungu": "수원시 영통구",
       "branch_count": 25,
       "population": {
-        "value": 1186150,
-        "period": "202604",
+        "value": 1186120,
+        "period": "202605",
         "label": "수원시",
         "unit": "명"
       },
@@ -882,7 +882,7 @@
           "income_pct": null,
           "market_pct": 99.0,
           "market_source": "population",
-          "branch_density_pct": 85.6
+          "branch_density_pct": 86.0
         },
         "weights": {
           "businesses": 0.45,
@@ -897,8 +897,8 @@
       "sigungu": "수원시 장안구",
       "branch_count": 10,
       "population": {
-        "value": 1186150,
-        "period": "202604",
+        "value": 1186120,
+        "period": "202605",
         "label": "수원시",
         "unit": "명"
       },
@@ -924,8 +924,8 @@
       "sigungu": "수원시 팔달구",
       "branch_count": 18,
       "population": {
-        "value": 1186150,
-        "period": "202604",
+        "value": 1186120,
+        "period": "202605",
         "label": "수원시",
         "unit": "명"
       },
@@ -951,8 +951,8 @@
       "sigungu": "시흥시",
       "branch_count": 20,
       "population": {
-        "value": 514822,
-        "period": "202604",
+        "value": 514804,
+        "period": "202605",
         "label": "시흥시",
         "unit": "명"
       },
@@ -978,8 +978,8 @@
       "sigungu": "안산시 단원구",
       "branch_count": 27,
       "population": {
-        "value": 610081,
-        "period": "202604",
+        "value": 609712,
+        "period": "202605",
         "label": "안산시",
         "unit": "명"
       },
@@ -1005,8 +1005,8 @@
       "sigungu": "안산시 상록구",
       "branch_count": 8,
       "population": {
-        "value": 610081,
-        "period": "202604",
+        "value": 609712,
+        "period": "202605",
         "label": "안산시",
         "unit": "명"
       },
@@ -1032,8 +1032,8 @@
       "sigungu": "안성시",
       "branch_count": 6,
       "population": {
-        "value": 198089,
-        "period": "202604",
+        "value": 198631,
+        "period": "202605",
         "label": "안성시",
         "unit": "명"
       },
@@ -1059,8 +1059,8 @@
       "sigungu": "안양시 동안구",
       "branch_count": 25,
       "population": {
-        "value": 562409,
-        "period": "202604",
+        "value": 562341,
+        "period": "202605",
         "label": "안양시",
         "unit": "명"
       },
@@ -1071,7 +1071,7 @@
           "income_pct": null,
           "market_pct": 82.9,
           "market_source": "population",
-          "branch_density_pct": 86.0
+          "branch_density_pct": 86.5
         },
         "weights": {
           "businesses": 0.45,
@@ -1086,8 +1086,8 @@
       "sigungu": "안양시 만안구",
       "branch_count": 6,
       "population": {
-        "value": 562409,
-        "period": "202604",
+        "value": 562341,
+        "period": "202605",
         "label": "안양시",
         "unit": "명"
       },
@@ -1113,8 +1113,8 @@
       "sigungu": "양주시",
       "branch_count": 11,
       "population": {
-        "value": 296910,
-        "period": "202604",
+        "value": 296976,
+        "period": "202605",
         "label": "양주시",
         "unit": "명"
       },
@@ -1140,8 +1140,8 @@
       "sigungu": "양평군",
       "branch_count": 1,
       "population": {
-        "value": 126797,
-        "period": "202604",
+        "value": 126746,
+        "period": "202605",
         "label": "양평군",
         "unit": "명"
       },
@@ -1167,8 +1167,8 @@
       "sigungu": "여주시",
       "branch_count": 2,
       "population": {
-        "value": 113605,
-        "period": "202604",
+        "value": 113541,
+        "period": "202605",
         "label": "여주시",
         "unit": "명"
       },
@@ -1194,8 +1194,8 @@
       "sigungu": "연천군",
       "branch_count": 1,
       "population": {
-        "value": 42814,
-        "period": "202604",
+        "value": 42868,
+        "period": "202605",
         "label": "연천군",
         "unit": "명"
       },
@@ -1221,17 +1221,17 @@
       "sigungu": "오산시",
       "branch_count": 7,
       "population": {
-        "value": 251395,
-        "period": "202604",
+        "value": 252414,
+        "period": "202605",
         "label": "오산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 49.3,
+        "value": 49.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 49.3,
+          "market_pct": 49.8,
           "market_source": "population",
           "branch_density_pct": 45.6
         },
@@ -1248,8 +1248,8 @@
       "sigungu": "용인시 기흥구",
       "branch_count": 25,
       "population": {
-        "value": 1090269,
-        "period": "202604",
+        "value": 1089693,
+        "period": "202605",
         "label": "용인시",
         "unit": "명"
       },
@@ -1260,7 +1260,7 @@
           "income_pct": null,
           "market_pct": 97.1,
           "market_source": "population",
-          "branch_density_pct": 86.5
+          "branch_density_pct": 87.0
         },
         "weights": {
           "businesses": 0.45,
@@ -1275,8 +1275,8 @@
       "sigungu": "용인시 수지구",
       "branch_count": 25,
       "population": {
-        "value": 1090269,
-        "period": "202604",
+        "value": 1089693,
+        "period": "202605",
         "label": "용인시",
         "unit": "명"
       },
@@ -1287,7 +1287,7 @@
           "income_pct": null,
           "market_pct": 97.6,
           "market_source": "population",
-          "branch_density_pct": 87.0
+          "branch_density_pct": 87.4
         },
         "weights": {
           "businesses": 0.45,
@@ -1302,8 +1302,8 @@
       "sigungu": "용인시 처인구",
       "branch_count": 8,
       "population": {
-        "value": 1090269,
-        "period": "202604",
+        "value": 1089693,
+        "period": "202605",
         "label": "용인시",
         "unit": "명"
       },
@@ -1329,8 +1329,8 @@
       "sigungu": "의왕시",
       "branch_count": 3,
       "population": {
-        "value": 162972,
-        "period": "202604",
+        "value": 163071,
+        "period": "202605",
         "label": "의왕시",
         "unit": "명"
       },
@@ -1356,8 +1356,8 @@
       "sigungu": "의정부시",
       "branch_count": 20,
       "population": {
-        "value": 461741,
-        "period": "202604",
+        "value": 461816,
+        "period": "202605",
         "label": "의정부시",
         "unit": "명"
       },
@@ -1383,8 +1383,8 @@
       "sigungu": "이천시",
       "branch_count": 7,
       "population": {
-        "value": 223506,
-        "period": "202604",
+        "value": 223635,
+        "period": "202605",
         "label": "이천시",
         "unit": "명"
       },
@@ -1410,8 +1410,8 @@
       "sigungu": "파주시",
       "branch_count": 19,
       "population": {
-        "value": 531373,
-        "period": "202604",
+        "value": 532124,
+        "period": "202605",
         "label": "파주시",
         "unit": "명"
       },
@@ -1437,8 +1437,8 @@
       "sigungu": "평택시",
       "branch_count": 24,
       "population": {
-        "value": 616517,
-        "period": "202604",
+        "value": 618234,
+        "period": "202605",
         "label": "평택시",
         "unit": "명"
       },
@@ -1464,8 +1464,8 @@
       "sigungu": "포천시",
       "branch_count": 7,
       "population": {
-        "value": 140435,
-        "period": "202604",
+        "value": 140464,
+        "period": "202605",
         "label": "포천시",
         "unit": "명"
       },
@@ -1491,8 +1491,8 @@
       "sigungu": "하남시",
       "branch_count": 11,
       "population": {
-        "value": 327681,
-        "period": "202604",
+        "value": 327571,
+        "period": "202605",
         "label": "하남시",
         "unit": "명"
       },
@@ -1518,8 +1518,8 @@
       "sigungu": "화성시 동탄구",
       "branch_count": 18,
       "population": {
-        "value": 996582,
-        "period": "202604",
+        "value": 997713,
+        "period": "202605",
         "label": "화성시",
         "unit": "명"
       },
@@ -1545,8 +1545,8 @@
       "sigungu": "화성시 만세구",
       "branch_count": 10,
       "population": {
-        "value": 996582,
-        "period": "202604",
+        "value": 997713,
+        "period": "202605",
         "label": "화성시",
         "unit": "명"
       },
@@ -1572,8 +1572,8 @@
       "sigungu": "화성시 병점구",
       "branch_count": 8,
       "population": {
-        "value": 996582,
-        "period": "202604",
+        "value": 997713,
+        "period": "202605",
         "label": "화성시",
         "unit": "명"
       },
@@ -1599,8 +1599,8 @@
       "sigungu": "화성시 효행구",
       "branch_count": 4,
       "population": {
-        "value": 996582,
-        "period": "202604",
+        "value": 997713,
+        "period": "202605",
         "label": "화성시",
         "unit": "명"
       },
@@ -1626,8 +1626,8 @@
       "sigungu": "거제시",
       "branch_count": 7,
       "population": {
-        "value": 229490,
-        "period": "202604",
+        "value": 229221,
+        "period": "202605",
         "label": "거제시",
         "unit": "명"
       },
@@ -1653,8 +1653,8 @@
       "sigungu": "거창군",
       "branch_count": 2,
       "population": {
-        "value": 58889,
-        "period": "202604",
+        "value": 58874,
+        "period": "202605",
         "label": "거창군",
         "unit": "명"
       },
@@ -1680,8 +1680,8 @@
       "sigungu": "김해시",
       "branch_count": 13,
       "population": {
-        "value": 532687,
-        "period": "202604",
+        "value": 532665,
+        "period": "202605",
         "label": "김해시",
         "unit": "명"
       },
@@ -1707,8 +1707,8 @@
       "sigungu": "밀양시",
       "branch_count": 2,
       "population": {
-        "value": 98728,
-        "period": "202604",
+        "value": 98619,
+        "period": "202605",
         "label": "밀양시",
         "unit": "명"
       },
@@ -1734,8 +1734,8 @@
       "sigungu": "사천시",
       "branch_count": 3,
       "population": {
-        "value": 107804,
-        "period": "202604",
+        "value": 107808,
+        "period": "202605",
         "label": "사천시",
         "unit": "명"
       },
@@ -1761,8 +1761,8 @@
       "sigungu": "양산시",
       "branch_count": 8,
       "population": {
-        "value": 361371,
-        "period": "202604",
+        "value": 361433,
+        "period": "202605",
         "label": "양산시",
         "unit": "명"
       },
@@ -1788,8 +1788,8 @@
       "sigungu": "진주시",
       "branch_count": 10,
       "population": {
-        "value": 335005,
-        "period": "202604",
+        "value": 334984,
+        "period": "202605",
         "label": "진주시",
         "unit": "명"
       },
@@ -1815,8 +1815,8 @@
       "sigungu": "창원시 마산합포구",
       "branch_count": 4,
       "population": {
-        "value": 987251,
-        "period": "202604",
+        "value": 986759,
+        "period": "202605",
         "label": "창원시",
         "unit": "명"
       },
@@ -1842,8 +1842,8 @@
       "sigungu": "창원시 마산회원구",
       "branch_count": 3,
       "population": {
-        "value": 987251,
-        "period": "202604",
+        "value": 986759,
+        "period": "202605",
         "label": "창원시",
         "unit": "명"
       },
@@ -1869,8 +1869,8 @@
       "sigungu": "창원시 성산구",
       "branch_count": 15,
       "population": {
-        "value": 987251,
-        "period": "202604",
+        "value": 986759,
+        "period": "202605",
         "label": "창원시",
         "unit": "명"
       },
@@ -1896,8 +1896,8 @@
       "sigungu": "창원시 의창구",
       "branch_count": 1,
       "population": {
-        "value": 987251,
-        "period": "202604",
+        "value": 986759,
+        "period": "202605",
         "label": "창원시",
         "unit": "명"
       },
@@ -1923,8 +1923,8 @@
       "sigungu": "창원시 진해구",
       "branch_count": 2,
       "population": {
-        "value": 987251,
-        "period": "202604",
+        "value": 986759,
+        "period": "202605",
         "label": "창원시",
         "unit": "명"
       },
@@ -1950,8 +1950,8 @@
       "sigungu": "통영시",
       "branch_count": 3,
       "population": {
-        "value": 115826,
-        "period": "202604",
+        "value": 115818,
+        "period": "202605",
         "label": "통영시",
         "unit": "명"
       },
@@ -1977,8 +1977,8 @@
       "sigungu": "경산시",
       "branch_count": 6,
       "population": {
-        "value": 263525,
-        "period": "202604",
+        "value": 263639,
+        "period": "202605",
         "label": "경산시",
         "unit": "명"
       },
@@ -2004,8 +2004,8 @@
       "sigungu": "경주시",
       "branch_count": 6,
       "population": {
-        "value": 243183,
-        "period": "202604",
+        "value": 243141,
+        "period": "202605",
         "label": "경주시",
         "unit": "명"
       },
@@ -2031,8 +2031,8 @@
       "sigungu": "구미시",
       "branch_count": 13,
       "population": {
-        "value": 403113,
-        "period": "202604",
+        "value": 402867,
+        "period": "202605",
         "label": "구미시",
         "unit": "명"
       },
@@ -2058,8 +2058,8 @@
       "sigungu": "김천시",
       "branch_count": 6,
       "population": {
-        "value": 133049,
-        "period": "202604",
+        "value": 132840,
+        "period": "202605",
         "label": "김천시",
         "unit": "명"
       },
@@ -2085,8 +2085,8 @@
       "sigungu": "문경시",
       "branch_count": 1,
       "population": {
-        "value": 64872,
-        "period": "202604",
+        "value": 64792,
+        "period": "202605",
         "label": "문경시",
         "unit": "명"
       },
@@ -2112,8 +2112,8 @@
       "sigungu": "상주시",
       "branch_count": 1,
       "population": {
-        "value": 89467,
-        "period": "202604",
+        "value": 89382,
+        "period": "202605",
         "label": "상주시",
         "unit": "명"
       },
@@ -2139,8 +2139,8 @@
       "sigungu": "안동시",
       "branch_count": 8,
       "population": {
-        "value": 152469,
-        "period": "202604",
+        "value": 152246,
+        "period": "202605",
         "label": "안동시",
         "unit": "명"
       },
@@ -2166,8 +2166,8 @@
       "sigungu": "영주시",
       "branch_count": 4,
       "population": {
-        "value": 96555,
-        "period": "202604",
+        "value": 96511,
+        "period": "202605",
         "label": "영주시",
         "unit": "명"
       },
@@ -2193,8 +2193,8 @@
       "sigungu": "영천시",
       "branch_count": 1,
       "population": {
-        "value": 94486,
-        "period": "202604",
+        "value": 94331,
+        "period": "202605",
         "label": "영천시",
         "unit": "명"
       },
@@ -2220,8 +2220,8 @@
       "sigungu": "예천군",
       "branch_count": 2,
       "population": {
-        "value": 53529,
-        "period": "202604",
+        "value": 53467,
+        "period": "202605",
         "label": "예천군",
         "unit": "명"
       },
@@ -2247,8 +2247,8 @@
       "sigungu": "울진군",
       "branch_count": 1,
       "population": {
-        "value": 46081,
-        "period": "202604",
+        "value": 46096,
+        "period": "202605",
         "label": "울진군",
         "unit": "명"
       },
@@ -2274,8 +2274,8 @@
       "sigungu": "의성군",
       "branch_count": 1,
       "population": {
-        "value": 47829,
-        "period": "202604",
+        "value": 47893,
+        "period": "202605",
         "label": "의성군",
         "unit": "명"
       },
@@ -2301,8 +2301,8 @@
       "sigungu": "칠곡군",
       "branch_count": 1,
       "population": {
-        "value": 103807,
-        "period": "202604",
+        "value": 103618,
+        "period": "202605",
         "label": "칠곡군",
         "unit": "명"
       },
@@ -2328,8 +2328,8 @@
       "sigungu": "포항시 남구",
       "branch_count": 6,
       "population": {
-        "value": 253913,
-        "period": "202604",
+        "value": 254174,
+        "period": "202605",
         "label": "남구",
         "unit": "명"
       },
@@ -2355,8 +2355,8 @@
       "sigungu": "포항시 북구",
       "branch_count": 13,
       "population": {
-        "value": 261316,
-        "period": "202604",
+        "value": 260994,
+        "period": "202605",
         "label": "북구",
         "unit": "명"
       },
@@ -2382,8 +2382,8 @@
       "sigungu": "광산구",
       "branch_count": 12,
       "population": {
-        "value": 384648,
-        "period": "202604",
+        "value": 384040,
+        "period": "202605",
         "label": "광산구",
         "unit": "명"
       },
@@ -2409,8 +2409,8 @@
       "sigungu": "남구",
       "branch_count": 6,
       "population": {
-        "value": 253913,
-        "period": "202604",
+        "value": 254174,
+        "period": "202605",
         "label": "남구",
         "unit": "명"
       },
@@ -2436,8 +2436,8 @@
       "sigungu": "동구",
       "branch_count": 7,
       "population": {
-        "value": 83475,
-        "period": "202604",
+        "value": 83432,
+        "period": "202605",
         "label": "동구",
         "unit": "명"
       },
@@ -2463,8 +2463,8 @@
       "sigungu": "북구",
       "branch_count": 11,
       "population": {
-        "value": 261316,
-        "period": "202604",
+        "value": 260994,
+        "period": "202605",
         "label": "북구",
         "unit": "명"
       },
@@ -2490,8 +2490,8 @@
       "sigungu": "서구",
       "branch_count": 9,
       "population": {
-        "value": 101312,
-        "period": "202604",
+        "value": 101320,
+        "period": "202605",
         "label": "서구",
         "unit": "명"
       },
@@ -2517,8 +2517,8 @@
       "sigungu": "남구",
       "branch_count": 3,
       "population": {
-        "value": 253913,
-        "period": "202604",
+        "value": 254174,
+        "period": "202605",
         "label": "남구",
         "unit": "명"
       },
@@ -2544,8 +2544,8 @@
       "sigungu": "달서구",
       "branch_count": 21,
       "population": {
-        "value": 514677,
-        "period": "202604",
+        "value": 514075,
+        "period": "202605",
         "label": "달서구",
         "unit": "명"
       },
@@ -2571,17 +2571,17 @@
       "sigungu": "달성군",
       "branch_count": 5,
       "population": {
-        "value": 252627,
-        "period": "202604",
+        "value": 252210,
+        "period": "202605",
         "label": "달성군",
         "unit": "명"
       },
       "location_score": {
-        "value": 49.8,
+        "value": 49.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 49.8,
+          "market_pct": 49.3,
           "market_source": "population",
           "branch_density_pct": 34.4
         },
@@ -2598,8 +2598,8 @@
       "sigungu": "동구",
       "branch_count": 11,
       "population": {
-        "value": 83475,
-        "period": "202604",
+        "value": 83432,
+        "period": "202605",
         "label": "동구",
         "unit": "명"
       },
@@ -2625,8 +2625,8 @@
       "sigungu": "북구",
       "branch_count": 12,
       "population": {
-        "value": 261316,
-        "period": "202604",
+        "value": 260994,
+        "period": "202605",
         "label": "북구",
         "unit": "명"
       },
@@ -2652,8 +2652,8 @@
       "sigungu": "서구",
       "branch_count": 3,
       "population": {
-        "value": 101312,
-        "period": "202604",
+        "value": 101320,
+        "period": "202605",
         "label": "서구",
         "unit": "명"
       },
@@ -2679,8 +2679,8 @@
       "sigungu": "수성구",
       "branch_count": 18,
       "population": {
-        "value": 408743,
-        "period": "202604",
+        "value": 408527,
+        "period": "202605",
         "label": "수성구",
         "unit": "명"
       },
@@ -2706,8 +2706,8 @@
       "sigungu": "중구",
       "branch_count": 12,
       "population": {
-        "value": 117760,
-        "period": "202604",
+        "value": 117765,
+        "period": "202605",
         "label": "중구",
         "unit": "명"
       },
@@ -2733,8 +2733,8 @@
       "sigungu": "대덕구",
       "branch_count": 9,
       "population": {
-        "value": 164476,
-        "period": "202604",
+        "value": 164379,
+        "period": "202605",
         "label": "대덕구",
         "unit": "명"
       },
@@ -2760,8 +2760,8 @@
       "sigungu": "동구",
       "branch_count": 12,
       "population": {
-        "value": 83475,
-        "period": "202604",
+        "value": 83432,
+        "period": "202605",
         "label": "동구",
         "unit": "명"
       },
@@ -2787,8 +2787,8 @@
       "sigungu": "서구",
       "branch_count": 31,
       "population": {
-        "value": 101312,
-        "period": "202604",
+        "value": 101320,
+        "period": "202605",
         "label": "서구",
         "unit": "명"
       },
@@ -2814,17 +2814,17 @@
       "sigungu": "유성구",
       "branch_count": 27,
       "population": {
-        "value": 370610,
-        "period": "202604",
+        "value": 371147,
+        "period": "202605",
         "label": "유성구",
         "unit": "명"
       },
       "location_score": {
-        "value": 67.8,
+        "value": 68.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 67.8,
+          "market_pct": 68.3,
           "market_source": "population",
           "branch_density_pct": 89.8
         },
@@ -2841,8 +2841,8 @@
       "sigungu": "중구",
       "branch_count": 9,
       "population": {
-        "value": 117760,
-        "period": "202604",
+        "value": 117765,
+        "period": "202605",
         "label": "중구",
         "unit": "명"
       },
@@ -2868,8 +2868,8 @@
       "sigungu": "강서구",
       "branch_count": 10,
       "population": {
-        "value": 548716,
-        "period": "202604",
+        "value": 548622,
+        "period": "202605",
         "label": "강서구",
         "unit": "명"
       },
@@ -2895,8 +2895,8 @@
       "sigungu": "금정구",
       "branch_count": 5,
       "population": {
-        "value": 205880,
-        "period": "202604",
+        "value": 205968,
+        "period": "202605",
         "label": "금정구",
         "unit": "명"
       },
@@ -2922,8 +2922,8 @@
       "sigungu": "기장군",
       "branch_count": 6,
       "population": {
-        "value": 175267,
-        "period": "202604",
+        "value": 175273,
+        "period": "202605",
         "label": "기장군",
         "unit": "명"
       },
@@ -2949,8 +2949,8 @@
       "sigungu": "남구",
       "branch_count": 9,
       "population": {
-        "value": 253913,
-        "period": "202604",
+        "value": 254174,
+        "period": "202605",
         "label": "남구",
         "unit": "명"
       },
@@ -2976,8 +2976,8 @@
       "sigungu": "동구",
       "branch_count": 8,
       "population": {
-        "value": 83475,
-        "period": "202604",
+        "value": 83432,
+        "period": "202605",
         "label": "동구",
         "unit": "명"
       },
@@ -3003,8 +3003,8 @@
       "sigungu": "동래구",
       "branch_count": 11,
       "population": {
-        "value": 271815,
-        "period": "202604",
+        "value": 271437,
+        "period": "202605",
         "label": "동래구",
         "unit": "명"
       },
@@ -3030,8 +3030,8 @@
       "sigungu": "부산진구",
       "branch_count": 22,
       "population": {
-        "value": 365157,
-        "period": "202604",
+        "value": 365104,
+        "period": "202605",
         "label": "부산진구",
         "unit": "명"
       },
@@ -3042,7 +3042,7 @@
           "income_pct": null,
           "market_pct": 67.3,
           "market_source": "population",
-          "branch_density_pct": 81.9
+          "branch_density_pct": 81.4
         },
         "weights": {
           "businesses": 0.45,
@@ -3057,8 +3057,8 @@
       "sigungu": "북구",
       "branch_count": 9,
       "population": {
-        "value": 261316,
-        "period": "202604",
+        "value": 260994,
+        "period": "202605",
         "label": "북구",
         "unit": "명"
       },
@@ -3084,8 +3084,8 @@
       "sigungu": "사상구",
       "branch_count": 8,
       "population": {
-        "value": 192901,
-        "period": "202604",
+        "value": 192718,
+        "period": "202605",
         "label": "사상구",
         "unit": "명"
       },
@@ -3111,8 +3111,8 @@
       "sigungu": "사하구",
       "branch_count": 10,
       "population": {
-        "value": 283258,
-        "period": "202604",
+        "value": 282633,
+        "period": "202605",
         "label": "사하구",
         "unit": "명"
       },
@@ -3138,8 +3138,8 @@
       "sigungu": "서구",
       "branch_count": 3,
       "population": {
-        "value": 101312,
-        "period": "202604",
+        "value": 101320,
+        "period": "202605",
         "label": "서구",
         "unit": "명"
       },
@@ -3165,8 +3165,8 @@
       "sigungu": "수영구",
       "branch_count": 7,
       "population": {
-        "value": 168577,
-        "period": "202604",
+        "value": 168513,
+        "period": "202605",
         "label": "수영구",
         "unit": "명"
       },
@@ -3192,8 +3192,8 @@
       "sigungu": "연제구",
       "branch_count": 12,
       "population": {
-        "value": 211491,
-        "period": "202604",
+        "value": 211509,
+        "period": "202605",
         "label": "연제구",
         "unit": "명"
       },
@@ -3219,17 +3219,17 @@
       "sigungu": "영도구",
       "branch_count": 3,
       "population": {
-        "value": 100633,
-        "period": "202604",
+        "value": 100748,
+        "period": "202605",
         "label": "영도구",
         "unit": "명"
       },
       "location_score": {
-        "value": 24.9,
+        "value": 25.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 24.9,
+          "market_pct": 25.4,
           "market_source": "population",
           "branch_density_pct": 25.1
         },
@@ -3246,8 +3246,8 @@
       "sigungu": "중구",
       "branch_count": 12,
       "population": {
-        "value": 117760,
-        "period": "202604",
+        "value": 117765,
+        "period": "202605",
         "label": "중구",
         "unit": "명"
       },
@@ -3273,19 +3273,19 @@
       "sigungu": "해운대구",
       "branch_count": 22,
       "population": {
-        "value": 371143,
-        "period": "202604",
+        "value": 370920,
+        "period": "202605",
         "label": "해운대구",
         "unit": "명"
       },
       "location_score": {
-        "value": 68.3,
+        "value": 67.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 68.3,
+          "market_pct": 67.8,
           "market_source": "population",
-          "branch_density_pct": 82.3
+          "branch_density_pct": 81.9
         },
         "weights": {
           "businesses": 0.45,
@@ -3300,8 +3300,8 @@
       "sigungu": "강남구",
       "branch_count": 165,
       "population": {
-        "value": 553260,
-        "period": "202604",
+        "value": 552962,
+        "period": "202605",
         "label": "강남구",
         "unit": "명"
       },
@@ -3327,8 +3327,8 @@
       "sigungu": "강동구",
       "branch_count": 36,
       "population": {
-        "value": 499460,
-        "period": "202604",
+        "value": 499058,
+        "period": "202605",
         "label": "강동구",
         "unit": "명"
       },
@@ -3354,8 +3354,8 @@
       "sigungu": "강북구",
       "branch_count": 13,
       "population": {
-        "value": 278520,
-        "period": "202604",
+        "value": 278294,
+        "period": "202605",
         "label": "강북구",
         "unit": "명"
       },
@@ -3381,8 +3381,8 @@
       "sigungu": "강서구",
       "branch_count": 40,
       "population": {
-        "value": 548716,
-        "period": "202604",
+        "value": 548622,
+        "period": "202605",
         "label": "강서구",
         "unit": "명"
       },
@@ -3408,8 +3408,8 @@
       "sigungu": "관악구",
       "branch_count": 24,
       "population": {
-        "value": 478144,
-        "period": "202604",
+        "value": 478154,
+        "period": "202605",
         "label": "관악구",
         "unit": "명"
       },
@@ -3435,8 +3435,8 @@
       "sigungu": "광진구",
       "branch_count": 32,
       "population": {
-        "value": 331029,
-        "period": "202604",
+        "value": 331136,
+        "period": "202605",
         "label": "광진구",
         "unit": "명"
       },
@@ -3462,8 +3462,8 @@
       "sigungu": "구로구",
       "branch_count": 32,
       "population": {
-        "value": 382718,
-        "period": "202604",
+        "value": 382652,
+        "period": "202605",
         "label": "구로구",
         "unit": "명"
       },
@@ -3489,8 +3489,8 @@
       "sigungu": "금천구",
       "branch_count": 24,
       "population": {
-        "value": 222726,
-        "period": "202604",
+        "value": 222655,
+        "period": "202605",
         "label": "금천구",
         "unit": "명"
       },
@@ -3516,8 +3516,8 @@
       "sigungu": "노원구",
       "branch_count": 35,
       "population": {
-        "value": 482097,
-        "period": "202604",
+        "value": 481589,
+        "period": "202605",
         "label": "노원구",
         "unit": "명"
       },
@@ -3543,8 +3543,8 @@
       "sigungu": "도봉구",
       "branch_count": 15,
       "population": {
-        "value": 298839,
-        "period": "202604",
+        "value": 298571,
+        "period": "202605",
         "label": "도봉구",
         "unit": "명"
       },
@@ -3570,8 +3570,8 @@
       "sigungu": "동대문구",
       "branch_count": 27,
       "population": {
-        "value": 351656,
-        "period": "202604",
+        "value": 352299,
+        "period": "202605",
         "label": "동대문구",
         "unit": "명"
       },
@@ -3597,8 +3597,8 @@
       "sigungu": "동작구",
       "branch_count": 26,
       "population": {
-        "value": 372250,
-        "period": "202604",
+        "value": 372327,
+        "period": "202605",
         "label": "동작구",
         "unit": "명"
       },
@@ -3624,8 +3624,8 @@
       "sigungu": "마포구",
       "branch_count": 42,
       "population": {
-        "value": 356894,
-        "period": "202604",
+        "value": 356856,
+        "period": "202605",
         "label": "마포구",
         "unit": "명"
       },
@@ -3651,8 +3651,8 @@
       "sigungu": "서대문구",
       "branch_count": 28,
       "population": {
-        "value": 300395,
-        "period": "202604",
+        "value": 300236,
+        "period": "202605",
         "label": "서대문구",
         "unit": "명"
       },
@@ -3678,8 +3678,8 @@
       "sigungu": "서초구",
       "branch_count": 101,
       "population": {
-        "value": 414999,
-        "period": "202604",
+        "value": 414486,
+        "period": "202605",
         "label": "서초구",
         "unit": "명"
       },
@@ -3705,8 +3705,8 @@
       "sigungu": "성동구",
       "branch_count": 28,
       "population": {
-        "value": 274917,
-        "period": "202604",
+        "value": 274694,
+        "period": "202605",
         "label": "성동구",
         "unit": "명"
       },
@@ -3732,17 +3732,17 @@
       "sigungu": "성북구",
       "branch_count": 29,
       "population": {
-        "value": 422452,
-        "period": "202604",
+        "value": 422190,
+        "period": "202605",
         "label": "성북구",
         "unit": "명"
       },
       "location_score": {
-        "value": 74.1,
+        "value": 74.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 74.1,
+          "market_pct": 74.6,
           "market_source": "population",
           "branch_density_pct": 92.1
         },
@@ -3759,8 +3759,8 @@
       "sigungu": "송파구",
       "branch_count": 72,
       "population": {
-        "value": 650447,
-        "period": "202604",
+        "value": 650505,
+        "period": "202605",
         "label": "송파구",
         "unit": "명"
       },
@@ -3786,17 +3786,17 @@
       "sigungu": "양천구",
       "branch_count": 33,
       "population": {
-        "value": 422900,
-        "period": "202604",
+        "value": 422070,
+        "period": "202605",
         "label": "양천구",
         "unit": "명"
       },
       "location_score": {
-        "value": 74.6,
+        "value": 74.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 74.6,
+          "market_pct": 74.1,
           "market_source": "population",
           "branch_density_pct": 94.0
         },
@@ -3813,8 +3813,8 @@
       "sigungu": "영등포구",
       "branch_count": 61,
       "population": {
-        "value": 371471,
-        "period": "202604",
+        "value": 371772,
+        "period": "202605",
         "label": "영등포구",
         "unit": "명"
       },
@@ -3840,17 +3840,17 @@
       "sigungu": "용산구",
       "branch_count": 33,
       "population": {
-        "value": 200187,
-        "period": "202604",
+        "value": 199810,
+        "period": "202605",
         "label": "용산구",
         "unit": "명"
       },
       "location_score": {
-        "value": 43.9,
+        "value": 43.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 43.9,
+          "market_pct": 43.4,
           "market_source": "population",
           "branch_density_pct": 94.4
         },
@@ -3867,8 +3867,8 @@
       "sigungu": "은평구",
       "branch_count": 26,
       "population": {
-        "value": 453550,
-        "period": "202604",
+        "value": 453398,
+        "period": "202605",
         "label": "은평구",
         "unit": "명"
       },
@@ -3894,8 +3894,8 @@
       "sigungu": "종로구",
       "branch_count": 55,
       "population": {
-        "value": 136716,
-        "period": "202604",
+        "value": 136518,
+        "period": "202605",
         "label": "종로구",
         "unit": "명"
       },
@@ -3921,8 +3921,8 @@
       "sigungu": "중구",
       "branch_count": 86,
       "population": {
-        "value": 117760,
-        "period": "202604",
+        "value": 117765,
+        "period": "202605",
         "label": "중구",
         "unit": "명"
       },
@@ -3948,8 +3948,8 @@
       "sigungu": "중랑구",
       "branch_count": 17,
       "population": {
-        "value": 376570,
-        "period": "202604",
+        "value": 376463,
+        "period": "202605",
         "label": "중랑구",
         "unit": "명"
       },
@@ -4165,8 +4165,8 @@
       "sigungu": "남구",
       "branch_count": 17,
       "population": {
-        "value": 253913,
-        "period": "202604",
+        "value": 254174,
+        "period": "202605",
         "label": "남구",
         "unit": "명"
       },
@@ -4192,8 +4192,8 @@
       "sigungu": "동구",
       "branch_count": 6,
       "population": {
-        "value": 83475,
-        "period": "202604",
+        "value": 83432,
+        "period": "202605",
         "label": "동구",
         "unit": "명"
       },
@@ -4219,8 +4219,8 @@
       "sigungu": "북구",
       "branch_count": 6,
       "population": {
-        "value": 261316,
-        "period": "202604",
+        "value": 260994,
+        "period": "202605",
         "label": "북구",
         "unit": "명"
       },
@@ -4246,8 +4246,8 @@
       "sigungu": "울주군",
       "branch_count": 6,
       "population": {
-        "value": 218294,
-        "period": "202604",
+        "value": 218259,
+        "period": "202605",
         "label": "울주군",
         "unit": "명"
       },
@@ -4273,8 +4273,8 @@
       "sigungu": "중구",
       "branch_count": 7,
       "population": {
-        "value": 117760,
-        "period": "202604",
+        "value": 117765,
+        "period": "202605",
         "label": "중구",
         "unit": "명"
       },
@@ -4300,8 +4300,8 @@
       "sigungu": "강화군",
       "branch_count": 3,
       "population": {
-        "value": 69665,
-        "period": "202604",
+        "value": 69689,
+        "period": "202605",
         "label": "강화군",
         "unit": "명"
       },
@@ -4327,8 +4327,8 @@
       "sigungu": "계양구",
       "branch_count": 9,
       "population": {
-        "value": 276851,
-        "period": "202604",
+        "value": 276563,
+        "period": "202605",
         "label": "계양구",
         "unit": "명"
       },
@@ -4354,8 +4354,8 @@
       "sigungu": "남동구",
       "branch_count": 34,
       "population": {
-        "value": 479566,
-        "period": "202604",
+        "value": 479343,
+        "period": "202605",
         "label": "남동구",
         "unit": "명"
       },
@@ -4381,8 +4381,8 @@
       "sigungu": "동구",
       "branch_count": 4,
       "population": {
-        "value": 83475,
-        "period": "202604",
+        "value": 83432,
+        "period": "202605",
         "label": "동구",
         "unit": "명"
       },
@@ -4406,10 +4406,10 @@
     "인천 미추홀구": {
       "sido": "인천",
       "sigungu": "미추홀구",
-      "branch_count": 21,
+      "branch_count": 22,
       "population": {
-        "value": 417547,
-        "period": "202604",
+        "value": 417725,
+        "period": "202605",
         "label": "미추홀구",
         "unit": "명"
       },
@@ -4420,7 +4420,7 @@
           "income_pct": null,
           "market_pct": 73.7,
           "market_source": "population",
-          "branch_density_pct": 81.4
+          "branch_density_pct": 82.3
         },
         "weights": {
           "businesses": 0.45,
@@ -4435,8 +4435,8 @@
       "sigungu": "부평구",
       "branch_count": 18,
       "population": {
-        "value": 489127,
-        "period": "202604",
+        "value": 488829,
+        "period": "202605",
         "label": "부평구",
         "unit": "명"
       },
@@ -4462,8 +4462,8 @@
       "sigungu": "서구",
       "branch_count": 25,
       "population": {
-        "value": 101312,
-        "period": "202604",
+        "value": 101320,
+        "period": "202605",
         "label": "서구",
         "unit": "명"
       },
@@ -4474,7 +4474,7 @@
           "income_pct": null,
           "market_pct": 28.3,
           "market_source": "population",
-          "branch_density_pct": 87.4
+          "branch_density_pct": 87.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4487,10 +4487,10 @@
     "인천 연수구": {
       "sido": "인천",
       "sigungu": "연수구",
-      "branch_count": 25,
+      "branch_count": 24,
       "population": {
-        "value": 410191,
-        "period": "202604",
+        "value": 410308,
+        "period": "202605",
         "label": "연수구",
         "unit": "명"
       },
@@ -4501,7 +4501,7 @@
           "income_pct": null,
           "market_pct": 72.7,
           "market_source": "population",
-          "branch_density_pct": 87.9
+          "branch_density_pct": 85.6
         },
         "weights": {
           "businesses": 0.45,
@@ -4516,8 +4516,8 @@
       "sigungu": "중구",
       "branch_count": 23,
       "population": {
-        "value": 117760,
-        "period": "202604",
+        "value": 117765,
+        "period": "202605",
         "label": "중구",
         "unit": "명"
       },
@@ -4543,8 +4543,8 @@
       "sigungu": "광양시",
       "branch_count": 4,
       "population": {
-        "value": 155815,
-        "period": "202604",
+        "value": 155909,
+        "period": "202605",
         "label": "광양시",
         "unit": "명"
       },
@@ -4570,8 +4570,8 @@
       "sigungu": "나주시",
       "branch_count": 6,
       "population": {
-        "value": 116817,
-        "period": "202604",
+        "value": 116791,
+        "period": "202605",
         "label": "나주시",
         "unit": "명"
       },
@@ -4597,17 +4597,17 @@
       "sigungu": "목포시",
       "branch_count": 6,
       "population": {
-        "value": 200116,
-        "period": "202604",
+        "value": 199813,
+        "period": "202605",
         "label": "목포시",
         "unit": "명"
       },
       "location_score": {
-        "value": 43.4,
+        "value": 43.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 43.4,
+          "market_pct": 43.9,
           "market_source": "population",
           "branch_density_pct": 41.9
         },
@@ -4624,8 +4624,8 @@
       "sigungu": "무안군",
       "branch_count": 3,
       "population": {
-        "value": 95809,
-        "period": "202604",
+        "value": 95807,
+        "period": "202605",
         "label": "무안군",
         "unit": "명"
       },
@@ -4651,8 +4651,8 @@
       "sigungu": "순천시",
       "branch_count": 7,
       "population": {
-        "value": 274914,
-        "period": "202604",
+        "value": 274685,
+        "period": "202605",
         "label": "순천시",
         "unit": "명"
       },
@@ -4678,8 +4678,8 @@
       "sigungu": "여수시",
       "branch_count": 7,
       "population": {
-        "value": 261208,
-        "period": "202604",
+        "value": 260913,
+        "period": "202605",
         "label": "여수시",
         "unit": "명"
       },
@@ -4705,8 +4705,8 @@
       "sigungu": "영암군",
       "branch_count": 1,
       "population": {
-        "value": 50066,
-        "period": "202604",
+        "value": 50069,
+        "period": "202605",
         "label": "영암군",
         "unit": "명"
       },
@@ -4732,8 +4732,8 @@
       "sigungu": "장성군",
       "branch_count": 1,
       "population": {
-        "value": 42990,
-        "period": "202604",
+        "value": 43009,
+        "period": "202605",
         "label": "장성군",
         "unit": "명"
       },
@@ -4759,8 +4759,8 @@
       "sigungu": "화순군",
       "branch_count": 1,
       "population": {
-        "value": 60075,
-        "period": "202604",
+        "value": 60008,
+        "period": "202605",
         "label": "화순군",
         "unit": "명"
       },
@@ -4786,8 +4786,8 @@
       "sigungu": "군산시",
       "branch_count": 10,
       "population": {
-        "value": 255598,
-        "period": "202604",
+        "value": 255649,
+        "period": "202605",
         "label": "군산시",
         "unit": "명"
       },
@@ -4813,8 +4813,8 @@
       "sigungu": "김제시",
       "branch_count": 2,
       "population": {
-        "value": 81758,
-        "period": "202604",
+        "value": 81665,
+        "period": "202605",
         "label": "김제시",
         "unit": "명"
       },
@@ -4840,8 +4840,8 @@
       "sigungu": "남원시",
       "branch_count": 1,
       "population": {
-        "value": 74055,
-        "period": "202604",
+        "value": 73937,
+        "period": "202605",
         "label": "남원시",
         "unit": "명"
       },
@@ -4867,8 +4867,8 @@
       "sigungu": "부안군",
       "branch_count": 1,
       "population": {
-        "value": 47031,
-        "period": "202604",
+        "value": 47009,
+        "period": "202605",
         "label": "부안군",
         "unit": "명"
       },
@@ -4894,8 +4894,8 @@
       "sigungu": "완주군",
       "branch_count": 2,
       "population": {
-        "value": 100092,
-        "period": "202604",
+        "value": 100033,
+        "period": "202605",
         "label": "완주군",
         "unit": "명"
       },
@@ -4921,8 +4921,8 @@
       "sigungu": "익산시",
       "branch_count": 8,
       "population": {
-        "value": 266952,
-        "period": "202604",
+        "value": 266818,
+        "period": "202605",
         "label": "익산시",
         "unit": "명"
       },
@@ -4948,8 +4948,8 @@
       "sigungu": "전주시 덕진구",
       "branch_count": 6,
       "population": {
-        "value": 622242,
-        "period": "202604",
+        "value": 621760,
+        "period": "202605",
         "label": "전주시",
         "unit": "명"
       },
@@ -4975,8 +4975,8 @@
       "sigungu": "전주시 완산구",
       "branch_count": 12,
       "population": {
-        "value": 622242,
-        "period": "202604",
+        "value": 621760,
+        "period": "202605",
         "label": "전주시",
         "unit": "명"
       },
@@ -5002,17 +5002,17 @@
       "sigungu": "정읍시",
       "branch_count": 2,
       "population": {
-        "value": 100724,
-        "period": "202604",
+        "value": 100683,
+        "period": "202605",
         "label": "정읍시",
         "unit": "명"
       },
       "location_score": {
-        "value": 25.4,
+        "value": 24.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 25.4,
+          "market_pct": 24.9,
           "market_source": "population",
           "branch_density_pct": 19.5
         },
@@ -5029,8 +5029,8 @@
       "sigungu": "서귀포시",
       "branch_count": 5,
       "population": {
-        "value": 178898,
-        "period": "202604",
+        "value": 178798,
+        "period": "202605",
         "label": "서귀포시",
         "unit": "명"
       },
@@ -5056,8 +5056,8 @@
       "sigungu": "제주시",
       "branch_count": 9,
       "population": {
-        "value": 484331,
-        "period": "202604",
+        "value": 484171,
+        "period": "202605",
         "label": "제주시",
         "unit": "명"
       },
@@ -5083,8 +5083,8 @@
       "sigungu": "계룡시",
       "branch_count": 2,
       "population": {
-        "value": 45960,
-        "period": "202604",
+        "value": 45972,
+        "period": "202605",
         "label": "계룡시",
         "unit": "명"
       },
@@ -5110,8 +5110,8 @@
       "sigungu": "공주시",
       "branch_count": 3,
       "population": {
-        "value": 99885,
-        "period": "202604",
+        "value": 99841,
+        "period": "202605",
         "label": "공주시",
         "unit": "명"
       },
@@ -5137,8 +5137,8 @@
       "sigungu": "금산군",
       "branch_count": 1,
       "population": {
-        "value": 48959,
-        "period": "202604",
+        "value": 48975,
+        "period": "202605",
         "label": "금산군",
         "unit": "명"
       },
@@ -5164,8 +5164,8 @@
       "sigungu": "논산시",
       "branch_count": 6,
       "population": {
-        "value": 106198,
-        "period": "202604",
+        "value": 106094,
+        "period": "202605",
         "label": "논산시",
         "unit": "명"
       },
@@ -5191,8 +5191,8 @@
       "sigungu": "당진시",
       "branch_count": 4,
       "population": {
-        "value": 172290,
-        "period": "202604",
+        "value": 172285,
+        "period": "202605",
         "label": "당진시",
         "unit": "명"
       },
@@ -5218,8 +5218,8 @@
       "sigungu": "보령시",
       "branch_count": 3,
       "population": {
-        "value": 91367,
-        "period": "202604",
+        "value": 91353,
+        "period": "202605",
         "label": "보령시",
         "unit": "명"
       },
@@ -5245,8 +5245,8 @@
       "sigungu": "부여군",
       "branch_count": 1,
       "population": {
-        "value": 57907,
-        "period": "202604",
+        "value": 57822,
+        "period": "202605",
         "label": "부여군",
         "unit": "명"
       },
@@ -5272,8 +5272,8 @@
       "sigungu": "서산시",
       "branch_count": 6,
       "population": {
-        "value": 171393,
-        "period": "202604",
+        "value": 171306,
+        "period": "202605",
         "label": "서산시",
         "unit": "명"
       },
@@ -5299,8 +5299,8 @@
       "sigungu": "서천군",
       "branch_count": 1,
       "population": {
-        "value": 46890,
-        "period": "202604",
+        "value": 46844,
+        "period": "202605",
         "label": "서천군",
         "unit": "명"
       },
@@ -5326,8 +5326,8 @@
       "sigungu": "아산시",
       "branch_count": 13,
       "population": {
-        "value": 362431,
-        "period": "202604",
+        "value": 363223,
+        "period": "202605",
         "label": "아산시",
         "unit": "명"
       },
@@ -5353,8 +5353,8 @@
       "sigungu": "예산군",
       "branch_count": 2,
       "population": {
-        "value": 78460,
-        "period": "202604",
+        "value": 78337,
+        "period": "202605",
         "label": "예산군",
         "unit": "명"
       },
@@ -5380,8 +5380,8 @@
       "sigungu": "천안시 동남구",
       "branch_count": 17,
       "population": {
-        "value": 253913,
-        "period": "202604",
+        "value": 254174,
+        "period": "202605",
         "label": "남구",
         "unit": "명"
       },
@@ -5407,8 +5407,8 @@
       "sigungu": "천안시 서북구",
       "branch_count": 15,
       "population": {
-        "value": 261316,
-        "period": "202604",
+        "value": 260994,
+        "period": "202605",
         "label": "북구",
         "unit": "명"
       },
@@ -5434,8 +5434,8 @@
       "sigungu": "태안군",
       "branch_count": 1,
       "population": {
-        "value": 59132,
-        "period": "202604",
+        "value": 59083,
+        "period": "202605",
         "label": "태안군",
         "unit": "명"
       },
@@ -5461,8 +5461,8 @@
       "sigungu": "홍성군",
       "branch_count": 4,
       "population": {
-        "value": 101338,
-        "period": "202604",
+        "value": 101443,
+        "period": "202605",
         "label": "홍성군",
         "unit": "명"
       },
@@ -5488,8 +5488,8 @@
       "sigungu": "옥천군",
       "branch_count": 1,
       "population": {
-        "value": 50387,
-        "period": "202604",
+        "value": 50423,
+        "period": "202605",
         "label": "옥천군",
         "unit": "명"
       },
@@ -5515,8 +5515,8 @@
       "sigungu": "음성군",
       "branch_count": 5,
       "population": {
-        "value": 95680,
-        "period": "202604",
+        "value": 95787,
+        "period": "202605",
         "label": "음성군",
         "unit": "명"
       },
@@ -5542,8 +5542,8 @@
       "sigungu": "제천시",
       "branch_count": 6,
       "population": {
-        "value": 128382,
-        "period": "202604",
+        "value": 128306,
+        "period": "202605",
         "label": "제천시",
         "unit": "명"
       },
@@ -5569,8 +5569,8 @@
       "sigungu": "증평군",
       "branch_count": 2,
       "population": {
-        "value": 36694,
-        "period": "202604",
+        "value": 36724,
+        "period": "202605",
         "label": "증평군",
         "unit": "명"
       },
@@ -5596,8 +5596,8 @@
       "sigungu": "진천군",
       "branch_count": 1,
       "population": {
-        "value": 85623,
-        "period": "202604",
+        "value": 85558,
+        "period": "202605",
         "label": "진천군",
         "unit": "명"
       },
@@ -5623,8 +5623,8 @@
       "sigungu": "청주시 상당구",
       "branch_count": 10,
       "population": {
-        "value": 858653,
-        "period": "202604",
+        "value": 859441,
+        "period": "202605",
         "label": "청주시",
         "unit": "명"
       },
@@ -5650,8 +5650,8 @@
       "sigungu": "청주시 서원구",
       "branch_count": 3,
       "population": {
-        "value": 858653,
-        "period": "202604",
+        "value": 859441,
+        "period": "202605",
         "label": "청주시",
         "unit": "명"
       },
@@ -5677,8 +5677,8 @@
       "sigungu": "청주시 청원구",
       "branch_count": 12,
       "population": {
-        "value": 858653,
-        "period": "202604",
+        "value": 859441,
+        "period": "202605",
         "label": "청주시",
         "unit": "명"
       },
@@ -5704,8 +5704,8 @@
       "sigungu": "청주시 흥덕구",
       "branch_count": 14,
       "population": {
-        "value": 858653,
-        "period": "202604",
+        "value": 859441,
+        "period": "202605",
         "label": "청주시",
         "unit": "명"
       },
@@ -5731,8 +5731,8 @@
       "sigungu": "충주시",
       "branch_count": 9,
       "population": {
-        "value": 206089,
-        "period": "202604",
+        "value": 206179,
+        "period": "202605",
         "label": "충주시",
         "unit": "명"
       },
@@ -5755,13 +5755,17 @@
     }
   },
   "diagnostics": {
-    "source": "r_one",
-    "kosis_key": "skip",
-    "r_one_key": "set",
+    "source": "kosis",
+    "kosis_key": "set",
+    "r_one_key": "skip",
     "region_count": 216,
-    "seoul_key": "skip",
-    "population_ok": 0,
-    "population_fail": 216,
+    "seoul_key": "set",
+    "kosis_biz_error": "kosis_biz_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
+    "kosis_income_error": "kosis_income_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
+    "seoul_warn": "seoul_init_xml_error: ERROR-332: 요청종료위치 값을 확인하십시오.\n요청인자 중 END_INDEX를 확인하십시오.",
+    "seoul_districts": 0,
+    "population_ok": 206,
+    "population_fail": 10,
     "businesses_ok": 0,
     "businesses_fail": 0,
     "income_ok": 0,
