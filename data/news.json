@@ -1,30 +1,66 @@
 {
-  "updated_at": "2026-06-29T07:37:27.288519+09:00",
+  "updated_at": "2026-06-30T07:38:39.407131+09:00",
   "headline": {
-    "id": "8c4ce5e81059",
-    "title": "[취재후일담] ‘점포 1067곳’ 농협은행이 디지털에 공들이는 까닭",
-    "source": "아시아투데이",
-    "summary": "[취재후일담] ‘점포 1067곳’ 농협은행이 디지털에 공들이는 까닭 아시아투데이",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LVUtfSlpoVEQ3WGlwcUtpNk5mTDV5U2pRY1l2UVRiQWpoT3NseDJnSzUtejFIU1NWNW90NHBNT3FqRkhCTEVUNm9vOXhOZy1VVzNpZFNSTWRtQXF2dElMeTJveG1MWm9KSUE2ZlRR?oc=5",
-    "published": "2026-06-28T18:03:04+09:00",
+    "id": "ab43625efd6b",
+    "title": "“돈은 해외로, 점포는 폐쇄”…씨티은행 노조 폭발",
+    "source": "디지털데일리",
+    "summary": "“돈은 해외로, 점포는 폐쇄”…씨티은행 노조 폭발 디지털데일리",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvR21LY3dzcklmX29ucHY2emVtVUZSYUUzSGxkdjNxYTU4SFFaWkpSZWd6OFBGY1g3YW15MWJ5TWN1dWNKcjNaMGdtVnNZNnF4M0RTUUpaUE9tMXZyOS1QSmIzNmc?oc=5",
+    "published": "2026-06-29T16:50:30+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 14.0,
+    "rank": 2,
+    "_score": 17.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "d6f7d2cb200e",
-        "title": "NH농협은행 대전본부, 관내 전 영업점 ‘무더위 쉼터’ 운영",
-        "source": "금강일보",
-        "summary": "NH농협은행 대전본부, 관내 전 영업점 ‘무더위 쉼터’ 운영 금강일보",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MekFwUDQzeENFQkRON3N4ZDdnbUk4dXRjaDBRN20yTnlpcm5qSndEUWtLRy1zT1dzdkpjcjEyUEVqd0dQSktRbHdJSjVXTGJhXzZpdjJnOWV0b2N0Y3V1YjdiVHdmeEwyUWc?oc=5",
-        "published": "2026-06-28T16:54:11+09:00",
+        "id": "01f5eb419a5d",
+        "title": "오픈뱅킹, 은행 창구에서도 쓴다…국내 전 은행 영업점으로 확대",
+        "source": "뉴스웍스",
+        "summary": "오픈뱅킹, 은행 창구에서도 쓴다…국내 전 은행 영업점으로 확대 뉴스웍스",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YS2JoTEtKWFZBRDB4d0FGT3gxa1ZMT3BwMk5jQ3prZElDamI1MGdmWHpIZFZwOVVhRWJ4aUQ5SG9mUHQ1cDJSYTRPMnBvUklWR2Q1SzJTQkFUaGNYVnlxMUJaZ1FnVUdleTF3ajdZVlBZakHSAXNBVV95cUxNWEtiaExLSlhWQUQweHdBRk94MWtWTE9wcDJOY0N6a2RJQ2piNTBnZlh6SGRWcDlVYUVieGlEOUhvZlB0NXAyUmE0TzJwb1JJVkdkNUsyU0JBVGhjWFZ5cTFCWmdRZ1VHZXkxd2o3WVZQWWpB?oc=5",
+        "published": "2026-06-29T15:07:53+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "3758dfa37506",
+        "title": "오늘부터 산업은행 영업점서도 '오픈뱅킹' 이용 가능해진다",
+        "source": "이투데이",
+        "summary": "오늘부터 산업은행 영업점서도 '오픈뱅킹' 이용 가능해진다 이투데이",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sQU5abVVqUFlxQ3lhX09mVHpDbl91X3RDSmwxbjkzN0diMUJlMV9zamdEM090NGRsRFJDcHF0bUQtOHZsVE5mWkZWMEs2T0ZPelJEZQ?oc=5",
+        "published": "2026-06-29T11:15:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "8c4ce5e81059",
+        "title": "[취재후일담] ‘점포 1067곳’ 농협은행이 디지털에 공들이는 까닭",
+        "source": "아시아투데이",
+        "summary": "[취재후일담] ‘점포 1067곳’ 농협은행이 디지털에 공들이는 까닭 아시아투데이",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LVUtfSlpoVEQ3WGlwcUtpNk5mTDV5U2pRY1l2UVRiQWpoT3NseDJnSzUtejFIU1NWNW90NHBNT3FqRkhCTEVUNm9vOXhOZy1VVzNpZFNSTWRtQXF2dElMeTJveG1MWm9KSUE2ZlRR?oc=5",
+        "published": "2026-06-28T18:03:04+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "508ce3f6fb4a",
+        "title": "\"더울 땐 농협으로\"…NH농협은행 대전본부, 전 영업점서 '무더위 쉼터' 운영",
+        "source": "대전일보",
+        "summary": "\"더울 땐 농협으로\"…NH농협은행 대전본부, 전 영업점서 '무더위 쉼터' 운영 대전일보",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HSUNFVmZfelpOS1VwbFdYaVc1QXdMckFabjBzYjZEVzg3QW40U2VoaU9welFHV3lzaHpkOThMNFRDM1cwTVhxNjJoOHA4NUlmdGwwVWxQcGJPQTZKVnptLXVQbldMY1JDZGpmaThmMA?oc=5",
+        "published": "2026-06-28T15:08:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,19 +72,7 @@
         "published": "2026-06-26T17:56:58+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "7f35d0e263da",
-        "title": "은행 문턱 낮춘 폭염 대응…농협 대전 영업점 '시민 쉼터' 전환",
-        "source": "충청일보",
-        "summary": "은행 문턱 낮춘 폭염 대응…농협 대전 영업점 '시민 쉼터' 전환 충청일보",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nSW1qTzlCckh6LUU4ZkxPT3FrNWktTWxCU2xudnhmX0VqdjFYMVdWa2JadF9FSnNBeE5zM0dlRXc5LU52UjVDRlc2RE5aaDRCSVB6aXFPNHdpeXNCWmpGTVItUUVsWGlFTDUzSlZOYw?oc=5",
-        "published": "2026-06-26T13:49:04+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 10,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +84,7 @@
         "published": "2026-06-26T07:30:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,31 +108,7 @@
         "published": "2026-06-25T08:14:56+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "bdb167f73513",
-        "title": "은행점포 1개 줄면, 지역내 신생기업 줄고 소멸기업 늘어",
-        "source": "v.daum.net",
-        "summary": "은행점포 1개 줄면, 지역내 신생기업 줄고 소멸기업 늘어 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96ZDZ2LUlHU18zUGtrNGd0ekpMZDNjelBUbTF2WGlhdjNBdGNmbUMxcFYtSUxTVXdtR0pGQmNZMF90bHRoeTBTTEsyUE5sOHVxc0laVg?oc=5",
-        "published": "2026-06-25T00:01:30+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "8edd6e2970cf",
-        "title": "예가람저축은행, 영업점 상담 ‘AI 실시간 음성 자막 서비스’ 도입",
-        "source": "뉴스락",
-        "summary": "예가람저축은행, 영업점 상담 ‘AI 실시간 음성 자막 서비스’ 도입 뉴스락",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yOXhSVXJhVy14dzFLNk5ISmxZWTVBOEpFYXJWWGhDVVVwVjJuU2s3WGJBNXNyQklwSDJGMDhrUjRlWmc3M3Atdlc2ZVc2MkN3ek9iMk52ODBmTC1yOGR4M1J4c2VuYUNEZ3lxLQ?oc=5",
-        "published": "2026-06-24T14:41:22+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 8,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -123,7 +123,7 @@
         "published": "2026-06-25T17:11:39+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1
+        "rank": 3
       },
       {
         "id": "102219dc64a9",
@@ -134,7 +134,7 @@
         "published": "2026-06-25T09:23:12+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -146,7 +146,7 @@
         "published": "2026-06-24T16:23:56+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
