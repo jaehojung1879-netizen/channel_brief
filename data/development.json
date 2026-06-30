@@ -1,30 +1,102 @@
 {
-  "updated_at": "2026-06-30T07:40:23.523685+09:00",
+  "updated_at": "2026-07-01T07:54:48.961139+09:00",
   "items": [
+    {
+      "id": "01bff3e42c4e",
+      "title": "충남도, 국토부 도시재생사업 ‘3곳 전부 선정’",
+      "source": "아산포커스",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03YjU1WC0yNTRpU05kRGJuWF83ZFdSUTV4MTU0dmlZbHZvZ1BxYWRmRWQ2SFJJeHl6NHVfNjZHZzQxcUdkUjkwLU5rbzlUTElsbTYxZ2RSUXduc0daQ3ZsTTEwT196c2wydkJUQ3F3?oc=5",
+      "published": "2026-07-01T05:19:18+09:00",
+      "date": "2026-07-01",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "02f438c3ceb6",
+      "title": "사천시, 사천읍 원도심지구 도시재생사업(지역특화재생) 적합성 통과",
+      "source": "시사일보",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE43S1JqMi1CS2lhdFNPMmdDWjdVTGNfRlZxbkRIY1FNZDVxUW5ubUd1RmktWmlkcEljSkFUbGVNUFJKMUFHb3ZubV85TDE?oc=5",
+      "published": "2026-06-30T17:31:00+09:00",
+      "date": "2026-06-30",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "7bd028f90c55",
+      "title": "충북 보은군, 2026년 국토부 상반기 도시재생사업 선정",
+      "source": "케이에스피뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBmUFR4aTVEUnY2T1pUTnRCZ0FZd0tfaGdjVFgzbU85cHdGS2s0REpkMU5Fc0FuN25GLVlyLUl6d3VFVlVLZ0E?oc=5",
+      "published": "2026-06-30T16:52:00+09:00",
+      "date": "2026-06-30",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "5b5d8a839b86",
+      "title": "서리풀1지구 새정이마을 주민들, LH 서울지역본부 앞 침묵시위 진행",
+      "source": "gukjenews.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VQzN4N3k0M1pIeW5fNklZMk5LdWw1YWowRVVvb0xXVnJscVQzdW5iOFMzYlpqMzd0MHY0MkRKdVNJMG5RemZ3T1R3bF9JblRNRUJZNnVlQ0pLX21tRXgxM21LTW1hX3FyYk1rWG1B?oc=5",
+      "published": "2026-06-30T13:35:50+09:00",
+      "date": "2026-06-30",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "72ca97e688f9",
+      "title": "청춘 1번지 강촌, 국토부 지역특화 도시재생 공모 선정",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMSFh4RkIyR2dvSGMyRVh0SXNkZzhMYXNPVUpaV0FXUTQ2clEwOUFFdDQya3l6Qi1RbENqeDNfT3FEYWR0UlNTbzA3cTFJdG8?oc=5",
+      "published": "2026-06-30T13:31:24+09:00",
+      "date": "2026-06-30",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "168d83fada41",
+      "title": "[고시] 인천가정2 공공주택지구 지구계획 변경(5차) 승인",
+      "source": "한국도시환경헤럴드",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LQUZ0NjEtU1F0cjgwVUpjUW1qLUY5RlVQZXdQT0I1cm41RmFLOGVLUmMyZnEtaGdIR2o1YnBkR25ZN1hTTWxRWUdIMFFwelhMWFg4OWZseEtxZEMxeWphTGozTk1IeXZYU082dEpnVmzSAXBBVV95cUxOS0FGdDYxLVNRdHI4MFVKY1Ftai1GOUZVUGV3UE9CNXJuNUZhSzhlS1JjMmZxLWhnSEdqNWJwZEduWTdYU01sUVlHSDBRcHpYTFhYODlmbHhLcWRDMXlqYUxqM05NSHl2WFNPNnRKZ1Zs?oc=5",
+      "published": "2026-06-30T11:38:42+09:00",
+      "date": "2026-06-30",
+      "query": "국토교통부 고시"
+    },
+    {
+      "id": "6083bc0aa9e2",
+      "title": "삼성 반도체 팹 6기 짓는다는데… 용인 국가산단 부지공사 입찰 반년째 ‘감감’ - 조선비즈",
+      "source": "Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR25xYzYxajJ4dmhpbjZkWHZkdm9GTGtDb1podDJjbG9ZQlhXZVp5V1hZbld3dnFCVDNkd0YyWjBOTWlNQ09HOFVtclBtZ21ONDdlUlp2MkRiVHVtTzZUUE5zenV1VlZVUG15SVdYSnMya2F3SGJhYlVrQlpoMmFzZFpoMHpXd24xSVHSAZ4BQVVfeXFMTXBUX1F2RGs0OVBnU2RrTWZJYjlVaThIMXh3U3NZV3JzbURnV3U0aklMU05DNVVZRVRGUFBDWnhhNHBVS0puR0FOdWgtOFp0dUR0bVE5dW5INmE5ZW1RSzV5bnJraTBzTkM5TFdvdjJybXEwcndKb09pcDFXUGpfNHI4REY0SDFQRmNyRWZtZ1lucTFzdzNhLVR2akFza2c?oc=5",
+      "published": "2026-06-30T11:20:00+09:00",
+      "date": "2026-06-30",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "634863779171",
+      "title": "서초 서리풀1지구 새정이마을 주민들, LH 앞 침묵시위",
+      "source": "시사의창",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Hd0JxcVk2WHhzM3h0V2xPcXdCeHg4TW54VUpiLWtITXpUM1lxbVpnUk55RE1TX2VPTkVmZ01zSl9rZ2lTU3AtSDVkajh1Ynl1cmtaZw?oc=5",
+      "published": "2026-06-30T10:59:55+09:00",
+      "date": "2026-06-30",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "7a32d70b2e3b",
+      "title": "부산도시공사, '부산대저 공공주택지구' 지구지정 변경·계획 승인",
+      "source": "펜앤마이크",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HYXVIaGFaOWc2T0tPWVMwVjF5ZVQ3QlJLQTEzcFo3U3hacDViSzZ1WkVVdi10UnZqcXh6aDVTUURhUDI2U0lpdVlDQ0RMRHhJdF9TM2ZVREtHQzFxQk5YMXROdDJjLUtENnBV0gFvQVVfeXFMTnkxbllLbkFoa21VYTE0bmhVdWpaS0t2b0Fnb0YtX25JQTdIYW9yOTdIRmhja0tPQTkyQ2tudHppZWY5cUNDRXQ4UXFfcjdhU2toX2dLcHRmT2gzbEwwbmdoSTM3dWJISVNKYk01VWVn?oc=5",
+      "published": "2026-06-30T10:51:11+09:00",
+      "date": "2026-06-30",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "33bcccfabb29",
+      "title": "이상일 용인특례시장, 정부 향해 \"용인 반도체 국가산단 차질 없이 추진해야\"",
+      "source": "뉴스타운",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBHMlpTcVo3dUJ0OFlwS0hVQ3J2VEd6UFh5REpmbXF6d01IRXRteURsNS01VXVjX0lkcW1fTTlMUjNLRHJYX21WZW9BME5XckpodzZVRmN2UEtSY095Wk1MNVJVWkIxbG10XzVTN2xR?oc=5",
+      "published": "2026-06-29T22:07:06+09:00",
+      "date": "2026-06-29",
+      "query": "반도체 국가산단"
+    },
     {
       "id": "c7cce1e33d53",
       "title": "이상일 “용인 반도체 국가산단 지연 책임 정부에…속도전 나서야”",
       "source": "아시아경제",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lcUpnb0tTa1VJbzVySkZISzJ2M2FmVDVocExYakVFMGIxdlNWdU4weV8tZnFMWEtTSlIxTzgzeVozcUYyTHhub1BsTkQwQTUtZlJ0a0VpaldOV3J6RnNtT3NB?oc=5",
       "published": "2026-06-29T20:33:41+09:00",
-      "date": "2026-06-29",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "d7d0de40abec",
-      "title": "이상일 용인시장, '용인 반도체 국가산단 조성 지연' 정부 신속 대응 촉구",
-      "source": "뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xQW1rU19mdXFFb01fUV9MTGVlYzdxck9raEtuUjlVN090RE80b0I0Mm9qcHlNT0kxNFdZYjNuUm9YRXlkSE4tblAwd3QzeWd5VGdKU1pzS3NTanB5?oc=5",
-      "published": "2026-06-29T20:21:00+09:00",
-      "date": "2026-06-29",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "9a9a41f25af5",
-      "title": "이상일 시장 \"정부, 용인 반도체 국가산단 속도전 나서라\"",
-      "source": "뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JMkoyaTV6R2xESVFQRUwzN0JIQmRHbWtpOURUVElBVC1EaVdnQ0hURmlRS1lydjg0clN4WDk5M2Z0NlRiT3Y1Z3Z1TGdfTVg0a3JpR09n?oc=5",
-      "published": "2026-06-29T19:59:19+09:00",
       "date": "2026-06-29",
       "query": "반도체 국가산단"
     },
@@ -38,10 +110,10 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "65d4f540a889",
-      "title": "'반도체 차르'가 초고속 인허가…기반시설 비용 100% 지원 맡는다",
+      "id": "daed5003f5c6",
+      "title": "'반도체 차르'가 초고속 인허가…기반시설 비용 100% 지원한다",
       "source": "네이트",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15TnBDZWQzaGVZSnEtSF9PV0FzYjNURkdDNUpLQUl0ekhCTnRZYW1TMS1DY3Z0SldQaEY1R1QyUTZwM1NhRkVaWW43SDdNa3RwSEI4YkhOdVVJVkpNaW5wTFlkT2tTclZLZVNpX3N0WUlKazhkX1VXVA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00aG9wVlhFQ0RRNDVfczE5dk9TcE02eTRXMzZBeXBCdGttQU9PeWRwRGtBRTdJeGs1aGExN25pSDNCeUR3N0dtSVVUazNRZ1ZMRDVF?oc=5",
       "published": "2026-06-29T18:55:00+09:00",
       "date": "2026-06-29",
       "query": "기반시설 인가"
@@ -63,42 +135,6 @@
       "published": "2026-06-29T15:48:34+09:00",
       "date": "2026-06-29",
       "query": "LH 지구지정"
-    },
-    {
-      "id": "8ca623a5d063",
-      "title": "[고시] 수서역세권 공공주택지구 지구계획 변경(9차) 승인",
-      "source": "재개발재건축매거진",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CMWI5WXQ1YlFPSk1KWmU1RFgwekVYYVVINVJEZzJUdTlVYUhwZ0xwWWxCNEZCbmMwc0xGYjlQTzl6QXlMVUN3bzc1SEdKMzh2cnVGdEFueGpvck5oM0NyeVMzaC04NjVaZk9J?oc=5",
-      "published": "2026-06-28T22:57:35+09:00",
-      "date": "2026-06-28",
-      "query": "국토교통부 고시"
-    },
-    {
-      "id": "3e00ad2dcb72",
-      "title": "[고시] 제1차 대전광역시 도시철도망 구축계획 승인",
-      "source": "한국도시환경헤럴드",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzMVdQQVd4RVlQRUEyY3FWMTUwVFc4Wk1yRjdZQnZpNlZaUFlVR2VKeFpnNWlka2xNTFVhd1hkdElvT0RjaDFlTTFVel8yM2xreW5yS0txVWQ0dkxMbEQwRGFGd3RSMGpRZmJtNNIBcEFVX3lxTE9pRm9WcHE0NXlXTEVQbENNaTNETVRQQW9GaktxSUwwbngwZlNvZjI5WDl6VVdiN29LRnY2UWJ0c1h3aXZTUVhPVm5tQzFoOW45M1BXNmpoNFRpSlA5SmJSSlVyWjd0ZVY5V0RTRmhWdFY?oc=5",
-      "published": "2026-06-27T06:00:00+09:00",
-      "date": "2026-06-27",
-      "query": "국토교통부 고시"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-06-26T16:00:00+09:00",
-      "date": "2026-06-26",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "3530c9f977a3",
-      "title": "제2차 부산광역시 도시철도망 구축계획 국토교통부 승인",
-      "source": "LG헬로비전",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1MREMyVWJBdHVvZGVYczNPX3VPc3JDcmNjR0lpYXpSNlJGTmpxWm05SHlYSDUydTV3ZzI2RlpoTWUtYkRNMlhtdHZ0Y1phRVZKTG4yX0NBVjJia3VMaUZFTlpfQjRYdXA2bktOZU5YTWFGd9IBdkFVX3lxTE1mVWhxc1VHeXo4TXdqVDVOUFRwc04xWmJjTGI5MzNGMUhIOGVMUkZ6TFhmc25RRnJlYjVOZFhMdTNieHNyUUxqeGRSM01uOVFnWWhDNEU0dnlDT3lMRFNHekhjTWxFaElUVGp2SHNpcGZGbmFoanc?oc=5",
-      "published": "2026-06-26T09:13:43+09:00",
-      "date": "2026-06-26",
-      "query": "국토교통부 고시"
     }
   ]
 }
