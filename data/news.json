@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-07-02T07:50:16.886457+09:00",
+  "updated_at": "2026-07-03T07:40:52.819237+09:00",
   "headline": {
-    "id": "44a7667916b7",
-    "title": "신한은행, 9.8% 금리 상생대환대출2 선봬...영업점·비대면 신청 가능",
-    "source": "gukjenews.com",
-    "summary": "신한은행, 9.8% 금리 상생대환대출2 선봬...영업점·비대면 신청 가능 gukjenews.com",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81SkswQlhQdWFLS0xTRXpPbFpaODdLalVMVDd3MGZVUEpHUVVmNHZuUlRRX05NSDktbS1uaVBjWVJ1RHpjZWJoaUhEUjVVU2NYcUNUU2tmczFENlFqelFISm13eUpUTzhucDlzalhR?oc=5",
-    "published": "2026-07-01T10:44:16+09:00",
-    "query": "은행 영업점",
+    "id": "eb8bc8f9fe88",
+    "title": "[기자수첩] 비용과 포용, 은행의 점포 딜레마",
+    "source": "뉴스드림",
+    "summary": "[기자수첩] 비용과 포용, 은행의 점포 딜레마 뉴스드림",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCWExxZ3lqci1BTklsSUNrOHVqQmQ0WU9DVzFpY3FkTGxhM05HUm1EeDB2dTZpRlZxaVV5TnJoTm1GOXlidTVua0VWTlFJNXZiMHRZdHN0VkRSMVg3ZGtUMVZ5aEJGZXlPNEtR0gFuQVVfeXFMTnhfU3lKRjl2VnhxaWdqQlNweGJxdEdsQjJRRlFKdDVWRDZZQ0ppMkpjTlkzdHJkdHp0S0ZPNk4wcWdWYnpxVVVmT3lyX1dyNnpEWmExdW1kQTg5VG9mdmxUdG1PWmZUUER3ZGVqWlE?oc=5",
+    "published": "2026-07-02T17:19:28+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 15,
-    "_score": 15.0,
+    "rank": 2,
+    "_score": 16.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "1b46e022eb01",
+        "title": "점포 닫고 사람 줄인다…저축은행 '구조조정' 신호탄",
+        "source": "컨슈머타임스",
+        "summary": "점포 닫고 사람 줄인다…저축은행 '구조조정' 신호탄 컨슈머타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42Y0g4UG0zYmVZSGZqVHhsT1JfLVZ6dTg3NTZWMDJDN0d2NUhiNWt1YU9XNS1UQ3gtZ3R4WTBIUGR4RVkzaHF1VDdLaWJuR2tMaUxCdFg5SUg0RUZhZ0JITGJuem5ITlpUTlE?oc=5",
+        "published": "2026-07-02T08:37:40+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "e9ad83d1bd94",
         "title": "지역경제에서 금융의 생산적 역할: 은행 점포 변화와 기업 생멸 동학을 중심으로",
@@ -36,7 +48,7 @@
         "published": "2026-07-01T19:10:57+09:00",
         "query": "은행 공동점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,15 +60,15 @@
         "published": "2026-07-01T15:05:03+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "60aa0fa79791",
+        "id": "057688b10f93",
         "title": "점포 빼고 인력 줄이고…저축은행 임직원 1년 새 125명 ↓",
         "source": "데일리안",
         "summary": "점포 빼고 인력 줄이고…저축은행 임직원 1년 새 125명 ↓ 데일리안",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CWjdNN2o5UjAzb1F4QV9ZaDdWWnZsQnNpY25ZOVRfUXlYSm42cGVKRTBaOXZSVVNSVWNoYXhSV3RXcUZiRUU3d1hOZWhaUkZEUDM0Y1ZhVdIBpgJBVV95cUxOenExTGlYNmhuNElIY2NUYS03dFhKRzU3dXR5Wmc4blc4Vkc2ZTVSdUd0RnIyZVJ6SldHbU1wQU9WS3J0NG1heElHMXJZZmtfRFVQT09nbmczOGhJMmFtOTNBNUxHWXpmT2pnbEF0eVl3TUNFTkx3RFp2NWVuUzFVOFhsNHpfLUJmVkFDbk55aTdkUXpQb1FqQURsZVZHb1JJbHcxc0dUOGNEdnZ5NHRLSDNMOG91dHE0TXdRajI0TjUwTmJqS21ncmEzVHhsMFFMZlE0X0psMmFZZk00dWNMNWZKdWo5a1loRDhBSGF0OFNGNnFWZzFOaTdhVXRHU2U4N0J0MWdBUkFSeUpOaU5ZdmtKb21hQTNzUElyT18xMG5PR3lsd3c?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CWjdNN2o5UjAzb1F4QV9ZaDdWWnZsQnNpY25ZOVRfUXlYSm42cGVKRTBaOXZSVVNSVWNoYXhSV3RXcUZiRUU3d1hOZWhaUkZEUDM0Y1ZhVQ?oc=5",
         "published": "2026-07-01T07:02:00+09:00",
         "query": "은행 점포",
         "engine": "google",
@@ -64,15 +76,15 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "b967dc1e6236",
+        "id": "49ab37818195",
         "title": "보이스피싱 피해구제, 영업점 안 가도 된다…은행 앱으로 서류 제출",
         "source": "v.daum.net",
         "summary": "보이스피싱 피해구제, 영업점 안 가도 된다…은행 앱으로 서류 제출 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVSkh2RlhlMWpGMHNVOHg0NXVabkY3ZGxYMURiazFxdUFvOHpvQjZZMk1GZ1hmVFlPWUFsSU5pWXMtc3RxNERZTmxyM2NhTXc?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iaDlhdW5tQVdGbXVvd2J6MG1uYmxSSV9qd1JjMVRrdXdBdzhCYy1zdDJLMUpmQXNnenNPYzM2ZkxNeEZRVXc?oc=5",
         "published": "2026-07-01T06:02:12+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 14,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,19 +108,19 @@
         "published": "2026-06-29T14:58:26+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "d7ee21dc590a",
+        "id": "5c8413bd581b",
         "title": "오늘부터 산업은행 영업점서도 '오픈뱅킹' 이용 가능해진다",
         "source": "v.daum.net",
         "summary": "오늘부터 산업은행 영업점서도 '오픈뱅킹' 이용 가능해진다 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jMWRRYVFDTE1xZ2NCU1VHejkyQWFUeFFkeEtxWjBWZlJ0aTJOU0xuMHhrckhJcldfUndXZWVTTmM4T0hhRzR1bk5Ta1hqamM?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE81X0c4cUhQVUdwVzQydFEzNUhlWG53WjFVZkZVMVVHcUpzZXM4MVJoYmhINEx6RGFXVURnSlNXX0J1cTRjRkE?oc=5",
         "published": "2026-06-29T11:16:03+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -120,19 +132,7 @@
         "published": "2026-06-28T18:03:04+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "508ce3f6fb4a",
-        "title": "\"더울 땐 농협으로\"…NH농협은행 대전본부, 전 영업점서 '무더위 쉼터' 운영",
-        "source": "대전일보",
-        "summary": "\"더울 땐 농협으로\"…NH농협은행 대전본부, 전 영업점서 '무더위 쉼터' 운영 대전일보",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HSUNFVmZfelpOS1VwbFdYaVc1QXdMckFabjBzYjZEVzg3QW40U2VoaU9welFHV3lzaHpkOThMNFRDM1cwTVhxNjJoOHA4NUlmdGwwVWxQcGJPQTZKVnptLXVQbldMY1JDZGpmaThmMA?oc=5",
-        "published": "2026-06-28T15:08:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 11
+        "rank": 5
       }
     ],
     "policy_news": [
@@ -151,15 +151,15 @@
     ],
     "shinhan_news": [
       {
-        "id": "102219dc64a9",
-        "title": "신한은행, 법인 전용 '이종통화 해외송금 서비스' 출시",
-        "source": "데이터뉴스",
-        "summary": "신한은행, 법인 전용 '이종통화 해외송금 서비스' 출시 데이터뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NU3h5bzI0Z21qVXRPZTlVZExPNE5ZalBvX2FBV3FHRGk2MExFQkRfNnJud0tjV2RMRVdCUGxxLWJ6NTZTZ3IyUm95eGUycU9IY2l4NmpVWDQtMEJYN3UzNg?oc=5",
-        "published": "2026-06-25T09:23:12+09:00",
+        "id": "44a7667916b7",
+        "title": "신한은행, 9.8% 금리 상생대환대출2 선봬...영업점·비대면 신청 가능",
+        "source": "gukjenews.com",
+        "summary": "신한은행, 9.8% 금리 상생대환대출2 선봬...영업점·비대면 신청 가능 gukjenews.com",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81SkswQlhQdWFLS0xTRXpPbFpaODdLalVMVDd3MGZVUEpHUVVmNHZuUlRRX05NSDktbS1uaVBjWVJ1RHpjZWJoaUhEUjVVU2NYcUNUU2tmczFENlFqelFISm13eUpUTzhucDlzalhR?oc=5",
+        "published": "2026-07-01T10:44:16+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 14,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
