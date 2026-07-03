@@ -1,51 +1,51 @@
 {
-  "updated_at": "2026-07-03T07:40:52.819237+09:00",
+  "updated_at": "2026-07-04T07:37:50.278118+09:00",
   "headline": {
-    "id": "eb8bc8f9fe88",
-    "title": "[기자수첩] 비용과 포용, 은행의 점포 딜레마",
-    "source": "뉴스드림",
-    "summary": "[기자수첩] 비용과 포용, 은행의 점포 딜레마 뉴스드림",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCWExxZ3lqci1BTklsSUNrOHVqQmQ0WU9DVzFpY3FkTGxhM05HUm1EeDB2dTZpRlZxaVV5TnJoTm1GOXlidTVua0VWTlFJNXZiMHRZdHN0VkRSMVg3ZGtUMVZ5aEJGZXlPNEtR0gFuQVVfeXFMTnhfU3lKRjl2VnhxaWdqQlNweGJxdEdsQjJRRlFKdDVWRDZZQ0ppMkpjTlkzdHJkdHp0S0ZPNk4wcWdWYnpxVVVmT3lyX1dyNnpEWmExdW1kQTg5VG9mdmxUdG1PWmZUUER3ZGVqWlE?oc=5",
-    "published": "2026-07-02T17:19:28+09:00",
-    "query": "은행 점포",
+    "id": "0effcd894eff",
+    "title": "우리은행, 조윤희 부행장 승진…영업점·본부부서 인사 단행",
+    "source": "베타뉴스",
+    "summary": "우리은행, 조윤희 부행장 승진…영업점·본부부서 인사 단행 베타뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRVDhxNm1YNENad0p0eEJac2ZXaDRTWmFKUW1vSWs1UHAxNlllWjJkMjljaVpzbjNKdTdiYUdUNWJQU0dDUHg3Skp6Tlg5dGlaSEhOWWtNRzd0c0xfV1NjTjFldHE?oc=5",
+    "published": "2026-07-03T21:03:47+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 2,
-    "_score": 16.0,
+    "rank": 1,
+    "_score": 12.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "1b46e022eb01",
-        "title": "점포 닫고 사람 줄인다…저축은행 '구조조정' 신호탄",
-        "source": "컨슈머타임스",
-        "summary": "점포 닫고 사람 줄인다…저축은행 '구조조정' 신호탄 컨슈머타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42Y0g4UG0zYmVZSGZqVHhsT1JfLVZ6dTg3NTZWMDJDN0d2NUhiNWt1YU9XNS1UQ3gtZ3R4WTBIUGR4RVkzaHF1VDdLaWJuR2tMaUxCdFg5SUg0RUZhZ0JITGJuem5ITlpUTlE?oc=5",
-        "published": "2026-07-02T08:37:40+09:00",
+        "id": "1d563bddf619",
+        "title": "오늘 대체휴일 연방휴무 은행 지점들은 정상영업",
+        "source": "미주한국일보",
+        "summary": "오늘 대체휴일 연방휴무 은행 지점들은 정상영업 미주한국일보",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZNHZTYmpVMXZrenFxM1pqYnEtMEhxQ3o0MXFUbFR6cFFwRVZLbDhVWG04MFl6Mk5rLWhfbHFpLWkxc05jaTROa2V5QnRVNktSWTNrcGJtdENINmJsVGp3?oc=5",
+        "published": "2026-07-03T12:14:32+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 9,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "e9ad83d1bd94",
-        "title": "지역경제에서 금융의 생산적 역할: 은행 점포 변화와 기업 생멸 동학을 중심으로",
-        "source": "한국개발연구원(KDI)",
-        "summary": "지역경제에서 금융의 생산적 역할: 은행 점포 변화와 기업 생멸 동학을 중심으로 한국개발연구원(KDI)",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnZ042NUppV2p6cjVBRDJYbGxDNk8zMkcxQzdOblVIeWgycWxxZWt2M2pIMC1zdnd0RVhiOGM3bTZncDdSRER5VzBHNUlRX3BhMGVaVW5JNDdRWllBZzc0czRMajJDRndpbUg4?oc=5",
-        "published": "2026-07-02T03:44:12+09:00",
+        "id": "eb8bc8f9fe88",
+        "title": "[기자수첩] 비용과 포용, 은행의 점포 딜레마",
+        "source": "뉴스드림",
+        "summary": "[기자수첩] 비용과 포용, 은행의 점포 딜레마 뉴스드림",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCWExxZ3lqci1BTklsSUNrOHVqQmQ0WU9DVzFpY3FkTGxhM05HUm1EeDB2dTZpRlZxaVV5TnJoTm1GOXlidTVua0VWTlFJNXZiMHRZdHN0VkRSMVg3ZGtUMVZ5aEJGZXlPNEtR0gFuQVVfeXFMTnhfU3lKRjl2VnhxaWdqQlNweGJxdEdsQjJRRlFKdDVWRDZZQ0ppMkpjTlkzdHJkdHp0S0ZPNk4wcWdWYnpxVVVmT3lyX1dyNnpEWmExdW1kQTg5VG9mdmxUdG1PWmZUUER3ZGVqWlE?oc=5",
+        "published": "2026-07-02T17:19:28+09:00",
         "query": "은행 점포",
         "engine": "google",
         "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "fb381c82b8c4",
+        "id": "1d1ab475120b",
         "title": "점포 문 닫는 은행들…은행대리업, '금융소외' 대안될까",
         "source": "뉴스드림",
         "summary": "점포 문 닫는 은행들…은행대리업, '금융소외' 대안될까 뉴스드림",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mclhPQ3RMb0c0Uks5Z2c2NkJCdXZZRlh2dlZNOWduWVRSQlMweVZpMV9JckVZWU94Z3Y5SWFVS1p1ZGhnQ195Nm5YNUdja0JjQjRzcFVxb1RWcVJBa1dfZGlHSlhsdDFWNmhKY2tn0gFuQVVfeXFMTWZyWE9DdExvRzRSSzlnZzY2QkJ1dllGWHZ2Vk05Z25ZVFJCUzB5VmkxX0lyRVlZT3hndjlJYVVLWnVkaGdDX3k2blg1R2NrQmNCNHNwVXFvVFZxUkFrV19kaUdKWGx0MVY2aEpja2c?oc=5",
-        "published": "2026-07-01T19:10:57+09:00",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kcmtYOUZSc2JyOE9EMUVMWXBqNHdwdGtDYV9UanlQSTdKMnd4UXNBSVJnOHY1YkRZbjdrZGlUT0plRlhhSEt6dEVBRWI5MGZWVVAyODhibEtOTzM4UVZsWnFXZ3FOY28tNXZr0gFuQVVfeXFMTWZyWE9DdExvRzRSSzlnZzY2QkJ1dllGWHZ2Vk05Z25ZVFJCUzB5VmkxX0lyRVlZT3hndjlJYVVLWnVkaGdDX3k2blg1R2NrQmNCNHNwVXFvVFZxUkFrV19kaUdKWGx0MVY2aEpja2c?oc=5",
+        "published": "2026-07-01T17:44:08+09:00",
         "query": "은행 공동점포",
         "engine": "google",
         "rank": 6,
@@ -58,9 +58,9 @@
         "summary": "점포 없는 인터넷은행도 채무조정·담보확인 땐 대면업무 허용 ebn.co.kr",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FaV9EUmVyMW11U0c3Y3NaUEFtM0YtSktMOV9Qc295SURTYW91aWVRQ1FSZlZWb3hoczZ0ZkN3WUdXOFpBQ0tad3hnZ0Mzc3NfRUJUUzNwblY2OGFGVmNHSEN4b0gwbEV2?oc=5",
         "published": "2026-07-01T15:05:03+09:00",
-        "query": "은행 점포",
+        "query": "은행 공동점포",
         "engine": "google",
-        "rank": 10,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -76,15 +76,15 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "49ab37818195",
+        "id": "f530d064297c",
         "title": "보이스피싱 피해구제, 영업점 안 가도 된다…은행 앱으로 서류 제출",
         "source": "v.daum.net",
         "summary": "보이스피싱 피해구제, 영업점 안 가도 된다…은행 앱으로 서류 제출 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iaDlhdW5tQVdGbXVvd2J6MG1uYmxSSV9qd1JjMVRrdXdBdzhCYy1zdDJLMUpmQXNnenNPYzM2ZkxNeEZRVXc?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrc0U1U2k2Vms5dmllMlBzZXRYVC1pWEhIQWt0cjBMQ1BDb0RadHpyVU5FYUpOaDl5bUwySkVyZEs5dWxhMElHNDY1YV9pM2hZeWtxNg?oc=5",
         "published": "2026-07-01T06:02:12+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 10,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -108,7 +108,7 @@
         "published": "2026-06-29T14:58:26+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 6,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -120,32 +120,21 @@
         "published": "2026-06-29T11:16:03+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "8c4ce5e81059",
-        "title": "[취재후일담] ‘점포 1067곳’ 농협은행이 디지털에 공들이는 까닭",
-        "source": "아시아투데이",
-        "summary": "[취재후일담] ‘점포 1067곳’ 농협은행이 디지털에 공들이는 까닭 아시아투데이",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LVUtfSlpoVEQ3WGlwcUtpNk5mTDV5U2pRY1l2UVRiQWpoT3NseDJnSzUtejFIU1NWNW90NHBNT3FqRkhCTEVUNm9vOXhOZy1VVzNpZFNSTWRtQXF2dElMeTJveG1MWm9KSUE2ZlRR?oc=5",
-        "published": "2026-06-28T18:03:04+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 5
       }
     ],
     "policy_news": [
       {
-        "id": "bea7a257f374",
+        "id": "ce1b38495880",
         "title": "청년 재무상담 대폭 확대한다 … 금융위, 상담 지점 200곳 이상 확대",
         "source": "뉴데일리",
         "summary": "청년 재무상담 대폭 확대한다 … 금융위, 상담 지점 200곳 이상 확대 뉴데일리",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaVdqLWowTW10MlBhVUVRenRoSVNjSmpFSDJXQlRCS2Juam5sWE92X2R3YzM1TlVlUVZRYkpwTlFUTTRjU2dVTFVOVkhrRXZkdk82SHpaZkoxUUtsemNaRGVQb0xQV2ptbkQtU2FZOVZ3MmZJVkJMTHZMSzBpNkN2WtIBgAFBVV95cUxQaVdqLWowTW10MlBhVUVRenRoSVNjSmpFSDJXQlRCS2Juam5sWE92X2R3YzM1TlVlUVZRYkpwTlFUTTRjU2dVTFVOVkhrRXZkdk82SHpaZkoxUUtsemNaRGVQb0xQV2ptbkQtU2FZOVZ3MmZJVkJMTHZMSzBpNkN2Wg?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ISy1uZGlqZldmY0hoeG1pSnU4cVB4VmV3QkNsYXlUNjkxTjdzN29QelFNVHpGU0JjLTJUR3N3RnpUXzhGUnNNS203TGlabk5NWlp6RUJJMllvSlFMV1c2bGluMjNEZmoyemZxWm5rNnRSNUxReUc4NUI4Y9IBgAFBVV95cUxQaVdqLWowTW10MlBhVUVRenRoSVNjSmpFSDJXQlRCS2Juam5sWE92X2R3YzM1TlVlUVZRYkpwTlFUTTRjU2dVTFVOVkhrRXZkdk82SHpaZkoxUUtsemNaRGVQb0xQV2ptbkQtU2FZOVZ3MmZJVkJMTHZMSzBpNkN2Wg?oc=5",
         "published": "2026-06-30T14:56:40+09:00",
         "query": "금융위 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -159,7 +148,7 @@
         "published": "2026-07-01T10:44:16+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 5,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
