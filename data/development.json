@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-07-04T07:39:11.633769+09:00",
+  "updated_at": "2026-07-05T07:33:29.670394+09:00",
   "items": [
     {
-      "id": "1cacd67242f0",
-      "title": "대전 갈마지구, 도시재생 공모 최종 선정…정비사업 속도",
-      "source": "hdnews.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RVHo5dEllNFBJbVFXS3ZTcnNxRVJFc3JwOUdtUlB5WkU1ZUl6aG5oZWpKZnhINWQwZmZVdEItMjA1WDMwZ2JCUFh0ZTVTYktsLUJpZ1lYLWV1T0FMcGs3eWtuV3djVHg3VzVR?oc=5",
-      "published": "2026-07-03T18:50:23+09:00",
+      "id": "fd6b6ee8ae83",
+      "title": "‘속도전’ 내세웠는데… 용인 ‘반도체 메가 클러스터’ 발목잡혔다",
+      "source": "주간조선",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EVEp0X2lQM2Z1Q3pJbWdqZTF2ck44a0tOVWdoWnV4anRwNk8wZ3JuUEJCUWhLb0c3UGx4VnpDZ1NMRUZ3VVdLR0E1eGZTbGV6QWxjcW9ncHlmZm1lY3ByT3hJM0FYbnhZeWfSAW5BVV95cUxNRk9hb1c2QmJQUk9ZVDIwbmtENnFRZUh6RjVyYm9zV3ZKUFBlb1RiMmFjX2NyWDJXV3FvbXNIazFiWGRCdUtQLW81QlJKcTdhLTBYM25lSE5zaDV3ZFE1dkVnbV9OdlJKN2Zwam5mQQ?oc=5",
+      "published": "2026-07-05T05:00:00+09:00",
+      "date": "2026-07-05",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "162dfe1c876d",
+      "title": "이상일 \"용인 반도체 국가산단 논란 끝났다…또 흔들기 용납 못해\"",
+      "source": "아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SRnlsT21tTjdDVTlTU1F6UXRweDlGQTBlME1aNUcyUzFFRnBvdk10Z2NRLUNQcFhia2s0ano1Q0VNTDQzaXg0N01UR2dwLWJWd0tnVDNBSWdoTlppOVlGTQ?oc=5",
+      "published": "2026-07-04T18:45:35+09:00",
+      "date": "2026-07-04",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "2a218f525359",
+      "title": "용인 삼성반도체 산단 ‘LNG발전소 6기’ 본격 추진",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PMUJIbV9FcnZsNFRuYURyNE45Tzlxd0pxdzZIZHVtV1FtWUV0dXd1Q3QtcXdVNk5BUVpnbjBPUTN6RlFxSU9qZVJsd180cER2VW1BWlJoWFROcll5dkpxbkgwWC1VdUVhaW8yRmFBSXhQVmFuRGp0OWVsMDM?oc=5",
+      "published": "2026-07-04T15:45:39+09:00",
+      "date": "2026-07-04",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "a29caa5b0928",
+      "title": "대전 갈마지구 도시재생 공모 선정…국비 150억원 확보",
+      "source": "문화투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tM2NERDMxN1M4WXJMVzhBR19xUjFEeVdibUNGNExEeDhfY2ZTVmMycklhUEVCU2I1X3RjWmxxZlpMMHdJUHhTOHE1UEZxeW40X0ZfYjlOTUJVenJkU1VqM2ROcHRNSDdt?oc=5",
+      "published": "2026-07-03T15:20:15+09:00",
+      "date": "2026-07-03",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "88f7bbe0ecd6",
+      "title": "중앙동, 국토부 도시재생사업 선정…250억 들여 '복고풍 테마거리' 조성",
+      "source": "투데이 군산",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85QzhFT1hHekV0cG9QNmNZRWE5amhySTFZQ3pmT2x5ZnlMc1cxQ1VhM19FNkJFS0dxVzFfN21WN0FkU01mNE4teUdCVXg1S182NHpPYTdneFEyMnRRU0J6YV9fbGlKU1VvV0I3N2VsX1Y?oc=5",
+      "published": "2026-07-03T12:12:58+09:00",
       "date": "2026-07-03",
       "query": "도시재생 활성화계획"
     },
@@ -20,15 +56,6 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "43ea18cc5311",
-      "title": "대전 갈마지구 도시재생 공모 선정…국비 150억원 확보",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoLVdyVHpydmhwU0NycjM5c3poT1VOUWpQY3F6QkxGQnl2ZFI2Y1FuWk5oa0tnd1kwYjlKaVF4X0dQMlM4bGw4MVFoaE5zX1hRQV83b25Kdy00Vm9BYi1zetIBYEFVX3lxTFBoLVdyVHpydmhwU0NycjM5c3poT1VOUWpQY3F6QkxGQnl2ZFI2Y1FuWk5oa0tnd1kwYjlKaVF4X0dQMlM4bGw4MVFoaE5zX1hRQV83b25Kdy00Vm9BYi1zeg?oc=5",
-      "published": "2026-07-03T10:25:39+09:00",
-      "date": "2026-07-03",
-      "query": "도시재생 활성화계획"
-    },
-    {
       "id": "b46a46c5dde9",
       "title": "대전시, 갈마지구 도시재생 사업 선정…노후주거지 정비 속도",
       "source": "뉴스파고",
@@ -38,15 +65,6 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "5ebe86fec689",
-      "title": "[2026 하반기 건설시장 전망] ①1.3兆 용인반도체 산단ㆍ1.1兆 세종∼청구 고속道…‘대어’ 줄줄이 대기",
-      "source": "대한경제",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pUzVvVThhVVdBLUttaGJ1eUNqcDdyX2dLRlFpQ19CdUhqazBGUk04dGxCUHJtVVlSeGZPWlZIWnQ1a2tKM1BBNVJOcUc0N0htMUhrdlB4Unh5VmhRMGpQZE5XMlZSc1FCTklrSjVfc1lVUVh6?oc=5",
-      "published": "2026-07-03T06:00:46+09:00",
-      "date": "2026-07-03",
-      "query": "반도체 국가산단"
-    },
-    {
       "id": "7d9ef890fa49",
       "title": "서울시, 신사동 503-2 지구단위계획 수정가결…신사역 역세권 복합개발 추진",
       "source": "웹이코노미",
@@ -54,24 +72,6 @@
       "published": "2026-07-02T15:23:31+09:00",
       "date": "2026-07-02",
       "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-07-02T15:03:00+09:00",
-      "date": "2026-07-02",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "2525815b0a74",
-      "title": "시민단체 “용인 취소해야 서남권 가능…반도체공장 동시 건설 현실성 없어”",
-      "source": "한겨레",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53SHVvZThWeFpYeTM3OXM1ZkNaRng4cHJweHVpUlN4NTlXZmRQWHNSSEdELVpvLWh1OGtNZ1U3Zm50aWcwRXlJc1NnWDctNC1RLXVVaVNuQ2hOakRMMTBDUWtOcDBOQ1I3cldBYw?oc=5",
-      "published": "2026-07-02T14:00:00+09:00",
-      "date": "2026-07-02",
-      "query": "반도체 국가산단"
     },
     {
       "id": "8e2d89ec09ed",
@@ -110,19 +110,10 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "06e0cfa66966",
-      "title": "종로2·3가 기준용적률 600%로↑ 성수 준공업지역 높이규제 완화",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tejVQTENSODlqMmdwMDNON1Y2bGU0ckVCR0lVVDU0aTMyUWFsQ1lMZ29Va2lDV3pWaFcwS1ZvTlN5QXhPNFNKOTR3eGcyaldBUlNsemZ3NExPc1RaRk1yQtIBYEFVX3lxTE9tejVQTENSODlqMmdwMDNON1Y2bGU0ckVCR0lVVDU0aTMyUWFsQ1lMZ29Va2lDV3pWaFcwS1ZvTlN5QXhPNFNKOTR3eGcyaldBUlNsemZ3NExPc1RaRk1yQg?oc=5",
-      "published": "2026-07-02T10:00:00+09:00",
-      "date": "2026-07-02",
-      "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "c4457a884e4c",
+      "id": "1e02fc8ccf0f",
       "title": "신사역 인근에 업무·상업 복합시설…지구단위계획 수정",
       "source": "데일리안",
-      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPS29ldHRGbEZZczRzckliQXRRMGxJUk9wYzRHR2NYSDlEQktvZEpVTFNXSUxBQjMzZFh6WG8xTEhhNTdJcUUzRE1rMzFLdlpEUFJ3T1VhQkJFRHNiclI1MUZWSVFheDdwcjZ2cnNFZXFzNEx0WHhTU3RPMkJuSnpJVC1Lb1FXZVdReWZkYU90dmd1VkhoNkcyanlHZmlNOXVWU2RWNExvVFNxajdCeGZhcmd2N2VFMkhvVzZPQWRydDZOLVhobFlVbGgzQjlsOXhKWXVLTmxEMzlWUHlRaWg2SmluUnRISmc1TkUyWm1JRDhSSFpNcHFLMDJDemw3Nm1LSlRfQ2JHQXUwNjdWdzJvVGJFSDNWUXpWQ1U2d1lGZU1LcVlreTJINllVVWZORnZj0gGwAkFVX3lxTE9Lb2V0dEZsRllzNHNySWJBdFEwbElST3BjNEdHY1hIOURCS29kSlVMU1dJTEFCMzNkWHpYbzFMSGE1N0lxRTNETWszMUt2WkRQUndPVWFCQkVEc2JyUjUxRlZJUWF4N3ByNnZyc0VlcXM0THRYeFNTdE8yQm5KeklULUtvUVdlV1F5ZmRhT3R2Z3VWSGg2RzJqeUdmaU05dVZTZFY0TG9UU3FqN0J4ZmFyZ3Y3ZUUySG9XNk9BZHJ0Nk4tWGhsWVVsaDNCOWw5eEpZdUtObEQzOVZQeVFpaDZKaW5SdEhKZzVORTJabUlEOFJIWk1wcUswMkN6bDc2bUtKVF9DYkdBdTA2N1Z3Mm9UYkVIM1ZRelZDVTZ3WUZlTUtxWWt5Mkg2WVVVZk5GdmM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNWUljazlYam9obkhmOTRMYV8xWHRUd013c29zc1o5WG1MZm9TYWdfN1FCMzBuajdWb2NnSXBqYloybmRJQVctZVVzM2llQ3dPc0dtRXFyQWRyWmlTdG81eW1aRU9Od0h3d0lXOXE1NTVJdWhVSWZpUGVaS1U0OUV6WTB1dEg2RnJFNWpld0haU3dHOTlDUzdKc2dYNlpLaFJDWEpIdDNRVVpsSVJELTF5a2RiZUJtZEthRnNwWExrM205SlVFTzBPQmxZX3owZTZDTmZIWlVMUXJQT0o1OTZBeFlkd2cwSl81TXdDSFVzc1NMQnFTellCaWdjalJwbnBnaFJMY2wtX01XVXZ5VTRWREJuTFotQ0taeXpTY2pna3RqUElMcTVmNEswOXNoUdIBsAJBVV95cUxPS29ldHRGbEZZczRzckliQXRRMGxJUk9wYzRHR2NYSDlEQktvZEpVTFNXSUxBQjMzZFh6WG8xTEhhNTdJcUUzRE1rMzFLdlpEUFJ3T1VhQkJFRHNiclI1MUZWSVFheDdwcjZ2cnNFZXFzNEx0WHhTU3RPMkJuSnpJVC1Lb1FXZVdReWZkYU90dmd1VkhoNkcyanlHZmlNOXVWU2RWNExvVFNxajdCeGZhcmd2N2VFMkhvVzZPQWRydDZOLVhobFlVbGgzQjlsOXhKWXVLTmxEMzlWUHlRaWg2SmluUnRISmc1TkUyWm1JRDhSSFpNcHFLMDJDemw3Nm1LSlRfQ2JHQXUwNjdWdzJvVGJFSDNWUXpWQ1U2d1lGZU1LcVlreTJINllVVWZORnZj?oc=5",
       "published": "2026-07-02T10:00:00+09:00",
       "date": "2026-07-02",
       "query": "복합개발 지구단위계획"
@@ -133,6 +124,15 @@
       "source": "경기신문",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zdDBjYkl4bmlPbmFrUGhfLTc2cXRjSXJQMUplSXd1Qks3bV9pbG9RN1FQd0UyMS1KVDF4ZGJ1OXBWdkNNMU94VlpJNkdfS3oyMm00RFBxeHk1NWlIWkpnam1n?oc=5",
       "published": "2026-07-01T16:30:21+09:00",
+      "date": "2026-07-01",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "e2f741a37662",
+      "title": "이상일 용인특례시장, \"용인 반도체 국가산단과 일반산단을 반도체특별법상의 ‘반도체클러스터’로 지정해야\"",
+      "source": "투데이경제",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UVmNRRHhtbGFOeTlyTlBianFQX0l4eGNWOGExWGcta2I4R2Fka2pxYWtaRWZfdlRMQTI0cjNGZi1laDQ1N1YwdFpXMlB5SF9Fd3pyTTRtRzBzekVyOVdScGNXSmRWaHNuZTVn?oc=5",
+      "published": "2026-07-01T16:09:16+09:00",
       "date": "2026-07-01",
       "query": "반도체 국가산단"
     }
