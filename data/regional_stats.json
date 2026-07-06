@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-06-29T15:30:07+09:00",
+  "as_of": "2026-07-06T09:03:39+09:00",
   "regions": {
     "강원 강릉시": {
       "sido": "강원",
       "sigungu": "강릉시",
       "branch_count": 7,
       "population": {
-        "value": 205790,
-        "period": "202605",
+        "value": 205666,
+        "period": "202606",
         "label": "강릉시",
         "unit": "명"
       },
       "location_score": {
-        "value": 44.4,
+        "value": 42.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 44.4,
+          "market_pct": 42.0,
           "market_source": "population",
-          "branch_density_pct": 44.2
+          "branch_density_pct": 42.8
         },
         "weights": {
           "businesses": 0.45,
@@ -33,19 +33,19 @@
       "sigungu": "동해시",
       "branch_count": 3,
       "population": {
-        "value": 85608,
-        "period": "202605",
+        "value": 85589,
+        "period": "202606",
         "label": "동해시",
         "unit": "명"
       },
       "location_score": {
-        "value": 19.5,
+        "value": 18.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 19.5,
+          "market_pct": 18.7,
           "market_source": "population",
-          "branch_density_pct": 21.4
+          "branch_density_pct": 20.7
         },
         "weights": {
           "businesses": 0.45,
@@ -60,19 +60,19 @@
       "sigungu": "삼척시",
       "branch_count": 2,
       "population": {
-        "value": 60408,
-        "period": "202605",
+        "value": 60294,
+        "period": "202606",
         "label": "삼척시",
         "unit": "명"
       },
       "location_score": {
-        "value": 10.7,
+        "value": 9.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 10.7,
+          "market_pct": 9.8,
           "market_source": "population",
-          "branch_density_pct": 13.5
+          "branch_density_pct": 12.5
         },
         "weights": {
           "businesses": 0.45,
@@ -87,19 +87,19 @@
       "sigungu": "속초시",
       "branch_count": 4,
       "population": {
-        "value": 78805,
-        "period": "202605",
+        "value": 78893,
+        "period": "202606",
         "label": "속초시",
         "unit": "명"
       },
       "location_score": {
-        "value": 14.1,
+        "value": 13.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 14.1,
+          "market_pct": 13.5,
           "market_source": "population",
-          "branch_density_pct": 29.8
+          "branch_density_pct": 28.8
         },
         "weights": {
           "businesses": 0.45,
@@ -114,8 +114,8 @@
       "sigungu": "양양군",
       "branch_count": 1,
       "population": {
-        "value": 27417,
-        "period": "202605",
+        "value": 27326,
+        "period": "202606",
         "label": "양양군",
         "unit": "명"
       },
@@ -141,19 +141,19 @@
       "sigungu": "영월군",
       "branch_count": 2,
       "population": {
-        "value": 35757,
-        "period": "202605",
+        "value": 35714,
+        "period": "202606",
         "label": "영월군",
         "unit": "명"
       },
       "location_score": {
-        "value": 1.5,
+        "value": 1.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 1.5,
+          "market_pct": 1.6,
           "market_source": "population",
-          "branch_density_pct": 14.0
+          "branch_density_pct": 13.0
         },
         "weights": {
           "businesses": 0.45,
@@ -168,19 +168,19 @@
       "sigungu": "원주시",
       "branch_count": 15,
       "population": {
-        "value": 364570,
-        "period": "202605",
+        "value": 364811,
+        "period": "202606",
         "label": "원주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 66.8,
+        "value": 64.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 66.8,
+          "market_pct": 64.8,
           "market_source": "population",
-          "branch_density_pct": 73.0
+          "branch_density_pct": 71.6
         },
         "weights": {
           "businesses": 0.45,
@@ -195,8 +195,8 @@
       "sigungu": "인제군",
       "branch_count": 1,
       "population": {
-        "value": 30752,
-        "period": "202605",
+        "value": 30771,
+        "period": "202606",
         "label": "인제군",
         "unit": "명"
       },
@@ -222,8 +222,8 @@
       "sigungu": "정선군",
       "branch_count": 4,
       "population": {
-        "value": 35113,
-        "period": "202605",
+        "value": 35128,
+        "period": "202606",
         "label": "정선군",
         "unit": "명"
       },
@@ -234,7 +234,7 @@
           "income_pct": null,
           "market_pct": 1.0,
           "market_source": "population",
-          "branch_density_pct": 30.2
+          "branch_density_pct": 29.3
         },
         "weights": {
           "businesses": 0.45,
@@ -249,19 +249,19 @@
       "sigungu": "철원군",
       "branch_count": 1,
       "population": {
-        "value": 39727,
-        "period": "202605",
+        "value": 39711,
+        "period": "202606",
         "label": "철원군",
         "unit": "명"
       },
       "location_score": {
-        "value": 2.9,
+        "value": 3.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 2.9,
+          "market_pct": 3.1,
           "market_source": "population",
-          "branch_density_pct": 0.9
+          "branch_density_pct": 1.0
         },
         "weights": {
           "businesses": 0.45,
@@ -276,19 +276,19 @@
       "sigungu": "춘천시",
       "branch_count": 13,
       "population": {
-        "value": 285160,
-        "period": "202605",
+        "value": 285027,
+        "period": "202606",
         "label": "춘천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 61.0,
+        "value": 58.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 61.0,
+          "market_pct": 58.5,
           "market_source": "population",
-          "branch_density_pct": 68.8
+          "branch_density_pct": 67.3
         },
         "weights": {
           "businesses": 0.45,
@@ -303,19 +303,19 @@
       "sigungu": "태백시",
       "branch_count": 2,
       "population": {
-        "value": 36853,
-        "period": "202605",
+        "value": 36811,
+        "period": "202606",
         "label": "태백시",
         "unit": "명"
       },
       "location_score": {
-        "value": 2.4,
+        "value": 2.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 2.4,
+          "market_pct": 2.6,
           "market_source": "population",
-          "branch_density_pct": 14.4
+          "branch_density_pct": 13.5
         },
         "weights": {
           "businesses": 0.45,
@@ -330,19 +330,19 @@
       "sigungu": "홍천군",
       "branch_count": 2,
       "population": {
-        "value": 65889,
-        "period": "202605",
+        "value": 65849,
+        "period": "202606",
         "label": "홍천군",
         "unit": "명"
       },
       "location_score": {
-        "value": 12.2,
+        "value": 11.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 12.2,
+          "market_pct": 11.4,
           "market_source": "population",
-          "branch_density_pct": 14.9
+          "branch_density_pct": 13.9
         },
         "weights": {
           "businesses": 0.45,
@@ -357,17 +357,17 @@
       "sigungu": "가평군",
       "branch_count": 1,
       "population": {
-        "value": 62044,
-        "period": "202605",
+        "value": 62041,
+        "period": "202606",
         "label": "가평군",
         "unit": "명"
       },
       "location_score": {
-        "value": 11.2,
+        "value": 10.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 11.2,
+          "market_pct": 10.4,
           "market_source": "population",
           "branch_density_pct": 1.4
         },
@@ -384,19 +384,19 @@
       "sigungu": "고양시 덕양구",
       "branch_count": 14,
       "population": {
-        "value": 1057471,
-        "period": "202605",
+        "value": 1057438,
+        "period": "202606",
         "label": "고양시",
         "unit": "명"
       },
       "location_score": {
-        "value": 96.6,
+        "value": 96.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 96.6,
+          "market_pct": 96.4,
           "market_source": "population",
-          "branch_density_pct": 71.6
+          "branch_density_pct": 70.2
         },
         "weights": {
           "businesses": 0.45,
@@ -409,21 +409,21 @@
     "경기 고양시 일산동구": {
       "sido": "경기",
       "sigungu": "고양시 일산동구",
-      "branch_count": 18,
+      "branch_count": 17,
       "population": {
-        "value": 83432,
-        "period": "202605",
+        "value": 83354,
+        "period": "202606",
         "label": "동구",
         "unit": "명"
       },
       "location_score": {
-        "value": 15.6,
+        "value": 15.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 15.6,
+          "market_pct": 15.0,
           "market_source": "population",
-          "branch_density_pct": 76.7
+          "branch_density_pct": 76.0
         },
         "weights": {
           "businesses": 0.45,
@@ -436,21 +436,21 @@
     "경기 고양시 일산서구": {
       "sido": "경기",
       "sigungu": "고양시 일산서구",
-      "branch_count": 19,
+      "branch_count": 18,
       "population": {
-        "value": 101320,
-        "period": "202605",
+        "value": 101216,
+        "period": "202606",
         "label": "서구",
         "unit": "명"
       },
       "location_score": {
-        "value": 25.9,
+        "value": 24.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 25.9,
+          "market_pct": 24.9,
           "market_source": "population",
-          "branch_density_pct": 79.1
+          "branch_density_pct": 77.9
         },
         "weights": {
           "businesses": 0.45,
@@ -465,19 +465,19 @@
       "sigungu": "과천시",
       "branch_count": 7,
       "population": {
-        "value": 80384,
-        "period": "202605",
+        "value": 80832,
+        "period": "202606",
         "label": "과천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 14.6,
+        "value": 14.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 14.6,
+          "market_pct": 14.0,
           "market_source": "population",
-          "branch_density_pct": 44.7
+          "branch_density_pct": 43.3
         },
         "weights": {
           "businesses": 0.45,
@@ -492,19 +492,19 @@
       "sigungu": "광명시",
       "branch_count": 14,
       "population": {
-        "value": 303479,
-        "period": "202605",
+        "value": 303666,
+        "period": "202606",
         "label": "광명시",
         "unit": "명"
       },
       "location_score": {
-        "value": 62.9,
+        "value": 60.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 62.9,
+          "market_pct": 60.6,
           "market_source": "population",
-          "branch_density_pct": 72.1
+          "branch_density_pct": 70.7
         },
         "weights": {
           "businesses": 0.45,
@@ -519,19 +519,19 @@
       "sigungu": "광주시",
       "branch_count": 8,
       "population": {
-        "value": 398250,
-        "period": "202605",
+        "value": 399111,
+        "period": "202606",
         "label": "광주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 71.2,
+        "value": 69.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 71.2,
+          "market_pct": 69.4,
           "market_source": "population",
-          "branch_density_pct": 49.8
+          "branch_density_pct": 48.1
         },
         "weights": {
           "businesses": 0.45,
@@ -544,21 +544,21 @@
     "경기 구리시": {
       "sido": "경기",
       "sigungu": "구리시",
-      "branch_count": 8,
+      "branch_count": 7,
       "population": {
-        "value": 187463,
-        "period": "202605",
+        "value": 187782,
+        "period": "202606",
         "label": "구리시",
         "unit": "명"
       },
       "location_score": {
-        "value": 42.0,
+        "value": 39.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 42.0,
+          "market_pct": 39.9,
           "market_source": "population",
-          "branch_density_pct": 50.2
+          "branch_density_pct": 43.8
         },
         "weights": {
           "businesses": 0.45,
@@ -571,21 +571,21 @@
     "경기 군포시": {
       "sido": "경기",
       "sigungu": "군포시",
-      "branch_count": 10,
+      "branch_count": 9,
       "population": {
-        "value": 249770,
-        "period": "202605",
+        "value": 249462,
+        "period": "202606",
         "label": "군포시",
         "unit": "명"
       },
       "location_score": {
-        "value": 48.8,
+        "value": 46.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 48.8,
+          "market_pct": 46.6,
           "market_source": "population",
-          "branch_density_pct": 59.1
+          "branch_density_pct": 52.4
         },
         "weights": {
           "businesses": 0.45,
@@ -598,21 +598,21 @@
     "경기 김포시": {
       "sido": "경기",
       "sigungu": "김포시",
-      "branch_count": 23,
+      "branch_count": 22,
       "population": {
-        "value": 484047,
-        "period": "202605",
+        "value": 484042,
+        "period": "202606",
         "label": "김포시",
         "unit": "명"
       },
       "location_score": {
-        "value": 77.6,
+        "value": 76.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 77.6,
+          "market_pct": 76.2,
           "market_source": "population",
-          "branch_density_pct": 82.8
+          "branch_density_pct": 82.7
         },
         "weights": {
           "businesses": 0.45,
@@ -627,17 +627,17 @@
       "sigungu": "남양주시",
       "branch_count": 24,
       "population": {
-        "value": 727717,
-        "period": "202605",
+        "value": 727440,
+        "period": "202606",
         "label": "남양주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 86.8,
+        "value": 86.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 86.8,
+          "market_pct": 86.0,
           "market_source": "population",
           "branch_density_pct": 83.7
         },
@@ -654,19 +654,19 @@
       "sigungu": "동두천시",
       "branch_count": 2,
       "population": {
-        "value": 86243,
-        "period": "202605",
+        "value": 86265,
+        "period": "202606",
         "label": "동두천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 20.0,
+        "value": 19.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 20.0,
+          "market_pct": 19.2,
           "market_source": "population",
-          "branch_density_pct": 15.3
+          "branch_density_pct": 14.4
         },
         "weights": {
           "businesses": 0.45,
@@ -679,21 +679,21 @@
     "경기 부천시 소사구": {
       "sido": "경기",
       "sigungu": "부천시 소사구",
-      "branch_count": 7,
+      "branch_count": 6,
       "population": {
-        "value": 756037,
-        "period": "202605",
+        "value": 755453,
+        "period": "202606",
         "label": "부천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 87.3,
+        "value": 86.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 87.3,
+          "market_pct": 86.5,
           "market_source": "population",
-          "branch_density_pct": 45.1
+          "branch_density_pct": 34.6
         },
         "weights": {
           "businesses": 0.45,
@@ -708,19 +708,19 @@
       "sigungu": "부천시 오정구",
       "branch_count": 4,
       "population": {
-        "value": 756037,
-        "period": "202605",
+        "value": 755453,
+        "period": "202606",
         "label": "부천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 87.8,
+        "value": 87.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 87.8,
+          "market_pct": 87.0,
           "market_source": "population",
-          "branch_density_pct": 30.7
+          "branch_density_pct": 29.8
         },
         "weights": {
           "businesses": 0.45,
@@ -733,21 +733,21 @@
     "경기 부천시 원미구": {
       "sido": "경기",
       "sigungu": "부천시 원미구",
-      "branch_count": 28,
+      "branch_count": 27,
       "population": {
-        "value": 756037,
-        "period": "202605",
+        "value": 755453,
+        "period": "202606",
         "label": "부천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 88.3,
+        "value": 87.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 88.3,
+          "market_pct": 87.6,
           "market_source": "population",
-          "branch_density_pct": 90.7
+          "branch_density_pct": 88.5
         },
         "weights": {
           "businesses": 0.45,
@@ -760,21 +760,21 @@
     "경기 성남시 분당구": {
       "sido": "경기",
       "sigungu": "성남시 분당구",
-      "branch_count": 62,
+      "branch_count": 61,
       "population": {
-        "value": 903747,
-        "period": "202605",
+        "value": 902344,
+        "period": "202606",
         "label": "성남시",
         "unit": "명"
       },
       "location_score": {
-        "value": 90.7,
+        "value": 90.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 90.7,
+          "market_pct": 90.2,
           "market_source": "population",
-          "branch_density_pct": 98.1
+          "branch_density_pct": 97.6
         },
         "weights": {
           "businesses": 0.45,
@@ -789,19 +789,19 @@
       "sigungu": "성남시 수정구",
       "branch_count": 16,
       "population": {
-        "value": 903747,
-        "period": "202605",
+        "value": 902344,
+        "period": "202606",
         "label": "성남시",
         "unit": "명"
       },
       "location_score": {
-        "value": 91.2,
+        "value": 90.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 91.2,
+          "market_pct": 90.7,
           "market_source": "population",
-          "branch_density_pct": 74.9
+          "branch_density_pct": 73.6
         },
         "weights": {
           "businesses": 0.45,
@@ -816,19 +816,19 @@
       "sigungu": "성남시 중원구",
       "branch_count": 9,
       "population": {
-        "value": 903747,
-        "period": "202605",
+        "value": 902344,
+        "period": "202606",
         "label": "성남시",
         "unit": "명"
       },
       "location_score": {
-        "value": 91.7,
+        "value": 91.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 91.7,
+          "market_pct": 91.2,
           "market_source": "population",
-          "branch_density_pct": 54.4
+          "branch_density_pct": 52.9
         },
         "weights": {
           "businesses": 0.45,
@@ -841,21 +841,21 @@
     "경기 수원시 권선구": {
       "sido": "경기",
       "sigungu": "수원시 권선구",
-      "branch_count": 9,
+      "branch_count": 8,
       "population": {
-        "value": 1186120,
-        "period": "202605",
+        "value": 1185770,
+        "period": "202606",
         "label": "수원시",
         "unit": "명"
       },
       "location_score": {
-        "value": 98.5,
+        "value": 98.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 98.5,
+          "market_pct": 98.4,
           "market_source": "population",
-          "branch_density_pct": 54.9
+          "branch_density_pct": 48.6
         },
         "weights": {
           "businesses": 0.45,
@@ -870,8 +870,8 @@
       "sigungu": "수원시 영통구",
       "branch_count": 25,
       "population": {
-        "value": 1186120,
-        "period": "202605",
+        "value": 1185770,
+        "period": "202606",
         "label": "수원시",
         "unit": "명"
       },
@@ -882,7 +882,7 @@
           "income_pct": null,
           "market_pct": 99.0,
           "market_source": "population",
-          "branch_density_pct": 86.0
+          "branch_density_pct": 86.1
         },
         "weights": {
           "businesses": 0.45,
@@ -897,8 +897,8 @@
       "sigungu": "수원시 장안구",
       "branch_count": 10,
       "population": {
-        "value": 1186120,
-        "period": "202605",
+        "value": 1185770,
+        "period": "202606",
         "label": "수원시",
         "unit": "명"
       },
@@ -909,7 +909,7 @@
           "income_pct": null,
           "market_pct": 99.5,
           "market_source": "population",
-          "branch_density_pct": 59.5
+          "branch_density_pct": 58.2
         },
         "weights": {
           "businesses": 0.45,
@@ -922,10 +922,10 @@
     "경기 수원시 팔달구": {
       "sido": "경기",
       "sigungu": "수원시 팔달구",
-      "branch_count": 18,
+      "branch_count": 17,
       "population": {
-        "value": 1186120,
-        "period": "202605",
+        "value": 1185770,
+        "period": "202606",
         "label": "수원시",
         "unit": "명"
       },
@@ -936,7 +936,7 @@
           "income_pct": null,
           "market_pct": 100.0,
           "market_source": "population",
-          "branch_density_pct": 77.2
+          "branch_density_pct": 76.4
         },
         "weights": {
           "businesses": 0.45,
@@ -951,19 +951,19 @@
       "sigungu": "시흥시",
       "branch_count": 20,
       "population": {
-        "value": 514804,
-        "period": "202605",
+        "value": 514831,
+        "period": "202606",
         "label": "시흥시",
         "unit": "명"
       },
       "location_score": {
-        "value": 80.0,
+        "value": 78.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 80.0,
+          "market_pct": 78.8,
           "market_source": "population",
-          "branch_density_pct": 80.0
+          "branch_density_pct": 80.3
         },
         "weights": {
           "businesses": 0.45,
@@ -978,19 +978,19 @@
       "sigungu": "안산시 단원구",
       "branch_count": 27,
       "population": {
-        "value": 609712,
-        "period": "202605",
+        "value": 609240,
+        "period": "202606",
         "label": "안산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 83.9,
+        "value": 82.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 83.9,
+          "market_pct": 82.9,
           "market_source": "population",
-          "branch_density_pct": 89.3
+          "branch_density_pct": 88.9
         },
         "weights": {
           "businesses": 0.45,
@@ -1005,19 +1005,19 @@
       "sigungu": "안산시 상록구",
       "branch_count": 8,
       "population": {
-        "value": 609712,
-        "period": "202605",
+        "value": 609240,
+        "period": "202606",
         "label": "안산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 84.4,
+        "value": 83.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 84.4,
+          "market_pct": 83.4,
           "market_source": "population",
-          "branch_density_pct": 50.7
+          "branch_density_pct": 49.0
         },
         "weights": {
           "businesses": 0.45,
@@ -1032,19 +1032,19 @@
       "sigungu": "안성시",
       "branch_count": 6,
       "population": {
-        "value": 198631,
-        "period": "202605",
+        "value": 198785,
+        "period": "202606",
         "label": "안성시",
         "unit": "명"
       },
       "location_score": {
-        "value": 42.9,
+        "value": 40.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 42.9,
+          "market_pct": 40.9,
           "market_source": "population",
-          "branch_density_pct": 36.3
+          "branch_density_pct": 35.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1059,17 +1059,17 @@
       "sigungu": "안양시 동안구",
       "branch_count": 25,
       "population": {
-        "value": 562341,
-        "period": "202605",
+        "value": 562305,
+        "period": "202606",
         "label": "안양시",
         "unit": "명"
       },
       "location_score": {
-        "value": 82.9,
+        "value": 81.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 82.9,
+          "market_pct": 81.9,
           "market_source": "population",
           "branch_density_pct": 86.5
         },
@@ -1086,19 +1086,19 @@
       "sigungu": "안양시 만안구",
       "branch_count": 6,
       "population": {
-        "value": 562341,
-        "period": "202605",
+        "value": 562305,
+        "period": "202606",
         "label": "안양시",
         "unit": "명"
       },
       "location_score": {
-        "value": 83.4,
+        "value": 82.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 83.4,
+          "market_pct": 82.4,
           "market_source": "population",
-          "branch_density_pct": 36.7
+          "branch_density_pct": 35.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1113,19 +1113,19 @@
       "sigungu": "양주시",
       "branch_count": 11,
       "population": {
-        "value": 296976,
-        "period": "202605",
+        "value": 297226,
+        "period": "202606",
         "label": "양주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 61.5,
+        "value": 59.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 61.5,
+          "market_pct": 59.1,
           "market_source": "population",
-          "branch_density_pct": 62.8
+          "branch_density_pct": 60.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1140,17 +1140,17 @@
       "sigungu": "양평군",
       "branch_count": 1,
       "population": {
-        "value": 126746,
-        "period": "202605",
+        "value": 126822,
+        "period": "202606",
         "label": "양평군",
         "unit": "명"
       },
       "location_score": {
-        "value": 35.1,
+        "value": 33.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 35.1,
+          "market_pct": 33.2,
           "market_source": "population",
           "branch_density_pct": 1.9
         },
@@ -1167,19 +1167,19 @@
       "sigungu": "여주시",
       "branch_count": 2,
       "population": {
-        "value": 113541,
-        "period": "202605",
+        "value": 113506,
+        "period": "202606",
         "label": "여주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 30.7,
+        "value": 29.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 30.7,
+          "market_pct": 29.5,
           "market_source": "population",
-          "branch_density_pct": 15.8
+          "branch_density_pct": 14.9
         },
         "weights": {
           "businesses": 0.45,
@@ -1194,19 +1194,19 @@
       "sigungu": "연천군",
       "branch_count": 1,
       "population": {
-        "value": 42868,
-        "period": "202605",
+        "value": 42977,
+        "period": "202606",
         "label": "연천군",
         "unit": "명"
       },
       "location_score": {
-        "value": 3.4,
+        "value": 3.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 3.4,
+          "market_pct": 3.6,
           "market_source": "population",
-          "branch_density_pct": 2.3
+          "branch_density_pct": 2.4
         },
         "weights": {
           "businesses": 0.45,
@@ -1221,19 +1221,19 @@
       "sigungu": "오산시",
       "branch_count": 7,
       "population": {
-        "value": 252414,
-        "period": "202605",
+        "value": 253590,
+        "period": "202606",
         "label": "오산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 49.8,
+        "value": 47.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 49.8,
+          "market_pct": 47.7,
           "market_source": "population",
-          "branch_density_pct": 45.6
+          "branch_density_pct": 44.2
         },
         "weights": {
           "businesses": 0.45,
@@ -1248,17 +1248,17 @@
       "sigungu": "용인시 기흥구",
       "branch_count": 25,
       "population": {
-        "value": 1089693,
-        "period": "202605",
+        "value": 1090211,
+        "period": "202606",
         "label": "용인시",
         "unit": "명"
       },
       "location_score": {
-        "value": 97.1,
+        "value": 96.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 97.1,
+          "market_pct": 96.9,
           "market_source": "population",
           "branch_density_pct": 87.0
         },
@@ -1273,21 +1273,21 @@
     "경기 용인시 수지구": {
       "sido": "경기",
       "sigungu": "용인시 수지구",
-      "branch_count": 25,
+      "branch_count": 24,
       "population": {
-        "value": 1089693,
-        "period": "202605",
+        "value": 1090211,
+        "period": "202606",
         "label": "용인시",
         "unit": "명"
       },
       "location_score": {
-        "value": 97.6,
+        "value": 97.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 97.6,
+          "market_pct": 97.4,
           "market_source": "population",
-          "branch_density_pct": 87.4
+          "branch_density_pct": 84.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1302,19 +1302,19 @@
       "sigungu": "용인시 처인구",
       "branch_count": 8,
       "population": {
-        "value": 1089693,
-        "period": "202605",
+        "value": 1090211,
+        "period": "202606",
         "label": "용인시",
         "unit": "명"
       },
       "location_score": {
-        "value": 98.0,
+        "value": 97.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 98.0,
+          "market_pct": 97.9,
           "market_source": "population",
-          "branch_density_pct": 51.2
+          "branch_density_pct": 49.5
         },
         "weights": {
           "businesses": 0.45,
@@ -1329,19 +1329,19 @@
       "sigungu": "의왕시",
       "branch_count": 3,
       "population": {
-        "value": 163071,
-        "period": "202605",
+        "value": 164221,
+        "period": "202606",
         "label": "의왕시",
         "unit": "명"
       },
       "location_score": {
-        "value": 38.5,
+        "value": 36.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 38.5,
+          "market_pct": 36.8,
           "market_source": "population",
-          "branch_density_pct": 21.9
+          "branch_density_pct": 21.2
         },
         "weights": {
           "businesses": 0.45,
@@ -1354,21 +1354,21 @@
     "경기 의정부시": {
       "sido": "경기",
       "sigungu": "의정부시",
-      "branch_count": 20,
+      "branch_count": 18,
       "population": {
-        "value": 461816,
-        "period": "202605",
+        "value": 461917,
+        "period": "202606",
         "label": "의정부시",
         "unit": "명"
       },
       "location_score": {
-        "value": 75.6,
+        "value": 74.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 75.6,
+          "market_pct": 74.1,
           "market_source": "population",
-          "branch_density_pct": 80.5
+          "branch_density_pct": 78.4
         },
         "weights": {
           "businesses": 0.45,
@@ -1383,19 +1383,19 @@
       "sigungu": "이천시",
       "branch_count": 7,
       "population": {
-        "value": 223635,
-        "period": "202605",
+        "value": 224740,
+        "period": "202606",
         "label": "이천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 47.3,
+        "value": 45.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 47.3,
+          "market_pct": 45.1,
           "market_source": "population",
-          "branch_density_pct": 46.0
+          "branch_density_pct": 44.7
         },
         "weights": {
           "businesses": 0.45,
@@ -1410,19 +1410,19 @@
       "sigungu": "파주시",
       "branch_count": 19,
       "population": {
-        "value": 532124,
-        "period": "202605",
+        "value": 533387,
+        "period": "202606",
         "label": "파주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 80.5,
+        "value": 79.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 80.5,
+          "market_pct": 79.8,
           "market_source": "population",
-          "branch_density_pct": 79.5
+          "branch_density_pct": 79.8
         },
         "weights": {
           "businesses": 0.45,
@@ -1437,19 +1437,19 @@
       "sigungu": "평택시",
       "branch_count": 24,
       "population": {
-        "value": 618234,
-        "period": "202605",
+        "value": 619670,
+        "period": "202606",
         "label": "평택시",
         "unit": "명"
       },
       "location_score": {
-        "value": 84.9,
+        "value": 83.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 84.9,
+          "market_pct": 83.9,
           "market_source": "population",
-          "branch_density_pct": 84.2
+          "branch_density_pct": 84.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1464,19 +1464,19 @@
       "sigungu": "포천시",
       "branch_count": 7,
       "population": {
-        "value": 140464,
-        "period": "202605",
+        "value": 140468,
+        "period": "202606",
         "label": "포천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 37.1,
+        "value": 35.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 37.1,
+          "market_pct": 35.2,
           "market_source": "population",
-          "branch_density_pct": 46.5
+          "branch_density_pct": 45.2
         },
         "weights": {
           "businesses": 0.45,
@@ -1491,19 +1491,19 @@
       "sigungu": "하남시",
       "branch_count": 11,
       "population": {
-        "value": 327571,
-        "period": "202605",
+        "value": 327495,
+        "period": "202606",
         "label": "하남시",
         "unit": "명"
       },
       "location_score": {
-        "value": 63.4,
+        "value": 61.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 63.4,
+          "market_pct": 61.1,
           "market_source": "population",
-          "branch_density_pct": 63.3
+          "branch_density_pct": 61.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1516,21 +1516,21 @@
     "경기 화성시 동탄구": {
       "sido": "경기",
       "sigungu": "화성시 동탄구",
-      "branch_count": 18,
+      "branch_count": 17,
       "population": {
-        "value": 997713,
-        "period": "202605",
+        "value": 998746,
+        "period": "202606",
         "label": "화성시",
         "unit": "명"
       },
       "location_score": {
-        "value": 94.6,
+        "value": 94.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 94.6,
+          "market_pct": 94.3,
           "market_source": "population",
-          "branch_density_pct": 77.7
+          "branch_density_pct": 76.9
         },
         "weights": {
           "businesses": 0.45,
@@ -1545,19 +1545,19 @@
       "sigungu": "화성시 만세구",
       "branch_count": 10,
       "population": {
-        "value": 997713,
-        "period": "202605",
+        "value": 998746,
+        "period": "202606",
         "label": "화성시",
         "unit": "명"
       },
       "location_score": {
-        "value": 95.1,
+        "value": 94.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 95.1,
+          "market_pct": 94.8,
           "market_source": "population",
-          "branch_density_pct": 60.0
+          "branch_density_pct": 58.7
         },
         "weights": {
           "businesses": 0.45,
@@ -1572,19 +1572,19 @@
       "sigungu": "화성시 병점구",
       "branch_count": 8,
       "population": {
-        "value": 997713,
-        "period": "202605",
+        "value": 998746,
+        "period": "202606",
         "label": "화성시",
         "unit": "명"
       },
       "location_score": {
-        "value": 95.6,
+        "value": 95.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 95.6,
+          "market_pct": 95.3,
           "market_source": "population",
-          "branch_density_pct": 51.6
+          "branch_density_pct": 50.0
         },
         "weights": {
           "businesses": 0.45,
@@ -1599,19 +1599,19 @@
       "sigungu": "화성시 효행구",
       "branch_count": 4,
       "population": {
-        "value": 997713,
-        "period": "202605",
+        "value": 998746,
+        "period": "202606",
         "label": "화성시",
         "unit": "명"
       },
       "location_score": {
-        "value": 96.1,
+        "value": 95.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 96.1,
+          "market_pct": 95.9,
           "market_source": "population",
-          "branch_density_pct": 31.2
+          "branch_density_pct": 30.3
         },
         "weights": {
           "businesses": 0.45,
@@ -1626,19 +1626,19 @@
       "sigungu": "거제시",
       "branch_count": 7,
       "population": {
-        "value": 229221,
-        "period": "202605",
+        "value": 229029,
+        "period": "202606",
         "label": "거제시",
         "unit": "명"
       },
       "location_score": {
-        "value": 47.8,
+        "value": 45.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 47.8,
+          "market_pct": 45.6,
           "market_source": "population",
-          "branch_density_pct": 47.0
+          "branch_density_pct": 45.7
         },
         "weights": {
           "businesses": 0.45,
@@ -1653,19 +1653,19 @@
       "sigungu": "거창군",
       "branch_count": 2,
       "population": {
-        "value": 58874,
-        "period": "202605",
+        "value": 58846,
+        "period": "202606",
         "label": "거창군",
         "unit": "명"
       },
       "location_score": {
-        "value": 9.3,
+        "value": 8.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 9.3,
+          "market_pct": 8.8,
           "market_source": "population",
-          "branch_density_pct": 16.3
+          "branch_density_pct": 15.4
         },
         "weights": {
           "businesses": 0.45,
@@ -1680,19 +1680,19 @@
       "sigungu": "김해시",
       "branch_count": 13,
       "population": {
-        "value": 532665,
-        "period": "202605",
+        "value": 532777,
+        "period": "202606",
         "label": "김해시",
         "unit": "명"
       },
       "location_score": {
-        "value": 81.0,
+        "value": 79.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 81.0,
+          "market_pct": 79.3,
           "market_source": "population",
-          "branch_density_pct": 69.3
+          "branch_density_pct": 67.8
         },
         "weights": {
           "businesses": 0.45,
@@ -1707,19 +1707,19 @@
       "sigungu": "밀양시",
       "branch_count": 2,
       "population": {
-        "value": 98619,
-        "period": "202605",
+        "value": 98591,
+        "period": "202606",
         "label": "밀양시",
         "unit": "명"
       },
       "location_score": {
-        "value": 23.4,
+        "value": 22.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 23.4,
+          "market_pct": 22.3,
           "market_source": "population",
-          "branch_density_pct": 16.7
+          "branch_density_pct": 15.9
         },
         "weights": {
           "businesses": 0.45,
@@ -1734,19 +1734,19 @@
       "sigungu": "사천시",
       "branch_count": 3,
       "population": {
-        "value": 107808,
-        "period": "202605",
+        "value": 107882,
+        "period": "202606",
         "label": "사천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 30.2,
+        "value": 29.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 30.2,
+          "market_pct": 29.0,
           "market_source": "population",
-          "branch_density_pct": 22.3
+          "branch_density_pct": 21.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1761,19 +1761,19 @@
       "sigungu": "양산시",
       "branch_count": 8,
       "population": {
-        "value": 361433,
-        "period": "202605",
+        "value": 361389,
+        "period": "202606",
         "label": "양산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 65.9,
+        "value": 63.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 65.9,
+          "market_pct": 63.7,
           "market_source": "population",
-          "branch_density_pct": 52.1
+          "branch_density_pct": 50.5
         },
         "weights": {
           "businesses": 0.45,
@@ -1788,19 +1788,19 @@
       "sigungu": "진주시",
       "branch_count": 10,
       "population": {
-        "value": 334984,
-        "period": "202605",
+        "value": 334651,
+        "period": "202606",
         "label": "진주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 64.4,
+        "value": 62.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 64.4,
+          "market_pct": 62.2,
           "market_source": "population",
-          "branch_density_pct": 60.5
+          "branch_density_pct": 59.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1815,19 +1815,19 @@
       "sigungu": "창원시 마산합포구",
       "branch_count": 4,
       "population": {
-        "value": 986759,
-        "period": "202605",
+        "value": 986273,
+        "period": "202606",
         "label": "창원시",
         "unit": "명"
       },
       "location_score": {
-        "value": 92.2,
+        "value": 91.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 92.2,
+          "market_pct": 91.7,
           "market_source": "population",
-          "branch_density_pct": 31.6
+          "branch_density_pct": 30.8
         },
         "weights": {
           "businesses": 0.45,
@@ -1842,19 +1842,19 @@
       "sigungu": "창원시 마산회원구",
       "branch_count": 3,
       "population": {
-        "value": 986759,
-        "period": "202605",
+        "value": 986273,
+        "period": "202606",
         "label": "창원시",
         "unit": "명"
       },
       "location_score": {
-        "value": 92.7,
+        "value": 92.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 92.7,
+          "market_pct": 92.2,
           "market_source": "population",
-          "branch_density_pct": 22.8
+          "branch_density_pct": 22.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1869,19 +1869,19 @@
       "sigungu": "창원시 성산구",
       "branch_count": 15,
       "population": {
-        "value": 986759,
-        "period": "202605",
+        "value": 986273,
+        "period": "202606",
         "label": "창원시",
         "unit": "명"
       },
       "location_score": {
-        "value": 93.2,
+        "value": 92.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 93.2,
+          "market_pct": 92.7,
           "market_source": "population",
-          "branch_density_pct": 73.5
+          "branch_density_pct": 72.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1896,19 +1896,19 @@
       "sigungu": "창원시 의창구",
       "branch_count": 1,
       "population": {
-        "value": 986759,
-        "period": "202605",
+        "value": 986273,
+        "period": "202606",
         "label": "창원시",
         "unit": "명"
       },
       "location_score": {
-        "value": 93.7,
+        "value": 93.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 93.7,
+          "market_pct": 93.3,
           "market_source": "population",
-          "branch_density_pct": 2.8
+          "branch_density_pct": 2.9
         },
         "weights": {
           "businesses": 0.45,
@@ -1923,19 +1923,19 @@
       "sigungu": "창원시 진해구",
       "branch_count": 2,
       "population": {
-        "value": 986759,
-        "period": "202605",
+        "value": 986273,
+        "period": "202606",
         "label": "창원시",
         "unit": "명"
       },
       "location_score": {
-        "value": 94.1,
+        "value": 93.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 94.1,
+          "market_pct": 93.8,
           "market_source": "population",
-          "branch_density_pct": 17.2
+          "branch_density_pct": 16.3
         },
         "weights": {
           "businesses": 0.45,
@@ -1950,19 +1950,19 @@
       "sigungu": "통영시",
       "branch_count": 3,
       "population": {
-        "value": 115818,
-        "period": "202605",
+        "value": 115890,
+        "period": "202606",
         "label": "통영시",
         "unit": "명"
       },
       "location_score": {
-        "value": 31.2,
+        "value": 30.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 31.2,
+          "market_pct": 30.1,
           "market_source": "population",
-          "branch_density_pct": 23.3
+          "branch_density_pct": 22.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1977,19 +1977,19 @@
       "sigungu": "경산시",
       "branch_count": 6,
       "population": {
-        "value": 263639,
-        "period": "202605",
+        "value": 263406,
+        "period": "202606",
         "label": "경산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 57.1,
+        "value": 54.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 57.1,
+          "market_pct": 54.9,
           "market_source": "population",
-          "branch_density_pct": 37.2
+          "branch_density_pct": 36.1
         },
         "weights": {
           "businesses": 0.45,
@@ -2004,19 +2004,19 @@
       "sigungu": "경주시",
       "branch_count": 6,
       "population": {
-        "value": 243141,
-        "period": "202605",
+        "value": 243051,
+        "period": "202606",
         "label": "경주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 48.3,
+        "value": 46.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 48.3,
+          "market_pct": 46.1,
           "market_source": "population",
-          "branch_density_pct": 37.7
+          "branch_density_pct": 36.5
         },
         "weights": {
           "businesses": 0.45,
@@ -2031,19 +2031,19 @@
       "sigungu": "구미시",
       "branch_count": 13,
       "population": {
-        "value": 402867,
-        "period": "202605",
+        "value": 402726,
+        "period": "202606",
         "label": "구미시",
         "unit": "명"
       },
       "location_score": {
-        "value": 71.7,
+        "value": 69.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 71.7,
+          "market_pct": 69.9,
           "market_source": "population",
-          "branch_density_pct": 69.8
+          "branch_density_pct": 68.3
         },
         "weights": {
           "businesses": 0.45,
@@ -2058,19 +2058,19 @@
       "sigungu": "김천시",
       "branch_count": 6,
       "population": {
-        "value": 132840,
-        "period": "202605",
+        "value": 132740,
+        "period": "202606",
         "label": "김천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 36.1,
+        "value": 34.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 36.1,
+          "market_pct": 34.2,
           "market_source": "population",
-          "branch_density_pct": 38.1
+          "branch_density_pct": 37.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2085,19 +2085,19 @@
       "sigungu": "문경시",
       "branch_count": 1,
       "population": {
-        "value": 64792,
-        "period": "202605",
+        "value": 64774,
+        "period": "202606",
         "label": "문경시",
         "unit": "명"
       },
       "location_score": {
-        "value": 11.7,
+        "value": 10.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 11.7,
+          "market_pct": 10.9,
           "market_source": "population",
-          "branch_density_pct": 3.3
+          "branch_density_pct": 3.4
         },
         "weights": {
           "businesses": 0.45,
@@ -2112,19 +2112,19 @@
       "sigungu": "상주시",
       "branch_count": 1,
       "population": {
-        "value": 89382,
-        "period": "202605",
+        "value": 89228,
+        "period": "202606",
         "label": "상주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 20.5,
+        "value": 19.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 20.5,
+          "market_pct": 19.7,
           "market_source": "population",
-          "branch_density_pct": 3.7
+          "branch_density_pct": 3.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2139,19 +2139,19 @@
       "sigungu": "안동시",
       "branch_count": 8,
       "population": {
-        "value": 152246,
-        "period": "202605",
+        "value": 151864,
+        "period": "202606",
         "label": "안동시",
         "unit": "명"
       },
       "location_score": {
-        "value": 37.6,
+        "value": 35.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 37.6,
+          "market_pct": 35.8,
           "market_source": "population",
-          "branch_density_pct": 52.6
+          "branch_density_pct": 51.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2166,19 +2166,19 @@
       "sigungu": "영주시",
       "branch_count": 4,
       "population": {
-        "value": 96511,
-        "period": "202605",
+        "value": 96440,
+        "period": "202606",
         "label": "영주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 22.9,
+        "value": 21.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 22.9,
+          "market_pct": 21.8,
           "market_source": "population",
-          "branch_density_pct": 32.1
+          "branch_density_pct": 31.2
         },
         "weights": {
           "businesses": 0.45,
@@ -2193,19 +2193,19 @@
       "sigungu": "영천시",
       "branch_count": 1,
       "population": {
-        "value": 94331,
-        "period": "202605",
+        "value": 94107,
+        "period": "202606",
         "label": "영천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 21.5,
+        "value": 20.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 21.5,
+          "market_pct": 20.7,
           "market_source": "population",
-          "branch_density_pct": 4.2
+          "branch_density_pct": 4.3
         },
         "weights": {
           "businesses": 0.45,
@@ -2220,19 +2220,19 @@
       "sigungu": "예천군",
       "branch_count": 2,
       "population": {
-        "value": 53467,
-        "period": "202605",
+        "value": 53422,
+        "period": "202606",
         "label": "예천군",
         "unit": "명"
       },
       "location_score": {
-        "value": 8.3,
+        "value": 7.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 8.3,
+          "market_pct": 7.8,
           "market_source": "population",
-          "branch_density_pct": 17.7
+          "branch_density_pct": 16.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2247,19 +2247,19 @@
       "sigungu": "울진군",
       "branch_count": 1,
       "population": {
-        "value": 46096,
-        "period": "202605",
+        "value": 46195,
+        "period": "202606",
         "label": "울진군",
         "unit": "명"
       },
       "location_score": {
-        "value": 4.9,
+        "value": 4.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 4.9,
+          "market_pct": 4.7,
           "market_source": "population",
-          "branch_density_pct": 4.7
+          "branch_density_pct": 4.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2274,19 +2274,19 @@
       "sigungu": "의성군",
       "branch_count": 1,
       "population": {
-        "value": 47893,
-        "period": "202605",
+        "value": 47952,
+        "period": "202606",
         "label": "의성군",
         "unit": "명"
       },
       "location_score": {
-        "value": 6.3,
+        "value": 6.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 6.3,
+          "market_pct": 6.2,
           "market_source": "population",
-          "branch_density_pct": 5.1
+          "branch_density_pct": 5.3
         },
         "weights": {
           "businesses": 0.45,
@@ -2301,19 +2301,19 @@
       "sigungu": "칠곡군",
       "branch_count": 1,
       "population": {
-        "value": 103618,
-        "period": "202605",
+        "value": 103537,
+        "period": "202606",
         "label": "칠곡군",
         "unit": "명"
       },
       "location_score": {
-        "value": 29.3,
+        "value": 28.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 29.3,
+          "market_pct": 28.0,
           "market_source": "population",
-          "branch_density_pct": 5.6
+          "branch_density_pct": 5.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2328,19 +2328,19 @@
       "sigungu": "포항시 남구",
       "branch_count": 6,
       "population": {
-        "value": 254174,
-        "period": "202605",
+        "value": 254413,
+        "period": "202606",
         "label": "남구",
         "unit": "명"
       },
       "location_score": {
-        "value": 50.2,
+        "value": 48.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 50.2,
+          "market_pct": 48.2,
           "market_source": "population",
-          "branch_density_pct": 38.6
+          "branch_density_pct": 37.5
         },
         "weights": {
           "businesses": 0.45,
@@ -2355,154 +2355,19 @@
       "sigungu": "포항시 북구",
       "branch_count": 13,
       "population": {
-        "value": 260994,
-        "period": "202605",
+        "value": 260736,
+        "period": "202606",
         "label": "북구",
         "unit": "명"
       },
       "location_score": {
-        "value": 54.1,
+        "value": 51.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 54.1,
+          "market_pct": 51.8,
           "market_source": "population",
-          "branch_density_pct": 70.2
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "광주 광산구": {
-      "sido": "광주",
-      "sigungu": "광산구",
-      "branch_count": 12,
-      "population": {
-        "value": 384040,
-        "period": "202605",
-        "label": "광산구",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 70.7,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 70.7,
-          "market_source": "population",
-          "branch_density_pct": 65.1
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "광주 남구": {
-      "sido": "광주",
-      "sigungu": "남구",
-      "branch_count": 6,
-      "population": {
-        "value": 254174,
-        "period": "202605",
-        "label": "남구",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 50.7,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 50.7,
-          "market_source": "population",
-          "branch_density_pct": 39.1
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "광주 동구": {
-      "sido": "광주",
-      "sigungu": "동구",
-      "branch_count": 7,
-      "population": {
-        "value": 83432,
-        "period": "202605",
-        "label": "동구",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 16.1,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 16.1,
-          "market_source": "population",
-          "branch_density_pct": 47.4
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "광주 북구": {
-      "sido": "광주",
-      "sigungu": "북구",
-      "branch_count": 11,
-      "population": {
-        "value": 260994,
-        "period": "202605",
-        "label": "북구",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 54.6,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 54.6,
-          "market_source": "population",
-          "branch_density_pct": 63.7
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "광주 서구": {
-      "sido": "광주",
-      "sigungu": "서구",
-      "branch_count": 9,
-      "population": {
-        "value": 101320,
-        "period": "202605",
-        "label": "서구",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 26.3,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 26.3,
-          "market_source": "population",
-          "branch_density_pct": 55.3
+          "branch_density_pct": 68.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2517,19 +2382,19 @@
       "sigungu": "남구",
       "branch_count": 3,
       "population": {
-        "value": 254174,
-        "period": "202605",
+        "value": 254413,
+        "period": "202606",
         "label": "남구",
         "unit": "명"
       },
       "location_score": {
-        "value": 51.2,
+        "value": 48.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 51.2,
+          "market_pct": 48.7,
           "market_source": "population",
-          "branch_density_pct": 23.7
+          "branch_density_pct": 23.1
         },
         "weights": {
           "businesses": 0.45,
@@ -2544,19 +2409,19 @@
       "sigungu": "달서구",
       "branch_count": 21,
       "population": {
-        "value": 514075,
-        "period": "202605",
+        "value": 513399,
+        "period": "202606",
         "label": "달서구",
         "unit": "명"
       },
       "location_score": {
-        "value": 79.5,
+        "value": 78.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 79.5,
+          "market_pct": 78.2,
           "market_source": "population",
-          "branch_density_pct": 80.9
+          "branch_density_pct": 80.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2571,19 +2436,19 @@
       "sigungu": "달성군",
       "branch_count": 5,
       "population": {
-        "value": 252210,
-        "period": "202605",
+        "value": 252000,
+        "period": "202606",
         "label": "달성군",
         "unit": "명"
       },
       "location_score": {
-        "value": 49.3,
+        "value": 47.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 49.3,
+          "market_pct": 47.2,
           "market_source": "population",
-          "branch_density_pct": 34.4
+          "branch_density_pct": 32.7
         },
         "weights": {
           "businesses": 0.45,
@@ -2598,19 +2463,19 @@
       "sigungu": "동구",
       "branch_count": 11,
       "population": {
-        "value": 83432,
-        "period": "202605",
+        "value": 83354,
+        "period": "202606",
         "label": "동구",
         "unit": "명"
       },
       "location_score": {
-        "value": 16.6,
+        "value": 15.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 16.6,
+          "market_pct": 15.5,
           "market_source": "population",
-          "branch_density_pct": 64.2
+          "branch_density_pct": 61.5
         },
         "weights": {
           "businesses": 0.45,
@@ -2625,19 +2490,19 @@
       "sigungu": "북구",
       "branch_count": 12,
       "population": {
-        "value": 260994,
-        "period": "202605",
+        "value": 260736,
+        "period": "202606",
         "label": "북구",
         "unit": "명"
       },
       "location_score": {
-        "value": 55.1,
+        "value": 52.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 55.1,
+          "market_pct": 52.3,
           "market_source": "population",
-          "branch_density_pct": 65.6
+          "branch_density_pct": 64.4
         },
         "weights": {
           "businesses": 0.45,
@@ -2652,19 +2517,19 @@
       "sigungu": "서구",
       "branch_count": 3,
       "population": {
-        "value": 101320,
-        "period": "202605",
+        "value": 101216,
+        "period": "202606",
         "label": "서구",
         "unit": "명"
       },
       "location_score": {
-        "value": 26.8,
+        "value": 25.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 26.8,
+          "market_pct": 25.4,
           "market_source": "population",
-          "branch_density_pct": 24.2
+          "branch_density_pct": 23.6
         },
         "weights": {
           "businesses": 0.45,
@@ -2679,19 +2544,19 @@
       "sigungu": "수성구",
       "branch_count": 18,
       "population": {
-        "value": 408527,
-        "period": "202605",
+        "value": 408147,
+        "period": "202606",
         "label": "수성구",
         "unit": "명"
       },
       "location_score": {
-        "value": 72.2,
+        "value": 70.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 72.2,
+          "market_pct": 70.5,
           "market_source": "population",
-          "branch_density_pct": 78.1
+          "branch_density_pct": 78.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2704,21 +2569,21 @@
     "대구 중구": {
       "sido": "대구",
       "sigungu": "중구",
-      "branch_count": 12,
+      "branch_count": 11,
       "population": {
-        "value": 117765,
-        "period": "202605",
+        "value": 117558,
+        "period": "202606",
         "label": "중구",
         "unit": "명"
       },
       "location_score": {
-        "value": 32.2,
+        "value": 30.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 32.2,
+          "market_pct": 30.6,
           "market_source": "population",
-          "branch_density_pct": 66.0
+          "branch_density_pct": 62.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2733,19 +2598,19 @@
       "sigungu": "대덕구",
       "branch_count": 9,
       "population": {
-        "value": 164379,
-        "period": "202605",
+        "value": 164047,
+        "period": "202606",
         "label": "대덕구",
         "unit": "명"
       },
       "location_score": {
-        "value": 39.0,
+        "value": 36.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 39.0,
+          "market_pct": 36.3,
           "market_source": "population",
-          "branch_density_pct": 55.8
+          "branch_density_pct": 53.4
         },
         "weights": {
           "businesses": 0.45,
@@ -2760,19 +2625,19 @@
       "sigungu": "동구",
       "branch_count": 12,
       "population": {
-        "value": 83432,
-        "period": "202605",
+        "value": 83354,
+        "period": "202606",
         "label": "동구",
         "unit": "명"
       },
       "location_score": {
-        "value": 17.1,
+        "value": 16.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 17.1,
+          "market_pct": 16.1,
           "market_source": "population",
-          "branch_density_pct": 66.5
+          "branch_density_pct": 64.9
         },
         "weights": {
           "businesses": 0.45,
@@ -2787,19 +2652,19 @@
       "sigungu": "서구",
       "branch_count": 31,
       "population": {
-        "value": 101320,
-        "period": "202605",
+        "value": 101216,
+        "period": "202606",
         "label": "서구",
         "unit": "명"
       },
       "location_score": {
-        "value": 27.3,
+        "value": 25.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 27.3,
+          "market_pct": 25.9,
           "market_source": "population",
-          "branch_density_pct": 92.6
+          "branch_density_pct": 91.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2814,19 +2679,19 @@
       "sigungu": "유성구",
       "branch_count": 27,
       "population": {
-        "value": 371147,
-        "period": "202605",
+        "value": 371104,
+        "period": "202606",
         "label": "유성구",
         "unit": "명"
       },
       "location_score": {
-        "value": 68.3,
+        "value": 66.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 68.3,
+          "market_pct": 66.3,
           "market_source": "population",
-          "branch_density_pct": 89.8
+          "branch_density_pct": 89.4
         },
         "weights": {
           "businesses": 0.45,
@@ -2841,19 +2706,19 @@
       "sigungu": "중구",
       "branch_count": 9,
       "population": {
-        "value": 117765,
-        "period": "202605",
+        "value": 117558,
+        "period": "202606",
         "label": "중구",
         "unit": "명"
       },
       "location_score": {
-        "value": 32.7,
+        "value": 31.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 32.7,
+          "market_pct": 31.1,
           "market_source": "population",
-          "branch_density_pct": 56.3
+          "branch_density_pct": 53.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2866,21 +2731,21 @@
     "부산 강서구": {
       "sido": "부산",
       "sigungu": "강서구",
-      "branch_count": 10,
+      "branch_count": 9,
       "population": {
-        "value": 548622,
-        "period": "202605",
+        "value": 548515,
+        "period": "202606",
         "label": "강서구",
         "unit": "명"
       },
       "location_score": {
-        "value": 81.5,
+        "value": 80.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 81.5,
+          "market_pct": 80.3,
           "market_source": "population",
-          "branch_density_pct": 60.9
+          "branch_density_pct": 54.3
         },
         "weights": {
           "businesses": 0.45,
@@ -2895,19 +2760,19 @@
       "sigungu": "금정구",
       "branch_count": 5,
       "population": {
-        "value": 205968,
-        "period": "202605",
+        "value": 205672,
+        "period": "202606",
         "label": "금정구",
         "unit": "명"
       },
       "location_score": {
-        "value": 44.9,
+        "value": 42.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 44.9,
+          "market_pct": 42.5,
           "market_source": "population",
-          "branch_density_pct": 34.9
+          "branch_density_pct": 33.2
         },
         "weights": {
           "businesses": 0.45,
@@ -2922,19 +2787,19 @@
       "sigungu": "기장군",
       "branch_count": 6,
       "population": {
-        "value": 175273,
-        "period": "202605",
+        "value": 175262,
+        "period": "202606",
         "label": "기장군",
         "unit": "명"
       },
       "location_score": {
-        "value": 41.0,
+        "value": 38.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 41.0,
+          "market_pct": 38.9,
           "market_source": "population",
-          "branch_density_pct": 39.5
+          "branch_density_pct": 38.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2949,19 +2814,19 @@
       "sigungu": "남구",
       "branch_count": 9,
       "population": {
-        "value": 254174,
-        "period": "202605",
+        "value": 254413,
+        "period": "202606",
         "label": "남구",
         "unit": "명"
       },
       "location_score": {
-        "value": 51.7,
+        "value": 49.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 51.7,
+          "market_pct": 49.2,
           "market_source": "population",
-          "branch_density_pct": 56.7
+          "branch_density_pct": 54.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2976,19 +2841,19 @@
       "sigungu": "동구",
       "branch_count": 8,
       "population": {
-        "value": 83432,
-        "period": "202605",
+        "value": 83354,
+        "period": "202606",
         "label": "동구",
         "unit": "명"
       },
       "location_score": {
-        "value": 17.6,
+        "value": 16.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 17.6,
+          "market_pct": 16.6,
           "market_source": "population",
-          "branch_density_pct": 53.0
+          "branch_density_pct": 51.4
         },
         "weights": {
           "businesses": 0.45,
@@ -3003,19 +2868,19 @@
       "sigungu": "동래구",
       "branch_count": 11,
       "population": {
-        "value": 271437,
-        "period": "202605",
+        "value": 271097,
+        "period": "202606",
         "label": "동래구",
         "unit": "명"
       },
       "location_score": {
-        "value": 58.0,
+        "value": 56.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 58.0,
+          "market_pct": 56.0,
           "market_source": "population",
-          "branch_density_pct": 64.7
+          "branch_density_pct": 62.5
         },
         "weights": {
           "businesses": 0.45,
@@ -3028,21 +2893,21 @@
     "부산 부산진구": {
       "sido": "부산",
       "sigungu": "부산진구",
-      "branch_count": 22,
+      "branch_count": 21,
       "population": {
-        "value": 365104,
-        "period": "202605",
+        "value": 364912,
+        "period": "202606",
         "label": "부산진구",
         "unit": "명"
       },
       "location_score": {
-        "value": 67.3,
+        "value": 65.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 67.3,
+          "market_pct": 65.3,
           "market_source": "population",
-          "branch_density_pct": 81.4
+          "branch_density_pct": 81.2
         },
         "weights": {
           "businesses": 0.45,
@@ -3057,19 +2922,19 @@
       "sigungu": "북구",
       "branch_count": 9,
       "population": {
-        "value": 260994,
-        "period": "202605",
+        "value": 260736,
+        "period": "202606",
         "label": "북구",
         "unit": "명"
       },
       "location_score": {
-        "value": 55.6,
+        "value": 52.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 55.6,
+          "market_pct": 52.8,
           "market_source": "population",
-          "branch_density_pct": 57.2
+          "branch_density_pct": 55.3
         },
         "weights": {
           "businesses": 0.45,
@@ -3082,21 +2947,21 @@
     "부산 사상구": {
       "sido": "부산",
       "sigungu": "사상구",
-      "branch_count": 8,
+      "branch_count": 7,
       "population": {
-        "value": 192718,
-        "period": "202605",
+        "value": 192475,
+        "period": "202606",
         "label": "사상구",
         "unit": "명"
       },
       "location_score": {
-        "value": 42.4,
+        "value": 40.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 42.4,
+          "market_pct": 40.4,
           "market_source": "population",
-          "branch_density_pct": 53.5
+          "branch_density_pct": 46.2
         },
         "weights": {
           "businesses": 0.45,
@@ -3111,19 +2976,19 @@
       "sigungu": "사하구",
       "branch_count": 10,
       "population": {
-        "value": 282633,
-        "period": "202605",
+        "value": 282159,
+        "period": "202606",
         "label": "사하구",
         "unit": "명"
       },
       "location_score": {
-        "value": 60.5,
+        "value": 58.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 60.5,
+          "market_pct": 58.0,
           "market_source": "population",
-          "branch_density_pct": 61.4
+          "branch_density_pct": 59.6
         },
         "weights": {
           "businesses": 0.45,
@@ -3138,19 +3003,19 @@
       "sigungu": "서구",
       "branch_count": 3,
       "population": {
-        "value": 101320,
-        "period": "202605",
+        "value": 101216,
+        "period": "202606",
         "label": "서구",
         "unit": "명"
       },
       "location_score": {
-        "value": 27.8,
+        "value": 26.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 27.8,
+          "market_pct": 26.4,
           "market_source": "population",
-          "branch_density_pct": 24.7
+          "branch_density_pct": 24.0
         },
         "weights": {
           "businesses": 0.45,
@@ -3165,19 +3030,19 @@
       "sigungu": "수영구",
       "branch_count": 7,
       "population": {
-        "value": 168513,
-        "period": "202605",
+        "value": 168440,
+        "period": "202606",
         "label": "수영구",
         "unit": "명"
       },
       "location_score": {
-        "value": 39.5,
+        "value": 37.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 39.5,
+          "market_pct": 37.3,
           "market_source": "population",
-          "branch_density_pct": 47.9
+          "branch_density_pct": 46.6
         },
         "weights": {
           "businesses": 0.45,
@@ -3190,21 +3055,21 @@
     "부산 연제구": {
       "sido": "부산",
       "sigungu": "연제구",
-      "branch_count": 12,
+      "branch_count": 11,
       "population": {
-        "value": 211509,
-        "period": "202605",
+        "value": 211464,
+        "period": "202606",
         "label": "연제구",
         "unit": "명"
       },
       "location_score": {
-        "value": 45.9,
+        "value": 43.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 45.9,
+          "market_pct": 43.5,
           "market_source": "population",
-          "branch_density_pct": 67.0
+          "branch_density_pct": 63.0
         },
         "weights": {
           "businesses": 0.45,
@@ -3219,19 +3084,19 @@
       "sigungu": "영도구",
       "branch_count": 3,
       "population": {
-        "value": 100748,
-        "period": "202605",
+        "value": 100570,
+        "period": "202606",
         "label": "영도구",
         "unit": "명"
       },
       "location_score": {
-        "value": 25.4,
+        "value": 23.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 25.4,
+          "market_pct": 23.8,
           "market_source": "population",
-          "branch_density_pct": 25.1
+          "branch_density_pct": 24.5
         },
         "weights": {
           "businesses": 0.45,
@@ -3246,19 +3111,19 @@
       "sigungu": "중구",
       "branch_count": 12,
       "population": {
-        "value": 117765,
-        "period": "202605",
+        "value": 117558,
+        "period": "202606",
         "label": "중구",
         "unit": "명"
       },
       "location_score": {
-        "value": 33.2,
+        "value": 31.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 33.2,
+          "market_pct": 31.6,
           "market_source": "population",
-          "branch_density_pct": 67.4
+          "branch_density_pct": 65.4
         },
         "weights": {
           "businesses": 0.45,
@@ -3271,21 +3136,21 @@
     "부산 해운대구": {
       "sido": "부산",
       "sigungu": "해운대구",
-      "branch_count": 22,
+      "branch_count": 21,
       "population": {
-        "value": 370920,
-        "period": "202605",
+        "value": 370739,
+        "period": "202606",
         "label": "해운대구",
         "unit": "명"
       },
       "location_score": {
-        "value": 67.8,
+        "value": 65.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 67.8,
+          "market_pct": 65.8,
           "market_source": "population",
-          "branch_density_pct": 81.9
+          "branch_density_pct": 81.7
         },
         "weights": {
           "businesses": 0.45,
@@ -3298,19 +3163,19 @@
     "서울 강남구": {
       "sido": "서울",
       "sigungu": "강남구",
-      "branch_count": 165,
+      "branch_count": 163,
       "population": {
-        "value": 552962,
-        "period": "202605",
+        "value": 552830,
+        "period": "202606",
         "label": "강남구",
         "unit": "명"
       },
       "location_score": {
-        "value": 82.4,
+        "value": 81.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 82.4,
+          "market_pct": 81.3,
           "market_source": "population",
           "branch_density_pct": 100.0
         },
@@ -3327,19 +3192,19 @@
       "sigungu": "강동구",
       "branch_count": 36,
       "population": {
-        "value": 499058,
-        "period": "202605",
+        "value": 499011,
+        "period": "202606",
         "label": "강동구",
         "unit": "명"
       },
       "location_score": {
-        "value": 79.0,
+        "value": 77.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 79.0,
+          "market_pct": 77.7,
           "market_source": "population",
-          "branch_density_pct": 95.8
+          "branch_density_pct": 95.2
         },
         "weights": {
           "businesses": 0.45,
@@ -3354,19 +3219,19 @@
       "sigungu": "강북구",
       "branch_count": 13,
       "population": {
-        "value": 278294,
-        "period": "202605",
+        "value": 278041,
+        "period": "202606",
         "label": "강북구",
         "unit": "명"
       },
       "location_score": {
-        "value": 60.0,
+        "value": 57.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 60.0,
+          "market_pct": 57.5,
           "market_source": "population",
-          "branch_density_pct": 70.7
+          "branch_density_pct": 69.2
         },
         "weights": {
           "businesses": 0.45,
@@ -3379,21 +3244,21 @@
     "서울 강서구": {
       "sido": "서울",
       "sigungu": "강서구",
-      "branch_count": 40,
+      "branch_count": 38,
       "population": {
-        "value": 548622,
-        "period": "202605",
+        "value": 548515,
+        "period": "202606",
         "label": "강서구",
         "unit": "명"
       },
       "location_score": {
-        "value": 82.0,
+        "value": 80.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 82.0,
+          "market_pct": 80.8,
           "market_source": "population",
-          "branch_density_pct": 96.3
+          "branch_density_pct": 96.2
         },
         "weights": {
           "businesses": 0.45,
@@ -3406,21 +3271,21 @@
     "서울 관악구": {
       "sido": "서울",
       "sigungu": "관악구",
-      "branch_count": 24,
+      "branch_count": 23,
       "population": {
-        "value": 478154,
-        "period": "202605",
+        "value": 477797,
+        "period": "202606",
         "label": "관악구",
         "unit": "명"
       },
       "location_score": {
-        "value": 76.1,
+        "value": 74.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 76.1,
+          "market_pct": 74.6,
           "market_source": "population",
-          "branch_density_pct": 84.7
+          "branch_density_pct": 83.2
         },
         "weights": {
           "businesses": 0.45,
@@ -3433,21 +3298,21 @@
     "서울 광진구": {
       "sido": "서울",
       "sigungu": "광진구",
-      "branch_count": 32,
+      "branch_count": 31,
       "population": {
-        "value": 331136,
-        "period": "202605",
+        "value": 330905,
+        "period": "202606",
         "label": "광진구",
         "unit": "명"
       },
       "location_score": {
-        "value": 63.9,
+        "value": 61.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 63.9,
+          "market_pct": 61.7,
           "market_source": "population",
-          "branch_density_pct": 93.0
+          "branch_density_pct": 92.3
         },
         "weights": {
           "businesses": 0.45,
@@ -3460,21 +3325,21 @@
     "서울 구로구": {
       "sido": "서울",
       "sigungu": "구로구",
-      "branch_count": 32,
+      "branch_count": 31,
       "population": {
-        "value": 382652,
-        "period": "202605",
+        "value": 382633,
+        "period": "202606",
         "label": "구로구",
         "unit": "명"
       },
       "location_score": {
-        "value": 70.2,
+        "value": 68.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 70.2,
+          "market_pct": 68.4,
           "market_source": "population",
-          "branch_density_pct": 93.5
+          "branch_density_pct": 92.8
         },
         "weights": {
           "businesses": 0.45,
@@ -3489,17 +3354,17 @@
       "sigungu": "금천구",
       "branch_count": 24,
       "population": {
-        "value": 222655,
-        "period": "202605",
+        "value": 222503,
+        "period": "202606",
         "label": "금천구",
         "unit": "명"
       },
       "location_score": {
-        "value": 46.8,
+        "value": 44.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 46.8,
+          "market_pct": 44.6,
           "market_source": "population",
           "branch_density_pct": 85.1
         },
@@ -3516,19 +3381,19 @@
       "sigungu": "노원구",
       "branch_count": 35,
       "population": {
-        "value": 481589,
-        "period": "202605",
+        "value": 481053,
+        "period": "202606",
         "label": "노원구",
         "unit": "명"
       },
       "location_score": {
-        "value": 77.1,
+        "value": 75.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 77.1,
+          "market_pct": 75.6,
           "market_source": "population",
-          "branch_density_pct": 95.3
+          "branch_density_pct": 94.7
         },
         "weights": {
           "businesses": 0.45,
@@ -3543,19 +3408,19 @@
       "sigungu": "도봉구",
       "branch_count": 15,
       "population": {
-        "value": 298571,
-        "period": "202605",
+        "value": 298225,
+        "period": "202606",
         "label": "도봉구",
         "unit": "명"
       },
       "location_score": {
-        "value": 62.0,
+        "value": 59.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 62.0,
+          "market_pct": 59.6,
           "market_source": "population",
-          "branch_density_pct": 74.0
+          "branch_density_pct": 72.6
         },
         "weights": {
           "businesses": 0.45,
@@ -3570,19 +3435,19 @@
       "sigungu": "동대문구",
       "branch_count": 27,
       "population": {
-        "value": 352299,
-        "period": "202605",
+        "value": 352848,
+        "period": "202606",
         "label": "동대문구",
         "unit": "명"
       },
       "location_score": {
-        "value": 64.9,
+        "value": 62.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 64.9,
+          "market_pct": 62.7,
           "market_source": "population",
-          "branch_density_pct": 90.2
+          "branch_density_pct": 89.9
         },
         "weights": {
           "businesses": 0.45,
@@ -3597,19 +3462,19 @@
       "sigungu": "동작구",
       "branch_count": 26,
       "population": {
-        "value": 372327,
-        "period": "202605",
+        "value": 371999,
+        "period": "202606",
         "label": "동작구",
         "unit": "명"
       },
       "location_score": {
-        "value": 69.3,
+        "value": 67.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 69.3,
+          "market_pct": 67.4,
           "market_source": "population",
-          "branch_density_pct": 88.4
+          "branch_density_pct": 87.5
         },
         "weights": {
           "businesses": 0.45,
@@ -3624,19 +3489,19 @@
       "sigungu": "마포구",
       "branch_count": 42,
       "population": {
-        "value": 356856,
-        "period": "202605",
+        "value": 356487,
+        "period": "202606",
         "label": "마포구",
         "unit": "명"
       },
       "location_score": {
-        "value": 65.4,
+        "value": 63.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 65.4,
+          "market_pct": 63.2,
           "market_source": "population",
-          "branch_density_pct": 96.7
+          "branch_density_pct": 96.6
         },
         "weights": {
           "businesses": 0.45,
@@ -3649,21 +3514,21 @@
     "서울 서대문구": {
       "sido": "서울",
       "sigungu": "서대문구",
-      "branch_count": 28,
+      "branch_count": 27,
       "population": {
-        "value": 300236,
-        "period": "202605",
+        "value": 299810,
+        "period": "202606",
         "label": "서대문구",
         "unit": "명"
       },
       "location_score": {
-        "value": 62.4,
+        "value": 60.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 62.4,
+          "market_pct": 60.1,
           "market_source": "population",
-          "branch_density_pct": 91.2
+          "branch_density_pct": 90.4
         },
         "weights": {
           "businesses": 0.45,
@@ -3676,19 +3541,19 @@
     "서울 서초구": {
       "sido": "서울",
       "sigungu": "서초구",
-      "branch_count": 101,
+      "branch_count": 100,
       "population": {
-        "value": 414486,
-        "period": "202605",
+        "value": 414383,
+        "period": "202606",
         "label": "서초구",
         "unit": "명"
       },
       "location_score": {
-        "value": 73.2,
+        "value": 71.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 73.2,
+          "market_pct": 71.5,
           "market_source": "population",
           "branch_density_pct": 99.5
         },
@@ -3703,21 +3568,21 @@
     "서울 성동구": {
       "sido": "서울",
       "sigungu": "성동구",
-      "branch_count": 28,
+      "branch_count": 27,
       "population": {
-        "value": 274694,
-        "period": "202605",
+        "value": 274517,
+        "period": "202606",
         "label": "성동구",
         "unit": "명"
       },
       "location_score": {
-        "value": 59.0,
+        "value": 56.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 59.0,
+          "market_pct": 56.5,
           "market_source": "population",
-          "branch_density_pct": 91.6
+          "branch_density_pct": 90.9
         },
         "weights": {
           "businesses": 0.45,
@@ -3732,19 +3597,19 @@
       "sigungu": "성북구",
       "branch_count": 29,
       "population": {
-        "value": 422190,
-        "period": "202605",
+        "value": 421762,
+        "period": "202606",
         "label": "성북구",
         "unit": "명"
       },
       "location_score": {
-        "value": 74.6,
+        "value": 73.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 74.6,
+          "market_pct": 73.1,
           "market_source": "population",
-          "branch_density_pct": 92.1
+          "branch_density_pct": 91.3
         },
         "weights": {
           "businesses": 0.45,
@@ -3757,19 +3622,19 @@
     "서울 송파구": {
       "sido": "서울",
       "sigungu": "송파구",
-      "branch_count": 72,
+      "branch_count": 71,
       "population": {
-        "value": 650505,
-        "period": "202605",
+        "value": 650258,
+        "period": "202606",
         "label": "송파구",
         "unit": "명"
       },
       "location_score": {
-        "value": 86.3,
+        "value": 85.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 86.3,
+          "market_pct": 85.5,
           "market_source": "population",
           "branch_density_pct": 98.6
         },
@@ -3786,19 +3651,19 @@
       "sigungu": "양천구",
       "branch_count": 33,
       "population": {
-        "value": 422070,
-        "period": "202605",
+        "value": 421247,
+        "period": "202606",
         "label": "양천구",
         "unit": "명"
       },
       "location_score": {
-        "value": 74.1,
+        "value": 72.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 74.1,
+          "market_pct": 72.5,
           "market_source": "population",
-          "branch_density_pct": 94.0
+          "branch_density_pct": 93.3
         },
         "weights": {
           "businesses": 0.45,
@@ -3813,19 +3678,19 @@
       "sigungu": "영등포구",
       "branch_count": 61,
       "population": {
-        "value": 371772,
-        "period": "202605",
+        "value": 371867,
+        "period": "202606",
         "label": "영등포구",
         "unit": "명"
       },
       "location_score": {
-        "value": 68.8,
+        "value": 66.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 68.8,
+          "market_pct": 66.8,
           "market_source": "population",
-          "branch_density_pct": 97.7
+          "branch_density_pct": 98.1
         },
         "weights": {
           "businesses": 0.45,
@@ -3840,19 +3705,19 @@
       "sigungu": "용산구",
       "branch_count": 33,
       "population": {
-        "value": 199810,
-        "period": "202605",
+        "value": 199648,
+        "period": "202606",
         "label": "용산구",
         "unit": "명"
       },
       "location_score": {
-        "value": 43.4,
+        "value": 41.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 43.4,
+          "market_pct": 41.5,
           "market_source": "population",
-          "branch_density_pct": 94.4
+          "branch_density_pct": 93.8
         },
         "weights": {
           "businesses": 0.45,
@@ -3867,19 +3732,19 @@
       "sigungu": "은평구",
       "branch_count": 26,
       "population": {
-        "value": 453398,
-        "period": "202605",
+        "value": 453212,
+        "period": "202606",
         "label": "은평구",
         "unit": "명"
       },
       "location_score": {
-        "value": 75.1,
+        "value": 73.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 75.1,
+          "market_pct": 73.6,
           "market_source": "population",
-          "branch_density_pct": 88.8
+          "branch_density_pct": 88.0
         },
         "weights": {
           "businesses": 0.45,
@@ -3894,19 +3759,19 @@
       "sigungu": "종로구",
       "branch_count": 55,
       "population": {
-        "value": 136518,
-        "period": "202605",
+        "value": 136318,
+        "period": "202606",
         "label": "종로구",
         "unit": "명"
       },
       "location_score": {
-        "value": 36.6,
+        "value": 34.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 36.6,
+          "market_pct": 34.7,
           "market_source": "population",
-          "branch_density_pct": 97.2
+          "branch_density_pct": 97.1
         },
         "weights": {
           "businesses": 0.45,
@@ -3921,19 +3786,19 @@
       "sigungu": "중구",
       "branch_count": 86,
       "population": {
-        "value": 117765,
-        "period": "202605",
+        "value": 117558,
+        "period": "202606",
         "label": "중구",
         "unit": "명"
       },
       "location_score": {
-        "value": 33.7,
+        "value": 32.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 33.7,
+          "market_pct": 32.1,
           "market_source": "population",
-          "branch_density_pct": 99.1
+          "branch_density_pct": 99.0
         },
         "weights": {
           "businesses": 0.45,
@@ -3948,19 +3813,19 @@
       "sigungu": "중랑구",
       "branch_count": 17,
       "population": {
-        "value": 376463,
-        "period": "202605",
+        "value": 376386,
+        "period": "202606",
         "label": "중랑구",
         "unit": "명"
       },
       "location_score": {
-        "value": 69.8,
+        "value": 67.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 69.8,
+          "market_pct": 67.9,
           "market_source": "population",
-          "branch_density_pct": 75.3
+          "branch_density_pct": 77.4
         },
         "weights": {
           "businesses": 0.45,
@@ -3975,13 +3840,13 @@
       "sigungu": "나성동",
       "branch_count": 3,
       "location_score": {
-        "value": 25.6,
+        "value": 25.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 25.6
+          "branch_density_pct": 25.0
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -3994,13 +3859,13 @@
       "sigungu": "도담동",
       "branch_count": 1,
       "location_score": {
-        "value": 6.0,
+        "value": 6.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 6.0
+          "branch_density_pct": 6.2
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4013,13 +3878,13 @@
       "sigungu": "반곡동",
       "branch_count": 2,
       "location_score": {
-        "value": 18.1,
+        "value": 17.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 18.1
+          "branch_density_pct": 17.3
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4030,6 +3895,82 @@
     "세종 보람동": {
       "sido": "세종",
       "sigungu": "보람동",
+      "branch_count": 3,
+      "location_score": {
+        "value": 25.5,
+        "components": {
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
+          "branch_density_pct": 25.5
+        },
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
+      }
+    },
+    "세종 새롬동": {
+      "sido": "세종",
+      "sigungu": "새롬동",
+      "branch_count": 1,
+      "location_score": {
+        "value": 6.7,
+        "components": {
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
+          "branch_density_pct": 6.7
+        },
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
+      }
+    },
+    "세종 소담동": {
+      "sido": "세종",
+      "sigungu": "소담동",
+      "branch_count": 1,
+      "location_score": {
+        "value": 7.2,
+        "components": {
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
+          "branch_density_pct": 7.2
+        },
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
+      }
+    },
+    "세종 아름동": {
+      "sido": "세종",
+      "sigungu": "아름동",
+      "branch_count": 1,
+      "location_score": {
+        "value": 7.7,
+        "components": {
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
+          "branch_density_pct": 7.7
+        },
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
+      }
+    },
+    "세종 어진동": {
+      "sido": "세종",
+      "sigungu": "어진동",
       "branch_count": 3,
       "location_score": {
         "value": 26.0,
@@ -4046,94 +3987,18 @@
         "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
-    "세종 새롬동": {
-      "sido": "세종",
-      "sigungu": "새롬동",
-      "branch_count": 1,
-      "location_score": {
-        "value": 6.5,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": null,
-          "market_source": null,
-          "branch_density_pct": 6.5
-        },
-        "weights": {
-          "branch_density_fallback": 1.0
-        },
-        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
-      }
-    },
-    "세종 소담동": {
-      "sido": "세종",
-      "sigungu": "소담동",
-      "branch_count": 1,
-      "location_score": {
-        "value": 7.0,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": null,
-          "market_source": null,
-          "branch_density_pct": 7.0
-        },
-        "weights": {
-          "branch_density_fallback": 1.0
-        },
-        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
-      }
-    },
-    "세종 아름동": {
-      "sido": "세종",
-      "sigungu": "아름동",
-      "branch_count": 1,
-      "location_score": {
-        "value": 7.4,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": null,
-          "market_source": null,
-          "branch_density_pct": 7.4
-        },
-        "weights": {
-          "branch_density_fallback": 1.0
-        },
-        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
-      }
-    },
-    "세종 어진동": {
-      "sido": "세종",
-      "sigungu": "어진동",
-      "branch_count": 3,
-      "location_score": {
-        "value": 26.5,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": null,
-          "market_source": null,
-          "branch_density_pct": 26.5
-        },
-        "weights": {
-          "branch_density_fallback": 1.0
-        },
-        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
-      }
-    },
     "세종 조치원읍": {
       "sido": "세종",
       "sigungu": "조치원읍",
       "branch_count": 3,
       "location_score": {
-        "value": 27.0,
+        "value": 26.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 27.0
+          "branch_density_pct": 26.4
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4146,13 +4011,13 @@
       "sigungu": "집현동",
       "branch_count": 1,
       "location_score": {
-        "value": 7.9,
+        "value": 8.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 7.9
+          "branch_density_pct": 8.2
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4163,21 +4028,21 @@
     "울산 남구": {
       "sido": "울산",
       "sigungu": "남구",
-      "branch_count": 17,
+      "branch_count": 16,
       "population": {
-        "value": 254174,
-        "period": "202605",
+        "value": 254413,
+        "period": "202606",
         "label": "남구",
         "unit": "명"
       },
       "location_score": {
-        "value": 52.2,
+        "value": 49.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 52.2,
+          "market_pct": 49.7,
           "market_source": "population",
-          "branch_density_pct": 75.8
+          "branch_density_pct": 74.0
         },
         "weights": {
           "businesses": 0.45,
@@ -4192,19 +4057,19 @@
       "sigungu": "동구",
       "branch_count": 6,
       "population": {
-        "value": 83432,
-        "period": "202605",
+        "value": 83354,
+        "period": "202606",
         "label": "동구",
         "unit": "명"
       },
       "location_score": {
-        "value": 18.0,
+        "value": 17.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 18.0,
+          "market_pct": 17.1,
           "market_source": "population",
-          "branch_density_pct": 40.0
+          "branch_density_pct": 38.5
         },
         "weights": {
           "businesses": 0.45,
@@ -4219,19 +4084,19 @@
       "sigungu": "북구",
       "branch_count": 6,
       "population": {
-        "value": 260994,
-        "period": "202605",
+        "value": 260736,
+        "period": "202606",
         "label": "북구",
         "unit": "명"
       },
       "location_score": {
-        "value": 56.1,
+        "value": 53.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 56.1,
+          "market_pct": 53.4,
           "market_source": "population",
-          "branch_density_pct": 40.5
+          "branch_density_pct": 38.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4246,19 +4111,19 @@
       "sigungu": "울주군",
       "branch_count": 6,
       "population": {
-        "value": 218259,
-        "period": "202605",
+        "value": 218285,
+        "period": "202606",
         "label": "울주군",
         "unit": "명"
       },
       "location_score": {
-        "value": 46.3,
+        "value": 44.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 46.3,
+          "market_pct": 44.0,
           "market_source": "population",
-          "branch_density_pct": 40.9
+          "branch_density_pct": 39.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4271,21 +4136,21 @@
     "울산 중구": {
       "sido": "울산",
       "sigungu": "중구",
-      "branch_count": 7,
+      "branch_count": 6,
       "population": {
-        "value": 117765,
-        "period": "202605",
+        "value": 117558,
+        "period": "202606",
         "label": "중구",
         "unit": "명"
       },
       "location_score": {
-        "value": 34.1,
+        "value": 32.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 34.1,
+          "market_pct": 32.6,
           "market_source": "population",
-          "branch_density_pct": 48.4
+          "branch_density_pct": 39.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4300,19 +4165,19 @@
       "sigungu": "강화군",
       "branch_count": 3,
       "population": {
-        "value": 69689,
-        "period": "202605",
+        "value": 69681,
+        "period": "202606",
         "label": "강화군",
         "unit": "명"
       },
       "location_score": {
-        "value": 12.7,
+        "value": 11.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 12.7,
+          "market_pct": 11.9,
           "market_source": "population",
-          "branch_density_pct": 27.4
+          "branch_density_pct": 26.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4322,24 +4187,43 @@
         "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
+    "인천 검단구": {
+      "sido": "인천",
+      "sigungu": "검단구",
+      "branch_count": 9,
+      "location_score": {
+        "value": 55.8,
+        "components": {
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
+          "branch_density_pct": 55.8
+        },
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
+      }
+    },
     "인천 계양구": {
       "sido": "인천",
       "sigungu": "계양구",
       "branch_count": 9,
       "population": {
-        "value": 276563,
-        "period": "202605",
+        "value": 276309,
+        "period": "202606",
         "label": "계양구",
         "unit": "명"
       },
       "location_score": {
-        "value": 59.5,
+        "value": 57.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 59.5,
+          "market_pct": 57.0,
           "market_source": "population",
-          "branch_density_pct": 57.7
+          "branch_density_pct": 56.2
         },
         "weights": {
           "businesses": 0.45,
@@ -4354,46 +4238,19 @@
       "sigungu": "남동구",
       "branch_count": 34,
       "population": {
-        "value": 479343,
-        "period": "202605",
+        "value": 479149,
+        "period": "202606",
         "label": "남동구",
         "unit": "명"
       },
       "location_score": {
-        "value": 76.6,
+        "value": 75.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 76.6,
+          "market_pct": 75.1,
           "market_source": "population",
-          "branch_density_pct": 94.9
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "인천 동구": {
-      "sido": "인천",
-      "sigungu": "동구",
-      "branch_count": 4,
-      "population": {
-        "value": 83432,
-        "period": "202605",
-        "label": "동구",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 18.5,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 18.5,
-          "market_source": "population",
-          "branch_density_pct": 32.6
+          "branch_density_pct": 94.2
         },
         "weights": {
           "businesses": 0.45,
@@ -4406,21 +4263,21 @@
     "인천 미추홀구": {
       "sido": "인천",
       "sigungu": "미추홀구",
-      "branch_count": 22,
+      "branch_count": 21,
       "population": {
-        "value": 417725,
-        "period": "202605",
+        "value": 418211,
+        "period": "202606",
         "label": "미추홀구",
         "unit": "명"
       },
       "location_score": {
-        "value": 73.7,
+        "value": 72.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 73.7,
+          "market_pct": 72.0,
           "market_source": "population",
-          "branch_density_pct": 82.3
+          "branch_density_pct": 82.2
         },
         "weights": {
           "businesses": 0.45,
@@ -4435,19 +4292,19 @@
       "sigungu": "부평구",
       "branch_count": 18,
       "population": {
-        "value": 488829,
-        "period": "202605",
+        "value": 488191,
+        "period": "202606",
         "label": "부평구",
         "unit": "명"
       },
       "location_score": {
-        "value": 78.5,
+        "value": 77.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 78.5,
+          "market_pct": 77.2,
           "market_source": "population",
-          "branch_density_pct": 78.6
+          "branch_density_pct": 79.3
         },
         "weights": {
           "businesses": 0.45,
@@ -4457,31 +4314,23 @@
         "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
-    "인천 서구": {
+    "인천 서해구": {
       "sido": "인천",
-      "sigungu": "서구",
-      "branch_count": 25,
-      "population": {
-        "value": 101320,
-        "period": "202605",
-        "label": "서구",
-        "unit": "명"
-      },
+      "sigungu": "서해구",
+      "branch_count": 16,
       "location_score": {
-        "value": 28.3,
+        "value": 74.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 28.3,
-          "market_source": "population",
-          "branch_density_pct": 87.9
+          "market_pct": null,
+          "market_source": null,
+          "branch_density_pct": 74.5
         },
         "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
+          "branch_density_fallback": 1.0
         },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
       }
     },
     "인천 연수구": {
@@ -4489,17 +4338,17 @@
       "sigungu": "연수구",
       "branch_count": 24,
       "population": {
-        "value": 410308,
-        "period": "202605",
+        "value": 410290,
+        "period": "202606",
         "label": "연수구",
         "unit": "명"
       },
       "location_score": {
-        "value": 72.7,
+        "value": 71.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 72.7,
+          "market_pct": 71.0,
           "market_source": "population",
           "branch_density_pct": 85.6
         },
@@ -4511,24 +4360,81 @@
         "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
-    "인천 중구": {
+    "인천 영종구": {
       "sido": "인천",
-      "sigungu": "중구",
-      "branch_count": 23,
-      "population": {
-        "value": 117765,
-        "period": "202605",
-        "label": "중구",
-        "unit": "명"
-      },
+      "sigungu": "영종구",
+      "branch_count": 16,
       "location_score": {
-        "value": 34.6,
+        "value": 75.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 34.6,
+          "market_pct": null,
+          "market_source": null,
+          "branch_density_pct": 75.0
+        },
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
+      }
+    },
+    "인천 제물포구": {
+      "sido": "인천",
+      "sigungu": "제물포구",
+      "branch_count": 11,
+      "location_score": {
+        "value": 63.5,
+        "components": {
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
+          "branch_density_pct": 63.5
+        },
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
+      }
+    },
+    "전남 광주통합특별시": {
+      "sido": "전남",
+      "sigungu": "광주통합특별시",
+      "branch_count": 36,
+      "location_score": {
+        "value": 95.7,
+        "components": {
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": null,
+          "market_source": null,
+          "branch_density_pct": 95.7
+        },
+        "weights": {
+          "branch_density_fallback": 1.0
+        },
+        "note": "사업체수·소득·시장 데이터 미수집 — 임시로 4대銀 점포밀도 백분위로 대체."
+      }
+    },
+    "전남 광주통합특별시 광산구": {
+      "sido": "전남",
+      "sigungu": "광주통합특별시 광산구",
+      "branch_count": 12,
+      "population": {
+        "value": 383206,
+        "period": "202606",
+        "label": "광산구",
+        "unit": "명"
+      },
+      "location_score": {
+        "value": 68.9,
+        "components": {
+          "businesses_pct": null,
+          "income_pct": null,
+          "market_pct": 68.9,
           "market_source": "population",
-          "branch_density_pct": 83.3
+          "branch_density_pct": 65.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4538,51 +4444,24 @@
         "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
-    "전남 광양시": {
+    "전남 광주통합특별시 남구": {
       "sido": "전남",
-      "sigungu": "광양시",
-      "branch_count": 4,
-      "population": {
-        "value": 155909,
-        "period": "202605",
-        "label": "광양시",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 38.0,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 38.0,
-          "market_source": "population",
-          "branch_density_pct": 33.0
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "전남 나주시": {
-      "sido": "전남",
-      "sigungu": "나주시",
+      "sigungu": "광주통합특별시 남구",
       "branch_count": 6,
       "population": {
-        "value": 116791,
-        "period": "202605",
-        "label": "나주시",
+        "value": 254413,
+        "period": "202606",
+        "label": "남구",
         "unit": "명"
       },
       "location_score": {
-        "value": 31.7,
+        "value": 50.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 31.7,
+          "market_pct": 50.3,
           "market_source": "population",
-          "branch_density_pct": 41.4
+          "branch_density_pct": 40.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4592,78 +4471,24 @@
         "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
-    "전남 목포시": {
+    "전남 광주통합특별시 동구": {
       "sido": "전남",
-      "sigungu": "목포시",
-      "branch_count": 6,
-      "population": {
-        "value": 199813,
-        "period": "202605",
-        "label": "목포시",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 43.9,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 43.9,
-          "market_source": "population",
-          "branch_density_pct": 41.9
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "전남 무안군": {
-      "sido": "전남",
-      "sigungu": "무안군",
-      "branch_count": 3,
-      "population": {
-        "value": 95807,
-        "period": "202605",
-        "label": "무안군",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 22.4,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 22.4,
-          "market_source": "population",
-          "branch_density_pct": 27.9
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "전남 순천시": {
-      "sido": "전남",
-      "sigungu": "순천시",
+      "sigungu": "광주통합특별시 동구",
       "branch_count": 7,
       "population": {
-        "value": 274685,
-        "period": "202605",
-        "label": "순천시",
+        "value": 83354,
+        "period": "202606",
+        "label": "동구",
         "unit": "명"
       },
       "location_score": {
-        "value": 58.5,
+        "value": 17.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 58.5,
+          "market_pct": 17.6,
           "market_source": "population",
-          "branch_density_pct": 48.8
+          "branch_density_pct": 47.1
         },
         "weights": {
           "businesses": 0.45,
@@ -4673,24 +4498,24 @@
         "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
-    "전남 여수시": {
+    "전남 광주통합특별시 북구": {
       "sido": "전남",
-      "sigungu": "여수시",
-      "branch_count": 7,
+      "sigungu": "광주통합특별시 북구",
+      "branch_count": 11,
       "population": {
-        "value": 260913,
-        "period": "202605",
-        "label": "여수시",
+        "value": 260736,
+        "period": "202606",
+        "label": "북구",
         "unit": "명"
       },
       "location_score": {
-        "value": 53.7,
+        "value": 53.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 53.7,
+          "market_pct": 53.9,
           "market_source": "population",
-          "branch_density_pct": 49.3
+          "branch_density_pct": 63.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4700,78 +4525,24 @@
         "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
       }
     },
-    "전남 영암군": {
+    "전남 광주통합특별시 서구": {
       "sido": "전남",
-      "sigungu": "영암군",
-      "branch_count": 1,
+      "sigungu": "광주통합특별시 서구",
+      "branch_count": 9,
       "population": {
-        "value": 50069,
-        "period": "202605",
-        "label": "영암군",
+        "value": 101216,
+        "period": "202606",
+        "label": "서구",
         "unit": "명"
       },
       "location_score": {
-        "value": 7.3,
+        "value": 26.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 7.3,
+          "market_pct": 26.9,
           "market_source": "population",
-          "branch_density_pct": 8.4
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "전남 장성군": {
-      "sido": "전남",
-      "sigungu": "장성군",
-      "branch_count": 1,
-      "population": {
-        "value": 43009,
-        "period": "202605",
-        "label": "장성군",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 3.9,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 3.9,
-          "market_source": "population",
-          "branch_density_pct": 8.8
-        },
-        "weights": {
-          "businesses": 0.45,
-          "income": 0.35,
-          "market": 0.2
-        },
-        "note": "사업체수 45% · 가구소득 35% · 시장(서울:유동인구 / 비서울:인구) 20% — 모든 시·군·구 백분위 가중평균. 누락 컴포넌트는 가중치 정규화로 제외."
-      }
-    },
-    "전남 화순군": {
-      "sido": "전남",
-      "sigungu": "화순군",
-      "branch_count": 1,
-      "population": {
-        "value": 60008,
-        "period": "202605",
-        "label": "화순군",
-        "unit": "명"
-      },
-      "location_score": {
-        "value": 10.2,
-        "components": {
-          "businesses_pct": null,
-          "income_pct": null,
-          "market_pct": 10.2,
-          "market_source": "population",
-          "branch_density_pct": 9.3
+          "branch_density_pct": 56.7
         },
         "weights": {
           "businesses": 0.45,
@@ -4784,21 +4555,21 @@
     "전북 군산시": {
       "sido": "전북",
       "sigungu": "군산시",
-      "branch_count": 10,
+      "branch_count": 9,
       "population": {
-        "value": 255649,
-        "period": "202605",
+        "value": 255591,
+        "period": "202606",
         "label": "군산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 53.2,
+        "value": 51.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 53.2,
+          "market_pct": 51.3,
           "market_source": "population",
-          "branch_density_pct": 61.9
+          "branch_density_pct": 57.2
         },
         "weights": {
           "businesses": 0.45,
@@ -4813,19 +4584,19 @@
       "sigungu": "김제시",
       "branch_count": 2,
       "population": {
-        "value": 81665,
-        "period": "202605",
+        "value": 81631,
+        "period": "202606",
         "label": "김제시",
         "unit": "명"
       },
       "location_score": {
-        "value": 15.1,
+        "value": 14.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 15.1,
+          "market_pct": 14.5,
           "market_source": "population",
-          "branch_density_pct": 18.6
+          "branch_density_pct": 17.8
         },
         "weights": {
           "businesses": 0.45,
@@ -4840,19 +4611,19 @@
       "sigungu": "남원시",
       "branch_count": 1,
       "population": {
-        "value": 73937,
-        "period": "202605",
+        "value": 73812,
+        "period": "202606",
         "label": "남원시",
         "unit": "명"
       },
       "location_score": {
-        "value": 13.2,
+        "value": 12.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 13.2,
+          "market_pct": 12.4,
           "market_source": "population",
-          "branch_density_pct": 9.8
+          "branch_density_pct": 8.7
         },
         "weights": {
           "businesses": 0.45,
@@ -4867,19 +4638,19 @@
       "sigungu": "부안군",
       "branch_count": 1,
       "population": {
-        "value": 47009,
-        "period": "202605",
+        "value": 46946,
+        "period": "202606",
         "label": "부안군",
         "unit": "명"
       },
       "location_score": {
-        "value": 5.9,
+        "value": 5.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 5.9,
+          "market_pct": 5.7,
           "market_source": "population",
-          "branch_density_pct": 10.2
+          "branch_density_pct": 9.1
         },
         "weights": {
           "businesses": 0.45,
@@ -4894,19 +4665,19 @@
       "sigungu": "완주군",
       "branch_count": 2,
       "population": {
-        "value": 100033,
-        "period": "202605",
+        "value": 100102,
+        "period": "202606",
         "label": "완주군",
         "unit": "명"
       },
       "location_score": {
-        "value": 24.4,
+        "value": 23.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 24.4,
+          "market_pct": 23.3,
           "market_source": "population",
-          "branch_density_pct": 19.1
+          "branch_density_pct": 18.3
         },
         "weights": {
           "businesses": 0.45,
@@ -4919,21 +4690,21 @@
     "전북 익산시": {
       "sido": "전북",
       "sigungu": "익산시",
-      "branch_count": 8,
+      "branch_count": 7,
       "population": {
-        "value": 266818,
-        "period": "202605",
+        "value": 266758,
+        "period": "202606",
         "label": "익산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 57.6,
+        "value": 55.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 57.6,
+          "market_pct": 55.4,
           "market_source": "population",
-          "branch_density_pct": 54.0
+          "branch_density_pct": 47.6
         },
         "weights": {
           "businesses": 0.45,
@@ -4948,19 +4719,19 @@
       "sigungu": "전주시 덕진구",
       "branch_count": 6,
       "population": {
-        "value": 621760,
-        "period": "202605",
+        "value": 620874,
+        "period": "202606",
         "label": "전주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 85.4,
+        "value": 84.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 85.4,
+          "market_pct": 84.5,
           "market_source": "population",
-          "branch_density_pct": 42.3
+          "branch_density_pct": 40.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4975,19 +4746,19 @@
       "sigungu": "전주시 완산구",
       "branch_count": 12,
       "population": {
-        "value": 621760,
-        "period": "202605",
+        "value": 620874,
+        "period": "202606",
         "label": "전주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 85.9,
+        "value": 85.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 85.9,
+          "market_pct": 85.0,
           "market_source": "population",
-          "branch_density_pct": 67.9
+          "branch_density_pct": 66.3
         },
         "weights": {
           "businesses": 0.45,
@@ -5002,19 +4773,19 @@
       "sigungu": "정읍시",
       "branch_count": 2,
       "population": {
-        "value": 100683,
-        "period": "202605",
+        "value": 100738,
+        "period": "202606",
         "label": "정읍시",
         "unit": "명"
       },
       "location_score": {
-        "value": 24.9,
+        "value": 24.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 24.9,
+          "market_pct": 24.4,
           "market_source": "population",
-          "branch_density_pct": 19.5
+          "branch_density_pct": 18.8
         },
         "weights": {
           "businesses": 0.45,
@@ -5029,19 +4800,19 @@
       "sigungu": "서귀포시",
       "branch_count": 5,
       "population": {
-        "value": 178798,
-        "period": "202605",
+        "value": 178669,
+        "period": "202606",
         "label": "서귀포시",
         "unit": "명"
       },
       "location_score": {
-        "value": 41.5,
+        "value": 39.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 41.5,
+          "market_pct": 39.4,
           "market_source": "population",
-          "branch_density_pct": 35.3
+          "branch_density_pct": 33.7
         },
         "weights": {
           "businesses": 0.45,
@@ -5054,21 +4825,21 @@
     "제주 제주시": {
       "sido": "제주",
       "sigungu": "제주시",
-      "branch_count": 9,
+      "branch_count": 8,
       "population": {
-        "value": 484171,
-        "period": "202605",
+        "value": 484123,
+        "period": "202606",
         "label": "제주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 78.0,
+        "value": 76.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 78.0,
+          "market_pct": 76.7,
           "market_source": "population",
-          "branch_density_pct": 58.1
+          "branch_density_pct": 51.9
         },
         "weights": {
           "businesses": 0.45,
@@ -5083,19 +4854,19 @@
       "sigungu": "계룡시",
       "branch_count": 2,
       "population": {
-        "value": 45972,
-        "period": "202605",
+        "value": 45959,
+        "period": "202606",
         "label": "계룡시",
         "unit": "명"
       },
       "location_score": {
-        "value": 4.4,
+        "value": 4.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 4.4,
+          "market_pct": 4.1,
           "market_source": "population",
-          "branch_density_pct": 20.0
+          "branch_density_pct": 19.2
         },
         "weights": {
           "businesses": 0.45,
@@ -5110,19 +4881,19 @@
       "sigungu": "공주시",
       "branch_count": 3,
       "population": {
-        "value": 99841,
-        "period": "202605",
+        "value": 99757,
+        "period": "202606",
         "label": "공주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 23.9,
+        "value": 22.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 23.9,
+          "market_pct": 22.8,
           "market_source": "population",
-          "branch_density_pct": 28.4
+          "branch_density_pct": 27.4
         },
         "weights": {
           "businesses": 0.45,
@@ -5137,19 +4908,19 @@
       "sigungu": "금산군",
       "branch_count": 1,
       "population": {
-        "value": 48975,
-        "period": "202605",
+        "value": 48939,
+        "period": "202606",
         "label": "금산군",
         "unit": "명"
       },
       "location_score": {
-        "value": 6.8,
+        "value": 6.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 6.8,
+          "market_pct": 6.7,
           "market_source": "population",
-          "branch_density_pct": 10.7
+          "branch_density_pct": 9.6
         },
         "weights": {
           "businesses": 0.45,
@@ -5164,19 +4935,19 @@
       "sigungu": "논산시",
       "branch_count": 6,
       "population": {
-        "value": 106094,
-        "period": "202605",
+        "value": 105977,
+        "period": "202606",
         "label": "논산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 29.8,
+        "value": 28.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 29.8,
+          "market_pct": 28.5,
           "market_source": "population",
-          "branch_density_pct": 42.8
+          "branch_density_pct": 41.3
         },
         "weights": {
           "businesses": 0.45,
@@ -5191,19 +4962,19 @@
       "sigungu": "당진시",
       "branch_count": 4,
       "population": {
-        "value": 172285,
-        "period": "202605",
+        "value": 172400,
+        "period": "202606",
         "label": "당진시",
         "unit": "명"
       },
       "location_score": {
-        "value": 40.5,
+        "value": 38.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 40.5,
+          "market_pct": 38.3,
           "market_source": "population",
-          "branch_density_pct": 33.5
+          "branch_density_pct": 31.7
         },
         "weights": {
           "businesses": 0.45,
@@ -5218,19 +4989,19 @@
       "sigungu": "보령시",
       "branch_count": 3,
       "population": {
-        "value": 91353,
-        "period": "202605",
+        "value": 91260,
+        "period": "202606",
         "label": "보령시",
         "unit": "명"
       },
       "location_score": {
-        "value": 21.0,
+        "value": 20.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 21.0,
+          "market_pct": 20.2,
           "market_source": "population",
-          "branch_density_pct": 28.8
+          "branch_density_pct": 27.9
         },
         "weights": {
           "businesses": 0.45,
@@ -5245,19 +5016,19 @@
       "sigungu": "부여군",
       "branch_count": 1,
       "population": {
-        "value": 57822,
-        "period": "202605",
+        "value": 57762,
+        "period": "202606",
         "label": "부여군",
         "unit": "명"
       },
       "location_score": {
-        "value": 8.8,
+        "value": 8.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 8.8,
+          "market_pct": 8.3,
           "market_source": "population",
-          "branch_density_pct": 11.2
+          "branch_density_pct": 10.1
         },
         "weights": {
           "businesses": 0.45,
@@ -5272,19 +5043,19 @@
       "sigungu": "서산시",
       "branch_count": 6,
       "population": {
-        "value": 171306,
-        "period": "202605",
+        "value": 171136,
+        "period": "202606",
         "label": "서산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 40.0,
+        "value": 37.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 40.0,
+          "market_pct": 37.8,
           "market_source": "population",
-          "branch_density_pct": 43.3
+          "branch_density_pct": 41.8
         },
         "weights": {
           "businesses": 0.45,
@@ -5299,19 +5070,19 @@
       "sigungu": "서천군",
       "branch_count": 1,
       "population": {
-        "value": 46844,
-        "period": "202605",
+        "value": 46761,
+        "period": "202606",
         "label": "서천군",
         "unit": "명"
       },
       "location_score": {
-        "value": 5.4,
+        "value": 5.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 5.4,
+          "market_pct": 5.2,
           "market_source": "population",
-          "branch_density_pct": 11.6
+          "branch_density_pct": 10.6
         },
         "weights": {
           "businesses": 0.45,
@@ -5326,19 +5097,19 @@
       "sigungu": "아산시",
       "branch_count": 13,
       "population": {
-        "value": 363223,
-        "period": "202605",
+        "value": 363678,
+        "period": "202606",
         "label": "아산시",
         "unit": "명"
       },
       "location_score": {
-        "value": 66.3,
+        "value": 64.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 66.3,
+          "market_pct": 64.2,
           "market_source": "population",
-          "branch_density_pct": 71.2
+          "branch_density_pct": 69.7
         },
         "weights": {
           "businesses": 0.45,
@@ -5353,19 +5124,19 @@
       "sigungu": "예산군",
       "branch_count": 2,
       "population": {
-        "value": 78337,
-        "period": "202605",
+        "value": 78318,
+        "period": "202606",
         "label": "예산군",
         "unit": "명"
       },
       "location_score": {
-        "value": 13.7,
+        "value": 13.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 13.7,
+          "market_pct": 13.0,
           "market_source": "population",
-          "branch_density_pct": 20.5
+          "branch_density_pct": 19.7
         },
         "weights": {
           "businesses": 0.45,
@@ -5378,21 +5149,21 @@
     "충남 천안시 동남구": {
       "sido": "충남",
       "sigungu": "천안시 동남구",
-      "branch_count": 17,
+      "branch_count": 16,
       "population": {
-        "value": 254174,
-        "period": "202605",
+        "value": 254413,
+        "period": "202606",
         "label": "남구",
         "unit": "명"
       },
       "location_score": {
-        "value": 52.7,
+        "value": 50.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 52.7,
+          "market_pct": 50.8,
           "market_source": "population",
-          "branch_density_pct": 76.3
+          "branch_density_pct": 75.5
         },
         "weights": {
           "businesses": 0.45,
@@ -5407,19 +5178,19 @@
       "sigungu": "천안시 서북구",
       "branch_count": 15,
       "population": {
-        "value": 260994,
-        "period": "202605",
+        "value": 260736,
+        "period": "202606",
         "label": "북구",
         "unit": "명"
       },
       "location_score": {
-        "value": 56.6,
+        "value": 54.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 56.6,
+          "market_pct": 54.4,
           "market_source": "population",
-          "branch_density_pct": 74.4
+          "branch_density_pct": 73.1
         },
         "weights": {
           "businesses": 0.45,
@@ -5434,19 +5205,19 @@
       "sigungu": "태안군",
       "branch_count": 1,
       "population": {
-        "value": 59083,
-        "period": "202605",
+        "value": 59039,
+        "period": "202606",
         "label": "태안군",
         "unit": "명"
       },
       "location_score": {
-        "value": 9.8,
+        "value": 9.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 9.8,
+          "market_pct": 9.3,
           "market_source": "population",
-          "branch_density_pct": 12.1
+          "branch_density_pct": 11.1
         },
         "weights": {
           "businesses": 0.45,
@@ -5461,19 +5232,19 @@
       "sigungu": "홍성군",
       "branch_count": 4,
       "population": {
-        "value": 101443,
-        "period": "202605",
+        "value": 101566,
+        "period": "202606",
         "label": "홍성군",
         "unit": "명"
       },
       "location_score": {
-        "value": 28.8,
+        "value": 27.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 28.8,
+          "market_pct": 27.5,
           "market_source": "population",
-          "branch_density_pct": 34.0
+          "branch_density_pct": 32.2
         },
         "weights": {
           "businesses": 0.45,
@@ -5488,19 +5259,19 @@
       "sigungu": "옥천군",
       "branch_count": 1,
       "population": {
-        "value": 50423,
-        "period": "202605",
+        "value": 50547,
+        "period": "202606",
         "label": "옥천군",
         "unit": "명"
       },
       "location_score": {
-        "value": 7.8,
+        "value": 7.3,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 7.8,
+          "market_pct": 7.3,
           "market_source": "population",
-          "branch_density_pct": 12.6
+          "branch_density_pct": 11.5
         },
         "weights": {
           "businesses": 0.45,
@@ -5515,19 +5286,19 @@
       "sigungu": "음성군",
       "branch_count": 5,
       "population": {
-        "value": 95787,
-        "period": "202605",
+        "value": 95954,
+        "period": "202606",
         "label": "음성군",
         "unit": "명"
       },
       "location_score": {
-        "value": 22.0,
+        "value": 21.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 22.0,
+          "market_pct": 21.2,
           "market_source": "population",
-          "branch_density_pct": 35.8
+          "branch_density_pct": 34.1
         },
         "weights": {
           "businesses": 0.45,
@@ -5542,19 +5313,19 @@
       "sigungu": "제천시",
       "branch_count": 6,
       "population": {
-        "value": 128306,
-        "period": "202605",
+        "value": 128192,
+        "period": "202606",
         "label": "제천시",
         "unit": "명"
       },
       "location_score": {
-        "value": 35.6,
+        "value": 33.7,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 35.6,
+          "market_pct": 33.7,
           "market_source": "population",
-          "branch_density_pct": 43.7
+          "branch_density_pct": 42.3
         },
         "weights": {
           "businesses": 0.45,
@@ -5569,19 +5340,19 @@
       "sigungu": "증평군",
       "branch_count": 2,
       "population": {
-        "value": 36724,
-        "period": "202605",
+        "value": 36741,
+        "period": "202606",
         "label": "증평군",
         "unit": "명"
       },
       "location_score": {
-        "value": 2.0,
+        "value": 2.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 2.0,
+          "market_pct": 2.1,
           "market_source": "population",
-          "branch_density_pct": 20.9
+          "branch_density_pct": 20.2
         },
         "weights": {
           "businesses": 0.45,
@@ -5596,19 +5367,19 @@
       "sigungu": "진천군",
       "branch_count": 1,
       "population": {
-        "value": 85558,
-        "period": "202605",
+        "value": 85569,
+        "period": "202606",
         "label": "진천군",
         "unit": "명"
       },
       "location_score": {
-        "value": 19.0,
+        "value": 18.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 19.0,
+          "market_pct": 18.1,
           "market_source": "population",
-          "branch_density_pct": 13.0
+          "branch_density_pct": 12.0
         },
         "weights": {
           "businesses": 0.45,
@@ -5623,19 +5394,19 @@
       "sigungu": "청주시 상당구",
       "branch_count": 10,
       "population": {
-        "value": 859441,
-        "period": "202605",
+        "value": 859571,
+        "period": "202606",
         "label": "청주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 88.8,
+        "value": 88.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 88.8,
+          "market_pct": 88.1,
           "market_source": "population",
-          "branch_density_pct": 62.3
+          "branch_density_pct": 60.1
         },
         "weights": {
           "businesses": 0.45,
@@ -5650,19 +5421,19 @@
       "sigungu": "청주시 서원구",
       "branch_count": 3,
       "population": {
-        "value": 859441,
-        "period": "202605",
+        "value": 859571,
+        "period": "202606",
         "label": "청주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 89.3,
+        "value": 88.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 89.3,
+          "market_pct": 88.6,
           "market_source": "population",
-          "branch_density_pct": 29.3
+          "branch_density_pct": 28.4
         },
         "weights": {
           "businesses": 0.45,
@@ -5677,19 +5448,19 @@
       "sigungu": "청주시 청원구",
       "branch_count": 12,
       "population": {
-        "value": 859441,
-        "period": "202605",
+        "value": 859571,
+        "period": "202606",
         "label": "청주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 89.8,
+        "value": 89.1,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 89.8,
+          "market_pct": 89.1,
           "market_source": "population",
-          "branch_density_pct": 68.4
+          "branch_density_pct": 66.8
         },
         "weights": {
           "businesses": 0.45,
@@ -5704,19 +5475,19 @@
       "sigungu": "청주시 흥덕구",
       "branch_count": 14,
       "population": {
-        "value": 859441,
-        "period": "202605",
+        "value": 859571,
+        "period": "202606",
         "label": "청주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 90.2,
+        "value": 89.6,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 90.2,
+          "market_pct": 89.6,
           "market_source": "population",
-          "branch_density_pct": 72.6
+          "branch_density_pct": 71.2
         },
         "weights": {
           "businesses": 0.45,
@@ -5731,19 +5502,19 @@
       "sigungu": "충주시",
       "branch_count": 9,
       "population": {
-        "value": 206179,
-        "period": "202605",
+        "value": 205978,
+        "period": "202606",
         "label": "충주시",
         "unit": "명"
       },
       "location_score": {
-        "value": 45.4,
+        "value": 43.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
-          "market_pct": 45.4,
+          "market_pct": 43.0,
           "market_source": "population",
-          "branch_density_pct": 58.6
+          "branch_density_pct": 57.7
         },
         "weights": {
           "businesses": 0.45,
@@ -5755,13 +5526,17 @@
     }
   },
   "diagnostics": {
-    "source": "r_one",
-    "kosis_key": "skip",
-    "r_one_key": "set",
-    "region_count": 216,
-    "seoul_key": "skip",
-    "population_ok": 206,
-    "population_fail": 10,
+    "source": "kosis",
+    "kosis_key": "set",
+    "r_one_key": "skip",
+    "region_count": 209,
+    "seoul_key": "set",
+    "kosis_biz_error": "kosis_biz_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
+    "kosis_income_error": "kosis_income_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
+    "seoul_warn": "seoul_init_xml_error: ERROR-332: 요청종료위치 값을 확인하십시오.\n요청인자 중 END_INDEX를 확인하십시오.",
+    "seoul_districts": 0,
+    "population_ok": 194,
+    "population_fail": 15,
     "businesses_ok": 0,
     "businesses_fail": 0,
     "income_ok": 0,
