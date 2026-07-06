@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-06T07:33:43.966142+09:00",
+  "updated_at": "2026-07-07T07:46:40.167018+09:00",
   "headline": {
-    "id": "c082ea731762",
-    "title": "“한국선 우량기업인데 멕시코선 신생법인…그 금융 공백 신한이 메우죠”",
-    "source": "헤럴드경제",
-    "summary": "“한국선 우량기업인데 멕시코선 신생법인…그 금융 공백 신한이 메우죠” 헤럴드경제",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yaF84bVB1SEgtNzg5SWRVdWxIeEt0c3V4WktJVTRaT0VNMEtwMlkzYUc2aWUxbUVkeUtUTE05V1J1MUJ0NGUxeFdEb0tJN2hyU2ExbjJn?oc=5",
-    "published": "2026-07-05T19:00:00+09:00",
-    "query": "신한은행 지점",
+    "id": "dc1909534638",
+    "title": "은행 점포 1개 사라지면 기업 30개 감소",
+    "source": "원주투데이",
+    "summary": "은행 점포 1개 사라지면 기업 30개 감소 원주투데이",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hNHZHVFJQWWlqVTdrcnBSQWl4ZmZTVjZhVEJNT1EzTDNNcXpURGRRTzhTUWQxUy1tbVlhQVdMMFNOWUdyWTBIX1pubHBZcFNQMFd1RFlYVFJOQllvNms3UUdHOG45bWltVmFWaE9jYks?oc=5",
+    "published": "2026-07-06T09:14:50+09:00",
+    "query": "은행 점포",
     "engine": "google",
     "rank": 1,
-    "_score": 9.0,
+    "_score": 11.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -36,48 +36,24 @@
         "published": "2026-07-02T17:19:28+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "9a9639c0184e",
-        "title": "지역경제에서 금융의 생산적 역할: 은행 점포 변화와 기업 생멸 동학을 중심으로",
-        "source": "한국개발연구원(KDI)",
-        "summary": "지역경제에서 금융의 생산적 역할: 은행 점포 변화와 기업 생멸 동학을 중심으로 한국개발연구원(KDI)",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLWhtNFN0OW42bUpQY1FDTF9vOFFpLWhTSXBqUzlaU3VHZjl2aGc2RkVMNTlrM1ZHZHp2X2tZZGgzemZQY3NybkJpWlJTUkphWHR0TFdtQnowcTBHWDhIbjNYRWt2Nk5SR2Q4VlFJQTBFYmhMaWg3d05YNnNXMjRBNw?oc=5",
-        "published": "2026-07-01T21:43:18+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "1d1ab475120b",
-        "title": "점포 문 닫는 은행들…은행대리업, '금융소외' 대안될까",
-        "source": "뉴스드림",
-        "summary": "점포 문 닫는 은행들…은행대리업, '금융소외' 대안될까 뉴스드림",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kcmtYOUZSc2JyOE9EMUVMWXBqNHdwdGtDYV9UanlQSTdKMnd4UXNBSVJnOHY1YkRZbjdrZGlUT0plRlhhSEt6dEVBRWI5MGZWVVAyODhibEtOTzM4UVZsWnFXZ3FOY28tNXZr0gFuQVVfeXFMTWZyWE9DdExvRzRSSzlnZzY2QkJ1dllGWHZ2Vk05Z25ZVFJCUzB5VmkxX0lyRVlZT3hndjlJYVVLWnVkaGdDX3k2blg1R2NrQmNCNHNwVXFvVFZxUkFrV19kaUdKWGx0MVY2aEpja2c?oc=5",
-        "published": "2026-07-01T17:44:08+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 8,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "d273314195a7",
-        "title": "점포 없는 인터넷은행도 채무조정·담보확인 땐 대면업무 허용",
-        "source": "ebn.co.kr",
-        "summary": "점포 없는 인터넷은행도 채무조정·담보확인 땐 대면업무 허용 ebn.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FaV9EUmVyMW11U0c3Y3NaUEFtM0YtSktMOV9Qc295SURTYW91aWVRQ1FSZlZWb3hoczZ0ZkN3WUdXOFpBQ0tad3hnZ0Mzc3NfRUJUUzNwblY2OGFGVmNHSEN4b0gwbEV2?oc=5",
-        "published": "2026-07-01T15:05:03+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 6,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "ab9f8c9816d6",
+        "title": "신한은행, '동전 카트'에서 '슈퍼SOL'까지…은행이 먼저 고객 찾아간다",
+        "source": "한국경제",
+        "summary": "신한은행, '동전 카트'에서 '슈퍼SOL'까지…은행이 먼저 고객 찾아간다 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5eW44M0lrZFhwRm9udjRzclNQeGtER3VSa0dmZHZRQWxfT0ZwVHNIdS0wdVBwbWU4cHMzSU1od2NIbGJOcXpnVGk2SlJ5YWVWZEx2X1loU09IUdIBVEFVX3lxTE1YZC0weU9PaVNsMW1jSk1sUnhEcktOSHVENUowYkducVQ0eGdtWWF0a1lTYkNtZHZpWVFpOTZKNG1JZVhCNHN4SmdKODRyWnRNc0laSw?oc=5",
+        "published": "2026-07-06T16:21:14+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "44a7667916b7",
         "title": "신한은행, 9.8% 금리 상생대환대출2 선봬...영업점·비대면 신청 가능",
@@ -87,7 +63,7 @@
         "published": "2026-07-01T10:44:16+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 11,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
