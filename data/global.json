@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T07:49:03.311477+09:00",
+  "updated_at": "2026-07-08T07:42:49.341833+09:00",
   "items": [
     {
       "id": "55047077f941",
@@ -12,14 +12,34 @@
       "region": "US"
     },
     {
-      "id": "236fb97fba16",
+      "id": "5daf83b47915",
       "title": "JPMorgan Chase plans to expand Community Center program, doubling branches in low-income areas",
-      "source": "AP News",
-      "summary": "JPMorgan Chase plans to expand Community Center program, doubling branches in low-income areas&nbsp;&nbsp;AP News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNUlaTVVSOW9rR1dITzBDWUxuTGFPOEZ6RUtnOExvVGV4SF9YSXJMYXI3WjJ6U3drcFdKRjNERTQxVmFjZ2JUT05jeTgzZGQtQkpyaXNyOEhINVJodmhXTzRJY0dXRXdmWS1KR3pMaVpqeXNYQ1RUVzBXUjNSUFVGWkVSNEEzV2c2Z3BsSUVmbjExVnZlMTY5aFdBOXRlSWVIY1NJN0dsYXRQUlBTNlE?oc=5",
-      "published": "2026-06-28T16:00:00+09:00",
+      "source": "TelegraphHerald.com",
+      "summary": "JPMorgan Chase plans to expand Community Center program, doubling branches in low-income areas&nbsp;&nbsp;TelegraphHerald.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR3Y1QU5RQmNGeG92XzRLejZwUi1HVlVacUVucWZiNnJXRnpJeGJBU1VHaDlWU1JIYVFQQ1RTek51VUx5eFExOVNybndIWEhJTU9scU8xYTd4TjJaR0FhRXE0dk8wRkxiUklWMWsxd0UzdVBEVnd4R052OXZzT0lOTUJkZmhtYkdJNU1nZGJzUzA4VVdnUzF3UzZTbw?oc=5",
+      "published": "2026-07-05T15:00:00+09:00",
       "query": "JPMorgan Chase community center",
       "region": "US"
+    },
+    {
+      "id": "2e046f7ebac6",
+      "title": "New banking hub could be coming after town's banks closed",
+      "source": "The Hereford Times",
+      "summary": "New banking hub could be coming after town's banks closed&nbsp;&nbsp;The Hereford Times",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMU5LXzZfT3JtVHk0ZklGbGVRbjZaN19POW9aTjFpaEIyMFJoXzBQWFlUQkoyTnJ1N1hUeWM3RXNXYldqbll5dV9DUHAxbUZFQUFUNmhvRjZLR01VQjhmYWNDVFBNNGVvRDNuUTVWNU83R3VjZUxuU0V4d2pldjNNOUxEUi1aSmlCLTgwY0hzbkRhZw?oc=5",
+      "published": "2026-07-03T23:31:32+09:00",
+      "query": "bank hub UK banking",
+      "region": "UK"
+    },
+    {
+      "id": "d458ff3b9edd",
+      "title": "Asia’s banking elite celebrated at Asian Banking & Finance Awards 2026",
+      "source": "Asian Banking & Finance",
+      "summary": "Asia’s banking elite celebrated at Asian Banking & Finance Awards 2026&nbsp;&nbsp;Asian Banking & Finance",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUmprSTRtMUR3Uk1razdHeGo5a045TlhSYUdadUJnWlY0Qi03SFcxVHM1Y0ltT3BobnhFcWRSeTgtRGFYanBraFYyT3Z1MWY5ZUw3TTFWTS1aaERVX2E4cTlJYVRBU2pTeVZIRFA5SldxRGN1Q3V2VnJSUWQ1SFZvb25wS3JoeXpQRElfT2hoOFc2Q0ZvWXE5M2dZbHNpNm5rWVkwSUxlY01nNEt6RHJF?oc=5",
+      "published": "2026-07-03T10:49:59+09:00",
+      "query": "retail bank branch innovation",
+      "region": "Global"
     }
   ]
 }

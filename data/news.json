@@ -1,20 +1,68 @@
 {
-  "updated_at": "2026-07-07T07:46:40.167018+09:00",
+  "updated_at": "2026-07-08T07:40:19.591376+09:00",
   "headline": {
-    "id": "dc1909534638",
-    "title": "은행 점포 1개 사라지면 기업 30개 감소",
-    "source": "원주투데이",
-    "summary": "은행 점포 1개 사라지면 기업 30개 감소 원주투데이",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hNHZHVFJQWWlqVTdrcnBSQWl4ZmZTVjZhVEJNT1EzTDNNcXpURGRRTzhTUWQxUy1tbVlhQVdMMFNOWUdyWTBIX1pubHBZcFNQMFd1RFlYVFJOQllvNms3UUdHOG45bWltVmFWaE9jYks?oc=5",
-    "published": "2026-07-06T09:14:50+09:00",
+    "id": "59dc6808c8f6",
+    "title": "금감원, 홈플러스 임차점포 대출 전수점검…은행·보험·저축은행까지 들여다본다",
+    "source": "뉴스1",
+    "summary": "금감원, 홈플러스 임차점포 대출 전수점검…은행·보험·저축은행까지 들여다본다 뉴스1",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTaVFNWEl6azh0dlM2NzRHTUJ4eXBJbHZnNmJGSzBSV2p4UzNrSDk1THRGT3FQcHh2WEdXSUNBYmViN1YzZTRXSjZrSEN3MTZ5eHlaVGl1cjRTZnc3c3hTeWxB?oc=5",
+    "published": "2026-07-07T18:32:53+09:00",
     "query": "은행 점포",
     "engine": "google",
     "rank": 1,
-    "_score": 11.0,
+    "_score": 23.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "96d4655ee083",
+        "title": "홈플러스 위기에 금융권 긴장…금감원, 임차점포 대주단 현황 파악",
+        "source": "글로벌이코노믹",
+        "summary": "홈플러스 위기에 금융권 긴장…금감원, 임차점포 대주단 현황 파악 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcXJsUDdycVNBSVpKQUUzU2FSOU81UklCbnBJYmlhOG1kSDZjcVA0M1dHM0k0aEE4cmN2QktWanBQZTZkU2JFQm9sMzR1RE1PMTN4V0dWZzU2RkFvaEFiLXFGamkyZGkzdTcxa3dPTXVqOEQyX1N4UUlDRGlLWWdmYkZIVlE?oc=5",
+        "published": "2026-07-07T15:50:44+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 12,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "16d268f98489",
+        "title": "금감원, 홈플러스 임차점포 대출 점검…금융권 ‘간접 익스포저’ 살핀다",
+        "source": "매일경제 마켓",
+        "summary": "금감원, 홈플러스 임차점포 대출 점검…금융권 ‘간접 익스포저’ 살핀다 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrczdDMmV1Mk90UnY5MDdpSEU1YWozNVFrMzZUMzBtNkNZNkxLaG5EeE1jN3pMZmg4SGdxQl95U1NUS053d0RTTXc1QlMwQU01LVE?oc=5",
+        "published": "2026-07-07T15:17:12+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2ea522fd256f",
+        "title": "모트렉스 그룹 MTR, 하나은행 이동형 점포에 전기 승합차 공급",
+        "source": "뉴스핌",
+        "summary": "모트렉스 그룹 MTR, 하나은행 이동형 점포에 전기 승합차 공급 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1FeXhoNTlUQ09mckZSYTlKZGhrV1B1QlJHMUU1SV9RT21uU2dRSWJkc0NscWVUM3hWMzVVNGRoVmR1OWJoTGUyVHU5TU15bm5wemJ0WEtnVGRUS3J4?oc=5",
+        "published": "2026-07-07T13:11:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "dc1909534638",
+        "title": "은행 점포 1개 사라지면 기업 30개 감소",
+        "source": "원주투데이",
+        "summary": "은행 점포 1개 사라지면 기업 30개 감소 원주투데이",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hNHZHVFJQWWlqVTdrcnBSQWl4ZmZTVjZhVEJNT1EzTDNNcXpURGRRTzhTUWQxUy1tbVlhQVdMMFNOWUdyWTBIX1pubHBZcFNQMFd1RFlYVFJOQllvNms3UUdHOG45bWltVmFWaE9jYks?oc=5",
+        "published": "2026-07-06T09:14:50+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "0effcd894eff",
         "title": "우리은행, 조윤희 부행장 승진…영업점·본부부서 인사 단행",
@@ -24,23 +72,47 @@
         "published": "2026-07-03T21:03:47+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "eb8bc8f9fe88",
-        "title": "[기자수첩] 비용과 포용, 은행의 점포 딜레마",
-        "source": "뉴스드림",
-        "summary": "[기자수첩] 비용과 포용, 은행의 점포 딜레마 뉴스드림",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCWExxZ3lqci1BTklsSUNrOHVqQmQ0WU9DVzFpY3FkTGxhM05HUm1EeDB2dTZpRlZxaVV5TnJoTm1GOXlidTVua0VWTlFJNXZiMHRZdHN0VkRSMVg3ZGtUMVZ5aEJGZXlPNEtR0gFuQVVfeXFMTnhfU3lKRjl2VnhxaWdqQlNweGJxdEdsQjJRRlFKdDVWRDZZQ0ppMkpjTlkzdHJkdHp0S0ZPNk4wcWdWYnpxVVVmT3lyX1dyNnpEWmExdW1kQTg5VG9mdmxUdG1PWmZUUER3ZGVqWlE?oc=5",
-        "published": "2026-07-02T17:19:28+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 4,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": [],
+    "policy_news": [
+      {
+        "id": "8ac61b57c47c",
+        "title": "금감원, 홈플러스 임차점포 대출 금융사 현황 점검",
+        "source": "뉴데일리",
+        "summary": "금감원, 홈플러스 임차점포 대출 금융사 현황 점검 뉴데일리",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94OXFxX2pYOVY3UnA2bl9GMk5tbVBMTGhmakZqamxWT3JuTUhuNGxidVJOU3hRajNuSFcyZVZSMnFMaG4za1pFZXJQWTlwNzh5aDgzMnNnTi1wV2xrYVQ0YzFpMWJyZW9YZUttVzVCMGs5QjdES0xWcmNIMNIBgAFBVV95cUxPTXZWdFJ4NDJzYXgtblhrVzJ1UFFCcmlNcGE2Y3pyTnQtUDRYYWJNUHFrYjhpZ3FUSHM4cWlfcHlZSno5QXBaVlJFNjRCY0ZmMWFZZF96OWtCZWROWEl0T0kwbjlvQlBOcERDcV9aQXFFT1RrMWctRUF4RDMtNVpONw?oc=5",
+        "published": "2026-07-07T18:16:58+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "dc26b6e5bc55",
+        "title": "금감원, 홈플러스 대주단 간담회…임차점포 익스포저 점검",
+        "source": "이투데이",
+        "summary": "금감원, 홈플러스 대주단 간담회…임차점포 익스포저 점검 이투데이",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wR21VNmFPV1ZuZG9QUE1pN0lpblhST0djbUpsV0Ezb3M3NWtZSG1DaDkyS2NGQTFocVNtR29ydEs3b3lFVy05NzZrcUVmOHNOdHN3Uw?oc=5",
+        "published": "2026-07-07T16:03:00+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "96d4655ee083",
+        "title": "홈플러스 위기에 금융권 긴장…금감원, 임차점포 대주단 현황 파악",
+        "source": "글로벌이코노믹",
+        "summary": "홈플러스 위기에 금융권 긴장…금감원, 임차점포 대주단 현황 파악 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcXJsUDdycVNBSVpKQUUzU2FSOU81UklCbnBJYmlhOG1kSDZjcVA0M1dHM0k0aEE4cmN2QktWanBQZTZkU2JFQm9sMzR1RE1PMTN4V0dWZzU2RkFvaEFiLXFGamkyZGkzdTcxa3dPTXVqOEQyX1N4UUlDRGlLWWdmYkZIVlE?oc=5",
+        "published": "2026-07-07T15:50:44+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 4
+      }
+    ],
     "shinhan_news": [
       {
         "id": "ab9f8c9816d6",
@@ -52,18 +124,6 @@
         "query": "신한은행 지점",
         "engine": "google",
         "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "44a7667916b7",
-        "title": "신한은행, 9.8% 금리 상생대환대출2 선봬...영업점·비대면 신청 가능",
-        "source": "gukjenews.com",
-        "summary": "신한은행, 9.8% 금리 상생대환대출2 선봬...영업점·비대면 신청 가능 gukjenews.com",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81SkswQlhQdWFLS0xTRXpPbFpaODdLalVMVDd3MGZVUEpHUVVmNHZuUlRRX05NSDktbS1uaVBjWVJ1RHpjZWJoaUhEUjVVU2NYcUNUU2tmczFENlFqelFISm13eUpUTzhucDlzalhR?oc=5",
-        "published": "2026-07-01T10:44:16+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
