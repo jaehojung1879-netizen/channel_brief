@@ -1,42 +1,78 @@
 {
-  "updated_at": "2026-07-08T07:40:19.591376+09:00",
+  "updated_at": "2026-07-09T07:35:50.935852+09:00",
   "headline": {
-    "id": "59dc6808c8f6",
-    "title": "금감원, 홈플러스 임차점포 대출 전수점검…은행·보험·저축은행까지 들여다본다",
-    "source": "뉴스1",
-    "summary": "금감원, 홈플러스 임차점포 대출 전수점검…은행·보험·저축은행까지 들여다본다 뉴스1",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTaVFNWEl6azh0dlM2NzRHTUJ4eXBJbHZnNmJGSzBSV2p4UzNrSDk1THRGT3FQcHh2WEdXSUNBYmViN1YzZTRXSjZrSEN3MTZ5eHlaVGl1cjRTZnc3c3hTeWxB?oc=5",
-    "published": "2026-07-07T18:32:53+09:00",
-    "query": "은행 점포",
+    "id": "16d268f98489",
+    "title": "금감원, 홈플러스 임차점포 대출 점검…금융권 ‘간접 익스포저’ 살핀다",
+    "source": "매일경제 마켓",
+    "summary": "금감원, 홈플러스 임차점포 대출 점검…금융권 ‘간접 익스포저’ 살핀다 매일경제 마켓",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrczdDMmV1Mk90UnY5MDdpSEU1YWozNVFrMzZUMzBtNkNZNkxLaG5EeE1jN3pMZmg4SGdxQl95U1NUS053d0RTTXc1QlMwQU01LVE?oc=5",
+    "published": "2026-07-07T15:17:12+09:00",
+    "query": "은행 공동점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 23.0,
+    "rank": 5,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "96d4655ee083",
-        "title": "홈플러스 위기에 금융권 긴장…금감원, 임차점포 대주단 현황 파악",
-        "source": "글로벌이코노믹",
-        "summary": "홈플러스 위기에 금융권 긴장…금감원, 임차점포 대주단 현황 파악 글로벌이코노믹",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcXJsUDdycVNBSVpKQUUzU2FSOU81UklCbnBJYmlhOG1kSDZjcVA0M1dHM0k0aEE4cmN2QktWanBQZTZkU2JFQm9sMzR1RE1PMTN4V0dWZzU2RkFvaEFiLXFGamkyZGkzdTcxa3dPTXVqOEQyX1N4UUlDRGlLWWdmYkZIVlE?oc=5",
-        "published": "2026-07-07T15:50:44+09:00",
+        "id": "de3eabe629b0",
+        "title": "허리띠 졸라매는 KB국민은행 인니법인...적자 탈출 위해 인력·점포 대규모 구조조정",
+        "source": "소비자가 만드는 신문",
+        "summary": "허리띠 졸라매는 KB국민은행 인니법인...적자 탈출 위해 인력·점포 대규모 구조조정 소비자가 만드는 신문",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Sc2dGTXppREhtNmh3RDI0WklNdV9nck5BVnJRcVlKNHFGSzlUWDVsZDBjMmJDNzZmbmVCa2NvTWpLRGMzTV9OMkd1MXFVdTdiWXhxZ1ZjYzlMbnREZl9OMnRHTEp1dnd5UHhxUlpXenVMX2M?oc=5",
+        "published": "2026-07-09T06:10:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "16d268f98489",
-        "title": "금감원, 홈플러스 임차점포 대출 점검…금융권 ‘간접 익스포저’ 살핀다",
-        "source": "매일경제 마켓",
-        "summary": "금감원, 홈플러스 임차점포 대출 점검…금융권 ‘간접 익스포저’ 살핀다 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrczdDMmV1Mk90UnY5MDdpSEU1YWozNVFrMzZUMzBtNkNZNkxLaG5EeE1jN3pMZmg4SGdxQl95U1NUS053d0RTTXc1QlMwQU01LVE?oc=5",
-        "published": "2026-07-07T15:17:12+09:00",
+        "id": "6cbb5e28f955",
+        "title": "“단위농협 점포까지 합산은 반칙”…지방은행 6곳, 농협 공세에 공동전선",
+        "source": "브릿지경제",
+        "summary": "“단위농협 점포까지 합산은 반칙”…지방은행 6곳, 농협 공세에 공동전선 브릿지경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JMHRjM2VSRWpjZ0JSRXdwZTU5TzNadEIzbW9qOHliNVhjblpEaDJpUzhqREFLSHN6WXhtRDZ0ZEY5ZHlBdWVySjZ2aUxMYUtFWW5XWVAyZUdldw?oc=5",
+        "published": "2026-07-08T15:29:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5,
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "038c892c2674",
+        "title": "은행 문 닫을 시간에 더 바쁘다…KB국민은행 '저녁 6시 지점'의 승부",
+        "source": "더팩트",
+        "summary": "은행 문 닫을 시간에 더 바쁘다…KB국민은행 '저녁 6시 지점'의 승부 더팩트",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xRUhlenNsUG1IQzdaajR4WnFLeGlaQVFPaS1wTzI1T3pCY2MwQnVFYTBrX1lnZWt2NnlhWVZMc3pMRENwY3pxeUF2WFhPOV9aZUVGZ0Y0MDlSQdIBVEFVX3lxTE9naG1Bb0ZCUmVVTU4zc2ZaQm1iWXM2dE1FSi1hTGNudnlHNEtWNkxreE5FYWROa09IX3dLRHpTN1RscXVETDkyRTVaVEFBSl8xdlp1bg?oc=5",
+        "published": "2026-07-08T14:10:26+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "ed7c90666efb",
+        "title": "'완판' 국민성장펀드 9월 2차 판매…은행 영업점 물량 확대",
+        "source": "한국경제",
+        "summary": "'완판' 국민성장펀드 9월 2차 판매…은행 영업점 물량 확대 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42cjMyODZETzhCY0YwS0pram5qR3BNMEIweG1SNkppTUFuZUdVODJNUUpVQ0MyMVVjSzZTMmpBdXF3ZzNPZUpRaVBUVDVZWDF0YTZ6enFJX0Vmd9IBVEFVX3lxTE9BaU9oUmM2aUpYMTEySEo0S2RuRElIX0pyZFhBeVYyWTVDV0JEYVg2NzZMcVg4QVZDOWpNUmxHOVNieWhHYWVycm1sd2hVSmpXeGRxSA?oc=5",
+        "published": "2026-07-08T11:43:49+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 7,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "59dc6808c8f6",
+        "title": "금감원, 홈플러스 임차점포 대출 전수점검…은행·보험·저축은행까지 들여다본다",
+        "source": "뉴스1",
+        "summary": "금감원, 홈플러스 임차점포 대출 전수점검…은행·보험·저축은행까지 들여다본다 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTaVFNWEl6azh0dlM2NzRHTUJ4eXBJbHZnNmJGSzBSV2p4UzNrSDk1THRGT3FQcHh2WEdXSUNBYmViN1YzZTRXSjZrSEN3MTZ5eHlaVGl1cjRTZnc3c3hTeWxB?oc=5",
+        "published": "2026-07-07T18:32:53+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +84,7 @@
         "published": "2026-07-07T13:11:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -62,44 +98,31 @@
         "engine": "google",
         "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "0effcd894eff",
-        "title": "우리은행, 조윤희 부행장 승진…영업점·본부부서 인사 단행",
-        "source": "베타뉴스",
-        "summary": "우리은행, 조윤희 부행장 승진…영업점·본부부서 인사 단행 베타뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRVDhxNm1YNENad0p0eEJac2ZXaDRTWmFKUW1vSWs1UHAxNlllWjJkMjljaVpzbjNKdTdiYUdUNWJQU0dDUHg3Skp6Tlg5dGlaSEhOWWtNRzd0c0xfV1NjTjFldHE?oc=5",
-        "published": "2026-07-03T21:03:47+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 8,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [
       {
-        "id": "8ac61b57c47c",
-        "title": "금감원, 홈플러스 임차점포 대출 금융사 현황 점검",
-        "source": "뉴데일리",
-        "summary": "금감원, 홈플러스 임차점포 대출 금융사 현황 점검 뉴데일리",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94OXFxX2pYOVY3UnA2bl9GMk5tbVBMTGhmakZqamxWT3JuTUhuNGxidVJOU3hRajNuSFcyZVZSMnFMaG4za1pFZXJQWTlwNzh5aDgzMnNnTi1wV2xrYVQ0YzFpMWJyZW9YZUttVzVCMGs5QjdES0xWcmNIMNIBgAFBVV95cUxPTXZWdFJ4NDJzYXgtblhrVzJ1UFFCcmlNcGE2Y3pyTnQtUDRYYWJNUHFrYjhpZ3FUSHM4cWlfcHlZSno5QXBaVlJFNjRCY0ZmMWFZZF96OWtCZWROWEl0T0kwbjlvQlBOcERDcV9aQXFFT1RrMWctRUF4RDMtNVpONw?oc=5",
-        "published": "2026-07-07T18:16:58+09:00",
+        "id": "b022034ee7e1",
+        "title": "지방 지역 홈플러스 임차점포 구하기, 정부가 나선다…금감원, 대주단협의체 제안",
+        "source": "대한경제",
+        "summary": "지방 지역 홈플러스 임차점포 구하기, 정부가 나선다…금감원, 대주단협의체 제안 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFByYzJFLVdMeTBHekdkUHRVdnJsME1Tek5VUE8xUTA4OXh4dnEwUnpWZFdTRVhNZnJjQVZxNFVTck5VeVB2bzRZRkxTcnRnSktHVzd2aGFvWVpQaDBVV0VjRmNkQjAzT0ppcTZTT05wbF96R3Ji?oc=5",
+        "published": "2026-07-08T13:30:53+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 9,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "dc26b6e5bc55",
-        "title": "금감원, 홈플러스 대주단 간담회…임차점포 익스포저 점검",
-        "source": "이투데이",
-        "summary": "금감원, 홈플러스 대주단 간담회…임차점포 익스포저 점검 이투데이",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wR21VNmFPV1ZuZG9QUE1pN0lpblhST0djbUpsV0Ezb3M3NWtZSG1DaDkyS2NGQTFocVNtR29ydEs3b3lFVy05NzZrcUVmOHNOdHN3Uw?oc=5",
-        "published": "2026-07-07T16:03:00+09:00",
+        "id": "59dc6808c8f6",
+        "title": "금감원, 홈플러스 임차점포 대출 전수점검…은행·보험·저축은행까지 들여다본다",
+        "source": "뉴스1",
+        "summary": "금감원, 홈플러스 임차점포 대출 전수점검…은행·보험·저축은행까지 들여다본다 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTaVFNWEl6azh0dlM2NzRHTUJ4eXBJbHZnNmJGSzBSV2p4UzNrSDk1THRGT3FQcHh2WEdXSUNBYmViN1YzZTRXSjZrSEN3MTZ5eHlaVGl1cjRTZnc3c3hTeWxB?oc=5",
+        "published": "2026-07-07T18:32:53+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 16
       },
       {
         "id": "96d4655ee083",
@@ -110,10 +133,47 @@
         "published": "2026-07-07T15:50:44+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 4
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "shinhan_news": [
+      {
+        "id": "d7bacda7289f",
+        "title": "[금융 게시판] 은행권, 글로벌 조달 등 경영 다각화에 잰걸음…우리·KB·신한·농협·경남은행",
+        "source": "라이센스뉴스",
+        "summary": "[금융 게시판] 은행권, 글로벌 조달 등 경영 다각화에 잰걸음…우리·KB·신한·농협·경남은행 라이센스뉴스",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwb015ZXZCcjlFeHVfSzlwdTNuSG9GS3NhREhjTlZDd3dlSmFFWGFjaXNOTklFOU5vdElXZkRwUVhCWUlRUi14SFd1WHV1VEhlWEdaZ3FmOEpPNEh0MXNxaDd0NDYxNlFBYk5J?oc=5",
+        "published": "2026-07-08T18:32:41+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2aed7cfbc77e",
+        "title": "퇴직연금 1위 신한은행, 연금라운지 문 닫았다",
+        "source": "뉴스프리존",
+        "summary": "퇴직연금 1위 신한은행, 연금라운지 문 닫았다 뉴스프리존",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wb19NWjVIel9GMVFVdkpNNjdJOFIzZnk1ZWRoYmRmX3haVXQ2clFMWGhvTV9ZbkZoWTVoN01STzR1RDZtUmxWdjZENjdRQkNlRnozdWpseHRZQUp5Um9mRWVHU1V0WjY2dTU1WHd2aUJnZnRuanBv0gF3QVVfeXFMTjBvX01aNUh6X0YxUVV2Sk02N0k4UjNmeTVlZGhiZGZfeFpVdDZyUUxYaG9NX1luRmhZNWg3TVJPNHVENm1SbFZ2NkQ2N1FCQ2VGejN1amx4dFlBSnlSb2ZFZUdTVXRaNjZ1NTVYd3ZpQmdmdG5qcG8?oc=5",
+        "published": "2026-07-08T15:38:12+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "f4638c122fbe",
+        "title": "[금융권 소식] 우리은행ㆍ신한은행ㆍBNK금융그룹ㆍKB국민은행(7.8)",
+        "source": "위클리오늘",
+        "summary": "[금융권 소식] 우리은행ㆍ신한은행ㆍBNK금융그룹ㆍKB국민은행(7.8) 위클리오늘",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wMlVYbHJYSDZYMXdWbGEwUGZUNEpWWUNvMnhsWTlMZ00yYU02RU5xU0UyOVQtZnhvXzlLSGNaMG9IYmFqYnBfVGNXQzJRSVAySUtzZmR5UE9NRG02SkhUYjdadklmZ0dsZUdHRzN3?oc=5",
+        "published": "2026-07-08T13:37:37+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "ab9f8c9816d6",
         "title": "신한은행, '동전 카트'에서 '슈퍼SOL'까지…은행이 먼저 고객 찾아간다",
@@ -123,7 +183,7 @@
         "published": "2026-07-06T16:21:14+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
