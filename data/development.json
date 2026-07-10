@@ -1,14 +1,23 @@
 {
-  "updated_at": "2026-07-10T07:53:24.589545+09:00",
+  "updated_at": "2026-07-11T07:36:01.578994+09:00",
   "items": [
     {
-      "id": "6449d54f1aa7",
-      "title": "[위클리오늘] 포항시 오늘(7. 9)",
-      "source": "위클리오늘",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wRC1HX2ZaY0RUS0JQU1hSaGtXS0VmY1EwUVNXNnl4YWxwSkZtaHg0Vk80Y1BfN2tCeW5NY0tzUXBVcTAtUzAwemVrcTR3dXFTcTJkT0FvU1lmWUFldEpNMEZLTjBXaVEwaGZKOWlB?oc=5",
-      "published": "2026-07-09T18:38:37+09:00",
+      "id": "88967c5fa5f4",
+      "title": "“착공 1년 당겨라” LH 속도전…서리풀 주민들은 소송 나섰다",
+      "source": "데일리안",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPa2NEVzJNRWN6ei1od0Z5RUV4T2ZHLWhFTGY3N2NCUmdkX0dMUEhCOHJEaU5WYUNmbVJiZTZIUjNpRElfWWx0NWx3aUlOUllhV1h6UmkxTkFFZXg2d0YwbVlMTnJYdXo1ZzFreVFrQklJUXB4SVo2SWxTeDAtWU1pS1lKYlhycS1NMkUtekRGN2hsVVg1aGVrclpGTGN0MWp1U2ZyWnd2LVUwUFBJTlFZWGdjal9qQTlqdElMcFlINGpvNnpiRUVRUURveVJzem12TW5sVENCSmhDY1J1aFl3OXI2SVJxVFpGNU5LU0d5Ql9OYjBQTVoxVi1RdmpPemFhRHRyeGh30gGGAkFVX3lxTE9rY0RXMk1FY3p6LWh3RnlFRXhPZkctaEVMZjc3Y0JSZ2RfR0xQSEI4ckRpTlZhQ2ZtUmJlNkhSM2lESV9ZbHQ1bHdpSU5SWWFXWHpSaTFOQUVleDZ3RjBtWUxOclh1ejVnMWt5UWtCSUlRcHhJWjZJbFN4MC1ZTWlLWUpiWHJxLU0yRS16REY3aGxVWDVoZWtyWkZMY3QxanVTZnJad3YtVTBQUElOUVlYZ2NqX2pBOWp0SUxwWUg0am82emJFRVFRRG95UnN6bXZNbmxUQ0JKaENjUnVoWXc5cjZJUnFUWkY1TktTR3lCX05iMFBNWjFWLVF2ak96YWFEdHJ4aHc?oc=5",
+      "published": "2026-07-10T07:34:00+09:00",
+      "date": "2026-07-10",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "7644c17ccf0c",
+      "title": "광주 군공항 인근, 반도체 국가산단 조성 앞두고 대규모 토지거래허가구역 지정",
+      "source": "데일리스포츠한국",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1VZDFUa1lxaUtXYUNhbEhuSWNBRjJqNDRfYkM2OG1nelZwM082aWlZN21lZ1kwVHdLVC1weXhEM3YwNERJbEM5RGNaNzZ2XzlKMng1Z2N6UEE5TkRnM1FsN3pBYTVmeWZuYzh5QWIxVUh5Nk9NQ1hRX0xCRdIBf0FVX3lxTE1tRW9aem9JbWdUUWNWOTBQUVdNREpwZGlhMFlaWS1ya19wMUFuRk11dEtZVWZfcUJBa1VsS3VMVnV3RWU4cko4X0RJY254aHZJSENnX2V0MDl2YkNRVEJwWHpILWgwSldxaGRCQkplVlhRRFg1N0dNUHhKSGg0VmM?oc=5",
+      "published": "2026-07-09T22:13:44+09:00",
       "date": "2026-07-09",
-      "query": "도시재생 활성화계획"
+      "query": "반도체 국가산단"
     },
     {
       "id": "cda7f0547563",
@@ -27,15 +36,6 @@
       "published": "2026-07-09T17:45:03+09:00",
       "date": "2026-07-09",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "1903e6c903ae",
-      "title": "서울시, 압구정로데오역 인근 35층 복합개발",
-      "source": "센머니",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhbUh1WFppV3dOUUxkMktiNjZHS0F2Q3BlcEJkZEx3NUVnMUVCTEtmR21sNHd0bnpGN25zTGV4b0dENmVXQ0Q2ZE1aYjE2Z3JJcmE0M2tPR0MxbjM3dmdnNVFyeThFc3ItZDJzSg?oc=5",
-      "published": "2026-07-09T17:41:11+09:00",
-      "date": "2026-07-09",
-      "query": "복합개발 지구단위계획"
     },
     {
       "id": "c2c9a41da6b6",
@@ -101,6 +101,15 @@
       "query": "LH 지구지정"
     },
     {
+      "id": "cf516e4952f4",
+      "title": "서초동 1342번지 준주거지역으로...청담동 35층 복합시설 들어서",
+      "source": "매일일보",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yTXJuMTVMaUdicTJVOFRfWHhwMjQwaGtGU0NlRkhIek5rcXhhejZIeWV3TTBtV1RvcndwcG9yVlVraWVndi0zVThlWENUNVNITGo2UTNld2ZrNVJKcVp3U2NjN1U?oc=5",
+      "published": "2026-07-09T10:42:02+09:00",
+      "date": "2026-07-09",
+      "query": "복합개발 지구단위계획"
+    },
+    {
       "id": "686f9bff4eef",
       "title": "서울시, 서초동 1342번지일대 지구단위계획 결정변경안 수정가결",
       "source": "아시아투데이",
@@ -108,15 +117,6 @@
       "published": "2026-07-09T10:00:00+09:00",
       "date": "2026-07-09",
       "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "b95ac72dd498",
-      "title": "용인 반도체 산단 재검토론…“윤석열 졸속 추진” “전력·물 부족”",
-      "source": "한겨레",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JQ1psX0JONGxEZmVILUFNZXI1UkpxY2tUckVYMXltX1IxdnNwY2Y1NkNXRi1sQ2dxUGFiNHVwd05aVGEtY0xWUFdrbHRjXzR1MndpM1NEU1c4OFQ1R1hpd09qdGltTnpQak1IWA?oc=5",
-      "published": "2026-07-09T09:42:00+09:00",
-      "date": "2026-07-09",
-      "query": "반도체 국가산단"
     },
     {
       "id": "73497dcb9ee0",
