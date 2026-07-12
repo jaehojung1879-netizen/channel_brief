@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-06T15:20:17+09:00",
+  "as_of": "2026-07-13T08:55:01+09:00",
   "regions": {
     "강원 강릉시": {
       "sido": "강원",
@@ -18,7 +18,7 @@
           "income_pct": null,
           "market_pct": 42.0,
           "market_source": "population",
-          "branch_density_pct": 42.8
+          "branch_density_pct": 43.3
         },
         "weights": {
           "businesses": 0.45,
@@ -45,7 +45,7 @@
           "income_pct": null,
           "market_pct": 18.7,
           "market_source": "population",
-          "branch_density_pct": 20.7
+          "branch_density_pct": 21.2
         },
         "weights": {
           "businesses": 0.45,
@@ -99,7 +99,7 @@
           "income_pct": null,
           "market_pct": 13.5,
           "market_source": "population",
-          "branch_density_pct": 28.8
+          "branch_density_pct": 29.3
         },
         "weights": {
           "businesses": 0.45,
@@ -180,7 +180,7 @@
           "income_pct": null,
           "market_pct": 64.8,
           "market_source": "population",
-          "branch_density_pct": 71.6
+          "branch_density_pct": 72.1
         },
         "weights": {
           "businesses": 0.45,
@@ -234,7 +234,7 @@
           "income_pct": null,
           "market_pct": 1.0,
           "market_source": "population",
-          "branch_density_pct": 29.3
+          "branch_density_pct": 29.8
         },
         "weights": {
           "businesses": 0.45,
@@ -288,7 +288,7 @@
           "income_pct": null,
           "market_pct": 58.5,
           "market_source": "population",
-          "branch_density_pct": 67.3
+          "branch_density_pct": 67.8
         },
         "weights": {
           "businesses": 0.45,
@@ -396,7 +396,7 @@
           "income_pct": null,
           "market_pct": 96.4,
           "market_source": "population",
-          "branch_density_pct": 70.2
+          "branch_density_pct": 70.7
         },
         "weights": {
           "businesses": 0.45,
@@ -477,7 +477,7 @@
           "income_pct": null,
           "market_pct": 14.0,
           "market_source": "population",
-          "branch_density_pct": 43.3
+          "branch_density_pct": 43.8
         },
         "weights": {
           "businesses": 0.45,
@@ -504,7 +504,7 @@
           "income_pct": null,
           "market_pct": 60.6,
           "market_source": "population",
-          "branch_density_pct": 70.7
+          "branch_density_pct": 71.2
         },
         "weights": {
           "businesses": 0.45,
@@ -531,7 +531,7 @@
           "income_pct": null,
           "market_pct": 69.4,
           "market_source": "population",
-          "branch_density_pct": 48.1
+          "branch_density_pct": 48.6
         },
         "weights": {
           "businesses": 0.45,
@@ -558,7 +558,7 @@
           "income_pct": null,
           "market_pct": 39.9,
           "market_source": "population",
-          "branch_density_pct": 43.8
+          "branch_density_pct": 44.2
         },
         "weights": {
           "businesses": 0.45,
@@ -585,7 +585,7 @@
           "income_pct": null,
           "market_pct": 46.6,
           "market_source": "population",
-          "branch_density_pct": 52.4
+          "branch_density_pct": 52.9
         },
         "weights": {
           "businesses": 0.45,
@@ -693,7 +693,7 @@
           "income_pct": null,
           "market_pct": 86.5,
           "market_source": "population",
-          "branch_density_pct": 34.6
+          "branch_density_pct": 35.1
         },
         "weights": {
           "businesses": 0.45,
@@ -720,7 +720,7 @@
           "income_pct": null,
           "market_pct": 87.0,
           "market_source": "population",
-          "branch_density_pct": 29.8
+          "branch_density_pct": 30.3
         },
         "weights": {
           "businesses": 0.45,
@@ -801,7 +801,7 @@
           "income_pct": null,
           "market_pct": 90.7,
           "market_source": "population",
-          "branch_density_pct": 73.6
+          "branch_density_pct": 74.0
         },
         "weights": {
           "businesses": 0.45,
@@ -828,7 +828,7 @@
           "income_pct": null,
           "market_pct": 91.2,
           "market_source": "population",
-          "branch_density_pct": 52.9
+          "branch_density_pct": 53.4
         },
         "weights": {
           "businesses": 0.45,
@@ -855,7 +855,7 @@
           "income_pct": null,
           "market_pct": 98.4,
           "market_source": "population",
-          "branch_density_pct": 48.6
+          "branch_density_pct": 49.0
         },
         "weights": {
           "businesses": 0.45,
@@ -909,7 +909,7 @@
           "income_pct": null,
           "market_pct": 99.5,
           "market_source": "population",
-          "branch_density_pct": 58.2
+          "branch_density_pct": 58.7
         },
         "weights": {
           "businesses": 0.45,
@@ -1017,7 +1017,7 @@
           "income_pct": null,
           "market_pct": 83.4,
           "market_source": "population",
-          "branch_density_pct": 49.0
+          "branch_density_pct": 49.5
         },
         "weights": {
           "businesses": 0.45,
@@ -1044,7 +1044,7 @@
           "income_pct": null,
           "market_pct": 40.9,
           "market_source": "population",
-          "branch_density_pct": 35.1
+          "branch_density_pct": 35.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1098,7 +1098,7 @@
           "income_pct": null,
           "market_pct": 82.4,
           "market_source": "population",
-          "branch_density_pct": 35.6
+          "branch_density_pct": 36.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1125,7 +1125,7 @@
           "income_pct": null,
           "market_pct": 59.1,
           "market_source": "population",
-          "branch_density_pct": 60.6
+          "branch_density_pct": 61.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1233,7 +1233,7 @@
           "income_pct": null,
           "market_pct": 47.7,
           "market_source": "population",
-          "branch_density_pct": 44.2
+          "branch_density_pct": 44.7
         },
         "weights": {
           "businesses": 0.45,
@@ -1314,7 +1314,7 @@
           "income_pct": null,
           "market_pct": 97.9,
           "market_source": "population",
-          "branch_density_pct": 49.5
+          "branch_density_pct": 50.0
         },
         "weights": {
           "businesses": 0.45,
@@ -1341,7 +1341,7 @@
           "income_pct": null,
           "market_pct": 36.8,
           "market_source": "population",
-          "branch_density_pct": 21.2
+          "branch_density_pct": 21.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1395,7 +1395,7 @@
           "income_pct": null,
           "market_pct": 45.1,
           "market_source": "population",
-          "branch_density_pct": 44.7
+          "branch_density_pct": 45.2
         },
         "weights": {
           "businesses": 0.45,
@@ -1476,7 +1476,7 @@
           "income_pct": null,
           "market_pct": 35.2,
           "market_source": "population",
-          "branch_density_pct": 45.2
+          "branch_density_pct": 45.7
         },
         "weights": {
           "businesses": 0.45,
@@ -1503,7 +1503,7 @@
           "income_pct": null,
           "market_pct": 61.1,
           "market_source": "population",
-          "branch_density_pct": 61.1
+          "branch_density_pct": 61.5
         },
         "weights": {
           "businesses": 0.45,
@@ -1557,7 +1557,7 @@
           "income_pct": null,
           "market_pct": 94.8,
           "market_source": "population",
-          "branch_density_pct": 58.7
+          "branch_density_pct": 59.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1584,7 +1584,7 @@
           "income_pct": null,
           "market_pct": 95.3,
           "market_source": "population",
-          "branch_density_pct": 50.0
+          "branch_density_pct": 50.5
         },
         "weights": {
           "businesses": 0.45,
@@ -1611,7 +1611,7 @@
           "income_pct": null,
           "market_pct": 95.9,
           "market_source": "population",
-          "branch_density_pct": 30.3
+          "branch_density_pct": 30.8
         },
         "weights": {
           "businesses": 0.45,
@@ -1638,7 +1638,7 @@
           "income_pct": null,
           "market_pct": 45.6,
           "market_source": "population",
-          "branch_density_pct": 45.7
+          "branch_density_pct": 46.2
         },
         "weights": {
           "businesses": 0.45,
@@ -1692,7 +1692,7 @@
           "income_pct": null,
           "market_pct": 79.3,
           "market_source": "population",
-          "branch_density_pct": 67.8
+          "branch_density_pct": 68.3
         },
         "weights": {
           "businesses": 0.45,
@@ -1746,7 +1746,7 @@
           "income_pct": null,
           "market_pct": 29.0,
           "market_source": "population",
-          "branch_density_pct": 21.6
+          "branch_density_pct": 22.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1773,7 +1773,7 @@
           "income_pct": null,
           "market_pct": 63.7,
           "market_source": "population",
-          "branch_density_pct": 50.5
+          "branch_density_pct": 51.0
         },
         "weights": {
           "businesses": 0.45,
@@ -1800,7 +1800,7 @@
           "income_pct": null,
           "market_pct": 62.2,
           "market_source": "population",
-          "branch_density_pct": 59.1
+          "branch_density_pct": 59.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1827,7 +1827,7 @@
           "income_pct": null,
           "market_pct": 91.7,
           "market_source": "population",
-          "branch_density_pct": 30.8
+          "branch_density_pct": 31.2
         },
         "weights": {
           "businesses": 0.45,
@@ -1854,7 +1854,7 @@
           "income_pct": null,
           "market_pct": 92.2,
           "market_source": "population",
-          "branch_density_pct": 22.1
+          "branch_density_pct": 22.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1881,7 +1881,7 @@
           "income_pct": null,
           "market_pct": 92.7,
           "market_source": "population",
-          "branch_density_pct": 72.1
+          "branch_density_pct": 72.6
         },
         "weights": {
           "businesses": 0.45,
@@ -1962,7 +1962,7 @@
           "income_pct": null,
           "market_pct": 30.1,
           "market_source": "population",
-          "branch_density_pct": 22.6
+          "branch_density_pct": 23.1
         },
         "weights": {
           "businesses": 0.45,
@@ -1989,7 +1989,7 @@
           "income_pct": null,
           "market_pct": 54.9,
           "market_source": "population",
-          "branch_density_pct": 36.1
+          "branch_density_pct": 36.5
         },
         "weights": {
           "businesses": 0.45,
@@ -2016,7 +2016,7 @@
           "income_pct": null,
           "market_pct": 46.1,
           "market_source": "population",
-          "branch_density_pct": 36.5
+          "branch_density_pct": 37.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2043,7 +2043,7 @@
           "income_pct": null,
           "market_pct": 69.9,
           "market_source": "population",
-          "branch_density_pct": 68.3
+          "branch_density_pct": 68.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2070,7 +2070,7 @@
           "income_pct": null,
           "market_pct": 34.2,
           "market_source": "population",
-          "branch_density_pct": 37.0
+          "branch_density_pct": 37.5
         },
         "weights": {
           "businesses": 0.45,
@@ -2151,7 +2151,7 @@
           "income_pct": null,
           "market_pct": 35.8,
           "market_source": "population",
-          "branch_density_pct": 51.0
+          "branch_density_pct": 51.4
         },
         "weights": {
           "businesses": 0.45,
@@ -2178,7 +2178,7 @@
           "income_pct": null,
           "market_pct": 21.8,
           "market_source": "population",
-          "branch_density_pct": 31.2
+          "branch_density_pct": 31.7
         },
         "weights": {
           "businesses": 0.45,
@@ -2340,7 +2340,7 @@
           "income_pct": null,
           "market_pct": 48.2,
           "market_source": "population",
-          "branch_density_pct": 37.5
+          "branch_density_pct": 38.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2367,7 +2367,7 @@
           "income_pct": null,
           "market_pct": 51.8,
           "market_source": "population",
-          "branch_density_pct": 68.8
+          "branch_density_pct": 69.2
         },
         "weights": {
           "businesses": 0.45,
@@ -2394,7 +2394,7 @@
           "income_pct": null,
           "market_pct": 48.7,
           "market_source": "population",
-          "branch_density_pct": 23.1
+          "branch_density_pct": 23.6
         },
         "weights": {
           "businesses": 0.45,
@@ -2448,7 +2448,7 @@
           "income_pct": null,
           "market_pct": 47.2,
           "market_source": "population",
-          "branch_density_pct": 32.7
+          "branch_density_pct": 33.2
         },
         "weights": {
           "businesses": 0.45,
@@ -2475,7 +2475,7 @@
           "income_pct": null,
           "market_pct": 15.5,
           "market_source": "population",
-          "branch_density_pct": 61.5
+          "branch_density_pct": 62.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2502,7 +2502,7 @@
           "income_pct": null,
           "market_pct": 52.3,
           "market_source": "population",
-          "branch_density_pct": 64.4
+          "branch_density_pct": 64.9
         },
         "weights": {
           "businesses": 0.45,
@@ -2529,7 +2529,7 @@
           "income_pct": null,
           "market_pct": 25.4,
           "market_source": "population",
-          "branch_density_pct": 23.6
+          "branch_density_pct": 24.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2583,7 +2583,7 @@
           "income_pct": null,
           "market_pct": 30.6,
           "market_source": "population",
-          "branch_density_pct": 62.0
+          "branch_density_pct": 62.5
         },
         "weights": {
           "businesses": 0.45,
@@ -2610,7 +2610,7 @@
           "income_pct": null,
           "market_pct": 36.3,
           "market_source": "population",
-          "branch_density_pct": 53.4
+          "branch_density_pct": 53.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2637,7 +2637,7 @@
           "income_pct": null,
           "market_pct": 16.1,
           "market_source": "population",
-          "branch_density_pct": 64.9
+          "branch_density_pct": 65.4
         },
         "weights": {
           "businesses": 0.45,
@@ -2718,7 +2718,7 @@
           "income_pct": null,
           "market_pct": 31.1,
           "market_source": "population",
-          "branch_density_pct": 53.8
+          "branch_density_pct": 54.3
         },
         "weights": {
           "businesses": 0.45,
@@ -2745,7 +2745,7 @@
           "income_pct": null,
           "market_pct": 80.3,
           "market_source": "population",
-          "branch_density_pct": 54.3
+          "branch_density_pct": 54.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2772,7 +2772,7 @@
           "income_pct": null,
           "market_pct": 42.5,
           "market_source": "population",
-          "branch_density_pct": 33.2
+          "branch_density_pct": 33.7
         },
         "weights": {
           "businesses": 0.45,
@@ -2799,7 +2799,7 @@
           "income_pct": null,
           "market_pct": 38.9,
           "market_source": "population",
-          "branch_density_pct": 38.0
+          "branch_density_pct": 38.5
         },
         "weights": {
           "businesses": 0.45,
@@ -2826,7 +2826,7 @@
           "income_pct": null,
           "market_pct": 49.2,
           "market_source": "population",
-          "branch_density_pct": 54.8
+          "branch_density_pct": 55.3
         },
         "weights": {
           "businesses": 0.45,
@@ -2853,7 +2853,7 @@
           "income_pct": null,
           "market_pct": 16.6,
           "market_source": "population",
-          "branch_density_pct": 51.4
+          "branch_density_pct": 51.9
         },
         "weights": {
           "businesses": 0.45,
@@ -2880,7 +2880,7 @@
           "income_pct": null,
           "market_pct": 56.0,
           "market_source": "population",
-          "branch_density_pct": 62.5
+          "branch_density_pct": 63.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2934,7 +2934,7 @@
           "income_pct": null,
           "market_pct": 52.8,
           "market_source": "population",
-          "branch_density_pct": 55.3
+          "branch_density_pct": 55.8
         },
         "weights": {
           "businesses": 0.45,
@@ -2961,7 +2961,7 @@
           "income_pct": null,
           "market_pct": 40.4,
           "market_source": "population",
-          "branch_density_pct": 46.2
+          "branch_density_pct": 46.6
         },
         "weights": {
           "businesses": 0.45,
@@ -2988,7 +2988,7 @@
           "income_pct": null,
           "market_pct": 58.0,
           "market_source": "population",
-          "branch_density_pct": 59.6
+          "branch_density_pct": 60.1
         },
         "weights": {
           "businesses": 0.45,
@@ -3015,7 +3015,7 @@
           "income_pct": null,
           "market_pct": 26.4,
           "market_source": "population",
-          "branch_density_pct": 24.0
+          "branch_density_pct": 24.5
         },
         "weights": {
           "businesses": 0.45,
@@ -3042,7 +3042,7 @@
           "income_pct": null,
           "market_pct": 37.3,
           "market_source": "population",
-          "branch_density_pct": 46.6
+          "branch_density_pct": 47.1
         },
         "weights": {
           "businesses": 0.45,
@@ -3069,7 +3069,7 @@
           "income_pct": null,
           "market_pct": 43.5,
           "market_source": "population",
-          "branch_density_pct": 63.0
+          "branch_density_pct": 63.5
         },
         "weights": {
           "businesses": 0.45,
@@ -3096,7 +3096,7 @@
           "income_pct": null,
           "market_pct": 23.8,
           "market_source": "population",
-          "branch_density_pct": 24.5
+          "branch_density_pct": 25.0
         },
         "weights": {
           "businesses": 0.45,
@@ -3123,7 +3123,7 @@
           "income_pct": null,
           "market_pct": 31.6,
           "market_source": "population",
-          "branch_density_pct": 65.4
+          "branch_density_pct": 65.9
         },
         "weights": {
           "businesses": 0.45,
@@ -3231,7 +3231,7 @@
           "income_pct": null,
           "market_pct": 57.5,
           "market_source": "population",
-          "branch_density_pct": 69.2
+          "branch_density_pct": 69.7
         },
         "weights": {
           "businesses": 0.45,
@@ -3420,7 +3420,7 @@
           "income_pct": null,
           "market_pct": 59.6,
           "market_source": "population",
-          "branch_density_pct": 72.6
+          "branch_density_pct": 73.1
         },
         "weights": {
           "businesses": 0.45,
@@ -3487,7 +3487,7 @@
     "서울 마포구": {
       "sido": "서울",
       "sigungu": "마포구",
-      "branch_count": 42,
+      "branch_count": 41,
       "population": {
         "value": 356487,
         "period": "202606",
@@ -3703,7 +3703,7 @@
     "서울 용산구": {
       "sido": "서울",
       "sigungu": "용산구",
-      "branch_count": 33,
+      "branch_count": 34,
       "population": {
         "value": 199648,
         "period": "202606",
@@ -3757,7 +3757,7 @@
     "서울 종로구": {
       "sido": "서울",
       "sigungu": "종로구",
-      "branch_count": 55,
+      "branch_count": 54,
       "population": {
         "value": 136318,
         "period": "202606",
@@ -3840,13 +3840,13 @@
       "sigungu": "나성동",
       "branch_count": 3,
       "location_score": {
-        "value": 25.0,
+        "value": 25.5,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 25.0
+          "branch_density_pct": 25.5
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -3897,13 +3897,13 @@
       "sigungu": "보람동",
       "branch_count": 3,
       "location_score": {
-        "value": 25.5,
+        "value": 26.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 25.5
+          "branch_density_pct": 26.0
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -3973,13 +3973,13 @@
       "sigungu": "어진동",
       "branch_count": 3,
       "location_score": {
-        "value": 26.0,
+        "value": 26.4,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 26.0
+          "branch_density_pct": 26.4
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -3992,13 +3992,13 @@
       "sigungu": "조치원읍",
       "branch_count": 3,
       "location_score": {
-        "value": 26.4,
+        "value": 26.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 26.4
+          "branch_density_pct": 26.9
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4042,7 +4042,7 @@
           "income_pct": null,
           "market_pct": 49.7,
           "market_source": "population",
-          "branch_density_pct": 74.0
+          "branch_density_pct": 74.5
         },
         "weights": {
           "businesses": 0.45,
@@ -4069,7 +4069,7 @@
           "income_pct": null,
           "market_pct": 17.1,
           "market_source": "population",
-          "branch_density_pct": 38.5
+          "branch_density_pct": 38.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4096,7 +4096,7 @@
           "income_pct": null,
           "market_pct": 53.4,
           "market_source": "population",
-          "branch_density_pct": 38.9
+          "branch_density_pct": 39.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4123,7 +4123,7 @@
           "income_pct": null,
           "market_pct": 44.0,
           "market_source": "population",
-          "branch_density_pct": 39.4
+          "branch_density_pct": 39.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4150,7 +4150,7 @@
           "income_pct": null,
           "market_pct": 32.6,
           "market_source": "population",
-          "branch_density_pct": 39.9
+          "branch_density_pct": 40.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4177,7 +4177,7 @@
           "income_pct": null,
           "market_pct": 11.9,
           "market_source": "population",
-          "branch_density_pct": 26.9
+          "branch_density_pct": 27.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4192,13 +4192,13 @@
       "sigungu": "검단구",
       "branch_count": 9,
       "location_score": {
-        "value": 55.8,
+        "value": 56.2,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 55.8
+          "branch_density_pct": 56.2
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4223,7 +4223,7 @@
           "income_pct": null,
           "market_pct": 57.0,
           "market_source": "population",
-          "branch_density_pct": 56.2
+          "branch_density_pct": 56.7
         },
         "weights": {
           "businesses": 0.45,
@@ -4319,13 +4319,13 @@
       "sigungu": "서해구",
       "branch_count": 16,
       "location_score": {
-        "value": 74.5,
+        "value": 75.0,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 74.5
+          "branch_density_pct": 75.0
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4363,15 +4363,15 @@
     "인천 영종구": {
       "sido": "인천",
       "sigungu": "영종구",
-      "branch_count": 16,
+      "branch_count": 2,
       "location_score": {
-        "value": 75.0,
+        "value": 17.8,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 75.0
+          "branch_density_pct": 17.8
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4384,13 +4384,13 @@
       "sigungu": "제물포구",
       "branch_count": 11,
       "location_score": {
-        "value": 63.5,
+        "value": 63.9,
         "components": {
           "businesses_pct": null,
           "income_pct": null,
           "market_pct": null,
           "market_source": null,
-          "branch_density_pct": 63.5
+          "branch_density_pct": 63.9
         },
         "weights": {
           "branch_density_fallback": 1.0
@@ -4434,7 +4434,7 @@
           "income_pct": null,
           "market_pct": 68.9,
           "market_source": "population",
-          "branch_density_pct": 65.9
+          "branch_density_pct": 66.3
         },
         "weights": {
           "businesses": 0.45,
@@ -4461,7 +4461,7 @@
           "income_pct": null,
           "market_pct": 50.3,
           "market_source": "population",
-          "branch_density_pct": 40.4
+          "branch_density_pct": 40.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4488,7 +4488,7 @@
           "income_pct": null,
           "market_pct": 17.6,
           "market_source": "population",
-          "branch_density_pct": 47.1
+          "branch_density_pct": 47.6
         },
         "weights": {
           "businesses": 0.45,
@@ -4515,7 +4515,7 @@
           "income_pct": null,
           "market_pct": 53.9,
           "market_source": "population",
-          "branch_density_pct": 63.9
+          "branch_density_pct": 64.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4542,7 +4542,7 @@
           "income_pct": null,
           "market_pct": 26.9,
           "market_source": "population",
-          "branch_density_pct": 56.7
+          "branch_density_pct": 57.2
         },
         "weights": {
           "businesses": 0.45,
@@ -4569,7 +4569,7 @@
           "income_pct": null,
           "market_pct": 51.3,
           "market_source": "population",
-          "branch_density_pct": 57.2
+          "branch_density_pct": 57.7
         },
         "weights": {
           "businesses": 0.45,
@@ -4596,7 +4596,7 @@
           "income_pct": null,
           "market_pct": 14.5,
           "market_source": "population",
-          "branch_density_pct": 17.8
+          "branch_density_pct": 18.3
         },
         "weights": {
           "businesses": 0.45,
@@ -4677,7 +4677,7 @@
           "income_pct": null,
           "market_pct": 23.3,
           "market_source": "population",
-          "branch_density_pct": 18.3
+          "branch_density_pct": 18.8
         },
         "weights": {
           "businesses": 0.45,
@@ -4704,7 +4704,7 @@
           "income_pct": null,
           "market_pct": 55.4,
           "market_source": "population",
-          "branch_density_pct": 47.6
+          "branch_density_pct": 48.1
         },
         "weights": {
           "businesses": 0.45,
@@ -4731,7 +4731,7 @@
           "income_pct": null,
           "market_pct": 84.5,
           "market_source": "population",
-          "branch_density_pct": 40.9
+          "branch_density_pct": 41.3
         },
         "weights": {
           "businesses": 0.45,
@@ -4758,7 +4758,7 @@
           "income_pct": null,
           "market_pct": 85.0,
           "market_source": "population",
-          "branch_density_pct": 66.3
+          "branch_density_pct": 66.8
         },
         "weights": {
           "businesses": 0.45,
@@ -4785,7 +4785,7 @@
           "income_pct": null,
           "market_pct": 24.4,
           "market_source": "population",
-          "branch_density_pct": 18.8
+          "branch_density_pct": 19.2
         },
         "weights": {
           "businesses": 0.45,
@@ -4812,7 +4812,7 @@
           "income_pct": null,
           "market_pct": 39.4,
           "market_source": "population",
-          "branch_density_pct": 33.7
+          "branch_density_pct": 34.1
         },
         "weights": {
           "businesses": 0.45,
@@ -4839,7 +4839,7 @@
           "income_pct": null,
           "market_pct": 76.7,
           "market_source": "population",
-          "branch_density_pct": 51.9
+          "branch_density_pct": 52.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4866,7 +4866,7 @@
           "income_pct": null,
           "market_pct": 4.1,
           "market_source": "population",
-          "branch_density_pct": 19.2
+          "branch_density_pct": 19.7
         },
         "weights": {
           "businesses": 0.45,
@@ -4893,7 +4893,7 @@
           "income_pct": null,
           "market_pct": 22.8,
           "market_source": "population",
-          "branch_density_pct": 27.4
+          "branch_density_pct": 27.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4947,7 +4947,7 @@
           "income_pct": null,
           "market_pct": 28.5,
           "market_source": "population",
-          "branch_density_pct": 41.3
+          "branch_density_pct": 41.8
         },
         "weights": {
           "businesses": 0.45,
@@ -4974,7 +4974,7 @@
           "income_pct": null,
           "market_pct": 38.3,
           "market_source": "population",
-          "branch_density_pct": 31.7
+          "branch_density_pct": 32.2
         },
         "weights": {
           "businesses": 0.45,
@@ -5001,7 +5001,7 @@
           "income_pct": null,
           "market_pct": 20.2,
           "market_source": "population",
-          "branch_density_pct": 27.9
+          "branch_density_pct": 28.4
         },
         "weights": {
           "businesses": 0.45,
@@ -5055,7 +5055,7 @@
           "income_pct": null,
           "market_pct": 37.8,
           "market_source": "population",
-          "branch_density_pct": 41.8
+          "branch_density_pct": 42.3
         },
         "weights": {
           "businesses": 0.45,
@@ -5109,7 +5109,7 @@
           "income_pct": null,
           "market_pct": 64.2,
           "market_source": "population",
-          "branch_density_pct": 69.7
+          "branch_density_pct": 70.2
         },
         "weights": {
           "businesses": 0.45,
@@ -5136,7 +5136,7 @@
           "income_pct": null,
           "market_pct": 13.0,
           "market_source": "population",
-          "branch_density_pct": 19.7
+          "branch_density_pct": 20.2
         },
         "weights": {
           "businesses": 0.45,
@@ -5190,7 +5190,7 @@
           "income_pct": null,
           "market_pct": 54.4,
           "market_source": "population",
-          "branch_density_pct": 73.1
+          "branch_density_pct": 73.6
         },
         "weights": {
           "businesses": 0.45,
@@ -5244,7 +5244,7 @@
           "income_pct": null,
           "market_pct": 27.5,
           "market_source": "population",
-          "branch_density_pct": 32.2
+          "branch_density_pct": 32.7
         },
         "weights": {
           "businesses": 0.45,
@@ -5298,7 +5298,7 @@
           "income_pct": null,
           "market_pct": 21.2,
           "market_source": "population",
-          "branch_density_pct": 34.1
+          "branch_density_pct": 34.6
         },
         "weights": {
           "businesses": 0.45,
@@ -5325,7 +5325,7 @@
           "income_pct": null,
           "market_pct": 33.7,
           "market_source": "population",
-          "branch_density_pct": 42.3
+          "branch_density_pct": 42.8
         },
         "weights": {
           "businesses": 0.45,
@@ -5352,7 +5352,7 @@
           "income_pct": null,
           "market_pct": 2.1,
           "market_source": "population",
-          "branch_density_pct": 20.2
+          "branch_density_pct": 20.7
         },
         "weights": {
           "businesses": 0.45,
@@ -5406,7 +5406,7 @@
           "income_pct": null,
           "market_pct": 88.1,
           "market_source": "population",
-          "branch_density_pct": 60.1
+          "branch_density_pct": 60.6
         },
         "weights": {
           "businesses": 0.45,
@@ -5433,7 +5433,7 @@
           "income_pct": null,
           "market_pct": 88.6,
           "market_source": "population",
-          "branch_density_pct": 28.4
+          "branch_density_pct": 28.8
         },
         "weights": {
           "businesses": 0.45,
@@ -5460,7 +5460,7 @@
           "income_pct": null,
           "market_pct": 89.1,
           "market_source": "population",
-          "branch_density_pct": 66.8
+          "branch_density_pct": 67.3
         },
         "weights": {
           "businesses": 0.45,
@@ -5487,7 +5487,7 @@
           "income_pct": null,
           "market_pct": 89.6,
           "market_source": "population",
-          "branch_density_pct": 71.2
+          "branch_density_pct": 71.6
         },
         "weights": {
           "businesses": 0.45,
@@ -5514,7 +5514,7 @@
           "income_pct": null,
           "market_pct": 43.0,
           "market_source": "population",
-          "branch_density_pct": 57.7
+          "branch_density_pct": 58.2
         },
         "weights": {
           "businesses": 0.45,
@@ -5526,13 +5526,18 @@
     }
   },
   "diagnostics": {
-    "source": "r_one",
-    "kosis_key": "skip",
-    "r_one_key": "set",
+    "source": "kosis",
+    "kosis_key": "set",
+    "r_one_key": "skip",
     "region_count": 209,
-    "seoul_key": "skip",
-    "population_ok": 194,
-    "population_fail": 15,
+    "seoul_key": "set",
+    "kosis_pop_error": "kosis_pop_request_failed: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/Param/statisticsParameterData.do?orgId=101&tblId=DT_1B040A3&itmId=T20&objL1=ALL&format=json&jsonVD=Y&prdSe=M&newEstPrdCnt=1&apiKey=NzcxNjE3ODE1YmMwZjI3YTJmNWFlN2ZiZmMwMTFjNzA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='kosis.kr', port=443) at 0x7f20a3dfd5d0>, 'Connection to kosis.kr timed out. (connect timeout=60)'))\"))",
+    "kosis_biz_error": "kosis_biz_request_failed: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/Param/statisticsParameterData.do?orgId=101&tblId=DT_1K52001&itmId=T01&objL1=ALL&format=json&jsonVD=Y&prdSe=Y&newEstPrdCnt=1&apiKey=NzcxNjE3ODE1YmMwZjI3YTJmNWFlN2ZiZmMwMTFjNzA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='kosis.kr', port=443) at 0x7f20a3dfe590>, 'Connection to kosis.kr timed out. (connect timeout=60)'))\"))",
+    "kosis_income_error": "kosis_income_request_failed: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/Param/statisticsParameterData.do?orgId=101&tblId=DT_1L9H001&itmId=T01&objL1=ALL&format=json&jsonVD=Y&prdSe=Y&newEstPrdCnt=1&apiKey=NzcxNjE3ODE1YmMwZjI3YTJmNWFlN2ZiZmMwMTFjNzA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='kosis.kr', port=443) at 0x7f20a3dffe10>, 'Connection to kosis.kr timed out. (connect timeout=60)'))\"))",
+    "seoul_warn": "seoul_init_xml_error: ERROR-332: 요청종료위치 값을 확인하십시오.\n요청인자 중 END_INDEX를 확인하십시오.",
+    "seoul_districts": 0,
+    "population_ok": 0,
+    "population_fail": 209,
     "businesses_ok": 0,
     "businesses_fail": 0,
     "income_ok": 0,
