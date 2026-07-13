@@ -1,42 +1,90 @@
 {
-  "updated_at": "2026-07-13T07:26:56.266644+09:00",
+  "updated_at": "2026-07-14T07:31:14.038186+09:00",
   "headline": {
-    "id": "11555a685fa7",
-    "title": "'점포 축소 대안' 은행 대리업 첫 발…불완전판매 해소 관건",
-    "source": "뉴스토마토",
-    "summary": "'점포 축소 대안' 은행 대리업 첫 발…불완전판매 해소 관건 뉴스토마토",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RSE5nc1V0dkdTc1dUR1lkTzJOUDd5SHo4Nk9FZ0k4REpfVnk4dHFRaWRueTNlNlNld1VhQzFGbTZTcGtPNEFFZm53cEV4WEEtczRERFAzblNtQkhBS0RPYw?oc=5",
-    "published": "2026-07-10T15:02:34+09:00",
+    "id": "4e578049d642",
+    "title": "금융당국 제동에도 은행 점포 축소 재개…은행대리업, 지점 통폐합 명분될까 ‘촉각’",
+    "source": "조선일보",
+    "summary": "금융당국 제동에도 은행 점포 축소 재개…은행대리업, 지점 통폐합 명분될까 ‘촉각’ 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcTR2SDE4bnd6N1YwTDNaQTJVV1FKUl9oRWtWd0JIWkMwWkx1eHNXRVJvVFV4RXRSbl81NEExdDE1dHZvZWNjVzVWblQ2TXZPSlozQ0ozUnU3cXk3QVRuR1dlV19GR1FLRFM3RDFPZGU0ckE2dVFPWjEzWEF6aVN5S01YbGwyMTdRWWQ4d1FB?oc=5",
+    "published": "2026-07-13T09:58:46+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 14.0,
+    "rank": 2,
+    "_score": 24.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "218b4253ccbc",
-        "title": "은행 점포 줄일때 92곳 늘려…지역 금융망 지켜낸 농협",
-        "source": "서울경제신문",
-        "summary": "은행 점포 줄일때 92곳 늘려…지역 금융망 지켜낸 농협 서울경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10Y2NkUWt5S0p1bjdjZFl2RjZNMFI0MnZGUkxlTW5PZFBKZGt3ZE1DTV94NzB1eFdSYTl1cjRLcXVTV1pUcnJaVU1xS2J2UkdzUG5v0gFTQVVfeXFMTXRjY2RRa3lLSnVuN2NkWXZGNk0wUjQydkZSTGVNbk9kUEpka3dkTUNNX3g3MHV4V1JhOXVyNEtxdVNXWlRyclpVTXFLYnZSR3NQbm8?oc=5",
-        "published": "2026-07-10T17:37:19+09:00",
+        "id": "4807c9825bad",
+        "title": "“은행 점포 1개 늘면 신생기업 30개 증가한다”",
+        "source": "중기이코노미",
+        "summary": "“은행 점포 1개 늘면 신생기업 30개 증가한다” 중기이코노미",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JSVltRm9fbFM5Y3FaODFhd2IzVnA2RkdBeGZ4UGNiMVRUTGRHMWVEOHo0Wmc3bXlKbDhLbHc1N2tRT1NubDF5d3VMT3ZPMTBVd256NzlvR2w2Mk9LWjRLMk12OEg2VXpxT2c?oc=5",
+        "published": "2026-07-14T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "85ad54221a9f",
-        "title": "“은행 지역 점포 문 닫자 희소성 커졌다”…시골 우체국서 4대 은행 대출 가능",
-        "source": "이코노미스트",
-        "summary": "“은행 지역 점포 문 닫자 희소성 커졌다”…시골 우체국서 4대 은행 대출 가능 이코노미스트",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UZFVJR2VuRlBreWxBb1hqQ3hUOVRqcWZFRUE2a0lOZWpUNlVRVFpOamNVZkRwaHF1aFpHcEJDQW9YZ0YyR1RXMzl6YW9QTlFCQ0g5cUpJejNvdmhLendQLTl3?oc=5",
-        "published": "2026-07-10T15:00:00+09:00",
+        "id": "06cb3f1904c1",
+        "title": "4대 은행, 점포 없는 지역도 우체국 통해 대출",
+        "source": "OBS경인TV",
+        "summary": "4대 은행, 점포 없는 지역도 우체국 통해 대출 OBS경인TV",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yMUh1REx5UTl5Tm55X0lrT2hxQVFrX2k0RjBFYjA5Y0tMU0NqUGVQcmpyVVBaUlhaY3JVQW92M0VzbjZyY3FhbmU5Uklqa3hZNXhfT2RfRllCcjNzY2VsN3FjcFlSQVRMb1NTUTdB?oc=5",
+        "published": "2026-07-13T16:35:39+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "dd957a115bc8",
+        "title": "포용금융 압박에 은행 점포 통폐합 계획도 올스톱",
+        "source": "뉴스토마토",
+        "summary": "포용금융 압박에 은행 점포 통폐합 계획도 올스톱 뉴스토마토",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FTnJpWlhyd0w2VUhxck05WnVoaE15YUNPXzNmVnNWNmVkeUdpR05nQW9qVmdlZUZoZDN1NkNkWjAzbjFpNjlMUWx5ZE9ES1d1eGg1Q1JPcWJ2NHhVSlhqag?oc=5",
+        "published": "2026-07-13T14:38:15+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "513f7eb24f96",
+        "title": "“은행 점포 없어도 괜찮습니다”…우체국서 4대은행 대출받는다",
+        "source": "v.daum.net",
+        "summary": "“은행 점포 없어도 괜찮습니다”…우체국서 4대은행 대출받는다 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zNWVjMi1LSlU2NXFKWVpFRWxCVHhFTF9UWS1rNnFXQjlTbFVjbTJ4NGpGMWZpanNOQUM2bllET2VFTjBsZzU2STVUbk81RDQwX2pQSA?oc=5",
+        "published": "2026-07-13T13:50:44+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "5cc3783c143a",
+        "title": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’",
+        "source": "한국보험신문",
+        "summary": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’ 한국보험신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaVUtPRmFMMVFPVUpoTF9DbzNXLVE2S2NGVDRlSTdGNGlTbFNqM0ZrLUl6QWF0WW84LXZoNmZGR2M4NTdQcDlHVW90NnFsLUg0cGNNUXk2MUZjMXN0MklhR0lzMHRFU2xVZTQw0gFvQVVfeXFMT21feDUxRGNTN0VjMzZOWG1FaVFJOXoxUklydTdYeVNGOVFkcFpYMkZNcm82RTFUa0NzQ0QyMFNDRWNSTzBWQnB6a3RKVjVDeW14WkdIc200MmNLNDNrWms2OE9sTkRIdkNlZHpoNUxv?oc=5",
+        "published": "2026-07-13T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
         "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "11555a685fa7",
+        "title": "'점포 축소 대안' 은행 대리업 첫 발…불완전판매 해소 관건",
+        "source": "뉴스토마토",
+        "summary": "'점포 축소 대안' 은행 대리업 첫 발…불완전판매 해소 관건 뉴스토마토",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RSE5nc1V0dkdTc1dUR1lkTzJOUDd5SHo4Nk9FZ0k4REpfVnk4dHFRaWRueTNlNlNld1VhQzFGbTZTcGtPNEFFZm53cEV4WEEtczRERFAzblNtQkhBS0RPYw?oc=5",
+        "published": "2026-07-10T15:02:34+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -46,21 +94,9 @@
         "summary": "KB국민은행 ‘지점→출장소’ 격하 추진 “금융 서비스 양극화 우려” 강원일보",
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90YW90N2tlRlFjbW00cUJTdlhvb1IwOEEzQmlRaTRvYW92UUFpX2x5LVFULWkwTWxDcXB3YUwzYUR4dVlNeTc0Y3daX3NUS2dDWnliaFhpOUhfYjIzeEI1T0hQazVrQmY2WXN6ajJFVkliSE5GMHp2bg?oc=5",
         "published": "2026-07-09T18:26:47+09:00",
-        "query": "은행 점포",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 14,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "78a1b05fa0e4",
-        "title": "사라진 은행 점포 우체국이 메운다…금융위, 지역 포용금융 재편",
-        "source": "포쓰저널",
-        "summary": "사라진 은행 점포 우체국이 메운다…금융위, 지역 포용금융 재편 포쓰저널",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lMUJmZ3NNS2NKRW4zWHlRMzFiUzk1c1ZleVpVbmVZNS1tX0dHQUxLb0ZOLWN4MWE3T19mWHBjR2NiLXNtT2lUWmJpdFhtS1pLa0diSEE5WWljeXdPcmNySFktWFE?oc=5",
-        "published": "2026-07-09T16:11:33+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 7,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +108,7 @@
         "published": "2026-07-09T15:33:00+09:00",
         "query": "은행 공동점포",
         "engine": "google",
-        "rank": 14,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,49 +120,35 @@
         "published": "2026-07-09T10:41:57+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "ab0503d1f4cb",
-        "title": "광주은행, 점포 없는 곡성·구례·진도군에 신설 검토",
-        "source": "v.daum.net",
-        "summary": "광주은행, 점포 없는 곡성·구례·진도군에 신설 검토 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SWEpvZUpnOFZTdkpmYXptc0pweWlWaEk1LUFsRl80TlIyVTd2bV9GNll0UTFRa2ctbjdwVUlSUGNDOE8tTHZybTBCaWVCTjg?oc=5",
-        "published": "2026-07-09T10:09:36+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "22f7be2384bb",
-        "title": "우리은행, 해외 지점서 첫 외화채 발행…2.7억달러 조달 - 머니투데이",
-        "source": "머니투데이",
-        "summary": "우리은행, 해외 지점서 첫 외화채 발행…2.7억달러 조달 - 머니투데이 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5icWRiNzFNdXRINFU2T3pJdjZuTTZPR3NXSkFaMFBVMzNsbmhkQjdNYW96VkUzNjU4aWozdEpoUThTMkxaR0diMzVwOTJmRDRvU2ZramRiSGJ2NGY0aVU5dlVpUjJRLU5nLVgw0gFwQVVfeXFMTWdsZFFTUDlRa0JPMEZlTEx3UEg4V1FfMkhRNHBKS1ZNak5HdFJkajh2SGJQOVFlZ0ZBbUQtYnhEejNuLUxEekc3QUNDMXMwQzBldVZ4OXNmdXl1YjhQYXRGX3BJYnhraHplRWxzOXRDVA?oc=5",
-        "published": "2026-07-08T11:08:40+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      }
-    ],
-    "policy_news": [
-      {
-        "id": "1841ccf4b5ac",
-        "title": "지방 지역 홈플러스 임차점포 구하기, 정부가 나선다…금감원, 대주단협의체 제안",
-        "source": "대한경제",
-        "summary": "지방 지역 홈플러스 임차점포 구하기, 정부가 나선다…금감원, 대주단협의체 제안 대한경제",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FcDdqaEFqUnNYa09reWtwekExVVdMM21mYk5xQXlYZ2FiNEo2TVY5aTBjZDFQeFpfbEdGbTFfZnB0UDVfNmtGUldnVDVHYXcwc1dtVUVFTmZxTGRFbjA3M3RIVHZXYUVmNlMyc2pRb2xDOXc?oc=5",
-        "published": "2026-07-08T14:03:02+09:00",
-        "query": "금감원 점포",
-        "engine": "google",
         "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
+    "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "47b18501e3db",
+        "title": "농어촌 우체국서 국민·신한은행 대출 받는다",
+        "source": "v.daum.net",
+        "summary": "농어촌 우체국서 국민·신한은행 대출 받는다 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQUWlBdDFsclc1MWxobGhjMDJFdWQ1S20yLU01ZDIzenpZM0lsT0g0S2wwVFE5dEZERHFIV042czhqZV81RDBZekoxbkw0b1E?oc=5",
+        "published": "2026-07-13T15:00:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "5cc3783c143a",
+        "title": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’",
+        "source": "한국보험신문",
+        "summary": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’ 한국보험신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaVUtPRmFMMVFPVUpoTF9DbzNXLVE2S2NGVDRlSTdGNGlTbFNqM0ZrLUl6QWF0WW84LXZoNmZGR2M4NTdQcDlHVW90NnFsLUg0cGNNUXk2MUZjMXN0MklhR0lzMHRFU2xVZTQw0gFvQVVfeXFMT21feDUxRGNTN0VjMzZOWG1FaVFJOXoxUklydTdYeVNGOVFkcFpYMkZNcm82RTFUa0NzQ0QyMFNDRWNSTzBWQnB6a3RKVjVDeW14WkdIc200MmNLNDNrWms2OE9sTkRIdkNlZHpoNUxv?oc=5",
+        "published": "2026-07-13T00:00:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1
+      },
       {
         "id": "7028abd67684",
         "title": "신한은행, 영업 전 준비업무 근로시간 제외 논란",
@@ -136,7 +158,7 @@
         "published": "2026-07-10T13:40:33+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -148,19 +170,7 @@
         "published": "2026-07-08T15:33:13+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "ab9f8c9816d6",
-        "title": "신한은행, '동전 카트'에서 '슈퍼SOL'까지…은행이 먼저 고객 찾아간다",
-        "source": "한국경제",
-        "summary": "신한은행, '동전 카트'에서 '슈퍼SOL'까지…은행이 먼저 고객 찾아간다 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5eW44M0lrZFhwRm9udjRzclNQeGtER3VSa0dmZHZRQWxfT0ZwVHNIdS0wdVBwbWU4cHMzSU1od2NIbGJOcXpnVGk2SlJ5YWVWZEx2X1loU09IUdIBVEFVX3lxTE1YZC0weU9PaVNsMW1jSk1sUnhEcktOSHVENUowYkducVQ0eGdtWWF0a1lTYkNtZHZpWVFpOTZKNG1JZVhCNHN4SmdKODRyWnRNc0laSw?oc=5",
-        "published": "2026-07-06T16:21:14+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 1,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
