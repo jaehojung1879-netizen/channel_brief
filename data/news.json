@@ -1,30 +1,42 @@
 {
-  "updated_at": "2026-07-15T07:33:17.146366+09:00",
+  "updated_at": "2026-07-16T07:33:01.012893+09:00",
   "headline": {
-    "id": "70dc3cd2af67",
-    "title": "문 닫는 은행 746곳, 우체국이 메우지만…\"점포 폐쇄 더 부추길 수도\"",
-    "source": "브릿지경제",
-    "summary": "문 닫는 은행 746곳, 우체국이 메우지만…\"점포 폐쇄 더 부추길 수도\" 브릿지경제",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11b01xdkJNdzVoUG1UMXNCaTJTQ1E5UjlLX0loeWk2VEtZWXp5dTVuSFpRc2dwNVlISTR1VmdKZVIyT0dCSHU2Z1ZxQjh3eklpelVab1ZNem1kUQ?oc=5",
-    "published": "2026-07-14T15:24:00+09:00",
+    "id": "5cc3783c143a",
+    "title": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’",
+    "source": "한국보험신문",
+    "summary": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’ 한국보험신문",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaVUtPRmFMMVFPVUpoTF9DbzNXLVE2S2NGVDRlSTdGNGlTbFNqM0ZrLUl6QWF0WW84LXZoNmZGR2M4NTdQcDlHVW90NnFsLUg0cGNNUXk2MUZjMXN0MklhR0lzMHRFU2xVZTQw0gFvQVVfeXFMT21feDUxRGNTN0VjMzZOWG1FaVFJOXoxUklydTdYeVNGOVFkcFpYMkZNcm82RTFUa0NzQ0QyMFNDRWNSTzBWQnB6a3RKVjVDeW14WkdIc200MmNLNDNrWms2OE9sTkRIdkNlZHpoNUxv?oc=5",
+    "published": "2026-07-13T00:00:00+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 24.0,
+    "rank": 9,
+    "_score": 21.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "89e3a38fa39f",
-        "title": "우리은행, 지점별 주담대 한도 30억→10억으로 축소",
-        "source": "서울경제",
-        "summary": "우리은행, 지점별 주담대 한도 30억→10억으로 축소 서울경제",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XVlFydkxWS0U3RWNpUTlOZnlJSTRwcXNCSWRDTG5rcDV3aHc4dnJNanVVTENxdnpSMkY1NGtvSEpkYU1Xb3ppSkhiTHo2enY0YkHSAVNBVV95cUxQQmM2VjJCb0dGM0l5ek1NMnBTU1ZZVmV2Z2FnaWlnNGVSaTV0T21keDFGT2VGb2p4d1pGTVRoa1FYaHk3TEhCN1EybDFwbVEwZm1XQQ?oc=5",
-        "published": "2026-07-14T23:34:01+09:00",
+        "id": "622d2f86ad02",
+        "title": "은행권 ‘대출 조이기’ 확산…우리은행, 지점당 주담대 한도 30억→10억 축소",
+        "source": "녹색경제신문",
+        "summary": "은행권 ‘대출 조이기’ 확산…우리은행, 지점당 주담대 한도 30억→10억 축소 녹색경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jdG4xbzNvZ21WbzVlQ0Iwc0VvN0R3UVFwRlBFRTYxNTVETjB2a3NVTjJiU2NKaFJkc1d1bkpvTGNKWEtfdnFBNDBuNm5icHBfaHdzREk3YmlkLWF2bkFCZWR3bnF2R3Nv?oc=5",
+        "published": "2026-07-15T17:43:36+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "70dc3cd2af67",
+        "title": "문 닫는 은행 746곳, 우체국이 메우지만…\"점포 폐쇄 더 부추길 수도\"",
+        "source": "브릿지경제",
+        "summary": "문 닫는 은행 746곳, 우체국이 메우지만…\"점포 폐쇄 더 부추길 수도\" 브릿지경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11b01xdkJNdzVoUG1UMXNCaTJTQ1E5UjlLX0loeWk2VEtZWXp5dTVuSFpRc2dwNVlISTR1VmdKZVIyT0dCSHU2Z1ZxQjh3eklpelVab1ZNem1kUQ?oc=5",
+        "published": "2026-07-14T15:24:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 14,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +48,7 @@
         "published": "2026-07-14T15:04:46+09:00",
         "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +60,7 @@
         "published": "2026-07-14T10:57:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +72,7 @@
         "published": "2026-07-14T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +84,7 @@
         "published": "2026-07-13T14:38:15+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 6,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -112,18 +124,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "5cc3783c143a",
-        "title": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’",
-        "source": "한국보험신문",
-        "summary": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’ 한국보험신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaVUtPRmFMMVFPVUpoTF9DbzNXLVE2S2NGVDRlSTdGNGlTbFNqM0ZrLUl6QWF0WW84LXZoNmZGR2M4NTdQcDlHVW90NnFsLUg0cGNNUXk2MUZjMXN0MklhR0lzMHRFU2xVZTQw0gFvQVVfeXFMT21feDUxRGNTN0VjMzZOWG1FaVFJOXoxUklydTdYeVNGOVFkcFpYMkZNcm82RTFUa0NzQ0QyMFNDRWNSTzBWQnB6a3RKVjVDeW14WkdIc200MmNLNDNrWms2OE9sTkRIdkNlZHpoNUxv?oc=5",
-        "published": "2026-07-13T00:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 11,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "59d31f776b1e",
         "title": "우체국이 은행 창구로…점포 축소 가속은 숙제",
         "source": "쿠키뉴스",
@@ -133,28 +133,6 @@
         "query": "은행 점포",
         "engine": "google",
         "rank": 3
-      },
-      {
-        "id": "2bfe7bfed5ce",
-        "title": "점포 문 닫고 사람 줄이는 저축은행…영업망 재편 속 몸집 줄이기",
-        "source": "신아일보",
-        "summary": "점포 문 닫고 사람 줄이는 저축은행…영업망 재편 속 몸집 줄이기 신아일보",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51dWpNczRvSnVWazZsNGJPZk1aaDJrcV9HOG95Q0tvbnFoZ2ZRSGRCYmppdmNkNk5WWFZlZHd4VE1MenN4VjNJT3FmRFFxV2V0aW9vbmJabmMxMVZRaXFRblhZdUhnNkJZSGdHbk1ueVg?oc=5",
-        "published": "2026-07-12T08:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 8
-      },
-      {
-        "id": "11555a685fa7",
-        "title": "'점포 축소 대안' 은행 대리업 첫 발…불완전판매 해소 관건",
-        "source": "뉴스토마토",
-        "summary": "'점포 축소 대안' 은행 대리업 첫 발…불완전판매 해소 관건 뉴스토마토",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RSE5nc1V0dkdTc1dUR1lkTzJOUDd5SHo4Nk9FZ0k4REpfVnk4dHFRaWRueTNlNlNld1VhQzFGbTZTcGtPNEFFZm53cEV4WEEtczRERFAzblNtQkhBS0RPYw?oc=5",
-        "published": "2026-07-10T15:02:34+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 16
       }
     ],
     "policy_news": [],
@@ -172,17 +150,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "5cc3783c143a",
-        "title": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’",
-        "source": "한국보험신문",
-        "summary": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’ 한국보험신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaVUtPRmFMMVFPVUpoTF9DbzNXLVE2S2NGVDRlSTdGNGlTbFNqM0ZrLUl6QWF0WW84LXZoNmZGR2M4NTdQcDlHVW90NnFsLUg0cGNNUXk2MUZjMXN0MklhR0lzMHRFU2xVZTQw0gFvQVVfeXFMT21feDUxRGNTN0VjMzZOWG1FaVFJOXoxUklydTdYeVNGOVFkcFpYMkZNcm82RTFUa0NzQ0QyMFNDRWNSTzBWQnB6a3RKVjVDeW14WkdIc200MmNLNDNrWms2OE9sTkRIdkNlZHpoNUxv?oc=5",
-        "published": "2026-07-13T00:00:00+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 1
-      },
-      {
         "id": "7028abd67684",
         "title": "신한은행, 영업 전 준비업무 근로시간 제외 논란",
         "source": "한국정경신문",
@@ -191,19 +158,7 @@
         "published": "2026-07-10T13:40:33+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "0cdec9225da6",
-        "title": "퇴직연금 1위 신한은행, 연금라운지 문 닫았다",
-        "source": "뉴스프리존",
-        "summary": "퇴직연금 1위 신한은행, 연금라운지 문 닫았다 뉴스프리존",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xVjBqa015QmFIRVR5SXl1TVV4MG9GTlB3S0t4NnYxc0Q4bHp0OVU0NUNEWDJPM0IwaEtURHZlMG5nME1taHctd01GNjBBbk13RUhWcThaWHZJUlEzemljSVFYdDhnVEhCLV91ZGVhUURUMVHSAXdBVV95cUxOMG9fTVo1SHpfRjFRVXZKTTY3SThSM2Z5NWVkaGJkZl94WlV0NnJRTFhob01fWW5GaFk1aDdNUk80dUQ2bVJsVnY2RDY3UUJDZUZ6M3VqbHh0WUFKeVJvZkVlR1NVdFo2NnU1NVh3dmlCZ2Z0bmpwbw?oc=5",
-        "published": "2026-07-08T15:33:13+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 13,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
