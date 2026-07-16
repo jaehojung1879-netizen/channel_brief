@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-07-16T07:33:01.012893+09:00",
+  "updated_at": "2026-07-17T07:31:38.475515+09:00",
   "headline": {
-    "id": "5cc3783c143a",
-    "title": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’",
-    "source": "한국보험신문",
-    "summary": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’ 한국보험신문",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaVUtPRmFMMVFPVUpoTF9DbzNXLVE2S2NGVDRlSTdGNGlTbFNqM0ZrLUl6QWF0WW84LXZoNmZGR2M4NTdQcDlHVW90NnFsLUg0cGNNUXk2MUZjMXN0MklhR0lzMHRFU2xVZTQw0gFvQVVfeXFMT21feDUxRGNTN0VjMzZOWG1FaVFJOXoxUklydTdYeVNGOVFkcFpYMkZNcm82RTFUa0NzQ0QyMFNDRWNSTzBWQnB6a3RKVjVDeW14WkdIc200MmNLNDNrWms2OE9sTkRIdkNlZHpoNUxv?oc=5",
-    "published": "2026-07-13T00:00:00+09:00",
+    "id": "b37060892637",
+    "title": "은행 점포 폐쇄 지역, 우체국·고령자 친화 ATM 확대",
+    "source": "v.daum.net",
+    "summary": "은행 점포 폐쇄 지역, 우체국·고령자 친화 ATM 확대 v.daum.net",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yOUxaYWgyMUVLbUZ6QzROX0ZfbWFRZ2U5RDV4QnVLbS1kbEVaa2pndDBaZF9sRUxoNEtWUk4tOEhPY0JKNHJHVjd4MnBTYXM?oc=5",
+    "published": "2026-07-16T10:09:28+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 9,
-    "_score": 21.0,
+    "rank": 2,
+    "_score": 32.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "878018870a92",
+        "title": "[프로필] 정은지 기업은행 금융소비자보호그룹장, 영업점 경험 풍부…소비자보호 문화 정착 과제",
+        "source": "한국금융신문",
+        "summary": "[프로필] 정은지 기업은행 금융소비자보호그룹장, 영업점 경험 풍부…소비자보호 문화 정착 과제 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmV1dBUU95cWp0eVUyWkVQS1dXTS04MEJlVHJTdmNlQVBONGxNb1ZBODRtQktoY1BXV2ZkNWpObWU0R3pQbjd1NzM4WlFSYVZfUDRXdnpFTl9xdDQtWWhHc3dmVWZ2ZEdsb1B1a3E2ZEd1Nmd4cUJNdUZVVG0?oc=5",
+        "published": "2026-07-16T16:48:17+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "622d2f86ad02",
         "title": "은행권 ‘대출 조이기’ 확산…우리은행, 지점당 주담대 한도 30억→10억 축소",
@@ -24,7 +36,7 @@
         "published": "2026-07-15T17:43:36+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +48,7 @@
         "published": "2026-07-14T15:24:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +60,7 @@
         "published": "2026-07-14T15:04:46+09:00",
         "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 3,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -58,9 +70,9 @@
         "summary": "점포 줄여도 ‘고객 맞춤’은 늘었다⋯은행권 영업 전략 변화 이투데이",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDVXdMMGR3bHRKUW44Rm0tRk53WGhhX015el9qRkFxS2hKblEwYUhIRzRhOXh1T2xHMkNPdzNXRG9IOEx3V20zTEFIZmp4VlZfODl1Yw?oc=5",
         "published": "2026-07-14T10:57:00+09:00",
-        "query": "은행 점포",
+        "query": "은행 공동점포",
         "engine": "google",
-        "rank": 6,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +84,7 @@
         "published": "2026-07-14T00:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,19 +108,19 @@
         "published": "2026-07-13T13:49:12+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "711ef3bd5dbb",
-        "title": "4대 은행, 점포 없는 지역도 우체국 통해 대출…20곳 시범운영",
-        "source": "news.sbs.co.kr",
-        "summary": "4대 은행, 점포 없는 지역도 우체국 통해 대출…20곳 시범운영 news.sbs.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwT3RxZ2MzMUdVUXAwYUVYMVV6RVNlZVdQTjI5UF9tSG5mQ1pSRlU5NmRjWmJsUUZIWUQ4VTNCbGFzQUduWjRaRGM0bVF4RXF0U0txN3dOUGtWQlAzX2FnRExsN2o1Y01CdWc?oc=5",
-        "published": "2026-07-13T13:45:00+09:00",
+        "id": "ed449342a1f8",
+        "title": "4대 은행, 점포 없는 지역도 우체국 통해 대출…20곳 시범운영(종합)",
+        "source": "연합뉴스",
+        "summary": "4대 은행, 점포 없는 지역도 우체국 통해 대출…20곳 시범운영(종합) 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SYkVfQmhhRmdHQlJqR2MxLTEtSDJrN0Utc2FkWUw5UTFoM1ZDRWxjUElFczBPcHo2bFlCZXotNkFMOVFUQzUxc3NGWVozOVJLTEpGQmNFSDNSalnSAWBBVV95cUxPdnhsaGxMY2pNVFpTcHRsZEw5SktWaWR5NWM5NUZpRmd5UUpxd09USnYyWFFBWjVzdVNlMkJac1JXQW8zd3FEWlFzUC1ieDFQek5BckhoVjhGQU80MHlpZXU?oc=5",
+        "published": "2026-07-13T12:13:46+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -120,8 +132,18 @@
         "published": "2026-07-13T09:58:46+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 1
+      },
+      {
+        "id": "5cc3783c143a",
+        "title": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’",
+        "source": "한국보험신문",
+        "summary": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’ 한국보험신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaVUtPRmFMMVFPVUpoTF9DbzNXLVE2S2NGVDRlSTdGNGlTbFNqM0ZrLUl6QWF0WW84LXZoNmZGR2M4NTdQcDlHVW90NnFsLUg0cGNNUXk2MUZjMXN0MklhR0lzMHRFU2xVZTQw0gFvQVVfeXFMT21feDUxRGNTN0VjMzZOWG1FaVFJOXoxUklydTdYeVNGOVFkcFpYMkZNcm82RTFUa0NzQ0QyMFNDRWNSTzBWQnB6a3RKVjVDeW14WkdIc200MmNLNDNrWms2OE9sTkRIdkNlZHpoNUxv?oc=5",
+        "published": "2026-07-13T00:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4
       },
       {
         "id": "59d31f776b1e",
@@ -132,10 +154,23 @@
         "published": "2026-07-12T18:03:24+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3
+        "rank": 14
       }
     ],
-    "policy_news": [],
+    "policy_news": [
+      {
+        "id": "99b11315ffb9",
+        "title": "금감원 거점점포 타깃 2호는 현대차증권…검사 확대 |",
+        "source": "연합인포맥스",
+        "summary": "금감원 거점점포 타깃 2호는 현대차증권…검사 확대 | 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Yb0ZHT2RPbWxqZGJLN2V2V2RSbnFOVENKMTBPZHRRVGVNWXpkWHZSNnluNlFoZXg2dk1PM2hhRHlYd21MQXczb0JWd3RRY1hTSlRkZm9MUkRPeVlncjZjekVhX3JaRGJsTTB3VzV3SldoblA4?oc=5",
+        "published": "2026-07-16T10:01:49+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ],
     "shinhan_news": [
       {
         "id": "47b18501e3db",
@@ -150,6 +185,18 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
+        "id": "5cc3783c143a",
+        "title": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’",
+        "source": "한국보험신문",
+        "summary": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’ 한국보험신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaVUtPRmFMMVFPVUpoTF9DbzNXLVE2S2NGVDRlSTdGNGlTbFNqM0ZrLUl6QWF0WW84LXZoNmZGR2M4NTdQcDlHVW90NnFsLUg0cGNNUXk2MUZjMXN0MklhR0lzMHRFU2xVZTQw0gFvQVVfeXFMT21feDUxRGNTN0VjMzZOWG1FaVFJOXoxUklydTdYeVNGOVFkcFpYMkZNcm82RTFUa0NzQ0QyMFNDRWNSTzBWQnB6a3RKVjVDeW14WkdIc200MmNLNDNrWms2OE9sTkRIdkNlZHpoNUxv?oc=5",
+        "published": "2026-07-13T00:00:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
         "id": "7028abd67684",
         "title": "신한은행, 영업 전 준비업무 근로시간 제외 논란",
         "source": "한국정경신문",
@@ -158,7 +205,7 @@
         "published": "2026-07-10T13:40:33+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
