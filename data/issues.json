@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-07-17T07:34:00.246353+09:00",
+  "updated_at": "2026-07-18T07:28:17.922503+09:00",
   "social_finance": [
+    {
+      "id": "540734a8675a",
+      "title": "삼성, 금융취약계층 지원에 2000억원 출연…4만명에 평균 500만원 대출",
+      "source": "더브리프뉴스",
+      "summary": "삼성, 금융취약계층 지원에 2000억원 출연…4만명에 평균 500만원 대출&nbsp;&nbsp;더브리프뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3SmVjQnhsRUxlZ0dyMGZpNEh6WE9mdXRxQURXcGRFU2t1NjI2ZFJ3SEFtV0Y3bzVtTGU5MVVhVTd6QlBOTThPWFhWSjlzQmdwQnFvRDZGYVRBdUJITEl4T1B4dzNERXR4TzNR0gFvQVVfeXFMTlJZME9VN3ZZcEdWdWpqX1h3ZWVlTS1aMU95WFdRelJVeEp0Z1htSmg4YmdaRUN4OW5VVTEyS0ZUaDV3emJWNXhaeTBJTU1PMlZmbmtSMFpxeHNSVkkwOEd0OVFxc1VfOGlBejduaEgw?oc=5",
+      "published": "2026-07-17T21:35:47+09:00",
+      "query": "취약계층 금융"
+    },
+    {
+      "id": "2f8ab89ce52e",
+      "title": "서민금융진흥원, 원권리자에 휴면예금 등 2058억원 지급...역대 최대 실적",
+      "source": "로이슈",
+      "summary": "서민금융진흥원, 원권리자에 휴면예금 등 2058억원 지급...역대 최대 실적&nbsp;&nbsp;로이슈",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FaXVWaThTSFctQWUxRHBVSTBtYU5YMlZBSzYxSXFrOWVkQzZ4ME03aVZRMkVXNWpYLXA3Rm5lc2psRFh3aVMxM19mZHB6QllmdFZ0TS1HTzd5Uks0b2tCY3NHSUNOWXpZNGxGUl9LWS1HQ1BERi1tX0dB?oc=5",
+      "published": "2026-07-17T16:49:37+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "593552f93112",
+      "title": "삼성, 취약계층 4만명에 2000억원 푼다",
+      "source": "진일보",
+      "summary": "삼성, 취약계층 4만명에 2000억원 푼다&nbsp;&nbsp;진일보",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tdG5QUWVjcDc3Uy1lT3otYnp2WUxuU0ZuSm9Oa0hTSWc5NDhnRTBja01qRVJnRlR4Y0lJUWhiWjZ6ZmdsbHlUM2NSVGliUHhqZDZzUFYzQTg2YU5SaUcwVnMyeWhIMkFCU21oQXFiOA?oc=5",
+      "published": "2026-07-17T12:49:49+09:00",
+      "query": "취약계층 금융"
+    },
     {
       "id": "fb2283febbeb",
       "title": "\"지원금도 '원클릭' 시대\"…中企·소상공인 지원도 서비스 경쟁",
@@ -11,49 +38,31 @@
       "query": "소상공인 금융지원"
     },
     {
-      "id": "f743d1b09887",
-      "title": "[사설] 한은 금리 인상, 취약계층 충격 완화 대책 필요하다",
-      "source": "부산일보",
-      "summary": "[사설] 한은 금리 인상, 취약계층 충격 완화 대책 필요하다&nbsp;&nbsp;부산일보",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HcXBnbUxQRjhLN21aSU10SkRZVXJuaDRZaWh1YVMweEtfWGlJZ3cwU0l6UzhaMlNXcTcwaFRtbXhfMWV2cGdobmdyOVRUMUVMT3NBM2t6TWN4MTlDa1dZZEhZZ2Fqa0t0bjR1ZURqRlR4RzR0?oc=5",
-      "published": "2026-07-17T05:10:00+09:00",
-      "query": "취약계층 금융"
-    },
-    {
-      "id": "97ee2a22112a",
-      "title": "포용금융 확대에 2000억원 출연…삼성, 서민금융 구원투수 나선다",
-      "source": "서울신문",
-      "summary": "포용금융 확대에 2000억원 출연…삼성, 서민금융 구원투수 나선다&nbsp;&nbsp;서울신문",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14VEdUZnVJaC1CaDBzalp1TlpUbGh1emU2R2N5aHFxc2huY1lJMDVRMlJUOTdfOGw1aU5PaXd4WXJiSzRnOXM1QWZsZjkyVmFLRzV5b3pkdVk1T1IxbU1BOV9RYjhZSmViNzZKSnhjWU1rUldBZm45ek9SUQ?oc=5",
-      "published": "2026-07-17T01:21:22+09:00",
-      "query": "서민금융"
-    },
-    {
-      "id": "b08e7d46e610",
-      "title": "삼성, 2000억 출연… 취약계층 4만명 지원",
-      "source": "조선일보",
-      "summary": "삼성, 2000억 출연… 취약계층 4만명 지원&nbsp;&nbsp;조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQnZxMW5fcFpLa2xSeUZNN1hfMnZsdzAycWZBWmU4VkxVbmFHclZpWEd2OVBPOGUwRC00ZmdSOV9mZW9wSHZDWi1TRHV0Vk1Na3BaTmVubVNybGsxR2luVXJzY2h1U2M4Si1vQll6QnFpMVJGamNXa3dhMUh6SkRfR1FzRy0zbGwxZ0FHYm10UQ?oc=5",
-      "published": "2026-07-17T00:44:00+09:00",
-      "query": "취약계층 금융"
-    },
-    {
-      "id": "141cb0c3c67f",
-      "title": "우리은행, 새희망홀씨 금리우대 신설…우체국 접수·금융사기 피해자 우대",
-      "source": "연합인포맥스",
-      "summary": "우리은행, 새희망홀씨 금리우대 신설…우체국 접수·금융사기 피해자 우대&nbsp;&nbsp;연합인포맥스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BR0NvaW95bkY5eUs2ZjdIc0lqU0lOdDFWR0xTQjZmRlJtNTVxYVhaZmpPbC13ZlVnNEZMZUZVQWxySzQzVHJNeUxUd3g4U1B6QUlsc3NmTUlQMjZGdk5DT0hPVzhXaVFYN3hRRHlKUWc?oc=5",
-      "published": "2026-07-16T19:28:38+09:00",
-      "query": "새희망홀씨"
-    },
-    {
-      "id": "cd59b88e3b6d",
-      "title": "삼성, 포용금융에 2000억 출연… \"취약계층 4만명 금융혜택\"",
+      "id": "2db3c81f391d",
+      "title": "IBK기업은행, 중금리대출 출시…\"금융비용 부담 완화\"",
       "source": "파이낸셜뉴스",
-      "summary": "삼성, 포용금융에 2000억 출연… \"취약계층 4만명 금융혜택\"&nbsp;&nbsp;파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzY09qdEtKdHBBUk9ydGxqMy0zeVJLTWwtZGE5ZGx6Z1FDbVExZllxWjFQX3hKV1hsQktYbWpSUmJwZEZfMzlHYkFkVU5TMHRXNDZveWJYRTJJdw?oc=5",
-      "published": "2026-07-16T18:12:54+09:00",
-      "query": "취약계층 금융"
+      "summary": "IBK기업은행, 중금리대출 출시…\"금융비용 부담 완화\"&nbsp;&nbsp;파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RRFExSEY2eXBfTWdXYzl4ZG9Bbm9PVkg4d1JRWFh2UkJnWkRqY0xFVFpYMG5WVG1uaVlKNVd1MmFXX1BhWTdwQmwtSWhNeWVYQ05MNEVWMkRVUQ?oc=5",
+      "published": "2026-07-17T05:51:32+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "e1a7a6e4f6d9",
+      "title": "삼성, 2000억원 출연해 ‘포용금융’ 확대",
+      "source": "경향신문",
+      "summary": "삼성, 2000억원 출연해 ‘포용금융’ 확대&nbsp;&nbsp;경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95LXBwdnhQTkNDNTFLODltQ1lkUGJPektRaTcwVjVTVGFORk55TDh3THI5N1VobVgzVVhVWU9kbGl1YnZyLUVUTUVRaDc2UXJfWGlKNW1VRDloZ9IBX0FVX3lxTFA3RGtGQVJDdVJyR1MwX2RXVlp2RlYtOUFlV055LVRrNG03Wk5rQnMxN1hkdmlSb21HRkJINHJvY2o1d20tQXVmTV9CbEF2MHR5XzdiY0J3VS1SMmYzYnVJ?oc=5",
+      "published": "2026-07-16T20:22:00+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "57bdf4386b2c",
+      "title": "우리은행, 새희망홀씨 금리우대 신설…우체국 접수·금융사기 피해자 우대 |",
+      "source": "연합인포맥스",
+      "summary": "우리은행, 새희망홀씨 금리우대 신설…우체국 접수·금융사기 피해자 우대 |&nbsp;&nbsp;연합인포맥스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iSWZ6SmQxalp0VWdYajhSSk0wTm0ycEtlRzFiWEdBa1RnNEhQNzUtU1prbXJ1bFQzRXZsWW5PMThva09EYklhbWpwbUR4VVUxUVpQblVrbndIcm5PQldJS1FHdmFoSmE4ZVBtUXlITlR4X2Jk?oc=5",
+      "published": "2026-07-16T19:33:23+09:00",
+      "query": "새희망홀씨"
     },
     {
       "id": "f15d31e00973",
@@ -63,18 +72,36 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96YXYzTHNtYk1UenZ2V3c3dXl2T0NSQ3NkZ2JRdWYxRXlyNUxkemViR1dhSUU2MzdrRVNrVDdla2RxU1FsRDZWSWUwMkJJcWM?oc=5",
       "published": "2026-07-16T17:33:29+09:00",
       "query": "포용금융"
-    },
-    {
-      "id": "268844b282a0",
-      "title": "신보중앙회-특허기술진흥원, 소상공인 IP 금융 활성화 협약 체결",
-      "source": "서울경제TV",
-      "summary": "신보중앙회-특허기술진흥원, 소상공인 IP 금융 활성화 협약 체결&nbsp;&nbsp;서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mVWhiUndtWUFYaEtWWUI2bC1Ed1A5bmxBREozTEVsRXVvdzhsNmpLdW5yWlZETkxYUTY3NnhObTRSbTh0SC10bDJCOTlfdlhlRUZxTjFldXhqOW96XzVMcU52NFc?oc=5",
-      "published": "2026-07-16T16:47:43+09:00",
-      "query": "소상공인 금융지원"
     }
   ],
   "tech": [
+    {
+      "id": "53efef426593",
+      "title": "ECB, 스테이블코인 확산 경고…유럽 은행 예금 기반 흔들릴 수 있다",
+      "source": "네이트",
+      "summary": "ECB, 스테이블코인 확산 경고…유럽 은행 예금 기반 흔들릴 수 있다&nbsp;&nbsp;네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Qc3oxNzdxalNWeUZfa2NsOXNnMnRBanUwUThxYzgtYU9NVXliSVlXOHk3dFhCVVVab05YNjBKSm8yYlotSUVCSWFzLVJVcFhSay1v?oc=5",
+      "published": "2026-07-18T06:38:00+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "0ceb66e144bb",
+      "title": "하나은행, '디지털 미디어아트 페스타 2026' 개최…AI·예술 융합으로 미래 창작자 키운다",
+      "source": "라이센스뉴스",
+      "summary": "하나은행, '디지털 미디어아트 페스타 2026' 개최…AI·예술 융합으로 미래 창작자 키운다&nbsp;&nbsp;라이센스뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54aUlpaVl4eGhnM0ZyMjNESzc4bXE0c3JZdXgxaGt6UGMwdmVrVWNWMFdwU3FxZG80UWpNQTZjcXFxa2I0aEtudmc4T3plR0RRYXJWeDBUQm1ERnQ4bUhVRjh3NHhGT0pyeVJr?oc=5",
+      "published": "2026-07-18T06:00:00+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "38bc5c27a718",
+      "title": "한은·정치권, 원화 스테이블코인 발행권 놓고 '시각차'",
+      "source": "데일리한국",
+      "summary": "한은·정치권, 원화 스테이블코인 발행권 놓고 '시각차'&nbsp;&nbsp;데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04SVpIMmhLZzdMRWhpNTRMaTZxUWd0SGZzaE1od3Y1bnp0UnA3Zmk4ZkJDTVpRczBlSW40VkxaZDI4bTJIcW1peEZmSHk0UlEyWThfT0FKOEswLUhqMU5JNDg3SGZNenFZYkhrSjNsc9IBc0FVX3lxTE9PbURSY29Ua3Y1TFJuVm1ZLWpfZGt0NnROOFB0eXVoVlJXU0UtYld1MGxpVWt0ZW9KTmZ3M2FKWEpzSnVhVzdKWVcxSVc1M2hpeUs2WmExUHZIb3AtLXBTdGpZcXl3S05od1paUVUweDE3cmM?oc=5",
+      "published": "2026-07-17T14:00:00+09:00",
+      "query": "스테이블코인 은행"
+    },
     {
       "id": "effee4e57d4c",
       "title": "코인베이스 \"스테이블코인, 지역은행 경쟁력 높일 것…최대 수혜 가능성\"",
@@ -85,31 +112,13 @@
       "query": "스테이블코인 은행"
     },
     {
-      "id": "61c6ae9c8e45",
-      "title": "CBDC ‘프로젝트 한강’ 2단계 가동…예금토큰 지갑 50만개로 확대",
-      "source": "the-news.co.kr",
-      "summary": "CBDC ‘프로젝트 한강’ 2단계 가동…예금토큰 지갑 50만개로 확대&nbsp;&nbsp;the-news.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9meEVHVzdUMW1KZFE0TndvTkhxNnI2akoySXlMOFNNVi1ESFNtZWNXMFp1aDhiUkVobERGNG5Pb1NpZU9vbk9jZElCZWFXamNFSzRmNVNCbTd6cG1HaWJ3ZUJMQXFfSDRHX2d30gFvQVVfeXFMT1lrY0dLVUQ4X2Mwa0h3TDdmcGg2cmhmSlU0MlFyVURVSHBva2tmVDRlU2xIM1ZoZFRWTy1rYldINjNfeDdlSFJWVGJuY09vd0ZpVXViNGlRWGQ1R0c2X2RybkhhRElxekdCYmE5dmNR?oc=5",
-      "published": "2026-07-16T16:04:00+09:00",
-      "query": "CBDC 은행"
-    },
-    {
-      "id": "22037283a450",
-      "title": "탄자니아 중앙은행, 암호화폐 규제체계 본격 추진…글로벌 규제 물결 가시화",
-      "source": "블록체인투데이",
-      "summary": "탄자니아 중앙은행, 암호화폐 규제체계 본격 추진…글로벌 규제 물결 가시화&nbsp;&nbsp;블록체인투데이",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MV2ZndF81WHNVaGd4V1k2Zm16dzNVbjBDLVNHYzA4RVhvTVEyX1VZbUUyVWRKeWVMNEpTSnBaLXhVeWlhNnJ3a1kxXzlKb2E4VGtOM0NXSTMzWG5IU1NLQjZqVk1rX1FrR1U0Y0FmQ24?oc=5",
-      "published": "2026-07-16T14:15:08+09:00",
-      "query": "블록체인 은행"
-    },
-    {
-      "id": "ce122576b2a3",
-      "title": "[단독]정부·한은, 국채 ‘레포 토큰화’ 추진…CBDC 연계 실증",
-      "source": "edaily.co.kr",
-      "summary": "[단독]정부·한은, 국채 ‘레포 토큰화’ 추진…CBDC 연계 실증&nbsp;&nbsp;edaily.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMkxGdzUzaUFxdmF4b19sZGxybG5zdUF5Y2FJbFhicmgyZlhWNGFEMzBwaEN1MDlIODhNN3RTQm5kVWNwX3BCcGFycHVlUENIZDNJak9xS3VsV3dCY1k2T0lmOHJPaExjZFcwMko2NzZ0bFF4akVSTWl3U3E0bTVOSg?oc=5",
-      "published": "2026-07-16T13:14:27+09:00",
-      "query": "CBDC 은행"
+      "id": "10407aa2da9d",
+      "title": "카카오페이·NH농협은행, AI 기반 대안신용평가 공동 개발",
+      "source": "서울경제TV",
+      "summary": "카카오페이·NH농협은행, AI 기반 대안신용평가 공동 개발&nbsp;&nbsp;서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54aFQ3R0txaWM5TFVHQkFXbW5oVEthc21IaWtFWVhDQW9SWHVRbDc4WmNrRXpDTllTNVBwV1Q5enBlWnhlaU5pbFFEaGdxZW02TUpSMmVhVWxVeDB3ZUh0TWhUclI?oc=5",
+      "published": "2026-07-16T16:48:18+09:00",
+      "query": "은행 AI"
     },
     {
       "id": "e281f891a7a2",
@@ -121,30 +130,21 @@
       "query": "예금토큰"
     },
     {
-      "id": "f68f75c6da53",
-      "title": "NH농협은행, AI 기반 대안신용평가 얼라이언스 출범",
-      "source": "현대경제신문",
-      "summary": "NH농협은행, AI 기반 대안신용평가 얼라이언스 출범&nbsp;&nbsp;현대경제신문",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rcThING9uV2JYdHpXY3VDaHR3VWltVFNzalNWYzdKUkxLOEJTODluU1Y2bVNIejkzUkRVb3NQLW1vamFSNkVhRUNib0dJR2h2Q1h4Z2ZKb2hmZmVyeFNQS2ItRWM0YVdCREEw0gFrQVVfeXFMT2txOEg0b25XYlh0eldjdUNodHdVaW1UU3NqU1ZjN0pSTEs4QlM4OW5TVjZtU0h6OTNSRFVvc1AtbW9qYVI2RWFFQ2JvR0lHaHZDWHhnZkpvaGZmZXJ4U1BLYi1FYzRhV0JEQTA?oc=5",
-      "published": "2026-07-16T10:54:22+09:00",
+      "id": "1609587e5114",
+      "title": "금융 사각지대 줄인다... NH농협은행, AI 기반 대안신용평가 혁신 시동",
+      "source": "리드경제",
+      "summary": "금융 사각지대 줄인다... NH농협은행, AI 기반 대안신용평가 혁신 시동&nbsp;&nbsp;리드경제",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43eFhlTXlMMjNMWklnVUR0eDNtUDBESzUyLXc0VjFTeDR4ODZldkFnXzFhQlJ6SUYxZ05RTXlaS2d3WmFsdXFlc0ZjRndKblo0Ul9CRTduTTZQeVAtN1lNT0JuMmVZRU1ucjBTeXIyVQ?oc=5",
+      "published": "2026-07-16T09:04:21+09:00",
       "query": "은행 생성형 AI"
     },
     {
-      "id": "a91700fee1e8",
-      "title": "NH농협은행, AI 기반 대안신용평가 얼라이언스 구축⋯포용금융 지원",
-      "source": "v.daum.net",
-      "summary": "NH농협은행, AI 기반 대안신용평가 얼라이언스 구축⋯포용금융 지원&nbsp;&nbsp;v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SMlBCTjBlN1h0X0lUZDZUR0R6VG5TOUhkd09saGhOenNNRHlPV2RDNEFYdFVOMUd6Mi05VzExRDY5UHdHTmI4WEJET0RsazQ?oc=5",
-      "published": "2026-07-16T09:44:05+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "c14253781900",
-      "title": "소니은행, 달러 스테이블코인 발행 예비 승인…플레이스테이션 결제는 미확정",
-      "source": "네이트",
-      "summary": "소니은행, 달러 스테이블코인 발행 예비 승인…플레이스테이션 결제는 미확정&nbsp;&nbsp;네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yeFFYOGNObFJoTGV5RXBQRUlHS0llTjBvV1J6QUFrQ0NyaC1xamJLcUxqTHBZWXA4dnRRcVlETFVDT2tDSUZKVmkwbGJyZzJHWDk4?oc=5",
-      "published": "2026-07-16T09:29:00+09:00",
+      "id": "acd3cca643a3",
+      "title": "\"韓 은행·증권사와 적극 협력…원화스테이블코인까지 연결할 것\"",
+      "source": "edaily.co.kr",
+      "summary": "\"韓 은행·증권사와 적극 협력…원화스테이블코인까지 연결할 것\"&nbsp;&nbsp;edaily.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdXZWMW9HYTF4a1NMTWQxVUQ0SjJha3JHNTZ1UVgwSk1vNDlzLWxuanBRR3N2NVAtVVdqQ2hHOVRQMXhTakpOQlR3aHAwT2dlUlF4c3dxM3VWRW9yMXlsS0tndDJCZzlkVTZTRVB2cjFRTzVZR2wyOGxsODNyTG1FZw?oc=5",
+      "published": "2026-07-16T07:12:02+09:00",
       "query": "스테이블코인 은행"
     }
   ]
