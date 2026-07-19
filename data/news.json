@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-19T07:26:44.544510+09:00",
+  "updated_at": "2026-07-20T07:28:36.541116+09:00",
   "headline": {
-    "id": "b37060892637",
-    "title": "은행 점포 폐쇄 지역, 우체국·고령자 친화 ATM 확대",
-    "source": "v.daum.net",
-    "summary": "은행 점포 폐쇄 지역, 우체국·고령자 친화 ATM 확대 v.daum.net",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yOUxaYWgyMUVLbUZ6QzROX0ZfbWFRZ2U5RDV4QnVLbS1kbEVaa2pndDBaZF9sRUxoNEtWUk4tOEhPY0JKNHJHVjd4MnBTYXM?oc=5",
-    "published": "2026-07-16T10:09:28+09:00",
-    "query": "은행 점포",
+    "id": "da98f473bd11",
+    "title": "금감원 거점점포 타깃 2호는 현대차증권…검사 확대",
+    "source": "연합인포맥스",
+    "summary": "금감원 거점점포 타깃 2호는 현대차증권…검사 확대 연합인포맥스",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvNmIwZzByMnlYUXVaQ1REOEUwbmRiSXJ0aFJwWHpFbW00TFc4b3JOZ2xtVDEzWURQdlJGdzIyal9Eb2E5eGJLYjNub2NhVnk5WEQ1MHZJTmFiM0NYd1BfZ0NDYUxBNmlONUdmUXY0cks?oc=5",
+    "published": "2026-07-16T09:55:33+09:00",
+    "query": "금감원 점포",
     "engine": "google",
-    "rank": 3,
-    "_score": 28.0,
+    "rank": 1,
+    "_score": 11.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -24,7 +24,19 @@
         "published": "2026-07-16T16:48:17+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "b37060892637",
+        "title": "은행 점포 폐쇄 지역, 우체국·고령자 친화 ATM 확대",
+        "source": "v.daum.net",
+        "summary": "은행 점포 폐쇄 지역, 우체국·고령자 친화 ATM 확대 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yOUxaYWgyMUVLbUZ6QzROX0ZfbWFRZ2U5RDV4QnVLbS1kbEVaa2pndDBaZF9sRUxoNEtWUk4tOEhPY0JKNHJHVjd4MnBTYXM?oc=5",
+        "published": "2026-07-16T10:09:28+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,60 +48,11 @@
         "published": "2026-07-15T17:43:36+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "70dc3cd2af67",
-        "title": "문 닫는 은행 746곳, 우체국이 메우지만…\"점포 폐쇄 더 부추길 수도\"",
-        "source": "브릿지경제",
-        "summary": "문 닫는 은행 746곳, 우체국이 메우지만…\"점포 폐쇄 더 부추길 수도\" 브릿지경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11b01xdkJNdzVoUG1UMXNCaTJTQ1E5UjlLX0loeWk2VEtZWXp5dTVuSFpRc2dwNVlISTR1VmdKZVIyT0dCSHU2Z1ZxQjh3eklpelVab1ZNem1kUQ?oc=5",
-        "published": "2026-07-14T15:24:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "a1f2daae878f",
-        "title": "폐쇄된 은행 지점이 문화공간로 탈바꿈…전북은행, 군산 원도심에 '재생형 미술관' 개관",
-        "source": "프레시안",
-        "summary": "폐쇄된 은행 지점이 문화공간로 탈바꿈…전북은행, 군산 원도심에 '재생형 미술관' 개관 프레시안",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01ZTdpbUpNVmhMU3RJemVpd0s3UnN0N3NuNXBoRDAzZWczSi1uQmdobVJIanpmaUY1WHFRMXUtRi1GNEZvZXozcGpaWGRhai1KazExYnhIODBheU5GSEVzdTRhbG9qOVJkRHJv?oc=5",
-        "published": "2026-07-14T15:04:46+09:00",
-        "query": "은행 폐쇄",
-        "engine": "google",
-        "rank": 8,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "0648c0616a01",
-        "title": "점포 줄여도 ‘고객 맞춤’은 늘었다⋯은행권 영업 전략 변화",
-        "source": "이투데이",
-        "summary": "점포 줄여도 ‘고객 맞춤’은 늘었다⋯은행권 영업 전략 변화 이투데이",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDVXdMMGR3bHRKUW44Rm0tRk53WGhhX015el9qRkFxS2hKblEwYUhIRzRhOXh1T2xHMkNPdzNXRG9IOEx3V20zTEFIZmp4VlZfODl1Yw?oc=5",
-        "published": "2026-07-14T10:57:00+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 4,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": [
-      {
-        "id": "defb375fcfb4",
-        "title": "금감원 거점점포 타깃 2호는 현대차증권…검사 확대",
-        "source": "KB Think",
-        "summary": "금감원 거점점포 타깃 2호는 현대차증권…검사 확대 KB Think",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE13Nm1ZRFJPMlYwdlRacUo0THlDY2JyMi0tVC1rdWl1NlNMZVBONUd5dEp6YVRCdUxJbVVzOEFlUG0zd0Q1UTc0Qy1vSzdKWVJPYlFFLVRndWxnalFyRmU3MGtTM3Zad3hoNTdxeG1aZU80QQ?oc=5",
-        "published": "2026-07-16T09:55:28+09:00",
-        "query": "금감원 점포",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      }
-    ],
+    "policy_news": [],
     "shinhan_news": [
       {
         "id": "47b18501e3db",
@@ -100,19 +63,7 @@
         "published": "2026-07-13T15:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "5cc3783c143a",
-        "title": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’",
-        "source": "한국보험신문",
-        "summary": "신한은행, 점포 무더기 폐쇄… 효율화에 고령 고객 ‘외면’ 한국보험신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaVUtPRmFMMVFPVUpoTF9DbzNXLVE2S2NGVDRlSTdGNGlTbFNqM0ZrLUl6QWF0WW84LXZoNmZGR2M4NTdQcDlHVW90NnFsLUg0cGNNUXk2MUZjMXN0MklhR0lzMHRFU2xVZTQw0gFvQVVfeXFMT21feDUxRGNTN0VjMzZOWG1FaVFJOXoxUklydTdYeVNGOVFkcFpYMkZNcm82RTFUa0NzQ0QyMFNDRWNSTzBWQnB6a3RKVjVDeW14WkdIc200MmNLNDNrWms2OE9sTkRIdkNlZHpoNUxv?oc=5",
-        "published": "2026-07-13T00:00:00+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 1,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
