@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-07-21T07:34:00.888421+09:00",
+  "updated_at": "2026-07-22T07:31:00.271548+09:00",
   "items": [
+    {
+      "id": "da8fe158303b",
+      "title": "[인천] 검단신도시에 박물관·도서관 복합시설 하반기 착공",
+      "source": "YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93cGstaWV3SE9zODc1eXBLbmtGZ0ZOMFJ3MFdhdENVbTVySHhNYlBkbVVjMWNIQXVVbUFaRGFmTHplQjRqREd4b0FtblNzMGk5TnNIWGtiS0tqYXkzR1E?oc=5",
+      "published": "2026-07-21T15:55:00+09:00",
+      "date": "2026-07-21",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "66911d6732ec",
+      "title": "당진시, 2035 도시재생전략 재수립 착수…원도심 미래청사진 그린다",
+      "source": "타파인",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CVktJUlVSWHVUOEJVQ3lHc0MzaVd4aDQ5MWlqcno3bjlQUFNUNFBxQWVOS1Z0aHMtWVZnTUxPbGVPUjlsTmg4NEphOE5Oa0ZINlZuaXhNT2wtQVZ1MFE?oc=5",
+      "published": "2026-07-21T13:13:31+09:00",
+      "date": "2026-07-21",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "b65d9a02552e",
+      "title": "당진시, 2035 도시재생 전략계획 재수립 착수",
+      "source": "전국매일신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8ySFk2QVVDREVXdi1yVi1DSWs0aW55SlVmcEZsQ1NvbVJvSTE5azNvY0lsQzZGakFRMEdBeVpyOUtoMzBjWkVrTkhudF9GRW1YRVc1d2llWWV1XzAwR0FMR1Z4QmFBUmhGQ0xVSW5n?oc=5",
+      "published": "2026-07-21T11:34:43+09:00",
+      "date": "2026-07-21",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "4aff6dd3e811",
+      "title": "당진시, '차세대 로드맵' 구축…도시재생전략계획 재수립 용역 착수 - 보도자료 | 기사",
+      "source": "더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kcUdsVjgyb0dOUVJzRUxVWGo4NDdJcldOdnBHQzhhT09yVXBFX2ZsS0dybWxhLUZiVjdUakIzcFh4UGZJUUJfR3AxQkhNbnBHVkp3SmN6U2FRR0pRYUFr?oc=5",
+      "published": "2026-07-21T10:38:52+09:00",
+      "date": "2026-07-21",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "61ff0bc8b8af",
+      "title": "인천 검단신도시에 박물관·도서관 복합시설 하반기 착공",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNb2hpazJYX2gyVVkxc2FDV0IxbTFuYTQ3Mm5hRmJBaUxRUzMyR0RFRERBQkJvRjBjWW5nbTk1QmQyWEV4RlVHd2oyUGUyRFpWYUlxTHJNdDRRM1NuZ0xIQ9IBYEFVX3lxTFBNb2hpazJYX2gyVVkxc2FDV0IxbTFuYTQ3Mm5hRmJBaUxRUzMyR0RFRERBQkJvRjBjWW5nbTk1QmQyWEV4RlVHd2oyUGUyRFpWYUlxTHJNdDRRM1NuZ0xIQw?oc=5",
+      "published": "2026-07-21T10:31:01+09:00",
+      "date": "2026-07-21",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "98fc990c2d09",
+      "title": "사회대개혁위, 반도체 국가산단 미래전략 토론회 연속 개최",
+      "source": "뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2MnVjbE9RRDhEdFhxSjFROXZkMFk1ZmJ6ZXExdTlIZURrY3ZpRmVFRF83cFhYbkVRcVFwUFcxWDF1ZVMyUkhjV1hNX2xmejlPV2M1RjR1aFpJbzNw?oc=5",
+      "published": "2026-07-21T10:14:00+09:00",
+      "date": "2026-07-21",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "84e2cffde9c1",
+      "title": "충남 당진시, 2035 도시재생 전략 마련 착수…원도심 미래 성장 로드맵 구축",
+      "source": "뉴스홈(newshome)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QeFZaa2VzZXFydTk1SEF6a0hwQzhsR091OTItTXF6cWhwa2c1ZkZtS3E2VmV6dTk1cWFvWERHVGtudGN2ckJnUHVsRmozODZWMUhjZHcxblhLQUtMY29ud29WTk9HdWowU1liS1Zn?oc=5",
+      "published": "2026-07-21T09:35:40+09:00",
+      "date": "2026-07-21",
+      "query": "도시재생 활성화계획"
+    },
     {
       "id": "ea3e9c38ab0b",
       "title": "“용인 반도체 산단, 제대로 된 점검 필요”…원점 재검토론도",
@@ -20,19 +83,10 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "5ee5fd735c6c",
-      "title": "용인 반도체 국가산단 1공구 착공 본격화...LH, 팹 1호기 가동 앞당긴다",
-      "source": "글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX0lkS1dBQWNpS1pIWjB6U0stUDdWVnV3SDdGNmxyR19GUmR6ak5kT2V6TUpLTWZuTC0xNXlMX2VIb3c4bDQ4S3JJNWlwMVNjMHZ2Qlp1WGNMWVhkb0QtN09MSEFFRHhLOEM4dXVsVm02VXZiczVQeHhsRkdQTFh4Q2VYRnhqczFI?oc=5",
-      "published": "2026-07-20T17:39:00+09:00",
-      "date": "2026-07-20",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "ba4ca572e81f",
+      "id": "7afee4979f0a",
       "title": "정부, 3기 신도시 '착공 드라이브'...이행 속도가 집값 안정 변수",
       "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5uQVlHenV6TGMxOTRmZjk5cWxfeEw0S2ZkaGFkbS03VjdVQWRkYmtGX3dxRUthS0NnalBadWFxeWhNLW5xd1E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fTTM2MV9sYXRNMDMwQ094NlpUY0k1MmJOci1nQWV4bFVQZU1YaFNpZGhma0kwY1R4Y1lnSkdMWGIwRUhnNW9jX3JYMGhfaTQ?oc=5",
       "published": "2026-07-20T17:28:03+09:00",
       "date": "2026-07-20",
       "query": "신도시 착공"
@@ -47,15 +101,6 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "edc5ed4c71ea",
-      "title": "청양군 도시재생 사업, ‘토지 우선 취득’ 행정 판단·사업 추진 적정성 논란",
-      "source": "매일일보",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02anhya1ZyOU5OdnFxbjJVRWVJTWg4cnhSMFg0aTZ0OTRLaWJJYnlFb2RNbHAzTm9Jd1J6UEotRl9VY2MtdHh3akJkWU5VN3ZOcDBUQWZBNXRfLVpNX01oYXRERlQ?oc=5",
-      "published": "2026-07-20T16:26:15+09:00",
-      "date": "2026-07-20",
-      "query": "도시재생 활성화계획"
-    },
-    {
       "id": "0e310ef3d1bb",
       "title": "7년 앞당긴 용인 반도체산단 … 전력·용수 확보가 관건",
       "source": "매일경제",
@@ -63,15 +108,6 @@
       "published": "2026-07-20T16:01:21+09:00",
       "date": "2026-07-20",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "38cad90f9010",
-      "title": "청양 청춘어울림센터 토지 우선 취득…법률 검토 의견서 없었다",
-      "source": "에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiWFExVVBFU1NKc1RteFdjbDlIOTF3cUdjRWdXM2hsMzFNUkpYVmhCQzM0WDRTRXdGSEJDMllucE1pSE5jVWdZM3h3V0ZJTkVWQ3FaOTVRNzg4Ymc?oc=5",
-      "published": "2026-07-20T14:46:53+09:00",
-      "date": "2026-07-20",
-      "query": "도시재생 활성화계획"
     },
     {
       "id": "fac3cb73ce09",
@@ -92,15 +128,6 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "6361bbfe1b1d",
-      "title": "'5극 3특' 중심 국토공간 대개혁…3기 신도시 등 조기 착공",
-      "source": "대한민국 정책브리핑",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jNmpKdUpfNVlGSGVuU1huVU1ad3RiZUtRVUdPemRRa1NfT1NsZU54Q3ItX1ZvY1p6Mzlya25ITUkzU0xUYnRXR1lNaTQxYlRzamNmMldqTHF4UXpoRXU1YkhrT3J0eE5pZlNtUw?oc=5",
-      "published": "2026-07-18T10:19:59+09:00",
-      "date": "2026-07-18",
-      "query": "신도시 착공"
-    },
-    {
       "id": "f128aee9edbb",
       "title": "3기 신도시 착공 단축…하반기 공공기관 이전 발표",
       "source": "연합뉴스TV",
@@ -108,33 +135,6 @@
       "published": "2026-07-16T22:54:00+09:00",
       "date": "2026-07-16",
       "query": "신도시 착공"
-    },
-    {
-      "id": "79e7cd269bd3",
-      "title": "신속하고 충분한 주택공급…3기 신도시 착공 앞당긴다",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QOFZnQ18xWEliNTZEY3NXSnhfcUk0OXFFdUVtcDR2dDN4ckZ0dkdMb0dWMVNkVDg5Y0hhTE9IeFNydXBQckVtMlpWbE43NzhvREdxaXMtUVd6aWvSAWBBVV95cUxOZVVPNEhGSDlkNmFPcTBNNmVoT3dDcjJaT25OM0hpNHJWWFEta01zVDZnM2otbzNheEtFYUY2Ylp0T1NDcTlVUXBubnNXR1l6d3ZCNGJkVmtXX0NfOGFHREk?oc=5",
-      "published": "2026-07-16T14:45:30+09:00",
-      "date": "2026-07-16",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-07-15T16:00:00+09:00",
-      "date": "2026-07-15",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "6c20bdc4f35a",
-      "title": "광천터미널 복합개발 시동…2조9천억 프로젝트 행정절차 돌입",
-      "source": "아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fR1laOXFyN2tacENmTVAxQ0p4YVZHRklqR1hGRUo3bnJuellBakExWjBGcDZ5bXAxTTNsM1JudUp0WVFrSFhsYjRZUVpQT3p6STctWVhjVmFxcjhabjdkTQ?oc=5",
-      "published": "2026-07-15T14:19:09+09:00",
-      "date": "2026-07-15",
-      "query": "복합개발 지구단위계획"
     }
   ]
 }
