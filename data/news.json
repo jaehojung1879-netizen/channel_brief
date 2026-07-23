@@ -1,54 +1,30 @@
 {
-  "updated_at": "2026-07-23T07:36:36.623684+09:00",
+  "updated_at": "2026-07-24T07:32:58.073955+09:00",
   "headline": {
-    "id": "3e87fe003671",
-    "title": "신한은행, KSQI 은행산업 16년 연속 1위...영업점 서비스·금융소비자보호 체계 지속 개선",
-    "source": "시사캐스트",
-    "summary": "신한은행, KSQI 은행산업 16년 연속 1위...영업점 서비스·금융소비자보호 체계 지속 개선 시사캐스트",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fTnI3ZnpwY3lSNmZpZ2xWMHhyNkNTekliWTZmU3hBa25jbGZkNkFrMnBpRXhFUEw3VTFtZTQzelVTTVBjMTZ6aHdUbjdfNkVtMVM0T1FfQzBsVk05N0IxT010ZEdtc2c?oc=5",
-    "published": "2026-07-22T14:13:16+09:00",
+    "id": "1d4844867b72",
+    "title": "SK매직, 전국 우리은행 영업점에 ‘올클린 공기청정기’ 공급",
+    "source": "더퍼블릭",
+    "summary": "SK매직, 전국 우리은행 영업점에 ‘올클린 공기청정기’ 공급 더퍼블릭",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EUVBsOWlYY3ZPc2loejdoV2NRZTRVWGZZWk55dk91WUdSbXZIZ1p0b3JXcG1ZdmtrM0p1Si1sbERzWDFTakR2d0FRaE9GcGQyaUZfQzNScnltUmtEU0dLNGYzVUNyUGlhdVA40gFvQVVfeXFMTWFBVENYM05xWnNVajVVLWNYeGU5NmJ1T0U4S0ozay1EYmpHZGdVRXZwa3RGT2tHc0k2V2dvZVBFeVlEYVVwUVpDZFFwWm96S2pscVVkTktOUW5FWGVfU24zNmhDZ1VPNHJLRVl2WUFN?oc=5",
+    "published": "2026-07-24T06:43:44+09:00",
     "query": "은행 영업점",
     "engine": "google",
-    "rank": 9,
-    "_score": 14.0,
+    "rank": 3,
+    "_score": 12.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "f67ed96e5a8b",
-        "title": "IBK기업은행, 전국 영업점의 변동금리형 주택담보대출 신규 취급 중단",
-        "source": "정경시사 FOCUS",
-        "summary": "IBK기업은행, 전국 영업점의 변동금리형 주택담보대출 신규 취급 중단 정경시사 FOCUS",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pVzFGanN6ZzE0X2hqRGpYb2pHUUx3NGt1UnVMdm9VLXktMjJQTEpaQm82RlFINjRCZEdKTDdQWTk3RWtyTXRXOW0xZDZSWWFoMnhHOWEzd19OeWxoTU1nS0xBZ2NZMHg3?oc=5",
-        "published": "2026-07-22T20:20:34+09:00",
+        "id": "0a1631937aba",
+        "title": "IBK기업은행, 영업점 변동금리 주담대 판매 중단",
+        "source": "쿠키뉴스",
+        "summary": "IBK기업은행, 영업점 변동금리 주담대 판매 중단 쿠키뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96M0ROT19IZUZoZ2JQS25HUkVEMElwMUtJM1I1VE1IXzJnS0FBMXg1ZlpVdlN1SVRHWVBjMEx0OHZHOHV0OGRQS2Y3NDFfZWpsbnNrMXdOWE5NNHJXVVFWM2RlYw?oc=5",
+        "published": "2026-07-23T12:16:13+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "a9172cf237bf",
-        "title": "기업은행, 영업점 변동형 주담대 판매 중단…비중 적은 온라인은 그대로",
-        "source": "네이트",
-        "summary": "기업은행, 영업점 변동형 주담대 판매 중단…비중 적은 온라인은 그대로 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VeXZiS214V3JkdEJ4aERPT2RJZjZnNTBRbndhSDhyekV6VW9hc2lxLUlIMlNMam1XSVBCQzgwV3JzTzZEYzZwSEtoNXhMd2x4TzlF?oc=5",
-        "published": "2026-07-22T17:47:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 16,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "15ada5494135",
-        "title": "하나은행, 영업점·콜센터 서비스품질 11년째 1위",
-        "source": "PRESS9",
-        "summary": "하나은행, 영업점·콜센터 서비스품질 11년째 1위 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zWnA2NzZnWEVpakl3LXdXU1VSR0ljVnB4Q2NQSFJXQ2RQNlQ3dXNBbWdpTnFidk5veFk1RUItMDRZT3ZYRkpFSXh6TkJJeWdqVVhrcjlfV25hRmVWWmZJYTJaTkxOdw?oc=5",
-        "published": "2026-07-21T16:10:33+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 13,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,12 +36,36 @@
         "published": "2026-07-19T10:01:56+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "315b90215bf2",
+        "title": "기계설비건설공제조합, 신한은행 두바이지점과 맞손...중동 진출 조합원 지원 확대",
+        "source": "건설이코노미뉴스",
+        "summary": "기계설비건설공제조합, 신한은행 두바이지점과 맞손...중동 진출 조합원 지원 확대 건설이코노미뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5SW9PNUhkQ3RZLVl0d3QwLWxkLW05dmUwQ3Jaa1Jtb29FVzJyRUg0WXFtT3JOVWN6NThvRER4VjdCdGR3LUhHbHlFdHZHYXpPckY3MjgzZlRQUDE2SWpzRFVXcmg?oc=5",
+        "published": "2026-07-23T22:38:00+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "bdab7032bbc6",
+        "title": "신한은행, KSQI 은행산업 부문 16년 연속 최고 평가",
+        "source": "뉴스퀘스트",
+        "summary": "신한은행, KSQI 은행산업 부문 16년 연속 최고 평가 뉴스퀘스트",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxTzRGWU41eFNWVFNoMlZsdmxJX2FMbk8xbWNwTk1JVDFIVE52SWpmWE9wbjlJQVpGOFhHdmZjUEFfX0g0Q3JROVFnTWdhdVpRcjhabmlUSm9VYUtoeWRpTkwtSHVzYkk1SGQ5RXp4TlQxaUnSAXNBVV95cUxQMU80RllONXhTVlRTaDJWbHZsSV9hTG5PMW1jcE5NSVQxSFROdklqZlhPcG45SUFaRjhYR3ZmY1BBX19INENyUTlRZ01nYXVaUXI4Wm5pVEpvVWFLaHlkaU5MLUh1c2JJNUhkOUV6eE5UMWlJ?oc=5",
+        "published": "2026-07-22T18:54:18+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "939c7a9461e2",
         "title": "신한은행-서울시립대, 업무협약 체결…학생증·금융서비스·공공금융 협력 강화",
@@ -75,7 +75,19 @@
         "published": "2026-07-22T16:21:56+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "81c12e4baf8e",
+        "title": "신한은행, 영업점 고객응대 평가 16년째 은행권 1위",
+        "source": "PRESS9",
+        "summary": "신한은행, 영업점 고객응대 평가 16년째 은행권 1위 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Xd1U3RmFaclBjWHZva0NiMXh3WkF0Y1hBb1lHYWNMVGlFU3ZjUXpZczJtMzVnaGJKMHoyVDRfbzNFdHdzSjlzLWFud2JyYURRcUpoOG1lUFF0OThXZm1vVHZJTFM?oc=5",
+        "published": "2026-07-22T13:49:04+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -87,7 +99,7 @@
         "published": "2026-07-22T09:01:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 6,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
