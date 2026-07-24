@@ -1,14 +1,41 @@
 {
-  "updated_at": "2026-07-24T07:34:49.548771+09:00",
+  "updated_at": "2026-07-25T07:39:03.985188+09:00",
   "items": [
     {
-      "id": "97798e9b6558",
-      "title": "이상식 의원, 김성환 장관과 용인 반도체 국가산단 점검",
-      "source": "서울일보",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DSWM2Qm1uY05XRWk3d3NOY2JhRXRVM21xU1JfSkk2YjlYMGhKbVRqV3pYbjhqU2hQY3k4QUtySGplTlBrTXdhT2NNZHc3V0J1dWJGUk93U1R3QkY4SFJiN1ZMZ3JpT2V4RnJaU9IBb0FVX3lxTE1vSk9lMW51aU9HME5QUkJFUGxCb1o2R0VtN25uaGQzX1lDMXdXS0JXTjJBXy0wT0lBSzMwUW4xT1J4clRybWJvZU5IVkxkWTVpTmM5NXBwcEQ0MkZJbmsyUy14aTBOd1BOQ08xYVRGdw?oc=5",
-      "published": "2026-07-23T18:54:41+09:00",
-      "date": "2026-07-23",
-      "query": "반도체 국가산단"
+      "id": "d290702d18b2",
+      "title": "李 \"재개발 공급 효과 제한적\"…3기 신도시 '속도전'에 방점[공급, 어디서 어떻게①]",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YTUtFRzZlSnlaaTluNG9kRjFob29uSllyNnZQMXYzSmhVOXRWcmxEeUoyQl9BWmxhVlFmMmhvS1FLbjdMMVREUVZXcURBOWFmTFdfU3RUdGZCSnE1eWFKOEw2QzA4RFZNMnZzN29ENklvQm43YktNddIBeEFVX3lxTE5YTUtFRzZlSnlaaTluNG9kRjFob29uSllyNnZQMXYzSmhVOXRWcmxEeUoyQl9BWmxhVlFmMmhvS1FLbjdMMVREUVZXcURBOWFmTFdfU3RUdGZCSnE1eWFKOEw2QzA4RFZNMnZzN29ENklvQm43YktNdQ?oc=5",
+      "published": "2026-07-25T06:00:00+09:00",
+      "date": "2026-07-25",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "4809b5b0f192",
+      "title": "[다시, 울산을 짓다] 울산 울주군 도시재생사업 살펴보기(5): 울주군 언양읍 도시재생사업(1)",
+      "source": "울산저널i",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OMHVtOFEwN0VkT0dSNS1UV191S1FhdEpaREpiZF9mNmd1WnEwUlZqak1zbi12aFNiTC1DMmRadkttMFFLMHhlQU9CZ0hKdENyY0xDSWFacEs4UTQ3TkNsQ3hNTExZYnp4Y180eGg3QW1RcjQ?oc=5",
+      "published": "2026-07-25T00:00:00+09:00",
+      "date": "2026-07-25",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "bac1e94fc4b2",
+      "title": "인허가 풀어도 착공 하세월인데…\"공급 해법 안보인다\"",
+      "source": "한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVnJiS3pIYk9OQzN4UXRBNUl0Ni1IYmNaNVBjaU1WNXFQb1AzS1hxMTZ1by1jYVN1VFRwdnVlMmNPa2FCcTJHNnUwUUJTZUUxWi1faW9KTzBNUQ?oc=5",
+      "published": "2026-07-24T17:33:32+09:00",
+      "date": "2026-07-24",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "18c33bf70418",
+      "title": "가양동 CJ공장부지, 지산 대신 주택 960세대…복합개발로 재편",
+      "source": "M이코노미뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45S19YYndiQW5yS21aeHk4aFZQZ2F0YV8yOUFRWXI5SHJPdDBQU3Utc3lmd3ZDUlBpWmJxcGMyNHI3b0g4QlJFUFZCQi13cG5URF91REw1TF9CSnJ2T3dMbGZHc1JWRnM?oc=5",
+      "published": "2026-07-24T15:11:03+09:00",
+      "date": "2026-07-24",
+      "query": "복합개발 지구단위계획"
     },
     {
       "id": "be9619299142",
@@ -20,11 +47,11 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "593ebf210425",
+      "id": "75238be736f2",
       "title": "서울 준주거지역, 상가 없이도 아파트 지을 수 있다",
-      "source": "네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VdHpzZll6Q1hmbTVraENNaUoweHZsWXRLWnBxNzZ2ckgwZ2U1cnNuS0E4MlNmOTV2dnAza2xwWHRXWjNFdlJZRHZ6UkJNMzdZeVFn?oc=5",
-      "published": "2026-07-23T17:52:00+09:00",
+      "source": "서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDVHBLM0JOTGNlcWRpTDNmUGY4dm5pc3BpbFB2bFhwSXQ1am5LblR6dzg1SmxjRDFvMG5BVXR3UkFZRXhwdlZVakZaMGpwREpCQmfSAVNBVV95cUxPUEtTUHY0RVN2bkp3cnNsdXJBXzEwX3M0bWdhNkFXbHE2OUVqQTlacTB3dFlhTXZyUGpBdjBhT2I4QUYwSzNRVEVIdXQ3OHhCLXMxWQ?oc=5",
+      "published": "2026-07-23T17:51:49+09:00",
       "date": "2026-07-23",
       "query": "복합개발 지구단위계획"
     },
@@ -47,13 +74,13 @@
       "query": "신도시 착공"
     },
     {
-      "id": "bc2d9e9b021f",
-      "title": "[부동산 대토론회] 李 3기 신도시 착공 절반 단축…정비사업 완화엔 신중",
-      "source": "아주경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnZS12eDZFd2ZlNHVmVEFUNkJHQm9uZE41Z3NDMklGNE1tYXAwV0VxZDNwdDhSTmx4VnRXRkQ4MG9CNnVTZEFjaW0wbmFmQ0R2cFBOdWhvdVJDd9IBWEFVX3lxTFB6UXZPMjZlS0JiRE9MOEdBTW5FUW1RY2VreEN3eFJMZFJEaFN5aHVlTGhXVDE3dEJLSnU2N2lWNHNpUnhZSHh3ZWVuQWZmZ01uSFdsY1lMSnk?oc=5",
-      "published": "2026-07-23T15:54:49+09:00",
+      "id": "1631cccc163b",
+      "title": "조치원·연기 LH 아파트 사업 무산에… 세종시 ‘불만·곤혹’",
+      "source": "세종의소리",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkc3lsWHNTdU1DOEsxSThEbVdvYXBYNzJla1BMSFZRWFRnS1JqckxXOXhwaXFjWE1jNGVqVEFsYkxGRG5aWmZqME45WUliclJFSUVVTFRzbkk1dDYzbUJXd1Zxa1FfU1k?oc=5",
+      "published": "2026-07-23T16:49:11+09:00",
       "date": "2026-07-23",
-      "query": "신도시 착공"
+      "query": "LH 지구지정"
     },
     {
       "id": "3dde589839b4",
@@ -61,15 +88,6 @@
       "source": "경기일보",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkOFdfN1ZCZmRyMllIOC1zYk9fS1ZoMW5uTVkyX2tZVy05MlV0dmthY25OQ1U5M1JWZjEyUGZyTDM1b0pKb1QtWVpsd3g4aDU0Qk54Q1NkVDFWZEE?oc=5",
       "published": "2026-07-23T13:02:17+09:00",
-      "date": "2026-07-23",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "ec6316a3af94",
-      "title": "李대통령 \"3기 신도시 착공 지연 심각, 60여개월 절차 절반 이하로\"",
-      "source": "아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqbWV3VnJzYjRCaUNFYVM3S1pYRlR6UXlaSDJUZkZxWVcwaDZnekNJQmw0VU5DUXItQjN0QVJ4VWswdHBNZ1ZRcWRHaWxCanlsQlE3ZmNNcWhPQmpsTUFCag?oc=5",
-      "published": "2026-07-23T11:49:57+09:00",
       "date": "2026-07-23",
       "query": "신도시 착공"
     },
@@ -83,11 +101,11 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "a22ab367fac4",
+      "id": "01e054906f54",
       "title": "강서 CJ공장부지에 960가구 공급…업무시설 복합개발 추진",
       "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE54amh6RDBRRERObmFXbDBpbmpLOXg2OEQxNkZKblQtUTNPRjFmWWVVR2wwV29OckcwMEFNQ0F1cmI1cjA3TGc?oc=5",
-      "published": "2026-07-23T10:02:20+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kS2NGZ0FteEM2TUlpbzlLU3JqaUdMLWpxcVo5TFJsYkNzTTJvMmxOS2hWU3VLZzhlM0JucUE1YXltamYzNUQyU2tDQmlIelk?oc=5",
+      "published": "2026-07-23T10:02:00+09:00",
       "date": "2026-07-23",
       "query": "복합개발 지구단위계획"
     },
@@ -110,29 +128,11 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "42c3fb01a8e0",
-      "title": "조치원·연기 공공주택지구, 1만2천 가구 공급계획 사실상 무산",
-      "source": "뉴스엔톡",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tekZjMXFKanQ0NlJ4blluRDlLd1Q3SWpoYXl3ZXQ3Wmtqc1JjVDdFd0FwTl9oMlp1WVhRZVNyUWNnTGhWeGVDVDI4bkZkamVVeVRJa1FmUmNrSm9xTGI5RHZMTjEzUDl0ZE5rRA?oc=5",
-      "published": "2026-07-22T18:16:47+09:00",
-      "date": "2026-07-22",
-      "query": "LH 지구지정"
-    },
-    {
       "id": "4843d7df331f",
       "title": "조상호, 'LH, 조치원·연기 공동주택 지구 지정 해제' ... \"존재 이유 무엇인가\"",
       "source": "세종포스트",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yTWlRczVNMWM2RUVPNGVQb3pMQW9Td3I0Sm5GajhYVTNUUkt0ZkpoQUR6OE5Tb3R5WGxYMmw1cG1VZTd2dmpTV1pyVm5XaV91MWNwbURSZktJM0tyVGRPYS0zUDQzdDZJ?oc=5",
       "published": "2026-07-22T18:13:40+09:00",
-      "date": "2026-07-22",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "2ef2a5a5dc22",
-      "title": "아파트 1만2천호 공급 '세종 조치원·연기 주택사업' 무산 수순",
-      "source": "매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lMlFINll3MGM4aDdtMG5yYWZHaUVFRVhfVS00Q3dZM2FzdTNuNUpJRXlIRmNMU21xbDl6aVk0TGtRUXp4N3J3RExaS0dCajFVUFE?oc=5",
-      "published": "2026-07-22T17:24:57+09:00",
       "date": "2026-07-22",
       "query": "LH 지구지정"
     }
