@@ -1,15 +1,6 @@
 {
-  "updated_at": "2026-07-25T07:39:03.985188+09:00",
+  "updated_at": "2026-07-26T07:31:25.150515+09:00",
   "items": [
-    {
-      "id": "d290702d18b2",
-      "title": "李 \"재개발 공급 효과 제한적\"…3기 신도시 '속도전'에 방점[공급, 어디서 어떻게①]",
-      "source": "뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YTUtFRzZlSnlaaTluNG9kRjFob29uSllyNnZQMXYzSmhVOXRWcmxEeUoyQl9BWmxhVlFmMmhvS1FLbjdMMVREUVZXcURBOWFmTFdfU3RUdGZCSnE1eWFKOEw2QzA4RFZNMnZzN29ENklvQm43YktNddIBeEFVX3lxTE5YTUtFRzZlSnlaaTluNG9kRjFob29uSllyNnZQMXYzSmhVOXRWcmxEeUoyQl9BWmxhVlFmMmhvS1FLbjdMMVREUVZXcURBOWFmTFdfU3RUdGZCSnE1eWFKOEw2QzA4RFZNMnZzN29ENklvQm43YktNdQ?oc=5",
-      "published": "2026-07-25T06:00:00+09:00",
-      "date": "2026-07-25",
-      "query": "신도시 착공"
-    },
     {
       "id": "4809b5b0f192",
       "title": "[다시, 울산을 짓다] 울산 울주군 도시재생사업 살펴보기(5): 울주군 언양읍 도시재생사업(1)",
@@ -18,15 +9,6 @@
       "published": "2026-07-25T00:00:00+09:00",
       "date": "2026-07-25",
       "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "bac1e94fc4b2",
-      "title": "인허가 풀어도 착공 하세월인데…\"공급 해법 안보인다\"",
-      "source": "한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVnJiS3pIYk9OQzN4UXRBNUl0Ni1IYmNaNVBjaU1WNXFQb1AzS1hxMTZ1by1jYVN1VFRwdnVlMmNPa2FCcTJHNnUwUUJTZUUxWi1faW9KTzBNUQ?oc=5",
-      "published": "2026-07-24T17:33:32+09:00",
-      "date": "2026-07-24",
-      "query": "신도시 착공"
     },
     {
       "id": "18c33bf70418",
@@ -74,13 +56,13 @@
       "query": "신도시 착공"
     },
     {
-      "id": "1631cccc163b",
-      "title": "조치원·연기 LH 아파트 사업 무산에… 세종시 ‘불만·곤혹’",
-      "source": "세종의소리",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkc3lsWHNTdU1DOEsxSThEbVdvYXBYNzJla1BMSFZRWFRnS1JqckxXOXhwaXFjWE1jNGVqVEFsYkxGRG5aWmZqME45WUliclJFSUVVTFRzbkk1dDYzbUJXd1Zxa1FfU1k?oc=5",
-      "published": "2026-07-23T16:49:11+09:00",
+      "id": "24ab67fca282",
+      "title": "[부동산 대토론회] 李 \"3기 신도시 착공 절반 단축\"…정비사업 완화엔 신중",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5BU1ZXcUZCeGJRUmNFOFo1ZUFkczlHYWlyQWc3VXRmZEVUTl84N0pQdzdhX1JLaldWWk5nRkVYdXVwQ3Nod09KNU5Rbw?oc=5",
+      "published": "2026-07-23T15:54:54+09:00",
       "date": "2026-07-23",
-      "query": "LH 지구지정"
+      "query": "신도시 착공"
     },
     {
       "id": "3dde589839b4",
@@ -88,6 +70,15 @@
       "source": "경기일보",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkOFdfN1ZCZmRyMllIOC1zYk9fS1ZoMW5uTVkyX2tZVy05MlV0dmthY25OQ1U5M1JWZjEyUGZyTDM1b0pKb1QtWVpsd3g4aDU0Qk54Q1NkVDFWZEE?oc=5",
       "published": "2026-07-23T13:02:17+09:00",
+      "date": "2026-07-23",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "1dda06300026",
+      "title": "李대통령 \"3기 신도시 착공 지연 심각, 60여개월 절차 절반 이하로\"",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VWlBFS3JyWmE0WE1odmQxWnlKSnF2UnMzdGFGN3F1YXZiUnBiZE9IdWVtR0hJSkg5T1NnamJXUFpOR1JPZHBxVUdoSU1KUTg?oc=5",
+      "published": "2026-07-23T11:51:48+09:00",
       "date": "2026-07-23",
       "query": "신도시 착공"
     },
@@ -110,6 +101,15 @@
       "query": "복합개발 지구단위계획"
     },
     {
+      "id": "39575bc50cb0",
+      "title": "이상일 용인특례시장, 용인 반도체 국가산단에 대한 원활한 전력·용수 공급 지원 경기도지사에 요청",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9haGlmNTUxSlB6eEpBVENwNVJEMzhtMzZkNUFxRTdzejR1WTAyLUJBZ1pPc21aZWFhOU95azFSSlBkZEk2Q0paalNMRHZBcFNoTDdRZQ?oc=5",
+      "published": "2026-07-23T10:00:09+09:00",
+      "date": "2026-07-23",
+      "query": "반도체 국가산단"
+    },
+    {
       "id": "a6a925c92414",
       "title": "서울시내 준주거지역내 지구단위계획구역, 아파트 건립 가능",
       "source": "뉴스핌",
@@ -119,20 +119,20 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "f588d492c806",
-      "title": "용인 반도체 팹도 속도전…국가산단 전력 공급, 2042년까지 마친다[Pick코노미]",
-      "source": "서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51WnJOS3c0SG83SjVlc09uNTRXeGNSSm5DcWN6cWFqSGFqQ2p0YjFLN3c5b3FJYUlZTldnNXNuenR2cjY3WXlDTl80REFXWGthYlHSAVNBVV95cUxQT1pJMkxsb0RRdkgtY003OGJGQnFqV3JGSHB6OHpWc3Bkc2UySnlBaTAwal84R1hVWGllc1NqNDJtOGVRVDBLdVlNRFpuZ3FGWHVXMA?oc=5",
-      "published": "2026-07-23T06:40:04+09:00",
-      "date": "2026-07-23",
+      "id": "7657df50ba0f",
+      "title": "정부, ‘3대 메가’ 용인 반도체산단 전기공급 11년 앞당긴다",
+      "source": "한겨레",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0Q01ETG03U2lJbER6YUhOSzhSdjBTQVhMVWRiZjRHZlVjLWoyTlRtVHA2dThPdE0xX0NFOFo5dTJSQTh3T2tGZHV6UFRIMUtRZ3NWc09pbzFGRTRFV2lqaEE2Z0Z0c0lPSnhoVg?oc=5",
+      "published": "2026-07-22T19:03:00+09:00",
+      "date": "2026-07-22",
       "query": "반도체 국가산단"
     },
     {
-      "id": "4843d7df331f",
-      "title": "조상호, 'LH, 조치원·연기 공동주택 지구 지정 해제' ... \"존재 이유 무엇인가\"",
-      "source": "세종포스트",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yTWlRczVNMWM2RUVPNGVQb3pMQW9Td3I0Sm5GajhYVTNUUkt0ZkpoQUR6OE5Tb3R5WGxYMmw1cG1VZTd2dmpTV1pyVm5XaV91MWNwbURSZktJM0tyVGRPYS0zUDQzdDZJ?oc=5",
-      "published": "2026-07-22T18:13:40+09:00",
+      "id": "42c3fb01a8e0",
+      "title": "조치원·연기 공공주택지구, 1만2천 가구 공급계획 사실상 무산",
+      "source": "뉴스엔톡",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tekZjMXFKanQ0NlJ4blluRDlLd1Q3SWpoYXl3ZXQ3Wmtqc1JjVDdFd0FwTl9oMlp1WVhRZVNyUWNnTGhWeGVDVDI4bkZkamVVeVRJa1FmUmNrSm9xTGI5RHZMTjEzUDl0ZE5rRA?oc=5",
+      "published": "2026-07-22T18:16:47+09:00",
       "date": "2026-07-22",
       "query": "LH 지구지정"
     }
