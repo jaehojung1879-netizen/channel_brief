@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-26T07:29:46.311900+09:00",
+  "updated_at": "2026-07-27T07:32:27.624023+09:00",
   "headline": {
-    "id": "f5ad98d469b2",
-    "title": "신한은행, AI로 보이스피싱 미리 차단…고객이 모든 혁신의 기준",
-    "source": "한국경제",
-    "summary": "신한은행, AI로 보이스피싱 미리 차단…고객이 모든 혁신의 기준 한국경제",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IUWJDWERBT0xkb3lYZk5lM0VwRWVLdGJha0FCS2hBZXpaY2FQd1JPV21zb21hWWxDNXZ2aUtoOGp2dE5KdFhXQ2s4S01EX0RQS0o2akJtRGNrUQ?oc=5",
-    "published": "2026-07-22T09:00:30+09:00",
-    "query": "신한은행 영업점",
+    "id": "959751a112c3",
+    "title": "SK매직, 전국 우리은행 영업점 공기청정기 공급",
+    "source": "현대경제신문",
+    "summary": "SK매직, 전국 우리은행 영업점 공기청정기 공급 현대경제신문",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85UUZldkZTYVdjR3RIU1V3MHFlUTF0TTV3LWRnQVV2VFl6OUo0c09jR1VGamdGck80MmN6QjNTdHlKd25jSzdoM1Z3X2YzYWlVQWsyam9MejM2eS05ZWM1XzJoaFhxTExp0gFrQVVfeXFMUHBjeGs4V25HaE9JRmNZRTRHS1BBUEpTZWZ5clpfMW8zWmpkNFlMTW1XX3lZT0JITlVlWVh2elZNZjRnZDlkLUJPVVlmNWgwcXdDMWt4TUdNWVZnRFF1am1YTk5NTTh1NDA5MHc?oc=5",
+    "published": "2026-07-23T16:03:51+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 6,
-    "_score": 10.0,
+    "rank": 12,
+    "_score": 8.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -24,19 +24,7 @@
         "published": "2026-07-24T16:40:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "959751a112c3",
-        "title": "SK매직, 전국 우리은행 영업점 공기청정기 공급",
-        "source": "현대경제신문",
-        "summary": "SK매직, 전국 우리은행 영업점 공기청정기 공급 현대경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85UUZldkZTYVdjR3RIU1V3MHFlUTF0TTV3LWRnQVV2VFl6OUo0c09jR1VGamdGck80MmN6QjNTdHlKd25jSzdoM1Z3X2YzYWlVQWsyam9MejM2eS05ZWM1XzJoaFhxTExp0gFrQVVfeXFMUHBjeGs4V25HaE9JRmNZRTRHS1BBUEpTZWZ5clpfMW8zWmpkNFlMTW1XX3lZT0JITlVlWVh2elZNZjRnZDlkLUJPVVlmNWgwcXdDMWt4TUdNWVZnRFF1am1YTk5NTTh1NDA5MHc?oc=5",
-        "published": "2026-07-23T16:03:51+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 13,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,12 +36,36 @@
         "published": "2026-07-22T18:22:12+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "f18ffef62eb9",
+        "title": "해외서 효과 본 '영업점 협업제도', 국내 은행은 왜 안되는걸까?",
+        "source": ":: 위즈경제 ::",
+        "summary": "해외서 효과 본 '영업점 협업제도', 국내 은행은 왜 안되는걸까? :: 위즈경제 ::",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SSUxxbUlwMGU3d3JLNWx6TDlTRG1aN3VCZEdoSDktQVdoR29za2VDMXJPRlNoVlFsUWQzcFRJanVLZkNMWFNiUHEwRkZfcy1YUWxkQzdUb1BQdw?oc=5",
+        "published": "2026-07-22T16:01:59+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "9137d6ff2af7",
+        "title": "신한은행, IT 투자 늘리고 보안은 뒷전… 예산만 늘린 ‘착시’",
+        "source": "한국보험신문",
+        "summary": "신한은행, IT 투자 늘리고 보안은 뒷전… 예산만 늘린 ‘착시’ 한국보험신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1abWw1VWNYUFhzaEJsMm9ZMmhCZkl4YklXc0xWbGk2REk4eXVsbTZjNVNyQ2ZkSUctTkVNSGhfNkNBYk9vRzZ3TmdzalFRLTI1NUFleExlT0NfYVhOMFhaMEt4TGdmSkhqLWZR0gFvQVVfeXFMTlhfZ1ZDdG90QWNmU01ZdXRqaWlhQnU5U1NwdDBMME8yNkc0cUV6Vk1tTFdIdUdWQldyN3NoQlJqZTRkYktUSVE2S1pIXzgtVmUzbEJFNjVZVVZaMmIxYUZmRzZxWFZRdGRqZTJVOU04?oc=5",
+        "published": "2026-07-27T00:00:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "906534243ac5",
         "title": "신한은행, 글로벌 수익 확대 박차…아시아 시장 공략 관건",
@@ -63,7 +75,7 @@
         "published": "2026-07-26T00:00:52+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -75,19 +87,19 @@
         "published": "2026-07-24T09:09:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 2,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "97157ff3266e",
-        "title": "신한은행, 대면 서비스 평가 16년 연속 은행권 1위",
-        "source": "팝콘뉴스",
-        "summary": "신한은행, 대면 서비스 평가 16년 연속 은행권 1위 팝콘뉴스",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9seTBfSHc1ZC1TSTRKT3U5TjJmNjVLeFotMnUydTA3NTFnQ1N5bkNHdGljZkpkY1gtWkNub3BLeEFheGc5Y3ZQc3puaGZWV2xGNmdubzFTdnpyVkY1dTFGTzg0bzI2Y3JzVklxN0xn0gFyQVVfeXFMUGN5MzhnejJ5eTVpRzVRSC0tbWhvd2RDeFB4S3g5bFBmV291NURiU0o3MXoyXzFHdWRod0RleExkZ1Q3TmpZX3lJdzFCRHg1VFA5V3VGWWVSd2tKUVR2TF9kakx2ekZaaGtjMmRqTmJUZTJn?oc=5",
-        "published": "2026-07-22T17:48:26+09:00",
-        "query": "신한은행 영업점",
+        "id": "55ec76730cb3",
+        "title": "기계설비건설공제조합, 신한은행과 중동 진출 조합원 금융지원 업무협력",
+        "source": "대한경제",
+        "summary": "기계설비건설공제조합, 신한은행과 중동 진출 조합원 금융지원 업무협력 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42NXVINEE1dFNCa2paVXM5Um51SGx3T0VQSlJqUTB5ZGluemJaQmVWOG83OVZ5TklFR3cwNmI2S081aVY5NVJ1YktWMzRPOFZTRDBlU2Utald4aXJQWUtmdHMtX1B2WVloNEF0cXNXM2hsLVU?oc=5",
+        "published": "2026-07-23T15:34:15+09:00",
+        "query": "신한은행 지점",
         "engine": "google",
-        "rank": 5,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -99,17 +111,41 @@
         "published": "2026-07-22T16:00:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "e0ac29b25f07",
+        "title": "직원도 몰랐던 ‘손님’의 정체…신한은행, 고객 서비스 16년 연속 1위",
+        "source": "위키트리",
+        "summary": "직원도 몰랐던 ‘손님’의 정체…신한은행, 고객 서비스 16년 연속 1위 위키트리",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzOWNBd09IVHJmVlZ0TmJ1ZjVEUkJxYUV2Y1hSNUZuQU5QMVFWaGNaVG1sWmlia3hSc2F4MnR2cVFfX2lrR05BZHVrdnBiT3MxeTRMSHV3?oc=5",
+        "published": "2026-07-22T14:50:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "81c12e4baf8e",
+        "title": "신한은행, 영업점 고객응대 평가 16년째 은행권 1위",
+        "source": "PRESS9",
+        "summary": "신한은행, 영업점 고객응대 평가 16년째 은행권 1위 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Xd1U3RmFaclBjWHZva0NiMXh3WkF0Y1hBb1lHYWNMVGlFU3ZjUXpZczJtMzVnaGJKMHoyVDRfbzNFdHdzSjlzLWFud2JyYURRcUpoOG1lUFF0OThXZm1vVHZJTFM?oc=5",
+        "published": "2026-07-22T13:49:04+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
         "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "840398721dc1",
-        "title": "‘고객 최우선’ 외친 신한은행… 거꾸로 가는 고객편의",
-        "source": "한국보험신문",
-        "summary": "‘고객 최우선’ 외친 신한은행… 거꾸로 가는 고객편의 한국보험신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PcFczU1FhRXpfNDlTNnQxREpMU3JDMWk4X2o5NTF5a3hoSGpYd3ZvbkRRZzd0WldiUllJR0lsNExtTVhLTno2UnhNWnM4NlZqSWl2eG9Jc3UxS0tTQkdIa0otX3RHbGxhc1JV0gFvQVVfeXFMTjBZcEZScmJ0eUlHYWl5eUpfNXBUZ2NlTWZGR3FJRU9RaFB4ME9NQkxSTlV1SGJLaFMzS1NmMHdFTno5QV8tcy00Sk1KeU9Za1k5NTd6em9VZ3dmR2o5bU92MDNOaWpTSlMtUl9sOGhn?oc=5",
-        "published": "2026-07-20T00:00:00+09:00",
-        "query": "신한은행 점포",
+        "id": "f5ad98d469b2",
+        "title": "신한은행, AI로 보이스피싱 미리 차단…고객이 모든 혁신의 기준",
+        "source": "한국경제",
+        "summary": "신한은행, AI로 보이스피싱 미리 차단…고객이 모든 혁신의 기준 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IUWJDWERBT0xkb3lYZk5lM0VwRWVLdGJha0FCS2hBZXpaY2FQd1JPV21zb21hWWxDNXZ2aUtoOGp2dE5KdFhXQ2s4S01EX0RQS0o2akJtRGNrUQ?oc=5",
+        "published": "2026-07-22T09:00:30+09:00",
+        "query": "신한은행 영업점",
         "engine": "google",
         "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
