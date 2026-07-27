@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-07-27T07:32:27.624023+09:00",
+  "updated_at": "2026-07-28T07:35:56.034563+09:00",
   "headline": {
-    "id": "959751a112c3",
-    "title": "SK매직, 전국 우리은행 영업점 공기청정기 공급",
-    "source": "현대경제신문",
-    "summary": "SK매직, 전국 우리은행 영업점 공기청정기 공급 현대경제신문",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85UUZldkZTYVdjR3RIU1V3MHFlUTF0TTV3LWRnQVV2VFl6OUo0c09jR1VGamdGck80MmN6QjNTdHlKd25jSzdoM1Z3X2YzYWlVQWsyam9MejM2eS05ZWM1XzJoaFhxTExp0gFrQVVfeXFMUHBjeGs4V25HaE9JRmNZRTRHS1BBUEpTZWZ5clpfMW8zWmpkNFlMTW1XX3lZT0JITlVlWVh2elZNZjRnZDlkLUJPVVlmNWgwcXdDMWt4TUdNWVZnRFF1am1YTk5NTTh1NDA5MHc?oc=5",
-    "published": "2026-07-23T16:03:51+09:00",
-    "query": "은행 영업점",
+    "id": "dca758f71596",
+    "title": "“금융기관 쉼터 왜 없나”…양산시 은행점포 ‘무더위쉼터’ 홍보 소외",
+    "source": "쿠키뉴스",
+    "summary": "“금융기관 쉼터 왜 없나”…양산시 은행점포 ‘무더위쉼터’ 홍보 소외 쿠키뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmVG9UNnhkaEhvcU1SMlhBeXNKdDJaN0JOUWhQNHJjdEhJZEdaQ2k4a2FPdG5BQnkxY3RET1l6RHZ6bGhBcDVPcHVQMFZLNXIxTV8yYVh0LUNuUFI1MFI2VWNKMA?oc=5",
+    "published": "2026-07-28T04:10:55+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 12,
-    "_score": 8.0,
+    "rank": 1,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "b11e00b28b10",
+        "title": "SK매직, 우리은행 영업점에 공기청정기 공급… 법인 고객 확대 ‘잰걸음’",
+        "source": "시사위크",
+        "summary": "SK매직, 우리은행 영업점에 공기청정기 공급… 법인 고객 확대 ‘잰걸음’ 시사위크",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45WTNTN1B1WkVkNVJqdHp3SkVqLXptSGVsZm5EVXdteU5aZGd2eGZLcmhGaEFpZlNJN3IySUtTaktxVFctQ2lEd2VmZmJsTjVQUGxieXZ2N2RzVEZFanU5OGU3eElETXZyQVQ0YkhzZ9IBb0FVX3lxTE45WTNTN1B1WkVkNVJqdHp3SkVqLXptSGVsZm5EVXdteU5aZGd2eGZLcmhGaEFpZlNJN3IySUtTaktxVFctQ2lEd2VmZmJsTjVQUGxieXZ2N2RzVEZFanU5OGU3eElETXZyQVQ0YkhzZw?oc=5",
+        "published": "2026-07-27T22:05:26+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "b66962894ca4",
+        "title": "Sh수협은행, 전국영업점장 경영전략회의 개최…하반기 영업전략 본격 점검",
+        "source": "폴리뉴스 Polinews",
+        "summary": "Sh수협은행, 전국영업점장 경영전략회의 개최…하반기 영업전략 본격 점검 폴리뉴스 Polinews",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBneXFjRTlxTS0wWDByb0ZEc0VmQ0F3NlVJLTJlekJXRURxSW5YT0VpajgyZlNFdm1OWXdxWFdpOTZ0aENHMW5ESGtHWThSSndqeGZ5NGtJWEFKblA2cjh1aUV5N3VMRnRZSTAxNGhn0gFyQVVfeXFMTmp1U0FXNV8tRUp1aUFoMWptMGJIUnlBbnlXYVcxMnhsNnVfRVBoVURZOHcxdnFkRjVoVEhNV01QeTNaOXV0WnRzUTd3TjhsQkRmX25nQWZXbGhIbUZhai1hd1BBalh1Vm5aN2dzWnhxclBn?oc=5",
+        "published": "2026-07-27T14:16:46+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "30be31356d43",
         "title": "[컨콜] 우리금융 \"WM복합점포·라이선스 확충, 리테일 기반 확대\"",
@@ -26,34 +50,34 @@
         "engine": "google",
         "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "f9ff8dcdade8",
-        "title": "IBK기업은행, 영업점 변동금리 주담대 판매 중단",
-        "source": "아시아경제",
-        "summary": "IBK기업은행, 영업점 변동금리 주담대 판매 중단 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HcU1IVElTQ0VjWHNaM2tBbHF4NGVkVm5FRHlRMnpyUWJYZkdOSDR4UjBXS3FlTGFRbjhxc0RPOTJUYVJmazVLY19ITEJKTHFBcE0yWXA1QXBPNXM2cEJVcA?oc=5",
-        "published": "2026-07-22T18:22:12+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "f18ffef62eb9",
-        "title": "해외서 효과 본 '영업점 협업제도', 국내 은행은 왜 안되는걸까?",
-        "source": ":: 위즈경제 ::",
-        "summary": "해외서 효과 본 '영업점 협업제도', 국내 은행은 왜 안되는걸까? :: 위즈경제 ::",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SSUxxbUlwMGU3d3JLNWx6TDlTRG1aN3VCZEdoSDktQVdoR29za2VDMXJPRlNoVlFsUWQzcFRJanVLZkNMWFNiUHEwRkZfcy1YUWxkQzdUb1BQdw?oc=5",
-        "published": "2026-07-22T16:01:59+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 16,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "fda63c7dec3b",
+        "title": "기계설비건설공제조합, 신한은행 두바이지점과 ‘맞손’… 해외 수주 지원 확대",
+        "source": "국토일보",
+        "summary": "기계설비건설공제조합, 신한은행 두바이지점과 ‘맞손’… 해외 수주 지원 확대 국토일보",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05X003SVc4UFZkdDVCVzhwTDIyRHRkellnR3VXZTNHN21qTHZaVkdNYzNQaTR6VjRyTGFnOC1mYjlMc0phaWo2a1dFb1ZVRVpibXAwLTJuMlppQ3JCMmFHUUFscw?oc=5",
+        "published": "2026-07-27T17:38:07+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "3dbe3b42c8f8",
+        "title": "신한은행, '2026 한국산업의 서비스품질지수(KSQI)' 은행 부문 12년 연속 1위",
+        "source": "한경매거진&북",
+        "summary": "신한은행, '2026 한국산업의 서비스품질지수(KSQI)' 은행 부문 12년 연속 1위 한경매거진&북",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0Y2d2elMyU0xDT0c2aFZxemdJRWdUZ2hNS3cyNEpPczhkb0V5UUFCVTJqWWVNbFhnNWJGbmpjY0ZQM3hnMkE0OVp0SGNjVnBRZm55c3NlVDkyWGpoUFZUcHU1R2xpRmc0SzM3Vg?oc=5",
+        "published": "2026-07-27T10:24:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "9137d6ff2af7",
         "title": "신한은행, IT 투자 늘리고 보안은 뒷전… 예산만 늘린 ‘착시’",
@@ -63,7 +87,7 @@
         "published": "2026-07-27T00:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -75,7 +99,7 @@
         "published": "2026-07-26T00:00:52+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -85,18 +109,6 @@
         "summary": "CI GUARANTEE, 신한은행과 업무협약 체결 매일건설신문",
         "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE52T3Z6Tl9HV3pqcEFEUkRwMUpuZmxZSFAwVVlwUXJpUk50UFB0T1FMWUJneWVZQ08zRE10MVBQNVhMZXc?oc=5",
         "published": "2026-07-24T09:09:00+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "55ec76730cb3",
-        "title": "기계설비건설공제조합, 신한은행과 중동 진출 조합원 금융지원 업무협력",
-        "source": "대한경제",
-        "summary": "기계설비건설공제조합, 신한은행과 중동 진출 조합원 금융지원 업무협력 대한경제",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42NXVINEE1dFNCa2paVXM5Um51SGx3T0VQSlJqUTB5ZGluemJaQmVWOG83OVZ5TklFR3cwNmI2S081aVY5NVJ1YktWMzRPOFZTRDBlU2Utald4aXJQWUtmdHMtX1B2WVloNEF0cXNXM2hsLVU?oc=5",
-        "published": "2026-07-23T15:34:15+09:00",
         "query": "신한은행 지점",
         "engine": "google",
         "rank": 3,
@@ -110,18 +122,6 @@
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IcXljYlFLRTFneF9ySHlsay1CUncyaGhfbW9xTEVaQ3FYQkpmMm9nMVpvbE00NjNxSnB5aVItOFlvb3ptcHJCUm1GYWgtTHJjbzA0SkxFdFhfd2hqN3ItSTRNdWZkekRyWUZn?oc=5",
         "published": "2026-07-22T16:00:00+09:00",
         "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "e0ac29b25f07",
-        "title": "직원도 몰랐던 ‘손님’의 정체…신한은행, 고객 서비스 16년 연속 1위",
-        "source": "위키트리",
-        "summary": "직원도 몰랐던 ‘손님’의 정체…신한은행, 고객 서비스 16년 연속 1위 위키트리",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzOWNBd09IVHJmVlZ0TmJ1ZjVEUkJxYUV2Y1hSNUZuQU5QMVFWaGNaVG1sWmlia3hSc2F4MnR2cVFfX2lrR05BZHVrdnBiT3MxeTRMSHV3?oc=5",
-        "published": "2026-07-22T14:50:00+09:00",
-        "query": "신한은행 영업점",
         "engine": "google",
         "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
