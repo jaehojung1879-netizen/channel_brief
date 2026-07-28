@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-07-28T07:35:56.034563+09:00",
+  "updated_at": "2026-07-29T07:36:27.532551+09:00",
   "headline": {
-    "id": "dca758f71596",
-    "title": "“금융기관 쉼터 왜 없나”…양산시 은행점포 ‘무더위쉼터’ 홍보 소외",
-    "source": "쿠키뉴스",
-    "summary": "“금융기관 쉼터 왜 없나”…양산시 은행점포 ‘무더위쉼터’ 홍보 소외 쿠키뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmVG9UNnhkaEhvcU1SMlhBeXNKdDJaN0JOUWhQNHJjdEhJZEdaQ2k4a2FPdG5BQnkxY3RET1l6RHZ6bGhBcDVPcHVQMFZLNXIxTV8yYVh0LUNuUFI1MFI2VWNKMA?oc=5",
-    "published": "2026-07-28T04:10:55+09:00",
+    "id": "6a0839a7bc6f",
+    "title": "하나은행, 시니어 특화 점포 '하나더넥스트 대구중앙 라운지' 확대",
+    "source": "nsenior.co.kr",
+    "summary": "하나은행, 시니어 특화 점포 '하나더넥스트 대구중앙 라운지' 확대 nsenior.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBeVFWTFNtUGdoNVE2MU02RmpSSUk0VjNlQTNwYTJ1T004NEViMUpOSk1mY3FfS0pIOEJKOUYzYkNERERNVXhiLTdkdDRJY1pNX3Y4NTE2UWhQd3NKbkNwbDJZWQ?oc=5",
+    "published": "2026-07-28T18:19:42+09:00",
     "query": "은행 점포",
     "engine": "google",
     "rank": 1,
-    "_score": 14.0,
+    "_score": 13.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "dca758f71596",
+        "title": "“금융기관 쉼터 왜 없나”…양산시 은행점포 ‘무더위쉼터’ 홍보 소외",
+        "source": "쿠키뉴스",
+        "summary": "“금융기관 쉼터 왜 없나”…양산시 은행점포 ‘무더위쉼터’ 홍보 소외 쿠키뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmVG9UNnhkaEhvcU1SMlhBeXNKdDJaN0JOUWhQNHJjdEhJZEdaQ2k4a2FPdG5BQnkxY3RET1l6RHZ6bGhBcDVPcHVQMFZLNXIxTV8yYVh0LUNuUFI1MFI2VWNKMA?oc=5",
+        "published": "2026-07-28T04:10:55+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "b11e00b28b10",
         "title": "SK매직, 우리은행 영업점에 공기청정기 공급… 법인 고객 확대 ‘잰걸음’",
@@ -24,7 +36,7 @@
         "published": "2026-07-27T22:05:26+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,24 +48,24 @@
         "published": "2026-07-27T14:16:46+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "30be31356d43",
-        "title": "[컨콜] 우리금융 \"WM복합점포·라이선스 확충, 리테일 기반 확대\"",
-        "source": "뉴스핌",
-        "summary": "[컨콜] 우리금융 \"WM복합점포·라이선스 확충, 리테일 기반 확대\" 뉴스핌",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWMVYtRmJ0aGpzVUM2RmlJU3Y0dXFzbTVoX096anRBVmRfQlVReDN2RkpDVGxjY1AzYmhHVG1SZzZNemYzUXZLbXV6Zm93dWdhTmw3TnRqd1FoUjdE?oc=5",
-        "published": "2026-07-24T16:40:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 8,
+        "rank": 15,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "dc5aa9bbf418",
+        "title": "현직자에게 묻는 은행 이야기… 신한은행 한양대지점, 커피챗 행사 개최",
+        "source": "뉴스H",
+        "summary": "현직자에게 묻는 은행 이야기… 신한은행 한양대지점, 커피챗 행사 개최 뉴스H",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16T3JjVGs5Y0lJQVNGSEUzMDFmQzZkTUxmeHZRbUhKb3lJVkJDSnVFWngxaUxJTkZqckVRYUNUb2pVcTc1VHE4elFGNTVFSjlIV1BCd3FaYkh5SlRmRE1XR21JQ0VGRGg5MGhj?oc=5",
+        "published": "2026-07-28T11:43:04+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "fda63c7dec3b",
         "title": "기계설비건설공제조합, 신한은행 두바이지점과 ‘맞손’… 해외 수주 지원 확대",
@@ -63,7 +75,7 @@
         "published": "2026-07-27T17:38:07+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -75,7 +87,7 @@
         "published": "2026-07-27T10:24:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -87,7 +99,7 @@
         "published": "2026-07-27T00:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -99,7 +111,7 @@
         "published": "2026-07-26T00:00:52+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -111,7 +123,7 @@
         "published": "2026-07-24T09:09:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -123,7 +135,7 @@
         "published": "2026-07-22T16:00:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 4,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -135,19 +147,7 @@
         "published": "2026-07-22T13:49:04+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "f5ad98d469b2",
-        "title": "신한은행, AI로 보이스피싱 미리 차단…고객이 모든 혁신의 기준",
-        "source": "한국경제",
-        "summary": "신한은행, AI로 보이스피싱 미리 차단…고객이 모든 혁신의 기준 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IUWJDWERBT0xkb3lYZk5lM0VwRWVLdGJha0FCS2hBZXpaY2FQd1JPV21zb21hWWxDNXZ2aUtoOGp2dE5KdFhXQ2s4S01EX0RQS0o2akJtRGNrUQ?oc=5",
-        "published": "2026-07-22T09:00:30+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 7,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]

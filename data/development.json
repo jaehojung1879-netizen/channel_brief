@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-28T07:37:51.024466+09:00",
+  "updated_at": "2026-07-29T07:38:17.342543+09:00",
   "items": [
+    {
+      "id": "5c52cdd8e17e",
+      "title": "‘2029년 조기 가동’ 목표 용인 반도체 국가산단…“남은 절차가 관건”",
+      "source": "경기일보",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJVDFJbHAtcm9Dd0NDUWdNWV9NQ29qTFlYNDlfc1Zxbm5HdG5uaDJId3BaLTZ0emdPWFkxbXJWM0Z6cTN6cm0tS2tFTnA4dGZDZ0VubGlMVW9lMVk?oc=5",
+      "published": "2026-07-29T05:00:00+09:00",
+      "date": "2026-07-29",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "ff30efcb883c",
+      "title": "반도체·비규제·가격 경쟁력…삼박자 갖춘 '용인 고림 동문 디 이스트'",
+      "source": "한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9faWpPYVowSmpySVdTWUliWVRIU0luT1VwTE9DeE11RE5OQ2dENkkyWkVCalYzdE9aR2daOFNYWW8yYlhmbFRWem5yd3pvQnc3ME96SDFzVFNuQQ?oc=5",
+      "published": "2026-07-28T15:12:30+09:00",
+      "date": "2026-07-28",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "75002de2f3dc",
+      "title": "2028년 착공 카운트다운 들어간 용인 반도체 산단…LH 앞에 놓인 과제",
+      "source": "한국금융신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81dWxReVB4cDRoUlUydlNnaVoyeHJTTVp4YlZwVkQ3T0k1UTlyT3dpdGd3Nmp4VmdBNnlESmgzRnJUYndkNThZZDZCenlKaTE1aGZQRzJVa2FtS250cXFLUGJ5dUN6WHl6M19hMlktcDU4aExhaVVJQnBxVWI?oc=5",
+      "published": "2026-07-28T14:28:11+09:00",
+      "date": "2026-07-28",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "fb2f6684c375",
+      "title": "‘수소 전기’ 환상 깨진 용인 반도체, 속도전만 외치는 정부",
+      "source": "뉴스타파",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9SbGthZFQ0LWN1ajI4YThJRmVjZEhfUkNDYmltS2FKS0M4bGEtY01tUWt2VUdkZThIcmI5R0tVQUNsMHhpZlRucQ?oc=5",
+      "published": "2026-07-28T13:04:06+09:00",
+      "date": "2026-07-28",
+      "query": "반도체 국가산단"
+    },
     {
       "id": "34c5eb011ecc",
       "title": "무안군 \"국가산단 먼저\"...반도체 산단 '골든타임' 놓칠라",
@@ -20,24 +56,6 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "3ef31bf5ed1b",
-      "title": "이상일 시장 \"3대 메가프로젝트 반도체 투자, 용인부터 속도 내야\" [기초단체장에게 듣는다]",
-      "source": "한국일보",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45Wm5SRXdRdVBtZ1MyQThKdmlfU1JZcHhiRG45am5jb0M1c2Q2SjhRekVpcDhaeng5UWNHNG1VTzZEbmRWT09tbFZGbkF3dHQ3UXl4Z3Y1bUZSUy15ZnBudTI0b0g3U3VXWFhEejlB0gFzQVVfeXFMUDJ5MF9abVExMnVaaU1RMTJFSWFJZVdEYThyMzdab3o0TWI2blBnYkw3RUkwM2FIWXVfaWpEVXhVSXpia3RpaTA0N0NHaW1tMlBTRXNINnVmNGxFYmRTM2ktZE1KSzZiTnpuaEl2aVJfTmxaVQ?oc=5",
-      "published": "2026-07-27T17:25:00+09:00",
-      "date": "2026-07-27",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "710fba6751fb",
-      "title": "3기 신도시 속도전 본격화…착공 기간 ‘절반 단축’ 가능할까",
-      "source": "핀포인트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MdWhnaTlDTFZUbFBFTUlMU25sMTBTcTFIanlITG5WQzB0MFl4NzF1QkVySlUwS01zUlRyX2NqR0YtQmQwaTBvakV1V01UQW5ZZjZLRWw5Ym9lLTRmOUlpc3dNNkhIOEMtcE9GTExPUkNiTEnSAXdBVV95cUxQQTh3ZHhTMnM4UW1CNXo5UFV6UnpsaTVUS1V6RHpGanhiZVR4NElwVm1IUlppVEJyRE93SlpER2JBeHBCeEp0Nm5pcXRwRHAxaFMtTUxWUVdSZEJHSEZPYy1qamg4bWpyeU9xdXZPNW5qSDZPUE5zTQ?oc=5",
-      "published": "2026-07-27T16:04:40+09:00",
-      "date": "2026-07-27",
-      "query": "신도시 착공"
-    },
-    {
       "id": "cd97a7c22f3a",
       "title": "3기 신도시 착공 속도낸다 … 정부, '택지 신속 혁신단' 가동",
       "source": "뉴데일리",
@@ -45,60 +63,6 @@
       "published": "2026-07-27T14:06:19+09:00",
       "date": "2026-07-27",
       "query": "신도시 착공"
-    },
-    {
-      "id": "d779d922c2b2",
-      "title": "김제시, 2035 도시재생전략계획 주민 의견 수렴",
-      "source": "전민일보",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pcW9vSHI0QVNQS3MwZmx4Rm9HbGxjeU95RnFQWW5jcEJPd04wTWpwc2tfdl9KajAwUGh4RVdoMGVvTFdtNG5tZ0tVY1JVLThnUjFnS2psdEVwWWxXTHBWempzMk1abDgxZmNB?oc=5",
-      "published": "2026-07-27T13:29:54+09:00",
-      "date": "2026-07-27",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "fb2f6684c375",
-      "title": "‘수소 전기’ 환상 깨진 용인 반도체, 속도전만 외치는 정부",
-      "source": "뉴스타파",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9SbGthZFQ0LWN1ajI4YThJRmVjZEhfUkNDYmltS2FKS0M4bGEtY01tUWt2VUdkZThIcmI5R0tVQUNsMHhpZlRucQ?oc=5",
-      "published": "2026-07-27T12:24:43+09:00",
-      "date": "2026-07-27",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "85c924789685",
-      "title": "김제시, ‘2035 도시재생전략계획’ 주민설명회 개최",
-      "source": "전북도민일보",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KcG1EVERGUGNfNkFYdmFKWUMwMkh5dkdSZnotdm1lZHRDWi1WUTUwRVZhNUhfYk9NbWxNTy00amp5YkY3eU5lTkd3aFRoN1pmQzRwcEhTMzEwa0RKdEZzaGlRLU5NVUVoQm9B?oc=5",
-      "published": "2026-07-27T11:28:02+09:00",
-      "date": "2026-07-27",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "64ccfba4b818",
-      "title": "용인 반도체 산단 전력 공급 ‘11년 단축’",
-      "source": "용인신문",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QOFRPZE92ZWJWb01hNnpsTG0ydVI1NjNHZW5HQnFaQjZHRDQxV2p2WXY5VWdSNHd4Q3NSVWFBbmhpbEVnWC1pTTNja1pjWHJ3Rkk2d0draXJBejk4NUdSVWpHRmQ?oc=5",
-      "published": "2026-07-27T10:20:36+09:00",
-      "date": "2026-07-27",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "8cd6f79e4095",
-      "title": "김제시, '2035 도시재생전략계획' 주민설명회 개최",
-      "source": "투데이안",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1WRFJva2VFSnFUQ1RIT2huampKZ19FaTlpX3hZX3JEcmItSnJOcG1fVTZtZHYwWXJTT1NhVXBaLVNmZE51UXh2a2lQaEd3TXBFdVJReC1PUXc3U1A0YUgzbThIUWctMllD?oc=5",
-      "published": "2026-07-27T10:07:24+09:00",
-      "date": "2026-07-27",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "1f6c11563e97",
-      "title": "강서구 가양동 옛 CJ공장부지 개발 본격화…960세대 공동주택 들어선다",
-      "source": "나눔경제뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoTHlKN2JkQnhMX3lyQTJOZksxN3NHZ1I4RzhnckNzbjRIWmFrbFlwRU5tdkN4UkxXY2U5SzZXS09neWt1MHliZVBkMFN4VmIyQ2Rub0tHdkVpMEo5QlJENnJMY0lleFcyU3I1WA?oc=5",
-      "published": "2026-07-27T10:02:07+09:00",
-      "date": "2026-07-27",
-      "query": "복합개발 지구단위계획"
     },
     {
       "id": "e685ee90552c",
@@ -110,15 +74,6 @@
       "query": "국토교통부 고시"
     },
     {
-      "id": "8ddd858bfe05",
-      "title": "강서구, 가양동 옛 CJ공장부지 개발 본궤도…960세대 공동주택 조성 확정",
-      "source": "전국매일신문",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLNjhGcWNnUFNCa1JmeFYxZU1tVDdVS2RoUi1Rd3pPX2dieFdHeVlPbTEzUEVIYzV6aWtFSkl6T29VLXhSc3FhUGFUZEJIb2ZjQ3h4Z0p1dVYzT2tONjlrVExhcVlPM1NpeHVwcGtn?oc=5",
-      "published": "2026-07-27T07:13:45+09:00",
-      "date": "2026-07-27",
-      "query": "복합개발 지구단위계획"
-    },
-    {
       "id": "b4101d7a7f9e",
       "title": "3기 신도시 착공 1~2년 앞당긴다지만…보상·이주가 최대 변수[코주부]",
       "source": "서울경제",
@@ -128,13 +83,58 @@
       "query": "신도시 착공"
     },
     {
-      "id": "d9e14b48f6c8",
+      "id": "e72897348df2",
+      "title": "[단독] 李 3기 신도시 ‘속도전’ 주문… 범정부 택지 혁신단 출범 - 조선비즈",
+      "source": "Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNVhGU0JZUVp2YS1uRTQ1X0xIMTJiaE5BQXFzaC1EV2hXUG1Lc2diWXFLUHRCcFNDbXBKUjhESXdwa1lfd3dtcldqeDhYYl83M0NZTF9RSjlkTGpqVGF1S0E5Q1cwQTRVTTNKbFZFZC1neDZwd3B3Y0dHY3VKdTYwVDRIeVhIdXZrOWJGTmZKY1pxdl96MUlkQtIBrAFBVV95cUxPZlVkUlZBLWo5amVUb0FtTXNpU1dMenI5X29oSzgwRzJfZWtWb0E4eFBkVlg2UUZJRXdXeDRMRXlxU210MGMwYkh3VWVpSXkza1BKUHkxczVmQ1JreWRoanM5UmV2dmpHWS02aVpYRFpCTGx2NHZpU0EzYkRoUkRnMTlsMmlBbU0yYTdSaEEtQnNzZFoza1R4dWJFYVh1NWpweE1kbVNSWWF2Vi1p?oc=5",
+      "published": "2026-07-27T06:00:00+09:00",
+      "date": "2026-07-27",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "380a5487a9eb",
       "title": "이 대통령 “3기신도시 착공까지 기간 절반 줄이겠다”…묘안은?",
       "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5aTmUtN1hQOFc0bXFlcmV4SVpiWkFOTEJ2emhudDIzRHE0VHc1VzBnTVFrMDAyMVVhVzREZERnSjhZX25KTlE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3X19hdHhWUkZETFAwQllmZndnZUdLTkxsaXd0T0ZoTFBfLUo3YkVvZFF2LUFqZ0JvMXlDdi1VSzQ5TzBtb29rZVZzbXJyOGs?oc=5",
       "published": "2026-07-26T15:02:10+09:00",
       "date": "2026-07-26",
       "query": "신도시 착공"
+    },
+    {
+      "id": "e3c9d68ef66f",
+      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
+      "source": "자치안성신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
+      "published": "2026-07-26T11:01:17+09:00",
+      "date": "2026-07-26",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "04371a29f71e",
+      "title": "'3기 신도시 기간 절반 단축' 어떻게…주민 보상 등 난관 산적",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yV1FKU2U2YkZiRkhoVWhEckdlUGZYMVRCRlJGY1JCZUh5ZzhoOFhkR0E4a2RZY2p6VHVqSF9CWEQwNGN1azRhcEgycUFvRTJzZUUzb2Y4WEtNTzjSAWBBVV95cUxNbzFPZjQzNThBQUpOSTdzTHJWOUJpRHE2VWR3X3ZxaXlPYU9mMXRVczJkY0Z4UDlBWWR1RWdrTnFka2NURW5aNDY3LVBSbWgtTU83bU5ETVlnMURuRURRSjg?oc=5",
+      "published": "2026-07-26T08:37:19+09:00",
+      "date": "2026-07-26",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "2315185807fd",
+      "title": "[충청심층기획 7]세종 조치원등 1만3천 호 공공택지지구지정, 5년만에 해제...누구 책임?",
+      "source": "이세종경제",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TYmdFUWZyY1BRR1d4aHF6YnFNSUhBTGw3aUFoRHR6M2M0YlhEVzJoRnRsVmxwbkdHU2xjTG1tandHVTB5dVFxaXpnajJ0SnNiaUV5cW9LVzFEeVRwbWlKQVR6N29hYjlLMW1qRA?oc=5",
+      "published": "2026-07-25T16:00:00+09:00",
+      "date": "2026-07-25",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "4809b5b0f192",
+      "title": "[다시, 울산을 짓다] 울산 울주군 도시재생사업 살펴보기(5): 울주군 언양읍 도시재생사업(1)",
+      "source": "울산저널i",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OMHVtOFEwN0VkT0dSNS1UV191S1FhdEpaREpiZF9mNmd1WnEwUlZqak1zbi12aFNiTC1DMmRadkttMFFLMHhlQU9CZ0hKdENyY0xDSWFacEs4UTQ3TkNsQ3hNTExZYnp4Y180eGg3QW1RcjQ?oc=5",
+      "published": "2026-07-25T00:00:00+09:00",
+      "date": "2026-07-25",
+      "query": "도시재생 활성화계획"
     }
   ]
 }
