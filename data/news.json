@@ -1,20 +1,56 @@
 {
-  "updated_at": "2026-07-29T07:36:27.532551+09:00",
+  "updated_at": "2026-07-30T07:31:39.715757+09:00",
   "headline": {
-    "id": "6a0839a7bc6f",
-    "title": "하나은행, 시니어 특화 점포 '하나더넥스트 대구중앙 라운지' 확대",
-    "source": "nsenior.co.kr",
-    "summary": "하나은행, 시니어 특화 점포 '하나더넥스트 대구중앙 라운지' 확대 nsenior.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBeVFWTFNtUGdoNVE2MU02RmpSSUk0VjNlQTNwYTJ1T004NEViMUpOSk1mY3FfS0pIOEJKOUYzYkNERERNVXhiLTdkdDRJY1pNX3Y4NTE2UWhQd3NKbkNwbDJZWQ?oc=5",
-    "published": "2026-07-28T18:19:42+09:00",
-    "query": "은행 점포",
+    "id": "50333f1d3a77",
+    "title": "\"실제 은행 영업점처럼\"...하나은행, '어린이 직업체험관' 개관",
+    "source": "한경매거진&북",
+    "summary": "\"실제 은행 영업점처럼\"...하나은행, '어린이 직업체험관' 개관 한경매거진&북",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mSlpLZGpmQ1hJaVFibk9jMlBESEdpcm9NRXpWV2JMUER1dmlPSmRjUGVPSzB1M3ltdHZaNllUVndsbk9qaG9sYXEwcjFyWGMyazRNNU83djFDRTNuMzBnMnY1b1BvRWNN?oc=5",
+    "published": "2026-07-29T17:33:00+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 1,
-    "_score": 13.0,
+    "rank": 2,
+    "_score": 10.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "a6ed41909a09",
+        "title": "우리은행, 전국 영업점 돌며 ‘절세 상담’ 역량 강화...ISA·연금 집중 교육",
+        "source": "ftoday.co.kr",
+        "summary": "우리은행, 전국 영업점 돌며 ‘절세 상담’ 역량 강화...ISA·연금 집중 교육 ftoday.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOHdaTDhSOTNPeFU3bjJlRFVxdm1oaDltSzR1bDF5TjdFTjhmeGMxQmVwYjZRek04NEZpdy1LVG9KZEo0eHZQV1hqVjB6dUZyRU5CMFozZHBoS20xRW9IeHZQSkFRR0g1VHfSAW5BVV95cUxQU2dXbHZhN0Nhc2hQMDhVa19HajFkMklBX2F3Z1o0ZTRHOFh5dkpySjVpQVdWOElSc0tySExWTW13bFpldlJia3FQelh5MTUxNEdiWjROWHBJWTB4eGtWSE5sbVNURFFrajBuYzJ6dw?oc=5",
+        "published": "2026-07-29T11:06:27+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 14,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "59d31f776b1e",
+        "title": "우체국이 은행 창구로…점포 축소 가속은 숙제",
+        "source": "쿠키뉴스",
+        "summary": "우체국이 은행 창구로…점포 축소 가속은 숙제 쿠키뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GZlY2akQ5dmRMSHZOTDU4TFE5OFg5dlZPVTJmM2ZKMEh0VWlpZEdDNVhYSnNQaUVFdmtVazNlUjI0UzQxSmxnUTlReklnLVVkZ0pjdzhQb2F6c1hTcG9NbUVNUQ?oc=5",
+        "published": "2026-07-29T01:49:54+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 13,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "6a0839a7bc6f",
+        "title": "하나은행, 시니어 특화 점포 '하나더넥스트 대구중앙 라운지' 확대",
+        "source": "nsenior.co.kr",
+        "summary": "하나은행, 시니어 특화 점포 '하나더넥스트 대구중앙 라운지' 확대 nsenior.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBeVFWTFNtUGdoNVE2MU02RmpSSUk0VjNlQTNwYTJ1T004NEViMUpOSk1mY3FfS0pIOEJKOUYzYkNERERNVXhiLTdkdDRJY1pNX3Y4NTE2UWhQd3NKbkNwbDJZWQ?oc=5",
+        "published": "2026-07-28T18:19:42+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "dca758f71596",
         "title": "“금융기관 쉼터 왜 없나”…양산시 은행점포 ‘무더위쉼터’ 홍보 소외",
@@ -24,36 +60,24 @@
         "published": "2026-07-28T04:10:55+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "b11e00b28b10",
-        "title": "SK매직, 우리은행 영업점에 공기청정기 공급… 법인 고객 확대 ‘잰걸음’",
-        "source": "시사위크",
-        "summary": "SK매직, 우리은행 영업점에 공기청정기 공급… 법인 고객 확대 ‘잰걸음’ 시사위크",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45WTNTN1B1WkVkNVJqdHp3SkVqLXptSGVsZm5EVXdteU5aZGd2eGZLcmhGaEFpZlNJN3IySUtTaktxVFctQ2lEd2VmZmJsTjVQUGxieXZ2N2RzVEZFanU5OGU3eElETXZyQVQ0YkhzZ9IBb0FVX3lxTE45WTNTN1B1WkVkNVJqdHp3SkVqLXptSGVsZm5EVXdteU5aZGd2eGZLcmhGaEFpZlNJN3IySUtTaktxVFctQ2lEd2VmZmJsTjVQUGxieXZ2N2RzVEZFanU5OGU3eElETXZyQVQ0YkhzZw?oc=5",
-        "published": "2026-07-27T22:05:26+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "b66962894ca4",
-        "title": "Sh수협은행, 전국영업점장 경영전략회의 개최…하반기 영업전략 본격 점검",
-        "source": "폴리뉴스 Polinews",
-        "summary": "Sh수협은행, 전국영업점장 경영전략회의 개최…하반기 영업전략 본격 점검 폴리뉴스 Polinews",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBneXFjRTlxTS0wWDByb0ZEc0VmQ0F3NlVJLTJlekJXRURxSW5YT0VpajgyZlNFdm1OWXdxWFdpOTZ0aENHMW5ESGtHWThSSndqeGZ5NGtJWEFKblA2cjh1aUV5N3VMRnRZSTAxNGhn0gFyQVVfeXFMTmp1U0FXNV8tRUp1aUFoMWptMGJIUnlBbnlXYVcxMnhsNnVfRVBoVURZOHcxdnFkRjVoVEhNV01QeTNaOXV0WnRzUTd3TjhsQkRmX25nQWZXbGhIbUZhai1hd1BBalh1Vm5aN2dzWnhxclBn?oc=5",
-        "published": "2026-07-27T14:16:46+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
         "rank": 15,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "be48b8de5e00",
+        "title": "[금융 게시판] 은행권, 문화예술·절세상담·금융 접근성 강화…신한·우리·농협·기업은행",
+        "source": "라이센스뉴스",
+        "summary": "[금융 게시판] 은행권, 문화예술·절세상담·금융 접근성 강화…신한·우리·농협·기업은행 라이센스뉴스",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IOFViWnhGNTF4OXJEbk5tQlNyR2haeElRTzU0a1Bta2laQ3g3bjdYZmFGZFJmd010MmJLbmxqVnVHNDZGdXRtWTdHS2p5Um5lM3FrVFQ0UkxRUjc1RUJWeUVtS3lQZURyY184?oc=5",
+        "published": "2026-07-29T14:31:36+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "dc5aa9bbf418",
         "title": "현직자에게 묻는 은행 이야기… 신한은행 한양대지점, 커피챗 행사 개최",
@@ -63,7 +87,7 @@
         "published": "2026-07-28T11:43:04+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -87,7 +111,7 @@
         "published": "2026-07-27T10:24:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -99,7 +123,7 @@
         "published": "2026-07-27T00:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -111,7 +135,7 @@
         "published": "2026-07-26T00:00:52+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -124,30 +148,6 @@
         "query": "신한은행 지점",
         "engine": "google",
         "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "b378844ae9a0",
-        "title": "신한은행 인천연수구청지점, 학교 밖 청소년 '또래성장캠프'에 200만 원 쾌척",
-        "source": "미디어인천신문",
-        "summary": "신한은행 인천연수구청지점, 학교 밖 청소년 '또래성장캠프'에 200만 원 쾌척 미디어인천신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IcXljYlFLRTFneF9ySHlsay1CUncyaGhfbW9xTEVaQ3FYQkpmMm9nMVpvbE00NjNxSnB5aVItOFlvb3ptcHJCUm1GYWgtTHJjbzA0SkxFdFhfd2hqN3ItSTRNdWZkekRyWUZn?oc=5",
-        "published": "2026-07-22T16:00:00+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "81c12e4baf8e",
-        "title": "신한은행, 영업점 고객응대 평가 16년째 은행권 1위",
-        "source": "PRESS9",
-        "summary": "신한은행, 영업점 고객응대 평가 16년째 은행권 1위 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Xd1U3RmFaclBjWHZva0NiMXh3WkF0Y1hBb1lHYWNMVGlFU3ZjUXpZczJtMzVnaGJKMHoyVDRfbzNFdHdzSjlzLWFud2JyYURRcUpoOG1lUFF0OThXZm1vVHZJTFM?oc=5",
-        "published": "2026-07-22T13:49:04+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
