@@ -1,30 +1,54 @@
 {
-  "updated_at": "2026-07-30T07:31:39.715757+09:00",
+  "updated_at": "2026-07-31T07:39:20.847208+09:00",
   "headline": {
-    "id": "50333f1d3a77",
-    "title": "\"실제 은행 영업점처럼\"...하나은행, '어린이 직업체험관' 개관",
-    "source": "한경매거진&북",
-    "summary": "\"실제 은행 영업점처럼\"...하나은행, '어린이 직업체험관' 개관 한경매거진&북",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mSlpLZGpmQ1hJaVFibk9jMlBESEdpcm9NRXpWV2JMUER1dmlPSmRjUGVPSzB1M3ltdHZaNllUVndsbk9qaG9sYXEwcjFyWGMyazRNNU83djFDRTNuMzBnMnY1b1BvRWNN?oc=5",
-    "published": "2026-07-29T17:33:00+09:00",
+    "id": "c61be4609db2",
+    "title": "NH농협은행 경북본부, 22개 시·군 지부 영업점에 `무더위 쉼터` 운영",
+    "source": "매일신문",
+    "summary": "NH농협은행 경북본부, 22개 시·군 지부 영업점에 `무더위 쉼터` 운영 매일신문",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iMHlZejY3MjJvb3ZHVW43R2V5YmctSk5vbllqTWdIb1l5MlZpcmVIdnJwRDdxUWFIWjNXaVFtX05zZndBSkd6TXlNb0xZTXRkNlpOMVVibWlaN1dWVWVDdC1n?oc=5",
+    "published": "2026-07-30T16:15:09+09:00",
     "query": "은행 영업점",
     "engine": "google",
-    "rank": 2,
-    "_score": 10.0,
+    "rank": 1,
+    "_score": 11.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "a6ed41909a09",
-        "title": "우리은행, 전국 영업점 돌며 ‘절세 상담’ 역량 강화...ISA·연금 집중 교육",
-        "source": "ftoday.co.kr",
-        "summary": "우리은행, 전국 영업점 돌며 ‘절세 상담’ 역량 강화...ISA·연금 집중 교육 ftoday.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNOHdaTDhSOTNPeFU3bjJlRFVxdm1oaDltSzR1bDF5TjdFTjhmeGMxQmVwYjZRek04NEZpdy1LVG9KZEo0eHZQV1hqVjB6dUZyRU5CMFozZHBoS20xRW9IeHZQSkFRR0g1VHfSAW5BVV95cUxQU2dXbHZhN0Nhc2hQMDhVa19HajFkMklBX2F3Z1o0ZTRHOFh5dkpySjVpQVdWOElSc0tySExWTW13bFpldlJia3FQelh5MTUxNEdiWjROWHBJWTB4eGtWSE5sbVNURFFrajBuYzJ6dw?oc=5",
-        "published": "2026-07-29T11:06:27+09:00",
+        "id": "67a9e2fd54f3",
+        "title": "광주은행, 패점 점포 부활까지 \"통합시금고 운용 위해, 종합 검토\"",
+        "source": "현대경제신문",
+        "summary": "광주은행, 패점 점포 부활까지 \"통합시금고 운용 위해, 종합 검토\" 현대경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YY1I2Q0Z0a3YtbmRZX09LUHA4ZXN0T1BObTB5VnVpZkIza2hkbW90aWU3Zmcza255NnJkSkJvR05Tak9XQjBsV29mbVQ4VWI1U0YwNjZsWE1yTzloVm95ZDdIaVpGN09j?oc=5",
+        "published": "2026-07-30T11:22:25+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2517cd50c60b",
+        "title": "오투저축은행, 본점 영업점 지역민 쉼터로 열었다",
+        "source": "핀포인트뉴스",
+        "summary": "오투저축은행, 본점 영업점 지역민 쉼터로 열었다 핀포인트뉴스",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nRjVxaEloU0JqMmM4V1MzcTRRMGpCdDU0Zjc4M3g3WTN2dUFEVDQzRUxzNHVoZ0xSQ1ZGejNmaEE0bGduSnN6ZHV6NjJLODMwTDRsWTJaZ3lKNGpSQjdUbGZBdHVXcXpVMGh2TGl5b1AyUkXSAXdBVV95cUxPeU1rSlRtUF92anUxOFd0U1MteXpiVTY2b0xmOGJMM1djSWs2akpJS1JManBySFE4NUJTVDE2WVZhNVZVY0tDNGJmU2RRdlZkNElNWllIaXhJYWR4ZkdXaXJTdnZSQTl6WURlckZsVHdhY2dNUTlUcw?oc=5",
+        "published": "2026-07-30T11:21:25+09:00",
         "query": "은행 영업점",
         "engine": "google",
         "rank": 14,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "50333f1d3a77",
+        "title": "\"실제 은행 영업점처럼\"...하나은행, '어린이 직업체험관' 개관",
+        "source": "한경매거진&북",
+        "summary": "\"실제 은행 영업점처럼\"...하나은행, '어린이 직업체험관' 개관 한경매거진&북",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mSlpLZGpmQ1hJaVFibk9jMlBESEdpcm9NRXpWV2JMUER1dmlPSmRjUGVPSzB1M3ltdHZaNllUVndsbk9qaG9sYXEwcjFyWGMyazRNNU83djFDRTNuMzBnMnY1b1BvRWNN?oc=5",
+        "published": "2026-07-29T17:33:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +60,7 @@
         "published": "2026-07-29T01:49:54+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 13,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +72,7 @@
         "published": "2026-07-28T18:19:42+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,12 +84,36 @@
         "published": "2026-07-28T04:10:55+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 15,
+        "rank": 13,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "b11e00b28b10",
+        "title": "SK매직, 우리은행 영업점에 공기청정기 공급… 법인 고객 확대 ‘잰걸음’",
+        "source": "시사위크",
+        "summary": "SK매직, 우리은행 영업점에 공기청정기 공급… 법인 고객 확대 ‘잰걸음’ 시사위크",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45WTNTN1B1WkVkNVJqdHp3SkVqLXptSGVsZm5EVXdteU5aZGd2eGZLcmhGaEFpZlNJN3IySUtTaktxVFctQ2lEd2VmZmJsTjVQUGxieXZ2N2RzVEZFanU5OGU3eElETXZyQVQ0YkhzZ9IBb0FVX3lxTE45WTNTN1B1WkVkNVJqdHp3SkVqLXptSGVsZm5EVXdteU5aZGd2eGZLcmhGaEFpZlNJN3IySUtTaktxVFctQ2lEd2VmZmJsTjVQUGxieXZ2N2RzVEZFanU5OGU3eElETXZyQVQ0YkhzZw?oc=5",
+        "published": "2026-07-27T22:05:26+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "581de774e84d",
+        "title": "신한은행, ‘명동 익스페이스’ 매각 추진…자산 유동화 후 재임차 검토 - 조선비즈",
+        "source": "Chosunbiz",
+        "summary": "신한은행, ‘명동 익스페이스’ 매각 추진…자산 유동화 후 재임차 검토 - 조선비즈 Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMUJFOFJWSFBJalI1OTI5c3ZBUXRRZk1jWXNGWHRPajVJU2Z6YjRsOFJrME5LRDgxdnE3MWJyVXNSWnR1V256dlhBS1JHU19ULXlOOVAwbm5aQ1psQ0huMnJmcnExZEtqY2h5ZkJ1VHZJM0pTOG90dnJBWlJMSnVIR0E0U0k5NU5J0gGcAUFVX3lxTE1CZ2ZPWmlLZlJYaGlBT0ZNNm5rRUVxeEo1NmVfUG1hZ1BuSk5xYXB0dlptazA1c01yZGt5S284NUdGd2owcVVvZDI2QVpVc2l2eUhGZWhtR2o0Ylh1Ny1IUUVncFJEZEN0NFljei1qNFdhcENmc2ExcV85dDk3dEhteWsxYV81M3NDR2dORGtxdVBjTjJqa2Nsd1JJOA?oc=5",
+        "published": "2026-07-30T17:00:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "be48b8de5e00",
         "title": "[금융 게시판] 은행권, 문화예술·절세상담·금융 접근성 강화…신한·우리·농협·기업은행",
@@ -75,7 +123,7 @@
         "published": "2026-07-29T14:31:36+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -87,7 +135,7 @@
         "published": "2026-07-28T11:43:04+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -123,7 +171,7 @@
         "published": "2026-07-27T00:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -135,7 +183,7 @@
         "published": "2026-07-26T00:00:52+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -147,7 +195,7 @@
         "published": "2026-07-24T09:09:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 4,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
