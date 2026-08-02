@@ -1,42 +1,54 @@
 {
-  "updated_at": "2026-08-02T07:29:32.623258+09:00",
+  "updated_at": "2026-08-03T07:30:16.148413+09:00",
   "headline": {
-    "id": "f53a41f490ed",
-    "title": "신한은행, 전국 영업점 ‘무더위 쉼터’ 운영…9월 말까지 개방",
-    "source": "브릿지경제",
-    "summary": "신한은행, 전국 영업점 ‘무더위 쉼터’ 운영…9월 말까지 개방 브릿지경제",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4c3JueGdfWTlRSGJaLUd3dWJ2Q3JzMk1FUkN3blBzWlBQWUFUM2JkUU1XbnRLMjJpOHZtRi1GZkpCSkNkSnNRQjZ0dGVhNWtwa2VsU3FDdldhdw?oc=5",
-    "published": "2026-08-01T21:18:00+09:00",
+    "id": "82df81196a53",
+    "title": "신한은행, 전국 영업점 '무더위 쉼터' 운영…9월 말까지 개방",
+    "source": "데일리포스트",
+    "summary": "신한은행, 전국 영업점 '무더위 쉼터' 운영…9월 말까지 개방 데일리포스트",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hOVpwdWlYd1NxTDdVZExnNFp6NDhuaUktdEdWSkVNN2FZMndJc1VnTVlKY09JNnJYdHlmMy1Md3B1MDlOX0oxaFFubWx6R0lhNFBQUElnUlBYeFU2cENadVFmWEhCXzhHZGg4VzNuY9IBc0FVX3lxTFBiSURiTVc5dDVYOUJQNEZXMjVSNldONkZERy1OLWc4a29aS3B5UTk3VjdiWXgxS2hraVM1NzE4ZHRHRzdGSzR3Qk4xcldLUEEyc2NNZFdfcVlRYXlLdEtsSmloaDhyeWlqNnlhT04za3dwNVE?oc=5",
+    "published": "2026-08-02T10:05:00+09:00",
     "query": "은행 영업점",
     "engine": "google",
-    "rank": 1,
-    "_score": 18.0,
+    "rank": 6,
+    "_score": 20.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
+        "id": "952a26134327",
+        "title": "[단독]신한·하나캐피탈 등 홈플러스 점포 후순위대출 2500억",
+        "source": "서울경제",
+        "summary": "[단독]신한·하나캐피탈 등 홈플러스 점포 후순위대출 2500억 서울경제",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mb2hub2NQalRBY19PU3dvN0Q4dklNZHYzQTBjYUtzX2pBTnhVd3ZWbWFHYzdOYjA3eGFscXJULTFXRUlmSVRJZnRxM0haaG9aWGfSAVNBVV95cUxPaGVlanJGaDVjcEJqR1piTEdTcnY2WWk4b1RReDVzWU5iQXlkN0hqUldNbWVzU2tWeEU1SkJSMllRalRUN1JEVWhmN0xXemJnQ3VWQQ?oc=5",
+        "published": "2026-08-02T18:02:16+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
         "id": "c61be4609db2",
         "title": "NH농협은행 경북본부, 22개 시·군 지부 영업점에 `무더위 쉼터` 운영",
-        "source": "매일신문",
-        "summary": "NH농협은행 경북본부, 22개 시·군 지부 영업점에 `무더위 쉼터` 운영 매일신문",
+        "source": "imaeil.com",
+        "summary": "NH농협은행 경북본부, 22개 시·군 지부 영업점에 `무더위 쉼터` 운영 imaeil.com",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iMHlZejY3MjJvb3ZHVW43R2V5YmctSk5vbllqTWdIb1l5MlZpcmVIdnJwRDdxUWFIWjNXaVFtX05zZndBSkd6TXlNb0xZTXRkNlpOMVVibWlaN1dWVWVDdC1n?oc=5",
         "published": "2026-07-30T16:15:09+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 13,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "67a9e2fd54f3",
+        "id": "3284171a2139",
         "title": "광주은행, 패점 점포 부활까지 \"통합시금고 운용 위해, 종합 검토\"",
         "source": "현대경제신문",
         "summary": "광주은행, 패점 점포 부활까지 \"통합시금고 운용 위해, 종합 검토\" 현대경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YY1I2Q0Z0a3YtbmRZX09LUHA4ZXN0T1BObTB5VnVpZkIza2hkbW90aWU3Zmcza255NnJkSkJvR05Tak9XQjBsV29mbVQ4VWI1U0YwNjZsWE1yTzloVm95ZDdIaVpGN09j?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VMi1OanFlQ1hoVmttSmpmTFdNbnpUb0t0a2pNeXUwRHQzMVhPT1RBaHBuMEw3ZDZwZklGTXVRc19IMWZJSXp0N2ZLd2dNZmlvNVRfODFwaHpQMFh4WWhGdGIxVTdrZTg?oc=5",
         "published": "2026-07-30T11:22:25+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,19 +60,7 @@
         "published": "2026-07-29T17:33:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "59d31f776b1e",
-        "title": "우체국이 은행 창구로…점포 축소 가속은 숙제",
-        "source": "쿠키뉴스",
-        "summary": "우체국이 은행 창구로…점포 축소 가속은 숙제 쿠키뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GZlY2akQ5dmRMSHZOTDU4TFE5OFg5dlZPVTJmM2ZKMEh0VWlpZEdDNVhYSnNQaUVFdmtVazNlUjI0UzQxSmxnUTlReklnLVVkZ0pjdzhQb2F6c1hTcG9NbUVNUQ?oc=5",
-        "published": "2026-07-29T01:49:54+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 1,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -75,7 +75,7 @@
         "published": "2026-07-31T16:26:51+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -87,7 +87,7 @@
         "published": "2026-07-30T17:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -99,7 +99,7 @@
         "published": "2026-07-28T11:43:04+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -111,19 +111,7 @@
         "published": "2026-07-27T17:38:07+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "9137d6ff2af7",
-        "title": "신한은행, IT 투자 늘리고 보안은 뒷전… 예산만 늘린 ‘착시’",
-        "source": "한국보험신문",
-        "summary": "신한은행, IT 투자 늘리고 보안은 뒷전… 예산만 늘린 ‘착시’ 한국보험신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1abWw1VWNYUFhzaEJsMm9ZMmhCZkl4YklXc0xWbGk2REk4eXVsbTZjNVNyQ2ZkSUctTkVNSGhfNkNBYk9vRzZ3TmdzalFRLTI1NUFleExlT0NfYVhOMFhaMEt4TGdmSkhqLWZR0gFvQVVfeXFMTlhfZ1ZDdG90QWNmU01ZdXRqaWlhQnU5U1NwdDBMME8yNkc0cUV6Vk1tTFdIdUdWQldyN3NoQlJqZTRkYktUSVE2S1pIXzgtVmUzbEJFNjVZVVZaMmIxYUZmRzZxWFZRdGRqZTJVOU04?oc=5",
-        "published": "2026-07-27T00:00:00+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 9,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]

@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-02T07:31:13.943209+09:00",
+  "updated_at": "2026-08-03T07:32:04.846973+09:00",
   "items": [
+    {
+      "id": "32e0cece90de",
+      "title": "용인 반도체 산단 재검토·송전탑 반대 전국행동, 4일 전북도청서 집중 기자회견",
+      "source": "프레시안",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ROFAzeGtwUzdGZ0hsbkI0X3NkWmZldGtQVXBvdjNxdDZJSHBhQmwzY0FnSUwzbmQwMVVmLXlHajBjRkxpQ2tCRE42R3VqVXg5djdNSERYZ0R2dnV4UEY2LXFMTU50NE1JZ3Uw?oc=5",
+      "published": "2026-08-02T20:50:45+09:00",
+      "date": "2026-08-02",
+      "query": "반도체 국가산단"
+    },
     {
       "id": "064d7e65a13e",
       "title": "광주군공항 ‘반도체 국가산단’ 조성 ‘초속도전’…착공 조건은?",
@@ -38,38 +47,20 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "c3966d32c5c4",
-      "title": "탑동 해변공연장 일대 도시재생혁신 본격화",
-      "source": "제주매일",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kYnlSWGlBWXlqX18yUzVQaGQxMU01d0JTRTRoSzJTbG1LMEtMRU11WkFaYlBpeVdBdjFuSjVBVUU4NEg1NHRIQ0VxdWE0OUhHY2VQOVRGbGVXUjRXd0k1Um9DaHJZbzFVdEpKWA?oc=5",
-      "published": "2026-07-30T17:24:13+09:00",
-      "date": "2026-07-30",
-      "query": "도시재생 활성화계획"
-    },
-    {
       "id": "65139c2d5477",
       "title": "착공 늦춘 '병목' 손본다…3기 신도시 속도전 시동",
-      "source": "한스경제",
+      "source": "hansbiz.co.kr",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sQzNUUG85UjA0SjhGaEhDLW9UMzlVY19GOTZzNGJIdVRLdzF4M2p0UkNJc3hwVEFvckxkN2FERmRyZlFrSk1nWmkzVUwyRkFDbjVQRkplVEVNRmc5Z3JUY1ZYaTdtMUg3bjZ30gFvQVVfeXFMT0RlV1BMYm5QOGJLRmZTX1BpRmpPbHJLMjhROThiNVB1SmNpSGJwS3NBaGV5bnVRdnFDMUhiQjhibmh0VUo0dVdVNlFPM3NBVlZELWRqLXVxSXpEMi00VC1FSTM5OGZOUVNoNktfaXVN?oc=5",
       "published": "2026-07-30T14:27:03+09:00",
       "date": "2026-07-30",
       "query": "신도시 착공"
     },
     {
-      "id": "7f05759796de",
-      "title": "LH, 호남권 반도체 국가산단 사업시행자 선정…조사설계용역 발주 착수",
-      "source": "전기신문",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wOUh3WFFKWWI3dTZ3bE5VQnh2bG9kMzRzeW1XY3R2TTM4RVV4Z0VxRmZiT281YTlBMUxlWDQ3TDlDQWJJMUk2eThpY0RoVmtXUmJrb1JuLVBVTWxIM1ZpSHdtV19oLTNCV3dqQdIBcEFVX3lxTE1vb19TMlg4aTh0LUs3ZmY5YmEtaXlBQjBEbmFTZWJrRkxadFFhWHZhbW5MRW9xd1Jhb1lOYzA5OFFwRl9ES01QWURRa2ZCM3VhNER4SWh0X0dkU244TExLVVFCelJmS3gxam9fQ3dmbGc?oc=5",
-      "published": "2026-07-30T13:43:55+09:00",
-      "date": "2026-07-30",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "1013ea23e93c",
-      "title": "[특징주] 금호건설 上·남화토건 23%…광주 반도체 국가산단 후보지 지정",
-      "source": "에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pemN2X05fUkZFb0ItRkdQYk9GN0U1RGdQc2YybHcyaFVkVTU4WkItaWhEUFZuM3Z0M1dENXgyU1pLRENlakFfOW0tazFkMVJDbGpQam93NnFtYzQ?oc=5",
-      "published": "2026-07-30T10:57:23+09:00",
+      "id": "b963ffc77ddd",
+      "title": "LH, 호남권 반도체 국가산단 조사설계용역 발주 절차 개시",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9vWlVXZ2N6NmRsV19tQ2p6bEhKWW1BcHlYODdIemtHME90YUlHUko1UTZZY09tZVdqV0FhV3RVZmhNZ09HVUNKLTQzT1RuQWtWbkJsWXpfRUwzdFHSAWBBVV95cUxPQUN2Z01keS1HWkVRQ21NSDhhYkhyU09KSEFxUFdJQi1WUHJiQ3BQUVRPNWhUeE9tYXYwdmZWZlAtOHFOYU1yaVZoaVJrdUlpeEZ3Q3NFeTYtY1gwckpPRVQ?oc=5",
+      "published": "2026-07-30T13:53:27+09:00",
       "date": "2026-07-30",
       "query": "반도체 국가산단"
     },
@@ -81,24 +72,6 @@
       "published": "2026-07-30T10:15:13+09:00",
       "date": "2026-07-30",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "f0b95ec8eeb3",
-      "title": "제주시 탑동 도시재생혁신지구 계획(안) 공청회 개최",
-      "source": "제주투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMVUZ4dUk2M01pVnlUeThRNElwMGx2VWFHYXlObmVLSzhjbVhnWTNjYWZpQ3hJcHZ6VEZqeklhYXBPTWFhLWltQ1EtSUY0MW8xZDdmeHktYjFJQ2VLMmd1STRMVEVaWFNhMkxRb1B3?oc=5",
-      "published": "2026-07-30T10:14:43+09:00",
-      "date": "2026-07-30",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "755e2fa7aab3",
-      "title": "제주도, 탑동 도시재생혁신지구 계획(안) 공청회 개최",
-      "source": "제주환경일보",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YSXk3bGZjVVF5SkFxZzN3VzdDNUtDcHhlRFlaeEUxNzdZbXJzNzhNUmhFbzlfS0liS0NqS3Y0VDZjd0djNm4wVlRaVU5WbVZUOHZhUmpHUi1sbS15MTFFMWs4dktqVkhx?oc=5",
-      "published": "2026-07-30T09:46:41+09:00",
-      "date": "2026-07-30",
-      "query": "도시재생 활성화계획"
     },
     {
       "id": "783783e30804",
