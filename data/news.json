@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-08-03T07:30:16.148413+09:00",
+  "updated_at": "2026-08-04T07:34:46.555552+09:00",
   "headline": {
-    "id": "82df81196a53",
-    "title": "신한은행, 전국 영업점 '무더위 쉼터' 운영…9월 말까지 개방",
-    "source": "데일리포스트",
-    "summary": "신한은행, 전국 영업점 '무더위 쉼터' 운영…9월 말까지 개방 데일리포스트",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hOVpwdWlYd1NxTDdVZExnNFp6NDhuaUktdEdWSkVNN2FZMndJc1VnTVlKY09JNnJYdHlmMy1Md3B1MDlOX0oxaFFubWx6R0lhNFBQUElnUlBYeFU2cENadVFmWEhCXzhHZGg4VzNuY9IBc0FVX3lxTFBiSURiTVc5dDVYOUJQNEZXMjVSNldONkZERy1OLWc4a29aS3B5UTk3VjdiWXgxS2hraVM1NzE4ZHRHRzdGSzR3Qk4xcldLUEEyc2NNZFdfcVlRYXlLdEtsSmloaDhyeWlqNnlhT04za3dwNVE?oc=5",
-    "published": "2026-08-02T10:05:00+09:00",
+    "id": "b47ea81bf116",
+    "title": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영",
+    "source": "비즈월드",
+    "summary": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영 비즈월드",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02RjBFUzhNSjdBMU9zaTluRVMyUVNPNlowR2NYMU41U1JjOVNFY2hwOExGeUc3c2MwaEM2aWcxVDlIal84c1ZzUkN6ZGR2ODhKenVTcU9YdnVWNWEzOHhwQ2FVYW5adVg0R3Vz?oc=5",
+    "published": "2026-08-03T09:34:00+09:00",
     "query": "은행 영업점",
     "engine": "google",
-    "rank": 6,
-    "_score": 20.0,
+    "rank": 5,
+    "_score": 17.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "64994c569176",
+        "title": "NH저축은행, 시니어 적금 영업점으로 확대…대면 고객 잡는다",
+        "source": "fetv.co.kr",
+        "summary": "NH저축은행, 시니어 적금 영업점으로 확대…대면 고객 잡는다 fetv.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiLWphR3g1TDFxUDYwU1FLZ1N3d3FST1NGeGQtbjlfWkMwdkRoZTYycHYta3RxOFFYSjdRZjRIOGxvS1oxRjliUm5pRGJ3YU0tZUgtdXA0eGpjbnpOdmxBZ09XYTdxMXh1?oc=5",
+        "published": "2026-08-03T15:12:11+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "5a251c9f865f",
+        "title": "폭염 속 1712개 영업점 활짝 … 은행 떠난 동네 지키는 새마을금고",
+        "source": "뉴데일리",
+        "summary": "폭염 속 1712개 영업점 활짝 … 은행 떠난 동네 지키는 새마을금고 뉴데일리",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBESldYanVuaVVUWXlsSTJtTk5hcVBGQndTSkxwc01SeG9SOG5yTmJYQUhEaFMwcVlCTnZzdkhJSUFUeGtjeU90aERiVVpELUJXTE1WNkQ3ZVFPNHpWQkRMVjlaQ0FldFFzV1FlSXVpZUVZSlBTczB3bGlmRdIBgAFBVV95cUxQcjNZR1lMcHN4dTZWWURHYW5Ic202WlJrb0xVSHVtNUxyMXlHNzhGdzNCM08xVS12bWFUQTJ6TE9LUTZMdkYtVGRhVUs2QkpvbVR1QlFEbE1CcVpVUFNKX1RRUHoyTklXRE11OVJTVnR5cFlFQ1BWczcyamdubVdXVQ?oc=5",
+        "published": "2026-08-03T14:23:58+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "952a26134327",
         "title": "[단독]신한·하나캐피탈 등 홈플러스 점포 후순위대출 2500억",
@@ -24,19 +48,19 @@
         "published": "2026-08-02T18:02:16+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "c61be4609db2",
-        "title": "NH농협은행 경북본부, 22개 시·군 지부 영업점에 `무더위 쉼터` 운영",
-        "source": "imaeil.com",
-        "summary": "NH농협은행 경북본부, 22개 시·군 지부 영업점에 `무더위 쉼터` 운영 imaeil.com",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iMHlZejY3MjJvb3ZHVW43R2V5YmctSk5vbllqTWdIb1l5MlZpcmVIdnJwRDdxUWFIWjNXaVFtX05zZndBSkd6TXlNb0xZTXRkNlpOMVVibWlaN1dWVWVDdC1n?oc=5",
-        "published": "2026-07-30T16:15:09+09:00",
-        "query": "은행 영업점",
+        "id": "59d31f776b1e",
+        "title": "우체국이 은행 창구로…점포 축소 가속은 숙제",
+        "source": "쿠키뉴스",
+        "summary": "우체국이 은행 창구로…점포 축소 가속은 숙제 쿠키뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GZlY2akQ5dmRMSHZOTDU4TFE5OFg5dlZPVTJmM2ZKMEh0VWlpZEdDNVhYSnNQaUVFdmtVazNlUjI0UzQxSmxnUTlReklnLVVkZ0pjdzhQb2F6c1hTcG9NbUVNUQ?oc=5",
+        "published": "2026-08-01T22:53:55+09:00",
+        "query": "은행 점포",
         "engine": "google",
-        "rank": 16,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,19 +72,7 @@
         "published": "2026-07-30T11:22:25+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "50333f1d3a77",
-        "title": "\"실제 은행 영업점처럼\"...하나은행, '어린이 직업체험관' 개관",
-        "source": "한경매거진&북",
-        "summary": "\"실제 은행 영업점처럼\"...하나은행, '어린이 직업체험관' 개관 한경매거진&북",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mSlpLZGpmQ1hJaVFibk9jMlBESEdpcm9NRXpWV2JMUER1dmlPSmRjUGVPSzB1M3ltdHZaNllUVndsbk9qaG9sYXEwcjFyWGMyazRNNU83djFDRTNuMzBnMnY1b1BvRWNN?oc=5",
-        "published": "2026-07-29T17:33:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 9,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -93,25 +105,13 @@
       {
         "id": "dc5aa9bbf418",
         "title": "현직자에게 묻는 은행 이야기… 신한은행 한양대지점, 커피챗 행사 개최",
-        "source": "뉴스H",
-        "summary": "현직자에게 묻는 은행 이야기… 신한은행 한양대지점, 커피챗 행사 개최 뉴스H",
+        "source": "newshyu.com",
+        "summary": "현직자에게 묻는 은행 이야기… 신한은행 한양대지점, 커피챗 행사 개최 newshyu.com",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16T3JjVGs5Y0lJQVNGSEUzMDFmQzZkTUxmeHZRbUhKb3lJVkJDSnVFWngxaUxJTkZqckVRYUNUb2pVcTc1VHE4elFGNTVFSjlIV1BCd3FaYkh5SlRmRE1XR21JQ0VGRGg5MGhj?oc=5",
         "published": "2026-07-28T11:43:04+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "fda63c7dec3b",
-        "title": "기계설비건설공제조합, 신한은행 두바이지점과 ‘맞손’… 해외 수주 지원 확대",
-        "source": "국토일보",
-        "summary": "기계설비건설공제조합, 신한은행 두바이지점과 ‘맞손’… 해외 수주 지원 확대 국토일보",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05X003SVc4UFZkdDVCVzhwTDIyRHRkellnR3VXZTNHN21qTHZaVkdNYzNQaTR6VjRyTGFnOC1mYjlMc0phaWo2a1dFb1ZVRVpibXAwLTJuMlppQ3JCMmFHUUFscw?oc=5",
-        "published": "2026-07-27T17:38:07+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 5,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
