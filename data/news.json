@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-08-06T07:36:27.581609+09:00",
+  "updated_at": "2026-08-07T10:04:24.903924+09:00",
   "headline": {
-    "id": "b47ea81bf116",
-    "title": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영",
-    "source": "비즈월드",
-    "summary": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영 비즈월드",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02RjBFUzhNSjdBMU9zaTluRVMyUVNPNlowR2NYMU41U1JjOVNFY2hwOExGeUc3c2MwaEM2aWcxVDlIal84c1ZzUkN6ZGR2ODhKenVTcU9YdnVWNWEzOHhwQ2FVYW5adVg0R3Vz?oc=5",
-    "published": "2026-08-03T09:34:00+09:00",
-    "query": "은행 영업점",
+    "id": "85df1dfc3ee5",
+    "title": "은행 폐쇄 점포가 디저털 배움터로… 과기부·신한금융, ‘AI·디지털 문턱’ 낮춘다",
+    "source": "v.daum.net",
+    "summary": "은행 폐쇄 점포가 디저털 배움터로… 과기부·신한금융, ‘AI·디지털 문턱’ 낮춘다 v.daum.net",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oZV9kNUJibHJHZWF0bzdoS01LSXoydTFLSFZwQm5lbWJMUFpTR2VETHZkYms0ZVRHcUsyOVJxT2UwRks0aTJOdDZTckw2YkctczdRVQ?oc=5",
+    "published": "2026-08-04T15:02:09+09:00",
+    "query": "은행 폐쇄",
     "engine": "google",
-    "rank": 6,
-    "_score": 20.0,
+    "rank": 1,
+    "_score": 17.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "c588d6069874",
+        "title": "영업점 안 가고 햇살론 신청…기업은행, 'i-ONE 햇살론 특례보증' - 머니투데이",
+        "source": "머니투데이",
+        "summary": "영업점 안 가고 햇살론 신청…기업은행, 'i-ONE 햇살론 특례보증' - 머니투데이 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE85UTVVLTRUT25KWUtGT3lIVVVFdS1aM1B5Zk9tNlQ1X3J5S2tCcDM5eW5ZOGw2ZTlKLXQydERUREdDTFlBVVl3MWJGdFVMZkxNcjZoZGtXb1JNTjc1OGtDMV9BbzRxR0dvSnlr0gFwQVVfeXFMTlJyb1BWLWoxQW0zSWxZYXZaWC1yU1dNdFl5Si1CSmJ0cm0xTHE4WW81NmpOcFlzdzNYdlpvdlNzX2NyUVZ1UHQ3YVZHZkNaeFBKal9TMDQwbGVqeVBGV1VTWUlleFdTUkhLaEVMZWkwLQ?oc=5",
+        "published": "2026-08-06T17:47:26+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a535b454cbe1",
+        "title": "[2금융 뉴스브리핑] 웰컴저축은행 영업점 '무더위 쉼터' 운영",
+        "source": "아시아타임즈",
+        "summary": "[2금융 뉴스브리핑] 웰컴저축은행 영업점 '무더위 쉼터' 운영 아시아타임즈",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSTFVOVkhvaWNzR01lQkxHMkozQnZGN085WndUQnBFcFdDTE9JOGo5eHVBZE4xeHlFSXk5Tlc1elFINS1tVGpCNklReFRqSHlET1RxT3V0UGVJNzlqd3c?oc=5",
+        "published": "2026-08-06T17:16:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "23cd700c889f",
         "title": "BNK금융, 폭염 속 '지역 안전망' 역할 확대…은행 영업점은 쉼터, 거리엔 생수",
@@ -24,19 +48,7 @@
         "published": "2026-08-05T23:02:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "85df1dfc3ee5",
-        "title": "은행 폐쇄 점포가 디저털 배움터로… 과기부·신한금융, ‘AI·디지털 문턱’ 낮춘다",
-        "source": "v.daum.net",
-        "summary": "은행 폐쇄 점포가 디저털 배움터로… 과기부·신한금융, ‘AI·디지털 문턱’ 낮춘다 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oZV9kNUJibHJHZWF0bzdoS01LSXoydTFLSFZwQm5lbWJMUFpTR2VETHZkYms0ZVRHcUsyOVJxT2UwRks0aTJOdDZTckw2YkctczdRVQ?oc=5",
-        "published": "2026-08-04T15:02:09+09:00",
-        "query": "은행 폐쇄",
-        "engine": "google",
-        "rank": 1,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,27 +60,15 @@
         "published": "2026-08-04T11:34:50+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "64994c569176",
-        "title": "NH저축은행, 시니어 적금 영업점으로 확대…대면 고객 잡는다",
-        "source": "fetv.co.kr",
-        "summary": "NH저축은행, 시니어 적금 영업점으로 확대…대면 고객 잡는다 fetv.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiLWphR3g1TDFxUDYwU1FLZ1N3d3FST1NGeGQtbjlfWkMwdkRoZTYycHYta3RxOFFYSjdRZjRIOGxvS1oxRjliUm5pRGJ3YU0tZUgtdXA0eGpjbnpOdmxBZ09XYTdxMXh1?oc=5",
-        "published": "2026-08-03T15:12:11+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 13,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "d1380a3d56df",
+        "id": "5a251c9f865f",
         "title": "폭염 속 1712개 영업점 활짝 … 은행 떠난 동네 지키는 새마을금고",
         "source": "뉴데일리",
         "summary": "폭염 속 1712개 영업점 활짝 … 은행 떠난 동네 지키는 새마을금고 뉴데일리",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcjNZR1lMcHN4dTZWWURHYW5Ic202WlJrb0xVSHVtNUxyMXlHNzhGdzNCM08xVS12bWFUQTJ6TE9LUTZMdkYtVGRhVUs2QkpvbVR1QlFEbE1CcVpVUFNKX1RRUHoyTklXRE11OVJTVnR5cFlFQ1BWczcyamdubVdXVdIBgAFBVV95cUxQcjNZR1lMcHN4dTZWWURHYW5Ic202WlJrb0xVSHVtNUxyMXlHNzhGdzNCM08xVS12bWFUQTJ6TE9LUTZMdkYtVGRhVUs2QkpvbVR1QlFEbE1CcVpVUFNKX1RRUHoyTklXRE11OVJTVnR5cFlFQ1BWczcyamdubVdXVQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBESldYanVuaVVUWXlsSTJtTk5hcVBGQndTSkxwc01SeG9SOG5yTmJYQUhEaFMwcVlCTnZzdkhJSUFUeGtjeU90aERiVVpELUJXTE1WNkQ3ZVFPNHpWQkRMVjlaQ0FldFFzV1FlSXVpZUVZSlBTczB3bGlmRdIBgAFBVV95cUxQcjNZR1lMcHN4dTZWWURHYW5Ic202WlJrb0xVSHVtNUxyMXlHNzhGdzNCM08xVS12bWFUQTJ6TE9LUTZMdkYtVGRhVUs2QkpvbVR1QlFEbE1CcVpVUFNKX1RRUHoyTklXRE11OVJTVnR5cFlFQ1BWczcyamdubVdXVQ?oc=5",
         "published": "2026-08-03T14:23:58+09:00",
         "query": "은행 점포",
         "engine": "google",
@@ -78,40 +78,40 @@
       {
         "id": "952a26134327",
         "title": "[단독]신한·하나캐피탈 등 홈플러스 점포 후순위대출 2500억",
-        "source": "sedaily.com",
-        "summary": "[단독]신한·하나캐피탈 등 홈플러스 점포 후순위대출 2500억 sedaily.com",
+        "source": "서울경제",
+        "summary": "[단독]신한·하나캐피탈 등 홈플러스 점포 후순위대출 2500억 서울경제",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mb2hub2NQalRBY19PU3dvN0Q4dklNZHYzQTBjYUtzX2pBTnhVd3ZWbWFHYzdOYjA3eGFscXJULTFXRUlmSVRJZnRxM0haaG9aWGfSAVNBVV95cUxPaGVlanJGaDVjcEJqR1piTEdTcnY2WWk4b1RReDVzWU5iQXlkN0hqUldNbWVzU2tWeEU1SkJSMllRalRUN1JEVWhmN0xXemJnQ3VWQQ?oc=5",
         "published": "2026-08-02T18:02:16+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "59d31f776b1e",
-        "title": "우체국이 은행 창구로…점포 축소 가속은 숙제",
-        "source": "쿠키뉴스",
-        "summary": "우체국이 은행 창구로…점포 축소 가속은 숙제 쿠키뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GZlY2akQ5dmRMSHZOTDU4TFE5OFg5dlZPVTJmM2ZKMEh0VWlpZEdDNVhYSnNQaUVFdmtVazNlUjI0UzQxSmxnUTlReklnLVVkZ0pjdzhQb2F6c1hTcG9NbUVNUQ?oc=5",
-        "published": "2026-08-01T22:53:55+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 3,
+        "rank": 15,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
       {
-        "id": "85a027c5992a",
-        "title": "[오늘의 은행] 신한은행·하나은행·IBK기업은행·새마을금고·BNK경남은행·Sh수협은행",
-        "source": "파이낸셜리뷰",
-        "summary": "[오늘의 은행] 신한은행·하나은행·IBK기업은행·새마을금고·BNK경남은행·Sh수협은행 파이낸셜리뷰",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvYkR2QllzTHYtQ1dTZkJqUWZIdy02QmFaenVZc2JUTWhGTnlCYVUwMWRqeS1aSVlPUEV1dF9VYzZsVVFQWmdVTFo0UFd5UXNlUTEwLWRqcE5PaGpWUjZCNEhYTmMzSk43WGRGNnpoNVlPVk1C?oc=5",
-        "published": "2026-07-31T16:26:51+09:00",
-        "query": "신한은행 점포",
+        "id": "abd6e3e2696d",
+        "title": "청주상당경찰서, 보이스피싱 범죄 예방한 신한은행 동남지점 대리 감사장 수여",
+        "source": "충청타임즈",
+        "summary": "청주상당경찰서, 보이스피싱 범죄 예방한 신한은행 동남지점 대리 감사장 수여 충청타임즈",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIVTlYOExUWUhTZDQ4dm4tWFpJR1l1N19RR2EzT3VQeWQzLUZMMnNBUi1FT09pYkpMdXFsanEtVlVUdEthS0kyZ1BZVkNLaGVtclJwa291OWRnN0EyT0FNeklmbEtqQ013?oc=5",
+        "published": "2026-08-06T19:15:02+09:00",
+        "query": "신한은행 지점",
         "engine": "google",
-        "rank": 11,
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "b47ea81bf116",
+        "title": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영",
+        "source": "비즈월드",
+        "summary": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영 비즈월드",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02RjBFUzhNSjdBMU9zaTluRVMyUVNPNlowR2NYMU41U1JjOVNFY2hwOExGeUc3c2MwaEM2aWcxVDlIal84c1ZzUkN6ZGR2ODhKenVTcU9YdnVWNWEzOHhwQ2FVYW5adVg0R3Vz?oc=5",
+        "published": "2026-08-03T09:34:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
