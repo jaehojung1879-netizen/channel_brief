@@ -1,13 +1,67 @@
 {
-  "updated_at": "2026-08-09T06:59:32.002052+09:00",
+  "updated_at": "2026-08-10T07:01:54.796732+09:00",
   "items": [
     {
-      "id": "258f385d682c",
-      "title": "경기도, 여주시 중앙동 도시재생활성화계획 변경 승인",
-      "source": "환경과조경",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUnE4dGV2TVJKSE5aTFZaM3VPbm5EbFplcV94QmZ6a29QVDg0V1hqWFNEdTVNdDh6ZV95Y1pqNkRNbGtOamJRTEpTLXNyM2NGbWhKcGlFQXVzS3ZzdzcyQ0RJXzdZbkdJMmhYWTBnN2paQlZxemVLWU56aTQyOWh0cA?oc=5",
-      "published": "2026-08-08T21:08:24+09:00",
-      "date": "2026-08-08",
+      "id": "bdb91f503261",
+      "title": "광주시, 3만호 AI도시·30만㎡ 첨단산단 조성 검토",
+      "source": "전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSWXJGN18wU09SZmtkeTJobjZWbFUwMFpqckwzdkJzRkhjMmlPanJWeTlTMXBwWnZrU2M5Z3NtTTNxRjduVWNxOXJnRUZfZw?oc=5",
+      "published": "2026-08-10T02:40:42+09:00",
+      "date": "2026-08-10",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "ca81fb4708ff",
+      "title": "광주 반도체 클러스터 본궤도…군공항 부지 국가산단 ‘속도’",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NMU9LWGs4UWh2SU9FR1BBN2VwWjUzR3NKWHpUNlBLTk45T2lJTGlYaFRYVmx6SDJ3YlBiVG0zc3kzMkJwTngtcUcwc3BuRXM?oc=5",
+      "published": "2026-08-10T00:25:40+09:00",
+      "date": "2026-08-10",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "de7c61ca7647",
+      "title": "수원시 도시재생판 다시 짠다… 영화·영통·고색·지동 신규 지정 검토",
+      "source": "천지일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55WV92b2tmRjZYZWFYOWVQUHZ4My1HVVJCWTVXNWhzNFF1dzhSbUtEazVBNkUyYVpKcVljbndLRTF5WW11dFVtS21Ld0VXV0NXUVFLNGwxU1MtR3NYRXg3cFlHRlgyQW1ESXc?oc=5",
+      "published": "2026-08-09T21:28:47+09:00",
+      "date": "2026-08-09",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "58e095c8446f",
+      "title": "수원시, 2036 도시재생계획 수립…신규 활성화지역 4곳 지정",
+      "source": "전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yUFhxdVpJTF9VOURuTTRkSFVkS0FZV3JBTE1nVmpwOVpNOVBvWEUwYXliZllucjVaVzBUcDl3Y0NBT3h2NHF0YWdQcVU0UQ?oc=5",
+      "published": "2026-08-09T20:58:51+09:00",
+      "date": "2026-08-09",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "c3428114ab2f",
+      "title": "수원특례시, 도시재생 전략계획 변경·활성화계획 수립",
+      "source": "경인종합일보",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Mc20tNFdKeFpmOXdZX2R1YTBqOHRIS3FPSnV6SnVvcHhIR2c2X3A3Z2ZTSXZYZDdPVFRZU3lkSHlFdk5DRlJ0Z01Pbnc1VkZfLTVVR0FPaTZxQVRRNHNUaTM3OU4wcndoQi1NT3praXJ1d9IBckFVX3lxTE5Mc20tNFdKeFpmOXdZX2R1YTBqOHRIS3FPSnV6SnVvcHhIR2c2X3A3Z2ZTSXZYZDdPVFRZU3lkSHlFdk5DRlJ0Z01Pbnc1VkZfLTVVR0FPaTZxQVRRNHNUaTM3OU4wcndoQi1NT3praXJ1dw?oc=5",
+      "published": "2026-08-09T19:41:03+09:00",
+      "date": "2026-08-09",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "dc466022f4a8",
+      "title": "수원특례시, '2036 도시재생전략계획' 주민 의견 수렴",
+      "source": "데일리안",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSVFYRGRRWGhHV3IxOXhOcjZhZEwzTjI4eGgtMjRKWThEOFMzUnA4MnY3VndxT1NtNDUxMFpyV2NiN0QyUmxEZ3RRcXdIOURCQ2h3S2FPa1hXdm5HaXc2VkFReHM2aUFpbkNKNjlNM3QyUWlIQlEzSHk2RThUNnc1UFdLS2taM1V4RzREc2dzNUFDSlZjQ1dTZ2JrRGZCd29DQzRPZ0dxRVV0QWZFdkw5RWt6a0htUlMtTHdna3hZNndDNzJOY1lxaVNuaFB5OXYzQXJuOVFvcDgwZDlxSk90NG1MOXY3VHhpT2VnTHJna1NISG1UZWxQYjJWT3Nzb2tfM3c?oc=5",
+      "published": "2026-08-09T17:44:00+09:00",
+      "date": "2026-08-09",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "a5222b4fe202",
+      "title": "수원시, 10년 만에 도시재생 밑그림 다시 그린다",
+      "source": "경기신문",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5HSnpEdHR4SU5RVkJlV3FBNjhGLThKVHBzQWpnNGtKXzBIMHdKT0pzNHFCSGtFa2ZzbUhwSzVLME50d1BybFJFaU82NURzZmlsdkpOT1dHTnJaX3BNNl9N?oc=5",
+      "published": "2026-08-09T16:08:43+09:00",
+      "date": "2026-08-09",
       "query": "도시재생 활성화계획"
     },
     {
@@ -22,18 +76,9 @@
     {
       "id": "e91fef91080e",
       "title": "[광주] 3만 호 역세권 스마트시티 조성 공공주택지구 지정 촉구",
-      "source": "kocus.com",
+      "source": "교차로저널",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XVU9LQ1k1QjFnaEl4NktWOUxuLUFhUzdJYWMtWXlWaEkwYVluVnF6ekhBWFF3UE1HYmhQRWY0YldOZmlPZnhEbW1wSEhmYUJGY0VPQkxTVi1leHBjNU5IbU4yY1c?oc=5",
       "published": "2026-08-06T22:07:04+09:00",
-      "date": "2026-08-06",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "ef2db3401b23",
-      "title": "광주, 3만호 공공주택지구 지정 촉구",
-      "source": "시티뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiY2FwNUstcVlySWlSb2xsUFZZWWZhT3ZyN214dEE4MFN5dklBQkJFRjNXLVF4RE1MWFozR1JrMWVXTlJ6dC1KMDNiWEhQb01HZS1OeFdvZ1dfenhFMVY1MHptQ0dlUXZUeUd3?oc=5",
-      "published": "2026-08-06T15:04:00+09:00",
       "date": "2026-08-06",
       "query": "LH 지구지정"
     },
@@ -49,7 +94,7 @@
     {
       "id": "46121ecbc101",
       "title": "올 公共공사 최대어 ‘용인 첨단시스템반도체 국가산업단지 조성공사 1공구’ 누구 품에",
-      "source": "대한경제",
+      "source": "dnews.co.kr",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JZmlDUHA5TEpaRzJUVW5xTU5yaGx2eERpMl9ySTJrUElERjhWX0xocGNkNFFtMDNnZzY3RWUxWjhMTE9QUVpfRWZuWTUzR0dzTFFZXzhYbUdrMVBFenFHVkJwLTg3TUI4Yk5EUldsTlFSTUJa?oc=5",
       "published": "2026-08-06T06:01:11+09:00",
       "date": "2026-08-06",
@@ -83,48 +128,12 @@
       "query": "신도시 착공"
     },
     {
-      "id": "c8965e955e5f",
-      "title": "6일, 태장2동 도시재생 공모사업 주민설명회",
-      "source": "원주투데이",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SQWZZaldRT0UwNjU4LWxTQ01NbmtsTFFMalZYSEdaWEpzYmpyVzZnUVBubEN2RWJMa1BEUUFhVkE4ZS1aYi1HVnNCbTBzS1loYVVvZk5vb3N5c1pTc1ZoRzZoVUk2YTFsZ2xWdDJpdzE4Zw?oc=5",
-      "published": "2026-08-04T16:15:05+09:00",
+      "id": "114c10605abe",
+      "title": "화곡동 일대에 공공주택 6천호 공급 예정",
+      "source": "remagazine.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zUjFxWUE4Y1RITWx6TXFBNFhXTWtlR25DblNMNFk4VjlLbDZCWk83QTNZN0VYbWV5d003ZFFTNEV4bGM0ZF9rc1RDOF85QmtoOEFxMjNYUkptWUF1UzFHa0pvNEluRE91LWY0SU9B0gFyQVVfeXFMUEhINTF0VXMzYjFMVFJwV2phSFc0Zy05YVpqWTQwTE9WRUhhd04zbzZPaC1rM0JCd2RFdHVhUjlzOUNVcU8wdTJ2dTdLMldTa3MyUXFGZm5BQ1ktLXRwUTI1em1zeXBvZDd3UGhCRVBGdVpB?oc=5",
+      "published": "2026-08-04T16:00:00+09:00",
       "date": "2026-08-04",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "44d438124fbc",
-      "title": "[기획] 용인 반도체 국가산단 연내 부지공사 추진…전력은 어떻게 공급되나",
-      "source": "비즈월드",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84V3luWldXb2F0eWZCakJJQjZvQWFJTVhPaDNQYi1KVERZblUtMjBJY0hxb2tyMTgyTVN6YV9uZVY3TlJIcjFjSndEVW9hNmdDYlhobVdIbXpCWWY1TWZJTjF6V0lfRG0tWW9J?oc=5",
-      "published": "2026-08-04T15:44:00+09:00",
-      "date": "2026-08-04",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "aa8c488dcd5c",
-      "title": "김제시, 신풍지구 도시재생 활성화계획 변경 주민공청회 개최",
-      "source": "전북제일신문",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UQmJsWUF6NHVKYm1zWTJOMTBCMFdwN01XaF9QN0ZSSFNpLVRFTVI2OTZWd3BCekRORkE5YXVoOGwtcXhtYkZFTWxLcC1zaFo0UGxQOFZocWF0ZzN2Tlh6bjhZZXFLMm5VWHc?oc=5",
-      "published": "2026-08-04T11:10:44+09:00",
-      "date": "2026-08-04",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "e3c9d68ef66f",
-      "title": "안성시, 도시재생계획 재정비 및 변경 용역 중간보고회",
-      "source": "자치안성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GMmpjdkRnUzB1QnhQOG8tUWg3Z0dvMGNsaG5aSFNURFk0bjR3cGR0bWN6aXMyd2trV1E1aldJOEQ1RndFMWdoNDB5YjRzMnVtWVI2RW5jM19nY2p3aWwwR0FzV1JuVmNqbEtpZHo4Q1VId2VrNl83Zm9Wc2k?oc=5",
-      "published": "2026-08-03T16:00:00+09:00",
-      "date": "2026-08-03",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "be77efbd95d4",
-      "title": "서리풀2지구 보상·지구계획 본격화…LH, 주민협의체 가동",
-      "source": "에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jTWhCWmp5ZzFrTUFZb3Z3ZGZ1YTZYNkJTSERjYXl3djhONFByUDBFZ2hFZllvd2JuVjduZy1DdXZhTEpXeDVpSlVjS1pYWlBHTmRBVmc3c1lNZE0?oc=5",
-      "published": "2026-08-03T14:26:14+09:00",
-      "date": "2026-08-03",
       "query": "LH 지구지정"
     }
   ]
