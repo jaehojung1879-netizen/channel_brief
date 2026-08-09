@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-03T08:09:46+09:00",
+  "as_of": "2026-08-10T07:45:33+09:00",
   "source": "Kakao Local API · category=BK9 + 시·군·구 키워드",
   "is_fallback": false,
   "summary": {
@@ -14382,8 +14382,8 @@
       "phone": "",
       "address": "충남 천안시 동남구 신부동 354-1",
       "road_address": "충남 천안시 동남구 만남로 43",
-      "lat": 36.819988979077415,
-      "lng": 127.15793798276637,
+      "lat": 36.81981410340375,
+      "lng": 127.15798357655562,
       "place_url": "http://place.map.kakao.com/84533639"
     },
     {
