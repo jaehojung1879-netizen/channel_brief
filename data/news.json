@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-08-10T07:00:30.205482+09:00",
+  "updated_at": "2026-08-11T07:09:35.482147+09:00",
   "headline": {
-    "id": "b47ea81bf116",
-    "title": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영",
-    "source": "비즈월드",
-    "summary": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영 비즈월드",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02RjBFUzhNSjdBMU9zaTluRVMyUVNPNlowR2NYMU41U1JjOVNFY2hwOExGeUc3c2MwaEM2aWcxVDlIal84c1ZzUkN6ZGR2ODhKenVTcU9YdnVWNWEzOHhwQ2FVYW5adVg0R3Vz?oc=5",
-    "published": "2026-08-03T09:34:00+09:00",
-    "query": "신한은행 영업점",
+    "id": "be5dee99ab3a",
+    "title": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란",
+    "source": "뉴데일리",
+    "summary": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란 뉴데일리",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93R1Vkc1lIcjFhZS1HUFo5enREZ053UWdaV0J3dUoyV1Z3N1lnN0dKdEZpRjNYaHRXMHJIQl9sNHRzRVhkN2JjdGZYV0d0czl1WDUycnVhcmlVZndyaWFBLXN2YURvenNURzFCaVJRWWE4M0YwR0dsaXBxWdIBgAFBVV95cUxNVVpYdl9IWVpjMFRSLVd4ZGlZODJNRGxKV3ZNaDZ0YUY2Ny1xbkMwS2xZRXlELXJ1WE9YVG9IWWc4N2ZOYXhzbnhDTmlUampnM1QzQW5ZVHpTNjUxMUpFd0NDMmtZY0dQMi13X2RwdVI0WnRaWXJkUFZTQ2tmZXBYXw?oc=5",
+    "published": "2026-08-10T11:11:00+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 5,
-    "_score": 11.0,
+    "rank": 4,
+    "_score": 25.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "9c5590d75933",
+        "title": "KB금융 \"지방 점포 월매출 서울 3분의1 수준\"",
+        "source": "KB Think",
+        "summary": "KB금융 \"지방 점포 월매출 서울 3분의1 수준\" KB Think",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBzNWROMmY5dFBjckpIZmpYcVVHQy14LTNaVmY2U0NLbjZDS3ZUd3lIUG16eFgwSmVhRmhEb1BlOFpSQ0VnT3F6YW5pNDROaVRNQmw4TmZqVTB2OWx3Qm1mRENvVDdVenEwaldKbzNFbW9QUQ?oc=5",
+        "published": "2026-08-10T11:14:16+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 7,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "e719274d261c",
         "title": "은행권, 극한폭염 대응 '총력'…영업점 개방하고 취약계층 지원",
@@ -22,6 +34,18 @@
         "summary": "은행권, 극한폭염 대응 '총력'…영업점 개방하고 취약계층 지원 데일리한국",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QcjRLbi1aeURqd3U4NGJGSlJCV2psdi1leUt3aUtacjZ0NE1TN1RqREdEdW9wQ0NMV1UtaXdmWUNTUTktanZNcE1ZT1Q5VWxiUE45UkloYjJxaldoQjNJcDFJS2xta01McHlIZGVFa9IBc0FVX3lxTFBKYUphNFpDRDBIUGVEVnR4V3B4V2Z5MG5VZ1k5d3VJUlF5dDYySndqckt0aVFaMDRxRVZUUG9OWFRpcFBRckQtV25SWjFRQUlWWm9xSDBTYVB3WktGbVh5Sk40dlVvejdQUGQ3Q1pxQkVyejA?oc=5",
         "published": "2026-08-08T14:00:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "7f760bed769d",
+        "title": "폭염 속 ‘은행이 쉼터로’…웰컴저축은행, 전국 영업점 개방해 '시민 휴식 지원'",
+        "source": "한국NGO신문",
+        "summary": "폭염 속 ‘은행이 쉼터로’…웰컴저축은행, 전국 영업점 개방해 '시민 휴식 지원' 한국NGO신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11YmNpVkExLVpwaDF2d0tfT1duNlZrbTFGMlNZSFRpLWs5S2VuRGtGRUI1TWpmTzNEVUlWLWVxWEoydFY5aVpnbF9ZQ09va3k1WENNTzQ4ZDhncjRMcWRBYkhxRDkwcS1h?oc=5",
+        "published": "2026-08-07T21:00:32+09:00",
         "query": "은행 영업점",
         "engine": "google",
         "rank": 5,
@@ -36,7 +60,7 @@
         "published": "2026-08-06T17:47:26+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 15,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,24 +72,36 @@
         "published": "2026-08-06T14:32:02+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 13,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "23cd700c889f",
-        "title": "BNK금융, 폭염 속 '지역 안전망' 역할 확대…은행 영업점은 쉼터, 거리엔 생수",
-        "source": "위키트리",
-        "summary": "BNK금융, 폭염 속 '지역 안전망' 역할 확대…은행 영업점은 쉼터, 거리엔 생수 위키트리",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbmlQTnBxX0Jlc24zVzFkNmJrOEN4NUo5UHU0eGp5OG9mMGJkYW1IQWgzcUVPeHItNWdzUER1bkhpYXdqTUxNRlpwOEw4U3liTnoyeUV3?oc=5",
-        "published": "2026-08-05T23:02:00+09:00",
+        "id": "b2c8bb4966be",
+        "title": "“폭염 피해 잠시 쉬어가세요”…웰컴저축은행, 전 영업점 무더위 쉼터 운영",
+        "source": "디지털데일리",
+        "summary": "“폭염 피해 잠시 쉬어가세요”…웰컴저축은행, 전 영업점 무더위 쉼터 운영 디지털데일리",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EYVh1MWIzazQycnBNY0lqOU1RSVN3eGl4NnFESUdDOXhVUU92c21TM2czT0NpekEySG5nNWVodWtseXVCWjR1azlZTmVxdlFIY2ZTNHdnNWVrWnd5QW5rY2NOYm4?oc=5",
+        "published": "2026-08-06T09:45:01+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 16,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "4aa827361ebf",
+        "title": "신한은행, 서민 전세는 조이고 대기업 부동산엔 활짝",
+        "source": "한국보험신문",
+        "summary": "신한은행, 서민 전세는 조이고 대기업 부동산엔 활짝 한국보험신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01WjVBUVJLdmEwNlM5eFhtNV9lYkljdjJRd0tDcE5TdUJtRE1wZU13bFQta19TN0pteWhSMks3Wk9HaDFzc3lxX1loT05OX21CcFloYjNlZ2F4U21wUFlGbi1hdjljMEhJQnhR0gFvQVVfeXFMTWk4UTVEWFRaNGhWVG9yUUpQV3ZrbFlaWkRleEZBSWtOM3FpTmdqRUh3SE1qdVhIOW9TU203RHNLYWtGQWRjT1VldVRJU00yMDFVME9LYkI4NmlDRVctNkI0LURwUkV0S2ZSR29oTzFF?oc=5",
+        "published": "2026-08-10T00:00:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "abd6e3e2696d",
         "title": "청주상당경찰서, 보이스피싱 범죄 예방한 신한은행 동남지점 대리 감사장 수여",
@@ -75,7 +111,7 @@
         "published": "2026-08-06T19:15:02+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
