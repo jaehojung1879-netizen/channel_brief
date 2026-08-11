@@ -1,41 +1,95 @@
 {
-  "updated_at": "2026-08-11T07:11:13.507162+09:00",
+  "updated_at": "2026-08-12T07:22:45.665656+09:00",
   "items": [
     {
-      "id": "2d9a1b927f14",
-      "title": "광주 군공항 250만평 국가산단 후보지 지정…반도체 클러스터 속도",
+      "id": "c56186bafe3e",
+      "title": "용인 반도체 국가산단 인프라 속도…국도 45호선 확장 본격화",
+      "source": "아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NOWIySjNaZ0c0QTBnWm8zcGZjY1Nfem95MTdsaTVfTmNmVDA5X00tRzZweWYydDlpUjBJZ0d3MHVRVkhhMGR0SndENUJKYjNLMk51ZERlZ0dpS3B3S3lxVg?oc=5",
+      "published": "2026-08-12T07:02:19+09:00",
+      "date": "2026-08-12",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "74d85ee67a13",
+      "title": "삼성 국가산단·하이닉스 반도체 클러스터, 차로 30분대",
+      "source": "조선일보",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PTWUyRUUwU08zOXJQX3ZVSXBELXNKeVRQbnViUkpyVmVhWE9wM0I4N1g5N1JsQTVsTFdzNmY3R0hrc0lPeGZCTllMVEh2aFg3OWxTS01nSnlPX0t5clZnYVZaWUZ3VnBpN09GWU9KS3RaME9qXzRERw?oc=5",
+      "published": "2026-08-12T00:37:00+09:00",
+      "date": "2026-08-12",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "0474c3745ce5",
+      "title": "\"용수관만 지나가선 안 돼\"…박관열, 용인 반도체산단에 '상생' 요구",
+      "source": "OhmyNews",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Cd0hDXzdiMUxRbU42NTdPRW5sdEdNR2Y0SXhjQU9Nc2xQN1BHVXphdC1FcGxQLWlfTGVXeTFtT2Q3a014X1BUSGFmQTNBN1RuRGNtcGRPTlBRdU5oVUJoS29kVTF3UmZzRzBWemJHZmxNLU9heUZr?oc=5",
+      "published": "2026-08-11T19:49:00+09:00",
+      "date": "2026-08-11",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "f30964cb77d3",
+      "title": "민주당, 용인 반도체 국가산단 건설 부지 방문",
+      "source": "데일리안",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOdXBZNzducVVudUdjZVI0UXozN3dzdHp0SFdIdE9FTFZIalprSVVQWFNHaGJJZG9mbFpHeGN2NG1PTXluOG9Sa3lLUFhXNDh5S1ZqTHBZNTlMdkdILWFvSnF5bGJfY0l3djk1YmV2Y0h3cmlTRDVCUkpHR2dxbUdWaW0zWDlxUVJYS3dHSmhrVklKLUlfa2lKM2RJVTFEZVQyVU1uOEtQQ0ZGZS1sN0g2a3lyVWx2ZWpXWTM1OWVtNWFOMkhKNDJ2cmNCbFQ5Z2ZyY3VGOEVEUWFSQjNoV2Y3b0VBWkJBR2xEbjh6SWx5YnZnQ0xPZmJ0N3lrMGo0eW42SklsQ0EyOHpQSjBvZFpfcmRhLTFSVDdj?oc=5",
+      "published": "2026-08-11T18:44:00+09:00",
+      "date": "2026-08-11",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "476db04894db",
+      "title": "김윤덕 \"그린벨트 풀어서라도 주택공급…2·3기 신도시 착공 앞당길 것\"",
+      "source": "뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtQ0pmejliSzk2cllaMXB0T1IwVEQ5X1ZoQ2R0Rkh6MGhlOEM3VGVyUkFaVnpoLWN3emlwcDgzaHFxSTZRUkl6U09ZTU1QZDhuOHNOa0dacEVnSTRu?oc=5",
+      "published": "2026-08-11T18:15:00+09:00",
+      "date": "2026-08-11",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "4788798c1481",
+      "title": "김윤덕 \"3기 신도시 착공 앞당겨 집 걱정 없는 대한민국 만들 것\"",
+      "source": "신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxeUc0bTE1RVdGSzhBM3FGcUtNOEZ0SVlqdEJ1akhXLXRrWUtXamw5bVRpMnE3Wnc5emMyalI5eVRRTHNiYU9vQlFCQ3NpOXVCY1FXMEFORGsycmp0cmNZa0lkdVlNZWpDLTNBcHBJdjQ?oc=5",
+      "published": "2026-08-11T16:00:11+09:00",
+      "date": "2026-08-11",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "81fe30f0a8d2",
+      "title": "김윤덕 3기 신도시 착공 앞당긴다…주택공급 속도전 본격화",
+      "source": "ajunews.com",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iM1VTaVhGalN0VWx0Wmtta1BCcnRva2pkZUF6eDNBaU9meWxrLU9rc1BrQVFYaTdMaTBkRXgwS2MzeHgzc0d4UnhTSFl0OGE3Z0NlWl9PZDdRUdIBWEFVX3lxTE4zODZxN29tZGZRVy1TRWhRQ1JXRHF6LVI5MVdRQ1plYndLd2h6aFNZMDVDWFRBSVJzamNsclpGa2NyYi1DVmxDTHVaWklOLXNVaDRBN1BuMUc?oc=5",
+      "published": "2026-08-11T15:29:59+09:00",
+      "date": "2026-08-11",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "361f0a4cc9a2",
+      "title": "국토부 \"3기 신도시 착공 1~2년 앞당긴다\"…수도권 공급 확대 총력",
       "source": "매일일보",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3bEpNWkJER0pCbmhHQl81anBZTG1XQlZuMGx2TjdtYUhTNVV4Nml1TjVMblpJeTNybm5yZjNkWWdlUk5lNXBtZlJNUXF4LXlCTFRLeE0zcVBmVnBLdkRZX2VsTEQ?oc=5",
-      "published": "2026-08-10T18:51:05+09:00",
-      "date": "2026-08-10",
-      "query": "반도체 국가산단"
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Bc3VLaG5YbnBiWUJVcEdPR2tlejBadldvRHByRjg2Q3lVSzJKUXlHd0k4RS14YlVSRjExVFpKUWpoWUhOTEZjWUJseTBvNXpkYmlySEZXbGh2LWkyaV9TM25XOWY?oc=5",
+      "published": "2026-08-11T15:22:48+09:00",
+      "date": "2026-08-11",
+      "query": "신도시 착공"
     },
     {
-      "id": "7ecc426b8d77",
-      "title": "충남서도 ‘용인 반도체 산단행’ 송전선로 반대 행렬…“ 전력 식민지”",
-      "source": "한겨레",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TRThZMDg4Q0R5YVJUM1VyY05CVUpieF9ZdmRZNG8wZ0ZFYl9yUWZJVDRHd3lPQVpjQXZKTXVTZDE4MWVUV0RzdmpRal9xRl8yNkJva2NycTJnQ3VpTFpuVG43d2E0YjFM?oc=5",
-      "published": "2026-08-10T15:57:00+09:00",
-      "date": "2026-08-10",
-      "query": "반도체 국가산단"
+      "id": "4c899578f81f",
+      "title": "김윤덕 국토장관 “3기 신도시 착공 앞당겨 주택 공급 속도 높이겠다” - 조선비즈",
+      "source": "Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNXZTSFpHdlBxcVFUSFUzMWNyZ2VCSjN2VnVyazhyR010blJjSm1iQzA1WVVOeUgyQmRFZ0l2SGJCS2dVUnZROFBHN251bk5YR2xYUFJZeU5jd2VzRWlBc3d1WDMtRUVQWTFubkRZekRGNUVYaGc3ZHc1azJIN2N6WW9uZTJzazJJSFV0UTRmZ2kxZVJwMlFkWdIBrAFBVV95cUxQSmNPX0ZXM3FnTjV4cVdqTlAtZkpoUnFGdkxXUy1CLW55aHNOdVNTVWIxZldaekI3ZHoyc2dBQm42cHNiTEgwV25DbHh1MkNqUnlTVU42bHRTVWYtWXc1eU1NVTNnZzFxOFRndHRzNTNoLVVXa1NKZjlzamY4bkRjQTlsdzVFUHZmR0dCSU1LVjBWN0hhdGJucGFZX1UwUGlVeEZPdVpRcGk0WVMy?oc=5",
+      "published": "2026-08-11T14:59:00+09:00",
+      "date": "2026-08-11",
+      "query": "신도시 착공"
     },
     {
-      "id": "0ab35deb4b11",
-      "title": "삼성전자 반도체 산단 첫삽 뜨나···현대건설·대우건설 재격돌",
-      "source": "시사저널e",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hSlJtSDJfNTZyYUNWeEVBekhqOGxmc0dOUkxYQ0RCWUVJTGROLVJFZHVqRnB5QlZkQU04SURLREVOQkJic1BiTmVOTFp3dkRwU21SdkcybXhjQjNEZm4yV0RMcjdQbENfdUUxaWVScmJJdDl5RWfSAXZBVV95cUxPYUpSbUgyXzU2cmFDVnhFQXpIajhsZnNHTlJMWENEQllFSUxkTi1SRWR1akZweUJWZEFNOElES0RFTkJCYnNQYk5lTkxad3ZEcFNtUnZHMm14Y0IzRGZuMldETHI3UGxDX3VFMWllUnJiSXQ5eUVn?oc=5",
-      "published": "2026-08-10T15:40:20+09:00",
-      "date": "2026-08-10",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "ab8a2065f0a6",
-      "title": "광주 군공항, 국가산단 후보지 지정 '환영'",
-      "source": "교차로저널",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lYVhnM0g2MXgyRmw5WS0xLWUwLTlGRGVFaHI3ZS14MGRnLW1IQWx5OE1EclVTcG9iS25sd09LTFJ6SXFrS1lEaEhwbmhUVFNBazVPTjVHSDluLVVvVkpON0VHOW43NURS?oc=5",
-      "published": "2026-08-10T15:29:41+09:00",
-      "date": "2026-08-10",
-      "query": "반도체 국가산단"
+      "id": "64bf67235642",
+      "title": "[단독] LH, 신규 택지 조성에 자문 절차 줄인다",
+      "source": "대한경제",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vcGtvTTRCTXRhbWVfN0tKOHUzOEdqaWNjVTdiUFVzRnU0NXNGdldSOHhSbWgxY2wxQUlWUld5bENmQXl1UXhPci1BLUJwWWJTbFZxX1NjMF9TTHY3VW1sZnRUQjlPTUIxSDZBekFxMTJhOHZZ?oc=5",
+      "published": "2026-08-11T05:00:34+09:00",
+      "date": "2026-08-11",
+      "query": "LH 지구지정"
     },
     {
       "id": "cd6d3e6aa8f6",
@@ -47,6 +101,15 @@
       "query": "도시재생 활성화계획"
     },
     {
+      "id": "fd547baebf05",
+      "title": "광주 반도체 클러스터 본궤도…군공항 부지 국가산단 ‘속도’",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wNnR4LUxFVlVsYndIVDYtN0lMd3cwaHJUdEx0Q0x3YmRtN281dWpMYlJHR20yZnRZS1o0X1pHTUFkS1BRT3c?oc=5",
+      "published": "2026-08-10T00:25:40+09:00",
+      "date": "2026-08-10",
+      "query": "반도체 국가산단"
+    },
+    {
       "id": "58e095c8446f",
       "title": "수원시, 2036 도시재생계획 수립…신규 활성화지역 4곳 지정",
       "source": "전자신문",
@@ -56,85 +119,22 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "dc466022f4a8",
-      "title": "수원특례시, '2036 도시재생전략계획' 주민 의견 수렴",
-      "source": "데일리안",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSVFYRGRRWGhHV3IxOXhOcjZhZEwzTjI4eGgtMjRKWThEOFMzUnA4MnY3VndxT1NtNDUxMFpyV2NiN0QyUmxEZ3RRcXdIOURCQ2h3S2FPa1hXdm5HaXc2VkFReHM2aUFpbkNKNjlNM3QyUWlIQlEzSHk2RThUNnc1UFdLS2taM1V4RzREc2dzNUFDSlZjQ1dTZ2JrRGZCd29DQzRPZ0dxRVV0QWZFdkw5RWt6a0htUlMtTHdna3hZNndDNzJOY1lxaVNuaFB5OXYzQXJuOVFvcDgwZDlxSk90NG1MOXY3VHhpT2VnTHJna1NISG1UZWxQYjJWT3Nzb2tfM3c?oc=5",
-      "published": "2026-08-09T17:44:00+09:00",
+      "id": "b9aab40d3041",
+      "title": "수원시, 영화·영통·고색·지동 도시재생 신규 활성화 지역 지정 추진",
+      "source": "중부일보",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vVnNqZ2xCU2pmbHZEaTRpc2lxT3YyS2Uzc2Q1SVZzUHh0clhjNjE3MThacWhSemtRM0hWZlNJbU5zVGVMLUhBOGRIa1p2a2p4Y1hsb0U3YnVMVjRPTUFvclcwSEJELXItNE9ZNEF0cw?oc=5",
+      "published": "2026-08-09T14:31:00+09:00",
       "date": "2026-08-09",
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "69dfd0100d9c",
-      "title": "수원특례시, 도시재생 전략계획 변경하고 활성화계획 수립한다",
-      "source": "gukjenews.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wNGxoY1BodDdKWkZ1YkVuLWZtYkdMcVlvMnVUeXZUd2swazhQVjlYX1BpRlVYOWd2TTRvZURJNWhyNTRSRmI5R3M2RU9CdWVNUTZqMFF5RWtDakZTVllobE1kMlFlX3JITUpTaXpn?oc=5",
-      "published": "2026-08-09T17:40:14+09:00",
+      "id": "f0f263e1e7f0",
+      "title": "수원특례시, 도시재생 전략계획 변경하고 활성화계획 수립",
+      "source": "산경일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xdEVXa2M0ZDJvdG5jbXVwbjFteU94cGpMejViNnRHc21Vbl9GVlA3YThvSHdPOUs4VGlQZGVQcGtvd1BIRWVJdmh6Y0Q3eU9GX0VQbjRBZS13SmdacGFWTkFKNFpuMnBkT2E1bjB0Umo?oc=5",
+      "published": "2026-08-09T10:37:38+09:00",
       "date": "2026-08-09",
       "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "e1bfc1a12112",
-      "title": "수원시, [도시재생전략계획' 새로 짠다…영화·영통·고색·지동 신규 지정",
-      "source": "네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iRjBReUZFRjdXdm44eE1yTElsSHE2ZWQ4NDZhelNVQjkxN1Nsa2dBOG82d2s2Mlo2ZjY1a29kQnZGNUFPUVVSUGhEckJ3cjByRzZN?oc=5",
-      "published": "2026-08-09T08:12:00+09:00",
-      "date": "2026-08-09",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "978030a86498",
-      "title": "\"선바위는 달리는데 야음은 왜 멈췄나\"…7년째 표류한 야음지구, 민선 9기 해법 찾을까",
-      "source": "글로벌경제신문",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lYml2cVpYU0taUHV6RFVzVlRYV0Z5Z3BLeGlJM18xaG8wV3lDLWY0X0p6REUwYjdPR2JnckxHc2tFejVtWjlfaDdLWEJjd2F6NEdyRjl5dFVQcko5bndqb1RFQ3N4WU9ibV84MNIBcEFVX3lxTFBkQ1JzZkZLTXNMUWhIcld1Nnh0MU9pa1EwVmtiV1NockM4ZlpSSU0xaDR3eHl3S1dJV0syWnVhaUxrRGdBRXdvRXh5Nkx4XzFwTWQxTkU4T1RqQ1V0X3ZuZnlMdTRhdHJxZUZ5OHNQRnY?oc=5",
-      "published": "2026-08-07T08:22:48+09:00",
-      "date": "2026-08-07",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "e91fef91080e",
-      "title": "[광주] 3만 호 역세권 스마트시티 조성 공공주택지구 지정 촉구",
-      "source": "교차로저널",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XVU9LQ1k1QjFnaEl4NktWOUxuLUFhUzdJYWMtWXlWaEkwYVluVnF6ekhBWFF3UE1HYmhQRWY0YldOZmlPZnhEbW1wSEhmYUJGY0VPQkxTVi1leHBjNU5IbU4yY1c?oc=5",
-      "published": "2026-08-06T22:07:04+09:00",
-      "date": "2026-08-06",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "46121ecbc101",
-      "title": "올 公共공사 최대어 ‘용인 첨단시스템반도체 국가산업단지 조성공사 1공구’ 누구 품에",
-      "source": "대한경제",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JZmlDUHA5TEpaRzJUVW5xTU5yaGx2eERpMl9ySTJrUElERjhWX0xocGNkNFFtMDNnZzY3RWUxWjhMTE9QUVpfRWZuWTUzR0dzTFFZXzhYbUdrMVBFenFHVkJwLTg3TUI4Yk5EUldsTlFSTUJa?oc=5",
-      "published": "2026-08-06T06:01:11+09:00",
-      "date": "2026-08-06",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "1104976f9d93",
-      "title": "수도권 3기 신도시 착공 기간 30개월로 단축 추진한다",
-      "source": "뉴스토피아",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0Yy1GU005c3J2Y0pCV25BVlRGZ3ltUFkwaUQzalZBYkE2b21qb3BraXhuWWdId3VWZ2I0OTlISERZWWV5QWFRcXB3Zml6UUgzZlM4MGo4dmRWejNfdFFjVTVEc2JveldjRnlpbQ?oc=5",
-      "published": "2026-08-05T10:04:09+09:00",
-      "date": "2026-08-05",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "bac3dcaca4b2",
-      "title": "세제 다음 공급카드는…그린벨트·3기 신도시·공도복·비아파트 주목",
-      "source": "뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yQ3QtYV9UYWQtYVMwMTFBTlZlZlhyaHF3UUFEUDBBeUhDcWM3MGJTejNUU2VadmNzZGFQeGE1aUlZeXFhcktfQW1JVjI4U2JXYzQzLURuNFcyalREa1BWSNIBeEFVX3lxTFBOQXB1cWtBcmxEYUtYNGlYcjNRUUpHbE1aRFJGY1g4MDBSRHBVa3l6VVJiOGpYQlJNNnlpRUx3QmhhRVZwckR0OUJIR2FWVl9WRUtWZkt6WWZQZ283QUV4MXRyeVh5SkJMemV2MkxzakNGUGpaY0UxQg?oc=5",
-      "published": "2026-08-05T06:00:00+09:00",
-      "date": "2026-08-05",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "114c10605abe",
-      "title": "화곡동 일대에 공공주택 6천호 공급 예정",
-      "source": "remagazine.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zUjFxWUE4Y1RITWx6TXFBNFhXTWtlR25DblNMNFk4VjlLbDZCWk83QTNZN0VYbWV5d003ZFFTNEV4bGM0ZF9rc1RDOF85QmtoOEFxMjNYUkptWUF1UzFHa0pvNEluRE91LWY0SU9B0gFyQVVfeXFMUEhINTF0VXMzYjFMVFJwV2phSFc0Zy05YVpqWTQwTE9WRUhhd04zbzZPaC1rM0JCd2RFdHVhUjlzOUNVcU8wdTJ2dTdLMldTa3MyUXFGZm5BQ1ktLXRwUTI1em1zeXBvZDd3UGhCRVBGdVpB?oc=5",
-      "published": "2026-08-04T16:00:00+09:00",
-      "date": "2026-08-04",
-      "query": "LH 지구지정"
     }
   ]
 }

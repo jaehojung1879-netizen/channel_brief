@@ -1,30 +1,54 @@
 {
-  "updated_at": "2026-08-11T07:09:35.482147+09:00",
+  "updated_at": "2026-08-12T07:21:05.895458+09:00",
   "headline": {
-    "id": "be5dee99ab3a",
-    "title": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란",
-    "source": "뉴데일리",
-    "summary": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란 뉴데일리",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93R1Vkc1lIcjFhZS1HUFo5enREZ053UWdaV0J3dUoyV1Z3N1lnN0dKdEZpRjNYaHRXMHJIQl9sNHRzRVhkN2JjdGZYV0d0czl1WDUycnVhcmlVZndyaWFBLXN2YURvenNURzFCaVJRWWE4M0YwR0dsaXBxWdIBgAFBVV95cUxNVVpYdl9IWVpjMFRSLVd4ZGlZODJNRGxKV3ZNaDZ0YUY2Ny1xbkMwS2xZRXlELXJ1WE9YVG9IWWc4N2ZOYXhzbnhDTmlUampnM1QzQW5ZVHpTNjUxMUpFd0NDMmtZY0dQMi13X2RwdVI0WnRaWXJkUFZTQ2tmZXBYXw?oc=5",
-    "published": "2026-08-10T11:11:00+09:00",
+    "id": "87ad4299ce0a",
+    "title": "[데이터&뉴스] 점포 5개 중 1개는 간이 출장소...5대 시중은행 1년새 지점 47개↓ 출장소 59개↑",
+    "source": "consumernews.co.kr",
+    "summary": "[데이터&뉴스] 점포 5개 중 1개는 간이 출장소...5대 시중은행 1년새 지점 47개↓ 출장소 59개↑ consumernews.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1TVBKdkEzWXN1UGxtX1BLVU1QVjFJQjc2NVpsMHdZN3ExTTFGUkoxZUZvcnF1UDMwVFZSUWdxVnZXT2V6NE85WUNybmk3RUh0MS1yQXEyUHZ5NE9ZVFZKV3p1Q1ZtUXRqZ1hZV29mSF9INmc?oc=5",
+    "published": "2026-08-12T06:10:00+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 4,
-    "_score": 25.0,
+    "rank": 1,
+    "_score": 21.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "9c5590d75933",
-        "title": "KB금융 \"지방 점포 월매출 서울 3분의1 수준\"",
-        "source": "KB Think",
-        "summary": "KB금융 \"지방 점포 월매출 서울 3분의1 수준\" KB Think",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBzNWROMmY5dFBjckpIZmpYcVVHQy14LTNaVmY2U0NLbjZDS3ZUd3lIUG16eFgwSmVhRmhEb1BlOFpSQ0VnT3F6YW5pNDROaVRNQmw4TmZqVTB2OWx3Qm1mRENvVDdVenEwaldKbzNFbW9QUQ?oc=5",
-        "published": "2026-08-10T11:14:16+09:00",
+        "id": "f34d0cb34169",
+        "title": "농협은행 경기본부, 32개 전 영업점 ‘치매극복 선도기업’ 지정",
+        "source": "일간경기",
+        "summary": "농협은행 경기본부, 32개 전 영업점 ‘치매극복 선도기업’ 지정 일간경기",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NckpGcTNEdnRYa1NTanUyMTJtZGt0SWJBMGVrYVBELVphdjFWMm0xc2VwOGFpVTM3X1A3Mkg5b1p0MGhicHh0aURuMFlEcWF5YUo3bW9mNTYwaHpVSGdtSE9HVVozZXBu?oc=5",
+        "published": "2026-08-11T15:27:02+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "e349360da292",
+        "title": "NH농협은행, ‘농심천심예적금’ 출시…최고 연 8.15%",
+        "source": "채널A",
+        "summary": "NH농협은행, ‘농심천심예적금’ 출시…최고 연 8.15% 채널A",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oUVJrVEM4bE1raHhIZzgyWFdWR1dObVd4ZUJjbkNxclMxMHIwSmI2VEk2SjU1SnZXOV9ObndaTWlGRUZnQm9renBwT2I5TEhnT2psWVd2UURLNVRtMVHSAWNBVV95cUxNY3VsQWFMeWsyZVRlX3V3b0xxRGo4cnltMXpGVG8tUk5YZUZVOTZlUzlJdlprVG84dnRJSVNzbnU1c2FJMEZqXzBvejlYRndWeTFIcWtfMDQ4NXpnel9aNkxpUlE?oc=5",
+        "published": "2026-08-11T11:36:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "be5dee99ab3a",
+        "title": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란",
+        "source": "뉴데일리",
+        "summary": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란 뉴데일리",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93R1Vkc1lIcjFhZS1HUFo5enREZ053UWdaV0J3dUoyV1Z3N1lnN0dKdEZpRjNYaHRXMHJIQl9sNHRzRVhkN2JjdGZYV0d0czl1WDUycnVhcmlVZndyaWFBLXN2YURvenNURzFCaVJRWWE4M0YwR0dsaXBxWdIBgAFBVV95cUxNVVpYdl9IWVpjMFRSLVd4ZGlZODJNRGxKV3ZNaDZ0YUY2Ny1xbkMwS2xZRXlELXJ1WE9YVG9IWWc4N2ZOYXhzbnhDTmlUampnM1QzQW5ZVHpTNjUxMUpFd0NDMmtZY0dQMi13X2RwdVI0WnRaWXJkUFZTQ2tmZXBYXw?oc=5",
+        "published": "2026-08-10T11:11:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +60,7 @@
         "published": "2026-08-08T14:00:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,43 +72,7 @@
         "published": "2026-08-07T21:00:32+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "c588d6069874",
-        "title": "영업점 안 가고 햇살론 신청…기업은행, 'i-ONE 햇살론 특례보증' - 머니투데이",
-        "source": "머니투데이",
-        "summary": "영업점 안 가고 햇살론 신청…기업은행, 'i-ONE 햇살론 특례보증' - 머니투데이 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE85UTVVLTRUT25KWUtGT3lIVVVFdS1aM1B5Zk9tNlQ1X3J5S2tCcDM5eW5ZOGw2ZTlKLXQydERUREdDTFlBVVl3MWJGdFVMZkxNcjZoZGtXb1JNTjc1OGtDMV9BbzRxR0dvSnlr0gFwQVVfeXFMTlJyb1BWLWoxQW0zSWxZYXZaWC1yU1dNdFl5Si1CSmJ0cm0xTHE4WW81NmpOcFlzdzNYdlpvdlNzX2NyUVZ1UHQ3YVZHZkNaeFBKal9TMDQwbGVqeVBGV1VTWUlleFdTUkhLaEVMZWkwLQ?oc=5",
-        "published": "2026-08-06T17:47:26+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "dc5ceafb6acc",
-        "title": "웰컴저축은행, 전 영업점에 누구나 이용 가능한 ‘무더위 쉼터’ 운영",
-        "source": "리버티코리아포스트",
-        "summary": "웰컴저축은행, 전 영업점에 누구나 이용 가능한 ‘무더위 쉼터’ 운영 리버티코리아포스트",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qRjV4S1lNQlJqQTR3NnFKc0Y2X0lJc01qUUs1N0xKR1Nsc0dNTjUtSmdZWlhoZ05GTFVFQk5qc1M1MXhyT3FsMUE1WHhLTV9ZSDkxQktMX1oyRXptaHl2NTR2VdIBZ0FVX3lxTE1pT0N3RmRhQlBmOGE5eFJNUEl1dkJSOWJoczFsMGFJOFFmd0xvNHVUN2NaYjNvTVhTRnV0d2RqeVdsZGNaN1JLdmJxaWh5ZkdCM01zVVY1NWs2YmR4QnpRVmtWMXpQN0U?oc=5",
-        "published": "2026-08-06T14:32:02+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 14,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "b2c8bb4966be",
-        "title": "“폭염 피해 잠시 쉬어가세요”…웰컴저축은행, 전 영업점 무더위 쉼터 운영",
-        "source": "디지털데일리",
-        "summary": "“폭염 피해 잠시 쉬어가세요”…웰컴저축은행, 전 영업점 무더위 쉼터 운영 디지털데일리",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EYVh1MWIzazQycnBNY0lqOU1RSVN3eGl4NnFESUdDOXhVUU92c21TM2czT0NpekEySG5nNWVodWtseXVCWjR1azlZTmVxdlFIY2ZTNHdnNWVrWnd5QW5rY2NOYm4?oc=5",
-        "published": "2026-08-06T09:45:01+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 9,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -111,7 +99,7 @@
         "published": "2026-08-06T19:15:02+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 2,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
