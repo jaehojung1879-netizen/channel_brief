@@ -1,20 +1,104 @@
 {
-  "updated_at": "2026-08-12T07:21:05.895458+09:00",
+  "updated_at": "2026-08-13T07:20:31.298754+09:00",
   "headline": {
-    "id": "87ad4299ce0a",
-    "title": "[데이터&뉴스] 점포 5개 중 1개는 간이 출장소...5대 시중은행 1년새 지점 47개↓ 출장소 59개↑",
-    "source": "consumernews.co.kr",
-    "summary": "[데이터&뉴스] 점포 5개 중 1개는 간이 출장소...5대 시중은행 1년새 지점 47개↓ 출장소 59개↑ consumernews.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1TVBKdkEzWXN1UGxtX1BLVU1QVjFJQjc2NVpsMHdZN3ExTTFGUkoxZUZvcnF1UDMwVFZSUWdxVnZXT2V6NE85WUNybmk3RUh0MS1yQXEyUHZ5NE9ZVFZKV3p1Q1ZtUXRqZ1hZV29mSF9INmc?oc=5",
-    "published": "2026-08-12T06:10:00+09:00",
+    "id": "be5dee99ab3a",
+    "title": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란",
+    "source": "biz.newdaily.co.kr",
+    "summary": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란 biz.newdaily.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93R1Vkc1lIcjFhZS1HUFo5enREZ053UWdaV0J3dUoyV1Z3N1lnN0dKdEZpRjNYaHRXMHJIQl9sNHRzRVhkN2JjdGZYV0d0czl1WDUycnVhcmlVZndyaWFBLXN2YURvenNURzFCaVJRWWE4M0YwR0dsaXBxWdIBgAFBVV95cUxNVVpYdl9IWVpjMFRSLVd4ZGlZODJNRGxKV3ZNaDZ0YUY2Ny1xbkMwS2xZRXlELXJ1WE9YVG9IWWc4N2ZOYXhzbnhDTmlUampnM1QzQW5ZVHpTNjUxMUpFd0NDMmtZY0dQMi13X2RwdVI0WnRaWXJkUFZTQ2tmZXBYXw?oc=5",
+    "published": "2026-08-10T11:11:00+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 21.0,
+    "rank": 5,
+    "_score": 22.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "00d3d4add308",
+        "title": "부산은행, 빈 점포 임대료 지원에 5억 원 후원",
+        "source": "knn.co.kr",
+        "summary": "부산은행, 빈 점포 임대료 지원에 5억 원 후원 knn.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Nb0xmMmFGUHBVU2R0Z0psRWJpTE1VczMtYXJqY0kzbFJNSlNrVC1CYXJoNXE5RjlfZHp3ZEExNElGNzdNaEFFTk9JSnNPLUpLQ3Z1Mg?oc=5",
+        "published": "2026-08-12T17:22:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 11,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "cd13c6fedf12",
+        "title": "BNK부산은행, 부산 빈 점포 50곳 창업공간으로…소상공인 지원",
+        "source": "글로벌이코노믹",
+        "summary": "BNK부산은행, 부산 빈 점포 50곳 창업공간으로…소상공인 지원 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTW1NQlUxcXdMMzZiUG1nWTZIczhEVUtCejNNRXNCRkxrVENsdFlmejg3S3ZhM1BSVVZSYWFIdFFJNF9teDQ0bTBUSEF6YUh1eXk0Yi1MUi1pVjgweXVla1NpU1c4amtsRHFBM1gyQmI5MFJ3NlVhWnBKNzBOUUFVdkVXeTE?oc=5",
+        "published": "2026-08-12T16:19:41+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 14,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "bd8f45c896be",
+        "title": "BNK부산은행, 빈 점포를 창업 공간으로 바꿔···지역 상권 회복 견인",
+        "source": "데일리한국",
+        "summary": "BNK부산은행, 빈 점포를 창업 공간으로 바꿔···지역 상권 회복 견인 데일리한국",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zMXhmLWJQRGlDOGV0LWJyNzB1ZFJoaldnVWZCRlJqdXJZNFRoT0p1NlhCa2NVeHNudlItelpqRU83d2lIU0t4azdHWVZ2Y1ZoRTRNVzZNcHJ5ZG5vY1N3MktWRW42SGsxdXNHSFVEb9IBc0FVX3lxTE9yR2FvMUZRTHNwaHExT0Q1VkU2TDNIWTd1VXBnSEpSTDdSNUZOYXU3d25OYk4xeG1CVzZKQ1QxeC1MbmlWMFRHeG1LdWlyNzFweHVaNDVzb3FXbm1jM3B0TWVPNng3UnNYUlhUUmh6LWw0ZzA?oc=5",
+        "published": "2026-08-12T16:19:08+09:00",
+        "query": "은행 공동점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "f7bd5082bae8",
+        "title": "우리은행, '사람 살리는 금융' 릴레이…부산은행, 빈 점포 창업 지원 [금융 PICK]",
+        "source": "뉴스포스트",
+        "summary": "우리은행, '사람 살리는 금융' 릴레이…부산은행, 빈 점포 창업 지원 [금융 PICK] 뉴스포스트",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pcFhlWHJtUlhEY1VOek41Y0t5YVViaUhIYTlnTXQ0UUh2aWZKcnhiaDcxbG8yN2NjV291MmpmSXZfVlhGeFh5blVmUDZqVlFHS05sTXI0NTY1ZVM3bUZIRGtHMDcyQjRxZ3c?oc=5",
+        "published": "2026-08-12T15:27:17+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 16,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "b8d725ccd333",
+        "title": "부산은행, '창업 도우미'로 나선다…빈 점포 50곳 창업공간으로 거듭난다",
+        "source": "인더스트리뉴스",
+        "summary": "부산은행, '창업 도우미'로 나선다…빈 점포 50곳 창업공간으로 거듭난다 인더스트리뉴스",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LVld6UkRqMzFob3VTb2p4SGpoaUs5anRwWUo5NmFoQTJQTUV2czJxRUpLWW1RTEVzR0FKeFBaU0kzbEFnQnBUTEkxMmRONjczQThHdnYtSTB2aWo1Zkw0dWQwWEE1eEdKSWNXdWRQdVFrUQ?oc=5",
+        "published": "2026-08-12T15:00:52+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a9fdb6b4a0df",
+        "title": "BNK부산은행, 지역상권 내 '빈 점포' 활성화 지원",
+        "source": "메트로신문",
+        "summary": "BNK부산은행, 지역상권 내 '빈 점포' 활성화 지원 메트로신문",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93N3NyT0R1NlpyZk44Z1V5dnNHVkdRZWxUcFlqQko2WmRUc2p5SU5YTWRkclRBcGc2TzhMRUVPYlhKNzZId1BQZ0Q0Q0FacjUwVEFLUTVEMGhDVjNGMTlETA?oc=5",
+        "published": "2026-08-12T14:32:06+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "87ad4299ce0a",
+        "title": "[데이터&뉴스] 점포 5개 중 1개는 간이 출장소...5대 시중은행 1년새 지점 47개↓ 출장소 59개↑",
+        "source": "소비자가 만드는 신문",
+        "summary": "[데이터&뉴스] 점포 5개 중 1개는 간이 출장소...5대 시중은행 1년새 지점 47개↓ 출장소 59개↑ 소비자가 만드는 신문",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1TVBKdkEzWXN1UGxtX1BLVU1QVjFJQjc2NVpsMHdZN3ExTTFGUkoxZUZvcnF1UDMwVFZSUWdxVnZXT2V6NE85WUNybmk3RUh0MS1yQXEyUHZ5NE9ZVFZKV3p1Q1ZtUXRqZ1hZV29mSF9INmc?oc=5",
+        "published": "2026-08-12T06:10:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "f34d0cb34169",
         "title": "농협은행 경기본부, 32개 전 영업점 ‘치매극복 선도기업’ 지정",
@@ -24,7 +108,7 @@
         "published": "2026-08-11T15:27:02+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,20 +120,19 @@
         "published": "2026-08-11T11:36:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "be5dee99ab3a",
-        "title": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란",
-        "source": "뉴데일리",
-        "summary": "지점 줄이고 인력 적은 출장소만 확대 … 은행권, 점포 폐쇄 규제 '우회' 논란 뉴데일리",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93R1Vkc1lIcjFhZS1HUFo5enREZ053UWdaV0J3dUoyV1Z3N1lnN0dKdEZpRjNYaHRXMHJIQl9sNHRzRVhkN2JjdGZYV0d0czl1WDUycnVhcmlVZndyaWFBLXN2YURvenNURzFCaVJRWWE4M0YwR0dsaXBxWdIBgAFBVV95cUxNVVpYdl9IWVpjMFRSLVd4ZGlZODJNRGxKV3ZNaDZ0YUY2Ny1xbkMwS2xZRXlELXJ1WE9YVG9IWWc4N2ZOYXhzbnhDTmlUampnM1QzQW5ZVHpTNjUxMUpFd0NDMmtZY0dQMi13X2RwdVI0WnRaWXJkUFZTQ2tmZXBYXw?oc=5",
-        "published": "2026-08-10T11:11:00+09:00",
+        "id": "c39d6d6ae197",
+        "title": "부산시·부산은행, '빈 점포' 해결 위해 맞손",
+        "source": "스트레이트뉴스",
+        "summary": "부산시·부산은행, '빈 점포' 해결 위해 맞손 스트레이트뉴스",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MdVNEWktvWHVRUzhLQVZGOE9FeFNnYlpjYjN6MkNqX1Vhd3ItaDlXbEtKdExnZVFReDZrSFh1bDRSMjBaN0dtc2JDcEtrRGVjZ3A3YnVfbnFvOUlyQzZPUUtwei03ZWNONHVnMUhya3lfY0HSAXdBVV95cUxNcDRmNHRHckFkUlZZNG03bUxMT180RW5Ea2QxOVhiVlZIZ0JER2RCYTBleXNSSU5zaUdjRWF0Vm1hZXE3ZS1BMmJ3TVd3aF95a3dNLWF6YjlNZ0Rtb0JyVkVIaXZmNU1wN0ppNHZrZDBUZDlLWVREaw?oc=5",
+        "published": "2026-08-10T16:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 2
       },
       {
         "id": "e719274d261c",
@@ -60,20 +143,7 @@
         "published": "2026-08-08T14:00:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "7f760bed769d",
-        "title": "폭염 속 ‘은행이 쉼터로’…웰컴저축은행, 전국 영업점 개방해 '시민 휴식 지원'",
-        "source": "한국NGO신문",
-        "summary": "폭염 속 ‘은행이 쉼터로’…웰컴저축은행, 전국 영업점 개방해 '시민 휴식 지원' 한국NGO신문",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11YmNpVkExLVpwaDF2d0tfT1duNlZrbTFGMlNZSFRpLWs5S2VuRGtGRUI1TWpmTzNEVUlWLWVxWEoydFY5aVpnbF9ZQ09va3k1WENNTzQ4ZDhncjRMcWRBYkhxRDkwcS1h?oc=5",
-        "published": "2026-08-07T21:00:32+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 8,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 5
       }
     ],
     "policy_news": [],
@@ -99,7 +169,7 @@
         "published": "2026-08-06T19:15:02+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
