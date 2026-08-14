@@ -1,66 +1,78 @@
 {
-  "updated_at": "2026-08-14T07:21:05.801888+09:00",
+  "updated_at": "2026-08-15T06:52:25.944374+09:00",
   "headline": {
-    "id": "732d0a0b1978",
-    "title": "여의도·압구정 점포도 닫았다…저축은행 점포 1년여 새 27곳 줄어",
-    "source": "v.daum.net",
-    "summary": "여의도·압구정 점포도 닫았다…저축은행 점포 1년여 새 27곳 줄어 v.daum.net",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTSTd2VGFaQ1pPNldyWTJfZUVKbXUwUmtwYmN0ekZjMEROU1JiMXJrbm9pbXVWZ1lXelhyTmk5OWxUeV9XX2EycDhUaW83VkU?oc=5",
-    "published": "2026-08-13T15:47:52+09:00",
+    "id": "141115ec93ca",
+    "title": "노인들이 은행 점포 찾고, 키오스크가 불편한 이유…AI·'디지털'에 서툰 때문",
+    "source": "논객닷컴",
+    "summary": "노인들이 은행 점포 찾고, 키오스크가 불편한 이유…AI·'디지털'에 서툰 때문 논객닷컴",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84MHF0dXNtWEpBZ195R2lKTW02b0dLTGNzVFEwc1cwZ1NPellKek8taU1KVmJlNkFnN1VINjlSY0VaZy1KR0FTNVJKcW9EYkZCRGRpakRDaW9Xd09YdUpZb05SOGdEUkXSAWtBVV95cUxONlFIZHdNYVRnbTVvckhQSjVrVlEtOV9PdzVhUUZ6Zjd1bmlCWUlVallYbXo2VzNXOU5UbHVMdDdPR3Z6RGY4VE40a1YyQ0FtUXk1UEluOGxMcUZFc1dSWHNBY2hVS2dlUzUwbw?oc=5",
+    "published": "2026-08-13T11:52:21+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
+    "rank": 2,
     "_score": 17.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "2ce5e852b69d",
-        "title": "BNK부산은행, '1만원 임대료 빈 점포 다시채움 프로젝트'에 후원금 전달",
-        "source": "시사캐스트",
-        "summary": "BNK부산은행, '1만원 임대료 빈 점포 다시채움 프로젝트'에 후원금 전달 시사캐스트",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVbTQydV9YenFLZmk4amllenk1alhuNHJaUE56SWxJMFkyOEp1VWpybEhxanBuZEQwczFyZVk5R1JRSnZUMEFtdFBRZ1E0ME13b1FMeXRMR1d1eklpN0J2MFh0TjR5a1E?oc=5",
-        "published": "2026-08-13T14:19:20+09:00",
-        "query": "은행 점포",
+        "id": "e2c85580537c",
+        "title": "우리은행, 해외송금 후 추가 수수료도 모바일 납부 …영업점 방문 없이 납부",
+        "source": "더글로벌기빙뉴스",
+        "summary": "우리은행, 해외송금 후 추가 수수료도 모바일 납부 …영업점 방문 없이 납부 더글로벌기빙뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Fek1OSHlMd2NFUnFQOU5yQXlaOU1saXdvZEl2QVNTbkplVXZSU3RTT2lzNE1HLU90djM3WklaT1VoNzE2cFhJdFFLNkNOV1MyXy1teg?oc=5",
+        "published": "2026-08-14T21:39:00+09:00",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 14,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "fc8817c0c561",
-        "title": "BNK부산은행, 빈 점포 50곳 창업공간 조성 지원",
-        "source": "서울파이낸스",
-        "summary": "BNK부산은행, 빈 점포 50곳 창업공간 조성 지원 서울파이낸스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xV2pQMnc4cEdxTjd1eHd1RWdaUEJ6RXZkUFRwQ2hQY2FDa21LRXBuOGJDd1JxTVJkOE5VamFENjhhcUp4UmtEZHBwc0RxYU4zNV9hQ1ZoOFdydG1YaDB5QTNnZWFsT0Rsd2c?oc=5",
-        "published": "2026-08-13T09:08:58+09:00",
+        "id": "2ba4b93220a2",
+        "title": "여의도·압구정 점포도 닫았다…저축은행 점포 1년여 새 27곳 줄어",
+        "source": "v.daum.net",
+        "summary": "여의도·압구정 점포도 닫았다…저축은행 점포 1년여 새 27곳 줄어 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93cFd4dnp5S29RczFWY1Jvay1MRnNfSjU3Q0pUcXIyUS0xYWZuMjJiZkdPQUUyQ3cyNkNZUjRScnZsT05hUjJjcDEtQQ?oc=5",
+        "published": "2026-08-13T15:47:52+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "f8ad375f6732",
+        "title": "[부산] 부산은행, 빈 점포 임대료 지원사업에 5억 원 후원",
+        "source": "YTN",
+        "summary": "[부산] 부산은행, 빈 점포 임대료 지원사업에 5억 원 후원 YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yREtBUWU2RjZhR0JJN2NPb0VXT05ib1J1cW1VZHJsTDk4dmZIWmN2YXVuTDZCaFBkZmU2SVFYaHhLNWlSRWhMRE1ydnU5X0lNaTd1TW9meURnYVBNTGc?oc=5",
+        "published": "2026-08-12T15:55:00+09:00",
         "query": "은행 점포",
         "engine": "google",
         "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "00d3d4add308",
-        "title": "부산은행, 빈 점포 임대료 지원에 5억 원 후원",
-        "source": "knn.co.kr",
-        "summary": "부산은행, 빈 점포 임대료 지원에 5억 원 후원 knn.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Nb0xmMmFGUHBVU2R0Z0psRWJpTE1VczMtYXJqY0kzbFJNSlNrVC1CYXJoNXE5RjlfZHp3ZEExNElGNzdNaEFFTk9JSnNPLUpLQ3Z1Mg?oc=5",
-        "published": "2026-08-12T17:22:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 13,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "a9fdb6b4a0df",
-        "title": "BNK부산은행, 지역상권 내 '빈 점포' 활성화 지원",
-        "source": "metroseoul.co.kr",
-        "summary": "BNK부산은행, 지역상권 내 '빈 점포' 활성화 지원 metroseoul.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93N3NyT0R1NlpyZk44Z1V5dnNHVkdRZWxUcFlqQko2WmRUc2p5SU5YTWRkclRBcGc2TzhMRUVPYlhKNzZId1BQZ0Q0Q0FacjUwVEFLUTVEMGhDVjNGMTlETA?oc=5",
-        "published": "2026-08-12T14:32:06+09:00",
+        "id": "f7bd5082bae8",
+        "title": "우리은행, '사람 살리는 금융' 릴레이…부산은행, 빈 점포 창업 지원 [금융 PICK]",
+        "source": "뉴스포스트",
+        "summary": "우리은행, '사람 살리는 금융' 릴레이…부산은행, 빈 점포 창업 지원 [금융 PICK] 뉴스포스트",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pcFhlWHJtUlhEY1VOek41Y0t5YVViaUhIYTlnTXQ0UUh2aWZKcnhiaDcxbG8yN2NjV291MmpmSXZfVlhGeFh5blVmUDZqVlFHS05sTXI0NTY1ZVM3bUZIRGtHMDcyQjRxZ3c?oc=5",
+        "published": "2026-08-12T15:27:17+09:00",
         "query": "은행 점포",
         "engine": "google",
         "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a235a93aca40",
+        "title": "[D-BIZ 금융 기업] BNK부산은행, 부산시 '민생 100일' 동참…빈 점포 50곳 창업공간으로 지원",
+        "source": "데일리비즈온",
+        "summary": "[D-BIZ 금융 기업] BNK부산은행, 부산시 '민생 100일' 동참…빈 점포 50곳 창업공간으로 지원 데일리비즈온",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVVGItbFJvQkVTZWQ0eVRBam10UFdpRTJsYWFaSXZlME5zQUdBbUtnMS1KMzdNUElkRmthaXlLSWZIc0N5amZ3S01YTmVqREFiblRrSjI5bWlwWEtfNktkR1NqZm81QVdoREVHdQ?oc=5",
+        "published": "2026-08-12T15:18:25+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +84,7 @@
         "published": "2026-08-11T15:27:02+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,19 +96,7 @@
         "published": "2026-08-11T11:36:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "c39d6d6ae197",
-        "title": "부산시·부산은행, '빈 점포' 해결 위해 맞손",
-        "source": "스트레이트뉴스",
-        "summary": "부산시·부산은행, '빈 점포' 해결 위해 맞손 스트레이트뉴스",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MdVNEWktvWHVRUzhLQVZGOE9FeFNnYlpjYjN6MkNqX1Vhd3ItaDlXbEtKdExnZVFReDZrSFh1bDRSMjBaN0dtc2JDcEtrRGVjZ3A3YnVfbnFvOUlyQzZPUUtwei03ZWNONHVnMUhya3lfY0HSAXdBVV95cUxNcDRmNHRHckFkUlZZNG03bUxMT180RW5Ea2QxOVhiVlZIZ0JER2RCYTBleXNSSU5zaUdjRWF0Vm1hZXE3ZS1BMmJ3TVd3aF95a3dNLWF6YjlNZ0Rtb0JyVkVIaXZmNU1wN0ppNHZrZDBUZDlLWVREaw?oc=5",
-        "published": "2026-08-10T16:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 2,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -108,7 +108,7 @@
         "published": "2026-08-10T11:11:00+09:00",
         "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -135,7 +135,7 @@
         "published": "2026-08-13T11:29:19+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
