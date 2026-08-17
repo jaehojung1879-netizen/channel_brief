@@ -1,87 +1,123 @@
 {
-  "updated_at": "2026-08-17T06:50:37.247709+09:00",
+  "updated_at": "2026-08-18T06:54:55.259998+09:00",
   "social_finance": [
     {
-      "id": "366b7a55d26c",
-      "title": "BNK경남은행·창원시, 소상공인 상생금융 '맞손'",
-      "source": "파이낸셜뉴스",
-      "summary": "BNK경남은행·창원시, 소상공인 상생금융 '맞손'&nbsp;&nbsp;파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlVUNYc2hFU2lEUkNGOWNaRUNGbkQ3d3hScnVBRFVzU0NRUGpXOTQ2TnRBYjFmSDV3VkgyYzlTQWhCeE43bXZyVnVXX2sxMkF0UDZLVHBzM2xKQQ?oc=5",
-      "published": "2026-08-16T18:56:58+09:00",
-      "query": "상생금융"
-    },
-    {
-      "id": "f6f4eb2799d0",
-      "title": "송언석 의원, 서민금융 출연의무 5년 연장 추진",
-      "source": "네이트",
-      "summary": "송언석 의원, 서민금융 출연의무 5년 연장 추진&nbsp;&nbsp;네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1femtkTVRhMjZHa2c5VjdlY1plRkplOVEwSEFoUmxUWGNfaUNhOUY3YkFBY0lwWlpHV05zMXVnaFVRbXdPcDlERFc5MHIyTTY0dC1r?oc=5",
-      "published": "2026-08-16T18:25:00+09:00",
+      "id": "3e39d5679646",
+      "title": "野 송언석 의원, 서민금융 출연의무 5년 연장 추진...법안 대표발의",
+      "source": "조세일보",
+      "summary": "野 송언석 의원, 서민금융 출연의무 5년 연장 추진...법안 대표발의&nbsp;&nbsp;조세일보",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVQlVRd3JQRTdNaHJKRl80TGZEZTBtdkJPM2FiaXQ3ZnJWMVdya3k0Z0Y2Yzd4dTZmckw2dVdTYXplMFVZcDJMYTc5cnRNTHNEaFJlY2J4NTFrcmVSVHMw?oc=5",
+      "published": "2026-08-18T06:30:10+09:00",
       "query": "서민금융"
     },
     {
-      "id": "4ca803634bbf",
-      "title": "[기자24시] 절벽으로 밀어놓고 포용금융",
-      "source": "네이트",
-      "summary": "[기자24시] 절벽으로 밀어놓고 포용금융&nbsp;&nbsp;네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11Wkd1YVIyTHdXUDFGWV9sN2dDbGYyV29qYUt5OE1fZnhjblhGZkp5QjZtbTl5NDJwM0ZTMUJpLWg4LThYdXo3c3UzSTRTYjdKNF84?oc=5",
-      "published": "2026-08-16T17:27:00+09:00",
+      "id": "d5de3efc5baa",
+      "title": "[2026 하반기 포용금융] 새 사업보다 '희망 On-IBK'…기업은행, 26.5조 '접근성·재기' 집중",
+      "source": "딜사이트",
+      "summary": "[2026 하반기 포용금융] 새 사업보다 '희망 On-IBK'…기업은행, 26.5조 '접근성·재기' 집중&nbsp;&nbsp;딜사이트",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFX2NsMmZqSjNzOXZRcGlNSk5ZaS1PTU9qZ1oyeVVZWGlJYS01QTE0LVFyYWNVcXhHeU95akw2S0xaMzN0WFlhQk9vRkZyOUU?oc=5",
+      "published": "2026-08-18T06:20:00+09:00",
       "query": "포용금융"
     },
     {
-      "id": "bd85c8b97697",
-      "title": "[안동현의 금융과 경제] 노인을 위한 나라는 없다?",
-      "source": "매일경제",
-      "summary": "[안동현의 금융과 경제] 노인을 위한 나라는 없다?&nbsp;&nbsp;매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93MXM1UEx1VXRYOFNKaHN1UHJyUUNUbVRuQm5MNU9Ld0J0dGZUMGN6REVXYVBVTldxcU94YXU4SG5Jd0lFT3phM1ZReDlXeWtzYTVOVmNQV2ZEYW8?oc=5",
-      "published": "2026-08-16T17:26:16+09:00",
-      "query": "고령자 금융"
+      "id": "2316697ff7df",
+      "title": "“금융기본권으로 생산적·포용금융 선순환 이룰 것” [김은경 서민금융진흥원장①]",
+      "source": "한국금융신문",
+      "summary": "“금융기본권으로 생산적·포용금융 선순환 이룰 것” [김은경 서민금융진흥원장①]&nbsp;&nbsp;한국금융신문",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rNnRoaV9FcUQwV0JCNmZvemhoNGxaRF9zNzROYk1CeEt1b3JFZHdHNWhVWDhWaUhTeTJ6alIyXzJYbkJCa2M5Mlh2c0ZyR0ZyUlhqdF9xd01QdnE1dDBFX2MzcjAzNmI2YVRRWDZTNEEyOFRWbGxVdlh0UQ?oc=5",
+      "published": "2026-08-18T00:00:00+09:00",
+      "query": "서민금융"
     },
     {
-      "id": "f0a06a6eb0f9",
-      "title": "SB선보, 협력사에 수박 선물… ESG 상생경영 강화",
-      "source": "국제신문",
-      "summary": "SB선보, 협력사에 수박 선물… ESG 상생경영 강화&nbsp;&nbsp;국제신문",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORlFNRG5sQVFyNVU3d3ZvbFZMRXlvVEdaNjRLamNmTkdTQVVnQ1pDMlBsRThqLWpPaFZCNDJHMlRmbDhXRVlRTUdJaVBTbi1RME5yRVRobFB1OU15OEhmcE93elVmWFd5Mnkxa0RYUmlmYlFrNGgtbUpfZV82aWROek1nVEo0OE04VU1yR3Jn?oc=5",
-      "published": "2026-08-16T16:18:00+09:00",
-      "query": "상생금융"
+      "id": "37a32c6030ae",
+      "title": "KB금융, 자연자본 공시 보고서 발간…생산적·포용금융·ESG 연결",
+      "source": "뉴스핌",
+      "summary": "KB금융, 자연자본 공시 보고서 발간…생산적·포용금융·ESG 연결&nbsp;&nbsp;뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LV1dtMi02N2t1QklZVzFnY2Z1ZnlCOHNnU2lMUGJESXpGQXZNcVJNTk8zcGRrSzdLZGdGOVR2Z2hSTEJnLXNjbjA0RWVQUjR4SHd6N0lBRU9teGw3?oc=5",
+      "published": "2026-08-17T22:31:00+09:00",
+      "query": "포용금융"
     },
     {
-      "id": "acc72bd9ec9c",
-      "title": "부산농협, 금융 취약계층 위한 ‘동행창구’ 부산 1호점 개설",
-      "source": "v.daum.net",
-      "summary": "부산농협, 금융 취약계층 위한 ‘동행창구’ 부산 1호점 개설&nbsp;&nbsp;v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iTVd5TjRFWVFUVHpTbWd0MFlublN2NF9qUmVjeHNLcTZ1YVB5SzV2NlBoVjBnbnEtWVF4dGlLbnFLTWJJSnhNX0RLWnp4cDQ?oc=5",
-      "published": "2026-08-16T14:52:53+09:00",
+      "id": "01215ab8f458",
+      "title": "서민·청년·소상공인 금융지원… 하나銀·인천시 ‘동반성장 MOU’",
+      "source": "세계일보",
+      "summary": "서민·청년·소상공인 금융지원… 하나銀·인천시 ‘동반성장 MOU’&nbsp;&nbsp;세계일보",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10Z1V6WWcyOGxDZzh5UURwckFMTWNoZG15WUthd1RrRUZUVkd3TmV3aGJ4eE1IcGVKb1dFOWtBTGc4YlRMMXgwWVpjTGluUEFYMm14Q29jZ0I?oc=5",
+      "published": "2026-08-17T21:20:00+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "f625b03b8335",
+      "title": "남구 금융취약층·저소득가정에 선풍기 60대",
+      "source": "울산신문",
+      "summary": "남구 금융취약층·저소득가정에 선풍기 60대&nbsp;&nbsp;울산신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sTDJfbXhUdUticVBZWWU4ZmlVUlMyTzVwcjR3TWRVLXI0NGVTOVVqMXBEMlMybGo5Y1RpRjl1V0RzcDJhNXdNV0VkMjRVRTN3ZkllMVNEamRIeVVEcUlSanhrQl82Z2YycTQ3azFB0gFyQVVfeXFMTUZVMnpkM0xPWFRKa1pNQWszMnItLU5TRHNjdlRndVJQQS1DSXJTNmdnN1F2ZFJCY2ltUTNHVWNYOXpmVTBzbndzQnJNTnVTRnpuaElRTFVuY2J0V21la0lULWVwRjFCbEItLUtNZXJrc25R?oc=5",
+      "published": "2026-08-17T20:10:00+09:00",
       "query": "취약계층 금융"
     },
     {
-      "id": "383331004038",
-      "title": "[2026 하반기 포용금융] 농업·농촌에 답 찾은 농협금융…포용금융도 '지역밀착' : 네이버 블로그",
-      "source": "Naver Blog",
-      "summary": "[2026 하반기 포용금융] 농업·농촌에 답 찾은 농협금융…포용금융도 '지역밀착' : 네이버 블로그&nbsp;&nbsp;Naver Blog",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd25kQXc5cEtJRjBKZE5walZtODZSeTFKRkR0U09zVnotOUxHNkl4WkFRamY0TXVWUTVQOHJOb2JwNlJNR1UxaGxaeWpYTFNxbkR2b3F3VXQxdEExZDAyZXRZQWh0R2tkM2VvdW82dGo5QXFRR3E4cF9aaTJrOFNrS2VZVGN6RjJzSmdobV9ncw?oc=5",
-      "published": "2026-08-16T12:10:34+09:00",
-      "query": "포용금융"
+      "id": "e9b09601375d",
+      "title": "BNK경남은행, 소상공인 희망나눔 상생금융 업무 협약 체결",
+      "source": "gnnews.co.kr",
+      "summary": "BNK경남은행, 소상공인 희망나눔 상생금융 업무 협약 체결&nbsp;&nbsp;gnnews.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9EVmE1NC1XT3NJLTZ2OXJFVTlmUEZoNTFiRFRVWl91NXdxN0xDUUd2U21qVjJNNEplcFlQYUV5a1dWTnNmbkNINzR5OEFmekFsYzBGRWp5OHdtZzRqN3hpOF9rVUh5X1UxMzRR?oc=5",
+      "published": "2026-08-17T17:51:29+09:00",
+      "query": "상생금융"
     },
     {
-      "id": "4b93889b6737",
-      "title": "10월 종료 앞둔 서민금융 출연의무…“일단 5년 연장, 사회적 합의 필요”",
-      "source": "intn.co.kr",
-      "summary": "10월 종료 앞둔 서민금융 출연의무…“일단 5년 연장, 사회적 합의 필요”&nbsp;&nbsp;intn.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93c2R1aWtnSVlLV290NGowYnlwbW1neTNVeFdEc1BzekdQOUQ0MWRGZTVzWU5kaHNxd0hCdHdwVEMwQVRNQ0dzbFlGZFJsbXNYNjZLVGVydmF5RHMtd3dBSlZfZ3g4RkRhNFE?oc=5",
-      "published": "2026-08-16T10:31:00+09:00",
-      "query": "서민금융"
+      "id": "9a1ec606cfae",
+      "title": "하나은행, 인천과 동반성장 행보…민생·소상공인·기업 금융지원",
+      "source": "인천일보",
+      "summary": "하나은행, 인천과 동반성장 행보…민생·소상공인·기업 금융지원&nbsp;&nbsp;인천일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZVkwxTGZteG5jZ196SWZsaUUwY2pNSGQ2RGNxS1NlcVE2ZHI1ZzdlTFNjbGRqSmM3REpNN0ZvVVpPYlljQ2Q4NF82OW9qeG80ZTlnNXZ4M0wtc1NLVWdfcXJROUpCQnk5M1A5dV9QQzA?oc=5",
+      "published": "2026-08-17T17:36:00+09:00",
+      "query": "소상공인 금융지원"
     }
   ],
   "tech": [
     {
-      "id": "f648cdb5907b",
-      "title": "폴란드 AI 인프라, 빅테크 수십억 달러 몰려 차세대 허브 부상",
-      "source": "글로벌이코노믹",
-      "summary": "폴란드 AI 인프라, 빅테크 수십억 달러 몰려 차세대 허브 부상&nbsp;&nbsp;글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeXA1SzZpNW43OHBMODZ1WEtOdTJ3TWEwTXRIMWFTNlp3Q0RnWW9LTDdCNTU5TU9XX2dhT0VUYlp3ZjB3NFd0WlloQVduODUxdmo5Q2w0LXF6UmZ4YXZFZ0hXVWNGaWNkUlM2WkllZkV2bzBIdXBSNmViRE16bkthbHdHZklmUlhU?oc=5",
-      "published": "2026-08-17T03:15:00+09:00",
+      "id": "1c4b050e2f4d",
+      "title": "수출입은행, AI 핵심 원자재 구리 확보에 10억달러 지원",
+      "source": "뉴스핌",
+      "summary": "수출입은행, AI 핵심 원자재 구리 확보에 10억달러 지원&nbsp;&nbsp;뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2MkJ1TzZzRHNtN01PcnAzYUVsUXlicnRJMXJ5ODR2MHFIMlhIbEVMNGVXRUVNME90MHExUXhDS2NUMTdtVWxiVm9SYlA4U0laYXNCZk8zMmRkT1A2?oc=5",
+      "published": "2026-08-17T22:39:00+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "736ba39a0097",
+      "title": "중국, 디지털 위안화 30개 은행망 깔았다",
+      "source": "OBC 뉴스",
+      "summary": "중국, 디지털 위안화 30개 은행망 깔았다&nbsp;&nbsp;OBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OYkhYODlwbm5ZUDA4UENINnJrOEt2QjRsemNlaHJXTHFRdnJSTUxsZHRRSHNvUjN1UkxIUDRpQ2tNQnVrLTM2QnIyLV9MaTB0am1wNEMyWEhRdTk4UUJWMmNGYUg4bXhO?oc=5",
+      "published": "2026-08-17T22:05:53+09:00",
+      "query": "CBDC 은행"
+    },
+    {
+      "id": "ca9725d6bfc7",
+      "title": "수은, AI 시대 핵심자원 구리 확보에 10억달러 금융지원",
+      "source": "ebn.co.kr",
+      "summary": "수은, AI 시대 핵심자원 구리 확보에 10억달러 금융지원&nbsp;&nbsp;ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zZzVzWWsyN0RHWVV5a3A3REN5OHZrcHo3bGhuZVBiY3JlcU13MnU3YWMxdmxDSXpFWXJnTWE2aTVpb3U2T2NWSTFBYTFtT2ZZdk1jVEFzRzYtTnd1MEhVZ2hjakNxTFJP?oc=5",
+      "published": "2026-08-17T21:17:21+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "07eb7060c1c3",
+      "title": "엔비디아 보증 서고 월가는 돈줄…'AI 금융' 4대 업종이 뜬다",
+      "source": "news.nate.com",
+      "summary": "엔비디아 보증 서고 월가는 돈줄…'AI 금융' 4대 업종이 뜬다&nbsp;&nbsp;news.nate.com",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zdnJNdmRrQmVQOTNtSVVON2tHU3hSQVVnLUU1VlJvdHhlRFdIZ21MLUk2SGFBYVJQVjFzeVNiT2JMalBHRGFaZFJYT29pT0JTQXhv?oc=5",
+      "published": "2026-08-17T17:04:00+09:00",
+      "query": "은행 클라우드"
+    },
+    {
+      "id": "fd611eb01273",
+      "title": "AI가 일하는 시대, 사람은 집에 가야 하나요?",
+      "source": "비즈워치",
+      "summary": "AI가 일하는 시대, 사람은 집에 가야 하나요?&nbsp;&nbsp;비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1VMWRZOFlTOVotTUpVQVhWYnExbHBjWVRMLV9NUHBVeVUtTUZHU2lUeEEydzJPRzVlRHZhTXlLQXB4NnBQdTUwVlVqbEtuRENLU2ZrVVJPV1FOekhXdUtmM1dWT1JMVzk1bGVN?oc=5",
+      "published": "2026-08-17T11:00:03+09:00",
       "query": "은행 AI"
     },
     {
@@ -94,40 +130,13 @@
       "query": "스테이블코인 은행"
     },
     {
-      "id": "2b81f50f6a0d",
-      "title": "사라지지 않는 스테이블코인 수익 경쟁, 은행과 암호화폐가 전통을 놓고 격돌",
-      "source": "CoinDesk",
-      "summary": "사라지지 않는 스테이블코인 수익 경쟁, 은행과 암호화폐가 전통을 놓고 격돌&nbsp;&nbsp;CoinDesk",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMUdWOTgtX3JFS1JKbWg3ZW5McVh2WXllX3NZWGJPYkl4UzBQM1c1aGVHNXJrRUh5TVZwaHQ5and4R3NXRUhBbzJnTzZMWG1IbHM3LUF4bkxXQzd1SUlpeWpqcHNnMl9tNVA1Y1RzX1J4ME1NMk9TWi1sd1JQR3BzSmlzOWVyMmhDWHJ5R0lLZ2FhNFJPWVU3dWdiU2hjaUtUc3c1cE9Kb3NFZUJ5WkREV0pRQUdRLXhlZFBhczdxZFlFUEZoNHRubnlSaV8tXzJqRnlUREZ3?oc=5",
-      "published": "2026-08-16T22:00:00+09:00",
-      "query": "스테이블코인 은행"
-    },
-    {
-      "id": "813903351b5d",
-      "title": "BNK금융, AI 혁신부터 의료산업 금융까지…‘디지털·지역상생’ 투트랙 강화",
-      "source": "industrynews.co.kr",
-      "summary": "BNK금융, AI 혁신부터 의료산업 금융까지…‘디지털·지역상생’ 투트랙 강화&nbsp;&nbsp;industrynews.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqdkY4OGFlWGtBZ094WTVpdWtqMzhKQ0M3Z0YtQ0FMUENzS3QzZnJrb3h0Qm14cVNMT0VTZDk4MkZfaHRDQUFoYjhHZ3paRXV3UEF5ZFRRMHNBUk9saG96VUhJNnNxMG4tN1NMM2RZYURXUQ?oc=5",
-      "published": "2026-08-16T17:02:17+09:00",
-      "query": "은행 AI"
-    },
-    {
       "id": "be9f1e8586dc",
       "title": "日 최대은행이 국채를 블록체인으로…미쓰비시UFJ,",
-      "source": "bonmedia.kr",
-      "summary": "日 최대은행이 국채를 블록체인으로…미쓰비시UFJ,&nbsp;&nbsp;bonmedia.kr",
+      "source": "비온미디어",
+      "summary": "日 최대은행이 국채를 블록체인으로…미쓰비시UFJ,&nbsp;&nbsp;비온미디어",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rOTlGam9uUEFTS1pNTTFLS2RfSEJ3YmJFUHlFYjNkUV9leXB4bnAtenR1cXJtSC1fck9ZWlh6OVF0ZHVBUzBCZVlLd3JNUEZ4YllFMnlmczVXWmVSbjQxelZqamZkbW_SAWtBVV95cUxObFotdG1RRFByUG9FM05LVnRvUC1XUmFmMF9abVRXSU9CcTdzQVYwOTJVYlF3c010SnU1ZWp3aXBWWkRweU9ZSXFqZW9JdVl5ZzRvOXlxQVRYZjFLODU1ZjJXTnU4VmhwaTUxdw?oc=5",
       "published": "2026-08-16T13:15:23+09:00",
       "query": "블록체인 은행"
-    },
-    {
-      "id": "3755f86487d3",
-      "title": "AI 데이터센터 대출 문턱 높아졌다…美은행, 주민반대도 신용평가",
-      "source": "경북매일",
-      "summary": "AI 데이터센터 대출 문턱 높아졌다…美은행, 주민반대도 신용평가&nbsp;&nbsp;경북매일",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvdmc2UkNHSm40NUJNaktsVVBBSEdGZi01U18ySENXR1Y1Y1VZSkJ4VEhFc1RTNnhUOG9lWFNEY0xEQTFheUVCZVNtRktzVzR0SE1jVlNXejUwZw?oc=5",
-      "published": "2026-08-16T09:25:00+09:00",
-      "query": "은행 AI"
     },
     {
       "id": "4c5e4fa0d436",
@@ -137,15 +146,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kdWVlalNWOHhDYm5XMko0OUpyWnc3YUFvbWd4WXlTYTNhNlFCZTRxUHlldEhJY0sxc1BoWHRLY3RTUlpqa3dBeUJQS1lEeGxBRlRZS1lXaVd4Y0VWZWJxTVdyNEVQQzd3Zl9IcFFXWnjSAXRBVV95cUxNem80XzFxN1N0NWxWRlRwWXJwN1FmYVBiM2JKWkFMVXpMMk5qb0kwS1RJNGNsOUwtaW9nWEM1NUlOWktZTUwxTlhNRWQ1WXllWHhvTnNtTndhZHNBWllBRlFiU2RvSl9rUngyVHR6T0pCZEU4Uw?oc=5",
       "published": "2026-08-16T06:05:00+09:00",
       "query": "마이데이터 은행"
-    },
-    {
-      "id": "844c74ef1115",
-      "title": "BNK금융그룹, AI 통해 '일하는 방식' 혁신의 새 지평을 열다",
-      "source": "리버티코리아포스트",
-      "summary": "BNK금융그룹, AI 통해 '일하는 방식' 혁신의 새 지평을 열다&nbsp;&nbsp;리버티코리아포스트",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1UbzdlS3plekJsS20tdWNuSjJLQ2MwM2FVUzFEZ0hPeVhfQ05UMy1GQnhtdE1iVnNVbElIMUxnMU01VlZKVkpRdGVfWGtrSXVNSTZqSFFPWi13SFREUHRmUkhBd9IBZ0FVX3lxTE9KSU1URGlVTVJWUmFLNXE0V3l1UXduMFU3Z1EtSFBPeWxGSEpWX0hNSGxscGN6MDlSR1NKOHF4YWJYTWFZcWlGS1V3UHNEMjhEa1hJbWxvNHhsMXAxTVktVFZvQjVwcWs?oc=5",
-      "published": "2026-08-14T17:06:24+09:00",
-      "query": "은행 생성형 AI"
     }
   ]
 }
