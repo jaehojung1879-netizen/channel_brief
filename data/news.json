@@ -1,20 +1,56 @@
 {
-  "updated_at": "2026-08-18T06:52:50.539514+09:00",
+  "updated_at": "2026-08-19T06:50:27.799827+09:00",
   "headline": {
-    "id": "cdd797103936",
-    "title": "4대 은행, 1년새 지점 51개 줄였다",
-    "source": "동아일보",
-    "summary": "4대 은행, 1년새 지점 51개 줄였다 동아일보",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNcG5uSVRSVzU2a1ZUb01xeC1XdzR4a1ptdlhrQ3Ryd3ZRejZxZE14ZWRYZnF3bTFuZkE1ZDJvejZvX29IMUNKQ18yOTBaY0ExV3FDRHNTZXE0UTd2QXA0Q3NPb3p4UdIBZkFVX3lxTFBNcG5uSVRSVzU2a1ZUb01xeC1XdzR4a1ptdlhrQ3Ryd3ZRejZxZE14ZWRYZnF3bTFuZkE1ZDJvejZvX29IMUNKQ18yOTBaY0ExV3FDRHNTZXE0UTd2QXA0Q3NPb3p4UQ?oc=5",
-    "published": "2026-08-18T00:30:00+09:00",
+    "id": "d1d07410da52",
+    "title": "점포 수 지키고 기능은 줄였다…은행권 ‘지점→출장소’ 재편",
+    "source": "아시아투데이",
+    "summary": "점포 수 지키고 기능은 줄였다…은행권 ‘지점→출장소’ 재편 아시아투데이",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oWElKRFFsY01HR1UtTzJDX2lLbUFNdEZUYXJpZXpyUzd0Q2M0UXhBcFJoWlRwd3U2Y21LYUxkRHhsZ3dFcVNFaUEzU3hnVHltTHJycHlpNnNGUWpzVGZUSVNQaW5Db3Yyc1RqZjhn?oc=5",
+    "published": "2026-08-18T18:11:01+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 14.0,
+    "rank": 2,
+    "_score": 23.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "6d27344a9b18",
+        "title": "광주은행, 수도권 점포 16→10개 축소…전남권 3곳 신설",
+        "source": "ikbc.co.kr",
+        "summary": "광주은행, 수도권 점포 16→10개 축소…전남권 3곳 신설 ikbc.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VVU5yR01FSkhLVlpIa3phTkdvYzhSa2ZNcklxMjJrZzNYYXQ2MjRfY2hTNzd2UTNjX0NmRWVIcW5zZlJOQ1RmS0w3YVBFMWZjeFhwNmotUzJ1RlYtQjlfeg?oc=5",
+        "published": "2026-08-18T11:09:01+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a25e34894b00",
+        "title": "광주은행, 수도권 점포 줄이고 전남권 금융망 넓힌다",
+        "source": "mhns.co.kr",
+        "summary": "광주은행, 수도권 점포 줄이고 전남권 금융망 넓힌다 mhns.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuQndUV2xYMktwZFhSS29YN0NqaEtDdGo4Z050akMxRXE3bkoxbkl0cnRfbDd0QlhqaHcybmZmWUxoYWVvOFg5cGR4a0d1Y1I4cnZwQTFBelhHSUNlYmFwWjhSd25hb1dn?oc=5",
+        "published": "2026-08-18T10:41:15+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "cdd797103936",
+        "title": "4대 은행, 1년새 지점 51개 줄였다",
+        "source": "동아일보",
+        "summary": "4대 은행, 1년새 지점 51개 줄였다 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBNcG5uSVRSVzU2a1ZUb01xeC1XdzR4a1ptdlhrQ3Ryd3ZRejZxZE14ZWRYZnF3bTFuZkE1ZDJvejZvX29IMUNKQ18yOTBaY0ExV3FDRHNTZXE0UTd2QXA0Q3NPb3p4UdIBZkFVX3lxTFBNcG5uSVRSVzU2a1ZUb01xeC1XdzR4a1ptdlhrQ3Ryd3ZRejZxZE14ZWRYZnF3bTFuZkE1ZDJvejZvX29IMUNKQ18yOTBaY0ExV3FDRHNTZXE0UTd2QXA0Q3NPb3p4UQ?oc=5",
+        "published": "2026-08-18T00:30:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "b2499eac8a6f",
         "title": "우리은행, 해외송금 추가 수수료 모바일 납부…영업점 방문 없앤다",
@@ -24,19 +60,19 @@
         "published": "2026-08-17T06:00:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "670750bd19e4",
         "title": "5대 은행 외국인 고객 700만 명 시대, 특화점포에 생활정착 지원 더해 서비스 경쟁 치열",
-        "source": "비즈니스포스트",
-        "summary": "5대 은행 외국인 고객 700만 명 시대, 특화점포에 생활정착 지원 더해 서비스 경쟁 치열 비즈니스포스트",
+        "source": "businesspost.co.kr",
+        "summary": "5대 은행 외국인 고객 700만 명 시대, 특화점포에 생활정착 지원 더해 서비스 경쟁 치열 businesspost.co.kr",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jUEdhQ09sak1tTDE1QU4xSDBoT0ZRajAxMkdhVVN0UXJIY2loekJTTlQ5UmRCZlFwSkZuWHptYnZONDRuMTJ3LXpybDlDcktiTHdYLTBrUjVxLTEyUVI3VU9vamlIeTNHT2NTRHBNZmxfMm8?oc=5",
         "published": "2026-08-16T06:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -49,30 +85,6 @@
         "query": "은행 영업점",
         "engine": "google",
         "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "aa771c4b2c0e",
-        "title": "여의도·압구정 점포도 닫았다…저축은행 점포 1년여 새 27곳 줄어",
-        "source": "v.daum.net",
-        "summary": "여의도·압구정 점포도 닫았다…저축은행 점포 1년여 새 27곳 줄어 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1ZaFVxb1ZmYkg5WHFYRmVJSVkweHl5dW42Y3RLZHpKbEtvUmU3Z2xLeWo1Vlc4eV9vd0V6VW9vcS04X0l5cVE?oc=5",
-        "published": "2026-08-13T15:47:52+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "141115ec93ca",
-        "title": "노인들이 은행 점포 찾고, 키오스크가 불편한 이유…AI·'디지털'에 서툰 때문",
-        "source": "논객닷컴",
-        "summary": "노인들이 은행 점포 찾고, 키오스크가 불편한 이유…AI·'디지털'에 서툰 때문 논객닷컴",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84MHF0dXNtWEpBZ195R2lKTW02b0dLTGNzVFEwc1cwZ1NPellKek8taU1KVmJlNkFnN1VINjlSY0VaZy1KR0FTNVJKcW9EYkZCRGRpakRDaW9Xd09YdUpZb05SOGdEUkXSAWtBVV95cUxONlFIZHdNYVRnbTVvckhQSjVrVlEtOV9PdzVhUUZ6Zjd1bmlCWUlVallYbXo2VzNXOU5UbHVMdDdPR3Z6RGY4VE40a1YyQ0FtUXk1UEluOGxMcUZFc1dSWHNBY2hVS2dlUzUwbw?oc=5",
-        "published": "2026-08-13T11:52:21+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -87,31 +99,19 @@
         "published": "2026-08-17T00:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "8a41e0744a0b",
-        "title": "신한은행, 최고 연 9.0% 신한 적금 9단 출시",
-        "source": "매일일보",
-        "summary": "신한은행, 최고 연 9.0% 신한 적금 9단 출시 매일일보",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CWE5vVXdVdXZKakY3YXZuaTZXNnJpRGwtZXF6QkZaTXExVDRMeWlxUU9PbXVKZTVHSEpZZWt1UlVUdG1KYnNUN3JsX3Z6UHdZd1hrQ21xQzh0bDJac2NtU3dFd00?oc=5",
-        "published": "2026-08-13T13:44:23+09:00",
-        "query": "신한은행 점포",
+        "id": "17c755049949",
+        "title": "신한은행, 최고 연 9% ‘신한 적금 9단’ 출시...20만좌 한정",
+        "source": "redian.org",
+        "summary": "신한은행, 최고 연 9% ‘신한 적금 9단’ 출시...20만좌 한정 redian.org",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CT0tBQUltSVB0VHdCMnVyeTdveVhBTnc0VE96em1TRWE4YkZXMGo4aWU2ZlRnWkZVRFQ3YVNwMExmMlkybTBPeVpSZVhEREF3czhJVjBHT2dLQWR6UzBQQWZkYzlhRFp1?oc=5",
+        "published": "2026-08-13T13:01:15+09:00",
+        "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "425fa815a437",
-        "title": "[금융] KB 독립유공자 후손 지원 / 신한은행 유산기부 신탁 / 하나금융 중장년 채용박람회",
-        "source": "웹이코노미",
-        "summary": "[금융] KB 독립유공자 후손 지원 / 신한은행 유산기부 신탁 / 하나금융 중장년 채용박람회 웹이코노미",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE84RURYZ0hUMGN3U3c5elVpMnRsdlE2X01BM0ZJTkdyRHUxUWFjZDBhTy1mdEt2QS1HMjdrNmF5cEphelMxSWNTckdYY1F1cUNWUjhfcEdXWUthNmZkM21HX1NEZlVtcjV2YUdTajNVZUxoQQ?oc=5",
-        "published": "2026-08-13T11:29:19+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 10,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
