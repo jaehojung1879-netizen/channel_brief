@@ -1,14 +1,32 @@
 {
-  "updated_at": "2026-08-21T06:57:16.175662+09:00",
+  "updated_at": "2026-08-22T06:53:44.747776+09:00",
   "items": [
     {
-      "id": "2a3cc70176a4",
-      "title": "용산 '청년 신도시' 생길까?···2030년 착공 '안갯속'",
-      "source": "여성경제신문",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55WVV5aXBIZFJvaDhUenUwVFA4NnU0MG04MlB4bHkyZm1OelpEcVpPM29MYnFvWFFuTW1ubGlFTHJjMjZTV1p1RUxLZ3k1TXE5OFExMDdmeHNQMkxEa21CcUpZWWUybTVtZExraUpDNjVtSFXSAXdBVV95cUxQUTREbm5OQk5GanRZdXJCX05TTEVmVG1aUkFzeXRxeXRwSU1RNURZbGVZY3ZCS0Q5aTF4Z1AwRWtJWjNac1ZFMXZ3ZGk4akxBNGVDLUpYME42V25QY2E5S3VyVW5IaE9nYThNY1BEWGVfZGJvaDRpcw?oc=5",
-      "published": "2026-08-20T17:59:58+09:00",
-      "date": "2026-08-20",
-      "query": "신도시 착공"
+      "id": "51681bcba54b",
+      "title": "임창휘, “광주 반도체 상생, 경기도가 조정자로 나서야”",
+      "source": "광주뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53dkN0MnlsSUNwQzNmWkppOE94dGJfNmpIMlBfUXBKUGJyY2NXLUNhbE9ZWVZ5UWVrdGl4emJXV3JuUE44U1BCbUtnQkhlVlFzVFBPNDZJY21Oc1UyZ2FOQ0RfbmFmM0k?oc=5",
+      "published": "2026-08-22T04:13:39+09:00",
+      "date": "2026-08-22",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "e4e8d727fa0f",
+      "title": "광진구, 중곡역 일대 도심공공주택 복합지구 지정…중곡권역 개발 본격화",
+      "source": "시정일보",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YWkQyOWZkUXEwdGdiRUlBS0h2TzdRdEc4ZVZqZkJBcnh4cHp2bGlZNlBXdXRYaGQ3OXN3UFBZY19YNnVjUDl5VVo0T1Z4SnBRaXpreW5HZFZnLXhpeGFVU2gwQmwyVlllaUF3?oc=5",
+      "published": "2026-08-21T10:53:14+09:00",
+      "date": "2026-08-21",
+      "query": "국토교통부 고시"
+    },
+    {
+      "id": "005eba73d998",
+      "title": "경기도, 여주시 중앙동 도시재생활성화계획 변경 승인",
+      "source": "환경과조경",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pOVQydWtCd0VhV0YxUEJBbkZ5WURyQnFWOWU4LWcwUk1IRXFSSng2Z1BFWVNmU2VmRGk1T2k0aEhPMmZ6a193VDF1U2hETkVxb1A2NnJNa0dnU0pJTzZCdVRFYmFCMVFRYnpSZHlrRGN0UXF1MWNuZg?oc=5",
+      "published": "2026-08-21T09:02:31+09:00",
+      "date": "2026-08-21",
+      "query": "도시재생 활성화계획"
     },
     {
       "id": "de4bde5d3922",
@@ -20,13 +38,13 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "0c642edee74b",
-      "title": "인천 부평구, 부개·일신지구 도시재생활성화계획 변경 절차 시동",
-      "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13X195c2xORUdNdVNEODN4UTFseFhsdV9pVDhDajdqanY5a3gzeThVVWI1MUxrSEZZam5PbDFrMDlJYTNhekstUV9hbzhpMHM?oc=5",
-      "published": "2026-08-20T10:15:48+09:00",
+      "id": "a754b9c3f5dc",
+      "title": "용인 반도체 국가산단 재검토·송전탑 건설 백지화 촉구",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JM3J4Wm9JZ2N3VldpVUp4R0VPWWhFcU5nZkpDY3ZHRjIxMEI0ZFF0LURESDNJMkR2VWU5bkpsLUhic2xuOVcyQ2NiYUd6UFhLUFJHa0pXM19ocHM4bEwyaA?oc=5",
+      "published": "2026-08-20T10:42:43+09:00",
       "date": "2026-08-20",
-      "query": "도시재생 활성화계획"
+      "query": "반도체 국가산단"
     },
     {
       "id": "0ca4e83377dd",
@@ -36,6 +54,15 @@
       "published": "2026-08-19T20:13:41+09:00",
       "date": "2026-08-19",
       "query": "신도시 착공"
+    },
+    {
+      "id": "a6c10b7b0434",
+      "title": "[포토] 용인반도체 국가산단 재검토·송전탑 반대 대행진",
+      "source": "경기신문",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jTjh0WTkxbDZncFdDVzgySzJ5bElMdEtlVndYX2VPcmR2U1hlclc4LVY1aGE0ZlpkWW5qWlM4cVVlandvWkdDUWFWOUdHaENTeEpIUWlqTjFHa2pSN3ZmWGxB?oc=5",
+      "published": "2026-08-19T17:27:31+09:00",
+      "date": "2026-08-19",
+      "query": "반도체 국가산단"
     },
     {
       "id": "e531ba12bb1f",
@@ -74,67 +101,40 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "15ff153517ca",
-      "title": "전국 25개 시민 환경단체, 용인반도체 국가산단 재검토와 송전탑 건설 반대",
-      "source": "인천일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUaGd0ZW1iLS1SQmFqb25CRFpQNUNVYUlZQ0RVZGZEaHdfNGNXb1NxcGFyOU5aZDc4T19XTjFOR1pQemlXaVhMR0pLQzREYU5xREFNN2h1Sl9weXkwbUkzSDlIUHFFMFRoN1JYNHVCTjY?oc=5",
-      "published": "2026-08-19T14:45:00+09:00",
-      "date": "2026-08-19",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "ab5e88ea6375",
-      "title": "韓총리 \"3기 신도시 2030년까지 착공되도록 가용수단 다 써달라\"",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKbVlmQTJEQjI2QTlpdnBBbGt6QmZSTVJBUzFvWGR1ejk4dUhDQ2JDQlE0YmRBSVlxRTlnUGcwaU1xTDJ4eHMzTElSblBnc0xhQWZnSzZ4cW5lMmfSAWBBVV95cUxNOWEzZTRHMDFtQkRSa2U3eU0xQ3RzNXVFN2RmTGRfdGhNVTJUTHA1NXNOb3RtQ2pOM29LVEd0RVRFT2pURDJkVkZteGVrVDRKeElfbmZMQ052M0U4TDhldTI?oc=5",
-      "published": "2026-08-19T14:33:27+09:00",
+      "id": "0177196ba4fb",
+      "title": "韓총리 \"3시 신도시 2030년까지 착공되도록 모든 가용수단 총동원\"",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBENWV3ZFNPMUZXcUFPLVNOZGNXQzM5aURWTWhqdmJ3ei1iQ19ubnQ1eE1udXd6Mzh0NlF1V2p0c3J3Y0VwS0kxeFhCVlRBQmpPcTZrTA?oc=5",
+      "published": "2026-08-19T14:57:16+09:00",
       "date": "2026-08-19",
       "query": "신도시 착공"
     },
     {
-      "id": "d7fe9e62ab7e",
-      "title": "한 총리 \"3기 신도시 대부분 2030년까지 착공하도록 하라\"",
-      "source": "연합뉴스TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRWWxvQ0VqbHhOV3BfMGMyRXRQWkQ0ODdPVjd5YXEtMkxfaDVFTG0yWWJlLUd1dGcyS0lKYkl3WnFBRTBnRzR0cGE3Vjd6Wjg0Slhna3NRYjE4SW9MSkdQMUowei1hdms?oc=5",
-      "published": "2026-08-19T14:33:00+09:00",
+      "id": "0fe9f39c47f0",
+      "title": "한 총리 \"3기 신도시 대부분 2030년까지 착공…할 수 있는 수단 다 가용\"(종합)",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvT00wWHBENlltd3VTdWR2dDl6ZldIMENkUmxwYl9MRUZwdjVtdml6MDMycEV3Y01qcFktRzluUkZ4amxfX3lLT3dRMUxrZ0xHWVB0YjlrU1B6UFlMdFliatIBeEFVX3lxTE95bXk1LUVyT2VmQXd3d2NVNVpZQjRLLUFjR1l5MEpTN0JVX3BqR2pXTTUzUUtlM2w1aTBKcUJNNnItSlJPYlNZd1NYMjNROW53ZHJ2WFZ1NWlMY1YyRWpSNm9ZdmJWakpkN2MyX3RGVUUzcE15ZkpHUA?oc=5",
+      "published": "2026-08-19T14:56:30+09:00",
       "date": "2026-08-19",
       "query": "신도시 착공"
     },
     {
-      "id": "f91c96437384",
-      "title": "\"용인 반도체산단·송전탑 백지화\"…전국 시민단체 집회",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCTVVzNHJJQWtCNjFxQ29uUG1fUzhQdFB5WEJCbUlyM0RxaUhJMkhHeUEtVFhNMDhwaUEyRXROZUtRT19oTWE0a3lWV21SV0NSTEJ6aUJXXzBjYlXSAWBBVV95cUxOcVY0OS05LUE5OEpoWXhTUTVPeTk1clNLbUdvdDBlY25KTXhzSUM4QVNnU0c5eGNuMFNsU0czLVN4dGo5MGRTSEdPVW5tbktMUld2dmFMTnM4MndReElOVWs?oc=5",
-      "published": "2026-08-19T14:09:01+09:00",
+      "id": "a77742f1cc38",
+      "title": "3기 신도시 현장 찾아간 韓총리 \"2030년까지 착공되도록 모든 수단 다 쓰라\"",
+      "source": "조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkRyaXhkak5kSjhWVFRPLWdfcVdvYmoxWkxpQm4wSjlFNXJCcmI1bUNxWVZ6SUNUbklfemZxZHFabWJnbEJURUgxUGJHd2hzTERWaG5mRlp4dHVOU1JFNkNnWkxiTXlMX3Y4THlmdGFXaU84SE9GQzVDaHV6OW10M0Rjb0FIb1k?oc=5",
+      "published": "2026-08-19T14:33:11+09:00",
       "date": "2026-08-19",
-      "query": "반도체 국가산단"
+      "query": "신도시 착공"
     },
     {
-      "id": "c2f73ad47927",
-      "title": "현대vs대우… 용인 반도체 국가산단 1공구 심의, 다음달 실시",
-      "source": "MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrdXVxOW01YVRaMkZkMXlqRmMyZm1NbTd5M3puUjF5N0hIU3RPSHc2aTdwTUp2c203bm84RkJzX3FXdVd2VUg5M1BKeWF6a2hMVGF2TktWUTYza18xVmNqcVhVR3A?oc=5",
-      "published": "2026-08-19T13:00:01+09:00",
-      "date": "2026-08-19",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "e994830e2eb1",
-      "title": "부평구, 부개·일신지구 도시재생활성화계획 변경 본격화",
-      "source": "incheonin.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lM0F2LU9INjFIdWdpSmlRZWMwSUlsblo2WTAzcjl4LVNIMXpVQ0pmdWUwcjRkNjFPZnN3YXZWSXkxTE90N2tZT19jall2eWo5SWJrZDh3RGU1dkFCd0dqOGlFRTNGOWNkbE0xZw?oc=5",
-      "published": "2026-08-19T11:04:09+09:00",
+      "id": "62647b1e3a73",
+      "title": "부평구, 부개·일신지구 도시재생활성화계획 변경 절차 본격화",
+      "source": "산경일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03MjdGeXhCcnQxNmU4a1F3RTNPZHRQQlhSeVQtaE9qUFpaenBoc2FUNFRrU0JFWGk1ckpibGNmMmMwNHp0N1pKQVh6a3dLay1ISlpka0IxcENsRlFZRGp6UnNfcldTM0NyLS1rM2FhMTA?oc=5",
+      "published": "2026-08-19T13:43:33+09:00",
       "date": "2026-08-19",
       "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "39293716bd94",
-      "title": "부지 조성·팹 건설 병행…용인 반도체 산단 조기 가동 승부수 [국가 산단 본궤도]",
-      "source": "이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtTTRaaXI0Y3cwM3FoMFhoOHRhMXFST0RUd1F2ckQyaWdCZnc1dHZCM2xvYXY5UGpCOF9CMy00SU9kZHV6UWlEVEFFSEdreDFkZEFkWg?oc=5",
-      "published": "2026-08-19T05:00:00+09:00",
-      "date": "2026-08-19",
-      "query": "반도체 국가산단"
     }
   ]
 }
