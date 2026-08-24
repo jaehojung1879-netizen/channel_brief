@@ -1,20 +1,68 @@
 {
-  "updated_at": "2026-08-24T06:49:27.311521+09:00",
+  "updated_at": "2026-08-25T06:56:05.848182+09:00",
   "headline": {
-    "id": "3e558836a32c",
-    "title": "지점 줄이고 부동산 매각하고…실탄 확보 경쟁 나선 은행권",
-    "source": "아주경제",
-    "summary": "지점 줄이고 부동산 매각하고…실탄 확보 경쟁 나선 은행권 아주경제",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wdHUwbW1wc3pSTUJrRGNxQzA4U2Z1LXl3LW1JclpaY0lJT3hiZVh2OXYzei1xcXVvS3VpZUtwNEtDMFFMR1ZmOFJmZDJ3bF9qODNZVlFXZ2XSAVhBVV95cUxOcHR1MG1tcHN6Uk1Ca0RjcUMwOFNmdS15dy1tSXJaWmNJSU94YmVYdjl2M3otcXF1b0t1aWVLcDRLQzBRTEdWZjhSZmQyd2xfajgzWVZRV2dl?oc=5",
-    "published": "2026-08-23T16:00:00+09:00",
-    "query": "은행 점포",
+    "id": "4191075f5267",
+    "title": "신한은행, 인도네시아 발리·말랑 지점 폐쇄",
+    "source": "PRESS9",
+    "summary": "신한은행, 인도네시아 발리·말랑 지점 폐쇄 PRESS9",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zRWoyQk5ibmw5QmtrZEU2TWY5R0t6RHNyU3VWTmY2Y2FGSXBKMHB0V2tIbmtib3pYcUdYYV9tUVlWYXhfSTBYTFphQVF0V1gyZ0VNWHZ6X045dzdFa2JxWWxYaDY2dw?oc=5",
+    "published": "2026-08-19T16:55:40+09:00",
+    "query": "신한은행 지점",
     "engine": "google",
     "rank": 1,
-    "_score": 19.0,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "974dec307880",
+        "title": "NH농협은행, AI 안면인증 통합단말기 100개 영업점 시범 도입",
+        "source": "이즈보험",
+        "summary": "NH농협은행, AI 안면인증 통합단말기 100개 영업점 시범 도입 이즈보험",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tWXBRTUdmMEtTRXpteEZTT3lYanN3OS1yckI4U1RMRDNnTF9KV09BR2J5c0JYeWtrY2U5MENmeE12bms1N2dXWFJZbWUzdFJaaFpBSFExYXN5eld3VXZIOGIwUVA2NWpDNmc?oc=5",
+        "published": "2026-08-24T23:01:22+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "79cdb84a03d5",
+        "title": "BNK경남은행, 영업점 청원경찰 보이스피싱 예방공로 포상",
+        "source": "메트로신문",
+        "summary": "BNK경남은행, 영업점 청원경찰 보이스피싱 예방공로 포상 메트로신문",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHWlI5aEdBMnBnRE1hdW1YSnJFUFdUZ1hSTkt1aHUwZVJQOWVtTnZiWG5fZk5RS09kWnp5SWdCTGhLemZDUTc3VGVSN0hwa1Y3VEVCZVA0VmVOakR3SFlzWA?oc=5",
+        "published": "2026-08-24T15:15:29+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "3784d540cbed",
+        "title": "농협은행, 영업점 본인 인증 강화…AI스마트패드 시범 도입",
+        "source": "지디넷코리아",
+        "summary": "농협은행, 영업점 본인 인증 강화…AI스마트패드 시범 도입 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DV1hINnJTWDh0ZnFyeU4zTE1XbDdVdnFvcVlibmxYNG5FR1UwMHhLaVA1U2lrQUVhaHl6ZGNuVU1taE96R012V2RiajZOcXF0bEtIOWtB?oc=5",
+        "published": "2026-08-24T15:09:19+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "3e558836a32c",
+        "title": "지점 줄이고 부동산 매각하고…실탄 확보 경쟁 나선 은행권",
+        "source": "아주경제",
+        "summary": "지점 줄이고 부동산 매각하고…실탄 확보 경쟁 나선 은행권 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wdHUwbW1wc3pSTUJrRGNxQzA4U2Z1LXl3LW1JclpaY0lJT3hiZVh2OXYzei1xcXVvS3VpZUtwNEtDMFFMR1ZmOFJmZDJ3bF9qODNZVlFXZ2XSAVhBVV95cUxOcHR1MG1tcHN6Uk1Ca0RjcUMwOFNmdS15dy1tSXJaWmNJSU94YmVYdjl2M3otcXF1b0t1aWVLcDRLQzBRTEdWZjhSZmQyd2xfajgzWVZRV2dl?oc=5",
+        "published": "2026-08-23T16:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "c6b58a1ee99d",
         "title": "[AI시대, 권력 대이동-KB국민은행] 점포·사람에서 AI 에이전트로…AI로 생산성 혁신",
@@ -24,7 +72,7 @@
         "published": "2026-08-21T17:44:12+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,19 +96,7 @@
         "published": "2026-08-20T18:00:10+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "519fbab38c7f",
-        "title": "4대 은행, 정규직 1570명 줄이고 지점 51개 닫았다",
-        "source": "매일일보",
-        "summary": "4대 은행, 정규직 1570명 줄이고 지점 51개 닫았다 매일일보",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VaWlpX1ByeXRZVUprTmZFRXNYeTVpcW04WjRuVlRRbHdUTDB5TzNRMnNHeHJtR0xIaktYY2ktM3Nnb2lDWnNJUnQtTHVmaGJHNXNnMFlya3VKWDRTMXAxT19FMTU?oc=5",
-        "published": "2026-08-20T14:22:04+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 9,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +108,7 @@
         "published": "2026-08-20T11:18:23+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,31 +120,7 @@
         "published": "2026-08-20T11:07:15+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "265a29023f99",
-        "title": "[단독] 우리은행, 전국 14개 지점 공매...합산 최저가 1766억",
-        "source": "더리브스",
-        "summary": "[단독] 우리은행, 전국 14개 지점 공매...합산 최저가 1766억 더리브스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvYUdDN0hrS0gzZkRHWnE1MkJxS2RaUnplS1BudnhCYmhHNXBsYUxjWHBMREt1QThBajBMVkRHNHFTRFUxY0oxS2ZxOW1uVF9oRF9BNVVfUmpxY24tTmt6ZlZwMkducy1WZmc?oc=5",
-        "published": "2026-08-20T10:50:07+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "4191075f5267",
-        "title": "신한은행, 인도네시아 발리·말랑 지점 폐쇄",
-        "source": "PRESS9",
-        "summary": "신한은행, 인도네시아 발리·말랑 지점 폐쇄 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zRWoyQk5ibmw5QmtrZEU2TWY5R0t6RHNyU3VWTmY2Y2FGSXBKMHB0V2tIbmtib3pYcUdYYV9tUVlWYXhfSTBYTFphQVF0V1gyZ0VNWHZ6X045dzdFa2JxWWxYaDY2dw?oc=5",
-        "published": "2026-08-19T16:55:40+09:00",
-        "query": "은행 폐쇄",
-        "engine": "google",
-        "rank": 1,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -127,6 +139,18 @@
       }
     ],
     "shinhan_news": [
+      {
+        "id": "0d4ce449b580",
+        "title": "신한 쏠링크, 해지 시 영업점 방문…\"증권계좌 동시 해지 구조\"",
+        "source": "컨슈머치",
+        "summary": "신한 쏠링크, 해지 시 영업점 방문…\"증권계좌 동시 해지 구조\" 컨슈머치",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OdW5nVU45a3cyakl1NmlVeWs0YXNEM0U3ck9IVkh0WE94cEZOWmNJanlYN3NxRnltNGhwQ093Wk1hWmJwTllJdUxyQmZ1c3R3b0hocWZsc3NFLWxaWkJJd0E1Z1RuVTAyV3c?oc=5",
+        "published": "2026-08-24T14:26:09+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "ad20ce0b914e",
         "title": "신한은행 금융사고 ‘고무줄 공시’… 정정할수록 눈덩이",
@@ -161,17 +185,6 @@
         "query": "신한은행 영업점",
         "engine": "google",
         "rank": 1
-      },
-      {
-        "id": "4191075f5267",
-        "title": "신한은행, 인도네시아 발리·말랑 지점 폐쇄",
-        "source": "PRESS9",
-        "summary": "신한은행, 인도네시아 발리·말랑 지점 폐쇄 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zRWoyQk5ibmw5QmtrZEU2TWY5R0t6RHNyU3VWTmY2Y2FGSXBKMHB0V2tIbmtib3pYcUdYYV9tUVlWYXhfSTBYTFphQVF0V1gyZ0VNWHZ6X045dzdFa2JxWWxYaDY2dw?oc=5",
-        "published": "2026-08-19T16:55:40+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 2
       },
       {
         "id": "072adfcba071",
