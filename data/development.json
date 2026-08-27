@@ -1,12 +1,57 @@
 {
-  "updated_at": "2026-08-26T06:56:47.513631+09:00",
+  "updated_at": "2026-08-27T10:02:17.205791+09:00",
   "items": [
     {
-      "id": "097d52c912a4",
-      "title": "무안에 105만평 국가산단 들어선다...반도체·에너지 산업 거점 육성",
-      "source": "ppss.kr",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4RkZuUGpoUl9oN0t0ZS1oTkMxM0lJRWI5OVk4c1lQR1Z6ZHZRWS1MUXlFem1mazFDZzJoTjcyQzYwUkFDRHZpTU41WEFTSWJNXzNTOTdrZGtDUzNzWXk2Wk1KQkY?oc=5",
-      "published": "2026-08-25T22:06:12+09:00",
+      "id": "1096f84284d8",
+      "title": "반도체산단 용수 공급 사업 집중 점검",
+      "source": "브릿지경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1c0JHTVZXdF8teFlXbUxEM3J1cThkR200RnRUaDVKcHQyYURFOFVKZ3FkUHNsN0JBdGJMczJCbzdMZnpXbXRQMUVpZVJHYjJHZVBzanF4VXlEQQ?oc=5",
+      "published": "2026-08-26T15:02:00+09:00",
+      "date": "2026-08-26",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "8d09f26ee3c7",
+      "title": "철도공단, 경의선 DMC역 복합개발 사업자 공모",
+      "source": "철도경제신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FWW9QdGhQZWN1a0UxRzlwNm5jNTQ3ODJjdm5tQ0dpZTZrajR6WHlnTTBpdE1aUjJBTndRRGpqVWRYTGk0SGd3bmF6UUxla19UamI3ZFpqTFhqR2JKU0pkS2p0TVk2NUpaNDBr?oc=5",
+      "published": "2026-08-26T15:00:21+09:00",
+      "date": "2026-08-26",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "ff234c17a605",
+      "title": "기업 투자 늦출라…호남·용인 반도체 산단 ‘물 공급’ 선제 점검",
+      "source": "edaily.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVU9fYmoxNWlKLTBPZ09fTEV4N3c1OENuSkwyVzA1eUhtSHdRQXkyYTFQNm9ocENrN216VzNZcTVKQnlJU0ZGN1RMd1dZajZKR0NMQlVycF9uOF9DdTc0dXg0MmFpSDdWMDdNMjlIT1diaFl0enJaSU1hVU4yTU1uQQ?oc=5",
+      "published": "2026-08-26T11:39:47+09:00",
+      "date": "2026-08-26",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "97dc1b1c34de",
+      "title": "국가철도공단, DMC역 복합개발 사업주관자 공모",
+      "source": "교통뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5INHVuY09IQzZsVFM2Nk9tWFBrTmZpcG1qMVg2VS1Pb20yLVR3bXJ0a3gta2U2b1oybjEwc0w1b0M0eXd6OEFDYmJoLVBvQ0tkeEtmb1Y3QUxXVmNmZURTdnN5TjhoVVQ5UU9ZOQ?oc=5",
+      "published": "2026-08-26T06:00:00+09:00",
+      "date": "2026-08-26",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "ecc5c9a8f1df",
+      "title": "[로컬라이프] 의왕시, 도시재생 활성화계획 수립용역 착수보고회 개최",
+      "source": "로컬라이프",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJdkJfOWROU3ZWMzAzYWNheGVoOHZ4Zm80RDEweVVsNW53UGdiNDBMeGRuMFQwWVp0cEsxTWUtZ2hKOTVuSXVxc3dDTWZnck5sb2otR3B1VUlRdE9VcGfSAV5BVV95cUxQSXZCXzlkTlN2VjMwM2FjYXhlaDh2eGZvNEQxMHlVbDVud1BnYjQwTHhkbjBUMFladHBLMU1lLWdoSjk1bkl1cXN3Q01mZ3JObG9qLUdwdVVJUXRPVXBn?oc=5",
+      "published": "2026-08-25T22:12:30+09:00",
+      "date": "2026-08-25",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "8a348a5830a9",
+      "title": "호남 반도체 용수 기반사업 예타 면제…산단 조성 '속도'",
+      "source": "네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qV0t1b2FHazF6ekVLYm1neVF4WURiaXZJYXJKNENWWGFUUmY5S3FNa0lCSDA2T3Z5RC0wTGc0TlJmNE1naENKTFY2V0pGSDlYY2dJ?oc=5",
+      "published": "2026-08-25T17:20:00+09:00",
       "date": "2026-08-25",
       "query": "반도체 국가산단"
     },
@@ -38,6 +83,15 @@
       "query": "복합개발 지구단위계획"
     },
     {
+      "id": "b3939f016fe7",
+      "title": "호남 반도체 산단 조성 46개월…팹 부지는 우선착공 추진",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE52MjlaSElCcXBTV1VUQ2J4VXFPSEdWRGdiMWRXTmt5ZkZyZFl0d21BRkxiUXNCWlZtV1l5N2V3VWpTWVpJWmc?oc=5",
+      "published": "2026-08-25T11:31:57+09:00",
+      "date": "2026-08-25",
+      "query": "반도체 국가산단"
+    },
+    {
       "id": "f31a00c15c91",
       "title": "국토교통부, 다자녀가구 철도자격시험(기관사·관제사) 수수료 50% 감면",
       "source": "뉴스체인지",
@@ -45,15 +99,6 @@
       "published": "2026-08-25T10:39:00+09:00",
       "date": "2026-08-25",
       "query": "국토교통부 고시"
-    },
-    {
-      "id": "885f4471a30c",
-      "title": "이상일 용인특례시장, “반도체 국가산단 논란 정리…이제 속도 내야”",
-      "source": "매일일보",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KR3pZWHlBUy1CeTQ1R2F1amI1QXZGQ0ZqWUFlYURCUDdVNXZFZVh0ZUYwNklDaEVOMmdHVWFOOXE1bUJBQnJfSlR6Szh3a2ZRSHk1clQ3VzFDUXpaVEI1T3dBTG4?oc=5",
-      "published": "2026-08-25T08:34:46+09:00",
-      "date": "2026-08-25",
-      "query": "반도체 국가산단"
     },
     {
       "id": "483f9e76d867",
@@ -65,76 +110,31 @@
       "query": "국토교통부 고시"
     },
     {
-      "id": "ccdb1310f125",
-      "title": "이상일 용인시장, 반도체 국가산단 조성 강조…\"정부 지원·갈등 해결 필요\"",
-      "source": "gukjenews.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vd19ERUhaeERZay0zQzVITTFGZ0VRelJGTjdqMTF0WkgzUFVGRmluZWpnSmVIcTVwT3BkX0t4bHNELXB3RFVRZHg0MnRBUXF4aTRYRzVsM2RGalJDRDFRVE5Ja0hrbWxFeEo0bTFB?oc=5",
-      "published": "2026-08-24T22:15:41+09:00",
+      "id": "14fbb3512f35",
+      "title": "SK하이닉스, 광주 반도체 산단부지 전격 방문…사업 가속도",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nT21HUi10TFFaQjdEXzJVVnpDQUQzQW9vempRODE1alFpaVkxSXducmVEMkRBR2dLejNHMDA2MDRmRV9LVzg5YklzbWRMYk5yRlpYRzR4OFdQUGRDZENxUNIBeEFVX3lxTFBQLTFvMHRsUTFIVmNSX2FKZEtfbGFObUdVRE96dGlGMzcwUVRPV3FXY2xNbGFtcDFzUHJIMC1lNTNvekFldjQ2X21pZDRJdjhIeHNKbTZRZGVrd3NqZHV1cHYzS3hoSG1jZG43My0weXRjTnlMZEJyZw?oc=5",
+      "published": "2026-08-24T15:04:49+09:00",
       "date": "2026-08-24",
       "query": "반도체 국가산단"
     },
     {
-      "id": "dae1b0b8a85d",
-      "title": "이상일 용인시장 “반도체 국가산단 조성 속도 내야”",
-      "source": "서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyOV80VnZZNEp3OTJZb0I5eEh6S2VldzFNUnZ5SEsyemlBZEhnWGdLZWlRNnlkaGp4MG1QT2NGdWxpRXdNNU9BY21DTHFOcHpIMXVSak1zVnpvUHQwZEFxeXQya2o?oc=5",
-      "published": "2026-08-24T20:23:07+09:00",
+      "id": "858792916a76",
+      "title": "[국토교통부 고시] 양산사송 공공주택지구 지구계획 변경(12차) 및 주택지구 밖의 사업 변경(8차) 승인",
+      "source": "한국도시환경헤럴드",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SM0d3SFhnQ0JrcUNPYU5MNm5sd0VJX2x3U2ZUNUxvMjV5dGpQZF9QeExKSWhGQ2t0WmRwRkV0cW5GM1lGYWlVdGRDYXdlTG9lcXZmSW5icnZveU5VUm8wN2VYdFMxUE1DTnhFTdIBcEFVX3lxTE5ta0ZKQkVUQmh3dEhDSmpHWE9HZWRqcDQ0MVB6T2dkMXo4MUlwVjZ0Umhab25mbXZ5QlYxczlGZUxJakcwazZNVVl6Z3FSVVp0bmtBZzlKeHBXY2ktdjBTb2p4WGF0VlFFckxFOVlYMzQ?oc=5",
+      "published": "2026-08-24T05:05:32+09:00",
       "date": "2026-08-24",
-      "query": "반도체 국가산단"
+      "query": "국토교통부 고시"
     },
     {
-      "id": "c1aa6e00ea0a",
+      "id": "248edccac301",
       "title": "[국토교통부 고시] 울산다운2 공공주택지구 지구계획 변경(11차) 승인",
       "source": "한국도시환경헤럴드",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HbnRnazBjRmhSdkRNRWQ3M2VGOUhZSktTM1RLMWtLQmd6Mm5QZXAxcThWelRhOWtvcHdpUzFtNERBRlgyMTlOMXlEQzdGbDE5TVlTUWR0WnR3UTZydXJJSTA5M1B2RGcza3B0UHpmalHSAXBBVV95cUxNR250Z2swY0ZoUnZETUVkNzNlRjlIWUpLUzNUSzFrS0JnejJuUGVwMXE4VnpUYTlrb3B3aVMxbTREQUZYMjE5TjF5REM3RmwxOU1ZU1FkdFp0d1E2cnVySUkwOTNQdkRnM2twdFB6ZmpR?oc=5",
-      "published": "2026-08-24T09:30:48+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6MWhkSmxyZjRwejdFLS1iSnhfSjFKMU9JeG9HNllxT0xpZUliVTl0bC1GMzhaSVY3djZMc3Rlb3VKSzRnTVZJbHhqYXg4eFBZb1lIS0RGMWFJZXRTX2E4ODktT21LeFU1WkZfS9IBcEFVX3lxTE1HbnRnazBjRmhSdkRNRWQ3M2VGOUhZSktTM1RLMWtLQmd6Mm5QZXAxcThWelRhOWtvcHdpUzFtNERBRlgyMTlOMXlEQzdGbDE5TVlTUWR0WnR3UTZydXJJSTA5M1B2RGcza3B0UHpmalE?oc=5",
+      "published": "2026-08-24T04:56:47+09:00",
       "date": "2026-08-24",
       "query": "국토교통부 고시"
-    },
-    {
-      "id": "7180259f05ef",
-      "title": "[국토교통부 고시] 부산∼양산∼울산 광역철도 건설사업 전략 및 환경영향평가항목 등의 결정내용 공개",
-      "source": "한국도시환경헤럴드",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHNnZDcVZZQXFtN1k3SWdyalFCUGQ2bk1KdVJRNV8xUW9yTlcyQllVVUhoQVZzMmg1N3hrZlVzR241Ylk5bXB6cDBLWGNfTXBWX0NuVHcyalhLV2pSREMzU0R3cmI1Vk95UEpSaWk5QUvSAXBBVV95cUxQRzZ2Q3FWWUFxbTdZN0lncmpRQlBkNm5NSnVSUTVfMVFvck5XMkJZVVVIaEFWczJoNTd4a2ZVc0duNWJZOW1wenAwS1hjX01wVl9DblR3MmpYS1dqUkRDM1NEd3JiNVZPeVBKUmlpOUFL?oc=5",
-      "published": "2026-08-24T09:30:48+09:00",
-      "date": "2026-08-24",
-      "query": "국토교통부 고시"
-    },
-    {
-      "id": "f70ad8089c7d",
-      "title": "김용범, 광주 반도체 부지 방문 예정…국가산단 확대 주목(종합)",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WWGNDXzVaS1ZIVm9DakhORS1faG5QSko4T2lFNkVXaHlRX0dxV2twaGVTaVZKZzdRM0dDTWRGeU5fYXVraXUySkwxVzIxZ0kwZUliNlB0ZUZxeVHSAWBBVV95cUxPMy1CdDhybHhuUGZUNzBhSklKODVZTFRWcEdZeGpEWk9abm13S0JqSjJvTEVOSUlGVDBrYy04YjE4X2p6dUtyYUxXa0stdG9qVjJYV0NpVXlHWVRIdHZKZGE?oc=5",
-      "published": "2026-08-21T15:23:00+09:00",
-      "date": "2026-08-21",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "005eba73d998",
-      "title": "경기도, 여주시 중앙동 도시재생활성화계획 변경 승인",
-      "source": "환경과조경",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pOVQydWtCd0VhV0YxUEJBbkZ5WURyQnFWOWU4LWcwUk1IRXFSSng2Z1BFWVNmU2VmRGk1T2k0aEhPMmZ6a193VDF1U2hETkVxb1A2NnJNa0dnU0pJTzZCdVRFYmFCMVFRYnpSZHlrRGN0UXF1MWNuZg?oc=5",
-      "published": "2026-08-21T09:02:31+09:00",
-      "date": "2026-08-21",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "0aba74b4cefe",
-      "title": "\"3기 신도시 착공 앞당긴다\"…LH·GH·철도공단 조달 수요에 채권시장 들썩",
-      "source": "인베스트조선",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVkR4T2JlUzdJWUZaU1MtT1RlU1hyZ1pHeHN4TVl5MVRKZU55OGFkWE5icmZPc21xcFo4RHJReS1ST2RRd0xudXRRajdLZWwyXzEzX2daVTV2cTMtTDV6YnpVUU84SzJWYXZCRi04ZUJzSTFxalBGcW92ZkthUDktLTZYbw?oc=5",
-      "published": "2026-08-21T07:00:00+09:00",
-      "date": "2026-08-21",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "2a3cc70176a4",
-      "title": "용산 '청년 신도시' 생길까?···2030년 착공 '안갯속'",
-      "source": "여성경제신문",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55WVV5aXBIZFJvaDhUenUwVFA4NnU0MG04MlB4bHkyZm1OelpEcVpPM29MYnFvWFFuTW1ubGlFTHJjMjZTV1p1RUxLZ3k1TXE5OFExMDdmeHNQMkxEa21CcUpZWWUybTVtZExraUpDNjVtSFXSAXdBVV95cUxQUTREbm5OQk5GanRZdXJCX05TTEVmVG1aUkFzeXRxeXRwSU1RNURZbGVZY3ZCS0Q5aTF4Z1AwRWtJWjNac1ZFMXZ3ZGk4akxBNGVDLUpYME42V25QY2E5S3VyVW5IaE9nYThNY1BEWGVfZGJvaDRpcw?oc=5",
-      "published": "2026-08-20T17:59:58+09:00",
-      "date": "2026-08-20",
-      "query": "신도시 착공"
     }
   ]
 }

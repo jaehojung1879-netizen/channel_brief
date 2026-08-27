@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-08-26T06:55:26.471224+09:00",
+  "updated_at": "2026-08-27T10:00:53.033679+09:00",
   "headline": {
-    "id": "07f5dc5a1014",
-    "title": "[은행권 효율 셈법]② 하나, 생산성 1위 배경은 점포당 예수·대출금",
-    "source": "네이트",
-    "summary": "[은행권 효율 셈법]② 하나, 생산성 1위 배경은 점포당 예수·대출금 네이트",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9VZUgyRnp4RGZLc0hLYkZfYUlYcWFlVlF3bmlfaVJ2NmdHdTQwNzM2aXhQYjJJeGRJYXZ4ckdvQlBtVFZEWEdGU2cwc1ZaVGZ0STJ3?oc=5",
-    "published": "2026-08-25T14:23:00+09:00",
-    "query": "은행 점포",
+    "id": "54dcc04941f2",
+    "title": "[금융家] NH농협은행 ⑤ㅣ AI·디지털 전환 속도…영업점부터 상담·생활금융까지 혁신",
+    "source": "CBC뉴스",
+    "summary": "[금융家] NH농협은행 ⑤ㅣ AI·디지털 전환 속도…영업점부터 상담·생활금융까지 혁신 CBC뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yWlZvLW1QWDkyM3lCT1ZqUzB4dU1uWlpsXzl0Y1ZhTVBlTXhreEJKR2d6aVR4RTN0SmJkY0s0c0FtQjNZOXNXa1JIaEI1V1RQWHBScFpnazhIVmE0V2E1RWxwNkVLajh2?oc=5",
+    "published": "2026-08-27T00:10:00+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 9,
-    "_score": 17.0,
+    "rank": 7,
+    "_score": 16.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "78ec4003828b",
+        "title": "BNK경남은행, 방어진 활어센터 화재 피해 점포 최대 3000만 원 지원",
+        "source": "글로벌이코노믹",
+        "summary": "BNK경남은행, 방어진 활어센터 화재 피해 점포 최대 3000만 원 지원 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcjNnVHFCc0V6NWRhRGhjZzU4cUhuOTNiZThaVWoyRkJHLVdyR1JYS3dCVHRlMHRMcW9qM2QtZnFLZ3hQeVY5aVBEM19RWVVkZlhrR1JFWjNqM3NrSDY0dzNXUThGaVlYOGNoeVVYQU1sakxzUGZuU05kZWdvbllJQnRMaw?oc=5",
+        "published": "2026-08-26T15:46:09+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a02fe1bb934a",
+        "title": "BNK경남은행, 울산 방어진 활어센터 피해 점포에 20억 금융지원",
+        "source": "워크투데이",
+        "summary": "BNK경남은행, 울산 방어진 활어센터 피해 점포에 20억 금융지원 워크투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RNThHd09NSUVjcG5ZV21uQ2FfZFF6YjZDQWRDM01nWUhaM3FzTzIxeXgtb1JWU0xraXBQbHczLXY4RENNd2EwTE9mSzd4VkZFelAxRGVLam5PaGpjYjZCMmtCTGIyWnR4Uy04Rg?oc=5",
+        "published": "2026-08-26T15:02:36+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "5e7940d06833",
         "title": "NH농협은행 '영업점 100곳'에 AI 안면인증 단말기 시범 도입",
@@ -24,7 +48,7 @@
         "published": "2026-08-25T16:52:25+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +60,7 @@
         "published": "2026-08-25T15:56:22+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +72,7 @@
         "published": "2026-08-25T10:36:04+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -58,9 +82,9 @@
         "summary": "BNK경남은행, 영업점 청원경찰 보이스피싱 예방공로 포상 메트로신문",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHWlI5aEdBMnBnRE1hdW1YSnJFUFdUZ1hSTkt1aHUwZVJQOWVtTnZiWG5fZk5RS09kWnp5SWdCTGhLemZDUTc3VGVSN0hwa1Y3VEVCZVA0VmVOakR3SFlzWA?oc=5",
         "published": "2026-08-24T15:15:29+09:00",
-        "query": "은행 점포",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 12,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,31 +96,19 @@
         "published": "2026-08-24T15:09:19+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "3e558836a32c",
-        "title": "지점 줄이고 부동산 매각하고…실탄 확보 경쟁 나선 은행권",
-        "source": "아주경제",
-        "summary": "지점 줄이고 부동산 매각하고…실탄 확보 경쟁 나선 은행권 아주경제",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wdHUwbW1wc3pSTUJrRGNxQzA4U2Z1LXl3LW1JclpaY0lJT3hiZVh2OXYzei1xcXVvS3VpZUtwNEtDMFFMR1ZmOFJmZDJ3bF9qODNZVlFXZ2XSAVhBVV95cUxOcHR1MG1tcHN6Uk1Ca0RjcUMwOFNmdS15dy1tSXJaWmNJSU94YmVYdjl2M3otcXF1b0t1aWVLcDRLQzBRTEdWZjhSZmQyd2xfajgzWVZRV2dl?oc=5",
-        "published": "2026-08-23T16:00:00+09:00",
+        "id": "9ef108b7491b",
+        "title": "지점 줄이고 부동산 매각하고…'실탄 확보' 경쟁 나선 은행권",
+        "source": "v.daum.net",
+        "summary": "지점 줄이고 부동산 매각하고…'실탄 확보' 경쟁 나선 은행권 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0yRjdLaHZLNWJiRElVejQtS1hTYXFQaWt6X201aUR0OUhWaXhxZzhBdDJ0MDJ0TEJrNnNLTkFCZnJ3MEdleVAyQ2dTRUpIdzV0SG4xaQ?oc=5",
+        "published": "2026-08-23T16:00:23+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "c6b58a1ee99d",
-        "title": "[AI시대, 권력 대이동-KB국민은행] 점포·사람에서 AI 에이전트로…AI로 생산성 혁신",
-        "source": "포인트데일리",
-        "summary": "[AI시대, 권력 대이동-KB국민은행] 점포·사람에서 AI 에이전트로…AI로 생산성 혁신 포인트데일리",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mTFJIM2dKLVhPWkxvYnhOTzNsb1ZxNFE5SjU5SGoyTDhBMWtqMDFiYkg5NlVrLUtBSGhGU3lIRnJGR2pjQk1TOEo4N0ZfU0lyMEhCX0htZzFEX0pCeVB4TEZ6OWRyMjhNdmFqaEVwbXbSAXRBVV95cUxPOGh1ZWtheUhxX3c3U0tqT1hVcWVFa2k4Ni1xTGJpODl3azNXdFViYVJoajltM19CSFJkb3hNRjE4eTVOWkFubUNfUFZ3UTI3eGx3UlNqdFc2UzNtZW15NmJZcERkTHFDOXdmZXpfSWxsVVFfMw?oc=5",
-        "published": "2026-08-21T17:44:12+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 10,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -111,7 +123,7 @@
         "published": "2026-08-24T00:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -123,55 +135,7 @@
         "published": "2026-08-21T07:18:02+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "bce180ad23a8",
-        "title": "대전은 하나·강원은 신한·부산은 국민 … 은행 점포지도에 새겨진 'M&A 역사'",
-        "source": "뉴데일리",
-        "summary": "대전은 하나·강원은 신한·부산은 국민 … 은행 점포지도에 새겨진 'M&A 역사' 뉴데일리",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZSFdIb0lGREZud0RzRlk1cVRPSHdfRXoxWnNEWDdMbER1d1R1YzdxbTAwell2Sm9WZGVFakxzaFhTM1RNcEhYcWVJOGFvVTBtX2x6cHVWcDludmc5bWlUNVhBNnl5TjNMQjBHNDR6SllQRlhFbE5rN3l1d9IBgAFBVV95cUxOLVkyRnFTd0ZENF81TUNTX3N2UndwSTE5R3M0Vll0WllnYkxoV2JaTWlsdTBmQkdxUzNNX2tZQ3NwaUJfNm5jTzV1ZVRqZGJwOXNVaEF6dVFGT0dJTVZRbTBFblAydGQ2anJCRU9UMkRwNUFCaE10VDNtT3FjbDkxWQ?oc=5",
-        "published": "2026-08-20T11:07:15+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "4191075f5267",
-        "title": "신한은행, 인도네시아 발리·말랑 지점 폐쇄",
-        "source": "PRESS9",
-        "summary": "신한은행, 인도네시아 발리·말랑 지점 폐쇄 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zRWoyQk5ibmw5QmtrZEU2TWY5R0t6RHNyU3VWTmY2Y2FGSXBKMHB0V2tIbmtib3pYcUdYYV9tUVlWYXhfSTBYTFphQVF0V1gyZ0VNWHZ6X045dzdFa2JxWWxYaDY2dw?oc=5",
-        "published": "2026-08-19T16:55:40+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
         "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "072adfcba071",
-        "title": "신한은행, ‘인천시 금고 20년’ 안정적 시스템 강점…수성전 돌입",
-        "source": "경기일보",
-        "summary": "신한은행, ‘인천시 금고 20년’ 안정적 시스템 강점…수성전 돌입 경기일보",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLRXVUYnFuektna3o4UGEzbF9IOTFPYUZxTHE3blhZMDFUV29xMDVCTUJzSWtjTkYycUtMeFFEV1hkMXNNYmt0UmFjbHNmSTRZUDdsR1JoRUJyajA?oc=5",
-        "published": "2026-08-19T16:46:00+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "3ee77ec1c084",
-        "title": "왕혜경씨 신한은행 지점장 발령",
-        "source": "미주중앙일보",
-        "summary": "왕혜경씨 신한은행 지점장 발령 미주중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ibDlEaGluOTVJa3ZzRXY4X3lPdXI2SnQ1MW5mMlhYMVB3dUJ0bmVvSUpmXzYxbWRleGJUODZVVDF5eC1WN0x1QUFEZUQyQlEtcXNEMV9hcGtna2t3VHVMTFBR?oc=5",
-        "published": "2026-08-19T12:23:00+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
