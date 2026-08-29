@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-08-29T12:20:05.923307+09:00",
+  "updated_at": "2026-08-30T08:35:52.686479+09:00",
   "items": [
+    {
+      "id": "c88bbc5f2b62",
+      "title": "광주, 역세권2 “LH 수용 결사반대”",
+      "source": "시티뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9RaDVqQk1JSTJ0ZmhteTg2c0o1Y2FtRE1CV0FLaGxDY1dubXgzV2NXZkhYS05sRnh4cXBVMkY2bXN5UkUt?oc=5",
+      "published": "2026-08-29T13:53:00+09:00",
+      "date": "2026-08-29",
+      "query": "LH 지구지정"
+    },
     {
       "id": "f8b6637fb33c",
       "title": "빈홈즈, 1,100ha 규모 대형 신도시 착공…총사업비 145조 동",
@@ -29,22 +38,13 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "e0cad62d7319",
-      "title": "수도권 23만가구 짓는데...과연 집값 잡을까 [김경민의 부동산NOW]",
-      "source": "매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5wY0g5YkdhaUE2ZjR1VkFYSktFTUV4aGtKaEhHdmtBWjFYNUJmY1NQUERjT2NjY0JNalFQUGxNaWxJeXBNdVE?oc=5",
-      "published": "2026-08-28T15:46:21+09:00",
+      "id": "c4c888def286",
+      "title": "용인 반도체 산단 3GW LNG발전 추진…기후장관, 주민 우려에 현장점검",
+      "source": "아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXR1dRUENyanRIVEp4OXpjQTdBd1pBaVJlNVZfeEVtNmlCbEZTQV8zdTNNcFpBeTVjWFQ0Qm1oN1Y1ZFRrVmNpVGRTWmRlbzhfa3NtNF9ESW1ZUdIBWEFVX3lxTE1NMlNnZ2tKZDYwc0xfMUgwMkc2THB2bkdrSUw4emc5M3pCN3lPLVhJMVFRSE44M2l3bDE0VkZtUVJwaEUxSnVaaFVpeTZGLWwweG9OajZfVDU?oc=5",
+      "published": "2026-08-28T16:00:00+09:00",
       "date": "2026-08-28",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "7c2879e159fd",
-      "title": "홈플러스 가양점 부지에 아파트…강서 준공업지 개발 속도",
-      "source": "네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nVkloX0E0Ymptd1Q1Zkpfd0g3ODlxU2Q0dnlEbFQ5cERWc0dTak5UWW1mdXVJeUpUU3luQTdaRDhLN2NlSGE1V1Rzc1MzWVdFeEdB?oc=5",
-      "published": "2026-08-28T11:42:00+09:00",
-      "date": "2026-08-28",
-      "query": "복합개발 지구단위계획"
+      "query": "반도체 국가산단"
     },
     {
       "id": "97320c427923",
@@ -52,6 +52,15 @@
       "source": "대한행정사회신문",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Cazl1SHRCbGE4LXB5a2Rua2g0VjJBWEJfQzhIZjlZNmktZUVReU9oSDdsdWxLenVXTldsVUxGdkNDTFpHM2RpV3duZFZuVTVieW50NEhyQjl0QQ?oc=5",
       "published": "2026-08-28T11:20:01+09:00",
+      "date": "2026-08-28",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "0bcea678d571",
+      "title": "홈플러스·이마트·CJ공장까지 주택으로…강서 준공업지역 개발 ‘속도’ [부동산360]",
+      "source": "헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3bklYdTJCV21JQUlqdWplQU9KYm5xSWtJLTg3V25vU2JpQkdITGEzNndJZ2k0QXRqeVpuYnRaeWRBNmR5VzZnWlFIQ3V4YjhORzgtM1pn?oc=5",
+      "published": "2026-08-28T09:57:30+09:00",
       "date": "2026-08-28",
       "query": "복합개발 지구단위계획"
     },
@@ -83,11 +92,11 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "8f210008cd85",
+      "id": "4a83d5ccadef",
       "title": "부산진구, 개금본동지구 도시재생활성화계획 변경 주민공청회 개최",
       "source": "LG헬로비전",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84M3NrU3RaLTRUZnY5TnVwczdvcXZqZ0ZiMTFjbkh0Z2Z3RzRObHZEX0FjTmI1RjdmN1BBMEJEUUdzNUZ5NF85ZDRqbEZCcDJSY2t4YWNMdWRlM2NKLWgtVEp0SS1JempjMnJ1MWQ0UmdWSEx1dmfSAXZBVV95cUxPODNza1N0Wi00VGZ2OU51cHM3b3F2amdGYjExY25IdGdmd0c0Tmx2RF9BY05iNUY3ZjdQQTBCRFFHczVGeTRfOWQ0amxGQnAyUmNreGFjTHVkZTNjSi1oLVRKdEktSXpqYzJydTFkNFJnVkhMdXZn?oc=5",
-      "published": "2026-08-27T17:00:23+09:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA5MnllQWxKQnJGOXdWNnZzTldheEJMMExJWFAxUjVxWGNLd0pERzFrc3pDbk85Y3BVLVJCVUplQUxmVnhnNzRDQl90NFFZUXFYb3hzU0w1TzhuS0FYUGxxLXM5ZGl0a0VNLUJvNVctNjctUdIBdkFVX3lxTE84M3NrU3RaLTRUZnY5TnVwczdvcXZqZ0ZiMTFjbkh0Z2Z3RzRObHZEX0FjTmI1RjdmN1BBMEJEUUdzNUZ5NF85ZDRqbEZCcDJSY2t4YWNMdWRlM2NKLWgtVEp0SS1JempjMnJ1MWQ0UmdWSEx1dmc?oc=5",
+      "published": "2026-08-27T16:41:15+09:00",
       "date": "2026-08-27",
       "query": "도시재생 활성화계획"
     },
@@ -99,15 +108,6 @@
       "published": "2026-08-27T11:08:00+09:00",
       "date": "2026-08-27",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "168b9c4f2f67",
-      "title": "아산 탕정2지구 100만평, 부지공사 다음달 착공",
-      "source": "쿠키뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kYWJOeGk5dVB0UUY3OENLT1RIaGkyWWlseXdUaUhYeUpMUGxGN25VRlF4bWg3dmpsUGtQd3M4RlNXLWRDQW1kQXVwcldNbnZsN2pBUFlkM3VwSm9uMEQ5WEJHNA?oc=5",
-      "published": "2026-08-27T10:24:59+09:00",
-      "date": "2026-08-27",
-      "query": "신도시 착공"
     },
     {
       "id": "9a3582d5c6bb",
@@ -128,12 +128,12 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "1096f84284d8",
-      "title": "반도체산단 용수 공급 사업 집중 점검",
-      "source": "브릿지경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1c0JHTVZXdF8teFlXbUxEM3J1cThkR200RnRUaDVKcHQyYURFOFVKZ3FkUHNsN0JBdGJMczJCbzdMZnpXbXRQMUVpZVJHYjJHZVBzanF4VXlEQQ?oc=5",
-      "published": "2026-08-26T15:02:00+09:00",
-      "date": "2026-08-26",
+      "id": "c9d87220363e",
+      "title": "용인특례시, 반도체 산단 전력·용수 공급 차질 방지 요청",
+      "source": "오늘경제",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vVzNEYkNLWDRkcjhpN1IzeWRFSGVHU1hIQldXVjd0UHAyckxPSEtLVkRQWElRVHlmYWZWR0xaaEY3MVJ1c1VNRnhMZDZ6SVBTOWJDY2ZrNDNjRXJWb0JubGFTZDdTQ1AxT0dDRGUtRmVOVkU?oc=5",
+      "published": "2026-08-27T04:32:37+09:00",
+      "date": "2026-08-27",
       "query": "반도체 국가산단"
     }
   ]
