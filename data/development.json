@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-08-30T08:35:52.686479+09:00",
+  "updated_at": "2026-08-31T08:47:50.855697+09:00",
   "items": [
+    {
+      "id": "baa548a64d03",
+      "title": "강동구 명일동 상업지역 높이·용적률 상향해 신 생활중심지로 도약 > 뉴스",
+      "source": "더코리아",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14eHZKNlNTczlFdVNIT0R0bXVKQXlBZjRYUlYyUlh4alV0X3lUc0Q3bzU5Vi1LZTl0SHE3Z2JzZU9xYmhLd1h3QlVqQi1ET2dENnpackMwS3hUb3plcmJsVEtmdjJKZGowaUVOUG1zeGQ?oc=5",
+      "published": "2026-08-30T23:48:00+09:00",
+      "date": "2026-08-30",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "7294ee5f6e06",
+      "title": "인천 작전역세권 도시재생 혁신지구 지정될 수 있을까",
+      "source": "경기신문",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1pRE1fMkNlRjFfbm5ONWFBOElKeG0wVmZvOEFUTmRJUFN5aC1nZDZVM1FRY0dvNTJCb2hGUmNpbmRILUxpVEpqcmtsMHBUbUJ4YW5JT2hHRktzdmJ1QWNJSk5n?oc=5",
+      "published": "2026-08-30T15:01:59+09:00",
+      "date": "2026-08-30",
+      "query": "도시재생 활성화계획"
+    },
     {
       "id": "c88bbc5f2b62",
       "title": "광주, 역세권2 “LH 수용 결사반대”",
@@ -20,6 +38,24 @@
       "query": "신도시 착공"
     },
     {
+      "id": "eb8da4b88d17",
+      "title": "호남반도체, 부지 난제 풀리고 지원책도 '착착'…2030 양산 속도",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKWUZZN0lINjhoLWFHZHRKQXVwMkVkdkwybml0Y2xHWDd3Tk9oaVBBYUZjcUN0Mll3VXg1QUtQdjNlWW9GYWlWaDhJaTRzWHpvNnBYVktsV2NuQUFuZ056d9IBYEFVX3lxTFBKWUZZN0lINjhoLWFHZHRKQXVwMkVkdkwybml0Y2xHWDd3Tk9oaVBBYUZjcUN0Mll3VXg1QUtQdjNlWW9GYWlWaDhJaTRzWHpvNnBYVktsV2NuQUFuZ056dw?oc=5",
+      "published": "2026-08-28T18:17:17+09:00",
+      "date": "2026-08-28",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "223dc329c36a",
+      "title": "광주 군공항 이전후보지 ‘무안 망운’ 확정···반도체 클러스터 조성 ´속도´",
+      "source": "무등일보",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE43bHVKSDc2SkxJOVdCV3F4Y1ZZVTBFQm1FeGRfcWR5WC0yRThCS3R1VW5Bb2RqaE5BZlNyR2RmMGVjLXd6ZmVYYi1XcGI?oc=5",
+      "published": "2026-08-28T18:08:00+09:00",
+      "date": "2026-08-28",
+      "query": "반도체 국가산단"
+    },
+    {
       "id": "b6a38a361851",
       "title": "LH엔 ‘보상 총괄’, 주민은 5년째 희망고문…지제역세권 보상 시계 멈췄다",
       "source": "OBC 뉴스",
@@ -29,20 +65,11 @@
       "query": "LH 지구지정"
     },
     {
-      "id": "010e92e03523",
-      "title": "용인 반도체 산단 환경적 우려⋯기후장관 \"주민과 합리적 상생 찾을 것\"",
-      "source": "이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WaTN1UUM5em9lU3RhM1hWZzRna0FXSk5nVE5fV0Y1QmVqT2dGWjg2Qk9QTVc2ZUNZZldraVRrVF9PLTlndWtLUUttWmJJOU9GNWF3dA?oc=5",
-      "published": "2026-08-28T16:00:00+09:00",
-      "date": "2026-08-28",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "c4c888def286",
-      "title": "용인 반도체 산단 3GW LNG발전 추진…기후장관, 주민 우려에 현장점검",
-      "source": "아주경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXR1dRUENyanRIVEp4OXpjQTdBd1pBaVJlNVZfeEVtNmlCbEZTQV8zdTNNcFpBeTVjWFQ0Qm1oN1Y1ZFRrVmNpVGRTWmRlbzhfa3NtNF9ESW1ZUdIBWEFVX3lxTE1NMlNnZ2tKZDYwc0xfMUgwMkc2THB2bkdrSUw4emc5M3pCN3lPLVhJMVFRSE44M2l3bDE0VkZtUVJwaEUxSnVaaFVpeTZGLWwweG9OajZfVDU?oc=5",
-      "published": "2026-08-28T16:00:00+09:00",
+      "id": "0ff90659f62f",
+      "title": "김성환 기후장관, 용인 반도체 산단 현장점검…주민 우려 청취",
+      "source": "전기신문",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IN214d1pZQVFBMHhMOXFpdUh1eHhZQ2RGNHE4NVFranJjakR2RzJsV1RFMV9GNTNnbm1zcThzVnpNVFhGeEFuLVNHcnllYzFOTGg3bGRZcUNYSDdic2xITENRNlZpYTcwNUN3cVlHZC3SAXBBVV95cUxNSDdteHdaWUFRQTB4TDlxaXVIdXh4WUNkRjRxODVRa2pyY2pEdkcybFdURTFfRjUzZ25tc3E4c1Z6TVRYRnhBbi1TR3J5ZWMxTkxoN2xkWXFDWEg3YnNsSExDUTZWaWE3MDVDd3FZR2Qt?oc=5",
+      "published": "2026-08-28T16:13:36+09:00",
       "date": "2026-08-28",
       "query": "반도체 국가산단"
     },
@@ -83,13 +110,13 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "8d09f26ee3c7",
-      "title": "철도공단, 경의선 DMC역 복합개발 사업자 공모",
-      "source": "철도경제신문",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FWW9QdGhQZWN1a0UxRzlwNm5jNTQ3ODJjdm5tQ0dpZTZrajR6WHlnTTBpdE1aUjJBTndRRGpqVWRYTGk0SGd3bmF6UUxla19UamI3ZFpqTFhqR2JKU0pkS2p0TVk2NUpaNDBr?oc=5",
-      "published": "2026-08-27T19:12:12+09:00",
+      "id": "0c76897287a4",
+      "title": "이상일 용인특례시장, 정부에 용인 반도체 산단 조기 가동 위한 적극 지원 요청",
+      "source": "세계환경신문",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UR0pValU5OEFoRktBQl9yMUE3ZWUyX0xqS3YxNXlhWDdnZVRFOGh3UGNEYmRVQXlMN1UtaDd3TllGa0JXX2MzOHVMVWdvcVp0cVRsbTNKYVFfLVZLd3M4?oc=5",
+      "published": "2026-08-27T21:22:07+09:00",
       "date": "2026-08-27",
-      "query": "복합개발 지구단위계획"
+      "query": "반도체 국가산단"
     },
     {
       "id": "4a83d5ccadef",
@@ -101,38 +128,11 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "d06c64113f5a",
+      "id": "9644f62dfa9d",
       "title": "이상일 용인특례시장, ‘용인 반도체 국가산단·일반산단 가동, 필요한 전력·용수 공급 적기에 이뤄져야’",
-      "source": "인천일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52LXhjaDFUd2ZhT2JpU1ZUS0FvX0xfdUdGS3BIS2NwVmZ1MW9reDRSbDdrUk1VWmNrMlVPRTZDVkFfRzNfY0VlRjBOMXRwMGtIbkc1bEl6emJ4QzhucVdaS3NCQ283N0FlQ3NaRGFjVzM?oc=5",
-      "published": "2026-08-27T11:08:00+09:00",
-      "date": "2026-08-27",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "9a3582d5c6bb",
-      "title": "[심층분석]3기 신도시 첫 입주 앞둔 계양, ‘공급 속도전’의 시험대…민간분양까지 주택 공급축 넓힌다",
-      "source": "뉴스밸류",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUVFBLa1dGRTJyeXU0eFk4QjFxdFNBd0lEWjI4UVA3aTkzYVVwV2hPd25RNDFiMmpTSFNDUkNiZGNkUjQteXpZel95S1ZOd0ZPNWF4YzVEc0xKdDJrSVBSdS1nbUtGZkFTcFE?oc=5",
-      "published": "2026-08-27T08:30:00+09:00",
-      "date": "2026-08-27",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "84de427be78a",
-      "title": "이상일 용인특례시장, 용인 반도체 산단 전력·용수 공급 역할 촉구",
-      "source": "매일일보",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NYlFQbXVQUDBBRDYzQUVjckF0d1FBY2lJRTd5M1c1SFFWd1lwenM4dFdCdXlXalpQVmlWUS1XdlFvckxXQ1FvaGhVV2xIbll0TjhOQUdqMEQyRUZ6bGJ4U2RPckU?oc=5",
-      "published": "2026-08-27T08:26:59+09:00",
-      "date": "2026-08-27",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "c9d87220363e",
-      "title": "용인특례시, 반도체 산단 전력·용수 공급 차질 방지 요청",
-      "source": "오늘경제",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vVzNEYkNLWDRkcjhpN1IzeWRFSGVHU1hIQldXVjd0UHAyckxPSEtLVkRQWElRVHlmYWZWR0xaaEY3MVJ1c1VNRnhMZDZ6SVBTOWJDY2ZrNDNjRXJWb0JubGFTZDdTQ1AxT0dDRGUtRmVOVkU?oc=5",
-      "published": "2026-08-27T04:32:37+09:00",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QbHdoUTZROEpXY2J1ZUpvWmV4eGV5c3prcGRsYk1OMGR3aXY4cE5udUUxVF9PRktKY2ZiZW1nSFZRWHJyUFRoMTFGYnU3S1ItR3VPYg?oc=5",
+      "published": "2026-08-27T11:15:02+09:00",
       "date": "2026-08-27",
       "query": "반도체 국가산단"
     }

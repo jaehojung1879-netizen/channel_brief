@@ -1,70 +1,71 @@
 {
-  "updated_at": "2026-08-30T08:34:31.421532+09:00",
+  "updated_at": "2026-08-31T08:46:19.852800+09:00",
   "headline": {
-    "id": "3c9c779af09a",
-    "title": "\"영업점도 ‘배움터’로\"…하나은행, 금융문해교육 공로 교육부장관 표창 |",
-    "source": "AP신문",
-    "summary": "\"영업점도 ‘배움터’로\"…하나은행, 금융문해교육 공로 교육부장관 표창 | AP신문",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rZE1XdmViRDZIWXV2aDI5aVU3UlQ4dE1DTnRVemVERnRMcENKdVlVaGo2VHpYeGF2RFBOcUd4NkRIQXZ5ZFJ3Y0NaZTlSd0hMVGR4T3RvZTBrbmFfT3FuelQzTnhGcWxRTm8zTA?oc=5",
-    "published": "2026-08-29T20:19:32+09:00",
-    "query": "은행 영업점",
+    "id": "45cb83b10afb",
+    "title": "“일반투자자에 전문투자자 등록 권유했나”…금감원, 9월 미래에셋증권 거점점포 검사",
+    "source": "문화일보",
+    "summary": "“일반투자자에 전문투자자 등록 권유했나”…금감원, 9월 미래에셋증권 거점점포 검사 문화일보",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5IU3lGTnlYQzludUJDeFdmdVI4ZnlxMEtmU0NKUUlwUW1FTUFfSENkXzh1RzB1TlMwMnB6ZEZHanNDTzdabndiS0ktRzRWOVc2?oc=5",
+    "published": "2026-08-30T23:17:48+09:00",
+    "query": "금감원 점포",
     "engine": "google",
-    "rank": 2,
-    "_score": 10.0,
+    "rank": 1,
+    "_score": 15.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "3ad81758fcd4",
-        "title": "은행권, 점포 줄이고 상담은 강화…WM·대출 중심으로 영업망 재편",
-        "source": "데일리한국",
-        "summary": "은행권, 점포 줄이고 상담은 강화…WM·대출 중심으로 영업망 재편 데일리한국",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54VDNlelVYSjN0S2NLcnVxNDVVSjJQVDMtcXpZRm9Fb1lZM2dSeFBHM2tvZkpuTlJkb2N3S2VqX0tNSXp5eFlUX2djcTBka1J4UktuN1VLa1RaQXItRjM1YkJBWF9iVjRxMjBraWRBZ9IBc0FVX3lxTE5BSGpvWEVYUWhlb3VCcE5VVWlYS0Z2N2Y4eEZxcmgwNDJFaUlBVXNYN3dIUkJYY0lyb2dHdDJjMllYUEJxQV9PSHFWdHlwTTZpV2UtMDRwSGVZR3g4cE5jMG9CUkZJN3liVURtZFFfMkgtZG8?oc=5",
-        "published": "2026-08-29T09:00:00+09:00",
+        "id": "19f901e579e0",
+        "title": "은행 지점 줄이자 더 좁아진 취업문…대세는 ‘핀셋 채용’",
+        "source": "서울신문",
+        "summary": "은행 지점 줄이자 더 좁아진 취업문…대세는 ‘핀셋 채용’ 서울신문",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiNmRMOVZGSkpmV1dIeGZrYzgyanVEa3VsWGpsNE1rSWFzeGRTcWtwZ0Mta216X3VwcFNIWl9GMVZuUEtKRFdvWVZwZHZLcVMwWUtTUkV5U2dxMEVXT251X3U1UXVUUDlSbS1Zb3hlbW4yMkFJM3VESzNB?oc=5",
+        "published": "2026-08-30T23:12:59+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "5e7940d06833",
-        "title": "NH농협은행 '영업점 100곳'에 AI 안면인증 단말기 시범 도입",
-        "source": "세이프머니",
-        "summary": "NH농협은행 '영업점 100곳'에 AI 안면인증 단말기 시범 도입 세이프머니",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBNUx1TVRqMmJWa2VRYmVqdUEtazQyU0owTkduNGdqcmdyY3NKQTBaMmdnVmZCNFNoZjhPajltZ3BndlRMenM1bGI5dmh1WG10YVZYZFFfRHdmODBDaXhzN2RTZmxlM3lhT3VuakVn?oc=5",
-        "published": "2026-08-25T16:52:25+09:00",
+        "id": "1da766e6e455",
+        "title": "\"영업점도 ‘배움터’로\"…하나은행, 금융문해교육 공로 교육부장관 표창",
+        "source": "AP신문",
+        "summary": "\"영업점도 ‘배움터’로\"…하나은행, 금융문해교육 공로 교육부장관 표창 AP신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LM1RRQkZBUzdoeVVCcHNnMTZRdDZ1NlZ1T1c3b3hJQXRLdzV1TkVrSGFGeVVRRjlEUGMwMmF1dms4bExOb1NtRkgwaFNNY2lrZlJ0SGl1MmZlZzdKWkVJVGo4R1Jla2s5?oc=5",
+        "published": "2026-08-29T19:43:44+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 13,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "4aa88fa486ab",
-        "title": "영업점 방문없이‘One-Stop’대출 Sh수협은행, 신용보증기금과 비대면‧디지털 금융활성화 협약 체결",
-        "source": "dhns.co.kr",
-        "summary": "영업점 방문없이‘One-Stop’대출 Sh수협은행, 신용보증기금과 비대면‧디지털 금융활성화 협약 체결 dhns.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zX0lZRE1TQXVMbkgxRGU4alJYNm1XaVZLQ3hJQk9KUU5CbnVlM3FtNFpUamtWVFNDUXVWZjgwNGpVUm1QV2xKbTBLWVNGWmpRNjNhUTJlUlFGQ3BIckk2cTJ4YjBndUk?oc=5",
-        "published": "2026-08-25T15:56:22+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 16,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "9a3abe75fc86",
-        "title": "수협은행-신보, 영업점 방문 없는 ‘원스톱’ 대출 맞손",
-        "source": "디지털데일리",
-        "summary": "수협은행-신보, 영업점 방문 없는 ‘원스톱’ 대출 맞손 디지털데일리",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2ZDhVVzJaOW0tZExuRXBpTlhSM2YyZEhLWnJ4b0RyNk8yMmN2ZHV0ZkVLQXhpV0N6NmkyemRuZERFV2x6ODUyREpaeDgtWXE3Vmw0dFdRNGthTFpSY1FrVGdVSks?oc=5",
-        "published": "2026-08-25T10:36:04+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 14,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": [],
+    "policy_news": [
+      {
+        "id": "45143f0531ac",
+        "title": "금감원, 미래에셋 거점점포 검사…스페이스X '0주' 초점",
+        "source": "네이트",
+        "summary": "금감원, 미래에셋 거점점포 검사…스페이스X '0주' 초점 네이트",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91YWEwblRidDFNVFUzOFBRR2hobE9SVEFoUkVZQ3R0aEhrRjlpNjBadDhGR2ZpaHhWcUxvbTZnNFVEQ3dLSHpBVzFHZlBhRE81eFNaVFlOenlNdjNRNHV3ZFRqOXY5bmp1LVRCQzN4aXpkQmdveFNsVQ?oc=5",
+        "published": "2026-08-30T23:00:00+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "29065976eca8",
+        "title": "금감원, 미래에셋증권 거점점포 고강도 검사…스페이스X 영업행태 점검",
+        "source": "딜라이트닷넷",
+        "summary": "금감원, 미래에셋증권 거점점포 고강도 검사…스페이스X 영업행태 점검 딜라이트닷넷",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OVEllclhmN0s0Q05kSjZCbUJFbWp2VFV2V0oyUzQ5LUFHNk9iX1E1ZjNiR3lMcW1LbXBfb2NIZEdCQTFMQk8wYlJHRjZjWjV6b0VPUDZHMzlWVi1MSW5CYi1FaFBlOG5fNHA4TE1R0gFyQVVfeXFMTlczUWFqa2ZGUm02OGE5dXR3NTJBRkh3OUJJNDJPbE9NeExFcWU2TVZTMW5nek5LODJaSU4xb0hWVmoyQlg2YjViTVZLNUdCSHlPYk5CQkZYUE1xUE01Z1IxVGotYUlWZ3dSc01selM0UUVn?oc=5",
+        "published": "2026-08-30T15:40:03+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 11,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ],
     "shinhan_news": [
       {
         "id": "28ef39081243",
@@ -87,7 +88,7 @@
         "published": "2026-08-27T12:49:33+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
