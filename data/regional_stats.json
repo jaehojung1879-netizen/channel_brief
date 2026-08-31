@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-24T11:55:53+09:00",
+  "as_of": "2026-08-31T10:08:07+09:00",
   "regions": {
     "강원 강릉시": {
       "sido": "강원",
@@ -18,7 +18,7 @@
           "income_pct": null,
           "market_pct": 42.9,
           "market_source": "population",
-          "branch_density_pct": 43.3
+          "branch_density_pct": 43.8
         },
         "weights": {
           "businesses": 0.45,
@@ -477,7 +477,7 @@
           "income_pct": null,
           "market_pct": 13.6,
           "market_source": "population",
-          "branch_density_pct": 43.8
+          "branch_density_pct": 44.2
         },
         "weights": {
           "businesses": 0.45,
@@ -558,7 +558,7 @@
           "income_pct": null,
           "market_pct": 37.4,
           "market_source": "population",
-          "branch_density_pct": 44.2
+          "branch_density_pct": 44.7
         },
         "weights": {
           "businesses": 0.45,
@@ -733,7 +733,7 @@
     "경기 부천시 원미구": {
       "sido": "경기",
       "sigungu": "부천시 원미구",
-      "branch_count": 27,
+      "branch_count": 26,
       "population": {
         "value": 754851,
         "period": "202607",
@@ -747,7 +747,7 @@
           "income_pct": null,
           "market_pct": 87.4,
           "market_source": "population",
-          "branch_density_pct": 88.5
+          "branch_density_pct": 87.5
         },
         "weights": {
           "businesses": 0.45,
@@ -1233,7 +1233,7 @@
           "income_pct": null,
           "market_pct": 48.0,
           "market_source": "population",
-          "branch_density_pct": 44.7
+          "branch_density_pct": 45.2
         },
         "weights": {
           "businesses": 0.45,
@@ -1395,7 +1395,7 @@
           "income_pct": null,
           "market_pct": 45.5,
           "market_source": "population",
-          "branch_density_pct": 45.2
+          "branch_density_pct": 45.7
         },
         "weights": {
           "businesses": 0.45,
@@ -1476,7 +1476,7 @@
           "income_pct": null,
           "market_pct": 32.8,
           "market_source": "population",
-          "branch_density_pct": 45.7
+          "branch_density_pct": 46.2
         },
         "weights": {
           "businesses": 0.45,
@@ -1624,7 +1624,7 @@
     "경남 거제시": {
       "sido": "경남",
       "sigungu": "거제시",
-      "branch_count": 7,
+      "branch_count": 6,
       "population": {
         "value": 228893,
         "period": "202607",
@@ -1638,7 +1638,7 @@
           "income_pct": null,
           "market_pct": 46.0,
           "market_source": "population",
-          "branch_density_pct": 46.2
+          "branch_density_pct": 36.5
         },
         "weights": {
           "businesses": 0.45,
@@ -1989,7 +1989,7 @@
           "income_pct": null,
           "market_pct": 49.0,
           "market_source": "population",
-          "branch_density_pct": 36.5
+          "branch_density_pct": 37.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2016,7 +2016,7 @@
           "income_pct": null,
           "market_pct": 46.5,
           "market_source": "population",
-          "branch_density_pct": 37.0
+          "branch_density_pct": 37.5
         },
         "weights": {
           "businesses": 0.45,
@@ -2070,7 +2070,7 @@
           "income_pct": null,
           "market_pct": 31.3,
           "market_source": "population",
-          "branch_density_pct": 37.5
+          "branch_density_pct": 38.0
         },
         "weights": {
           "businesses": 0.45,
@@ -2340,7 +2340,7 @@
           "income_pct": null,
           "market_pct": 39.4,
           "market_source": "population",
-          "branch_density_pct": 38.0
+          "branch_density_pct": 38.5
         },
         "weights": {
           "businesses": 0.45,
@@ -2799,7 +2799,7 @@
           "income_pct": null,
           "market_pct": 36.4,
           "market_source": "population",
-          "branch_density_pct": 38.5
+          "branch_density_pct": 38.9
         },
         "weights": {
           "businesses": 0.45,
@@ -3474,7 +3474,7 @@
           "income_pct": null,
           "market_pct": 63.1,
           "market_source": "population",
-          "branch_density_pct": 87.5
+          "branch_density_pct": 88.0
         },
         "weights": {
           "businesses": 0.45,
@@ -3744,7 +3744,7 @@
           "income_pct": null,
           "market_pct": 73.7,
           "market_source": "population",
-          "branch_density_pct": 88.0
+          "branch_density_pct": 88.5
         },
         "weights": {
           "businesses": 0.45,
@@ -4069,7 +4069,7 @@
           "income_pct": null,
           "market_pct": 24.7,
           "market_source": "population",
-          "branch_density_pct": 38.9
+          "branch_density_pct": 39.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4096,7 +4096,7 @@
           "income_pct": null,
           "market_pct": 70.7,
           "market_source": "population",
-          "branch_density_pct": 39.4
+          "branch_density_pct": 39.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4123,7 +4123,7 @@
           "income_pct": null,
           "market_pct": 44.4,
           "market_source": "population",
-          "branch_density_pct": 39.9
+          "branch_density_pct": 40.4
         },
         "weights": {
           "businesses": 0.45,
@@ -4150,7 +4150,7 @@
           "income_pct": null,
           "market_pct": 29.8,
           "market_source": "population",
-          "branch_density_pct": 40.4
+          "branch_density_pct": 40.9
         },
         "weights": {
           "businesses": 0.45,
@@ -4501,7 +4501,7 @@
           "income_pct": null,
           "market_pct": 41.4,
           "market_source": "population",
-          "branch_density_pct": 40.9
+          "branch_density_pct": 41.3
         },
         "weights": {
           "businesses": 0.45,
@@ -4771,7 +4771,7 @@
           "income_pct": null,
           "market_pct": 83.8,
           "market_source": "population",
-          "branch_density_pct": 41.3
+          "branch_density_pct": 41.8
         },
         "weights": {
           "businesses": 0.45,
@@ -4987,7 +4987,7 @@
           "income_pct": null,
           "market_pct": 25.8,
           "market_source": "population",
-          "branch_density_pct": 41.8
+          "branch_density_pct": 42.3
         },
         "weights": {
           "businesses": 0.45,
@@ -5095,7 +5095,7 @@
           "income_pct": null,
           "market_pct": 35.4,
           "market_source": "population",
-          "branch_density_pct": 42.3
+          "branch_density_pct": 42.8
         },
         "weights": {
           "businesses": 0.45,
@@ -5365,7 +5365,7 @@
           "income_pct": null,
           "market_pct": 30.8,
           "market_source": "population",
-          "branch_density_pct": 42.8
+          "branch_density_pct": 43.3
         },
         "weights": {
           "businesses": 0.45,
@@ -5566,13 +5566,18 @@
     }
   },
   "diagnostics": {
-    "source": "r_one",
-    "kosis_key": "skip",
-    "r_one_key": "set",
+    "source": "kosis",
+    "kosis_key": "set",
+    "r_one_key": "skip",
     "region_count": 209,
-    "seoul_key": "skip",
-    "population_ok": 199,
-    "population_fail": 10,
+    "seoul_key": "set",
+    "kosis_pop_error": "kosis_pop_request_failed: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/Param/statisticsParameterData.do?orgId=101&tblId=DT_1B040A3&itmId=T20&objL1=ALL&format=json&jsonVD=Y&prdSe=M&newEstPrdCnt=1&apiKey=NzcxNjE3ODE1YmMwZjI3YTJmNWFlN2ZiZmMwMTFjNzA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='kosis.kr', port=443) at 0x7f8285a3db10>, 'Connection to kosis.kr timed out. (connect timeout=60)'))\"))",
+    "kosis_biz_error": "kosis_biz_request_failed: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/Param/statisticsParameterData.do?orgId=101&tblId=DT_1K52001&itmId=T01&objL1=ALL&format=json&jsonVD=Y&prdSe=Y&newEstPrdCnt=1&apiKey=NzcxNjE3ODE1YmMwZjI3YTJmNWFlN2ZiZmMwMTFjNzA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='kosis.kr', port=443) at 0x7f8285a3db10>, 'Connection to kosis.kr timed out. (connect timeout=60)'))\"))",
+    "kosis_income_error": "kosis_income_request_failed: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/Param/statisticsParameterData.do?orgId=101&tblId=DT_1L9H001&itmId=T01&objL1=ALL&format=json&jsonVD=Y&prdSe=Y&newEstPrdCnt=1&apiKey=NzcxNjE3ODE1YmMwZjI3YTJmNWFlN2ZiZmMwMTFjNzA%3D (Caused by ConnectTimeoutError(<HTTPSConnection(host='kosis.kr', port=443) at 0x7f8285a44350>, 'Connection to kosis.kr timed out. (connect timeout=60)'))\"))",
+    "seoul_warn": "seoul_init_xml_error: ERROR-332: 요청종료위치 값을 확인하십시오.\n요청인자 중 END_INDEX를 확인하십시오.",
+    "seoul_districts": 0,
+    "population_ok": 0,
+    "population_fail": 209,
     "businesses_ok": 0,
     "businesses_fail": 0,
     "income_ok": 0,
