@@ -1,151 +1,151 @@
 {
-  "updated_at": "2026-09-01T09:48:30.412867+09:00",
+  "updated_at": "2026-09-02T08:34:24.102310+09:00",
   "social_finance": [
     {
-      "id": "3cb342b48f48",
-      "title": "우리은행, 서울 소상공인에 최대 2000만원 운영자금 지원",
-      "source": "Korea IT Times",
-      "summary": "우리은행, 서울 소상공인에 최대 2000만원 운영자금 지원&nbsp;&nbsp;Korea IT Times",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96bDgtT0ZRdFo2S1RVNTFlQmhBZWpjck1yY3BSVmNkQXZiX2NqZWV6V1lQYnp2VVBOazEwMmZRdGVQOWFnRzJnOU5tLU1FNFlTeTBJR2R4bjdtZlRUUDJkYkR6T3FYUUJXTkdDRzQ1RWg?oc=5",
-      "published": "2026-09-01T09:46:09+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "d2b3bbaa93cd",
-      "title": "서부발전, ‘위피봇’에 국산 AI 연동··· 현장 활용성·중소기업 상생 강화",
-      "source": "일렉트릭파워",
-      "summary": "서부발전, ‘위피봇’에 국산 AI 연동··· 현장 활용성·중소기업 상생 강화&nbsp;&nbsp;일렉트릭파워",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZU1A4Tm04eDJacko2bm5uNkdxcEdzczd5Z2xQX1lncHpxa3JTQWEzMFNVSG9XYUM5YnFOS2tTYmU2MENmelBZaFRRWkkxMENSMUNkMzFzeHJKZTM2MTlOalg1Z28?oc=5",
-      "published": "2026-09-01T09:39:00+09:00",
-      "query": "중소기업 상생"
-    },
-    {
-      "id": "aa0a547fa29d",
-      "title": "하나은행, 신용보증재단중앙회와 손잡고 은행권 최초 비대면 보증부 대출 원스톱 서비스 도입",
-      "source": "한국경제",
-      "summary": "하나은행, 신용보증재단중앙회와 손잡고 은행권 최초 비대면 보증부 대출 원스톱 서비스 도입&nbsp;&nbsp;한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12WVcyNXh5OENnWmdyTkV4YnZ0N1lNbUJ3ajI4R0hROWdKQWdVMmw5UFNhU2dPdGxFMFNsWW9pcG43S3NYemN4Nng4UVZkQzUzZUNneGI2cmNVZw?oc=5",
-      "published": "2026-09-01T08:32:27+09:00",
-      "query": "금융접근성"
-    },
-    {
-      "id": "3abd2dc6b5ce",
-      "title": "장민영 기업은행장, “금융취약계층의 든든한 버팀목될 것”",
-      "source": "비즈월드",
-      "summary": "장민영 기업은행장, “금융취약계층의 든든한 버팀목될 것”&nbsp;&nbsp;비즈월드",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44Q3FRV1BYVFZocTNPVEQ4d25oM0xNMkc1T0J1VnZrWlhRb2hvSFJHSm9ISTVLQjc5cUtDRTBKT29rTTFZRjcyQ0hYSjlUMFg3SXlYOXl0UGNGOThMQVpzMmdSVlFNRUhlclE?oc=5",
-      "published": "2026-09-01T08:17:00+09:00",
-      "query": "취약계층 금융"
-    },
-    {
-      "id": "0e61dfed1ba9",
-      "title": "[DQN] 강정훈號 iM뱅크, 600점 이하 차주 금리 0.25%p↓···'선별적' 포용금융 [은행권 금리전략 점검]",
-      "source": "한국금융신문",
-      "summary": "[DQN] 강정훈號 iM뱅크, 600점 이하 차주 금리 0.25%p↓···'선별적' 포용금융 [은행권 금리전략 점검]&nbsp;&nbsp;한국금융신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lNDFQQW1FUU9IdWxaOU5vSERVQ2g1dDcyaGZBRHpkZ0p0NDVyOG9naEZiRHNQdTd5SmVmMUkwa3lYclFjYkxEdVFQMkdJRHVBMWFTRHNaRFYzdDItSXUxVHFKQy0xbXlKQ3g5b3hrWDVOa2ItLUZlUl9IcW4?oc=5",
-      "published": "2026-09-01T07:00:00+09:00",
-      "query": "포용금융"
-    },
-    {
-      "id": "2598ae0622b3",
-      "title": "보험업계, ‘상생금융’ 보험으로 넓힌다…소상공인 100만명에 무료 보장",
-      "source": "보험매일",
-      "summary": "보험업계, ‘상생금융’ 보험으로 넓힌다…소상공인 100만명에 무료 보장&nbsp;&nbsp;보험매일",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pMEpTbUN5VGxTVC1MRlRWX2lKVkY0RFBEV3BEeFVoUGJveV9URy1uOUREazM0bDVoR3BLRVBZbkdkc01fSDhhaVdzVi1SYUZVc3V2YXpWazhxVkxHNFlFajl0dUYtRDh0?oc=5",
-      "published": "2026-09-01T06:42:40+09:00",
-      "query": "상생금융"
-    },
-    {
-      "id": "4f8b7ba5a7a6",
-      "title": "김은경 서민금융진흥원장 “대부업체 먼저 노출하는 포털… ‘사람 살리는 금융’ 동참해야” [세계초대석]",
-      "source": "v.daum.net",
-      "summary": "김은경 서민금융진흥원장 “대부업체 먼저 노출하는 포털… ‘사람 살리는 금융’ 동참해야” [세계초대석]&nbsp;&nbsp;v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zLWVtTXpBU0RkcFhKeFBUZGcxM0F4RzdYVTk2aVdoLWNFNnpuQVdlYTBBZDVaLTNORkFBZHUxOHAxX1VpUUtjemN6S0d2Tms?oc=5",
-      "published": "2026-09-01T06:03:00+09:00",
+      "id": "fa43890597b4",
+      "title": "금융사 서민금융 출연 종료 임박...상시화냐 연장이냐",
+      "source": "디지털투데이",
+      "summary": "금융사 서민금융 출연 종료 임박...상시화냐 연장이냐&nbsp;&nbsp;디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mQlcwOHQ2c1NMZVJ6ZHBXazhWbU1TV1RaMlhpak53VnpfUkZrVHZnSUZwY2VMd0ctWS1zclBrU2lCZlBGWkMzYlc2bTFwOVIyYjZHLTNmTEl2aEFVaERDdXhCaUJac1BNazlTUUh2QjlqMUk?oc=5",
+      "published": "2026-09-02T07:30:00+09:00",
       "query": "서민금융"
     },
     {
-      "id": "81c469ea7874",
-      "title": "소상공인·취약계층 '무료 상생보험'…7개 지자체서 출시",
-      "source": "연합뉴스",
-      "summary": "소상공인·취약계층 '무료 상생보험'…7개 지자체서 출시&nbsp;&nbsp;연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNcnRGZkhaLVdHRl9GSGZKNXM1eUx1d28zeUdTNU1pLXJ4cmJKUElVMVYzRXhVQ2p3eHZMZm83VDV1MDhLZmpBNVo3cU5JalpTUXQtNElKbGJscGp2NFFxMNIBYEFVX3lxTFBNcnRGZkhaLVdHRl9GSGZKNXM1eUx1d28zeUdTNU1pLXJ4cmJKUElVMVYzRXhVQ2p3eHZMZm83VDV1MDhLZmpBNVo3cU5JalpTUXQtNElKbGJscGp2NFFxMA?oc=5",
-      "published": "2026-09-01T06:00:06+09:00",
+      "id": "5a319840c3b0",
+      "title": "[ESG 특집] IBK기업은행, 교육·복지·문화 아우른 따뜻한 금융 실천",
+      "source": "천지일보",
+      "summary": "[ESG 특집] IBK기업은행, 교육·복지·문화 아우른 따뜻한 금융 실천&nbsp;&nbsp;천지일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wUFg3OFgxYVkwUVBJa0lCWGxBZlQ2RmFiZDFKeHhsTlY0UTd6ZURzWFBobmRMeVltUWNOWG9sUS1WcF9xNDR5Y2VtRWpRb1lwWnVrNV96Y1dWRTU3UWVRLUtGaFdmVTZuYnc?oc=5",
+      "published": "2026-09-02T07:00:00+09:00",
       "query": "취약계층 금융"
+    },
+    {
+      "id": "d4aecf406835",
+      "title": "서부발전, ‘위피봇’에 국산 인공지능 연동…현장 활용성,중소기업 상생 강화",
+      "source": "한국전력신문",
+      "summary": "서부발전, ‘위피봇’에 국산 인공지능 연동…현장 활용성,중소기업 상생 강화&nbsp;&nbsp;한국전력신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Pd01ob2ZiaTdFVzlKVDA3VEktWk9QNkphaXdWR2RUa2R0NmNzWGUySHZoUDVfbVo4Q2ljN1V2bDhGVC01WUxrN2hDcmp4UlQtZ3RlcHJUclF0TENIbS1nbDd6eExOdzJ2ZkE?oc=5",
+      "published": "2026-09-01T22:41:43+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "5ca5cfc11e5c",
+      "title": "저축은행중앙회, 전통시장 내 '청년상인 ESG 매장 환경개선' 지원",
+      "source": "todaymild.com",
+      "summary": "저축은행중앙회, 전통시장 내 '청년상인 ESG 매장 환경개선' 지원&nbsp;&nbsp;todaymild.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrRkF6cGZvN042M1FPREdtUXRoaUk5XzREQzl6MU8tQ1VfU1FpMWZnemxhc2ZyVUJCLWZUclhvbkhPUFdNREZfeUtZMGlfak9DLV9ZY1FDclhLZTlVMDhfLWgyX0NRcE5JbEpn?oc=5",
+      "published": "2026-09-01T22:37:00+09:00",
+      "query": "은행 사회공헌"
+    },
+    {
+      "id": "6d44c4f6fafb",
+      "title": "충북도의회 과학경제위원회, ‘금융취약계층 지원을 위한 자치단체 역할 정책토론회’ 개최",
+      "source": "이뉴스투데이",
+      "summary": "충북도의회 과학경제위원회, ‘금융취약계층 지원을 위한 자치단체 역할 정책토론회’ 개최&nbsp;&nbsp;이뉴스투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLQzZVOGRSc0FweFAzYl9IWU44c0lfWjVMVDNnTlJhSVFPU1RmXzk4NjY3elFIU0dNaGNvLV84YThnbDlTUERUMVhGZU95NEJsbmN5N3dBVVFDaUIxa055eW12Y3haMzRsSDFlQjJLalrSAXRBVV95cUxOR3R0N0lYRmJ1SDV4X05iMFdGQUVQMzdVdnlGVXpiU21qUkpjWDJnUG41N25kdV9hamZiMVRrRG5pd3c0ZUsySzU1SEMxNUFpcFBzeXVwem95M1k1bjVyT0d6Z0Qzd0VJYk5oQ3FDd1RkbTlXVw?oc=5",
+      "published": "2026-09-01T21:45:00+09:00",
+      "query": "취약계층 금융"
+    },
+    {
+      "id": "4370d65862fd",
+      "title": "경주시, 중소기업 상생협력기금 확대…융자 1,150억원·이차보전율 5.3%",
+      "source": "sisanews.kr",
+      "summary": "경주시, 중소기업 상생협력기금 확대…융자 1,150억원·이차보전율 5.3%&nbsp;&nbsp;sisanews.kr",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zOF8wQ0tmSkRfMW80NnFQTHVvQ1ZXY1pwQmZYajNkQlBoWkRQNWptZ1hVZkNCSDhkS0JaTlBXbzZwM1ZKYnZCU1RScFJKdlNEbTlCTzJpYUNuMER1RlZqV1BhZy1xUEx3a1pUedIBbEFVX3lxTE8zOF8wQ0tmSkRfMW80NnFQTHVvQ1ZXY1pwQmZYajNkQlBoWkRQNWptZ1hVZkNCSDhkS0JaTlBXbzZwM1ZKYnZCU1RScFJKdlNEbTlCTzJpYUNuMER1RlZqV1BhZy1xUEx3a1pUeQ?oc=5",
+      "published": "2026-09-01T20:32:49+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "d1de48944ce6",
+      "title": "경주시, 서울서 미래전략산업 투자유치전…지역기업 경쟁력 알렸다",
+      "source": "대한투데이",
+      "summary": "경주시, 서울서 미래전략산업 투자유치전…지역기업 경쟁력 알렸다&nbsp;&nbsp;대한투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mV3dCSUg4NHc1QlBCNXpWQ2lnZU9mNlpKRlBzN1JmRExPWDhodllpOEFWTVhpTDBsdGYzYU1rTXBHVk45Q1ZiRXdLczA0OUhQZ0YyZElZZHQ4dDl4SHNQaTRYaU5HaUJ1RWc?oc=5",
+      "published": "2026-09-01T18:51:26+09:00",
+      "query": "지역재투자"
+    },
+    {
+      "id": "2c322c0269b7",
+      "title": "한수원·경주시, 중소기업·소상공인에 1150억 상생금융 지원",
+      "source": "노컷뉴스",
+      "summary": "한수원·경주시, 중소기업·소상공인에 1150억 상생금융 지원&nbsp;&nbsp;노컷뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvQjBRVjFhZDZiWEFqVmRleWVKZzcwNnNxbW1HYnBMY3RUSk5wMHdCS254eXZkS296cGh3VU1qWHFGMF9menVMLUNLbV9PdkVwcHNhNg?oc=5",
+      "published": "2026-09-01T18:09:00+09:00",
+      "query": "상생금융"
     }
   ],
   "tech": [
     {
-      "id": "bafa16335ca8",
-      "title": "[빅데이터투데이] 금융 마이데이터 2026년 9월 브랜드평판 랭킹... 1위 미래에셋증권 마이데이터, 2위 현대카드 마이데이터, 3위 하나은행 마이데이터",
-      "source": "파이낸스투데이",
-      "summary": "[빅데이터투데이] 금융 마이데이터 2026년 9월 브랜드평판 랭킹... 1위 미래에셋증권 마이데이터, 2위 현대카드 마이데이터, 3위 하나은행 마이데이터&nbsp;&nbsp;파이낸스투데이",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MOElNUFFpSXRvMml1NlphYko4VWdqc3h6Tm00eXNMMUJsd1B0Y05ENG5XQmJnVzY5VEZMNmtaaUYyT0VSTTVzOXNHaTMySG4yc0tnQ3VaNzNqZ3EwVC1wWHhnc3lmcEk?oc=5",
-      "published": "2026-09-01T09:07:00+09:00",
-      "query": "마이데이터 은행"
+      "id": "1bcc23f385a2",
+      "title": "美은행, 스테이블코인 직접 만든다",
+      "source": "한스경제",
+      "summary": "美은행, 스테이블코인 직접 만든다&nbsp;&nbsp;한스경제",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nVXlYV3pqT3o4UF91ekJLT1VoNHJBSGQycDhFQ2l1azBEMU1rT0g1aG1zS1oyS0t2TWFUY1hiRFJocjBmRDJ3c0dsTjBNTDlZdkdqUzhmbV9Na3Y1T2kyamp4Qm11NW54dDRITtIBb0FVX3lxTE5paFhUdUZxSUpMb3ozaGpwS1ZIUnA0ajl0SElnQjZxdWR1RVNyYm5oRktSYzBKRDZneUtNRmlQNEZwRUE3eEpfcmY0WU5EeFhjTTRqeFZoX2p4UHRXZDJ0X2VGSklHNVZpUXBHNzY4NA?oc=5",
+      "published": "2026-09-02T08:01:29+09:00",
+      "query": "블록체인 은행"
     },
     {
-      "id": "c3d79675f1dc",
-      "title": "금융 마이데이터 2026년 9월 브랜드평판...미래에셋증권, 현대카드, 하나은행 順",
-      "source": "에너지신문",
-      "summary": "금융 마이데이터 2026년 9월 브랜드평판...미래에셋증권, 현대카드, 하나은행 順&nbsp;&nbsp;에너지신문",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBzbTFyTE15NGlqYVFTNGVvWXNYcVZON0Zkci1hSmh5bE4zel9Zbll6LVY4T2lNT2t6VWhNODBBUnNpQnJtcHdWSHItMi1BVkVVd0NFa3h5OUtDS1YzNExfeVZVd3hPUkszRFI1djhBRkNuUQ?oc=5",
-      "published": "2026-09-01T08:24:02+09:00",
-      "query": "마이데이터 은행"
+      "id": "5924116a53fb",
+      "title": "달러 스테이블코인 본격화…내년 21개 은행 컨소시엄이 발행",
+      "source": "v.daum.net",
+      "summary": "달러 스테이블코인 본격화…내년 21개 은행 컨소시엄이 발행&nbsp;&nbsp;v.daum.net글로벌 21개 은행 컨소시엄, 내년 달러 스테이블코인 발행&nbsp;&nbsp;KBS 뉴스글로벌 21개 은행 컨소시엄, 내년 달러 스테이블코인 발행&nbsp;&nbsp;연합뉴스[애프터마켓 리뷰] 글로벌 주요 은행들의 스테이블코인 공동 발행 추진&nbsp;&nbsp;biz.sbs.co.krBIS 사무총장 \"스테이블코인, 대규모 결제수",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nNWhRb3RNb3BYODlFUy1NLWdNbEY1VVNGcVFqcU9RbmNxNll2Tld4R1dEYnMyLTlYN0lOTnJkNDh1WFc3eDR1SHJMb0t3MWs?oc=5",
+      "published": "2026-09-02T07:27:27+09:00",
+      "query": "스테이블코인 은행"
     },
     {
-      "id": "b8ffbf05ce29",
-      "title": "수출입은행, AI·첨단전략·K-컬처 펀드에 3000억원 출자…총 1조2000억원 조성",
-      "source": "전자신문",
-      "summary": "수출입은행, AI·첨단전략·K-컬처 펀드에 3000억원 출자…총 1조2000억원 조성&nbsp;&nbsp;전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9NeS1ZLTJndUU3ZWswdEo0Uy1vSHBDaVdDeFF0SkZXQmNZVm9NaExPcW1OWjlacTJ1LUVIV3dqdmgxbW5Fcy1GYS1FcUdJUQ?oc=5",
-      "published": "2026-09-01T08:18:56+09:00",
+      "id": "50d79bdb7758",
+      "title": "[포커스] 200조 넘긴 국민은행, 기업금융 ‘판’ 넓힌다…작은 법인 따로 본다",
+      "source": "오늘경제",
+      "summary": "[포커스] 200조 넘긴 국민은행, 기업금융 ‘판’ 넓힌다…작은 법인 따로 본다&nbsp;&nbsp;오늘경제",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qVWJnZ0piQTNJdFBtd3cwQlZNVjJ5cFBpWHJkczd4RVI4S3NPU0ljaThFZmNWaXJLT2dWNmdTZGg0cHY2bXViYUVXSG5ndGRHUUNmaElIRHRkX0Z4ck91R2ZVVG9RR3BxUXJMU19ZbkU4TmM?oc=5",
+      "published": "2026-09-01T19:00:00+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "51e4adc072af",
+      "title": "한국은행도 AI로 경제심리 관측한다",
+      "source": "지디넷코리아",
+      "summary": "한국은행도 AI로 경제심리 관측한다&nbsp;&nbsp;지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50N1pJcENFcHF5OUhPdHIxMWVOSXJqdDVub3dLQmxQbHowbm9HWWpRaUtDQjZPV1pEYkdmNWg4dmdWZW1DMFY1T1RmdUhuQ0FMRl9zTndB?oc=5",
+      "published": "2026-09-01T12:00:03+09:00",
       "query": "은행 AI"
     },
     {
-      "id": "5201d7e10008",
-      "title": "예금도 주식도 토큰화···금융판 바뀐다",
-      "source": "한스경제",
-      "summary": "예금도 주식도 토큰화···금융판 바뀐다&nbsp;&nbsp;한스경제",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iWjZpekhOUktyWmRxZ2VZZEliaXFQUmhBelFadVZaY2xQN0RJMDlWd0JvbWRlRFRpOGtKZ0tyZFo2ZTdJb0NjVDVhNjhfNmJCYUd6LUhiLURub1BGcGYxd0IwNUpXaXZYc0NSX9IBb0FVX3lxTE8zVjdScFhXRjZLQnYtTTl6eGNhVE9hNGh6UXFnV19PeHpmeWQ0VVpuR3QwZzk5cmljY2Z0eF9oUFg1MVdHZlpsM2dELWZfcHNPOHhUUmpULUNVSmcxSGhXaUJhTVlxenBMM2UyMWg5OA?oc=5",
-      "published": "2026-09-01T07:36:22+09:00",
-      "query": "예금토큰"
+      "id": "fae523f04db6",
+      "title": "한국은행 CBDC 2단계 돌입…‘디지털 원화’ 편리함보다 위험성 따져야 : 금융",
+      "source": "재경일보",
+      "summary": "한국은행 CBDC 2단계 돌입…‘디지털 원화’ 편리함보다 위험성 따져야 : 금융&nbsp;&nbsp;재경일보",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE10cHdVSFNrek9vYWdRVDdjMzZLbDNSY1cycmVELVBiTUltWWdhTlJkOS1FQUs1TGxVcGtMcFpfbUhTZlVtR0o2bVRn?oc=5",
+      "published": "2026-09-01T11:55:00+09:00",
+      "query": "CBDC 은행"
     },
     {
-      "id": "d4849d19979b",
-      "title": "마이데이터 판 뒤집혔다…미래에셋증권 1위, 현대카드·하나은행 추격",
-      "source": "핀포인트뉴스",
-      "summary": "마이데이터 판 뒤집혔다…미래에셋증권 1위, 현대카드·하나은행 추격&nbsp;&nbsp;핀포인트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GeURFTDZPT2lkTk83QjdYcFVVSnl0TjlEellCY2d0RExqNmJ2VVV5Wk96cHZENEJ2LTdQT3JrSlB5Q3BKUUdWU0hWMWE4MVhRNjNUQ1RxNUFTSkFTS29faVNWTnlqQ1czaXpwZTlzMmNiNDgyRjc00gF3QVVfeXFMT0Z5REVMNk9PaWROTzdCN1hwVVVKeXROOUR6WUJjZ3RETGo2YnZVVXlaT3pwdkQ0QnYtN1BPcmtKUHlDcEpRR1ZTSFYxYTgxWFE2M1RDVHE1QVNKQVNLb19pU1ZOeWpDVzNpenBlOXMyY2I0ODJGNzQ?oc=5",
-      "published": "2026-09-01T07:30:08+09:00",
-      "query": "마이데이터 은행"
+      "id": "69c663b01567",
+      "title": "\"중앙은행 머리 꼭대기 앉은 AI\"…잭슨홀서 경고한 디스토피아",
+      "source": "뉴스1",
+      "summary": "\"중앙은행 머리 꼭대기 앉은 AI\"…잭슨홀서 경고한 디스토피아&nbsp;&nbsp;뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VMkdjWWJUSHNBeDlTTHpTeWpJRWk0bklRV3BEUmhxV0tiQlR4cWJESnRfQnR2bFJsMHBmbWYzVlNmaVNNRktKSVZkX3RzSXBMVC1OMHZna1BWZW1rblkzNEJ3Sng1aU3SAWxBVV95cUxNbjVXVmZoYk5iM0NqTDJEU1BOZGI4X0NXbk9LZF9HRVJpUUdtSHY2UDI5TWROS3lwaTc4S0U3Zzl1QWtGazd5VXVnTV84Y0tXNW80MmRCUDMyczZZSngxYmdxSkNXSVlDdFB4QWU?oc=5",
+      "published": "2026-09-01T11:42:23+09:00",
+      "query": "은행 AI"
     },
     {
-      "id": "9534f008b452",
-      "title": "[빅데이터로본다] 금융 마이데이터 2026년 9월 브랜드평판... 1위 미래에셋증권 마이데이터, 2위 현대카드 마이데이터, 3위 하나은행 마이데이터",
-      "source": "일간투데이",
-      "summary": "[빅데이터로본다] 금융 마이데이터 2026년 9월 브랜드평판... 1위 미래에셋증권 마이데이터, 2위 현대카드 마이데이터, 3위 하나은행 마이데이터&nbsp;&nbsp;일간투데이",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HdHM1ZVVYX3dXd1VUU2Y3MlI3ZkRLSXRTVW9MVGY2Y3YyeEl4T2NFdmxHeFEwUDVYNDRueHFZbTR4NHhmb090cGNOLXpsNUJUQzBubmlTOWtrOFNLT3o4Rkp6OEdOSVNqMlBz?oc=5",
-      "published": "2026-09-01T06:25:00+09:00",
-      "query": "마이데이터 은행"
+      "id": "3157d469b136",
+      "title": "\"AI 붐 꺼지면 세계 경제 흔들린다\"…英 중앙은행 총재 경고",
+      "source": "뉴시스",
+      "summary": "\"AI 붐 꺼지면 세계 경제 흔들린다\"…英 중앙은행 총재 경고&nbsp;&nbsp;뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jWmRHdGFnQmJ5dkFscF9tTHc0VWZXZTI1cHE3MkUxNU5iTm1RdldDYkYyYXBteTRLbDh3ZXNsQ3Q5TFBTZ3kyRnJMbGxoMmtQLS0tUTQ5XzJyc3djcnhHMdIBeEFVX3lxTE80WWtuRk43MC0xZjZTYTlwWEVrWXNHNnFDU2JlTWVSU3p2UzVqblVicXpWQmFrRU9DZzBPYWozVE56aElycUFWR0s0TUNNdmZaSnlKUVVteWNTbUMzbThPRzExWGx0TnZoN3o3OU1qaFJPWUQ4MW4wZg?oc=5",
+      "published": "2026-09-01T11:31:09+09:00",
+      "query": "은행 AI"
     },
     {
-      "id": "9d4d1d1c9a53",
-      "title": "유럽중앙은행 \"은행 돈도 블록체인으로\"...스테이블코인에 '견제구'",
-      "source": "코인리더스",
-      "summary": "유럽중앙은행 \"은행 돈도 블록체인으로\"...스테이블코인에 '견제구'&nbsp;&nbsp;코인리더스",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBZLUlKcXVVOTQzeVVXU2RNM0p6ZVdZU1o3UGRzeWFkNHRBekc0a1RuTEhfSERYYjZZeDFDUWR6THNiYW9vWmxEdzhR?oc=5",
-      "published": "2026-08-31T23:00:00+09:00",
-      "query": "블록체인 은행"
-    },
-    {
-      "id": "5cdccf07b48e",
-      "title": "ECB, 유로 준비금 블록체인에 올린다…그러나 스테이블코인은 사라지지 않는다",
-      "source": "Yellow.com",
-      "summary": "ECB, 유로 준비금 블록체인에 올린다…그러나 스테이블코인은 사라지지 않는다&nbsp;&nbsp;Yellow.com",
-      "link": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNM3J2Q2hOcllXVnNBSmd6M1NfNDREYnBlZnlGWmhSTTEyeWtqVzFUN3FLdUVQeUhfRUF0dVZ6a0IxeW45ekV5c2RQeWFqYTlTaDFQZ3hoSzlWRkZ1eXh3RlNkeUF0RVg3V2JseUF3T21la1FjTHdONkpfbjZYYjBTNDhNQ2pJY1Z1eFhPT0Fua3hvYmx3cTE4TmFxbHhnZmRLOGYxVWFHUDJ5X09lUVlocEdyV0JaOFpFbllCWURkc3FPc1l6aHRONjlHQmloT3lqR05sVXhtY1YtVXRvd1ZjOU5xM3luQjJlLU1GTXFOTUozNU9tTmkzdVNEcGd6anJsREE3WmVzSEZReEZKRy1mYnNNNlNoaXVzWjNmRmx4cnhwVTY2TWZvT3ZZa243R3NjZlg3dmpQTUstb0RxczEzTTc3SlliMGZ4bDFfNkthY1lsdG9uV21VNFk0MHBhZktVdktyNWR0eWZObDBaTDhteG8wVm1NY00wTnJwbDl2TXA5TG9KWHlSNnZKaS1ZcnJOYVdkOG9Ya0ZsSU1BelVpckNWSWl3SWI3anZCQ1hyMVZPOW9ibjJXcThEZFhLLWU5TEE?oc=5",
-      "published": "2026-08-31T19:10:34+09:00",
-      "query": "블록체인 은행"
+      "id": "3991b0332a06",
+      "title": "\"타협 없다\" 美 지역은행, 스테이블코인 이자에 '강경 반대'…클래리티법 난항",
+      "source": "네이트",
+      "summary": "\"타협 없다\" 美 지역은행, 스테이블코인 이자에 '강경 반대'…클래리티법 난항&nbsp;&nbsp;네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xcVFPdVNfRzRkaERpYmZoNUlqbGxWdGRGakV5bHRhQzUyVlM3YXJZOHBuNHlPbFRHcEo5RzFDYjluRFRGYloxTEpfYzdYZExVVWdn?oc=5",
+      "published": "2026-09-01T11:01:00+09:00",
+      "query": "스테이블코인 은행"
     }
   ]
 }
