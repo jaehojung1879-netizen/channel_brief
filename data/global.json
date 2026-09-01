@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T08:48:34.391265+09:00",
+  "updated_at": "2026-09-01T09:48:30.413416+09:00",
   "items": [
     {
       "id": "b587068115a6",
@@ -30,6 +30,16 @@
       "published": "2026-08-24T16:00:00+09:00",
       "query": "Capital One Cafe branch",
       "region": "US"
+    },
+    {
+      "id": "b8c0c52822e7",
+      "title": "Fakenham needs a banking hub, North Norfolk District Council says",
+      "source": "BBC",
+      "summary": "Fakenham needs a banking hub, North Norfolk District Council says&nbsp;&nbsp;BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQajZ3eC03M0Z6Mk40SEJBX3JIalQ1Yk5ELUFvSTcyNFZuOW5pY0lLYzgtcEptWXB0ZTAtSlFOWkFGTXFZR3ZZb0RXbGo1TDBOakNGN3lyNkxzLVFs?oc=5",
+      "published": "2026-08-19T16:00:00+09:00",
+      "query": "bank hub UK banking",
+      "region": "UK"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T08:47:50.856341+09:00",
+  "updated_at": "2026-09-01T09:47:45.236203+09:00",
   "as_of": "2026-03-31",
   "latest_ym": "202603",
   "source": "금융통계정보시스템(FISIS) · 국내은행 영업점포현황",
@@ -6844,22 +6844,22 @@
         {
           "bank": "신한",
           "finance_cd": "0011625",
-          "rows": 98
+          "rows": 91
         },
         {
           "bank": "KB국민",
           "finance_cd": "0010927",
-          "rows": 98
+          "rows": 91
         },
         {
           "bank": "하나",
           "finance_cd": "0013909",
-          "rows": 98
+          "rows": 91
         },
         {
           "bank": "우리",
           "finance_cd": "0010001",
-          "rows": 98
+          "rows": 91
         }
       ],
       "fallback_all_rows_used": false,
