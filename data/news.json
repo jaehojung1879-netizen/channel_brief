@@ -1,42 +1,66 @@
 {
-  "updated_at": "2026-09-02T08:31:51.169427+09:00",
+  "updated_at": "2026-09-03T08:31:52.442252+09:00",
   "headline": {
-    "id": "1a620ec9af07",
-    "title": "핑거, NH농협은행 100개 영업점에 안면인증 지원하는 ‘AI스마트패드’ 공급",
-    "source": "바이라인네트워크",
-    "summary": "핑거, NH농협은행 100개 영업점에 안면인증 지원하는 ‘AI스마트패드’ 공급 바이라인네트워크",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhLXg1bGZFeDRpVTVUS2tYU0RtRlZsZFRGRklRbVd1VDlVYWEweXF0M0hBZmhSX1AyQWlqeHdHYXdJUGtCWkFYUFlRZGJnVTA?oc=5",
-    "published": "2026-09-01T16:34:11+09:00",
+    "id": "df16989d0e62",
+    "title": "핑거, NH농협은행 100개 영업점에 'AI스마트패드' 공급",
+    "source": "디일렉",
+    "summary": "핑거, NH농협은행 100개 영업점에 'AI스마트패드' 공급 디일렉",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBVXdXT0RMVExmbHZWam5qc1JXRktQbkh1YWx4SW9PMXg5ODJhYVg2UkhBMXc4WW9DdVozazYyZjU5dzUyUDlkc3JSd1NJa0JjYUdDc2w5MVI3NXV2SUdGLXFaREtFQQ?oc=5",
+    "published": "2026-09-01T23:03:29+09:00",
     "query": "은행 영업점",
     "engine": "google",
     "rank": 1,
-    "_score": 22.0,
+    "_score": 26.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "b67c64769e9d",
-        "title": "미래에셋생명 보증형 실적배당보험, 하나은행 전국 영업점서 판매",
-        "source": "서울타임즈뉴스",
-        "summary": "미래에셋생명 보증형 실적배당보험, 하나은행 전국 영업점서 판매 서울타임즈뉴스",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOd1g3MzNNZTBLWENRQmZNV3RIeWgxV215Yl9EWTBrdDlOanNfVlIzc0JuZXgyWDBDTThzejhJZzctNzJma242ZG1wb2lBT1U5VW41NldqcmdRbjVlc1B1QmpQQk5UNURoWTNN?oc=5",
-        "published": "2026-09-01T16:55:40+09:00",
+        "id": "754b42c94db5",
+        "title": "[단독] 35년간 점포로 쓰던 명동 알짜 건물…신한은행, 1200억에 팔았다",
+        "source": "v.daum.net",
+        "summary": "[단독] 35년간 점포로 쓰던 명동 알짜 건물…신한은행, 1200억에 팔았다 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxY2pSWXVfaHcwbjhRQjJyWk05eGpHSlRqeEh6SVZ1V1dFdmVnRGxYS0I2M3VsR2h5bjNIcjJmV0t2Tm45M3piRFBEOUdCLWM?oc=5",
+        "published": "2026-09-03T05:01:44+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "37eab2cd54aa",
+        "title": "지방은행 점포 감소 속 새마을금고, 지역 기반 금융·사회공헌 역할 확대",
+        "source": "위키리크스한국",
+        "summary": "지방은행 점포 감소 속 새마을금고, 지역 기반 금융·사회공헌 역할 확대 위키리크스한국",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14dmgxQU5pZ2x2d285dW1Teml4cUw3VE9DRjZSOWNUYUJMSU1ObThZZ1Z6QnZoQkFHU3psQWt2d1Q1ZmRUQ3RkT3hsb0RheVBCX2hURUYwalFfN2VPT0dmS1JDRWlTVWNzRU12OGV1NHA?oc=5",
+        "published": "2026-09-02T11:34:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "6366e8b0be3a",
+        "title": "미래에셋생명 ‘보증형 실적배당보험’ 하나은행 영업점서 판매개시",
+        "source": "인더뉴스",
+        "summary": "미래에셋생명 ‘보증형 실적배당보험’ 하나은행 영업점서 판매개시 인더뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFeWFRNUlPdGMxZVhTOVd3NFlFRU1LSEcwRWE4NjBKc2N0N2NONk9fSEJDbDdXem53a2RtMmZzaG1NaTEydjFUOVlfbTA3V1EyRVR3OE9ldTdydHJjekJCZTdiZw?oc=5",
+        "published": "2026-09-01T16:49:56+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "3429d3a7c4f5",
         "title": "광주상생카드 9월 할인율 15%…광주은행 지점마다 '오픈런'",
-        "source": "연합뉴스",
-        "summary": "광주상생카드 9월 할인율 15%…광주은행 지점마다 '오픈런' 연합뉴스",
+        "source": "yna.co.kr",
+        "summary": "광주상생카드 9월 할인율 15%…광주은행 지점마다 '오픈런' yna.co.kr",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jY05xT1daMENZajFWS3ltNmFua0g4ZUJickstbnNuWEpVX1pwUGVQWDFHWGc4YV9ublR0RjF5SEhkejF6OFhSTmEwQkRZcDZFTVFyOFNOZmMzTlnSAWBBVV95cUxOT2gySVhueXhLclVrUmVxWEhUenpFSVhmMzZvYkgxUnk5SzJ5VW5XQ1l6N2x3cFIyTmUwSjJXREtuS0p0M0hJanBXcUw2c3VEU3NjZDU5a3dPd2xPWkxRTS0?oc=5",
         "published": "2026-09-01T10:41:59+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,43 +72,31 @@
         "published": "2026-09-01T08:30:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "d13914a7c110",
+        "id": "ef858dea002d",
         "title": "경제 성장하는 동남아, 국내은행 현지 점포도 웃는다",
         "source": "v.daum.net",
         "summary": "경제 성장하는 동남아, 국내은행 현지 점포도 웃는다 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE41R090UlhsZGlGSUhHN2NpMXF1azhJa3JsR2JuUktFU1JlTnJrN3cwNkVqZ29tNVFuUWQ2T19FZndOQkpUQlVwUFJqWDNMTms?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwck4wUHpOc3h4V2tPLUQ2dUJxalVkc2pCSlFpaW85NkgzMElaaWdEbEJ3NmgxTEpYWnp5d2lBXzdIN0tZLXJHVTRTY1hJa0JzUDE2MA?oc=5",
         "published": "2026-09-01T00:03:59+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "6d66e957107c",
-        "title": "'점포 문 닫아도 우체국 가면 끝' 부산은행, 2400곳 무료 금융망 제공",
-        "source": "ttlnews.com",
-        "summary": "'점포 문 닫아도 우체국 가면 끝' 부산은행, 2400곳 무료 금융망 제공 ttlnews.com",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXcDNDNkwyTHhFeW0yTVZoZDVEQmUxYi1mOU1mQndCN1FPREowRG5sa05ZQWlGUC1IRU9kYWhWM3l3UUtzUV9lMnJKNU0yWU16Qzk1UjFYbWdqZDNDUlZBMGdZSWZWYTBXUmc?oc=5",
-        "published": "2026-08-31T18:14:32+09:00",
+        "id": "72b36cc013b7",
+        "title": "“연 4.5% 예금 받아 16%로 대출”…5대 은행 해외점포 순이익 역대 최대",
+        "source": "미주중앙일보",
+        "summary": "“연 4.5% 예금 받아 16%로 대출”…5대 은행 해외점포 순이익 역대 최대 미주중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xY3V0TERjbDRTWHNDYWZ1bXlKc3RSRlR5eVAtRVZSSU1YdFFEUXk5UWFYWDhxcWlHLWNFYnl4QlhRRUV3T3hlOFg3RGRxOVJGaHZlSlRDbEkzd3JfeWdYQnln?oc=5",
+        "published": "2026-08-31T17:13:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 14,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "7738a157707d",
-        "title": "“대출 막히니 해외로”…올 상반기 5대 은행 해외점포 순이익 역대 최대",
-        "source": "중앙일보",
-        "summary": "“대출 막히니 해외로”…올 상반기 5대 은행 해외점포 순이익 역대 최대 중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XWTRvUjZqQlVoRVFvV1dqT3NIOTlHOFZEYlpudHJpeGpNSmZyZ1VNZHBIb0VTMWxFMElidUpOdWUydFdEUVlhLXMwbWVwRFFidDlydnVR?oc=5",
-        "published": "2026-08-31T17:13:47+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 5,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -100,30 +112,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "ad847dc023de",
-        "title": "“영업점 안 가도 보증 대출 척척”… NH농협은행, 소상공인 잡을 ‘비대면 신무기’ 터졌다",
-        "source": "스마트경제",
-        "summary": "“영업점 안 가도 보증 대출 척척”… NH농협은행, 소상공인 잡을 ‘비대면 신무기’ 터졌다 스마트경제",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xOHRVXzBYUFVWS25SLTZxYXMwaGZoV2tUU0tySVMzNEVJMWUtVDNYaFdaRjgwY0dndDJ3MDktNHNBV1Q1N01vZzVrLW43amJYTkZEcGlBbzNZcUpQRDJNTEtiMU83ckVrajRnUFRrVQ?oc=5",
-        "published": "2026-08-31T15:48:17+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 16,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "5cff42c7397e",
-        "title": "부산은행 영업점 없어도…우체국 2400곳서 돈 찾는다",
-        "source": "한스경제",
-        "summary": "부산은행 영업점 없어도…우체국 2400곳서 돈 찾는다 한스경제",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEX0gyWnJrWVV1U24wMy10WW5zRTBXN3BMQl91aUNfRk41SGJwSEJuYVc1QW5PV1lGMTlWNDFXNTl6U3FHUzFwVFdhMnJkcEkyQ1M2X0V5YnJZNFRWOWttTThzN0xiX0ItZ2dLSdIBb0FVX3lxTE1aQVk0V0ZXTGFRRFViUldKX2QwaVRVVW9ESi1XbmpXYi00aGdBdGJYaDNIOXpSVEJqVmdxQ2VxWS1XSzhSdThxd05xS3FreS11V2VYNy1TaHYtUm50RmhOY0JXRGh5eV9GTFlMTXFIbw?oc=5",
-        "published": "2026-08-31T10:35:02+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 11,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "19f901e579e0",
         "title": "은행 지점 줄이자 더 좁아진 취업문…대세는 ‘핀셋 채용’",
         "source": "서울신문",
@@ -132,31 +120,21 @@
         "published": "2026-08-30T23:12:59+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7
-      },
-      {
-        "id": "3ad81758fcd4",
-        "title": "은행권, 점포 줄이고 상담은 강화…WM·대출 중심으로 영업망 재편",
-        "source": "데일리한국",
-        "summary": "은행권, 점포 줄이고 상담은 강화…WM·대출 중심으로 영업망 재편 데일리한국",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54VDNlelVYSjN0S2NLcnVxNDVVSjJQVDMtcXpZRm9Fb1lZM2dSeFBHM2tvZkpuTlJkb2N3S2VqX0tNSXp5eFlUX2djcTBka1J4UktuN1VLa1RaQXItRjM1YkJBWF9iVjRxMjBraWRBZ9IBc0FVX3lxTE5BSGpvWEVYUWhlb3VCcE5VVWlYS0Z2N2Y4eEZxcmgwNDJFaUlBVXNYN3dIUkJYY0lyb2dHdDJjMllYUEJxQV9PSHFWdHlwTTZpV2UtMDRwSGVZR3g4cE5jMG9CUkZJN3liVURtZFFfMkgtZG8?oc=5",
-        "published": "2026-08-29T09:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 10
+        "rank": 7,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [
       {
-        "id": "1d948343eb7c",
-        "title": "금감원, 미래에셋증권 거점점포 검사···스페이스X 공모 초점",
-        "source": "증권경제신문",
-        "summary": "금감원, 미래에셋증권 거점점포 검사···스페이스X 공모 초점 증권경제신문",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE82ZkxNWlVXcFc0OUZ0NlZpMXJGUkduVzdCWkJ2RE83WVhrTmh6UkxmZ2xZNHRqQmswaUNRLTBYX1ZJUk1PTGdjRk9MWkM2WXVkdFFIMVoxN2pDazZKZnU0dXEwMHdLdE50OUt5bHkxNFNsQdIBdkFVX3lxTE55RzNBZDVDVEhWaWhZc0R4SGZjZi16XzhNN25OSXdMQ0JhTHU5REdLNnhNT3BRMENkaWN5X1FLNDFXUVVONVFfVzBVdWlzc1FndWRGTFAxbTFjemRsOVdXdXRDbm5jNU1BWC1BRVBPNzZ3RGlLSXc?oc=5",
-        "published": "2026-08-31T12:28:03+09:00",
+        "id": "e6d08fbb21cf",
+        "title": "금감원, 미래에셋증권 VIP점포 검사...‘스페이스X’ 전문투자자 권유 들여다본다",
+        "source": "이지경제",
+        "summary": "금감원, 미래에셋증권 VIP점포 검사...‘스페이스X’ 전문투자자 권유 들여다본다 이지경제",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NMkNhcG9lUWp2NENPaUhkbm9tYmVDcWRMVDNVdkVfdnVSc1d6V0IyZi1NZHpZTWRWaGR4cGY2NnRfVmRISXBXS0V2ZElmZnU5WllGaHdLdnlhZkI2bnd1T09CUnR6aUZnanRBYWdB?oc=5",
+        "published": "2026-08-31T09:44:03+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 12,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -168,7 +146,31 @@
         "published": "2026-08-31T08:40:07+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 14,
+        "rank": 15,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "45cb83b10afb",
+        "title": "“일반투자자에 전문투자자 등록 권유했나”…금감원, 9월 미래에셋증권 거점점포 검사",
+        "source": "문화일보",
+        "summary": "“일반투자자에 전문투자자 등록 권유했나”…금감원, 9월 미래에셋증권 거점점포 검사 문화일보",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5IU3lGTnlYQzludUJDeFdmdVI4ZnlxMEtmU0NKUUlwUW1FTUFfSENkXzh1RzB1TlMwMnB6ZEZHanNDTzdabndiS0ktRzRWOVc2?oc=5",
+        "published": "2026-08-30T23:17:48+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "3666479941b0",
+        "title": "금감원, 미래에셋증권 거점점포 검사…스페이스X '0주' 여파",
+        "source": "네이트",
+        "summary": "금감원, 미래에셋증권 거점점포 검사…스페이스X '0주' 여파 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93dHRhQWdGYW5KUy01MXBwdVFBckNzalE1cDJmRm9TRlliT2FPVnBVcGpYaThoMVpnbk0zM1ZDaWJqSDBlV1hLLVV6NjlJUUZTbTBR?oc=5",
+        "published": "2026-08-30T16:50:00+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -180,7 +182,7 @@
         "published": "2026-08-30T09:33:26+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -192,11 +194,22 @@
         "published": "2026-08-30T09:11:00+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 10,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "shinhan_news": [
+      {
+        "id": "754b42c94db5",
+        "title": "[단독] 35년간 점포로 쓰던 명동 알짜 건물…신한은행, 1200억에 팔았다",
+        "source": "v.daum.net",
+        "summary": "[단독] 35년간 점포로 쓰던 명동 알짜 건물…신한은행, 1200억에 팔았다 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxY2pSWXVfaHcwbjhRQjJyWk05eGpHSlRqeEh6SVZ1V1dFdmVnRGxYS0I2M3VsR2h5bjNIcjJmV0t2Tm45M3piRFBEOUdCLWM?oc=5",
+        "published": "2026-09-03T05:01:44+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1
+      },
       {
         "id": "b1c419edbc74",
         "title": "신한은행, 국내외 '투 트랙' 글로벌 전략",
@@ -206,7 +219,19 @@
         "published": "2026-09-01T16:22:49+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "28ef39081243",
+        "title": "[AI 시대, 권력 대이동-신한은행] 직원 판단 전까지 AI가 맡는다",
+        "source": "포인트데일리",
+        "summary": "[AI 시대, 권력 대이동-신한은행] 직원 판단 전까지 AI가 맡는다 포인트데일리",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WYmZ2YUE5TTB1T25EN0JVbF94OEFBTk0teWh5R1Rmckl0YlFReDRMenVoVnliMFVPTi1YTm9KdTZnSy02a0FPQmlNdG1sZGhDSU5jQVhWQkI4Yno3dlNVYkhVb3ZUcGRMd0xZdkJJY0TSAXRBVV95cUxNZWIxRGw2OUw0LU4yTEpmY04xYlFZZzF6eWFzODU2cl9VakhzZ0ZqcXQ5SkdOb2l6NGNDOGxQMVc0M2JNTWpQeUdBNHFPUHpHZmhRcGlYTUljYzRRc3NSM3lWZ1pkVEE0N3g4UDlyZVpiWVVLTg?oc=5",
+        "published": "2026-08-28T16:30:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -218,7 +243,7 @@
         "published": "2026-08-27T12:49:33+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 9,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
