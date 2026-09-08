@@ -1,77 +1,95 @@
 {
-  "updated_at": "2026-09-08T08:44:42.803748+09:00",
+  "updated_at": "2026-09-09T08:42:03.219951+09:00",
   "items": [
     {
-      "id": "2b1069c73c37",
-      "title": "[전남광주 반도체 명암①] “기업·일자리 정말 올까”… 기대감 속 광주권 시민 반응은 ‘신중",
-      "source": "천지일보",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54ZWp4U2liaEdNMUF4c3NZUGZ6MkhIdnJOOS1RUEd5UE1NM2dzeUU0WThyM2V5VGg3eDRrY045QjJmb0RDcEdwZDkyWS1ud2M4endQeUJUVmxtRFZ2cWJhRHdHVUJodkRoUnc?oc=5",
-      "published": "2026-09-08T07:00:00+09:00",
+      "id": "2895d98bc12d",
+      "title": "이상일 시장, 용인반도체산단~동탄 3.96㎞ 직결도로 본격화",
+      "source": "이투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvaGp4UkR5OEJZcVVsYmJXRC1lcmdNNmVFQzh4RUpHclU4M3Q2M1U5dXNVblFreHdVRC1hTDBoMzB4RHB3VTBiREx6Q2RzUWhlSUVXQVpyWlFKUWk1elBpSVU1MzVuVENrWEhnUS13?oc=5",
+      "published": "2026-09-08T18:23:00+09:00",
       "date": "2026-09-08",
       "query": "반도체 국가산단"
     },
     {
-      "id": "419ffe3749ad",
-      "title": "10월 첫삽 앞둔 용인 반도체 국가산단…개방과 소통도 경쟁력이다",
-      "source": "광교신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1rZERjLUFIRTlQVmJYOGEtWTF0WlNrckhYLUQwT1RuZGpEMklIeHF1bkZsdW5UZ1FEZnZpVUxEeEpEZm9ibWRKTndDRHkxWjlzdUlXenMxQk05OXNWdzBxZ1pXMk5oTk9Q0gFsQVVfeXFMT1VoaUdrcFNWajM4T0FTU0RCY3hLd3dhTHplLVU0Q1ROM2poZHpCaXFxVm1LSl9Xc0NIRGFfYWlrU3FkMDg4TEJ3clVIUG5lWWRnUWFKQ1BuUU9lTEpiUW1Hem5VZTRQMkg2eXdZ?oc=5",
-      "published": "2026-09-07T21:59:10+09:00",
-      "date": "2026-09-07",
+      "id": "d21d3d72f76a",
+      "title": "‘용인 반도체 국가산단 국도 확장공사’, 실적 완화 재추진",
+      "source": "dnews.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5fZVJiMGd3MlA0T1RGS2w1cnRKM2Zyb1FTMGJLaGtnQmUzY3YySExWQ0tCNjVOVmd0VjA1b0ljdjVtc2VWRzI5YWN3U0FBbV95WUdjM3h4OVVsUHA5bU1LT2k1aXZySHR3c2NYeDl2ZGhzeDlm?oc=5",
+      "published": "2026-09-08T17:19:15+09:00",
+      "date": "2026-09-08",
       "query": "반도체 국가산단"
     },
     {
-      "id": "3bf257f5d3d8",
+      "id": "f07e787e57eb",
+      "title": "인천 서해구, 재개발·재건축 지원 강화…도시재생도 추진",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aSS1uSnVQOTlQNUFmV3hhMHotN0VKNWxuZEZyaWI0WE1rTkdpV3Z4RTBXYU1WbUlESEFQQUdxNTJNM2F5Mjg1eEpaWGlxaC1xamlzSkxfMHBuY1NFNmpuQnBCOVBfczBZMmRKa09qNHlqaHk2QVZDUNIBeEFVX3lxTE5aSS1uSnVQOTlQNUFmV3hhMHotN0VKNWxuZEZyaWI0WE1rTkdpV3Z4RTBXYU1WbUlESEFQQUdxNTJNM2F5Mjg1eEpaWGlxaC1xamlzSkxfMHBuY1NFNmpuQnBCOVBfczBZMmRKa09qNHlqaHk2QVZDUA?oc=5",
+      "published": "2026-09-08T15:31:22+09:00",
+      "date": "2026-09-08",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "9057049a1722",
+      "title": "서해구, 원도심 주거·생활환경 개선 속도 낸다",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nM0twNl8tck05TFNSVlExM3YzQ1BkQzFYdVNUc1ZqdWRPejYzR2FaQjZQbnFSUTVsME9TXzJfeWVkNzRlbDRtQVMwTVBnMVd3VEJNUEdJeW4tM0U?oc=5",
+      "published": "2026-09-08T14:58:00+09:00",
+      "date": "2026-09-08",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "61c252085915",
+      "title": "인천 서해구, 노후 주거지 정비 본격화… ‘원스톱 행정’으로 신속 지원",
+      "source": "녹색경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfQmY1cE16WXkxM1R2dWtfSU5YVWZveUdMZXZvcWE0ajJVOFBCTDBOT1JoRHlURmFKb2FmMGFRZ0ZHQTBURUNQeUNkVGFFanpZcnhSZmFUZjFFMXZiY2N4TVRfZXRXNE04?oc=5",
+      "published": "2026-09-08T12:51:46+09:00",
+      "date": "2026-09-08",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "cf5939d5905d",
+      "title": "경기 광주시, 경기도에 ‘용인 반도체 산단 지역 상생’ 추진 지원 요청",
+      "source": "viva100.com",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fQ3FWTmJ2bjljbEpMLWdPci12N3F4eWJmUzhSbHI5UXpkUG5WdFlEaHdCemtnWUNrRTVpaEFxdnlYT2tRSnRtSk9Gb0NtRTF0RGtDY2pIVENNdw?oc=5",
+      "published": "2026-09-08T12:24:00+09:00",
+      "date": "2026-09-08",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "eef26bfe34ac",
+      "title": "[고시] 동작구 사당4동 도시재생 활성화계획 (일반근린형) 변경 (경미한변경)고시",
+      "source": "한국도시환경헤럴드",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HYkJMdExTSFBXNTl0NTJ5YXN2dGtBNDZ1cGhhbTcwZVpWWFJ5M3FyS3RSUUJ6bHhJMkxwOHdLTTc4dXNaZmE2VHBHU0tRbFd0SktUMl9VMC1XNEdfd3pWQU14SEU3Z1VQVkx5QjdB0gFwQVVfeXFMUHdVZnhlVUh5UTY2MVZjVlNCRWk3cV9NeXhXcU84VVhqOFJ3bjlnZ1lGVjY1b3FvVlNSTlB4RU00Ulk2YnUySWc2X2pwRlNyNGxiNzduX0RxZTdGa2dRa0YzWUtYcmpHdllRZ3FVSnVCQw?oc=5",
+      "published": "2026-09-08T06:00:00+09:00",
+      "date": "2026-09-08",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "2b290f10ac15",
       "title": "울산 도시재생 71곳 새판 짠다…다운·방어동 정비 본격화",
       "source": "iusm.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zNkV0ZW5tRl9KNk9DZDVEMVZKdmRxMEg1SXJGT3Q0cTF6RzY0RXJPdm9JLXRWTFhvMTduMUR2Y2dTbElVVlVocV9KYm5tbjJzc2prZlE0Q0N3b0dNRjk1ZFhnMEQySW80eGfSAW5BVV95cUxQbDFRSkotVXVGODF2M2pNUFNBX2ZOZzB2dVRHMktYa0FidllSSFVMNjZLb0E3Vk1CSFBvc0FrSV8yX2RkQzhteURENml5Mi14ZmtVN1VYRHhoSW5RVU1NTV8tZEY0dDZKeDZsbmJuZw?oc=5",
-      "published": "2026-09-07T19:29:14+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsMVFKSi1VdUY4MXYzak1QU0FfZk5nMHZ1VEcyS1hrQWJ2WVJIVUw2NktvQTdWTUJIUG9zQWtJXzJfZGRDOG15REQ2aXkyLXhma1U3VVhEeGhJblFVTU1NXy1kRjR0Nkp4NmxuYm5n0gFuQVVfeXFMUGwxUUpKLVV1RjgxdjNqTVBTQV9mTmcwdnVURzJLWGtBYnZZUkhVTDY2S29BN1ZNQkhQb3NBa0lfMl9kZEM4bXlERDZpeTIteGZrVTdVWER4aEluUVVNTU1fLWRGNHQ2Sng2bG5ibmc?oc=5",
+      "published": "2026-09-07T19:38:22+09:00",
       "date": "2026-09-07",
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "efbb5c277f85",
-      "title": "울산 도시재생 10년 밑그림…71곳 지정안 심의",
-      "source": "joongdo.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBubVdmX25tVVRXRnUtLWxrY2tZQ2FaNUtpVFdfYVNxTVUxdWdXUFhNUmZHN20tWEFfQkUzbDg4bW9NcC1kSUJHVV9IWFo5NzE5SmpIX2Q5VlZieXR6N2JRYS1oNWg?oc=5",
-      "published": "2026-09-07T17:59:13+09:00",
-      "date": "2026-09-07",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "389d09fccfb0",
-      "title": "울산시, '2026년 제2회 도시재생위원회' 개최",
-      "source": "아시아뉴스통신",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Icmh4cGxBZk9OTFlqNTVLLUYtOEsycjJrSEI5MjdJYUd0T25nWl9MVGdIUFYzYy1zdlVSaEJnWVY1d0NvUFhPNHUtWmduQWZpU2x5VktvNmVIWEJ3LWd6WHdYRnRlM2s3RzNLRG9lb0JNa3hh?oc=5",
-      "published": "2026-09-07T12:34:53+09:00",
-      "date": "2026-09-07",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "fba288f74cbf",
-      "title": "반도체 국가산단 성공 위한 상생협력 방안 제안",
-      "source": "용인시민신문",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1rakRrTk5BeXFtNGRlZ2tRNTJOUzdEbi1TMjZKSG90R092OWdhcnprV2liaHA4S1NDRTEwbUlsRlJkRk5TaXRSWDZoc0xKLUk5NFNtTEVZYnludEVnbkJINGhVaE1yaHMwMU9Teg?oc=5",
-      "published": "2026-09-07T11:27:08+09:00",
+      "id": "500973160345",
+      "title": "호남 반도체 산단 인구 유입 대응…‘다핵형 배후도시’ 조성",
+      "source": "MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96OF8xdWtDOTNpR2JJM0ppSGJ4WXNBQ3VBbFNFRGJydnAzRDRKT0RlOUR4LUQ1LVFRbXFMS2psWFZYWEJTNG5hVVI0YmZSUEQzdHBwVkZtTDhLQjBtU09ob2xOQnk?oc=5",
+      "published": "2026-09-07T10:43:41+09:00",
       "date": "2026-09-07",
       "query": "반도체 국가산단"
     },
     {
-      "id": "ce912a3e85dd",
-      "title": "‘용인 반도체 국가산단’ 10월 부지공사 첫삽",
-      "source": "용인신문",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BXzdINXJHN2lLaEdSSTNHS0l2TGpFSWxSSG1KYURSVDczRHhwYVNmRFkxaFZfaTh1Ml9GTFJhRVhPaFREQ2JpcFNKVHc0SFFIOGNUcHBfMDhTZEhjMHNv?oc=5",
-      "published": "2026-09-07T11:01:45+09:00",
+      "id": "8bc354a490f6",
+      "title": "보상→산업 대이동, 무안…‘반도체’ 입고 국가산단과 새 성장축 예고",
+      "source": "서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12NWVRU2VxampIRGhxRExGRm85RWt3RFdpVWh1eWNSUnNZdTUyTnYtZEQ5Y29aR1J4MHZiT3FoSU9FbVl0VTkxa0tMSEY0RDhNR2fSAVNBVV95cUxNV29Lc1lwS0UzNUdRY2pKWGZjVnlNeV9iMEowZy1MN2xGRTNnczhjSEtIckNkeEJlQzdOdHdhSVFPV1NOTjJfb1pVbTdkdy1KT2RqVQ?oc=5",
+      "published": "2026-09-07T08:43:02+09:00",
       "date": "2026-09-07",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "0da4938cc6c7",
-      "title": "울산시, 제2회 도시재생위원회 열고 2035 도시재생전략계획 등 심의",
-      "source": "웹이코노미",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pa1dHQUtlenhjYjR1bEVWWUR0VmptWkhZM1NCT0RZTENrVEhpS0d6UTA0MXctVS1fM0FhbFVOWjhTVzE5bWh0SktQMjlka1FGZGFWZ01WSUJuYllncFREc3VrOGVzaVNTNVNPQ2lrVFdiZw?oc=5",
-      "published": "2026-09-07T10:30:49+09:00",
-      "date": "2026-09-07",
-      "query": "도시재생 활성화계획"
     },
     {
       "id": "cf5cae1158cf",
@@ -83,13 +101,13 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "c4dc1f154c14",
-      "title": "도화ㆍ유신, 용인 반도체 국가산단 1공구 CM 두고 ‘격돌’",
-      "source": "대한경제",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GMXl2X0lrbUl3aUdJczIyTFViWTBmYTVnY05WM2VSMHNQbXdnSldGeHB4Y1ZvR3BJSEt4Q1prRGZlZy0wOTJjdXZrTFRJdTNQRS1ZQkV0M1pXcmgteDZhREs4WjdUdFZpS0loZzdZUjAxTEo3?oc=5",
-      "published": "2026-09-04T06:00:48+09:00",
-      "date": "2026-09-04",
-      "query": "반도체 국가산단"
+      "id": "168b9c4f2f67",
+      "title": "아산 탕정2지구 100만평, 부지공사 다음달 착공",
+      "source": "쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kYWJOeGk5dVB0UUY3OENLT1RIaGkyWWlseXdUaUhYeUpMUGxGN25VRlF4bWg3dmpsUGtQd3M4RlNXLWRDQW1kQXVwcldNbnZsN2pBUFlkM3VwSm9uMEQ5WEJHNA?oc=5",
+      "published": "2026-09-06T02:23:13+09:00",
+      "date": "2026-09-06",
+      "query": "신도시 착공"
     },
     {
       "id": "67908c7ecfcb",
@@ -103,7 +121,7 @@
     {
       "id": "c27a7294bac6",
       "title": "LH, 토지보상 체계 대수술…3기 신도시 착공 20개월 앞당긴다",
-      "source": "인더스트리뉴스",
+      "source": "industrynews.co.kr",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zOXBSdnNPR3dmdzhsbzZxZ1djdWRibm5INXQ4T1dsVHZIbm1LSVVKYklXWS1BUTFjNDVpeTlUeVY5T3JMNVFmNXRRaXpudlBremRYV0wzbE9GRXNTZWhJU1BaeUZ4LXktNlpmOUJYZ2Ffdw?oc=5",
       "published": "2026-09-02T17:54:57+09:00",
       "date": "2026-09-02",
@@ -115,24 +133,6 @@
       "source": "한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRnpDUXlaeWgtRjdjS2RXWjR0YkVRTGVaSUJxTWhTMXhDQ3NqVTlEZDJocjV3Wk5nMEI3d3FfWDh4QzhaNmZmSzhyVk5YYURyRDN4V0VIbllqdw?oc=5",
       "published": "2026-09-02T17:18:09+09:00",
-      "date": "2026-09-02",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "a188a9e4860a",
-      "title": "LH, 보상 업무 344명 투입…3기 신도시 착공 앞당긴다",
-      "source": "아주경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqUnBmaGRXRkFPVUZLUUZrWTN5ZUpWazhxU3Q2ajNURHBNWUxaUXZaSnAwQWZuWFpMcGhHbXFPdDJ1SDF6VXRjN3RoRTNYdGJWajg3WnFpbUJmUdIBWEFVX3lxTE5JdjB2UTJmdnpMdmZCYlFLbURLZFNZOHMtSUxnRW5hbFlHRXU3dzRtMVdxaDBER2R0VE1nTV83NEN4andjMXU0QUtjR2RrTDNIbFg5RGJZTDY?oc=5",
-      "published": "2026-09-02T16:33:36+09:00",
-      "date": "2026-09-02",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "4fa341b6a667",
-      "title": "서울 도심 자투리 '빈 땅'까지 총동원…우면동 700가구 지구지정 절차",
-      "source": "뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpYjVtRHJhSnFiZzdPeWZtVjFQYy1RSXR6aUxwQkZBOGUwY3BNZjZEWHhCNEJrY1lHUzNmeFd3TXJpVzYtai03ZEMzYWR1ZnVGSkdaT1VIN0Q1UVHSAWBBVV95cUxNVTlMU3M3R3U3WjM1V1ViWk9YM1V5eFF0Q25Qd2dRVkFQRFZZaE1xMFlvNndvbWw5RjJxdzNOVXUwVEViaXpwOXQ1TGhTemR1d3pnOVNwcjl1ZU5Ncm1VRHI?oc=5",
-      "published": "2026-09-02T14:54:27+09:00",
       "date": "2026-09-02",
       "query": "LH 지구지정"
     }
