@@ -1,32 +1,86 @@
 {
-  "updated_at": "2026-09-09T08:42:03.219951+09:00",
+  "updated_at": "2026-09-10T08:30:10.164808+09:00",
   "items": [
     {
-      "id": "2895d98bc12d",
-      "title": "이상일 시장, 용인반도체산단~동탄 3.96㎞ 직결도로 본격화",
-      "source": "이투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvaGp4UkR5OEJZcVVsYmJXRC1lcmdNNmVFQzh4RUpHclU4M3Q2M1U5dXNVblFreHdVRC1hTDBoMzB4RHB3VTBiREx6Q2RzUWhlSUVXQVpyWlFKUWk1elBpSVU1MzVuVENrWEhnUS13?oc=5",
-      "published": "2026-09-08T18:23:00+09:00",
-      "date": "2026-09-08",
+      "id": "aecd7ebd9c10",
+      "title": "양산 북부 도시재생, 콘텐츠 대폭 축소",
+      "source": "국제신문",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTlY3NEdyZi1ZbVh3TXhjUndwNlNTTFAtQ1NEb282cnBkN0Zia1EzVmVJSVY4cThRYzVOSHNDZU9GQjN6S0RwQ2lrWkdTbVhNcVV6OXl1NDluV0RNTTNtMnNXZ1JXNUN6MTdOYnhUajlkOUo3TEkzUFREeEdzRnJaN3RCWUtjd0dXQU1fWmFR?oc=5",
+      "published": "2026-09-09T19:15:00+09:00",
+      "date": "2026-09-09",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "b28601b14234",
+      "title": "가덕도 계약 앞둔 대우건설…‘올해 공공 최대어’ 용인 반도체 산단도 품나",
+      "source": "아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uQW9hWGZQcTluemVGZ1hyVDA1dkRSNnVvTXBjZVBtUEh4dFdqbTdmT1k5TmhQOTV6d1ZwaHF5NGk0b2JnT3JPazlYdk51ZkhxUmItTldWZHFwMG1admpRQ05KUlZWNGtxNTdpVjdn?oc=5",
+      "published": "2026-09-09T18:12:13+09:00",
+      "date": "2026-09-09",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "606bb24411e0",
+      "title": "완주군, 삼봉2지구 조속 추진 국토부ㆍLH에 재차 촉구",
+      "source": "전북엔비전",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOT3NBT3hpdVhGOGZ5TkZwRnNvRlpoT2dhS01xblU5SGxFWnNCeG5aa2pZRTQzWmZMVGRiOVZrUmlTT2s4djB2STZldVVfSWx1M243ai1YMzdGVHJSVHl4bVd5RVFmUQ?oc=5",
+      "published": "2026-09-09T15:58:35+09:00",
+      "date": "2026-09-09",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "48a91c6545d7",
+      "title": "완주군, 삼봉2지구 조속 추진 국토부·LH에 재차 촉구",
+      "source": "전북금강일보",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE56TlZsMlEweTJIbE5HSm04YXRscVNOY2VQc09QRzBxU0lWT1lDZy1GaklQbHI5Ni1wYVJZejdubkk?oc=5",
+      "published": "2026-09-09T15:29:00+09:00",
+      "date": "2026-09-09",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "e87da2730692",
+      "title": "대전시, 예타 문턱 못 넘은 '나노반도체 국가산단', 몸집 줄여 재도전",
+      "source": "한국일보",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12bC1JdmtMcEh2TVdTOF9XMFdGQ2N3SzVtTkFZMGxDUm5wZERvSlNlYzFsWE5DdTZ3S252bFhMc1ZDUlJtSzVSVzFSQi1lZ1NucUcwMWppa0Fya3BLV0FOUEk3R1laNFo2OERFZW5R0gFzQVVfeXFMT2dsTzk0M3kwUzM3MjF1N3EwZ21PZkVzZWF3SjU1NDhVbExlWExpeFZUVGc3UHFyaTg3NVJMVElHV0xDLWJud3dabElnTjdEdFRESDY4SkFLSXI0U2pmOFRweW9tNTdpWTg0T05GQUVMSGMtTQ?oc=5",
+      "published": "2026-09-09T13:46:00+09:00",
+      "date": "2026-09-09",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "443d4703d046",
+      "title": "온수역 일대 대규모 복합개발 추진…공동주택·오피스텔·근린생활시설 공급",
+      "source": "한국미디어뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ENF9YcGtwSEMwdFlILWhGM3dCZXROaWQtWlREX1ZjN09rSXZQUVprcXp6YzEzMFFlc0JvN29HZFN5LVFPSFZtVVZkWEZXZWd1LUJ0UDRVWXlVMExqRDRWZ3VfUjJ4UQ?oc=5",
+      "published": "2026-09-09T11:28:55+09:00",
+      "date": "2026-09-09",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "59142c875316",
+      "title": "지정 4년째 멈춘 삼봉2…완주군, LH에 결단 촉구",
+      "source": "뉴스프리존",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HSzNkQlJKQTlDR1RJMDVsSUZucXJnWUNrejRGcTZRN2JPR2F3MlNLaDlTQkI4T1JkRHRZVnV5ZU9OT210aTRFdGtfR0hCcWVqNjZQeElldlJJV3dUYW91RG1xMURjZk5RWUh5NElYS3dMN0nSAXdBVV95cUxNbmVpeG9hM1Vhd0JjSTZoYWczUE9PbUVjSWxSQWV5QktIXy1UeDJsaFFUSHFJVDZrZzZFSUxZdFNCMzFXV0JGckRvaDdNSHJ5VS1uZURrTmttSk9rSERIOHg3WTFGNWtBd2RrSUwxOW9tQkRkU2pKcw?oc=5",
+      "published": "2026-09-09T11:00:47+09:00",
+      "date": "2026-09-09",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "ccfd5b02da08",
+      "title": "LH, 용인 반도체 국가산단 심의위원단 구성 ‘고심’",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bDFnUklXZVNmSVF3SzFaZkdMNUNqUzNvVE1SUmZLSWkwM0hfTV9CWngySTRnV3NpajV0dFFjU3Q1elhxT2ZFVUhsbzZra00?oc=5",
+      "published": "2026-09-09T10:02:57+09:00",
+      "date": "2026-09-09",
       "query": "반도체 국가산단"
     },
     {
       "id": "d21d3d72f76a",
       "title": "‘용인 반도체 국가산단 국도 확장공사’, 실적 완화 재추진",
-      "source": "dnews.co.kr",
+      "source": "대한경제",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5fZVJiMGd3MlA0T1RGS2w1cnRKM2Zyb1FTMGJLaGtnQmUzY3YySExWQ0tCNjVOVmd0VjA1b0ljdjVtc2VWRzI5YWN3U0FBbV95WUdjM3h4OVVsUHA5bU1LT2k1aXZySHR3c2NYeDl2ZGhzeDlm?oc=5",
       "published": "2026-09-08T17:19:15+09:00",
       "date": "2026-09-08",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "f07e787e57eb",
-      "title": "인천 서해구, 재개발·재건축 지원 강화…도시재생도 추진",
-      "source": "뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aSS1uSnVQOTlQNUFmV3hhMHotN0VKNWxuZEZyaWI0WE1rTkdpV3Z4RTBXYU1WbUlESEFQQUdxNTJNM2F5Mjg1eEpaWGlxaC1xamlzSkxfMHBuY1NFNmpuQnBCOVBfczBZMmRKa09qNHlqaHk2QVZDUNIBeEFVX3lxTE5aSS1uSnVQOTlQNUFmV3hhMHotN0VKNWxuZEZyaWI0WE1rTkdpV3Z4RTBXYU1WbUlESEFQQUdxNTJNM2F5Mjg1eEpaWGlxaC1xamlzSkxfMHBuY1NFNmpuQnBCOVBfczBZMmRKa09qNHlqaHk2QVZDUA?oc=5",
-      "published": "2026-09-08T15:31:22+09:00",
-      "date": "2026-09-08",
-      "query": "도시재생 활성화계획"
     },
     {
       "id": "9057049a1722",
@@ -49,11 +103,20 @@
     {
       "id": "cf5939d5905d",
       "title": "경기 광주시, 경기도에 ‘용인 반도체 산단 지역 상생’ 추진 지원 요청",
-      "source": "viva100.com",
+      "source": "브릿지경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fQ3FWTmJ2bjljbEpMLWdPci12N3F4eWJmUzhSbHI5UXpkUG5WdFlEaHdCemtnWUNrRTVpaEFxdnlYT2tRSnRtSk9Gb0NtRTF0RGtDY2pIVENNdw?oc=5",
       "published": "2026-09-08T12:24:00+09:00",
       "date": "2026-09-08",
       "query": "반도체 국가산단"
+    },
+    {
+      "id": "34ded6ea3aa6",
+      "title": "3기 신도시 ‘더 많이 더 빨리’… LH, 주택공급 속도전 ‘총력’",
+      "source": "문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9adk0wY0dhcWRyTmo3VlBjMTRJRmNXT1VpMDlQNV9WRnQ4Wjd6QVFPNUEtUHdUSklzX3k5Zlc4OUp5bGxUSE9DcFNhblUtbUZD?oc=5",
+      "published": "2026-09-08T09:13:02+09:00",
+      "date": "2026-09-08",
+      "query": "신도시 착공"
     },
     {
       "id": "eef26bfe34ac",
@@ -72,69 +135,6 @@
       "published": "2026-09-07T19:38:22+09:00",
       "date": "2026-09-07",
       "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "500973160345",
-      "title": "호남 반도체 산단 인구 유입 대응…‘다핵형 배후도시’ 조성",
-      "source": "MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96OF8xdWtDOTNpR2JJM0ppSGJ4WXNBQ3VBbFNFRGJydnAzRDRKT0RlOUR4LUQ1LVFRbXFMS2psWFZYWEJTNG5hVVI0YmZSUEQzdHBwVkZtTDhLQjBtU09ob2xOQnk?oc=5",
-      "published": "2026-09-07T10:43:41+09:00",
-      "date": "2026-09-07",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "8bc354a490f6",
-      "title": "보상→산업 대이동, 무안…‘반도체’ 입고 국가산단과 새 성장축 예고",
-      "source": "서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12NWVRU2VxampIRGhxRExGRm85RWt3RFdpVWh1eWNSUnNZdTUyTnYtZEQ5Y29aR1J4MHZiT3FoSU9FbVl0VTkxa0tMSEY0RDhNR2fSAVNBVV95cUxNV29Lc1lwS0UzNUdRY2pKWGZjVnlNeV9iMEowZy1MN2xGRTNnczhjSEtIckNkeEJlQzdOdHdhSVFPV1NOTjJfb1pVbTdkdy1KT2RqVQ?oc=5",
-      "published": "2026-09-07T08:43:02+09:00",
-      "date": "2026-09-07",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "cf5cae1158cf",
-      "title": "8년째 멈춘 용인 언남지구 C2블록…대법원 판결 뒤에도 ‘출구 안 보인다’",
-      "source": "새한일보",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqdFdHclFxR1c4Y0xNZm13OFYyaHlZTnJpMEhaX1pDUEhjRHN0Z0pKX1M2a3J4NUJabFNBSThNZWFraUtOcmJEXzhETmcwcElaaFMxMVdMN1lNMVlSUFQxTTg4ZHQyd9IBakFVX3lxTE02bHgtTlV1QjJLd2kxZm9BUjZUczh1b3h4OTVBVTRINW9MbFRFV2VQYmFoUFNNZWp0cURrMjQwVjRPeUVJc2h3cHFWOGdpdTdQZWRKSk4tV1BNUF82c2VPNFZOYlJ4RWhDYlE?oc=5",
-      "published": "2026-09-06T12:00:06+09:00",
-      "date": "2026-09-06",
-      "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "168b9c4f2f67",
-      "title": "아산 탕정2지구 100만평, 부지공사 다음달 착공",
-      "source": "쿠키뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kYWJOeGk5dVB0UUY3OENLT1RIaGkyWWlseXdUaUhYeUpMUGxGN25VRlF4bWg3dmpsUGtQd3M4RlNXLWRDQW1kQXVwcldNbnZsN2pBUFlkM3VwSm9uMEQ5WEJHNA?oc=5",
-      "published": "2026-09-06T02:23:13+09:00",
-      "date": "2026-09-06",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "67908c7ecfcb",
-      "title": "[기획] “이번 정부 내 최대한 착공”…3기 신도시 ‘첫 삽’ 얼마나 빨라지나",
-      "source": "매일일보",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RaHhnWTBxZUlPNFJvUm12VHpieHBOOENZWFpDMHFWck1FdjJpTVlLM3VKZmYtWEFMQnZaZGR5d3NCWktldjgydVlyTzRlZ0V5RmxFZWdtNnAzUUFfbFFNOTB5VU3SAWhBVV95cUxOWnFKdE96UzBzYXd0THg4QkZObURraGF4QzhEdUJaM3F1bTl6bWVfaDFucnVKY0MwUzRxeE44OV94UFN3WlprZ0RORTNicFNjT0ZMckJzTGF6NGwzMEQ3dlZSalQ5elNLdQ?oc=5",
-      "published": "2026-09-03T14:38:08+09:00",
-      "date": "2026-09-03",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "c27a7294bac6",
-      "title": "LH, 토지보상 체계 대수술…3기 신도시 착공 20개월 앞당긴다",
-      "source": "industrynews.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zOXBSdnNPR3dmdzhsbzZxZ1djdWRibm5INXQ4T1dsVHZIbm1LSVVKYklXWS1BUTFjNDVpeTlUeVY5T3JMNVFmNXRRaXpudlBremRYV0wzbE9GRXNTZWhJU1BaeUZ4LXktNlpmOUJYZ2Ffdw?oc=5",
-      "published": "2026-09-02T17:54:57+09:00",
-      "date": "2026-09-02",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "087598569243",
-      "title": "착공 늘리고 매입 확대…LH, 주택 공급 '속도'",
-      "source": "한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRnpDUXlaeWgtRjdjS2RXWjR0YkVRTGVaSUJxTWhTMXhDQ3NqVTlEZDJocjV3Wk5nMEI3d3FfWDh4QzhaNmZmSzhyVk5YYURyRDN4V0VIbllqdw?oc=5",
-      "published": "2026-09-02T17:18:09+09:00",
-      "date": "2026-09-02",
-      "query": "LH 지구지정"
     }
   ]
 }
