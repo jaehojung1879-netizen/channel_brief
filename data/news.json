@@ -1,30 +1,42 @@
 {
-  "updated_at": "2026-09-10T08:28:47.165035+09:00",
+  "updated_at": "2026-09-11T08:22:03.868855+09:00",
   "headline": {
-    "id": "25485ecbbd64",
-    "title": "지방은행 ATM· 점포 연쇄 감소… 고령층 등 금융 접근성 하락",
-    "source": "hidomin.com",
-    "summary": "지방은행 ATM· 점포 연쇄 감소… 고령층 등 금융 접근성 하락 hidomin.com",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FSG92ejAtczBrYzdZVHV5TF9Vb2t1N1RWbkJVZTlEWndxcDVrejFabmRRc3ZpblU3SHZFTHByZGMwVzRyVzFyNG9HXzRNcDM3anZ4N3F2ckVjYnI0SEV1ekdtb1ZITDFVdmc?oc=5",
-    "published": "2026-09-09T13:20:20+09:00",
+    "id": "6a62b45c0fc6",
+    "title": "인터넷뱅킹 확산에 줄어드는 은행 점포…유휴부동산 매각 잇따라",
+    "source": "아주경제",
+    "summary": "인터넷뱅킹 확산에 줄어드는 은행 점포…유휴부동산 매각 잇따라 아주경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sVTN5c3dVTktvMFlKNDJjQUttTjh2WjZMMGRmZjB6QjVmOVpaMmZhemxEQjU2NndGQWtXYmdPUXRaV1NpaE5HaDBLY0gtZUUydGlvcWIyMTFzZ9IBWEFVX3lxTE5yUlp3SHBTazlQNHpVRnFxSW9vZUhwaFRXdkRRUl9xS1hfR2h6Qm5pR1JpZWJncVVaNnloRlE2MzVRbXVMN3g3Y3Qxdmh0b2FVVko2emFmYnk?oc=5",
+    "published": "2026-09-07T16:02:49+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 4,
+    "rank": 3,
     "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "196624cb3119",
-        "title": "은행연합회, 야간.주말영업 은행점포 인터넷 조회서비스:내외신문",
-        "source": "naewaynews.com",
-        "summary": "은행연합회, 야간.주말영업 은행점포 인터넷 조회서비스:내외신문 naewaynews.com",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Pbjg2RVlpMlUzOGpVaVBvcndoYmZtU0R1a1dBWF9MR1lBX3F6SWN1MlFvbTZtcnZnYlp6cHQ5WWJ4bm1Mc0ZfZS1XYmlpMUJnNHZN0gFjQVVfeXFMTkVuSDJzTVlkUG5nN1VpMFktNVpRV2VYcm1ZLVE2Z0tuLUtGOGEtUl9zcklCM0xTVU90U2xUS18xLW1VS0ZhSXkyS3l2OGVhNDBJNkV2OGhCanlBZEUza01lQlBr?oc=5",
-        "published": "2026-09-10T01:26:22+09:00",
-        "query": "은행 점포",
+        "id": "c88195178042",
+        "title": "광화문 달려간 기업은행 4000명…일부지점 “입출금만 됩니다” [가봤더니]",
+        "source": "쿠키뉴스",
+        "summary": "광화문 달려간 기업은행 4000명…일부지점 “입출금만 됩니다” [가봤더니] 쿠키뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZRms4WVU1NXdvSjhGUWZYRW5XWTA3X2QteFd6NGF0Qjg3STFDX1VfaGNGZlV3OG5WSWctbUx3TXZjS1BJYnU5akhEdFNJUk9fQWNmQjlMT1dLc2RQYTZPOUJhcw?oc=5",
+        "published": "2026-09-10T18:07:37+09:00",
+        "query": "은행 영업점",
         "engine": "google",
         "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "39fc46f89b54",
+        "title": "NH농협은행 동울산지점, 보이스피싱 피해 막아…올들어 네차례 ‘눈길’",
+        "source": "농민신문",
+        "summary": "NH농협은행 동울산지점, 보이스피싱 피해 막아…올들어 네차례 ‘눈길’ 농민신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zbjlzcVRZU0EwZlhGYmp1V2RodnY2ZlU0OU5qWVBuR0RvRzNtaC02NF90c3lkWWpmWmdsUDN0S2p3WDdYcXdNVjVPa0dnVlZwNV9SemEzVHQtZw?oc=5",
+        "published": "2026-09-10T09:01:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +48,19 @@
         "published": "2026-09-09T22:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 7,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "25485ecbbd64",
+        "title": "지방은행 ATM· 점포 연쇄 감소… 고령층 등 금융 접근성 하락",
+        "source": "hidomin.com",
+        "summary": "지방은행 ATM· 점포 연쇄 감소… 고령층 등 금융 접근성 하락 hidomin.com",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FSG92ejAtczBrYzdZVHV5TF9Vb2t1N1RWbkJVZTlEWndxcDVrejFabmRRc3ZpblU3SHZFTHByZGMwVzRyVzFyNG9HXzRNcDM3anZ4N3F2ckVjYnI0SEV1ekdtb1ZITDFVdmc?oc=5",
+        "published": "2026-09-09T13:20:20+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +84,7 @@
         "published": "2026-09-09T08:40:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,19 +96,7 @@
         "published": "2026-09-08T08:20:28+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 16,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "6a62b45c0fc6",
-        "title": "인터넷뱅킹 확산에 줄어드는 은행 점포…유휴부동산 매각 잇따라",
-        "source": "아주경제",
-        "summary": "인터넷뱅킹 확산에 줄어드는 은행 점포…유휴부동산 매각 잇따라 아주경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sVTN5c3dVTktvMFlKNDJjQUttTjh2WjZMMGRmZjB6QjVmOVpaMmZhemxEQjU2NndGQWtXYmdPUXRaV1NpaE5HaDBLY0gtZUUydGlvcWIyMTFzZ9IBWEFVX3lxTE5yUlp3SHBTazlQNHpVRnFxSW9vZUhwaFRXdkRRUl9xS1hfR2h6Qm5pR1JpZWJncVVaNnloRlE2MzVRbXVMN3g3Y3Qxdmh0b2FVVko2emFmYnk?oc=5",
-        "published": "2026-09-07T16:02:49+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 6,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -100,19 +112,32 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "eb88443955d9",
-        "title": "문닫은 점포 팔려는 은행들… 알짜 입지도 줄줄이 유찰 - 조선비즈",
-        "source": "Chosunbiz",
-        "summary": "문닫은 점포 팔려는 은행들… 알짜 입지도 줄줄이 유찰 - 조선비즈 Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM2hWZnVvWFFTeFJLNU5CdWdRTFRHX3hrZjQwUVd3UVdJdmdoQVRscHRwWUtwcllmY3VxUFdWOHJRM2RBeXJCWUJTRUNqNzBKM0NvSzRmTDMzcHktaVBNLTNhcWR2ZjlCeDN5RHZzM1NxclJweWY4S3kzSndTLUpoctIBlAFBVV95cUxQSjVMaFIyYWdnQkFiSWVGWl9uMmpza0lMQ1lqZDNLS2Z1RHZwSWlQNnpLVHpUMDFMY2lid1BhWnFITUhVdkd6dXFvcDQ2SjloQmp6MU9CMmY1dHozWlVaRy04ZzFOQWh3dmtyQVowcGsyY19xMFBqbU9EWlphV0NLOERDVlZ0bjFKVXVLYWY1Sm5KbVhR?oc=5",
-        "published": "2026-09-06T07:00:00+09:00",
+        "id": "c34d9afa111e",
+        "title": "비업무용 부동산 보유부담 강화…은행권 잠실 등 알짜 점포부지 울며 팔기",
+        "source": "대한경제",
+        "summary": "비업무용 부동산 보유부담 강화…은행권 잠실 등 알짜 점포부지 울며 팔기 대한경제",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtbGxQUFo2cFBQUlNuck1TT0VWbGRyTzRiUGFtbHhrSWd6eVJ5UkZHSmNib19zeTctMDkzUHduV0V0ZVNLcVpwLUszQVlYUUdpMk56MF96b2FzaFlmSkxiM0xLSW5rTEZveXFKNUtsdkhQVHh1?oc=5",
+        "published": "2026-09-07T06:00:45+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 10,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": [],
+    "policy_news": [
+      {
+        "id": "536f175d94ea",
+        "title": "금감원, 다음주 미래에셋證 거점점포 검사…'스페이스X' 집중 점검",
+        "source": "v.daum.net",
+        "summary": "금감원, 다음주 미래에셋證 거점점포 검사…'스페이스X' 집중 점검 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMcEJIYjVtOVFvTEd5eWpEdTZpcmpKby14OWhfdVhSbVZjcTNwZDg4WXlwNDRzcVdUTjFMZDdlb0VuWnE0OUw0N2hYa2FIb0E?oc=5",
+        "published": "2026-09-10T17:29:05+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ],
     "shinhan_news": [
       {
         "id": "cfc451eab5d6",
@@ -127,15 +152,15 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "80729eb73656",
-        "title": "신한은행 '금 투자 고객' 대상 추석 이벤트 진행",
-        "source": "세이프머니",
-        "summary": "신한은행 '금 투자 고객' 대상 추석 이벤트 진행 세이프머니",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ySUNxcWY5TmdLQUljN0c4TFk0T3JLaE9Vd1BxZnFiOG9lSWNpbTZnMDctbUwwTWdaeGxtajlGZnIyOTNmWWVYVVBfc1N0Ti1vOGxvR1VyRkh4cF94Ym1sMzBEWmMwQXQ2QWNVZGhB?oc=5",
-        "published": "2026-09-07T17:19:47+09:00",
-        "query": "신한은행 영업점",
+        "id": "d89e61399f29",
+        "title": "[은행브리핑] 신한은행, '황금 같은 추석, GOLD 감사 이벤트' 외",
+        "source": "서울파이낸스",
+        "summary": "[은행브리핑] 신한은행, '황금 같은 추석, GOLD 감사 이벤트' 외 서울파이낸스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04aWFKMlRRQnRJQzlGWFZIa1pMMUNKd3RWSVh4STFFTHFMd19uWGdJTThoYlphUXdEbTliRVVidWdvS09mM2lBbU9LU0NmY2pEX0ZtV0l3VThzZXp6OGEydjNKekc2bHM3c3c?oc=5",
+        "published": "2026-09-07T16:54:31+09:00",
+        "query": "신한은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -171,31 +196,19 @@
         "published": "2026-09-07T14:36:50+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "5cf873dceabb",
         "title": "신한은행 '신한 골드리슈 골드바 1kg 이상 구매 20명에 미니 골드바 증정'",
-        "source": "데일리한국",
-        "summary": "신한은행 '신한 골드리슈 골드바 1kg 이상 구매 20명에 미니 골드바 증정' 데일리한국",
+        "source": "daily.hankooki.com",
+        "summary": "신한은행 '신한 골드리슈 골드바 1kg 이상 구매 20명에 미니 골드바 증정' daily.hankooki.com",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wZ3NYTHREQTVqUVVQbmxweVRMMmlFT0FsRXNheG1DU0RrVExvVldxcmNoUnVIVEJ1QjAwQ08zRkRhZ0llNXREanNQcnRJam5ZMFBqVElSbk5OYnhIRjJaQXhOZHhkeXBFbWtkekhMMNIBc0FVX3lxTE9qNW9wSjVGQV80YVVTTm5wYXpnVC1LSTNGbXFtdUFhMUhuc2NfdUdlTWphVzVBYUk5V1cxc2FvWGw0SnFzcGRfZkZ4RXJnaDAyemNMUjkxMW4yX3ZWVjZ0aTAtWnVwa2JHdGl5VnFJUkp2YkU?oc=5",
         "published": "2026-09-07T10:13:58+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
         "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "50fb1f8f7f0d",
-        "title": "신한은행, 자산 효율화 나선다…35년 사용한 건물 1200억에 매각",
-        "source": "팝콘뉴스",
-        "summary": "신한은행, 자산 효율화 나선다…35년 사용한 건물 1200억에 매각 팝콘뉴스",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RRkVkeFJYaHVwc2FkZHBmbVpRX0VzTDZBZV9tMlNTZ1AyV1ZhaTI4Tm9LUVlYUVh6Ync2MHVYeGdTWFk1d2Z0X1padnFjQ3NZYldpRXdJbm1rOWtPejZUUUtkQVpVaXJ0VWJtaExn0gFyQVVfeXFMUHVtNFFEV1lqeDJPaV94QkhGMUtnSUhuVW5FcTNVcVFIbmtlQ0g5OElCOGVXOS14MGh3cTJxSGstWm9zNHJSMV9pZjFVWFlnVjlOa19lWEw0WW9KXzhubS1EaENwaEpDUl9XV203UDk5X3Zn?oc=5",
-        "published": "2026-09-03T15:06:16+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
