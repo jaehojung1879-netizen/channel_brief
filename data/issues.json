@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-12T08:33:12.308327+09:00",
+  "updated_at": "2026-09-13T08:16:32.011662+09:00",
   "social_finance": [
+    {
+      "id": "8f02647ba0e7",
+      "title": "박정선 특별시의원 서민금융 이자율 지적 > 뉴스",
+      "source": "더코리아",
+      "summary": "박정선 특별시의원 서민금융 이자율 지적 > 뉴스&nbsp;&nbsp;더코리아",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DTkt3Ykxzc0RuY3RzaGZEQ2F4UDI4eHJ0T05NbkNjTHNudEM3UFRwT2NFSHZKS3dCcGdmbWpZa0xNWXBWNjVoUGR0RENwWE1nUUpkQUN3OWd3SnFFNURzNHhlZTI1RGI1QmNJbThTRHU?oc=5",
+      "published": "2026-09-12T22:01:00+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "b94ca6f999e4",
+      "title": "빚으로 힘든 금융취약계층 ‘3기관 연계’…채무조정 · 개인회생 지원받는 법",
+      "source": "창원특례신문",
+      "summary": "빚으로 힘든 금융취약계층 ‘3기관 연계’…채무조정 · 개인회생 지원받는 법&nbsp;&nbsp;창원특례신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CczUwMFVZY2dVckJmZTJSTmVIS0RsY2hYd0FudGlIdGl1T1RZam42dFRqWV9EYlk5REhyaTNhSmVKejhlQjVXV3A5SkQwejBkUE11QTlRbnRqWjAxT0k4SkV0bEVKdUnSAWtBVV95cUxQSkthQmhYLUZ6bUlMdkowSGRDbmd3NlNHb25NZmREQ1NJVEFsRzQzLUVQZmFFYWZ2b2RyU3QxVnA4YkRsdXYwc0pTcTBoRVpsM245WUZkdTdVZXktVGFMWS1zM2VPM3NTRkdyRQ?oc=5",
+      "published": "2026-09-12T20:56:48+09:00",
+      "query": "취약계층 금융"
+    },
+    {
+      "id": "4e9826315883",
+      "title": "삼성전자, 재난안전망 사업협력을 위한 중소기업 상생협력 협약식 개최",
+      "source": "Samsung Global Newsroom",
+      "summary": "삼성전자, 재난안전망 사업협력을 위한 중소기업 상생협력 협약식 개최&nbsp;&nbsp;Samsung Global Newsroom",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVeW1ERVBUSmR3TDVZUkJfeGE3dXJucE44Y1hPNlktWm5CT0gySGxuRnVqOHFmbjFKa0Fad09wSkY5ektRTmJZdkliX1JOVlJELWFVT3o4bUJZdW9rYXk3c2tlYW55WVFoVUNvTGs0VQ?oc=5",
+      "published": "2026-09-12T19:49:07+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "8fc96118bf35",
+      "title": "경북신보, 소상공인 금융사기 예방교육 6회로 확대…포항서 제3차 교육",
+      "source": "웹플러스뉴스",
+      "summary": "경북신보, 소상공인 금융사기 예방교육 6회로 확대…포항서 제3차 교육&nbsp;&nbsp;웹플러스뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqbUhqd2J4SFFwQThwX05uakpTZ0h6NHdmVTRiYTNNN2NhUllxb2JnS2l1Yl9EbWoxMUhXanE4MEU2ODJBaDVhZjI4d2MzbU1GX2lwc0ZRTFdxbGJSYnVuUUw2a3QwTFFoMlFB?oc=5",
+      "published": "2026-09-12T16:29:40+09:00",
+      "query": "소상공인 금융지원"
+    },
     {
       "id": "6b0fd26de34e",
       "title": "농협상호금융, AI 돌봄인형 ‘효돌’로 농촌 고령층 금융접근성 높인다",
@@ -8,73 +44,73 @@
       "summary": "농협상호금융, AI 돌봄인형 ‘효돌’로 농촌 고령층 금융접근성 높인다&nbsp;&nbsp;워크투데이",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wT1p2d1pTaXhXTTNTb0JlZzZXb3lYdFpvYkwxdXBmaFQzTUxnclJtUFVPZk4wMEdKdURyQmJRMnowSWNIb0VlVzZ5OTZIc1lpdUdrenMtZjNYN3YySHNZVWZidFh1QTZ1dVNRZg?oc=5",
       "published": "2026-09-11T23:49:31+09:00",
-      "query": "고령자 금융"
+      "query": "금융접근성"
     },
     {
       "id": "c50534081c16",
       "title": "기업은행 기업 사회공헌 참여…직장인은 어디서부터 확인하나",
-      "source": "한국사회복지저널",
-      "summary": "기업은행 기업 사회공헌 참여…직장인은 어디서부터 확인하나&nbsp;&nbsp;한국사회복지저널",
+      "source": "NANOOM ENERGY",
+      "summary": "기업은행 기업 사회공헌 참여…직장인은 어디서부터 확인하나&nbsp;&nbsp;NANOOM ENERGY",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Qc0JPV0ppLW5ZVGtHOUxFUEdTZGZ0OGJ2cnhRNTg2c3Q1a1N6Mk9DNzc1WHA3S0RCVHdEQ05keGFEVExZM3VOREpxOThkY2xMTi1jMzc1cEd6UFdrbnNHaFJOM05nRmFSRUZn?oc=5",
       "published": "2026-09-11T22:23:32+09:00",
       "query": "은행 사회공헌"
     },
     {
-      "id": "fd436a2e0acc",
-      "title": "임오경 의원, 새마을시장 찾아 소상공인 금융지원·전통시장 활성화 논의",
-      "source": "경기매일",
-      "summary": "임오경 의원, 새마을시장 찾아 소상공인 금융지원·전통시장 활성화 논의&nbsp;&nbsp;경기매일",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZTmY5NVhMa3FPQ3JFUEJqV213SzZsUXlmRUtqM3dlU0NmckVDS0o1VDdDSzlzdGQ0REoxRU5ZYkoxenp4eUx0UDVuZkNTcGJlVDNTM1hrM0NHNkxtaC1OeHVEazVUdW8?oc=5",
-      "published": "2026-09-11T22:16:33+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "b5daf4caee37",
-      "title": "삼성전자, 재난안전망 사업협력을 위한 중소기업 상생협력 협약식 개최",
-      "source": "Samsung Global Newsroom",
-      "summary": "삼성전자, 재난안전망 사업협력을 위한 중소기업 상생협력 협약식 개최&nbsp;&nbsp;Samsung Global Newsroom",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9IZXp6VGV0WlFJZkxqZ2hUZnJaekFZOEdOZ1ZBd0ZZanJXb2EyalRWV0FEZ3ViQWR2Q3FPREtnckRHd0tlTXhneEF1UEVnRm9EenRRQjR5eU45TGpSWVlDN3N0YTFqX3FDX1ItcWJVZw?oc=5",
-      "published": "2026-09-11T20:34:11+09:00",
-      "query": "중소기업 상생"
-    },
-    {
-      "id": "3b05af49ad81",
-      "title": "농협상호금융, ‘말로 하는 AI 금융도우미’ 농촌 첫 실증…고령층 금융장벽 낮춘다",
-      "source": "창업일보",
-      "summary": "농협상호금융, ‘말로 하는 AI 금융도우미’ 농촌 첫 실증…고령층 금융장벽 낮춘다&nbsp;&nbsp;창업일보",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11Nng0UDhzcTdLTWRkU0Rjc3k5NENJemtWSy1JM0pOdzBDOFRoNS1PTnYzN2c2MXdWOGFlMklEWGEyRnUwQ1Y5WS1KQ2VrVHBveU9GaUVRTUhvRlpQOXdTTFV3WThDeXda?oc=5",
-      "published": "2026-09-11T18:27:06+09:00",
-      "query": "고령자 금융"
-    },
-    {
-      "id": "17ed0c0d6209",
-      "title": "농협은행, ㈜올라핀테크와 ‘소상공인 선정산 통합지원’ 업무협약 체결",
-      "source": "농민신문",
-      "summary": "농협은행, ㈜올라핀테크와 ‘소상공인 선정산 통합지원’ 업무협약 체결&nbsp;&nbsp;농민신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CRWxmNVdEek0zaldFMld2a2tZckVWSlc0eUdFVjhNR0JteENONTB6VnQ0aE02UzZabXpDanV2WWZfV193Vk5NVFFYYU9vallZQnRhM3JELXB5UQ?oc=5",
-      "published": "2026-09-11T18:05:00+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "3bbc50a18313",
-      "title": "우리금융, 취약계층 무료 치과진료 확대…전주에 구강관리센터 3호점",
-      "source": "폴리뉴스 Polinews",
-      "summary": "우리금융, 취약계층 무료 치과진료 확대…전주에 구강관리센터 3호점&nbsp;&nbsp;폴리뉴스 Polinews",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4ZU5seW55ZWc3bURwa1J6ZnVVRFpmOTJQb1Q3X0dGOUZoRUNNak1RVVFVWVd5OGgtMVZQRlZCQVlTMWx0WlBfcnQ4MThUMTdyZ2N1bEFEYklzTHlMOXhBWnFTOC1rRS1LU1FaTWJ30gFyQVVfeXFMTTk5bE5jUmt0eDVzbVpMVUlYQUluLWVkeS0ybFZTd0tRdVo3YmktMWhuNjBqUUJzRUcxdHJHaGE0bWp0REZ5aEtESFZYYVh4X1g2eHlxNWVIRjRrMFJhV3V2ZE9teU9HYkpLNWEzU0p1eGJ3?oc=5",
-      "published": "2026-09-11T17:38:46+09:00",
-      "query": "취약계층 금융"
-    },
-    {
-      "id": "1d669da4eb87",
-      "title": "비대면 금융 시대, 장애인 소비자의 거래와 상담 접근권",
-      "source": "에이블뉴스",
-      "summary": "비대면 금융 시대, 장애인 소비자의 거래와 상담 접근권&nbsp;&nbsp;에이블뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOMkJGZkk1d2YwWk1qZGVsckk0di14ZUlGTndHWnBIdTR6NE9PdEpMdllLamVma0xsaktoSUJoQ0V0ZkkxVkp0dDN5Y3hJMEZFUHRyNlhpYWZzc0pFYVBFNXFQZHIyaldtbTQxcVp30gFyQVVfeXFMTS1MdnpNUk1Gc3hkQ0ZIQW9jODdJVW9PR2NfUkRDZWtCZ3g3TjhnaHJYM1NVam5uNmJycW1GbmtMaTFuLXVpazFMTlBYRFhJWlBLZWdzRktzTk9qVk5veW1ZMDB2LVNmZFk3c2JaeDRDQnln?oc=5",
-      "published": "2026-09-11T17:24:00+09:00",
+      "id": "11e88f948590",
+      "title": "농협상호금융, 'AI 돌봄인형' 활용 대화형 금융서비스 시범운영",
+      "source": "연합뉴스",
+      "summary": "농협상호금융, 'AI 돌봄인형' 활용 대화형 금융서비스 시범운영&nbsp;&nbsp;연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85UzItaXVDOVFjR3dBTl9ROVhNOGhGZnhtMTEzQkpuMTBKd3UxUURuRDJPYllzMWFSbVRtaEZpVVBuaHpGdi1qcjdZeDllUFB4T3cwN1VCdDJJMmPSAWBBVV95cUxNRnIwNF9xalRGVlk5bTEwd1FOMERySzg3YUtaLU1ndnZTdEZheW50blRScEM5R0J4Y3NmYV9Wb0RMOVNrbW1yRzFCMkxWUDJmWmo4MHV5X2o5MVNWNnBXcTQ?oc=5",
+      "published": "2026-09-11T16:22:41+09:00",
       "query": "금융접근성"
+    },
+    {
+      "id": "4ad075057e64",
+      "title": "“기업하기 좋은 원주 입증” 원주 소재 기업 2곳, 지역 재투자 결정",
+      "source": "강원도민일보",
+      "summary": "“기업하기 좋은 원주 입증” 원주 소재 기업 2곳, 지역 재투자 결정&nbsp;&nbsp;강원도민일보",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pbG5FQlRjdG9nVVNHNzFLV1FMdm9mUG1EVXp5MTd6dFZqdVFZRno0dlk0akhVVW00bW9NcFVuQTNOQUU3Yk1fa3hHTEJ3bk1iUmtSSWdiU1FPWmQxVFFobHJUbUxmUVE?oc=5",
+      "published": "2026-09-11T15:59:20+09:00",
+      "query": "지역재투자"
     }
   ],
   "tech": [
+    {
+      "id": "0f839e2048fd",
+      "title": "원화 스테이블코인 누가 웃을까…\"발행보다 이것 중요\"",
+      "source": "데일리안",
+      "summary": "원화 스테이블코인 누가 웃을까…\"발행보다 이것 중요\"&nbsp;&nbsp;데일리안",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNODI2bTkzQTFaUVZ3Q1ZrR0NpR3RjQWJJNzlSRFBCeld2a2dxcEJTSnVpZlM1ZW5HcEFsdEE0SG95T04yVjFaTHZOemE3blNIaFhxVlNfMGt5aHVOcUVLQl9ac1IzbzdfUUloWG5lcTB5RUkxRTNPUTAtYjhyMzFUVXBITUVSaFk4eVNlenZUXzJZVnQ5TzhmVFRTVmx6Z1RyWng1TTR6OVhPWnpkS2pPTlByY3lNQWhqXzlRaTlsSWpwckNWcmJJeS1udURHbkxrM2VHeFh4bVdxN3ZZbVFQTVY5U3c1Ni1lajEtWEVTcl9JRG5adk56T01iT3BqRUtaaG01RTF2dFVSMDVELVBlQnBJNml5VEVHZl9VM2s3LUluazA?oc=5",
+      "published": "2026-09-13T07:00:00+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "87af49f00a97",
+      "title": "코인베이스, 美 지역은행 1,000곳에 스테이블코인 심는다…9월 15일 클래러티법 ‘분수령’",
+      "source": "코인리더스",
+      "summary": "코인베이스, 美 지역은행 1,000곳에 스테이블코인 심는다…9월 15일 클래러티법 ‘분수령’&nbsp;&nbsp;코인리더스",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE85SUtZRDF6djVOSkJlQmZCa01uNjJjNlpCa0t6WXZIM2FqckE4QTlJeDA4WEdEOFNPUmRzWmNLS2FmNVd1LUdrUmZR?oc=5",
+      "published": "2026-09-12T18:23:00+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "e708a4743095",
+      "title": "[글로벌] 오픈AI, 금융 특화 챗GPT 출시...범용 AI 넘어 전문 업무로 확장",
+      "source": "테크M",
+      "summary": "[글로벌] 오픈AI, 금융 특화 챗GPT 출시...범용 AI 넘어 전문 업무로 확장&nbsp;&nbsp;테크M",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TYmFwcjVMbXl5a1BESDNRbzR4VXE0WEZTN0JjZTB1NjBHLV9ES2JhTXRIMkR1cnlIeHNQd1E2aXFJTWljdl81aUVQbVZaVjZoOUJkNmpfSDRmdXFhcHhIUExXWGF3UdIBakFVX3lxTE5QNVdqR3JXRlNRMHUxRXdHZllvd0RyRFhVM1ljVzZMYzlSb0x6VEM5TXpsblZQUFliVnA2UVZ1T0pjc1VwRHJSbkF5N2hQNjBod1VZVWs3MmZsVDBoY1hBSmswOGFDUXJab3c?oc=5",
+      "published": "2026-09-12T13:24:17+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "f6171ae528df",
+      "title": "'AI 네이티브 은행'이 온다…은행원이 된 AI",
+      "source": "마켓인",
+      "summary": "'AI 네이티브 은행'이 온다…은행원이 된 AI&nbsp;&nbsp;마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hVFl4XzBuZ1M3V3dCRU12MFozNWcxTmRTNl9rR0tjZnl4REw4a0MyRzBxbWwzM1pzOGxiWElDZTNpMDM2MWI5MExsTDU4T3hSbTB4bDRzY0hBbzNHUXFMNldseGlLSXFncjhpYUJMeGYyMXM?oc=5",
+      "published": "2026-09-12T09:50:02+09:00",
+      "query": "은행 AI"
+    },
     {
       "id": "5be21f1b3fd4",
       "title": "'AI 중앙은행' 엔비디아, 과연 그 대출은 건전할까? [PADO] - 머니투데이",
@@ -87,19 +123,10 @@
     {
       "id": "3d0e54849296",
       "title": "테마 취향과 조작 취향으로 나눠 보는 이더 리움 cbdc",
-      "source": "calgaryroughnecks.com",
-      "summary": "테마 취향과 조작 취향으로 나눠 보는 이더 리움 cbdc&nbsp;&nbsp;calgaryroughnecks.com",
+      "source": "Calgary Roughnecks",
+      "summary": "테마 취향과 조작 취향으로 나눠 보는 이더 리움 cbdc&nbsp;&nbsp;Calgary Roughnecks",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQU3c4WGpNOHFuZGhOTzBqdXFpNzBiYUhaNFFLcTZXNzdWakwxVkF2bzJsQ3pIZmJCZkNZSlJLQWJvYmJDNGJlT2NvM3BrbnZjb2QteDUtQ1REZXZFQlAxaFJKRzN0MlY3ZFJKVDFB?oc=5",
       "published": "2026-09-12T00:16:43+09:00",
-      "query": "CBDC 은행"
-    },
-    {
-      "id": "3d51ab442935",
-      "title": "암호화폐 중앙은행 관리 을 위한 필수 정보 및 팁 - 성공을 위한 필수 요소",
-      "source": "Histoire pour tous",
-      "summary": "암호화폐 중앙은행 관리 을 위한 필수 정보 및 팁 - 성공을 위한 필수 요소&nbsp;&nbsp;Histoire pour tous",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeW15OTc5a2xYTkt3Xy1vS3FtQWtSdmFtLVNMZlBoYmMzaXFteUFUM2JONlRyY0s0NDVxbWJXdlRLOFU5NXRVTWU0OUxod0tnczFEM3ZUQ09nYWxidW1NYVRka0hjVXdiWWVqYnNFMWRIN25DZnNNdUlYNWVaRnlfSUFzNy11ZFRxTFpmYjVLaldnRzNCRm9iZUg1anZGX1F4WjVNRkdCUWJLbnFnLXJVekFsX1Z3WVktN1E?oc=5",
-      "published": "2026-09-11T21:04:46+09:00",
       "query": "CBDC 은행"
     },
     {
@@ -119,33 +146,6 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvY0xJb1hWR0JXSWZvem91STBGRFYwdHZMYXI4dWVHVkRKeXlzc3JhWXZuemhfTzQtNWttS3k2dGpqMjk1VjZiQ1hOWGdDR0U1andaeHVmWUlvLTBPSWZkM0UzUk10b2kxZ3BWbA?oc=5",
       "published": "2026-09-11T19:22:41+09:00",
       "query": "은행 AI"
-    },
-    {
-      "id": "fd2208062040",
-      "title": "한은 CBDC 실증 2단계 앞두고 은행권 분주…예금토큰, 보조금 집행도 검증대에",
-      "source": "녹색경제신문",
-      "summary": "한은 CBDC 실증 2단계 앞두고 은행권 분주…예금토큰, 보조금 집행도 검증대에&nbsp;&nbsp;녹색경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45Qm8wWVNjU3dVcFBhZnNJNFc0OTVhWWJvTF9sdHotT0NycUgyVGFMM0NLal9QUi1hOGkwVWdGcTA3eUpkSmN6ZTZIbFpQYU5jZkR0LTI2TzVlS05aaWw4MzAwRnF1NG8t?oc=5",
-      "published": "2026-09-11T18:40:12+09:00",
-      "query": "예금토큰"
-    },
-    {
-      "id": "292081d34fe2",
-      "title": "정우진 NHN 대표, NHN클라우드때문에 1831억원 보증을?",
-      "source": "한국금융신문",
-      "summary": "정우진 NHN 대표, NHN클라우드때문에 1831억원 보증을?&nbsp;&nbsp;한국금융신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5JX3FyOEE1cFRtX1UtaDdvMWVFYVl2MzdtZ2VRYldub3JCdm11bmFoOU0yS1UxdVg2UWN4NEtnenVkSzNSNmg4Yy1wZmhYRjdoMjFzdGNDM0tHak0xTW5waXJ1SXU1VzdnYmdiSjdqeWMzMUNFU3lNX0xvOWE?oc=5",
-      "published": "2026-09-11T16:28:28+09:00",
-      "query": "은행 클라우드"
-    },
-    {
-      "id": "5da9e9dbfb35",
-      "title": "Cari, 은행 자금만으로 3250만 달러 조달",
-      "source": "quasa.io",
-      "summary": "Cari, 은행 자금만으로 3250만 달러 조달&nbsp;&nbsp;quasa.io",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUjFLeWNHbVB4cFNUaFVnbmtFSS1rREtMZk9Hbmc4YTFtWU54X1NPNEEwbVVUYnBmMjV1WmRCYmpZdzhpQnhLODZJOHJBdE9DcFlOb3lnMWdxYjhlbnZ0M3dCeFBBZVU0cVRSLUF4cGNKSl9CckRlSnh1d0ZwZE5sZTV5QXVDVkN5OVBKanJud0FVVzJhbnhpQml0YTk2dw?oc=5",
-      "published": "2026-09-11T16:20:00+09:00",
-      "query": "블록체인 은행"
     }
   ]
 }
