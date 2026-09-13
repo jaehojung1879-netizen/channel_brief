@@ -1,97 +1,142 @@
 {
-  "updated_at": "2026-09-13T08:16:32.011662+09:00",
+  "updated_at": "2026-09-14T08:27:53.798481+09:00",
   "social_finance": [
     {
-      "id": "8f02647ba0e7",
-      "title": "박정선 특별시의원 서민금융 이자율 지적 > 뉴스",
-      "source": "더코리아",
-      "summary": "박정선 특별시의원 서민금융 이자율 지적 > 뉴스&nbsp;&nbsp;더코리아",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DTkt3Ykxzc0RuY3RzaGZEQ2F4UDI4eHJ0T05NbkNjTHNudEM3UFRwT2NFSHZKS3dCcGdmbWpZa0xNWXBWNjVoUGR0RENwWE1nUUpkQUN3OWd3SnFFNURzNHhlZTI1RGI1QmNJbThTRHU?oc=5",
-      "published": "2026-09-12T22:01:00+09:00",
-      "query": "서민금융"
+      "id": "816bb30b1e37",
+      "title": "[속보]이재근, 포용금융 질문에 \"사회·고객·투자자와 동반성장하는 게 리딩금융\" - 머니투데이",
+      "source": "머니투데이",
+      "summary": "[속보]이재근, 포용금융 질문에 \"사회·고객·투자자와 동반성장하는 게 리딩금융\" - 머니투데이&nbsp;&nbsp;머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CUzlUMEJpT2tsLUVkc0xGMjdPWFhMd1F1NEZEdXFhLTQ5TUQ3MWpVVFFGX3A5bm1wa1JaUk1ETER4YWp2dkdvbTM3bVJ6cnNaWVRFeXpPUFdLNzVfNFJOeUFhQ0hyaHVEZ3Jr0gFwQVVfeXFMTTRVSzhrZjY4bEJuOTFNRzhkcXNzNmRPZ0ZuNHctYjgtYXluazRZYkl1ODhEYnU2RlBzVG9hdWhsZjVUSEFadVk5Sy1pbE8xQmJxWGJyaGNTSzV3VVc3QlhxSzQ3Wjh0VHRDLUpRYVY0eA?oc=5",
+      "published": "2026-09-14T07:33:48+09:00",
+      "query": "포용금융"
     },
     {
-      "id": "b94ca6f999e4",
-      "title": "빚으로 힘든 금융취약계층 ‘3기관 연계’…채무조정 · 개인회생 지원받는 법",
-      "source": "창원특례신문",
-      "summary": "빚으로 힘든 금융취약계층 ‘3기관 연계’…채무조정 · 개인회생 지원받는 법&nbsp;&nbsp;창원특례신문",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CczUwMFVZY2dVckJmZTJSTmVIS0RsY2hYd0FudGlIdGl1T1RZam42dFRqWV9EYlk5REhyaTNhSmVKejhlQjVXV3A5SkQwejBkUE11QTlRbnRqWjAxT0k4SkV0bEVKdUnSAWtBVV95cUxQSkthQmhYLUZ6bUlMdkowSGRDbmd3NlNHb25NZmREQ1NJVEFsRzQzLUVQZmFFYWZ2b2RyU3QxVnA4YkRsdXYwc0pTcTBoRVpsM245WUZkdTdVZXktVGFMWS1zM2VPM3NTRkdyRQ?oc=5",
-      "published": "2026-09-12T20:56:48+09:00",
+      "id": "45a7b82951b0",
+      "title": "[국민의 기업] 채무 조정 넘어 일자리·복지까지 … ‘포용금융’ 강화 나선다",
+      "source": "v.daum.net",
+      "summary": "[국민의 기업] 채무 조정 넘어 일자리·복지까지 … ‘포용금융’ 강화 나선다&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03SllRbG9nQ3NOSERlZF9zVkdCWmN3N2V0WUs1M3RLMWlNSnRZRm5kQlVZNE5jUnpwVHhXc3oxODJUbnFNRTR4dHlNTWg4TlE?oc=5",
+      "published": "2026-09-14T05:32:00+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "3af77e6bf1e8",
+      "title": "스마트폰 몰라도 \"효돌아, 내 연금 알려줘\"…농촌 찾아간 AI 금융도우미 - 머니투데이",
+      "source": "머니투데이",
+      "summary": "스마트폰 몰라도 \"효돌아, 내 연금 알려줘\"…농촌 찾아간 AI 금융도우미 - 머니투데이&nbsp;&nbsp;머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FVFhHOXZlbzRJM0tnRHZ4Vkc2enNkaTRsM0s3U3VFcWY4N002di1NOHZhUkYxemVFME9pSHBOMUExeFpzWjBTQS1wbWR2c2ljaDJFVEMtNU1odWpudDJTX2dqYzFjYmlSRDJwLTBSaW7SAXBBVV95cUxPRVRYRzl2ZW80STNLZ0R2eFZHNnpzZGk0bDNLN1N1RXFmODdNNnYtTTh2YVJGMXplRTBPaUhwTjFBMXhac1owU0EtcG1kdnNpY2gyRVRDLTVNaHVqbnQyU19namMxY2JpUkQycC0wUmlu?oc=5",
+      "published": "2026-09-13T21:16:31+09:00",
+      "query": "금융접근성"
+    },
+    {
+      "id": "e2e4ba778319",
+      "title": "고령층 위한 ‘에이지테크’, 보험사 신사업 넘어 위험 포트폴리오 변수로",
+      "source": "한국보험신문",
+      "summary": "고령층 위한 ‘에이지테크’, 보험사 신사업 넘어 위험 포트폴리오 변수로&nbsp;&nbsp;한국보험신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KRndvcTlraG1fNjJtVy02QUpMOWoxb0psZk1udkU2V2g5WUxFNzZxSGJPbjY5bmJpT1YtWi1GZ3R5OW4xb2dXZkprSEtfMzU1a2ZVTGEyNTh0Qjg3YjNQT1NfOGtkNkg3Y3dz0gFvQVVfeXFMT3pmZHF1NzVpT3hjRWU5SFQtaC1uSVk2RlZyMDBSbm9ta0Z3d2g2TFB3dW5QalpXTUVsNDFpdmp3U1ktX2NFQlI3MUFfTHZxVGhhSmtxX1JGYXVmLTkwR0VFd2hfVHRVN2djRlY1Z0ZJ?oc=5",
+      "published": "2026-09-13T15:49:31+09:00",
+      "query": "고령자 금융"
+    },
+    {
+      "id": "6569b671a840",
+      "title": "수어 상담에 동행 마라톤…장애인·고령자 참여 기회 넓힌다",
+      "source": "알티케이뉴스",
+      "summary": "수어 상담에 동행 마라톤…장애인·고령자 참여 기회 넓힌다&nbsp;&nbsp;알티케이뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPS0U1VjZqam5lX2hXS0p0bGYtU2Zib1JsajZLOWR1Q3dtVE1HSFBnc0tkdUd2S2xXa09fUjBBRHJlY1lVT1NKUEFLekxMWWVSY3MtdEI4U0hRdDlFLWRyU3I0cEdMYlFZa0VJdA?oc=5",
+      "published": "2026-09-13T14:55:57+09:00",
+      "query": "고령자 금융"
+    },
+    {
+      "id": "9fe7f1ab7ff1",
+      "title": "금융권, 추석 연휴 취약계층 자금 공급…대출 상환만기 자동 연장",
+      "source": "ebn.co.kr",
+      "summary": "금융권, 추석 연휴 취약계층 자금 공급…대출 상환만기 자동 연장&nbsp;&nbsp;ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKRFBqZTVTUm9DNnlwa2V6aGhqZ0huSW5kX0VvX25VN0NiLUkwcDVNUHJLdGxMR2lwZmJ4S3hSY1BMUXVQN0pjSXdGa0VqUlJzY1VUeXhULXZ4d3dVcXMxZm1jRkN4alp0?oc=5",
+      "published": "2026-09-13T14:35:48+09:00",
       "query": "취약계층 금융"
     },
     {
-      "id": "4e9826315883",
-      "title": "삼성전자, 재난안전망 사업협력을 위한 중소기업 상생협력 협약식 개최",
-      "source": "Samsung Global Newsroom",
-      "summary": "삼성전자, 재난안전망 사업협력을 위한 중소기업 상생협력 협약식 개최&nbsp;&nbsp;Samsung Global Newsroom",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVeW1ERVBUSmR3TDVZUkJfeGE3dXJucE44Y1hPNlktWm5CT0gySGxuRnVqOHFmbjFKa0Fad09wSkY5ektRTmJZdkliX1JOVlJELWFVT3o4bUJZdW9rYXk3c2tlYW55WVFoVUNvTGs0VQ?oc=5",
-      "published": "2026-09-12T19:49:07+09:00",
-      "query": "중소기업 상생"
+      "id": "961fd12656d6",
+      "title": "더불어사는사람들 창립 15주년…“금융 넘어 복지·나눔 공동체로”",
+      "source": "v.daum.net",
+      "summary": "더불어사는사람들 창립 15주년…“금융 넘어 복지·나눔 공동체로”&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hLTAzd3BsRl9keDBKVmhTWnE1Q3FFOUNmc3pGblBPTnRjTjBWbm9sdldMMm5VVzVPUTdXNDcycGdvNEEzclVWRUw2YzZyV28?oc=5",
+      "published": "2026-09-13T13:27:10+09:00",
+      "query": "서민금융"
     },
     {
-      "id": "8fc96118bf35",
-      "title": "경북신보, 소상공인 금융사기 예방교육 6회로 확대…포항서 제3차 교육",
-      "source": "웹플러스뉴스",
-      "summary": "경북신보, 소상공인 금융사기 예방교육 6회로 확대…포항서 제3차 교육&nbsp;&nbsp;웹플러스뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqbUhqd2J4SFFwQThwX05uakpTZ0h6NHdmVTRiYTNNN2NhUllxb2JnS2l1Yl9EbWoxMUhXanE4MEU2ODJBaDVhZjI4d2MzbU1GX2lwc0ZRTFdxbGJSYnVuUUw2a3QwTFFoMlFB?oc=5",
-      "published": "2026-09-12T16:29:40+09:00",
+      "id": "621e3f8106e6",
+      "title": "추석 명절 소상공인·중소기업에 ‘103조원’ 풀린다…정책금융 특별대출·금리우대 지원",
+      "source": "경기일보",
+      "summary": "추석 명절 소상공인·중소기업에 ‘103조원’ 풀린다…정책금융 특별대출·금리우대 지원&nbsp;&nbsp;경기일보",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vQmdIVmEtLUo3X0pyTmhJWHVHX05sOEcxNkpCNG5TZXE5MUtjZ2kzb3RMbXYwSWFFMy1JN21jaC1Id2JHcVVvei03WGJFaDI4QUw1Q1lDQVVYTGM?oc=5",
+      "published": "2026-09-13T13:20:57+09:00",
       "query": "소상공인 금융지원"
-    },
-    {
-      "id": "6b0fd26de34e",
-      "title": "농협상호금융, AI 돌봄인형 ‘효돌’로 농촌 고령층 금융접근성 높인다",
-      "source": "워크투데이",
-      "summary": "농협상호금융, AI 돌봄인형 ‘효돌’로 농촌 고령층 금융접근성 높인다&nbsp;&nbsp;워크투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wT1p2d1pTaXhXTTNTb0JlZzZXb3lYdFpvYkwxdXBmaFQzTUxnclJtUFVPZk4wMEdKdURyQmJRMnowSWNIb0VlVzZ5OTZIc1lpdUdrenMtZjNYN3YySHNZVWZidFh1QTZ1dVNRZg?oc=5",
-      "published": "2026-09-11T23:49:31+09:00",
-      "query": "금융접근성"
-    },
-    {
-      "id": "c50534081c16",
-      "title": "기업은행 기업 사회공헌 참여…직장인은 어디서부터 확인하나",
-      "source": "NANOOM ENERGY",
-      "summary": "기업은행 기업 사회공헌 참여…직장인은 어디서부터 확인하나&nbsp;&nbsp;NANOOM ENERGY",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Qc0JPV0ppLW5ZVGtHOUxFUEdTZGZ0OGJ2cnhRNTg2c3Q1a1N6Mk9DNzc1WHA3S0RCVHdEQ05keGFEVExZM3VOREpxOThkY2xMTi1jMzc1cEd6UFdrbnNHaFJOM05nRmFSRUZn?oc=5",
-      "published": "2026-09-11T22:23:32+09:00",
-      "query": "은행 사회공헌"
-    },
-    {
-      "id": "11e88f948590",
-      "title": "농협상호금융, 'AI 돌봄인형' 활용 대화형 금융서비스 시범운영",
-      "source": "연합뉴스",
-      "summary": "농협상호금융, 'AI 돌봄인형' 활용 대화형 금융서비스 시범운영&nbsp;&nbsp;연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85UzItaXVDOVFjR3dBTl9ROVhNOGhGZnhtMTEzQkpuMTBKd3UxUURuRDJPYllzMWFSbVRtaEZpVVBuaHpGdi1qcjdZeDllUFB4T3cwN1VCdDJJMmPSAWBBVV95cUxNRnIwNF9xalRGVlk5bTEwd1FOMERySzg3YUtaLU1ndnZTdEZheW50blRScEM5R0J4Y3NmYV9Wb0RMOVNrbW1yRzFCMkxWUDJmWmo4MHV5X2o5MVNWNnBXcTQ?oc=5",
-      "published": "2026-09-11T16:22:41+09:00",
-      "query": "금융접근성"
-    },
-    {
-      "id": "4ad075057e64",
-      "title": "“기업하기 좋은 원주 입증” 원주 소재 기업 2곳, 지역 재투자 결정",
-      "source": "강원도민일보",
-      "summary": "“기업하기 좋은 원주 입증” 원주 소재 기업 2곳, 지역 재투자 결정&nbsp;&nbsp;강원도민일보",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pbG5FQlRjdG9nVVNHNzFLV1FMdm9mUG1EVXp5MTd6dFZqdVFZRno0dlk0akhVVW00bW9NcFVuQTNOQUU3Yk1fa3hHTEJ3bk1iUmtSSWdiU1FPWmQxVFFobHJUbUxmUVE?oc=5",
-      "published": "2026-09-11T15:59:20+09:00",
-      "query": "지역재투자"
     }
   ],
   "tech": [
     {
-      "id": "0f839e2048fd",
-      "title": "원화 스테이블코인 누가 웃을까…\"발행보다 이것 중요\"",
-      "source": "데일리안",
-      "summary": "원화 스테이블코인 누가 웃을까…\"발행보다 이것 중요\"&nbsp;&nbsp;데일리안",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNODI2bTkzQTFaUVZ3Q1ZrR0NpR3RjQWJJNzlSRFBCeld2a2dxcEJTSnVpZlM1ZW5HcEFsdEE0SG95T04yVjFaTHZOemE3blNIaFhxVlNfMGt5aHVOcUVLQl9ac1IzbzdfUUloWG5lcTB5RUkxRTNPUTAtYjhyMzFUVXBITUVSaFk4eVNlenZUXzJZVnQ5TzhmVFRTVmx6Z1RyWng1TTR6OVhPWnpkS2pPTlByY3lNQWhqXzlRaTlsSWpwckNWcmJJeS1udURHbkxrM2VHeFh4bVdxN3ZZbVFQTVY5U3c1Ni1lajEtWEVTcl9JRG5adk56T01iT3BqRUtaaG01RTF2dFVSMDVELVBlQnBJNml5VEVHZl9VM2s3LUluazA?oc=5",
-      "published": "2026-09-13T07:00:00+09:00",
+      "id": "4371919a2982",
+      "title": "골드만삭스 \"AI 버블론은 잘못된 논쟁…'기회의 규모' 봐야\"",
+      "source": "KB Think",
+      "summary": "골드만삭스 \"AI 버블론은 잘못된 논쟁…'기회의 규모' 봐야\"&nbsp;&nbsp;KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhSXlZR0xROWtldzVOZTVNZHlldWZJZ1NyUVlXVkZPSVJUbWcwNUdjVUxLcWNxSzJXeXotQzB5QlVSd2dyMHNodkVOUVdRUEI2eTNaNHF1dWIzS2N3WWVlNE1jUHVUUWFrZVEwdU9TTm4yZw?oc=5",
+      "published": "2026-09-14T07:50:01+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "4c7a56401602",
+      "title": "[D-BIZ 암호화폐 뉴스] 서클, 4억 달러 타자페이 인수…신흥시장 스테이블코인 격전지 선점",
+      "source": "데일리비즈온",
+      "summary": "[D-BIZ 암호화폐 뉴스] 서클, 4억 달러 타자페이 인수…신흥시장 스테이블코인 격전지 선점&nbsp;&nbsp;데일리비즈온",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hSF9wNXpNUjRFeXBRcVpCdl9hVFJ0V3cwTzVkNmEzbVIzMkR0cjItT3dZTFhXODBhVWQyRXRUZ0lzdFBwR3Z0NVNXWDh3UjYyTjRyQnlYLWh6YVlnZ1MyRF9kTVJkaldKTDNqXw?oc=5",
+      "published": "2026-09-14T02:12:32+09:00",
       "query": "스테이블코인 은행"
     },
     {
-      "id": "87af49f00a97",
-      "title": "코인베이스, 美 지역은행 1,000곳에 스테이블코인 심는다…9월 15일 클래러티법 ‘분수령’",
-      "source": "코인리더스",
-      "summary": "코인베이스, 美 지역은행 1,000곳에 스테이블코인 심는다…9월 15일 클래러티법 ‘분수령’&nbsp;&nbsp;코인리더스",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE85SUtZRDF6djVOSkJlQmZCa01uNjJjNlpCa0t6WXZIM2FqckE4QTlJeDA4WEdEOFNPUmRzWmNLS2FmNVd1LUdrUmZR?oc=5",
-      "published": "2026-09-12T18:23:00+09:00",
-      "query": "스테이블코인 은행"
+      "id": "fedd4d6b5abe",
+      "title": "제주은행 ERP뱅킹 서비스 확대…AI 지원 프로모션 실시",
+      "source": "삼다일보",
+      "summary": "제주은행 ERP뱅킹 서비스 확대…AI 지원 프로모션 실시&nbsp;&nbsp;삼다일보",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xWDRPWnVGd05ySEdaUmV6TTl1OTRRd3JxQWNWYmtEM1BOU29DRDQydUxHNWtFRWRTcGl3S01SREk3eGxTVVhhVjZjcGRWQ2xyYlYtbGdsMWdzMWQzem9SUHV5RWQxbnZzVGItRg?oc=5",
+      "published": "2026-09-13T13:35:00+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "9c44a8f62f1d",
+      "title": "장동혁 \"한국은행 CBDC 도입 서둘러선 안 돼…안전장치 마련 전까지 반대\"",
+      "source": "뉴시스",
+      "summary": "장동혁 \"한국은행 CBDC 도입 서둘러선 안 돼…안전장치 마련 전까지 반대\"&nbsp;&nbsp;뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tZE1wZjk2dXp3TTR2OWF4Wmk1N1FJMTVrUEhQYjJJTTFPeVR2eFZZZHdQaHFkQ24yNWxVMWk0Y1lnblhCVHE4bllEYlhKTXNtc0pya25jRDVENlBubk05UmZNaEpab3dfbzQ3VGE5VlQ3V3NidE1nSNIBeEFVX3lxTE5tZE1wZjk2dXp3TTR2OWF4Wmk1N1FJMTVrUEhQYjJJTTFPeVR2eFZZZHdQaHFkQ24yNWxVMWk0Y1lnblhCVHE4bllEYlhKTXNtc0pya25jRDVENlBubk05UmZNaEpab3dfbzQ3VGE5VlQ3V3NidE1nSA?oc=5",
+      "published": "2026-09-13T12:11:18+09:00",
+      "query": "CBDC 은행"
+    },
+    {
+      "id": "0ebb7592a5ab",
+      "title": "장동혁 “왜 中·러 따라가나…CBDC 도입 서둘러선 안 돼”",
+      "source": "서울경제",
+      "summary": "장동혁 “왜 中·러 따라가나…CBDC 도입 서둘러선 안 돼”&nbsp;&nbsp;서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2QWVHeWllaGhiR2NnS1E3Vkc3OTR1Zmhub2RseEZpSW1VdkM2SVdOSThNYS1ZYU03bGJldWpTcUdMWGZrYjRKQ0wyMGV6dllWNlHSAVNBVV95cUxPTDFUaWwtOVhCTG5NdE9rbzM5MVJvNktGVFpyajlmUGpNVTFleGo2aE9jVnZveWUxcHhIcHdEQ2Z0RGJ5R3k2LUJwQ01tSzJ3bjE2SQ?oc=5",
+      "published": "2026-09-13T11:45:13+09:00",
+      "query": "CBDC 은행"
+    },
+    {
+      "id": "9a539fc3ad6d",
+      "title": "장동혁 “CBDC 도입 서둘러선 안 돼…단일종목 ETF 실패 잊었나”",
+      "source": "v.daum.net",
+      "summary": "장동혁 “CBDC 도입 서둘러선 안 돼…단일종목 ETF 실패 잊었나”&nbsp;&nbsp;v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zejVfcWNYLTlFV0pfN1B6cF9IajRUSGp0endGM21SV0dPcGhmQW4zTkdNQjJoYnEyT0RIQkhXdkU2by1hNUg3TDRCX1dsR00?oc=5",
+      "published": "2026-09-13T10:46:21+09:00",
+      "query": "CBDC 은행"
+    },
+    {
+      "id": "a31e409b46da",
+      "title": "화면 연출이 차분한지 살펴보는 암호 화폐 중앙 은행 비교 기준",
+      "source": "Calgary Roughnecks",
+      "summary": "화면 연출이 차분한지 살펴보는 암호 화폐 중앙 은행 비교 기준&nbsp;&nbsp;Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONFMwcDdzemlLRVFITjMxMTJIMkQ2M2tuMEJfcFlPclF1UF9lZmluSzdsdlpSRWtYcU9WcEU0eVg2M0MySUlZVjlCOWxWT215T3lHaUN4OTdLUFFkTm03WUVia2VTSnFQLVhjT291c0tKTDhrbGQySHBUZUJfd0cyQ1FFZXdBTVRfSGUyX1k3ZHh6Zlh6NzJBTm9tQnlDSjR4QlZGV2g4eEh2dTBWVWt4QklkUlNrekt1d2xrckZR?oc=5",
+      "published": "2026-09-12T21:11:31+09:00",
+      "query": "CBDC 은행"
     },
     {
       "id": "e708a4743095",
@@ -101,51 +146,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5TYmFwcjVMbXl5a1BESDNRbzR4VXE0WEZTN0JjZTB1NjBHLV9ES2JhTXRIMkR1cnlIeHNQd1E2aXFJTWljdl81aUVQbVZaVjZoOUJkNmpfSDRmdXFhcHhIUExXWGF3UdIBakFVX3lxTE5QNVdqR3JXRlNRMHUxRXdHZllvd0RyRFhVM1ljVzZMYzlSb0x6VEM5TXpsblZQUFliVnA2UVZ1T0pjc1VwRHJSbkF5N2hQNjBod1VZVWs3MmZsVDBoY1hBSmswOGFDUXJab3c?oc=5",
       "published": "2026-09-12T13:24:17+09:00",
       "query": "은행 생성형 AI"
-    },
-    {
-      "id": "f6171ae528df",
-      "title": "'AI 네이티브 은행'이 온다…은행원이 된 AI",
-      "source": "마켓인",
-      "summary": "'AI 네이티브 은행'이 온다…은행원이 된 AI&nbsp;&nbsp;마켓인",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hVFl4XzBuZ1M3V3dCRU12MFozNWcxTmRTNl9rR0tjZnl4REw4a0MyRzBxbWwzM1pzOGxiWElDZTNpMDM2MWI5MExsTDU4T3hSbTB4bDRzY0hBbzNHUXFMNldseGlLSXFncjhpYUJMeGYyMXM?oc=5",
-      "published": "2026-09-12T09:50:02+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "5be21f1b3fd4",
-      "title": "'AI 중앙은행' 엔비디아, 과연 그 대출은 건전할까? [PADO] - 머니투데이",
-      "source": "머니투데이",
-      "summary": "'AI 중앙은행' 엔비디아, 과연 그 대출은 건전할까? [PADO] - 머니투데이&nbsp;&nbsp;머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15dVhWT096a1M5N01aSkl2bVpqUUItSXRGMlQ2SFh5RFMySFFoTkNuNDNBcmh4eEp3VjJSQ2hVQzBMMmxWNmI1VkFHdkc0Q3IyTEVsakNraGs2TnJKUDZiVnd2TkZQOGl40gFuQVVfeXFMTXhPdVZlbnF0R0ZaQTctODZvamFNRXgyMVR5M2NoQUhadXJvdWd2MXNGLUl5dWRpLTlfbmRXd2tfd0lkTi0wbDRGN0ZzeHh4aEV5a2FRbUFoSmFWeWFUZlM3b2pZbC0zUWFnQ2pwSHc?oc=5",
-      "published": "2026-09-12T06:10:00+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "3d0e54849296",
-      "title": "테마 취향과 조작 취향으로 나눠 보는 이더 리움 cbdc",
-      "source": "Calgary Roughnecks",
-      "summary": "테마 취향과 조작 취향으로 나눠 보는 이더 리움 cbdc&nbsp;&nbsp;Calgary Roughnecks",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQU3c4WGpNOHFuZGhOTzBqdXFpNzBiYUhaNFFLcTZXNzdWakwxVkF2bzJsQ3pIZmJCZkNZSlJLQWJvYmJDNGJlT2NvM3BrbnZjb2QteDUtQ1REZXZFQlAxaFJKRzN0MlY3ZFJKVDFB?oc=5",
-      "published": "2026-09-12T00:16:43+09:00",
-      "query": "CBDC 은행"
-    },
-    {
-      "id": "aee09612dd1e",
-      "title": "캐나다 금융당국 “토큰화 예금도 은행 예금”…블록체인 금융 제도권 편입",
-      "source": "블록미디어",
-      "summary": "캐나다 금융당국 “토큰화 예금도 은행 예금”…블록체인 금융 제도권 편입&nbsp;&nbsp;블록미디어",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kb3ZtNXNUWEo1VURGX2NtbTZDT0hYaFBoZzBWNldvQUlaOTBoWlpKRWppMmNWYkI3WTZjVjNTUVI0Z0RGS0RTXzg4ZlpoeFFKOUpkYXh4S2k?oc=5",
-      "published": "2026-09-11T19:30:00+09:00",
-      "query": "블록체인 은행"
-    },
-    {
-      "id": "52d45be3f352",
-      "title": "AI로 경제통계 정밀도 높인다…한은·통계학회, 활용 방안 논의",
-      "source": "ER 이코노믹리뷰",
-      "summary": "AI로 경제통계 정밀도 높인다…한은·통계학회, 활용 방안 논의&nbsp;&nbsp;ER 이코노믹리뷰",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvY0xJb1hWR0JXSWZvem91STBGRFYwdHZMYXI4dWVHVkRKeXlzc3JhWXZuemhfTzQtNWttS3k2dGpqMjk1VjZiQ1hOWGdDR0U1andaeHVmWUlvLTBPSWZkM0UzUk10b2kxZ3BWbA?oc=5",
-      "published": "2026-09-11T19:22:41+09:00",
-      "query": "은행 AI"
     }
   ]
 }
