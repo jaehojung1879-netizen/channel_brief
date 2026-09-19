@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-09-19T08:32:54.871896+09:00",
+  "updated_at": "2026-09-20T08:26:42.465311+09:00",
   "headline": {
-    "id": "2a9db544903e",
-    "title": "\"출장소에서도 개인업무는 그대로\"…점포 폐쇄 절차 강화 반년, 은행권의 '점포 셈법'",
-    "source": "녹색경제신문",
-    "summary": "\"출장소에서도 개인업무는 그대로\"…점포 폐쇄 절차 강화 반년, 은행권의 '점포 셈법' 녹색경제신문",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Nd1dVbXB6NDRDTWNvcmdXZTRnMDNaTjE3LVlIdjdlNTJlRGVjcm5na0tVZXRrYTZnd25VNFFBM0dqY2ZURXNNbGwyVWFnMmJOTkVZTHU5UzFmRjZJNmR5ZXBRRnowZWsz?oc=5",
-    "published": "2026-09-18T20:21:42+09:00",
-    "query": "은행 점포",
+    "id": "eafc80778f82",
+    "title": "신한은행, '포용금융·상생·디지털 혁신' 3대 축으로 고객 중심 경영 박차",
+    "source": "데일리팝",
+    "summary": "신한은행, '포용금융·상생·디지털 혁신' 3대 축으로 고객 중심 경영 박차 데일리팝",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hMDBNd0k0SUZLUlZnRUd4cW5rMWNWM1FUbXF3UlhGemhaUGI5TmZCZy1WWlI5Wm1XRERWLXk2NzNBOHktdXc1RlVaUlRrdjlRYWl3dnFycU5obHdYcnpZeGdHZnFaMUFWN0E?oc=5",
+    "published": "2026-09-15T16:37:00+09:00",
+    "query": "신한은행 영업점",
     "engine": "google",
-    "rank": 1,
-    "_score": 24.0,
+    "rank": 10,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "2a9db544903e",
+        "title": "\"출장소에서도 개인업무는 그대로\"…점포 폐쇄 절차 강화 반년, 은행권의 '점포 셈법'",
+        "source": "녹색경제신문",
+        "summary": "\"출장소에서도 개인업무는 그대로\"…점포 폐쇄 절차 강화 반년, 은행권의 '점포 셈법' 녹색경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Nd1dVbXB6NDRDTWNvcmdXZTRnMDNaTjE3LVlIdjdlNTJlRGVjcm5na0tVZXRrYTZnd25VNFFBM0dqY2ZURXNNbGwyVWFnMmJOTkVZTHU5UzFmRjZJNmR5ZXBRRnowZWsz?oc=5",
+        "published": "2026-09-18T20:21:42+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "45e892399dc9",
         "title": "NH농협은행, 전국 60개 영업점 '치매극복선도기업' 인증 획득",
@@ -24,7 +36,19 @@
         "published": "2026-09-16T17:12:46+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "750d3d1d4784",
+        "title": "농협은행 60개 영업점 ‘치매안심 금융창구’로",
+        "source": "뉴스퀘스트",
+        "summary": "농협은행 60개 영업점 ‘치매안심 금융창구’로 뉴스퀘스트",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpc2lDazhPM1BqLXphUi16QmFRTHdKM2RtM1hoMElEVlEtckdfcFdDMWJTaWcyaWpvcTZERlBwNlJ6RW1iWVE5Z3hCZlVRU3ZDelNHZUNWUlJBellSM1BKMlZCRXR1Q0haUmI4UDgydw?oc=5",
+        "published": "2026-09-16T09:50:42+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +60,7 @@
         "published": "2026-09-16T09:40:29+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 12,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,24 +72,11 @@
         "published": "2026-09-16T04:31:02+09:00",
         "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      }
-    ],
-    "policy_news": [
-      {
-        "id": "551ebb0616c1",
-        "title": "스페이스X '0주' 겨눈 금감원, 오늘부터 미래에셋증권 거점점포 검사",
-        "source": "뉴시스",
-        "summary": "스페이스X '0주' 겨눈 금감원, 오늘부터 미래에셋증권 거점점포 검사 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JQUpscFl1UjNHRE8yS3dab2pGRVB3eElXX2tQcEFldXNyZWZheEJsRm43N2ZoUU5tRF96YlZCT205c0stMFJsVHM2ODlwcEZMNmxKUFhfTm9HT0gwblVWUtIBeEFVX3lxTE5KNzI2QzIwaEtGZlExellXbUZhRlp3Wjd0RVZTLTRENHVCb1NpaU1tbVVWUHJvdHFnZDZxa2hqMF9XcUU0MnFmN3FGLXhmaXBwUVlJdjFjTWk0Mndud3VUQ05yX3pqazZ3NmNQWVpBMUlTVkkyOEZDaA?oc=5",
-        "published": "2026-09-14T10:52:19+09:00",
-        "query": "금감원 점포",
-        "engine": "google",
         "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
+    "policy_news": [],
     "shinhan_news": [
       {
         "id": "cfc42058a425",
@@ -76,7 +87,7 @@
         "published": "2026-09-18T17:11:51+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -88,7 +99,7 @@
         "published": "2026-09-18T16:26:28+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -100,7 +111,7 @@
         "published": "2026-09-18T14:29:48+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 5,
+        "rank": 13,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -112,7 +123,7 @@
         "published": "2026-09-18T10:26:23+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -124,7 +135,7 @@
         "published": "2026-09-17T15:15:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 5,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -136,7 +147,19 @@
         "published": "2026-09-17T06:00:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "84c4154aae99",
+        "title": "신한은행 365코너 메인카지노금연게임룸 - 시대별 변화와 영향 - 업계 전문가들의 조언",
+        "source": "Histoire pour tous",
+        "summary": "신한은행 365코너 메인카지노금연게임룸 - 시대별 변화와 영향 - 업계 전문가들의 조언 Histoire pour tous",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CTVBfdzNOc3NEVG1LOE13TE1Xb1hITnVyT3NGdURVX2lhdXVNMTBVVVRqeWhyY2lvR1lubkl3YVdoajdHWnRmZ0lmRU1hYzZnYWpGY01KVjZEejQ?oc=5",
+        "published": "2026-09-16T15:15:34+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -146,9 +169,9 @@
         "summary": "신한은행, 중국동포연합중앙회와 맞춤형 금융지원 '맞손' 뉴스락",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5waExPNlB1UlhxMDg5dWI1Sk5TNlZ1bnhsdWRocVc2QXMtcWNqQW51cS03aUxjdjNDUVkzRWYzbXZ3ZWRLTk5ackNYV3pPYkViYkF3dGF1MTNFeWFvVFJKMUYtMy1OOTZDdUVVZw?oc=5",
         "published": "2026-09-16T09:38:28+09:00",
-        "query": "신한은행 지점",
+        "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 12,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -160,7 +183,7 @@
         "published": "2026-09-15T22:11:49+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 13,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -172,30 +195,18 @@
         "published": "2026-09-15T17:18:45+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 13,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "eafc80778f82",
-        "title": "신한은행, '포용금융·상생·디지털 혁신' 3대 축으로 고객 중심 경영 박차",
-        "source": "데일리팝",
-        "summary": "신한은행, '포용금융·상생·디지털 혁신' 3대 축으로 고객 중심 경영 박차 데일리팝",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hMDBNd0k0SUZLUlZnRUd4cW5rMWNWM1FUbXF3UlhGemhaUGI5TmZCZy1WWlI5Wm1XRERWLXk2NzNBOHktdXc1RlVaUlRrdjlRYWl3dnFycU5obHdYcnpZeGdHZnFaMUFWN0E?oc=5",
-        "published": "2026-09-15T16:37:00+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
         "rank": 12
       },
       {
         "id": "bfdbaebf58a4",
         "title": "신한은행, 부산 소상공인에 1%대 저리대출..포용금융 실천",
-        "source": "choicenews.co.kr",
-        "summary": "신한은행, 부산 소상공인에 1%대 저리대출..포용금융 실천 choicenews.co.kr",
+        "source": "초이스경제",
+        "summary": "신한은행, 부산 소상공인에 1%대 저리대출..포용금융 실천 초이스경제",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TVFozNDVLekw3aURQYjdnZm9BRUl1MGtZQXlEdDNEMmFwRHVtUE41cFRES2pFZVR1VGozX3hPem9jRE0tU2J3ZHR0elpzcUdMWDBydVpCTkdXTng0MGl2aEc0TVZDT0NrNUZ3bm5KR0nSAXNBVV95cUxPTHQxdndDOExKak9INWNpM1p1elJjbHItNzBmQ3liSmY5YkFGalUzYTdFdjIweTV0QUlsRnItV2o1S0tlY0RwdHBDSUhDOEdFZTA3OENySm8xRkFoMUFudUM4YV9POHh0NEpUYV8tc2xZWkFZ?oc=5",
         "published": "2026-09-15T15:38:57+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 10
+        "rank": 8
       },
       {
         "id": "f8a535822a35",
@@ -206,7 +217,7 @@
         "published": "2026-09-15T14:25:11+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 11
+        "rank": 9
       },
       {
         "id": "deaedf673bf4",
@@ -217,18 +228,18 @@
         "published": "2026-09-15T10:47:08+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 4
+        "rank": 1
       },
       {
-        "id": "e124efc9200d",
-        "title": "신한은행 365코너 메인카지노금연게임룸 고객 서비스를 위한 리더십 최선의 실천",
-        "source": "Calgary Roughnecks",
-        "summary": "신한은행 365코너 메인카지노금연게임룸 고객 서비스를 위한 리더십 최선의 실천 Calgary Roughnecks",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb3VreEZxWWNONW1sWGYxTEZYOGNBdTl2WFNHeWxCWXV0S2F6N1prYXB1MXNyRm02WlhjNDdHd2hUSEdHdlhPOF83WUlmZnZ1UFA1VHUtN1VkcXdGOXdoOGdiZWhzekwtUk9HOXprVXl2V3o4Y2R3TmFCa05EdFludC1lVDg?oc=5",
-        "published": "2026-09-12T10:34:12+09:00",
+        "id": "483f60c3bcce",
+        "title": "[금융로드] 신한은행, 중국동포연합중앙회와 손잡고 재한 중국동포 금융문턱 낮춘다",
+        "source": "뉴스로드",
+        "summary": "[금융로드] 신한은행, 중국동포연합중앙회와 손잡고 재한 중국동포 금융문턱 낮춘다 뉴스로드",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tVmt2M0dBTXRQUTB3WWpBZEZSdHdaMUs2ZlpVNGU0d3kxbzNJTzUydWI5N0lyQllWdEFvR0pkcWxBWVFkR0VCWkxBek85N2xNbEpibVZ6R0lyeHFpd0lXbi1xd09sLWY5bUdn0gFvQVVfeXFMT3NjVU85YURDX0k2Qy1tY3NoUVNPM3o1VmlKRDdiNzhjUElXT2prX25sT3VXNzQwQTV0VnZ0Rl91V0w5RjF1aXhnT3h5NVI0NW9waGZyNG4zUkY3aDNqcHozU253MS12TExpaWpGaHFz?oc=5",
+        "published": "2026-09-15T10:45:14+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 13
+        "rank": 10
       }
     ]
   }
