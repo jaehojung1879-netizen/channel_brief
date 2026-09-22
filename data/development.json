@@ -1,4 +1,140 @@
 {
-  "updated_at": "2026-09-21T08:30:34.888290+09:00",
-  "items": []
+  "updated_at": "2026-09-22T09:17:05.580375+09:00",
+  "items": [
+    {
+      "id": "08e9ce437afc",
+      "title": "2027 도시재생 신규사업선정 추진…노후주거지 최대 150억원 지원",
+      "source": "대한건설기계신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FX2dTLU5QQlRkU0plcVNTVXBKTnpUWG4yQVVwS2o0M20tRHJkenFsVmhkQ25QOVhqTzBIQ0tvdEIyVTM2ck4wNVhRNHo1UE05dV82WFo2UHZHVUxWanFrVW5pOEpVenY0?oc=5",
+      "published": "2026-09-22T08:33:55+09:00",
+      "date": "2026-09-22",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "168b9c4f2f67",
+      "title": "아산 탕정2지구 100만평, 부지공사 다음달 착공",
+      "source": "쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kYWJOeGk5dVB0UUY3OENLT1RIaGkyWWlseXdUaUhYeUpMUGxGN25VRlF4bWg3dmpsUGtQd3M4RlNXLWRDQW1kQXVwcldNbnZsN2pBUFlkM3VwSm9uMEQ5WEJHNA?oc=5",
+      "published": "2026-09-21T18:01:49+09:00",
+      "date": "2026-09-21",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "ad13df8f448a",
+      "title": "용인 반도체산단 용수공급 공사 착수…하루 31만톤 우선 공급",
+      "source": "산업단지신문",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSQ1JVZDlqdEZiMkdWWVlQWjZWdGQwWXdYeUtlM1hnWGZDLXd1VDdTWTBVclRTZ3hfUmE5SVVOOUVtTldUbWVVbFVaRkFaNWZ0bmZnVS1mcHlzVVg3OURVYklCNVNGSGdFWlMtWHFaaw?oc=5",
+      "published": "2026-09-21T17:55:20+09:00",
+      "date": "2026-09-21",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "23316f4b09c3",
+      "title": "LH 도심복합사업 '첫 삽'…방학역 지구 5년만에 철거 착수",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sOUQtZjJXT1hZSUM0SlR4Um9jQzRPX0RTSVFTUUpWZVl2UGM3UFRuQlFxYWxPUXA5bHF2dm1DLVpPb1FYMThlRnc4LTM3ZER6T0xRdng1eHo3VFNCbDNaV9IBYEFVX3lxTE1sOUQtZjJXT1hZSUM0SlR4Um9jQzRPX0RTSVFTUUpWZVl2UGM3UFRuQlFxYWxPUXA5bHF2dm1DLVpPb1FYMThlRnc4LTM3ZER6T0xRdng1eHo3VFNCbDNaVw?oc=5",
+      "published": "2026-09-21T17:00:01+09:00",
+      "date": "2026-09-21",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "78f4ef97d709",
+      "title": "제주시, '화북상업지역 도시개발사업' 기반시설 공사 완료",
+      "source": "팝업뉴스",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSUtFY2xKb3V1MWd5OWJMVUdYemd3YUJBTm1QWXRiN0lCMFMtVTZsSmhORVhJblJLa0lJWlBMQWxlUExKQ0tQS0R2blU3bnJCNWZUQ3hQc0lQWC1LS3l4TVpDVUZqYU9TaDRIUGt2VkxGaUZ5UXEtTEJDaG1mLW8zR0hXbGFmV01iYWJoeW13RnZnNmIxNnBB?oc=5",
+      "published": "2026-09-21T15:27:00+09:00",
+      "date": "2026-09-21",
+      "query": "기반시설 인가"
+    },
+    {
+      "id": "2f25eb328969",
+      "title": "LH, 용인 반도체 산단 심사위원 ‘풀 갈이’ 강행…업계 “특정업체 유리” 반발",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Vb3JoUEY2X2E0NzRmRms0VjNZM1VWSmhuUHREZlplSDRrRFZRbXNDY3ZRSDJiUzVHRVZIa1NCd3ZnX21veEhMYXk3cDI5OEE?oc=5",
+      "published": "2026-09-21T15:03:10+09:00",
+      "date": "2026-09-21",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "361548ece649",
+      "title": "1조 용인 반도체 산단, 공사 입찰 논란…평가위원 선정 깜짝 변경에 반발",
+      "source": "땅집고",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HckpuTUoxTS1MaFU5NG9PaEs4ZzdFay1rSl9HOTJSX3JkblluNHR3WWRwc3o1QTl0V3FneXN6dUNrazRZTnNYSW9QMWFJZGdXeVR2a05NTHByVDkzcGlJdGs3ZHFlMjgtdGd1NDh3R1JSdmMwTjFndjd6ZGZsWGPSAXNBVV95cUxQNkd1dXF2cXRsMkt5Nm9WSzF0UkJyRlBGaEVUbmw3ZUt1ZlBmOWtlWS1DNUJKTUdmd3Bib29jUm9JSWlHZmdYRGhuQU5Lb2JUU2x3TThpN282SGhOd0ZHQW1JYm9MeG1nS1lrcTB2V20zQ3U4?oc=5",
+      "published": "2026-09-21T14:58:07+09:00",
+      "date": "2026-09-21",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "8bb560d6ea37",
+      "title": "경주시,‘2035 도시재생전략계획’재정비 본격화",
+      "source": "dongbujungang.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JQkNTQjBvN1BwVi0zckYxeVU2X1JLYTJzQVdHTjFuLTRzcHJ3UWVVbDdvUXVnNzNhMER5eDJhQm5tVEo2WVQ2M3YtZVlhQTlvYXBjdzhRLVZ3bHVkZUpV?oc=5",
+      "published": "2026-09-21T08:07:00+09:00",
+      "date": "2026-09-21",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "44fa47878916",
+      "title": "울산 국가정원길에 700억 투입 정원라이프 브랜드 구축",
+      "source": "울산신문",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wbXpWQUluQnh5NEw5Q2Y0SllzYWR2SUo1UWxNV29EYUdWN3VUSm5lM0ZYY2N1Y0ZqY3FOUW1jc1pmOVN1eTNlRk9RUVJLYmNzOGRIZ3Y1dGU0M2lVRmpLdWRibnJZNG56WFJrWlEtSHdid9IBckFVX3lxTE4wbXpWQUluQnh5NEw5Q2Y0SllzYWR2SUo1UWxNV29EYUdWN3VUSm5lM0ZYY2N1Y0ZqY3FOUW1jc1pmOVN1eTNlRk9RUVJLYmNzOGRIZ3Y1dGU0M2lVRmpLdWRibnJZNG56WFJrWlEtSHdidw?oc=5",
+      "published": "2026-09-20T22:56:08+09:00",
+      "date": "2026-09-20",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "e6b14e694b00",
+      "title": "화북상업지역 도시개발 기반시설 공사 완료",
+      "source": "삼다일보",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15RElzQnE5WEpHcUlNYkVrcHJ4UjBWRlZkazMzVk9QYnA3bWE2V0dEQW4yUTJZU19ZYlplR3VYNGhvbVEtSmRFcGNweWJoOERGR1k3blZzQnQ0bjFtWVdSRTdacVhobHlYUWdrbg?oc=5",
+      "published": "2026-09-20T15:18:50+09:00",
+      "date": "2026-09-20",
+      "query": "기반시설 인가"
+    },
+    {
+      "id": "885dfdbcff4b",
+      "title": "제주시 화북상업지역 기반시설 공사 마쳤는데…",
+      "source": "한라일보",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uM2xyeWVpaklCYnRiSDlBOWg1U0V5d0tfWHhkTDNoeFJYSjNaMlFRc3ZadnJiT2J4N1dEeGRja2ZjamEyX1V0NDRiX0MyZk1yTzVfaUlaUmIzYUp1eldFUGNoS1FHZGI1?oc=5",
+      "published": "2026-09-20T12:02:27+09:00",
+      "date": "2026-09-20",
+      "query": "기반시설 인가"
+    },
+    {
+      "id": "b450b062634d",
+      "title": "LH, 용인 반도체 국가산단 심의에 외부인력 쓰기로… 업계, 왜?",
+      "source": "MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05S1hwMWpqZTNvR1JOT3VoNUF0RkhVTVRPaUMwTDU5NmFmYjlKOEtMRVFvbXlDNmx0TzY4VEZycTFIVFBxNHpUSFcwcjZFZENhX016WDV2QXJ3Q2JYMVkzeHlNOFU?oc=5",
+      "published": "2026-09-18T17:30:01+09:00",
+      "date": "2026-09-18",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "757d71cd7713",
+      "title": "용인 반도체 산단 '물길' 뚫는다…하루 107만톤 공급망 구축 본격화",
+      "source": "전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZVzNGTjZQaDQ2UTVLNWRmNXNtR3lHNThHYV9nRXdSZW1SeWE0ekkybFhJcUJPWFYyazRXMmNlNy1ueVV0S1JZbVZhQVUyUQ?oc=5",
+      "published": "2026-09-18T09:00:00+09:00",
+      "date": "2026-09-18",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "5cf5b734cf25",
+      "title": "[동두천시] 국토부 도시재생사업 추진실적평가에서 3년 연속 ‘최고 등급’ 달성",
+      "source": "팝업뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xMTBmYk1KY3VwT2ZFbjJlUThnbmVrYmJjN3dOOF9nZ3lSejZUU191OUY2VjZsZzU2UWhseTdKNlpyUWlQVThxSFo0ZFVnRXNPSGJnQw?oc=5",
+      "published": "2026-09-18T06:53:14+09:00",
+      "date": "2026-09-18",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "ab87aa750558",
+      "title": "서울시, ‘세운상가 일대 도시재생활성화계획(안)’ 도시계획위원회 심의 통과",
+      "source": "데일리뉴스",
+      "link": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxQWDBCMklaTUhGLXpkdzBBMFpjODZZSE5Kak5ldkxBNkpUTDRFcjBQUFI4X2t6eHF3eXhEZElNZGFja0xzdGdqeGxldTlIeEhqV2FLcUJkWlpWRUxMdVhwQV8xOUhxSy1EdnpEM2c3ekRhNVBoLXlWM2ZHeVprZTgtdGZZUmRhLTlEQ0huNEthdE4ybE5QVlJncG9kMlVXYzRXRFdyWmtVNUdpTEpHQ0VSZVM3WU5OaHNFWGJSTnpEWHlreUtFdjh4QUFtWTdsN3RJWEYzYjJzMC1ZbXExTURmNmFJVV96bThfekt4b080OUxJemQ5elluX3ljWTFMM2QyM1E4azFxemlGU2tRMzZZOHFRM0tHNGNLWjNub3FRZFV0V0lJUE9zbEliRDh1d2ZBYXVnZ2F4WjF5c04yUmJ3OTZUU2lGX3NyY0dXWTJ5Vmd3WWJEWVJTQ3ZBRFlBUzQ1aEM5VDY3M1prOGpnWG5tZENzSm5JU0VmbTZnaFpHckJjbVlRMXgybE9aWVliZmcxejUyVVBxSVJpeEpPVnZGSjRtNE9xVmxRMjYtUzIyOTFZTW1vME80ZFBWdnA5UTdoeXc2czFoS0stOVJiNGg2Z3lEd28?oc=5",
+      "published": "2026-09-17T17:01:17+09:00",
+      "date": "2026-09-17",
+      "query": "도시재생 활성화계획"
+    }
+  ]
 }

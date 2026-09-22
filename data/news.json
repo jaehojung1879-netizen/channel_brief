@@ -1,9 +1,248 @@
 {
-  "updated_at": "2026-09-21T08:28:06.933766+09:00",
-  "headline": null,
+  "updated_at": "2026-09-22T09:15:28.578752+09:00",
+  "headline": {
+    "id": "d36112141488",
+    "title": "은행점포 폐쇄 대안?…우체국 은행대리업 '유명무실' 피하려면",
+    "source": "MTN 머니투데이방송",
+    "summary": "은행점포 폐쇄 대안?…우체국 은행대리업 '유명무실' 피하려면 MTN 머니투데이방송",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6QVh1Yks5eHpKaFRmaHdnMC1RYXZKYUNFUGtxOHdpVHlwdG4tcDVMTVZ1Unpsb216Y0pQX29ORVJNclRjOERqRDdJSlBnekJ5LVl4V3lUNkZ2dldfMVZkTnhHN2k?oc=5",
+    "published": "2026-09-21T17:40:49+09:00",
+    "query": "은행 점포",
+    "engine": "google",
+    "rank": 1,
+    "_score": 21.0,
+    "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+  },
   "categories": {
-    "branch_news": [],
-    "policy_news": [],
-    "shinhan_news": []
+    "branch_news": [
+      {
+        "id": "8af08b1c55e9",
+        "title": "“추석 연휴 은행 문 닫아도 OK” 이동점포 어디에 마련됐나",
+        "source": "뉴스투데이",
+        "summary": "“추석 연휴 은행 문 닫아도 OK” 이동점포 어디에 마련됐나 뉴스투데이",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzWGF2MW9DMEJUdzVaclNaQWY5TTNxOFNWcnZSY0RzSEk2cWtGRmhRVUMxcVpWMGN0eEhqalUwNXlxWnRmTlhmMXVZM2JyUk00bVZFLWtZTGFwaXYwMnc?oc=5",
+        "published": "2026-09-22T06:51:31+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "d09b3ab036e8",
+        "title": "신한은행, '톡번호표' 전 영업점 확대…“카카오 알림톡으로 대기순서 실시간 안내”",
+        "source": "퍼블릭뉴스통신",
+        "summary": "신한은행, '톡번호표' 전 영업점 확대…“카카오 알림톡으로 대기순서 실시간 안내” 퍼블릭뉴스통신",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIYW5TVHdRZnNpcnRKSmE4QTVuZ1FacmtNTHZDbl9Hck5xVGxkTWlzcDN2R1hKbXgxNnk5QXh2VmJwYUk3b0ZzX2Z3Uk4zaDVPTWxIcEEwVl9TZWhRNGppRHdWZkU5R0dlM0Ew?oc=5",
+        "published": "2026-09-21T23:00:17+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 10,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "1c2f8bc116b5",
+        "title": "농협은행, 추석 명절 맞아 귀향길 이동점포 운영",
+        "source": "데일리한국",
+        "summary": "농협은행, 추석 명절 맞아 귀향길 이동점포 운영 데일리한국",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8tZ25Jb0lxZEhTa1JkeXQ2OGFmVnJ6TjhCa1liblhFU1Vuc2ttTEVQWXRxMVNwb2N1OG1GZXJLTzB3aTNGaVlSZEZzQ1JSdld2X0g5ZHB4UF9XT3FGOVcyVTFFd29pMldpWWRqVkU3b9IBc0FVX3lxTE1LS3RYUy1LY1JzbXd1alowRmg1RlF6bDAwRUlpRkNEN0J5YUF1U0JTOUJSWGpJVmxsTDFROTROZE04T3M3b200cWpKc2F0anVBdUVKR3VLLTk4WmJsZFJhZmVQQlhNSEhudUg1UmpkV3pleWs?oc=5",
+        "published": "2026-09-21T20:10:02+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "052d139e5366",
+        "title": "NH농협은행, 추석 귀성길 이동점포 운영…신권 교환 지원",
+        "source": "이지경제",
+        "summary": "NH농협은행, 추석 귀성길 이동점포 운영…신권 교환 지원 이지경제",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hWlpnYzc4TjRPZmNkQm55WGxTOUVHb1FubW5aUXl5NVg3T2RjYWVSVnNvZ3Y5NmJiRF8tZ3lGY3M2dWJZVld2Y0NkTFVySWdVMTNSekhxWVJweDZKNmN4SkdfWGdFMmd0RFZxa1pR?oc=5",
+        "published": "2026-09-21T14:21:41+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 10,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2a9db544903e",
+        "title": "\"출장소에서도 개인업무는 그대로\"…점포 폐쇄 절차 강화 반년, 은행권의 '점포 셈법'",
+        "source": "녹색경제신문",
+        "summary": "\"출장소에서도 개인업무는 그대로\"…점포 폐쇄 절차 강화 반년, 은행권의 '점포 셈법' 녹색경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Nd1dVbXB6NDRDTWNvcmdXZTRnMDNaTjE3LVlIdjdlNTJlRGVjcm5na0tVZXRrYTZnd25VNFFBM0dqY2ZURXNNbGwyVWFnMmJOTkVZTHU5UzFmRjZJNmR5ZXBRRnowZWsz?oc=5",
+        "published": "2026-09-18T20:21:42+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 7,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ],
+    "policy_news": [
+      {
+        "id": "437d6f72e0b8",
+        "title": "금감원, 증권사 거점점포 불건전 영업 정조준…\"내부통제 강화해야\"",
+        "source": "뉴스웍스",
+        "summary": "금감원, 증권사 거점점포 불건전 영업 정조준…\"내부통제 강화해야\" 뉴스웍스",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YR3BPb251S2tEN2ZsOTJjbDdQaTB5VWNlZTVrRnUyR1ppZ1VtUzFQWWFsQlFLdlVsRzdGWjFrNEJmRjB2ZXp0TXktd2hoMk11OC1fREhqcDROVFFVMmM4TElVbVcwcnF6SXdkQmtYR3k4WFk?oc=5",
+        "published": "2026-09-21T11:02:18+09:00",
+        "query": "금감원 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ],
+    "shinhan_news": [
+      {
+        "id": "66e289433035",
+        "title": "신한은행, 영업점 기다림을 바꾸다, ‘신한 톡번호표’ 전면 확대",
+        "source": "내외뉴스통신",
+        "summary": "신한은행, 영업점 기다림을 바꾸다, ‘신한 톡번호표’ 전면 확대 내외뉴스통신",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xVDNiaFFfcEo4ZzFkMWtXNVEzUlRBQ1dxd0VhOGcyMlBGR2ZfNXdUNGRLWXR4RHlfOERXaWZEbmJBclNMUFFaR1BPNFlmYnZLUzZYbjJCZEIxMDBSSkRkZDFwWk5TcVduelBacmplSV_SAXBBVV95cUxPcVQzYmhRX3BKOGcxZDFrVzVRM1JUQUNXcXdFYThnMjJQRkdmXzV3VDRkS1l0eER5XzhEV2lmRG5iQXJTTFBRWkdQTzRZZmJ2S1M2WG4yQmRCMTAwUkpEZGQxcFpOU3FXbnpQWnJqZUlf?oc=5",
+        "published": "2026-09-21T19:46:33+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 12,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2695e6296a5c",
+        "title": "신한은행, 앱 없이 카톡으로 대기순서 확인…영업점 금융도 ‘노앱’ 전환",
+        "source": "이코노미사이언스",
+        "summary": "신한은행, 앱 없이 카톡으로 대기순서 확인…영업점 금융도 ‘노앱’ 전환 이코노미사이언스",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKWjQ3Z1BKcnY2UV9mVHJISzZsWF9temF4RlBFazg4OEVaTEFxRUExbnVSQ2hNZzF1NUVBc3dvVng3WER6X0J2Q0VPY1ZlYW9kVk1nbXhOakFNdzNwWkhzQWVNclU3TDFNX1pSbEFvWQ?oc=5",
+        "published": "2026-09-21T18:05:10+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "50338c9b5207",
+        "title": "신한은행, 카카오 알림톡 기반 영업점 대기 안내 확대",
+        "source": "팝콘뉴스",
+        "summary": "신한은행, 카카오 알림톡 기반 영업점 대기 안내 확대 팝콘뉴스",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGYUthaUJpVEctcjJDSWRxekFvaFZrVFFWSWIwVi1TTVJBc2twenRZcy1LTnpjdURmdllmVHZNc3VXQk5NQUNRbzdWaUViQkNvTDhLLUJUcURUcXNpVGdJb3NKWmlaZWpuU2JOUHdR0gFyQVVfeXFMUFdKNm9kUm1ZM2t4d25YUUlLeXFWX180a04ybDdhbUZIMnZqWEhoY0lkSzVxU1VxQVN1OWRfZnlvTTIzam4zLUp1VTNHSlpweVJUVndUcXNwVGN0SmFlekdwMW1LSnNJQXg5X2ZteVZqcTh3?oc=5",
+        "published": "2026-09-21T18:02:43+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 14,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "e75cfe280bac",
+        "title": "카카오톡으로 실시간 대기 확인… 신한은행, 톡번호표 서비스 도입 이후 약 2만 명 이용",
+        "source": "열린뉴스통신",
+        "summary": "카카오톡으로 실시간 대기 확인… 신한은행, 톡번호표 서비스 도입 이후 약 2만 명 이용 열린뉴스통신",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yV0ttVmxQZEZueDRjXy1qM2d0dE5MWk8yXzZVRG4yV05XVXFFUGJ0U1ViQUlfNFFDMDBic0NjelpaMl9VdHpRLUUtYUYyQ0pyWXdsbi0yOUJ3OGowSTNvVWRsRzlwUQ?oc=5",
+        "published": "2026-09-21T17:10:42+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "cfc42058a425",
+        "title": "신한은행, 외국인 금융 편의 높인다…‘SOL글로벌 통장·체크카드’ 시행",
+        "source": "뉴스티앤티",
+        "summary": "신한은행, 외국인 금융 편의 높인다…‘SOL글로벌 통장·체크카드’ 시행 뉴스티앤티",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rR1lCS0ItWlpjZFkwM2syb25XLXQxejlJcVV6MldpTFhJSXRieFNzd1hkdkpjVzZlN25KOUJhQTRybV8xVjdhNnBlXzBfdkFNOXBXZ0JWeG5NWHJ3NTJVMUkyUnJwM21ELWc?oc=5",
+        "published": "2026-09-18T17:11:51+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "9f7405be35e0",
+        "title": "신한은행 '이나인페이' 앱에서 외국인 계좌개설 지원",
+        "source": "세이프머니",
+        "summary": "신한은행 '이나인페이' 앱에서 외국인 계좌개설 지원 세이프머니",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xTmZ5Y2NLT1huMklrdGdsT0FYQlQxWHR6ZGY0cU8yWW1kbGNyYzVyaVUyR0tUWHU1MVRvY3RTMXhEVmYyMHpwRTd6eS1BRnNsbnNXSHdITG4wZExtaXltVG1zX0N2QmY3S2cxTWFn?oc=5",
+        "published": "2026-09-18T14:29:48+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "0a9da77f3341",
+        "title": "\"진정성 통했다\"…인천시 1금고 지켜낸 신한은행",
+        "source": "아시아경제",
+        "summary": "\"진정성 통했다\"…인천시 1금고 지켜낸 신한은행 아시아경제",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UMUtVb2hkZUtKdlJZcnI2NnJlS1EyY3pCYmNzWDdscktYZjBUM051QWZqTkwwUlhhaU9CejNGZEFtUEM5RjZNaGs0MmU0OUh3bk9mZ3I5OGtaYmE2MThkNA?oc=5",
+        "published": "2026-09-18T10:26:23+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 7,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "4b3b5a492cbf",
+        "title": "신한은행 서부법원지점과 함께한 ‘응원의 엘리베이터’ [ER·서울시자원봉사센터 캠페인]",
+        "source": "ER 이코노믹리뷰",
+        "summary": "신한은행 서부법원지점과 함께한 ‘응원의 엘리베이터’ [ER·서울시자원봉사센터 캠페인] ER 이코노믹리뷰",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9raW5GMVJqR3VtWXQyQ0E4VDUwSU5PM3ljcFE0N0VQTk5kcjVFQm9qdVdEV3FMNTRIdUZlVmVTMHM5SVdxWlh3RW9PVU9wSXNEaGpuY25Lb09QM2VVcXZVZHJadWhOQUFscDhhNQ?oc=5",
+        "published": "2026-09-17T15:15:00+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "82a756dacf42",
+        "title": "‘17조원’ 인천시금고 열쇠 주인 오늘 판가름…신한·하나 1금고 맞대결",
+        "source": "경기일보",
+        "summary": "‘17조원’ 인천시금고 열쇠 주인 오늘 판가름…신한·하나 1금고 맞대결 경기일보",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ybjdpYnZVeXl1SkY3UGtCQnpnRVNiMzAyZE5SQ2hBMUNWRGdNN3dXVWpheDFRTjFqQzh5R1JoaFpIaWxhc3ZxREZkY0ppRHh1Q09FNFVZWVRqRkk?oc=5",
+        "published": "2026-09-17T06:00:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "40c8a31f18de",
+        "title": "신한은행, 중국동포연합중앙회와 맞춤형 금융지원 '맞손'",
+        "source": "뉴스락",
+        "summary": "신한은행, 중국동포연합중앙회와 맞춤형 금융지원 '맞손' 뉴스락",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5waExPNlB1UlhxMDg5dWI1Sk5TNlZ1bnhsdWRocVc2QXMtcWNqQW51cS03aUxjdjNDUVkzRWYzbXZ3ZWRLTk5ackNYV3pPYkViYkF3dGF1MTNFeWFvVFJKMUYtMy1OOTZDdUVVZw?oc=5",
+        "published": "2026-09-16T09:38:28+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 12
+      },
+      {
+        "id": "eafc80778f82",
+        "title": "신한은행, '포용금융·상생·디지털 혁신' 3대 축으로 고객 중심 경영 박차",
+        "source": "데일리팝",
+        "summary": "신한은행, '포용금융·상생·디지털 혁신' 3대 축으로 고객 중심 경영 박차 데일리팝",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hMDBNd0k0SUZLUlZnRUd4cW5rMWNWM1FUbXF3UlhGemhaUGI5TmZCZy1WWlI5Wm1XRERWLXk2NzNBOHktdXc1RlVaUlRrdjlRYWl3dnFycU5obHdYcnpZeGdHZnFaMUFWN0E?oc=5",
+        "published": "2026-09-15T16:37:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 14
+      },
+      {
+        "id": "f8a535822a35",
+        "title": "“계좌 개설부터 해외송금까지 쉽게”…신한은행, 중국동포 금융 접근성 높인다",
+        "source": "더게이트",
+        "summary": "“계좌 개설부터 해외송금까지 쉽게”…신한은행, 중국동포 금융 접근성 높인다 더게이트",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xNC1DTXNpZFlsQVNmcjZ6ajBxTERCRkc3TDN2dk5VRHJvTHBwSmJHQzg3UDhHVWhkeU1Jc18wenY4OFhiR2RDbVpYVFZFTGNoT3lzenJWUW5sN2lvSDVKWlVjcWpRbkM40gFsQVVfeXFMT0lNelpIc0RJR3dtZDNqZzVuRWVIZk9pSlFNTFhKSU1Fd0l6ZHIydlFUdWRZaTlVN1VWd1FJLUNjaThwYXdDSV9iMHhGWjdpaVpoLU5kSy1UWlpEeU5SM2VtWlI0MjU5Ri1OcGQ4?oc=5",
+        "published": "2026-09-15T14:25:11+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 10
+      },
+      {
+        "id": "f1e090b46eab",
+        "title": "신한은행, 국내 거주 중국동포 맞춤형 금융서비스 강화 - 머니투데이",
+        "source": "머니투데이",
+        "summary": "신한은행, 국내 거주 중국동포 맞춤형 금융서비스 강화 - 머니투데이 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yX0ZFQnI2SFdDSC0tMi02UEx1TjZGamRCMFZEOU9nOVFtZVpFR09rdE5CVTljRUNRcHExUDdtVTY5ZndfUlhpdVI3YXI3LTV5ckxQdWxxUG51SG5BUFgyZGFJQ24tZVRMOVB30gFwQVVfeXFMTXdVMUZIV0tqZl9mRFJLRmNqSnVINkxRNUNjTGpVOERUZFBLRUdFclREellYNF9pbUxseHNYX1VfRTNGN3hmX3dlazZYOFliT2c2aFdreDA3OGJsanpMeE4yM3BzVU5iSEpmTFlqX2FKMQ?oc=5",
+        "published": "2026-09-15T10:47:08+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 3
+      }
+    ]
   }
 }
