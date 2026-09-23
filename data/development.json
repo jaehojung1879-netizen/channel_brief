@@ -1,48 +1,57 @@
 {
-  "updated_at": "2026-09-23T08:48:03.423952+09:00",
+  "updated_at": "2026-09-24T08:57:24.618335+09:00",
   "items": [
     {
-      "id": "e337e41d3281",
-      "title": "박선원, 호남 반도체 국가산단 ‘선양여’ 특례 추진",
-      "source": "진일보",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCSlJ6TFpBWVdiSGxtdk16bldwcWVic1hBX0psVXAzZnczRkxtYm1Ma0oxdmFpWEM1ekd4YnhuZXV2dlQwYVlQRXdOdG9MRHF3RGRGZzRLWDJnRm4tWWt6NzBubWgyY2FmWlB0d1kzZw?oc=5",
-      "published": "2026-09-22T17:33:28+09:00",
+      "id": "d349515cf31f",
+      "title": "홍지선 “주택 공급, 착공·입주 끝까지 챙길 것”",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBlRzJIQ0dKWlQ3ODQwcWNJeUtyS1Ftazc1cEJvY2VlWmN0X1pWUWt4azY5NEN3NF9kNXlLaUhNQ0oyZTNxQVRQckZaaw?oc=5",
+      "published": "2026-09-23T21:03:00+09:00",
+      "date": "2026-09-23",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "2c876ec59b72",
+      "title": "[단독] 대우건설, 용인 반도체 국가산단 1공구 조성공사 잡았다",
+      "source": "MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2SDRob2ppSmV3aWdxaks3b29PRXNzek5sYlpFd2tDREk4SXNwR1dKZFBZOU1RbzU1a0ZkYkI5b001VDVpVXpUUzk3REhtS2didk5vdGRDWnVEb1Qtc28xeUhPbko?oc=5",
+      "published": "2026-09-23T19:27:30+09:00",
+      "date": "2026-09-23",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "8db547c5180f",
+      "title": "LH, 성대야구장에 토지비축제도 활용…'공급 속도전'",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jWGl0aTBkWjlhM3NXa1FMY1FqUThpM2pWVnRweVZzQ01Rai1tRGtGYlQ5Tzl2WjV3NExMWjI3QWJKZVcwZVVYTy1zZEJRWGNQd0NyV0RQUmhSNDF6Z2lkVtIBYEFVX3lxTE1jWGl0aTBkWjlhM3NXa1FMY1FqUThpM2pWVnRweVZzQ01Rai1tRGtGYlQ5Tzl2WjV3NExMWjI3QWJKZVcwZVVYTy1zZEJRWGNQd0NyV0RQUmhSNDF6Z2lkVg?oc=5",
+      "published": "2026-09-23T14:33:39+09:00",
+      "date": "2026-09-23",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "efcc4490ea50",
+      "title": "광주 반도체 산단 내년 상반기 착공…2030년 첫 양산 목표",
+      "source": "매일경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wRlRwck1PbmFRVFlVbktlSmJqbHktVWZNQWZZOXI5ZXBhUEQ2TkZzVW9WUmJkcmd2UDdXTGhscFRnWkVtOWZsWk5acEV1STFnLVJmQ2gyWlc3VVFmYzR5czJKWTBYYlFE?oc=5",
+      "published": "2026-09-22T16:30:00+09:00",
       "date": "2026-09-22",
       "query": "반도체 국가산단"
     },
     {
-      "id": "4b8159eaa09d",
-      "title": "호남 반도체 '2030년 6월 첫 양산'…반도체 국가산단 시간표 나왔다",
-      "source": "한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SZHVrRWlrWnVYV0xmNkkyWmV1YWg1Njc3ZElEZHBzRGdoSVU0ZTN0Zllrc1RxSlZBbm9uMlBSeXc3c3Z6Nlh6RFk1X3N4REFCdXFQWGUxakxIdw?oc=5",
-      "published": "2026-09-22T17:24:42+09:00",
-      "date": "2026-09-22",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "e78a0834581d",
-      "title": "LH, ‘용인 반도체 국가산단 1공구 심사위원 452명’ 구성…비위 차단·공정성 강화",
-      "source": "팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwZm42RmVoRndKZnl5YlFadmtqeFNEdWV4cEoyU0ZSWTNNVi1CU20xdUZsWERkLTlQM2JUNXhxbUpVLUlXTVdoc1p4R1RjRkpVTkN0eGFhM3BaWXFaTUp1UWlZOEV3R0U?oc=5",
-      "published": "2026-09-22T17:10:31+09:00",
-      "date": "2026-09-22",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "96fb8f43b7ad",
-      "title": "박선원 의원, 광주 군공항 이전·반도체 국가산단 신속 추진 특별법 발의",
-      "source": "KBC광주방송",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VWVVfRHNrLVlOS0xnMVQ0MmpEUTRWZEs3aTBfSG1LdFl2Tl9GcXoxV3R0RWRFNG54cUZYb1B0OHhFTGFkQndCdWY1UmJOWWwxZ3JzOW5wODBNVS1sR1lVYg?oc=5",
-      "published": "2026-09-22T14:21:24+09:00",
-      "date": "2026-09-22",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "d249c08eb9c2",
+      "id": "146921d25b3e",
       "title": "호남 반도체 클러스터 양대 거점 '광주·무안산단' 산업벨트 착착",
-      "source": "뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92dDdnUEVkMUVWMWNZTGtENDVUWTZWYjVIOTduVlN1dkowdENDNFd3aWxmb3k4UkpSNnQtTGhmVURJXzRSeUhNNEtqMTA2MWYwdGMzLXBzQnljNU1jclp6d3VzcTfSAWRBVV95cUxPdnQ3Z1BFZDFFVjFjWUxrRDQ1VFk2VmI1SDk3blZTdXZKMHRDQzRXd2lsZm95OFJKUjZ0LUxoZlVESV80UnlITTRLajEwNjFmMHRjMy1wc0J5YzVNY3Jaend1c3E3?oc=5",
-      "published": "2026-09-22T14:05:55+09:00",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfcmhIWnVJSUhyWFdPQTU4ZGJ0NVVZN3RGSEFsallrcFRLM0J1TUc4QmVRaUFJY1k3X1lSUjBMSVQ5OXFBLW1ETkNXZTg3YmM?oc=5",
+      "published": "2026-09-22T14:07:32+09:00",
+      "date": "2026-09-22",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "e11ccd651bad",
+      "title": "반도체산단 전격전, 내년 1차 착공…2030년 6월 첫 양산(종합)",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XdFBHZ3o1dEdSenREM293Q19pakZweFE0NXlRRWVvb3BrTm5KMWh2ekE1UnVPSzRSNDlyWVhWalJoel9va1d2R0l6RE1JZjAwMEVYR2xwSzNPN1VTTzI3TtIBeEFVX3lxTE5SUENMMTl0WHNxVGtRREZhVzR0STZOTGVOb1E3WG5jMzFVLTdleUtyLUtESjU3QWxta3lwck1hTDZqMWktMTVwNFpIUUkyZi1rekcwRTNVZHhVV1hBMFdyRHpTSDU4dDhZSTlrTHluVW5uS0hGV0Q5VA?oc=5",
+      "published": "2026-09-22T12:08:07+09:00",
       "date": "2026-09-22",
       "query": "반도체 국가산단"
     },
@@ -74,18 +83,18 @@
       "query": "기반시설 인가"
     },
     {
-      "id": "44fa47878916",
-      "title": "울산 국가정원길에 700억 투입 정원라이프 브랜드 구축",
-      "source": "울산신문",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wbXpWQUluQnh5NEw5Q2Y0SllzYWR2SUo1UWxNV29EYUdWN3VUSm5lM0ZYY2N1Y0ZqY3FOUW1jc1pmOVN1eTNlRk9RUVJLYmNzOGRIZ3Y1dGU0M2lVRmpLdWRibnJZNG56WFJrWlEtSHdid9IBckFVX3lxTE4wbXpWQUluQnh5NEw5Q2Y0SllzYWR2SUo1UWxNV29EYUdWN3VUSm5lM0ZYY2N1Y0ZqY3FOUW1jc1pmOVN1eTNlRk9RUVJLYmNzOGRIZ3Y1dGU0M2lVRmpLdWRibnJZNG56WFJrWlEtSHdidw?oc=5",
-      "published": "2026-09-20T22:56:08+09:00",
-      "date": "2026-09-20",
-      "query": "도시재생 활성화계획"
+      "id": "7ea98790e6f7",
+      "title": "유신 컨소시엄, 호남 반도체 산단 조사설계 선점",
+      "source": "대한경제",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53NTNqeTYxNU1OLXRYUkVuaHZhN0Q5cXpyLVVybEQzaUZVak5KRGxjZHNCcnJDTnZZN2l2VmJQU1ZzM1I3U2xaYTFYYkdKRTRWZkNua1l1ekFxNXd2a2lpWE5NWV9sZ2RkVnY1Z0ZKcWhMMWM?oc=5",
+      "published": "2026-09-21T11:00:26+09:00",
+      "date": "2026-09-21",
+      "query": "반도체 국가산단"
     },
     {
       "id": "e6b14e694b00",
       "title": "화북상업지역 도시개발 기반시설 공사 완료",
-      "source": "삼다일보",
+      "source": "samdailbo.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15RElzQnE5WEpHcUlNYkVrcHJ4UjBWRlZkazMzVk9QYnA3bWE2V0dEQW4yUTJZU19ZYlplR3VYNGhvbVEtSmRFcGNweWJoOERGR1k3blZzQnQ0bjFtWVdSRTdacVhobHlYUWdrbg?oc=5",
       "published": "2026-09-20T15:18:50+09:00",
       "date": "2026-09-20",
@@ -126,15 +135,6 @@
       "published": "2026-09-17T17:01:17+09:00",
       "date": "2026-09-17",
       "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "11345a48c2d5",
-      "title": "완주군, 국토부·LH에 삼봉2지구 조속 추진 재차 촉구",
-      "source": "완주전주신문",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DWlp4Tk9HMTU3STc5RzJQRzAzcmhwcC15UTAzMnVpM21oVFpIRmxOWWh2bFFWT2RUUFg5R2JiS1RUbGhmRktHNEQyS19xcjQ?oc=5",
-      "published": "2026-09-17T14:48:00+09:00",
-      "date": "2026-09-17",
-      "query": "LH 지구지정"
     }
   ]
 }
