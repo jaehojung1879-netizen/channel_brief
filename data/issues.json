@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-09-25T09:01:25.360809+09:00",
+  "updated_at": "2026-09-26T09:08:37.897117+09:00",
   "social_finance": [
+    {
+      "id": "12f53b3e443a",
+      "title": "BNK금융, 추석 맞이 ‘지역 상생’ 총력…1.6조 금융지원·전통시장 활성화",
+      "source": "글로벌이코노믹",
+      "summary": "BNK금융, 추석 맞이 ‘지역 상생’ 총력…1.6조 금융지원·전통시장 활성화&nbsp;&nbsp;글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSzRXb01aN1l1MUxpZVNaVXNLcmFIM0dmWml0a08waXpUSU1mZmoyaXlIdXJfM1FVOGx6T2RaVzhRVDcxTEgwVHhjTjNlUzZPZHkwRW5FR3N3bGtXZW9hajJLV1ZwYjNxT2dlckdSVVlpNzJVY0xnb2pIQWRWN200T1djbW0?oc=5",
+      "published": "2026-09-26T06:00:00+09:00",
+      "query": "상생금융"
+    },
+    {
+      "id": "98485ec34cb6",
+      "title": "휴면예금 찾아줌에서 지급 신청하는 순서",
+      "source": "비건뉴스",
+      "summary": "휴면예금 찾아줌에서 지급 신청하는 순서&nbsp;&nbsp;비건뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LUHk5eEVkeENveTk0WjRGSFRTOHpvN0hiQW5hQjJKWVZfa21iU1FrN2otUTJYSXRjUG9TS0Jjc1IxVGVzbjdkbjhqbFNidHQwdTNUSW01bUFVaC1LVlVQVk45Q0JpUQ?oc=5",
+      "published": "2026-09-26T04:22:38+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "571beeeb95db",
+      "title": "우리은행 별별하모니아·다문화어린이합창단, 문화다양성 무대서 특별 협연",
+      "source": "더글로벌기빙뉴스",
+      "summary": "우리은행 별별하모니아·다문화어린이합창단, 문화다양성 무대서 특별 협연&nbsp;&nbsp;더글로벌기빙뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4wRjNVUl9Td1RVeXNZUGVmeWNHdTc2dlNiTmFuSmltUW5uc2NTSXp4aTh6NEZyT01mX0NlRDhqY3l2RzNkV05yYmx6QThwWWkwMzU1TQ?oc=5",
+      "published": "2026-09-25T20:29:00+09:00",
+      "query": "은행 사회공헌"
+    },
     {
       "id": "68d7651dc22b",
       "title": "생산·포용·신뢰' 펼친 금융위…'청년'으로 새 동력 찾는다",
-      "source": "연합인포맥스",
-      "summary": "생산·포용·신뢰' 펼친 금융위…'청년'으로 새 동력 찾는다&nbsp;&nbsp;연합인포맥스",
+      "source": "news.einfomax.co.kr",
+      "summary": "생산·포용·신뢰' 펼친 금융위…'청년'으로 새 동력 찾는다&nbsp;&nbsp;news.einfomax.co.kr",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RVC0zSERPQTQwcUVGd2xDNkpFMWxIY0VGdTBsWXZXVTdWNTZ2c0RwWEtLRWZXQm13X1hmdzMwbU5EREFJLVdOYUNOOVZjTENKNTNHQWdlZDFRRzZLTDNWZk1GejRSbGVrSDdWdTROZDfSAXRBVV95cUxOQktveUVocjEzdEt6d1Qwa1ExVkhUVEZFY1oxbVBFclVnN09GTlFWQlBUQ3BlM3Q5U1BIRVd4cG04elU5SHU3Rk9vS0RISUI0RjJuUHBoMUJpVHZCX2liMVNQZzNZNzhibHRYdlVwTGp3MGw0dw?oc=5",
       "published": "2026-09-25T08:30:14+09:00",
-      "query": "포용금융"
-    },
-    {
-      "id": "f4754708eb3c",
-      "title": "지역과 함께 크는 광주은행… 상생·포용 넘어 ‘AI 혁신’으로",
-      "source": "v.daum.net",
-      "summary": "지역과 함께 크는 광주은행… 상생·포용 넘어 ‘AI 혁신’으로&nbsp;&nbsp;v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sc0pxeXU5Q1Exd3lrMHE3cUdXYmNYUHRGTkczTVVza0d1b05jU0J6eXlyaHp2X2pnbmlXeXE4UmZ5VFNIZHozYzJQX01NMFE?oc=5",
-      "published": "2026-09-24T17:57:47+09:00",
       "query": "포용금융"
     },
     {
@@ -29,15 +47,6 @@
       "query": "중소기업 상생"
     },
     {
-      "id": "af247ee86436",
-      "title": "추석 앞둔 제주 소상공인 자금 숨통…150억원 특별보증 지원",
-      "source": "헤드라인제주",
-      "summary": "추석 앞둔 제주 소상공인 자금 숨통…150억원 특별보증 지원&nbsp;&nbsp;헤드라인제주",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zNDM4U1Ewb19XYmN0OHVad0FoR2N4WU55ZFYyN093SkNqVkctMVEzSl9vWkhRbEhlZkV2NUJPN3JkemdDeFU0eS1zNU42Q25waEdTYWhMNUU1RXcwN1hBRFdzZVowRVYteE1uU1NKdE9sRkk?oc=5",
-      "published": "2026-09-24T09:21:57+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
       "id": "7a85473062b4",
       "title": "국립공원공단·충북테크노파크, 충북지역 중소기업 상생협력 및 동반성장을 위한 업무협약 체결",
       "source": "보은사람들",
@@ -45,15 +54,6 @@
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPalB4WHFVZmtmc1Fqb2xCNm52aUZhdzdGc2V0bi12Y1pmTnhGamdYWlJJY2o3dFgxYktzcXpWS1dUQ3VqMUgzX1VOSVRlYVFrOWRSVWhqNl9XbllTcm5rU1BfMng5X2Y1R05XY1Fn?oc=5",
       "published": "2026-09-23T18:06:21+09:00",
       "query": "중소기업 상생"
-    },
-    {
-      "id": "0ef4cb086bbc",
-      "title": "세이브월드, 복재성 명예회장 주도 청년·취약계층 금융 교육 ‘시즌2’ 본격 확대… ‘금융 안전망 구축 속도 낸다’",
-      "source": "뉴스와이어",
-      "summary": "세이브월드, 복재성 명예회장 주도 청년·취약계층 금융 교육 ‘시즌2’ 본격 확대… ‘금융 안전망 구축 속도 낸다’&nbsp;&nbsp;뉴스와이어",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lTWNVWFI1QzRXeVc0ZHhTYUZOYm5xSnYtM0FGNlVHaEZYZEQzYnNJaGs4OUI4MkthT013T3pTSnQ4VFBqVlpxUVhTLVctLUkwbTdUTW5uMGd4Ym83WWow?oc=5",
-      "published": "2026-09-23T17:30:00+09:00",
-      "query": "취약계층 금융"
     },
     {
       "id": "8989b4a21300",
@@ -65,87 +65,87 @@
       "query": "상생금융"
     },
     {
-      "id": "e02faeb29c3c",
-      "title": "[은행 Talk Talk] 신한금융, 추석 맞아 전통시장·취약계층 상생 캠페인 外",
-      "source": "DealSite경제TV",
-      "summary": "[은행 Talk Talk] 신한금융, 추석 맞아 전통시장·취약계층 상생 캠페인 外&nbsp;&nbsp;DealSite경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XaEE4aHZ6UUlzVjE1UkxuNTdHLWYyWGFfY0lhWHUzNzJ6R25RZUZvRmpOZklMcmNMU1RKVUppVVY1YmpORUxvMDROV2hBQjlMY3h6Q19B?oc=5",
-      "published": "2026-09-23T14:37:40+09:00",
-      "query": "취약계층 금융"
+      "id": "e6dbdb6e6a63",
+      "title": "\"관계형 금융이 포용을 만든다\"...사회연대은행, '제3회 대한민국 사회적가치 페스타'서 소개",
+      "source": "라이프인",
+      "summary": "\"관계형 금융이 포용을 만든다\"...사회연대은행, '제3회 대한민국 사회적가치 페스타'서 소개&nbsp;&nbsp;라이프인",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YZ2tQT2lnS000ZG9HdHp0X1M0czJRNzNjX0J6RzRSc3dZY1RDcVEtZm9PdENad3ZBN0dWTjdxZFFkMjktTldIYTdRRjVPWXJmOW5VNkcyNmRobTFuR3E4a3ZoQzcyQldB?oc=5",
+      "published": "2026-09-23T16:21:00+09:00",
+      "query": "포용금융"
     }
   ],
   "tech": [
     {
-      "id": "80ec9f6ad00b",
-      "title": "美 스테이블코인 발행 규제 확정…연준, 준비자산·은행기준 마련",
-      "source": "마켓인",
-      "summary": "美 스테이블코인 발행 규제 확정…연준, 준비자산·은행기준 마련&nbsp;&nbsp;마켓인",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00OGRrZGZkOGpIX0kwV1Nud0E1WGtwQVk5WExZdVhXUnpVS3VYNGdtUFItNndJMFBIVE9OaUZKNVhWdW51bGFwTWZnWGFiZkpJdnRneUkycnBsLU1ZVHA4Tm5yYjZ5VGlqZDNMR2J0N09PTjA?oc=5",
-      "published": "2026-09-25T08:09:07+09:00",
-      "query": "스테이블코인 은행"
+      "id": "04d6281a631d",
+      "title": "IBM, 스위프트 블록체인 원장과 은행 연결하는 베타 통합 시작",
+      "source": "토큰포스트",
+      "summary": "IBM, 스위프트 블록체인 원장과 은행 연결하는 베타 통합 시작&nbsp;&nbsp;토큰포스트",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1hck1sdmx2Q18yLTRmN1Brc1NQbTFnZGlwVkJtUG1nN3hrd2RoZ1lhX0pudzdQbWpYNkI3OWRSN2gtcVA4SnhHS2tkSVVmMGZVYWVuQXNLT0s?oc=5",
+      "published": "2026-09-26T08:38:00+09:00",
+      "query": "블록체인 은행"
     },
     {
-      "id": "0f2fa9dca4c8",
-      "title": "은행 앱으로 ‘예금토큰’ 결제… 12월 실거래 가시화",
-      "source": "IT조선",
-      "summary": "은행 앱으로 ‘예금토큰’ 결제… 12월 실거래 가시화&nbsp;&nbsp;IT조선",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zZ0lIOEJjak02cWliMFVleXN1dXcteWNWV3Nsa3VqYjh5MHRGeFRUMFlvSHhCcDNyYkd6MTFpTk5XaDZpdENvekk0M0FDa3hOdERQX0F5emMxYmxQU3E4UjlnT19zSnFMZVdnTHJmbjnSAXRBVV95cUxNSlRmcU5BRHN3LXV2MVg4UThXaUxPTXFLUjJrUWhjS0NtcGd1cEJLS0pIaWl3TXBFWmFSbWVLX1FlUEVfd1NnbUVJV200UkZUU1FDT1NaUlNtVXNfYUs3Sm8zTmNzU0hFTzlxMjYxZzhCbG9iOQ?oc=5",
-      "published": "2026-09-25T07:00:00+09:00",
-      "query": "예금토큰"
+      "id": "de5fbd125376",
+      "title": "추석 부모님 선물 하나 더…보이스피싱 막는 ‘안심차단 3종’",
+      "source": "이투데이",
+      "summary": "추석 부모님 선물 하나 더…보이스피싱 막는 ‘안심차단 3종’&nbsp;&nbsp;이투데이",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10bUVQUFM2Yk94NGF6MDBSd1FLbVBiY25HS3lDSVFVY1ZWTnc4VVA2Uk1WRnMxc3FTdWZla0gzdTdIa1lkbkRWcnViM2ZjNVBTRGNNdktSejNkQndCcU5ObDcxVFlUNTF0UFR6WUFjY1JYYWVi?oc=5",
+      "published": "2026-09-26T08:00:00+09:00",
+      "query": "오픈뱅킹"
     },
     {
-      "id": "cdedf772406a",
-      "title": "BNP Paribas와 Google Cloud, 5년 기간의 에이전트 AI 파트너십 체결",
-      "source": "Unite.AI",
-      "summary": "BNP Paribas와 Google Cloud, 5년 기간의 에이전트 AI 파트너십 체결&nbsp;&nbsp;Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaEdrRm9YbnF2eE50cXQyQXJTUldoM1RIQ2FEQzd3VWdyMmZGNDVHQnQ1ZE4yeEtWZDNyNmctTnlpWk5keTkySVZPM1BNcnVXdExlRGRHT0JYUEJ2VTAwa0YwZEdEZDFkTVBVZWpldkxweWhGcmZzUzQ2YzM1YW53bDFKLXRaNVMxcHo0eTZXZnFIQQ?oc=5",
-      "published": "2026-09-25T01:25:04+09:00",
+      "id": "1b1c2fa2a939",
+      "title": "수출입은행, 반도체·데이터센터에 2.3조원 지원",
+      "source": "아시아경제",
+      "summary": "수출입은행, 반도체·데이터센터에 2.3조원 지원&nbsp;&nbsp;아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xUkNNZ01aVzM5dWd6QzhVZDhMa0RlSks3Z3hUanIySmQ3a2tOQVN4YU51RzFQbkZ0Rm02MVI1QlZsRjc0d29SSFFKWkJoOTlwb1pLMkdsakwwNzZ3NGI1Rw?oc=5",
+      "published": "2026-09-26T07:17:00+09:00",
       "query": "은행 클라우드"
     },
     {
-      "id": "9c4b9e588afb",
-      "title": "테넷 핀테크, 중국 유통 위해 브랜드 옵스와 제휴",
-      "source": "Investing.com 한국어",
-      "summary": "테넷 핀테크, 중국 유통 위해 브랜드 옵스와 제휴&nbsp;&nbsp;Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vRllLVHFFWC1VTGxHQ2Y3WGtWczk3XzJxT2N0bldGbVFITU5RSDU1ZmV1MnRNQXp3UVFiZXY5eU54UW5TT1RYYjhjM2pjUDRXV2VoX21lcXhFN3RUd1hEX2JOeWZYdS1hNWNKelJnRGU?oc=5",
-      "published": "2026-09-24T20:45:00+09:00",
-      "query": "핀테크 제휴"
-    },
-    {
-      "id": "b811f065f1e0",
-      "title": "이체한도 높여줘 물었더니 척척…KB AI 써보니",
-      "source": "아주경제",
-      "summary": "이체한도 높여줘 물었더니 척척…KB AI 써보니&nbsp;&nbsp;아주경제",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mOERQa2lUVjVsRzVOX013N3pncW1MT2RvRUdzclBTQzZRN0tKa2MtcmJ2Wkk0b21CM0hCaU1QZUpHbmFpTnZ1Q0Rib1pZbUJQQlRqRjJFSmHSAVhBVV95cUxPZjhEUGtpVFY1bEc1Tl9Ndzd6Z3FtTE9kb0VHc3JQU0M2UTdLSmtjLXJidlpJNG9tQjNIQmlNUGVKR25haU52dUNEYm9aWW1CUEJUakYyRUph?oc=5",
-      "published": "2026-09-24T18:00:00+09:00",
-      "query": "은행 생성형 AI"
-    },
-    {
-      "id": "afc0faf67bd0",
-      "title": "오라클, 디지털자산 데이터 서비스 확장…CBDC·스테이블코인 등 지원",
-      "source": "블루밍비트",
-      "summary": "오라클, 디지털자산 데이터 서비스 확장…CBDC·스테이블코인 등 지원&nbsp;&nbsp;블루밍비트",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TY1VVeUpPN3AzeVZyWVdsTGRoR0ZvbFFwM3A0dU9XUjRBVVFhdV8wOTJLeGtRUDY4Qm1EdXlVcEE0QjNuN2FKU09vTW5xUEV2?oc=5",
-      "published": "2026-09-24T16:37:41+09:00",
-      "query": "CBDC 은행"
-    },
-    {
-      "id": "65d5d7187cb5",
-      "title": "“토큰 얼마나 썼나요?”…中 은행, AI 사용량 보고 돈 빌려준다",
-      "source": "디지털데일리",
-      "summary": "“토큰 얼마나 썼나요?”…中 은행, AI 사용량 보고 돈 빌려준다&nbsp;&nbsp;디지털데일리",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1XWUswQlV5R1gyN1ZLd0lMZTF4LVpwTm9uMTJzNW5QNFNmb0F5OUN1ZGt0M01qQlFSQ01nNjJTdU5xWkR3SS0weGwzemNKN1VHczlNQlpxLV90TGs1cXNlY1Bn?oc=5",
-      "published": "2026-09-24T14:35:18+09:00",
+      "id": "d9cd9aed33ab",
+      "title": "하나은행, 청소년 AI 게임 창작대회 연다…코딩 몰라도 ‘게임 개발’ 도전",
+      "source": "라이센스뉴스",
+      "summary": "하나은행, 청소년 AI 게임 창작대회 연다…코딩 몰라도 ‘게임 개발’ 도전&nbsp;&nbsp;라이센스뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CckJ6NGRjcV9uNWNWWnRqNDdjRGNwamRnM0RFTTROclVwVWVYb0g1NlFMNjYwWTBvNlgxanNhbnkzWG93NDdlSXAyeG1MNFNDdEFOOGU5R0FON2R0UUcxbmU1QWlMUTRYSzhR?oc=5",
+      "published": "2026-09-26T06:00:00+09:00",
       "query": "은행 AI"
     },
     {
-      "id": "c7df703add6d",
-      "title": "[추석특집] 명절 문자 한 통이 대출 피해로?…추석 금융사기 막는 ‘안심차단 3종’",
-      "source": "더퍼블릭",
-      "summary": "[추석특집] 명절 문자 한 통이 대출 피해로?…추석 금융사기 막는 ‘안심차단 3종’&nbsp;&nbsp;더퍼블릭",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zYldrWlFEMk1LTlpNMmpub1RqZEZLV3RIektoQi1OeHoyMjlobTlyUkRtQzd0Qmg1SUVSMW5pV1JOME9CSExHUGxtNXFXcW9iV3FJcHVFYmhaRHRNRUxma2xTRjhvMU9hM1VyRjRKVdIBb0FVX3lxTE5zYldrWlFEMk1LTlpNMmpub1RqZEZLV3RIektoQi1OeHoyMjlobTlyUkRtQzd0Qmg1SUVSMW5pV1JOME9CSExHUGxtNXFXcW9iV3FJcHVFYmhaRHRNRUxma2xTRjhvMU9hM1VyRjRKVQ?oc=5",
-      "published": "2026-09-24T11:38:16+09:00",
+      "id": "c1e843e656f8",
+      "title": "대출·계좌개설·오픈뱅킹 안심차단 범위 달라",
+      "source": "비건뉴스",
+      "summary": "대출·계좌개설·오픈뱅킹 안심차단 범위 달라&nbsp;&nbsp;비건뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FUmJDRG9KSkRVd0s2UWN2b0xCZmFoZlJiVE1jQXJIZk9mbk1ITXFGTkhvNGhnbEQ5cXMxNWduX1VpT1lJNFhrZC1GNXpSRE1nYzE5cERuNlI4YU9jUEZCYkxrV1laUQ?oc=5",
+      "published": "2026-09-26T04:35:45+09:00",
       "query": "오픈뱅킹"
+    },
+    {
+      "id": "483a416e1026",
+      "title": "'KB AI' 출시....KB국민은행, 생성형 AI부터 임베디드금융까지",
+      "source": "웹이코노미",
+      "summary": "'KB AI' 출시....KB국민은행, 생성형 AI부터 임베디드금융까지&nbsp;&nbsp;웹이코노미",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10Z2ptWFhqMVpvenFibGhLdllrU2hldzJnd2l1RV9XRi1QV2E1emdaSDVLNkVmS2oyYXdHeUhuSGNUSEJiaExGZ20taUp6SkFDUC1wamRZb0lMQy10STRZM0pyb2YtYWg0Yk10a0xxVWZmUQ?oc=5",
+      "published": "2026-09-25T16:29:19+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "4c344ed50bc4",
+      "title": "'추석에 부모님 금융앱 열어보세요'…대출·계좌 개설 미리 막는다",
+      "source": "스포츠한국",
+      "summary": "'추석에 부모님 금융앱 열어보세요'…대출·계좌 개설 미리 막는다&nbsp;&nbsp;스포츠한국",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JeFFUQ0RaUHA3blozVGZ3QkRHb0g3bFpKaWF3blh6X2VuN0xuVThoTkoyQzJRTk01VWpjZmxzNDZwTkhTb2Jwam5LYVlsWU5FVjZRcU5Dd1c2dGdCMFFsYjhqMzJRNVJtNmxoWlVEYnHSAXRBVV95cUxNdFJFaGx0NkRZQWR3c2l4aVRTampueTg5V280RjZVTlprR1pLLWZHcDJNTjNVTGotQnpLaXpRcWUwX0xYYkNOc21PQUpEemJQRGs3QzFia2lxSUdmcXgwLVJqSndPTGgycmZJZk8zUEdjYmNQOA?oc=5",
+      "published": "2026-09-25T16:00:00+09:00",
+      "query": "오픈뱅킹"
+    },
+    {
+      "id": "7690916321fa",
+      "title": "기능이 많다고 규칙도 같지는 않은 홈카지노 검증",
+      "source": "Calgary Roughnecks",
+      "summary": "기능이 많다고 규칙도 같지는 않은 홈카지노 검증&nbsp;&nbsp;Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaTZlMlo0Mm1lMVo0bVh3bU85c1IwaW51NDlFejAyNjlKcjVqOHZXR1UyY1JMQnhaVFp5eDlOajE3ckQ0SVdVX0pDVUN1MEVxdVJ6eEpiOTVDa3BtbW1XQlBMUjVjdl84cmhRMk9QN05TbENBZ2owS0lLRHg5ZUczQzhwZUVCOXM2bU5fUUNZSHEzdFhRcmsxRDVSMmNBQQ?oc=5",
+      "published": "2026-09-25T12:38:34+09:00",
+      "query": "예금토큰"
     }
   ]
 }

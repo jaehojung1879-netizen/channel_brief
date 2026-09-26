@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-09-25T08:59:17.868218+09:00",
+  "updated_at": "2026-09-26T09:06:18.173616+09:00",
   "headline": {
-    "id": "458503daa920",
-    "title": "신한은행, 영업점·퇴직연금 디지털 편의 확대…지역상생·생태보전도 강화",
-    "source": "웹이코노미",
-    "summary": "신한은행, 영업점·퇴직연금 디지털 편의 확대…지역상생·생태보전도 강화 웹이코노미",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oeEJ2Vmo2VkNoREh4bG1wUkNtaS10V0dDSE9yXzdRVXlTWDJjRFVMdk9ibDJWVVhHeHRJa2RGN3F2ZTk2TXNwekx4MzcxVHNpYU1HMkY0OTlrcW1MQnFlRHJJblZ4Q1Vib2N3WHpEZGdmQQ?oc=5",
-    "published": "2026-09-24T15:10:00+09:00",
-    "query": "은행 영업점",
+    "id": "54d28ca7403e",
+    "title": "우리은행 영업점 10곳 또 통폐합…내년 1월 시행",
+    "source": "자본시장뉴스",
+    "summary": "우리은행 영업점 10곳 또 통폐합…내년 1월 시행 자본시장뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56WXYwTVk1eS1qVXJ3dHg5NDg5UUpOQVVyOEc4TFpNUlRyaldSbExmNDVySzlCQVhyaEl1ZHNJam5JSGxBY1ZiUjlSUXBqanp2UnZuUGQ3UE9udEhabWtTVUlaUkdaMm8?oc=5",
+    "published": "2026-09-25T14:00:00+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 11,
-    "_score": 18.0,
+    "rank": 10,
+    "_score": 15.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "40ce236284b4",
+        "title": "추석 연휴 은행 이동·탄력점포 오픈 \"현금 인출·환전하세요\"",
+        "source": "글로벌이코노믹",
+        "summary": "추석 연휴 은행 이동·탄력점포 오픈 \"현금 인출·환전하세요\" 글로벌이코노믹",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWhKdlBSZzl4WW1SaWFuSVlHZ1BSX3JnR1otdTFYT0gtZmtTU3ZiOWwwOU1pd2lDU3E0T3RNMWVkYW1ENDhfMEtIZ1hxWm1NeVhLWWQtUDN5bG1LaVFVdEpBZTBHN0ZlWThOWThEb2xYMmhraG1PT3hNTXVKWGJNaWVpT0g?oc=5",
+        "published": "2026-09-25T14:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "4938a2168949",
         "title": "추석 연휴 은행 문 닫아도 여기선 된다…이동·탄력점포 어디",
@@ -24,31 +36,19 @@
         "published": "2026-09-25T06:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "11c64f36a2b3",
-        "title": "우리은행, 내년 1월 영업점 10곳 통폐합…올해만 47곳 정리",
-        "source": "뉴스저널리즘",
-        "summary": "우리은행, 내년 1월 영업점 10곳 통폐합…올해만 47곳 정리 뉴스저널리즘",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iVlpQaTRYbE1ZWThZSnJlQ3dqQkFvRHlvQTcydGxaTUNVa2pWem1RbUxrVmNTR3R6azJRbDlzUWMzd1AtWV9hWVlqQnlZZGFtZWFHZlNhdWNSMUp2ank3ckVjcmZTOTdFYlBn?oc=5",
-        "published": "2026-09-24T21:21:31+09:00",
-        "query": "은행 점포",
+        "id": "458503daa920",
+        "title": "신한은행, 영업점·퇴직연금 디지털 편의 확대…지역상생·생태보전도 강화",
+        "source": "웹이코노미",
+        "summary": "신한은행, 영업점·퇴직연금 디지털 편의 확대…지역상생·생태보전도 강화 웹이코노미",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oeEJ2Vmo2VkNoREh4bG1wUkNtaS10V0dDSE9yXzdRVXlTWDJjRFVMdk9ibDJWVVhHeHRJa2RGN3F2ZTk2TXNwekx4MzcxVHNpYU1HMkY0OTlrcW1MQnFlRHJJblZ4Q1Vib2N3WHpEZGdmQQ?oc=5",
+        "published": "2026-09-24T15:10:00+09:00",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 11,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "197fd8a886b5",
-        "title": "은행권, 추석 연휴 이동점포·환전소 운영…中企 자금지원 확대",
-        "source": "서울경제TV",
-        "summary": "은행권, 추석 연휴 이동점포·환전소 운영…中企 자금지원 확대 서울경제TV",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqS1pvZ0NnQ3ZVV2d4MEpVUnBuRGN0eVktQlN1cmlycWNKczlpUE5Ca3U1cTNlUk01Wm1ObWRKZ2JjUWVLY3dmUHhHN0lVYmlVeUsxUWRaaXdDcnVDbS1zaDI3NWo?oc=5",
-        "published": "2026-09-24T11:00:02+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 7,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,43 +72,19 @@
         "published": "2026-09-24T09:55:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 15,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "c76a2077b7f5",
+        "id": "a683782bf9a2",
         "title": "추석 용돈, 휴게소에서 뽑는다…명절 은행별 이동점포·환전·이벤트 체크하세요",
-        "source": "국민일보",
-        "summary": "추석 용돈, 휴게소에서 뽑는다…명절 은행별 이동점포·환전·이벤트 체크하세요 국민일보",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWjFXQVFvZU1qVnl0SmxocnR4a2xnX0VVc0ZVdFBFNGpqMjlDVkExandnaGlxWFc1bkFBbDRpOWhheldIOWVXbzA0R3ZnQ3pjcHlURVJoS1dUVDV1Tm95VzM1TDVSVUVONVE5MnFCcHAwdDlJSHBQWmlOYnhiaVFqemQzRWk0UdIBbEFVX3lxTFBtVXM0X0ppOXhnclBXX2VPSUx5QjR0WmhLZkNQdnNaSTBoX0pwQXlyaWhzLW5ud0ZnMTNDOURESVMwRHplNmlZVWF3NGVKWXhXQVpHelhfaVNRSkYyWkNMekFwS2VWUnp3WHM5VA?oc=5",
+        "source": "kmib.co.kr",
+        "summary": "추석 용돈, 휴게소에서 뽑는다…명절 은행별 이동점포·환전·이벤트 체크하세요 kmib.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GY28zYjBNc04wVW5MVnJ1RDdCdTg3LUdGd2NDbFlFZ3hsMmxVZ1ZqM1lROFFiMFJ0NUtMT0JKN0lOYnFMOHN5NThTYks1RkN0cUVlVXhnb0EyVGxSdlRnLTFVQ2gwR2vSAWxBVV95cUxQbVVzNF9KaTl4Z3JQV19lT0lMeUI0dFpoS2ZDUHZzWkkwaF9KcEF5cmlocy1ubndGZzEzQzlERElTMER6ZTZpWVVhdzRlSll4V0FaR3pYX2lTUUpGMlpDTHpBcEtlVlJ6d1hzOVQ?oc=5",
         "published": "2026-09-24T08:55:00+09:00",
         "query": "은행 점포",
         "engine": "google",
         "rank": 8,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "584c9863a128",
-        "title": "신한은행, 추석 귀성길 화성휴게소서 이동점포 ‘뱅버드’ 운영",
-        "source": "퍼블릭타임스",
-        "summary": "신한은행, 추석 귀성길 화성휴게소서 이동점포 ‘뱅버드’ 운영 퍼블릭타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OMnI0ZWtRVElDclowS2dMUWM5ZXdUUTNyMm54bTFXOU9odTRmM2FmT0c2dFlRSnZ2VFZxVHNOdWZGM2RXa1huSUt2WU5aTVNoUHh6dnJqSDFBaVp4UWc4ZnJHRzVzUVZhZFHSAW5BVV95cUxPODJveTZRMGgybTJUMmtFNVBoUzJNdVJPNjBkRUtEUUVBTnhQRHhYaTAxdXNGcDdQX1lDbkF6b1FZXzJienQyaEJCRFNNQTdMSC1Td2JPMm43TGE2ZllocjFGUU1OVjcwZF9LeXBjQQ?oc=5",
-        "published": "2026-09-24T08:00:00+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 12,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "97c5602d95c1",
-        "title": "\"휴게소서 신권 바꾸세요\"…은행권, 추석 귀성길 '달리는 이동점포' 가동",
-        "source": "CBC뉴스",
-        "summary": "\"휴게소서 신권 바꾸세요\"…은행권, 추석 귀성길 '달리는 이동점포' 가동 CBC뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wSm9HLWhTdm0yY1VKa1JUdk1BbVZfcGs0MXhKQU15ZGRFM1MzeUtSaFpqaVFPVEdjdWdmNjh2QVpMMlNqcnFsZ2NtTGdXbTR0djVPVEJnRnhfa09tSU0xc1lBUUVHRDB3?oc=5",
-        "published": "2026-09-24T07:43:50+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -120,7 +96,7 @@
         "published": "2026-09-24T06:00:02+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -132,29 +108,53 @@
         "published": "2026-09-24T05:00:08+09:00",
         "query": "은행 공동점포",
         "engine": "google",
-        "rank": 3
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "245c318b1031",
-        "title": "IBK기업은행, 추석 귀성길 이동점포 신권교환 행사 진행",
-        "source": "startuptoday.co.kr",
-        "summary": "IBK기업은행, 추석 귀성길 이동점포 신권교환 행사 진행 startuptoday.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzS0JQMTg2UXEtemhPVWU3eWpJWXB2QzZFTGZOelhUREdzajIwTjJfNXBqWXM5d3A0MnBabFBRUDR4bHA3WlYxSEZDSkw1MjJjSUFJQkQ2c3pZNkZpcmFQajUyTlRySmFhVkFKVFZRaVFOMVE?oc=5",
-        "published": "2026-09-23T13:30:01+09:00",
+        "id": "8778e70c2eb6",
+        "title": "기업은행, 추석 연휴 맞춤형 이동점포 배치...귀성길 차 안에서 신권 교환",
+        "source": "insidevina.com",
+        "summary": "기업은행, 추석 연휴 맞춤형 이동점포 배치...귀성길 차 안에서 신권 교환 insidevina.com",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YR1czbnBqbzJ5WGFORTFKZG1UWEctaEQtUmlKUnVoVTRWOWlqTXlrTW9BT0FUWGtidFNYQXVrQXJIM0JUdDd5LWtvRGU1NVdFeFFXQmhidTlPV25lcGhBdUdacl9FSjNYRFotWA?oc=5",
+        "published": "2026-09-23T17:28:04+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5
+        "rank": 15,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "5278b5599e00",
+        "title": "킨텍스, 6년 만에 은행 다시 연다…NH농협은행 영업점 개점",
+        "source": "비즈트리뷴",
+        "summary": "킨텍스, 6년 만에 은행 다시 연다…NH농협은행 영업점 개점 비즈트리뷴",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xN1NCXzdyOU51eEJyRjZCajhNeldDRjhoT2c0RW54cG8xMkRFNHVGWG0wTWhpOU5PVk5mTUw4TVNjbmNKdU5hRTRpcUs1aWVncDRtMXJwLXJRczNVd3otR3JxTmhRSzJsUnlKRmd0Xzk?oc=5",
+        "published": "2026-09-23T15:10:21+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 14
+      },
+      {
+        "id": "825fdf17b254",
+        "title": "IBK기업은행, 추석 귀성객 위한 이동점포 운영",
+        "source": "뉴스핌",
+        "summary": "IBK기업은행, 추석 귀성객 위한 이동점포 운영 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xbVlHcEtFeXpjeDE4SEpXUklSZUo0UXp2Qm9jV05nT0xnbWhHd2pjV0FGUHotMTBMN1ZPUGcwNVpvMkNOcDlFX0RSRGtQQ0lreHZpeXNlY1oybDFQ?oc=5",
+        "published": "2026-09-23T09:54:00+09:00",
+        "query": "은행 공동점포",
+        "engine": "google",
+        "rank": 8
       },
       {
         "id": "517fff6667ef",
         "title": "[HOT 금융 트렌드] 신한은행 “영업점 대기 순서, 카카오 알림톡으로 받는다”",
-        "source": "bizwnews.com",
-        "summary": "[HOT 금융 트렌드] 신한은행 “영업점 대기 순서, 카카오 알림톡으로 받는다” bizwnews.com",
+        "source": "비즈월드",
+        "summary": "[HOT 금융 트렌드] 신한은행 “영업점 대기 순서, 카카오 알림톡으로 받는다” 비즈월드",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oNW1Jd3pveUZHdloxQmNNN0JOcFZiRmtDeDhsLWRrR3ZORFhjSHNKRnloTXJqeGc0WXZPRmFac19GX3FiYVUtOGh5c3A4a1F3V2RZb3JtMUZfQmFKVXhCMzRtRWFFY180Snlv?oc=5",
         "published": "2026-09-22T16:18:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 14
+        "rank": 9
       },
       {
         "id": "cf2104f084f7",
@@ -165,7 +165,7 @@
         "published": "2026-09-22T11:13:44+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 15
+        "rank": 11
       },
       {
         "id": "a9c649d44707",
@@ -176,7 +176,7 @@
         "published": "2026-09-22T10:37:39+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 16
+        "rank": 12
       },
       {
         "id": "d36112141488",
@@ -188,17 +188,6 @@
         "query": "은행 점포",
         "engine": "google",
         "rank": 13
-      },
-      {
-        "id": "aa07bea16f67",
-        "title": "NH농협은행, 추석 명절 맞아 귀향길 이동점포 운영",
-        "source": "아시아경제",
-        "summary": "NH농협은행, 추석 명절 맞아 귀향길 이동점포 운영 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRcnNNb2VaV3MtR2RyWUlTRFRUMEdlMkFRblFzTFNHOENMTFd2YmxsWFZSTl9kYmlrbkxudGF0ZVBmc3AzR2szU0wyNkpOY2k4NDRRR2JCZnh5YURkMEVBNg?oc=5",
-        "published": "2026-09-21T08:41:44+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 16
       }
     ],
     "policy_news": [
@@ -217,16 +206,27 @@
     ],
     "shinhan_news": [
       {
-        "id": "14459a5307e5",
-        "title": "신한은행, 추석 귀성길 이동점포 ‘뱅버드’ 운영",
-        "source": "cnbnews.com",
-        "summary": "신한은행, 추석 귀성길 이동점포 ‘뱅버드’ 운영 cnbnews.com",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MTllYSHQ0R2NRTXNRRnNvdHNHVDNTMXMzbTFWcmlObVdFeG42V0NzR0h1dExlVmJwS0xRTHJSVXVVT0Z6ZmR6NGRiSkpKSHN4MzZpMzVqbGtiNHpGMUVsSlJYWldac2JLZkFn?oc=5",
-        "published": "2026-09-24T15:42:51+09:00",
-        "query": "신한은행 점포",
+        "id": "a3371e2b7430",
+        "title": "신한은행, 추석 맞아 화성휴게소서 이동점포 ‘뱅버드’ 운영",
+        "source": "thepublic.kr",
+        "summary": "신한은행, 추석 맞아 화성휴게소서 이동점포 ‘뱅버드’ 운영 thepublic.kr",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9zZnV6a3hWZWplOTlrSXFGQ2NoZWJRMTVvNTJQX3FlRDVkZTZxcGd5TUU2UUh4SUYwSFdCOEFSQnNoaVpXM1RNQkFCVmdQTElhelRQVm5YM2xmaDRIcnllZFdOMjJCd05CbVE5VVdLNNIBb0FVX3lxTE9zZnV6a3hWZWplOTlrSXFGQ2NoZWJRMTVvNTJQX3FlRDVkZTZxcGd5TUU2UUh4SUYwSFdCOEFSQnNoaVpXM1RNQkFCVmdQTElhelRQVm5YM2xmaDRIcnllZFdOMjJCd05CbVE5VVdLNA?oc=5",
+        "published": "2026-09-25T09:21:46+09:00",
+        "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 13,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "458503daa920",
+        "title": "신한은행, 영업점·퇴직연금 디지털 편의 확대…지역상생·생태보전도 강화",
+        "source": "웹이코노미",
+        "summary": "신한은행, 영업점·퇴직연금 디지털 편의 확대…지역상생·생태보전도 강화 웹이코노미",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oeEJ2Vmo2VkNoREh4bG1wUkNtaS10V0dDSE9yXzdRVXlTWDJjRFVMdk9ibDJWVVhHeHRJa2RGN3F2ZTk2TXNwekx4MzcxVHNpYU1HMkY0OTlrcW1MQnFlRHJJblZ4Q1Vib2N3WHpEZGdmQQ?oc=5",
+        "published": "2026-09-24T15:10:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 4
       },
       {
         "id": "b377fa2a4f8b",
@@ -237,19 +237,19 @@
         "published": "2026-09-23T21:38:46+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "517fff6667ef",
         "title": "[HOT 금융 트렌드] 신한은행 “영업점 대기 순서, 카카오 알림톡으로 받는다”",
-        "source": "bizwnews.com",
-        "summary": "[HOT 금융 트렌드] 신한은행 “영업점 대기 순서, 카카오 알림톡으로 받는다” bizwnews.com",
+        "source": "비즈월드",
+        "summary": "[HOT 금융 트렌드] 신한은행 “영업점 대기 순서, 카카오 알림톡으로 받는다” 비즈월드",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oNW1Jd3pveUZHdloxQmNNN0JOcFZiRmtDeDhsLWRrR3ZORFhjSHNKRnloTXJqeGc0WXZPRmFac19GX3FiYVUtOGh5c3A4a1F3V2RZb3JtMUZfQmFKVXhCMzRtRWFFY180Snlv?oc=5",
         "published": "2026-09-22T16:18:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 5,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -260,18 +260,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2MjFvVjFCN3hiRVFySEdTa2RqYWJtYmZYQXBNb25nRUJaOWJVdkxMTkVKMUFkM3F3MFhqTnM1Z1FtVm9LSnJuVFpmMUdCVjJCdVhzUW54Ni1JdndxdlNrSEozVVFnc3czT1Btcw?oc=5",
         "published": "2026-09-22T11:13:44+09:00",
         "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 6,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "e75cfe280bac",
-        "title": "카카오톡으로 실시간 대기 확인… 신한은행, 톡번호표 서비스 도입 이후 약 2만 명 이용",
-        "source": "열린뉴스통신",
-        "summary": "카카오톡으로 실시간 대기 확인… 신한은행, 톡번호표 서비스 도입 이후 약 2만 명 이용 열린뉴스통신",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yV0ttVmxQZEZueDRjXy1qM2d0dE5MWk8yXzZVRG4yV05XVXFFUGJ0U1ViQUlfNFFDMDBic0NjelpaMl9VdHpRLUUtYUYyQ0pyWXdsbi0yOUJ3OGowSTNvVWRsRzlwUQ?oc=5",
-        "published": "2026-09-21T17:10:42+09:00",
-        "query": "신한은행 지점",
         "engine": "google",
         "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
