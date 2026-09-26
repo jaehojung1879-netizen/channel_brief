@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-09-26T09:08:37.897540+09:00",
+  "updated_at": "2026-09-27T08:50:26.977864+09:00",
   "items": [
+    {
+      "id": "ff6e7e962922",
+      "title": "Best high-yield savings accounts from big-name financial institutions in 2026",
+      "source": "CNBC",
+      "summary": "Best high-yield savings accounts from big-name financial institutions in 2026&nbsp;&nbsp;CNBC",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XYnpKbVJtMl9sdHd4d1NfWmkxRFJFMTVXMkFXaGdadTBXZmNoWjk5SDFKejZuYjc4OVhWRENxNzM3SkV5YUlndGNHaExZZkxidnRJaElrOUo5bTdwdU4tOHg0c1k0cjZrc2xwUVV6TGlNWXpIcDZzemtoQ3NYOHPSAYQBQVVfeXFMUHZRekZleEJwdDZBbVhTTUxkVWE3T0JIbWZlREZIQWVuVjhQcEphVWRTMUhyeE9scFFobTR6SHY2azJwWFg3cWZmb2ZudG5zeDBzYWFWVGZNQzNnR2lRcld4Y2FpZktYVF9iNll1RW9IUnY1WTRnVHl0UWhhcHNUN1FVajMt?oc=5",
+      "published": "2026-09-24T16:00:00+09:00",
+      "query": "Capital One Cafe branch",
+      "region": "US"
+    },
+    {
+      "id": "845921f3b9f4",
+      "title": "Lloyds refuses to guarantee future of Basingstoke branch after Halifax closure",
+      "source": "Basingstoke Gazette",
+      "summary": "Lloyds refuses to guarantee future of Basingstoke branch after Halifax closure&nbsp;&nbsp;Basingstoke Gazette",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUjd2c0N1YmlYUkxnT1Z2U21EWG1iYTVDV1BNQnM4bVNOdFE5S015SE4yMkFmSGJyUE9KT2NtVlphSi1HcHdyUWlGMHo3YjlncG9OdC0xSXNwU3F3UVNwaFNyUjh3WHZGenhJV1R1VFNRRnV3Z0x2OFV2aEtJWUlNc1dSR0FpSkNsSHpHaTRyTE41bGdrdnY4MzN6Q3I2aDFRd0NSbQ?oc=5",
+      "published": "2026-09-24T13:00:00+09:00",
+      "query": "bank branch of the future",
+      "region": "Global"
+    },
+    {
+      "id": "bb105041a8e7",
+      "title": "Maldon MP calls for permanent High Street banking hub 6 months after Santander shut",
+      "source": "Maldon & Burnham Standard",
+      "summary": "Maldon MP calls for permanent High Street banking hub 6 months after Santander shut&nbsp;&nbsp;Maldon & Burnham Standard",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWFZmN1BKNDN1WEhZYVNLWGhJQXFRZEFacTJaU1BnX2xCUjhncXBEMUt0eDVrNU5rZDB0THVvRVFnYWd0c0JPY3BWN1RrTkQwYm5pYUJLUjFiZ1ZOcGoxeTBhNHFpYzBHYWxaYkF3VDFGOENCc25nQXJjTHFZZVE3M3NCQzI5ak15VWgxLThIdDBvdGFKaG9nMTM5SlRtYjBqLXpIMGNQWnB0SnRQLTFZ?oc=5",
+      "published": "2026-09-23T13:00:00+09:00",
+      "query": "bank hub UK banking",
+      "region": "UK"
+    },
     {
       "id": "f7b676bb399e",
       "title": "Welsh town becomes home to UK’s 250th banking hub",
@@ -12,16 +42,6 @@
       "region": "UK"
     },
     {
-      "id": "572496d71c73",
-      "title": "Milestone banking hub to give ‘crucial access to cash and face-to-face banking’",
-      "source": "North Wales Chronicle",
-      "summary": "Milestone banking hub to give ‘crucial access to cash and face-to-face banking’&nbsp;&nbsp;North Wales Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPV3c5TWtrU1I1Vk1kM2U2RDRXa2l4VGlRVFBBeU5LOUtpam0wRjFIcXYtLUs5bEpWMGJGdnh3LU10U2xMT1Y1QXN5UmFlN2l5WE9LOGxXdlQteGxwRlp3SWlQcWp2WkY1UWlJbXB6YXpBeW00dllhVUpwSldfSzdxVzJKdW8xU1FQb0FHLVV0cUs0WFdhdkVvQ0cxNHIyS0t6UWtSa25JNHgtMXYwRktRUTBidmpNNzZ2SDh0YnI4ZU5ERU5yR2p1RQ?oc=5",
-      "published": "2026-09-18T14:02:09+09:00",
-      "query": "bank hub UK banking",
-      "region": "UK"
-    },
-    {
       "id": "c43603bfaf6a",
       "title": "JPMorgan Chase speaks on branch expansion, Chicago headquarters",
       "source": "ATM Marketplace",
@@ -29,16 +49,6 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObllUUW1xSDZVMC05Y1oyV2dhNmxmcFFxc2MxMWFENnJrbzBCbUpNWGtOSVhCMnlvYlBTLWhTc3c3NVZOVnpFRGFjQTV6ZzdiX3JhMV9GQU14UkNPejFjdHVsWFNUT2dZUHFKV1U2WDFIdTJwcFhIX2hTUWUtWDVIRmlBZ093VGNaY0N5dDhYeGo3S3E4MEZQLVRUc1R6eW95c1g3clJR?oc=5",
       "published": "2026-09-09T19:00:00+09:00",
       "query": "JPMorgan Chase community center",
-      "region": "US"
-    },
-    {
-      "id": "d20f566e1902",
-      "title": "Capital One checking and savings account bonuses: Get up to $1,500",
-      "source": "CNBC",
-      "summary": "Capital One checking and savings account bonuses: Get up to $1,500&nbsp;&nbsp;CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14MTBQLU1VamlndW9KTEtqYjVzZHpaV3AwcVVVUzNNUHNDQi16ZnNjalFHOXZWNERzZ0h2cy13cnFtazEwemtfTE44SWNtOFZ2aG1wa1M2THgxclB2bW1QUXYwSGpJZTTSAWxBVV95cUxQLTBCLVdlMmNSWVUtLXZiSEZ6TEtVTjVlai1MelBWQlFCYlYtYXgxR2RlYjcxRXNHQmVWVTBsMG9qdVJxcFJ2N0pzWkM0M2pYSFlra25GY3FsSHFmTmloaWdHWHZTNl9heU5CVUk?oc=5",
-      "published": "2026-09-08T16:00:00+09:00",
-      "query": "Capital One Cafe branch",
       "region": "US"
     }
   ]
