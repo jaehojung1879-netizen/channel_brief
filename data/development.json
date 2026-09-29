@@ -1,12 +1,93 @@
 {
-  "updated_at": "2026-09-28T08:56:27.997399+09:00",
+  "updated_at": "2026-09-29T10:14:22.150459+09:00",
   "items": [
     {
-      "id": "6de7dd907fc2",
-      "title": "반도체 품은 광주, 대구 제치는 날 온다?…`4대 도시 이탈` 예상 시점 계산해보니 [금주의 이슈]",
-      "source": "매일신문",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nbVlIMWs1eHJqeGhDTjhiWnZIUm9RVjExakhHTWk4V3lBTlJtNjROSFROQjRETEtoNDlqV2h0ak5jRV9DdHhqeU5uZzdoVFFDZzllM2FkV3g3MnhXdkNnaDhR?oc=5",
-      "published": "2026-09-28T07:35:17+09:00",
+      "id": "28ecf06cc230",
+      "title": "대우건설 컨소, 8686억원 규모 용인 반도체 국가산단 1공구 낙찰",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9seVlaLVlyNlVnT0VLM2Iyb3JoTkhUZ0xhZUEwakpiWWpmSU82X1BQbmZad3pIS0tHNFVvRGM5aVE5NEk4UThWVENXZ1BoTlk?oc=5",
+      "published": "2026-09-29T10:07:03+09:00",
+      "date": "2026-09-29",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "fbdd4020457a",
+      "title": "대우건설 컨소시엄, 8686억 용인 반도체 국가산단 1공구 시공사 선정",
+      "source": "시장경제신문",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jVFdGdGlTYVBEb25FRk5FSDBfS2ZDY0ZCM3pWZmJQbzVaTWtxWWxEaHE3bWRjMEd0YjkxdzV0a3Frdms0d1laTmNZY0hJeVNSclh0M1Q0YklheHJVWXR1aVBqM0JSM2RtS2tFOWxvaDQ?oc=5",
+      "published": "2026-09-29T10:03:23+09:00",
+      "date": "2026-09-29",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "623cf0e05341",
+      "title": "대우건설 컨소시엄, 용인 반도체 국가산단 1공구 낙찰",
+      "source": "글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRnBDZVN0QXEzUGhTZDBUZHFIZ19aaEhMc0p4WnhSa2wtc1ZiejJTTHpTaEMwY19ZVWlsRjFuRDFXTmVSLTU1WmdjQmhCMlJHM20xRER1a1p1S0Z4M0dtSEI2NVZvbTM2M3VHWUNuQmdtT05WYVlfc0EyRVFhdWNTWnRCeUIyZTg?oc=5",
+      "published": "2026-09-29T09:54:00+09:00",
+      "date": "2026-09-29",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "5b7353a16354",
+      "title": "통영시의회 행정사무감사 “도시재생 사업 용역 쪼깨기로 몰아주기”",
+      "source": "경남도민일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tX240UlhvckZjdmFWUU5uRzNXenBtSWdrYlhwSWllVGkzTWFnS1FDQnBZQVVWWFZOU1FEcElPSUFGbEY5ME5vcko2M0tld0lNSHNDVWpLNzJ4TGg5cm5hUnlHak9GSHZlOFE?oc=5",
+      "published": "2026-09-28T17:31:24+09:00",
+      "date": "2026-09-28",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "b18d11701b3a",
+      "title": "제물포구의회 오수연 부의장, 화수부두 도시재생혁신지구 사업 추진상황 점검",
+      "source": "경기뉴스원",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oSzFjSzJndUdyblpuMjJodE1FQk5QZzlHWnJ2SEYzczFxeVEybm5hOHRKNFMyX3ZkcFFTOElPZm1TcUgwX2RWa3dVb2kwOHBUT1dlUzRFM2RDUHFERTRvQy1oQQ?oc=5",
+      "published": "2026-09-28T12:10:03+09:00",
+      "date": "2026-09-28",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "75d20d10bf7b",
+      "title": "강서구 공항대로변 비주거 의무 비율 완화…주거복합개발 여건 마련",
+      "source": "뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CeTJWVnlYcDBHRXByVnRyZjRsclgzVVNUV0NIS1gzOE11THJEN3Z6NlFfb05xb1FUSUc1SDd1S3VxTHpXVzFBMVJTdnhKanJDRG5SM1hfUnFEeThUYk45SNIBYEFVX3lxTE1CeTJWVnlYcDBHRXByVnRyZjRsclgzVVNUV0NIS1gzOE11THJEN3Z6NlFfb05xb1FUSUc1SDd1S3VxTHpXVzFBMVJTdnhKanJDRG5SM1hfUnFEeThUYk45SA?oc=5",
+      "published": "2026-09-28T11:15:00+09:00",
+      "date": "2026-09-28",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "b47c23b2cd59",
+      "title": "오수연 제물포구의회 부의장, 화수부두 도시재생 재원조달 점검",
+      "source": "경인매일",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDbjZGQVZrMVZ4bVRSUFNpdXQ1Qk9JeWNlVUNkSm8tbUJQSkNqcVg2NHI3c1djOWlaSElLWGVBN1hUV010QWZPcE5neTBtM0V4YkVJdDJDRzZ1SkRUc0VFMHN5dzZqc1lo?oc=5",
+      "published": "2026-09-28T11:06:16+09:00",
+      "date": "2026-09-28",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "19f3cc388dcc",
+      "title": "공항로 지구단위계획 결정(변경)(안)“수정가결”",
+      "source": "국민기자뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRQjE4ZUZsOF9ITWI2WmZ6SjV1MUp6RzBUUE03eEp1NFUyT2hPeHFmenBsR01zRmlScDN5ZU9fYjFoSVNhS1JaUHBaNkNTSXlRdDR2cTNNNmtUWF85VFlpdmxnRXoyQUHSAWdBVV95cUxQUUIxOGVGbDhfSE1iNlpmeko1dTFKekcwVFBNN3hKdTRVMk9oT3hxZnpwbEdNc0ZpUnAzeWVPX2IxaElTYUtSWlBwWjZDU0l5UXQ0dnEzTTZrVFhfOVRZaXZsZ0V6MkFB?oc=5",
+      "published": "2026-09-28T09:40:09+09:00",
+      "date": "2026-09-28",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "451246310ee0",
+      "title": "[도시정비] 한남3구역, 5,970세대 ‘미니 신도시급’으로 재탄생 - 한남지구 첫 착공 가시권",
+      "source": "한국도시환경헤럴드",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBINnpRcnVGTDBfMmllVFVBWmVkNkdVdWRzRFhCRS1sVlZXVWI0UzNYZFFPa0JrY1F6OE1KbGxfMXpuOUpCQmtRaUxVb0FNZGJWdEFpUVpXdXZMWWhwYjJkSmFYcTd4QTRqc0NrONIBcEFVX3lxTE5HTHZCelpjMl9IVjI5X0YyUVlrM2FKX0hOZm15ZWdoNW14TnBjOFdHZVRyVzNPbHptRmZqSG1nZXhqZTRPN2c4SFFMYzNHUjc3b0syMWlMeXR3aU5wdzFDWENNVjl5bnJadUFnWjI2LUc?oc=5",
+      "published": "2026-09-28T07:00:00+09:00",
+      "date": "2026-09-28",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "c431d04dca7e",
+      "title": "대우건설, 1조 ‘용인 반도체 국가산단 1공구’ CMR 낙찰적격자 선정",
+      "source": "대한경제",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVXZqR3JSMG9xZm9aTDVDN2tvdUh1bjc1X0N4eUlveG5qMUpMS2h6VnhKVHU0MXQ3WTdpY2E3QldoQVVka0lJcWNyQzlaOGxNNnU3VEd6Y09Hc2cxcThlM002ZGp2TnJnSnFwSzVPamlhdW9Ib3pmX3p6NEZCamk3Sk5CRThnZw?oc=5",
+      "published": "2026-09-28T06:00:54+09:00",
       "date": "2026-09-28",
       "query": "반도체 국가산단"
     },
@@ -29,19 +110,10 @@
       "query": "신도시 착공"
     },
     {
-      "id": "302c0b9fb99c",
-      "title": "호남 반도체산단 내년 첫삽…1단계 개발 준비 ‘착착’",
-      "source": "광주타임즈",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBbWVYY2VpbEp1NW1aaUtLZEVuUThmZUxhV282aHh2b091ZmtDRC1lNDQ0WnNXM3QtekRoV2lxWHAxS1FoME9yNEhGbGhzLVFBUDdXUWc5eU52bFl6Mm1GUEF5REM3SkdMN3c?oc=5",
-      "published": "2026-09-27T17:11:02+09:00",
-      "date": "2026-09-27",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "bf4ba1aba32d",
+      "id": "dbe71347fd0d",
       "title": "양산 덕계 미니신도시 5년째 표류…토지 소유주들 반발",
       "source": "부산일보",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WQUJHYjNuY25OVFdUQWpVMXM3Z0d2NnJob2Y1Vmw1OWxkVkJlR3hZdTRUU2QxMzduVG5VQ05hNkI4Z3B3MVlKQmhkeXJrRkk4Qm9KbFpKVkdmNUdDTWt6MjZLNE9tWnlGZGdRTDF0Y3M0cDh5alJ2d0prVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tYnRYa1V1Z2w2bmY0Vm1RQzRFVlctLW85dTU2V045Q2c1QzZZUGlZM0EtOTMzNm1XTVRXQVhBVGw1ZmNnYUQzSjNYQnFqcUk2V2x0SVZVU2luaVhVWmE3eWJWR1o4LWtWdlBHS3NvRHBWX1ZXVllv?oc=5",
       "published": "2026-09-27T14:47:28+09:00",
       "date": "2026-09-27",
       "query": "LH 지구지정"
@@ -63,78 +135,6 @@
       "published": "2026-09-27T11:15:00+09:00",
       "date": "2026-09-27",
       "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "ae91cb5e7ce7",
-      "title": "김포공항 주변 주거복합개발 문턱 낮춘다⋯용적률 체계 개편",
-      "source": "이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94ZW9iQ3g5aUI1OEoxSDFoM1FTSFQ4NXFlTEdlVUhXWV9BZ2VXYlhXczJZYm9xdGgyQUZ5REFUNVp2LWNZbjdLNl9pN0dwRUUzTlhjSQ?oc=5",
-      "published": "2026-09-27T11:15:00+09:00",
-      "date": "2026-09-27",
-      "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "59053fc1fbf7",
-      "title": "반도체 소부장 산단은 어떻게…호남 클러스터 '관건'",
-      "source": "뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01WEFnMmdpNGtSNmdkUmx4ZkFBZ094d0d4RnptQ3RuTTZzb1loZ1lYdWg1ZFlfRkxHZUdOM1RuT1pxZ0N6cE13NXVQM2dnMEFCbWFqX0R2aEV3Z1h6MnJfekZvTDlKMjBmMl9oRHFXSjB2Ty00M3JzZ9IBeEFVX3lxTE01WEFnMmdpNGtSNmdkUmx4ZkFBZ094d0d4RnptQ3RuTTZzb1loZ1lYdWg1ZFlfRkxHZUdOM1RuT1pxZ0N6cE13NXVQM2dnMEFCbWFqX0R2aEV3Z1h6MnJfekZvTDlKMjBmMl9oRHFXSjB2Ty00M3JzZw?oc=5",
-      "published": "2026-09-26T09:09:55+09:00",
-      "date": "2026-09-26",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "7a82c149e10d",
-      "title": "횡성신문",
-      "source": "횡성신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iUm1wbzdibktRdk9Od3QxR0VrZDJTZ0NMMXhMRUJmNUVNQ3h4WnA0LXNZX3ZRanBXaV93WDlRX01PVGEzVUtCUWE5Q0FKdG1xTDY3eGkxTm1pWTl3NThXSm1xWWFFLUZDSmFEVHhJS3ZuLVdMT3V3cjc2VDg?oc=5",
-      "published": "2026-09-25T02:41:46+09:00",
-      "date": "2026-09-25",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "4d98bb69d12b",
-      "title": "포커 체이스 웹 베팅 한도 표기 읽는 법",
-      "source": "Calgary Roughnecks",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbERpWGtrb2pyc1FBRnd5aTc1emVoTFZLQWtEX1NocDR5Z3Nzdm1oRDJLVHM4WVM5eGtXaUtPVkwxZzBRYmxwWVp0dEg1WDBDTlRYODg1S2EzNEFlZkdMWDlwcmRvSUVFTmdCV3N2aWJjVk1TcjNfMGhfQ3M0WGhTLUFoSlA4OGtQcWpyVXJTRkJNOHNsMEJrZFdQV2NhaEpWX0l1c0ZtbmZaVGt1S2RPZDJJczdlR3Q5R0RLQm5LZzFUbUcw?oc=5",
-      "published": "2026-09-24T22:33:58+09:00",
-      "date": "2026-09-24",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "98df9d2a83cf",
-      "title": "홍지선 “주택 공급, 착공·입주 끝까지 챙길 것”",
-      "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90RklOempZUW9fSDhfbGpRcjNzY3I2VHgxZl9YOWlQbUl5aEVvZVFMVkU2TXFXSlJxX3JtaXUzX1oyMWl3YjNacDNwNGtMMjA?oc=5",
-      "published": "2026-09-23T21:03:00+09:00",
-      "date": "2026-09-23",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "2c876ec59b72",
-      "title": "[단독] 대우건설, 용인 반도체 국가산단 1공구 조성공사 잡았다",
-      "source": "MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2SDRob2ppSmV3aWdxaks3b29PRXNzek5sYlpFd2tDREk4SXNwR1dKZFBZOU1RbzU1a0ZkYkI5b001VDVpVXpUUzk3REhtS2didk5vdGRDWnVEb1Qtc28xeUhPbko?oc=5",
-      "published": "2026-09-23T19:27:30+09:00",
-      "date": "2026-09-23",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "b7fb045d0fbe",
-      "title": "LH, 서울 유휴부지 3549호 ‘토지 비축’으로 선점",
-      "source": "포쓰저널",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDS3BlVnJuMGFrRmw3NnRCbUloR3pMdkQ3MGtrYVR0eW85TUtfUEhYa09KenBEclJLU3k3LWZqcDd0WENyZEZjZWpLSnhSeEwzNDJnOHN6OTh1dTlfYUpoRWlmMlE?oc=5",
-      "published": "2026-09-23T14:54:51+09:00",
-      "date": "2026-09-23",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "c9ae848f75c8",
-      "title": "LH 도심복합사업 '첫 삽'…방학역 지구 5년만에 철거 착수",
-      "source": "yna.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NMUxHYjFIWTRWdUVzUUp1a2EwUWt6ZGV3SFF3LVRUYnQzLXRvTXF5X1FQbWtRX0stTEt4U1VZZmVibWtrT2tUQnVMN2hqTnFUWlNidjAxZ2Z6M2vSAWBBVV95cUxNbDlELWYyV09YWUlDNEpUeFJvY0M0T19EU0lRU1FKVmVZdlBjN1BUbkJRcWFsT1FwOWxxdnZtQy1aT29RWDE4ZUZ3OC0zN2REek9MUXZ4NXh6N1RTQmwzWlc?oc=5",
-      "published": "2026-09-21T17:00:01+09:00",
-      "date": "2026-09-21",
-      "query": "LH 지구지정"
     }
   ]
 }
