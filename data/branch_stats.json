@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-30T09:45:07.010777+09:00",
-  "as_of": "2026-03-31",
-  "latest_ym": "202603",
+  "updated_at": "2026-10-01T09:49:36.008155+09:00",
+  "as_of": "2026-06-30",
+  "latest_ym": "202606",
   "source": "금융통계정보시스템(FISIS) · 국내은행 영업점포현황",
   "source_url": "http://fisis.fss.or.kr/openapi/statisticsInfoSearch.json",
   "is_fallback": false,
@@ -9,165 +9,165 @@
     {
       "name": "신한",
       "count": 668,
-      "branches": 527,
-      "sub_offices": 141,
-      "delta_yoy": 0,
-      "delta_qoq": 0,
-      "prev_year_end_count": 0,
+      "branches": 528,
+      "sub_offices": 140,
+      "delta_yoy": 17,
+      "delta_qoq": 17,
+      "prev_year_end_count": 651,
       "history": [
         {
-          "ym": "202103",
-          "count": 856
+          "ym": "202106",
+          "count": 855
         },
         {
-          "ym": "202109",
-          "count": 798
+          "ym": "202112",
+          "count": 785
         },
         {
-          "ym": "202203",
-          "count": 740
+          "ym": "202206",
+          "count": 741
         },
         {
-          "ym": "202209",
-          "count": 725
-        },
-        {
-          "ym": "202303",
-          "count": 730
-        },
-        {
-          "ym": "202309",
+          "ym": "202212",
           "count": 722
         },
         {
-          "ym": "202403",
-          "count": 717
+          "ym": "202306",
+          "count": 723
         },
         {
-          "ym": "202409",
-          "count": 708
+          "ym": "202312",
+          "count": 722
         },
         {
-          "ym": "202503",
-          "count": 666
+          "ym": "202406",
+          "count": 716
         },
         {
-          "ym": "202509",
+          "ym": "202412",
+          "count": 694
+        },
+        {
+          "ym": "202506",
+          "count": 653
+        },
+        {
+          "ym": "202512",
           "count": 651
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "count": 668
         }
       ]
     },
     {
       "name": "KB국민",
-      "count": 772,
+      "count": 771,
       "branches": 585,
-      "sub_offices": 187,
-      "delta_yoy": 0,
-      "delta_qoq": 0,
-      "prev_year_end_count": 0,
+      "sub_offices": 186,
+      "delta_yoy": -1,
+      "delta_qoq": -1,
+      "prev_year_end_count": 772,
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "count": 952
         },
         {
-          "ym": "202109",
-          "count": 923
+          "ym": "202112",
+          "count": 912
         },
         {
-          "ym": "202203",
-          "count": 874
+          "ym": "202206",
+          "count": 876
         },
         {
-          "ym": "202209",
+          "ym": "202212",
           "count": 854
         },
         {
-          "ym": "202303",
-          "count": 816
+          "ym": "202306",
+          "count": 792
         },
         {
-          "ym": "202309",
-          "count": 794
+          "ym": "202312",
+          "count": 795
         },
         {
-          "ym": "202403",
-          "count": 796
+          "ym": "202406",
+          "count": 797
         },
         {
-          "ym": "202409",
+          "ym": "202412",
           "count": 798
         },
         {
-          "ym": "202503",
-          "count": 773
-        },
-        {
-          "ym": "202509",
+          "ym": "202506",
           "count": 774
         },
         {
-          "ym": "202603",
+          "ym": "202512",
           "count": 772
+        },
+        {
+          "ym": "202606",
+          "count": 771
         }
       ]
     },
     {
       "name": "하나",
-      "count": 611,
-      "branches": 534,
-      "sub_offices": 77,
-      "delta_yoy": 0,
-      "delta_qoq": 0,
-      "prev_year_end_count": 0,
+      "count": 610,
+      "branches": 535,
+      "sub_offices": 75,
+      "delta_yoy": 1,
+      "delta_qoq": 1,
+      "prev_year_end_count": 609,
       "history": [
         {
-          "ym": "202103",
-          "count": 649
+          "ym": "202106",
+          "count": 634
         },
         {
-          "ym": "202109",
-          "count": 626
+          "ym": "202112",
+          "count": 614
         },
         {
-          "ym": "202203",
-          "count": 607
-        },
-        {
-          "ym": "202209",
+          "ym": "202206",
           "count": 598
         },
         {
-          "ym": "202303",
+          "ym": "202212",
           "count": 594
         },
         {
-          "ym": "202309",
-          "count": 597
+          "ym": "202306",
+          "count": 595
         },
         {
-          "ym": "202403",
-          "count": 600
+          "ym": "202312",
+          "count": 598
         },
         {
-          "ym": "202409",
-          "count": 602
+          "ym": "202406",
+          "count": 601
         },
         {
-          "ym": "202503",
-          "count": 607
+          "ym": "202412",
+          "count": 603
         },
         {
-          "ym": "202509",
+          "ym": "202506",
           "count": 608
         },
         {
-          "ym": "202603",
-          "count": 611
+          "ym": "202512",
+          "count": 609
+        },
+        {
+          "ym": "202606",
+          "count": 610
         }
       ]
     },
@@ -178,58 +178,58 @@
       "sub_offices": 100,
       "delta_yoy": 0,
       "delta_qoq": 0,
-      "prev_year_end_count": 0,
+      "prev_year_end_count": 656,
       "history": [
         {
-          "ym": "202103",
-          "count": 819
+          "ym": "202106",
+          "count": 815
         },
         {
-          "ym": "202109",
-          "count": 798
-        },
-        {
-          "ym": "202203",
+          "ym": "202112",
           "count": 768
         },
         {
-          "ym": "202209",
-          "count": 714
+          "ym": "202206",
+          "count": 728
         },
         {
-          "ym": "202303",
+          "ym": "202212",
+          "count": 713
+        },
+        {
+          "ym": "202306",
           "count": 708
         },
         {
-          "ym": "202309",
+          "ym": "202312",
           "count": 711
         },
         {
-          "ym": "202403",
-          "count": 700
+          "ym": "202406",
+          "count": 703
         },
         {
-          "ym": "202409",
+          "ym": "202412",
           "count": 684
         },
         {
-          "ym": "202503",
+          "ym": "202506",
           "count": 659
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "count": 656
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "count": 656
         }
       ]
     }
   ],
-  "total": 2707,
-  "total_delta_yoy": 0,
-  "total_delta_qoq": 0,
+  "total": 2705,
+  "total_delta_yoy": 17,
+  "total_delta_qoq": 17,
   "regional": [
     {
       "region": "서울특별시",
@@ -237,14 +237,14 @@
         {
           "name": "신한",
           "count": 250,
-          "branches": 214,
-          "sub_offices": 36
+          "branches": 215,
+          "sub_offices": 35
         },
         {
           "name": "KB국민",
-          "count": 292,
+          "count": 291,
           "branches": 242,
-          "sub_offices": 50
+          "sub_offices": 49
         },
         {
           "name": "하나",
@@ -261,7 +261,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -272,95 +272,66 @@
             {
               "name": "KB국민",
               "count": 354,
-              "branches": 321,
-              "sub_offices": 33
+              "branches": 322,
+              "sub_offices": 32
             },
             {
               "name": "하나",
-              "count": 267,
-              "branches": 249,
-              "sub_offices": 18
+              "count": 260,
+              "branches": 243,
+              "sub_offices": 17
             },
             {
               "name": "우리",
-              "count": 368,
+              "count": 365,
               "branches": 333,
-              "sub_offices": 35
-            }
-          ]
-        },
-        {
-          "ym": "202109",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 330,
-              "branches": 287,
-              "sub_offices": 43
-            },
-            {
-              "name": "KB국민",
-              "count": 347,
-              "branches": 321,
-              "sub_offices": 26
-            },
-            {
-              "name": "하나",
-              "count": 257,
-              "branches": 239,
-              "sub_offices": 18
-            },
-            {
-              "name": "우리",
-              "count": 357,
-              "branches": 325,
               "sub_offices": 32
             }
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
-              "count": 306,
-              "branches": 267,
-              "sub_offices": 39
+              "count": 321,
+              "branches": 279,
+              "sub_offices": 42
             },
             {
               "name": "KB국민",
-              "count": 332,
-              "branches": 305,
-              "sub_offices": 27
+              "count": 341,
+              "branches": 319,
+              "sub_offices": 22
             },
             {
               "name": "하나",
-              "count": 248,
-              "branches": 226,
+              "count": 254,
+              "branches": 232,
               "sub_offices": 22
             },
             {
               "name": "우리",
-              "count": 344,
-              "branches": 314,
+              "count": 343,
+              "branches": 313,
               "sub_offices": 30
             }
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
-              "count": 301,
-              "branches": 262,
-              "sub_offices": 39
+              "count": 307,
+              "branches": 267,
+              "sub_offices": 40
             },
             {
               "name": "KB국민",
-              "count": 325,
+              "count": 334,
               "branches": 307,
-              "sub_offices": 18
+              "sub_offices": 27
             },
             {
               "name": "하나",
@@ -370,26 +341,55 @@
             },
             {
               "name": "우리",
-              "count": 310,
-              "branches": 284,
-              "sub_offices": 26
+              "count": 320,
+              "branches": 293,
+              "sub_offices": 27
             }
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
-              "count": 304,
-              "branches": 266,
+              "count": 301,
+              "branches": 263,
               "sub_offices": 38
             },
             {
               "name": "KB국민",
-              "count": 311,
-              "branches": 283,
-              "sub_offices": 28
+              "count": 323,
+              "branches": 307,
+              "sub_offices": 16
+            },
+            {
+              "name": "하나",
+              "count": 239,
+              "branches": 219,
+              "sub_offices": 20
+            },
+            {
+              "name": "우리",
+              "count": 310,
+              "branches": 285,
+              "sub_offices": 25
+            }
+          ]
+        },
+        {
+          "ym": "202306",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 303,
+              "branches": 266,
+              "sub_offices": 37
+            },
+            {
+              "name": "KB국민",
+              "count": 300,
+              "branches": 273,
+              "sub_offices": 27
             },
             {
               "name": "하나",
@@ -406,7 +406,7 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -416,61 +416,61 @@
             },
             {
               "name": "KB국민",
-              "count": 300,
-              "branches": 273,
+              "count": 301,
+              "branches": 274,
               "sub_offices": 27
             },
             {
               "name": "하나",
               "count": 239,
-              "branches": 219,
-              "sub_offices": 20
-            },
-            {
-              "name": "우리",
-              "count": 307,
-              "branches": 282,
-              "sub_offices": 25
-            }
-          ]
-        },
-        {
-          "ym": "202403",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 299,
-              "branches": 264,
-              "sub_offices": 35
-            },
-            {
-              "name": "KB국민",
-              "count": 300,
-              "branches": 274,
-              "sub_offices": 26
-            },
-            {
-              "name": "하나",
-              "count": 240,
-              "branches": 221,
+              "branches": 220,
               "sub_offices": 19
             },
             {
               "name": "우리",
-              "count": 297,
-              "branches": 271,
-              "sub_offices": 26
+              "count": 307,
+              "branches": 279,
+              "sub_offices": 28
             }
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
-              "count": 293,
-              "branches": 259,
-              "sub_offices": 34
+              "count": 299,
+              "branches": 263,
+              "sub_offices": 36
+            },
+            {
+              "name": "KB국민",
+              "count": 301,
+              "branches": 275,
+              "sub_offices": 26
+            },
+            {
+              "name": "하나",
+              "count": 241,
+              "branches": 221,
+              "sub_offices": 20
+            },
+            {
+              "name": "우리",
+              "count": 298,
+              "branches": 271,
+              "sub_offices": 27
+            }
+          ]
+        },
+        {
+          "ym": "202412",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 285,
+              "branches": 252,
+              "sub_offices": 33
             },
             {
               "name": "KB국민",
@@ -493,12 +493,12 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
-              "count": 264,
-              "branches": 232,
+              "count": 254,
+              "branches": 222,
               "sub_offices": 32
             },
             {
@@ -510,19 +510,19 @@
             {
               "name": "하나",
               "count": 243,
-              "branches": 221,
-              "sub_offices": 22
+              "branches": 220,
+              "sub_offices": 23
             },
             {
               "name": "우리",
               "count": 267,
-              "branches": 242,
-              "sub_offices": 25
+              "branches": 241,
+              "sub_offices": 26
             }
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -538,32 +538,32 @@
             },
             {
               "name": "하나",
-              "count": 243,
+              "count": 244,
               "branches": 220,
-              "sub_offices": 23
+              "sub_offices": 24
             },
             {
               "name": "우리",
               "count": 265,
-              "branches": 239,
-              "sub_offices": 26
+              "branches": 238,
+              "sub_offices": 27
             }
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
               "count": 250,
-              "branches": 214,
-              "sub_offices": 36
+              "branches": 215,
+              "sub_offices": 35
             },
             {
               "name": "KB국민",
-              "count": 292,
+              "count": 291,
               "branches": 242,
-              "sub_offices": 50
+              "sub_offices": 49
             },
             {
               "name": "하나",
@@ -611,7 +611,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -624,35 +624,6 @@
               "count": 58,
               "branches": 47,
               "sub_offices": 11
-            },
-            {
-              "name": "하나",
-              "count": 39,
-              "branches": 37,
-              "sub_offices": 2
-            },
-            {
-              "name": "우리",
-              "count": 45,
-              "branches": 43,
-              "sub_offices": 2
-            }
-          ]
-        },
-        {
-          "ym": "202109",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 37,
-              "branches": 30,
-              "sub_offices": 7
-            },
-            {
-              "name": "KB국민",
-              "count": 54,
-              "branches": 47,
-              "sub_offices": 7
             },
             {
               "name": "하나",
@@ -669,7 +640,36 @@
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202112",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 35,
+              "branches": 29,
+              "sub_offices": 6
+            },
+            {
+              "name": "KB국민",
+              "count": 53,
+              "branches": 47,
+              "sub_offices": 6
+            },
+            {
+              "name": "하나",
+              "count": 37,
+              "branches": 35,
+              "sub_offices": 2
+            },
+            {
+              "name": "우리",
+              "count": 44,
+              "branches": 43,
+              "sub_offices": 1
+            }
+          ]
+        },
+        {
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -691,20 +691,20 @@
             },
             {
               "name": "우리",
-              "count": 44,
-              "branches": 43,
+              "count": 43,
+              "branches": 42,
               "sub_offices": 1
             }
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
-              "count": 31,
-              "branches": 26,
-              "sub_offices": 5
+              "count": 29,
+              "branches": 25,
+              "sub_offices": 4
             },
             {
               "name": "KB국민",
@@ -727,36 +727,7 @@
           ]
         },
         {
-          "ym": "202303",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 29,
-              "branches": 25,
-              "sub_offices": 4
-            },
-            {
-              "name": "KB국민",
-              "count": 50,
-              "branches": 43,
-              "sub_offices": 7
-            },
-            {
-              "name": "하나",
-              "count": 37,
-              "branches": 35,
-              "sub_offices": 2
-            },
-            {
-              "name": "우리",
-              "count": 42,
-              "branches": 41,
-              "sub_offices": 1
-            }
-          ]
-        },
-        {
-          "ym": "202309",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -785,7 +756,36 @@
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202312",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 29,
+              "branches": 25,
+              "sub_offices": 4
+            },
+            {
+              "name": "KB국민",
+              "count": 49,
+              "branches": 42,
+              "sub_offices": 7
+            },
+            {
+              "name": "하나",
+              "count": 37,
+              "branches": 35,
+              "sub_offices": 2
+            },
+            {
+              "name": "우리",
+              "count": 42,
+              "branches": 41,
+              "sub_offices": 1
+            }
+          ]
+        },
+        {
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -814,7 +814,7 @@
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202412",
           "banks": [
             {
               "name": "신한",
@@ -843,18 +843,18 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
-              "count": 29,
-              "branches": 23,
-              "sub_offices": 6
+              "count": 27,
+              "branches": 22,
+              "sub_offices": 5
             },
             {
               "name": "KB국민",
-              "count": 47,
-              "branches": 36,
+              "count": 48,
+              "branches": 37,
               "sub_offices": 11
             },
             {
@@ -866,13 +866,13 @@
             {
               "name": "우리",
               "count": 40,
-              "branches": 39,
-              "sub_offices": 1
+              "branches": 38,
+              "sub_offices": 2
             }
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -895,13 +895,13 @@
             {
               "name": "우리",
               "count": 39,
-              "branches": 37,
-              "sub_offices": 2
+              "branches": 36,
+              "sub_offices": 3
             }
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -961,7 +961,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -974,35 +974,6 @@
               "count": 38,
               "branches": 31,
               "sub_offices": 7
-            },
-            {
-              "name": "하나",
-              "count": 24,
-              "branches": 24,
-              "sub_offices": 0
-            },
-            {
-              "name": "우리",
-              "count": 18,
-              "branches": 18,
-              "sub_offices": 0
-            }
-          ]
-        },
-        {
-          "ym": "202109",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 20,
-              "branches": 17,
-              "sub_offices": 3
-            },
-            {
-              "name": "KB국민",
-              "count": 37,
-              "branches": 31,
-              "sub_offices": 6
             },
             {
               "name": "하나",
@@ -1019,7 +990,7 @@
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -1029,9 +1000,9 @@
             },
             {
               "name": "KB국민",
-              "count": 30,
-              "branches": 27,
-              "sub_offices": 3
+              "count": 36,
+              "branches": 31,
+              "sub_offices": 5
             },
             {
               "name": "하나",
@@ -1048,7 +1019,7 @@
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -1077,18 +1048,18 @@
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
               "count": 20,
-              "branches": 18,
-              "sub_offices": 2
+              "branches": 17,
+              "sub_offices": 3
             },
             {
               "name": "KB국민",
-              "count": 28,
-              "branches": 25,
+              "count": 30,
+              "branches": 27,
               "sub_offices": 3
             },
             {
@@ -1106,7 +1077,7 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -1135,94 +1106,94 @@
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
               "count": 19,
-              "branches": 18,
-              "sub_offices": 1
-            },
-            {
-              "name": "KB국민",
-              "count": 27,
-              "branches": 25,
-              "sub_offices": 2
-            },
-            {
-              "name": "하나",
-              "count": 21,
-              "branches": 21,
-              "sub_offices": 0
-            },
-            {
-              "name": "우리",
-              "count": 18,
-              "branches": 18,
-              "sub_offices": 0
-            }
-          ]
-        },
-        {
-          "ym": "202409",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 19,
-              "branches": 18,
-              "sub_offices": 1
-            },
-            {
-              "name": "KB국민",
-              "count": 27,
-              "branches": 25,
-              "sub_offices": 2
-            },
-            {
-              "name": "하나",
-              "count": 21,
-              "branches": 21,
-              "sub_offices": 0
-            },
-            {
-              "name": "우리",
-              "count": 18,
-              "branches": 18,
-              "sub_offices": 0
-            }
-          ]
-        },
-        {
-          "ym": "202503",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 17,
-              "branches": 16,
-              "sub_offices": 1
-            },
-            {
-              "name": "KB국민",
-              "count": 27,
-              "branches": 20,
-              "sub_offices": 7
-            },
-            {
-              "name": "하나",
-              "count": 21,
-              "branches": 21,
-              "sub_offices": 0
-            },
-            {
-              "name": "우리",
-              "count": 17,
               "branches": 17,
+              "sub_offices": 2
+            },
+            {
+              "name": "KB국민",
+              "count": 27,
+              "branches": 25,
+              "sub_offices": 2
+            },
+            {
+              "name": "하나",
+              "count": 21,
+              "branches": 21,
+              "sub_offices": 0
+            },
+            {
+              "name": "우리",
+              "count": 18,
+              "branches": 18,
               "sub_offices": 0
             }
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202406",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 19,
+              "branches": 18,
+              "sub_offices": 1
+            },
+            {
+              "name": "KB국민",
+              "count": 27,
+              "branches": 25,
+              "sub_offices": 2
+            },
+            {
+              "name": "하나",
+              "count": 21,
+              "branches": 21,
+              "sub_offices": 0
+            },
+            {
+              "name": "우리",
+              "count": 18,
+              "branches": 18,
+              "sub_offices": 0
+            }
+          ]
+        },
+        {
+          "ym": "202412",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 18,
+              "branches": 17,
+              "sub_offices": 1
+            },
+            {
+              "name": "KB국민",
+              "count": 27,
+              "branches": 25,
+              "sub_offices": 2
+            },
+            {
+              "name": "하나",
+              "count": 21,
+              "branches": 21,
+              "sub_offices": 0
+            },
+            {
+              "name": "우리",
+              "count": 18,
+              "branches": 18,
+              "sub_offices": 0
+            }
+          ]
+        },
+        {
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -1251,7 +1222,36 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202512",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 17,
+              "branches": 16,
+              "sub_offices": 1
+            },
+            {
+              "name": "KB국민",
+              "count": 28,
+              "branches": 21,
+              "sub_offices": 7
+            },
+            {
+              "name": "하나",
+              "count": 21,
+              "branches": 21,
+              "sub_offices": 0
+            },
+            {
+              "name": "우리",
+              "count": 17,
+              "branches": 17,
+              "sub_offices": 0
+            }
+          ]
+        },
+        {
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -1298,8 +1298,8 @@
         },
         {
           "name": "하나",
-          "count": 31,
-          "branches": 25,
+          "count": 32,
+          "branches": 26,
           "sub_offices": 6
         },
         {
@@ -1311,7 +1311,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -1340,19 +1340,19 @@
           ]
         },
         {
-          "ym": "202109",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
-              "count": 54,
-              "branches": 45,
+              "count": 53,
+              "branches": 44,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 52,
+              "count": 51,
               "branches": 48,
-              "sub_offices": 4
+              "sub_offices": 3
             },
             {
               "name": "하나",
@@ -1362,14 +1362,14 @@
             },
             {
               "name": "우리",
-              "count": 36,
-              "branches": 28,
+              "count": 35,
+              "branches": 27,
               "sub_offices": 8
             }
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -1391,26 +1391,26 @@
             },
             {
               "name": "우리",
-              "count": 35,
-              "branches": 27,
+              "count": 34,
+              "branches": 26,
               "sub_offices": 8
             }
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
-              "count": 51,
-              "branches": 42,
+              "count": 52,
+              "branches": 43,
               "sub_offices": 9
             },
             {
               "name": "KB국민",
-              "count": 46,
+              "count": 47,
               "branches": 44,
-              "sub_offices": 2
+              "sub_offices": 3
             },
             {
               "name": "하나",
@@ -1427,7 +1427,7 @@
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -1456,7 +1456,7 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -1479,13 +1479,13 @@
             {
               "name": "우리",
               "count": 35,
-              "branches": 26,
-              "sub_offices": 9
+              "branches": 25,
+              "sub_offices": 10
             }
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -1514,7 +1514,7 @@
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202412",
           "banks": [
             {
               "name": "신한",
@@ -1543,7 +1543,7 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -1572,7 +1572,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -1601,7 +1601,7 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -1617,8 +1617,8 @@
             },
             {
               "name": "하나",
-              "count": 31,
-              "branches": 25,
+              "count": 32,
+              "branches": 26,
               "sub_offices": 6
             },
             {
@@ -1661,7 +1661,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -1690,7 +1690,7 @@
           ]
         },
         {
-          "ym": "202109",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -1719,7 +1719,7 @@
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -1748,7 +1748,7 @@
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
@@ -1777,7 +1777,7 @@
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -1806,7 +1806,7 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -1835,7 +1835,7 @@
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -1864,12 +1864,12 @@
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202412",
           "banks": [
             {
               "name": "신한",
-              "count": 12,
-              "branches": 10,
+              "count": 11,
+              "branches": 9,
               "sub_offices": 2
             },
             {
@@ -1893,7 +1893,7 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -1922,7 +1922,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -1951,7 +1951,7 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -1998,9 +1998,9 @@
         },
         {
           "name": "하나",
-          "count": 42,
+          "count": 40,
           "branches": 33,
-          "sub_offices": 9
+          "sub_offices": 7
         },
         {
           "name": "우리",
@@ -2011,7 +2011,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -2040,7 +2040,7 @@
           ]
         },
         {
-          "ym": "202109",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -2056,9 +2056,9 @@
             },
             {
               "name": "하나",
-              "count": 43,
-              "branches": 37,
-              "sub_offices": 6
+              "count": 40,
+              "branches": 32,
+              "sub_offices": 8
             },
             {
               "name": "우리",
@@ -2069,7 +2069,7 @@
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -2092,13 +2092,13 @@
             {
               "name": "우리",
               "count": 18,
-              "branches": 15,
-              "sub_offices": 3
+              "branches": 14,
+              "sub_offices": 4
             }
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
@@ -2127,7 +2127,7 @@
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -2137,8 +2137,8 @@
             },
             {
               "name": "KB국민",
-              "count": 22,
-              "branches": 16,
+              "count": 21,
+              "branches": 15,
               "sub_offices": 6
             },
             {
@@ -2156,7 +2156,7 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -2185,7 +2185,7 @@
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -2214,7 +2214,7 @@
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202412",
           "banks": [
             {
               "name": "신한",
@@ -2243,7 +2243,7 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -2272,7 +2272,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -2301,7 +2301,7 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -2317,9 +2317,9 @@
             },
             {
               "name": "하나",
-              "count": 42,
+              "count": 40,
               "branches": 33,
-              "sub_offices": 9
+              "sub_offices": 7
             },
             {
               "name": "우리",
@@ -2361,7 +2361,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -2390,7 +2390,7 @@
           ]
         },
         {
-          "ym": "202109",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -2419,7 +2419,7 @@
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -2448,7 +2448,7 @@
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
@@ -2477,36 +2477,7 @@
           ]
         },
         {
-          "ym": "202303",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 11,
-              "branches": 9,
-              "sub_offices": 2
-            },
-            {
-              "name": "KB국민",
-              "count": 10,
-              "branches": 9,
-              "sub_offices": 1
-            },
-            {
-              "name": "하나",
-              "count": 13,
-              "branches": 9,
-              "sub_offices": 4
-            },
-            {
-              "name": "우리",
-              "count": 9,
-              "branches": 8,
-              "sub_offices": 1
-            }
-          ]
-        },
-        {
-          "ym": "202309",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -2535,7 +2506,7 @@
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -2564,7 +2535,7 @@
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -2593,19 +2564,19 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202412",
           "banks": [
             {
               "name": "신한",
-              "count": 10,
-              "branches": 8,
+              "count": 11,
+              "branches": 9,
               "sub_offices": 2
             },
             {
               "name": "KB국민",
-              "count": 9,
-              "branches": 7,
-              "sub_offices": 2
+              "count": 10,
+              "branches": 9,
+              "sub_offices": 1
             },
             {
               "name": "하나",
@@ -2622,7 +2593,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -2651,7 +2622,36 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202512",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 10,
+              "branches": 8,
+              "sub_offices": 2
+            },
+            {
+              "name": "KB국민",
+              "count": 9,
+              "branches": 7,
+              "sub_offices": 2
+            },
+            {
+              "name": "하나",
+              "count": 13,
+              "branches": 9,
+              "sub_offices": 4
+            },
+            {
+              "name": "우리",
+              "count": 9,
+              "branches": 8,
+              "sub_offices": 1
+            }
+          ]
+        },
+        {
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -2711,7 +2711,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -2740,36 +2740,7 @@
           ]
         },
         {
-          "ym": "202109",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 5,
-              "branches": 3,
-              "sub_offices": 2
-            },
-            {
-              "name": "KB국민",
-              "count": 4,
-              "branches": 3,
-              "sub_offices": 1
-            },
-            {
-              "name": "하나",
-              "count": 7,
-              "branches": 4,
-              "sub_offices": 3
-            },
-            {
-              "name": "우리",
-              "count": 4,
-              "branches": 3,
-              "sub_offices": 1
-            }
-          ]
-        },
-        {
-          "ym": "202203",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -2798,7 +2769,7 @@
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -2827,7 +2798,7 @@
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
@@ -2856,7 +2827,7 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -2885,7 +2856,7 @@
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -2914,7 +2885,7 @@
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -2943,7 +2914,36 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202412",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 5,
+              "branches": 3,
+              "sub_offices": 2
+            },
+            {
+              "name": "KB국민",
+              "count": 4,
+              "branches": 3,
+              "sub_offices": 1
+            },
+            {
+              "name": "하나",
+              "count": 7,
+              "branches": 4,
+              "sub_offices": 3
+            },
+            {
+              "name": "우리",
+              "count": 3,
+              "branches": 2,
+              "sub_offices": 1
+            }
+          ]
+        },
+        {
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -2972,7 +2972,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -3001,7 +3001,7 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -3061,13 +3061,13 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
-              "count": 186,
+              "count": 185,
               "branches": 161,
-              "sub_offices": 25
+              "sub_offices": 24
             },
             {
               "name": "KB국민",
@@ -3077,20 +3077,20 @@
             },
             {
               "name": "하나",
-              "count": 119,
-              "branches": 113,
+              "count": 113,
+              "branches": 107,
               "sub_offices": 6
             },
             {
               "name": "우리",
-              "count": 205,
+              "count": 204,
               "branches": 172,
-              "sub_offices": 33
+              "sub_offices": 32
             }
           ]
         },
         {
-          "ym": "202109",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -3100,26 +3100,26 @@
             },
             {
               "name": "KB국민",
-              "count": 231,
+              "count": 230,
               "branches": 213,
-              "sub_offices": 18
+              "sub_offices": 17
             },
             {
               "name": "하나",
-              "count": 108,
-              "branches": 102,
-              "sub_offices": 6
+              "count": 105,
+              "branches": 97,
+              "sub_offices": 8
             },
             {
               "name": "우리",
-              "count": 195,
-              "branches": 164,
-              "sub_offices": 31
+              "count": 188,
+              "branches": 159,
+              "sub_offices": 29
             }
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -3141,35 +3141,6 @@
             },
             {
               "name": "우리",
-              "count": 188,
-              "branches": 159,
-              "sub_offices": 29
-            }
-          ]
-        },
-        {
-          "ym": "202209",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 154,
-              "branches": 135,
-              "sub_offices": 19
-            },
-            {
-              "name": "KB국민",
-              "count": 214,
-              "branches": 201,
-              "sub_offices": 13
-            },
-            {
-              "name": "하나",
-              "count": 104,
-              "branches": 96,
-              "sub_offices": 8
-            },
-            {
-              "name": "우리",
               "count": 177,
               "branches": 148,
               "sub_offices": 29
@@ -3177,19 +3148,19 @@
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
-              "count": 157,
-              "branches": 139,
-              "sub_offices": 18
+              "count": 153,
+              "branches": 134,
+              "sub_offices": 19
             },
             {
               "name": "KB국민",
-              "count": 208,
-              "branches": 187,
-              "sub_offices": 21
+              "count": 215,
+              "branches": 201,
+              "sub_offices": 14
             },
             {
               "name": "하나",
@@ -3206,7 +3177,36 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202306",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 154,
+              "branches": 136,
+              "sub_offices": 18
+            },
+            {
+              "name": "KB국민",
+              "count": 202,
+              "branches": 182,
+              "sub_offices": 20
+            },
+            {
+              "name": "하나",
+              "count": 104,
+              "branches": 95,
+              "sub_offices": 9
+            },
+            {
+              "name": "우리",
+              "count": 176,
+              "branches": 148,
+              "sub_offices": 28
+            }
+          ]
+        },
+        {
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -3222,20 +3222,20 @@
             },
             {
               "name": "하나",
-              "count": 106,
+              "count": 107,
               "branches": 96,
-              "sub_offices": 10
+              "sub_offices": 11
             },
             {
               "name": "우리",
               "count": 176,
-              "branches": 148,
-              "sub_offices": 28
+              "branches": 147,
+              "sub_offices": 29
             }
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -3257,19 +3257,19 @@
             },
             {
               "name": "우리",
-              "count": 175,
+              "count": 176,
               "branches": 146,
-              "sub_offices": 29
+              "sub_offices": 30
             }
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202412",
           "banks": [
             {
               "name": "신한",
-              "count": 153,
-              "branches": 135,
+              "count": 149,
+              "branches": 131,
               "sub_offices": 18
             },
             {
@@ -3280,9 +3280,9 @@
             },
             {
               "name": "하나",
-              "count": 108,
+              "count": 109,
               "branches": 96,
-              "sub_offices": 12
+              "sub_offices": 13
             },
             {
               "name": "우리",
@@ -3293,36 +3293,36 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
-              "count": 144,
-              "branches": 125,
+              "count": 143,
+              "branches": 124,
               "sub_offices": 19
             },
             {
               "name": "KB국민",
-              "count": 195,
+              "count": 194,
               "branches": 155,
-              "sub_offices": 40
+              "sub_offices": 39
             },
             {
               "name": "하나",
-              "count": 110,
+              "count": 111,
               "branches": 96,
-              "sub_offices": 14
+              "sub_offices": 15
             },
             {
               "name": "우리",
               "count": 169,
-              "branches": 140,
-              "sub_offices": 29
+              "branches": 138,
+              "sub_offices": 31
             }
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -3351,7 +3351,7 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -3411,7 +3411,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -3440,7 +3440,7 @@
           ]
         },
         {
-          "ym": "202109",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -3469,36 +3469,7 @@
           ]
         },
         {
-          "ym": "202203",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 27,
-              "branches": 17,
-              "sub_offices": 10
-            },
-            {
-              "name": "KB국민",
-              "count": 13,
-              "branches": 13,
-              "sub_offices": 0
-            },
-            {
-              "name": "하나",
-              "count": 7,
-              "branches": 6,
-              "sub_offices": 1
-            },
-            {
-              "name": "우리",
-              "count": 10,
-              "branches": 6,
-              "sub_offices": 4
-            }
-          ]
-        },
-        {
-          "ym": "202209",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -3527,7 +3498,7 @@
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
@@ -3556,7 +3527,7 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -3585,7 +3556,7 @@
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -3614,7 +3585,7 @@
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -3643,7 +3614,36 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202412",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 27,
+              "branches": 17,
+              "sub_offices": 10
+            },
+            {
+              "name": "KB국민",
+              "count": 13,
+              "branches": 13,
+              "sub_offices": 0
+            },
+            {
+              "name": "하나",
+              "count": 6,
+              "branches": 6,
+              "sub_offices": 0
+            },
+            {
+              "name": "우리",
+              "count": 10,
+              "branches": 6,
+              "sub_offices": 4
+            }
+          ]
+        },
+        {
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -3672,7 +3672,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -3701,7 +3701,7 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -3761,7 +3761,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -3790,7 +3790,7 @@
           ]
         },
         {
-          "ym": "202109",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -3812,14 +3812,14 @@
             },
             {
               "name": "우리",
-              "count": 31,
-              "branches": 23,
+              "count": 30,
+              "branches": 22,
               "sub_offices": 8
             }
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -3835,26 +3835,26 @@
             },
             {
               "name": "하나",
-              "count": 36,
-              "branches": 32,
+              "count": 35,
+              "branches": 31,
               "sub_offices": 4
             },
             {
               "name": "우리",
-              "count": 30,
-              "branches": 22,
+              "count": 29,
+              "branches": 21,
               "sub_offices": 8
             }
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
-              "count": 44,
+              "count": 43,
               "branches": 32,
-              "sub_offices": 12
+              "sub_offices": 11
             },
             {
               "name": "KB국민",
@@ -3877,36 +3877,7 @@
           ]
         },
         {
-          "ym": "202303",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 44,
-              "branches": 34,
-              "sub_offices": 10
-            },
-            {
-              "name": "KB국민",
-              "count": 35,
-              "branches": 27,
-              "sub_offices": 8
-            },
-            {
-              "name": "하나",
-              "count": 35,
-              "branches": 31,
-              "sub_offices": 4
-            },
-            {
-              "name": "우리",
-              "count": 29,
-              "branches": 21,
-              "sub_offices": 8
-            }
-          ]
-        },
-        {
-          "ym": "202309",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -3935,7 +3906,36 @@
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202312",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 43,
+              "branches": 33,
+              "sub_offices": 10
+            },
+            {
+              "name": "KB국민",
+              "count": 34,
+              "branches": 26,
+              "sub_offices": 8
+            },
+            {
+              "name": "하나",
+              "count": 35,
+              "branches": 31,
+              "sub_offices": 4
+            },
+            {
+              "name": "우리",
+              "count": 29,
+              "branches": 21,
+              "sub_offices": 8
+            }
+          ]
+        },
+        {
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -3957,14 +3957,14 @@
             },
             {
               "name": "우리",
-              "count": 29,
+              "count": 30,
               "branches": 21,
-              "sub_offices": 8
+              "sub_offices": 9
             }
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202412",
           "banks": [
             {
               "name": "신한",
@@ -3993,7 +3993,7 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -4022,7 +4022,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -4032,9 +4032,9 @@
             },
             {
               "name": "KB국민",
-              "count": 33,
+              "count": 32,
               "branches": 22,
-              "sub_offices": 11
+              "sub_offices": 10
             },
             {
               "name": "하나",
@@ -4051,7 +4051,7 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -4111,7 +4111,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -4140,19 +4140,19 @@
           ]
         },
         {
-          "ym": "202109",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
-              "count": 42,
-              "branches": 26,
+              "count": 41,
+              "branches": 25,
               "sub_offices": 16
             },
             {
               "name": "KB국민",
-              "count": 57,
+              "count": 56,
               "branches": 46,
-              "sub_offices": 11
+              "sub_offices": 10
             },
             {
               "name": "하나",
@@ -4162,14 +4162,14 @@
             },
             {
               "name": "우리",
-              "count": 38,
-              "branches": 31,
-              "sub_offices": 7
+              "count": 35,
+              "branches": 29,
+              "sub_offices": 6
             }
           ]
         },
         {
-          "ym": "202203",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -4191,14 +4191,14 @@
             },
             {
               "name": "우리",
-              "count": 35,
-              "branches": 29,
+              "count": 34,
+              "branches": 28,
               "sub_offices": 6
             }
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
@@ -4227,36 +4227,7 @@
           ]
         },
         {
-          "ym": "202303",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 34,
-              "branches": 21,
-              "sub_offices": 13
-            },
-            {
-              "name": "KB국민",
-              "count": 49,
-              "branches": 38,
-              "sub_offices": 11
-            },
-            {
-              "name": "하나",
-              "count": 29,
-              "branches": 23,
-              "sub_offices": 6
-            },
-            {
-              "name": "우리",
-              "count": 33,
-              "branches": 27,
-              "sub_offices": 6
-            }
-          ]
-        },
-        {
-          "ym": "202309",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -4285,7 +4256,7 @@
           ]
         },
         {
-          "ym": "202403",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -4314,7 +4285,7 @@
           ]
         },
         {
-          "ym": "202409",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -4343,19 +4314,19 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202412",
           "banks": [
             {
               "name": "신한",
-              "count": 34,
+              "count": 33,
               "branches": 20,
-              "sub_offices": 14
+              "sub_offices": 13
             },
             {
               "name": "KB국민",
-              "count": 46,
-              "branches": 33,
-              "sub_offices": 13
+              "count": 47,
+              "branches": 37,
+              "sub_offices": 10
             },
             {
               "name": "하나",
@@ -4372,7 +4343,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -4401,7 +4372,36 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202512",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 34,
+              "branches": 20,
+              "sub_offices": 14
+            },
+            {
+              "name": "KB국민",
+              "count": 45,
+              "branches": 33,
+              "sub_offices": 12
+            },
+            {
+              "name": "하나",
+              "count": 29,
+              "branches": 23,
+              "sub_offices": 6
+            },
+            {
+              "name": "우리",
+              "count": 33,
+              "branches": 25,
+              "sub_offices": 8
+            }
+          ]
+        },
+        {
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -4461,7 +4461,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -4490,7 +4490,7 @@
           ]
         },
         {
-          "ym": "202109",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -4512,35 +4512,6 @@
             },
             {
               "name": "우리",
-              "count": 22,
-              "branches": 19,
-              "sub_offices": 3
-            }
-          ]
-        },
-        {
-          "ym": "202203",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 16,
-              "branches": 14,
-              "sub_offices": 2
-            },
-            {
-              "name": "KB국민",
-              "count": 29,
-              "branches": 26,
-              "sub_offices": 3
-            },
-            {
-              "name": "하나",
-              "count": 19,
-              "branches": 18,
-              "sub_offices": 1
-            },
-            {
-              "name": "우리",
               "count": 20,
               "branches": 18,
               "sub_offices": 2
@@ -4548,7 +4519,7 @@
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -4577,7 +4548,7 @@
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202212",
           "banks": [
             {
               "name": "신한",
@@ -4587,15 +4558,15 @@
             },
             {
               "name": "KB국민",
-              "count": 26,
-              "branches": 22,
+              "count": 29,
+              "branches": 25,
               "sub_offices": 4
             },
             {
               "name": "하나",
               "count": 19,
-              "branches": 17,
-              "sub_offices": 2
+              "branches": 18,
+              "sub_offices": 1
             },
             {
               "name": "우리",
@@ -4606,7 +4577,7 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -4622,9 +4593,9 @@
             },
             {
               "name": "하나",
-              "count": 18,
+              "count": 19,
               "branches": 17,
-              "sub_offices": 1
+              "sub_offices": 2
             },
             {
               "name": "우리",
@@ -4635,36 +4606,7 @@
           ]
         },
         {
-          "ym": "202403",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 16,
-              "branches": 14,
-              "sub_offices": 2
-            },
-            {
-              "name": "KB국민",
-              "count": 25,
-              "branches": 20,
-              "sub_offices": 5
-            },
-            {
-              "name": "하나",
-              "count": 18,
-              "branches": 17,
-              "sub_offices": 1
-            },
-            {
-              "name": "우리",
-              "count": 19,
-              "branches": 16,
-              "sub_offices": 3
-            }
-          ]
-        },
-        {
-          "ym": "202409",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -4693,7 +4635,65 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202406",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 16,
+              "branches": 14,
+              "sub_offices": 2
+            },
+            {
+              "name": "KB국민",
+              "count": 25,
+              "branches": 20,
+              "sub_offices": 5
+            },
+            {
+              "name": "하나",
+              "count": 18,
+              "branches": 17,
+              "sub_offices": 1
+            },
+            {
+              "name": "우리",
+              "count": 19,
+              "branches": 16,
+              "sub_offices": 3
+            }
+          ]
+        },
+        {
+          "ym": "202412",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 16,
+              "branches": 14,
+              "sub_offices": 2
+            },
+            {
+              "name": "KB국민",
+              "count": 25,
+              "branches": 20,
+              "sub_offices": 5
+            },
+            {
+              "name": "하나",
+              "count": 18,
+              "branches": 17,
+              "sub_offices": 1
+            },
+            {
+              "name": "우리",
+              "count": 19,
+              "branches": 16,
+              "sub_offices": 3
+            }
+          ]
+        },
+        {
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -4722,7 +4722,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202512",
           "banks": [
             {
               "name": "신한",
@@ -4751,7 +4751,7 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -4811,7 +4811,7 @@
       ],
       "history": [
         {
-          "ym": "202103",
+          "ym": "202106",
           "banks": [
             {
               "name": "신한",
@@ -4840,36 +4840,7 @@
           ]
         },
         {
-          "ym": "202109",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 5,
-              "branches": 4,
-              "sub_offices": 1
-            },
-            {
-              "name": "KB국민",
-              "count": 5,
-              "branches": 4,
-              "sub_offices": 1
-            },
-            {
-              "name": "하나",
-              "count": 4,
-              "branches": 4,
-              "sub_offices": 0
-            },
-            {
-              "name": "우리",
-              "count": 3,
-              "branches": 3,
-              "sub_offices": 0
-            }
-          ]
-        },
-        {
-          "ym": "202203",
+          "ym": "202112",
           "banks": [
             {
               "name": "신한",
@@ -4898,7 +4869,7 @@
           ]
         },
         {
-          "ym": "202209",
+          "ym": "202206",
           "banks": [
             {
               "name": "신한",
@@ -4927,7 +4898,36 @@
           ]
         },
         {
-          "ym": "202303",
+          "ym": "202212",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 5,
+              "branches": 4,
+              "sub_offices": 1
+            },
+            {
+              "name": "KB국민",
+              "count": 5,
+              "branches": 4,
+              "sub_offices": 1
+            },
+            {
+              "name": "하나",
+              "count": 3,
+              "branches": 3,
+              "sub_offices": 0
+            },
+            {
+              "name": "우리",
+              "count": 3,
+              "branches": 3,
+              "sub_offices": 0
+            }
+          ]
+        },
+        {
+          "ym": "202306",
           "banks": [
             {
               "name": "신한",
@@ -4956,7 +4956,7 @@
           ]
         },
         {
-          "ym": "202309",
+          "ym": "202312",
           "banks": [
             {
               "name": "신한",
@@ -4985,36 +4985,7 @@
           ]
         },
         {
-          "ym": "202403",
-          "banks": [
-            {
-              "name": "신한",
-              "count": 5,
-              "branches": 4,
-              "sub_offices": 1
-            },
-            {
-              "name": "KB국민",
-              "count": 4,
-              "branches": 3,
-              "sub_offices": 1
-            },
-            {
-              "name": "하나",
-              "count": 3,
-              "branches": 3,
-              "sub_offices": 0
-            },
-            {
-              "name": "우리",
-              "count": 3,
-              "branches": 3,
-              "sub_offices": 0
-            }
-          ]
-        },
-        {
-          "ym": "202409",
+          "ym": "202406",
           "banks": [
             {
               "name": "신한",
@@ -5043,7 +5014,7 @@
           ]
         },
         {
-          "ym": "202503",
+          "ym": "202412",
           "banks": [
             {
               "name": "신한",
@@ -5072,7 +5043,7 @@
           ]
         },
         {
-          "ym": "202509",
+          "ym": "202506",
           "banks": [
             {
               "name": "신한",
@@ -5101,7 +5072,36 @@
           ]
         },
         {
-          "ym": "202603",
+          "ym": "202512",
+          "banks": [
+            {
+              "name": "신한",
+              "count": 4,
+              "branches": 3,
+              "sub_offices": 1
+            },
+            {
+              "name": "KB국민",
+              "count": 4,
+              "branches": 3,
+              "sub_offices": 1
+            },
+            {
+              "name": "하나",
+              "count": 3,
+              "branches": 3,
+              "sub_offices": 0
+            },
+            {
+              "name": "우리",
+              "count": 3,
+              "branches": 2,
+              "sub_offices": 1
+            }
+          ]
+        },
+        {
+          "ym": "202606",
           "banks": [
             {
               "name": "신한",
@@ -5133,8 +5133,8 @@
     }
   ],
   "atm_devices": {
-    "as_of": "2025-12-31",
-    "latest_ym": "202512",
+    "as_of": "2026-06-30",
+    "latest_ym": "202606",
     "list_no": "SA026",
     "codes": [
       {
@@ -5178,27 +5178,27 @@
           {
             "code": "B",
             "name": "ATM",
-            "count": 3916
+            "count": 3829
           },
           {
             "code": "C",
             "name": "기타",
-            "count": 631
+            "count": 625
           },
           {
             "code": "E",
             "name": "화상단말기",
-            "count": 544
+            "count": 566
           },
           {
             "code": "D",
             "name": "합계",
-            "count": 5094
+            "count": 5023
           },
           {
             "code": "F",
             "name": "무인점포",
-            "count": 1146
+            "count": 1079
           },
           {
             "code": "G",
@@ -5206,42 +5206,8 @@
             "count": 821
           }
         ],
-        "total": 12155,
+        "total": 11946,
         "history": [
-          {
-            "ym": "202012",
-            "items": [
-              {
-                "code": "A",
-                "count": 12
-              },
-              {
-                "code": "B",
-                "count": 5472
-              },
-              {
-                "code": "C",
-                "count": 837
-              },
-              {
-                "code": "E",
-                "count": 37
-              },
-              {
-                "code": "D",
-                "count": 6358
-              },
-              {
-                "code": "F",
-                "count": 1812
-              },
-              {
-                "code": "G",
-                "count": 815
-              }
-            ],
-            "total": 15343
-          },
           {
             "ym": "202106",
             "items": [
@@ -5581,6 +5547,40 @@
               }
             ],
             "total": 12155
+          },
+          {
+            "ym": "202606",
+            "items": [
+              {
+                "code": "A",
+                "count": 3
+              },
+              {
+                "code": "B",
+                "count": 3829
+              },
+              {
+                "code": "C",
+                "count": 625
+              },
+              {
+                "code": "E",
+                "count": 566
+              },
+              {
+                "code": "D",
+                "count": 5023
+              },
+              {
+                "code": "F",
+                "count": 1079
+              },
+              {
+                "code": "G",
+                "count": 821
+              }
+            ],
+            "total": 11946
           }
         ]
       },
@@ -5595,12 +5595,12 @@
           {
             "code": "B",
             "name": "ATM",
-            "count": 4162
+            "count": 4105
           },
           {
             "code": "C",
             "name": "기타",
-            "count": 1110
+            "count": 1117
           },
           {
             "code": "E",
@@ -5610,55 +5610,21 @@
           {
             "code": "D",
             "name": "합계",
-            "count": 5272
+            "count": 5222
           },
           {
             "code": "F",
             "name": "무인점포",
-            "count": 1062
+            "count": 1077
           },
           {
             "code": "G",
             "name": "점내 365일 코너",
-            "count": 213
+            "count": 181
           }
         ],
-        "total": 11819,
+        "total": 11702,
         "history": [
-          {
-            "ym": "202012",
-            "items": [
-              {
-                "code": "A",
-                "count": 0
-              },
-              {
-                "code": "B",
-                "count": 5785
-              },
-              {
-                "code": "C",
-                "count": 1291
-              },
-              {
-                "code": "E",
-                "count": 0
-              },
-              {
-                "code": "D",
-                "count": 7076
-              },
-              {
-                "code": "F",
-                "count": 749
-              },
-              {
-                "code": "G",
-                "count": 738
-              }
-            ],
-            "total": 15639
-          },
           {
             "ym": "202106",
             "items": [
@@ -5998,6 +5964,40 @@
               }
             ],
             "total": 11819
+          },
+          {
+            "ym": "202606",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 4105
+              },
+              {
+                "code": "C",
+                "count": 1117
+              },
+              {
+                "code": "E",
+                "count": 0
+              },
+              {
+                "code": "D",
+                "count": 5222
+              },
+              {
+                "code": "F",
+                "count": 1077
+              },
+              {
+                "code": "G",
+                "count": 181
+              }
+            ],
+            "total": 11702
           }
         ]
       },
@@ -6012,70 +6012,36 @@
           {
             "code": "B",
             "name": "ATM",
-            "count": 3368
+            "count": 3347
           },
           {
             "code": "C",
             "name": "기타",
-            "count": 131
+            "count": 136
           },
           {
             "code": "E",
             "name": "화상단말기",
-            "count": 7
+            "count": 11
           },
           {
             "code": "D",
             "name": "합계",
-            "count": 3509
+            "count": 3497
           },
           {
             "code": "F",
             "name": "무인점포",
-            "count": 216
+            "count": 225
           },
           {
             "code": "G",
             "name": "점내 365일 코너",
-            "count": 636
+            "count": 633
           }
         ],
-        "total": 7870,
+        "total": 7852,
         "history": [
-          {
-            "ym": "202012",
-            "items": [
-              {
-                "code": "A",
-                "count": 6
-              },
-              {
-                "code": "B",
-                "count": 3745
-              },
-              {
-                "code": "C",
-                "count": 6
-              },
-              {
-                "code": "E",
-                "count": 0
-              },
-              {
-                "code": "D",
-                "count": 3757
-              },
-              {
-                "code": "F",
-                "count": 203
-              },
-              {
-                "code": "G",
-                "count": 688
-              }
-            ],
-            "total": 8405
-          },
           {
             "ym": "202106",
             "items": [
@@ -6415,6 +6381,40 @@
               }
             ],
             "total": 7870
+          },
+          {
+            "ym": "202606",
+            "items": [
+              {
+                "code": "A",
+                "count": 3
+              },
+              {
+                "code": "B",
+                "count": 3347
+              },
+              {
+                "code": "C",
+                "count": 136
+              },
+              {
+                "code": "E",
+                "count": 11
+              },
+              {
+                "code": "D",
+                "count": 3497
+              },
+              {
+                "code": "F",
+                "count": 225
+              },
+              {
+                "code": "G",
+                "count": 633
+              }
+            ],
+            "total": 7852
           }
         ]
       },
@@ -6429,70 +6429,36 @@
           {
             "code": "B",
             "name": "ATM",
-            "count": 3253
+            "count": 3213
           },
           {
             "code": "C",
             "name": "기타",
-            "count": 651
+            "count": 646
           },
           {
             "code": "E",
             "name": "화상단말기",
-            "count": 86
+            "count": 70
           },
           {
             "code": "D",
             "name": "합계",
-            "count": 3990
+            "count": 3929
           },
           {
             "code": "F",
             "name": "무인점포",
-            "count": 250
+            "count": 247
           },
           {
             "code": "G",
             "name": "점내 365일 코너",
-            "count": 621
+            "count": 618
           }
         ],
-        "total": 8851,
+        "total": 8723,
         "history": [
-          {
-            "ym": "202012",
-            "items": [
-              {
-                "code": "A",
-                "count": 0
-              },
-              {
-                "code": "B",
-                "count": 4487
-              },
-              {
-                "code": "C",
-                "count": 861
-              },
-              {
-                "code": "E",
-                "count": 44
-              },
-              {
-                "code": "D",
-                "count": 5392
-              },
-              {
-                "code": "F",
-                "count": 215
-              },
-              {
-                "code": "G",
-                "count": 821
-              }
-            ],
-            "total": 11820
-          },
           {
             "ym": "202106",
             "items": [
@@ -6832,11 +6798,45 @@
               }
             ],
             "total": 8851
+          },
+          {
+            "ym": "202606",
+            "items": [
+              {
+                "code": "A",
+                "count": 0
+              },
+              {
+                "code": "B",
+                "count": 3213
+              },
+              {
+                "code": "C",
+                "count": 646
+              },
+              {
+                "code": "E",
+                "count": 70
+              },
+              {
+                "code": "D",
+                "count": 3929
+              },
+              {
+                "code": "F",
+                "count": 247
+              },
+              {
+                "code": "G",
+                "count": 618
+              }
+            ],
+            "total": 8723
           }
         ]
       }
     ],
-    "total": 40695,
+    "total": 40223,
     "debug": {
       "list_no_atm": "SA026",
       "finance_cd_targets": 4,
@@ -6844,22 +6844,22 @@
         {
           "bank": "신한",
           "finance_cd": "0011625",
-          "rows": 91
+          "rows": 98
         },
         {
           "bank": "KB국민",
           "finance_cd": "0010927",
-          "rows": 91
+          "rows": 98
         },
         {
           "bank": "하나",
           "finance_cd": "0013909",
-          "rows": 91
+          "rows": 98
         },
         {
           "bank": "우리",
           "finance_cd": "0010001",
-          "rows": 91
+          "rows": 98
         }
       ],
       "fallback_all_rows_used": false,
