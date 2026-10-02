@@ -1,30 +1,54 @@
 {
-  "updated_at": "2026-10-01T09:47:50.259031+09:00",
+  "updated_at": "2026-10-02T10:03:35.077127+09:00",
   "headline": {
-    "id": "0b30c46f4383",
-    "title": "\"점포 폐쇄 어려워진 게 맞나\" 금감원, 반년 만에 은행 점검 나선다",
-    "source": "KB Think",
-    "summary": "\"점포 폐쇄 어려워진 게 맞나\" 금감원, 반년 만에 은행 점검 나선다 KB Think",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFa3JGR0o0blJ6Tm9iUnNZTVpRMWxoZ2pSa0xkM3N5bDd0NE5ZLVpBMzBoSXVabU1TWXJuaS0tUE9rSVZBc1lCSFdGYnVINkpOWDN5SDV1MVAySHEzSnJCRHdqTGtzQU15MXFrNEdEbmJDUQ?oc=5",
-    "published": "2026-09-27T08:45:00+09:00",
-    "query": "공동점포",
+    "id": "9c3ba55c1856",
+    "title": "은행 점포·영업시간 감축 속 '저녁에도 문 여는' 특화은행 눈길...KB '6시은행' 72곳 운영, 가장 앞서",
+    "source": "소비자가 만드는 신문",
+    "summary": "은행 점포·영업시간 감축 속 '저녁에도 문 여는' 특화은행 눈길...KB '6시은행' 72곳 운영, 가장 앞서 소비자가 만드는 신문",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9udlQ0anZZNlFscHZtUEZ4X0hPSldxdEJqZDZSWTRFbHkyN0J1bzBzY3Vqcm9qdi1zeEZqd3l6UzhMeU91NkttVjdEby1vQkVTdncxdjNaWENZRUstdUFPalJmOVV5UmJpUXhXX0pvQkxhOGc?oc=5",
+    "published": "2026-10-01T06:10:00+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 24.0,
+    "rank": 3,
+    "_score": 13.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "cd43d79c316d",
-        "title": "9시 30분 문 여는 은행점포…누구를 위한 시간표인가 [기자수첩-금융]",
-        "source": "데일리안",
-        "summary": "9시 30분 문 여는 은행점포…누구를 위한 시간표인가 [기자수첩-금융] 데일리안은행 점포 주는데 영업 시간도 단축, 고객 불편 어쩌나 부산일보\"월차 내고 은행 가라고?\"… 줄어든 점포, 영업시간 30분 '단축' 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcEVpZEJBOHdsdDFkVHR6TS1icmRydlgwRXpLNTk2TjRkVldFY2JKRm5fb0M0d1l6WDRRUWRtTG1HZ19kTDR0QzZtYThoNnd4S0NmSU1qcFRVVGNRVmRrNWh4eHV5c1RMZzh0LW5kNUE3QTZ0c0NNc21NdUJpb1dpXzRSX25jOTF3RGhEaExOazhDMGtfYnRkbl8tU3dEOWc0c2R1SVdYMWRHRUVLVl9EOFN0OXpNZFdySVZQRTFhc2NXdzdoQ2dZYzhyT25uZnM5b1h6eHNjYkdudTUwc1drTldBZE5QbHczQ19PZkxQVGtPX1Bvend1RQ?oc=5",
-        "published": "2026-10-01T08:19:00+09:00",
-        "query": "은행 점포",
+        "id": "3b0c9891eaff",
+        "title": "Sh수협은행, 전 영업점 ‘섬김금융창구’ 시니어 응대교육",
+        "source": "이지경제",
+        "summary": "Sh수협은행, 전 영업점 ‘섬김금융창구’ 시니어 응대교육 이지경제",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YTXcyaXM4NExjTWM3ZUxLdnN1REN1SUZ0WWpTN2VLanZFNTBYM2syVGUwVHplNUxHTzFLT2s5d0o4WEFFNFB1NWFOc3NPUmVCT0xNNUVOMjFOem9YQzhGR3cyOFY0RXEtQ29yM19n?oc=5",
+        "published": "2026-10-01T17:04:06+09:00",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "6547773ff444",
+        "title": "수협은행, 전 영업점 전담직원 대상 고령 고객 응대교육 실시",
+        "source": "파이낸셜포스트",
+        "summary": "수협은행, 전 영업점 전담직원 대상 고령 고객 응대교육 실시 파이낸셜포스트",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5PWnlSRzhNV0NnM2FjbzliYXZHdk1GVEVRc2phYVROa282Z2hrNEwwd240ZS1POGdZd3c0Z295ZXFQXzhiUVpBYkdlMlc4MjRXekx0blFzRjZ6RU9SWUMtODRSSEtma09NZTdQUURvUkktZWto?oc=5",
+        "published": "2026-10-01T17:01:39+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 12,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "5e66b82e00f0",
+        "title": "경남은행, “용지로지점 직원들이 보이스피싱 피해 막았다”",
+        "source": "비즈월드",
+        "summary": "경남은행, “용지로지점 직원들이 보이스피싱 피해 막았다” 비즈월드",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wS3RvQy1kNFdxUWxtd2VEQ0w0c0dqX1o3TWMyR05LZ29fd2wyNUs4Q3l4dXpwZTI4X09NZmZES3pUV2pVSXBoSTdNdG5vajZvQk9HeERZcEc3MU10azdTdVRfb1N1YXFWWFE?oc=5",
+        "published": "2026-10-01T16:16:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,19 +60,19 @@
         "published": "2026-10-01T08:18:53+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11,
+        "rank": 15,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "9c3ba55c1856",
-        "title": "은행 점포·영업시간 감축 속 '저녁에도 문 여는' 특화은행 눈길...KB '6시은행' 72곳 운영, 가장 앞서",
-        "source": "소비자가 만드는 신문",
-        "summary": "은행 점포·영업시간 감축 속 '저녁에도 문 여는' 특화은행 눈길...KB '6시은행' 72곳 운영, 가장 앞서 소비자가 만드는 신문",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9udlQ0anZZNlFscHZtUEZ4X0hPSldxdEJqZDZSWTRFbHkyN0J1bzBzY3Vqcm9qdi1zeEZqd3l6UzhMeU91NkttVjdEby1vQkVTdncxdjNaWENZRUstdUFPalJmOVV5UmJpUXhXX0pvQkxhOGc?oc=5",
-        "published": "2026-10-01T06:10:00+09:00",
+        "id": "cd43d79c316d",
+        "title": "9시 30분 문 여는 은행점포…누구를 위한 시간표인가 [기자수첩-금융]",
+        "source": "데일리안",
+        "summary": "9시 30분 문 여는 은행점포…누구를 위한 시간표인가 [기자수첩-금융] 데일리안\"월차 내고 은행 가라고?\"… 줄어든 점포, 영업시간 30분 '단축' news1.kr“은행 가기 더 힘들겠네”⋯점포도 닫고 영업시간 단축까지 v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcEVpZEJBOHdsdDFkVHR6TS1icmRydlgwRXpLNTk2TjRkVldFY2JKRm5fb0M0d1l6WDRRUWRtTG1HZ19kTDR0QzZtYThoNnd4S0NmSU1qcFRVVGNRVmRrNWh4eHV5c1RMZzh0LW5kNUE3QTZ0c0NNc21NdUJpb1dpXzRSX25jOTF3RGhEaExOazhDMGtfYnRkbl8tU3dEOWc0c2R1SVdYMWRHRUVLVl9EOFN0OXpNZFdySVZQRTFhc2NXdzdoQ2dZYzhyT25uZnM5b1h6eHNjYkdudTUwc1drTldBZE5QbHczQ19PZkxQVGtPX1Bvend1RQ?oc=5",
+        "published": "2026-10-01T07:07:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +84,7 @@
         "published": "2026-10-01T00:00:02+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +96,7 @@
         "published": "2026-09-30T19:17:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,19 +108,7 @@
         "published": "2026-09-30T18:43:45+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "795b92519269",
-        "title": "전북, 은행점포 10년 새 33곳 사라져...고령층 '금융 사각지대' 우려",
-        "source": "전라일보",
-        "summary": "전북, 은행점포 10년 새 33곳 사라져...고령층 '금융 사각지대' 우려 전라일보",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01eTNLYVpkaGpXdUZyYTZaUXluRXo3a3p1NlQ0QlcxanJvWGVfTzdUNGM3czNvbXBoMTJUQzE4SVQ5UlRvY2dvT0pXbURXWndra3dMa2RxOVB0MzROeWM4X2RCZUZTdXFxWTZJN3FB0gFwQVVfeXFMTXJfT04wRDZmaThnVEFhNHJDbm96ZWhnYUZwSV9lY3FxUkNrcU5TU1NwRlJCYVRGUktCczFlSGJ6SC1jU1FOY3pCUVp0U2sxeTZCZTIya3NGa3Y0VHIzZVdscmlFMFZQaHMyQ0Z5RlF0Qg?oc=5",
-        "published": "2026-09-30T17:49:02+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 16,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -108,19 +120,7 @@
         "published": "2026-09-30T15:29:36+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "d785534169e0",
-        "title": "BNK경남은행, 용지로지점 직원들, 보이스피싱 피해 예방",
-        "source": "매일일보",
-        "summary": "BNK경남은행, 용지로지점 직원들, 보이스피싱 피해 예방 매일일보",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GRmdvWGtUN05XMS1Fa1Yxa21kQi1iMDBVNl9RZ3Fsc25CQ3VpaHZ0RlVWS2owRmxocXJIOHQ1amd2Q3NoTFVldlNZeURNQVdjYVRKRjZIX1ZwY2NvQ1RycGRTOU4?oc=5",
-        "published": "2026-09-30T14:25:30+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 11,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -132,18 +132,29 @@
         "published": "2026-09-30T08:29:08+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 8
+        "rank": 7
       },
       {
-        "id": "afa7f51ac23a",
-        "title": "“은행 가기 더 힘들겠네”⋯점포도 닫고 영업시간 단축까지",
-        "source": "v.daum.net",
-        "summary": "“은행 가기 더 힘들겠네”⋯점포도 닫고 영업시간 단축까지 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VRFl3X0hiQXNJRVJjdEM3TmJYUEZtX1k4Q2pqaW9GSmw3R3NWTzBJdkJUXzF2ZVIyTGtxMFR5eHJRazJPRTAwSDM3Rld5RGM?oc=5",
-        "published": "2026-09-30T07:59:00+09:00",
+        "id": "782a3911e838",
+        "title": "내년 4월부터 은행 점포 개점시간 오전 9시 30분으로 변경…'단군 이래 최초' 점포 운영시간 단축",
+        "source": "프레시안",
+        "summary": "내년 4월부터 은행 점포 개점시간 오전 9시 30분으로 변경…'단군 이래 최초' 점포 운영시간 단축 프레시안",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwNGY5b200Z1A5QXI2dm90Xy11aVlCUlo2NjB1ZG1yX0RVMUxpbS1keTdnSE1fT3dCSG1YV2J4dm8tb1JxZGFLSTFlSjVrbzMwVnowLTRSbEN3ZlJFN0FYZGVhYU1VT0hoYm9R?oc=5",
+        "published": "2026-09-30T06:00:36+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 6
+        "rank": 10
+      },
+      {
+        "id": "c9f5397f02b1",
+        "title": "“이젠 반차까지 내야할 판”…점포 줄고 영업시간도 줄이는 은행",
+        "source": "미주중앙일보",
+        "summary": "“이젠 반차까지 내야할 판”…점포 줄고 영업시간도 줄이는 은행 미주중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43Z0RxSkhXTnBJdFJZa3g2RkpFSlgzcTJmZE9SN1NRREgxMnl1ZDRET0hOcDlnSlJ5VnIwRmIwN0ZLMy1UTUNtc2plWUtkSXAxUWNCT1FzREVOZEFtcHBodTVn?oc=5",
+        "published": "2026-09-30T05:31:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 8
       },
       {
         "id": "06539dc8b3fa",
@@ -152,28 +163,6 @@
         "summary": "“안 그래도 대기시간 한 시간인데”…은행 점포 축소·영업시간 단축에 불편 가중 우려 아시아투데이",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5udGtyd0VWdlJyejVrNFZ4TmdmazIxVzNaQzJMMzFNQ2pEZTZzeVdWb2RMR1hQM3dJUG1CSzNBT1ZkX3draVVJTU9YSExrclV1OWxxQ19SS3F5QzVvM3dPZzFsdVUxeVVXLU5sZVd3?oc=5",
         "published": "2026-09-29T17:54:56+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 10
-      },
-      {
-        "id": "e01b510104e2",
-        "title": "“이젠 반차까지 내야할 판”…점포 줄고 영업시간도 줄이는 은행",
-        "source": "v.daum.net",
-        "summary": "“이젠 반차까지 내야할 판”…점포 줄고 영업시간도 줄이는 은행 v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52NXMta2tWcHd6bXFYUDhXSG13M2dJc2xwai1iaWxVLUJfZGVfWXUyZV91S2N4OFlwN3lXQl9ReVpsMl9QV0I4MUliVU9vc28?oc=5",
-        "published": "2026-09-29T17:40:57+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 4
-      },
-      {
-        "id": "c9f5397f02b1",
-        "title": "“반차내고 은행업무” 점포·ATM 줄고 영업시간까지 축소...더 좁아지는 ‘대면 금융’",
-        "source": "미주중앙일보",
-        "summary": "“반차내고 은행업무” 점포·ATM 줄고 영업시간까지 축소...더 좁아지는 ‘대면 금융’ 미주중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43Z0RxSkhXTnBJdFJZa3g2RkpFSlgzcTJmZE9SN1NRREgxMnl1ZDRET0hOcDlnSlJ5VnIwRmIwN0ZLMy1UTUNtc2plWUtkSXAxUWNCT1FzREVOZEFtcHBodTVn?oc=5",
-        "published": "2026-09-29T17:39:00+09:00",
         "query": "은행 점포",
         "engine": "google",
         "rank": 9
@@ -201,17 +190,6 @@
         "rank": 3
       },
       {
-        "id": "43e9929e12ba",
-        "title": "은행 영업점, 9시 30분에 연다…내년 4월부터 30분 단축",
-        "source": "뉴스핌",
-        "summary": "은행 영업점, 9시 30분에 연다…내년 4월부터 30분 단축 뉴스핌",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5TWDBlckU2OWxIRVVZTmNQNnRxOVNIbWdHRTJPdWhVTVpLMmFlT3I2VzZzY2R3amIyZTlfWDdsMDZDdFBkbC1pYTBjVVFCNEFMOEtmbnhkMVJzU3dn?oc=5",
-        "published": "2026-09-29T12:52:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 10
-      },
-      {
         "id": "9e6fe09ccd14",
         "title": "은행 문 30분 늦추기로 했는데 고객 대책은 이제서야 … 금융노조 \"탄력점포 등 논의 중\"",
         "source": "뉴데일리",
@@ -223,6 +201,17 @@
         "rank": 5
       },
       {
+        "id": "683d668aa430",
+        "title": "은행 영업점 운영 시간 줄어든다…내년 4월부터 오전 9시 30분 개점",
+        "source": "더나은미래",
+        "summary": "은행 영업점 운영 시간 줄어든다…내년 4월부터 오전 9시 30분 개점 더나은미래",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TcXZnVklWMHBYbkVWUTNDeWIybkFOZWdDcWVpcGFTeklKWE5vVzR2V1RPY1FYQkVlVDJZZ2VmTFhLX3E0TldTN3JqaDg4SGNteXc?oc=5",
+        "published": "2026-09-29T09:20:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 4
+      },
+      {
         "id": "fe50fd021488",
         "title": "은행 점포 영업시간, 2027년 4월부터 오전 9시30분 개점·오후 4시 마감",
         "source": "마일드경제",
@@ -231,18 +220,7 @@
         "published": "2026-09-29T08:48:00+09:00",
         "query": "은행 공동점포",
         "engine": "google",
-        "rank": 6
-      },
-      {
-        "id": "6f950d9b473d",
-        "title": "내년 4월부터 은행 점포 영업시간, 9시 30분으로 30분 늦춰진다",
-        "source": "비욘드포스트",
-        "summary": "내년 4월부터 은행 점포 영업시간, 9시 30분으로 30분 늦춰진다 비욘드포스트",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iOWpWcFo5ZERZQ0tWTHFHbjEzbC0zNE0zMzF2Q0ZyRTlBQW04X19zeUVVUlpGUWhlRWQ2T1VOOUhteDJWdkZ1dUtJRF9KZ0t4bkRxV1N1Q3NxYngxY0RRYjZ5OUV6bnFBRnZMQW1EUHBmUXBfRWJhOTBDNDA?oc=5",
-        "published": "2026-09-29T05:55:29+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 12
+        "rank": 5
       },
       {
         "id": "fa72f018dde9",
@@ -253,55 +231,78 @@
         "published": "2026-09-28T20:03:34+09:00",
         "query": "은행 공동점포",
         "engine": "google",
-        "rank": 9
+        "rank": 6
       },
       {
         "id": "0eb691e17645",
         "title": "은행 점포 30분 늦게 연다…\"디지털 금융 확산 등 반영\"(종합2보)",
-        "source": "yna.co.kr",
-        "summary": "은행 점포 30분 늦게 연다…\"디지털 금융 확산 등 반영\"(종합2보) yna.co.kr",
+        "source": "연합뉴스",
+        "summary": "은행 점포 30분 늦게 연다…\"디지털 금융 확산 등 반영\"(종합2보) 연합뉴스",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9feWx6SnBPYTVkZGxLYVItM2FWSWNraFB6TndUS1J5cVd3ckZmLWtqbjg1dkRVNG5LTlFxMEl4WlhwSXpNMVpreUJPdnFFNk9QWXp2S1ZKV2tmY1HSAWBBVV95cUxQNW50Tk1FbndXSWQxSFFzTmIySmVJeVFBN2dEcXZoX1A5cG1LYmhQelN4bHhiM2M3d2luVWRXMmJsOGxfSlhwVHZEaDJaMGZTS0toV1piNjdNTFRHZ0NNMnQ?oc=5",
         "published": "2026-09-28T19:14:28+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 15
+        "rank": 13
       },
       {
-        "id": "9ff7a680117f",
-        "title": "[속보]금융노사, 은행점포 영업 30분 단축·임금 3% 인상 잠정 합의",
-        "source": "뉴시스",
-        "summary": "[속보]금융노사, 은행점포 영업 30분 단축·임금 3% 인상 잠정 합의 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhRS1UUTYwRTJxb3I1SHA1SmhKM2JkYmZuZW9uZDVMMkxYNWdHaHVpRERMUkNOZkxxclpDa0NQaEZQZ3FTQTZYT0I3RXVvZE9Bd1FGanFabTk4VTRZdTdPR9IBeEFVX3lxTE5lNjYxSW9Xd2NzM2VFWkdVVFl5eElLYUlMenpIN3VXNjRoWVRveEQ1SVVvdTlPSktvRlhKdU1NcHh5MElqSXZnVEQ5cjNEdWhHazV2M3g5enk4YW5VcEtlelF3ODluTHZ4TDBBU3FveENiTUVIbVo5Yw?oc=5",
-        "published": "2026-09-28T17:46:46+09:00",
+        "id": "a396d441854e",
+        "title": "[속보] 금융 노사, 은행 점포 영업시간 30분 단축 합의",
+        "source": "연합뉴스TV",
+        "summary": "[속보] 금융 노사, 은행 점포 영업시간 30분 단축 합의 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZOHZBYzJJOTdkUFFIakdmUXQwbW9jSmJmOGcwdWhoREstNlFXQmZRbzY0QzlVTVBNTExaOXJYRTVZVFJqVHFvZWVGZU93aEJtTHp1OWk1VWVxbjBzdDNFUEM1Z2hsM0k?oc=5",
+        "published": "2026-09-28T18:17:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1
+        "rank": 12
+      },
+      {
+        "id": "748ee661a0a8",
+        "title": "은행 점포 통폐합 재개…대체 채널은 '글쎄'",
+        "source": "뉴스토마토",
+        "summary": "은행 점포 통폐합 재개…대체 채널은 '글쎄' 뉴스토마토",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0amRia0J5V0NsUGlBVksweGNuR0Yza25xRjc0VWo2NlM4N1VQenNIc0xoSDE3ZktkZmhTdXhEUURNbTQxalp3eWU3ckJ6WVhTcF9qRTFMYlA2c21nUjBsaQ?oc=5",
+        "published": "2026-09-28T14:27:20+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 14
       }
     ],
     "policy_news": [],
     "shinhan_news": [
       {
-        "id": "786656138292",
+        "id": "172eebf0374f",
+        "title": "신한은행 2만5000명 고객정보 유출…AI봇 웹공격 가능성",
+        "source": "전자신문",
+        "summary": "신한은행 2만5000명 고객정보 유출…AI봇 웹공격 가능성 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81LU5YcXUyMXNiSnBCMjRSX2lLamlaWGEtOGp0Nk5QTVdsOE1LcUU3Qks1VURCVnNvVWMxZVc0UFJGWnRaanBBSG8wbkVkUQ?oc=5",
+        "published": "2026-10-01T14:43:45+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "b15fc0ec8682",
+        "title": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영",
+        "source": "내외뉴스통신",
+        "summary": "신한은행, 폭염 속 전국 영업점 무더위 쉼터 운영 내외뉴스통신",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KWDdMcEk1MVRIVWhodXRGcGptazk4UThQZzhPUUlYZnlHQWZUcVpZN2REbTRSYmIxVVkwRDlKbWxmVnBtNkVqYmlkZHFvT09JcnJMeVJzek5LQzRZQ3JEUkdLbngzeXdjVHcyT3ZGQXXSAXBBVV95cUxOSlg3THBJNTFUSFVoaHV0RnBqbWs5OFE4UGc4T1FJWGZ5R0FmVHFaWTdkRG00UmJiMVVZMEQ5Sm1sZlZwbTZFamJpZGRxb09PSXJyTHlSc3pOS0M0WUNyRFJHS254M3l3Y1R3Mk92RkF1?oc=5",
+        "published": "2026-09-30T16:40:29+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "8b5ea4675f61",
         "title": "신한은행 ‘톡번호표’ 전 영업점 확대…18일간 2만명 이용",
         "source": "시민일보",
         "summary": "신한은행 ‘톡번호표’ 전 영업점 확대…18일간 2만명 이용 시민일보",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04UHozc1h0Yk1KN0kwalA5OVVtZGZybXpONDBnU25IaVIwMHJ5aGNjdHhHREhXRDgybDJ4bUJfWmxONXRCX2U2VzF2eWJwamZJcUFXaUtLbUFiOFZEUEtJUEhaTWpQYktOLWprNHhaMNIBb0FVX3lxTE04UHozc1h0Yk1KN0kwalA5OVVtZGZybXpONDBnU25IaVIwMHJ5aGNjdHhHREhXRDgybDJ4bUJfWmxONXRCX2U2VzF2eWJwamZJcUFXaUtLbUFiOFZEUEtJUEhaTWpQYktOLWprNHhaMA?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CUTdYRWdFZ3ZRRzNKazVHRjFlcVpPYmhGM0lwQWR1NTlDVzBIVzVlNFpHTWVUdEd4ZWhpZmsxQ1hHcG5WOFh6aVg2dVdtak5sWWFWREdocU9pOWI3czF1MkpNdW43NlF1ZE5uN2lGWjBuUdIBb0FVX3lxTE04UHozc1h0Yk1KN0kwalA5OVVtZGZybXpONDBnU25IaVIwMHJ5aGNjdHhHREhXRDgybDJ4bUJfWmxONXRCX2U2VzF2eWJwamZJcUFXaUtLbUFiOFZEUEtJUEhaTWpQYktOLWprNHhaMA?oc=5",
         "published": "2026-09-30T08:39:18+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
         "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "458503daa920",
-        "title": "신한은행, 영업점·퇴직연금 디지털 편의 확대…지역상생·생태보전도 강화",
-        "source": "웹이코노미",
-        "summary": "신한은행, 영업점·퇴직연금 디지털 편의 확대…지역상생·생태보전도 강화 웹이코노미",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oeEJ2Vmo2VkNoREh4bG1wUkNtaS10V0dDSE9yXzdRVXlTWDJjRFVMdk9ibDJWVVhHeHRJa2RGN3F2ZTk2TXNwekx4MzcxVHNpYU1HMkY0OTlrcW1MQnFlRHJJblZ4Q1Vib2N3WHpEZGdmQQ?oc=5",
-        "published": "2026-09-24T15:10:00+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
