@@ -1,88 +1,142 @@
 {
-  "updated_at": "2026-10-02T10:06:10.228926+09:00",
+  "updated_at": "2026-10-03T09:43:28.722893+09:00",
   "social_finance": [
     {
-      "id": "4b538599ca7d",
-      "title": "금감원·금융권, 고령층 금융교육 확대…전국서 총 687건 진행",
-      "source": "서울경제TV",
-      "summary": "금감원·금융권, 고령층 금융교육 확대…전국서 총 687건 진행&nbsp;&nbsp;서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtUVJDQlhKWUdiMVlCTkwtT2NaSU14eGhEcGlMZjFJbnR4VFdXbjBud3Fib3k2SUFYNVVaOC1Td0FxLVdlQzVGTmtpLWRDcHBleEpJVFUtZTZQSTZzeS1TQUticTI?oc=5",
-      "published": "2026-10-02T09:17:21+09:00",
-      "query": "고령자 금융"
+      "id": "8070b646216f",
+      "title": "은행장들, '사람 살리는 금융' 실천 앞장…'불법사금융 막고 취약계층 돕고'",
+      "source": "데일리한국",
+      "summary": "은행장들, '사람 살리는 금융' 실천 앞장…'불법사금융 막고 취약계층 돕고'&nbsp;&nbsp;데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SNDFZcGxYYXdhbTlsWnFCcUk0eHBDUV8wa2VGSTJLS2FDeVJxajdyUGFNU3hlUHM5alZkdGRzV1EzWlJjV3pEUWFxcGNiLS1nUVNGcDhjUFlYWWdOeTZIbEJERnUtUF82OGc4bFJtWdIBc0FVX3lxTE1WWXBvZXlzaE9vQW1iY3daQkRHa0ZZY0xHZ0lEcTNENVBKLTZiaUw4YXNkbnFJYmc5THo5V00zREI2M3ZMcnZScFgwVC1NZ2hNWkh2UGNJM3B4S1pSdVFkVW9VQk5CYkt3TWkxMDlCYy1hT0k?oc=5",
+      "published": "2026-10-03T09:00:00+09:00",
+      "query": "취약계층 금융"
     },
     {
-      "id": "43bbc15d8eab",
-      "title": "농촌형 로컬푸드에서 도시형 공공조달·지역재투자까지: 한국형 CWB의 진화",
-      "source": "라이프인",
-      "summary": "농촌형 로컬푸드에서 도시형 공공조달·지역재투자까지: 한국형 CWB의 진화&nbsp;&nbsp;라이프인",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzVnhOUnJ2YmVNdDdPUXRoQW1YcU4xaWRfaERsd0xUME5SLVBQNnB1cVEzdVFGUnJ0T0F3Vi1Cem53ZUtmenpNYlhiejFyeGNuSHk4NnJKRTlNRlNmM0NCWGl6VHEtdU5O?oc=5",
-      "published": "2026-10-02T09:00:00+09:00",
-      "query": "지역재투자"
+      "id": "c96eef9c69f4",
+      "title": "서울시의 포용금융, 손실 앞에서는 각자도생 [HERI 초점]",
+      "source": "한겨레",
+      "summary": "서울시의 포용금융, 손실 앞에서는 각자도생 [HERI 초점]&nbsp;&nbsp;한겨레",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ScXZnVHpKQkgyWjBCRTdSNVczX1puVDFvcUw4S2llLUJuM295Z0puMkw1MXpiUFlUbEwzOHZQWmd6VUpBYlo2cWdSdFBoUUtxOEhsRTZyZ0NtYTAyTGl0MmdZdFFxVGE4QzJSQ3NDOFM5QQ?oc=5",
+      "published": "2026-10-03T02:40:00+09:00",
+      "query": "포용금융"
     },
     {
-      "id": "228d115600ec",
-      "title": "금감원·금융권 \"노인의 날 맞아 고령층 집중 금융교육 제공\"",
-      "source": "연합뉴스",
-      "summary": "금감원·금융권 \"노인의 날 맞아 고령층 집중 금융교육 제공\"&nbsp;&nbsp;연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tT2NDX0pEZWpqMjNGb0piNUMtUTVUaS0tV1ZYci1GOHBycnlzdTU3OWhacTltTFpSODlHUldDc29yMEx1VW54bG5mTzhvX25TdWhmTHlnVHRKaV9xVElhWdIBYEFVX3lxTE8tT2NDX0pEZWpqMjNGb0piNUMtUTVUaS0tV1ZYci1GOHBycnlzdTU3OWhacTltTFpSODlHUldDc29yMEx1VW54bG5mTzhvX25TdWhmTHlnVHRKaV9xVElhWQ?oc=5",
-      "published": "2026-10-02T06:00:03+09:00",
-      "query": "고령자 금융"
+      "id": "2b5208df5a95",
+      "title": "소상공인연합회, 권대영 재정경제부 제1차관 임명 환영...“현장 중심 정책 이어가길”",
+      "source": "뉴뉴스",
+      "summary": "소상공인연합회, 권대영 재정경제부 제1차관 임명 환영...“현장 중심 정책 이어가길”&nbsp;&nbsp;뉴뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83YzQ5U256QTdLandGeWVCaG92ZHJ0VU55U0RrNjFGemtxUW5Md0Yta0g3NXlsMG50RjRYZjZfUUpHNk5iXzdFVThEWlJMWG1uenY5ZFZheG5OSG9md193b3ZBdEMzdw?oc=5",
+      "published": "2026-10-03T02:07:21+09:00",
+      "query": "소상공인 금융지원"
     },
     {
-      "id": "b22b4fad8829",
-      "title": "\"모바일뱅킹 어렵지 않아요\"…고령층 금융교육 전국 687회 - 머니투데이",
-      "source": "머니투데이",
-      "summary": "\"모바일뱅킹 어렵지 않아요\"…고령층 금융교육 전국 687회 - 머니투데이&nbsp;&nbsp;머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fc1U5aU9sSXp5aG54b0RaT3VmOUlTSnN3NnlHQjdlN1JyOGZURnAyTXprZzdHZnFCMmZuT1J5eTl3ZUl5SUpyRTNSMERmUHhmbWZQRUQycEtaS3NCTDBpNkR5Z0dPUjhjenUw0gFwQVVfeXFMTnhyVVlEQTJpNy05c25VSVBrakxiaE1xTmNzX1NRbFNtWTZ5elZlMXgzZHpqeGo5RzhpVGRTcGwyblRHcHlGOVVNYThlRU1iWEpQZFphcW93SUJJeGRHcGhRZ19zWWw4SVJiYm1MN3RFcw?oc=5",
-      "published": "2026-10-02T06:00:00+09:00",
-      "query": "고령자 금융"
+      "id": "8de792657f97",
+      "title": "새도약기금, 취약계층 장기 연체채권 4차 소각…18.3만 명 대상",
+      "source": "정책브리핑",
+      "summary": "새도약기금, 취약계층 장기 연체채권 4차 소각…18.3만 명 대상&nbsp;&nbsp;정책브리핑",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55R0NmWGxfSldZMVZrLVpEVW5zbUE2b3NYaVdBVGc2U05hN3FvWHMyc2h6RGxQdnROSnYwamxVUUpPakVZUjQwYXozYnVSSDFGcGNFRmVDTnVoVzFURmtremF5ZDFEMkFJWlM1Mg?oc=5",
+      "published": "2026-10-02T22:23:04+09:00",
+      "query": "취약계층 금융"
     },
     {
-      "id": "ee3735dd4566",
-      "title": "금감원, '고령층 디지털금융 집중교육기간' 운영",
-      "source": "metroseoul.co.kr",
-      "summary": "금감원, '고령층 디지털금융 집중교육기간' 운영&nbsp;&nbsp;metroseoul.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LRFlJN2t2eUMwTjctV2t5ZWZHSS1BOElKZmVYYTZGWEgxQUx2NUxNeFN5MVBZRWhxVmIxUVdPeE5zZXNOM0ZDNDlvUHhJN1J5UWRfSllXRHJjSnJ0dm1aWg?oc=5",
-      "published": "2026-10-02T05:30:30+09:00",
-      "query": "고령자 금융"
-    },
-    {
-      "id": "d4cbf30ea917",
-      "title": "강준현 의원, 불법사금융 근절·서민금융 활성화 방안 모색",
-      "source": "충청뉴스",
-      "summary": "강준현 의원, 불법사금융 근절·서민금융 활성화 방안 모색&nbsp;&nbsp;충청뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TYmk0VVNWdy03Zmd0ZUw5NlBLU1hNMlJKakJDcTN6Vmt2LVlwb1pQZkc0R0ozQmNmbHgwLThWaXZtaTdQTUV4NVhITTdWQnVNT0RQajQxSGxGeHlFaGZzbnQySzNNMjdtNFVybQ?oc=5",
-      "published": "2026-10-02T00:53:39+09:00",
+      "id": "0d7c0b5ad60b",
+      "title": "서민금융진흥원, 춘천서 불법사금융 예방 캠페인",
+      "source": "강원일보",
+      "summary": "서민금융진흥원, 춘천서 불법사금융 예방 캠페인&nbsp;&nbsp;강원일보",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEM285SFI0MGY5QzlVTHUxT05laDl4WGtzbGZyVmdxbUNGZ0FZX2lMZDVteFAyR1ppTFFEUUNBcFVvRnpwdmV2dkVlVWR5ZWFxUnQ0U3RpSW51Y0E?oc=5",
+      "published": "2026-10-02T19:49:51+09:00",
       "query": "서민금융"
     },
     {
-      "id": "8b7bd8ba103e",
-      "title": "“돈만 불리는 비대면 은행?… 대면으로 금융사기 막아드려요”",
-      "source": "국민일보",
-      "summary": "“돈만 불리는 비대면 은행?… 대면으로 금융사기 막아드려요”&nbsp;&nbsp;국민일보",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUTXdnSi1BdFpIeHhBYUpUVGpKcGtoSy0tbEFCSHBqcmV6cWpPRkhXYmRweERqUTM3N25IY0tsR0poV1pkSjhCTWpWdFc2dnpybWhZMS15cG5GQXlLemtVTGQ1dVd4ZUF1SEJuMdIBbEFVX3lxTFBUTXdnSi1BdFpIeHhBYUpUVGpKcGtoSy0tbEFCSHBqcmV6cWpPRkhXYmRweERqUTM3N25IY0tsR0poV1pkSjhCTWpWdFc2dnpybWhZMS15cG5GQXlLemtVTGQ1dVd4ZUF1SEJuMQ?oc=5",
-      "published": "2026-10-02T00:09:00+09:00",
-      "query": "은행 사회공헌"
+      "id": "b59fb4e277e4",
+      "title": "해상풍력 주민수익, REC 배분서 지역 재투자로 넓힌다",
+      "source": "비건뉴스",
+      "summary": "해상풍력 주민수익, REC 배분서 지역 재투자로 넓힌다&nbsp;&nbsp;비건뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CV0NvWGNEY1I5SVVLZUJ1bkNNWkhpZ1ZNeW03d0JZaXliZkMzOFpTQUJPMG1pU01rUXR3ajJybGprYWxxMWpkQlBCN24wVnFPZ2t1aktBV2RvalFnOWF0dmxSTEQ4UQ?oc=5",
+      "published": "2026-10-02T18:10:37+09:00",
+      "query": "지역재투자"
     },
     {
-      "id": "92c15b1e8204",
-      "title": "“농가와 기업이 함께 성장하는 상생금융”",
-      "source": "한국영농신문",
-      "summary": "“농가와 기업이 함께 성장하는 상생금융”&nbsp;&nbsp;한국영농신문",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBZQ2RQOEtpWFBNX3E3RDJ5VXFDMGFaMmZsbkxaU0FOSWNOUW83TUxnODBKbXp0bEVDU015TVZkSF84NlJRcUw0RW5pcTJmWmYtM0ZuZWtFdG1pYVk2QVZkVHlMZlh2UkxBaWtMYUxR?oc=5",
-      "published": "2026-10-01T23:52:29+09:00",
-      "query": "상생금융"
+      "id": "7c9096d2f76e",
+      "title": "[이로운주목]KB금융, 고령층 '생활안전망' 넓힌다...운전·금융·의료·돌봄까지",
+      "source": "이로운넷",
+      "summary": "[이로운주목]KB금융, 고령층 '생활안전망' 넓힌다...운전·금융·의료·돌봄까지&nbsp;&nbsp;이로운넷",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wZFh0N25aV1JKYURSeWdKSkZqcWNzbFBCRHhFT1FiNTlXTnctYkNPem9POHFQNkpHdHQxeHhVSUpENFBXQUQwdVBMMVdQV1lOdzROem1GMW9GcnoycWtzVndsWGJXZw?oc=5",
+      "published": "2026-10-02T17:30:07+09:00",
+      "query": "고령자 금융"
+    },
+    {
+      "id": "0892fc32ceda",
+      "title": "KB금융 “고령층 생활밀착형 사회공헌 확대할 것”…‘노인의 날’ 선포",
+      "source": "동아일보",
+      "summary": "KB금융 “고령층 생활밀착형 사회공헌 확대할 것”…‘노인의 날’ 선포&nbsp;&nbsp;동아일보",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTd25UWXlCQ2ZSRUlRLS1XRy01VFlEV09pazVFQnU5TEtTYXFDaVcwTENtX1BKMEZ5cVlqTGpSb2pOVlVyNWhjSFNlODExWmh5MzVySE4ybVB3SUpGdDg5cmFqWlg2ODRxYjRYUUo3eWM2dUpQcnfSAWZBVV95cUxPNzRHTjlEYnlfTl9KZXdlcU13LXE5NXBBeFJ1bmJfR2JFRkM2cjFiUVRtS0UxTjlGN0dYOGJmQlZTOXE0eGEtVnRjWEJIWnpCQW5BNC13UE02ZDQ0TlRYN1BIVEJETnc?oc=5",
+      "published": "2026-10-02T17:27:15+09:00",
+      "query": "고령자 금융"
     }
   ],
   "tech": [
     {
-      "id": "d16e09661a36",
-      "title": "중앙 은행 암호 화폐 결과 상세 창의 정보 항목",
-      "source": "Calgary Roughnecks",
-      "summary": "중앙 은행 암호 화폐 결과 상세 창의 정보 항목&nbsp;&nbsp;Calgary Roughnecks",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc0dlNFhUT0JPNVJ0TmxkU1V6c1lMVHpKQ3dwSmFGSVZJR1pOUzVSRmdWS2s2eU51TGl6MTdfajNsUlYyVnFRLXhzX3RocU5mZDlRSEFsRHlHMTJ1ejNibl9VRUJsYXAtVWpJRXdPWnBHOWJ3XzlvM0V3Q3RzVUNULURyc2NFemVLVXZ6dlVnTTZwbHVGcFdySFZzaVVuQ0NQcUpTOWxrb3ZvREpfNlF1cmJpTnNDeEZ0czh4RUtxemtzeWg2US1EWmhTcw?oc=5",
-      "published": "2026-10-02T03:03:45+09:00",
-      "query": "CBDC 은행"
+      "id": "3582e33b1184",
+      "title": "은행 줄줄이 뚫렸다…전방위 AI해킹 피해, 금융 보안 비상",
+      "source": "munhwa.com",
+      "summary": "은행 줄줄이 뚫렸다…전방위 AI해킹 피해, 금융 보안 비상&nbsp;&nbsp;munhwa.com",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1YSlZQNFdjSm5VaFpEQUxuUzhpSExXbkdyVVh2Y3hoN1VCa3g4SzlYR3RIVDE5alhvMGRTX24tYW00S3N0M2t2UkdEZENZY09t?oc=5",
+      "published": "2026-10-03T07:43:06+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "eb8fd2b5e587",
+      "title": "[AI돋보기] \"은행도 뚫렸다\"…AI 해킹 시대 내 계정 지키는 법",
+      "source": "연합뉴스",
+      "summary": "[AI돋보기] \"은행도 뚫렸다\"…AI 해킹 시대 내 계정 지키는 법&nbsp;&nbsp;연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IWk96YnRUWUptNHNia0M5MkhvUnVMbHNUaG92R2MtelFPM2NZOTl0RUpKaXpyZFU0MUdibFRpRXNzTmZWdFc3VnYxSlFCa1FsUHR6Y3BoN1ZaeWPSAWBBVV95cUxNNUU5MXZ4RmMzeGdId2RfYjRjc0VHWmd1OXVxc00wNlFXTzJGODhjNlAzYXhlMkxPTVhjQ3JoaDI4cERiZnpTaUMwaF9kcm9WSXFVbzZoU05XV2JFMmZXdWs?oc=5",
+      "published": "2026-10-03T06:33:00+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "7ba5e5c9a346",
+      "title": "스테이블코인 기업 Fasset, 인간과 AI 에이전트를 위한 은행 목표",
+      "source": "Investing.com 한국어",
+      "summary": "스테이블코인 기업 Fasset, 인간과 AI 에이전트를 위한 은행 목표&nbsp;&nbsp;Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45WnQybU5qTFJ2SFFVWWdmQmw1Q0ItSDg5UnRxXzJNbFRfV3ladlpsS2NtRkFibTVnRHgzdDVOOURmNVpfWGF0bHdlMzZXZE9SZ19CMUlWVU9mSS0yRTQtZnJ2ak9rc2JZSWFIeVlaQ0xwUEE?oc=5",
+      "published": "2026-10-02T23:28:00+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "c243b24fdb95",
+      "title": "5대 은행 다 공격당했다... 동시다발 ‘AI 해킹’ 공포",
+      "source": "조선일보",
+      "summary": "5대 은행 다 공격당했다... 동시다발 ‘AI 해킹’ 공포&nbsp;&nbsp;조선일보경찰, 시중은행 'AI 해킹사건' 내사 착수&nbsp;&nbsp;YTN[단독]보안수준 높은 은행들 동시다발 해킹… “AI에이전트 활용 정황”&nbsp;&nbsp;동아일보하나은행, ‘AI 에이전트 활용’ 추정 해킹 공격으로 89명 개인정보 유출&nbsp;&nbsp;한겨레신한은행 고객정보 해킹에 ‘중국 AI’ 흔적 발견&nbsp;&nbsp;경기일",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdVU4ZGNHeWtYSkNhaWlXREJucUhOb1BzS1BzeUZJY3VmRl9vT2tOSGhsNGFNb3RzTzFoVi1JSkh1TXJkb2hfM1phNTBZOU1HcGxpRjJsLWVHMEY0RVg1ejRmNFFaWTk3Y3M3TkllQnl1NEh4ZHVsZ1BXbENvbFdyNGszUE1FXzZtSExF?oc=5",
+      "published": "2026-10-02T18:26:00+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "ecbcbaac9ac0",
+      "title": "신한 이어 국민은행도…‘AI 강도’에 탈탈",
+      "source": "DFT 대한금융신문",
+      "summary": "신한 이어 국민은행도…‘AI 강도’에 탈탈&nbsp;&nbsp;DFT 대한금융신문",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VT1JjNnJMQVNhQkxTeGIxY0M1UTFsNHQyS0FDcW9zLUJWdWx6NTZTQm1xcElLNEZ2bmNuZkltX0d0OFA2REQwR3MxR0dKeXhxT1RmV3BZTnVIWmtqREFMNjlCYVRjcUJuUEhKcGpOM3LSAXBBVV95cUxNVU9SYzZyTEFTYUJMU3hiMWNDNVExbDR0MktBQ3Fvcy1CVnVsejU2U0JtcXBJSzRGdm5jbmZJbV9HdDhQNkREMEdzMUdHSnl4cU9UZldwWU51SFprakRBTDY5QmFUY3FCblBISnBqTjNy?oc=5",
+      "published": "2026-10-02T16:28:10+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "5a6aa22ad3d5",
+      "title": "SBI저축은행, '코리아블록체인위크 2026' 사이드 이벤트 참가",
+      "source": "ebn.co.kr",
+      "summary": "SBI저축은행, '코리아블록체인위크 2026' 사이드 이벤트 참가&nbsp;&nbsp;ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Yd1doN1VFMnQwVkpGNlV6aENJdFdRd1RsX1hUSnhFYjlmTHloSEl1UGpwUndScFZMZElEbGpOS1VfSnczT2NLXzdxRUlXVFFtOFZ0SVZkTmpjYmVKYVBvYnB4SDZOS0Rv?oc=5",
+      "published": "2026-10-02T14:51:15+09:00",
+      "query": "블록체인 은행"
+    },
+    {
+      "id": "103733a0cd20",
+      "title": "'교보 오너 3세' 신중현, SBI저축은행 '블록체인 은행' 만든다",
+      "source": "톱데일리",
+      "summary": "'교보 오너 3세' 신중현, SBI저축은행 '블록체인 은행' 만든다&nbsp;&nbsp;톱데일리",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xallhd3RicE1uaVRZNTZ3Z2dJZ0xRaVRFYTJ0WEFickdVVEw0Q09kQ0FxcDlkN1pHbTZGU0lZODZLdjRibmFzZ3NNb3VPRkk?oc=5",
+      "published": "2026-10-02T11:52:00+09:00",
+      "query": "블록체인 은행"
     },
     {
       "id": "1e6aac70c2b6",
@@ -92,60 +146,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBURGI4NUJRcEN1X2NFQjgzamtKVlBRY3dTMHZtTktSaTNURkk2Q2RINVFubmNubVF0S0pnYWZTcFZKQTY1bGFDcGI2M3lzaVNQT1NxdHh5RlFYeXF5VzBWNDlyQzhyQTM4TG4yT3NhTDI?oc=5",
       "published": "2026-10-01T23:11:00+09:00",
       "query": "블록체인 은행"
-    },
-    {
-      "id": "57cb91099678",
-      "title": "'AI 에이전트'에 당했다…신한은행 보안 허점 노출(종합2보)",
-      "source": "연합뉴스",
-      "summary": "'AI 에이전트'에 당했다…신한은행 보안 허점 노출(종합2보)&nbsp;&nbsp;연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zdkFyWFY4Umxaa0ZiU0tSSmZNbm9Qdzg4OEJyeVI5QUt2bW5fN3VKREVnMHBBM0I2R3lYczJVS3NTUmFKU1hZZ3p1VHlWNW9kdWdWeFQ1eHV5eUHSAWBBVV95cUxQRnZoejk2RHYwVVBjRWh1RzB3eXhZcWlFM3B5bmJiV0ttUXRtenFHb2JPZklROGwyYkt0anNhMEhpdk85MXNROU1JYUNTdkFSQndFN3FBMHJpd1dNaFJSMzk?oc=5",
-      "published": "2026-10-01T20:00:09+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "e0ab26d9e638",
-      "title": "a16z \"스테이블코인, 은행보다 핀테크 중심이 경쟁력\"",
-      "source": "v.daum.net",
-      "summary": "a16z \"스테이블코인, 은행보다 핀테크 중심이 경쟁력\"&nbsp;&nbsp;v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vODJSZG5ieFotSEhGTFBadzBYa0pCV1J2UjFBLWtKOGNzcFJETzNHQWV5eVRFdzRDNDRsZlNFZ3QyTDBaQVVvQXFXRGlqdDQ?oc=5",
-      "published": "2026-10-01T18:23:02+09:00",
-      "query": "스테이블코인 은행"
-    },
-    {
-      "id": "13617c25054c",
-      "title": "韓·EU, 기존 은행망 그대로 블록체인 연결…‘판게아’ 추진",
-      "source": "zdnet.co.kr",
-      "summary": "韓·EU, 기존 은행망 그대로 블록체인 연결…‘판게아’ 추진&nbsp;&nbsp;zdnet.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qYi1pSHcycEhHWDEySnA2ODMtZFg5Z0hDNFUyRXUyTG5EaXJ4VUpiSUh5UnJkV0JDb2pJS1BZSFFWMTQyVVdMaHVzbkpPVGxNVWhjelp3?oc=5",
-      "published": "2026-10-01T16:19:50+09:00",
-      "query": "블록체인 은행"
-    },
-    {
-      "id": "70c3473f3aff",
-      "title": "KBW 2026, 국내 블록체인 인프라 1등 LG CNS \"디지털 금융의 미래를 제시한다\"",
-      "source": "TV서울",
-      "summary": "KBW 2026, 국내 블록체인 인프라 1등 LG CNS \"디지털 금융의 미래를 제시한다\"&nbsp;&nbsp;TV서울",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OWldoYWF0Q2o2c2U3Y19pNm5peC13ek5TWk92RlprUXlHb0g1SGlFTmZ3V2hicGtva0JYME9Ickt6SHBkdzJlckV2THpPZTd5U1FETVJGY1A?oc=5",
-      "published": "2026-10-01T15:50:58+09:00",
-      "query": "블록체인 은행"
-    },
-    {
-      "id": "00c02ba6d62e",
-      "title": "하나카드·하나은행·테더, 스테이블코인 금융서비스 연계한다",
-      "source": "전자신문",
-      "summary": "하나카드·하나은행·테더, 스테이블코인 금융서비스 연계한다&nbsp;&nbsp;전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83c0xQWk13c0JWZ2MwaVR2Z1lsZHZfbnY2NTREYTN2c0VTYXBYZ2hneDByUWpLX1d4RUJRb0w2akNzN3E5elk5SXYzQmNMUQ?oc=5",
-      "published": "2026-10-01T15:33:43+09:00",
-      "query": "스테이블코인 은행"
-    },
-    {
-      "id": "8b89fccb6380",
-      "title": "농협은행, AI·대안정보 활용 신용평가 고도화 ‘속도’",
-      "source": "헤럴드경제",
-      "summary": "농협은행, AI·대안정보 활용 신용평가 고도화 ‘속도’&nbsp;&nbsp;헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EaTV5OGczNzRaYkFYc0t6V2V0Q2Q4Yy1qS1dBOFFyYnl6b1VUckN0ek5pQm1WZkpCZThrVFFCcTZ1MVh0ejlGbTVGRE5wSWh1d3FZUmtR?oc=5",
-      "published": "2026-10-01T14:45:09+09:00",
-      "query": "은행 AI"
     }
   ]
 }
