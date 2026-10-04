@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-03T09:42:43.334864+09:00",
+  "updated_at": "2026-10-04T09:02:09.590671+09:00",
   "items": [
     {
-      "id": "1d3f4c9a0da4",
-      "title": "인천시의회, 노후계획도시 재생 해법 모색…왕십리역 복합개발 현장 방문",
-      "source": "뉴스타운",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzV0FCVEphSVl5QWU3eEd5Ny0zSmpkWTFDY2ZEeGNWVzJwcHZfanJqRmwxb3JRcUNqU0t1cVcyV2xRZ1Vvam1KbGdEZjhOenh5c3lqZnR0UFM4OXh3dkZGZEdpNW5UYktCVUx3NXNB?oc=5",
-      "published": "2026-10-03T01:23:58+09:00",
+      "id": "f8e48b29c8f9",
+      "title": "삼성, 용인 반도체 국가산단 이달 착공…지역주민에 청사진 공개",
+      "source": "마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84Tms1dWtkUTloUll0YTJ4TzJZd1Fpc2Y4N0RMSEVZQmFRWDBIZkhjZVpqVFZ2T3ROSTVEa0dPbHZ4dTNZN2ZUeU41UUFFZHJnZmp6Z2FoakREMHkzZTJDYnUtblM4dWg2N2JtQlR0TmlYZTQ?oc=5",
+      "published": "2026-10-04T06:00:03+09:00",
+      "date": "2026-10-04",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "9f578726e2e4",
+      "title": "LH, 의왕 오전·왕곡 지구계획 수립 착수…\"2029년 첫 삽\"",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tWUo3QW1mTjNCMEVQTGt3Z1l1WUlrbU9rNlpqZG1VWnF0c0dpZHpxYy1BbEZrRExWeTUxU2hrdFc0aWpGdWJ5OEw2YS1CN19VTDl3Z3dpYVhMS3BvN2ZlcdIBeEFVX3lxTE1UVlUxMVNDTDN1aC0tUUVrY185NnR5MUttMjJWQWx2dThCSjJEbzFQS1VfTzV1TGN2OHZlMnVHRHRCSHRJeHd6ZXg2N3g5NmhOSG11TTdjWjVJLXRSbWp1cFdsMVkxcVFyM1pLazlYRk5MOTNWVVhDSg?oc=5",
+      "published": "2026-10-03T13:13:47+09:00",
+      "date": "2026-10-03",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "fb3cb69a251b",
+      "title": "‘구례읍 도시재생활성화계획 변경’ 주민공청회",
+      "source": "스카이데일리",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNSzNwbnZRc3EwSU9tUkZCRkNRdno4UDRBRTFvbV9sTXRGVnJMU2pXZnFVbXppSDB2a1VLaG5fbTVDZnFDRGwxbFFiYUxSN0V2RXpWRXJ5YmZQaEl6WkF0RHgwY3RtZFZJcTRnOFYyMFpwWkIxVDlybkVHM2JVUzA?oc=5",
+      "published": "2026-10-03T07:46:04+09:00",
       "date": "2026-10-03",
       "query": "도시재생 활성화계획"
     },
@@ -38,15 +56,6 @@
       "query": "신도시 착공"
     },
     {
-      "id": "fddbb875f620",
-      "title": "LH, '29년 주택 착공 목표로 고양대곡지식융합·의왕오전왕곡 지구 조성 속도 낸다",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiVC1BV0V5a2RYOERFb2UxLXM2RDROUHQ5UHRwdDNMa0ZrOWZQeExSYU9OV0ExeGxfSHAxV1ZjUmZRMXlEZnliVVY3Nl9yTTFLYW1Ubm83akdJT0E?oc=5",
-      "published": "2026-10-02T17:37:13+09:00",
-      "date": "2026-10-02",
-      "query": "LH 지구지정"
-    },
-    {
       "id": "459f50adb043",
       "title": "[도시계획] 공항로 지구단위계획 재정비 - 공동주택 규제 풀고 ‘주거복합개발’ 길 연다",
       "source": "한국도시환경헤럴드",
@@ -54,15 +63,6 @@
       "published": "2026-10-02T17:33:16+09:00",
       "date": "2026-10-02",
       "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "82105debabe5",
-      "title": "LH, 고양대곡·의왕오전왕곡 지구계획 수립 착수…2029년 착공 목표",
-      "source": "경기일보",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kS1p3OFgwTU9tMmFwLURkUkExZWIySEM5R2tCcW5iQ1ozUEFOcVVuVk9aWXg1a3VuVE1mSnlMY0FKeDVRdUFQZjRrUVNaeE0yTHRuSkNtQkxtZ2M?oc=5",
-      "published": "2026-10-02T14:13:53+09:00",
-      "date": "2026-10-02",
-      "query": "LH 지구지정"
     },
     {
       "id": "62bba9f58865",
@@ -101,6 +101,15 @@
       "query": "LH 지구지정"
     },
     {
+      "id": "a5fbf00de732",
+      "title": "LH, 호남 반도체 국가산단 속도… 후보지 발표 3개월 만에 설계 착수",
+      "source": "천지일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwdmRuUUxvZWg3bnFFS3pRRy1fVHFVbnZnd1BOS25QelNBQnJkQ29xbTNRcTlOWUxHekZuWkpYcWFVV3hfWnFiT3FxeUUwcTBTdXRGTTI2RnpKalpia3dpeTctcWJmdms0aUE?oc=5",
+      "published": "2026-10-02T08:40:05+09:00",
+      "date": "2026-10-02",
+      "query": "반도체 국가산단"
+    },
+    {
       "id": "fbc96ec9b966",
       "title": "중부권 최대 규모 신도시 개발사업 ‘아산탕정2 도시개발사업’ 조성 공사 착공",
       "source": "광역행정신문",
@@ -112,20 +121,11 @@
     {
       "id": "fc723996fa39",
       "title": "[다시, 울산을 짓다] 울산 북구 도시재생사업 살펴보기(2): 염포·양정 도시재생사업(1)",
-      "source": "울산저널i",
+      "source": "usjournal.kr",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBZRDVkRVFBSU4tZXBVOENwRmxRTFIwLU51OW44NHRjUE84Q0RWNmJtRWlsU0hmcXJmU3FibGVtYmxMV0FkNllwNmIwNnFsb0RLRFNMbG0yOXQzNEZibWtncGNjWGdMblRjZVJRdVJoRk9hVDg?oc=5",
       "published": "2026-10-02T00:00:37+09:00",
       "date": "2026-10-02",
       "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "f8172601fa34",
-      "title": "반도체 국가산단 공사도 '속도전'",
-      "source": "인천일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aUlItNEI0Nm5JZWJPMzd5R25pbG5xUUphQlZiNzlVb2xrS2t1M3lZSlpBSXpITUR1czJIeHpEOTdFTjNhc3RTLUF1aXB2NzQxdGlwdFY2SnFGNk1aQm42Zzk4bU9vLTc5QlhndlZOZXc?oc=5",
-      "published": "2026-10-01T19:52:00+09:00",
-      "date": "2026-10-01",
-      "query": "반도체 국가산단"
     },
     {
       "id": "0963cacbe2e9",
