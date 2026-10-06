@@ -1,68 +1,59 @@
 {
-  "updated_at": "2026-10-05T09:09:39.080229+09:00",
+  "updated_at": "2026-10-06T10:53:35.426284+09:00",
   "items": [
     {
-      "id": "48ae6bd8182f",
-      "title": "삼성전자, ‘360조 용인 반도체 산단 청사진’ 주민에 소개",
-      "source": "동아일보",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qeDdDVXFHd09wUXVqRkdVa09TREZKTVJBZnhFR2tpdV8xaThPVDRrQWdLVDRrOThFbnVzdDVTVlJHdXZ6cmJPRUtEM3pIVWxOc29BaUQzR1Z1eHpfUExGWTlxRXA0c1VzY2F3VUlNZXE1ZlV3QlHSAWZBVV95cUxOeTFzSGM4TnkwbjQ4LXJxbnlMODkxZnBOUWVWT1RkUldUdGdqclFDSVVFczF2Y3M0bUNNcUxXcS02eXUzajJLVWNzWHZrYndSYkhySXlrSFVNcVlVRWkyMG4wYUpOdGc?oc=5",
-      "published": "2026-10-05T01:40:00+09:00",
+      "id": "913ea4360751",
+      "title": "이 대통령님, '대국민 사기극'은 막아야 하지 않겠습니까 [반도체 특별과외]",
+      "source": "v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xd3pray15aFRoZnZFdzdvUUdlYVB5NHhoYmRsSmdLMUwybGg5ckJhSm9sa29pVFVHUWhFdDk2SzlnX2J4S3FqWUxpamlQNms?oc=5",
+      "published": "2026-10-06T07:33:19+09:00",
+      "date": "2026-10-06",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "f21b3461bd4b",
+      "title": "LH, 수도권 주택공급 속도 높인다…보상인력 250명 채용·2만6607호 사업 추진",
+      "source": "웹이코노미",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE16TV90SVRwSXN1YzBkM0pLRkdvR2U4czlKTnpiamNJWHdSTThrU1NrMTJSRjRqRVk5bzVoOGFfdXIycWpOVVR6YzhoOTBaRXdEVmRoaVdnN2VpUnppd3NGOG1VaEJkWWdBN3lFRmp4ZWNxUQ?oc=5",
+      "published": "2026-10-06T00:23:05+09:00",
+      "date": "2026-10-06",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "42351b0a6b68",
+      "title": "삼성전자, 용인 과학축제서 반도체 국가산단 청사진 공개",
+      "source": "디일렉",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QbnVTQVBZaEpTTkxTMVEtS1JXLUw3X1VEd1JmYWlRRDJ2SFl0UE5Xb2N0YzlaU1Q4UU5fVWFnT3VuQzJUdGZiUFFCeVYyOEpLaGpRZ0hUZXU1Y1ZuQ0NGX0wtRWozZw?oc=5",
+      "published": "2026-10-05T21:35:00+09:00",
       "date": "2026-10-05",
       "query": "반도체 국가산단"
     },
     {
-      "id": "15b7fef6fb45",
-      "title": "LH, 고양대곡지식융합-의왕오전왕곡 지구 2029년 주택 착공 목표",
-      "source": "BBS불교방송",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0UTFOZ3k0SUNVTGFiVWxFS291bS1xR05IaVNQX0kzMWxVWkRNSGlpVXRBc0g1M0J5d3ZzMDNvaG01OXI0UEFJZlNBakQ3TkcyOWlMemFxclFPOGpiYXY4b1JjZkxaek4yTjdF?oc=5",
-      "published": "2026-10-04T11:16:38+09:00",
-      "date": "2026-10-04",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "bb7571d5adf8",
-      "title": "삼성전자, '360조 용인 반도체 산단 청사진' 지역 사회에 공개…'2029년 가동' 속도",
-      "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCUmc3cUI5Vkd3U0xlSmJMUzdSWHFuNnZ0LVBsVXk5SEVpSV96cHpNREloNzBIV1J3aXhWTml0ekw1OGlfajJlRFo3LWVyY2M?oc=5",
-      "published": "2026-10-04T06:02:12+09:00",
-      "date": "2026-10-04",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "f8e48b29c8f9",
-      "title": "삼성, 용인 반도체 국가산단 이달 착공…지역주민에 청사진 공개",
-      "source": "마켓인",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84Tms1dWtkUTloUll0YTJ4TzJZd1Fpc2Y4N0RMSEVZQmFRWDBIZkhjZVpqVFZ2T3ROSTVEa0dPbHZ4dTNZN2ZUeU41UUFFZHJnZmp6Z2FoakREMHkzZTJDYnUtblM4dWg2N2JtQlR0TmlYZTQ?oc=5",
-      "published": "2026-10-04T06:00:03+09:00",
-      "date": "2026-10-04",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "2991dd7fded1",
-      "title": "삼성전자, '360조 투자' 용인 반도체 산단 \"이렇게 건설됩니다\"",
-      "source": "뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yczlldGMwOWNpYUxxcVBIdzUzQkFIbS1sd2c3WnJVQjZuRDNBOUx0Y1BoeWlJbjdscE9vQ0VFNDZEUkhzdzVDLWVtczBrT2d2QWNrZFhRNGtpUnNQWWs3WlJvSGHSAWpBVV95cUxObmx2UjQwbVM5SWNXSlVIOWRPalpveFd4Y3RCd0hZQW04MzM4ZVowLUFaWS03YXNDWlltSnprWFl4NkVxYm1DSGdhWGNOcDVFVXJ3VjY3UHFPTkVFVW0zdW1Kbzg0Y0RlNzl3?oc=5",
-      "published": "2026-10-04T06:00:00+09:00",
-      "date": "2026-10-04",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "a90619c0c8f5",
-      "title": "삼성, 용인 반도체 산단 청사진 공개",
-      "source": "파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43Z3UwWEg3NEc3d3E0SmxVeGg1T3F0LWk0YzBIVFF4eTd2VEpxaGoyRWxyZ0N2MXRmTS1CYVBwak1LeG1sbHJfWkdnZHh3QmFrNDVSNk8yWGRkdw?oc=5",
-      "published": "2026-10-04T06:00:00+09:00",
-      "date": "2026-10-04",
-      "query": "반도체 국가산단"
+      "id": "fa21a4fb6c8c",
+      "title": "아산탕정2 도시개발사업 9월 착공…2만1035호 신도시 조성 > 뉴스",
+      "source": "천안신문",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5DZTduVG84dHZUOGRpLUZ6dllySGpnTU15bVpMUTRKU0xGTUtDSHl5c2FoMlY2WWhJR2VlcHI5eU5vQTg?oc=5",
+      "published": "2026-10-05T15:28:21+09:00",
+      "date": "2026-10-05",
+      "query": "신도시 착공"
     },
     {
       "id": "168b9c4f2f67",
       "title": "아산 탕정2지구 100만평, 부지공사 다음달 착공",
       "source": "쿠키뉴스",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kYWJOeGk5dVB0UUY3OENLT1RIaGkyWWlseXdUaUhYeUpMUGxGN25VRlF4bWg3dmpsUGtQd3M4RlNXLWRDQW1kQXVwcldNbnZsN2pBUFlkM3VwSm9uMEQ5WEJHNA?oc=5",
-      "published": "2026-10-04T01:15:22+09:00",
-      "date": "2026-10-04",
+      "published": "2026-10-05T03:56:03+09:00",
+      "date": "2026-10-05",
       "query": "신도시 착공"
+    },
+    {
+      "id": "f82adc8bc270",
+      "title": "삼성전자, '360조 투자' 용인 반도체 산단 \"이렇게 건설됩니다\"",
+      "source": "뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ubHZSNDBtUzlJY1dKVUg5ZE9qWm94V3hjdEJ3SFlBbTgzMzhlWjAtQVpZLTdhc0NaWW1KemtYWXg2RXFibUNIZ2FYY05wNUVVcndWNjdQcU9ORUVVbTN1bUpvODRjRGU3OXfSAWpBVV95cUxObmx2UjQwbVM5SWNXSlVIOWRPalpveFd4Y3RCd0hZQW04MzM4ZVowLUFaWS03YXNDWlltSnprWFl4NkVxYm1DSGdhWGNOcDVFVXJ3VjY3UHFPTkVFVW0zdW1Kbzg0Y0RlNzl3?oc=5",
+      "published": "2026-10-04T06:00:00+09:00",
+      "date": "2026-10-04",
+      "query": "반도체 국가산단"
     },
     {
       "id": "fb3cb69a251b",
@@ -74,11 +65,11 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "e24bff2826e6",
+      "id": "2a703f409493",
       "title": "LH, 고양대곡·의왕오전왕곡 공공주택지구 조성 속도",
       "source": "전기신문",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wME5Wa3gySXhWMVZNdG92RVBmc3dndnlZamVJMzlzTkp0X3NrMWtvbXVzMnAxbzdqZnhTdWJBdm5WdzZQSTR4ODRkQVlpRjFIU25ITDdyQ2hGUEJYOHpMRi12WkQwM05VUzhJel91c0LSAXBBVV95cUxNMDBOVmt4Mkl4VjFWTXRvdkVQZnN3Z3Z5WWplSTM5c05KdF9zazFrb211czJwMW83amZ4U3ViQXZuVnc2UEk0eDg0ZEFZaUYxSFNuSEw3ckNoRlBCWDh6TEYtdlpEMDNOVVM4SXpfdXNC?oc=5",
-      "published": "2026-10-02T23:22:34+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10RHpRRGtZSWQ4MEQ1cHprM093VnFKbjEtdWU5Zm82czZOWEtFZURRZGJOTllUVi14T2JreHN2MDd1aTlIejBkUHItVzhQNkFfMnF0cUtBQzBVQ0VqNDU3WjZSNE1odGh6RUVSddIBcEFVX3lxTE0wME5Wa3gySXhWMVZNdG92RVBmc3dndnlZamVJMzlzTkp0X3NrMWtvbXVzMnAxbzdqZnhTdWJBdm5WdzZQSTR4ODRkQVlpRjFIU25ITDdyQ2hGUEJYOHpMRi12WkQwM05VUzhJel91c0I?oc=5",
+      "published": "2026-10-02T23:19:58+09:00",
       "date": "2026-10-02",
       "query": "LH 지구지정"
     },
@@ -92,11 +83,11 @@
       "query": "LH 지구지정"
     },
     {
-      "id": "459f50adb043",
+      "id": "83a7c347a660",
       "title": "[도시계획] 공항로 지구단위계획 재정비 - 공동주택 규제 풀고 ‘주거복합개발’ 길 연다",
       "source": "한국도시환경헤럴드",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSEZYWE1LUU9nS2FpQUhCdmtaZnVkMlFtLThNRWpWaEd0Z1dRSVNRQk9kMmZSNWJMSDhvME1ob0JfOGdUV3JnLWxsRUEwUUdoWUI2OHBkRkRtNmQyVnZINzFXeVNvQ1Z4UFVoaHlpdU_SAXBBVV95cUxOaUhGWFhNS1FPZ0thaUFIQnZrWmZ1ZDJRbS04TUVqVmhHdGdXUUlTUUJPZDJmUjViTEg4bzBNaG9CXzhnVFdyZy1sbEVBMFFHaFlCNjhwZEZEbTZkMlZ2SDcxV3lTb0NWeFBVaGh5aXVP?oc=5",
-      "published": "2026-10-02T17:33:16+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Pel83aHlyZGdYZE9fZXZybllVLVBwbkJYX0NNZ1ZZbVNfQnJ2aVB5NTgwSlYzOFF1a1RvSVhlRDFTWWdMejIwQUxMSmxESEYxdjVZV1J6VnRSMjRtdkJ3T1ozRkZBUHJJY1hQNdIBcEFVX3lxTE5pSEZYWE1LUU9nS2FpQUhCdmtaZnVkMlFtLThNRWpWaEd0Z1dRSVNRQk9kMmZSNWJMSDhvME1ob0JfOGdUV3JnLWxsRUEwUUdoWUI2OHBkRkRtNmQyVnZINzFXeVNvQ1Z4UFVoaHlpdU8?oc=5",
+      "published": "2026-10-02T15:01:04+09:00",
       "date": "2026-10-02",
       "query": "복합개발 지구단위계획"
     },
@@ -110,15 +101,6 @@
       "query": "신도시 착공"
     },
     {
-      "id": "bef0c78aa5e0",
-      "title": "아산시, 아산탕정2 도시개발 착공… 108만평 신도시 조성 본격화",
-      "source": "천지일보",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SeXZHMHYyUTRwaEVlNlVRQ2Y4WGx3Q3NSR1hrYmNIRGpWaVdPeVRqcnVzb1RfeUk4a1VWY29OdGg3ZHdWdHV0bGtxRHJhREFsWUo1a2U4WDBscV91SHp5b1dkOTFfcHIwRVE?oc=5",
-      "published": "2026-10-02T11:20:00+09:00",
-      "date": "2026-10-02",
-      "query": "신도시 착공"
-    },
-    {
       "id": "32f733faba1d",
       "title": "중부권 최대 '탕정 2신도시' 착공…\"2031년 준공\"",
       "source": "SK브로드밴드 회사소개",
@@ -128,13 +110,31 @@
       "query": "신도시 착공"
     },
     {
-      "id": "c09844de9b11",
+      "id": "60a0717862c8",
       "title": "고양대곡·의왕오전왕곡 2.3만가구 지구지정…LH \"2029년 착공\"",
       "source": "v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ISy1TNUFYd3RwMGVlMUJZOUdZSHF6UmRvYXVwai13dHJZZDhrWXRrLTBjSEZscldhMFJycFRxRFJ6a1I1NmxtUUxNTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fVkpka3BuNlBqcE92RERWTkxOdzlicDFqNFdEaURjdG4xaVJPZV9CM25RbnMwN2NrcXQ0T3l3ZTdYVUt5bmFleFJvaU9yRm1peW85Uw?oc=5",
       "published": "2026-10-02T10:21:49+09:00",
       "date": "2026-10-02",
       "query": "LH 지구지정"
+    },
+    {
+      "id": "fbc96ec9b966",
+      "title": "중부권 최대 규모 신도시 개발사업 ‘아산탕정2 도시개발사업’ 조성 공사 착공",
+      "source": "광역행정신문",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1HRGszeEhVTzIwdWFBWVFRdU5hSXlqeDRSM3FiSmRDWUZwbTNvLV85RVJYczk0MDNzZmdmaWtWYWRZRzQ1?oc=5",
+      "published": "2026-10-02T07:13:00+09:00",
+      "date": "2026-10-02",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "fc723996fa39",
+      "title": "울산 북구 도시재생사업 살펴보기(2): 염포·양정 도시재생사업(1)",
+      "source": "울산저널i",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBZRDVkRVFBSU4tZXBVOENwRmxRTFIwLU51OW44NHRjUE84Q0RWNmJtRWlsU0hmcXJmU3FibGVtYmxMV0FkNllwNmIwNnFsb0RLRFNMbG0yOXQzNEZibWtncGNjWGdMblRjZVJRdVJoRk9hVDg?oc=5",
+      "published": "2026-10-02T00:00:54+09:00",
+      "date": "2026-10-02",
+      "query": "도시재생 활성화계획"
     }
   ]
 }
