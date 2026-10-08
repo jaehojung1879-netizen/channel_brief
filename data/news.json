@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-07T09:58:59.934692+09:00",
+  "updated_at": "2026-10-08T10:14:13.818473+09:00",
   "headline": {
-    "id": "21fa4ad36132",
-    "title": "[이슈+] 은행 점포 줄어드는데 영업시간마저 단축···금융취약계층 어쩌나",
-    "source": "서울파이낸스",
-    "summary": "[이슈+] 은행 점포 줄어드는데 영업시간마저 단축···금융취약계층 어쩌나 서울파이낸스",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5COE90cktEbWJLUTNwdVFYNnpRdENhakFjd2tCYnRReVZvWHNTVk5paWVlck56Y2Q3ZVh2S0RrT1VKUHBYQTVmLXFreXd5YXZCV1Y4akhtaGp4N2VMV09OdHR0TTFfSS1KTlE?oc=5",
-    "published": "2026-10-06T17:09:19+09:00",
+    "id": "4c1382d832ce",
+    "title": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다",
+    "source": "매일경제",
+    "summary": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다 매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BQmpCeUF4V2FmS3VpU1lNek93YXFqc0lkeEFIQlFKR0VSTlJRSnFYeFlFZERfNnU0eWZCcTFiTW5qazUxNVh1c0RkSmdjREpkQmo3RQ?oc=5",
+    "published": "2026-10-08T06:09:21+09:00",
     "query": "은행 점포",
     "engine": "google",
     "rank": 1,
-    "_score": 17.0,
+    "_score": 23.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -24,19 +24,31 @@
         "published": "2026-10-06T22:50:26+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "4afd0bfa78e5",
+        "id": "bd2c075526e8",
         "title": "[포토] \"내년 4월부터 은행 점포 30분 늦게\"",
         "source": "매일경제",
         "summary": "[포토] \"내년 4월부터 은행 점포 30분 늦게\" 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9FUTI1RDZnU3RmMl90ZWMzZ0owS21LNGRHMC1mWDJpam5fVjc2bnRtSThOMEtqdTFNOUJ4Z1lfNDlsamJrc0E?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NVi1Zd1FycnRCT2FValJyUkcwb3FOdXpMVHNBNjREdHRNTkd1V0VZY0F6dGo1Z0NSMWJkaDd1WEFmNldZNXFNTS1ZTjN5Q3hhNEJrQg?oc=5",
         "published": "2026-10-06T17:45:12+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 16,
+        "rank": 14,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "21fa4ad36132",
+        "title": "[이슈+] 은행 점포 줄어드는데 영업시간마저 단축···금융취약계층 어쩌나",
+        "source": "서울파이낸스",
+        "summary": "[이슈+] 은행 점포 줄어드는데 영업시간마저 단축···금융취약계층 어쩌나 서울파이낸스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5COE90cktEbWJLUTNwdVFYNnpRdENhakFjd2tCYnRReVZvWHNTVk5paWVlck56Y2Q3ZVh2S0RrT1VKUHBYQTVmLXFreXd5YXZCV1Y4akhtaGp4N2VMV09OdHR0TTFfSS1KTlE?oc=5",
+        "published": "2026-10-06T17:09:19+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +60,7 @@
         "published": "2026-10-06T15:55:34+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 5,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -64,15 +76,15 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "1cf546b24f4a",
-        "title": "중기중앙회·기업은행, 영업점·앱서 공제기금 가입안내",
-        "source": "동행미디어 시대",
-        "summary": "중기중앙회·기업은행, 영업점·앱서 공제기금 가입안내 동행미디어 시대",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WWUhSc0FXaG5ITzBzbUFFQzVjR2xqZ3lUOHVxa0t5cUJVNmpfUnRmQkhyNmlKQ1VzUlFuMUYwa3Z6UzcwOFJQTmttRGs2TzFablg0S182bW8tX2RFT2c?oc=5",
-        "published": "2026-10-06T09:13:30+09:00",
-        "query": "은행 영업점",
+        "id": "39d05368dd3f",
+        "title": "내년4월 은행 개점 30분 늦춘다…퇴근길 '점포' 어디?",
+        "source": "경제타임스",
+        "summary": "내년4월 은행 개점 30분 늦춘다…퇴근길 '점포' 어디? 경제타임스",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vcDg0bTF4S1ZvSnRJcmM0LTlEWVJDdmpGcHhGNmlhWVdvaDNyeFJoY19uN3NKZWhDNVN1ZFIyUUxVZ09nRExnWkxPZDRMUXBoc1o0?oc=5",
+        "published": "2026-10-06T09:05:50+09:00",
+        "query": "은행 점포",
         "engine": "google",
-        "rank": 14,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,24 +96,24 @@
         "published": "2026-10-05T16:57:42+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 9,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "95ac8968ad6f",
-        "title": "돈 찾던 은행 지점, 터미널-목욕탕-활어센터로… 일상에 녹아든다",
-        "source": "동아일보",
-        "summary": "돈 찾던 은행 지점, 터미널-목욕탕-활어센터로… 일상에 녹아든다 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5felNSVk1TYVh1R3RQVjNrVDBwM09yLTRMNW9SaGcwUUg3S05vTHl5YUNYN1BnTmgzbl9wamZxcVZBejZndjN6ajRoUmdpQ01OWWVmWE9UZWdSRW5iMUI0djNhNk9MQW9mQUtteXVhR3hMQUM0aVHSAWZBVV95cUxNMHlRZDdqcjdkaDBhcmJNbkRraDIya1EwYlFwM3QtVlM2dDd4MUVfb3dBTFlPODdCMWZUWEQ0TTJndmxuLXZEUWs1ZlpnYjZWakJRMVVQVnJJbWUzZFNjOWpjNFNQSkE?oc=5",
-        "published": "2026-10-03T01:40:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 5,
+        "rank": 13,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "9bb28b69aa1b",
+        "title": "[오늘의 은행] 우리은행·신한은행·하나은행·BNK경남은행·BNK부산은행",
+        "source": "파이낸셜리뷰",
+        "summary": "[오늘의 은행] 우리은행·신한은행·하나은행·BNK경남은행·BNK부산은행 파이낸셜리뷰",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HN3RReXlCdTJ2eTJ5VFZWNHNHcWhWQjZ1dUxNbFUyd05aSFhrMmdJNWxfb1ZHS0RqWHN6MWJnZk0zUXlTTzk1MUxoSEw4cVVXUTZKVkJaSnE3cnA5VWRtSXNLOG91RkJLNHlrMU9ZVF93anNa?oc=5",
+        "published": "2026-10-07T17:18:17+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "971c6a44bfd9",
         "title": "KB금융-우리은행-신한은행, 여자아마추어 골프선수권대회서 안윤주 우승...런던지점과 첫 파생상품 거래 체결...자본재공제조합과 업무협약 체결",
@@ -111,7 +123,7 @@
         "published": "2026-10-06T08:18:06+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 5,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -123,7 +135,7 @@
         "published": "2026-10-04T21:34:01+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 9,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -135,19 +147,19 @@
         "published": "2026-10-04T18:14:19+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 9,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "69dc75263821",
+        "id": "4d731b642b35",
         "title": "[한·멕 경협-①] 신한은행, 멕시코서 기업금융 키운다",
         "source": "현대경제신문",
         "summary": "[한·멕 경협-①] 신한은행, 멕시코서 기업금융 키운다 현대경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zMVVSdjFTSzBnTUpSUkFCaWNqdWctaFJZMHZ6VmpBUGF2a1NXYy14NmFSYW4xSUdEYkRraDk5LUlGa0lEZW9YNUF3dFJJV1o3ZU1GVzdLaUlXWTdqZWl5a3RPX242VDdO0gFrQVVfeXFMT0dPYmZXNFZpSW13dHpfZnVOdlNWUVZMeS03cWhrWGxPZ3J0RW1OUHZSXzlKNHNUWjkybV93YmpoRGg4dG83Y1Q5ZEhpbkF2dWxUYlVNaGR2WmRXT1FXOHBwb2ZYZU9xb2U0Z3c?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4cXFHY01mVTZCSHpoMnNCRzRySkxlVjVLSjYyclptRmhiQW1mRkN3TmZVTGdMQkRDdHdpek4tb181WkFZRDR1NDNVaERHTm4yUjVpOEVyTlFLTi10NXVfTXJydi1QLTTSAWtBVV95cUxPR09iZlc0VmlJbXd0el9mdU52U1ZRVkx5LTdxaGtYbE9ncnRFbU5QdlJfOUo0c1RaOTJtX3diamhEaDh0bzdjVDlkSGluQXZ1bFRiVU1oZHZaZFdPUVc4cHBvZlhlT3FvZTRndw?oc=5",
         "published": "2026-10-02T15:01:07+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 4,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -159,7 +171,7 @@
         "published": "2026-10-01T14:43:45+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 2,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
