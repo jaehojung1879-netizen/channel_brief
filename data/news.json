@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-10-08T10:14:13.818473+09:00",
+  "updated_at": "2026-10-09T10:21:44.373437+09:00",
   "headline": {
-    "id": "4c1382d832ce",
-    "title": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다",
-    "source": "매일경제",
-    "summary": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다 매일경제",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BQmpCeUF4V2FmS3VpU1lNek93YXFqc0lkeEFIQlFKR0VSTlJRSnFYeFlFZERfNnU0eWZCcTFiTW5qazUxNVh1c0RkSmdjREpkQmo3RQ?oc=5",
-    "published": "2026-10-08T06:09:21+09:00",
+    "id": "21fa4ad36132",
+    "title": "[이슈+] 은행 점포 줄어드는데 영업시간마저 단축···금융취약계층 어쩌나",
+    "source": "서울파이낸스",
+    "summary": "[이슈+] 은행 점포 줄어드는데 영업시간마저 단축···금융취약계층 어쩌나 서울파이낸스",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5COE90cktEbWJLUTNwdVFYNnpRdENhakFjd2tCYnRReVZvWHNTVk5paWVlck56Y2Q3ZVh2S0RrT1VKUHBYQTVmLXFreXd5YXZCV1Y4akhtaGp4N2VMV09OdHR0TTFfSS1KTlE?oc=5",
+    "published": "2026-10-06T17:09:19+09:00",
     "query": "은행 점포",
     "engine": "google",
     "rank": 1,
-    "_score": 23.0,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "a4b74bc61f0a",
+        "title": "[박신자컵] '고서연 막판 3점포 3방' 하나은행, 우리은행 56-50 제압...KB, 신한도 승리",
+        "source": "뉴스핌",
+        "summary": "[박신자컵] '고서연 막판 3점포 3방' 하나은행, 우리은행 56-50 제압...KB, 신한도 승리 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mLUg1a2YzSzJRdzNDODdtd3IwWU1nS3VjU3BqOTh2d29WRlFBaFhzNENqOTh3bHlkcEhyajNFTk1TMkYwYXJxV1I2UHhkOTdKTG5nM0tERTZOcnZF?oc=5",
+        "published": "2026-10-08T19:42:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "4c1382d832ce",
+        "title": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다",
+        "source": "매일경제",
+        "summary": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BQmpCeUF4V2FmS3VpU1lNek93YXFqc0lkeEFIQlFKR0VSTlJRSnFYeFlFZERfNnU0eWZCcTFiTW5qazUxNVh1c0RkSmdjREpkQmo3RQ?oc=5",
+        "published": "2026-10-08T06:09:21+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "e2c8a7c39649",
         "title": "은행 영업점, 내년 4월부터 오전 9시30분 문 연다",
@@ -24,7 +48,7 @@
         "published": "2026-10-06T22:50:26+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 9,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,19 +60,7 @@
         "published": "2026-10-06T17:45:12+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 14,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "21fa4ad36132",
-        "title": "[이슈+] 은행 점포 줄어드는데 영업시간마저 단축···금융취약계층 어쩌나",
-        "source": "서울파이낸스",
-        "summary": "[이슈+] 은행 점포 줄어드는데 영업시간마저 단축···금융취약계층 어쩌나 서울파이낸스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5COE90cktEbWJLUTNwdVFYNnpRdENhakFjd2tCYnRReVZvWHNTVk5paWVlck56Y2Q3ZVh2S0RrT1VKUHBYQTVmLXFreXd5YXZCV1Y4akhtaGp4N2VMV09OdHR0TTFfSS1KTlE?oc=5",
-        "published": "2026-10-06T17:09:19+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 2,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,7 +72,7 @@
         "published": "2026-10-06T15:55:34+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -76,6 +88,18 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
+        "id": "3383afc3299a",
+        "title": "중기중앙회·기업은행, 영업점·앱서 공제기금 가입안내",
+        "source": "네이트",
+        "summary": "중기중앙회·기업은행, 영업점·앱서 공제기금 가입안내 네이트",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02bVlCZ0tuU3pmYzZLeEl4OGUzWHkzR291UG5hdTY0Mk1lZUVsOTZPdEpRNTBFcnpVQkI0aDQyTExYM0lwZ3NIYUVWRTJ2bERFMW1Z?oc=5",
+        "published": "2026-10-06T09:14:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 14,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
         "id": "39d05368dd3f",
         "title": "내년4월 은행 개점 30분 늦춘다…퇴근길 '점포' 어디?",
         "source": "경제타임스",
@@ -84,7 +108,7 @@
         "published": "2026-10-06T09:05:50+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 9,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,12 +120,24 @@
         "published": "2026-10-05T16:57:42+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 13,
+        "rank": 15,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
+      {
+        "id": "a136c7c5f526",
+        "title": "신한은행 365코너 메인카지노금연게임룸 디자인 분야 자산 배분의 고급 기술와 혁신",
+        "source": "Calgary Roughnecks",
+        "summary": "신한은행 365코너 메인카지노금연게임룸 디자인 분야 자산 배분의 고급 기술와 혁신 Calgary Roughnecks",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNXRld2d5cVJmSk5abEhVWWlMczJxUUZYOWU3bkJ4RjlLN0JZZndTa2o5UWZuZE1mT05VQXFSdHpfWTBhM3VuMlBNbWNHSXJxQUstWG5takdtRXhRYTVFRGt4OUZqcU5ReXNHZkZnTExSLTlBcjlMZmlEcTVGUnhXaEx5U0NsRWxSTk9VV2tpT1Z3RHJtd09WWTB1VUpUMEZQNmhCcG1YNUtUWWFYVnBsazBnSzBtbFF5LWk3eHBzQ1NFMkNCUjdnN1RKWE02TldLclF0Tlo4dFg5RDNpSHNMVg?oc=5",
+        "published": "2026-10-08T19:42:20+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "9bb28b69aa1b",
         "title": "[오늘의 은행] 우리은행·신한은행·하나은행·BNK경남은행·BNK부산은행",
@@ -111,7 +147,7 @@
         "published": "2026-10-07T17:18:17+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -127,18 +163,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "23a537bb70e4",
-        "title": "현재 버전을 어디서 찾나요? 신한은행 365코너 메인카지노금연게임룸 정보 확인",
-        "source": "Calgary Roughnecks",
-        "summary": "현재 버전을 어디서 찾나요? 신한은행 365코너 메인카지노금연게임룸 정보 확인 Calgary Roughnecks",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05NnYwcGpqZ1BkdkZZU0tDSU8td2EtRnpaam4zcWVoQmhiNEJ3R3IySlZTbG1nNkxXd1B2RTlQblg1RGVKSDNaSjhIRTRwdF9IeHhoRGZWWU9NS1dOM0p5SWJMNENzZ25sMWVOUA?oc=5",
-        "published": "2026-10-04T21:34:01+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 12,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "8d2d934c133f",
         "title": "[26 박신자컵] ‘전주원 감독 데뷔전 승리’ 우리은행, 신한은행 꺾고 산뜻한 출발",
         "source": "바스켓코리아",
@@ -147,7 +171,7 @@
         "published": "2026-10-04T18:14:19+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 11,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -159,19 +183,7 @@
         "published": "2026-10-02T15:01:07+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "172eebf0374f",
-        "title": "신한은행 2만5000명 고객정보 유출…AI봇 웹공격 가능성",
-        "source": "전자신문",
-        "summary": "신한은행 2만5000명 고객정보 유출…AI봇 웹공격 가능성 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE81LU5YcXUyMXNiSnBCMjRSX2lLamlaWGEtOGp0Nk5QTVdsOE1LcUU3Qks1VURCVnNvVWMxZVc0UFJGWnRaanBBSG8wbkVkUQ?oc=5",
-        "published": "2026-10-01T14:43:45+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 7,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
