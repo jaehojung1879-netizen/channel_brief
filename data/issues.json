@@ -1,80 +1,116 @@
 {
-  "updated_at": "2026-10-09T10:23:24.827360+09:00",
+  "updated_at": "2026-10-10T10:11:23.770333+09:00",
   "social_finance": [
     {
-      "id": "ccc0aa089db1",
-      "title": "리드코프, 금융 취약계층 대출 공급 유지...상반기 여신 잔액 8,270억원",
-      "source": "로이슈",
-      "summary": "리드코프, 금융 취약계층 대출 공급 유지...상반기 여신 잔액 8,270억원&nbsp;&nbsp;로이슈",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rbFRzdE9SOV9vUXQtWS16Z1BiSl83ekVpSW9SY01hMzZrM2tpUDR3aGQ5U0FsMWNJaUdvRXV0eXNGek0wYlhTY1A2Z3VQcFBBWGRRNjZWbTlsOWgwRzZPTXZoT1pEVkZfR3VPdUR4aFRHekV0cFR5QUVR?oc=5",
-      "published": "2026-10-09T08:50:00+09:00",
-      "query": "취약계층 금융"
+      "id": "8ee5e9059316",
+      "title": "투교협, 시니어 노후자산관리 금융 특강 개최…연금·절세·반도체 전망 다룬다",
+      "source": "나눔경제뉴스",
+      "summary": "투교협, 시니어 노후자산관리 금융 특강 개최…연금·절세·반도체 전망 다룬다&nbsp;&nbsp;나눔경제뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jMmN0OEFuNXBvbzJXUWM2eDdyRWxuSFUzMFJoWGV4Q1A2NGFXSmdWX3pNV09KajN3QVI4WGp4Zm5hN0R2aEJkXzBhVVlOUmJNOGc1a1ZBckg4dlBkSk51c0VLQ1hzZXphT0ZDZA?oc=5",
+      "published": "2026-10-10T08:36:50+09:00",
+      "query": "고령자 금융"
     },
     {
-      "id": "e8b38b0c7c8a",
-      "title": "[단독] 기업은행 “군 기부는 사회공헌”… 내부 문서엔 “사업 유치 목적”",
-      "source": "국민일보",
-      "summary": "[단독] 기업은행 “군 기부는 사회공헌”… 내부 문서엔 “사업 유치 목적”&nbsp;&nbsp;국민일보",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ3lWUmRoVU9xR2p0b01zUVkwNmlSMG5mMkJ4dXEzTDg0cGJ0X0RUOWxEaV9CdGhJZGh3OHBhVTRqWGw1d1ZxMFpzS1ptQkUwMGZQdGdmanNnWklmb0VaWGM5dUtZQlphZ1YySDk4VFZOaEpSY1N4M0hoZ254Ym9aWm56QlowZ9IBbEFVX3lxTFBLeU9ocXUxSFRKbkJvNUZmNnppbUFoSVRrMC1NOV9PSnVxeU9CY2lQSER5TXlPZUEtWF94ZEVvN3F3T00yYWpZeEtmWHVXa2pabHF4dDlmMV9CZ1NsSFhDVlJ5UGpRUW5EYTlCcw?oc=5",
-      "published": "2026-10-09T00:08:00+09:00",
-      "query": "은행 사회공헌"
-    },
-    {
-      "id": "2f058a843be4",
-      "title": "리테일 영토 넓히는 SC제일銀…정책서민금융 '엇박자'",
-      "source": "Naver Blog",
-      "summary": "리테일 영토 넓히는 SC제일銀…정책서민금융 '엇박자'&nbsp;&nbsp;Naver Blog",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMldQTTZBVy1rMGVncFBud2tOS3FYNjBOZ3h1Q18xYkMyLXNWUU82QThBcmFOMWFzMlBGbUR6OGQ3ZzFTM3k0eHN5VzA0aUFER1ZxT3JhdHgwalNaYjdWSDlJek1SR3BNY0JXT1RzS0MxM1A4VUFLZk4xdDRRZjBvSUdWdzBDMmlNZWdMQjBjZw?oc=5",
-      "published": "2026-10-09T00:00:49+09:00",
-      "query": "서민금융"
-    },
-    {
-      "id": "f4d8a556853f",
-      "title": "동대문구, 중소기업·소상공인에 50억 융자 지원",
-      "source": "동대문 이슈",
-      "summary": "동대문구, 중소기업·소상공인에 50억 융자 지원&nbsp;&nbsp;동대문 이슈",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1XM2JWZXRCajlLNWNOQ0YzNWwyb2c2RlRkVlhicjh0YlVzbGJjUGd1VnlPVk9rOFNYNlhLRi1UTEJyRFk1RFN3ZGJYVmtRQ3dfdTRORUtHVGt1WDhHeDJQbUhR?oc=5",
-      "published": "2026-10-08T22:29:00+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "0b2d6edb82b5",
-      "title": "하나은행, 1,343억원 규모 장기연체채권 소각…금융 취약계층 지원",
-      "source": "이슈투데이",
-      "summary": "하나은행, 1,343억원 규모 장기연체채권 소각…금융 취약계층 지원&nbsp;&nbsp;이슈투데이",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03Nk9ITXdkQ3RaZWxJRlRZMVZkV2lxREZ2MVFabzdPSWZ4MEt1eFd0YmJacFBJdk5weEtZN0xWcXE5LWdWVzdBUnVUTlJka1JTV1FZdjNrUnUyVFBmdkczWUdxeF9TQQ?oc=5",
-      "published": "2026-10-08T21:56:20+09:00",
-      "query": "취약계층 금융"
-    },
-    {
-      "id": "625c4ef545c3",
-      "title": "“노동이 불안정한 시대, 새로운 포용금융 필요”",
-      "source": "국제신문",
-      "summary": "“노동이 불안정한 시대, 새로운 포용금융 필요”&nbsp;&nbsp;국제신문",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZnR0czdveDlQNTNQSml1eC05NE4ySENWZnZ2S3FMWjIyVGd2dk1SZ0RBVVRIUnE2R0hNeEVKWFBTakhzMm5WTWhvT24waThiaVVwNFRoOVZvaWhDZXBTS0E1d0p2bG05U0VoNjc0Q2dwVmxrYWZobWhmTXN6QWFWZlMtcnNlMkxqY1pCQm5B?oc=5",
-      "published": "2026-10-08T19:22:00+09:00",
+      "id": "740f20eff76c",
+      "title": "생산적·포용 금융 시대…캐피탈, 여신 공급 넘어 새 역할 찾는다",
+      "source": "마켓인",
+      "summary": "생산적·포용 금융 시대…캐피탈, 여신 공급 넘어 새 역할 찾는다&nbsp;&nbsp;마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Zdm00SEZXazM1bWxpcUE5dV94b3hvdDJCcHpTYnhiU2c2WTBWZFYtN1hRTmNwV1o3bjhsUTBhVzRPd0dvTEU3M3ZhZTh0N0R2SzRPbDNSN3gzOUZXRzdESGZvSkFMUS1JSi1Eb1RzY2lIaTQ?oc=5",
+      "published": "2026-10-10T06:00:06+09:00",
       "query": "포용금융"
     },
     {
-      "id": "e1b51943db2c",
-      "title": "하나은행, 금융 취약계층 채무 부담 던다…1300억대 장기연체채권 소각",
-      "source": "더나은미래",
-      "summary": "하나은행, 금융 취약계층 채무 부담 던다…1300억대 장기연체채권 소각&nbsp;&nbsp;더나은미래",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vRFZKREotTlhzVDI1NElIc3BNUlJHc0EwVmtLU3BXUGRhZmlQWEdoZGJCc3lmcnl2bFFFWmNzbWNIejl0VTY0SnluVmNFdHRsNWc?oc=5",
-      "published": "2026-10-08T19:00:00+09:00",
-      "query": "취약계층 금융"
+      "id": "c29cc14c19a9",
+      "title": "'2026 캐피탈 미래비전 포럼' 19일 개최⋯생산적·포용 금융 역할 모색",
+      "source": "아이뉴스24",
+      "summary": "'2026 캐피탈 미래비전 포럼' 19일 개최⋯생산적·포용 금융 역할 모색&nbsp;&nbsp;아이뉴스24",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5oWjk2bGdTSXBFajFGaWE5VGY5SGN5NHpiLXdLVTBlZFlyVWJmZjB6Yzd4b1VXYS05N1RhTWw2RmVqLUNLQXc?oc=5",
+      "published": "2026-10-10T06:00:01+09:00",
+      "query": "금융접근성"
     },
     {
-      "id": "71bbd6f69a58",
-      "title": "어피닛, 인도 OTT에 ‘트루밸런스’ 브랜드 다큐 공개 ··· 금융 포용 사례 조명",
-      "source": "데이터넷",
-      "summary": "어피닛, 인도 OTT에 ‘트루밸런스’ 브랜드 다큐 공개 ··· 금융 포용 사례 조명&nbsp;&nbsp;데이터넷",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TU3JVZWF6emZNaUNyRlBPM1BjdGVDLVpwTUNFWlBYVl9rei1HM29xa2t2NVRtcjRTdzdhRUxYOGpqVnZfMDNESVVwWnIxT2FzbXZJbzI3MVk1LWVwVFB3eE5NcTJScVB5TnZ4QQ?oc=5",
-      "published": "2026-10-08T17:52:55+09:00",
+      "id": "e546df66e26b",
+      "title": "BNK경남은행, 대한주택건설협회ㆍ지역은행ㆍ보증기관과 ‘상생협력을 위한 업무협약’ 체결",
+      "source": "DFT 대한금융신문",
+      "summary": "BNK경남은행, 대한주택건설협회ㆍ지역은행ㆍ보증기관과 ‘상생협력을 위한 업무협약’ 체결&nbsp;&nbsp;DFT 대한금융신문",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05dl9QV2o3eUNTWTFTcTQ1aVhaS1daTEZ4RW9xdWs5WGpFRkxjQzZjQ1RTaGhWRE8zd0VFZTR3WGw2aUZINU1xbEVQTmZPNHc0eWwzbEdTcENSU25NRmV6cDF1UFhId0daMXlPOFlTQk3SAXBBVV95cUxNOXZfUFdqN3lDU1kxU3E0NWlYWktXWkxGeEVvcXVrOVhqRUZMY0M2Y0NUU2hoVkRPM3dFRWU0d1hsNmlGSDVNcWxFUE5mTzR3NHlsM2xHU3BDUlNuTUZlenAxdVBYSHdHWjF5TzhZU0JN?oc=5",
+      "published": "2026-10-09T16:50:57+09:00",
       "query": "금융접근성"
+    },
+    {
+      "id": "d6464492b07b",
+      "title": "올해 서민금융진흥원 ’정보 유출’ 해킹 시도 1백만 건 넘어",
+      "source": "연합뉴스TV",
+      "summary": "올해 서민금융진흥원 ’정보 유출’ 해킹 시도 1백만 건 넘어&nbsp;&nbsp;연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Sek1EZm1VRlBmTTItSW0wblA5cEhtc1h6VGkzMkIxZXZ0QjhXY2hQaEJiM1lwZFJCcjdQR3Q1el9KQjZnRjUtdlN6Sm5pa1JGdVhsTVVBcjF3Uk5aUkxFNWdQQnp5MEk?oc=5",
+      "published": "2026-10-09T16:26:00+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "a3d641a3aae5",
+      "title": "IBK기업은행, 경영애로 소상공인 재도약 1조 8000억 원 규모 금융 지원",
+      "source": "사회적경제뉴스",
+      "summary": "IBK기업은행, 경영애로 소상공인 재도약 1조 8000억 원 규모 금융 지원&nbsp;&nbsp;사회적경제뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9qY1FQdU5TVVg1dzZSRWdvMElTb3B0U3ZBNVpQemZUVXRTc250VG01UWd5ZzI1cWpXNllqd0cwMA?oc=5",
+      "published": "2026-10-09T13:36:00+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "9dcbac92ca99",
+      "title": "[진단] 서민금융 징검다리론 ‘시늉만’…4대 은행 취급 비중 1% 미만",
+      "source": "이코노미톡뉴스",
+      "summary": "[진단] 서민금융 징검다리론 ‘시늉만’…4대 은행 취급 비중 1% 미만&nbsp;&nbsp;이코노미톡뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iejZSYl8xakN3Q1JwUFVZTi1CMEt2QUI3QVgtaGp5dG1RY0huanY3UDAtakJhTUdmbmk0Slk2Mmd5aDdFUERPcU9aREZqaEgxaTdhLUpsUld3NXU0d3NHbHZNVGFwS1J1ekpYUw?oc=5",
+      "published": "2026-10-09T13:17:31+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "a7c12ef64800",
+      "title": "[단독] 기업은행 “군 기부는 사회공헌”… 내부 문서엔 “사업 유치 목적”",
+      "source": "국민일보",
+      "summary": "[단독] 기업은행 “군 기부는 사회공헌”… 내부 문서엔 “사업 유치 목적”&nbsp;&nbsp;국민일보",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GelctLTdyeEtNTldBWnk4ZlhBLVV1YXk1V08zTEl6bG1BRjlrUGZNc3FtTzQxUFJVS1dmdUNVZU5kSzlxMEF2cGlOZHZZMWpEQlNMaTI4N0xXOWNmaDU5QVczUDhDcUHSAWxBVV95cUxQS3lPaHF1MUhUSm5CbzVGZjZ6aW1BaElUazAtTTlfT0p1cXlPQmNpUEhEeU15T2VBLVhfeGRFbzdxd09NMmFqWXhLZlh1V2tqWmxxeHQ5ZjFfQmdTbEhYQ1ZSeVBqUVFuRGE5QnM?oc=5",
+      "published": "2026-10-09T00:08:00+09:00",
+      "query": "은행 사회공헌"
     }
   ],
   "tech": [
+    {
+      "id": "f79d5875374a",
+      "title": "현재 버전을 어디서 찾나요? 암호화폐 중앙은행 관리 정보 확인",
+      "source": "Calgary Roughnecks",
+      "summary": "현재 버전을 어디서 찾나요? 암호화폐 중앙은행 관리 정보 확인&nbsp;&nbsp;Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBZTGF2RnM4WmI1S1p0Vjg0clRpTnFyN0pscmppMVlZbVV4clhFZy1xdnNjWUFpR0kzdGpydTF0UU9kaFktWi1LZ2dYc2dINVJqQjZGR2Z3dWRFSEVJNFpad3EwWHpWbjFrektsRC0xU3ZfNFdmeWM0WVhR?oc=5",
+      "published": "2026-10-10T07:27:32+09:00",
+      "query": "CBDC 은행"
+    },
+    {
+      "id": "8c5da39132ba",
+      "title": "[은행이 뚫린다] “해킹 툴 아닌 AI 도구”... ‘아르텍스’가 한글판으로 공개된 이유는?",
+      "source": "보안뉴스",
+      "summary": "[은행이 뚫린다] “해킹 툴 아닌 AI 도구”... ‘아르텍스’가 한글판으로 공개된 이유는?&nbsp;&nbsp;보안뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5xZGRrRGdtVnZKMXRFZ1VTUXE4S0hvR0ppd0VUejU4MWI1MlBYbTBPQTVqYklRcmxpTmNGaUtGanFTZlRtaDQ3Yy04Q19SNTk2WTE0eXlFbzJoSHRuSFV3bDBfeUJWQ0h5bmJ3?oc=5",
+      "published": "2026-10-09T19:06:00+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "86540768f18d",
+      "title": "한은 \"일반인용 CBDC 도입 계획 없다\"…'프로젝트 한강' 감시 논란 선 긋기",
+      "source": "폴리뉴스 Polinews",
+      "summary": "한은 \"일반인용 CBDC 도입 계획 없다\"…'프로젝트 한강' 감시 논란 선 긋기&nbsp;&nbsp;폴리뉴스 Polinews",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2ZWE2UTA4c01pbEpEQ1hVbmk2TGhlT2hfSU5rRUJQSWtabWVJdm03dUc2N0N1WWJ4LTJnaFNYdVRyM3RYVnFLSV96UEdadUN1Tm96LWg2Y0lCMVJ3TDhtUG9MLUFPOEZBUWY0MjhR?oc=5",
+      "published": "2026-10-09T17:15:18+09:00",
+      "query": "CBDC 은행"
+    },
+    {
+      "id": "b3f7381b6f8c",
+      "title": "한은 “일반인 대상 CBDC 발행 계획 없다”",
+      "source": "서울경제",
+      "summary": "한은 “일반인 대상 CBDC 발행 계획 없다”&nbsp;&nbsp;서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HZDBrb0QzbTVmRUlUZkRYV1BlUkNONkJhUWxzaGU1d1k0NmVJSGJLZnhpSlBEb0RwMTNMZ09yWWJMX2xMbXNuMzhzRVEwMll3aUdn0gFTQVVfeXFMT0dkMGtvRDNtNWZFSVRmRFhXUGVSQ042QmFRbHNoZTV3WTQ2ZUlIYktmeGlKUERvRHAxM0xnT3JZYkxfbExtc24zOHNFUTAyWXdpR2c?oc=5",
+      "published": "2026-10-09T13:30:00+09:00",
+      "query": "예금토큰"
+    },
     {
       "id": "73415f891028",
       "title": "한은 앞에 \"CBDC 반대\" 현수막…한은 \"일반인용 도입 안 해\"",
@@ -82,15 +118,6 @@
       "summary": "한은 앞에 \"CBDC 반대\" 현수막…한은 \"일반인용 도입 안 해\"&nbsp;&nbsp;연합뉴스TV",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwdWgtNDZ3dzJQLVF2NUh4aGtxeE1QcmFqRnE2d0d5S0R6RFJtemgyYWRTZmNSeVVnUTFuQXpBbjZBWHE1UklzOWtyUVhzelpqcWdUVXV2U2tSUDZBb24tc3dYUmIteXc?oc=5",
       "published": "2026-10-09T10:03:00+09:00",
-      "query": "CBDC 은행"
-    },
-    {
-      "id": "a4a1e2f39c2b",
-      "title": "정부 감시 우려? 한국은행의 CBDC와 '프로젝트 한강'의 진실은",
-      "source": "공감신문",
-      "summary": "정부 감시 우려? 한국은행의 CBDC와 '프로젝트 한강'의 진실은&nbsp;&nbsp;공감신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95REFld1ZxeW80bzVkZF9GM2ttLVhfNmdLYy1YMWhJOW1ESEM5TjZKM3c4Y0gweVUzR2tDQnRnT1JUc1Radm41WkFISlJNazlSLVVtTTVqclNGSkdFcUVqZW56MHRDVkdM?oc=5",
-      "published": "2026-10-09T09:10:02+09:00",
       "query": "CBDC 은행"
     },
     {
@@ -112,39 +139,12 @@
       "query": "예금토큰"
     },
     {
-      "id": "b1670490d262",
-      "title": "특수 화면에서 달라지는 나이스 토토 사이트 버튼 위치",
+      "id": "d054bf81a846",
+      "title": "블록체인기술이란 연결이 끊긴 뒤의 확인 순서",
       "source": "Calgary Roughnecks",
-      "summary": "특수 화면에서 달라지는 나이스 토토 사이트 버튼 위치&nbsp;&nbsp;Calgary Roughnecks",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1zQ3NaelVQZDdDRWE0SVhYQ1dHd2JqLU81VktEdFNhZk5rSjRtYUhDZ09NSE90OTFFMU1vcmc4Vm5JVUZTZ2pIQ1pFX2dCUF9sQWwtaGpPOFBDNWwxMk5hTFVCdTRUS0xhNldqVkhfeExtaVF0bThB?oc=5",
-      "published": "2026-10-09T00:49:30+09:00",
-      "query": "예금토큰"
-    },
-    {
-      "id": "2c653b7af74b",
-      "title": "처음 접하는 기능을 하나씩 읽는 한국 은행 암호 화폐 입문 해설",
-      "source": "Calgary Roughnecks",
-      "summary": "처음 접하는 기능을 하나씩 읽는 한국 은행 암호 화폐 입문 해설&nbsp;&nbsp;Calgary Roughnecks",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdDA4MG1aWllGbENKNHdQazJTZFh2Zm04WG82U1dVb0lKREowVDJrZjdkWFFLek5reGlwUWU5Vkl2RUczbHVCMVRjLUtJeUFsYWZFQjByMlltQ3F3VUNIbFlhcE1JZmo4MUo0d2VlTUxCR3RDTlotaFdBS2ZQaTJmWFBpR1ZRWUd3TUFFbFNOY3dXM3pvTmRtbk96aGRwZk5VUjlaMjA4STN1bmRJSERtYjRrOUQ1U0YwWWVxZXg1NDY3bkpLeTJSMllGYjI?oc=5",
-      "published": "2026-10-08T23:30:05+09:00",
-      "query": "CBDC 은행"
-    },
-    {
-      "id": "d9fe9b66405d",
-      "title": "BNK부산은행, 비대면 신분증 원본 검증 시스템 구축",
-      "source": "매일경제 마켓",
-      "summary": "BNK부산은행, 비대면 신분증 원본 검증 시스템 구축&nbsp;&nbsp;매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9WWGxZVDM1LTRlVW9wQVV6Qml1TWdVeC1qdVNRQkxJLWVoWURsSlRkRVpqYmE0VmVZLVhMQ2F5ZFd0ZmtzT2VBbFNsbHhDcHU5?oc=5",
-      "published": "2026-10-08T21:31:47+09:00",
-      "query": "비대면 실명확인"
-    },
-    {
-      "id": "fcf8c25d2359",
-      "title": "21개 은행의 스테이블코인 진출, 전통 금융의 블록체인 결제 전환 신호",
-      "source": "Yellow.com",
-      "summary": "21개 은행의 스테이블코인 진출, 전통 금융의 블록체인 결제 전환 신호&nbsp;&nbsp;Yellow.com",
-      "link": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxPMnNxNTZWRXZBYTVTM3RJWTlUMEk5Z3RqcFBvbTE4SGh2YkV3Y3JrUXppaGdkTkZLRTlJcjh3ZGlCUEY2ek5rbE5qRG1VZzdlMURHY0dldUJKalVjaWxtSHdRd281WF9JVzRoRUljdnYxam9rSjdlWEx4Tng0aWxZVmdybVlxdTJjQlRQT0RrckUtXzViUUpjOUs0WVBGckhoVElRMTBqQlZfWlVnZjJnWERGOFBFTFh5VHBnSFpnWjJWMGNvTWkyQlFXMjVJRmZqLVNJQW5IcnU3dkJIZ2FFSmxtVUNCa0ZnNGQ4LTJ4dUhPSXI5VW1Ocnk1M213NVhOSHB3b2VRZE9Fc191b2ZmR25Wb3RUTWxyT2lYSk1QNDFRYUU5THFLVVJnTVpMOXFXbm5tNzJDVmI1N1dHbU9QR2F4ZW9xRU9xN2tLcmk5MndzdTBLUi14NVh5WG5pNURUbXNZbnFfeDE4RTloYVRqQU9sZDVTNnRpT3o3X0M0Y0g4eFhZQ0ZpSFV6OHZjWW1EY3V4QzR4MThGTmM4Y2JScmgzdTM0ZjhOQVFFakZENUt2R2kxRUZuN3VwWDB2TEtRQTJNbjE3OHNSMlVFQ1RLaUhfOFFZNndudjJBOA?oc=5",
-      "published": "2026-10-08T19:22:02+09:00",
+      "summary": "블록체인기술이란 연결이 끊긴 뒤의 확인 순서&nbsp;&nbsp;Calgary Roughnecks",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVTBCMFBIV1dOamFFam5Wc2F1cTFHVDN4azBmWDk0Mk9WY2RfU1g3WFktc09nOU5wRk1uSHN5SkxrcVZTWlNXR0w4MTlrelhYLXdGS25Fb3lqbEdrTmZoejkyc0NBalJpd2xpNXh1TEpna0h3cjdvU2MzVlVXQk40MUZtOXMwa2F6RWRjbE92VzM3RzltZDZmMWxxT3l5d2pmLU5kQkxWN1pnd1o2YnRQN0NmRGgwbkVhaWJRYXVsbERENllkOUZuMHI0MzVWQ253VDV2cHZEc1JHdjVJTjUxNERhMDBXSkRsZWZ2LQ?oc=5",
+      "published": "2026-10-08T19:00:37+09:00",
       "query": "블록체인 은행"
     }
   ]
