@@ -1,14 +1,32 @@
 {
-  "updated_at": "2026-10-10T10:10:38.167248+09:00",
+  "updated_at": "2026-10-11T09:25:58.188064+09:00",
   "items": [
     {
-      "id": "fa53cb662188",
-      "title": "최태원 \"전력·용수 늦어도 먼저 짓겠다\"…호남 반도체 팹 '속도전' - 머니투데이",
-      "source": "머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BSkg2LUpvSTV6bHlUczN1RklYRzRQdldhbnFSZDJVNklIYmdramg5azZTTUp3ZjczMEl6dnp0bG14b2JiSjdTbE9SM3dCSGkzZDVOdUN0ZUlucTZ1X1MxU1ZnbEFPODlMODk5d9IBckFVX3lxTE5nVEt6dU1TZkY3QXBhNHVMMDJZWTdvZEUxUHRtbXlUMDNIaGxrdWZjaXFxOC1OS0RtUl9hcXJWc0FDMEFTaFhVSVc0d1JXNjl2QmZBdEg4a1pvNEZ5ZTFVRWFqRG9aTlROejNQS0c2SlpsZw?oc=5",
-      "published": "2026-10-09T15:29:29+09:00",
+      "id": "d5f4d1b1465e",
+      "title": "인천시, 개항장 일대 체류형 관광 인프라 확충",
+      "source": "매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FUmtlT1lJOWpxVkl3dXVJX0I3VklxSDlqOHdxTWRNbE1hSWJuVW5QS2lfcVVPNGJiTTBBempYenQ1bjMzSW1pZ18yc1JJaTNxTEE?oc=5",
+      "published": "2026-10-11T08:31:01+09:00",
+      "date": "2026-10-11",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "dcddc482bce0",
+      "title": "LH, 고양대곡지구 2029년 착공 '속도전'…주민들 \"권익 보호 우선\"",
+      "source": "고양신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qNUpBMmVCWFU4YjdRQ3lGV21lemNHLTZPeDJtRE9tNGpkQnJpQkQzQ1NlXzlBMWY5cXVTX1g4X1RMRDFOTnJacnNrd1lVMkxiWVpaeVVhdGJWZGtvVHl2WDZvMGtQdVpFNGc?oc=5",
+      "published": "2026-10-10T11:18:14+09:00",
+      "date": "2026-10-10",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "168b9c4f2f67",
+      "title": "아산 탕정2지구 100만평, 부지공사 다음달 착공",
+      "source": "쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kYWJOeGk5dVB0UUY3OENLT1RIaGkyWWlseXdUaUhYeUpMUGxGN25VRlF4bWg3dmpsUGtQd3M4RlNXLWRDQW1kQXVwcldNbnZsN2pBUFlkM3VwSm9uMEQ5WEJHNA?oc=5",
+      "published": "2026-10-09T13:34:50+09:00",
       "date": "2026-10-09",
-      "query": "반도체 국가산단"
+      "query": "신도시 착공"
     },
     {
       "id": "f73a31d95b1b",
@@ -18,6 +36,15 @@
       "published": "2026-10-09T10:13:48+09:00",
       "date": "2026-10-09",
       "query": "국토교통부 고시"
+    },
+    {
+      "id": "04e18a397590",
+      "title": "최태원 SK회장, 9일 호남반도체 국가산단 부지 방문",
+      "source": "뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yWE5McmQ1MTR4cGgyZU1OZ2dfaDNFZzd4dGh5bXpiSWhqbFBUN0NyOFBtaG9QVEJDOVFhQlFfT2hfdW1HSkluZGdKTWozOGV1d3hUSWlUZ0lBSDNtM1NkLdIBeEFVX3lxTE5QSXJCaGtMODh6VkN5cnZZSG5NMVZTV2hua1BLaWhGTUdMTWdhTUpGVWJiTURuOGtNUWl2ZTR2NUJHbkc3NGxWZmprQ0Ytei1GNll2UC02c3lKM3g4N3d3RnkzaFl6aTdBRDk0VEJmN1RzenVFWkVOOA?oc=5",
+      "published": "2026-10-08T20:16:48+09:00",
+      "date": "2026-10-08",
+      "query": "반도체 국가산단"
     },
     {
       "id": "c57561a9b30e",
@@ -92,15 +119,6 @@
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "969fe7feedfb",
-      "title": "유심정보 2696만 건 털린 HSS, 왜 17개월째 기반시설 미지정인가…조경태 \"즉각 지정해야\"",
-      "source": "창업일보",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SLTVCYUo0NXY0TGJQU1BWUGVuTlZRSElFeEd0RkxVTXp2b2E0OUlBSGlPQ1c2UnBDVXJ3RXBNbzJxVlVZYXdFbE9CWEJabnliWnU2RTBiQmpBNXdtakNZWk1BN1NHYlpN?oc=5",
-      "published": "2026-10-06T13:29:15+09:00",
-      "date": "2026-10-06",
-      "query": "기반시설 인가"
-    },
-    {
       "id": "7988448957f3",
       "title": "360조 용인 반도체 국가산단, 마침내 첫 삽",
       "source": "용인신문",
@@ -117,24 +135,6 @@
       "published": "2026-10-06T07:00:00+09:00",
       "date": "2026-10-06",
       "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "42351b0a6b68",
-      "title": "삼성전자, 용인 과학축제서 반도체 국가산단 청사진 공개",
-      "source": "디일렉",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QbnVTQVBZaEpTTkxTMVEtS1JXLUw3X1VEd1JmYWlRRDJ2SFl0UE5Xb2N0YzlaU1Q4UU5fVWFnT3VuQzJUdGZiUFFCeVYyOEpLaGpRZ0hUZXU1Y1ZuQ0NGX0wtRWozZw?oc=5",
-      "published": "2026-10-05T21:35:00+09:00",
-      "date": "2026-10-05",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "fa21a4fb6c8c",
-      "title": "아산탕정2 도시개발사업 9월 착공…2만1035호 신도시 조성 > 뉴스",
-      "source": "천안신문",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5DZTduVG84dHZUOGRpLUZ6dllySGpnTU15bVpMUTRKU0xGTUtDSHl5c2FoMlY2WWhJR2VlcHI5eU5vQTg?oc=5",
-      "published": "2026-10-05T15:28:21+09:00",
-      "date": "2026-10-05",
-      "query": "신도시 착공"
     }
   ]
 }

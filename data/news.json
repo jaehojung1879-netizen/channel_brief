@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-10-10T10:09:42.053340+09:00",
+  "updated_at": "2026-10-11T09:24:20.939007+09:00",
   "headline": {
-    "id": "9a1ea0aff2f7",
-    "title": "미 은행 오프라인 점포 12년 만에 증가…“고객과 신뢰 접점으로 재부각”",
-    "source": "한겨레",
-    "summary": "미 은행 오프라인 점포 12년 만에 증가…“고객과 신뢰 접점으로 재부각” 한겨레",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92NFNHSFhQcW1IbGJoZlRNOWs1eDhwdGZRN2Uxa3c5Y1F4QkNZT1hGa3lpSVRtcFJQTTlzajNjbWdidWFlcFNSSGpYamNvamxjSERoOFkyVVQxRHlGMVRBMmlXOGljMDg?oc=5",
-    "published": "2026-10-10T01:13:00+09:00",
+    "id": "4c1382d832ce",
+    "title": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다",
+    "source": "매일경제",
+    "summary": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다 매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BQmpCeUF4V2FmS3VpU1lNek93YXFqc0lkeEFIQlFKR0VSTlJRSnFYeFlFZERfNnU0eWZCcTFiTW5qazUxNVh1c0RkSmdjREpkQmo3RQ?oc=5",
+    "published": "2026-10-08T06:09:21+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 12.0,
+    "rank": 4,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "ed310c40e77b",
+        "title": "[NH농협은행] 전남광주 반도체인재 3억원 / 부산진해경제자유구역 협력 / 농어업인 채무 164억원 소각 / 60곳 영업점 치매극복선도 인증",
+        "source": "웹이코노미",
+        "summary": "[NH농협은행] 전남광주 반도체인재 3억원 / 부산진해경제자유구역 협력 / 농어업인 채무 164억원 소각 / 60곳 영업점 치매극복선도 인증 웹이코노미",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkRmlDSkxVWUtMQWZSWWxmRWNqM0FJS0RqTUZZLUZRbXU0b0NSeWUyak5OY2lfaXE5UGFESml1T2JFZ0JtMlJmRzBPOC1taDk4LTh5RWgzTnBOQTBIOTFzU0tlNWdTdGkwWjRlODA5TTg3dw?oc=5",
+        "published": "2026-10-10T16:33:16+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 7,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "9a1ea0aff2f7",
+        "title": "미 은행 오프라인 점포 12년 만에 증가…“고객과 신뢰 접점으로 재부각”",
+        "source": "한겨레",
+        "summary": "미 은행 오프라인 점포 12년 만에 증가…“고객과 신뢰 접점으로 재부각” 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92NFNHSFhQcW1IbGJoZlRNOWs1eDhwdGZRN2Uxa3c5Y1F4QkNZT1hGa3lpSVRtcFJQTTlzajNjbWdidWFlcFNSSGpYamNvamxjSERoOFkyVVQxRHlGMVRBMmlXOGljMDg?oc=5",
+        "published": "2026-10-10T01:13:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "85a5ab94c269",
         "title": "580돌 한글날 국내 증시 휴장…은행 영업점도 쉰다",
@@ -24,7 +48,7 @@
         "published": "2026-10-09T13:20:54+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,19 +72,19 @@
         "published": "2026-10-08T19:42:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 10,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "4c1382d832ce",
-        "title": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다",
-        "source": "매일경제",
-        "summary": "서민금융, 돈이 됩니까…은행 점포 줄이더니 PB센터는 50% 늘렸다 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BQmpCeUF4V2FmS3VpU1lNek93YXFqc0lkeEFIQlFKR0VSTlJRSnFYeFlFZERfNnU0eWZCcTFiTW5qazUxNVh1c0RkSmdjREpkQmo3RQ?oc=5",
-        "published": "2026-10-08T06:09:21+09:00",
+        "id": "e4c8bc9d5030",
+        "title": "동네 은행, 10년 새 1700곳 사라졌다…‘9시 점포’ 해법 될까?",
+        "source": "이코노미스트",
+        "summary": "동네 은행, 10년 새 1700곳 사라졌다…‘9시 점포’ 해법 될까? 이코노미스트",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JNDFQQTN6bzA3a0pkT2dHdFFTTGdvaktZMzFTbnoxSEhlSVRmbl9JMHRma0E3Mno1cGQwbHhiYUdkZWl3TGJBZER5dGVBMmpaT2V5bGlSNTVGNnBxQS1ySFZB?oc=5",
+        "published": "2026-10-08T16:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +96,7 @@
         "published": "2026-10-06T22:50:26+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -88,18 +112,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "ad6da49ef739",
-        "title": "점포 줄고 영업시간도 단축…은행 문 내년부터 30분 늦게 연다",
-        "source": "https://www.kgdm.kr/",
-        "summary": "점포 줄고 영업시간도 단축…은행 문 내년부터 30분 늦게 연다 https://www.kgdm.kr/",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SUFE5S3FfbV93Q3J2ZVdYSldyNEI5RVpPc3lBRWRLWUJzSWd3Z2oyUlc3OEFTVEVobHkxaDFlUms1QzFfU0YxQjJVUVYzR3ZlUzFabW9BYjVxRUJCb19MNHl1RXdzdw?oc=5",
-        "published": "2026-10-06T16:07:47+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 16,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "fad76e9f8ac6",
         "title": "은행 영업점 30분 늦게 열고 자율출근제 도입…금융노사 산별교섭 타결",
         "source": "글로벌경제신문",
@@ -108,7 +120,7 @@
         "published": "2026-10-06T15:55:34+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 7,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -120,8 +132,7 @@
         "published": "2026-10-06T15:50:02+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 15,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 14
       },
       {
         "id": "177f4ca06a00",
@@ -132,7 +143,7 @@
         "published": "2026-10-06T14:06:47+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4
+        "rank": 3
       },
       {
         "id": "881c5384e775",
@@ -144,39 +155,6 @@
         "query": "은행 점포",
         "engine": "google",
         "rank": 3
-      },
-      {
-        "id": "3383afc3299a",
-        "title": "중기중앙회·기업은행, 영업점·앱서 공제기금 가입안내",
-        "source": "네이트",
-        "summary": "중기중앙회·기업은행, 영업점·앱서 공제기금 가입안내 네이트",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02bVlCZ0tuU3pmYzZLeEl4OGUzWHkzR291UG5hdTY0Mk1lZUVsOTZPdEpRNTBFcnpVQkI0aDQyTExYM0lwZ3NIYUVWRTJ2bERFMW1Z?oc=5",
-        "published": "2026-10-06T09:14:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 15
-      },
-      {
-        "id": "39d05368dd3f",
-        "title": "내년4월 은행 개점 30분 늦춘다…퇴근길 '점포' 어디?",
-        "source": "경제타임스",
-        "summary": "내년4월 은행 개점 30분 늦춘다…퇴근길 '점포' 어디? 경제타임스",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vcDg0bTF4S1ZvSnRJcmM0LTlEWVJDdmpGcHhGNmlhWVdvaDNyeFJoY19uN3NKZWhDNVN1ZFIyUUxVZ09nRExnWkxPZDRMUXBoc1o0?oc=5",
-        "published": "2026-10-06T09:05:50+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 12
-      },
-      {
-        "id": "30c153f622c7",
-        "title": "[단독] 산업은행 해외점포 대대적 재편 나선다",
-        "source": "매일경제",
-        "summary": "[단독] 산업은행 해외점포 대대적 재편 나선다 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4VnJWMk92ckxZTGpMVmoyb0VfbzdUTmFucFJ5Tk1BTXg0NV9JMlB0Rmw5U1VzMllRSnVBaHBQQ0ZKOXNUN0lLV29yeG83MTI2TG03Wg?oc=5",
-        "published": "2026-10-05T16:57:42+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 13
       }
     ],
     "policy_news": [],
@@ -190,7 +168,7 @@
         "published": "2026-10-10T08:07:26+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -202,7 +180,7 @@
         "published": "2026-10-09T14:35:50+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -215,30 +193,6 @@
         "query": "신한은행 지점",
         "engine": "google",
         "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "9bb28b69aa1b",
-        "title": "[오늘의 은행] 우리은행·신한은행·하나은행·BNK경남은행·BNK부산은행",
-        "source": "파이낸셜리뷰",
-        "summary": "[오늘의 은행] 우리은행·신한은행·하나은행·BNK경남은행·BNK부산은행 파이낸셜리뷰",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HN3RReXlCdTJ2eTJ5VFZWNHNHcWhWQjZ1dUxNbFUyd05aSFhrMmdJNWxfb1ZHS0RqWHN6MWJnZk0zUXlTTzk1MUxoSEw4cVVXUTZKVkJaSnE3cnA5VWRtSXNLOG91RkJLNHlrMU9ZVF93anNa?oc=5",
-        "published": "2026-10-07T17:18:17+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "971c6a44bfd9",
-        "title": "KB금융-우리은행-신한은행, 여자아마추어 골프선수권대회서 안윤주 우승...런던지점과 첫 파생상품 거래 체결...자본재공제조합과 업무협약 체결",
-        "source": "여성소비자신문",
-        "summary": "KB금융-우리은행-신한은행, 여자아마추어 골프선수권대회서 안윤주 우승...런던지점과 첫 파생상품 거래 체결...자본재공제조합과 업무협약 체결 여성소비자신문",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wdjRLQktXOWJIdnFSTVlrWDhxVEhtU3o1enhjc3hTb1lIVmtCWGx3bDhaNm9sUk5RWG83aFJOQUdkUGtLekt6ZHIza3RWS0FadnFqT04yZVlPSUpkcVVoazd3OFR4dw?oc=5",
-        "published": "2026-10-06T08:18:06+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
