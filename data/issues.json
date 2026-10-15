@@ -1,5 +1,151 @@
 {
-  "updated_at": "2026-10-14T09:41:47.098759+09:00",
-  "social_finance": [],
-  "tech": []
+  "updated_at": "2026-10-15T09:05:28.380520+09:00",
+  "social_finance": [
+    {
+      "id": "7a9be78835c5",
+      "title": "무역보험공사, 지역상생 금융 강화..동남권 수출기업에 최대 2.5배 특별 한도",
+      "source": "한국정경신문",
+      "summary": "무역보험공사, 지역상생 금융 강화..동남권 수출기업에 최대 2.5배 특별 한도&nbsp;&nbsp;한국정경신문",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aY1hCOFBpdURsZjUwQ2RfMjdrMldQQV9HYTJLbXhWYmlGZDFmQ0ZENjJmMERYLUNyMU56SmxjMVlhT1lZTl9LRTgyOXZEVVRfbkE?oc=5",
+      "published": "2026-10-15T08:34:58+09:00",
+      "query": "상생금융"
+    },
+    {
+      "id": "0ab27fd005e0",
+      "title": "[시니어 외면한 포용금융③] 앱 은행 시대, 고령층 상담은 어디서",
+      "source": "이투데이",
+      "summary": "[시니어 외면한 포용금융③] 앱 은행 시대, 고령층 상담은 어디서&nbsp;&nbsp;이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GemNiZ1N0NzJuQ3V3TWIzdHlpYV9uX2NsTFNmQTZVWEwtTkJLd0k0R3RqSDNUclBhU2FmNkZ3Z3BtcXQ3TjZqRjNaSW9pSkZTY0lHZVkzVmk2dw?oc=5",
+      "published": "2026-10-15T07:00:00+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "8b8a1c0575e1",
+      "title": "광주은행 정일선 은행장, ‘사람 살리는 금융’ 릴레이 캠페인 동참 > 뉴스",
+      "source": "더코리아",
+      "summary": "광주은행 정일선 은행장, ‘사람 살리는 금융’ 릴레이 캠페인 동참 > 뉴스&nbsp;&nbsp;더코리아",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SWTRMWk52Ym00ZHphSDU3U2x1RW9HcmlqRjdRLVRiaVZ3bG5xTjFDaFhJQjl0UzJPVV9yRmt4M1ZIaDdlYkNkMEZyd3ZOcXdFbWxNbXIyallSUV9lWkJ1bkJpUG90WnhFRDVvaHBjN0E?oc=5",
+      "published": "2026-10-15T00:14:00+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "ca07077ff9e4",
+      "title": "철강協 STS클럽, 제5회 중소기업 아이디어 공모전 “반짝이는 아이디어로 동반성장”",
+      "source": "철강금속신문",
+      "summary": "철강協 STS클럽, 제5회 중소기업 아이디어 공모전 “반짝이는 아이디어로 동반성장”&nbsp;&nbsp;철강금속신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDVy1xLS1sdnZSQUU2ZWNfZTVCMWlHRTZZSno3Rmo4SURJeW4xUW5mS1B1QlZueFJ6bFVPcWhRM3Bva3FjNHpSSURUcmE4R2lfc2E0M2RPdFBoNWJ1dFJsRTZRLThFWkRPOVE?oc=5",
+      "published": "2026-10-14T17:19:10+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "a64e9f2f9014",
+      "title": "광주은행, 소상공인 경영난 해소 지원…현장 종합상담",
+      "source": "www.ebn.co.kr",
+      "summary": "광주은행, 소상공인 경영난 해소 지원…현장 종합상담&nbsp;&nbsp;www.ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tQWZVcHBveC1ORjVJdzhyald2UlhBLU43b1QwOUNtRHNyZUVrQV8zeUw5ZjVWWVMzaDl1N213bzA3T3JXRGtwdU80SHQ0ajJlaGRhTE5qNEdkekpWNE5EUUVWYTZFbDhO?oc=5",
+      "published": "2026-10-14T17:14:43+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "92a372cfbbc8",
+      "title": "NH농협은행 개인금융 AI 전환 속도 높이기로, 포용금융 지원도 확대",
+      "source": "비즈니스포스트",
+      "summary": "NH농협은행 개인금융 AI 전환 속도 높이기로, 포용금융 지원도 확대&nbsp;&nbsp;비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PMlQ3MzhKcnRjS2wzYkpDTEYwdVM1WTZYTDRjYWRDQzNGRHNFVGV1ZVp1MVR4aUwyWjhxXzE2TjZkQTdLSkVwZFJ1UkZnU3J6R3c3NU9tLWxDb2RMdUFNVGlwbHJheDJZb3F6OTk3WE50UGM?oc=5",
+      "published": "2026-10-14T16:50:57+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "63b4918a35b2",
+      "title": "[A 금융체크] 매년 줄어드는 은행 점포...고령층 금융 접근성 높일 방법은",
+      "source": "아시아에이",
+      "summary": "[A 금융체크] 매년 줄어드는 은행 점포...고령층 금융 접근성 높일 방법은&nbsp;&nbsp;아시아에이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1id0dCaTRzbkNZc29GUzB2ZGlnNi1zY05ZTHRzVWZTTnByRkJBRzFSbXdaNmFIV1hqR2Nya2swRlRudGpQLXE1ZVR4b3VUdlV0R2FXeUdjYlRBVFdIVUZNcVFnS1NGa3NidUHSAW5BVV95cUxOZ3YwWF81SDZIMkNiazduaUxFS09QTVRMNmMteWdhSjNDeE9WaVRia3dDMEphQXMxRHZIMVRQcG94RGh4UC1kWlRzcVQ2VU1nRndmRkd0ajFodGozdlV4a0p5TGJiUGc0V3RfbVZ5QQ?oc=5",
+      "published": "2026-10-14T14:17:00+09:00",
+      "query": "금융접근성"
+    },
+    {
+      "id": "0beaf41bf3ee",
+      "title": "광주은행 포용금융센터, 소상공인 경영위기 극복 상담 지원",
+      "source": "연합뉴스",
+      "summary": "광주은행 포용금융센터, 소상공인 경영위기 극복 상담 지원&nbsp;&nbsp;연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85TEpRZEhOSnNEd2hqVkJXb0xxUG1yTklQZGhfbUE0cnpWVjFBUHBzd2F4SVZtYkUzQmI3RFoyTWtoc1lQNkNZNkxHcTl4bFN2RE5pSk8xNlAtdnPSAWBBVV95cUxQX01TZFJZVjVHMGZiazJaSzBkeWJUYUdOQ3Zlb1cyc1Zvc2FhUnBZTHlKM2NYYnQ5WFhxbWlpT0pKYkZwZWJsbnFjd2Q1ZV9qbC1yNWpvMHhzYzJLcUp1enk?oc=5",
+      "published": "2026-10-14T13:57:32+09:00",
+      "query": "소상공인 금융지원"
+    }
+  ],
+  "tech": [
+    {
+      "id": "8649d087883b",
+      "title": "유럽 37개 은행 연합 ‘키발리스’, 네덜란드 중앙은행 전자화폐 인가 획득",
+      "source": "블록체인투데이",
+      "summary": "유럽 37개 은행 연합 ‘키발리스’, 네덜란드 중앙은행 전자화폐 인가 획득&nbsp;&nbsp;블록체인투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2Q1hFenNfNFFQZHFzbjZrWGdXUnNMWUhLUTdJT0llM2JIRjN4bTQtVzBpQWhUSUNPY3dGaTMwNElXU29najBVNUppc0FkQ3dkenROaWs1MlBZRHliSmtSNWdPbGQ2QzBlMTAzTHJWbUs?oc=5",
+      "published": "2026-10-15T08:44:55+09:00",
+      "query": "블록체인 은행"
+    },
+    {
+      "id": "c884cb1d4837",
+      "title": "디지털 화폐, 현금 수준 프라이버시 구현 가능...실전 투입은 '이것' 때문에 보류",
+      "source": "코인리더스",
+      "summary": "디지털 화폐, 현금 수준 프라이버시 구현 가능...실전 투입은 '이것' 때문에 보류&nbsp;&nbsp;코인리더스",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA1MTlrU3VXc0RjdG5ZOUdCQktONEE4V2tPeEJiYWh5R0RLQmpUV2QyTkZsUjlNUEc5VkJtbkJ4Z1VVckx1bEpRYzNB?oc=5",
+      "published": "2026-10-15T00:30:00+09:00",
+      "query": "CBDC 은행"
+    },
+    {
+      "id": "21f2a2db53f8",
+      "title": "은행부터 코인거래소까지 ‘금융권 AI 해킹’…최소 10만건 개인정보 유출",
+      "source": "한겨레",
+      "summary": "은행부터 코인거래소까지 ‘금융권 AI 해킹’…최소 10만건 개인정보 유출&nbsp;&nbsp;한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PZjR3bU9tV0JTQ0NEUW1ET1hGWkx2d1hmYnhaOUhsc1VndTRDNHBrVGhsUGJTSGVkOHV2cFZ4MFNuYm1CODhUaFA5NjVmeExsSUxEd25zU2RFeTJvMGhPWXVhVzRmYmc?oc=5",
+      "published": "2026-10-14T20:32:00+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "b59dde2fecc7",
+      "title": "[AI 해킹, 금융권을 노리다④] 차단해도 또 침투… 새마을금고·OK저축은행까지",
+      "source": "한양경제",
+      "summary": "[AI 해킹, 금융권을 노리다④] 차단해도 또 침투… 새마을금고·OK저축은행까지&nbsp;&nbsp;한양경제",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JdmlwMUNkSDdKLWRhR1hMX0Vqb0lJa1lZdVdzX0NTX0hIZHBhRGQ5Ri1oQXBuVzBydEE1ajBoZHF5bHc3TG5hd2RCTmZmOGR1UGsydFdmNk91d3BVMWRwREc5alVDZ0RwaTgzR3NQZDh6dw?oc=5",
+      "published": "2026-10-14T20:08:47+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "ffae36aff3d6",
+      "title": "금융사 7곳 뚫릴때 피해 면한 우리은행…AI ‘진트’ 상시점검이 도왔다",
+      "source": "동아일보",
+      "summary": "금융사 7곳 뚫릴때 피해 면한 우리은행…AI ‘진트’ 상시점검이 도왔다&nbsp;&nbsp;동아일보",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95b1NSWDk3bVNZWXNEWEZOQVVVTFRpaWNEMmFNY2FGT1R3cTFDTG1hNnozemhYZldWcTBlMUU4MEZOdWstbmo1b2dONGRSbEtqdGxzYmdZek5odnVzeGY3dUNSSmFkUdIBZkFVX3lxTE95b1NSWDk3bVNZWXNEWEZOQVVVTFRpaWNEMmFNY2FGT1R3cTFDTG1hNnozemhYZldWcTBlMUU4MEZOdWstbmo1b2dONGRSbEtqdGxzYmdZek5odnVzeGY3dUNSSmFkUQ?oc=5",
+      "published": "2026-10-14T16:26:00+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "39264b3fa362",
+      "title": "美 4대 은행 \"AI 투자, 기회이자 위험...흐름 바뀌면 무사할 곳 없다\" - 머니투데이",
+      "source": "머니투데이",
+      "summary": "美 4대 은행 \"AI 투자, 기회이자 위험...흐름 바뀌면 무사할 곳 없다\" - 머니투데이&nbsp;&nbsp;머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01dWRrZXhZTkZ3VTNSaEpuRFlCYTVlSGhaWVpxd0hObW5jcW5ncEtmLTJfRU5vaVNUcXdnMmNUc3gtbW9NVDBNWDhvZE56aGJITGNlRXhTLVhxSFE1dlFPUmhRVU9ONDJ10gFuQVVfeXFMTUJwSVJOZ0RDbzdRTFVtQ1dOc2MzT0dya295dENtSmt4WmRlbVhRUGlGak9fTHZVQllYT3NjNnUxRlNaUzZZM0huWGtlOVpIMnVaRF9aaVdQYld3SVdvd3VOUEZVc3RUMV9mdkhHSWc?oc=5",
+      "published": "2026-10-14T15:47:28+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "52d23666a7ea",
+      "title": "[박혜진의 블록체인 아카이브] 전북은행의 작은 도전...판단하는 금융으로",
+      "source": "오피니언뉴스",
+      "summary": "[박혜진의 블록체인 아카이브] 전북은행의 작은 도전...판단하는 금융으로&nbsp;&nbsp;오피니언뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HbktzeFdVem5TYXEyamJCTVZYM29TTW83TjNQOHFmTlpMZzdPMWlXNk1rRmIwb29LTE14QV9kbmN5aXM1OHJYdmtwbGZSdlZOQllWazBZcFM1RHcxckxFM0dGV0Q0dHo3b1dwQ3VRT0RWZw?oc=5",
+      "published": "2026-10-14T14:46:58+09:00",
+      "query": "블록체인 은행"
+    },
+    {
+      "id": "dfba4181f7ff",
+      "title": "국민은행, MUFG은행과 예금토큰 기반 국가 간 지급결제 테스트 성공",
+      "source": "더팩트",
+      "summary": "국민은행, MUFG은행과 예금토큰 기반 국가 간 지급결제 테스트 성공&nbsp;&nbsp;더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GdmR1cktLQTJjUDVmUTJWUWRoejhLdUthdmFVUjhKR0U0bV83QzgtY3hTRVJERG1ZaU90T3RhcDl0SzlrUzUtSWgyaC10aWxaeG5wcjVjNlpLUTVGeURpd1ZpNnpIT3pmZkHSAWhBVV95cUxOUnN6TVZId0cxczZSWFUzbjJ6aUlydEZucExxZlRQRy0tTF83YS04OXpIYUlWWEJ1MzJ1MFBwNGhwbGlrR3pFcVdlbHBzZW9IcnU1T2tQRzJKd2FTVUh6b3BZZUZUMWstQQ?oc=5",
+      "published": "2026-10-14T11:35:57+09:00",
+      "query": "예금토큰"
+    }
+  ]
 }
