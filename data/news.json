@@ -1,30 +1,42 @@
 {
-  "updated_at": "2026-10-16T08:47:03.308165+09:00",
+  "updated_at": "2026-10-17T08:49:05.396994+09:00",
   "headline": {
-    "id": "87270ace6410",
-    "title": "외국인 예금 5년 새 49% 증가 … 영업점 줄이는 은행들, 외국인 점포는 늘린다",
-    "source": "뉴데일리",
-    "summary": "외국인 예금 5년 새 49% 증가 … 영업점 줄이는 은행들, 외국인 점포는 늘린다 뉴데일리",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVT3N6elFfaF9Va0QzQVB3Qk44anRZdkdGLXZlRUREc0l3aUFwa3psZDZWUF85ckVMSHVrSzF3Y21ZVGM2RFJlek1zSnlyRHpqTUVubHFzUXhfcEVzZkJSdFZyMWx6ZkZmS3F4UVp2M0MzaFlzeE1PbE1pd9IBgAFBVV95cUxPdFZVUHpnemNsUHd5VWdLUldMY214Mmp0b3hSXzhaeGU0dDBBbXR3VEJ0LU1IN3U1el9xWUlBVGxzSEV0OTV5d1dpVW5iOHJSNkROOXMtQUdadHBtRlFRWmVmV1lSMS1zbUZkbFY3bzVSLWs2UUROS1diNVFRcDh1UA?oc=5",
-    "published": "2026-10-15T14:46:15+09:00",
+    "id": "b49b94a59298",
+    "title": "서울에 있는 北 ‘개성지점’…우리은행이 10년째 유지한 사연은 [김윤주의 금은동]",
+    "source": "이코노미스트",
+    "summary": "서울에 있는 北 ‘개성지점’…우리은행이 10년째 유지한 사연은 [김윤주의 금은동] 이코노미스트",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RSDc2d05USnhIRFAycVUwdW9WUTVVbTJOcXdOOHlLdjM1WnRuaXczSTdFM0JBWjFFaHNEWlJUcDJ5VTBKenZCcFNpXzRjcmRIbWJoQmYtNmhhN1NTbUlSV0tn?oc=5",
+    "published": "2026-10-17T08:04:14+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 7,
-    "_score": 19.0,
+    "rank": 2,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "a7549de75a00",
-        "title": "손님 없는 창구를 10년 지켰다…우리은행 '개성지점'이 아직 살아 있는 이유",
-        "source": "녹색경제신문",
-        "summary": "손님 없는 창구를 10년 지켰다…우리은행 '개성지점'이 아직 살아 있는 이유 녹색경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiWURpNHo0bWNOZ0tVTkg3VmVQQXk4TzY3NHFyYWtJeWVWbGsxeG0tLUNtaGgwRjZ0SktacUtrSGEyRm1ROGlYdHZ4ZzRaTDFUZjVWQlVtQjdxWmlkRXJnNmtxOWhET0xr?oc=5",
-        "published": "2026-10-15T17:40:07+09:00",
+        "id": "e02a56e2d76d",
+        "title": "은행권, 영업점부터 연수원까지 판다…부동자산 효율화 가속화",
+        "source": "데일리한국",
+        "summary": "은행권, 영업점부터 연수원까지 판다…부동자산 효율화 가속화 데일리한국",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBneXVrSkVQY2JqbkRRbS1PdDR3MlNreGhYRzJRLXFIcjhpdU5MY25lRmkwQThtMkJNQm95UlFKZzQwMjVXeC1zMER1aFkxMTd4ZnRJbGJzbmZVcllsVndtVWpRVTB3N3NoWERJak9sd9IBc0FVX3lxTE1pd29wZ1hHblE1SWRZVEt4bnlIRDZrbGlDUGNpdjR1QTZpNXFrZnRRSEcwR0tNdkZPZUhBS19xa2dONjd6MzdXNVZYS1F4NGZ4akI1NG1XQ1lfaDVQYUtTelNha0hZUHl2RlphQjY5NFR5WHM?oc=5",
+        "published": "2026-10-16T15:11:19+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "afca72f8c53d",
+        "title": "[은행 영업점의 자연선택⑤] “AX시대, 은행은 사라지지 않는다”",
+        "source": "파이낸셜투데이",
+        "summary": "[은행 영업점의 자연선택⑤] “AX시대, 은행은 사라지지 않는다” 파이낸셜투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jVWswQkxRWGdWamtKUXBadHZfdHlWNDY1T1lQREVVb3owZ1Z3M1FlWkdBdXo1TWJTakluWnFwaGZ6aldMVHp6VDhFR1VSQURIUTZUbjlEaUNkNVZ4OEdmMDhCWE15QjUyX3k40gFuQVVfeXFMUDRnZDBSRG81aHQ4eVNHeEhjVE1obHZ0aXZBS3VCQTdjMG5rTDQ4VnBBc2QyNHA2ZWFiWEJTYTItaXN3X0V1d3QzNkplREtwekJGMi1mUjdoak1VOFdkOGpwQmhsVHFWZVExTVl0cEE?oc=5",
+        "published": "2026-10-16T09:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +48,7 @@
         "published": "2026-10-15T14:07:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,19 +60,19 @@
         "published": "2026-10-15T11:42:13+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "8be1def51b8d",
-        "title": "영업점은 갤러리로, 시너지는 2조로…저축은행의 가을 결실 [저축은행 톡톡]",
-        "source": "매일일보",
-        "summary": "영업점은 갤러리로, 시너지는 2조로…저축은행의 가을 결실 [저축은행 톡톡] 매일일보",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rbUg2c2tWeFZrb0F2NU5INjhFdUdLaWVEVWFJVF9ZeEs5d243T1NMTFRkaTBFbnllQl8zOU9zWkRSQm5DUURMWVZLSlNsdGZWMW1tMG9NT1JhaVpGQ2FRSlNxUlo?oc=5",
-        "published": "2026-10-15T10:43:44+09:00",
-        "query": "은행 영업점",
+        "id": "87270ace6410",
+        "title": "외국인 예금 5년 새 49% 증가 … 영업점 줄이는 은행들, 외국인 점포는 늘린다",
+        "source": "뉴데일리",
+        "summary": "외국인 예금 5년 새 49% 증가 … 영업점 줄이는 은행들, 외국인 점포는 늘린다 뉴데일리",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVT3N6elFfaF9Va0QzQVB3Qk44anRZdkdGLXZlRUREc0l3aUFwa3psZDZWUF85ckVMSHVrSzF3Y21ZVGM2RFJlek1zSnlyRHpqTUVubHFzUXhfcEVzZkJSdFZyMWx6ZkZmS3F4UVp2M0MzaFlzeE1PbE1pd9IBgAFBVV95cUxPdFZVUHpnemNsUHd5VWdLUldMY214Mmp0b3hSXzhaeGU0dDBBbXR3VEJ0LU1IN3U1el9xWUlBVGxzSEV0OTV5d1dpVW5iOHJSNkROOXMtQUdadHBtRlFRWmVmV1lSMS1zbUZkbFY3bzVSLWs2UUROS1diNVFRcDh1UA?oc=5",
+        "published": "2026-10-15T11:27:10+09:00",
+        "query": "은행 점포",
         "engine": "google",
-        "rank": 6,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,7 +84,7 @@
         "published": "2026-10-15T09:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 10,
+        "rank": 15,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,7 +96,7 @@
         "published": "2026-10-15T06:20:05+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -120,8 +132,7 @@
         "published": "2026-10-14T09:00:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 13,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 16
       },
       {
         "id": "7eb6bb6b5888",
@@ -135,28 +146,6 @@
         "rank": 8
       },
       {
-        "id": "c08d0cbe9344",
-        "title": "[은행 영업점의 자연선택②] “오후 4시 이후에도 은행은 필요했다”",
-        "source": "파이낸셜투데이",
-        "summary": "[은행 영업점의 자연선택②] “오후 4시 이후에도 은행은 필요했다” 파이낸셜투데이",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hZ3FwSk1lWEpFcElEVmltRnF4Z3hZZFQtQTlXanVrTXQ1WHNsWjhGdE52c2tzaWZEVElFcG1RR3ItNUJJWTFMemhKSVBGaVItSzFCdHJPTEl2cUtpam93T0dGbnFHSEVpcU5V0gFuQVVfeXFMUEtDMHpqaFU2c09NNU5zTjZjSG9wbDc3dGRnSzJzc1JFTVBBakQ5OWJYNkxMSWwtaE5HWmZrcjEyZjhYckN3eTVhZndJbXo3N2ZrS0Rtb3RtdjBpVkFMbjdQbWZ6Zm5RYjJhczhBb3c?oc=5",
-        "published": "2026-10-13T09:00:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 14
-      },
-      {
-        "id": "5f9fee5a5d36",
-        "title": "[은행 영업점의 자연선택①] “스무 살을 만나는 은행, 대학 앞에서 앱으로 갔다”",
-        "source": "파이낸셜투데이",
-        "summary": "[은행 영업점의 자연선택①] “스무 살을 만나는 은행, 대학 앞에서 앱으로 갔다” 파이낸셜투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JbjdOY1RJUjFuNGhId2RHMnctSElja25FX0ZPcnFxWXJ3TFFkdnAyUFFCUy1WUXlTaGFHSndLM3FxYWJCaWJ1a291QkxOMUJuNFhBSjY0TlNNVjdlSllRcm9GRmxEV3VCVnfSAW5BVV95cUxPRUM3bndJbXcxaXZ3REZyOENxRXN6ZGg4WDl6cVRsMlRMcWo5TjFLRUFrcTZTajRGLVU0VkZxZ1dxd2hIUmN3THpsQlpKbS1lOGhFeTBDdml5VU0wNXVuNXh1M3VNTGhUTHBMQmZkZw?oc=5",
-        "published": "2026-10-12T11:00:43+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 15
-      },
-      {
         "id": "7522d74439a0",
         "title": "대구·경북 은행 점포 10년 새 173곳 사라져",
         "source": "Tbc.co.kr",
@@ -165,31 +154,20 @@
         "published": "2026-10-12T10:53:11+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5
-      },
-      {
-        "id": "fc31e7ee0b01",
-        "title": "비대면 금융 NO∼ 은행 점포, 주민과 공유 ‘밀착 마케팅’ [마이머니]",
-        "source": "세계일보",
-        "summary": "비대면 금융 NO∼ 은행 점포, 주민과 공유 ‘밀착 마케팅’ [마이머니] 세계일보",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CUGNmc2JwdHBnMXpaX2pMT2trcDRDM3hmOUtBTkktUE9DRTRpQWg2ZDRQTHhzUFhZYUJ4dnRuOVlLcU1ETmFod041a2tQQVRMZXVrRlExNWrSAVRBVV95cUxOeEV6THRmdzRFbUV4RW4yYTdyVzBjakMzNGdTblpBVmItTVJ2TDdRc1JHSkpfMW81UGZqZzk5T3hyTFU0aE1jX2dFdFVFcmFVbUktRjI?oc=5",
-        "published": "2026-10-12T06:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 13
+        "rank": 7
       }
     ],
     "policy_news": [
       {
-        "id": "6ad7e06bc807",
-        "title": "[단독]금감원, 한국투자증권 거점점포 검사 돌입 - 머니투데이",
-        "source": "머니투데이",
-        "summary": "[단독]금감원, 한국투자증권 거점점포 검사 돌입 - 머니투데이 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4YmVOZDNqOFJYN1N2UmhfX2dUY2lWWXR6LXBCdFJDZGlmb2FTN0d2Tzg2ODFLYm1JVHNDcWdlaTlTdlZBWW9tWEEtUDRaN3pwamJBTjc1TFF4TV9Hcl9IaFBBTUxYbHNydmc1YW1n0gFuQVVfeXFMUHhiZU5kM2o4Ulg3U3ZSaF9fZ1RjaVZZdHotcEJ0UkNkaWZvYVM3R3ZPODY4MUtibUlUc0NxZ2VpOVN2VkFZb21YQS1QNFo3enBqYkFONzVMUXhNX0dyX0hoUEFNTFhsc3J2ZzVhbWc?oc=5",
-        "published": "2026-10-15T16:11:46+09:00",
+        "id": "869e95ddc8b3",
+        "title": "금감원, 한국투자증권 거점점포 검사 돌입…PB 과당매매 등 점검",
+        "source": "SBS Biz",
+        "summary": "금감원, 한국투자증권 거점점포 검사 돌입…PB 과당매매 등 점검 SBS Biz",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYQjk1d0tIcG43X1hhSmxRbUNFbzkxUjB5V25jMUFkRjlRbU1YRFdpNE90YnlFVFJnOHFBMlctNXBoV01lT2JPR2JyNWRGRENncVlNRWYyQXHSAVhBVV95cUxQWEI5NXdLSHBuN19YYUpsUW1DRW85MVIweVduYzFBZEY5UW1NWERXaTRPdGJ5RVRSZzhxQTJXLTVwaFdNZU9iT0dicjVkRkRDZ3FZTUVmMkFx?oc=5",
+        "published": "2026-10-16T09:41:00+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -201,11 +179,23 @@
         "published": "2026-10-12T15:37:00+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "shinhan_news": [
+      {
+        "id": "225ae2b6a239",
+        "title": "신한은행, 국내 정보유출 넉 달 전 中서 '보안' 제재…올해 외국계 첫 사례",
+        "source": "뉴스핌",
+        "summary": "신한은행, 국내 정보유출 넉 달 전 中서 '보안' 제재…올해 외국계 첫 사례 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pTWcwUVl1TjRwTE1hS1BBc2NuX2tFS1FUbHpoVGM4amk3ZVIzV2lwWFdySzlIdHVaNTg4eTAyV0dOQmctQlhCaW4wT2RWSEFxa01jbnZVTzQxNlVl?oc=5",
+        "published": "2026-10-16T10:52:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "31157938dfc7",
         "title": "신한은행, 대림동지점에 외국인 소통 공간 마련",
@@ -215,7 +205,7 @@
         "published": "2026-10-15T09:06:00+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 4,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -239,7 +229,7 @@
         "published": "2026-10-14T20:16:00+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 9,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -263,7 +253,7 @@
         "published": "2026-10-13T17:00:11+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 12,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -275,7 +265,7 @@
         "published": "2026-10-13T14:00:23+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -287,7 +277,7 @@
         "published": "2026-10-11T14:46:53+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 11,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
