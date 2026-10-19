@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12T17:19:26+09:00",
+  "as_of": "2026-10-19T09:48:36+09:00",
   "regions": {
     "강원 강릉시": {
       "sido": "강원",
@@ -3541,7 +3541,7 @@
     "서울 서초구": {
       "sido": "서울",
       "sigungu": "서초구",
-      "branch_count": 59,
+      "branch_count": 58,
       "population": {
         "value": 420794,
         "period": "202609",
@@ -3676,7 +3676,7 @@
     "서울 영등포구": {
       "sido": "서울",
       "sigungu": "영등포구",
-      "branch_count": 46,
+      "branch_count": 47,
       "population": {
         "value": 371156,
         "period": "202609",
@@ -5566,11 +5566,15 @@
     }
   },
   "diagnostics": {
-    "source": "r_one",
-    "kosis_key": "skip",
-    "r_one_key": "set",
+    "source": "kosis",
+    "kosis_key": "set",
+    "r_one_key": "skip",
     "region_count": 209,
-    "seoul_key": "skip",
+    "seoul_key": "set",
+    "kosis_biz_error": "kosis_biz_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
+    "kosis_income_error": "kosis_income_api_error: {'err': '21', 'errMsg': '해당 통계표가 존재하지 않습니다.'}",
+    "seoul_warn": "seoul_init_xml_error: ERROR-332: 요청종료위치 값을 확인하십시오.\n요청인자 중 END_INDEX를 확인하십시오.",
+    "seoul_districts": 0,
     "population_ok": 199,
     "population_fail": 10,
     "businesses_ok": 0,
