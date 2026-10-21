@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-10-20T09:34:32.130009+09:00",
+  "updated_at": "2026-10-21T09:04:43.549556+09:00",
   "headline": {
-    "id": "cd7abfc18cf7",
-    "title": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입",
-    "source": "중앙신문",
-    "summary": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입 중앙신문",
-    "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQRzdXMTgwN2s4M2NXWGFYQUFiaWxrVkRWMV9ONkVXaURwdFhIaU5mVzZHVzI5eVY4M0p4dURQbll3X29yX3k5b3RmNEx5TzNMejNFZF92NzFUR2xCa1FPTldtQmM0NUVpYl83Ty1qTkFseURheWJwMC1lRjFhalBNTXJsNVJkaTFIRnFkUmFaQldwU1hMZEwyNmh6cThjbUplRG41ZEJsU3E3c1FJZkxvTVMzcWdhNlBYS1l4dHRDdXNnaTFHYXhFSHpxLW1WbWtyWmtfTVd0bW5LZlJRbDBxbU1fU0RzMjJub2J1RlZBSDBTWXkxd19DeEw5SG93M25GLU80OURZc3U1dG5hTW1jS2RrY3NLd1MybzJfTlZIQzBZMlJXc1R1MHhNY3BlZkRGUzlr?oc=5",
-    "published": "2026-10-20T02:32:06+09:00",
-    "query": "은행 영업점",
+    "id": "4abb4812de2e",
+    "title": "연수구의회 구영미 의원실, 우리은행 지점 이전 후 불편 컸던 옥련동, ATM 설치로 숨통 트인다”",
+    "source": "뉴뉴스",
+    "summary": "연수구의회 구영미 의원실, 우리은행 지점 이전 후 불편 컸던 옥련동, ATM 설치로 숨통 트인다” 뉴뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15Q1lvb0VHMUFWT2lIOGNnZkpJVTFkLVNJdnJzRlBkYlNVZk9yMkV5RjVJdkFNVS1rZVRldk1pdm9SeHVqZTFZOGczMUZwTDlndkNhRzVFb2Exbmw2MnJkMTBCSTJrQQ?oc=5",
+    "published": "2026-10-20T21:10:36+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 5,
-    "_score": 18.0,
+    "rank": 2,
+    "_score": 16.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "612faa9e2383",
+        "title": "수협은행 금융사기 피해 90% 법인계좌···한 영업점서 321건",
+        "source": "더리포트",
+        "summary": "수협은행 금융사기 피해 90% 법인계좌···한 영업점서 321건 더리포트",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtNDFPWmJuVTJ6cG5nWDN2Umt4aUZIMGpBUDdxclB0YzhJRDRTRkZSbXEyTWVNbmctZEpWemhIZHo0NksybnVpUURKaTUwNGZYNGNDc2llMHNyMGU4WTN0TE45c2xjbFJwY3lhRGlB?oc=5",
+        "published": "2026-10-20T09:55:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "7db489773ea1",
         "title": "농협은행, 영업점 10곳에 ‘시재관리기’ 시범 도입",
@@ -28,18 +40,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "92f4d3237321",
-        "title": "[국감] 4년만에 국감장 선 5대 은행장…“해킹사과, 점포 운영 재검토”",
-        "source": "오늘경제",
-        "summary": "[국감] 4년만에 국감장 선 5대 은행장…“해킹사과, 점포 운영 재검토” 오늘경제",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13VVRPWTFfQ1lKYmRKSWUzS2xpWHBxSkU4MVNsd2w3ZGpWNzhNWmw0QVVNbzNpeHNVRHVkVk5pbk1ZUEhoa0dDcmszU2JJSzIyc3NyaUJ5czEzTUV3Y001RGpkdWU4Tlh4bXMzb24xU0RhUWs?oc=5",
-        "published": "2026-10-19T18:10:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 13,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "254b0ba252a8",
         "title": "5대 은행장, 국감서 나란히 “오프라인 점포 폐쇄, 신중히 재검토”",
         "source": "시사저널",
@@ -48,7 +48,7 @@
         "published": "2026-10-19T18:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,29 +60,17 @@
         "published": "2026-10-19T17:55:03+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "04af13bdf2da",
-        "title": "[2026년 국감] 5대 은행장, 해킹·점포 축소에 줄줄이 사과…보안 투자·금융 접근성 개선 약속",
-        "source": "굿모닝경제",
-        "summary": "[2026년 국감] 5대 은행장, 해킹·점포 축소에 줄줄이 사과…보안 투자·금융 접근성 개선 약속 굿모닝경제",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YcE1GNTk3aGw5N19rMGhuR0tkMzlUaTNNZGJoMmVKeDlqZHQyNGRGOS1YbDhsbm1fbW1faEJRZjAxbFkybkNkN2RoMFRLSmhsYzR2SUpsN295RkRDOVlZbkxwcXZPYnhWTTFfYQ?oc=5",
-        "published": "2026-10-19T17:06:33+09:00",
-        "query": "은행 점포",
-        "engine": "google",
         "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "7f305e0a14a6",
-        "title": "5대 은행장 \"점포 폐쇄 신중 검토...금융 취약계층 불편 살필 것\"",
-        "source": "파이낸셜뉴스",
-        "summary": "5대 은행장 \"점포 폐쇄 신중 검토...금융 취약계층 불편 살필 것\" 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0RGpuOHplWE5nRFozcHNndFRrcDNRTFhONktNTnQxZ1k0ZmpVM2pZQXF6WEFJVDhwNFdscmtTenNFWlVybUZZTjhPTEdVakt0SFpPbVVqZ0xIZw?oc=5",
-        "published": "2026-10-19T16:25:50+09:00",
-        "query": "은행 점포",
+        "id": "e2b18385e4bd",
+        "title": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입",
+        "source": "현대경제신문",
+        "summary": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입 현대경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLaXlfc2pZMG05aVFJSU1ScEJEMzB0QllZUVVJNFJlSnNYTThsdFdHamthUy1JSUFfUEt2NlYxUlYzTFktSGoxUGhCTmFXUy1kMm9ycW13S0hoVC1vUXRuSW9QVVRxeEXSAWtBVV95cUxOUUs5eVZ0TlRocExOeGtwNEloRDNLM2JlZkhsRGZmak5DLU1hQk5TNzZ1NmY2RWxIMG1tSFc1aU4wMjh5V1ROdTRkdDdwOVRmSE5FVWViYmJVejJwQmFLTGJXOXFSOHVHWlNrNA?oc=5",
+        "published": "2026-10-19T17:10:32+09:00",
+        "query": "은행 영업점",
         "engine": "google",
         "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
@@ -96,7 +84,7 @@
         "published": "2026-10-19T16:09:43+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -108,7 +96,7 @@
         "published": "2026-10-19T06:05:00+09:00",
         "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 3,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -120,7 +108,7 @@
         "published": "2026-10-18T16:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -132,29 +120,8 @@
         "published": "2026-10-17T08:04:14+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 14
-      },
-      {
-        "id": "8383d4864ce8",
-        "title": "[은행 영업점의 자연선택⑤] “AX시대, 은행은 사라지지 않는다”",
-        "source": "파이낸셜투데이",
-        "summary": "[은행 영업점의 자연선택⑤] “AX시대, 은행은 사라지지 않는다” 파이낸셜투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSXy1GeWJab0U2RUFDZm5pNGZEUlotbUhmR2ZqY1U1VWRpcDQ1aXAySHY4Uzl1OGNBY0dYNElFTDBjdWFMVmRVRGFwa0JzNmZucE1ZZEtrUHd4eTVsRjFJbjMxd0FYNHItdGfSAW5BVV95cUxQNGdkMFJEbzVodDh5U0d4SGNUTWhsdnRpdkFLdUJBN2MwbmtMNDhWcEFzZDI0cDZlYWJYQlNhMi1pc3dfRXV3dDM2SmVES3B6QkYyLWZSN2hqTVU4V2Q4anBCaGxUcVZlUTFNWXRwQQ?oc=5",
-        "published": "2026-10-16T09:00:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 13
-      },
-      {
-        "id": "cf903fcb8d2b",
-        "title": "점포 통폐합 나선 은행들… 외국인 특화 점포는 확대",
-        "source": "문화일보",
-        "summary": "점포 통폐합 나선 은행들… 외국인 특화 점포는 확대 문화일보",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGLU52RU1DeGI3aDM3Y25hT0xMVlZfbnNMRGlLSldnbElSbHZlQURtMENoQVA4cFVzWEY3dDFwUERLcWw0M2ZwbEl6OEFoVkIt?oc=5",
-        "published": "2026-10-15T11:42:13+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 11
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [
@@ -181,7 +148,7 @@
         "published": "2026-10-19T16:32:05+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -193,7 +160,7 @@
         "published": "2026-10-17T15:18:42+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 4,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -205,7 +172,7 @@
         "published": "2026-10-17T15:15:55+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 4,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -217,43 +184,7 @@
         "published": "2026-10-16T10:52:00+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "31157938dfc7",
-        "title": "신한은행, 대림동지점에 외국인 소통 공간 마련",
-        "source": "비즈월드",
-        "summary": "신한은행, 대림동지점에 외국인 소통 공간 마련 비즈월드",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WZjNwZjE5Ui1MWFFxZXBlTzB2TFg0U1ZVQzdQY1ZfcjhRRUlZWmFGR2pFeHk2TGJSS2NKNnVvd1prM19WbXdRMlZYa0xtMlowdU5DTWlKM0tCejQyYlk1WGZ0b0VtRTVpbFlJ?oc=5",
-        "published": "2026-10-15T09:06:00+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
         "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "94679cc6b85c",
-        "title": "﻿신한은행, '신한 SOL Global Lounge 대림동' 개소식",
-        "source": "뉴스프리존",
-        "summary": "﻿신한은행, '신한 SOL Global Lounge 대림동' 개소식 뉴스프리존",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IZzNUYWswQmJtMDl6Y3lKUnJxOFRkSk5wd3p0T2M4MklpNEN3STgzdkxnRlZJUFYtM1R3dEo5QUh6cTluMVRRTE1RVER6d19CYmY0Q1V1ZEdyczlsTm5ZQi1tUzdZUGtpczhUM0ZyZjU4TjDSAXdBVV95cUxObEdqNzdtUElTTU10Z2FDQWM5TUZrY0tLTi14ZTRzb1hEbmNDWUh0ejQyd2RXT3ZWRnF6RncyTnN5Zkp5bWtJWm5mYkdVV09MSk56UjBiN2Y1dzFETFBjNXBqZlZybzRkc1Fta1NZWUZqZGdKNGkzaw?oc=5",
-        "published": "2026-10-14T16:31:09+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "16cd2a68a578",
-        "title": "[금융권 풍향계] 신한은행, 외국인 금융교육·해운기업 지원 확대 外",
-        "source": "에너지경제신문",
-        "summary": "[금융권 풍향계] 신한은행, 외국인 금융교육·해운기업 지원 확대 外 에너지경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvRWhuM3pjcnplb0FDM1IxdzllOVc5TnpEb2pCUDZQYUFmSTB5SFdTNC1IQlBlam9DbkJESUtmT3oyNmhvTWNyV29rZVd4bFJTLXdGZ2xxR1c0cjg?oc=5",
-        "published": "2026-10-13T17:00:11+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
