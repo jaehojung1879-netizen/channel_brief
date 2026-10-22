@@ -1,20 +1,56 @@
 {
-  "updated_at": "2026-10-21T09:04:43.549556+09:00",
+  "updated_at": "2026-10-22T09:09:23.063503+09:00",
   "headline": {
-    "id": "4abb4812de2e",
-    "title": "연수구의회 구영미 의원실, 우리은행 지점 이전 후 불편 컸던 옥련동, ATM 설치로 숨통 트인다”",
-    "source": "뉴뉴스",
-    "summary": "연수구의회 구영미 의원실, 우리은행 지점 이전 후 불편 컸던 옥련동, ATM 설치로 숨통 트인다” 뉴뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15Q1lvb0VHMUFWT2lIOGNnZkpJVTFkLVNJdnJzRlBkYlNVZk9yMkV5RjVJdkFNVS1rZVRldk1pdm9SeHVqZTFZOGczMUZwTDlndkNhRzVFb2Exbmw2MnJkMTBCSTJrQQ?oc=5",
-    "published": "2026-10-20T21:10:36+09:00",
+    "id": "2f9df88e0889",
+    "title": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다",
+    "source": "뉴스핌",
+    "summary": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다 뉴스핌",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GclVDZldGcDltYlRYX2RybWFHNVhEeTlCa0IyRFk2UUxJa3lhMTRRMk05MTREOWcxWE5RQ19wS1hWMjlsNHZudkNhS245a2d0bnlZNTFTb2F2aHZF?oc=5",
+    "published": "2026-10-21T14:33:00+09:00",
     "query": "은행 점포",
     "engine": "google",
     "rank": 2,
-    "_score": 16.0,
+    "_score": 26.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "c88195178042",
+        "title": "광화문 달려간 기업은행 4000명…일부지점 “입출금만 됩니다” [가봤더니]",
+        "source": "쿠키뉴스",
+        "summary": "광화문 달려간 기업은행 4000명…일부지점 “입출금만 됩니다” [가봤더니] 쿠키뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZRms4WVU1NXdvSjhGUWZYRW5XWTA3X2QteFd6NGF0Qjg3STFDX1VfaGNGZlV3OG5WSWctbUx3TXZjS1BJYnU5akhEdFNJUk9fQWNmQjlMT1dLc2RQYTZPOUJhcw?oc=5",
+        "published": "2026-10-21T17:09:45+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2829326c9f84",
+        "title": "하나은행, 점포 감축 역행…영업점 17곳 순증",
+        "source": "PRESS9",
+        "summary": "하나은행, 점포 감축 역행…영업점 17곳 순증 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42dWR1Q09rMHpWUGpqOHNaU01FZHZ5Wlk5UFpYSVRLcmtEOEc0ODdQd0pRWWtFTERWSVdmVlVTc00tWGMzNkRqMm1zdExDVkppcG1iQzY5YmdWLXVZWFpBX1Axd2FoUQ?oc=5",
+        "published": "2026-10-21T13:52:40+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "4abb4812de2e",
+        "title": "연수구의회 구영미 의원실, 우리은행 지점 이전 후 불편 컸던 옥련동, ATM 설치로 숨통 트인다”",
+        "source": "뉴뉴스",
+        "summary": "연수구의회 구영미 의원실, 우리은행 지점 이전 후 불편 컸던 옥련동, ATM 설치로 숨통 트인다” 뉴뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15Q1lvb0VHMUFWT2lIOGNnZkpJVTFkLVNJdnJzRlBkYlNVZk9yMkV5RjVJdkFNVS1rZVRldk1pdm9SeHVqZTFZOGczMUZwTDlndkNhRzVFb2Exbmw2MnJkMTBCSTJrQQ?oc=5",
+        "published": "2026-10-20T21:10:36+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 10,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "612faa9e2383",
         "title": "수협은행 금융사기 피해 90% 법인계좌···한 영업점서 321건",
@@ -24,7 +60,7 @@
         "published": "2026-10-20T09:55:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +72,19 @@
         "published": "2026-10-19T19:08:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "a29d038adb2e",
+        "title": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입",
+        "source": "현대경제신문",
+        "summary": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입 현대경제신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RSzl5VnROVGhwTE54a3A0SWhEM0szYmVmSGxEZmZqTkMtTWFCTlM3NnU2ZjZFbEgwbW1IVzVpTjAyOHlXVE51NGR0N3A5VGZITkVVZWJiYlV6MnBCYUtMYlc5cVI4dUdaU2s00gFrQVVfeXFMTlFLOXlWdE5UaHBMTnhrcDRJaEQzSzNiZWZIbERmZmpOQy1NYUJOUzc2dTZmNkVsSDBtbUhXNWlOMDI4eVdUTnU0ZHQ3cDlUZkhORVVlYmJiVXoycEJhS0xiVzlxUjh1R1pTazQ?oc=5",
+        "published": "2026-10-19T18:40:31+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +96,7 @@
         "published": "2026-10-19T18:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,19 +108,7 @@
         "published": "2026-10-19T17:55:03+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "e2b18385e4bd",
-        "title": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입",
-        "source": "현대경제신문",
-        "summary": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입 현대경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLaXlfc2pZMG05aVFJSU1ScEJEMzB0QllZUVVJNFJlSnNYTThsdFdHamthUy1JSUFfUEt2NlYxUlYzTFktSGoxUGhCTmFXUy1kMm9ycW13S0hoVC1vUXRuSW9QVVRxeEXSAWtBVV95cUxOUUs5eVZ0TlRocExOeGtwNEloRDNLM2JlZkhsRGZmak5DLU1hQk5TNzZ1NmY2RWxIMG1tSFc1aU4wMjh5V1ROdTRkdDdwOVRmSE5FVWViYmJVejJwQmFLTGJXOXFSOHVHWlNrNA?oc=5",
-        "published": "2026-10-19T17:10:32+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 6,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,7 +120,7 @@
         "published": "2026-10-19T16:09:43+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 6,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,8 +132,7 @@
         "published": "2026-10-19T06:05:00+09:00",
         "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 2
       },
       {
         "id": "813c07b16f83",
@@ -108,37 +143,48 @@
         "published": "2026-10-18T16:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 8,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "b49b94a59298",
-        "title": "서울에 있는 北 ‘개성지점’…우리은행이 10년째 유지한 사연은 [김윤주의 금은동]",
-        "source": "이코노미스트",
-        "summary": "서울에 있는 北 ‘개성지점’…우리은행이 10년째 유지한 사연은 [김윤주의 금은동] 이코노미스트",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RSDc2d05USnhIRFAycVUwdW9WUTVVbTJOcXdOOHlLdjM1WnRuaXczSTdFM0JBWjFFaHNEWlJUcDJ5VTBKenZCcFNpXzRjcmRIbWJoQmYtNmhhN1NTbUlSV0tn?oc=5",
-        "published": "2026-10-17T08:04:14+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 9,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 11
       }
     ],
     "policy_news": [
       {
-        "id": "869e95ddc8b3",
-        "title": "금감원, 한국투자증권 거점점포 검사 돌입…PB 과당매매 등 점검",
-        "source": "SBS Biz",
-        "summary": "금감원, 한국투자증권 거점점포 검사 돌입…PB 과당매매 등 점검 SBS Biz",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYQjk1d0tIcG43X1hhSmxRbUNFbzkxUjB5V25jMUFkRjlRbU1YRFdpNE90YnlFVFJnOHFBMlctNXBoV01lT2JPR2JyNWRGRENncVlNRWYyQXHSAVhBVV95cUxQWEI5NXdLSHBuN19YYUpsUW1DRW85MVIweVduYzFBZEY5UW1NWERXaTRPdGJ5RVRSZzhxQTJXLTVwaFdNZU9iT0dicjVkRkRDZ3FZTUVmMkFx?oc=5",
-        "published": "2026-10-16T09:41:00+09:00",
-        "query": "금감원 점포",
+        "id": "4cc9452d3247",
+        "title": "'은행 지점 대신 우체국으로?'…달라지는 금융 창구",
+        "source": "스포츠한국",
+        "summary": "'은행 지점 대신 우체국으로?'…달라지는 금융 창구 스포츠한국",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80T0JacF9TVC1CNEg0VEdIZHphRDhRaDhMTlEwTHlyUVdraVo4UlBCSjdsQTJNakxEeHY1eEswRXE1b1dhWktkNTBfWE81VHhSZEx5SGs4dXNpSlRsWXBUYUg4OWJPR25zUlgxTFg3aVDSAXRBVV95cUxNUmQ5ZkY4enFqU29Rb25Hb0tWU1Fqb3RlWlNYRXRpTlAyeHc1QW9GdmJkSTBQSC1ZVUtpeTJTOXJxY0hkV3NGSWZYTjVTOEdQQnhRT2xOUjhCd3VUOW4wUWtZNHh1TUIzQkxiQkVNeGNCdFgxRA?oc=5",
+        "published": "2026-10-18T16:00:00+09:00",
+        "query": "금융위 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "shinhan_news": [
+      {
+        "id": "f59e01ee4487",
+        "title": "[포토뉴스]동해항운노조·신한은행 동해지점, 북평·송정동 이웃에 ‘사랑의 연탄’ 각 1,500장 전달",
+        "source": "강원일보",
+        "summary": "[포토뉴스]동해항운노조·신한은행 동해지점, 북평·송정동 이웃에 ‘사랑의 연탄’ 각 1,500장 전달 강원일보",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uR1h4R21NUlFRMUREYkZmN0wzVktqSzEzWEZTenNTWVpETzdsMEE0MWhtRm1UQ3FZQ24ySHh5aTg0Nm5pNVFGaFNuZVJOc3ZqazJUdFNtZ01GUXc?oc=5",
+        "published": "2026-10-21T11:03:16+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "7f64cfb4c178",
+        "title": "자주 쓰는 메뉴를 찾아보는 신한은행 365코너 메인카지노금연게임룸 화면 탐색",
+        "source": "Calgary Roughnecks",
+        "summary": "자주 쓰는 메뉴를 찾아보는 신한은행 365코너 메인카지노금연게임룸 화면 탐색 Calgary Roughnecks",
+        "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQakFIa1pUMFdvSENxdnFEbGMtZnJhYjAtVjJNN19DVmNMOG50b0JuTlMzc3BnYmJKdU9WZ1ZDX1JQd2xhbzZBM1YxcjN2VTZYa3Bza1c2cjVUZjJFQ29BbXNLODhscFQ4SkdsQVBRaXpPMHZadm1UOE5iOFJUVDZXSUdXYkFOUjRyS2xFaUY4MFlxZGpuRDdlRjRwMVFvN3kzMzFRQjEyTzNRUjVQQWJoN1hVd2k5N2RsYjJYeTRpcGJSZnhWR3RidXIwNG1rRnFGOTB0NkJiMjVTWVgyR0VDSHd6WjJ3Nnlfai16cnZqR1Iya2xLNzhlTHlrTHNUcGdfSDlITzNkbXRqNng3NnV2NDhwaDNVaXVzTWZPWE9WQVlBS0hYZ2hBWFhkSQ?oc=5",
+        "published": "2026-10-20T19:35:16+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "955c456c7751",
         "title": "정상혁 신한은행장 “개인정보 유출 송구…점포 폐쇄는 충분히 검토” [2026 국감]",
@@ -148,19 +194,7 @@
         "published": "2026-10-19T16:32:05+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "bcf9fa20cefb",
-        "title": "게임 정보에서 달라진 부분을 찾는 신한은행 365코너 메인카지노금연게임룸 업데이트 읽기",
-        "source": "Calgary Roughnecks",
-        "summary": "게임 정보에서 달라진 부분을 찾는 신한은행 365코너 메인카지노금연게임룸 업데이트 읽기 Calgary Roughnecks",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSEYwb3lyQTFFOGVSeHZMeFVsVVpmdDMtYWJwSi1Ea1ZDalFZQ1pCcDkwN1N3TzRqRjBRTjdMM2VJaEpiUS1IUDJyNGd4TFVqeWhVRFNLeFQxZTNqRllfY2tZaFJhZllnSXh0Qjltc1VFckF5VTI1OW9neXJBOV8ydA?oc=5",
-        "published": "2026-10-17T15:18:42+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 10,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -172,19 +206,7 @@
         "published": "2026-10-17T15:15:55+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "225ae2b6a239",
-        "title": "신한은행, 국내 정보유출 넉 달 전 中서 '보안' 제재…올해 외국계 첫 사례",
-        "source": "뉴스핌",
-        "summary": "신한은행, 국내 정보유출 넉 달 전 中서 '보안' 제재…올해 외국계 첫 사례 뉴스핌",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pTWcwUVl1TjRwTE1hS1BBc2NuX2tFS1FUbHpoVGM4amk3ZVIzV2lwWFdySzlIdHVaNTg4eTAyV0dOQmctQlhCaW4wT2RWSEFxa01jbnZVTzQxNlVl?oc=5",
-        "published": "2026-10-16T10:52:00+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 2,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
