@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-10-22T09:09:23.063503+09:00",
+  "updated_at": "2026-10-23T09:06:46.529734+09:00",
   "headline": {
-    "id": "2f9df88e0889",
-    "title": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다",
-    "source": "뉴스핌",
-    "summary": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다 뉴스핌",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GclVDZldGcDltYlRYX2RybWFHNVhEeTlCa0IyRFk2UUxJa3lhMTRRMk05MTREOWcxWE5RQ19wS1hWMjlsNHZudkNhS245a2d0bnlZNTFTb2F2aHZF?oc=5",
-    "published": "2026-10-21T14:33:00+09:00",
+    "id": "2e4b7e247f20",
+    "title": "해외점포 '맹탕 감사'에 금감원 감독 공백…은행 동남아 줄사고, 美선 '과징금 폭탄'",
+    "source": "아시아경제",
+    "summary": "해외점포 '맹탕 감사'에 금감원 감독 공백…은행 동남아 줄사고, 美선 '과징금 폭탄' 아시아경제",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vVzZGR3dmZTdZWWQ3U2R1VGlRa1lLT2l0aXVTRHhDeVZILWViYkZUZzlyYTVuVkwySGFYNGh1bUMwWFBUX2lEbzRzSFRRS3IxMzFhMzNtb3o1OVlRZ1FsXw?oc=5",
+    "published": "2026-10-22T11:00:00+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 2,
-    "_score": 26.0,
+    "rank": 5,
+    "_score": 17.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "d8f07e41cd2a",
+        "title": "5대銀, 일반점포 줄이고 PB·WM센터 늘려…보안프로그램 취약점·피싱 배상 쟁점 [2026 국감-은행②]",
+        "source": "한국금융신문",
+        "summary": "5대銀, 일반점포 줄이고 PB·WM센터 늘려…보안프로그램 취약점·피싱 배상 쟁점 [2026 국감-은행②] 한국금융신문",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtMXkyTWV4NnV5TWhweFVJQV9JVXVtaDlsc3RjQjRXOUVKQlhYTGNjVWg5V1pTUXBORXJJZ21aLW9PTGlRT0tSR0tiUEZHVUY3dGtNblJtdkhlaVlsWVYyeFUyMUJ0N2dteXhadkFuTzJEZ2ZPa2NYWEhydw?oc=5",
+        "published": "2026-10-23T09:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "00ac9552641c",
+        "title": "NH농협은행 포천시지부 영업점 임시이전 안내",
+        "source": "포천신문",
+        "summary": "NH농협은행 포천시지부 영업점 임시이전 안내 포천신문",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0yLTEyNVo1QXcxLVFSQlVPV2JZTVdUOXdTZ0IxZmlpc2lzOXhzYV9JUWlrT1lycnlxd1NuTWNJb2YyQU0zVVBDMDZEVmlDWWc?oc=5",
+        "published": "2026-10-22T14:35:36+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "c88195178042",
         "title": "광화문 달려간 기업은행 4000명…일부지점 “입출금만 됩니다” [가봤더니]",
@@ -22,9 +46,21 @@
         "summary": "광화문 달려간 기업은행 4000명…일부지점 “입출금만 됩니다” [가봤더니] 쿠키뉴스",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZRms4WVU1NXdvSjhGUWZYRW5XWTA3X2QteFd6NGF0Qjg3STFDX1VfaGNGZlV3OG5WSWctbUx3TXZjS1BJYnU5akhEdFNJUk9fQWNmQjlMT1dLc2RQYTZPOUJhcw?oc=5",
         "published": "2026-10-21T17:09:45+09:00",
-        "query": "은행 점포",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 13,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "2f9df88e0889",
+        "title": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다",
+        "source": "뉴스핌",
+        "summary": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GclVDZldGcDltYlRYX2RybWFHNVhEeTlCa0IyRFk2UUxJa3lhMTRRMk05MTREOWcxWE5RQ19wS1hWMjlsNHZudkNhS245a2d0bnlZNTFTb2F2aHZF?oc=5",
+        "published": "2026-10-21T14:33:00+09:00",
+        "query": "은행 폐쇄",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -34,9 +70,9 @@
         "summary": "하나은행, 점포 감축 역행…영업점 17곳 순증 PRESS9",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42dWR1Q09rMHpWUGpqOHNaU01FZHZ5Wlk5UFpYSVRLcmtEOEc0ODdQd0pRWWtFTERWSVdmVlVTc00tWGMzNkRqMm1zdExDVkppcG1iQzY5YmdWLXVZWFpBX1Axd2FoUQ?oc=5",
         "published": "2026-10-21T13:52:40+09:00",
-        "query": "은행 점포",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,19 +84,7 @@
         "published": "2026-10-20T21:10:36+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "612faa9e2383",
-        "title": "수협은행 금융사기 피해 90% 법인계좌···한 영업점서 321건",
-        "source": "더리포트",
-        "summary": "수협은행 금융사기 피해 90% 법인계좌···한 영업점서 321건 더리포트",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtNDFPWmJuVTJ6cG5nWDN2Umt4aUZIMGpBUDdxclB0YzhJRDRTRkZSbXEyTWVNbmctZEpWemhIZHo0NksybnVpUURKaTUwNGZYNGNDc2llMHNyMGU4WTN0TE45c2xjbFJwY3lhRGlB?oc=5",
-        "published": "2026-10-20T09:55:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 12,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,19 +96,7 @@
         "published": "2026-10-19T19:08:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "a29d038adb2e",
-        "title": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입",
-        "source": "현대경제신문",
-        "summary": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입 현대경제신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RSzl5VnROVGhwTE54a3A0SWhEM0szYmVmSGxEZmZqTkMtTWFCTlM3NnU2ZjZFbEgwbW1IVzVpTjAyOHlXVE51NGR0N3A5VGZITkVVZWJiYlV6MnBCYUtMYlc5cVI4dUdaU2s00gFrQVVfeXFMTlFLOXlWdE5UaHBMTnhrcDRJaEQzSzNiZWZIbERmZmpOQy1NYUJOUzc2dTZmNkVsSDBtbUhXNWlOMDI4eVdUTnU0ZHQ3cDlUZkhORVVlYmJiVXoycEJhS0xiVzlxUjh1R1pTazQ?oc=5",
-        "published": "2026-10-19T18:40:31+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 11,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,7 +108,7 @@
         "published": "2026-10-19T18:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 9,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -108,8 +120,19 @@
         "published": "2026-10-19T17:55:03+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 14,
+        "rank": 13,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "e2b18385e4bd",
+        "title": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입",
+        "source": "현대경제신문",
+        "summary": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입 현대경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLaXlfc2pZMG05aVFJSU1ScEJEMzB0QllZUVVJNFJlSnNYTThsdFdHamthUy1JSUFfUEt2NlYxUlYzTFktSGoxUGhCTmFXUy1kMm9ycW13S0hoVC1vUXRuSW9QVVRxeEXSAWtBVV95cUxOUUs5eVZ0TlRocExOeGtwNEloRDNLM2JlZkhsRGZmak5DLU1hQk5TNzZ1NmY2RWxIMG1tSFc1aU4wMjh5V1ROdTRkdDdwOVRmSE5FVWViYmJVejJwQmFLTGJXOXFSOHVHWlNrNA?oc=5",
+        "published": "2026-10-19T17:10:32+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 12
       },
       {
         "id": "3d1b6f2ff3d0",
@@ -120,8 +143,7 @@
         "published": "2026-10-19T16:09:43+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 9
       },
       {
         "id": "3d1e5f13357f",
@@ -132,18 +154,18 @@
         "published": "2026-10-19T06:05:00+09:00",
         "query": "은행 폐쇄",
         "engine": "google",
-        "rank": 2
+        "rank": 4
       },
       {
-        "id": "813c07b16f83",
+        "id": "4cc9452d3247",
         "title": "'은행 지점 대신 우체국으로?'…달라지는 금융 창구",
-        "source": "한국아이닷컴",
-        "summary": "'은행 지점 대신 우체국으로?'…달라지는 금융 창구 한국아이닷컴",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1NWlVmTGkxcU53SDRVTDNzakFBdWZ6R3Q1VTN0NUNyOXlHODBSUWFlVzF3cU5wZHllblVvSVhPTEEtd3piY3lwdmp3QnNDaHNIdWFITkRhMXhUWlNPeDZrMHNYQWNCb3lFTnlJ0gFvQVVfeXFMUGxfUTRaR3hKbTc4dEd2VzdCVjNXeWJwRkhma0NFeThJcWpwYXNURFBaSnl0SFdEYmEtUjhSMTFFblIwUWI3M1diNDFJLWVCdEZQSnJSSmF1TnNpc3o3NDV1cWg5SW1QMjJPNTZMX3lJ?oc=5",
+        "source": "스포츠한국",
+        "summary": "'은행 지점 대신 우체국으로?'…달라지는 금융 창구 스포츠한국",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80T0JacF9TVC1CNEg0VEdIZHphRDhRaDhMTlEwTHlyUVdraVo4UlBCSjdsQTJNakxEeHY1eEswRXE1b1dhWktkNTBfWE81VHhSZEx5SGs4dXNpSlRsWXBUYUg4OWJPR25zUlgxTFg3aVDSAXRBVV95cUxNUmQ5ZkY4enFqU29Rb25Hb0tWU1Fqb3RlWlNYRXRpTlAyeHc1QW9GdmJkSTBQSC1ZVUtpeTJTOXJxY0hkV3NGSWZYTjVTOEdQQnhRT2xOUjhCd3VUOW4wUWtZNHh1TUIzQkxiQkVNeGNCdFgxRA?oc=5",
         "published": "2026-10-18T16:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11
+        "rank": 15
       }
     ],
     "policy_news": [
@@ -162,15 +184,15 @@
     ],
     "shinhan_news": [
       {
-        "id": "f59e01ee4487",
-        "title": "[포토뉴스]동해항운노조·신한은행 동해지점, 북평·송정동 이웃에 ‘사랑의 연탄’ 각 1,500장 전달",
-        "source": "강원일보",
-        "summary": "[포토뉴스]동해항운노조·신한은행 동해지점, 북평·송정동 이웃에 ‘사랑의 연탄’ 각 1,500장 전달 강원일보",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uR1h4R21NUlFRMUREYkZmN0wzVktqSzEzWEZTenNTWVpETzdsMEE0MWhtRm1UQ3FZQ24ySHh5aTg0Nm5pNVFGaFNuZVJOc3ZqazJUdFNtZ01GUXc?oc=5",
-        "published": "2026-10-21T11:03:16+09:00",
+        "id": "b176db7e35cb",
+        "title": "동해항운노조·신한은행 동해지점, 북평·송정동 이웃에 연탄 1500장 전달",
+        "source": "강원도민일보",
+        "summary": "동해항운노조·신한은행 동해지점, 북평·송정동 이웃에 연탄 1500장 전달 강원도민일보",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SallWLVJ4SWg0TG9XeHpQWGFTZHlSTThTVkJWQlFIeVF5YVVHcldqQ0VBdDZRNWNjOGN5M3pmTFBlTnVIb0d2RUF5dzlaaTN1WVZyeHR1ZUE3QlhUdzM2bFlRaFh2QjA?oc=5",
+        "published": "2026-10-21T10:52:50+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -182,7 +204,7 @@
         "published": "2026-10-20T19:35:16+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 2,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -194,7 +216,7 @@
         "published": "2026-10-19T16:32:05+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 4,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -206,7 +228,7 @@
         "published": "2026-10-17T15:15:55+09:00",
         "query": "신한은행 지점",
         "engine": "google",
-        "rank": 6,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]

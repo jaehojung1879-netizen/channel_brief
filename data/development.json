@@ -1,39 +1,93 @@
 {
-  "updated_at": "2026-10-22T09:11:00.777526+09:00",
+  "updated_at": "2026-10-23T09:08:25.888983+09:00",
   "items": [
     {
-      "id": "3410e1d1d46e",
-      "title": "경주시, 부산 도시재생 선진지 탐방…원도심 활성화 방안 모색",
-      "source": "경주시민신문",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43T3g5enRwV05hLUgyZFNOVENDelFaSGJHb1ptOUtqMUJkakdUazI0WXp5S19yZF9zOVNiLVBHeUpSRFNhcld5eUttTDhJSUd1bEt4SXM4dU5ZWnc3ZTJOQQ?oc=5",
-      "published": "2026-10-22T09:03:06+09:00",
+      "id": "fe365435ae49",
+      "title": "'2035 울산시 도시재생전략계획' 공고3대 생활권 33개 권역 71개 활성화지역 추진",
+      "source": "울산신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CZlhwNzB5Sk9aVzA1bkg4MUNYRVR6YkNQYldORlNiMTFkbDZ1RHRuQmNlc21pZXdkbU80NmxVdTBQS3VremZxdHU2c1RRRUtERXNlcHJPbXItUGo5TXl5bjExOVZLbEdvMkc5UGtB?oc=5",
+      "published": "2026-10-22T20:10:00+09:00",
       "date": "2026-10-22",
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "9779f4962d13",
-      "title": "울산시, 도시재생활성화지역 71곳 지정…905만㎡ 규모",
+      "id": "636cff5d9e90",
+      "title": "울산 도시재생 지도 다시 그린다…활성화지역 71곳 재편 - 울산매일",
+      "source": "울산최초, 최고의 조간신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52ZnhGOUpYTGhnZ0dsZDA5Vlk0OWZQa0dJejdnWFh2NUZraFcxR0VKVEI2ODNpZ3dNamNaMjZXbnRucUtON0h4dFh4WjB5RVV2X0I3ZWFlbUl1dFpnQ0JOekJCcTFGd0lybnfSAW5BVV95cUxQZkctUld0QV94aWhWa1FyMHVJLXFTVVZRSzZEREg3UmVqSlljNXJYUGtYaHdFemM3QmpWRmtOcmFjWWVMaTNiT1BMV2RXaUtJXzhyT004WXUtUC1VYTNtN0hLdTlLbmhOYkROeDFEdw?oc=5",
+      "published": "2026-10-22T17:34:24+09:00",
+      "date": "2026-10-22",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "b2d7bd541645",
+      "title": "\"사업 철회했으면 풀어라\"…조치원·연기 공공주택지구 지정 해제 촉구",
       "source": "뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oM1djR0RPMUZkT2xfSzhLeERwVG4yUWdHR2o1c2ljb1Zpc1RoUXY5THVEUldtU1RRWUh1R3hHaFhYc2lsdEpGenctQlhhclZNUnc?oc=5",
-      "published": "2026-10-22T09:00:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TeUtRQkI5NE5Xb1hxMy1LaUd6UXg4LUJkRGVsaHNWanl5Sk04N3JaY0dfTi1YazhPeTd3aDZnVmdvMTZ3R19jUmNBOExtNFlTUGwyUWE4ZklRUGc4VUxB?oc=5",
+      "published": "2026-10-22T16:21:31+09:00",
+      "date": "2026-10-22",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "84da44f5d508",
+      "title": "정부 전격전에도 LH 착공은 ‘하세월’",
+      "source": "매일일보",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JNjlpSFZwTDBFNzFIMTljVjcxSHV5QVEtdFVadXdRemdGUl9vM2dvZlN0ZFpGU2tDbFBsQlJKbUhETDYwR2luVnNIWnA3U20weS1LY0VzTmh4TEVFalNvQ0ZhaXQ?oc=5",
+      "published": "2026-10-22T15:26:59+09:00",
+      "date": "2026-10-22",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "3509e1bab1de",
+      "title": "울산시, ‘2035 도시재생전략계획’ 수립·공고",
+      "source": "국제신문",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMS1xYjM0dUpkcTVoei1EYTlDWVVRWmRuLTc0VWYtcWoweUVxdmtlcFVXbkk5eEYxT3Q5d2JFZkQ1VTVHclFfMzJtdXozWHpybV9hMUtGRnRKNy1ISXh3YkhwOTlpTUNLMzRuNGNBcm1KQUtvUlljeDdmVWNHdjhPejZDMlFfRFVJQ2Y0?oc=5",
+      "published": "2026-10-22T15:24:00+09:00",
       "date": "2026-10-22",
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "bf2e8aa249e8",
-      "title": "울산시, ‘2035 도시재생전략계획’ 수립… 71개 활성화지역 지정",
-      "source": "아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04bVMxZENjOWlvRU43ZzY4RmYtN1gtSXFxU3VIYUhxYjZnQzZQSnE5YTExZUFheDVXeDVRbUMtREY1THFMRUtQUWpHcU1RQWlKTVRDOHBqSVVyZ2RGRzgyMg?oc=5",
-      "published": "2026-10-22T08:57:55+09:00",
+      "id": "6c64246d8499",
+      "title": "울산시, 도시재생 활성화지역 71곳 지정…기존 계획보다 2곳 늘어",
+      "source": "뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XcXRFY1ZiNTJmUl9LSnh4cFFNQ2pyNjloenhkUDNOcWdyVHo3WVRPUERTcVEzckcxNURxeng3bGx2cVhCb1hxd3RXSnBtb1hwNWg5V2I5aHJya2RP?oc=5",
+      "published": "2026-10-22T14:52:00+09:00",
       "date": "2026-10-22",
       "query": "도시재생 활성화계획"
     },
     {
-      "id": "5e260871dcb4",
-      "title": "‘2035 울산광역시 도시재생전략계획’ 수립·공고",
-      "source": "도민연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxVWU4NGlQcU9FeVh5WmpoUWdsZlFIV2tMTU1FZkpESUpRTVBsWld2RkVuUnpkSldwWk5LUDZFMFhtSE8wc0pPaTk5a2NKOFU4QVNHSk9iby0ybFAxdGVIXzZiZmNwVHF3dnc?oc=5",
-      "published": "2026-10-22T08:04:11+09:00",
+      "id": "06b8ea429bc7",
+      "title": "대전 도안 2-9지구 지구단위계획 변경안 재신청",
+      "source": "쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95Uktfd2tYa2hlczhzOU45Y0I0MjR2YlQtN2NWYzdVS1RoV3ppR3UtbGN3RmhWNmloOUpfVElYbUh1eEstV19TUnFiWEs3ajhNRnJpcXdXeHA2Y0xUZ3FQdXdjYw?oc=5",
+      "published": "2026-10-22T14:03:31+09:00",
+      "date": "2026-10-22",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "8de45b4f1ba3",
+      "title": "'알박기' 벌목?...용인 반도체 산단, 환경논란 외면한 채 삽질부터",
+      "source": "뉴스펭귄",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wU2M5di11N0gyaTNDVFFTNXJpQ1FZRGZXX3NUOFBRT2VERlNCemNVVElEZUFBdmdXNVg0ZVdyNFpRMmUyaFVVYUxnNVZjV3pxMU1oak93MTgzZDZNUU5YQUNSbk5xVVRFZXBRVk5n0gFyQVVfeXFMTWVKdndtOV9PYUNtTWZtbS1LbXZEZ3dUZURBWWxIRUxrRm01UGQxQ09nYjRYeC1XNGotN0lTOXM4ZHlOcXZZbWhPTDA4TUhXWUduWEUtNzlTVnJ0OWY2d1RMRkhmLS1PcUhReXN4VVg5ZUdB?oc=5",
+      "published": "2026-10-22T11:32:37+09:00",
+      "date": "2026-10-22",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "a32340c49cb0",
+      "title": "LH 3기 신도시 착공, 9월 말 기준 올해 목표 38.8%…4분기 9800호 추진",
+      "source": "에너지경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oNGFsTWk1OFJJMlVKYlc3dXpwWlBENDlzU3RaTmR6dXBpZFl3dlhWeGlPSVdfT0xEZXI3OWRPZ1ltZVI2T0ZWS3A3UlBJcDNHSjhfMjBFdk9RLVU?oc=5",
+      "published": "2026-10-22T09:11:17+09:00",
+      "date": "2026-10-22",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "b68194697c0d",
+      "title": "‘2035 울산시 도시재생전략계획' 수립…71개 활성화지역 지정",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XQXZTT29fQm15aS05UkozS0R4NDZGNTlpamdTS0tJWmp2M1JwX282RkRaS1FUR25qaFlfWlNoNXo4dGZ5Y25QM3ZRdXVCQkcxM0U0REtmazE3WEJraGp4atIBYEFVX3lxTE9XQXZTT29fQm15aS05UkozS0R4NDZGNTlpamdTS0tJWmp2M1JwX282RkRaS1FUR25qaFlfWlNoNXo4dGZ5Y25QM3ZRdXVCQkcxM0U0REtmazE3WEJraGp4ag?oc=5",
+      "published": "2026-10-22T09:01:05+09:00",
       "date": "2026-10-22",
       "query": "도시재생 활성화계획"
     },
@@ -45,51 +99,6 @@
       "published": "2026-10-21T18:49:04+09:00",
       "date": "2026-10-21",
       "query": "LH 지구지정"
-    },
-    {
-      "id": "09d9f1417fa4",
-      "title": "'알박기' 벌목?...용인 반도체 산단, 환경논란 외면한 채 삽질부터",
-      "source": "뉴스펭귄",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lSnZ3bTlfT2FDbU1mbW0tS212RGd3VGVEQVlsSEVMa0ZtNVBkMUNPZ2I0WHgtVzRqLTdJUzlzOGR5TnF2WW1oT0wwOE1IV1lHblhFLTc5U1ZydDlmNndUTEZIZi0tT3FIUXlzeFVYOWVHQdIBckFVX3lxTE1lSnZ3bTlfT2FDbU1mbW0tS212RGd3VGVEQVlsSEVMa0ZtNVBkMUNPZ2I0WHgtVzRqLTdJUzlzOGR5TnF2WW1oT0wwOE1IV1lHblhFLTc5U1ZydDlmNndUTEZIZi0tT3FIUXlzeFVYOWVHQQ?oc=5",
-      "published": "2026-10-21T17:44:12+09:00",
-      "date": "2026-10-21",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "a52cf85584c5",
-      "title": "[단독] 3기신도시 고밀개발, 광명시흥·화성진안 우선 검토",
-      "source": "매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SWURISV84MzFoa2lteUJrd3dwaFJpWFRyMzBDSnZubWRvM0MwTXFGTmxpeFBKdUNpUUVjQWNnTlV3eHljSERsNkRWc0J3cmxReHUzNnlqb2w?oc=5",
-      "published": "2026-10-21T17:11:57+09:00",
-      "date": "2026-10-21",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "500ea9ef4348",
-      "title": "송전선로 경과지 주민들, 용인 반도체 국가산단 벌목 현장 찾아 조기공사 중단 촉구",
-      "source": "파인뉴스 (청솔뉴스)",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBZZ2ZkWlR4RUw5bWtJbWJZOHJOZjM3RUw0cFFkTW9ROS13STdiVTVTUWZuUWVxd2M3WmtmVEllSExJc1BkVnNz?oc=5",
-      "published": "2026-10-21T15:50:00+09:00",
-      "date": "2026-10-21",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "899189f5679a",
-      "title": "“입주가 공급 기준”이라는 李대통령…신도시 기다리는 동안 공급 공백은",
-      "source": "에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jUmx0VXlNSEl3WW9ZYWo1a2dnbWlNQ25XV0VZVzVxaU8xcDl3SE5wc3k5WHpZMC1Gb2ZnN29teTZZQ0pGT2hjWGQxOFNPTGpfeE5ocEFRMDV0RzlyMWc?oc=5",
-      "published": "2026-10-21T14:49:28+09:00",
-      "date": "2026-10-21",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "ed188fd034b5",
-      "title": "용인 반도체 국가산단 1공구 계약 체결…2028년 첫 팹 착공까지 토목·전력 공급 과제",
-      "source": "광교신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0RXhqY0dlMjlzTGFVNTNkenhteUxiNGNaR2g1ejRvV0dtVjdYRGhvVmFXclpRVHV3dlp0c1BEZ2ViQXV3NGFiOUduR2lCWW15OElocXFzLXoxX1pQd0taSEM1LTlsNDB3?oc=5",
-      "published": "2026-10-21T11:56:15+09:00",
-      "date": "2026-10-21",
-      "query": "반도체 국가산단"
     },
     {
       "id": "ac2e7f0e2d0f",
@@ -110,29 +119,20 @@
       "query": "복합개발 지구단위계획"
     },
     {
+      "id": "baeb38922857",
+      "title": "\"없는 놈 삶터만 짓밟나\"…용인 반도체 산단 강제수용 주민·기업 '울상'",
+      "source": "프레시안",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lUXBVejRvd055YzdManJRTlNkQWkyb2xWREVfUjF5bm5hSmR0b29OZ0w1WW9DUGdCeXNJcU9lUnF0QlEtSFA1My1hTGVFN1FvUnE3NlhpbnlmdC1rdW0xM3BGdnh3UEZIYWFR?oc=5",
+      "published": "2026-10-21T08:47:32+09:00",
+      "date": "2026-10-21",
+      "query": "반도체 국가산단"
+    },
+    {
       "id": "93692ac75811",
       "title": "이 대통령 \"공급 기준 착공 아닌 입주\"...3기 신도시 계양지구 방문",
       "source": "YTN",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiWDl1VXcwek9abGlvUEx6d0czRThGcnpLNlhqMzBGbTBDQ2tzLWhUWlJZZXBDcUZweFpvNTI4QUh3ajQ4bXhEUkg5T2pCRmUyRk1ncllqZEU2aFNWaUE?oc=5",
       "published": "2026-10-20T23:39:00+09:00",
-      "date": "2026-10-20",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "e86bb91bc3f7",
-      "title": "계양 간 이 대통령 “3기 신도시 착공 앞당겨야” 속도전 주문",
-      "source": "한겨레",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LZk5YUHRhREdvTHkwa0lzUVBpbm13QXYyZXdmUnpUdmtsNGg0ZUhoTXRqdnR3cldKcURJdWQ0TldRYktwZmVCVUkzcnFELWRNM25SaHJNTjFIdHB5Y2hFZVdUTll3SEJhUEYw?oc=5",
-      "published": "2026-10-20T21:40:00+09:00",
-      "date": "2026-10-20",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "b699599e1091",
-      "title": "3기 신도시 공급 전격전…\"인허가·착공 최대한 단축\"",
-      "source": "뉴스토마토",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2YThfODdnMWlBTUF2RFcxaXV4RVZLOHl3UEJXUm81ZExxcTRBeVFnOXppTjl0ZTd2aU56XzJiZDdmMXgybnNfV09UNlM1cW83MHRONEd3aHhLUHNrWUQ0aQ?oc=5",
-      "published": "2026-10-20T18:06:59+09:00",
       "date": "2026-10-20",
       "query": "신도시 착공"
     }
