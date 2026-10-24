@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-24T08:59:48.321197+09:00",
+  "updated_at": "2026-10-25T08:37:09.716821+09:00",
   "items": [
+    {
+      "id": "bdf54318610e",
+      "title": "용인 반도체 국가산단 28일 공사 시작 예정…기업 이전·전력망 구축 과제",
+      "source": "광교신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DdzgzWmYycVBkNm5JTzNSMk1TUmVIV1M4aUdUaTlIT0ZfMnQ4VXVNcGNDS3hhNlJ2bE9UcDBtY1l3c2lYdGZZNlY2NFh3NkFDVTNUV2JyWmRrYzFGVFNySDN3eU9oaDlS?oc=5",
+      "published": "2026-10-24T18:02:34+09:00",
+      "date": "2026-10-24",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "06b8ea429bc7",
+      "title": "대전 도안 2-9지구 지구단위계획 변경안 재신청",
+      "source": "쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95Uktfd2tYa2hlczhzOU45Y0I0MjR2YlQtN2NWYzdVS1RoV3ppR3UtbGN3RmhWNmloOUpfVElYbUh1eEstV19TUnFiWEs3ajhNRnJpcXdXeHA2Y0xUZ3FQdXdjYw?oc=5",
+      "published": "2026-10-24T06:02:01+09:00",
+      "date": "2026-10-24",
+      "query": "복합개발 지구단위계획"
+    },
     {
       "id": "38d3978a5bce",
       "title": "반도체 국가산단 '옆세권'…용인시 17만㎡ 규모 '통삼2 일반산단' 승인 - 머니투데이",
@@ -20,6 +38,15 @@
       "query": "반도체 국가산단"
     },
     {
+      "id": "d73b0bfe84a4",
+      "title": "논란의 애월포레스트, '편법' 비판 개발진흥지구 심의 들어간다",
+      "source": "미디어제주",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuRm9oc3YyQUloN3pZdVVwVUdhSDhMR3BjTDNPOVcwNVBoY193R01PTHdORTZQTHg4UWVjN0VKTU1xVVJPczlRUUJkTW01SlRRUzhjX0ZFYWdEYXo2TmxvdmFPWU5KSENtQ0UxedIBcEFVX3lxTE5pWXAzUHBYb1FxRi1ITk80dWdYRHpJTUpUcktDbDVpbHpjaFRBQzUwNm9JUXR4QjZaOXluWU9icHppaHpWbjZmaEUzLXBZYUxvY05Sa3VfbTBNbm9GU3c2TFNFLUJfSHBPYUNycFJJMVE?oc=5",
+      "published": "2026-10-22T16:41:00+09:00",
+      "date": "2026-10-22",
+      "query": "복합개발 지구단위계획"
+    },
+    {
       "id": "b2d7bd541645",
       "title": "\"사업 철회했으면 풀어라\"…조치원·연기 공공주택지구 지정 해제 촉구",
       "source": "뉴스1",
@@ -36,15 +63,6 @@
       "published": "2026-10-22T14:52:00+09:00",
       "date": "2026-10-22",
       "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "06b8ea429bc7",
-      "title": "대전 도안 2-9지구 지구단위계획 변경안 재신청",
-      "source": "쿠키뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95Uktfd2tYa2hlczhzOU45Y0I0MjR2YlQtN2NWYzdVS1RoV3ppR3UtbGN3RmhWNmloOUpfVElYbUh1eEstV19TUnFiWEs3ajhNRnJpcXdXeHA2Y0xUZ3FQdXdjYw?oc=5",
-      "published": "2026-10-22T14:03:31+09:00",
-      "date": "2026-10-22",
-      "query": "복합개발 지구단위계획"
     },
     {
       "id": "d4c666f8bd95",
@@ -101,6 +119,15 @@
       "query": "LH 지구지정"
     },
     {
+      "id": "17504d3a2610",
+      "title": "3기 신도시 첫 입주, 어디계양?",
+      "source": "대한민국 청와대",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGbUVvMzdzSE9XbFZUVXktOWRRakJhTGxtc2NPRjhCTHVpYWtkSU5IbWd3dlpYc1VhOUs5STMyZDFPSTZzWVZTdkhqSkxXcXA0aU8xS0Rn?oc=5",
+      "published": "2026-10-21T17:59:08+09:00",
+      "date": "2026-10-21",
+      "query": "신도시 착공"
+    },
+    {
       "id": "09d9f1417fa4",
       "title": "'알박기' 벌목?...용인 반도체 산단, 환경논란 외면한 채 삽질부터",
       "source": "뉴스펭귄",
@@ -108,33 +135,6 @@
       "published": "2026-10-21T17:44:12+09:00",
       "date": "2026-10-21",
       "query": "반도체 국가산단"
-    },
-    {
-      "id": "a52cf85584c5",
-      "title": "[단독] 3기신도시 고밀개발, 광명시흥·화성진안 우선 검토",
-      "source": "매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SWURISV84MzFoa2lteUJrd3dwaFJpWFRyMzBDSnZubWRvM0MwTXFGTmxpeFBKdUNpUUVjQWNnTlV3eHljSERsNkRWc0J3cmxReHUzNnlqb2w?oc=5",
-      "published": "2026-10-21T17:11:57+09:00",
-      "date": "2026-10-21",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "ac2e7f0e2d0f",
-      "title": "[영상]\"용인 반도체 산단 벌목 중단하라\"",
-      "source": "OhmyNews",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZVW56MGR1MVJVMi1nR1dHSE9tWGk5WkhnaG9zWFRtajc2dl9hdzNTdW5SSXJhZlQ5Z3RSR1RZamtiTnVEZmE3TEsxV0VmcnpxQnpLN0tSZy1ycWpsTEdNV0xfLWVuUHZhdjYxTWpCeUR5UEViaUxv?oc=5",
-      "published": "2026-10-21T11:07:00+09:00",
-      "date": "2026-10-21",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "d73b0bfe84a4",
-      "title": "논란의 애월포레스트, '편법' 비판 개발진흥지구 심의 들어간다",
-      "source": "미디어제주",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuRm9oc3YyQUloN3pZdVVwVUdhSDhMR3BjTDNPOVcwNVBoY193R01PTHdORTZQTHg4UWVjN0VKTU1xVVJPczlRUUJkTW01SlRRUzhjX0ZFYWdEYXo2TmxvdmFPWU5KSENtQ0UxedIBcEFVX3lxTE5pWXAzUHBYb1FxRi1ITk80dWdYRHpJTUpUcktDbDVpbHpjaFRBQzUwNm9JUXR4QjZaOXluWU9icHppaHpWbjZmaEUzLXBZYUxvY05Sa3VfbTBNbm9GU3c2TFNFLUJfSHBPYUNycFJJMVE?oc=5",
-      "published": "2026-10-21T10:36:09+09:00",
-      "date": "2026-10-21",
-      "query": "복합개발 지구단위계획"
     }
   ]
 }

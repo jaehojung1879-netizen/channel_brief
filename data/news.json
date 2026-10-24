@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-24T08:57:59.939103+09:00",
+  "updated_at": "2026-10-25T08:35:28.127666+09:00",
   "headline": {
-    "id": "2f9df88e0889",
-    "title": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다",
-    "source": "뉴스핌",
-    "summary": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다 뉴스핌",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GclVDZldGcDltYlRYX2RybWFHNVhEeTlCa0IyRFk2UUxJa3lhMTRRMk05MTREOWcxWE5RQ19wS1hWMjlsNHZudkNhS245a2d0bnlZNTFTb2F2aHZF?oc=5",
-    "published": "2026-10-21T14:33:00+09:00",
-    "query": "은행 폐쇄",
+    "id": "80d1fecb8ae4",
+    "title": "은행 점포 수도권 쏠림 여전…영업시간 단축에 금융 접근성 우려",
+    "source": "CEO스코어데일리",
+    "summary": "은행 점포 수도권 쏠림 여전…영업시간 단축에 금융 접근성 우려 CEO스코어데일리",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjeEJPOWNud053NmhhVmdBTm1fR0xEUENrQjhBaEZzMDJHUV9ocjZfUkU0X3hzak5EYjRmVlljaUFaRy1uYl9EWEpVeXFta0YyMEQ3aWxnaVhkRkRaUDJHRzhVZ05ydTg?oc=5",
+    "published": "2026-10-25T07:00:00+09:00",
+    "query": "은행 점포",
     "engine": "google",
     "rank": 1,
-    "_score": 18.0,
+    "_score": 21.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
@@ -24,7 +24,7 @@
         "published": "2026-10-24T06:00:03+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +36,7 @@
         "published": "2026-10-23T15:59:05+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 12,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,31 +48,31 @@
         "published": "2026-10-23T09:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 6,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "2e4b7e247f20",
-        "title": "해외점포 '맹탕 감사'에 금감원 감독 공백…은행 동남아 줄사고, 美선 '과징금 폭탄'",
-        "source": "아시아경제",
-        "summary": "해외점포 '맹탕 감사'에 금감원 감독 공백…은행 동남아 줄사고, 美선 '과징금 폭탄' 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vVzZGR3dmZTdZWWQ3U2R1VGlRa1lLT2l0aXVTRHhDeVZILWViYkZUZzlyYTVuVkwySGFYNGh1bUMwWFBUX2lEbzRzSFRRS3IxMzFhMzNtb3o1OVlRZ1FsXw?oc=5",
-        "published": "2026-10-22T11:00:00+09:00",
+        "id": "2f9df88e0889",
+        "title": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다",
+        "source": "뉴스핌",
+        "summary": "국감서 논란 된 '은행 점포 폐쇄'…5대 은행, 3년 새 169곳 줄였다 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GclVDZldGcDltYlRYX2RybWFHNVhEeTlCa0IyRFk2UUxJa3lhMTRRMk05MTREOWcxWE5RQ19wS1hWMjlsNHZudkNhS245a2d0bnlZNTFTb2F2aHZF?oc=5",
+        "published": "2026-10-21T14:33:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "c88195178042",
-        "title": "광화문 달려간 기업은행 4000명…일부지점 “입출금만 됩니다” [가봤더니]",
-        "source": "쿠키뉴스",
-        "summary": "광화문 달려간 기업은행 4000명…일부지점 “입출금만 됩니다” [가봤더니] 쿠키뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZRms4WVU1NXdvSjhGUWZYRW5XWTA3X2QteFd6NGF0Qjg3STFDX1VfaGNGZlV3OG5WSWctbUx3TXZjS1BJYnU5akhEdFNJUk9fQWNmQjlMT1dLc2RQYTZPOUJhcw?oc=5",
-        "published": "2026-10-21T17:09:45+09:00",
-        "query": "은행 영업점",
+        "id": "6648eb63f875",
+        "title": "하나은행, 점포 감축 역행…영업점 17곳 순증",
+        "source": "PRESS9",
+        "summary": "하나은행, 점포 감축 역행…영업점 17곳 순증 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MWnhUckJGSkI0ekFnbWFfdXJmb0oxb1ZZQ2VvOENQRk9tdjNYMktEaHFfdHZjakxGUEM3RWttcGlxRFFqb2duS2xKZjR3NVBmeDdBMTRMOG1neXhuR3ZHenBxVzk?oc=5",
+        "published": "2026-10-21T13:52:40+09:00",
+        "query": "은행 점포",
         "engine": "google",
-        "rank": 11,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -84,77 +84,8 @@
         "published": "2026-10-20T21:10:36+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 10,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "7db489773ea1",
-        "title": "농협은행, 영업점 10곳에 ‘시재관리기’ 시범 도입",
-        "source": "농민신문",
-        "summary": "농협은행, 영업점 10곳에 ‘시재관리기’ 시범 도입 농민신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85NWd5WXN1alVCVmgzb0cyVWo4NldrbG50N0MyVTdIc2ppTFJCS0lUYVloa1dXNVVsYm81SG5GU3BxWXFYS0FrakJGTllIOXVEdk0xTUtleDIzUQ?oc=5",
-        "published": "2026-10-19T19:08:00+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "254b0ba252a8",
-        "title": "5대 은행장, 국감서 나란히 “오프라인 점포 폐쇄, 신중히 재검토”",
-        "source": "시사저널",
-        "summary": "5대 은행장, 국감서 나란히 “오프라인 점포 폐쇄, 신중히 재검토” 시사저널",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQcUVWTTFuejBTWGc2LU1RVW9hUFNyTU96WE9fdjV5cUVMUlg2VTd5QldocjdKVDFLOUI3ZHRiVnRqUVV3bnZuUHlGQmlOS21BelIxWTVnbWx4UTdCZGhRbTh2VnNIVE5ZeFlMbUUxONIBc0FVX3lxTE9ldUpLVmM0MFpWNklsSDVRWGlXZzUwYnRkOUp1azZ6MHBTQnhYdVhYTWd2a1lGVnVBUnNLVUs2QlZvY0puSUZPVEZLRmVySHFXQ0dyUG5QNDVCcGFCLWVRRkotNGpsY1Z3bEZRM2kwbGVVcHM?oc=5",
-        "published": "2026-10-19T18:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 12,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "3183b7b2071a",
-        "title": "[2026 국감] 5대 은행장, 개인정보 유출·점포 축소 질타…'재발 방지·개선 약속'",
-        "source": "1코노미뉴스",
-        "summary": "[2026 국감] 5대 은행장, 개인정보 유출·점포 축소 질타…'재발 방지·개선 약속' 1코노미뉴스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNaFJGSlR0dHJ4UFZRaWdjM1RjakVFRlo3UFBqM1o2NURaUGEtSjNreTlHRGJfVnFkT0hiTHAtd0pJRlVIZ0t1eWRaSDdzSUMxczVlYU9oWkVaNGpKWlViQ083c3NiMzlidWRvcXBFSlo?oc=5",
-        "published": "2026-10-19T17:55:03+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 13,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "e2b18385e4bd",
-        "title": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입",
-        "source": "현대경제신문",
-        "summary": "NH농협은행, 10개 영업점에 'NH시재관리기' 시범 도입 현대경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLaXlfc2pZMG05aVFJSU1ScEJEMzB0QllZUVVJNFJlSnNYTThsdFdHamthUy1JSUFfUEt2NlYxUlYzTFktSGoxUGhCTmFXUy1kMm9ycW13S0hoVC1vUXRuSW9QVVRxeEXSAWtBVV95cUxOUUs5eVZ0TlRocExOeGtwNEloRDNLM2JlZkhsRGZmak5DLU1hQk5TNzZ1NmY2RWxIMG1tSFc1aU4wMjh5V1ROdTRkdDdwOVRmSE5FVWViYmJVejJwQmFLTGJXOXFSOHVHWlNrNA?oc=5",
-        "published": "2026-10-19T17:10:32+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 12
-      },
-      {
-        "id": "7f305e0a14a6",
-        "title": "5대 은행장 \"점포 폐쇄 신중 검토...금융 취약계층 불편 살필 것\"",
-        "source": "파이낸셜뉴스",
-        "summary": "5대 은행장 \"점포 폐쇄 신중 검토...금융 취약계층 불편 살필 것\" 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0RGpuOHplWE5nRFozcHNndFRrcDNRTFhONktNTnQxZ1k0ZmpVM2pZQXF6WEFJVDhwNFdscmtTenNFWlVybUZZTjhPTEdVakt0SFpPbVVqZ0xIZw?oc=5",
-        "published": "2026-10-19T16:25:50+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 16
-      },
-      {
-        "id": "3d1b6f2ff3d0",
-        "title": "5대 시중은행장 \"점포 폐쇄 신중히…취약지역은 점포 유지 노력\"",
-        "source": "뉴스1",
-        "summary": "5대 시중은행장 \"점포 폐쇄 신중히…취약지역은 점포 유지 노력\" 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QREhoUXNsNThqWTBFZ3Jsem5QTWZFRFItcTd3ZVA0SUotS01PamNJQlRVbml1WGI2akktY0N2V04zZDU3UmI5RDlwdEItV1U5RDZ4d3ZlYkRXT0hreVpOMGx3?oc=5",
-        "published": "2026-10-19T16:09:43+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 11
       }
     ],
     "policy_news": [
@@ -167,7 +98,8 @@
         "published": "2026-10-22T11:00:00+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 1
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "shinhan_news": [
@@ -204,7 +136,7 @@
         "published": "2026-10-19T16:32:05+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
