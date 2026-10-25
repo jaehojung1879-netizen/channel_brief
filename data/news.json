@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-10-25T08:35:28.127666+09:00",
+  "updated_at": "2026-10-26T08:30:25.514435+09:00",
   "headline": {
-    "id": "80d1fecb8ae4",
-    "title": "은행 점포 수도권 쏠림 여전…영업시간 단축에 금융 접근성 우려",
-    "source": "CEO스코어데일리",
-    "summary": "은행 점포 수도권 쏠림 여전…영업시간 단축에 금융 접근성 우려 CEO스코어데일리",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjeEJPOWNud053NmhhVmdBTm1fR0xEUENrQjhBaEZzMDJHUV9ocjZfUkU0X3hzak5EYjRmVlljaUFaRy1uYl9EWEpVeXFta0YyMEQ3aWxnaVhkRkRaUDJHRzhVZ05ydTg?oc=5",
-    "published": "2026-10-25T07:00:00+09:00",
+    "id": "32adc9f51565",
+    "title": "[2026 국감] 은행 점포 줄자 고령층 창구서 몇 시간씩…\"포용금융 취지 맞게 전략 재수립\"",
+    "source": "알티케이뉴스",
+    "summary": "[2026 국감] 은행 점포 줄자 고령층 창구서 몇 시간씩…\"포용금융 취지 맞게 전략 재수립\" 알티케이뉴스",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsWnU0SnVlaUx2S0JpS3ZqOWdNb0h5RDFTaDBqVzZNNUU1Z0dNTm14UnJfeDQ0ZVBMLWVXWFM0dWlSQUh2NWRVc3VxMThGd1JJaTNxN0IzR2JDcVlzVXlPNVVaa0h3ckJySnBKSQ?oc=5",
+    "published": "2026-10-26T08:15:58+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 21.0,
+    "rank": 2,
+    "_score": 19.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "a81f6596f00c",
+        "title": "[금융 접근권의 재발견] (1) 사라져가는 은행 점포",
+        "source": "금융소비자뉴스",
+        "summary": "[금융 접근권의 재발견] (1) 사라져가는 은행 점포 금융소비자뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BNjU0cHFNS3hDaHFEY2o2NWJibkNkcTF6UTVXRjlERzFnYnVkODh1LUh4QTU4WklwbWxpbk1hMW1KNEdlZDBPanowcDNKakpOUHRaQWpEWmlJRWxLdVN1VnZHRi1DS3BhdGc?oc=5",
+        "published": "2026-10-26T08:09:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "4f2ba5a1fadf",
+        "title": "은행 점포 수도권 쏠림 여전…영업시간 단축에 금융 접근성 우려",
+        "source": "CEO스코어데일리",
+        "summary": "은행 점포 수도권 쏠림 여전…영업시간 단축에 금융 접근성 우려 CEO스코어데일리",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50U1BzekFXMUcxVHhobXY2M0xZUnhydDRVb01xR0d5LUdSNERwMnZXYUtfeTVhRkVzT3gxaHFMcXlkUWFOZkJqVERGN2hlRUs2aWpQd0taNmg0dEgxdzZ3ekE2dDFFQ3FhWXgw?oc=5",
+        "published": "2026-10-25T07:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "f514722eb59b",
         "title": "“요새 누가 현금 환전하니?”…찬밥 신세 된 은행 공항 점포",
@@ -48,7 +72,7 @@
         "published": "2026-10-23T09:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 10,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,31 +84,19 @@
         "published": "2026-10-21T14:33:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "6648eb63f875",
+        "id": "2829326c9f84",
         "title": "하나은행, 점포 감축 역행…영업점 17곳 순증",
         "source": "PRESS9",
         "summary": "하나은행, 점포 감축 역행…영업점 17곳 순증 PRESS9",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MWnhUckJGSkI0ekFnbWFfdXJmb0oxb1ZZQ2VvOENQRk9tdjNYMktEaHFfdHZjakxGUEM3RWttcGlxRFFqb2duS2xKZjR3NVBmeDdBMTRMOG1neXhuR3ZHenBxVzk?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42dWR1Q09rMHpWUGpqOHNaU01FZHZ5Wlk5UFpYSVRLcmtEOEc0ODdQd0pRWWtFTERWSVdmVlVTc00tWGMzNkRqMm1zdExDVkppcG1iQzY5YmdWLXVZWFpBX1Axd2FoUQ?oc=5",
         "published": "2026-10-21T13:52:40+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "4abb4812de2e",
-        "title": "연수구의회 구영미 의원실, 우리은행 지점 이전 후 불편 컸던 옥련동, ATM 설치로 숨통 트인다”",
-        "source": "뉴뉴스",
-        "summary": "연수구의회 구영미 의원실, 우리은행 지점 이전 후 불편 컸던 옥련동, ATM 설치로 숨통 트인다” 뉴뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15Q1lvb0VHMUFWT2lIOGNnZkpJVTFkLVNJdnJzRlBkYlNVZk9yMkV5RjVJdkFNVS1rZVRldk1pdm9SeHVqZTFZOGczMUZwTDlndkNhRzVFb2Exbmw2MnJkMTBCSTJrQQ?oc=5",
-        "published": "2026-10-20T21:10:36+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 7,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -125,18 +137,6 @@
         "query": "신한은행 영업점",
         "engine": "google",
         "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "955c456c7751",
-        "title": "정상혁 신한은행장 “개인정보 유출 송구…점포 폐쇄는 충분히 검토” [2026 국감]",
-        "source": "디지털데일리",
-        "summary": "정상혁 신한은행장 “개인정보 유출 송구…점포 폐쇄는 충분히 검토” [2026 국감] 디지털데일리",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIVVNnUjBlVVU2YzdZd1VLZUROMlk5MDk4WTFDT2pkbzF4RkozeUlzdmdEbU1udFJVZE9KV3VEM2lNU29ENXVBWnJ6QzdkOENsWks3MWNzZVExa2lpR2JWVWRvZjU?oc=5",
-        "published": "2026-10-19T16:32:05+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 10,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
