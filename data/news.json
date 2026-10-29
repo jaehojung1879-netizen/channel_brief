@@ -1,30 +1,66 @@
 {
-  "updated_at": "2026-10-28T09:41:26.642642+09:00",
+  "updated_at": "2026-10-29T10:10:37.769299+09:00",
   "headline": {
-    "id": "07c77515048d",
-    "title": "신한은행, 고객경험조사로 불편 파악…영업점서 바로 해결",
-    "source": "한국경제",
-    "summary": "신한은행, 고객경험조사로 불편 파악…영업점서 바로 해결 한국경제",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BNnlhbzRNRGFYejZuRUJXdWp3VVhOaGRmbzJNRC1BZTIybDZWdWVfRi0tV0puV0ZELS02NkhfeWc5WFY3WGxNckZGTVRCdlpuU0N2ZGR5MGQtQQ?oc=5",
-    "published": "2026-10-28T09:00:22+09:00",
+    "id": "b094afa2728a",
+    "title": "“PB 수준 상담, 더 많은 고객에게”… AI가 바꾸는 우리은행 영업점",
+    "source": "서울신문",
+    "summary": "“PB 수준 상담, 더 많은 고객에게”… AI가 바꾸는 우리은행 영업점 서울신문",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzUW10WUo3eTMwb3oyVFhkZzNVaTBOSGR0ZGJ6OGpZYVhJUlF2SEw0aUd4UnNyTkRfTy0wc1g4Uk1xUlp1YjlEdU1BU3RndGsxNVVfRzRLS2lqcVFRR3FpbGxXcDJZWFdjdW9rdVYtbnVyMGtDcGJneVRn?oc=5",
+    "published": "2026-10-29T00:13:03+09:00",
     "query": "은행 영업점",
     "engine": "google",
     "rank": 1,
-    "_score": 20.0,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "8bea25bcb38f",
-        "title": "은행 점포 철수한 인구소멸 지역에도 돈이 돌 수 있게 하려면",
-        "source": "경향신문",
-        "summary": "은행 점포 철수한 인구소멸 지역에도 돈이 돌 수 있게 하려면 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQ2s1V0FkOThfa3dUeVpDNVdzTWFFTGZHQ1NDTjVKdW5wZGd3N2NkV1lxanVuc05VM1FMLWl6aEs0djVkRTNTU3lQaFNJcWZmM1VBU3NUelJUcnlOMTRrQ1JDbWpBWG1RNGJodmxXSzVVNXM2aHBSSktpaHJOWWxZSVVOSnhITlJQc0FtdHpHUWpraXNUN2ktY01qY0daOWwwLXFEWUo4RE5mZ9IBX0FVX3lxTE9pamdZbC1oNjZSekNGVlQtZXlxSDNzOG45eTRVMjFtUVZsbGxEbjFkR0xRc3I3OWVUUVVkenhnQXhIcHJvN0hMZ3lRNlJSU0tXV01TQ0RzQTlEeTNjVTU4?oc=5",
-        "published": "2026-10-28T06:00:00+09:00",
+        "id": "a1a4019e1479",
+        "title": "[광주은행 인사 전망] 정일선 첫 연말 인사… 김종훈 지점 3곳 미계약·금고 재탈락",
+        "source": "뉴스클레임",
+        "summary": "[광주은행 인사 전망] 정일선 첫 연말 인사… 김종훈 지점 3곳 미계약·금고 재탈락 뉴스클레임",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00em02MDVqNjhxd3ZVRkU4SlhSM1ZxOWdOMGpWMVhfengxWEtudEhuanVERlZ5dlhsdXlwblFBNGxIcEtZNG1UVEM5VXlSWDJ4SFZzamF0aDdGV1hheTN4TkxlVFJzLUVIUkxySF9FZErSAXRBVV95cUxNOHFSOW1kSUZWT2hxNnZ1MzlLWUZRNU1YOVNoR2tqV3JldlNLdmpKTGNIMlhsV0Z6V0dPbE9kemVyMy15alZzOXNjZVljc2RXeU5DTXF2UDR1SFJFOUcya253a1Z3Skx2eGFKS1MzczRkVERRag?oc=5",
+        "published": "2026-10-28T17:01:37+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 14,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "660ebff0c1a7",
+        "title": "[단독]시중은행 점포 1곳당 고령자, 도봉구 6184명…강남구 10배",
+        "source": "인사이트코리아",
+        "summary": "[단독]시중은행 점포 1곳당 고령자, 도봉구 6184명…강남구 10배 인사이트코리아",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5vejVKdzE1Tl9ReDVqNkl2cVU4a2ViTXRSSkRqZ2I1UF9wSnBYS09vTTdSREZlU1RsamFZWnFFQjRtQnAyUXVOaDhKczlya1FsbFlNZklGbXRHNjRrcXBIZGZZMUlKYXpXNHYxS1g4dHE3WmPSAXdBVV95cUxOWDFFRWs4RS12QWhPSUhzZ1JCX1FnZk11X2JFWWVRM3k2NU9PSzJ4MWVDcDl6V3RXQTRHdi0yeHlycFExemstMEhJLVFEc3U5cVdkY1huT3g1RGtXSzFSRVpfWlJaVnYwTWpwOW1LTWhiaUlWZS1tZw?oc=5",
+        "published": "2026-10-28T16:42:10+09:00",
         "query": "은행 점포",
         "engine": "google",
         "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "07c77515048d",
+        "title": "신한은행, 고객경험조사로 불편 파악…영업점서 바로 해결",
+        "source": "한국경제",
+        "summary": "신한은행, 고객경험조사로 불편 파악…영업점서 바로 해결 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BNnlhbzRNRGFYejZuRUJXdWp3VVhOaGRmbzJNRC1BZTIybDZWdWVfRi0tV0puV0ZELS02NkhfeWc5WFY3WGxNckZGTVRCdlpuU0N2ZGR5MGQtQQ?oc=5",
+        "published": "2026-10-28T09:00:22+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "1d04c6221050",
+        "title": "은행 점포 철수한 인구소멸 지역에도 돈이 돌 수 있게 하려면",
+        "source": "경향신문",
+        "summary": "은행 점포 철수한 인구소멸 지역에도 돈이 돌 수 있게 하려면 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IQWl1NnZodnN2Nlh0ZzRpMXpQUlcyVm15OUJ4b3dNRU1UYzVwOXp3cEt4STNwSVBQYnAzQXU5d0NMOGs4NVBiby1nbTNPU0JKNzVWOHN6M1Rxd9IBX0FVX3lxTE9pamdZbC1oNjZSekNGVlQtZXlxSDNzOG45eTRVMjFtUVZsbGxEbjFkR0xRc3I3OWVUUVVkenhnQXhIcHJvN0hMZ3lRNlJSU0tXV01TQ0RzQTlEeTNjVTU4?oc=5",
+        "published": "2026-10-28T06:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +72,7 @@
         "published": "2026-10-27T17:42:13+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 6,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,43 +84,31 @@
         "published": "2026-10-27T16:58:41+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "b30b5eac1879",
-        "title": "국감서 다시 불거진 은행 점포 축소…은행권 \"이미 감축 최소화\"",
-        "source": "더팩트",
-        "summary": "국감서 다시 불거진 은행 점포 축소…은행권 \"이미 감축 최소화\" 더팩트",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1alpwTU8xU1NkOUQyMm5PbmZfbzVvUXRfU081OHZCUkxxb19xSDhqbHJReG1oaW9Pc3NudkR5c3VaQWpwR0pIMGtPdEZkSnM2MGVOMNIBVEFVX3lxTFA1alpwTU8xU1NkOUQyMm5PbmZfbzVvUXRfU081OHZCUkxxb19xSDhqbHJReG1oaW9Pc3NudkR5c3VaQWpwR0pIMGtPdEZkSnM2MGVOMA?oc=5",
-        "published": "2026-10-27T16:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 4,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "ec90b344a3b2",
-        "title": "비수도권 14개 시·도 지점 모두 줄었다…4대 은행 68% 수도권 집중",
-        "source": "DFT 대한금융신문",
-        "summary": "비수도권 14개 시·도 지점 모두 줄었다…4대 은행 68% 수도권 집중 DFT 대한금융신문",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMQ3hkR3ljNm9TbDRkNGd2NVZ1eGswTldhZDl1NGNsZ2Z3aWlGdm5CRHladEtvYURfdHhtTDQ1ekJWcHEtOUFqVDBBU3Y2WWpTOHpqNU9XVm1rVjJaeHRZZE9EdzdMMVItUDYwTk9UUWLSAXBBVV95cUxQTEN4ZEd5YzZvU2w0ZDRndjVWdXhrME5XYWQ5dTRjbGdmd2lpRnZuQkR5WnRLb2FEX3R4bUw0NXpCVnBxLTlBalQwQVN2NllqUzh6ajVPV1Zta1YyWnh0WWRPRHc3TDFSLVA2ME5PVFFi?oc=5",
-        "published": "2026-10-27T10:44:07+09:00",
-        "query": "은행 점포",
-        "engine": "google",
         "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "515b2138e2ae",
-        "title": "Sh수협은행, 전국 영업점서 ‘이웃사랑 생필품 나눔’ 진행",
-        "source": "팝콘뉴스",
-        "summary": "Sh수협은행, 전국 영업점서 ‘이웃사랑 생필품 나눔’ 진행 팝콘뉴스",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FRGRSQTZHQkVfTVhBN1pwdC1qRHNYM2VSNHZJb2MzMnJfQnRCUEZ3d1g1a05DZFFaaTdDa0FtTlF1WXJlZVV1bHdSZUg5YWJya013TFpkQ2RCVFQyX201ZGFiZUNvdmZNZVJORDBzd9IBckFVX3lxTE83Vm9OTHBjOFE1MlprVzhTM3ZJajdKUEF4RTM0ZWUybWFXUmJmYV9zUzJScmhQOWc0VldNbXhkdDNDWlFPRHBHSjJCZ0Zpa1ZXZ2xvM2ZUdTRUaE5wOVRGLWp3YjNGMVh1dk4zTThmemFKdw?oc=5",
-        "published": "2026-10-27T10:42:12+09:00",
+        "id": "c932005ce716",
+        "title": "국감서 다시 불거진 은행 점포 축소…은행권 \"이미 감축 최소화\"",
+        "source": "더팩트",
+        "summary": "국감서 다시 불거진 은행 점포 축소…은행권 \"이미 감축 최소화\" 더팩트",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BZDJjUUNOX0tOTV9qX1BlNHE5Yi1nc2x4WmU4RUxFMDVrb3dzcDRrOG5xS0RUbkVzajAtM2NmVkpQdGV5ZGRVVXl2VVg0dmZDRFFEQURtNFlZUdIBVEFVX3lxTFA1alpwTU8xU1NkOUQyMm5PbmZfbzVvUXRfU081OHZCUkxxb19xSDhqbHJReG1oaW9Pc3NudkR5c3VaQWpwR0pIMGtPdEZkSnM2MGVOMA?oc=5",
+        "published": "2026-10-27T16:00:01+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "b9b1b86f6277",
+        "title": "Sh수협은행, 전국 영업점 연계 ‘지역사회 이웃사랑 생필품 나눔’ 추진",
+        "source": "어업in수산",
+        "summary": "Sh수협은행, 전국 영업점 연계 ‘지역사회 이웃사랑 생필품 나눔’ 추진 어업in수산",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2LXNnZ05hbTVZb1lac1Jia0k4RzV3VTk3bzBhd2ZXYVVHZFhNTjNsdHN4eWVKdG5hXzl4c1R3VDI3dXRGRHprNGR4T19ZcjFINnRrT3I2Z2RxZ2Zwc2xheFJpOTRqYUUzdVFUc2h0TQ?oc=5",
+        "published": "2026-10-27T13:49:55+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,7 +120,7 @@
         "published": "2026-10-27T09:34:19+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 10,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -108,31 +132,18 @@
         "published": "2026-10-27T07:12:47+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 7
       },
       {
-        "id": "efbb97d3d913",
-        "title": "은행 점포는 닫는데 PB센터는 늘렸다…'부자 영업'에 꽂힌 은행들",
-        "source": "미래경제",
-        "summary": "은행 점포는 닫는데 PB센터는 늘렸다…'부자 영업'에 꽂힌 은행들 미래경제",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aRWlmRW1HTmtDWGpzTnlFYldiQ09uXzVWS1JzV0stcThyU21oTDVvOVN5cHVtZnJaMUs3RWFzSEVrR1Q3THk3ajVLU255Zmt2SFZUaW1OZ1gtODNodlVKblNqSDhnakhzalpWcA?oc=5",
-        "published": "2026-10-26T16:00:00+09:00",
+        "id": "613c671cb63a",
+        "title": "경남은행, 문화다양성축제서 ‘외국인 전용 이동점포’ 운영",
+        "source": "매일일보",
+        "summary": "경남은행, 문화다양성축제서 ‘외국인 전용 이동점포’ 운영 매일일보",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DRGRrOWZJcXlDb2RBUkF5dTlpTkFmR01qOW45cnFId2g3RWs2WmJWVzFhRVBGWlZVRTR5MW9mWGdwZ2Z5RmtlWEU3LXdHM3BweXMzUFhvSHY4ajZnNnBhZElWMkY?oc=5",
+        "published": "2026-10-26T13:44:16+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 15,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "861eb094ae5b",
-        "title": "BNK경남은행, '맘프 2026'서 외국인 전용 이동점포 운영",
-        "source": "노컷뉴스",
-        "summary": "BNK경남은행, '맘프 2026'서 외국인 전용 이동점포 운영 노컷뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jVEVHOE5LTDE2VXZ0eWhYZlRud19Qa2ZISEpNaS1JVUdTX1ozRkFuLWJCYWktS3VZQzdCRzlsWEx1Q2dkSlFBaHZKdHExUG9KWEE?oc=5",
-        "published": "2026-10-26T11:40:45+09:00",
-        "query": "은행 공동점포",
-        "engine": "google",
-        "rank": 9
+        "rank": 15
       },
       {
         "id": "a81f6596f00c",
@@ -143,29 +154,18 @@
         "published": "2026-10-26T08:09:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 8
+        "rank": 3
       },
       {
-        "id": "32d04cdf5196",
-        "title": "은행 점포 수도권 쏠림 여전…영업시간 단축에 금융 접근성 우려",
-        "source": "CEO스코어데일리",
-        "summary": "은행 점포 수도권 쏠림 여전…영업시간 단축에 금융 접근성 우려 CEO스코어데일리",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wQ0wxNHBac3R1dDRrb3BXdURldUlFRmF0ZEs3WEZpOWNfbkxTMjdDQkJJOUhxdUtQSDBzZUpqTWt5TndJd1F3MGRpTEM1MFR6cEgtOFN4b2tDVWU3LUwtZGlleUNTX0pv?oc=5",
-        "published": "2026-10-25T07:00:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 5
-      },
-      {
-        "id": "f514722eb59b",
+        "id": "ff1b5e8dfbd1",
         "title": "“요새 누가 현금 환전하니?”…찬밥 신세 된 은행 공항 점포",
-        "source": "중앙일보",
-        "summary": "“요새 누가 현금 환전하니?”…찬밥 신세 된 은행 공항 점포 중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42allpTDhyTjB3anloQXdXTThTY3NySnVjZTJvZGZPaUFBM2Fha25pY2JJckdKMHdqbVgwUDRrUVlwREkwMkdadmtzSTBpSmJLUDhVWDVn?oc=5",
-        "published": "2026-10-24T06:00:03+09:00",
+        "source": "미주중앙일보",
+        "summary": "“요새 누가 현금 환전하니?”…찬밥 신세 된 은행 공항 점포 미주중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wamVmXzUwWURmLV85cnJyMlA2dTgzRUJBSUhDa2kwcWRKTzlzT3dkcVJObkFmWXlyTU14T1hheHFvbGtFeE5DdXBGcTNteUhpUFJiNW1OdXVRVEMxdl9qaDlR?oc=5",
+        "published": "2026-10-24T17:12:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 13
+        "rank": 9
       }
     ],
     "policy_news": [
@@ -184,16 +184,15 @@
     ],
     "shinhan_news": [
       {
-        "id": "b176db7e35cb",
-        "title": "동해항운노조·신한은행 동해지점, 북평·송정동 이웃에 연탄 1500장 전달",
-        "source": "강원도민일보",
-        "summary": "동해항운노조·신한은행 동해지점, 북평·송정동 이웃에 연탄 1500장 전달 강원도민일보",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SallWLVJ4SWg0TG9XeHpQWGFTZHlSTThTVkJWQlFIeVF5YVVHcldqQ0VBdDZRNWNjOGN5M3pmTFBlTnVIb0d2RUF5dzlaaTN1WVZyeHR1ZUE3QlhUdzM2bFlRaFh2QjA?oc=5",
-        "published": "2026-10-21T10:52:50+09:00",
-        "query": "신한은행 지점",
+        "id": "07c77515048d",
+        "title": "신한은행, 고객경험조사로 불편 파악…영업점서 바로 해결",
+        "source": "한국경제",
+        "summary": "신한은행, 고객경험조사로 불편 파악…영업점서 바로 해결 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BNnlhbzRNRGFYejZuRUJXdWp3VVhOaGRmbzJNRC1BZTIybDZWdWVfRi0tV0puV0ZELS02NkhfeWc5WFY3WGxNckZGTVRCdlpuU0N2ZGR5MGQtQQ?oc=5",
+        "published": "2026-10-28T09:00:22+09:00",
+        "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 14,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 1
       }
     ]
   }
