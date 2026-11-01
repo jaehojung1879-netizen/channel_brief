@@ -1,13 +1,58 @@
 {
-  "updated_at": "2026-10-31T10:01:53.006928+09:00",
+  "updated_at": "2026-11-01T09:24:37.369621+09:00",
   "social_finance": [
     {
-      "id": "93a46e1b1689",
-      "title": "[금융 게시판] Sh수협은행, 금융그룹 전환 추진…KB국민은행·BNK경남은행은",
-      "source": "라이센스뉴스",
-      "summary": "[금융 게시판] Sh수협은행, 금융그룹 전환 추진…KB국민은행·BNK경남은행은&nbsp;&nbsp;라이센스뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xUjlhRzlHNlVlN1J1aGdXcFRDOUItWTdKaFk4MmhramVXMTVfT25KZWJpLUh4U0RMa044Qmc0SUxFcGVHeHgxX2hmSzhTa0JyWmpWT3lSLXM2YXBuWW1YYTg4NGNWakplVEVF?oc=5",
-      "published": "2026-10-31T06:00:00+09:00",
+      "id": "0acaad12eb5b",
+      "title": "[은행과 생활]② 국민은행, 서민금융에서 '리딩뱅크'로…63년 성장사",
+      "source": "파이낸셜포스트",
+      "summary": "[은행과 생활]② 국민은행, 서민금융에서 '리딩뱅크'로…63년 성장사&nbsp;&nbsp;파이낸셜포스트",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hT3JSTVJkMGxGNjhNNlE2LWtLVnlhaXJieG43T1IyTDFtYkdLUUZDYUc1QUtQSDlDU014NWVNaHhDem5OaGI3am82SmRIVjZibmxGNURqTzROVng3SFBFTVFhZzBpOU5JOUpuS1ZLWkR1aGow?oc=5",
+      "published": "2026-11-01T08:35:00+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "02894dc7b1dd",
+      "title": "삼성전자, 서민금융·교육 등에 2300억원 지원…1500억 취약계층에",
+      "source": "뉴스1",
+      "summary": "삼성전자, 서민금융·교육 등에 2300억원 지원…1500억 취약계층에&nbsp;&nbsp;뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LWDRnVTZLNmNJeVNrMlFHdC10bmVjOFVYeTdsUnVKS0JzOHZQaUVwNjBINkw3M1dlbXZTUURVZENHWGxueUNXRmtGTERqS0xkX1ZRdXZmUXQ0S3ZoR3FlSWxzYm8?oc=5",
+      "published": "2026-11-01T07:30:00+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "97c270b4c190",
+      "title": "사잇돌2 취급액 '반토막'…정책금융 손질에 서민금융 흔들",
+      "source": "데일리안",
+      "summary": "사잇돌2 취급액 '반토막'…정책금융 손질에 서민금융 흔들&nbsp;&nbsp;데일리안",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNMk4yRmRGaEhPTUFIY0pONk1pbGVDZE9oZ2JsNktwTnVVM3kyYUhmM3JIRHg2SEZTOVVnN3MzMXQ3YzVGTDF2ZC1MRXVPVjBaVlVMV3NDWlFFNlVjY2tWaVNJbDJkV1N3QUh5eGN5UmJScndMd2FMbHRjY25RbU5lb0swRjdQNW5meFY5eE5TYlN2cmY1QUdzTTMwWksza1NiNXdSRk1jaUl4ZFp3RmtnWEtkNVBHeVoyQkt3N21kNlNlNW5zYm9OMkxKWEtpRzlBVlRocHBrajhtYnJFdzh5SllQWUFPdnFlaHRreVlfMVE5cEtyOS1xQUN5YzQyWUx5ampsdE9xaEJLc1dLUFNyQzFaUnlRRzg?oc=5",
+      "published": "2026-11-01T07:09:00+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "faeb7e2598b4",
+      "title": "경기도-롯데백화점, 도내 중소기업 19개사와 상생협력 팝업스토어 개최",
+      "source": "경기도뉴스포털",
+      "summary": "경기도-롯데백화점, 도내 중소기업 19개사와 상생협력 팝업스토어 개최&nbsp;&nbsp;경기도뉴스포털",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUE1ZUjZleWh0dElSN1dOMjdzMzhITTd4cTZIQnJkanFWUHBNdWtmeGxRS1luM3NWaUx1NnZUVGtTZDU4WHA2aFdaQ3Zac1RxamtpRUJPMl8zb09aOXZsakNwRVI5dmt2bDA0ejlMWHdvSk1sV18xN3VMR3ZGajh2empObXQ?oc=5",
+      "published": "2026-11-01T07:00:00+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "39033152cbbc",
+      "title": "강정훈 iM뱅크 은행장, “예방교육·정책서민금융으로 취약계층 보호”",
+      "source": "비즈월드",
+      "summary": "강정훈 iM뱅크 은행장, “예방교육·정책서민금융으로 취약계층 보호”&nbsp;&nbsp;비즈월드",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ObnZ6R3ZXb1o5bExWX1U1WVdUUlkxSWItTVVvWHZmUlRhZldRQ1BtNmp5a2NncjE5VlFJbzRTRS1kMGhXMTE2dDRKLUUyUTJHWlk3cHh5Wms4VnBzdTNNYWVEM0pPcWY2LWc?oc=5",
+      "published": "2026-10-31T22:28:00+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "9cad768f74c7",
+      "title": "KB국민은행, 모바일 수어상담 도입 … 청각장애인 금융 접근성 높인다",
+      "source": "워크투데이",
+      "summary": "KB국민은행, 모바일 수어상담 도입 … 청각장애인 금융 접근성 높인다&nbsp;&nbsp;워크투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yX1FyVUlwaWhXUVZCc295U0hwXzQ3UHIwMHVRVExoWFBjQUt6d1JvQVVqQVNOYWFPRU1vTG0yaW9makhkVGZabXBVRWxyb2lqRUE1MURJVUFjc19MU09kZ3lYVk1iYWdPWU5UNw?oc=5",
+      "published": "2026-10-31T12:25:54+09:00",
       "query": "금융접근성"
     },
     {
@@ -27,70 +72,16 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wMXVKb3pKRFlGM0M1bHcwVmJxNWg2bWJEUEdaVlBKZHZWZ1hpeThmUGZ0ejljNVMtclZLdUdnUTR0cUlvSW9TSFhaQWgwZ3V0Z1E?oc=5",
       "published": "2026-10-30T16:25:46+09:00",
       "query": "취약계층 금융"
-    },
-    {
-      "id": "92f208388026",
-      "title": "iM뱅크 행장 강정훈 '사람 살리는 금융' 캠페인 동참, \"포용금융 확산 노력\"",
-      "source": "비즈니스포스트",
-      "summary": "iM뱅크 행장 강정훈 '사람 살리는 금융' 캠페인 동참, \"포용금융 확산 노력\"&nbsp;&nbsp;비즈니스포스트",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZMDE5NW5aLUJoMkliRl9XS25pU0ZjWXlGVkMwc0x4bUZoNDdCOWFzWWltSEp5RGd5MlBUaC04dDFQUXJfN0RJd0JXTmEzQXB2T1YzM0c2TE9reWl0QTFDVDQwUU0wYlJuQmdmRUo1RFVHNjA?oc=5",
-      "published": "2026-10-30T16:23:28+09:00",
-      "query": "포용금융"
-    },
-    {
-      "id": "d723cdef606a",
-      "title": "NH농협금융, 미소금융사업 참여협약 체결…\"지역밀착형 포용금융\" By EBN",
-      "source": "Investing.com 한국어",
-      "summary": "NH농협금융, 미소금융사업 참여협약 체결…\"지역밀착형 포용금융\" By EBN&nbsp;&nbsp;Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fMHdkdmE4Y3J5UzctTXcteUgxOWdBbFJzSWxsRzBhVnBKbmRWM0wyRE9rYjlvaEx0SHFhVENGSncwSXhsVzRLbXROS0E5Y2RwNzR4SkFFbzVDWnoyOThhZU1VaDFmQkJSbUczbjFZb1A?oc=5",
-      "published": "2026-10-30T15:59:00+09:00",
-      "query": "포용금융"
-    },
-    {
-      "id": "264ed88fa14c",
-      "title": "하나은행, 미소금융에 1000억원 출연…취약계층 지원 확대 By 알파경제 alphabiz",
-      "source": "Investing.com 한국어",
-      "summary": "하나은행, 미소금융에 1000억원 출연…취약계층 지원 확대 By 알파경제 alphabiz&nbsp;&nbsp;Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jdThZa0hFS0R5cjA4aUI1ZHUyUkltQ0gweTRfRDBHZGs0aVcweFoxbUxUeEpHN3RTM3AtR0d0TFJfM3d3TklTM1pubE81N1hFVjZ0SE5CdmVnMlJNTzlMMGozSmFORGxxUHE5WWRsLV8?oc=5",
-      "published": "2026-10-30T15:58:00+09:00",
-      "query": "취약계층 금융"
-    },
-    {
-      "id": "640b24088718",
-      "title": "세계 기후금융 연 1조9천억 달러, 32% 급증했지만...접근성이 문제",
-      "source": "ESG경제",
-      "summary": "세계 기후금융 연 1조9천억 달러, 32% 급증했지만...접근성이 문제&nbsp;&nbsp;ESG경제",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RMk5Rc0xpSFNUXzZQWmVMRGl3V19ReERsRHpURmVkZ2N3a2FGZ09kMXRfVUF2SDZuWVlfekc3ZGgyMHZPTGZUOUlGeW5XQS1XekJ3Smt2cXFETmJ0NldVbWNMSTZMeDVzTE9mQQ?oc=5",
-      "published": "2026-10-30T15:18:15+09:00",
-      "query": "금융접근성"
-    },
-    {
-      "id": "4b26090d465e",
-      "title": "롯데프리미엄아울렛 의왕점, ‘경기도 상생마켓’ 개최…중소기업 19개 브랜드 참여",
-      "source": "나눔경제뉴스",
-      "summary": "롯데프리미엄아울렛 의왕점, ‘경기도 상생마켓’ 개최…중소기업 19개 브랜드 참여&nbsp;&nbsp;나눔경제뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IX3NIMU1IOG0xS2NsWkt0SkNyQVJzdUUwak0xOUswS3pxNzhaRjhTTWlZNzMzRmp3NUpXTDFpeVlILWVIZDdXRmh1LWhQQS1UQ0xicEFZZUNkUjRGdjVrZ1BWZW9aN3ZfSWtUeQ?oc=5",
-      "published": "2026-10-30T14:56:01+09:00",
-      "query": "중소기업 상생"
     }
   ],
   "tech": [
     {
-      "id": "a4c30c0987ba",
-      "title": "문페이, NH농협은행·핑거와 디지털자산 결제·정산 모델 개발 협력",
-      "source": "경향게임스",
-      "summary": "문페이, NH농협은행·핑거와 디지털자산 결제·정산 모델 개발 협력&nbsp;&nbsp;경향게임스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XQTNmdGdMODlPQ2stdl9oanAyR0YteHBBT3hPWG5yZHpzOGxiLWhHYVROOV9sejRkbnBYSlJ5UmluU2NSTWZhT1dxUE9MT0hJSE5jV0lrZXVXamhZVmp0OWY1Qi1hWGZVX0U0Yw?oc=5",
-      "published": "2026-10-31T09:00:00+09:00",
-      "query": "블록체인 은행"
-    },
-    {
-      "id": "34ad51b32bd9",
-      "title": "홍콩·일본은 스테이블코인 발행, 한국은 발행 주체 논쟁",
-      "source": "플래텀(Platum)",
-      "summary": "홍콩·일본은 스테이블코인 발행, 한국은 발행 주체 논쟁&nbsp;&nbsp;플래텀(Platum)",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5PZFBlWWNtTjRLZ2g0UUhPMG5TWG8wLTNqTmt6NEE1WEZvNjVuZGt4dlV0OVo4Wjh2d0hHYUlsdFlhUng0dUlTTQ?oc=5",
-      "published": "2026-10-31T04:57:22+09:00",
+      "id": "e0d347059e18",
+      "title": "[심층분석]디파이 우회로 뚫린 지니어스법… '디지털자산 수탁 창고' 전락 위기 몰린 美 은행들",
+      "source": "굿모닝경제",
+      "summary": "[심층분석]디파이 우회로 뚫린 지니어스법… '디지털자산 수탁 창고' 전락 위기 몰린 美 은행들&nbsp;&nbsp;굿모닝경제",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oSXp1M2F2bDNMS3hObzVYeTJEQTFsY3IzLVlJU1NmMEY1Snp3c1dLMTIwbzJTSjQyVXBaS1hJeUo2SDdtaTFYWmNLX29jMXM0UGRpMzhIcnByUk9OWVZHcWdFbEduOE90V1pfeg?oc=5",
+      "published": "2026-10-31T23:32:55+09:00",
       "query": "스테이블코인 은행"
     },
     {
@@ -103,49 +94,58 @@
       "query": "은행 AI"
     },
     {
-      "id": "729ba31ef517",
-      "title": "LG CNS, 3Q 매출 1.7조원 \"AI·클라우드, 금융 사업 성장 견인\"",
-      "source": "마일드경제",
-      "summary": "LG CNS, 3Q 매출 1.7조원 \"AI·클라우드, 금융 사업 성장 견인\"&nbsp;&nbsp;마일드경제",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42VTZiMFk0YjlnYldqc1ZQOElHeUctMmhTcEc5bmJ3OVEwX2REckRvbHlSak13ZmVLNmlfc1kzRzVrNF9IemQyR1N1SW1GdEhSY2tWdExYbTFNamV0UlhNT2xfakh4WDhsUEpV?oc=5",
-      "published": "2026-10-30T19:46:00+09:00",
+      "id": "6d9c677c819d",
+      "title": "“보이스피싱 골든타임 잡는다”...한국딥러닝·IBK기업은행, AI로 피해구제 자동화",
+      "source": "매일경제",
+      "summary": "“보이스피싱 골든타임 잡는다”...한국딥러닝·IBK기업은행, AI로 피해구제 자동화&nbsp;&nbsp;매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pd00tS1RMSUF2bUlHOGo2SEFhSGF6T1B1b211Z09Vd2RPUVRhM3lJU29qa0ZzS0J5T1RDUGtzU3RLeXJIOE9CU2Nhc0dKUQ?oc=5",
+      "published": "2026-10-30T13:45:43+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "87fa0208df97",
+      "title": "LG CNS, 3분기 호실적…AI·클라우드가 끌고 차세대 금융이 당겼다 (종합)",
+      "source": "디지털데일리",
+      "summary": "LG CNS, 3분기 호실적…AI·클라우드가 끌고 차세대 금융이 당겼다 (종합)&nbsp;&nbsp;디지털데일리",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QdlI2ZHdFYkZ5YnN5TEQ3TVBDZDI2SGhNRzV5blpuekY5V2JtT3EyVmltMW55RENoYXFmYjN0LVdhdUE5NVNBM29wZFQxN0tkWE0wWE81RXNJVTJZeHVEYXZ4aW4?oc=5",
+      "published": "2026-10-30T13:21:10+09:00",
       "query": "은행 클라우드"
     },
     {
-      "id": "cb39832c088a",
-      "title": "[책마을] 블록체인이 바꿀 금융의 작동 방식",
-      "source": "한국경제",
-      "summary": "[책마을] 블록체인이 바꿀 금융의 작동 방식&nbsp;&nbsp;한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIR1l6NDFxUVJHaWZ1LWdDZVBJNDZkVmlfWjNOSGxjUDdtVTdxOVROTE5fTW02c3RSRDFrdEdVU1pkSzhVZENGUlotQ29WdTFsb2s3d0tpeE82dw?oc=5",
-      "published": "2026-10-30T17:23:37+09:00",
+      "id": "d84374cb2bb1",
+      "title": "은행들, 이제는 스테이블코인·토큰화 기반 인프라로 '갈아타기'",
+      "source": "코인리더스",
+      "summary": "은행들, 이제는 스테이블코인·토큰화 기반 인프라로 '갈아타기'&nbsp;&nbsp;코인리더스",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1kZEExUlNSNVA1OTR5MTJNb2hQOFBFUWdTTnFYZk0yNGRmZlhTNzlZTHVidWlyakFRM25hTHVsUmVUMDAtMkVCOTJB?oc=5",
+      "published": "2026-10-30T13:10:00+09:00",
       "query": "블록체인 은행"
     },
     {
-      "id": "288a5bfa65f3",
-      "title": "Sh수협은행, 3분기 순이익 2882억…지난해 동기 대비 0.7% ↑",
-      "source": "데일리안",
-      "summary": "Sh수협은행, 3분기 순이익 2882억…지난해 동기 대비 0.7% ↑&nbsp;&nbsp;데일리안",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSEd0Zl91VHVPZzBHOGVnSWd3RHY3b19INkxVcmthSGhFMkF0Vl9KaHZiaFpfbWZJY09YaXNRSk9UeVpYX2J1TnN6a0xDRDdrZ2hpUzRsa25EOGhyb1dmRDhFR1NvM0hHMmdxXzdRSEt4QVliVzZ4enAzWktITmpUQmgyR1JZZWlRMzBqU2VnWWxZZWFjV1RocUE1TVNxeFJRenRJY2N3NE83SklCaVFucmtXLTBqYWUtMDk2M0F6UGhBZmpFRGZSTHF4MGg4aXhQRVEwRHB2MFJLQTVKSUJMdXZsYw?oc=5",
-      "published": "2026-10-30T17:12:00+09:00",
-      "query": "은행 생성형 AI"
+      "id": "97aee2e04d39",
+      "title": "한국딥러닝, AI로 IBK기업은행 보이스피싱 업무 자동화",
+      "source": "AI타임스",
+      "summary": "한국딥러닝, AI로 IBK기업은행 보이스피싱 업무 자동화&nbsp;&nbsp;AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ieDRtQ08tWjdBX3ptUUF6WUhocGNOVUoybXRXbmNmWmJDR3I4SDZpYmtVMjNzTkZsdk1tcmNaSEZoWDBUY083NEtIWklhR3VDTzhPZmNDa3pXTTNWRlFaT0otVFp0ZE0wVnc?oc=5",
+      "published": "2026-10-30T11:32:16+09:00",
+      "query": "은행 AI"
     },
     {
-      "id": "7bd71d8316f7",
-      "title": "수협은행, 비은행 금융사 인수 추진…신학기 행장 \"금융그룹 전환 완수\"",
-      "source": "이코노미사이언스",
-      "summary": "수협은행, 비은행 금융사 인수 추진…신학기 행장 \"금융그룹 전환 완수\"&nbsp;&nbsp;이코노미사이언스",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56b2ZpbGF3cmZZYng0bVhvNVNhM0VfaTN2TjNXT05qQzNCMHUzZHdmbUp1OTdCUElxLUZXdlRHVlpNd2JQd3RoYmJ1RVZzS3U5dmM5UDNlU2ZUREpaZVJzdFItaXZhN2NyRXpDRjV2cw?oc=5",
-      "published": "2026-10-30T17:06:26+09:00",
-      "query": "은행 생성형 AI"
-    },
-    {
-      "id": "75f26d23a815",
-      "title": "LG CNS, 3분기 매출 1조 6643억원·이익 1382억원…AI·클라우드, 금융 사업 성장 견인영업",
-      "source": "인공지능신문",
-      "summary": "LG CNS, 3분기 매출 1조 6643억원·이익 1382억원…AI·클라우드, 금융 사업 성장 견인영업&nbsp;&nbsp;인공지능신문",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50cjVoV3JYWXplbW9pODBhdURraFJIYkU1VU9DbGZCZm1hU3FaMWFqRWpNaER1c2tnUHdmU3oyV21PWGQ2YUIxMHgwcUdWc2V0a0NIU3FZOGxYbjQzTERDdER1WnlmazQ?oc=5",
-      "published": "2026-10-30T17:05:16+09:00",
+      "id": "049ae5a6de8a",
+      "title": "LG CNS, 3분기 영업이익 15% 증가…AI·클라우드·금융 IT 사업 성장",
+      "source": "조선일보",
+      "summary": "LG CNS, 3분기 영업이익 15% 증가…AI·클라우드·금융 IT 사업 성장&nbsp;&nbsp;조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOHRlZThGdzc4SFlkUHhoX0gzVEVKTzk1S2lNS3JHSEc5NWk2QU84U0ozRkx3d0NraE9NQm44Q0Y5R0pDdjk5czJydEd0TnNadkZxeEhuUVNabkpIWGNaTEp6OURtOFcwMmRDdUVLR0xHUUhSazVzMl8xdnVMbWZkUmZCWQ?oc=5",
+      "published": "2026-10-30T10:17:15+09:00",
       "query": "은행 클라우드"
+    },
+    {
+      "id": "c9252344b5a4",
+      "title": "[이슈]제주은행, 지방은행 최초 법인 비대면 ‘DJ Easy-one 보증서대출’ 출시",
+      "source": "뉴스N제주",
+      "summary": "[이슈]제주은행, 지방은행 최초 법인 비대면 ‘DJ Easy-one 보증서대출’ 출시&nbsp;&nbsp;뉴스N제주",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53S3ZOWjhPajEwTTI4a2g0VjB0T0xXUzl4LURtb3cxdHp0azdxaGFOSU1MQ3NBNzB5cndhZDFsSEZiTjM1TExzcUVtMEhnMUtmWi00SFgzNnNwa093NkE2N2I3QW92T2NzeWRPVg?oc=5",
+      "published": "2026-10-30T08:45:00+09:00",
+      "query": "비대면 실명확인"
     }
   ]
 }
