@@ -1,66 +1,102 @@
 {
-  "updated_at": "2026-11-02T10:01:38.211354+09:00",
+  "updated_at": "2026-11-03T12:03:09.529940+09:00",
   "items": [
     {
-      "id": "5491bae42551",
-      "title": "[그래픽] 호남 반도체 국가산업단지 교통망 구축안",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLNXJ1c0RIZlhlWlJKSXNpZHU4ZHIzUkVEYWtNT29GT0dZc2VLbXhXdUNXUmJqd2dyQVlOSEtjbnItUi0tbkppRUtHWXBMajVDc01aQU93dFVuaEHSAWBBVV95cUxPNW5WMHUwV2RNbEpUamhKaXNjS2pBWElGMWpfcmJfLUd1VjRENXJlT09hWnJnaHBaMnNjVXRCVnpqUjdGa3Z3T1pxcS0tWTdUcGx5Z3JWZDBXT1I4czczTjE?oc=5",
-      "published": "2026-11-01T09:01:21+09:00",
+      "id": "3755a3655320",
+      "title": "제천시의회, 신백동 도시재생사업 현장 점검…364억 원 사업성 살펴",
+      "source": "충청타임즈",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTVmdRVmxpaS1pdVkxaWZsUWhDSlNHbjU4WlkyVy1XTGVqNFhPTnlsVWVLX1dleTJyOGhyRmFVMHV0MXdMaWpfRmtrWk4wUC1YSW9Id0t1MEhsQXRIeFp3U1lhY0hLa3Ey?oc=5",
+      "published": "2026-11-03T11:06:00+09:00",
+      "date": "2026-11-03",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "edf7786db357",
+      "title": "제천시의회 산업건설위원회, 신백동 도시재생 현장 점검",
+      "source": "https://www.ppss.kr/",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BU0Zqa2MyM3BnU2ktSVhhLWdMbVlzT2JpVXBBd1U2WFZVTDZadGZfQkdmS3gzMWhsdENTLTdVMl9odjJCUTdndEppdnRDcW03MXZMdUZkX1VSTFNKV3BJVG5CaHI?oc=5",
+      "published": "2026-11-03T10:28:20+09:00",
+      "date": "2026-11-03",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "a879bb782af1",
+      "title": "제천시의회 산건위, 신백동 도시재생활성화계획 수립 현장 점검",
+      "source": "이뉴스투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWDdVN25pcmlRY1ZITERLbDl2YjJYZFN0aEN4dzk2aGRzUEN5R0dmNmx6TXJtR1ZaRFBaNHkyLVhOVzY1RXhyRnpuZUI4bEdQTWdoTGVWS19iMlVuUUYxTHhzclRNN3RmazhrLXBRZU_SAXRBVV95cUxPdVdGel9DenYxNEh1NGZyYmlCQlNnRFluRWNURWlpcDg4OEFBZ2pCcTV1SXlyZlVCYUxsRlV5ZXFKRU1PT3Q1TVlKeTU2LWpZeWF3YXJGOW1NbU9IcWQ5Rm1BX2Z6Q1FjYmpQRlpMR2F5Z0lzUA?oc=5",
+      "published": "2026-11-02T19:07:03+09:00",
+      "date": "2026-11-02",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "1aa4898e25de",
+      "title": "제천시의회 산업건설위원회, 신백동 도시재생활성화계획 대상지 현장 점검",
+      "source": "충북일보",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yY3ZIOTBsbHc5ZzNfMHNrRWpQdjJ2ZlZLQVFobHRsODhYaHlLN2p0UUhUNWVWVksyc3dIT1ZTX1ZBMjItVnhEZUJCYVdwTWpqX0lWZmJnSHdlckJhRzBVRnpR?oc=5",
+      "published": "2026-11-02T17:22:41+09:00",
+      "date": "2026-11-02",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "88b986f74de8",
+      "title": "제천시의회 산업건설위, 신백동 도시재생 현장 점검…사업 실효성 확인",
+      "source": "국제뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52N2ktYnFWMG5ZWXdTZXptQTlmVzhpSkZqUGM1TnVoM2dYWEI1anROaGRSRERDQTJKZEJtSG1lV2thVVdlTTRHOTJtanpPWmJTZDdBLVdRZUszUTk2RWZlek5lUy1ud0FHRnNPZy13?oc=5",
+      "published": "2026-11-02T15:38:20+09:00",
+      "date": "2026-11-02",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "fc2c2107e7a1",
+      "title": "777만㎡ 용인 반도체 국가산단 본격 착공",
+      "source": "용인신문",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IUzNUWWkzVm1ucnZjczExajQySkJVSUhRUUtHT3lLUTV6WVRKcWZaa3lBekg2Tno3aTB1STZoSndIb1RrMG8ySkVmdUJVSjVyYmRyVDN0WnZWbkZoVE96ckZVMHg?oc=5",
+      "published": "2026-11-02T10:33:59+09:00",
+      "date": "2026-11-02",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "f9a728390f95",
+      "title": "용인 반도체 국가·일반산단 교통대책 속도…주차장 확충·기반시설 점검",
+      "source": "대한경제",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5UVpDcDJqZllmTzVLYlA1ejNZTEYwTWpUYmYycUVQX0dyR2t3SHpBbkNyMHY3aTZsRzBLVjZjNVBJQnNmVFQ0dWtRRnF6aVF2ckpyUEFvOGUyRkQ4VTVxNmpyVmJJa1lBQ05icXJzUjBLTGh4?oc=5",
+      "published": "2026-11-01T09:23:24+09:00",
       "date": "2026-11-01",
       "query": "반도체 국가산단"
     },
     {
-      "id": "d19533d7ff66",
+      "id": "f48ef9cec646",
       "title": "택지 부족에 꺼낸 3기신도시 '용적률 카드'…기반시설 확충이 관건[주택공급의 조건③]",
       "source": "뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOY0NoZktWUDZfeFlBS0NhUEg4YktPbTRDcTdZVndHdnlHLTJkcW5UQXBhLThPUDJZSUhjMDhoSk80Y1NNU0ZuMU1XU3lhenFRNnh4WHhiTEdjdVVZU0xzdGlDLXZpMVFqZ1FOUVZWZ1RadWtfSU9FQtIBeEFVX3lxTFBOY0NoZktWUDZfeFlBS0NhUEg4YktPbTRDcTdZVndHdnlHLTJkcW5UQXBhLThPUDJZSUhjMDhoSk80Y1NNU0ZuMU1XU3lhenFRNnh4WHhiTEdjdVVZU0xzdGlDLXZpMVFqZ1FOUVZWZ1RadWtfSU9FQg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zaVZPcUxnT0p4TmdmVmQyZmNhTDVEU1B1eXRBZVFkckp3aFNydW1kREJZSFplS2ptMzZQS2wydVBzcXZQZ2pCRG80NDV2d0hQSm52N1pSMU1OTkowUU9tMNIBeEFVX3lxTFBOY0NoZktWUDZfeFlBS0NhUEg4YktPbTRDcTdZVndHdnlHLTJkcW5UQXBhLThPUDJZSUhjMDhoSk80Y1NNU0ZuMU1XU3lhenFRNnh4WHhiTEdjdVVZU0xzdGlDLXZpMVFqZ1FOUVZWZ1RadWtfSU9FQg?oc=5",
       "published": "2026-11-01T08:00:00+09:00",
       "date": "2026-11-01",
       "query": "신도시 착공"
     },
     {
-      "id": "0ac2680917e5",
-      "title": "국제교류복합지구 지구단위계획 및 잠실 스포츠·MICE 복합공간 특별계획구역 세부개발계획 결정변경(안) 수정가결",
-      "source": "국민기자뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LSjdtWUxNMnYzX3FFU2lROWtHYXVqYV82a3BTNGVhdlhMNS1WZWRCUXA3UVhEdkZTMXE3MnZOUW9PN0o0OXhyeGotM0N1MUlnUXlWbjVTVTZJdXJoSDJsMUliXzfSAWdBVV95cUxPUE1kM0NFZWhoQnl2TlIzRDlZVDN2OHhCeE5OOG9lNkF6UGpwanNwOFlOZURFU21ZU21rYTRoQ0F0VmFyWjRENDNVMUNMSF9NTG1fckQya2tCVWdiVUJPUGtpZ3hkdFBN?oc=5",
-      "published": "2026-10-30T19:00:00+09:00",
-      "date": "2026-10-30",
-      "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "2c2defdf05ae",
-      "title": "이상일 용인특례시장, 반도체산단 교통대책 본격화…2만대 주차장 추진",
-      "source": "이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XUmJCMk4ybmJFQkVRMWdBcVRoeUpyU0tjVjNEMWVNQ0F3TkV1TEpNUTFFRVl2RzNwWVhaY2Fldm5xMVhXLVIwbHB1UXlzUlBLTUF2aw?oc=5",
-      "published": "2026-10-30T14:14:00+09:00",
+      "id": "ca7d3cbff26b",
+      "title": "용인 반도체 국가산단 착공…주차장·숙소 대책 마련에 착수",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oUjVCTGtWdFp0OGJzbEhjSzcyWVlWaHBMODVCalJMV3lkWkJienJNYzIxOHVQOGJPTmc1SGhBOTVXd090Xzd3VlR0YVFnQ3Z6dWlqZ05MLUdVRWvSAWBBVV95cUxQUzJhVUhpLUtOZm05X19JdC1JQnhUcjZfZS1QVUVpRjNJRHdLQ3N1S19IVEFtb3VDOHNDMGlSMzVSTnhqS01NZWNrSmR3ZkQzREhtTFZDOE5fSlNfQzBMdzI?oc=5",
+      "published": "2026-10-30T10:13:48+09:00",
       "date": "2026-10-30",
       "query": "반도체 국가산단"
     },
     {
-      "id": "67196fdb701f",
-      "title": "용인특례시, 첨단시스템반도체 국가산단 부지 조성 착공 따른 종합대책 마련",
-      "source": "인천일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2amk1SGxPVEFfRXlEa1FpeG5hVjdkNmJUalZGZ04xaXFMblFiZm9QUDhEVjl2SUdaVGNwbHlFaWxEQWFNbk5RdThjaEVQOHAyQjZWdlRqeUJwckNLNl8yb3hqU1E3eWZyWGluaWFmaFc?oc=5",
-      "published": "2026-10-30T10:54:00+09:00",
+      "id": "2891d5da0717",
+      "title": "용인 반도체국가산단 착공…市, 근로자 출퇴근·숙박 문제해결 나선다",
+      "source": "문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5nZXFGRU1CU1FVZnd2Qm80SGQ4ODE1X3JZX3RMVjVmaTJwRDZaUHVKZG1oVDhDM0JEN2JoYWxQSTVSYWc4NEtWa05qMUh2X2pZ?oc=5",
+      "published": "2026-10-30T10:04:56+09:00",
       "date": "2026-10-30",
       "query": "반도체 국가산단"
     },
     {
-      "id": "4b1cb1036183",
-      "title": "용인시, 반도체 국가산단 부지 조성·팹 착공 지원 총력",
-      "source": "뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4ySkNuX2lLbG1vU1B3TGNab0w2S3RLTGh1SzhETEp2OHdGSDczOUNDRW1HYzF3RmJzZjBCN2Z2NG4wMXB6ZUFCRFNWVWJ4UkZGaUFXZnlQZC16cjJ4X3VyVNIBeEFVX3lxTFBlQWp2V1FwZTZXTksybVRWekVvX2pmeVFUd3BsTXE5dndSMnBIU0ktNE9yZHZDa0ozX3BUVjJ2S05GU2E5NVVKT2xYX2hOQ3BkdHpVOVdsZlV5UDRBMnpKQVdoaXdVLThYWWtxcDhBVnRUWlJDcWNnWQ?oc=5",
-      "published": "2026-10-30T09:36:20+09:00",
-      "date": "2026-10-30",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "2e6a828f7486",
-      "title": "용인 반도체 국가산단 착공…교통·주차·숙소 대책 마련 본격화",
-      "source": "아시아투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jV1piLUk4SDRVa0NIUU9DVkw0bng3b3Z0Q0VfdWdmSXU2U01FckZ1R0hPd3lDRkd5Q09uQmt6b25zcm5US09JVUZTdjM2UTBSZ0VsUUIyX2NCanFpdElUdGdJQUNhemFNQVdkNGV3?oc=5",
-      "published": "2026-10-30T09:14:07+09:00",
+      "id": "3ff6abbc5338",
+      "title": "용인시, 반도체 국가산단 착공에 교통·주차 종합대책 마련",
+      "source": "매일일보",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kLVc5SEFneU5PM1EwWG0yNTB5c2tBSVFDOV9VVWVYOGllVE1YTmpBN29pWVVyaTBUUjZDcFh6aVEtNDY2eXBsSXcya2xuOFhlMU5kMk5acER3NTYzRWxSWFl2Rzk?oc=5",
+      "published": "2026-10-30T09:06:48+09:00",
       "date": "2026-10-30",
       "query": "반도체 국가산단"
     },
@@ -72,42 +108,6 @@
       "published": "2026-10-30T06:00:00+09:00",
       "date": "2026-10-30",
       "query": "신도시 착공"
-    },
-    {
-      "id": "610ba0eb00e3",
-      "title": "[아유경제_부동산] 잠실 스포츠ㆍMICE 복합 개발사업 본격화… 2027년 상반기 착공",
-      "source": "아유경제",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yRnVJcVRRTW1KRVROajdDbnpPdVRSQk5tVDJvelFQUXg2NlRKbmhSXzh2aHNTeUpvUWFrTmdlMDl6MDhOS2JnWlAyNEhXUmhWYTN3RmdXRExOMFhHMG5uS0c0UlpKLUVv?oc=5",
-      "published": "2026-10-29T13:23:57+09:00",
-      "date": "2026-10-29",
-      "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "268106ad5e4c",
-      "title": "서울시, 국제교류복합지구 지구단위계획 및 잠실 스포츠·MICE 복합공간 특별계획구역 세부개발계획 결정변경(안) 수정가결",
-      "source": "더뉴스코리아",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9LVTh0aEJUWVNmSHVtUFo3NXhvRnl1aG1HRU1wNFJGZEc0cUNyMVo1Zlk0UWJFWi02c1E3bTk2WXYyLTItd1E1WnV3?oc=5",
-      "published": "2026-10-29T12:08:00+09:00",
-      "date": "2026-10-29",
-      "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "5fef9e18e5e0",
-      "title": "우크라이나 언론은 사회기반시설 파괴 경쟁에 대해 설명한다.",
-      "source": "Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMWFNUWN5MTgwcGRndnNWcXRKN1RaSWZVMHRTRzc2VllQR1FOc3lPX0U3Vzd6aUk5RkxRUEo3WS1EVGxUcFZsSTdHLUFKclRaek5SRnBxdmtObXpCNnpZOVpWWjBsZFpfUTg5eWZkeTNPYk9ybk5yQkJjbzJIS251UGxzRjljSFJEYUE?oc=5",
-      "published": "2026-10-29T11:22:57+09:00",
-      "date": "2026-10-29",
-      "query": "기반시설 인가"
-    },
-    {
-      "id": "06b8ea429bc7",
-      "title": "대전 도안 2-9지구 지구단위계획 변경안 재신청",
-      "source": "쿠키뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95Uktfd2tYa2hlczhzOU45Y0I0MjR2YlQtN2NWYzdVS1RoV3ppR3UtbGN3RmhWNmloOUpfVElYbUh1eEstV19TUnFiWEs3ajhNRnJpcXdXeHA2Y0xUZ3FQdXdjYw?oc=5",
-      "published": "2026-10-29T10:42:30+09:00",
-      "date": "2026-10-29",
-      "query": "복합개발 지구단위계획"
     },
     {
       "id": "ebe55d3b3d70",
