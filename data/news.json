@@ -1,20 +1,56 @@
 {
-  "updated_at": "2026-11-04T10:36:39.115386+09:00",
+  "updated_at": "2026-11-05T10:43:57.112537+09:00",
   "headline": {
-    "id": "9cf5be9e506f",
-    "title": "점포 줄이더니 이것까지?…은행이 현금·수표 안 받는다",
-    "source": "SBS Biz",
-    "summary": "점포 줄이더니 이것까지?…은행이 현금·수표 안 받는다 SBS Biz",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83U05QYUdMaWdQZFY3Y0tmREtLdUxzclpmcnRUdlB6SENlblJ4b1V4aWR1MUo1VWFRZXB1QzlGYjVnVHEzZ0NGb3VpNWRKcUc5Sy1F0gFYQVVfeXFMT3ZqbGxCRmI1OEtoQmZVYUE5QkxFN2x3NjNEMm5LakdwNVNWOUVDTTNHQmh5eHVJUnp2NGphcFFXU1Z1cjlpTVJKV1oxZXNKbkVadDE1M3N4QQ?oc=5",
-    "published": "2026-11-03T19:54:00+09:00",
+    "id": "a864eff55205",
+    "title": "은행, 일반 점포 줄이고 ‘돈 되는’ PB·WM 채널 늘렸다",
+    "source": "데일리e뉴스",
+    "summary": "은행, 일반 점포 줄이고 ‘돈 되는’ PB·WM 채널 늘렸다 데일리e뉴스",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jOUpFWHpUNEJHS0lzUk5HRC1yOXFEa0JlZTFyTmdoVEN3ZUpfcWF5NkhEU2RaTzNLdlBCb1VEWkF3b2toRDk2X29UaVAwWFhQOFFQckkxbzhSZnBEbEx6Z0hDM0pvTnJSVUlhSXpfVQ?oc=5",
+    "published": "2026-11-04T16:52:08+09:00",
     "query": "은행 점포",
     "engine": "google",
     "rank": 1,
-    "_score": 14.0,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "6dd5be56a5c0",
+        "title": "“영업점 현장 목소리로 차세대 시스템 완성한다”… NH농협은행, 프로젝트 NEO 자문단 연도대상 시상식 개최",
+        "source": "스마트경제",
+        "summary": "“영업점 현장 목소리로 차세대 시스템 완성한다”… NH농협은행, 프로젝트 NEO 자문단 연도대상 시상식 개최 스마트경제",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mYUF6ODBiUHNRYXpwMzNuWndqZ1M1OW5QejNGWGtXeXI0RnA4dmhUd2x6LXZCTXlaTkdwZEVjMGRLWWZQeURTa1l1Skp4ZXk1Q3h2dEd3ODJnOWw3UE4zSXgybWZ0ZmRFMG5QV0xFTWE?oc=5",
+        "published": "2026-11-05T08:53:36+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "fe758d1ba5f2",
+        "title": "은행 골드바, 앱으로 사고 선물한다… 수령은 영업점 \"안전한 거래가 우선\"",
+        "source": "녹색경제신문",
+        "summary": "은행 골드바, 앱으로 사고 선물한다… 수령은 영업점 \"안전한 거래가 우선\" 녹색경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBLU1fenppbi1SVjB4N3RMdkx2X0QwNEtuZnRIRUliU2RPbVVraWxIMzlqSW91NEgwZzN6ZGh5YkpmdUItMHV6YjdrMWpmMFd2RWJUZElWOVJVemxhV0NjMlp6M204S0pN?oc=5",
+        "published": "2026-11-04T10:59:48+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "9cf5be9e506f",
+        "title": "점포 줄이더니 이것까지?…은행이 현금·수표 안 받는다",
+        "source": "SBS Biz",
+        "summary": "점포 줄이더니 이것까지?…은행이 현금·수표 안 받는다 SBS Biz",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83U05QYUdMaWdQZFY3Y0tmREtLdUxzclpmcnRUdlB6SENlblJ4b1V4aWR1MUo1VWFRZXB1QzlGYjVnVHEzZ0NGb3VpNWRKcUc5Sy1F0gFYQVVfeXFMT3ZqbGxCRmI1OEtoQmZVYUE5QkxFN2x3NjNEMm5LakdwNVNWOUVDTTNHQmh5eHVJUnp2NGphcFFXU1Z1cjlpTVJKV1oxZXNKbkVadDE1M3N4QQ?oc=5",
+        "published": "2026-11-03T19:54:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "33d9c1c8b148",
         "title": "Sh수협은행, ‘이웃사랑 생필품 나눔’에 104개 영업점 참여",
@@ -24,30 +60,6 @@
         "published": "2026-11-03T14:08:21+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "ab40635d9983",
-        "title": "미야사카 3점포 6개 폭발…삼성생명, 하나은행에 18점 차 완승",
-        "source": "톱스타뉴스",
-        "summary": "미야사카 3점포 6개 폭발…삼성생명, 하나은행에 18점 차 완승 톱스타뉴스",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpNVVVT18xaWJZMk96WUZVS2Z5X3V3U2NOb2h2a2NFVG03T0h0bVQ1aDdQMWl0dmFxTUVTV3ZDSVIwVHM4a2xZMm1rRGV2MzRXMFdnV0thOHBNcWQ4RlNETXFXVXI3ZFNIQl9KbFlmcW1oQQ?oc=5",
-        "published": "2026-11-02T21:36:04+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 16,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "f65c3ca63b76",
-        "title": "골드바도 앱으로 선물…하나은행, 영업점 방문 한 번으로 간소화 선봬",
-        "source": "경기신문",
-        "summary": "골드바도 앱으로 선물…하나은행, 영업점 방문 한 번으로 간소화 선봬 경기신문",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41bzB6a1dxOEhaZXdSSGVBVWtOZlBOYXhzLXYxNlAyZmRXeVNydkpFWmVQX2Uza216TDB5Yl81N3JIQVZfSzEtdW80MUxZczlCSFBOMTZMT2hidGxUTnRaZmZn?oc=5",
-        "published": "2026-11-02T14:20:26+09:00",
-        "query": "은행 점포",
-        "engine": "google",
         "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
@@ -55,15 +67,63 @@
     "policy_news": [],
     "shinhan_news": [
       {
-        "id": "ae6571c9abf3",
-        "title": "신한은행, 퇴직연금 방문상담 서비스 확대",
-        "source": "연합뉴스",
-        "summary": "신한은행, 퇴직연금 방문상담 서비스 확대 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE40YmFscFZVeG1fcjVzTzBLTjRfdGQ4aGhDOFBkQXVVWGhOcmtoX1pMZTdLOW5wU1VSbHlTY2g4UzEyVUNoY2V1LWozREdsTDBRemxhUG1VcmJWLVXSAWBBVV95cUxPY0g4Q2RkNEN5bVNqR2lQNTMweG40VldGa1pMN202OGl0VUVXRmY4NTZSWjFTNnIyOHVfalBiU0NBZGhvcFFDOFV5bUoyMklsSzJXakVRRFl0NUN2akFMSFQ?oc=5",
-        "published": "2026-11-04T10:14:29+09:00",
+        "id": "5559f3692725",
+        "title": "신한은행·굿네이버스, 장수초서 금융 미션 체험 프로그램",
+        "source": "국제뉴스",
+        "summary": "신한은행·굿네이버스, 장수초서 금융 미션 체험 프로그램 국제뉴스",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwaHZjQXl5cktUUmJ5eW9XTmlUZFdFd1BuVEExRFF4aUFpWHhySURYZEFvemZSVVgwbnAyY3lfcERPMVpiQ1UyUjRrZzFBaHpOR29wZmg2akVlWUtrdG84TW5oUV9wSFlqVkVnTGNn?oc=5",
+        "published": "2026-11-04T17:50:40+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "182b86a94e77",
+        "title": "신한은행, '찾아가는 1:1 맞춤형 연금컨설팅' 확대 운영",
+        "source": "잡포스트",
+        "summary": "신한은행, '찾아가는 1:1 맞춤형 연금컨설팅' 확대 운영 잡포스트",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45d05Lblp1TXNzbnlhSTJjVDNpMjQtaFFQX0Y5MWpGelMwaUtkbWtCSU1OcTdkQ3ZZbkl4dzU3ODBlcjJTRDh2M3VtbnFxb2JTOXBWZlBUM0VycVNPMXJKVjB2VVlXdldkNUctbFhn0gFyQVVfeXFMUEs3V3A3VVkySGd0NVl6X2N5dWpydWVQSVRWTGFsbWhEY01UZF94Y09XOHBFSTlieHRKNTBnc3liajEyT2poZWNyUWpiLWM3dGd3NHRNbEJfU0xaaF80NUIzSnRmclZkV01ONmxScHhrZGdR?oc=5",
+        "published": "2026-11-04T17:19:25+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "6cfa0b83d7fd",
+        "title": "[별별금융] 신한·우리는 되고 국민은 안 된다?…신희타 정책대출 안내 혼선",
+        "source": "아주경제",
+        "summary": "[별별금융] 신한·우리는 되고 국민은 안 된다?…신희타 정책대출 안내 혼선 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwcHl6ZHh5VkgxN3JrS0kyZnRuNlhhQkEwbHQzQXhGeGw5MWllY09uUjFjMGJMdzFFNGprRHMwRmpURF81VmRCQ2RiUUFTRlplaHVwUDRKY1lFUdIBWEFVX3lxTE5MZmVrcFo5ZFRDM2IyX0RYYjRpRWF0Skg2Vk5pQ2xKRnRJUWxVU2JXcTlzTWdOaHNfOVpCdnZCaE9XekpGV1ItNjVKLS0wZHFtQVRiQnk2YS0?oc=5",
+        "published": "2026-11-04T16:02:03+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "cec0e36bd3b0",
+        "title": "신한은행, 퇴직연금 방문상담에 세무 자문 추가",
+        "source": "PRESS9",
+        "summary": "신한은행, 퇴직연금 방문상담에 세무 자문 추가 PRESS9",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45Zjkwb3JPajRhUDVIWkdLY2wzN1l5QU5oZHBpbzNGS3R3MjJoRVRMd2t6eDRsN21LTnR6MVN0dWN6Yk8yTWpPZ2VrX1lWcjJEdUVnZ181VktoM1pZN094OEl2Zlk?oc=5",
+        "published": "2026-11-04T14:23:26+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
         "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "c10fe9c15376",
+        "title": "WM 전문가·세무사가 직접 방문···신한은행. 연금컨설팅 확대",
+        "source": "더리포트",
+        "summary": "WM 전문가·세무사가 직접 방문···신한은행. 연금컨설팅 확대 더리포트",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5MjFwakdyWDhYZ2NwM3NiR2puVmhrTmh6RmRad21LekNFN2IwSE5KOWF5ck1ELTFSQ0dSUk1aT05SU3lkYURXT3hLSE16bjV0bXRpT3RZdDhyVTJsR3dtN2ZLUmdnSUlOc0k4WFNR?oc=5",
+        "published": "2026-11-04T12:15:15+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -75,31 +135,7 @@
         "published": "2026-11-03T14:48:19+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "2eaf2dab4834",
-        "title": "신한·우리·하나銀 중국 지점 줄철수…올해 외자은행 33곳 폐쇄",
-        "source": "한국신용신문",
-        "summary": "신한·우리·하나銀 중국 지점 줄철수…올해 외자은행 33곳 폐쇄 한국신용신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5reko1OVZpRTFLUVJzSk55c0Y5TklJUDFVU29pR0JzUlZNZXV2M2VCcm93cE1DZ25FWWRMOW91WF9IRkNjVmNpS1RDT2FvaXZJZVdmSlRZOHotNEVmWnE0Y0FDTy14Tmh1enU0?oc=5",
-        "published": "2026-10-30T07:58:00+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "75e3f4240fc1",
-        "title": "신한은행, 창경궁 오디오 가이드 제공...13개 관람지점 무료 해설",
-        "source": "파이낸셜투데이",
-        "summary": "신한은행, 창경궁 오디오 가이드 제공...13개 관람지점 무료 해설 파이낸셜투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBva0MwajdycWxBdUo0WkRNVTU4TkxGbUFMQjl6RHd6WUhtTm9iTS1WbG5KSGx6LTJyV2lUdDYzdDlULWphN0FwZGNDeTl2RVdZZzA4TFplSHVVS2FQVU9YaE9wanlyYnJ4SHfSAW5BVV95cUxQUlpvaVFJdnB5RjE1RlNGVVRIcHJBYlMtWXdZZUF5dmpnbS1FOTJnRnI5bE90aWs0aDIxQjJYWmM4cXA0ZF8zQ0EyWkNzbWpYTk9BbndoSUpnVmRWNTRPVUpUY3JsOVRreHVFSkVVUQ?oc=5",
-        "published": "2026-10-29T14:23:44+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 3,
+        "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
