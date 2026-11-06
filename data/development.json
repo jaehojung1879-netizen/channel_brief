@@ -1,50 +1,122 @@
 {
-  "updated_at": "2026-11-05T10:45:25.824602+09:00",
+  "updated_at": "2026-11-06T10:47:27.703865+09:00",
   "items": [
     {
-      "id": "c7c9212a5a56",
-      "title": "서구, 갈마지구 노후주거지에 활력 불어넣는다",
-      "source": "백제뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NRDRybmRZdVgwbmpBU0NKRm0yNjktT0hqVmtkeVFCRXNNNGJ5dndacGI3NmRJc3oxQmE1eUVEWFZMMVdydzRaMnZZTTV4UC1WRXhRTWdQYmFwTi04c3dEODl1UEZrNmNhSkg5dw?oc=5",
-      "published": "2026-11-05T09:49:20+09:00",
+      "id": "2723afd4211d",
+      "title": "[민원회신] 과거 입주자등 부담분을 현재 관리비로 부과 안돼",
+      "source": "아파트관리신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4weENGVUVtZjZCcUpRUUJHQTFOZWFMdk53TGFvaDE5RlI3cm9iRFpIOFhjS3BScnB2QkhhY0VTZ3hjOU9XNHlLem1rcnE1WWdDemFKSXBFSE9qSVBTb0tWLV8zZDBMZ2PSAWtBVV95cUxNWHFoeUxqdWxkb1QySWZfc2tEZWVsdnkzT2dsWkNHYWlGdjdjTEllSUVVcDhmNzhReFE3LU44WUZMb1FtczlDTnFibXdXQXBfcW5XRjE1VklGajZDRmpQTXE1S1hTODA2NWc3WQ?oc=5",
+      "published": "2026-11-06T08:11:33+09:00",
+      "date": "2026-11-06",
+      "query": "국토교통부 고시"
+    },
+    {
+      "id": "bce5c48b678d",
+      "title": "광주권 도시재생 67곳 밑그림…1조 4300억 원 필요",
+      "source": "광주드림",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tdHVrR0JoNGl3LTlpTFhXbjNwZzJVMkVlMlFVUEstY1ctUVFLeU1TUlBaV0QtdE9wZXFQeUhaRkZvN2NPYUhTTjJUME1lV3ZRN1hLMDd5N2V3TEdiem95QWk3MV9EeDNqLVE?oc=5",
+      "published": "2026-11-06T00:00:00+09:00",
+      "date": "2026-11-06",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "54b3ec2db122",
+      "title": "LH 경기북부, 3기 신도시 등 수도권 물량 공급 ‘주거 안정 속도’",
+      "source": "중부일보",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBUbGNjRGhydUE1YU5ERmpHWVlXT3pQeFRYYmx2aG5mVUE1RXFRTzNzUWN2a1djclBuN2JCSjZwbWVWSC1laF9oeFJyMGlFVXRIS2ozRmlwM28waElOME1XbHFZTWloWkRXY3ZKNFJMQQ?oc=5",
+      "published": "2026-11-05T18:22:00+09:00",
+      "date": "2026-11-05",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "c1fe4edde3b3",
+      "title": "안태준 국회의원, LH에 광주 역세권 개발 및 공공주택지구 지정 촉구",
+      "source": "경인매일",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nd3ZheWc4OUlIMWdsdHJuUEJseTNDWHZmMTJKR2I3TENxV0pvSkw4UmFneTVWeHdFcjhCMFR2NVBGdUEtMUxzWWZKZzl1SUV3ckh6QzdnVFRiWVFGVVQteThZR04wUXVD?oc=5",
+      "published": "2026-11-05T17:14:54+09:00",
+      "date": "2026-11-05",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "5919376086e6",
+      "title": "LH 경기북부본부, 2027년 주택 착공 3만5천가구…2년 새 3배 확대",
+      "source": "경기일보",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82NHpFTVBTeS01QzMxeHk1VXJMb2x2RjFLeEIyVkhJcTdWdHUyVVJoN0Iwb2w1THNvazNUWFRJZU85b0JzeERrNjlYQl9xcjFEV3ZHV1hRQ2lKMmM?oc=5",
+      "published": "2026-11-05T16:41:03+09:00",
+      "date": "2026-11-05",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "714fe74add77",
+      "title": "대전 갈마1동 노후주거지 정비 본격화",
+      "source": "굿모닝충청",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wQk9JYkpUa2d1SWhvd3ExYTZ5QXZuLTMxa0NOYWNyQkJTMnZjWVpYZVUySmFYYVRKNld4TVFIU1JxRWJuZWJLSm1tbURGcndIcUU4ZHhNMWFhdHY1U0NaM3F0Skp4SWh2OVVpRS1UNmNUUQ?oc=5",
+      "published": "2026-11-05T16:26:37+09:00",
+      "date": "2026-11-05",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "16e9c0ed01c4",
+      "title": "대전 서구, 갈마지구 노후주거지 정비 본격화",
+      "source": "충청매일",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSWjZoZzRsT2QzaGJkYVdmWHNkVkdEX19lMXZmOW1OVVZ6ajluRUpyU2Zyb1pDSXVacHNnYXZpUW1mdmdDbGRpOHdDZzhfSFhvdkxiMUNMNVUxOUxhYnJyVnFqZHFNZ0M5TlE?oc=5",
+      "published": "2026-11-05T15:35:08+09:00",
+      "date": "2026-11-05",
+      "query": "도시재생 활성화계획"
+    },
+    {
+      "id": "abdcbe941893",
+      "title": "반도체 산단 준비하는 광산구…일본은 땅값 상승, 미국은 교통·환경 갈등",
+      "source": "AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zYjFiUktKUlhuelluU1JRU3dzajlxMHJrNGFud0s3ODQ4aW1GaDFyMVNiLVZ2SXZhV3B6X2YzVkI0TUtXckk0Q3AyLWhYU29rb0xqdTJ5MjMzNzJtLTI2bzZtMG5DSDduaVE?oc=5",
+      "published": "2026-11-05T15:32:24+09:00",
+      "date": "2026-11-05",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "b5f3134b8843",
+      "title": "노성철 시의원 “정비기반시설 보조금 3년간 교부 0건…절차 개선해야”",
+      "source": "서울뉴스통신",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBZOW5Od0VsMXFsMF9oZk1TYUJnYzFrNUV1aDNpWXlTdldCQ3ZRb3FvTWprZWJrQ3lESDNqeUR1LTM2RGVQZVB5YXlkenlZemJwOGpPMElDZlQ5UklEMXpCRkZGaGhPN3BicWdv?oc=5",
+      "published": "2026-11-05T14:50:31+09:00",
+      "date": "2026-11-05",
+      "query": "기반시설 인가"
+    },
+    {
+      "id": "18f2bb3ad5dc",
+      "title": "대전 서구, 갈마지구 도시재생계획 고시",
+      "source": "에이티엔뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YTm5rYURWR0Rxamp1bUN1azhvNlAyZTNQM3ZwRTJobkh1VEh6TmY5N0RWVFNHY1FidEtiZU5INVl2SlBaS1lEUENqVzBrU0Zqb1hIb0Y0SjJMQS1EUnZ6OTQ0ZjBVMHF6NzM1bQ?oc=5",
+      "published": "2026-11-05T13:30:26+09:00",
       "date": "2026-11-05",
       "query": "국토교통부 고시"
     },
     {
-      "id": "a62a092e8e1e",
-      "title": "온수역 럭비장 '업무·문화·주거' 복합시설로 개발",
-      "source": "매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzTEtocGhPUE5wMDdTeUpXM0wxeFo1RnpqQ0g2RUVaX2pmVEFYcEM2TEVuSGRlVTU0eXYyTU0wcnNnajRmSmt2V2J3dmxLcnBB?oc=5",
-      "published": "2026-11-05T08:52:27+09:00",
-      "date": "2026-11-05",
-      "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "240a3715bcbf",
-      "title": "국토부, 안성 보개~용인 원삼 국지도 국가건설 계획에 반영 통보",
-      "source": "기호일보",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuUkJMSVcyaGV3emVVck9tdXVBOWVNU2plakpnYS00eU5Oa2k1anp2UFhKTmc1aUVRNW5PbGJlM1k4MnpzYnNDTnFBOHNlOFZZVnZjR3NEVFRWUl9kc2tfSF9ESklxUFJlMXFmdkRRQQ?oc=5",
-      "published": "2026-11-05T02:27:34+09:00",
+      "id": "353a2a75042a",
+      "title": "‘왕숙 도시첨단産團’ 개발! 산업단지 관리 기본계획… 고시",
+      "source": "남양주뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE4xZjRNWHVMTU1PbFdWd1lpZ3NFbXptdW5Cbm1DM1Y2N0FHS1BZXzZpQzFucUd0ZkxycHhoZA?oc=5",
+      "published": "2026-11-05T11:19:00+09:00",
       "date": "2026-11-05",
       "query": "국토교통부 고시"
     },
     {
-      "id": "3cc2fd35a771",
-      "title": "박권현 청도군수, 국토교통부 제2차관 만나 대경선 청도 연장 등 건의",
-      "source": "프레시안",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE04Z1pmNnRUYVA0LXNBS2xsMmxJRURDY2wxVzc2eFJjYTVtLXRrRTRmd3M2TU52R2ctaGxUUkFiZXVDVGdVU1RHcHZVOEViLVZTeEdEMTNtOXhZTndMMUdoTnlKR1E1X0R4dDFB?oc=5",
-      "published": "2026-11-04T19:16:58+09:00",
-      "date": "2026-11-04",
+      "id": "3fae891839b0",
+      "title": "대전 서구, 갈마지구 노후주거지 도시재생활성화계획 고시",
+      "source": "뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4azVKTkExVTB6V29QTDlnajh5Y3BHdkxMSUh5WDlxZ1J0b1dad2ItZElKQkxfMHM1M3MtM1BpSFQxRW9EVGd2REF4dXNKa1VJRnAtdDdONmN6NnI1S3dNaA?oc=5",
+      "published": "2026-11-05T10:39:40+09:00",
+      "date": "2026-11-05",
       "query": "국토교통부 고시"
     },
     {
-      "id": "f76e94e3a9c5",
-      "title": "박권현 청도군수, 국토교통부 제2차관 만나",
-      "source": "경북매일",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VLXVWLVhYWXhKbDhhOC0tT1BKMTBCR3V0MGNKWU55Tm9oRlR1R2V0NzAxQ1hDNjI0bTlrdWdMNVRxZTZmZ0FFaFBiQ2pBU3ZXNGFGWEY2cHhhQQ?oc=5",
-      "published": "2026-11-04T14:06:00+09:00",
-      "date": "2026-11-04",
-      "query": "국토교통부 고시"
+      "id": "1b0c2fdfc463",
+      "title": "갈마1동 노후 주거지 재생 본궤도…대전 서구, 도시재생활성화계획 고시",
+      "source": "중부매일",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nOWwzUWZWNnlGUVZYLTM1TVMzeURxemhrSzNoZ0xJT3VFdkJManNhczNNc1Q3emQ4WGUtdGxjTHF4SGxyZVBJcHROWkVRZDhPbGJPaHdma2RJRjFCNmx0eGd4QVIxcDNzclHSAW5BVV95cUxQSjVVZ3g1VURkcDk1UTlITGdJVXpyWTFJbmIwREdRS0tlUC1aV3lwOF9Zb1JJMGdkLWxfV2xDWWdqem1vRnpwcF9mRmtGMEJ5UGtzWFNuQ0p3b1lVM0h2NFhFcHdaTnlxNEl6ZzF4dw?oc=5",
+      "published": "2026-11-05T09:57:09+09:00",
+      "date": "2026-11-05",
+      "query": "도시재생 활성화계획"
     },
     {
       "id": "bb8237528d39",
@@ -56,85 +128,13 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "c4f4bce7b5ce",
-      "title": "“용인 반도체 산단, 지방 소멸 불러온다”",
-      "source": "한겨레21",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDcnV4QUNzbkYzNDhrN2JWZzYzRTA4STFvYWxpSFZ5bVZwaE1WTUl3LXNTMGVZMXN1UEZSaW5zZWFPbTlmckNlSTBod3RrSmF0ZkprNnM0d2NjN3NHdG1Sb2c2M050VW1WWGQwbDNzMA?oc=5",
-      "published": "2026-11-04T08:29:00+09:00",
-      "date": "2026-11-04",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "31993c309da6",
-      "title": "\"국세청 비거주용 부동산 기준시가 고시 업무, 국토부로 이관해야\" [예산안 분석]",
-      "source": "조세일보",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCNjJCOGtLaVlpSWtOY2lqQmlaN0daalJOZFlUb1ZLb1pJZ3czV0Z3MmhOY0lUbUVRYlZCSUx2a1REN3d3eVYwXzZTSHNaOGR0UEpzamc1X0VRUGd3N19j?oc=5",
-      "published": "2026-11-04T07:00:00+09:00",
+      "id": "56a6b3e0e77c",
+      "title": "주거급여 주택조사, 이제 휴대폰으로…LH 모바일 본인참여 조사",
+      "source": "파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sLXlRNllycmt5QzRMb2ZiYXY0R2UzajNZc2F5Nklub1EzR1RxR0tXM0VfOEszQnpjbFJ1Z0QzQkJweVBjOTBCcGFtMlRwcVVoSUJSUEdSakJmZw?oc=5",
+      "published": "2026-11-04T08:51:06+09:00",
       "date": "2026-11-04",
       "query": "국토교통부 고시"
-    },
-    {
-      "id": "1edd44873572",
-      "title": "용인 반도체 산업단지는 누굴 밀어내고 지어지나",
-      "source": "서울대저널",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9pRHh0RDBJcm40WGVEcDJmbTluUVBBZ0VnaFplT0NZaURRdVo0Sm5YT0FxeGxsbW83WmMxcEZ3S2hVR3JfQjJraWZkYzZaam9jNWx4aUVxM0dkd0FjM3BnY0N4S3BMdw?oc=5",
-      "published": "2026-11-04T00:50:00+09:00",
-      "date": "2026-11-04",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "a7f6dfe1b1b6",
-      "title": "평택시가 바뀐다... 시민 목소리 담은 도시재생 밑그림 본격화",
-      "source": "포인트데일리",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHOTV3YUFJTUUwZVBVVDlVdTRiTjdWRDBqVjlkMmRySDRDaFVRRmxGeTI3Zjl0UGZaUUFOUl9GYjJBck5IeGExWUxfMHIxdkExbDdCSkJyTHViN0JkdW0taFFQdEhuOExFTkRIZkNDSE_SAXRBVV95cUxPYVFYMzFtZGs1R1V3bkRkS05xTm16eG1aSVh0aHRBdVlNNGxlYVdzeGlVV2VVSUxWUmtkU2NqM2Q3LWxXeDRYYTM3ZlhrVGZkSWQ3TXBldTg3Y3lkS3BFY3JGcF8yM1otTWNZbXMxU2FhZU42RA?oc=5",
-      "published": "2026-11-03T21:33:34+09:00",
-      "date": "2026-11-03",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "c23815cc826f",
-      "title": "[단독] 하남감일2에 송파 방이·오금 왜 포함됐나…국토부 “도로 기준으로 경계 설정”",
-      "source": "기후에너지데이터뱅크",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ySTFpanJFbWVIRm1VOWNndWk5Z3VDMHEyVnY2Ty1DUTRFckFjRXJ5RHIyeGxHYjV2V1p3TjhvcjZMMDlYRktwOFEteERGSTBsR1ZtWENLRUhPTUgxbGc?oc=5",
-      "published": "2026-11-03T18:10:03+09:00",
-      "date": "2026-11-03",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "51029113ab9c",
-      "title": "LH 경기북부, 의정부용현·법조타운 보상속도 높여 주택공급 앞당긴다",
-      "source": "인천일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVNkFNX19ZRDJYWERmME80UXBHTHhfUVBQMWw3TXFYVlB1aGhrZF8yRmVVRXVnNnR6MXNPVzJ6Ulkwc2JDOUJpMWtFQTlMQWJ0NTNORkZJU29FdXlnUEJobHZ1dENnQ3VSSWl3U0RuMG8?oc=5",
-      "published": "2026-11-03T16:53:00+09:00",
-      "date": "2026-11-03",
-      "query": "LH 지구지정"
-    },
-    {
-      "id": "521d2b480b70",
-      "title": "평택시, 도시재생의 미래, 시민과 함께 그리다",
-      "source": "세계환경신문",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zZmkxeHpBNzJmZHctYl9ubHF2MExyaklpdnNETmNqeUhyZTBpemlndjlYUmVKVHJvcUhuWFhWVXkycE9hZlJfZ0pZSTJ1S29YU1JoVHEzbl9lMVI5LWtF?oc=5",
-      "published": "2026-11-03T14:23:04+09:00",
-      "date": "2026-11-03",
-      "query": "도시재생 활성화계획"
-    },
-    {
-      "id": "fc2c2107e7a1",
-      "title": "777만㎡ 용인 반도체 국가산단 본격 착공",
-      "source": "용인신문",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IUzNUWWkzVm1ucnZjczExajQySkJVSUhRUUtHT3lLUTV6WVRKcWZaa3lBekg2Tno3aTB1STZoSndIb1RrMG8ySkVmdUJVSjVyYmRyVDN0WnZWbkZoVE96ckZVMHg?oc=5",
-      "published": "2026-11-02T10:33:59+09:00",
-      "date": "2026-11-02",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "ea4f667590da",
-      "title": "트램이 초래할 동탄신도시 지각변동…교통사각지대 서·남동탄 단지도 들썩",
-      "source": "땅집고",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mc054TEtsT0VGZEdjZTZadUR2UU1rVXA5NldNaEphcU9VWEpuemVNTGM1R1EtM1lQaVlaQjd1blpzRnFSMTdDalgxZHVvVFVWOExNWFZaSFNKQ3d0d1o4WXJON3dIdHpRbzgzSVQ5T3gzUzl4U1MwcjZld19ISG_SAXNBVV95cUxQYTZBb1h6bE9qZ0E1TkRfQUUxQWlnTG5rcXVXNFRvNzM1Q1Z2cTRiWldQc3lYbTRjd0h3LWRMcnNpUVhlZDdyNGZERUUyanByZHVZUEoteVcwYzU2bno0OXZRMW5Xd3Y2dHhCUWxTMjFjSzZB?oc=5",
-      "published": "2026-11-02T06:00:00+09:00",
-      "date": "2026-11-02",
-      "query": "신도시 착공"
     }
   ]
 }
