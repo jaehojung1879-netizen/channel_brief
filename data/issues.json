@@ -1,80 +1,116 @@
 {
-  "updated_at": "2026-11-07T10:08:33.497128+09:00",
+  "updated_at": "2026-11-08T09:55:32.348007+09:00",
   "social_finance": [
     {
-      "id": "37844f980c72",
-      "title": "소상공인 지원금 총정리 자격 요건과 온라인 신청 가이드 : 정책.지표",
-      "source": "재경일보",
-      "summary": "소상공인 지원금 총정리 자격 요건과 온라인 신청 가이드 : 정책.지표&nbsp;&nbsp;재경일보",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ueXZlQ1VBMlI1Y0Z1Z3JtT1U5V1lwcFpmSW5ISnV0YmdlcFZpT1VaTkxHbE42MXAwc04zTWQwenhtSllxbE1MZlNQWQ?oc=5",
-      "published": "2026-11-07T09:51:25+09:00",
+      "id": "3c766c84c5ee",
+      "title": "금융당국, '포용금융 예산 늘리자' 국회 의견 전달",
+      "source": "SBS Biz",
+      "summary": "금융당국, '포용금융 예산 늘리자' 국회 의견 전달&nbsp;&nbsp;SBS Biz",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04RXdjTWt5RGxnUE84cXFiMml3NlNYaFM1b0pqdU1TZ1hkREkxd2lkNkNTMk03a0VYZXhTQ05lcTB3amRlcldZcDcxckRoXzBmTHlJ0gFYQVVfeXFMT2JSblYta04xVGxiTHlXR0VoWlJTZzFLZWNxR1ZrX2E3eXhiblRCcndoMXlqblcwUi0xZHBvSVo3bnl0cVVtaERscTFGdEJvZ1dYQ0dHdEMwdQ?oc=5",
+      "published": "2026-11-08T09:43:00+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "c647e3d8b402",
+      "title": "인천 소상공인 출산·양육 지원 접수 중단…수요자 실효성 높아 정부 차원 지원 확대를",
+      "source": "기호일보",
+      "summary": "인천 소상공인 출산·양육 지원 접수 중단…수요자 실효성 높아 정부 차원 지원 확대를&nbsp;&nbsp;기호일보",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4N3pCUEtTTXc3RlZwbk9ydXNfb1hGSG9zZU90OF91OHk2OUoxNHl1UzY5bWh4aElKSTdJbGRSc3ByWVFkaVhReUx0WUZFRU14NUxPejVJd2NOek5QS0RVS3VWMnJPNVcwSm5uMHZrWQ?oc=5",
+      "published": "2026-11-08T09:28:01+09:00",
       "query": "소상공인 금융지원"
     },
     {
-      "id": "b5013704ca84",
-      "title": "[포용금융의 역설①] 인뱅 새 대출 받은 차주 47%, 기존 빚 안 줄었다",
-      "source": "뉴스웍스",
-      "summary": "[포용금융의 역설①] 인뱅 새 대출 받은 차주 47%, 기존 빚 안 줄었다&nbsp;&nbsp;뉴스웍스",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wTEt5V01PN3EtMUhoOTVRU3V3VDVERWIyZnBrdWM3T0ZWU0pCOHBRTnlCN0djTWJzTERJTUJuM1pvYWpvQlhDR3QtWjdOZHh2VHRHWHBVbUlubFFfcDI2UndUOHRxcWsxcHlWZVpfZw?oc=5",
-      "published": "2026-11-07T09:00:00+09:00",
+      "id": "4483c91c7c5d",
+      "title": "KB리브모바일, 부산 청년 사장님 위한 포용금융 실천… 키오스크 2차 지원",
+      "source": "한국경제",
+      "summary": "KB리브모바일, 부산 청년 사장님 위한 포용금융 실천… 키오스크 2차 지원&nbsp;&nbsp;한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0dXBIRnZ3alBPQTBLcHNMVkJqZERNNTJtczRteVNabEJaRk9Kb1JoV1F3dUtCMEdUbXNTZ0NJcVYwWENWWXQwTzc1SnItTjdkVHVaa3dLSXBGQQ?oc=5",
+      "published": "2026-11-08T09:01:50+09:00",
       "query": "포용금융"
     },
     {
-      "id": "e1804f4feb4d",
-      "title": "사회연대은행·KB국민은행, 대부업 성실상환자 이자 부담 완화 나선다",
-      "source": "글로벌뉴스통신GNA",
-      "summary": "사회연대은행·KB국민은행, 대부업 성실상환자 이자 부담 완화 나선다&nbsp;&nbsp;글로벌뉴스통신GNA",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Ca2ZtZ1FKZF9lRXlibTlHeFdBNEdXRnFCR2ZpZjMtcFJ6NXRib3JPdVJ2aUdlMjE5d0N0ZHNRNmcyLWpmbG8xbXljaXRITGxUQzVGbmgtdWJfVWE4X3AzZkF5aTh1Nkt0VGl1NUg5Nmc1U3lp?oc=5",
-      "published": "2026-11-07T07:01:54+09:00",
-      "query": "은행 사회공헌"
+      "id": "f090ff4bcd4a",
+      "title": "정부·국회, 온플법 건너뛰고 상생협력법 개정 추진하나…플랫폼 업계 '정면 반발' 예고",
+      "source": "전자신문",
+      "summary": "정부·국회, 온플법 건너뛰고 상생협력법 개정 추진하나…플랫폼 업계 '정면 반발' 예고&nbsp;&nbsp;전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6MlBpNTFiR1hoeWNaU1dwelQ1amdmYTF4aVMzVUZxRE5qc2hfYkM3NEY0WllHYThZWFNJSjA3cHk3YlNlR1llazBEWUhtQQ?oc=5",
+      "published": "2026-11-08T09:00:00+09:00",
+      "query": "중소기업 상생"
     },
     {
-      "id": "4ae280b58a10",
-      "title": "‘하나더넥스트 광주금융 라운지’ 개설…호남권 시니어 자산관리 강화",
-      "source": "뉴시안",
-      "summary": "‘하나더넥스트 광주금융 라운지’ 개설…호남권 시니어 자산관리 강화&nbsp;&nbsp;뉴시안",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zdUIxVWdOc2Fod19tVml0VmloNFBtajlta0JmZG1vUHJ3SzhmcWdUVFlRTFVldVJSczQ1VEhJS1hNM0d5Q0FyQWdsc2Y3SHVVajByUWFUcXRfWlhBT2pnbXEzVnFITzQ3Unh1Nw?oc=5",
-      "published": "2026-11-06T18:16:29+09:00",
-      "query": "고령자 금융"
+      "id": "c98f34c5886f",
+      "title": "홍성군·충남신보·하나은행, 소상공인 특례보증 협약",
+      "source": "브릿지경제",
+      "summary": "홍성군·충남신보·하나은행, 소상공인 특례보증 협약&nbsp;&nbsp;브릿지경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5TGNlanlad1lXbGFuU3pSWkJ2RFFELU84N3d2Wm5zWkIxMGo4NTNTb0lJeXBnY0U5Qm9xeXZIVWl5M1ZwTWRrQk55aWxNS0RIamFRZUJlOWo1UQ?oc=5",
+      "published": "2026-11-08T08:24:00+09:00",
+      "query": "소상공인 금융지원"
     },
     {
-      "id": "81be3eb15a2e",
-      "title": "신한금융그룹, 취약계층 생활 안정·청년 자립 지원 공로…대통령표창",
-      "source": "백세시대",
-      "summary": "신한금융그룹, 취약계층 생활 안정·청년 자립 지원 공로…대통령표창&nbsp;&nbsp;백세시대",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GNlJTMzlERElNc2dtWG9uOENuUktLV0NlLWZBWVJWamJ4WDVjVERIVmF6VlJUQkZFcEVZeU5rZlUxYTUyZGxEVFRoY0gtWmxYUWVvanZrWEtCV2RTanhNRENXTWo4Y0JnSVo0?oc=5",
-      "published": "2026-11-06T17:46:08+09:00",
-      "query": "취약계층 금융"
+      "id": "5fa54e49e648",
+      "title": "홍성군, 소상공인 특례보증 48억원 지원",
+      "source": "신아일보",
+      "summary": "홍성군, 소상공인 특례보증 48억원 지원&nbsp;&nbsp;신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RT3ZqZWk1ajBwVURMX3l2dFh0eENxZlZ2dm1UQVZqRXZRTEZrbkhwTmcwTWExQXJZUTRuZzQ2aHRnWjkyRzY0MmdTbzlSN0hFVk4xbE5UVUVUX2VGMGhaNUZxNWVEc3R2T0tVbFMxX0Q?oc=5",
+      "published": "2026-11-08T07:00:00+09:00",
+      "query": "소상공인 금융지원"
     },
     {
-      "id": "6ae7890a3ae4",
-      "title": "[금융으로 희망을]NH투자증권, ‘사람 살리는 금융’ 캠페인 동참…금융취약계층 보호 강화",
-      "source": "전국뉴스",
-      "summary": "[금융으로 희망을]NH투자증권, ‘사람 살리는 금융’ 캠페인 동참…금융취약계층 보호 강화&nbsp;&nbsp;전국뉴스",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92S2xCeFJ2MktfWVVfVWdSME5nQ3hfdFAxQktYMzJjVzlOQVgxNUprMC1zM19rTXNWcnoxWm1PZVBRQjFXVkJLUGd3ZzQ1YWkxalpSbWhWMDhnUnNiQ0k5U25lTFlFSDV5eTQ3LWtiLWg?oc=5",
-      "published": "2026-11-06T17:24:21+09:00",
-      "query": "취약계층 금융"
+      "id": "a36998d292da",
+      "title": "햇살론 이자 50% 돌려준다…금융위, 예산 2천455억원 증액 요청 : 경제",
+      "source": "재경일보",
+      "summary": "햇살론 이자 50% 돌려준다…금융위, 예산 2천455억원 증액 요청 : 경제&nbsp;&nbsp;재경일보",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE11SWFDNXRGR1p2WGlZYUNSMzUycTI3TElJOHRaemM4aGhZZHViSzdQMnNHXzl4R2dyclM0MmExUE44Y3hKbUFUQjZncw?oc=5",
+      "published": "2026-11-08T06:03:00+09:00",
+      "query": "서민금융"
     },
     {
-      "id": "61e3d7ef9f4a",
-      "title": "대출 문턱 낮췄지만 이자 부담은 ‘숙제’…인뱅 포용금융의 역설",
-      "source": "이코노미스트",
-      "summary": "대출 문턱 낮췄지만 이자 부담은 ‘숙제’…인뱅 포용금융의 역설&nbsp;&nbsp;이코노미스트",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBTXdMVTBsWnNubDQyUHJaX3RiWUtxS2d4R0FsRV9ESzJMbk11SGVveW52NlhZZ3hnbFhUaUxzeG5vWTBlc3Y2ei1yM1pybHRtcmFPcWYzYmhIRTdZeVV3b2xB?oc=5",
-      "published": "2026-11-06T17:15:00+09:00",
+      "id": "c99416a79167",
+      "title": "금융위, 햇살론 2천500억원 등 '포용금융' 예산 증액 추진",
+      "source": "연합뉴스",
+      "summary": "금융위, 햇살론 2천500억원 등 '포용금융' 예산 증액 추진&nbsp;&nbsp;연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qS0hmN2dpYm5DaDJIVG9YMmpxb2J2UnN1emJrSHpBVWpWVWNFd0VKY1pac2hUaWtESFZSQm5vdWd6SnpSM0JkenRFcXQ2Qk54LUZSdGF5dUJpR2M?oc=5",
+      "published": "2026-11-08T05:57:01+09:00",
       "query": "포용금융"
-    },
-    {
-      "id": "2cf0dd0988d7",
-      "title": "하나은행, 호남권 첫 시니어 특화 ‘하나더넥스트 광주금융 라운지’ 개점",
-      "source": "BBS불교방송",
-      "summary": "하나은행, 호남권 첫 시니어 특화 ‘하나더넥스트 광주금융 라운지’ 개점&nbsp;&nbsp;BBS불교방송",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxb0FKaF9CaG5BeVJaR19ianRQbGZrbFRQMVNLci1IRFV6MEFGdUh2NmpQZ2ZtSG54QnFucWhNNlppQk84RmhuOUFOb01lREQ5bXgxQ0NjVXFkMndZMmdKZHh1VVZMUWZORVFR?oc=5",
-      "published": "2026-11-06T16:25:27+09:00",
-      "query": "고령자 금융"
     }
   ],
   "tech": [
+    {
+      "id": "c8baca81559e",
+      "title": "디지털자산법 이달 발표…대주주 지분규제 이행기간 부여 가닥",
+      "source": "매일경제 마켓",
+      "summary": "디지털자산법 이달 발표…대주주 지분규제 이행기간 부여 가닥&nbsp;&nbsp;매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGeVNqVnFpR1JZcDhyYlh5XzFOd3EzVEFNS0NWdzZqYkMzRTZGenpMZTFGbElhMndMVGlCekFsSkh5aWVoODM2dE5iUFg5dWRZM1E?oc=5",
+      "published": "2026-11-08T05:53:00+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "8f0021a71a9b",
+      "title": "비트코인, 은행 불필요…마이크로스트래티지 은행 되길 원하다",
+      "source": "BeInCrypto",
+      "summary": "비트코인, 은행 불필요…마이크로스트래티지 은행 되길 원하다&nbsp;&nbsp;BeInCrypto",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZLWREMEVGdWl6eW80R0hwS08xMExDd0JJZ3k0eGFsY2pJdDNCZVVvOS1hTnY1WDFkSUMxRXNLanp4X0tWNXBJaHpNb250OVExV0lLYTJ1c1BIRU4xa2VScEdtUGlNZ3ZHc3JHSw?oc=5",
+      "published": "2026-11-08T01:48:22+09:00",
+      "query": "블록체인 은행"
+    },
+    {
+      "id": "9dd6f739b2d5",
+      "title": "은행 ‘앱의 시대’ 이제 끝나나…저축·이체까지 AI가 대신 ‘척척’",
+      "source": "매일경제",
+      "summary": "은행 ‘앱의 시대’ 이제 끝나나…저축·이체까지 AI가 대신 ‘척척’&nbsp;&nbsp;매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sejhZRndFejQ3ZGZLRXRLY2pZbWpjamNiT1FzaW9MZk1zZDlrLTZzbW9XVG4wTnZJRlI5SkNycTd1LUhBVEhYZVVxV1dGZkNUb0V1Sg?oc=5",
+      "published": "2026-11-07T17:49:18+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "8c63aaf62d2e",
+      "title": "영란은행 “AI로 생산성 효과 아직 미미…AI 투자만 성장에 기여”",
+      "source": "디지털투데이",
+      "summary": "영란은행 “AI로 생산성 효과 아직 미미…AI 투자만 성장에 기여”&nbsp;&nbsp;디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwTWhUNm81aEVmYzZpS0JVd2RsZV9FeG11am5HWlYyZ1V1NWR6VUtaQ3NqMWVqYVUwaFAyWERLTjA5S3V6eTNZeVpjemZwLW5tLUZrZ1c5Y2J6bFI3OUhlZnd3a1NPWlV1VkhDaC0tSWlqdWc?oc=5",
+      "published": "2026-11-07T10:31:38+09:00",
+      "query": "은행 AI"
+    },
     {
       "id": "f6256f47b7ca",
       "title": "[EZ 포커스] 우리은행, 생성형 AI 금융사기 모니터링 가동…송금 전 차단 강화",
@@ -85,21 +121,12 @@
       "query": "은행 생성형 AI"
     },
     {
-      "id": "77ceff061a05",
-      "title": "KB국민은행, AX·DX서비스어워드 월드 그랑프리 5연패…AI 외환서비스 경쟁력 입증",
-      "source": "나눔경제뉴스",
-      "summary": "KB국민은행, AX·DX서비스어워드 월드 그랑프리 5연패…AI 외환서비스 경쟁력 입증&nbsp;&nbsp;나눔경제뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MYnhhY202aTk0VEJKOTl4MXNJbm4yZlBFQkczV1JvVUFMMU1iRmxKR3FNd2RYMG1idEpzOXhyRHZqUURpak12R3N0MjVxZFVVU0NhWG1aakR1NUdhLUItVWx6ZzRxd3lGaGtIXw?oc=5",
-      "published": "2026-11-07T06:57:28+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "3badfb3ff087",
-      "title": "부모님은 은행 못 가고, 자녀는 취업 못 하고…AI 시대에 던져진 질문 - 머니투데이",
-      "source": "머니투데이",
-      "summary": "부모님은 은행 못 가고, 자녀는 취업 못 하고…AI 시대에 던져진 질문 - 머니투데이&nbsp;&nbsp;머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ET3dBaFhIdWoxOHVnTENKcWJnc0dnbUlxR0c3S3NOd0dXdWg0cVNzRGpLXzNZY21wOFhxd0hsdDJKQ3RGcXFDRV84Vm81N1VoRUhBZFFLTmk4UmdxdEN3eVcyaHFoZEJwSm5N0gFwQVVfeXFMTTF6QXF1a0tmck9uS0FsMEx6cVlMT1ZVOXVHUWFvbEdQcGJrQ25tS0owR2RfLXg3SXkxdFhCV0k0ZnQ0MVVITnVLQWw5dERkVWRnYmxJSjU2VGpLMVlBSW92SjJSWl9tcU8wU01pRjkwUw?oc=5",
-      "published": "2026-11-07T06:00:00+09:00",
+      "id": "1fa260ec522b",
+      "title": "\"알파세대 잡아라\"…AI 네이티브가 바꿀 은행",
+      "source": "이데일리",
+      "summary": "\"알파세대 잡아라\"…AI 네이티브가 바꿀 은행&nbsp;&nbsp;이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWWN5Z1R6a3lDVTRaOU5qR2FIUEM0VkJlUlotejZuTnoxYm94d3hEeEdGVkNvUTdQTEpmUFlETlB4bWxtcGc1TkphNzg2UlRrc0FYMjVmU1lGd1VMV3hVWUJuNWswbWdPeTZWM21odi10SThCTDFyQTBQeThoaG5Veg?oc=5",
+      "published": "2026-11-07T08:00:04+09:00",
       "query": "은행 AI"
     },
     {
@@ -118,33 +145,6 @@
       "summary": "금융권 개인정보 유출 '경보'…'특별대응기간' 연말까지 연장&nbsp;&nbsp;금융소비자뉴스",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VRXpWZExSTmRGRGJYQ2F5d2QwMU1CQjVoaVRSN2FVWWQwN1V0dHFnVUl3QWttUmtQcVB2ZTdXc0Z1SkRhWEVxSFhCdGxUMGltWERyUDR6VVBJUUVTaXJHdFl6a0Y4cEplYmc?oc=5",
       "published": "2026-11-06T12:00:00+09:00",
-      "query": "오픈뱅킹"
-    },
-    {
-      "id": "a9e4de9c8970",
-      "title": "NH농협은행, 업무용 AI 에이전트 공개…보고서 작성 5일→4시간",
-      "source": "서울경제",
-      "summary": "NH농협은행, 업무용 AI 에이전트 공개…보고서 작성 5일→4시간&nbsp;&nbsp;서울경제은행, AI기업 인수 성과…한 달만에 10대 에이전트 구현&nbsp;&nbsp;지디넷코리아NH농협은행, AX 추진…청소년 AI금융센터·에이전트 선보여&nbsp;&nbsp;화이트페이퍼NH농협은행 자회사 애자일소다와 AI에이전트 10종 개발, \"인공지능전환 속도\"&nbsp;&nbsp;비즈니스포스트NH농협은행, '10대 AI 에이전트' 구현",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zNWdwMnRlY1NsUkptT3F4dWRGak5FaGdBN0Z1MDlsM1lXRl8tcV9FWm95UHNPNnlXel9rbUVIOGdxVlFzWUpiYnZRQkdHNHdaLWfSAVNBVV95cUxPNDN3UnFGUVFPQVhTT0ZHM0c0M19zUlZpMUJEa0FBYnczTlZ6V2NuVjRjOW9EdEJrampINUpFaDFMYWp0djlfejQ0bEFkTDhSX2VNNA?oc=5",
-      "published": "2026-11-06T10:00:09+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "b1e7f1aeaf66",
-      "title": "은행 AI 비서, 50회 문답서 토큰 비용 82% 절감…카우치베이스, PoC 결과 공개",
-      "source": "디지털데일리",
-      "summary": "은행 AI 비서, 50회 문답서 토큰 비용 82% 절감…카우치베이스, PoC 결과 공개&nbsp;&nbsp;디지털데일리",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zZFRfRDRpOEQtTTk3bDU5TWZUYndZZDNaVHJXU05kN09YX2hoTVNhc1V2N3A2c05YX2dRZ2tNWThZbTdRODZYODQ1dTBSTmNZNkJNOUJwdjlUd2h1XzVpb0dzY0g?oc=5",
-      "published": "2026-11-06T08:53:16+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "461c62b36cec",
-      "title": "“아내·남편 모르게?”···‘타사 오픈뱅킹 조회 불가’ 특정 장소·시간에만 보이는 통장 나온다",
-      "source": "경향신문",
-      "summary": "“아내·남편 모르게?”···‘타사 오픈뱅킹 조회 불가’ 특정 장소·시간에만 보이는 통장 나온다&nbsp;&nbsp;경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50U2J5MEpWckQ0UF9KUjhSOG1zdlF6cXgtTWhXTVpkdVV0OGZnblNFUXhmcDNqOVROel9GbUNCZ0VjOHU1dDZCUmZicUl6NHJqVTJXbGRYWGltd9IBX0FVX3lxTE9waWFYQUNuZVdfVG14NGRwS19mSVNLemJCTWk2SHI2NnVXbnlfWmhrb0xldUJGREZqd1diZ09rb0JoRFZkN0VtTjBVVXk0Y1cyU3c4OGF3UEhFaW9ocmhF?oc=5",
-      "published": "2026-11-05T17:52:00+09:00",
       "query": "오픈뱅킹"
     }
   ]

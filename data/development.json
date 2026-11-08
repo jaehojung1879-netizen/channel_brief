@@ -1,14 +1,32 @@
 {
-  "updated_at": "2026-11-07T10:07:53.490277+09:00",
+  "updated_at": "2026-11-08T09:54:49.002084+09:00",
   "items": [
     {
-      "id": "62a3198facc0",
-      "title": "호남권 반도체 국가산단, 기업 투자조건 조율…전력·용수·교통망 협의",
-      "source": "폴리뉴스 Polinews",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnMV9rVDIzVmM5aDM0LTE1R1hCU0JDSk9GdHlIWW44WFMyZGs0Sk5hTXFVUFdGaUp3UGdhOWpFeHJMZ0lIX25pb1pYZ2IzY0gtMk9RT2UzTXhfN1VkY3p1aXR0WXUydDBEaDkwa0hB?oc=5",
-      "published": "2026-11-06T18:27:29+09:00",
-      "date": "2026-11-06",
+      "id": "a40836f6b7ec",
+      "title": "송정역·군공항 부지에 394만㎡ 반도체 관문도시",
+      "source": "진일보 | 전남일보",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hVHh1YnZGZW5VRHFTLXJyMGxpa3dmSC1hSkp2eWdWc2gyWDlwNE1CaXRwbXE0MTY0LWk1U0s4endoRnhtRW5Mc0ZKaFFzdElJZThQQ2JXTWl6MGNSbUhCalYtRmJyM3FYLTFEWEVFOA?oc=5",
+      "published": "2026-11-08T09:43:43+09:00",
+      "date": "2026-11-08",
       "query": "반도체 국가산단"
+    },
+    {
+      "id": "78d07dbd87c7",
+      "title": "리더경제 동자동 쪽방촌 공공주택 2,150호…방을 비우는 날, 주민은 어디로 가나",
+      "source": "한국공공정책신문",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1NcmVBWUdMVUtfVnVGNzUwWmg1U3pRd1FEMm1HMmJsbFluaVlJU2RYX1VCeF9EZXJKQzVwTGVTZFoyRmM?oc=5",
+      "published": "2026-11-08T08:39:31+09:00",
+      "date": "2026-11-08",
+      "query": "국토교통부 고시"
+    },
+    {
+      "id": "ba14414707b4",
+      "title": "\"판교 성공 오리로 잇는다\" 성남시, 오리역세권 제4테크노밸리 가이드라인 고시",
+      "source": "컨슈머타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEQVY3WXdScVZ0ZHpsSHdCLWVNNmlVc1F3NFFza1p6ejdTXzR1NEVIRDVuWGVheDFXajg5bnJMUlBHRTJ6b3J4b2p5TUtxcm1XZjgtOTN6S3pnbTRMS3FJV2g0SmVLcmlqZHc?oc=5",
+      "published": "2026-11-07T20:31:16+09:00",
+      "date": "2026-11-07",
+      "query": "국토교통부 고시"
     },
     {
       "id": "55a41cd51612",
@@ -20,10 +38,10 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "ab18293b2a5d",
+      "id": "9440ef7d41f0",
       "title": "전남광주시, 호남권 반도체 국가산단 기반시설 확보 '주력'",
-      "source": "매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mZ2VGZ3lGZ2JNOHBZYzR3VTJHbGhDTFJHdS1FOWRuNVJyT09qcXBBb3N0c0t1SmhvX2FRWl9lUURiXzI3bDROcUwtNk1yeUZ5cGc?oc=5",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aNHVjY0xYU0c1NVRqak41bHRrOGdYa2F0S1p6Wlgwcm9sQUNpVnpCRER4VTlPbTZyZlRIMmpQSXJDeWduT0lxdlFkMy13dEY4SnBoNmg4aEN2dFnSAWBBVV95cUxOLWJTZk1fZ1dHS1BQQjdXMFJGUzlTX3dGV1hxUVFESzhQUjk2d1BPUmkzTDdpeGt0aGwtbW1ERDROREJzMldZeDk1NktqYzcxVnR3MmFNZl9kczQ1a2pEcGk?oc=5",
       "published": "2026-11-06T16:14:06+09:00",
       "date": "2026-11-06",
       "query": "반도체 국가산단"
@@ -38,31 +56,13 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "ce0d15039826",
-      "title": "[1기 신도시, 다시 뛴다 | 분당] 분당 선도지구, 내년 시공자 선정 러시… 2차 구역까지 합류",
-      "source": "한국주택경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoZHYySGkxYmFzcGUxWUQ4YVdyam5zUmFZYnd5dDY4UXBDLWlHVkd2TDVyb3VoOUNrZW9FZDJkS29WSzlkaXBwYy1DVGxId3R2VGJxR2g1TWxZWkdCbko4dEtiSGxsMWpY?oc=5",
-      "published": "2026-11-06T10:43:54+09:00",
-      "date": "2026-11-06",
+      "id": "b368cc13bd30",
+      "title": "국토교통부, 다세대·오피스텔 층간소음 차단 기준 강화",
+      "source": "케이에스피뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE81M3M3WVJ0R1J1MTM5aEVkVmxlVnNBVUJQeU9MWU1yd1ZCc1JMZkpqQVo1ZXpLN3ZQUnJ3QkY1QUF4M3loX1E?oc=5",
+      "published": "2026-11-05T18:22:00+09:00",
+      "date": "2026-11-05",
       "query": "국토교통부 고시"
-    },
-    {
-      "id": "18243921fa20",
-      "title": "[제5차 국가철도망 고시를 기다리며 ③] 숫자로 본 대한민국 철도",
-      "source": "경기남부저널",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83VEtCNFQ1cHY4S2dJODA1OWQ3VnJrckIxN3gwTE5ZSFJ4OFExc0xrME15My1TaU93alJoRWJOYmZ2ekN0NW5UdDJ4UlpxOHpNTXdVWTZWVklrcGlWVFJPaHZBd1pWVUXSAWtBVV95cUxQWWZNTlBhMENjZTJLb2JOQnQ4MlliUXFOOHlqZ1g2cmwtZ0ZYcmJXMDRYTktSZENEaldUd25EQk9MSmlsbWdtdDVsQjdWaHN6OFRJdkZoOHVyRDNfZ2VoYzAxU2p0N2l0ckVLVQ?oc=5",
-      "published": "2026-11-06T09:11:58+09:00",
-      "date": "2026-11-06",
-      "query": "국토교통부 고시"
-    },
-    {
-      "id": "bce5c48b678d",
-      "title": "광주권 도시재생 67곳 밑그림…1조 4300억 원 필요",
-      "source": "광주드림",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tdHVrR0JoNGl3LTlpTFhXbjNwZzJVMkVlMlFVUEstY1ctUVFLeU1TUlBaV0QtdE9wZXFQeUhaRkZvN2NPYUhTTjJUME1lV3ZRN1hLMDd5N2V3TEdiem95QWk3MV9EeDNqLVE?oc=5",
-      "published": "2026-11-06T00:00:00+09:00",
-      "date": "2026-11-06",
-      "query": "도시재생 활성화계획"
     },
     {
       "id": "54b3ec2db122",
@@ -92,22 +92,13 @@
       "query": "신도시 착공"
     },
     {
-      "id": "353a2a75042a",
-      "title": "‘왕숙 도시첨단産團’ 개발! 산업단지 관리 기본계획… 고시",
-      "source": "남양주뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE4xZjRNWHVMTU1PbFdWd1lpZ3NFbXptdW5Cbm1DM1Y2N0FHS1BZXzZpQzFucUd0ZkxycHhoZA?oc=5",
-      "published": "2026-11-05T11:19:00+09:00",
+      "id": "714fe74add77",
+      "title": "대전 갈마1동 노후주거지 정비 본격화",
+      "source": "굿모닝충청",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wQk9JYkpUa2d1SWhvd3ExYTZ5QXZuLTMxa0NOYWNyQkJTMnZjWVpYZVUySmFYYVRKNld4TVFIU1JxRWJuZWJLSm1tbURGcndIcUU4ZHhNMWFhdHY1U0NaM3F0Skp4SWh2OVVpRS1UNmNUUQ?oc=5",
+      "published": "2026-11-05T16:26:37+09:00",
       "date": "2026-11-05",
-      "query": "국토교통부 고시"
-    },
-    {
-      "id": "fc88803803b6",
-      "title": "전국고용서비스협회, 건설일용근로자 임금 선지급 피해 보호대책 마련 촉구",
-      "source": "투데이안",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sRWRDM2hubllrVXFVYXBRT3JfOXU3enp2OE50bkZZVlQ1RFdrZXEwVklzRWpEeW82SHpmNElZdDBSV1F3SmRxYnhIZi1lRGlRVHNSQk16Mm1wbWx6dUE?oc=5",
-      "published": "2026-11-05T10:47:00+09:00",
-      "date": "2026-11-05",
-      "query": "국토교통부 고시"
+      "query": "도시재생 활성화계획"
     },
     {
       "id": "3fae891839b0",
@@ -116,7 +107,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4azVKTkExVTB6V29QTDlnajh5Y3BHdkxMSUh5WDlxZ1J0b1dad2ItZElKQkxfMHM1M3MtM1BpSFQxRW9EVGd2REF4dXNKa1VJRnAtdDdONmN6NnI1S3dNaA?oc=5",
       "published": "2026-11-05T10:39:40+09:00",
       "date": "2026-11-05",
-      "query": "도시재생 활성화계획"
+      "query": "국토교통부 고시"
     },
     {
       "id": "bb8237528d39",
@@ -128,12 +119,21 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "769f815275e4",
-      "title": "성남시, 분당재건축 2차 정비구역 지정 예정대로 ‘12월 확정·고시’",
-      "source": "경인일보",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NZDJJVlU0Y0FUcm0xMlJOd3NaQ1FlTlgtRE5yZGhLMFNuay1RM1gzcHZmUmNreXN3X1FxdTVNWUpEV211MmJ0M2F2ZnMzUzdnVVE?oc=5",
-      "published": "2026-11-04T10:42:02+09:00",
-      "date": "2026-11-04",
+      "id": "51029113ab9c",
+      "title": "LH 경기북부, 의정부용현·법조타운 보상속도 높여 주택공급 앞당긴다",
+      "source": "인천일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVNkFNX19ZRDJYWERmME80UXBHTHhfUVBQMWw3TXFYVlB1aGhrZF8yRmVVRXVnNnR6MXNPVzJ6Ulkwc2JDOUJpMWtFQTlMQWJ0NTNORkZJU29FdXlnUEJobHZ1dENnQ3VSSWl3U0RuMG8?oc=5",
+      "published": "2026-11-03T16:53:00+09:00",
+      "date": "2026-11-03",
+      "query": "LH 지구지정"
+    },
+    {
+      "id": "5e885ce3731c",
+      "title": "감사원 \"개정고시 시행前 새 기준 적용해 과태료 면제 가능\"",
+      "source": "연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CNEZTUHB2QTUwYzh1YVpJZ1lrdFpublFiS2prSE0xRDVpc19KUFBucjk1aUF0ZFBGSVBjbUxJOHhNVGFqbjRaeG85UGhNQnhZOG1zbUtBNGlHdTjSAWBBVV95cUxNZXVrME80NGpQN2JJT1NZbnZDemQ5TkJsTlp6X010Z1ZWNGpEcHhSM21DdlFObW5kaDBtcFBLNUpqWmlWMUFfdVpkZGpnSFYtTUs0YUhjSlB1SW5GYnR6Q18?oc=5",
+      "published": "2026-11-03T12:00:11+09:00",
+      "date": "2026-11-03",
       "query": "국토교통부 고시"
     }
   ]
