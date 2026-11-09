@@ -1,41 +1,68 @@
 {
-  "updated_at": "2026-11-08T09:54:49.002084+09:00",
+  "updated_at": "2026-11-09T10:11:53.517771+09:00",
   "items": [
     {
-      "id": "a40836f6b7ec",
-      "title": "송정역·군공항 부지에 394만㎡ 반도체 관문도시",
-      "source": "진일보 | 전남일보",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hVHh1YnZGZW5VRHFTLXJyMGxpa3dmSC1hSkp2eWdWc2gyWDlwNE1CaXRwbXE0MTY0LWk1U0s4endoRnhtRW5Mc0ZKaFFzdElJZThQQ2JXTWl6MGNSbUhCalYtRmJyM3FYLTFEWEVFOA?oc=5",
-      "published": "2026-11-08T09:43:43+09:00",
+      "id": "b6005726ab0f",
+      "title": "호남권 반도체 국가산단 속도…전력·용수 협의체 본격 가동",
+      "source": "MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uT0E0TmRvdkNxNTl2QkU5STdEQkRjS1FYeVp1MHZicUpFUmh0dC1ielVFMFFTYmw0WHhhdHhValgzdDhzZVhmdUpnN1RLdF92T2NNTEREX3RjRjBveHRn?oc=5",
+      "published": "2026-11-09T09:55:10+09:00",
+      "date": "2026-11-09",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "a1963c2239ba",
+      "title": "반도체 공장이 들어올 자리, 그 터에서 쫓기듯 밀려나는 사람들",
+      "source": "주간경향",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIWllMTXVfWXhnckNrOE9xWDJzandHb0dfVlN5VmZtMU5sWE5reElqcTd6ampzUzNYQ0xiN3dXYmc2Yi13QU44S2JRZktBX0hQZ016WjJJUE5waG1xQ3c?oc=5",
+      "published": "2026-11-09T06:00:00+09:00",
+      "date": "2026-11-09",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "f00c5e290144",
+      "title": "3기 신도시 남양주 왕숙 공공주택 또 지연… 교통대책도 난항 - 머니투데이",
+      "source": "머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15ei1lVnEydWt0dXRURWcxdEphRDB6RjNGNk16NXhmZ3U5OWduZUN3bWtWUHlWQW5QRG44dWg0V2p0ekI0ZUI5bkFVaEJWMFJpS0xUQWpFWExYbW5tZE1famhENmxrVW5nUUHSAW9BVV95cUxQWmd6RWs5ZWdoOERnSjZYLXFEeGVRWHVOMDdBSnEyQWY3RFkxR3RuNU1zaHFyWTJmSjN1QTZQQ3RXdFZMS2t6aGxHZFN1UXZ1MFVaNGxxVDYwNWZsXzlkNktlUWJ6Q0NiQkcydHUzRkU?oc=5",
+      "published": "2026-11-09T04:30:00+09:00",
+      "date": "2026-11-09",
+      "query": "국토교통부 고시"
+    },
+    {
+      "id": "b22a1807a172",
+      "title": "국토교통부, 새로운 대한민국의 내일을 잇는 철도 대전환, 국민과 함께 그립니다",
+      "source": "정안뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41X0FIUnlLV3BHLTJMQVpiRkN6TjVndHp2M3NtaC0tODVqSTB3ZlZKQ3pERmhYeHFIcU9OeHBRb19MV3Vvb0NBQktfZ3NUVGlvdmdiWUhrWVR3VnlQZC1Sa2g1R28?oc=5",
+      "published": "2026-11-08T18:13:25+09:00",
+      "date": "2026-11-08",
+      "query": "국토교통부 고시"
+    },
+    {
+      "id": "b3dd166e6216",
+      "title": "전남광주통합특별시, 호남권 반도체 국가산단 전력·용수 확보 협의",
+      "source": "매일일보",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zeHRDcWhRM0dBRjh3eWd1azlQekJMYkF4QTJyaS1IbkNFQm41VzVXQmVWZ1JMNDlsRlFhejlMNENwUkk0TWs5clVjSEthcXZSblBMX2NuUlQzaFdXMWhkc1JrdXY?oc=5",
+      "published": "2026-11-08T12:05:01+09:00",
+      "date": "2026-11-08",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "dab917e347b1",
+      "title": "용인 반도체 국가산단… 닥치고 속도전, 처절한 민낯",
+      "source": "한겨레21",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xckpET1RmYU9vOG9PR3AzaTJpbjlVdkRpbXVJc1ZwYXFPRWlFclVxZlpLMURXZDF6OC1KNWRtSk15dUJwT1Uxd21CUjd5SnczQVBOMVlTb0FBbTVyajhz?oc=5",
+      "published": "2026-11-08T10:20:00+09:00",
       "date": "2026-11-08",
       "query": "반도체 국가산단"
     },
     {
       "id": "78d07dbd87c7",
-      "title": "리더경제 동자동 쪽방촌 공공주택 2,150호…방을 비우는 날, 주민은 어디로 가나",
+      "title": "리더경제 동자동 쪽방촌 공공주택 2,150호…방을 비우는 날, 주민은 어디로 가나 https://www.leader-economy.kr/news/485210",
       "source": "한국공공정책신문",
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1NcmVBWUdMVUtfVnVGNzUwWmg1U3pRd1FEMm1HMmJsbFluaVlJU2RYX1VCeF9EZXJKQzVwTGVTZFoyRmM?oc=5",
       "published": "2026-11-08T08:39:31+09:00",
       "date": "2026-11-08",
       "query": "국토교통부 고시"
-    },
-    {
-      "id": "ba14414707b4",
-      "title": "\"판교 성공 오리로 잇는다\" 성남시, 오리역세권 제4테크노밸리 가이드라인 고시",
-      "source": "컨슈머타임스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEQVY3WXdScVZ0ZHpsSHdCLWVNNmlVc1F3NFFza1p6ejdTXzR1NEVIRDVuWGVheDFXajg5bnJMUlBHRTJ6b3J4b2p5TUtxcm1XZjgtOTN6S3pnbTRMS3FJV2g0SmVLcmlqZHc?oc=5",
-      "published": "2026-11-07T20:31:16+09:00",
-      "date": "2026-11-07",
-      "query": "국토교통부 고시"
-    },
-    {
-      "id": "55a41cd51612",
-      "title": "호남권 반도체 국가산단 전력·용수·정주여건 협의 본격화",
-      "source": "아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCS2gtUHQ3LTNEa0lrS3pFbHBlOTE0bkJaa3phc01xOEFwR1Q4MUZTeDItb3dvTGNmekVKQmtrT2tEWWNnNW52d09HUUtTT1hFbHJ6S2NuV3cyUF9Qd0xGNQ?oc=5",
-      "published": "2026-11-06T17:28:34+09:00",
-      "date": "2026-11-06",
-      "query": "반도체 국가산단"
     },
     {
       "id": "9440ef7d41f0",
@@ -47,21 +74,12 @@
       "query": "반도체 국가산단"
     },
     {
-      "id": "643dd23d3497",
-      "title": "“반도체 공장 옆에 1만6000가구 신도시 들어선다”…용인 이동읍이 달라진다",
-      "source": "용인신문",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53Q1lRWmlVRFBEQWZnTzF0eVF3ZGRoX3hwR3hBUWd3TEx3OGdpUmt3VFNZS1BBVzYzTnVGNWVQbnZvTHN4MkR5MUlWeG0xcEhNTGRRMVZoSlhpQkx1UUZfdTduaHk?oc=5",
-      "published": "2026-11-06T14:05:54+09:00",
+      "id": "ce0d15039826",
+      "title": "[1기 신도시, 다시 뛴다 | 분당] 분당 선도지구, 내년 시공자 선정 러시… 2차 구역까지 합류",
+      "source": "한국주택경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoZHYySGkxYmFzcGUxWUQ4YVdyam5zUmFZYnd5dDY4UXBDLWlHVkd2TDVyb3VoOUNrZW9FZDJkS29WSzlkaXBwYy1DVGxId3R2VGJxR2g1TWxZWkdCbko4dEtiSGxsMWpY?oc=5",
+      "published": "2026-11-06T10:43:54+09:00",
       "date": "2026-11-06",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "b368cc13bd30",
-      "title": "국토교통부, 다세대·오피스텔 층간소음 차단 기준 강화",
-      "source": "케이에스피뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE81M3M3WVJ0R1J1MTM5aEVkVmxlVnNBVUJQeU9MWU1yd1ZCc1JMZkpqQVo1ZXpLN3ZQUnJ3QkY1QUF4M3loX1E?oc=5",
-      "published": "2026-11-05T18:22:00+09:00",
-      "date": "2026-11-05",
       "query": "국토교통부 고시"
     },
     {
@@ -92,13 +110,13 @@
       "query": "신도시 착공"
     },
     {
-      "id": "714fe74add77",
-      "title": "대전 갈마1동 노후주거지 정비 본격화",
-      "source": "굿모닝충청",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wQk9JYkpUa2d1SWhvd3ExYTZ5QXZuLTMxa0NOYWNyQkJTMnZjWVpYZVUySmFYYVRKNld4TVFIU1JxRWJuZWJLSm1tbURGcndIcUU4ZHhNMWFhdHY1U0NaM3F0Skp4SWh2OVVpRS1UNmNUUQ?oc=5",
-      "published": "2026-11-05T16:26:37+09:00",
+      "id": "353a2a75042a",
+      "title": "‘왕숙 도시첨단産團’ 개발! 산업단지 관리 기본계획… 고시",
+      "source": "남양주뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE4xZjRNWHVMTU1PbFdWd1lpZ3NFbXptdW5Cbm1DM1Y2N0FHS1BZXzZpQzFucUd0ZkxycHhoZA?oc=5",
+      "published": "2026-11-05T11:19:00+09:00",
       "date": "2026-11-05",
-      "query": "도시재생 활성화계획"
+      "query": "국토교통부 고시"
     },
     {
       "id": "3fae891839b0",
@@ -107,16 +125,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4azVKTkExVTB6V29QTDlnajh5Y3BHdkxMSUh5WDlxZ1J0b1dad2ItZElKQkxfMHM1M3MtM1BpSFQxRW9EVGd2REF4dXNKa1VJRnAtdDdONmN6NnI1S3dNaA?oc=5",
       "published": "2026-11-05T10:39:40+09:00",
       "date": "2026-11-05",
-      "query": "국토교통부 고시"
-    },
-    {
-      "id": "bb8237528d39",
-      "title": "[독자권익위원칼럼] 광주 반도체 국가산단 설계와 광주특별시의 역할",
-      "source": "무등일보",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1TY2FVN2lvSTEyaHF0aWhsSnJQam42VjFMYWs2cjlUdS0wV2FnSC11SThQU3I2SDlLNFZ6YVNuc0Y2OGZMRjhwQmJ3?oc=5",
-      "published": "2026-11-04T11:06:00+09:00",
-      "date": "2026-11-04",
-      "query": "반도체 국가산단"
+      "query": "도시재생 활성화계획"
     },
     {
       "id": "51029113ab9c",
@@ -126,15 +135,6 @@
       "published": "2026-11-03T16:53:00+09:00",
       "date": "2026-11-03",
       "query": "LH 지구지정"
-    },
-    {
-      "id": "5e885ce3731c",
-      "title": "감사원 \"개정고시 시행前 새 기준 적용해 과태료 면제 가능\"",
-      "source": "연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CNEZTUHB2QTUwYzh1YVpJZ1lrdFpublFiS2prSE0xRDVpc19KUFBucjk1aUF0ZFBGSVBjbUxJOHhNVGFqbjRaeG85UGhNQnhZOG1zbUtBNGlHdTjSAWBBVV95cUxNZXVrME80NGpQN2JJT1NZbnZDemQ5TkJsTlp6X010Z1ZWNGpEcHhSM21DdlFObW5kaDBtcFBLNUpqWmlWMUFfdVpkZGpnSFYtTUs0YUhjSlB1SW5GYnR6Q18?oc=5",
-      "published": "2026-11-03T12:00:11+09:00",
-      "date": "2026-11-03",
-      "query": "국토교통부 고시"
     }
   ]
 }

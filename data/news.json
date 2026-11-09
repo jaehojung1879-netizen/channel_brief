@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-11-08T09:53:00.158534+09:00",
+  "updated_at": "2026-11-09T10:10:01.494956+09:00",
   "headline": {
-    "id": "7c4a9ea06785",
-    "title": "점포 줄이더니 이것까지?…은행이 현금·수표 안 받는다",
-    "source": "SBS Biz",
-    "summary": "점포 줄이더니 이것까지?…은행이 현금·수표 안 받는다 SBS Biz",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBORDQxeVl4OE9iZUd0OU1aXzVoelF5dUlpQWNjTHV5RDNzdl9MSS1OMW1jRzhzUmVRN3pPdlJYelVMaEVzQ29LNUhoSno3STBpRmVR0gFYQVVfeXFMUGYyUWRCOTVQNTBUOXAyS3Y5NkNBdlczSk0xM3RCVXp2aHdGcmhJOUFQaUMtYkt3WGtnZ3pNZ0pUenJkQnRobV9jNnV1OXIyQ3lvdUQzZjdLUg?oc=5",
-    "published": "2026-11-03T11:24:00+09:00",
+    "id": "cde24be71369",
+    "title": "KB국민은행 - 고령 특화 점포·전자점자 서비스 운영 / 신한은행 - 고객자문위원 개편… 의견 적극 반영",
+    "source": "조선일보",
+    "summary": "KB국민은행 - 고령 특화 점포·전자점자 서비스 운영 / 신한은행 - 고객자문위원 개편… 의견 적극 반영 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdXF6SmtQaWZzMGN4YXBRMkNZaHJNQjdRRnJVNmJiUFZCWlp2RkE0SzNMV1dDeWQzZHZOWXFpQW5WZE9tcW15NFFnZ0hEa1Jyck03Z1dUUzdnUXlMaEV6NHUxOEVPRTdvaENxQlc3akRjT0VjalowMmtLTi12UmxzLVNITzBZR0pmbTJzM2pkOA?oc=5",
+    "published": "2026-11-09T00:35:30+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 9,
-    "_score": 8.0,
+    "rank": 1,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "720abeb0a932",
+        "title": "[글로벌 리포트] 점포 늘리는 美은행… 디지털화 역행 아닌 전략적 선택",
+        "source": "파이낸셜뉴스",
+        "summary": "[글로벌 리포트] 점포 늘리는 美은행… 디지털화 역행 아닌 전략적 선택 파이낸셜뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GVmVvOGFkLWwxR0dDQUk1NTJ4RElJMHpVekNuQVN4QmRGazV0S2JSQVltS09LUngxMWpUZndrMDNBSHNEV09qU2J5aDd0eThpSDBmWFViYW9OQQ?oc=5",
+        "published": "2026-11-08T18:49:29+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "5fbe68ce4519",
+        "title": "KB국민은행, 부산 청년 점포 18곳에 키오스크 추가 지원…1억원 출연",
+        "source": "베타뉴스",
+        "summary": "KB국민은행, 부산 청년 점포 18곳에 키오스크 추가 지원…1억원 출연 베타뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JTG9fSVc2a0ZKUVUyTXZUUUtaNmNnbXhGRERqdVZ4SVZvZDN2bFY3S0dsa2IzSG1pcGpIeUlxeTNOOFVJZUxzZHBHV3VpZmdPcW82X3FtekdZM1dVMVM1dGl1cDk?oc=5",
+        "published": "2026-11-08T16:19:12+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "a802851107c5",
         "title": "점포는 남기고 현금업무 뺀다 … 은행권 '캐시리스' 확산",
@@ -24,22 +48,34 @@
         "published": "2026-11-06T10:56:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [],
     "shinhan_news": [
       {
-        "id": "a9a5081b7753",
-        "title": "신한은행, 삼성자산운용과 손잡고 퇴직연금 투자정보 서비스 확대",
-        "source": "브릿지경제",
-        "summary": "신한은행, 삼성자산운용과 손잡고 퇴직연금 투자정보 서비스 확대 브릿지경제",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zd1lGeVFqZ3oxTmhJTWU5dHdRelNMNjEyYzBrd0JydkQ5TldkYi1Tbnl3aDI4VXk4QjE4MWU0ckJsbmJYNkpURVBsNzFnTVhXUHloU1gtdw?oc=5",
-        "published": "2026-11-03T09:47:00+09:00",
-        "query": "신한은행 영업점",
+        "id": "231d7c5ec538",
+        "title": "신한은행 SD 영업본부장에 김태한 씨",
+        "source": "미주중앙일보",
+        "summary": "신한은행 SD 영업본부장에 김태한 씨 미주중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14RnRsWkxjRmFfUDBveXlJX0xYc1RKLUpod3Myc29mNWlPQ1l4RGxDLXhsZGNkTDJoUDVNMkJvU284elhrVGZ3ZWNTSXB3clJ6QXhaVExoRDYtVENuZUUyVWxB?oc=5",
+        "published": "2026-11-06T13:46:00+09:00",
+        "query": "신한은행 지점",
         "engine": "google",
         "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "ae6571c9abf3",
+        "title": "신한은행, 퇴직연금 방문상담 서비스 확대",
+        "source": "연합뉴스",
+        "summary": "신한은행, 퇴직연금 방문상담 서비스 확대 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE40YmFscFZVeG1fcjVzTzBLTjRfdGQ4aGhDOFBkQXVVWGhOcmtoX1pMZTdLOW5wU1VSbHlTY2g4UzEyVUNoY2V1LWozREdsTDBRemxhUG1VcmJWLVXSAWBBVV95cUxPY0g4Q2RkNEN5bVNqR2lQNTMweG40VldGa1pMN202OGl0VUVXRmY4NTZSWjFTNnIyOHVfalBiU0NBZGhvcFFDOFV5bUoyMklsSzJXakVRRFl0NUN2akFMSFQ?oc=5",
+        "published": "2026-11-04T10:14:29+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
