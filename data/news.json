@@ -1,20 +1,44 @@
 {
-  "updated_at": "2026-11-09T10:10:01.494956+09:00",
+  "updated_at": "2026-11-10T12:46:00.917639+09:00",
   "headline": {
-    "id": "cde24be71369",
-    "title": "KB국민은행 - 고령 특화 점포·전자점자 서비스 운영 / 신한은행 - 고객자문위원 개편… 의견 적극 반영",
-    "source": "조선일보",
-    "summary": "KB국민은행 - 고령 특화 점포·전자점자 서비스 운영 / 신한은행 - 고객자문위원 개편… 의견 적극 반영 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdXF6SmtQaWZzMGN4YXBRMkNZaHJNQjdRRnJVNmJiUFZCWlp2RkE0SzNMV1dDeWQzZHZOWXFpQW5WZE9tcW15NFFnZ0hEa1Jyck03Z1dUUzdnUXlMaEV6NHUxOEVPRTdvaENxQlc3akRjT0VjalowMmtLTi12UmxzLVNITzBZR0pmbTJzM2pkOA?oc=5",
-    "published": "2026-11-09T00:35:30+09:00",
+    "id": "4da5986fdad2",
+    "title": "NH농협은행, 해외점포 현지 직원 초청…글로벌 사업 협력 강화",
+    "source": "아주경제",
+    "summary": "NH농협은행, 해외점포 현지 직원 초청…글로벌 사업 협력 강화 아주경제",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TUnQzeHpXcWc5Y0ItOWIyaE1uMFFEam84aEtxUTBZWEhrV2RhWnFiNHNYRGVRbnBfLUR2TF9abjc3THFnLU5mU1p6d2hlQXVmSFRmS1lyR3Qxd9IBWEFVX3lxTE9keWZLWUFZUEJLbnhaVjdWbkVLUWszQlgxY00wT1NvYW9lZGhhYlhlSmk0MHEwWnVmQmxNaW5HQk5ZWEpac0gtTzdKQUhUVTFZTmZzV0dLSzk?oc=5",
+    "published": "2026-11-10T10:58:51+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 18.0,
+    "rank": 7,
+    "_score": 17.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "3dead87c9795",
+        "title": "NH농협은행, 국외점포 우수 현지직원 국내 초청",
+        "source": "신아일보",
+        "summary": "NH농협은행, 국외점포 우수 현지직원 국내 초청 신아일보",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EaTdXcDRTY3RsT2kza1NYLWFyZXd5dFBMeElzS0JoQkd1ZncybTQxbkRuRWUxZXYwTGhHQzJJWW5zWEplY25lN0tISUNFcDZoRDlVLS1PbktwOU13ajdCbnowV0Y0UndCRXlNWEpNbnk?oc=5",
+        "published": "2026-11-10T12:09:13+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "f62f33103884",
+        "title": "은행 영업점, 금융 넘어 지역사회 소통 창구로",
+        "source": "비즈월드",
+        "summary": "은행 영업점, 금융 넘어 지역사회 소통 창구로 비즈월드",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qX0ZpVUpYdFN5NkU2UmpLb3kzMm9YN1FSN25EVFpGYVBKT3R5bG1EVXh3RUdWVXJUVkFNbmd1SGgwNVFsVjNWYTU1dUhlYzZ3a1VhYzJXb1RTaDZMOFR0a0ZNME9kYkV5RXc?oc=5",
+        "published": "2026-11-09T18:16:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 6,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "720abeb0a932",
         "title": "[글로벌 리포트] 점포 늘리는 美은행… 디지털화 역행 아닌 전략적 선택",
@@ -24,7 +48,7 @@
         "published": "2026-11-08T18:49:29+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -36,7 +60,7 @@
         "published": "2026-11-08T16:19:12+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 16,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,22 +72,35 @@
         "published": "2026-11-06T10:56:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 5,
+        "rank": 13,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
-    "policy_news": [],
-    "shinhan_news": [
+    "policy_news": [
       {
-        "id": "231d7c5ec538",
-        "title": "신한은행 SD 영업본부장에 김태한 씨",
-        "source": "미주중앙일보",
-        "summary": "신한은행 SD 영업본부장에 김태한 씨 미주중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14RnRsWkxjRmFfUDBveXlJX0xYc1RKLUpod3Myc29mNWlPQ1l4RGxDLXhsZGNkTDJoUDVNMkJvU284elhrVGZ3ZWNTSXB3clJ6QXhaVExoRDYtVENuZUUyVWxB?oc=5",
-        "published": "2026-11-06T13:46:00+09:00",
-        "query": "신한은행 지점",
+        "id": "a308923b1bc0",
+        "title": "금감원, 삼성증권 ‘초고액자산가 거점점포’ 불건전영업행위에 84억원 제재",
+        "source": "Chosunbiz",
+        "summary": "금감원, 삼성증권 ‘초고액자산가 거점점포’ 불건전영업행위에 84억원 제재 Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPczBHX1hrNVZ6SGVLZnozeVlVaDJHT2tRQlRvLThna0piWEIzTFpFaTY0ZThhSlljN3lzWkxVUUhhR2tSWllOc3VYc0JaUGo5d1NrS1k2SjctOGo0T2VPRmYwX2xJYkpaUkdRNzVPWFpxbzNJNEpMUmJlTlAyRnJnRDBuZTcyb0Zy0gGcAUFVX3lxTE5NN181cDM5Q0k2T1pESFV2eG1CVTdTTjB6UTFlVEh6REU5dUtmV05ZM3RPZlNTLVU5akpGQWRfZ0dxeVpaa3VmWnlSa2pZbi0zTTREZVR2Wm1TVk1ra2JyVkFkNWxtb1NhQ0VQRlM2d1hzMDFDUDI1OEo3am9yNS04dEJXSUNPSzFHUi05aGtmZll2Ulk2R1o5Q0N5TA?oc=5",
+        "published": "2026-11-09T17:09:00+09:00",
+        "query": "금감원 점포",
         "engine": "google",
         "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      }
+    ],
+    "shinhan_news": [
+      {
+        "id": "6cfa0b83d7fd",
+        "title": "[별별금융] 신한·우리는 되고 국민은 안 된다?…신희타 정책대출 안내 혼선",
+        "source": "아주경제",
+        "summary": "[별별금융] 신한·우리는 되고 국민은 안 된다?…신희타 정책대출 안내 혼선 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwcHl6ZHh5VkgxN3JrS0kyZnRuNlhhQkEwbHQzQXhGeGw5MWllY09uUjFjMGJMdzFFNGprRHMwRmpURF81VmRCQ2RiUUFTRlplaHVwUDRKY1lFUdIBWEFVX3lxTE5MZmVrcFo5ZFRDM2IyX0RYYjRpRWF0Skg2Vk5pQ2xKRnRJUWxVU2JXcTlzTWdOaHNfOVpCdnZCaE9XekpGV1ItNjVKLS0wZHFtQVRiQnk2YS0?oc=5",
+        "published": "2026-11-04T16:02:03+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -75,7 +112,7 @@
         "published": "2026-11-04T10:14:29+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
