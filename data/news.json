@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-11-11T10:26:02.424517+09:00",
+  "updated_at": "2026-11-12T11:28:03.425495+09:00",
   "headline": {
-    "id": "aa87e8da9997",
-    "title": "은행 점포도 '부익부 빈익빈'...수익성 경쟁에 금융 소외 우려",
-    "source": "핀포인트뉴스",
-    "summary": "은행 점포도 '부익부 빈익빈'...수익성 경쟁에 금융 소외 우려 핀포인트뉴스",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oX2pVSUUyeDBDemRqOXljZlpoTXNjQ3RHQkxYbmtUUUtwaDQwaUxiSmN2VlBlSnZLR3ZINVE2Q2dNNXBIeElKM3FjNDNXUHNMb1N2ek9iWlBTWTJhTGtteERJanY4M3huRllGWmZDSHluMzjSAXdBVV95cUxOWWxrQkpNcENQS0M4TlFIdHlVWGdud01iUkdrMEpmVVloR0dqMlVkdV94a19qUWx1SUFNUzEzblFUM0V3anhfYi1KWHQzLVBtbGpuTDNvT0pSNlFVMEY2cjA4ckpwYXJRM0JBaXBIdmpoZ0VlZ01fYw?oc=5",
-    "published": "2026-11-10T16:22:49+09:00",
-    "query": "은행 점포",
+    "id": "3c72717dce42",
+    "title": "NH농협은행, 고객의 금 실물 신탁 취급 영업점 21개로 확대",
+    "source": "중앙신문",
+    "summary": "NH농협은행, 고객의 금 실물 신탁 취급 영업점 21개로 확대 중앙신문",
+    "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPWmxrUHV6VV9WR1BST0JvQmJPcjdfTV9UQ3ZJWHVGb0MtOHBOU3l0djdfcldRbEg2ekx4Qks0Y0JYMGdJcVpmd0xhaHNQYjljZHZjZGxRNHllUGJZa1dGZ0d0Y3JZaUJIX0FvWXNCVk9vT0k0cnVRaFh2bU8zMXJ3dW1ockJxek1xSnR6aWI3aU9vTzlLV0J4VzEwbHhqMzNhN01tZ0V5cm1aWUtUb0xOYTBMb1ktMVBNZF96UXg4SkNlTWpRZU53Zkt1RFVmV2NRTkJQdkNyU0RaQ3plWDJBV21oNFoxM0hEY3RWb0drSVJTQ1hsWUl4Nk9IMjJpUENDeXFWVDRGMklHc3djSEQwOE5hdUQ0eEhaYXJ0dFlGdGNLMzdWWU9peXlIeEFzX3VTeW5lWm1wcjdrMVF0N2J3UVJ3eXFVb0hsSnYybDNmdHhXU09FUlhVRQ?oc=5",
+    "published": "2026-11-12T10:55:57+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 2,
-    "_score": 16.0,
+    "rank": 1,
+    "_score": 14.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "a2f4dead3fc9",
+        "title": "“산골 학교로 찾아간 이동점포”… NH농협은행, 영덕 지품초서 미래세대 맞춤형 금융교육 실시",
+        "source": "스마트경제",
+        "summary": "“산골 학교로 찾아간 이동점포”… NH농협은행, 영덕 지품초서 미래세대 맞춤형 금융교육 실시 스마트경제",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ncHZUZE1zNEVkNlV5X09DaFRDUllpVDZETmtZelNhZ2dRRnV5QnBPYkFLXzZNaVRrR1puRGQyUTB6ejdrQ2xZS0t1emlrN1NUTm5nLWJadDlKUkUzRmtfdVh3UkpoZ0pCQUxoVnFZYXA?oc=5",
+        "published": "2026-11-11T13:22:30+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "80a5f25a2887",
         "title": "5백여만명 ‘점포 없는 은행사막’에 산다…전국 읍·면·동의 10%",
@@ -36,7 +48,19 @@
         "published": "2026-11-10T16:37:11+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 11,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "aa87e8da9997",
+        "title": "은행 점포도 '부익부 빈익빈'...수익성 경쟁에 금융 소외 우려",
+        "source": "핀포인트뉴스",
+        "summary": "은행 점포도 '부익부 빈익빈'...수익성 경쟁에 금융 소외 우려 핀포인트뉴스",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oX2pVSUUyeDBDemRqOXljZlpoTXNjQ3RHQkxYbmtUUUtwaDQwaUxiSmN2VlBlSnZLR3ZINVE2Q2dNNXBIeElKM3FjNDNXUHNMb1N2ek9iWlBTWTJhTGtteERJanY4M3huRllGWmZDSHluMzjSAXdBVV95cUxOWWxrQkpNcENQS0M4TlFIdHlVWGdud01iUkdrMEpmVVloR0dqMlVkdV94a19qUWx1SUFNUzEzblFUM0V3anhfYi1KWHQzLVBtbGpuTDNvT0pSNlFVMEY2cjA4ckpwYXJRM0JBaXBIdmpoZ0VlZ01fYw?oc=5",
+        "published": "2026-11-10T16:22:49+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -48,7 +72,7 @@
         "published": "2026-11-10T15:38:32+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 3,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -60,29 +84,17 @@
         "published": "2026-11-09T00:35:30+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "720abeb0a932",
-        "title": "[글로벌 리포트] 점포 늘리는 美은행… 디지털화 역행 아닌 전략적 선택",
-        "source": "파이낸셜뉴스",
-        "summary": "[글로벌 리포트] 점포 늘리는 美은행… 디지털화 역행 아닌 전략적 선택 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GVmVvOGFkLWwxR0dDQUk1NTJ4RElJMHpVekNuQVN4QmRGazV0S2JSQVltS09LUngxMWpUZndrMDNBSHNEV09qU2J5aDd0eThpSDBmWFViYW9OQQ?oc=5",
-        "published": "2026-11-08T18:49:29+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 11,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [
       {
-        "id": "a308923b1bc0",
+        "id": "26a00ec893ff",
         "title": "금감원, 삼성증권 ‘초고액자산가 거점점포’ 불건전영업행위에 84억원 제재",
         "source": "Chosunbiz",
         "summary": "금감원, 삼성증권 ‘초고액자산가 거점점포’ 불건전영업행위에 84억원 제재 Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPczBHX1hrNVZ6SGVLZnozeVlVaDJHT2tRQlRvLThna0piWEIzTFpFaTY0ZThhSlljN3lzWkxVUUhhR2tSWllOc3VYc0JaUGo5d1NrS1k2SjctOGo0T2VPRmYwX2xJYkpaUkdRNzVPWFpxbzNJNEpMUmJlTlAyRnJnRDBuZTcyb0Zy0gGcAUFVX3lxTE5NN181cDM5Q0k2T1pESFV2eG1CVTdTTjB6UTFlVEh6REU5dUtmV05ZM3RPZlNTLVU5akpGQWRfZ0dxeVpaa3VmWnlSa2pZbi0zTTREZVR2Wm1TVk1ra2JyVkFkNWxtb1NhQ0VQRlM2d1hzMDFDUDI1OEo3am9yNS04dEJXSUNPSzFHUi05aGtmZll2Ulk2R1o5Q0N5TA?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTTdfNXAzOUNJNk9aREhVdnhtQlU3U04welExZVRIekRFOXVLZldOWTN0T2ZTUy1VOWpKRkFkX2dHcXlaWmt1Zlp5UmtqWW4tM000RGVUdlptU1ZNa2ticlZBZDVsbW9TYUNFUEZTNndYczAxQ1AyNThKN2pvcjUtOHRCV0lDT0sxR1ItOWhrZmZZdlJZNkdaOUNDeUzSAZwBQVVfeXFMTk03XzVwMzlDSTZPWkRIVXZ4bUJVN1NOMHpRMWVUSHpERTl1S2ZXTlkzdE9mU1MtVTlqSkZBZF9nR3F5WlprdWZaeVJralluLTNNNERlVHZabVNWTWtrYnJWQWQ1bG1vU2FDRVBGUzZ3WHMwMUNQMjU4Sjdqb3I1LTh0QldJQ09LMUdSLTloa2ZmWXZSWTZHWjlDQ3lM?oc=5",
         "published": "2026-11-09T17:09:00+09:00",
         "query": "금감원 점포",
         "engine": "google",
@@ -92,6 +104,18 @@
     ],
     "shinhan_news": [
       {
+        "id": "2aab4e94ae46",
+        "title": "신한은행 김태한 신임 본부장 “한인사회와 함께 성장”포부",
+        "source": "미주한국일보",
+        "summary": "신한은행 김태한 신임 본부장 “한인사회와 함께 성장”포부 미주한국일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rMzBfUld0TGw2LU4wa3ZCVGlPNlZSR0drQzNsZ19WcldnQUQxWl9YS3FUOVZGSU1IUGNRSi1xeTgwWjIyYzlPR1luc0Y0SXhLS3FNNzFR?oc=5",
+        "published": "2026-11-10T20:26:40+09:00",
+        "query": "신한은행 지점",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
         "id": "38e066863fc9",
         "title": "신한은행, 정보유출 고객에 최대 1000만원 보장…1년간 수수료 우대",
         "source": "뉴시안",
@@ -100,19 +124,7 @@
         "published": "2026-11-10T17:35:51+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "aa58ac174ee7",
-        "title": "은행 해외 거점으로 韓 계좌 압류?… 신한은행 '510억 압류 사건' 항소심 주목",
-        "source": "뉴스핌",
-        "summary": "은행 해외 거점으로 韓 계좌 압류?… 신한은행 '510억 압류 사건' 항소심 주목 뉴스핌",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45NW90SVlELU55Y2Iya3RYNGpNa3BiMDMzV0NLLWdEYWptNzdCOUZoUnhDUXp4U0pjZ0hnejhudTBTLWtSbjV2TkpYaGRSSnFzdDhSTWxRM2hZNERR?oc=5",
-        "published": "2026-11-10T15:43:00+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 1,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -124,7 +136,7 @@
         "published": "2026-11-09T00:35:30+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 4
+        "rank": 1
       }
     ]
   }
