@@ -1,30 +1,42 @@
 {
-  "updated_at": "2026-11-12T11:28:03.425495+09:00",
+  "updated_at": "2026-11-13T11:04:09.060113+09:00",
   "headline": {
-    "id": "3c72717dce42",
-    "title": "NH농협은행, 고객의 금 실물 신탁 취급 영업점 21개로 확대",
-    "source": "중앙신문",
-    "summary": "NH농협은행, 고객의 금 실물 신탁 취급 영업점 21개로 확대 중앙신문",
-    "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPWmxrUHV6VV9WR1BST0JvQmJPcjdfTV9UQ3ZJWHVGb0MtOHBOU3l0djdfcldRbEg2ekx4Qks0Y0JYMGdJcVpmd0xhaHNQYjljZHZjZGxRNHllUGJZa1dGZ0d0Y3JZaUJIX0FvWXNCVk9vT0k0cnVRaFh2bU8zMXJ3dW1ockJxek1xSnR6aWI3aU9vTzlLV0J4VzEwbHhqMzNhN01tZ0V5cm1aWUtUb0xOYTBMb1ktMVBNZF96UXg4SkNlTWpRZU53Zkt1RFVmV2NRTkJQdkNyU0RaQ3plWDJBV21oNFoxM0hEY3RWb0drSVJTQ1hsWUl4Nk9IMjJpUENDeXFWVDRGMklHc3djSEQwOE5hdUQ0eEhaYXJ0dFlGdGNLMzdWWU9peXlIeEFzX3VTeW5lWm1wcjdrMVF0N2J3UVJ3eXFVb0hsSnYybDNmdHhXU09FUlhVRQ?oc=5",
-    "published": "2026-11-12T10:55:57+09:00",
-    "query": "은행 영업점",
+    "id": "7149a8335487",
+    "title": "어르신도 금세 척척… 신한銀 스마트점포 고객 몰입 극대화 [르포]",
+    "source": "파이낸셜뉴스",
+    "summary": "어르신도 금세 척척… 신한銀 스마트점포 고객 몰입 극대화 [르포] 파이낸셜뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56NGdiYUhuSmVjRXBrWDV5Wk1tZ3NkTVRZRnhoTkZZd2xKRlRDNXZPVFl0NjRyaFdsaVlsUG5URnppVkVvdUpLc29lWWhHclBMSjNkRGFtY0V1dw?oc=5",
+    "published": "2026-11-12T18:38:22+09:00",
+    "query": "은행 점포",
     "engine": "google",
-    "rank": 1,
-    "_score": 14.0,
+    "rank": 2,
+    "_score": 22.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
       {
-        "id": "a2f4dead3fc9",
-        "title": "“산골 학교로 찾아간 이동점포”… NH농협은행, 영덕 지품초서 미래세대 맞춤형 금융교육 실시",
-        "source": "스마트경제",
-        "summary": "“산골 학교로 찾아간 이동점포”… NH농협은행, 영덕 지품초서 미래세대 맞춤형 금융교육 실시 스마트경제",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ncHZUZE1zNEVkNlV5X09DaFRDUllpVDZETmtZelNhZ2dRRnV5QnBPYkFLXzZNaVRrR1puRGQyUTB6ejdrQ2xZS0t1emlrN1NUTm5nLWJadDlKUkUzRmtfdVh3UkpoZ0pCQUxoVnFZYXA?oc=5",
-        "published": "2026-11-11T13:22:30+09:00",
-        "query": "은행 점포",
+        "id": "7ae4b296622a",
+        "title": "농협은행, 금 실물 신탁 취급 영업점 21곳으로 확대",
+        "source": "농민신문",
+        "summary": "농협은행, 금 실물 신탁 취급 영업점 21곳으로 확대 농민신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1mUGRRbFh3TzYwOWlEX2hRMVNnc003VHBibWJEVDh2NTBZZUM4bnpxZmVoclRZVkQ3eHRmVFNBZmhSTWNMUXh3d3oxdy1Yd1N3aEJjdzI3VHVxdw?oc=5",
+        "published": "2026-11-12T18:19:00+09:00",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "e795377de979",
+        "title": "NH농협은행, 'NH 골드채움신탁' 영업점 21개로 확대",
+        "source": "메트로신문",
+        "summary": "NH농협은행, 'NH 골드채움신탁' 영업점 21개로 확대 메트로신문",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTEpVTDRJclVVSlBqTmtJOHk1dkZNZHZVSTVUbzZrLWJsSUxLQ0ZnMDhaUlRZWTBGMWU5RVlmc3RsYVAwMnVWNUJzNm1zNXYtNmVGU3RQZVQ5dkJFamJFLQ?oc=5",
+        "published": "2026-11-12T12:38:18+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -38,63 +50,39 @@
         "engine": "google",
         "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
+      }
+    ],
+    "policy_news": [
       {
-        "id": "c54f11bfbb4a",
-        "title": "NH농협은행, 8개국 해외점포 현지 인재 초청…글로벌 네트워크 다진다",
-        "source": "파이낸셜투데이",
-        "summary": "NH농협은행, 8개국 해외점포 현지 인재 초청…글로벌 네트워크 다진다 파이낸셜투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4cnRzVmtXOHJGZXZIQlBRYnBFeFB0eFN3Q2RuWkt0cWZrcUtoMDJkZ0NTSDMzQ2o0RlJ6RWJqZ0J3WHZFdzh2UDQyQVZfNGg3ZTNGZnk5LVFuanZaWXNVY3cyLWlkNzBkNGfSAW5BVV95cUxQSzY4TWhBN2NVVzFvR25iTmFrVGU1dm1IbmJNZHZfVkNwWUhWTHRPQ2J0ODRVdmlLckZrcWFBc0lJM19Db05ISlBlNm9tWkV6UjlVdHpPaU4yd0hvcW9EdWNWYlZWREk4eXVvRG9nZw?oc=5",
-        "published": "2026-11-10T16:37:11+09:00",
-        "query": "은행 점포",
+        "id": "58c51ed55904",
+        "title": "NH농협은행, 'NH 골드채움신탁(실물형)' 취급 영업점 21곳으로 확대",
+        "source": "일간투데이",
+        "summary": "NH농협은행, 'NH 골드채움신탁(실물형)' 취급 영업점 21곳으로 확대 일간투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xRWt3S0xmYmZkTEotNWFDUEJHUzZqNEY2VHZmTnBrWTJaY1gyYVBubUdYMW9SeTYyS3hUTGFWMW51cmZRUzB4emI0cnNkWWxmMmRNY0pxZGxYVWpvbllZNGRoZ2tyZUp5TVRV?oc=5",
+        "published": "2026-11-12T14:26:35+09:00",
+        "query": "금융위 영업점",
         "engine": "google",
         "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "aa87e8da9997",
-        "title": "은행 점포도 '부익부 빈익빈'...수익성 경쟁에 금융 소외 우려",
-        "source": "핀포인트뉴스",
-        "summary": "은행 점포도 '부익부 빈익빈'...수익성 경쟁에 금융 소외 우려 핀포인트뉴스",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oX2pVSUUyeDBDemRqOXljZlpoTXNjQ3RHQkxYbmtUUUtwaDQwaUxiSmN2VlBlSnZLR3ZINVE2Q2dNNXBIeElKM3FjNDNXUHNMb1N2ek9iWlBTWTJhTGtteERJanY4M3huRllGWmZDSHluMzjSAXdBVV95cUxOWWxrQkpNcENQS0M4TlFIdHlVWGdud01iUkdrMEpmVVloR0dqMlVkdV94a19qUWx1SUFNUzEzblFUM0V3anhfYi1KWHQzLVBtbGpuTDNvT0pSNlFVMEY2cjA4ckpwYXJRM0JBaXBIdmpoZ0VlZ01fYw?oc=5",
-        "published": "2026-11-10T16:22:49+09:00",
-        "query": "은행 점포",
+        "id": "6856b36a3e56",
+        "title": "인스웨이브, 하나카드 전 영업점 스마트창구 구축…창구 디지털 전환 전점 확산",
+        "source": "아이티데일리",
+        "summary": "인스웨이브, 하나카드 전 영업점 스마트창구 구축…창구 디지털 전환 전점 확산 아이티데일리",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LeU16TXFDb1JMZzB2NjhLRzIxNllkNUtTTWFWeUc3Ri1KakxvVGlSdWlsT3A4X3hYdUtZcU90UVI0Nmw2eV9zQVZLVFlrZG1KTXhQeUNPaHpiTzB5bF9xWjRpM1k2Q2Nk?oc=5",
+        "published": "2026-11-12T14:16:27+09:00",
+        "query": "금융위 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 1,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "a524361c1a3d",
-        "title": "농협은행, 국외점포 우수 현지채용직원 초청 연수",
-        "source": "파이낸셜신문",
-        "summary": "농협은행, 국외점포 우수 현지채용직원 초청 연수 파이낸셜신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tU0lZNGhGdzkzR3N2c2FZVnJwZWM2QS11WVBLQk8wU05XSHQ4Rng3bWt5TGpJNXdhYkNxUHl6UGUzZkhQVUZPUWs0VHhyeUZRbHM5LVZLa1BCcjV4Tlk5TUhDbGRNZy1nT0hn?oc=5",
-        "published": "2026-11-10T15:38:32+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "cde24be71369",
-        "title": "KB국민은행 - 고령 특화 점포·전자점자 서비스 운영 / 신한은행 - 고객자문위원 개편… 의견 적극 반영",
-        "source": "조선일보",
-        "summary": "KB국민은행 - 고령 특화 점포·전자점자 서비스 운영 / 신한은행 - 고객자문위원 개편… 의견 적극 반영 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdXF6SmtQaWZzMGN4YXBRMkNZaHJNQjdRRnJVNmJiUFZCWlp2RkE0SzNMV1dDeWQzZHZOWXFpQW5WZE9tcW15NFFnZ0hEa1Jyck03Z1dUUzdnUXlMaEV6NHUxOEVPRTdvaENxQlc3akRjT0VjalowMmtLTi12UmxzLVNITzBZR0pmbTJzM2pkOA?oc=5",
-        "published": "2026-11-09T00:35:30+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 7,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      }
-    ],
-    "policy_news": [
-      {
-        "id": "26a00ec893ff",
+        "id": "a308923b1bc0",
         "title": "금감원, 삼성증권 ‘초고액자산가 거점점포’ 불건전영업행위에 84억원 제재",
         "source": "Chosunbiz",
         "summary": "금감원, 삼성증권 ‘초고액자산가 거점점포’ 불건전영업행위에 84억원 제재 Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTTdfNXAzOUNJNk9aREhVdnhtQlU3U04welExZVRIekRFOXVLZldOWTN0T2ZTUy1VOWpKRkFkX2dHcXlaWmt1Zlp5UmtqWW4tM000RGVUdlptU1ZNa2ticlZBZDVsbW9TYUNFUEZTNndYczAxQ1AyNThKN2pvcjUtOHRCV0lDT0sxR1ItOWhrZmZZdlJZNkdaOUNDeUzSAZwBQVVfeXFMTk03XzVwMzlDSTZPWkRIVXZ4bUJVN1NOMHpRMWVUSHpERTl1S2ZXTlkzdE9mU1MtVTlqSkZBZF9nR3F5WlprdWZaeVJralluLTNNNERlVHZabVNWTWtrYnJWQWQ1bG1vU2FDRVBGUzZ3WHMwMUNQMjU4Sjdqb3I1LTh0QldJQ09LMUdSLTloa2ZmWXZSWTZHWjlDQ3lM?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPczBHX1hrNVZ6SGVLZnozeVlVaDJHT2tRQlRvLThna0piWEIzTFpFaTY0ZThhSlljN3lzWkxVUUhhR2tSWllOc3VYc0JaUGo5d1NrS1k2SjctOGo0T2VPRmYwX2xJYkpaUkdRNzVPWFpxbzNJNEpMUmJlTlAyRnJnRDBuZTcyb0Zy0gGcAUFVX3lxTE5NN181cDM5Q0k2T1pESFV2eG1CVTdTTjB6UTFlVEh6REU5dUtmV05ZM3RPZlNTLVU5akpGQWRfZ0dxeVpaa3VmWnlSa2pZbi0zTTREZVR2Wm1TVk1ra2JyVkFkNWxtb1NhQ0VQRlM2d1hzMDFDUDI1OEo3am9yNS04dEJXSUNPSzFHUi05aGtmZll2Ulk2R1o5Q0N5TA?oc=5",
         "published": "2026-11-09T17:09:00+09:00",
         "query": "금감원 점포",
         "engine": "google",
@@ -104,18 +92,6 @@
     ],
     "shinhan_news": [
       {
-        "id": "2aab4e94ae46",
-        "title": "신한은행 김태한 신임 본부장 “한인사회와 함께 성장”포부",
-        "source": "미주한국일보",
-        "summary": "신한은행 김태한 신임 본부장 “한인사회와 함께 성장”포부 미주한국일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rMzBfUld0TGw2LU4wa3ZCVGlPNlZSR0drQzNsZ19WcldnQUQxWl9YS3FUOVZGSU1IUGNRSi1xeTgwWjIyYzlPR1luc0Y0SXhLS3FNNzFR?oc=5",
-        "published": "2026-11-10T20:26:40+09:00",
-        "query": "신한은행 지점",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "38e066863fc9",
         "title": "신한은행, 정보유출 고객에 최대 1000만원 보장…1년간 수수료 우대",
         "source": "뉴시안",
@@ -124,7 +100,7 @@
         "published": "2026-11-10T17:35:51+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 5,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -136,7 +112,8 @@
         "published": "2026-11-09T00:35:30+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 1
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
   }
