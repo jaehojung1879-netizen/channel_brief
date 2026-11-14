@@ -1,80 +1,116 @@
 {
-  "updated_at": "2026-11-13T11:06:36.908545+09:00",
+  "updated_at": "2026-11-14T10:42:18.373979+09:00",
   "social_finance": [
     {
-      "id": "f4337b6a7a5d",
-      "title": "BNK금융, 지역 상생·친환경 금융 성과 인정…ESG 5년 연속 A",
-      "source": "글로벌이코노믹",
-      "summary": "BNK금융, 지역 상생·친환경 금융 성과 인정…ESG 5년 연속 A&nbsp;&nbsp;글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQndQZzdVM3VWR3ZUOURNbndlSWNtamRJZzl2SHNRTXdtWmxmTVA1UDkyazAwU2g3UEJRbDEzTDRLaHJqOEtyWUVESEhwZ1NZLThKamN0QlJzWUVuM1ZMWGhDbVVSY1JmMjlkY3J2cDkybGJ3VTlhdUJlbFZwSnZEVlExNWM?oc=5",
-      "published": "2026-11-13T10:51:36+09:00",
-      "query": "상생금융"
+      "id": "926a736b201e",
+      "title": "신한자산운용, ‘사람 살리는 금융’ 릴레이 캠페인 동참",
+      "source": "서울경제TV",
+      "summary": "신한자산운용, ‘사람 살리는 금융’ 릴레이 캠페인 동참&nbsp;&nbsp;서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxa0ViSUtIdzNPVmZZT2sxUllTeDI1RllQcGxiSkxBMnhFYUZ2M1c3NkM2TXN2TkFNSXZQZnBqUGRGZG8tcWs1cWNiTkpTUS02MlNGRUZBWGlINnQ2U2I4MWtLT1Y?oc=5",
+      "published": "2026-11-14T10:13:36+09:00",
+      "query": "서민금융"
     },
     {
-      "id": "3c4db80b4cda",
-      "title": "웰컴저축은행, 금융취약계층 예방교육·보상보험 무상 지원",
+      "id": "7cba17cc660a",
+      "title": "하나금융, MSCI ESG 평가서 3년 연속 최고 등급 'AAA' 획득",
+      "source": "파이낸셜포스트",
+      "summary": "하나금융, MSCI ESG 평가서 3년 연속 최고 등급 'AAA' 획득&nbsp;&nbsp;파이낸셜포스트",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zWHVpZjdMT2ZfLURoVFdleVozYTZVaG9HYS1TZ2lwYnQ2cVFJakJKQ3hYaHFLVU5uMzNkRC1CMnl1SDNqTWdsb1o5TGFBT0lVXzdOTFo1UWVLNkNNb3VMSlNoblBIeUVFVmlmM2RxWEp5R3NH?oc=5",
+      "published": "2026-11-14T00:45:00+09:00",
+      "query": "금융접근성"
+    },
+    {
+      "id": "7757ea9810fa",
+      "title": "신협중앙회-소진공, '소상공인 금융지원·지역경제 활성화' 협력",
+      "source": "마일드경제",
+      "summary": "신협중앙회-소진공, '소상공인 금융지원·지역경제 활성화' 협력&nbsp;&nbsp;마일드경제",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TVzRKa3YyTWt0ZHlTSzU3bmEyZnZGMVcwX05uNU82dnFnd0FmRlFPQWgtQ21KYmptOXZXNjRkMXBKWUZVSlVudW9jTG5EaE9qY040VTJfWEREVVRCVkprMUNjOUVSUVlINjNV?oc=5",
+      "published": "2026-11-13T22:33:00+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "7826a992bbb1",
+      "title": "尹대통령 \"서민 금융 공급 확대로 고금리 부담 완화\"",
+      "source": "매일경제 마켓",
+      "summary": "尹대통령 \"서민 금융 공급 확대로 고금리 부담 완화\"&nbsp;&nbsp;매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBxcE40ZnprQmF4LVBySnpZY1J3YW0yMWktMmNseFNKNmc2UVFWU1lJZkxuSjRiT3VKWFowVXJVV1pQVzVFMkFBeGJralNkUEFI?oc=5",
+      "published": "2026-11-13T21:19:35+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "d954644f13fc",
+      "title": "[뉴스락 특별기획] ATM 4600대 사라졌다... 멀어지는 현금, 고령층 금융 접근권 '비상'",
       "source": "뉴스락",
-      "summary": "웰컴저축은행, 금융취약계층 예방교육·보상보험 무상 지원&nbsp;&nbsp;뉴스락",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLM0ZWTzNXdVdpcHdzbFBkdS1yRERzb3Nwb081VHRDVW1EZ2xaWDU2NmEyQ1hpd3dHcDZBV3pKeHM3MWQtZkNVeEcwaXU0SUI2Y2VDSUZFdThNRXBFQ21hMzc3cUl2ZEdDaFRMRg?oc=5",
-      "published": "2026-11-13T10:43:22+09:00",
-      "query": "취약계층 금융"
+      "summary": "[뉴스락 특별기획] ATM 4600대 사라졌다... 멀어지는 현금, 고령층 금융 접근권 '비상'&nbsp;&nbsp;뉴스락",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iZjRxeDZTVkwyTW1GTWcyTjUxbEJyN1VyclN2VFpab3VEWTVqejRpbk1hTFhpRzlmdDZOOGdnUGdxd3dja3E2ZEJyaGFNRHRlejBha3cwOUZrNUgxYi1JZTA0RUdNZzdBYWYtSg?oc=5",
+      "published": "2026-11-13T17:48:01+09:00",
+      "query": "고령자 금융"
     },
     {
-      "id": "ffab11cfeeb7",
-      "title": "신협중앙회·소진공, 소상공인 금융지원 맞손",
-      "source": "디지털데일리",
-      "summary": "신협중앙회·소진공, 소상공인 금융지원 맞손&nbsp;&nbsp;디지털데일리",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqZ3JKbGFaT0I3V0lvWFd3Y1pRSFBGTUVjV2lpaU9hRk9HcUVwU0FIM1F3TlMyQ0xDblA2VjhmRDhHRlc2UU4wRllmOHhnZ2FQRUhTNWNyb0pwMU45Y01xdXJGOEs?oc=5",
-      "published": "2026-11-13T10:42:28+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "937ecb0bae12",
-      "title": "소진공·신협, 소상공인 금융지원 확대…전국 조직망 활용",
-      "source": "매일일보",
-      "summary": "소진공·신협, 소상공인 금융지원 확대…전국 조직망 활용&nbsp;&nbsp;매일일보",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HT1RnWVF1cGpLaWxnTEtleEpWbFJkRVJpWTVLSk5SRlplZXZROGNkOFBWR3Y2MHY2RDc4Mmt5dGVBbXZKYjZTRWJ6YXRiZzdSOWpWclJycTRaNXRTY2NHQUVyV0I?oc=5",
-      "published": "2026-11-13T10:41:29+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "7a77e2afc277",
-      "title": "ESG 우수 中企 대출금리 최대 1.5% 우대…상생협력재단·에기평 맞손",
-      "source": "매일일보",
-      "summary": "ESG 우수 中企 대출금리 최대 1.5% 우대…상생협력재단·에기평 맞손&nbsp;&nbsp;매일일보",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sdFBLazBGR1o5cXAwSTN3YUZNZHJodnhJZ1Vha3FVOHliSEVXMnY2UmF2cVV4Zm1KY2RCd1RrX1B3NUJ5ZzRaWUZBU0ZIRmdiSjR3aUpzdGlTLUpjc3RiRnV1d28?oc=5",
-      "published": "2026-11-13T10:41:22+09:00",
+      "id": "934249c9a0ad",
+      "title": "에기평, 중소기업 ESG 경영 확산 지원",
+      "source": "에너지데일리",
+      "summary": "에기평, 중소기업 ESG 경영 확산 지원&nbsp;&nbsp;에너지데일리",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uWHV5UWRnYmNPQUJ4a20xdHJKVnB4TWpJTV9KeGdUXzMwZXpTcVc5RlRqYXFRSEFsUnJRRS1YcFdYUHhOcE9KR2NxUU43YVV3VjY2SkdDUTRuT1UzNDY4R2RzVGM5dlhNMmQ3MjJtbDRkdw?oc=5",
+      "published": "2026-11-13T17:43:56+09:00",
       "query": "중소기업 상생"
     },
     {
-      "id": "796409c9227f",
-      "title": "신협중앙회, 소상공인 금융지원·지역경제 활성화",
-      "source": "충청타임즈",
-      "summary": "신협중앙회, 소상공인 금융지원·지역경제 활성화&nbsp;&nbsp;충청타임즈",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lRlA3a1lHSzdqSmt4YlhrbFRNSzdldTNndl9NUXd6MzI4NHFCcVZkeG1MRFRIRl9SVEV4VndUdmNrTE5rZ1VhN25pd1VDRTFndHFXRnMzN2NjQVN3NFRpamtQaFlzazha?oc=5",
-      "published": "2026-11-13T10:22:00+09:00",
+      "id": "b37ba23e1798",
+      "title": "하나금융, MSCI ESG 평가 3년 연속 최고 등급 ‘AAA’ 획득",
+      "source": "BBS불교방송",
+      "summary": "하나금융, MSCI ESG 평가 3년 연속 최고 등급 ‘AAA’ 획득&nbsp;&nbsp;BBS불교방송",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKQmFfU1o4akFZeHNKazZmMHc3eThGck1EbWVVcEN6VkcwTzdFN1NMdGxIaVlOaXZwRUQwXy1QTl9KRlhXT3h3WkEyQ1Z6UlZXZFlNVnVLdFI1Y3Y4SzdXWjFVYXRBVE9RYWxv?oc=5",
+      "published": "2026-11-13T17:42:17+09:00",
+      "query": "금융접근성"
+    },
+    {
+      "id": "661c26aea19c",
+      "title": "신협중앙회, 소상공인시장진흥공단과 업무협약… 소상공인 지원 확대",
+      "source": "한국보험신문",
+      "summary": "신협중앙회, 소상공인시장진흥공단과 업무협약… 소상공인 지원 확대&nbsp;&nbsp;한국보험신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IY2Yzb0k5Sm5XWXBQVU80ZnotaG9FWkgzb3RvVFdNYlBpbU9sZmszWklzaDZCbExSUkxfa0swemxoOEkyTWItdmxBZmxScFp1NGduMnIyczZEMFhzaHp2LWJjUjE3bG1oTEN30gFvQVVfeXFMTW1IMnVpTUp1VXpDNUhXNnNuRjN5Q3NlS1p5dnh1cVhWVV9abkU3eUNSZXlOX1NfT3Vna1BHOTFkdE1EZHNFM1FCeG52N0hxTktpbVdqN3h4Zk9pLTRfeFlmTWdiWEdvNWJ2RUVIRnRj?oc=5",
+      "published": "2026-11-13T17:26:23+09:00",
       "query": "소상공인 금융지원"
-    },
-    {
-      "id": "88822185589a",
-      "title": "중부발전, ‘달달발전소 프로젝트’로 지역 중소기업 상생모델 구축",
-      "source": "일렉트릭파워",
-      "summary": "중부발전, ‘달달발전소 프로젝트’로 지역 중소기업 상생모델 구축&nbsp;&nbsp;일렉트릭파워",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CRGliQW9NSmhLSWhUTWpUMVp6ekVHTGRuS2IxZnV0bnNjVzh2NmVHc0hZSFNqQVdSSWtZbW5HczdZQ2dTR1FGbjVERFhSRjlOdUFDNV9YZll0S1hkakJoMUxyTkM?oc=5",
-      "published": "2026-11-13T10:08:00+09:00",
-      "query": "중소기업 상생"
-    },
-    {
-      "id": "cb4b4f5e8d11",
-      "title": "윤창현 코스콤 사장, '사람 살리는 금융' 캠페인 동참",
-      "source": "전자신문",
-      "summary": "윤창현 코스콤 사장, '사람 살리는 금융' 캠페인 동참&nbsp;&nbsp;전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBEREhKVGt2RVdCVUwyODJhQlZEVTlPa2FXSGtHdEZ3LWMxSHVJSDUycjB1aTl1ZnJQNjV5bDNhLUpRREgwZEpuUG9jdUQ3dw?oc=5",
-      "published": "2026-11-13T09:38:33+09:00",
-      "query": "취약계층 금융"
     }
   ],
   "tech": [
+    {
+      "id": "141265f03bda",
+      "title": "흔들리는 ‘AI 중앙은행’…젠슨 황 스캔들, 기존 CEO 리스크와 결이 다르다",
+      "source": "한겨레",
+      "summary": "흔들리는 ‘AI 중앙은행’…젠슨 황 스캔들, 기존 CEO 리스크와 결이 다르다&nbsp;&nbsp;한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHWTZFckI3ZU5jcjhUOUdZNExUc215YjRJdllJR011VVNEdzQ4YWw0c1BKcnBOU3Y1MzJmeWFHdUFDRXZTbHk4R0oydXRCaHlIeDh5R0puNUtzXzBfYUVwVFZRSFUxclk?oc=5",
+      "published": "2026-11-14T09:36:00+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "d9673c104639",
+      "title": "'AI의 중앙은행' 엔비디아 위기…젠슨황 퇴진, 5000억 자금줄 막나 - 머니투데이",
+      "source": "머니투데이",
+      "summary": "'AI의 중앙은행' 엔비디아 위기…젠슨황 퇴진, 5000억 자금줄 막나 - 머니투데이&nbsp;&nbsp;머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xd1pEZGJBLXVELU9TZVdOVWdoSGFxNTBmd0p5RmRtNk9vUWE0WS1DV3NkZzNJWTBuYU4tLW9jMjhwVHZfM1U2UmpLUlZxLUhsdGd5NXVib0g2X2Q0LWl4M2FQOTFFRU9z0gFuQVVfeXFMUHM0UHBiU3lrVVdTdFVobnd5aHdQNFlrWVlWMVgyXzRHQk9YNzBsWUhOd1NCb195MF9Zdzh4ZWNibnNLVnFmYy1zeE5iS1ZPNVZ1WjYtcFFTa0hZYzc0S2FUcTRFWDl4NmhnbXY1TVE?oc=5",
+      "published": "2026-11-14T07:16:30+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "8d5a4257003b",
+      "title": "디지털자산법 정부안 앞두고…금융권, 원화 스테이블코인 사업화 '분주'",
+      "source": "ER 이코노믹리뷰",
+      "summary": "디지털자산법 정부안 앞두고…금융권, 원화 스테이블코인 사업화 '분주'&nbsp;&nbsp;ER 이코노믹리뷰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jcTQxalc1c19RSGR2UXVQdHRTdzRsZy15UHFPcEhuQW5laUtsMlN3NXc0Y1REVUZKZXpxQnE0VTZrTWg3Zy1hV3djbkMtWEFPVXNQMTU1UlpIbjU4N3pvZmpoUzI0ZjRuUjFOcg?oc=5",
+      "published": "2026-11-13T19:47:23+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "fd5d9c494495",
+      "title": "Newline과 Visa가 제휴를 맺어, 핀테크 기업들이 40개국 이상에서 Visa 법인카드를 제공할 수 있게 되었다",
+      "source": "ペイメントナビ",
+      "summary": "Newline과 Visa가 제휴를 맺어, 핀테크 기업들이 40개국 이상에서 Visa 법인카드를 제공할 수 있게 되었다&nbsp;&nbsp;ペイメントナビ",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyRTFpNGV4elkzSnJ0OWh4bGMyd2JscTJVNklFUGstTmRETGRGMDl0TzhwSUxiLS1xNEJQMWFQYXJsdDVkZUlhSUNTS2xEdkNBYUphU2RqUXY1TWM?oc=5",
+      "published": "2026-11-13T09:25:00+09:00",
+      "query": "핀테크 제휴"
+    },
     {
       "id": "7c812d774022",
       "title": "카카오뱅크 외국인통장, 한 달 만에 2만좌 돌파… 유학생이 가장 많아",
@@ -85,22 +121,13 @@
       "query": "오픈뱅킹"
     },
     {
-      "id": "d9673c104639",
-      "title": "'AI의 중앙은행' 엔비디아 위기…젠슨황 퇴진, 5000억 자금줄 막나 - 머니투데이",
-      "source": "머니투데이",
-      "summary": "'AI의 중앙은행' 엔비디아 위기…젠슨황 퇴진, 5000억 자금줄 막나 - 머니투데이&nbsp;&nbsp;머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xd1pEZGJBLXVELU9TZVdOVWdoSGFxNTBmd0p5RmRtNk9vUWE0WS1DV3NkZzNJWTBuYU4tLW9jMjhwVHZfM1U2UmpLUlZxLUhsdGd5NXVib0g2X2Q0LWl4M2FQOTFFRU9z0gFuQVVfeXFMUHM0UHBiU3lrVVdTdFVobnd5aHdQNFlrWVlWMVgyXzRHQk9YNzBsWUhOd1NCb195MF9Zdzh4ZWNibnNLVnFmYy1zeE5iS1ZPNVZ1WjYtcFFTa0hZYzc0S2FUcTRFWDl4NmhnbXY1TVE?oc=5",
-      "published": "2026-11-13T08:00:00+09:00",
+      "id": "aea98e91e871",
+      "title": "\"AI산업 대혼란...'AI 중앙은행' 마비 우려\"",
+      "source": "YTN",
+      "summary": "\"AI산업 대혼란...'AI 중앙은행' 마비 우려\"&nbsp;&nbsp;YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XRnlqbGdqenMwX3ZabjhpazRPSFdJU2tzZFp3VU1RRXJWaUN1RURRSDI3ZXFwVFNEX2NOZk1YMURRWGR6SWozX1o4S1VWd21zbktUd3FQR3RQZDBWSEE?oc=5",
+      "published": "2026-11-13T01:24:00+09:00",
       "query": "은행 AI"
-    },
-    {
-      "id": "fcd773e146bd",
-      "title": "금융위 “스테이블코인 기술기업 최대주주 가능...AI 결제 로드맵 연말 공개”",
-      "source": "서울경제",
-      "summary": "금융위 “스테이블코인 기술기업 최대주주 가능...AI 결제 로드맵 연말 공개”&nbsp;&nbsp;서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kVlJsU21kR1l3QktNcXJzY0hTRUpXeGRLbmt0anBCYXBxV1o3NEh6a1k1VjAzZXR4T1JnRC1pcmNKSUVpTm9MMXVfTV9lVHZQeWfSAVNBVV95cUxQcTVWNU1LTHB3aDZGckFnUVlydGExTmtJYjJjeWxieDRMY3M0Z29SVG40TEd5cVR4N3JJaktJV1FqdHBxQXppWUp0YXhPX2hqZWRPbw?oc=5",
-      "published": "2026-11-13T06:00:00+09:00",
-      "query": "스테이블코인 은행"
     },
     {
       "id": "1130a3a7968c",
@@ -118,33 +145,6 @@
       "summary": "[제6회 스마트금융 대상] NH농협은행·토스 금융위원장상…AI 금융혁신 이끌었다&nbsp;&nbsp;전자신문",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UVDhkMkhRZENzbGNQVEdpZkh5Z2RWX2Y1cWU4amdGbkljWFpvTzMzb0c2WDA4dlduSFhUeFhlM3Q3ZGFCd2xEalpSZmtmdw?oc=5",
       "published": "2026-11-12T18:00:00+09:00",
-      "query": "은행 AI"
-    },
-    {
-      "id": "114b6f5e70a5",
-      "title": "고려저축은행, 직원 AI 실무 교육 성료…디지털 혁신 박차",
-      "source": "뉴스락",
-      "summary": "고려저축은행, 직원 AI 실무 교육 성료…디지털 혁신 박차&nbsp;&nbsp;뉴스락",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzR2VabHBCUDZSSW9XSXpIQ1NwLWNxejVlQUpLQllwcmZKNS1GZG9OcHV5Q3FWbTFIcVdPSWsydHluSUJjT2xzQVNOWXRUQVlzd25kU0NfclpnT01WM0FpWXJBdllTX3o0bFI5Vg?oc=5",
-      "published": "2026-11-12T17:33:00+09:00",
-      "query": "은행 생성형 AI"
-    },
-    {
-      "id": "08f99b9d2a01",
-      "title": "Sh수협은행, 인피닛블록과 블록체인 금융 실험",
-      "source": "파이낸셜뉴스",
-      "summary": "Sh수협은행, 인피닛블록과 블록체인 금융 실험&nbsp;&nbsp;파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83RlRjZ0YwRUgxUXIyVFUxbF9tbXhjVm9Fckpfa21Ha1dzQmM1SWRLbmFvUDdxd1hIVjBxbW5FaVNGMUNqS0hiMFpVVmtZcDBIMUt4aFR3blBxUQ?oc=5",
-      "published": "2026-11-12T15:04:11+09:00",
-      "query": "블록체인 은행"
-    },
-    {
-      "id": "776680a3e6c8",
-      "title": "고려저축은행, 임직원 AI 업무 활용 교육 마쳐..데이터 분석·자동화 실습",
-      "source": "한국정경신문",
-      "summary": "고려저축은행, 임직원 AI 업무 활용 교육 마쳐..데이터 분석·자동화 실습&nbsp;&nbsp;한국정경신문",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iUm1PZ2p4djREQVNxdTZQREk0bThHR3pUSTVWeUJBblVmbzk5QjRsdnJTaWZRc1FKbmFVZXhDR1lWclgzOE5id096NUlXSnZHS0E?oc=5",
-      "published": "2026-11-12T14:37:20+09:00",
       "query": "은행 생성형 AI"
     }
   ]
