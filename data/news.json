@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-11-14T10:40:10.052771+09:00",
+  "updated_at": "2026-11-15T10:15:18.695921+09:00",
   "headline": {
-    "id": "cde24be71369",
-    "title": "KB국민은행 - 고령 특화 점포·전자점자 서비스 운영 / 신한은행 - 고객자문위원 개편… 의견 적극 반영",
-    "source": "조선일보",
-    "summary": "KB국민은행 - 고령 특화 점포·전자점자 서비스 운영 / 신한은행 - 고객자문위원 개편… 의견 적극 반영 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdXF6SmtQaWZzMGN4YXBRMkNZaHJNQjdRRnJVNmJiUFZCWlp2RkE0SzNMV1dDeWQzZHZOWXFpQW5WZE9tcW15NFFnZ0hEa1Jyck03Z1dUUzdnUXlMaEV6NHUxOEVPRTdvaENxQlc3akRjT0VjalowMmtLTi12UmxzLVNITzBZR0pmbTJzM2pkOA?oc=5",
-    "published": "2026-11-09T00:35:30+09:00",
-    "query": "신한은행 영업점",
+    "id": "a3f7ce79b5c2",
+    "title": "국민은행 \"영업점 방문 없이 상속 서류 접수·예금 지급\"",
+    "source": "매일경제 마켓",
+    "summary": "국민은행 \"영업점 방문 없이 상속 서류 접수·예금 지급\" 매일경제 마켓",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lWTY3MUlkY3ZCZkt1NmZhOW54aWlLSUpIVWswc1JmTzZLS2RDcmJYNXpIMTh3akUzNWlESmFKeVVVeUpYX2FNbUkwMTVwc2g5Rnc?oc=5",
+    "published": "2026-11-15T09:00:03+09:00",
+    "query": "은행 영업점",
     "engine": "google",
-    "rank": 2,
-    "_score": 13.0,
+    "rank": 1,
+    "_score": 17.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "7a5aa3cf4786",
+        "title": "[은행과 생활]④ 재일동포 세운 신한은행…점포 3곳 미니은행에서 '리딩뱅크 전쟁'까지",
+        "source": "파이낸셜포스트",
+        "summary": "[은행과 생활]④ 재일동포 세운 신한은행…점포 3곳 미니은행에서 '리딩뱅크 전쟁'까지 파이낸셜포스트",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EQXc3cVl1bTduYlIzSGhNZzZUQXpsR2ozQ2ZEUVl6c0htWEhLb2ZiTzdoZGtmTnFudDExQ1BFYldDRFZSMzZVMW9EYXJNdkp4ODQ5TVNmcUJEbmNKY21MRlE2dVdOb1hRM2RQZmRDZjFCd2t2?oc=5",
+        "published": "2026-11-15T00:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 1,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "7149a8335487",
         "title": "어르신도 금세 척척… 신한銀 스마트점포 고객 몰입 극대화 [르포]",
@@ -24,16 +36,16 @@
         "published": "2026-11-12T18:38:22+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "d5208a4884e9",
-        "title": "NH농협은행, 금 실물 '골드채움신탁' 취급 영업점 확대",
-        "source": "뉴시스",
-        "summary": "NH농협은행, 금 실물 '골드채움신탁' 취급 영업점 확대 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rWmtfdTBsYUVfV1pJTmpGV3o5YzBUWTE2cXFvV05PR3dEZFBQTkZ2a3V0MVhpM05wV2VQM1dGMGpsbHZrbUNMVkIwcUhuWDl4cnNJNlZsWE1ISWRUSXpjatIBeEFVX3lxTE5KSDJia1Q4RmpxaTZfcGpuRlNvSUxyaVNKa2trZHk4QkYtX0xGMjFHcGx5SkRhRWR1YnJ3Y2Etd1c5bk9MOWIzNzBJNFNudWgyYVlqLXc3QkVsVm93V1NNNzUxSS1sbVF1UXZza1VQRk02a3dsbUJFcg?oc=5",
-        "published": "2026-11-12T09:48:24+09:00",
+        "id": "58c51ed55904",
+        "title": "NH농협은행, 'NH 골드채움신탁(실물형)' 취급 영업점 21곳으로 확대",
+        "source": "일간투데이",
+        "summary": "NH농협은행, 'NH 골드채움신탁(실물형)' 취급 영업점 21곳으로 확대 일간투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xRWt3S0xmYmZkTEotNWFDUEJHUzZqNEY2VHZmTnBrWTJaY1gyYVBubUdYMW9SeTYyS3hUTGFWMW51cmZRUzB4emI0cnNkWWxmMmRNY0pxZGxYVWpvbllZNGRoZ2tyZUp5TVRV?oc=5",
+        "published": "2026-11-12T14:26:35+09:00",
         "query": "은행 영업점",
         "engine": "google",
         "rank": 2,
@@ -48,37 +60,35 @@
         "published": "2026-11-10T16:37:11+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "a524361c1a3d",
-        "title": "농협은행, 국외점포 우수 현지채용직원 초청 연수",
-        "source": "파이낸셜신문",
-        "summary": "농협은행, 국외점포 우수 현지채용직원 초청 연수 파이낸셜신문",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tU0lZNGhGdzkzR3N2c2FZVnJwZWM2QS11WVBLQk8wU05XSHQ4Rng3bWt5TGpJNXdhYkNxUHl6UGUzZkhQVUZPUWs0VHhyeUZRbHM5LVZLa1BCcjV4Tlk5TUhDbGRNZy1nT0hn?oc=5",
-        "published": "2026-11-10T15:38:32+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 2,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
     "policy_news": [
       {
-        "id": "a308923b1bc0",
-        "title": "금감원, 삼성증권 ‘초고액자산가 거점점포’ 불건전영업행위에 84억원 제재",
-        "source": "Chosunbiz",
-        "summary": "금감원, 삼성증권 ‘초고액자산가 거점점포’ 불건전영업행위에 84억원 제재 Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPczBHX1hrNVZ6SGVLZnozeVlVaDJHT2tRQlRvLThna0piWEIzTFpFaTY0ZThhSlljN3lzWkxVUUhhR2tSWllOc3VYc0JaUGo5d1NrS1k2SjctOGo0T2VPRmYwX2xJYkpaUkdRNzVPWFpxbzNJNEpMUmJlTlAyRnJnRDBuZTcyb0Zy0gGcAUFVX3lxTE5NN181cDM5Q0k2T1pESFV2eG1CVTdTTjB6UTFlVEh6REU5dUtmV05ZM3RPZlNTLVU5akpGQWRfZ0dxeVpaa3VmWnlSa2pZbi0zTTREZVR2Wm1TVk1ra2JyVkFkNWxtb1NhQ0VQRlM2d1hzMDFDUDI1OEo3am9yNS04dEJXSUNPSzFHUi05aGtmZll2Ulk2R1o5Q0N5TA?oc=5",
-        "published": "2026-11-09T17:09:00+09:00",
-        "query": "금감원 점포",
+        "id": "58c51ed55904",
+        "title": "NH농협은행, 'NH 골드채움신탁(실물형)' 취급 영업점 21곳으로 확대",
+        "source": "일간투데이",
+        "summary": "NH농협은행, 'NH 골드채움신탁(실물형)' 취급 영업점 21곳으로 확대 일간투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xRWt3S0xmYmZkTEotNWFDUEJHUzZqNEY2VHZmTnBrWTJaY1gyYVBubUdYMW9SeTYyS3hUTGFWMW51cmZRUzB4emI0cnNkWWxmMmRNY0pxZGxYVWpvbllZNGRoZ2tyZUp5TVRV?oc=5",
+        "published": "2026-11-12T14:26:35+09:00",
+        "query": "금융위 영업점",
         "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 2
       }
     ],
     "shinhan_news": [
+      {
+        "id": "7a5aa3cf4786",
+        "title": "[은행과 생활]④ 재일동포 세운 신한은행…점포 3곳 미니은행에서 '리딩뱅크 전쟁'까지",
+        "source": "파이낸셜포스트",
+        "summary": "[은행과 생활]④ 재일동포 세운 신한은행…점포 3곳 미니은행에서 '리딩뱅크 전쟁'까지 파이낸셜포스트",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EQXc3cVl1bTduYlIzSGhNZzZUQXpsR2ozQ2ZEUVl6c0htWEhLb2ZiTzdoZGtmTnFudDExQ1BFYldDRFZSMzZVMW9EYXJNdkp4ODQ5TVNmcUJEbmNKY21MRlE2dVdOb1hRM2RQZmRDZjFCd2t2?oc=5",
+        "published": "2026-11-15T00:00:00+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 1
+      },
       {
         "id": "7149a8335487",
         "title": "어르신도 금세 척척… 신한銀 스마트점포 고객 몰입 극대화 [르포]",
@@ -89,6 +99,18 @@
         "query": "신한은행 영업점",
         "engine": "google",
         "rank": 1
+      },
+      {
+        "id": "43694c91cfcf",
+        "title": "이해란 후반 17점 폭발…삼성생명, 신한은행 개막 3연승 저지",
+        "source": "뉴시스",
+        "summary": "이해란 후반 17점 폭발…삼성생명, 신한은행 개막 3연승 저지 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvTm1FMEt4Z1g1Z2xqU0JfVEhvLTA3QnZWaXlPcGhFUDlUcXZUd3IyNHdpZlNvVG9OZUFaSHpnWlR2YTV2TUt6WTNoZnF1aG1ZbmRhaHhzdk9kakxIYmtvMtIBeEFVX3lxTE9DQjU2ZzJWVkZWMEZxblczbGFPdzRDNWhuMUY5OEg3ZzNJU1ZmOUZNT2l0bXVhZFQ3MVMtMkdBeHczTmh4Vmg5ZXpudG5qT1VWN21fbGdtVDBuZi1rLXJUUWJzcjNvaTB5d296OEIzektnbFY5eWdKdQ?oc=5",
+        "published": "2026-11-11T21:28:59+09:00",
+        "query": "신한은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
   }
