@@ -1,5 +1,151 @@
 {
-  "updated_at": "2026-11-16T10:29:16.704116+09:00",
-  "social_finance": [],
-  "tech": []
+  "updated_at": "2026-11-17T13:10:14.181072+09:00",
+  "social_finance": [
+    {
+      "id": "e9c3d36ca77f",
+      "title": "4대 은행 ATM 등 자동화기기 1268대 감소…점포 축소에 금융 접근성 우려",
+      "source": "폴리뉴스 Polinews",
+      "summary": "4대 은행 ATM 등 자동화기기 1268대 감소…점포 축소에 금융 접근성 우려&nbsp;&nbsp;폴리뉴스 Polinews",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhWFlPV3F3c0c5ZERaWFhJckxqYXFydHkyNlI3elY0Vkd6VnpNOWJGcW5NN0JkbnNZUkF0SEd0RHJHTzItaVBBdU12NmprOFIzVjdrM29uUzl0VXRneGIzLWtIVWdUb2R1Zy1FREl3?oc=5",
+      "published": "2026-11-17T11:50:36+09:00",
+      "query": "금융접근성"
+    },
+    {
+      "id": "5ec3c45be501",
+      "title": "경상남도의회 김성갑 의원, “소상공인 업종 따라 갈리는 재난지원…실제 피해 기준으로 바꿔야”",
+      "source": "시사일보",
+      "summary": "경상남도의회 김성갑 의원, “소상공인 업종 따라 갈리는 재난지원…실제 피해 기준으로 바꿔야”&nbsp;&nbsp;시사일보",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9zQldnVnoteWhycEFXcHAtSE1oSkdfZ2ttcE5PMVpGbWJ1aGZ1QWxxWktUcHRBSTBUQjlhQ2lacm5zSF9BbUE0NkkycWY?oc=5",
+      "published": "2026-11-17T11:27:00+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "9314080a1b2d",
+      "title": "농협은행, 시니어 금융·생활 서비스 한곳에",
+      "source": "파이낸셜뉴스",
+      "summary": "농협은행, 시니어 금융·생활 서비스 한곳에&nbsp;&nbsp;파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02cjJTcEU2NkMyMHl4YjlMaGhNOURFaWpLVnFqdEtTbmd2djJvc0pQZkVvVzRzSHVvREg4Zm01RXpjcFhsNDJuOHhZd0RqSjJ4bjQwNnZGbHFmQQ?oc=5",
+      "published": "2026-11-17T11:24:34+09:00",
+      "query": "고령자 금융"
+    },
+    {
+      "id": "22827d451a7b",
+      "title": "4대 은행 ATM 1,268대 감소…고령층 금융 접근성 우려",
+      "source": "애드뉴스인천",
+      "summary": "4대 은행 ATM 1,268대 감소…고령층 금융 접근성 우려&nbsp;&nbsp;애드뉴스인천",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vUzg3bEU5ZmlDeXcyUmRESi1HdWduellTSElGWEp0Y0NjdVM2WFZ6NDBZalpCeWpsSWh3VjVtQUJlbWJXc0JmZ2F1eGZMV05Fcm5hVjNfWDVoQlhCQk0wOXFrOVZKZGJxVzhv?oc=5",
+      "published": "2026-11-17T11:13:00+09:00",
+      "query": "금융접근성"
+    },
+    {
+      "id": "c4f3e8fb6017",
+      "title": "[주목 e-금융] \"금융 사각지대 허문다\" 포용금융↑…\"5대 금융지주 누적 16조 공급\"",
+      "source": "이코노미톡뉴스",
+      "summary": "[주목 e-금융] \"금융 사각지대 허문다\" 포용금융↑…\"5대 금융지주 누적 16조 공급\"&nbsp;&nbsp;이코노미톡뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qVGkxcG95ZmlRTXc3RXV0cVZWaTh0U3ZRTm4zTGtoWV9ja0pMYlpoQ2xlckpyRVREQ0NTNzlrQUxyOFBFUTNtYm1JUFJDS2xHdkYwdlpSZ3RDNmFWdFprbUJJYXpxTnRsU3JEUg?oc=5",
+      "published": "2026-11-17T10:59:52+09:00",
+      "query": "포용금융"
+    },
+    {
+      "id": "fdab817d4d5b",
+      "title": "중기중앙회, '납품대금 제값받기' 시스템 설명회",
+      "source": "뉴시스",
+      "summary": "중기중앙회, '납품대금 제값받기' 시스템 설명회&nbsp;&nbsp;뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tVFFTbFFpN2xPekFLVlZBc0ZNRndlV0NVXzg4MnBXSFhKeGJESDA4ZDB5ZUNoaUttdkNoSTFuc3BZVzlUQ0NSbFpOYVJrcWV4UGp3V3FLMUMwVjNDYjVRQQ?oc=5",
+      "published": "2026-11-17T10:30:00+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "cda122ab2972",
+      "title": "iM뱅크, 제주 첫 영업점 개점…지역 소상공인 금융지원 확대",
+      "source": "아시아투데이",
+      "summary": "iM뱅크, 제주 첫 영업점 개점…지역 소상공인 금융지원 확대&nbsp;&nbsp;아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2WllQbzI3b3VMNWQtMmV6enIwWTNaUWxpcFNWOXUycDdoQXdnTW5OWlYwenEtSzB2ZTV5LV9VQjZHQ3I5aWd5ZHNMUjlxXy1MckdaRnlEMjdxTVhyLTVPTGVUTVVQZm45YWkyM0pn?oc=5",
+      "published": "2026-11-17T10:22:02+09:00",
+      "query": "소상공인 금융지원"
+    },
+    {
+      "id": "91553c5638eb",
+      "title": "성남산업진흥원, ESG 상생협력으로 지역 중소기업 방산 진출 지원",
+      "source": "뉴스파노라마",
+      "summary": "성남산업진흥원, ESG 상생협력으로 지역 중소기업 방산 진출 지원&nbsp;&nbsp;뉴스파노라마",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8tMDdWS3hSYjRiT01qN09lemdRRzF3cVZxRmRSUno4c08yS3BHdXg1UUxCVS1BbDEtMFozWlp4cWVHNHpIck1jQlhiMWRkeVRuLURyT1pQV2sxMFU4YlJqQm8yN1BQOV9SeW4yV1psMA?oc=5",
+      "published": "2026-11-17T09:49:32+09:00",
+      "query": "중소기업 상생"
+    }
+  ],
+  "tech": [
+    {
+      "id": "6abc03cfbea9",
+      "title": "생성형 AI에 연간 2.8조원 쓴 근로자들…\"핵심업무 활용은 제한적\" - 머니투데이",
+      "source": "머니투데이",
+      "summary": "생성형 AI에 연간 2.8조원 쓴 근로자들…\"핵심업무 활용은 제한적\" - 머니투데이&nbsp;&nbsp;머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14Y0Jxd3V6YXdRVGFJb0NqM1Bud3ZLOUFTekducU02U3AzYWQ3dzRZUzNwNHE2MV82aEVmNFlfTE16SkVnUnFrMHluTkpuakpQdmpDOUFoM29zRndvSEJuemh4QmNZNVQ3NVBB0gFwQVVfeXFMTU8yMkNoalQ2VmJSSmtzbURLcU0xLUQyZU1OQ0l6VE5kM2pTZ1h1bVNkeG5xd21NVXlSd0xtZG8wZXFGd09paWxzaVMyaG5iVTI1N3dRaEpwbGVYUG00djl0QlZyRVliWGV6bG80TVZIcA?oc=5",
+      "published": "2026-11-17T12:00:00+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "faa5d083bc98",
+      "title": "셀렉트스타·신한은행, 금융 특화 LLM 벤치마크 ‘K-뱅크이밸’ 공동연구",
+      "source": "데이터넷",
+      "summary": "셀렉트스타·신한은행, 금융 특화 LLM 벤치마크 ‘K-뱅크이밸’ 공동연구&nbsp;&nbsp;데이터넷",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nYWVFNENoWWhLal85SUxoSzlXXzJWdVBYZWZkVUNCNzZ4VGNYRlBTZmc1TEo3V0ZPZEM4TEtnSUxvcllSOTJpandybzNpMTdUaGxOZlA0UzNLNHE4cDN5emxORFpxSTVzSFFIcA?oc=5",
+      "published": "2026-11-17T11:24:48+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "0337c33b7ef1",
+      "title": "카자흐스탄, 내년 1분기 토큰화 국채 발행 추진…국가 채무 온체인화 본격화",
+      "source": "블록체인투데이",
+      "summary": "카자흐스탄, 내년 1분기 토큰화 국채 발행 추진…국가 채무 온체인화 본격화&nbsp;&nbsp;블록체인투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kbjVjTlB3dlBTejdZYWt6T1I1U0JIc2JNZEdxM3I2UHJVSlZBUkxYQ3FZbGV4OFZfdDRGSG43bzlTNENLWjduR1FiQ21kMW9sRi1BUGdGc1A3LXZ1RWliTFJ4aEFTVzloZjhVZG1FU1A?oc=5",
+      "published": "2026-11-17T08:54:02+09:00",
+      "query": "블록체인 은행"
+    },
+    {
+      "id": "966c1fd8b518",
+      "title": "디지털자산법 정부안 내주 공개…여, 내년 1월 국회 통과 추진",
+      "source": "데이터뉴스",
+      "summary": "디지털자산법 정부안 내주 공개…여, 내년 1월 국회 통과 추진&nbsp;&nbsp;데이터뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Ka3pJNWVLYWNTNTE5Y3FBdnI2WmlGc3FjcV96OGg3ajRjWHRWM01YTW5TZVQxaTZCM2ZfV1BDTmlTOExVQXBMUmc3UFRoTGZhOTJ1bXkzcjlJcWtkcTNR?oc=5",
+      "published": "2026-11-17T08:38:16+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "58f50fbc0027",
+      "title": "브라질 중앙은행, 스테이블코인 자금세탁 발언으로 반발 직면",
+      "source": "CoinDesk",
+      "summary": "브라질 중앙은행, 스테이블코인 자금세탁 발언으로 반발 직면&nbsp;&nbsp;CoinDesk",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa2FjRXNyTDIybnpTNm9QeV9HVDc5RWh4TGVzVkhSQWdMcHBEc1RxUUYwaGFqbHRSTk1lUXYtUUJkXzBmZ3EyNEdmbE9wd2k2OTZpeU55c1AxQWNPSXAzMV9qQ0IwRzBaOWxZQzZGNkFUemNSLTJ2U3BPQWx6dVFPZHZxUi14YVZBN2JCeHR2TmgyMVFhY011SEw0SHJIWkVHS25uSWtXdmV0dlNwcHRsenRKSEd6c1hfeEJRX0llRjBJaGc?oc=5",
+      "published": "2026-11-17T00:54:11+09:00",
+      "query": "스테이블코인 은행"
+    },
+    {
+      "id": "740ce643c47c",
+      "title": "영국 모뉴먼트은행, 블록체인 기반 개인 예금 출시",
+      "source": "Korea IT Times",
+      "summary": "영국 모뉴먼트은행, 블록체인 기반 개인 예금 출시&nbsp;&nbsp;Korea IT Times",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kbUZhTks0SFBjS0Fxb2kyQnQ3YnEwNV9PTjNrM1c0S2RKdzhwNU4xRklESWNSWGx4VVNXWnlmR0F1SnY1NzFaY1FIUi1DZUhvTXZPV3ZlQXFiMWV5WjFGaF82RmxvUC1ERWxwT2xNZWk?oc=5",
+      "published": "2026-11-16T21:07:00+09:00",
+      "query": "블록체인 은행"
+    },
+    {
+      "id": "5be41392ebf1",
+      "title": "웹케시, 하나은행 ‘통합CMS’에 생성형 AI 접목…금융정보 분석 고도화",
+      "source": "매일일보",
+      "summary": "웹케시, 하나은행 ‘통합CMS’에 생성형 AI 접목…금융정보 분석 고도화&nbsp;&nbsp;매일일보",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3VEdDWXFNaWNvdXNCZlFIemVUaGVQOTZhT3kzVURfY0RNdVRpRzN4SjFxYU05XzBMRVVTR0FlZ0JvYmRWNEM5NnQ0MEwzMlh0NmxhMDRoX29ta09DbnFKWUhXZlY?oc=5",
+      "published": "2026-11-16T15:14:53+09:00",
+      "query": "은행 생성형 AI"
+    },
+    {
+      "id": "e2990aa8687f",
+      "title": "토스뱅크, 솔라나와 블록체인 기반 해외송금 검증",
+      "source": "ER 이코노믹리뷰",
+      "summary": "토스뱅크, 솔라나와 블록체인 기반 해외송금 검증&nbsp;&nbsp;ER 이코노믹리뷰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwcUp0MTZKcGNzcWNFX0IwYlp2dWstU2Fka0pBS3Q0Z2tGNzhLMnluMU14UG9zanYtd0NEVDdITlJ0OHQtMGJBaVJuTU9mVThBVndVaFJZX0hxekJtUDdGbHhEMUZnSHJ3SG5NZw?oc=5",
+      "published": "2026-11-16T14:49:44+09:00",
+      "query": "블록체인 은행"
+    }
+  ]
 }
