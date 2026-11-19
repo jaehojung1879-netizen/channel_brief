@@ -1,97 +1,133 @@
 {
-  "updated_at": "2026-11-18T12:08:34.218068+09:00",
+  "updated_at": "2026-11-19T11:48:00.845961+09:00",
   "social_finance": [
     {
-      "id": "686e7576ede1",
-      "title": "청년재단-부산신용보증재단, 청년 소상공인 금융지원 업무협약 체결",
-      "source": "로이슈",
-      "summary": "청년재단-부산신용보증재단, 청년 소상공인 금융지원 업무협약 체결&nbsp;&nbsp;로이슈",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PT3pCajNDQ005VFFwQW93bnBMaDBQcTh0RXNmZzhiSlRHaDd5MzdUN3BaaG94VXhTY3M3WFlpVjNKSlZDakUxUFRhSXU4VURyUl9vWlVwX2xEQVFGSWdPd1J1TS1xa2NRWE5Vb0dTNzE3cndmbnh3LVZ3?oc=5",
-      "published": "2026-11-18T11:42:10+09:00",
-      "query": "소상공인 금융지원"
-    },
-    {
-      "id": "0dbaa3339280",
-      "title": "카카오페이손해보험, 서민금융진흥원 '사람 살리는 금융' 캠페인 동참",
-      "source": "펜앤마이크",
-      "summary": "카카오페이손해보험, 서민금융진흥원 '사람 살리는 금융' 캠페인 동참&nbsp;&nbsp;펜앤마이크",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GMkRDWkg4dm9ZcXlsX19IX2gwaWRiX3YwMjJ2ampRZ2k5SUg0Z2ZJY2hUSl9UUFZfRlIxTk1HXzZoNTlmUmJLSWZFY0p3S09ma25SaVZfUlNaS3VWNnRYUkxic01HaWNhOVlR0gFvQVVfeXFMTmNSTlFTandGR1AwTk1HaGViUGZHWGoyalVWcUJSMWYzeGhIZHFGalJFNlVqcDNieEg3RllhcFFNcl9QZHczVzdoREN1NWxHYm9GT195aFA5emE0SThKUnZrbFZQNkhXMG9ZV3FWVWhZ?oc=5",
-      "published": "2026-11-18T11:10:08+09:00",
+      "id": "711f0d9a78ea",
+      "title": "길정섭 NH아문디 대표, ‘사람 살리는 금융’ 릴레이 캠페인 동참",
+      "source": "농민신문",
+      "summary": "길정섭 NH아문디 대표, ‘사람 살리는 금융’ 릴레이 캠페인 동참&nbsp;&nbsp;농민신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qQ2NnUjdHVjRTWVZucTBvWXhyamxQRGcxWFF0aEVqOEx2Y191UURLbndTRWItNGpaOWs5YmZQcXpSbjJ5Zm1EdXlBb2J2UW1jX0U1NWZWMkFRQQ?oc=5",
+      "published": "2026-11-19T11:14:18+09:00",
       "query": "서민금융"
     },
     {
-      "id": "f42b0a96b827",
-      "title": "NH아문디운용, 금융 취약계층 보호 캠페인 참여",
-      "source": "이뉴스투데이",
-      "summary": "NH아문디운용, 금융 취약계층 보호 캠페인 참여&nbsp;&nbsp;이뉴스투데이",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zSVNiLW9fX0t6V2U4X2pZbHhLX0ZIZVBkUFNxYnRhSXdVY1cwSGlOUE14aGE3Mlh6MUZ0bkVPUVNXUUxYOWo3OXJPLW1IMUFWbWpnZUVzNHdZdUJOMkdCN3BGNmRBWFVHX2Y5cDVYLTbSAXRBVV95cUxQRGgzWURfYmhLNDNZTjI2Y19sMTg3VHFLRzQ4RDhtY3REb1JCM3loRUl4Ui1OR2FUbUNhdGJlWUVHQVZkb1E1elk4UVpOZWFZYzVEQ3Q1WDd3R0RMMjNramFYM2h1bVNWQnNuMFlsSVdoaG5abw?oc=5",
-      "published": "2026-11-18T10:43:46+09:00",
+      "id": "3ee5513bd0ba",
+      "title": "[르포]“소문 듣고 왔습니다”…장관까지 홀린 광화문 ‘상생 빵집’",
+      "source": "아시아투데이",
+      "summary": "[르포]“소문 듣고 왔습니다”…장관까지 홀린 광화문 ‘상생 빵집’&nbsp;&nbsp;아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yZXk5SndudlpnMjI3SEVjSEIwVkRsdzQ2SVBYX2ExMEpMbHRFUFBmQmRvTng3dTliMlFwV1A3ZG1lVXRtbXZLQWZVaWFNVDVBRUxHQzdxbWVqTjFlV0UzTDRtSzZQYjVpb2ZHUEpR?oc=5",
+      "published": "2026-11-19T10:59:47+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "360aee685f9d",
+      "title": "증권가 번지는 ‘상생금융’ 릴레이… 금융취약계층 보호에 힘 모은다",
+      "source": "한국금융신문",
+      "summary": "증권가 번지는 ‘상생금융’ 릴레이… 금융취약계층 보호에 힘 모은다&nbsp;&nbsp;한국금융신문",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zak5lWW5GRDJUY3NrTmRqYkpScUtXcnBXZkFpVzQ2aHM3aUhwY1lWZF8xUTVnSXhXRG9sQXdrNWFPWGZPV042REtMTG52WjlVOTdUSElZelY2bm1xYjU2bjROQU1zOGIyZ1dpN2xYX1J2QVVUSTFYbGFFeGE?oc=5",
+      "published": "2026-11-19T10:54:34+09:00",
       "query": "취약계층 금융"
     },
     {
-      "id": "1e1206c3663c",
-      "title": "디지털 취약계층부터 대학생까지...금융교육 확대하는 한투·KB證 [여의도 소식]",
-      "source": "매일일보",
-      "summary": "디지털 취약계층부터 대학생까지...금융교육 확대하는 한투·KB證 [여의도 소식]&nbsp;&nbsp;매일일보",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sNFRSZ21Cem8yN2hQYTh6NE1pYVZVeHFIN3JKRWZRQU9zUDFXZmd4T3JORFk3NkZfaGlndXVzbGI3N1kzNFFURExpeS05RnhGQ2ZfWDdydFd0bXhxVTRTdDZlQWk?oc=5",
-      "published": "2026-11-18T10:35:51+09:00",
+      "id": "3266df19ba15",
+      "title": "[더테크 픽] 대기업 AI 기술, 중소 제조현장에 심는다…정부·민간 2조원 투입",
+      "source": "더테크",
+      "summary": "[더테크 픽] 대기업 AI 기술, 중소 제조현장에 심는다…정부·민간 2조원 투입&nbsp;&nbsp;더테크",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01eTh4MXhiU0hzZDNlY1RhaVRJY3FYZHhnYkpyV3JUdkdVUG5mSl9xZ051TTBsaC1ydkh6bkpRbUVDeGMzcHlkcl90T3N4ZnhjS2FtVDBDcWMtd1o4akVFQzY2cw?oc=5",
+      "published": "2026-11-19T10:28:07+09:00",
+      "query": "중소기업 상생"
+    },
+    {
+      "id": "d34ddf13c47f",
+      "title": "한성숙 국무총리, 서민금융 현장 방문해 정책 실효성 점검",
+      "source": "서남투데이",
+      "summary": "한성숙 국무총리, 서민금융 현장 방문해 정책 실효성 점검&nbsp;&nbsp;서남투데이",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9IdV8zWnZrWVVWNVJZRWR4dzdFSWs2dlROUFRibWNNb2dwUTdhWlVFUGRQTF9VczJiWk9tck5wTnFVMi1HeE9JWXBYbHlhRHgtUXBYUGZQRDhxdw?oc=5",
+      "published": "2026-11-19T10:09:33+09:00",
+      "query": "서민금융"
+    },
+    {
+      "id": "0ac6dc75186f",
+      "title": "카카오페이, 금융취약계층 보호·금융교육 확대",
+      "source": "글로벌이코노믹",
+      "summary": "카카오페이, 금융취약계층 보호·금융교육 확대&nbsp;&nbsp;글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOFVPUEpJNDZfWWdZUkIzYW1PekZaYWxKOTB6UUtqRkxlemd6bUZZSGVXLU5xUlpTZWdfcmZNQjVXcVZlTWpPeUZ2UWtTZ2tXZXQxMmhkQW5TU0oyZWJUN3lvRkV1ODNfQWxKaDZhLWNBQkVNZVRRT1p5QW00N1FTdUhGMjk?oc=5",
+      "published": "2026-11-19T09:33:38+09:00",
       "query": "취약계층 금융"
     },
     {
-      "id": "9abbc683e076",
-      "title": "소상공인 부담 낮추고 취약계층 보호…금융권 포용금융 확대",
-      "source": "뉴시스",
-      "summary": "소상공인 부담 낮추고 취약계층 보호…금융권 포용금융 확대&nbsp;&nbsp;뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE12SHJWTWIxLXBrODkzTWk2ZHRxdnVWM0lZYUFGRU95cVRrZlBkaWJ0S1NJbEpJdG95LUstUGRoaGFSWkx3cVVmQ3JXMlpEa0tUUkdpVnNhX3JZTXB6TkVqVtIBeEFVX3lxTE9TSGxvN3V4WUZoNUl1UThRaG83emxBYTVveDVobTI1ZXdBZ0dnUUZiS05FYnZaNW9VTndVVC1vQUplcGlZZGxPbG1COXNLM3FFUktOSnhLQzFQc3ViX2E4c1ZEeTVWc0xheWFTYkhPVUE0eVByeVpyQw?oc=5",
-      "published": "2026-11-18T10:24:54+09:00",
+      "id": "04271341cbde",
+      "title": "카카오페이가 포용금융 릴레이 바통을 이어받았다",
+      "source": "ER 이코노믹리뷰",
+      "summary": "카카오페이가 포용금융 릴레이 바통을 이어받았다&nbsp;&nbsp;ER 이코노믹리뷰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OMUU0aXhqbkFDUTMyMVFoMTV3SmxsLVQzS3pQc3J1Z0xNUXlrN0twT2MxVHlXMEZKRWNqTXRwNjBQTGtzUUVlOXo2dE8zMk9NclNFYl9reXZqYndpc2VxRElGbTdGal9pdEZHdg?oc=5",
+      "published": "2026-11-19T09:08:42+09:00",
       "query": "포용금융"
     },
     {
-      "id": "33516d359981",
-      "title": "은행 점포 이어 ATM까지…디지털 전환이 키운 금융 사각지대",
-      "source": "에너지경제신문",
-      "summary": "은행 점포 이어 ATM까지…디지털 전환이 키운 금융 사각지대&nbsp;&nbsp;에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBaHBfTGNlaEYybXd2bTkzZEZFLUFYU0NMU0hCMVpoY0FoWXZWVG1tV09NSjNqSjJXUlZVRWtqT1FZSl9kWTY4akNfYU4xRkVYdHRhWktRaXlDZG50c2dQYUIwNA?oc=5",
-      "published": "2026-11-18T10:04:31+09:00",
-      "query": "취약계층 금융"
-    },
-    {
-      "id": "680af3d1d2a5",
-      "title": "길정섭 NH아문디자산운용 대표, ‘사람 살리는 금융’ 릴레이 캠페인 동참",
-      "source": "뉴시안",
-      "summary": "길정섭 NH아문디자산운용 대표, ‘사람 살리는 금융’ 릴레이 캠페인 동참&nbsp;&nbsp;뉴시안",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80ZVpTVjY1Ym0wQ1VQNmJTWndmM2Vla21ONGpVQ05YS2YwYTYtNUtidVVlbjBqLUZRdFktcy1hUS1uVnRHWEJab3k5N2cxM2xwM3hWWngxMEx4UWdqbUFYZHBjUkljZ0ZOODEybA?oc=5",
-      "published": "2026-11-18T09:59:02+09:00",
-      "query": "서민금융"
-    },
-    {
-      "id": "3c71f5564e34",
-      "title": "장병호 한화투자증권 대표, 서민금융진흥원 주관 '사람 살리는 금융' 캠페인 참여",
-      "source": "뉴스핌",
-      "summary": "장병호 한화투자증권 대표, 서민금융진흥원 주관 '사람 살리는 금융' 캠페인 참여&nbsp;&nbsp;뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xR1ExWm94UGJJLTlRdWJaTGMxZGNTUHM1LUo1Q20wMURTcXBaVzJrUEdqRnNzeWJ3ZzNhd3lFcXQ4YmwxUVAxcGMxdGk1WDM2ZHJTVk4xWFFqeXhl?oc=5",
-      "published": "2026-11-18T09:41:00+09:00",
-      "query": "서민금융"
+      "id": "998f1dc49d3a",
+      "title": "대기업 AI 기술·제조혁신 노하우, 중소기업 현장으로… 중기부 ‘AI+ 대전환 상생협약’ 체결",
+      "source": "FA저널",
+      "summary": "대기업 AI 기술·제조혁신 노하우, 중소기업 현장으로… 중기부 ‘AI+ 대전환 상생협약’ 체결&nbsp;&nbsp;FA저널",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KVjdCN0E2aWwxN3NfM0xLWWJwVGYzNmVtRG1BWjRzbVRhTVVqc3J2VGtYSFVrS0JrTVNWTVJ2bWp2emFOeVJvU0xSZUpnMUUybDJlZjFCeF9DbXBTOGxLdVZBM2ozYWNKUUQw?oc=5",
+      "published": "2026-11-19T09:08:21+09:00",
+      "query": "중소기업 상생"
     }
   ],
   "tech": [
     {
-      "id": "4719355c47f2",
-      "title": "[nbn시사분석] 생성형 AI가 줄인 업무시간, 왜 처리량과 품질 개선으로 이어지기 어려울까?",
-      "source": "nbn 시사경제",
-      "summary": "[nbn시사분석] 생성형 AI가 줄인 업무시간, 왜 처리량과 품질 개선으로 이어지기 어려울까?&nbsp;&nbsp;nbn 시사경제",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkWktFLW5vdll0cFN6OU5qZzQ2TDFDUThxa3RrV1RGVW83b3Foc2NrM2R2eDZUUkJLSUxmRFZIY2lkNE1lQlZOajZab3Vlc0J3QXRDeVBjZVRVYUJjRlJlNjdPZTBaLUJ4M0E?oc=5",
-      "published": "2026-11-18T10:36:19+09:00",
-      "query": "은행 생성형 AI"
+      "id": "7cb0df5feb77",
+      "title": "포스텍 블록체인 최고위 과정서 빛난 정상훈 전북은행 부행장, 레거시 금융과 웹3 잇는 실전 인사이트로 대호평",
+      "source": "블록체인투데이",
+      "summary": "포스텍 블록체인 최고위 과정서 빛난 정상훈 전북은행 부행장, 레거시 금융과 웹3 잇는 실전 인사이트로 대호평&nbsp;&nbsp;블록체인투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yUnd4a3FlU0RfNXNCY1E4Z1huN3d2SDRVeG5SSVZRQ2RzNVFBc3UxQVlIMDhhQVptUHlBWUxCVnExdGxTcEJ2MGxDVHFyZENqZ0dDMW9DdUtmSTlDNTMzcW1pMm1EWUpZcWd0eERxQ04?oc=5",
+      "published": "2026-11-19T10:04:49+09:00",
+      "query": "블록체인 은행"
     },
     {
-      "id": "c762ba8e07a6",
-      "title": "MS·항공청·은행 이어 애플까지…美 빅테크·인프라 덮친 `연쇄 전산 장애`",
-      "source": "디지털데일리",
-      "summary": "MS·항공청·은행 이어 애플까지…美 빅테크·인프라 덮친 `연쇄 전산 장애`&nbsp;&nbsp;디지털데일리",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ITnVKZkNDcUpmT1ZpQmQ1NUZ6aHJqb1JmMWhKQmZEcmFDOXcwa0E4ZjlNQ2NTay1uNEdBWm90WHpaaUdsWHQ4aGxhQ3R1VUU0Qy1udWN1UjR6b3NtTktlRkxra2c?oc=5",
-      "published": "2026-11-18T10:30:44+09:00",
-      "query": "은행 클라우드"
+      "id": "11445dcce044",
+      "title": "예보, 예금토큰 보호체계 점검 착수…'디지털 예금' 제도권 편입 신호탄",
+      "source": "전자신문",
+      "summary": "예보, 예금토큰 보호체계 점검 착수…'디지털 예금' 제도권 편입 신호탄&nbsp;&nbsp;전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxb0JPOFBlRG1tUXJnUXpzQ2ZNSDJhOXItWVo1N3pCaE9sM3dYOC1YMlZXYm1wcFFUdEl4Vjc3TlFlZ2wwbjVYVjh2RkpYUQ?oc=5",
+      "published": "2026-11-19T09:39:11+09:00",
+      "query": "예금토큰"
+    },
+    {
+      "id": "c4357fb7e23c",
+      "title": "달러 스테이블코인에 맞서는 은행들…예금토큰으로 해외송금 시험",
+      "source": "뉴스1",
+      "summary": "달러 스테이블코인에 맞서는 은행들…예금토큰으로 해외송금 시험&nbsp;&nbsp;뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlRjZYNEMtRzlQUVJWblVNc29xWnY4N1dWYXJIbVFjUkJBV21NRGpkSW9CRnlWRDRwNE1sWXNoX293NnJ3WW95cXljd1JfTEkyLVpodFpEYjUzTGNPSDljQk5uRGhwdw?oc=5",
+      "published": "2026-11-19T05:00:00+09:00",
+      "query": "예금토큰"
+    },
+    {
+      "id": "2dc6ab077c01",
+      "title": "한은, '프로젝트 한강' 관련 \"예금토큰 이용자 거래내역 들여다볼 수 없다\"",
+      "source": "디지털애셋",
+      "summary": "한은, '프로젝트 한강' 관련 \"예금토큰 이용자 거래내역 들여다볼 수 없다\"&nbsp;&nbsp;디지털애셋",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fT2cxVFFfYVU5a3F1XzRaV3JDVWM2ZmtndFdfVEwtWWxNbE94MWJHU3pSYU9LRGhmVTNRVEU3c0kxUUZxSHJFUjdzcXhYMWxLUW1WTWNLRDVmay01MTNDdlo1U3hXd3BIOVA1a3FZNXVsQQ?oc=5",
+      "published": "2026-11-18T17:30:00+09:00",
+      "query": "예금토큰"
+    },
+    {
+      "id": "bfb9698bc795",
+      "title": "AI가 결제하고 은행 업무까지…글로벌 금융시장 대전환",
+      "source": "전자신문",
+      "summary": "AI가 결제하고 은행 업무까지…글로벌 금융시장 대전환&nbsp;&nbsp;전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MTWFJdEtxcXJQWGxUVTJrdkxicXB0N01QNlV1dGVwYUt4eFAwWVBSYm1vVWxqX2RkTFZCSUdvT3Qwamc4bTlvMzByMGY2Zw?oc=5",
+      "published": "2026-11-18T17:10:37+09:00",
+      "query": "은행 AI"
+    },
+    {
+      "id": "cd392c04be92",
+      "title": "우리금융그룹 'AI 데이' 열어, 은행·보험·카드·증권 인공지능 활용 성과 한자리에",
+      "source": "비즈니스포스트",
+      "summary": "우리금융그룹 'AI 데이' 열어, 은행·보험·카드·증권 인공지능 활용 성과 한자리에&nbsp;&nbsp;비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14QldIM0c4Qk9peEJOREYwRlFVM1FMdmdvRVpudWNEQW9XZVNEMXRGOTFYZFZiV2lraFJ6M2JoX0J2aEtaWHh5WnhCNEYwbEViNDBKVjlFYVJyNXQxZ2VwMlBCemJzaXl1NWd0NVRzYnhBN2c?oc=5",
+      "published": "2026-11-18T17:08:30+09:00",
+      "query": "은행 AI"
     },
     {
       "id": "659a64d9d99b",
@@ -110,42 +146,6 @@
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NR0RlWjk0bVpZeTZ5b1ZodnBsb3BLZ182TnlIaDMtbU9LbWlKQUpfMTVoRHhMQjdTUWZqaFZOeFNMeDdRVi1rdjVnSVJ5XzZpSndsWFBzbE9BX3BjSGhLYks1MjBPWVlVYnNqWldUQTY1VDA?oc=5",
       "published": "2026-11-18T09:50:39+09:00",
       "query": "블록체인 은행"
-    },
-    {
-      "id": "86d7cc43e3c6",
-      "title": "광주은행, 스테이블코인 기반 무역송금 실증 완료",
-      "source": "남도일보",
-      "summary": "광주은행, 스테이블코인 기반 무역송금 실증 완료&nbsp;&nbsp;남도일보",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mWUl4dXV3WnEzWHBETHhNUTRLU2d1QWZ4RVBlWWwxYWNac3JGRDV5UnlyTnV3Q3JaRklCbk13S3FJUGJaRnl4bjJyaHVYTDRGZWNBeGwwZ3J6QVQzWm9QUGRCUERhRnZ1bjUwNNIBcEFVX3lxTFBtNzEwRDdFWE40NFFWSUYtTWNGYVA1eEVxT2xySmVod1hyT3pWQTIzZEMxejFNY21hS29TdzZqWGlFNVlzTnRpTXhpX3B1YTctZFpXWnc2WmNmZjNHWnhRTi1YTDNuSzBhM3Q5X3N3R3k?oc=5",
-      "published": "2026-11-18T09:27:00+09:00",
-      "query": "스테이블코인 은행"
-    },
-    {
-      "id": "87799db61752",
-      "title": "[디지털자산 2.0]온체인으로 새 판 짜는 은행들…예금토큰부터 스테이블코인까지",
-      "source": "아시아경제",
-      "summary": "[디지털자산 2.0]온체인으로 새 판 짜는 은행들…예금토큰부터 스테이블코인까지&nbsp;&nbsp;아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qbGNNeXhRcWVva1lXaS1kOXV2dDBqNEdaVmFoMDhtdUFEcHg0ZVVPZE1PSGg4TWUxVFd4ekd4S3NfWTAzaEJPeklvUmhVUHhqSXQ1bFNQZEEwYVRsMU9wYg?oc=5",
-      "published": "2026-11-18T07:35:00+09:00",
-      "query": "예금토큰"
-    },
-    {
-      "id": "0b2b30332119",
-      "title": "아폴로 CEO \"엔비디아 금융 지원 사라지면 네오클라우드 자금 조달 어려워져\"",
-      "source": "블루밍비트",
-      "summary": "아폴로 CEO \"엔비디아 금융 지원 사라지면 네오클라우드 자금 조달 어려워져\"&nbsp;&nbsp;블루밍비트",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5FUFhIc3pUc1ktNjg4djdaVXoxU1lJVHYyTF9adGFKSElDa3V1YkpvcGJmSnBkTmtZZjB3S05NaE5sM2FPSGMxTU9KNVM3Mmx5?oc=5",
-      "published": "2026-11-18T01:52:03+09:00",
-      "query": "은행 클라우드"
-    },
-    {
-      "id": "2b8b7d5153f0",
-      "title": "홍콩금융관리국·스위프트 손잡았다…은행 예금 ‘토큰화’해 국경 간 실시간 결제 모색",
-      "source": "코인리더스",
-      "summary": "홍콩금융관리국·스위프트 손잡았다…은행 예금 ‘토큰화’해 국경 간 실시간 결제 모색&nbsp;&nbsp;코인리더스",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1pUkYtTkZadFBDUHNVbjZWYmxldXZWNmdHLTliZmdmN3UyNFB6SXBJb0Flbk1WdTZtbGJkLU16eU55ZmpwVnZIcFpB?oc=5",
-      "published": "2026-11-17T21:47:00+09:00",
-      "query": "예금토큰"
     }
   ]
 }
