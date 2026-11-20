@@ -1,20 +1,80 @@
 {
-  "updated_at": "2026-11-19T11:45:23.877615+09:00",
+  "updated_at": "2026-11-20T11:31:52.970455+09:00",
   "headline": {
-    "id": "12e1e8a369b2",
-    "title": "[단독]급증한 금융사고에 금감원, 4개 은행 영업점 '기습 검사'..10년만에 부활 - 머니투데이",
-    "source": "머니투데이",
-    "summary": "[단독]급증한 금융사고에 금감원, 4개 은행 영업점 '기습 검사'..10년만에 부활 - 머니투데이 머니투데이",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NUVNkbTQwaXFISGkxajNXbU9SYjdtSGttM2ZhaWJyNFgwSmdNdUtidzN5QW8wa3RUM1NhWlBHNUF5YUlUUXpzcThDdnFoSS0zRzFFRFZiLUxfNjVVWHZadUs0TDVNN3dyRXZv0gFwQVVfeXFMTXF2ZlJCMXFFcDgzajJnWHNiZjRjeTVud2Ffc0loazMtNzYtMFZDbWFuZXJFMFBMWWdvSnExRE1vRDB2Q1lLWl8wRG5pMHhCY3ZtZTV0ZUZFZHRaMEt6ckdub0d4Yk5FMDVZQ09TeXVsbg?oc=5",
-    "published": "2026-11-16T10:21:39+09:00",
-    "query": "은행 영업점",
+    "id": "a0d2dd104809",
+    "title": "금감원, 10년 만에 銀영업점 '기습 검사'…'신한·우리·농협·기업' 지점 타깃",
+    "source": "뉴스1",
+    "summary": "금감원, 10년 만에 銀영업점 '기습 검사'…'신한·우리·농협·기업' 지점 타깃 뉴스1",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nUW5SbGRLdG9rWm1jNi0wQnpwakhvLWNnS0JQQ1dyaERPc0JIdkw3UjhjRFVwb2JQYWdrdUo3QkJlelE3cm1WMFFYLUp0cDRVSEJWWkVFa0F0bmpiN3lNUjd3?oc=5",
+    "published": "2026-11-16T11:55:37+09:00",
+    "query": "금융위 영업점",
     "engine": "google",
-    "rank": 1,
-    "_score": 23.0,
+    "rank": 10,
+    "_score": 21.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "03e904e4fb55",
+        "title": "KB국민은행, 명의도용 금융사고 14억원…영업점서 확인",
+        "source": "신아일보",
+        "summary": "KB국민은행, 명의도용 금융사고 14억원…영업점서 확인 신아일보",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QdHZjSTAxNWkxMnNmRHowR3A0TkY1bjJZajhXVDV2a3phODVDOFFCUWI4R3ZFbENTeFBlV3NGOTZsbjQzZTlHVG1zeXEzYmZrT0wtYkxCTldrdGhJUDVSeXM2alVsMkFOSzBtYW9oVjI?oc=5",
+        "published": "2026-11-20T09:12:18+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 3,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "95ab9d04bd03",
+        "title": "Sh수협은행, 영업점 업무 효율화 속 [뉴스큐]",
+        "source": "www.newsq.co.kr",
+        "summary": "Sh수협은행, 영업점 업무 효율화 속 [뉴스큐] www.newsq.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzLUpEYnB0bGV2TGZGaTlqNnJBbGpnU0Y4SzVUNG1qaU14YlJFMk1wT001WXRCellUcVpFbWZDbGZScWFNblVVenJveExIbWxDOVdJQkJYdWRYWWNKcktJLTRoV3pqRHRTR3c?oc=5",
+        "published": "2026-11-20T09:11:42+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "ab1d4ce34571",
+        "title": "(단독)기업·신한은행, 카톡으로 지점 대직 인력 뽑고 개인정보 노출",
+        "source": "뉴스토마토",
+        "summary": "(단독)기업·신한은행, 카톡으로 지점 대직 인력 뽑고 개인정보 노출 뉴스토마토",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tbUFxc0VEeXktRHBCbVJyRjU3bkpya2xHeEQ2NWFkRjNQUlVFN0pQcEt6Q3FHeEJJcF9nbWJOd1U2MjJjcGhScElBWnJYZVZZNVFJblVudHRfcWRHU0VlVw?oc=5",
+        "published": "2026-11-20T06:00:00+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "f727ea7d1bb0",
+        "title": "은행, 점포·ATM·직원 다 줄었다… 디지털 전환 속 대면 접점 사라져",
+        "source": "IT조선",
+        "summary": "은행, 점포·ATM·직원 다 줄었다… 디지털 전환 속 대면 접점 사라져 IT조선",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mTjlvelJHVkxFU21rbmZhNjM5T0h3TkpUWEVPNHNvTzFWam5qOEZfUzhERHdDSjJQeEZ0TXZPVkJkWGtqbUFoXy1YZURzRHJoRWFJVkd1WGVKcXV5SWZrbFl1UDBsb1BlcGd4MmE3andmUi1i0gF0QVVfeXFMTmZOOW96UkdWTEVTbWtuZmE2MzlPSHdOSlRYRU80c29PMVZqbmo4Rl9TOEREd0NKMlB4RnRNdk9WQmRYa2ptQWhfLVhlRHNEcmhFYUlWR3VYZUpxdXlJZmtsWXVQMGxvUGVwZ3gyYTdqd2ZSLWI?oc=5",
+        "published": "2026-11-19T14:26:34+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "3af29faecea8",
+        "title": "금감원, 은행 영업점 불시검사 착수…현장선 '자체감사 수준'에 그쳐",
+        "source": "ER 이코노믹리뷰",
+        "summary": "금감원, 은행 영업점 불시검사 착수…현장선 '자체감사 수준'에 그쳐 ER 이코노믹리뷰",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EV3NMYUtGYkkwU2xJWmVDVi1DanlYSFRLTzMzVXZOX0x0TE1xM3pSaG9zZ0tXNHJSLUtLRXFrWjAxNlpzbFhCRGM5TGRhbWxxWTVUWTVObHp0Z0FJTmwxMUVMSkU4QjVkZW1yNA?oc=5",
+        "published": "2026-11-19T12:29:29+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 13,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "c397ab4fd73a",
         "title": "수능날인 오늘, 은행 영업점·증시 1시간 늦게 연다",
@@ -22,45 +82,33 @@
         "summary": "수능날인 오늘, 은행 영업점·증시 1시간 늦게 연다 천지일보",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ed01ueGF0Tm5xNzZKZ1ZGaGZabXpwLXFLb1JwQnlBanVWdWxXVXVKWWkydEpDenVaOEF1XzZkdUUzTVZTTGpDMkZNekhUNUVoRzh1eU9sLXpXWkVGQlpJX0E5cXRLZVFxQ0E?oc=5",
         "published": "2026-11-19T09:10:54+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "4af40d9b242f",
-        "title": "수협은행, 디지털 BPR 가동···영업점 종이서류 전자화",
-        "source": "서울파이낸스",
-        "summary": "수협은행, 디지털 BPR 가동···영업점 종이서류 전자화 서울파이낸스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tZF8xMDNYYVppcE5NTmlReXhUTXFkZndKX2VWYmdjNkgwZFoxSzdESTExLTVWV2VwcTBzWTktU3pQbXJJMV9aYlFZX05tTHBuQjgtSE54SVVYWWdsU3ZJRzJTa0NkdU9DeGc?oc=5",
-        "published": "2026-11-19T09:00:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 12,
+        "rank": 8,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "2a03aec66289",
-        "title": "11년 만에 부활한 은행 영업점 불시검사…금감원, 매년 실시 추진",
-        "source": "아시아투데이",
-        "summary": "11년 만에 부활한 은행 영업점 불시검사…금감원, 매년 실시 추진 아시아투데이",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SMVB5UmYwbjlqblZPMDF1Nmx0TEhoemhMTWlxeWdUWkduQXZNMXJxM0tMRWNoLWpieC1KYWQxMjR6T1o3bGNGSVFkUzFubnBua19JeC1MaFpPdkpFZWhka3lxbW1FLUI1aDI4d2dB?oc=5",
-        "published": "2026-11-18T17:24:06+09:00",
-        "query": "은행 점포",
+        "id": "229480cd66d0",
+        "title": "수협은행, 영업점서 종이서류 없앤다…디지털 BPR 시스템 구축",
+        "source": "에너지경제신문",
+        "summary": "수협은행, 영업점서 종이서류 없앤다…디지털 BPR 시스템 구축 에너지경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WTzB2TlJCZUNIUHBPYl9MY2x2bVhoLVJ4UVRvYldUajRBWFNHWTdDRXdWZUpZNDUwaVYyUkFzcjNrRFhWM1JnbFd0Uk45cjl3d1F5aEZzLVlKRFU?oc=5",
+        "published": "2026-11-19T08:57:23+09:00",
+        "query": "은행 영업점",
         "engine": "google",
-        "rank": 4,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "33516d359981",
+        "id": "193336e1c1da",
         "title": "은행 점포 이어 ATM까지…디지털 전환이 키운 금융 사각지대",
         "source": "에너지경제신문",
         "summary": "은행 점포 이어 ATM까지…디지털 전환이 키운 금융 사각지대 에너지경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBaHBfTGNlaEYybXd2bTkzZEZFLUFYU0NMU0hCMVpoY0FoWXZWVG1tV09NSjNqSjJXUlZVRWtqT1FZSl9kWTY4akNfYU4xRkVYdHRhWktRaXlDZG50c2dQYUIwNA?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EYnpQNXc4QV9YTjFxbGtiV1k4cGp4UnhIdDFUNVlKU0I2anlXMXh0ZzlkYWhaTWxFT0k4emg4Ul9mYzVjRDNvdUhiNG1rZlJiczE2ZEFQWUpNUWt4alFLNEpn?oc=5",
         "published": "2026-11-18T10:04:31+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -72,19 +120,7 @@
         "published": "2026-11-18T10:01:07+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 8,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "2053e827958a",
-        "title": "금감원, 은행 영업점 불시검사 확대 검토···창구 부담 가중 우려",
-        "source": "서울파이낸스",
-        "summary": "금감원, 은행 영업점 불시검사 확대 검토···창구 부담 가중 우려 서울파이낸스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54dnlDTExPa1liaUdGdnpBWFgzcEtBZHpYSUZ2NGNfY2ROTVd3NWJlVnhqUjJ5N254YTUwcGlULTdJbU5UM0JCLVFSOTdmeEM3MjBEZ1JVZ2U0NXdMT2lBbzh3M0t5ZjBvSGc?oc=5",
-        "published": "2026-11-17T16:09:06+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 5,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,8 +132,7 @@
         "published": "2026-11-17T15:46:53+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 11
       },
       {
         "id": "4777af2aa3e9",
@@ -108,8 +143,7 @@
         "published": "2026-11-17T15:16:04+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 15,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 11
       },
       {
         "id": "168e31a4b4b8",
@@ -120,8 +154,7 @@
         "published": "2026-11-17T09:38:26+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 16,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 16
       },
       {
         "id": "abe7216a6676",
@@ -132,7 +165,7 @@
         "published": "2026-11-17T09:15:45+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 6
+        "rank": 5
       },
       {
         "id": "76cdb671ecba",
@@ -143,18 +176,18 @@
         "published": "2026-11-17T07:00:00+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7
+        "rank": 6
       },
       {
-        "id": "31ff7dd1807b",
-        "title": "금감원, 신한·우리·농협·기업은행 영업점 불시 검사 돌입",
-        "source": "파이낸셜뉴스",
-        "summary": "금감원, 신한·우리·농협·기업은행 영업점 불시 검사 돌입 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tbFNpNjJiZnRUR25KTzJzdmJvOENUbnFyOXVrRGx5LUZkT0xYeWZxdDd1SlJzRFh5bkRlYm1hYmpXRkJDMEhsd25fWEoxbHBDUUtjNTJWUXZwUQ?oc=5",
-        "published": "2026-11-16T17:54:56+09:00",
-        "query": "은행 영업점",
+        "id": "439fca307d6a",
+        "title": "은행 영업점 암행검사… 내부통제 살핀다 - 머니투데이",
+        "source": "머니투데이",
+        "summary": "은행 영업점 암행검사… 내부통제 살핀다 - 머니투데이 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwcW1uUDV4SG1rM05wakV2N2FRY1I4cG1nYkYwUEFBNVhiMkU1bFQ5dV9DdG01WmJkTUJjNWFfN2VRMWZDM21KV1E0ME4tdHBDeFYxcjJQYXZRbkltdUpXb2FFa09PMElqR0tJ0gFwQVVfeXFMTXkyaWRoMEowbmtXSEhWbTRGY3J6alBsQU9heUN2R3B6TWxfU1QwQ21iS2d0V0tYYWxCTVB6Q1RDZG5SLU52YXdDTUFRc0NoSzlCQnJQWDRSUkRKQ0M4VENYUFJobzNKUjUwU0xuUnpuYw?oc=5",
+        "published": "2026-11-17T03:50:00+09:00",
+        "query": "은행 점포",
         "engine": "google",
-        "rank": 6
+        "rank": 7
       },
       {
         "id": "c345aec2799e",
@@ -165,7 +198,7 @@
         "published": "2026-11-16T16:39:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3
+        "rank": 6
       },
       {
         "id": "bceade450717",
@@ -176,40 +209,29 @@
         "published": "2026-11-16T15:32:00+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 14
-      },
-      {
-        "id": "2593c48f3720",
-        "title": "\"새벽부터 기습\"…금감원, 4개 은행 고위험 영업점 '불시 점검'",
-        "source": "마켓인",
-        "summary": "\"새벽부터 기습\"…금감원, 4개 은행 고위험 영업점 '불시 점검' 마켓인",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0MXA3NG1renNDTWZ2ekpyR0NzNUxRTVJCaTAySFI5NlU1VmZSVDFXdVRpUU1MTU1US2dWOVZBQ2M4YXJHSEdha1FQcUhRSlJuYXJuMHR1ZGRxZGxGMVZPemRhZk9VcGNKRGdDaGY5M1pvUXM?oc=5",
-        "published": "2026-11-16T14:56:27+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 7
-      },
-      {
-        "id": "1eb3572c7fa4",
-        "title": "금융사고 잇따르자…금감원, 은행 영업점 불시 현장검사",
-        "source": "연합인포맥스",
-        "summary": "금융사고 잇따르자…금감원, 은행 영업점 불시 현장검사 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0weEV5eDJ2cjVMNnlOZ2F0bHBGM09fUi1mbTFlUS0zQ1Z1cUV4SUVtM2VJdUd1QzhKd2taQUZNVWJsZ2F0djVGeWstcDhpSjNDM2IzZ1ZEajVNMm5pS1dMVjlTWEhXbFFmc015dk9vV0U?oc=5",
-        "published": "2026-11-16T11:36:43+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
         "rank": 9
       },
       {
-        "id": "554aa2385fa3",
+        "id": "095cf6f5ca67",
+        "title": "금융사고 잇따르자 금감원 '기습검사'…은행 영업점 긴장",
+        "source": "엠에스투데이",
+        "summary": "금융사고 잇따르자 금감원 '기습검사'…은행 영업점 긴장 엠에스투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyMjM2RGFSNklmblgzZS1ud2xHRVZhcVVjc3J3MU1SaUZMbWFFbWhlWWk1TlkyeFJTSzVYdmhBVy1PVUZiSWFXRGFUekZPV1ZnVmJKeWx4QmthRjQ5d0FJSkxSdFMtZ242MWR2c9IBcEFVX3lxTFBOaDlHcUtzVDhUc3VHV0hKMG1uU3J5c1RiWEREbW8wNDZQUWJBdWJJZ05MRUwwTHM4cF9qS3VCVTFuOVE1VmgyM2RidDM1alM2NkFER2pZcmlfSTJHTEtEUTRkMklkUU5QVEpQdDNGZXc?oc=5",
+        "published": "2026-11-16T15:07:05+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 14
+      },
+      {
+        "id": "a93b56d9b6e5",
         "title": "금감원, 은행 탄력점포 손본다…현역병 대부업 대출 3년 새 69배 폭증",
         "source": "조세일보",
         "summary": "금감원, 은행 탄력점포 손본다…현역병 대부업 대출 3년 새 69배 폭증 조세일보",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sRnVPQWZmQ0hFX0hKNTJyNjYzT3VwUW1pWkhxMXAtZFZzSmdBWTFILUNOOTFjZ1JkYmpiRmV6OFNKX2d2MFRQWFhkbnRtYXdZWnd1cHdodE5kdGNvSlhKR2c3RUgyR3ltakZoVUdCWQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zVzZTdVVBdVI3N0g2TS16ZjdLT05LRlE2TlF3bGtOWDNfVWlGaWs2cWtsbl9RSEdpR29CTzVSQWJKY1ZHck0zLVJlc2JHNE5YaTFNb0dPa3R1OFF5T3hvel90dkk4cHptOFE?oc=5",
         "published": "2026-11-16T11:09:22+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11
+        "rank": 15
       },
       {
         "id": "10b31fbcbebd",
@@ -223,17 +245,6 @@
         "rank": 15
       },
       {
-        "id": "3108e8831841",
-        "title": "“주말·오후에도 은행 간다”… 금감원, 탄력 점포 운영 확대",
-        "source": "Chosunbiz",
-        "summary": "“주말·오후에도 은행 간다”… 금감원, 탄력 점포 운영 확대 Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaktTX09FaDVWZUVMN3p5LUJsSGV1b1F1Nmk1dmdNbGhHZzRqZFhnX0MzVllFamthY1RkRVlOeWtmZG5yNlVwdE4yTGJjR01pT1B5MEJCbmZZTlprSWEtWXVMa0wxX3YzMVhtUnRzNEZTRHpWQnRVSWtfVDBnMEhHMdIBlAFBVV95cUxNV0dVSldLbkJaYVpxVjlsM0lQWnM3UDlzNlVIN0dKYmpJMTNwVC1iQl9BYmhNMEh6WHBLWk1PYWxyME9od2U3YklITGVlVjR2RjJ6QmQ5ajVaa21LdWw0d0JlRVA2eFNqZVlueTN2SF9ieXB1NWd0eVJmUFVYQzhZcDVzUGZSWXg4YklOa3JidzlXekhB?oc=5",
-        "published": "2026-11-15T13:50:00+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 14
-      },
-      {
         "id": "dc9948714873",
         "title": "이찬진 금감원장 \"은행 탄력점포 실효성 높여야\"…운영 확대 추진",
         "source": "연합인포맥스",
@@ -242,7 +253,18 @@
         "published": "2026-11-15T12:00:15+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 9
+        "rank": 10
+      },
+      {
+        "id": "c2373c93f2cb",
+        "title": "금감원, 은행 탄력점포 운영 개선… “금융접근성 높인다”",
+        "source": "한국보험신문",
+        "summary": "금감원, 은행 탄력점포 운영 개선… “금융접근성 높인다” 한국보험신문",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8ybnU2My15VEFuY2FBR3JoODVkUWhKc193NEU3eGVCdExjNm15OW92alZLc3lxdk12MnlJUEdGeG8xQXRocVhONF9Ud3d5d2FERGZwT2NWSl84YU14UmpPU3RqZFZlQjNTcVZF0gFvQVVfeXFMUHFtdXJNREJQSkZaemc5WFJiRzhmZzhkSUphRzM4M200YXZHSVRINUZTZU50V0pYQ3NzUzBQRHlLakxBZ0RONHhKNlMyenhPQ2pkcEQ0dmUyZG9DaFdzN0w3ZEI3dzhBUWk2a1NOZEdZ?oc=5",
+        "published": "2026-11-15T12:00:00+09:00",
+        "query": "은행 점포",
+        "engine": "google",
+        "rank": 8
       },
       {
         "id": "c8a1ee6ea6a5",
@@ -253,32 +275,42 @@
         "published": "2026-11-15T12:00:00+09:00",
         "query": "은행 공동점포",
         "engine": "google",
-        "rank": 8
+        "rank": 9
       }
     ],
     "policy_news": [
       {
-        "id": "89c00189b88e",
-        "title": "금감원, 10여년만에 IBK기업銀 등 영업점 ‘불시검사’",
-        "source": "주간한국",
-        "summary": "금감원, 10여년만에 IBK기업銀 등 영업점 ‘불시검사’ 주간한국",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01UlBVRlJKT0VOVHdadVR6UnBFU2ZpWldpRV9iaWw3SUxhYXR4MzRiVTE2QU1nRXdOZHdlMEdyQmgteVY4WV9BcmNERkJXTEZmUE9JLTEwWXdsQlBzcS1obWpUUGlOa3VCZE9KUlJWYmLSAXRBVV95cUxNLU9WYmZNZE9idWlJemh3bG5YcWZVWDUwUko2MDExXzhMb0dwMTlsMmJ1dG5KMGo0OWpYTGpvQUdEWS1sczc5WEFUa2dyaldmRUVOMmV3elc5b0IwRlhzOXNfZUlxaWVzcjJpbDdzVFd1aXlqUQ?oc=5",
-        "published": "2026-11-17T08:38:45+09:00",
+        "id": "03e904e4fb55",
+        "title": "KB국민은행, 명의도용 금융사고 14억원…영업점서 확인",
+        "source": "신아일보",
+        "summary": "KB국민은행, 명의도용 금융사고 14억원…영업점서 확인 신아일보",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QdHZjSTAxNWkxMnNmRHowR3A0TkY1bjJZajhXVDV2a3phODVDOFFCUWI4R3ZFbENTeFBlV3NGOTZsbjQzZTlHVG1zeXEzYmZrT0wtYkxCTldrdGhJUDVSeXM2alVsMkFOSzBtYW9oVjI?oc=5",
+        "published": "2026-11-20T09:12:18+09:00",
         "query": "금융위 영업점",
         "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 13
       },
       {
-        "id": "6deb449c2ec2",
-        "title": "금감원, 신한·우리·농협·기업銀 영업점 불시 현장검사",
-        "source": "뉴시안",
-        "summary": "금감원, 신한·우리·농협·기업銀 영업점 불시 현장검사 뉴시안",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9veHQ1Z25uRWhVRTBGX1VFSWpsQjA4S09MdVg1QkR5REg0clpUMzc2d2tiM3dGajVPQ3gtaHpELURPTnh6RkpOdTM5WUJsbE5WR1lZaDVMa2RYRjdIYTVDUE00N3R5YTdyWThkSA?oc=5",
-        "published": "2026-11-16T16:28:37+09:00",
+        "id": "95ab9d04bd03",
+        "title": "Sh수협은행, 영업점 업무 효율화 속 [뉴스큐]",
+        "source": "www.newsq.co.kr",
+        "summary": "Sh수협은행, 영업점 업무 효율화 속 [뉴스큐] www.newsq.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzLUpEYnB0bGV2TGZGaTlqNnJBbGpnU0Y4SzVUNG1qaU14YlJFMk1wT001WXRCellUcVpFbWZDbGZScWFNblVVenJveExIbWxDOVdJQkJYdWRYWWNKcktJLTRoV3pqRHRTR3c?oc=5",
+        "published": "2026-11-20T09:11:42+09:00",
         "query": "금융위 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 14
+      },
+      {
+        "id": "22079586e752",
+        "title": "Sh수협은행, 디지털 BPR 시스템 가동…종이 없는 영업점 구현",
+        "source": "일간투데이",
+        "summary": "Sh수협은행, 디지털 BPR 시스템 가동…종이 없는 영업점 구현 일간투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OMFFwcW9BWFU5eVVVdk5ENUw3NEcwX0lORXFnamZndjJ3UkxFZkVFaFpOR1hCYXVzM1N6dExZOTlseVZ0eTJmWEFoVklCOWMyMjFzZi14cWJGV1pSRzE2cXZOckRFMmJ5Y1pB?oc=5",
+        "published": "2026-11-18T13:20:42+09:00",
+        "query": "금융위 영업점",
+        "engine": "google",
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -289,6 +321,18 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTZHVVWVhoMDhhc1FQVFAxV0doQ3NUdDZhcGFTR292SXFIczZKY0ZiRTBuLWRiTG9UZnZRY0hPY21KeG1xN1I2cTJIM1NkUDRUemNpZnJ6c2NCWTkwTUx5NUxHbkJQLXpGcG80Sw?oc=5",
         "published": "2026-11-16T11:11:10+09:00",
         "query": "금감원 점포",
+        "engine": "google",
+        "rank": 8,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "12e1e8a369b2",
+        "title": "[단독]급증한 금융사고에 금감원, 4개 은행 영업점 '기습 검사'..10년만에 부활 - 머니투데이",
+        "source": "머니투데이",
+        "summary": "[단독]급증한 금융사고에 금감원, 4개 은행 영업점 '기습 검사'..10년만에 부활 - 머니투데이 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NUVNkbTQwaXFISGkxajNXbU9SYjdtSGttM2ZhaWJyNFgwSmdNdUtidzN5QW8wa3RUM1NhWlBHNUF5YUlUUXpzcThDdnFoSS0zRzFFRFZiLUxfNjVVWHZadUs0TDVNN3dyRXZv0gFwQVVfeXFMTXF2ZlJCMXFFcDgzajJnWHNiZjRjeTVud2Ffc0loazMtNzYtMFZDbWFuZXJFMFBMWWdvSnExRE1vRDB2Q1lLWl8wRG5pMHhCY3ZtZTV0ZUZFZHRaMEt6ckdub0d4Yk5FMDVZQ09TeXVsbg?oc=5",
+        "published": "2026-11-16T10:21:39+09:00",
+        "query": "금융위 영업점",
         "engine": "google",
         "rank": 9,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
@@ -314,7 +358,7 @@
         "published": "2026-11-15T12:00:36+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 13,
+        "rank": 14,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -339,19 +383,18 @@
         "query": "금감원 점포",
         "engine": "google",
         "rank": 7,
-        "ai_summary": ""
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "47fad3fa2277",
+        "id": "385623caa038",
         "title": "내년 은행 영업시간 30분 늦춰지자…금감원, 탄력점포 확대 추진",
         "source": "이데일리",
         "summary": "내년 은행 영업시간 30분 늦춰지자…금감원, 탄력점포 확대 추진 이데일리",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UOGNpM0puVFZVN3lzUTBvNzRYanRGNHpPSjJ5OUdISmp3ZFJGeWNac1JWWkl6RVNZVEZnOHdfYm1FakFzR1pieDgxYVdwazRPUVZreVZXdWRNOFZ3NUpUZ3NkaHBhZGdUblBz?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcGVQaTRHQ2dmaHFpLVJXVGJkNHF4TVZNWkdpaHF5cnFwUzE1QmFPQWY0OHhwekVpWkFCRWJnWnN3d0lvYkV0YnY3M2p3ZnJkaExnVXRGeHU5UjE0czM3QkJEcTV2aHM5eURsX19MaTAwZkt3VW5rUnl3LW9KU0V0aQ?oc=5",
         "published": "2026-11-15T12:00:03+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 12,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 12
       },
       {
         "id": "2cf9c3b16899",
@@ -362,11 +405,21 @@
         "published": "2026-11-15T12:00:00+09:00",
         "query": "금감원 점포",
         "engine": "google",
-        "rank": 5,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+        "rank": 6
       }
     ],
     "shinhan_news": [
+      {
+        "id": "ab1d4ce34571",
+        "title": "(단독)기업·신한은행, 카톡으로 지점 대직 인력 뽑고 개인정보 노출",
+        "source": "뉴스토마토",
+        "summary": "(단독)기업·신한은행, 카톡으로 지점 대직 인력 뽑고 개인정보 노출 뉴스토마토",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tbUFxc0VEeXktRHBCbVJyRjU3bkpya2xHeEQ2NWFkRjNQUlVFN0pQcEt6Q3FHeEJJcF9nbWJOd1U2MjJjcGhScElBWnJYZVZZNVFJblVudHRfcWRHU0VlVw?oc=5",
+        "published": "2026-11-20T06:00:00+09:00",
+        "query": "신한은행 영업점",
+        "engine": "google",
+        "rank": 1
+      },
       {
         "id": "1ba8ced544a1",
         "title": "'사쿠라 3초전 역전골' 신한은행, 국민은행에 극적 승리…공동 선두",
@@ -376,7 +429,7 @@
         "published": "2026-11-18T21:36:43+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 2,
+        "rank": 7,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -389,30 +442,6 @@
         "query": "신한은행 영업점",
         "engine": "google",
         "rank": 2,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "31ff7dd1807b",
-        "title": "금감원, 신한·우리·농협·기업은행 영업점 불시 검사 돌입",
-        "source": "파이낸셜뉴스",
-        "summary": "금감원, 신한·우리·농협·기업은행 영업점 불시 검사 돌입 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tbFNpNjJiZnRUR25KTzJzdmJvOENUbnFyOXVrRGx5LUZkT0xYeWZxdDd1SlJzRFh5bkRlYm1hYmpXRkJDMEhsd25fWEoxbHBDUUtjNTJWUXZwUQ?oc=5",
-        "published": "2026-11-16T17:54:56+09:00",
-        "query": "신한은행 영업점",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "7149a8335487",
-        "title": "어르신도 금세 척척… 신한銀 스마트점포 고객 몰입 극대화 [르포]",
-        "source": "파이낸셜뉴스",
-        "summary": "어르신도 금세 척척… 신한銀 스마트점포 고객 몰입 극대화 [르포] 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56NGdiYUhuSmVjRXBrWDV5Wk1tZ3NkTVRZRnhoTkZZd2xKRlRDNXZPVFl0NjRyaFdsaVlsUG5URnppVkVvdUpLc29lWWhHclBMSjNkRGFtY0V1dw?oc=5",
-        "published": "2026-11-12T18:38:22+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 13,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
