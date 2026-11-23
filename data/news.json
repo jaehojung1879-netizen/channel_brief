@@ -1,20 +1,56 @@
 {
-  "updated_at": "2026-11-22T10:31:57.985258+09:00",
+  "updated_at": "2026-11-23T10:55:55.765215+09:00",
   "headline": {
-    "id": "a4cb86307c46",
-    "title": "[팩트체크] 지점에서 현금 취급 안한다고?…'현금 없는 은행' 현황은",
-    "source": "연합뉴스",
-    "summary": "[팩트체크] 지점에서 현금 취급 안한다고?…'현금 없는 은행' 현황은 연합뉴스",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOU25QSnhpdEZkQi1DUVBaekhDUWVfbVhmWnczSWEzR3NXNkNrcGh4a0pGd2laS2dPSVBWREVPSGVCS0RSQS1IYnJLM21MYmVFQnBaRDdlMDlJTnfSAWBBVV95cUxQclN3N1h3YzJwYWVaeTJaQXBPcUNTZm5hSkExdTV6aVFBVGlBZmpWVWpkZGxkSUJneUpjNmFjT0ZxcF9JZXNqRTluN1h0UTlnWms4RHVMUWlVSVRrZmNvelU?oc=5",
-    "published": "2026-11-22T08:00:09+09:00",
+    "id": "a7e0c0617fcf",
+    "title": "은행 점포 이어 ATM도 감소…고령층 금융 접근성 우려",
+    "source": "ER 이코노믹리뷰",
+    "summary": "은행 점포 이어 ATM도 감소…고령층 금융 접근성 우려 ER 이코노믹리뷰",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RTmhZVnFrQ0RwMUZlckpJZG5ubXd2OTc5UG9Vc1dUcWg2Z3cxMmk5REJIbkE0SXZ2NW5xWkxuV0tiQVRQbzFjdWh5b2pObkRHX0oyTGo0dVlzX2pLU2VCRkZEWGo4QWNmLWJYTw?oc=5",
+    "published": "2026-11-20T17:00:13+09:00",
     "query": "은행 점포",
     "engine": "google",
-    "rank": 2,
-    "_score": 21.0,
+    "rank": 4,
+    "_score": 18.0,
     "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
   },
   "categories": {
     "branch_news": [
+      {
+        "id": "dd3052ef8a10",
+        "title": "가입은 모바일로, 해지는 영업점에서?…은행 불공정약관 73개 적발",
+        "source": "이데일리",
+        "summary": "가입은 모바일로, 해지는 영업점에서?…은행 불공정약관 73개 적발 이데일리",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNzFRSG03OWMzQmFpZGNMcXllaDZXSTJjVEVSWDVhc3JtN2NwSUFNM0ZMY3RGRkYzdVJTbTJsV2NpYW1jeVFkSFVlSEN3cW52S2xDSTNTNkpRb0Vsa0lxTUc2bkRZZDFiUTk2bzh6Snk0a3h0WXlNZDY3QjIzUjJodQ?oc=5",
+        "published": "2026-11-23T10:32:02+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 5,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "1c93c3b95526",
+        "title": "가입은 모바일, 해지는 영업점?…은행 ‘갑질 약관’ 손질",
+        "source": "헤럴드경제",
+        "summary": "가입은 모바일, 해지는 영업점?…은행 ‘갑질 약관’ 손질 헤럴드경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MWE5Sd1pKU0NMVG1SR1VOZjN6WkhuWF9oY0lEd2JxMlFXWFNqZXlXcklXaUxlVTJoa0lEN081c2NWUmhUWGZLbmpMSUhzeHNXaE5tcnh3?oc=5",
+        "published": "2026-11-23T10:00:04+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 4,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "907dfd6e0240",
+        "title": "BNK경남은행, 본부·영업점 공조 거액의 보이스피싱 피해 예방",
+        "source": "경남일보",
+        "summary": "BNK경남은행, 본부·영업점 공조 거액의 보이스피싱 피해 예방 경남일보",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50VXBkemJncGN5dGhSdnN2WE9SaF9GTEJGSEtqZFZTRWV1bHM4cEF3ei1PeWIwZmQ0S3A2QUljZ3RLelRLTk4tMWdseVpMY21VOC1TdVBpdG5ZZ0duRnkwaUY0QzlKWXZtdkdv?oc=5",
+        "published": "2026-11-22T17:47:48+09:00",
+        "query": "은행 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "3496367dd91d",
         "title": "은행 창구서 현금 거래 못 한다?…'돈 없는 점포' 확산 우려",
@@ -24,7 +60,7 @@
         "published": "2026-11-22T10:06:14+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 1,
+        "rank": 2,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -34,57 +70,21 @@
         "summary": "국민 등 3개 은행 '현금 없는 점포' 13곳 운영 : 금융 재경일보",
         "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtNEpDVlo4Nkt2VTN5LWVBNFVKMU5lTF84d1IyWklnU19hZG9uSG8zeWJGd3RfOWRvRHFJU0d3UnNPOTNuWXh2by0wSQ?oc=5",
         "published": "2026-11-22T08:18:00+09:00",
-        "query": "은행 점포",
+        "query": "은행 공동점포",
         "engine": "google",
-        "rank": 6,
+        "rank": 5,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "a7e0c0617fcf",
-        "title": "은행 점포 이어 ATM도 감소…고령층 금융 접근성 우려",
-        "source": "ER 이코노믹리뷰",
-        "summary": "은행 점포 이어 ATM도 감소…고령층 금융 접근성 우려 ER 이코노믹리뷰",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RTmhZVnFrQ0RwMUZlckpJZG5ubXd2OTc5UG9Vc1dUcWg2Z3cxMmk5REJIbkE0SXZ2NW5xWkxuV0tiQVRQbzFjdWh5b2pObkRHX0oyTGo0dVlzX2pLU2VCRkZEWGo4QWNmLWJYTw?oc=5",
-        "published": "2026-11-20T17:00:13+09:00",
+        "id": "a4cb86307c46",
+        "title": "[팩트체크] 지점에서 현금 취급 안한다고?…'현금 없는 은행' 현황은",
+        "source": "연합뉴스",
+        "summary": "[팩트체크] 지점에서 현금 취급 안한다고?…'현금 없는 은행' 현황은 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOU25QSnhpdEZkQi1DUVBaekhDUWVfbVhmWnczSWEzR3NXNkNrcGh4a0pGd2laS2dPSVBWREVPSGVCS0RSQS1IYnJLM21MYmVFQnBaRDdlMDlJTnfSAWBBVV95cUxQclN3N1h3YzJwYWVaeTJaQXBPcUNTZm5hSkExdTV6aVFBVGlBZmpWVWpkZGxkSUJneUpjNmFjT0ZxcF9JZXNqRTluN1h0UTlnWms4RHVMUWlVSVRrZmNvelU?oc=5",
+        "published": "2026-11-22T08:00:09+09:00",
         "query": "은행 점포",
         "engine": "google",
         "rank": 3,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "708ed234be42",
-        "title": "KTNET, 수협은행 128개 영업점에 은행권 최초 분산형 전자화작업장 구현",
-        "source": "헬로티",
-        "summary": "KTNET, 수협은행 128개 영업점에 은행권 최초 분산형 전자화작업장 구현 헬로티",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tNWtFdHNYTmxjdmJDVEo5bWljdlJRN1pKdmpjSGVic1B3aUxWaHpsRWY4TXRMVWxwajNIWFA3Q1h0cE51VVd0T3lOZ2VxdkJyVU9YNDZ3S1M2Ri12ZGZn?oc=5",
-        "published": "2026-11-20T16:51:43+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 10,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "033b2219c759",
-        "title": "우리은행 통영출장소, 거제지점과 통합…점포 전략 재수립은 과제",
-        "source": "녹색경제신문",
-        "summary": "우리은행 통영출장소, 거제지점과 통합…점포 전략 재수립은 과제 녹색경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55WEQyMDNLUmU4b2ZubEh1NFdiMlJLU2pGYlljY3Z3RVZXT2ltM2FnYVJCdU9vQy1OWlg1MTBHMy1GUVdjNUFRYnh3d2dVNEgzZDZZbnk5M1pRX2x2UldoM3U4YkZ1di1u?oc=5",
-        "published": "2026-11-20T15:52:30+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 14,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
-        "id": "2c73e70ee52e",
-        "title": "BNK경남은행, 본부·영업점 공조로 보이스피싱 피해 3000만원 예방",
-        "source": "매일일보",
-        "summary": "BNK경남은행, 본부·영업점 공조로 보이스피싱 피해 3000만원 예방 매일일보",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZM2o2R05pV1VCdUgzOFhNcDJvdC0wa1RoZ3NMS0g5Yk9fblRvYW1FV0dEdEVuQUtSYnNrbEpiZVJtZWMyMmRYN0phakV0ZlBXZ3lxNHdtQmZCVVYyeEs0NnBWUXg?oc=5",
-        "published": "2026-11-20T15:39:47+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -96,7 +96,7 @@
         "published": "2026-11-20T09:11:42+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 15,
+        "rank": 11,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -108,7 +108,7 @@
         "published": "2026-11-19T14:26:34+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 7,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -120,8 +120,8 @@
         "published": "2026-11-19T09:10:54+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 11,
-        "ai_summary": ""
+        "rank": 9,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
         "id": "229480cd66d0",
@@ -132,7 +132,7 @@
         "published": "2026-11-19T08:57:23+09:00",
         "query": "은행 영업점",
         "engine": "google",
-        "rank": 3
+        "rank": 10
       },
       {
         "id": "2a03aec66289",
@@ -143,43 +143,34 @@
         "published": "2026-11-18T17:24:06+09:00",
         "query": "은행 점포",
         "engine": "google",
-        "rank": 12
-      },
-      {
-        "id": "c105682ae537",
-        "title": "Sh수협은행, 영업점 종이 없앤다…연간 1000만 장 전자화 - 머니투데이",
-        "source": "머니투데이",
-        "summary": "Sh수협은행, 영업점 종이 없앤다…연간 1000만 장 전자화 - 머니투데이 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80ZV9IRTBJR1V3Um1nMnBDUTVpUXEzS2l2Tml5NURwN2xoajZrbTRwdHlNT2p3dGlKX0VIQm1QdUNfbkU5bFVXbXgtQnRUa25NX050cVpvVGdYdjNCSzBZazRJN1dQT3B3c1M00gFwQVVfeXFMUE5LQlIyM20tUVNWa0lONDdkNHpiTFBBeHZycEo1MWpWTXF4b3lfdFR1R3YwZXR4TUFSYzZ2Nmo2X29rcVpNLVQwUU45NmJENjd0TkFqMXRwTDJweVExRXI5M3NEdEV5M2ZsMkZfWWk2SA?oc=5",
-        "published": "2026-11-18T10:01:07+09:00",
-        "query": "은행 영업점",
-        "engine": "google",
-        "rank": 5
-      },
-      {
-        "id": "5413c86f1432",
-        "title": "[백세인생] 고령층 금융 소외 우려에도 은행 영업점 감소 가속",
-        "source": "1코노미뉴스",
-        "summary": "[백세인생] 고령층 금융 소외 우려에도 은행 영업점 감소 가속 1코노미뉴스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mSHdnbkFDZjNTakRtRGNkMHVwaUU1Tk1IZy1WbGJ4VTVZanZaYzlmUUhmbVMxMTJmR0YzTFNFckN0dE9YU3RFbFRJU2hJcDkwa01pMk9oazdQZFpXTUVqLXhLdEVXQWJHRThGS1hYYlU?oc=5",
-        "published": "2026-11-17T15:46:53+09:00",
-        "query": "은행 점포",
-        "engine": "google",
         "rank": 10
-      },
-      {
-        "id": "4777af2aa3e9",
-        "title": "4대 은행 ATM 2년 새 1268대 감소…영업점도 줄어 금융 접근성 우려",
-        "source": "오피니언뉴스",
-        "summary": "4대 은행 ATM 2년 새 1268대 감소…영업점도 줄어 금융 접근성 우려 오피니언뉴스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ySzhuakw2Nld1eE1CZFBQTGxQbzdXMUl4ZTJtZTlzc0d5QzExMVUzRDJOY25MZ1VoTFdWY3paUWw2WUlIZmllSk45OEJ1Q2tFQkJCa04xcXJQRk1tV2xwcHdVbENaejhSWFdaOEN2elY?oc=5",
-        "published": "2026-11-17T15:16:04+09:00",
-        "query": "은행 점포",
-        "engine": "google",
-        "rank": 16
       }
     ],
     "policy_news": [
+      {
+        "id": "f0b351ddcc5c",
+        "title": "가입은 모바일로, 해지는 영업점서…은행 불공정 약관 무더기 적발",
+        "source": "파이낸셜포스트",
+        "summary": "가입은 모바일로, 해지는 영업점서…은행 불공정 약관 무더기 적발 파이낸셜포스트",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBINmJTUjFycTBkWmwxYTgzQnYzbkpfOXhTakNmbWVlSmtEejFXRUFqN05rU1ZOLUIxbi13U3R6N1BkRlVHQXR2bkpock1EekxtLWF2d2NyZzh6bkhUQVFCSXV1SE5YbVRhcXlFem1ZMEdhQmp5?oc=5",
+        "published": "2026-11-23T10:00:00+09:00",
+        "query": "금융위 영업점",
+        "engine": "google",
+        "rank": 2,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
+      {
+        "id": "c1172b4d43ce",
+        "title": "해지하려면 영업점 오세요…공정위, 은행권 불공정약관 시정 요청",
+        "source": "아주경제",
+        "summary": "해지하려면 영업점 오세요…공정위, 은행권 불공정약관 시정 요청 아주경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MYjlQbGNlYUw4WnNUbEFSLXZsWnBYV3NEWWowUUlZT29pS0ZwZlFEb3dpVE80czFaOG1GYmdEakQ2ZkRucUd2blBTYVNiT0hGNjJWS2xycGRyd9IBWEFVX3lxTE50YjB6ZFRKZVFWYWRNM1Jyd0NEOWtWYkttaW4wdXkyLUxCdWZTcFlDR0ZOTGpWajFvVmxqN3lCc3prMEVzSzY5bHl0WGJldkdrX1ZNUktVZ1A?oc=5",
+        "published": "2026-11-23T10:00:00+09:00",
+        "query": "금융위 영업점",
+        "engine": "google",
+        "rank": 15,
+        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
+      },
       {
         "id": "760bcff46ccd",
         "title": "[포토] 가계부채 증가세 둔화 속 은행 영업점",
@@ -189,7 +180,7 @@
         "published": "2026-11-18T16:43:49+09:00",
         "query": "금융위 영업점",
         "engine": "google",
-        "rank": 5,
+        "rank": 6,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ],
@@ -207,18 +198,6 @@
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
-        "id": "7a5aa3cf4786",
-        "title": "[은행의 변신은 무죄]④ 재일동포 세운 신한은행…점포 3곳 미니은행에서 '리딩뱅크 전쟁'까지",
-        "source": "파이낸셜포스트",
-        "summary": "[은행의 변신은 무죄]④ 재일동포 세운 신한은행…점포 3곳 미니은행에서 '리딩뱅크 전쟁'까지 파이낸셜포스트",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EQXc3cVl1bTduYlIzSGhNZzZUQXpsR2ozQ2ZEUVl6c0htWEhLb2ZiTzdoZGtmTnFudDExQ1BFYldDRFZSMzZVMW9EYXJNdkp4ODQ5TVNmcUJEbmNKY21MRlE2dVdOb1hRM2RQZmRDZjFCd2t2?oc=5",
-        "published": "2026-11-19T17:00:00+09:00",
-        "query": "신한은행 점포",
-        "engine": "google",
-        "rank": 1,
-        "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
-      },
-      {
         "id": "1ba8ced544a1",
         "title": "'사쿠라 3초전 역전골' 신한은행, 국민은행에 극적 승리…공동 선두",
         "source": "뉴시스",
@@ -227,7 +206,7 @@
         "published": "2026-11-18T21:36:43+09:00",
         "query": "신한은행 점포",
         "engine": "google",
-        "rank": 8,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -239,7 +218,7 @@
         "published": "2026-11-17T10:01:26+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 3,
+        "rank": 4,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       },
       {
@@ -251,7 +230,7 @@
         "published": "2026-11-16T17:54:56+09:00",
         "query": "신한은행 영업점",
         "engine": "google",
-        "rank": 2,
+        "rank": 3,
         "ai_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News."
       }
     ]
