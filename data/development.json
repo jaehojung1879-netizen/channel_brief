@@ -1,14 +1,77 @@
 {
-  "updated_at": "2026-11-25T13:32:53.843368+09:00",
+  "updated_at": "2026-11-26T12:45:23.487581+09:00",
   "items": [
     {
-      "id": "5158dab781d1",
-      "title": "1729억 고흥 우주산단 승인… 한화 품고도 물은 '노후 정수장'에",
-      "source": "한국신용신문",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RY2Flemkxb0xhQ0Z1ZW5PMEJCLVB0NFJNcFFHRnVSVV9sejdYeVZmRS1kTm9Damg5dy0xb19xYlF3b0MxOGktUmxFZ0NOb2cwSDJPVjJDT0VEeUhaNDFwZTJIa21xTFJxdV93?oc=5",
-      "published": "2026-11-25T11:56:00+09:00",
+      "id": "ff52af2b975d",
+      "title": "서일준 의원, “거제 남부관광단지 조성계획 승인 고시”",
+      "source": "거제매일뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YZUZzT2ZxM2hNY0F0b01Pb3RkUU1MNUJfbmt6dXVEVGFCa0d2ZGoxQVNyZFFOWUxpYnNKMUtZaHNzNUZoQzJkblhuUklOTUZnNW1nd2tXZ3phR3UtMmFteDVxSE1rYmQy?oc=5",
+      "published": "2026-11-26T11:31:16+09:00",
+      "date": "2026-11-26",
+      "query": "국토교통부 고시"
+    },
+    {
+      "id": "94440d754e5d",
+      "title": "부동산 관련 법령 등 최신 동향 (2026년 10월 주요 내용)",
+      "source": "법률신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpR1h4RGNiZWY5U2xvdXAzbE5sU3BWdVVuV0JhMnpyeDRjN2s5ZEdEMWozeG03YnZDOERSVTBVbkh6SWhoTS1JY19oYmpEcHA5eC1HNGEtYnZpNUtrakttVzB1QzIzZEZZNnlYSXBB0gFyQVVfeXFMT3ZHUjloMWt1dnZqcWd0UmQtd3hscS1XWUxkYWxrQlgyNzZuNnNtSm9aRFFPM2QtMVI5WlRrX3h1bWhvU0VROUF5M1ctTTVoWEZEUUFncXpuZWpkMEZkUFhhRGVFalRudVh2bzJrU2F0dGt3?oc=5",
+      "published": "2026-11-26T10:50:11+09:00",
+      "date": "2026-11-26",
+      "query": "국토교통부 고시"
+    },
+    {
+      "id": "93191d13e0c7",
+      "title": "한남3구역, 뉴타운 지정 23년만에 착공…5970가구 '미니신도시' 생긴다",
+      "source": "아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VZ3pUZUFKeGpjNlItakNQcEtDTnhlSzlLWU84cUVmb1VHb3JmeWxDX3kzYXlhb2Y1VTNQeTVwQm9xNFZGYzA3NjEzTXJtX21hS3RwbndzRGZQbkkzb05YaA?oc=5",
+      "published": "2026-11-26T10:30:00+09:00",
+      "date": "2026-11-26",
+      "query": "신도시 착공"
+    },
+    {
+      "id": "90cd281cb568",
+      "title": "G밸리 배후 문성·정심·시흥 생활권 중심 규제 개선...황학동 730번지 도심형 복합공간으로 [부동산360]",
+      "source": "헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12cVU4Z0hyQUNvRnRDTTFZV05CTFBVaDBMdU5jb3FPLXd1TzAybmE5aUp5QllZQ3ppZko1X21XWTlKUTVrenB5eTNDMVJnU0ItcWVLdDdn?oc=5",
+      "published": "2026-11-26T10:00:00+09:00",
+      "date": "2026-11-26",
+      "query": "복합개발 지구단위계획"
+    },
+    {
+      "id": "c350cd2a5ae1",
+      "title": "美, 한국 '과잉생산 관세' 근거…호남 반도체 클러스터 짚어",
+      "source": "한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wRmlubHlINlhmaXh5Y2NjN2YtWk1GZEdROTlEc2t4cVpic3ZGMW5xMU1MOEttd01WRkZZbVFad25MbF9GcDNzNi1xMkZwYW42ZjFVRzQyaE1XUQ?oc=5",
+      "published": "2026-11-26T08:39:41+09:00",
+      "date": "2026-11-26",
+      "query": "반도체 국가산단"
+    },
+    {
+      "id": "ec437f33cb46",
+      "title": "고흥 '우주항 시대' 속도…국토부 우주발사체 국가산단 승인·고시",
+      "source": "전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xbnM5SkdBai1BbGRfenZaYlF6SWMyNGZsQTE5RlpYdEhGdmkwWk0tWXEtc29LMk1DbWx5RU5DOVc5RmpCQURqenRQb1otUQ?oc=5",
+      "published": "2026-11-25T16:36:01+09:00",
       "date": "2026-11-25",
       "query": "국토교통부 고시"
+    },
+    {
+      "id": "ba4337adc196",
+      "title": "'고흥 우주항 시대 활짝'...국토부, 고흥 우주발사체 국가산업단지 조성 계획 최종 승인·고시",
+      "source": "파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RNy1vaHNaT2R3b1VWZHNnTng5TWpWRXlXMV9hUVBJb3VFcVdRLVowcVZwUUJfamtMN0FUUHJoTWZoTXBqazVxSGtiVTVjbDdRdVByUk5aTG9yUQ?oc=5",
+      "published": "2026-11-25T15:03:28+09:00",
+      "date": "2026-11-25",
+      "query": "국토교통부 고시"
+    },
+    {
+      "id": "8133b8d69347",
+      "title": "위례 트램 심의·과천 도로 착공…대광위는 신도시 교통사업 38건을 어떻게 챙기나",
+      "source": "내외뉴스통신",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9STDhNY1ppVlJUZ2FWRDgzWUUxWk9qWGZJMGdKMnhLeEFlX0RNTlZFbVVQRy1BaVF4aXpzLTZpZHUyTTFCU0JNR0xpZEZCMWFVQ3NXM0xJMF9RZlJ0WUdEcXNjemRLaW0yTjRQbNIBcEFVX3lxTE9GM1dCRDZuNTBlY09DVFJ1NjF3R2cwN1p6Y2RidkFWRDBXbzVRMXdSU0VFN056SHBYRW8wX3lNUjBDZ1ZFYk9fM29zalpDZFdialJaRXlmejhnSHpQeGVnWXljWkY1WUJFWXA0UWtwLVI?oc=5",
+      "published": "2026-11-25T14:33:21+09:00",
+      "date": "2026-11-25",
+      "query": "신도시 착공"
     },
     {
       "id": "ca6a9d2be99d",
@@ -18,24 +81,6 @@
       "published": "2026-11-24T21:45:23+09:00",
       "date": "2026-11-24",
       "query": "복합개발 지구단위계획"
-    },
-    {
-      "id": "9e084ba8be83",
-      "title": "국민엔 “착공” 법원엔 “준비”…용인 반도체산단 ‘말 바꾼 정부’",
-      "source": "경향신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54cXFhZDVUNVpTa1FTblZrV0hNRmc0NE16Z01XWmNfUjVHNWNiS2RuNjVjZ3RVOEMtSWg1NC1XdTNYRnExamNmNlFnQ0NUQVdnRE9yUkE0NmdRd9IBX0FVX3lxTE4taE1JaVZuZXRqakdaTHM3MmZvYy1vek55dE1aQmRjSGpWNnF2Q1p1OG8zcVdiaW51eDdwMVRvRUJncjRqUFJPZFV4dTVhdXhEMFF6OGJtNkllUWVkMnFr?oc=5",
-      "published": "2026-11-24T21:01:00+09:00",
-      "date": "2026-11-24",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "63ca852cfa30",
-      "title": "김종억 용인시의원 “반도체 국가산단 공사 주민 불편 최소화해야”",
-      "source": "서울매일신문",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OUWwyY2hrNHdGQTdTVHpOWXNVZU45eF9iTWpCMDBhLWRxeHdwcWtwcFJhT2UxY3RSMW9TZ3dGQWhnZWJ0TU1ETU03QnN6c1M0eVhkc1RNZmpGa0wyZjVYSG9RZ2QtOC1JUW1Z0gFrQVVfeXFMTU5RbDJjaGs0d0ZBN1NUek5Zc1VlTjl4X2JNakIwMGEtZHF4d3Bxa3BwUmFPZTFjdFIxb1Nnd0ZBaGdlYnRNTURNTTdCc3pzUzR5WGRzVE1makZrTDJmNVhIb1FnZC04LUlRbVk?oc=5",
-      "published": "2026-11-24T19:21:18+09:00",
-      "date": "2026-11-24",
-      "query": "반도체 국가산단"
     },
     {
       "id": "9f2d4f2987d0",
@@ -65,22 +110,13 @@
       "query": "복합개발 지구단위계획"
     },
     {
-      "id": "9276170a2d17",
-      "title": "수원특례시, ‘제5차 국가철도망’ 반영 총력…광역철도 허브 도약 시동",
-      "source": "더페어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9talp6UUJaSGFiNjNMckR0MTVaU19MeDBQNkdpcDVRNzhmYnhiZU5SbGd0LXdzdEZBczJraXNCZ3F6REt3ZE1sS3hQbVVNRlFIZDhmVG1DUjRMMHpydnRxdWdEQzNWRU9JTXFla3VqRUjSAXRBVV95cUxQQVNRZW42bFh4V1Q3Ulc0eE9aMU5QaElPaHpjQmdTV0NlR3lHN3FMT054eDdUVW9GZ1AzWHpGS3RjZVhHT1ZWM0ZQd2d0THZPLUxGdTlPQk5hY0RkQmozblo3Y2JCVlFCYXRJcUVLMmFBZjB0aQ?oc=5",
-      "published": "2026-11-24T14:30:53+09:00",
+      "id": "428bc224b95d",
+      "title": "용인 반도체 산단 두고 ‘이중 태도’ 보인 정부···“조기 착공” 홍보하더니 재판선 “공사 착수 아냐”",
+      "source": "경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Ua0ZfV1MzU0hiMm1pSFZoUHBlYk5WTHRzcVhQT0lXenRNN0EwaVp6UFM2SElyMDNKb1o1TWRId2ZVM3FKR3pWNGFtakFNcGYzVC15MDZRRTZFd9IBX0FVX3lxTFB5WndfNUk2RzZwN21EZmhxcjduS25uX2lmcHpCQUI0TlR0blVSM21PMHdpVWxZcUNaOGItWnN4WXhUbmw1ekxoTG1KUmhtc1VZTVBfMU9rQjhlOENKZ3ZJ?oc=5",
+      "published": "2026-11-24T12:11:00+09:00",
       "date": "2026-11-24",
-      "query": "국토교통부 고시"
-    },
-    {
-      "id": "255801247e87",
-      "title": "수원특례시, 경기남부·서남부 철도망 확충 총력…국가계획 반영 승부수",
-      "source": "에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11VkxoSGpfX1lUSko5eUxPUzFfRWFvenI1QUxETGRaMWRBaWlWSzVRejRKZXBRNmtCWHNRR1JueWw2cEUyME5LTTduRWgzbDBkallsZThxS1dYTDA?oc=5",
-      "published": "2026-11-24T14:12:49+09:00",
-      "date": "2026-11-24",
-      "query": "국토교통부 고시"
+      "query": "반도체 국가산단"
     },
     {
       "id": "392066e01196",
@@ -92,49 +128,13 @@
       "query": "신도시 착공"
     },
     {
-      "id": "bfcfceef708c",
+      "id": "37bbdce3adac",
       "title": "과천 도로 착공·시흥 연결도로 등 6곳 연내 인가…신도시 교통사업 속도 - 머니투데이",
       "source": "머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HZ2lmSXk5TjVQbkNPMnpiTGFXeGhtQm9LeFVfbjNfV1UtQU80Q0NrZ2RjZVVVT0tRRmNjbDJsbkVJTlo2OGE1cVJ5Q1VwSDJNVnpsTjJCRTdISUhHSkVSNzNQWjd0Z3VWdHRlTk5HVHJ4RzlBQXpB0gF8QVVfeXFMTWlOamxpbGJEb21TdlBad1JTLVNlTXJVZEpDcmhYOHItUDNBckNPN1NVa3RqZUloYUFBOFRhYlNzMkNnakRtR29TeFZhVTExZjk4VmdfVzVKOTdYNTRvVTIxQjNzbDhNM2swMzUzRHNZbTNMd0VZX2NKOEVwdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JeTVlcTVKSUFJTmJfdUwyN0hEM0VYUWdLQjlKUFhWMnJUN1ZRd2lKNnE3bFhKcjNwY284MTRNR2hldWI2SnV2bk1VYzlxTktxOWJzczh2dWtPclFUenhZWnIyVGFJR250RlJ5VDhJWdIBb0FVX3lxTE5JeTVlcTVKSUFJTmJfdUwyN0hEM0VYUWdLQjlKUFhWMnJUN1ZRd2lKNnE3bFhKcjNwY284MTRNR2hldWI2SnV2bk1VYzlxTktxOWJzczh2dWtPclFUenhZWnIyVGFJR250RlJ5VDhJWQ?oc=5",
       "published": "2026-11-24T11:00:00+09:00",
       "date": "2026-11-24",
       "query": "신도시 착공"
-    },
-    {
-      "id": "83d2d35c1805",
-      "title": "국토부, 신도시 교통사업 38건 집중관리… 위례 트램 갈등조정·과천 도로 착공",
-      "source": "아주경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80RE51RlZiSmdrUEVHZV9xdDlJVE56UjVkbnljSnNpUURoYWdhTUFiX1BtM3drQWtrbkllTVZFVjBkOXl0U2l6cG1wQXFHTWo0X0w3ZUxZQ3hBd9IBWEFVX3lxTE9CbjFGbUFMa1Rnc3Vvb1gwdnVieF9kYlpBN0FSakJ5MkxNMi10N0ZyLVp4MmktOGZuRklfOFd4VXpTZi1BT0JodjFCQVFTU1VJMllhUU1lMEU?oc=5",
-      "published": "2026-11-24T11:00:00+09:00",
-      "date": "2026-11-24",
-      "query": "신도시 착공"
-    },
-    {
-      "id": "f5c2931200d8",
-      "title": "수원시, 교통 혁신을 위한 광역철도망 확충 ‘총력’ [새빛수원]",
-      "source": "경기일보",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84RkpYWTNrS3N4Z1RkSXZnTnFUNzNoRjl4a0N6TE1FZVhQTlY0Qk02ZGNrT1FnVzVYdW9hUUMyaWtKZUZYTXBWRG1zOWlfek5fcGhodTA5bktWbVE?oc=5",
-      "published": "2026-11-24T09:41:05+09:00",
-      "date": "2026-11-24",
-      "query": "국토교통부 고시"
-    },
-    {
-      "id": "3ca099ac39ff",
-      "title": "골프장 이렇게 많은데 왜 하필... 용인국가산단 둘러싼 의문",
-      "source": "OhmyNews",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOVRyYWFfQU9xblczal9ZWHpMck1BZXFsUjdVb0o1LVJrYlVpMDdSSHhwdkd6bzBXekduemFMY0hvSjEzME5VbHlJQzNLNmxjYXZRNEpHN0lLQzlUbmY2NmI1aTRTVHJqRWM4dHplRnVBVUtEN1ROSmxIOVZSQVRxTmdCZXhOenNVVFE?oc=5",
-      "published": "2026-11-24T07:23:00+09:00",
-      "date": "2026-11-24",
-      "query": "반도체 국가산단"
-    },
-    {
-      "id": "22db9355fb17",
-      "title": "“기반시설 이행없이 공동주택 먼저?”⋯전주 감나무골 부분준공인가 신청",
-      "source": "전북일보 인터넷신문",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9reTQ0Q2NCUmpuZFJwS2N3Tk5aY0h1Yi1FbzVmQnI1akJzTFBrZWE2U1Q2Yk5oUXFxbHoyS3FoLXBLTTRhaWpYSmpjcHNFSHZYaHdhSNIBWEFVX3lxTFBmWGVlbk02b01Vbmw5TFlxUjZFWGQ4OUVlRDEzUUhEVGFneEJ1VktrQUMzLV9aWUlBWklDc0s1OEExUTVMbTJXNUJ0R3h0SDA3YTl6UUxETUM?oc=5",
-      "published": "2026-11-23T22:18:44+09:00",
-      "date": "2026-11-23",
-      "query": "기반시설 인가"
     }
   ]
 }
